@@ -1,0 +1,309 @@
+{
+  "source_file": "144_Electronic_Drilling_Recorder_(EDR)_Systems_&_Integration_of_SRD_Drilling_Mud_Sensor.pdf",
+  "total_pages": 5,
+  "chunks": [
+    {
+      "page_summary": "This document describes Electronic Drilling Recorder (EDR) systems, their integration with Rheonics SRD drilling mud sensors, an overview of common communication protocols, and an example of a commercial EDR platform.",
+      "document_type": "technical article",
+      "product_names": [
+        "Electronic Drilling Recorder (EDR) Systems",
+        "SRD Drilling Mud Sensor",
+        "MudSense SRD Drilling Mud Weight and Viscosity Sensor",
+        "MudSense SRV Drilling Mud Viscosity Sensor",
+        "SRD Inline density meter and viscometer",
+        "Pason EDR"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nElectronic Drilling Recorder (EDR) Systems & Integration of SRD Drilling Mud Sensor\nModified on: Fri, 21 Nov, 2025 at 9:42 PM\n\nWhat is the purpose of this article?\nThis article aims to explain how Electronic Drilling Recorder (EDR) systems work and how Rheonics SRD Drilling Mud Sensor can be integrated into EDR platforms. It provides an overview of common EDR systems, communication protocols (like Modbus, WITS, and WITSML), and describes how real-time sensor data can be transmitted, visualized, and stored both locally and in the cloud for drilling operations.\n\nWhat products are involved?\n*   MudSense SRD Drilling Mud Weight and Viscosity Sensor (https://rheonics.com/products/inline-density-meter-srd/)\n*   MudSense SRV Drilling Mud Viscosity Sensor (https://rheonics.com/products/inline-viscometer-srv/)\n\nTABLE OF CONTENTS\n*   What is the purpose of this article?\n*   What products are involved?\n*   1. Commercial EDR / Rig Instrumentation Systems\n    *   2.1. Sensor Settings\n    *   2.2. Recommended registers:\n*   3. What is WITS/WITSML?\n    *   3.1. Specialized gateways\n*   4. Commercial Cloud storage services\n*   5. Remote monitoring with Rheonics SRD\n\nAn Electronic Drilling Recorder (EDR) or rig data recorder is a system that collects, processes, visualizes, records, and transmits real-time drilling parameters from sensors and rig instrumentation. Typical measured variables include weight on bit (WOB), torque, rotary speed, rate of penetration (ROP), pump pressures, flow rates, choke pressures, mud properties, hook load, downhole sensors, etc.\n\nA modern EDR is often a networked system with local data acquisition, human-machine interface (HMI) displays on the rig floor, and connectivity (edge/cloud) to remote operations centers, often via WITS, WITSML, Modbus, or other data protocols.\n\nOne emerging enhancement is the integration of drilling mud property sensors, such as the SRD Inline density meter and viscometer, into the EDR data stream, allowing for continuous, real-time monitoring of mud density and viscosity rather than relying solely on manual lab checks.\n\n1. Commercial EDR / Rig Instrumentation Systems\nBelow is a list of EDR systems or platforms, with short descriptions and notes on potential integration.\n\nEDR: Pason EDR\nKey feature: Full-featured rig sensor + display system, cloud-connected, 1-second data resolution, supports user-calculated traces.\nLink: https://pason.com/products/electronic-drilling-recorder-edr/",
+      "specifications": {
+        "Pason EDR Data Resolution": "1-second"
+      },
+      "key_facts": [
+        "Electronic Drilling Recorder (EDR) systems collect, process, visualize, record, and transmit real-time drilling parameters from sensors and rig instrumentation.",
+        "Typical measured variables for EDRs include weight on bit (WOB), torque, rotary speed, rate of penetration (ROP), pump pressures, flow rates, choke pressures, mud properties, hook load, and downhole sensors.",
+        "Modern EDRs are networked systems featuring local data acquisition, human-machine interface (HMI) displays on the rig floor, and edge/cloud connectivity to remote operations centers, often utilizing WITS, WITSML, or Modbus protocols.",
+        "Rheonics SRD Drilling Mud Sensor can be integrated into EDR platforms to transmit, visualize, and store real-time sensor data locally and in the cloud.",
+        "Integrating drilling mud property sensors, such as the Rheonics SRD Inline density meter and viscometer, into the EDR data stream enables continuous, real-time monitoring of mud density and viscosity.",
+        "Continuous, real-time monitoring of mud properties through EDR integration can reduce reliance on manual lab checks.",
+        "The Pason EDR is a full-featured rig sensor and display system that is cloud-connected, provides 1-second data resolution, and supports user-calculated traces."
+      ],
+      "diagram_labels": [
+        "WOB (klbs)",
+        "ROP (ft/hr)",
+        "Torque (kft-lbs)",
+        "Hookload (klbs)",
+        "RPM (rpm)",
+        "Pump P (psi)",
+        "Flow In (gpm)",
+        "Flow Out (gpm)",
+        "Tank Vol (bbl)",
+        "Mud Density (ppg)",
+        "PV",
+        "YP",
+        "ECD (ppg)",
+        "Mud Temp (F)",
+        "Rig State",
+        "Depth",
+        "Time",
+        "Bit Depth"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1259,
+        "cost_usd": 0.0032872999999999995
+      },
+      "source_file": "144_Electronic_Drilling_Recorder_(EDR)_Systems_&_Integration_of_SRD_Drilling_Mud_Sensor.pdf"
+    },
+    {
+      "page_summary": "This page provides an overview of various Electronic Drilling Recorder (EDR) systems compatible with Rheonics sensors and details the process and default Modbus configuration parameters for connecting Rheonics SRD/SRV sensors to these EDR systems.",
+      "document_type": "manual",
+      "product_names": [
+        "Laversab LINKS EDR",
+        "Rapidlogger EDR Systems",
+        "NOV/Rigsense EDR",
+        "I-View / Matherne EDR",
+        "SRD Sensor",
+        "SRV models",
+        "SME-TRD(Modbus RTU)"
+      ],
+      "extracted_text": "Laversab LINKS EDR\nRig-ready software + hardware package; real-time visualization; works for land, offshore, etc.\nhttps://laversab.com/product/edr-software-application-links-edr/\n\nRapidlogger EDR Systems\nRugged, workover rig compatible, good for harsh environments; multiple sensors (pit level, hook-load, etc.)\nRapidlogger EDR System for Workover Rigs | Rapidlogger Oilfield Technology Sensors Monitoring Software Hardware Systems\nhttps://www.rapidlogger.com/rapidlogger-products-EDR-System-for-Workover-Rigs.html\n\nNOV/Rigsense EDR\nWell-recognized system; includes rig-floor display and remote capability.\nhttps://www.nov.com/products/rigsense-electronic-drilling-recorder\n\nI-View / Matherne EDR\nIt is a real-time rig monitoring, display, logging, and data distribution system developed by Matherne Instrumentation & Engineering Solutions\nFully Integrated Rig Monitoring Systems - FIRMS®\nhttps://matherneis.com/product-item/electronic-rig-monitoring-systems/\n\n2. How to Connect SRD Sensor to EDR Systems?\nEach Electronic Drilling Recorder (EDR) system has its own methodology and configuration procedure for integrating Modbus-based sensors into a WITS (Wellsite Information Transfer Specification) network. The exact steps can vary depending on the EDR manufacturer, software version, and the available communication interfaces. Typically, this process involves defining the Modbus device, mapping registers to the appropriate drilling parameters, and assigning WITS record types or channels for data transmission.\nWhen integrating Rheonics sensors (such as SRD or SRV models) into an EDR system, the following common configuration settings are generally applicable:\n\n2.1. Sensor Settings\nThe default configuration of the SME-TRD(Modbus RTU) (https://support.rheonics.com/en/support/solutions/folders/81000217005) using Modbus can be found in Table 1 below.\n\nModbus Communication Parameters\nSlave ID\nBaudRate\nParity\n\nTable 1. Modbus default configuration parameters",
+      "specifications": {
+        "Slave ID": "1 (User configurable)",
+        "BaudRate": "38400 (User configurable)",
+        "Parity": "odd (User configurable)"
+      },
+      "key_facts": [
+        "Laversab LINKS EDR is a rig-ready software and hardware package offering real-time visualization for various environments.",
+        "Rapidlogger EDR Systems are rugged, compatible with workover rigs, and support multiple sensors in harsh environments.",
+        "NOV/Rigsense EDR is a recognized system that includes a rig-floor display and remote capability.",
+        "I-View / Matherne EDR is a real-time rig monitoring, display, logging, and data distribution system developed by Matherne Instrumentation & Engineering Solutions.",
+        "Rheonics SRD and SRV sensors can be integrated into Electronic Drilling Recorder (EDR) systems via Modbus into a WITS network.",
+        "The integration process involves defining the Modbus device, mapping registers to drilling parameters, and assigning WITS record types or channels.",
+        "The default Modbus configuration for the SME-TRD(Modbus RTU) specifies a Slave ID of 1, a BaudRate of 38400, and odd parity, all of which are user configurable."
+      ],
+      "diagram_labels": [
+        "20:52:17",
+        "March 17, 2025",
+        "User: Laversab - EN-US",
+        "Hole Depth",
+        "0",
+        "3650.23",
+        "Bit Depth",
+        "0",
+        "3650.23",
+        "Block Height",
+        "11.23",
+        "ROP Inst",
+        "2.226",
+        "WOB",
+        "2.45",
+        "Block Speed",
+        "6.24",
+        "SPM1",
+        "52",
+        "1041",
+        "108",
+        "SPM2",
+        "56",
+        "1111",
+        "2152",
+        "SPM3",
+        "0",
+        "0",
+        "13.48",
+        "Total SPM",
+        "4823",
+        "Total Bit Inst.",
+        "76.79",
+        "Pump Pressure",
+        "92.4 psi",
+        "Total GPM",
+        "566 gpm",
+        "Flow Out",
+        "32 %",
+        "Density In",
+        "1.76 g/cm3",
+        "Temp. In",
+        "60",
+        "Density Out",
+        "1.77 g/cm3",
+        "Temp. Out",
+        "68",
+        "Drilling Gas",
+        "1422.6 ppm",
+        "Slips",
+        "No",
+        "Connect",
+        "Rigsite Data Aggregation System",
+        "Fully Integrated Rig Monitoring Systems - FIRMS®"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1383,
+        "cost_usd": 0.0035972999999999995
+      },
+      "source_file": "144_Electronic_Drilling_Recorder_(EDR)_Systems_&_Integration_of_SRD_Drilling_Mud_Sensor.pdf"
+    },
+    {
+      "page_summary": "This page details the configuration of Rheonics sensors using the Rheonics Control Panel software for Modbus RTU, explains Modbus TCP configuration, lists recommended Modbus registers for sensor data, and defines the WITS/WITSML standard for wellsite data transfer with a diagram showing a UniDAQ Modbus-to-WITS converter.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel 5.5.1.6",
+        "UniDAQ"
+      ],
+      "extracted_text": "Rheonics Control Panel 5.5.1.6\nMeasurement Events Settings Service Diagnostics Communication Temp. Control Logger Help\nModbus RTU (RS 485)\nModbus Address: 1\nBaud Rate: 38400\nParity: odd\nLCD Display (SME-TRD Only)\nLine 1 Parameter: Viscosity, Resolution: 0.00\nLine 2 Parameter: Density, Resolution: 0.000\nLine 3 Parameter: Temperature, Resolution: 0.00\nWrite and Update\nWrite Config\nLoad Config\nEthernet\nEthernet MAC: 70:B3:D5:D2:03:A3\nDHCP: False\nIP: 192.168.3.6\nSubnet: 255.255.255.0\nGateway IP: 0.0.0.0\nDNS: 0.0.0.0\nTerminal Port: 10001\nLocation ID\nLocation ID:\nLocation Name:\nLatitude: 0.000000\nLongitude: 0.000000\nAltitude: 0\nOperation History\nRTC Time: 19/09/24 11:27:39\nSupply Voltage: 23.26 V\nLast power Reset: 16/09/24 16:08:22\nSME Temp: 37.60 °C\n\nFigure 1. RCP software and the communication tab are used for Modbus RTU configuration.\n\nRheonics sensor can also be configured to use Modbus TCP.\n\n2.2. Recommended registers:\nSensor data is available in the input registers. The table below shows the commonly used registers.\n\n| Parameter    | Register | Description           |                |                | Value description         |\n|--------------|----------|-----------------------|----------------|----------------|---------------------------|\n| Parameter 12 | 136      | Viscosity Last Good   | 300137         | 2Float32       | Parameter 12 value as float |\n| Parameter 13 | 144      | Density Last Good     | 300145         | 2Float32       | Parameter 13 value as float |\n| Parameter 2  | 56       | Temperature median    | 300057         | 2Float32       | Parameter 2 value as float  |\n\n3. What is WITS/WITSML?\nWellsite Information Transfer Specification (WITS) is an industry-standard format used for the transmission of wellsite data between computer systems at a drilling rig. It enables real-time data exchange between sensors, rig instrumentation, and data recording systems.\nMost Electronic Drilling Recorders (EDRs) support the WITS standard natively, allowing integration with third-party sensors and monitoring systems. When direct compatibility is not available, specialized communication gateways (such as Modbus-to-WITS or OPC-to-WITS converters) can be used to translate and transmit the data in WITS format, enabling interoperability across different hardware and software platforms at the rig site.\n\nFigure 2. UniDAQ-Modbus to WITS converter",
+      "specifications": {
+        "Modbus Address": "1",
+        "Baud Rate": "38400 baud",
+        "Parity": "odd",
+        "LCD Line 1 Parameter": "Viscosity",
+        "LCD Line 1 Resolution": "0.00",
+        "LCD Line 2 Parameter": "Density",
+        "LCD Line 2 Resolution": "0.000",
+        "LCD Line 3 Parameter": "Temperature",
+        "LCD Line 3 Resolution": "0.00",
+        "Ethernet MAC": "70:B3:D5:D2:03:A3",
+        "DHCP": "False",
+        "IP Address": "192.168.3.6",
+        "Subnet Mask": "255.255.255.0",
+        "Gateway IP": "0.0.0.0",
+        "DNS": "0.0.0.0",
+        "Terminal Port": "10001",
+        "RTC Time": "19/09/24 11:27:39",
+        "Supply Voltage": "23.26 V",
+        "Last Power Reset": "16/09/24 16:08:22",
+        "SME Temp": "37.60 °C",
+        "Parameter 12 Register Address (Config)": "136",
+        "Parameter 12 Description": "Viscosity Last Good",
+        "Parameter 12 Modbus Input Register Address": "300137",
+        "Parameter 12 Data Type": "2Float32",
+        "Parameter 12 Value Description": "Parameter 12 value as float",
+        "Parameter 13 Register Address (Config)": "144",
+        "Parameter 13 Description": "Density Last Good",
+        "Parameter 13 Modbus Input Register Address": "300145",
+        "Parameter 13 Data Type": "2Float32",
+        "Parameter 13 Value Description": "Parameter 13 value as float",
+        "Parameter 2 Register Address (Config)": "56",
+        "Parameter 2 Description": "Temperature median",
+        "Parameter 2 Modbus Input Register Address": "300057",
+        "Parameter 2 Data Type": "2Float32",
+        "Parameter 2 Value Description": "Parameter 2 value as float"
+      },
+      "key_facts": [
+        "The Rheonics Control Panel software, specifically its communication tab, is used for Modbus RTU configuration.",
+        "Rheonics sensors can also be configured using Modbus TCP.",
+        "Sensor data is available in input registers.",
+        "WITS (Wellsite Information Transfer Specification) is an industry-standard format used for the transmission of wellsite data between computer systems at a drilling rig, enabling real-time data exchange between sensors, rig instrumentation, and data recording systems.",
+        "Most Electronic Drilling Recorders (EDRs) natively support the WITS standard, and specialized communication gateways like Modbus-to-WITS or OPC-to-WITS converters can be used to translate and transmit data in WITS format for interoperability."
+      ],
+      "diagram_labels": [
+        "PLC",
+        "OPC UA",
+        "Server",
+        "WITS",
+        "Modbus I/O",
+        "Modbus",
+        "UniDAQ",
+        "OPC UA / WITS / MODBUS WITSML data conversion",
+        "WITSML data transfer to local WITSML store",
+        "WITSML / ETP data transfer to remote WITSML store"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1757,
+        "cost_usd": 0.0045323
+      },
+      "source_file": "144_Electronic_Drilling_Recorder_(EDR)_Systems_&_Integration_of_SRD_Drilling_Mud_Sensor.pdf"
+    },
+    {
+      "page_summary": "This page describes specialized data gateways for converting industrial protocols to WITSML/ETP and commercial cloud storage services for managing high-volume wellsite data.",
+      "document_type": "manual",
+      "product_names": [
+        "UniDAQ (Curtis & Associates)",
+        "Exemys cLAN Series",
+        "WITSML™Store",
+        "WITSMLstudio StorePlus (Azure Cloud)",
+        "Exemys-Modbus to WITS converter",
+        "cLAN-XF"
+      ],
+      "extracted_text": "Figure 3. Exemys-Modbus to WITS converter\n\n3.1. Specialized gateways\n\n| Name                        | Description                                                                                                                              |\n|-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------|\n| UniDAQ (Curtis & Associates) | Edge converter / gateway: supports converting WITS0 / MODBUS / OPC UA → WITSML / ETP in real time. (https://www.unidaq.ai/wellsite-data-conversion-unidaq/) |\n| Exemys cLAN Series          | Industrial telemetry / protocol converter devices for data publishing in WITS serial protocol (via script) — i.e. you can script conversion from other protocols (e.g. Modbus) to WITS. |\n\n4. Commercial Cloud storage services\nRigsite cloud storage services provide a secure, centralized platform for managing data collected from drilling, completion, and production operations. These services are designed to handle the high-volume, high-frequency data generated at wellsites.\n\n| Service Name                | Website                                                                                                          |\n|-----------------------------|------------------------------------------------------------------------------------------------------------------|\n| WITSML™Store                | https://laversab.com/product/real-time-server-witsml-store                                                       |\n| WITSMLstudio StorePlus (Azure Cloud) | https://pds.group/witsmlstudio-products-storeplus                                                                |",
+      "specifications": {
+        "Field Sensor Input (Current)": "4-20mA",
+        "Field Sensor Input (Voltage)": "0-1V/0-10V"
+      },
+      "key_facts": [
+        "The Exemys-Modbus to WITS converter provides a system for connecting remote assets and field sensors to various control and monitoring systems (Our Exemys Web Server, Your own SCADA, Your own Software) via WiFi/LAN and the internet.",
+        "Field sensors can connect via 4-20mA, 0-1V/0-10V, Digital I/O, or Modbus Port, and can measure parameters such as Pressure, Temperature, Flow, and Level.",
+        "The UniDAQ (Curtis & Associates) is an edge converter/gateway designed for real-time conversion of WITS0, MODBUS, or OPC UA protocols to WITSML/ETP.",
+        "The Exemys cLAN Series consists of industrial telemetry and protocol converter devices that publish data in WITS serial protocol, with the capability to script conversions from other protocols like Modbus.",
+        "Rigsite cloud storage services offer a secure, centralized platform for managing high-volume, high-frequency data from drilling, completion, and production operations at wellsites.",
+        "WITSML™Store and WITSMLstudio StorePlus (Azure Cloud) are specific commercial cloud storage services mentioned."
+      ],
+      "diagram_labels": [
+        "Remote Asset to Monitor and/or Control",
+        "Field Sensors",
+        "4-20mA",
+        "0-1V/0-10V",
+        "Digital I/O",
+        "Modbus Port",
+        "Pressure",
+        "Temperature",
+        "Flow",
+        "Level",
+        "Etc",
+        "cLAN-XF",
+        "WiFi/LAN",
+        "INTERNET",
+        "Our Exemys Web Server",
+        "Your own SCADA",
+        "Your own Software"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 919,
+        "cost_usd": 0.0024373
+      },
+      "source_file": "144_Electronic_Drilling_Recorder_(EDR)_Systems_&_Integration_of_SRD_Drilling_Mud_Sensor.pdf"
+    },
+    {
+      "page_summary": "This page lists several cloud-based services and products related to drilling operations and data visualization, each with an image and corresponding external website links.",
+      "document_type": "notes",
+      "product_names": [
+        "Bardasz Cloud WITSML Services",
+        "Drilliphant",
+        "AllSight by RIGSMART",
+        "RigCloud"
+      ],
+      "extracted_text": "Bardasz Cloud WITSML Services\nhttps://bardasz.com/solutions/cloud-witsml-services/\n(https://bardasz.com/solutions/cloud-witsml-services)\n\nDrilliphant\nhttps://drilliphant.com/remote-access-drilling-dashboard/\n(https://drilliphant.com/remote-access-drilling-dashboard/)\n\nAllSight\nBY\nRIGSMART\nhttps://rigsmart.com/allsight/\n(https://rigsmart.com/allsight/)\n\nRigCloud\nhttps://rigcloud.com/solutions-instrumentation/\n(https://rigcloud.com/solutions-instrumentation/)",
+      "specifications": {},
+      "key_facts": [
+        "Bardasz offers Cloud WITSML Services, which can be accessed via their website at bardasz.com.",
+        "Drilliphant provides a remote access drilling dashboard, available through drilliphant.com.",
+        "AllSight is a product from RIGSMART, with its dedicated page on rigsmart.com.",
+        "RigCloud offers instrumentation solutions, detailed on rigcloud.com."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 391,
+        "cost_usd": 0.0011173
+      },
+      "source_file": "144_Electronic_Drilling_Recorder_(EDR)_Systems_&_Integration_of_SRD_Drilling_Mud_Sensor.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

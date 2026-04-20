@@ -1,0 +1,93 @@
+{
+  "source_file": "210_Sensor_electronics_(SME)_-_Wiring_drawing.pdf",
+  "total_pages": 1,
+  "chunks": [
+    {
+      "page_summary": "This page provides a wiring drawing for Rheonics Sensor electronics (SME), detailing power, communication, and sensor connections along with important operational notes and specifications.",
+      "document_type": "drawing",
+      "product_names": [
+        "Sensor electronics (SME)",
+        "SME"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nSensor electronics (SME) - Wiring drawing\n\nModified on: Tue, 2 Dec, 2025 at 11:45 PM\n\nRheonics sensor electronics is the brain of the sensor probe. In addition, it supports multiple communication options.\nThe figure below shows the typical connections. Fuses are optional.\n\n24VDC\nPower output <=100 W\nLeakage current (as described in Class II power supply specification)\nRecommended 500mA Slow-blow Fuse 24V DC\nPower Supply\nGnd-\nA\nB\nModbus RTU RS485\nModbus TCP Ethernet RJ45\nP -Power status\nS -Sensor status\nC -Modbus Comm. Activitys\nD -Ethernet Data Transfer Activity\nUSB(micro-B)\nDisplay\nReset\nSD-Card\nLoop+ (not active)\nGnd-\nGnd-\nCh1+ Viscosity\nCh2+ Density\nCh3+ Temperature\n4-20 mA\nApplies to all SME Versions\n\n4x2x24AWG shielded\nM12 8p female A-coded connector\n8 red\n7 blue\n6 pink\n5 gray\n4 yellow\n3 green\n2 brown\n1 white\n0\nshield to GND\nhousing to GND\n\nNote:\n*   Shield connection to terminal 0 is not needed on the electronics except when used with EX barriers.\n*   For Sensor electronics, a fuse is not necessary from the DC converter but if you plan to use then a 500mA slow-blow fuse is sufficient. The device has a maximum power input requirement of under 5W.\n*   Only for Ex Sensors. Power Input: 240V Maximum AC Single Phase, this is exclusive for Ex sensor configuration and would be the best to protect the zener barriers used in the configuration, only single phase power supplies should be used.\n*   Special configuration is used when Ex sensor.\n\nMore information can be found here: Rheonics SME Operator manual",
+      "specifications": {
+        "Power supply voltage": "24VDC",
+        "Power output": "<=100 W",
+        "Recommended fuse (DC)": "500mA slow-blow",
+        "Maximum power input requirement": "<5W",
+        "Power input (Ex Sensors)": "240V Maximum AC Single Phase"
+      },
+      "key_facts": [
+        "Rheonics sensor electronics (SME) act as the brain of the sensor probe.",
+        "The SME supports multiple communication options.",
+        "Fuses are optional for typical connections.",
+        "Shield connection to terminal 0 is not required on the electronics unless EX barriers are used.",
+        "A 500mA slow-blow fuse is sufficient if a fuse is planned for use with the DC converter.",
+        "The device has a maximum power input requirement of under 5W.",
+        "For Ex Sensors, the exclusive power input is 240V Maximum AC Single Phase.",
+        "240V Maximum AC Single Phase power input is recommended for Ex sensor configurations to protect zener barriers.",
+        "Only single-phase power supplies should be used for Ex sensor configurations.",
+        "A special configuration is employed when an Ex sensor is utilized."
+      ],
+      "diagram_labels": [
+        "24VDC",
+        "Power output <=100 W",
+        "Leakage current (as described in Class II power supply specification)",
+        "Power Supply",
+        "Recommended 500mA Slow-blow Fuse 24V DC",
+        "Gnd-",
+        "A",
+        "B",
+        "Modbus RTU RS485",
+        "Modbus TCP Ethernet RJ45",
+        "P -Power status",
+        "S -Sensor status",
+        "C -Modbus Comm. Activitys",
+        "D -Ethernet Data Transfer Activity",
+        "USB(micro-B)",
+        "Display",
+        "Reset",
+        "SD-Card",
+        "Loop+ (not active)",
+        "Gnd-",
+        "Ch1+ Viscosity",
+        "Ch2+ Density",
+        "Ch3+ Temperature",
+        "4-20 mA",
+        "Applies to all SME Versions",
+        "4x2x24AWG shielded",
+        "M12 8p female A-coded connector",
+        "8 red",
+        "7 blue",
+        "6 pink",
+        "5 gray",
+        "4 yellow",
+        "3 green",
+        "2 brown",
+        "1 white",
+        "0",
+        "shield to GND",
+        "housing to GND"
+      ],
+      "warnings_notes": [
+        "Shield connection to terminal 0 is not needed on the electronics except when used with EX barriers.",
+        "For Sensor electronics, a fuse is not necessary from the DC converter but if you plan to use then a 500mA slow-blow fuse is sufficient. The device has a maximum power input requirement of under 5W.",
+        "Only for Ex Sensors. Power Input: 240V Maximum AC Single Phase, this is exclusive for Ex sensor configuration and would be the best to protect the zener barriers used in the configuration, only single phase power supplies should be used.",
+        "Special configuration is used when Ex sensor."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1345,
+        "cost_usd": 0.0035023
+      },
+      "source_file": "210_Sensor_electronics_(SME)_-_Wiring_drawing.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

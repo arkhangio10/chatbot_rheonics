@@ -1,0 +1,79 @@
+{
+  "source_file": "137_Sensor_Error_Status_and_Parameter_Status.pdf",
+  "total_pages": 2,
+  "chunks": [
+    {
+      "page_summary": "This document outlines the sensor error status bits for Rheonics inline viscosity and density monitoring sensors, detailing each bit's hexadecimal value, name, and a descriptive comment for troubleshooting.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "SRD",
+        "DVP",
+        "DVM"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nSensor Error Status and Parameter Status\n\nModified on: Fri, 11 Aug, 2023 at 10:30 PM\n\nAll rheonics sensors (SRV, SRD, DVP, DVM) for inline viscosity and density monitoring have inbuilt status. These status bits can be used over digital communication channels to understand when the sensor is operating correctly and when there is an issue.\n\nSensor Error Status\n\nThe sensor status can take any of the following values:\n\n| Bit | Hex | Name | Comment |\n|---|---|---|---|\n| Bit 0 | 0x0001 | PLL frequency mismatch | The PLL frequency does not match the sensor frequency. Derived from the ASB string (E10) |\n| Bit 1 | 0x0002 | PLL not locked | The PLL is not locked. Derived from the ASB string (E01) |\n| Bit 2 | 0x0004 | PLL lock incorrect | The PLL has locked on a wrong frequency. Derived from the ASB string (E02) |\n| Bit 3 | 0x0008 | ASB communication error | |\n| Bit 4 | 0x0010 | Temperature sensor failed | The temperature sensor has failed. Derived from the ASB string if temperature is -273.0 |\n| Bit 5 | 0x0020 | Sensor too hot | If temperature is above the hardcoded physical temperature limit. |",
+      "specifications": {
+        "phone_number": "+1 713 234 0863",
+        "document_modification_date": "Fri, 11 Aug, 2023",
+        "document_modification_time": "10:30 PM",
+        "temperature_sensor_failure_threshold": "-273.0 C"
+      },
+      "key_facts": [
+        "Rheonics sensors, including models SRV, SRD, DVP, and DVM, are designed for inline viscosity and density monitoring.",
+        "These sensors possess inbuilt status capabilities that provide information about their operational state.",
+        "Status bits are transmitted over digital communication channels to help users diagnose sensor functionality and identify issues.",
+        "Bit 0, represented by 0x0001, indicates a PLL frequency mismatch.",
+        "Bit 1, with a hexadecimal value of 0x0002, signifies that the PLL is not locked.",
+        "Bit 2, corresponding to 0x0004, indicates an incorrect PLL lock, meaning the PLL has acquired a wrong frequency.",
+        "Bit 3, or 0x0008, reports an ASB communication error.",
+        "Bit 4, represented by 0x0010, signifies a failed temperature sensor.",
+        "Bit 5, with a hexadecimal value of 0x0020, indicates that the sensor's temperature has exceeded a hardcoded physical limit."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "A PLL frequency mismatch (Bit 0, 0x0001) is indicated when the PLL frequency does not match the sensor frequency, derived from the ASB string (E10).",
+        "A 'PLL not locked' condition (Bit 1, 0x0002) is derived from the ASB string (E01).",
+        "A 'PLL lock incorrect' condition (Bit 2, 0x0004) implies the PLL has locked on a wrong frequency, derived from the ASB string (E02).",
+        "An ASB communication error is reported by Bit 3 (0x0008).",
+        "A temperature sensor failure (Bit 4, 0x0010) is detected if the temperature reported is -273.0, derived from the ASB string.",
+        "The 'sensor too hot' status (Bit 5, 0x0020) is triggered if the sensor's temperature rises above a hardcoded physical temperature limit."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1032,
+        "cost_usd": 0.0027197999999999996
+      },
+      "source_file": "137_Sensor_Error_Status_and_Parameter_Status.pdf"
+    },
+    {
+      "page_summary": "This page details the meaning of specific bit flags and their corresponding hexadecimal values, indicating various sensor statuses and communication errors.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Table: Bit Definitions and Statuses\nBit 6: 0x0040, ASB communication error\nBit 7: 0x0080, Serial Changed\nBit 8: 0x0100, Status not clean, Sensor is not clean.\nBit 9: 0x0200, Status in Air, Determines if sensor is in air\nBit 10 -15: Unused",
+      "specifications": {},
+      "key_facts": [
+        "Bit 6 (0x0040) indicates an ASB communication error.",
+        "Bit 7 (0x0080) signifies that the serial value has changed.",
+        "Bit 8 (0x0100) denotes a 'Status not clean', meaning the sensor is not clean.",
+        "Bit 9 (0x0200) represents 'Status in Air', which determines if the sensor is currently in air.",
+        "Bits 10 through 15 are currently unused."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 315,
+        "cost_usd": 0.0009273
+      },
+      "source_file": "137_Sensor_Error_Status_and_Parameter_Status.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

@@ -1,0 +1,317 @@
+{
+  "source_file": "TMA-34N installation in tank for density and viscosity monitoring _ Rheonics Support.pdf",
+  "total_pages": 8,
+  "chunks": [
+    {
+      "page_summary": "This page describes the Rheonics TMA-34N tank mount adapter, detailing its installation, compatibility with SRV and SRD sensors, and illustrating its components with a diagram.",
+      "document_type": "manual",
+      "product_names": [
+        "TMA-34N",
+        "SRV",
+        "SRD",
+        "SR-TANK-MOUNT-34NPT",
+        "SR-X1-34N",
+        "SME-TRD",
+        "SME-TR",
+        "SME-DRM"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nTMA-34N - Installing density & viscosity sensor in Tank - with Rheonics tank mount adapter\n\nModified on: Fri, 14 Mar, 2025 at 4:51 PM\n\nFor more information visit Sensor Accessory Page: https://rheonics.com/product-accessories/tma-34n/\nTMA-34N (SR-TANK-MOUNT-34NPT)\nhttps://rheonics.com/product-accessories/tma-34n/\n\nRheonics TMA-34N - Tank Mount Adapter\n\nRheonics inline density meter and viscometers can be installed in a tank using the convenient tank-mount adapters (TMA). The tank-mount adapters work with both SRV and SRD product lines.\n\nThe TMA-34N is designed for the SRV and SRD with 3/4\" NPT connection (SR-X1-34N). This accessory works both as a protection cage and as an easy adapter for open tanks installations from the top. The TMA is immersed as much as needed in the tank using a custom pipe or pole.\n\nUsing the correct adapter, the sensor electronics (SME-TRD or SME-TR) can also be mounted at the top of the TMA pole or the sensor cable can be run to electronics mounted elsewhere or in a cabinet box (SME-DRM).\n\nPicture below shows various components of the tank mount system:\n\nField installation photos showing SRD mounted in a mud pit on a drilling rig using the TMA-34N:",
+      "specifications": {
+        "sensor_connection_type": "3/4\" NPT",
+        "fitting_adapter_type": "NPT 3/4\" - 1/2\""
+      },
+      "key_facts": [
+        "The TMA-34N is a tank-mount adapter used for installing Rheonics inline density meters and viscometers in tanks.",
+        "The tank-mount adapters are compatible with both Rheonics SRV and SRD product lines.",
+        "The TMA-34N is specifically designed for SRV and SRD sensors featuring a 3/4\" NPT connection (SR-X1-34N).",
+        "The TMA-34N functions as both a protection cage and an adapter for open tank installations from the top.",
+        "The adapter allows the sensor to be immersed to the desired depth within the tank using a customer-supplied custom pipe or pole.",
+        "Sensor electronics (SME-TRD or SME-TR) can be mounted at the top of the TMA pole or connected remotely to electronics mounted elsewhere, such as in a cabinet box (SME-DRM)."
+      ],
+      "diagram_labels": [
+        "Cable length",
+        "With Transmitter",
+        "Cable to data acquisition rig and power supply",
+        "Cable gland",
+        "Fitting union",
+        "NPT 3/4\" - 1/2\" fitting adapter",
+        "PTFE sealing needed",
+        "Customer supplied custom length pipe",
+        "Caged SRV or SRD sensor (to be submerged in fluid)",
+        "Mounting bracket to clamp the tank adapter to a fixed point"
+      ],
+      "warnings_notes": [
+        "PTFE sealing needed"
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 913,
+        "cost_usd": 0.0024222999999999996
+      },
+      "source_file": "TMA-34N installation in tank for density and viscosity monitoring _ Rheonics Support.pdf"
+    },
+    {
+      "page_summary": "This page details the components and usage requirements for the Rheonics TMA-34N tank-mount adapter and illustrates the application of a Rheonics SRD Density and Viscosity Meter on a drilling rig.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SRD Density and Viscosity Meter",
+        "Rheonics TMA-34N",
+        "SRV",
+        "SRD"
+      ],
+      "extracted_text": "Rheonics SRD Density and Viscosity Meter mounted in a mud pit on a drilling rig\n\nComponents of a Rheonics TMA-34N\nNext image shows the components of the TMA-34N.\nCAUTION: Only SRV or SRD with 3/4\" NPT process connection can be used with this tank-mount adapter (TMA-34N).\n\nClose-up of sensor and tank-mount adapter:\n\nYou will also need a O-ring to create a seal between the sensor and the tank-mount adapter.",
+      "specifications": {
+        "Process Connection Type": "3/4\" NPT",
+        "Mounting Bolts Quantity": "3x"
+      },
+      "key_facts": [
+        "A Rheonics SRD Density and Viscosity Meter is shown mounted in a mud pit on a drilling rig.",
+        "The page provides a breakdown of the components included with the Rheonics TMA-34N tank-mount adapter.",
+        "Only SRV or SRD sensors equipped with a 3/4\" NPT process connection are compatible with the TMA-34N tank-mount adapter.",
+        "An O-ring is necessary to ensure a proper seal between the sensor and the tank-mount adapter."
+      ],
+      "diagram_labels": [
+        "Protective cage - FRONT",
+        "Sensor SRD or SRV",
+        "Sensor cable connector (M12)",
+        "Mounting Bolts (3x)",
+        "Sensor cable",
+        "Protective cage - BACK",
+        "Pipe with 3/4\" NPT"
+      ],
+      "warnings_notes": [
+        "CAUTION: Only SRV or SRD with 3/4\" NPT process connection can be used with this tank-mount adapter (TMA-34N)."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 532,
+        "cost_usd": 0.0014698
+      },
+      "source_file": "TMA-34N installation in tank for density and viscosity monitoring _ Rheonics Support.pdf"
+    },
+    {
+      "page_summary": "This page provides specifications for a Viton O-ring and detailed installation instructions for it within a sensor's tank-mount adapter, along with a critical warning regarding pressure limitations.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "O-Ringe Original Viton, geprüfte Qualität nach DIN 3771 / ISO 3601\nArt. Nr. 0103-004527\nDimension: Ø 29.82 x 2.62 mm\nAN/BS: 123\nTyp: A\nHärte: 75 Shore\n\nSteps to install the sensor in the tank-mount adapter\n\nStep 1: Insert O-ring into the groove inside the Protective cage - back:\n\nEnsure the O-ring sits inside the groove. This is important to avoid any leak from the fluid side into the extension pipe. The seal is not designed to withstand pressures above 2-3 bar (30-45psi). Do not use in pressurized environment, contact Rheonics support if you need to install in high pressure environments.\n\nO-Ring installation video:",
+      "specifications": {
+        "O-ring material": "Original Viton",
+        "O-ring quality standard": "DIN 3771 / ISO 3601",
+        "Article number": "0103-004527",
+        "O-ring dimension": "Ø 29.82 x 2.62 mm",
+        "O-ring AN/BS number": "123",
+        "O-ring type": "A",
+        "O-ring hardness": "75 Shore",
+        "Maximum pressure withstand": "2-3 bar (30-45 psi)"
+      },
+      "key_facts": [
+        "The O-ring is an original Viton component with quality certified according to DIN 3771 / ISO 3601 standards.",
+        "The O-ring must be inserted into the groove inside the protective cage of the tank-mount adapter.",
+        "Correct installation of the O-ring is essential to prevent leaks from the fluid side into the extension pipe.",
+        "The O-ring seal is not designed to withstand pressures exceeding 2-3 bar (30-45 psi)."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "The seal is not designed to withstand pressures above 2-3 bar (30-45psi).",
+        "Do not use in pressurized environment.",
+        "Contact Rheonics support if you need to install in high pressure environments."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 622,
+        "cost_usd": 0.0016948000000000002
+      },
+      "source_file": "TMA-34N installation in tank for density and viscosity monitoring _ Rheonics Support.pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions with accompanying images for installing a Rheonics SRV or SRD sensor into its protective cage, including cable routing and connection.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "SRD",
+        "Protective cage",
+        "sensor"
+      ],
+      "extracted_text": "Install o-ring inside the protective cage groove - SRV SRD Ta\nrheonics\nWatch on\nStep 2: Run sensor cable through the Protective cage - back:\nStep 3: Connect sensor cable to the sensor (SRV or SRD).\nStep 4: Align the HEX key on the sensor and fit into the Protective cage - back.",
+      "specifications": {},
+      "key_facts": [
+        "An o-ring should be installed inside the protective cage groove for SRV and SRD sensors.",
+        "The sensor cable must be run through the protective cage from the back.",
+        "The sensor cable connects to either an SRV or SRD sensor.",
+        "The HEX key on the sensor needs to be aligned and fitted into the protective cage from the back."
+      ],
+      "diagram_labels": [
+        "rheonics"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 304,
+        "cost_usd": 0.0008998000000000001
+      },
+      "source_file": "TMA-34N installation in tank for density and viscosity monitoring _ Rheonics Support.pdf"
+    },
+    {
+      "page_summary": "This page provides illustrated step-by-step instructions for attaching a protective cage to a Rheonics sensor and details on how to prepare the sensor for tank mounting.",
+      "document_type": "manual",
+      "product_names": [
+        "TMA-34N accessory",
+        "type-SR-sensors"
+      ],
+      "extracted_text": "Step 5: Insert Protective cage - FRONT aligning the screw holes\nStep 6: Tighten the screws to firmly connect the front of the Protective cage to the Back\n\nNow the sensor is firmly mounted in the tank-mount adapter.\n\nTo install it in a tank, you will now need a pipe/pole with 3/4\"NPT threaded end to connect to the tank mount adapter. Use teflon tape on the NPT thread to ensure seal against fluid ingress.\n\nExtension pipe/pole is not supplied by Rheonics and should be sourced locally. Standard 3/4\" NPT threaded end is needed on at least one side to connect to the tank-mount adapter. Alternatively, one can connect a pipe adapter to connect 1\" pipe or another dimension pipe.\n\nMethods to clean the TMA-34N accessory (https://support.rheonics.com/en/support/solutions/articles/81000417066-type-sr-sensors-tma-34n-cleaning-procedure)",
+      "specifications": {
+        "NPT Thread Size": "3/4 inch",
+        "Alternative Pipe Diameter": "1 inch"
+      },
+      "key_facts": [
+        "The protective cage should be inserted from the front, ensuring screw holes are aligned.",
+        "Screws must be tightened to firmly connect the front of the protective cage to its back.",
+        "Once the protective cage is attached, the sensor is firmly mounted in the tank-mount adapter.",
+        "For tank installation, a pipe/pole with a 3/4\"NPT threaded end is required to connect to the tank mount adapter.",
+        "Teflon tape must be used on the NPT thread to ensure a proper seal against fluid ingress.",
+        "The extension pipe/pole is not supplied by Rheonics and needs to be sourced locally.",
+        "A standard 3/4\" NPT threaded end is required on at least one side of the pipe/pole to connect to the tank-mount adapter.",
+        "Alternatively, a pipe adapter can be used to connect a 1\" pipe or other dimension pipes.",
+        "A specific cleaning procedure for the TMA-34N accessory is available through the provided support URL."
+      ],
+      "diagram_labels": [
+        "rheonics (logo)"
+      ],
+      "warnings_notes": [
+        "It is crucial to use teflon tape on the NPT thread to ensure a proper seal against fluid ingress.",
+        "The extension pipe/pole required for tank installation is not supplied by Rheonics and must be sourced locally by the user."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 676,
+        "cost_usd": 0.0018298
+      },
+      "source_file": "TMA-34N installation in tank for density and viscosity monitoring _ Rheonics Support.pdf"
+    },
+    {
+      "page_summary": "This page provides installation guidance for Rheonics' tank mount adapter and EX rated sensors, focusing on proper sealing requirements and the correct method for connecting the sensor cable.",
+      "document_type": "manual",
+      "product_names": [
+        "TMA",
+        "TMA-34N",
+        "SRV",
+        "SRD",
+        "tank mount adapter",
+        "Rheonics cable variants",
+        "EX cable",
+        "sensor cable",
+        "M12 connector"
+      ],
+      "extracted_text": "Warning\nCustomer needs to ensure that the O-Ring is properly sealing between the TMA and the back of sensor body, and that the NPT thread on the TMA is properly sealed against the rod.\nNext image shows the sealing requirements for the TMA-34N installation. A poor sealing of the O-Ring or the Teflon tape around the NPT thread of custom pipe can lead to fluid leakage inside, thus potentially affecting the sensor cable and probe.\n\nSealing Requirements\nRheonics TMA-34N\n\nHow to use the tank mount adapter with an EX rated sensor (SRV/SRD)?\nThe process of making the connection is the same and the tank mount adapter is same. The sensor cable and connectors area little bigger than standard cable and connector. However the adapter is designed so the bigger connectors will still pass through.\nCare must be exercised to ensure there is no damage to the cable or connector when passing it through the pipe which is connected to the tank mount adapter. As the pipe is sourced by the customer to their desired length, it is important that you check the ends to ensure there are no burrs which can damage the cable and the ID is large ehough for the cable connector to pass through.\nReview all Rheonics cable variants, including the EX cable here (https://support.rheonics.com/en/support/solutions/articles/81000412899-rheonics-sensor-cable-and-connection-variants).\nThe pictures below show the tank mount adapter with a EX sensor cable, connector and sensor.\nSteps are described above, so these are only shown below pictorially:",
+      "specifications": {
+        "NPT thread size": "3/4 inch",
+        "Sensor cable connector type": "M12"
+      },
+      "key_facts": [
+        "Proper sealing of the O-Ring and NPT thread with Teflon tape is essential for TMA-34N installations to prevent fluid leakage that could damage the sensor cable and probe.",
+        "The tank mount adapter is designed to accommodate the larger connectors of EX rated SRV/SRD sensors.",
+        "Customers must ensure that the custom pipe used with the tank mount adapter has no burrs and a sufficiently large internal diameter to prevent damage to the sensor cable and connector during installation.",
+        "Rheonics provides a support article detailing various sensor cable connection variants, including EX cable options."
+      ],
+      "diagram_labels": [
+        "O-Ring Seal",
+        "Rheonics TMA-34N",
+        "Teflon tape required for correct sealing of NPT thread",
+        "Protective cage - back",
+        "Protective cage - front",
+        "Customer pipe length = as desired",
+        "3/4\" NPT threaded",
+        "Sensor Cable & Connector (M12 connector)",
+        "Sensor - SRV/SRD"
+      ],
+      "warnings_notes": [
+        "Customer needs to ensure that the O-Ring is properly sealing between the TMA and the back of sensor body, and that the NPT thread on the TMA is properly sealed against the rod.",
+        "A poor sealing of the O-Ring or the Teflon tape around the NPT thread of custom pipe can lead to fluid leakage inside, thus potentially affecting the sensor cable and probe.",
+        "Care must be exercised to ensure there is no damage to the cable or connector when passing it through the pipe which is connected to the tank mount adapter.",
+        "It is important that you check the ends [of the custom pipe] to ensure there are no burrs which can damage the cable and the ID is large ehough for the cable connector to pass through."
+      ],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 933,
+        "cost_usd": 0.0024722999999999998
+      },
+      "source_file": "TMA-34N installation in tank for density and viscosity monitoring _ Rheonics Support.pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step visual instructions for assembling a sensor, connecting its cable, mounting it into a protective cage, and connecting a pipe to the cage.",
+      "document_type": "manual",
+      "product_names": [
+        "sensor",
+        "protective cage",
+        "M12 connector"
+      ],
+      "extracted_text": "Mount pipe to the protective cage - back\nUse PTFE tape on threaded portion to ensure watertight connection\nConnect cable connector to the sensor M12 connector\nfinger tighten to ensure good sealing\nInsert sensor in the protective cage - back, align with the hex\nMount the front and then firmly connect using bolts provided\nProtective cage back view to show the connector and pipe connection and the cable running through pipe and into the protective cage.",
+      "specifications": {},
+      "key_facts": [
+        "PTFE tape must be used on the threaded portion of the pipe to ensure a watertight connection.",
+        "The cable connector, identified as an M12 connector, should be finger-tightened to the sensor for good sealing.",
+        "The sensor is inserted into the protective cage from the back, aligning with a hex feature.",
+        "The front part of the protective cage is mounted and secured firmly using provided bolts.",
+        "The page provides a back view of the protective cage, illustrating the connector, pipe connection, and cable routing."
+      ],
+      "diagram_labels": [
+        "Mount pipe to the protective cage - back",
+        "Use PTFE tape on threaded portion to ensure watertight connection",
+        "Connect cable connector to the sensor M12 connector",
+        "finger tighten to ensure good sealing",
+        "Insert sensor in the protective cage - back, align with the hex",
+        "Mount the front and then firmly connect using bolts provided"
+      ],
+      "warnings_notes": [
+        "Use PTFE tape on threaded portion to ensure watertight connection.",
+        "Finger tighten to ensure good sealing."
+      ],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 436,
+        "cost_usd": 0.0012298
+      },
+      "source_file": "TMA-34N installation in tank for density and viscosity monitoring _ Rheonics Support.pdf"
+    },
+    {
+      "page_summary": "This page provides troubleshooting advice for cable connections, links to product drawings and 3D models, and a list of resources for Rheonics SRV and SRD products, including specific field installation notes.",
+      "document_type": "manual",
+      "product_names": [
+        "TMA-34N",
+        "SRV",
+        "SRD"
+      ],
+      "extracted_text": "Troubleshooting\n* Cable connection - remove the front of the protective cage, loosen cable gland at top of the pipe and then slide the sensor and cable out. Check connector is firmly tightened (hand-tighten).\n\nDownloads\n* TMA-34N Drawing (https://cdn.rheonics.com/wp-content/uploads/2023/04/TMA-34N.pdf)\n* TMA-34N STEP file (https://cdn.rheonics.com/wp-content/uploads/2023/04/Rheonics_TMA-34N.zip)\n* SRV and SRD probes mounted in TMA-34N STEP files (https://cdn.rheonics.com/wp-content/uploads/2023/04/Rheonics_TMA-34N_SR-Sensors.zip)\n\nResources\n* SRV product page: https://rheonics.com/products/inline-viscometer-srv/\n* SRD product page: https://rheonics.com/products/inline-density-meter-srd/\n* Field installation note - fracing: https://rheonics.com/getting-frac-fluid-rheology-right/\n* Field installation note - drilling mud: https://rheonics.com/solutions-item/mud-weight-monitoring/\n* Field installation note - Investment casting slurry tank: https://rheonics.com/solutions-item/monitoring-and-controlling-viscosity-of-ceramic-slurries-in-investment-casting/",
+      "specifications": {},
+      "key_facts": [
+        "To troubleshoot a cable connection, one should remove the protective cage, loosen the cable gland, slide out the sensor and cable, and ensure the connector is hand-tightened.",
+        "Downloadable resources include a TMA-34N Drawing in PDF format and a TMA-34N STEP file.",
+        "STEP files are available for SRV and SRD probes when mounted in the TMA-34N.",
+        "Rheonics provides dedicated product pages for their SRV inline viscometer and SRD inline density meter.",
+        "Field installation notes are available for applications such as fracing, drilling mud weight monitoring, and controlling viscosity of ceramic slurries in investment casting."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 8,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 625,
+        "cost_usd": 0.0017023000000000001
+      },
+      "source_file": "TMA-34N installation in tank for density and viscosity monitoring _ Rheonics Support.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

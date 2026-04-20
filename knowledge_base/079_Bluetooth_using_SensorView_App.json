@@ -1,0 +1,181 @@
+{
+  "source_file": "079_Bluetooth_using_SensorView_App.pdf",
+  "total_pages": 4,
+  "chunks": [
+    {
+      "page_summary": "This page provides an overview and initial steps for configuring Rheonics Sensor Module Electronics Transmitter Display (SME-TRD) communication parameters wirelessly using the Rheonics SensorView mobile application via Bluetooth Low Energy (BLE).",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics Sensor Module Electronics Transmitter Display (SME-TRD)",
+        "Rheonics SensorView App",
+        "Rheonics sensors"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nBluetooth using SensorView App\nModified on: Tue, 10 Feb, 2026 at 8:47 PM\nWhat products are involved?\nThis article is based on using the Rheonics Sensor Module Electronics Transmitter Display (SME-TRD) and the Sensor View App\nWhat is the purpose of this article?\nThis article demonstrates how to configure communication parameters on the Rheonics SME-TRD using the Rheonics SensorView App via Bluetooth Low Energy (BLE).\n1. Overview\nRheonics SensorView App is a mobile application that connects with Rheonics sensors via Bluetooth Low Energy (BLE) for real-time monitoring. The SME-TRD transmitter supports Bluetooth connectivity, allowing users to configure communication parameters wirelessly, such as Ethernet, Modbus RTU (RS-485), Profinet Station Name, LCD Display, and Location ID.\nFigure 1: Rheonics SensorView App\n2. Prerequisites\n* Rheonics SME-TRD with Bluetooth and Firmware Version 4\n* Rheonics SensorView App installed on your mobile device\n  * Available on the Google Play Store (https://play.google.com/store/apps/details?id=com.rheonics.rheonicsBLE&hl=en)\n  * and Apple App Store (https://apps.apple.com/qt/app/rheonics-sensorview/id1557966204)\n3. Communication Configuration\n1. After pairing the mobile device with the Rheonics SME-TRD over Bluetooth, the following screen appears. Click on the Communication panel.",
+      "specifications": {
+        "Firmware Version": "4"
+      },
+      "key_facts": [
+        "The article is based on using the Rheonics Sensor Module Electronics Transmitter Display (SME-TRD) and the Sensor View App.",
+        "The article demonstrates how to configure communication parameters on the Rheonics SME-TRD using the Rheonics SensorView App via Bluetooth Low Energy (BLE).",
+        "Rheonics SensorView App is a mobile application that connects with Rheonics sensors via Bluetooth Low Energy (BLE) for real-time monitoring.",
+        "The SME-TRD transmitter supports Bluetooth connectivity.",
+        "Users can configure communication parameters wirelessly, including Ethernet, Modbus RTU (RS-485), Profinet Station Name, LCD Display, and Location ID.",
+        "The Rheonics SensorView App is available on the Google Play Store and Apple App Store."
+      ],
+      "diagram_labels": [
+        "Rheonics SensorView",
+        "Scanning devices...",
+        "Figure 1: Rheonics SensorView App"
+      ],
+      "warnings_notes": [
+        "Rheonics SME-TRD requires Bluetooth and Firmware Version 4 for use with the SensorView App.",
+        "The Rheonics SensorView App must be installed on your mobile device."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 767,
+        "cost_usd": 0.0020572999999999998
+      },
+      "source_file": "079_Bluetooth_using_SensorView_App.pdf"
+    },
+    {
+      "page_summary": "This page details the communication options and settings available on a device, including Bluetooth LE 4.0 and Ethernet configurations, presented through UI screenshots and explanatory text.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Figure 2: Communication panel\n\n2. The following options appear:\n*   Bluetooth LE 4.0\n*   Ethernet\n*   Modbus RTU (RS-485)\n*   Profinet\n*   LCD Display\n*   Location ID\n\nFigure 3: Communication screen\n\nNote: Some parameters, such as MAC address (Bluetooth LE 4.0), Ethernet MAC (Ethernet), and Terminal Portal (Ethernet) cannot be modified\n\nIf the values do not load correctly, press the Reload button located in the top-right corner.",
+      "specifications": {
+        "Bluetooth LE 4.0 MAC": "70:B3:D5:D2:00:1E",
+        "Ethernet MAC": "70:B3:D5:D2:00:1F",
+        "Ethernet DHCP": "false",
+        "Ethernet IP": "10.100.0.16",
+        "Ethernet Subnet": "255.255.255.0",
+        "Ethernet Gateway IP": "10.100.0.1",
+        "Ethernet DNS": "0.0.0.0",
+        "Ethernet Terminal Port": "10001"
+      },
+      "key_facts": [
+        "The device offers various communication options including Bluetooth LE 4.0, Ethernet, Modbus RTU (RS-485), Profinet, LCD Display, and Location ID.",
+        "The Communication screen allows configuration of Bluetooth LE 4.0 and Ethernet settings.",
+        "Specific parameters like MAC addresses for Bluetooth LE 4.0 and Ethernet, and the Ethernet Terminal Port, are not modifiable.",
+        "A 'Reload' button is available in the top-right corner of the Communication screen to refresh values if they do not load correctly."
+      ],
+      "diagram_labels": [
+        "Options",
+        "Measurement",
+        "Communication",
+        "Settings",
+        "Communication",
+        "Bluetooth LTE 4.0",
+        "MAC",
+        "70:B3:D5:D2:00:1E",
+        "Ethernet",
+        "Ethernet MAC",
+        "70:B3:D5:D2:00:1F",
+        "DHCP",
+        "false",
+        "IP",
+        "10.100.0.16",
+        "Subnet",
+        "255.255.255.0",
+        "Gateway IP",
+        "10.100.0.1",
+        "DNS",
+        "0.0.0.0",
+        "Terminal Port",
+        "10001",
+        "Update",
+        "Figure 2: Communication panel",
+        "Figure 3: Communication screen"
+      ],
+      "warnings_notes": [
+        "Note: Some parameters, such as MAC address (Bluetooth LE 4.0), Ethernet MAC (Ethernet), and Terminal Portal (Ethernet) cannot be modified",
+        "If the values do not load correctly, press the Reload button located in the top-right corner."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 816,
+        "cost_usd": 0.0021798
+      },
+      "source_file": "079_Bluetooth_using_SensorView_App.pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions and guidelines for configuring communication parameters, including Ethernet, Modbus, and Profinet settings, through a graphical user interface.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Communication\nBluetooth LTE 4.0\nMAC\n70:B3:D5:D2:00:D0\nEthernet\nEthernet MAC\n70:B3:D5:D2:00:D0\nDHCP\nfalse\nIP\n10.100.0.16\nSubnet\n255.255.255.0\nGateway IP\n10.100.0.1\nDNS\n0.0.0.0\nTerminal Port\n10001\nUpdate\nFigure 4: Reload button\n3. Follow the guidelines to be able to modify the parameters correctly:\n| Communication | Parameters                   | Format                                             | Notes                                            |\n|---------------|------------------------------|----------------------------------------------------|--------------------------------------------------|\n| Ethernet      | IP, Subnet, Gateway IP, DNS  | A.B.C.D                                            | Each letter is in the range of 0 to 255          |\n| Modbus        | Modbus Address               | Positive integer                                   | In the range from 1 to 247                       |\n| Profinet      | Station Name                 | No spaces, no capital letters, and no special characters | -                                                |\n4. After inserting the parameters of a communication protocol, click on the **Update** button to apply the changes.\nFigure 5: Update button\n5. The confirmation message shown below appears once the parameters are updated successfully.\nUpdate\nUpdate finished successfully\nOK\nFigure 6: Confirmation message",
+      "specifications": {
+        "Ethernet_IP_Address_Component_Range": "0 to 255",
+        "Modbus_Address_Range": "1 to 247"
+      },
+      "key_facts": [
+        "The communication screen allows configuration of Bluetooth LTE 4.0 and Ethernet settings.",
+        "Ethernet parameters include MAC address, DHCP status, IP address, Subnet mask, Gateway IP, DNS, and Terminal Port.",
+        "The current Ethernet MAC address displayed is 70:B3:D5:D2:00:D0.",
+        "DHCP is currently set to false, implying static IP configuration.",
+        "The current static IP address is 10.100.0.16, Subnet is 255.255.255.0, Gateway IP is 10.100.0.1, DNS is 0.0.0.0, and Terminal Port is 10001.",
+        "To modify parameters correctly, specific guidelines for Ethernet IP/Subnet/Gateway IP/DNS, Modbus Address, and Profinet Station Name must be followed.",
+        "After entering new parameters for a communication protocol, the 'Update' button must be clicked to apply the changes.",
+        "A confirmation message stating 'Update finished successfully' will appear upon successful application of changes.",
+        "Ethernet IP, Subnet, Gateway IP, and DNS addresses must follow the A.B.C.D format where each component is an integer between 0 and 255.",
+        "Modbus addresses must be positive integers ranging from 1 to 247.",
+        "Profinet station names cannot contain spaces, capital letters, or special characters."
+      ],
+      "diagram_labels": [
+        "Communication",
+        "Reload button",
+        "Bluetooth LTE 4.0",
+        "MAC",
+        "Ethernet",
+        "Ethernet MAC",
+        "DHCP",
+        "IP",
+        "Subnet",
+        "Gateway IP",
+        "DNS",
+        "Terminal Port",
+        "Update button",
+        "Update (popup title)",
+        "Update finished successfully",
+        "OK (popup button)",
+        "Confirmation message"
+      ],
+      "warnings_notes": [
+        "Each letter (component) of Ethernet IP, Subnet, Gateway IP, and DNS (A.B.C.D format) must be in the range of 0 to 255.",
+        "Modbus Address must be a positive integer in the range from 1 to 247.",
+        "Profinet Station Name must have no spaces, no capital letters, and no special characters."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1049,
+        "cost_usd": 0.0027622999999999997
+      },
+      "source_file": "079_Bluetooth_using_SensorView_App.pdf"
+    },
+    {
+      "page_summary": "This page is blank and contains no discernible information.",
+      "document_type": "notes",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 83,
+        "cost_usd": 0.0003473
+      },
+      "source_file": "079_Bluetooth_using_SensorView_App.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

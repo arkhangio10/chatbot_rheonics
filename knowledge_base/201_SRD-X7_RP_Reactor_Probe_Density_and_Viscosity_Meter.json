@@ -1,0 +1,237 @@
+{
+  "source_file": "201_SRD-X7_RP_Reactor_Probe_Density_and_Viscosity_Meter.pdf",
+  "total_pages": 5,
+  "chunks": [
+    {
+      "page_summary": "This page provides an overview of the Rheonics SRD-X7 RP Reactor Probe Density and Viscosity Meter, detailing its design, applications, available configurations, and key dimensions.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRD-X7 RP Reactor Probe Density and Viscosity Meter",
+        "Rheonics Density and Viscosity meter SRD",
+        "SRD Reactor Probe",
+        "SRD-X7 variant"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nSRD-X7 RP Reactor Probe Density and Viscosity Meter\nModified on: Wed, 14 May, 2025 at 5:55 PM\n\nWhat products are involved?\nRheonics Density and Viscosity meter SRD (https://rheonics.com/products/inline-density-meter-srd/)\n\nWhat is the purpose of this article?\nTo give an overview of the Reactor Probe (-RP) version, -X7 configuration, of the SRD sensor and installation information.\n\n1. Overview\nThe Rheonics Reactor Probe (RP) design for the SRD is a long insertion probe with a 19mm body diameter, configurable by total “L” length and flexible (adjustable) process connection, with PTFE-PEEK or Stainless Steel 316L compression fittings. Its order code is -X7.\nThe Rheonics SRD is an industrial sensor used to measure with high accuracy the density and viscosity of a fluid inline, to enable monitoring and control. Rheonics offers different variants for the SRD to adjust the sensor probe to the user’s needs and application requirements, see more here (https://support.rheonics.com/en/support/solutions/folders/81000297659).\nThe SRD-X7 variant is suited for installations in bioreactor tanks and glass reactors using a long insertion probe with compression fittings of 1” NPT, 3/4” NPT and others in two material options PTFE and Stainless Steel.\nPTFE-PEEK fittings allow a variable insertion length (distance from fitting to sensor tip) since the fitting can be moved along the shaft of the probe. Stainless Steel compression fittings are generally fixed in a position once they are compressed.\nThe SRD Reactor Probe is defined by the total length, there are 4 options available: 150, 250, 350 and 450mm. The client can also define the compression fitting required that will be placed at some point along the shaft once received. The probe can be ordered without a compression fitting as well.\n\nFigure 1: Reactor Probe Density and Viscosity Meter with 3/4\" NPT PTFE Compression Fitting.\n\nFigure 2: SRD-X7 Reactor Probe Dimensions mm [in.]\n\nSpecifications",
+      "specifications": {
+        "Body diameter": "19 mm [0.75 in.]",
+        "Order code": "-X7",
+        "Available total lengths": "150 mm, 250 mm, 350 mm, 450 mm",
+        "Process connection material options": "PTFE-PEEK, Stainless Steel 316L",
+        "Compression fitting NPT options": "1” NPT, 3/4” NPT",
+        "SRD-X7 variant material options": "PTFE, Stainless Steel",
+        "Probe segment 1 length": "34 mm [1.32 in.]",
+        "Probe segment 2 length": "40 mm [1.57 in.]",
+        "Probe segment 1 diameter": "13.9 mm [0.55 in.]",
+        "Probe segment 2 diameter": "5 mm [0.20 in.]",
+        "Probe end tip diameter": "13 mm [0.50 in.]"
+      },
+      "key_facts": [
+        "The SRD-X7 RP Reactor Probe is a long insertion probe with a 19mm body diameter.",
+        "The probe's total 'L' length is configurable, and it features a flexible (adjustable) process connection.",
+        "Available compression fitting materials for the probe include PTFE-PEEK or Stainless Steel 316L.",
+        "The order code for this specific Reactor Probe version is -X7.",
+        "The Rheonics SRD is an industrial sensor designed for high-accuracy inline measurement of density and viscosity.",
+        "The SRD-X7 variant is specifically suited for installations in bioreactor tanks and glass reactors.",
+        "Compression fittings for the SRD-X7 variant come in options like 1” NPT and 3/4” NPT, with material choices of PTFE and Stainless Steel.",
+        "PTFE-PEEK fittings enable a variable insertion length as they can be moved along the probe's shaft.",
+        "Stainless Steel compression fittings are typically fixed in position once compressed.",
+        "The SRD Reactor Probe is available in four standard total lengths: 150mm, 250mm, 350mm, and 450mm.",
+        "Clients have the option to specify the required compression fitting or order the probe without one."
+      ],
+      "diagram_labels": [
+        "L: Choose version for length",
+        "34 [ 1.32 ]",
+        "40 [ 1.57 ]",
+        "Φ 19 [ 0.75 ]",
+        "Φ 13.9 [ 0.55 ]",
+        "Φ 5 [ 0.20 ]",
+        "Φ 13 [ 0.50 ]",
+        "rheon (Rheonics logo element)"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1307,
+        "cost_usd": 0.0034073
+      },
+      "source_file": "201_SRD-X7_RP_Reactor_Probe_Density_and_Viscosity_Meter.pdf"
+    },
+    {
+      "page_summary": "This page details specifications, available CAD files, installation possibilities, and principles for Rheonics SRD-X7 Reactor Probes, an inline viscometer and density sensor.",
+      "document_type": "datasheet",
+      "product_names": [
+        "Density and Viscosity Meter SRD",
+        "SRD Reactor Probe",
+        "SRD-X7 Reactor Probe",
+        "SRD-X7",
+        "SRD-X5",
+        "SRD-X7-RP150",
+        "SRD-X7-RP250",
+        "SRD-X7-RP350",
+        "SRD-X7-RP450"
+      ],
+      "extracted_text": "Sensor compatibility: Density and Viscosity Meter SRD (https://rheonics.com/products/inline-density-meter-srd/)\nOrder code: SRD-X7-RPyyy-Bzzz\nTotal length L - yyy: 150, 250, 350 and 450 mm\nConnection type B - zzz: Customizable (min. OD 22mm)\nDrawings: SR-RP Configuration Drawing (https://rheonics.com/wp-content/uploads/2023/09/Rheonics_SR-RP_Reactor-Probe.pdf)\n\nSRD-RP CAD files\nSensor Variant | Drawing | CAD File\nSRD-X7-RP150 | SRD-X7-RP150 Drawing (https://rheonics.com/wp-content/uploads/2023/11/Rheonics_SRD-X7-RP150.pdf) | SRD-X7-RP150 CAD File (https://rheonics.com/wp-content/uploads/2023/11/Rheonics_SRD-X7-RP150.zip)\nSRD-X7-RP250 | SRD-X7-RP250 Drawing (https://rheonics.com/wp-content/uploads/2023/11/Rheonics_SRD-X7-RP250.pdf) | SRD-X7-RP250 CAD File (https://rheonics.com/wp-content/uploads/2023/11/Rheonics_SRD-X7-RP250.zip)\nSRD-X7-RP350 | SRD-X7-RP350 Drawing (https://rheonics.com/wp-content/uploads/2023/10/Rheonics_SRV-RP350.pdf) (https://rheonics.com/wp-content/uploads/2023/11/Rheonics_SRD-X7-RP350.pdf) | SRD-X7-RP350 CAD File (https://rheonics.com/wp-content/uploads/2023/11/Rheonics_SRD-X7-RP350.zip) (https://staging.rheonics.com/wp-content/uploads/2023/10/Rheonics_SRV-RP350.zip)\nSRD-X7-RP450 | SRD-X7-RP450 Drawing (https://rheonics.com/wp-content/uploads/2023/10/Rheonics_SRV-RP450.pdf) (https://rheonics.com/wp-content/uploads/2023/11/Rheonics_SRD-X7-RP450.pdf) | SRD-X7-RP450 CAD File (https://rheonics.com/wp-content/uploads/2023/11/Rheonics_SRD-X7-RP450.zip) (https://staging.rheonics.com/wp-content/uploads/2023/10/Rheonics_SRV-RP450.zip)\n\nSome installation possibilities for the SRD Reactor Probe are:\n* Installation in reactors, in particular bioreactors\n* Installations with variable insertion length\n* Installation in small pipe sizes (e.g. 1\", 1.25\" ID pipes)\n* Installation in pipe sizes bigger than 1.5\" with reduced (compared to -X5 sensors (https://support.rheonics.com/en/support/solutions/articles/81000411102-srv-x5-long-insertion-probe) ) cross section reduction inside the pipe due to probe.\n\nFigure 3: SRD-X7 Reactor Probe comparison with SRD-X5.\n\n2. Installation principles\nThe Rheonics SRD-X7 can be easily installed and integrated into an existing setup. Next considerations should be followed to ensure accurate, repeatable and reproducible density and viscosity readings.\n\nEnsure sensing element in red is in contact with fluid\nAvoid dead or stagnation zones in the sensing (red) area\nSRD-RP tip needs a clearance of 12 mm [0.5\"] to any obstruction\n\nFigure 4: SRD-X7 Reactor Probe sensing element.",
+      "specifications": {
+        "Total length L1": "150 mm",
+        "Total length L2": "250 mm",
+        "Total length L3": "350 mm",
+        "Total length L4": "450 mm",
+        "Minimum connection type B OD": "22 mm",
+        "SRD-X5 diameter": "30 mm [1.18 in]",
+        "SRD-X7 Reactor Probe diameter": "19 mm [0.75 in]",
+        "Sensing element overall length": "50 mm [1.96 in]",
+        "Sensing element diameter": "35 mm [1.4 in]",
+        "Sensing element active length": "35 mm [1.4 in]",
+        "SRD-RP tip clearance": "12 mm [0.5 in]"
+      },
+      "key_facts": [
+        "The Rheonics SRD-X7 can be easily installed and integrated into an existing setup.",
+        "Next considerations should be followed to ensure accurate, repeatable and reproducible density and viscosity readings.",
+        "The SRD Reactor Probe is suitable for installation in reactors, particularly bioreactors.",
+        "The SRD Reactor Probe supports installations with variable insertion length.",
+        "The SRD Reactor Probe can be installed in small pipe sizes, such as 1 inch and 1.25 inch ID pipes.",
+        "The SRD Reactor Probe can be installed in pipe sizes bigger than 1.5 inches with reduced cross section reduction inside the pipe compared to -X5 sensors."
+      ],
+      "diagram_labels": [
+        "Figure 3: SRD-X7 Reactor Probe comparison with SRD-X5.",
+        "Ø30 [ 1.18 ]",
+        "SRD-X5",
+        "Ø19 [ 0.75 ]",
+        "SRD-X7 Reactor Probe",
+        "Figure 4: SRD-X7 Reactor Probe sensing element.",
+        "50 mm [1.96\"]",
+        "Ø35 mm [1.4\"]",
+        "35 mm [1.4\"]",
+        "Rheonics (on sensor body)"
+      ],
+      "warnings_notes": [
+        "Ensure sensing element in red is in contact with fluid.",
+        "Avoid dead or stagnation zones in the sensing (red) area.",
+        "SRD-RP tip needs a clearance of 12 mm [0.5\"] to any obstruction."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1766,
+        "cost_usd": 0.0045547999999999995
+      },
+      "source_file": "201_SRD-X7_RP_Reactor_Probe_Density_and_Viscosity_Meter.pdf"
+    },
+    {
+      "page_num": 3,
+      "page_summary": "Extraction failed",
+      "document_type": "unknown",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "extraction_failed": true,
+      "source_file": "201_SRD-X7_RP_Reactor_Probe_Density_and_Viscosity_Meter.pdf"
+    },
+    {
+      "page_summary": "This page provides configuration examples, dimensional drawings, and ordering information for Rheonics SRD-RP reactor probes with various NPT compression fitting options and probe lengths.",
+      "document_type": "manual",
+      "product_names": [
+        "SRD-RP",
+        "Rheonics Reactor Probe",
+        "SRD-X1",
+        "SRD-RP150-B34N",
+        "SRD-RP250-B34N",
+        "SRD-RP250-B1N0",
+        "Rheonics SRD-X7 Reactor Probe",
+        "Rheonics long insertion viscometer and density meter"
+      ],
+      "extracted_text": "See how to install the Stainless steel compression fitting here (https://youtu.be/GZRsETdqTVo)\n\nFigure 8: STainless Steel Compression Fitting. Source: Swagelok (https://products.swagelok.com/en/c/straights/p/SS-1210-1-12BT?q=:relevance:cleaningProcess:Standard+Cleaning+and+Packaging:%28SC-10%29%3Bconnection1Size:3%2F4%2Bin.:boredThrough:true:connection2Size:3%2F4%2Bin.:connection2Type:Male+NPT:bodyMaterial:316+Stainless+Steel)\n\n4. Configuration examples\n\nNext there are some possible configurations for the SRD-RP and its order codes.\n\n3/4\" NPT Thread: This is the SRD reactor probe variant with a 3/4\" NPT compression fitting in PTFE or SS316L material. Rheonics offers this connection welded in its standard short sensor SRD-X1 (https://support.rheonics.com/en/support/solutions/articles/81000409841-srd-x1-34n-npt-3-4-). The advantage the -RP Type sensor offers is the longer insertion of the probe as shown in next two figures for a 150 and 250 L variant.\n\nFigure 9: SRD-RP150-B34N\n\nFigure 10: SRD-RP250-B34N\n\nTable: SRD-RP L: 250 mm B: 3/4\" NPT\nPart: SRD-RP Reactor Probe Density and Viscosity meter\nOrder Code: SRD-RP250-B34N\n\n1\" NPT: Compression fitting is also available with 1\" NPT connection for Stainless Steel and PTFE-PEEK variants.\n\nFigure 11: SRD-RP250-B1N0\n\nTable: SRD-RP L: 250 mm B: 1\" NPT\nPart: SRD-RP Reactor Probe Density and Viscosity meter\nOrder Code: SRD-RP250-B1N0\n\n5. How to order the Rheonics Reactor Probe?\n\nRheonics SRD-X7 Reactor Probe follows next code form.\n\nHow to Order Rheonics long insertion viscometer and density meter",
+      "specifications": {
+        "SRD-RP150-B34N_probe_length": "143 mm [5.63 in]",
+        "SRD-RP250-B34N_probe_length": "243 mm [9.57 in]",
+        "SRD-RP250-B1N0_probe_length": "243 mm [9.57 in]",
+        "3/4_inch_NPT_fitting_material": "PTFE or SS316L",
+        "1_inch_NPT_fitting_material": "Stainless Steel and PTFE-PEEK"
+      },
+      "key_facts": [
+        "The SRD-RP reactor probe variants are available with 3/4\" NPT compression fittings made of PTFE or SS316L material.",
+        "The SRD-RP type sensor offers longer insertion of the probe compared to the standard short sensor SRD-X1.",
+        "1\" NPT compression fittings are available for the SRD-RP with Stainless Steel and PTFE-PEEK variants.",
+        "The Rheonics SRD-X7 Reactor Probe follows a specific ordering code form."
+      ],
+      "diagram_labels": [
+        "B. 3/4\" NPT Compression Fitting",
+        "B. 1\" NPT Compression Fitting",
+        "143 [ 5.63 ]",
+        "243 [ 9.57 ]"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1104,
+        "cost_usd": 0.0028997999999999997
+      },
+      "source_file": "201_SRD-X7_RP_Reactor_Probe_Density_and_Viscosity_Meter.pdf"
+    },
+    {
+      "page_summary": "This page provides a guide to the Rheonics SR-Type sensor product code form, detailing configuration options for sensor type, probe variant, probe length, and process connection.",
+      "document_type": "datasheet",
+      "product_names": [
+        "Rheonics SR-Type sensor",
+        "SRD Inline Density and Viscosity meter",
+        "SRV Inline Viscometer",
+        "Reactor Probe - RP",
+        "Rheonics long insertion viscometer"
+      ],
+      "extracted_text": "Code Form: SR_ - X7 - RP_ - B_\nExample: SRD - X7 - RP150 - B34NS\n\n1 Rheonics SR-Type sensor\nSRD: Inline Density and Viscosity meter\nSRV: Inline Viscometer\n\n2 Sensor Probe Variant\nX7: Reactor Probe - RP. Probe variant with ø19 mm body.\n\n3 Reactor Probe RP- Length\nLength from sensor probe back end to tip. Rheonics offers 4 variants:\n• RP150: 150 mm length\n• RP250: 250 mm length\n• RP350: 350 mm length\n• RP450: 450 mm length\n\n4 Process Connection \"B\"\nCompression fittings defined by client. Common variants are: 3/4\" NPT, 1\" NPT in Stainless Steel (-S) and PTFE-PEEK (-P). Ask Rheonics Sales Team for availability of other connections.\n• B34NP: 3/4\" NPT PTFE fitting\n• B1N0P: 1\" NPT PTFE fitting\n• B34NS: 3/4\" NPT Stainless Steel fitting\n• B1N0S: 1\" NPT Stainless Steel fitting\n\nThe appropriate RFQ page for SRD density and viscosity meter (https://rheonics.com/request-for-quotation/srd/) should be used to configure other options of the sensor, like density and viscosity range, calibration accuracy, pressure rating, etc.\n\nReferences\n(https://de.vwr.com/store/catalog/product.jsp?catalog_number=COWIPC701.100.19)\n[1]: Rheonics long insertion viscometer (https://support.rheonics.com/en/support/solutions/articles/81000411102-srv-x5-long-insertion-probes)",
+      "specifications": {
+        "SRD sensor type": "Inline Density and Viscosity meter",
+        "SRV sensor type": "Inline Viscometer",
+        "X7 probe body diameter": "19 mm",
+        "RP150 probe length": "150 mm",
+        "RP250 probe length": "250 mm",
+        "RP350 probe length": "350 mm",
+        "RP450 probe length": "450 mm",
+        "Common process connection NPT sizes": "3/4\" NPT, 1\" NPT",
+        "Common process connection materials": "Stainless Steel, PTFE-PEEK",
+        "B34NP fitting type": "3/4\" NPT PTFE",
+        "B1N0P fitting type": "1\" NPT PTFE",
+        "B34NS fitting type": "3/4\" NPT Stainless Steel",
+        "B1N0S fitting type": "1\" NPT Stainless Steel"
+      },
+      "key_facts": [
+        "The Rheonics SR-Type sensor product code includes fields for sensor type, probe variant, probe length, and process connection.",
+        "SRD sensors measure inline density and viscosity, while SRV sensors measure inline viscosity.",
+        "The X7 Reactor Probe (RP) variant features a 19 mm body diameter.",
+        "Reactor Probe (RP) lengths are available in 150 mm, 250 mm, 350 mm, and 450 mm.",
+        "Process connections are compression fittings, with common variants being 3/4\" NPT and 1\" NPT made of Stainless Steel or PTFE-PEEK.",
+        "Additional sensor options for SRD, such as density and viscosity range, calibration accuracy, and pressure rating, are configured via the Rheonics RFQ page."
+      ],
+      "diagram_labels": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "warnings_notes": [
+        "Ask Rheonics Sales Team for availability of other connections for Process Connection \"B\".",
+        "The appropriate RFQ page for SRD density and viscosity meter should be used to configure other options of the sensor, like density and viscosity range, calibration accuracy, pressure rating, etc."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1105,
+        "cost_usd": 0.0029023
+      },
+      "source_file": "201_SRD-X7_RP_Reactor_Probe_Density_and_Viscosity_Meter.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": [
+      3
+    ]
+  }
+}

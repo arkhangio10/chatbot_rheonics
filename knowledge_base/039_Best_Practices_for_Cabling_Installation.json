@@ -1,0 +1,314 @@
+{
+  "source_file": "039_Best_Practices_for_Cabling_Installation.pdf",
+  "total_pages": 7,
+  "chunks": [
+    {
+      "page_summary": "This document outlines best practices for cabling installation for Rheonics sensors and Smart Module Electronics (SME), providing specific guidelines and a typical wiring diagram.",
+      "document_type": "manual",
+      "product_names": [
+        "SME (Smart Module Electronics)",
+        "SRV",
+        "SRD",
+        "DVP",
+        "DVM",
+        "Rheonics sensors",
+        "SME-DRM"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nBest Practices for Cabling Installation\nModified on: Tue, 22 Nov, 2022 at 1:53 PM\n\nWhich Rheonics products are related to this Article?\nThis Article is based on the use of the SME (Smart Module Electronics) from SRV (https://rheonics.com/products/inline-viscometer-srv/), SRD (https://rheonics.com/products/inline-density-meter-srd/), DVP (https://rheonics.com/products/inline-gas-lng-density-meter-dvp/) and (http://dvm/) DVM (https://rheonics.com/products/hpht-pvt-density-meter-viscometer-dvm/). Hence it can be used for any of these Rheonics sensors.\n\nWhat is the purpose of this Article?\nTo give guidance and good practices when doing electrical installations and wiring for Rheonics Sensors and SME.\n\nBest Practices for Cable Installation by Rheonics:\n1.1 Minimum distance required between power lines and control/signal cables: 50mm\n1.2 Consider maximum pulling tension\n1.3 Consider minimum bend radius: 5 times the cable diameter for fixed installations\n1.4 Cables crush resistance not to be exceeded\n1.5 Check temperature rating for cables\n1.6 Recommended cable gauge to connect to the SME: 20 AWG\n\nTypical Wiring Scheme\nFigure 1: Typical SME-DRM Installation.",
+      "specifications": {
+        "Minimum distance between power lines and control/signal cables": "50 mm",
+        "Minimum bend radius for fixed installations": "5 times the cable diameter",
+        "Recommended cable gauge to connect to the SME": "20 AWG"
+      },
+      "key_facts": [
+        "The article provides guidance and good practices for electrical installations and wiring for Rheonics Sensors and Smart Module Electronics (SME).",
+        "The recommendations apply to Rheonics SRV, SRD, DVP, and DVM sensors when used with SME.",
+        "A minimum distance of 50mm is required between power lines and control/signal cables.",
+        "The minimum bend radius for fixed installations should be 5 times the cable diameter.",
+        "The recommended cable gauge for connecting to the SME is 20 AWG."
+      ],
+      "diagram_labels": [
+        "1. Power Cable",
+        "2. Analog Signal Cable",
+        "3. Sensor Cable",
+        "4. Ethernet Cable",
+        "Figure 1: Typical SME-DRM Installation."
+      ],
+      "warnings_notes": [
+        "Consider maximum pulling tension.",
+        "Cables crush resistance not to be exceeded.",
+        "Check temperature rating for cables."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 759,
+        "cost_usd": 0.0020373
+      },
+      "source_file": "039_Best_Practices_for_Cabling_Installation.pdf"
+    },
+    {
+      "page_summary": "This page provides essential guidelines for proper cable installation, focusing on minimum distances, pulling tension, bend radius, and crush resistance.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "1. General Considerations\n\n1.1 Minimum distances for power lines and control cables\nKeep a minimum distance of 50mm (2\") between power and control/signal cables.\n\n1.2. Pulling Tension\nTo avoid pulling tension problems and keep strain relief:\n* Attach the pulling line in the correct manner.\n* Avoid exceeding the maximum tensile strength of the cable.\n* Relieve the pulling tension once the cables are in place.\n\nFigure 2: Pulling tension on cables.\n\n1.3 Bend Radius\nConsider a bend radius for cables. Fixed installations require a minimum bending radius (R) of five times the diameter (D). A minimum of ten times the diameter (D) is recommended for flexing/moving installations.\n\nFigure 3: Bend Radius for Cables.\n\n1.4. Cables Crush Resistance\nTo not exceed the cables crush resistance consider:",
+      "specifications": {
+        "minimum_distance_power_control_cables": "50 mm (2\")",
+        "minimum_bending_radius_fixed_installations": "5 * D",
+        "recommended_bending_radius_flexing_moving_installations": "10 * D"
+      },
+      "key_facts": [
+        "A minimum distance of 50mm (2 inches) must be maintained between power and control/signal cables.",
+        "To avoid pulling tension problems, the pulling line should be attached correctly, the cable's maximum tensile strength should not be exceeded, and tension must be relieved after cables are in place.",
+        "For fixed cable installations, the minimum bending radius (R) required is five times the cable's diameter (D).",
+        "For flexing or moving cable installations, a minimum bending radius (R) of ten times the cable's diameter (D) is recommended."
+      ],
+      "diagram_labels": [
+        "R",
+        "D"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 505,
+        "cost_usd": 0.0014023000000000002
+      },
+      "source_file": "039_Best_Practices_for_Cabling_Installation.pdf"
+    },
+    {
+      "page_summary": "This page provides guidelines for proper cable management, temperature ratings, cable gauge selection, and sheath properties for installations involving Rheonics sensors and SME terminal blocks.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics sensor cables",
+        "SME"
+      ],
+      "extracted_text": "- Cable ties/clamps should be avoided. Rather than zip ties, use hook and loop fasteners, which must also be applied loosely.\n\nFigure 4: Hook and Loop Fasteners for Cables [1]\n\n- Do not step on or run over cables with vehicles or equipment.\n- Be aware of other areas that may constrict cables or conductors and put them at risk of damage.\n- Communications cables should not be stapled with standard staples, which may crush them. Use cable staples of the correct size.\n\n1.5 Temperatures Rating for Cables\nSpecially for installations on harsh environments, with high temperatures, cables in possible contact with fluids, or outdoors applications, consider a cable sheath material capable to handle the temperature rating.\nStandard sensor cables supplied by Rheonics have a temperature rating of -30°C to 90°C. For different requirements, user needs to notify it in the RFQ (Request for Quotation).\n\n1.6 Cables Gauge connected to the SME\n- Cables connected to the SME’s terminal blocks should be at maximum 16 AWG (recommended: 20 AWG) and minimum 30 AWG.\n- It is also recommended to use crimpers or ferrules terminals, with the same AWG size, at the end of the wires connected to the SME. Don't insert more than two wires in the SME's terminals and preferably use a double cord terminal or ferrul in those cases. It is always also good to use the correct tools to strip cables and crimp wires.\n\nFigure 5: Crimper for Wires.\n\nCable Sheath Properties\nThe cable’s sheath should be selected based on the installation place, liquids cables are exposed to, etc. Next Table show principal sheath materials for industrial applications:",
+      "specifications": {
+        "Standard sensor cable temperature rating": "-30°C to 90°C",
+        "SME terminal block cable gauge (maximum)": "16 AWG",
+        "SME terminal block cable gauge (recommended)": "20 AWG",
+        "SME terminal block cable gauge (minimum)": "30 AWG"
+      },
+      "key_facts": [
+        "Hook and loop fasteners, applied loosely, are preferred over cable ties/clamps.",
+        "Rheonics standard sensor cables have a temperature rating between -30°C and 90°C.",
+        "Users with different temperature requirements must notify Rheonics in the RFQ.",
+        "Cables connected to the SME's terminal blocks should have a gauge between 16 AWG (maximum) and 30 AWG (minimum), with 20 AWG being recommended.",
+        "Using crimpers or ferrules terminals with the appropriate AWG size is recommended for wires connected to the SME.",
+        "Cable sheath material selection should be based on the installation environment, including exposure to liquids."
+      ],
+      "diagram_labels": [
+        "Figure 4: Hook and Loop Fasteners for Cables [1]",
+        "Figure 5: Crimper for Wires."
+      ],
+      "warnings_notes": [
+        "Cable ties/clamps should be avoided.",
+        "Hook and loop fasteners must be applied loosely.",
+        "Do not step on or run over cables with vehicles or equipment.",
+        "Be aware of other areas that may constrict cables or conductors and put them at risk of damage.",
+        "Communications cables should not be stapled with standard staples, which may crush them; use cable staples of the correct size.",
+        "Don't insert more than two wires in the SME's terminals."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 878,
+        "cost_usd": 0.0023347999999999997
+      },
+      "source_file": "039_Best_Practices_for_Cabling_Installation.pdf"
+    },
+    {
+      "page_summary": "This page provides an overview of cable insulation materials, illustrates the terminal blocks of the Rheonics SME-DRM, and offers guidelines for connecting power and analog signal cables.",
+      "document_type": "manual",
+      "product_names": [
+        "SME-DRM",
+        "SME",
+        "SRV",
+        "SRD",
+        "DVP",
+        "DVM"
+      ],
+      "extracted_text": "PUR\nPolyurethane\n* Liquid resistance (oil, chemicals)\n* Good abrasion resistance\n* Good flex rate\n* Working temperature up to 90°C\n* Torsion-capable: up to ±180°/m\n\nTPE\nThermo-Plastic-Elastomer\n* Good for all weather conditions.\n* Even more liquid resistance.\n* Excellent flex rate.\n* Good for welding applications.\n* Working temperature up to 105°C\n* Torsion-capable: up to ±180°/m\n\nPVC\nPolyvinylchloride\n* For general uses.\n* Medium tensile strength\n* Good resistance to chemicals.\n* Less resistance to oil.\n* Good for instrumentation and control purposes and Food and Beverage applications.\n* Most inexpensive solution.\n\n2. Cables involved in a typical Rheonics SME Installation\nThe SME-DRM has the following terminal blocks involved in a typical installation:\n\nFigure 6: SME-DRM Terminal Blocks.\n\n2.1 Power Cable:\nPositive and negative terminals are connected to the SME through push-in terminal block 1.\nDC or AC Power Cables can be single or multi-core cables, depending of the need of flexibility, space available and amount of devices to supply voltage.\nPower cables, AC voltage specially, must have a considerable distance from signal, control and communication cables, around 50mm minimum. When using wire ducts inside an electric panel, power and signal cables are recommended to go through different paths, even if they go to the same device.\nSpecifications for the Power Supply can be found in the article: Powering the Rheonics viscosity and density sensor - SRV, SRD, DVP, DVM, SME (https://support.rheonics.com/support/solutions/articles/81000297455-powering-the-sensor-input-power-to-transmitter)\n\n2.2 Analog Signal Cables:\nThe SME has 3 non-isolated 4-20mA output channels, placed in terminal block 2.\nSelecting a good cable here is important to ensure a \"clean\" signal to make its way from the SME to the PLC or analog reader.\n* Always use stranded wires (ideally with ferulles or crimpers on the tip). These wires offer good flexibility and bendability, making the installation easier and cleaner.\n* Correct Gauge for the SME's Analog Signal can vary between 18, 20 and 22AWG. Consider that 4-20mA signals are affected by a harsh enviroment and the lenght of the cable. The bigger the gauge, the less signal loss and resistance occurs, but the harder the cables are to handle.",
+      "specifications": {
+        "PUR working temperature": "up to 90°C",
+        "PUR torsion capability": "up to ±180°/m",
+        "TPE working temperature": "up to 105°C",
+        "TPE torsion capability": "up to ±180°/m",
+        "Power cable separation minimum distance": "50mm",
+        "SME analog output channels": "3 non-isolated",
+        "SME analog output signal type": "4-20mA",
+        "SME analog signal cable gauge": "18, 20 and 22AWG"
+      },
+      "key_facts": [
+        "Polyurethane (PUR) cables offer good liquid and abrasion resistance, good flex rate, and are torsion-capable.",
+        "Thermo-Plastic-Elastomer (TPE) cables provide excellent liquid resistance, flex rate, and are suitable for all weather and welding applications.",
+        "Polyvinylchloride (PVC) cables are an inexpensive solution for general use, instrumentation, control, and Food and Beverage applications, offering good resistance to chemicals.",
+        "The SME-DRM uses push-in terminal block 1 for power connections and terminal block 2 for 3 non-isolated 4-20mA analog output channels.",
+        "For power cables, especially AC voltage, a minimum separation distance of 50mm from signal, control, and communication cables is required.",
+        "When installing cables in an electric panel, it is recommended to route power and signal cables through separate paths.",
+        "Stranded wires with ferulles or crimpers are advised for analog signal cables to enhance flexibility and ease of installation.",
+        "The choice of analog signal cable gauge (18, 20, or 22 AWG) should balance signal loss reduction against the increased difficulty of handling larger gauge cables, especially in harsh environments or over long lengths."
+      ],
+      "diagram_labels": [
+        "24 v dc",
+        "gnd",
+        "modbus A",
+        "RS485 B",
+        "rheonics SME-DRM",
+        "power",
+        "sensor",
+        "comm.",
+        "data",
+        "ethernet tcp/ip modbus tcp",
+        "usb",
+        "display",
+        "sd-card",
+        "loop+",
+        "gnd -",
+        "ch1 +",
+        "ch2 +",
+        "ch3 +",
+        "sensor connection",
+        "CE",
+        "swiss made",
+        "Terminal Block 1",
+        "Ethernet Port",
+        "Micro USB Port",
+        "Terminal Block 2",
+        "Terminal Block 3",
+        "Figure 6: SME-DRM Terminal Blocks"
+      ],
+      "warnings_notes": [
+        "Power cables, AC voltage specially, must have a considerable distance from signal, control and communication cables, around 50mm minimum.",
+        "When using wire ducts inside an electric panel, power and signal cables are recommended to go through different paths, even if they go to the same device.",
+        "The bigger the gauge [for analog signal cables], the less signal loss and resistance occurs, but the harder the cables are to handle."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1449,
+        "cost_usd": 0.0037622999999999997
+      },
+      "source_file": "039_Best_Practices_for_Cabling_Installation.pdf"
+    },
+    {
+      "page_summary": "This page details cable requirements and installation guidelines for Rheonics SME devices, covering shielded, Ethernet, and sensor cables, with emphasis on electromagnetic compatibility and connectivity best practices.",
+      "document_type": "manual",
+      "product_names": [
+        "SME",
+        "Rheonics viscometer and density meter transmitter",
+        "Rheonics sensor"
+      ],
+      "extracted_text": "- To face the harsh environments of industries, shielded cables are needed for these signals. This shield is a metallic armour that prevents electromagnetic fields, created by the flow through the wires, to come out of the cable and avoids other fields to reach the wires inside the cable. Depending on the level of noise, the shielding options (ordered from low to higher protection) can vary from: Foil Shield, Braid Shield and both at the same time.\n- Twisted wires (wires wrapped around each other) are also a useful characteristic that creates electromagnetic compatibility (EMC) between wires of the same circuit and can reduce magnetic noise coming from mechanic or electric devices.\n- More on good installation of wires in the SME: Connecting and disconnecting wires to the terminal blocks on SME electronics (https://support.rheonics.com/en/support/solutions/articles/81000297453-connecting-and-disconnecting-wires-to-the-terminal-blocks-on-sme-electronics)\n- Important considerations when reading 4-20mA signals from the SME can be found on the Article: What can go wrong with 4 - 20 mA loops ? (https://support.rheonics.com/support/solutions/articles/81000397120-what-can-go-wrong-with-4-20ma-loops-)\n- Figure 7: Shielded Cables [2]\n\n**2.3 Ethernet Cable:**\n- Ethernet cables with RJ45 connectors can be used for multiple communication protocols with the SME and another device (e.g. PLC, PC, etc.). When using it, consider a minimum bending radius of 25mm. Depending on the length of the connector itself, the minimum distance \"n\" in the next drawing may vary but should be close to 70mm.\n- Figure 8: Ethernet Cable\n- SME's ethernet connection should go to an ethernet switch where other devices can be connected to create a network.\n- Further information about ethernet cable on the SME can be found here: Connecting ethernet cable to rheonics viscometer and density meter transmitter (https://support.rheonics.com/support/solutions/articles/81000300292-introducing-ethernet-connections-on-smet)\n\n**2.4 Sensor Cable:**\n- Sensor cable is included when a Rheonics sensor is purchased. It has, in one end, a M12 8-Pin-Female connector that should be inserted into the M12 8-Pin-Male connector of the Sensor. While in the other end, it has 8 stranded 20AWG wires crimped with white ferrules, that should be placed in the Block Terminal 3 of the SME in a specific order by the colors, see article: Connecting sensor cable colored wires to transmitter electronics (https://support.rheonics.com/support/solutions/articles/81000297454-connecting-sensor-cable-colored-wires-to-transmitter-electronics)\n- Sheath's material, cable length and connection orientation (0° or 90°) are customizable when doing a purchase.",
+      "specifications": {
+        "Ethernet cable minimum bending radius": "25 mm",
+        "Ethernet cable minimum distance 'n'": "70 mm",
+        "Sensor cable connector type (sensor end)": "M12 8-Pin-Male",
+        "Sensor cable connector type (cable end)": "M12 8-Pin-Female",
+        "Sensor cable wire gauge": "20 AWG",
+        "Sensor cable wire count": "8 stranded wires",
+        "Sensor cable connection orientation": "0° or 90°"
+      },
+      "key_facts": [
+        "Shielded cables are essential in harsh industrial environments to prevent electromagnetic interference.",
+        "Shielding options for cables include Foil Shield, Braid Shield, or a combination, offering varying levels of protection from low to higher.",
+        "Twisted wires are a characteristic that enhances electromagnetic compatibility (EMC) and reduces magnetic noise from devices.",
+        "Ethernet cables with RJ45 connectors are suitable for multiple communication protocols with the SME and other devices like PLCs and PCs.",
+        "SME's Ethernet connection should be directed to an Ethernet switch to facilitate network creation for other devices.",
+        "A sensor cable is provided upon the purchase of a Rheonics sensor.",
+        "The sensor cable has a M12 8-Pin-Female connector for the sensor and 8 stranded 20AWG wires with white ferrules for connection to Block Terminal 3 of the SME.",
+        "The sheath's material, cable length, and connection orientation (0° or 90°) of the sensor cable are customizable at the time of purchase."
+      ],
+      "diagram_labels": [
+        "Distance \"n\"",
+        "Bend Radius"
+      ],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1181,
+        "cost_usd": 0.0030922999999999996
+      },
+      "source_file": "039_Best_Practices_for_Cabling_Installation.pdf"
+    },
+    {
+      "page_summary": "This page illustrates dimensions for M12 0° and 90° connectors, describes the function of the SME's micro USB port for data access, and provides references and troubleshooting links for USB connections to Rheonics viscometers and density sensors.",
+      "document_type": "manual",
+      "product_names": [
+        "SME",
+        "inline viscometer SRV",
+        "inline density meter SRD",
+        "DV P",
+        "HPHT DVM"
+      ],
+      "extracted_text": "Figure 9: M12 0° Connector [3]\n\nFigure 10: M12 90° Connector [4]\n\n2.5 USB Cable:\nThe SME's micro USB Port is used to connect the electronics to a PC and use the Rheonics Control Panel Software to see online data, calibration, historic files, etc. Related articles are: USB connection to inline viscometer SRV and inline density meter SRD, DV P, HPHT DVM (https://support.rheonics.com/support/solutions/articles/81000300309-introducing-usb-connections-on-the-rheonics-smet-sensor-electronics-)\n\nNothing is happening when I plug in the USB cable! (https://support.rheonics.com/support/solutions/articles/81000406853-nothing-is-happening-when-i-plug-in-the-usb-cable-)\n\nReferences:\n[1]: Accu-Tech (https://www.accu-tech.com/)\n[2]: https://www.cablesrct.com/ (https://www.cablesrct.com/)\n[3]: Automation with Murrelektronik | stay connected (https://www.murrelektronik.com/)\n[4]: Lumberg Automation - a Belden Brand (https://lumberg-automation.com/de/index.phtml)\n[5]: https://support.rheonics.com/en/support/solutions/articles/81000408391-wire-preparation-for-sme-drm-din-rail-mount- (https://support.rheonics.com/en/support/solutions/articles/81000408391-wire-preparation-for-sme-drm-din-rail-mount-)",
+      "specifications": {
+        "M12x1": "thread size",
+        "diameter 15": "mm",
+        "length 44.5": "mm",
+        "length 31": "mm",
+        "height 28": "mm",
+        "diameter 14.5": "mm"
+      },
+      "key_facts": [
+        "The SME's micro USB Port connects its electronics to a PC for data access and use with Rheonics Control Panel Software.",
+        "The Rheonics Control Panel Software allows users to view online data, calibration information, and historic files.",
+        "Rheonics provides support articles for USB connections to their inline viscometers and density meters, as well as troubleshooting for unresponsive USB connections.",
+        "The document refers to M12 0° and M12 90° connectors, possibly related to USB cable connections or other sensor interfaces."
+      ],
+      "diagram_labels": [
+        "Ø 15",
+        "M12x1",
+        "44.5",
+        "Figure 9: M12 0° Connector [3]",
+        "31",
+        "28",
+        "M12 x 1",
+        "Ø 14,5",
+        "Figure 10: M12 90° Connector [4]"
+      ],
+      "warnings_notes": [
+        "Nothing is happening when I plug in the USB cable!"
+      ],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 901,
+        "cost_usd": 0.0023923
+      },
+      "source_file": "039_Best_Practices_for_Cabling_Installation.pdf"
+    },
+    {
+      "page_summary": "This page contains a legal disclaimer regarding the use of images for illustration purposes and the non-assertion of warranty or endorsement.",
+      "document_type": "datasheet",
+      "product_names": [],
+      "extracted_text": "DISCLAIMER\nPictures, photos and images used are for illustration purposes and do not constitute any warranty or assertions on suitability of use and should not be construed as an explicit or implicit recommendation or endorsement. All illustrations are given proper credit from our source of access and by their use here we do not specify or establish any copyright which belongs and stays unaffected with the existing copyright holder of that material.",
+      "specifications": {},
+      "key_facts": [
+        "Images within this document are for illustration purposes only.",
+        "The use of images does not imply any warranty, assertion of suitability, recommendation, or endorsement.",
+        "All illustrations are credited to their source, and their inclusion does not affect the existing copyright of the material."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "DISCLAIMER: Pictures, photos and images used are for illustration purposes and do not constitute any warranty or assertions on suitability of use and should not be construed as an explicit or implicit recommendation or endorsement.",
+        "All illustrations are given proper credit from our source of access and by their use here we do not specify or establish any copyright which belongs and stays unaffected with the existing copyright holder of that material."
+      ],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 326,
+        "cost_usd": 0.0009548
+      },
+      "source_file": "039_Best_Practices_for_Cabling_Installation.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

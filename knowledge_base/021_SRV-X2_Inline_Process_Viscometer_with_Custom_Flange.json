@@ -1,0 +1,292 @@
+{
+  "source_file": "021_SRV-X2_Inline_Process_Viscometer_with_Custom_Flange.pdf",
+  "total_pages": 6,
+  "chunks": [
+    {
+      "page_summary": "This page describes the Rheonics SRV-X2 inline process viscometer with custom flange connections, providing an overview, installation guidelines, instructions, and special considerations for its use.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV-X2",
+        "Inline Process Viscometer",
+        "SRV",
+        "Inline Viscosity Meter"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nSRV-X2: Inline Process Viscometer with Custom Flange\nModified on: Mon, 30 Dec, 2024 at 6:25 PM\n\nWhat products are involved?\nSRV - Inline Viscosity Meter (https://rheonics.com/products/inline-viscometer-srv/)\n\nWhat is the purpose of this article?\nTo give an overview of the SRV with Flange/Custom adapter connection (SRV X2), installation guidelines, instructions and special considerations. Flange norm, size, pressure rating, etc. should be defined by the customer with the order.\n\n1. Introduction\nSRV is Rheonics sensor for inline viscosity measurement (viscometer). Read more on SRV here (https://rheonics.com/products/inline-viscometer-srv/).\nThis sensor configuration (SRV-X2) allows the client to determine the type of flange/adapter needed in case none of the other standard connections are suitable. There are very few limitations to what kind of process connection can be used, but it must follow the next considerations:\n* Flange material must be 316L or 304.\n* Flange/adapter thickness must be less than 1”.\n* Flange/adapter diamenter should at least have a 33mm size.\n* The flange connection on the line (customer interface) must have an inner diameter bigger than 26mm for the SRV sensor to fit.",
+      "specifications": {
+        "Flange material": "316L or 304",
+        "Flange/adapter thickness": "< 1 inch",
+        "Flange/adapter diameter": ">= 33 mm",
+        "Flange connection inner diameter": "> 26 mm"
+      },
+      "key_facts": [
+        "The SRV-X2 is an inline process viscometer designed with a custom flange connection capability.",
+        "The SRV-X2 configuration allows clients to specify the type of flange or adapter if standard connections are not suitable.",
+        "Customers are responsible for defining the flange norm, size, and pressure rating when ordering.",
+        "The SRV is a Rheonics sensor specifically for inline viscosity measurement."
+      ],
+      "diagram_labels": [
+        "rheonics PN16 DN20"
+      ],
+      "warnings_notes": [
+        "Flange material must be 316L or 304.",
+        "Flange/adapter thickness must be less than 1 inch.",
+        "Flange/adapter diameter should at least have a 33mm size.",
+        "The flange connection on the line (customer interface) must have an inner diameter bigger than 26mm for the SRV sensor to fit.",
+        "Flange norm, size, pressure rating, etc. should be defined by the customer with the order."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 775,
+        "cost_usd": 0.0020773
+      },
+      "source_file": "021_SRV-X2_Inline_Process_Viscometer_with_Custom_Flange.pdf"
+    },
+    {
+      "page_summary": "This page provides details on custom flange options for Rheonics SRV sensors, including ordering requirements, dimensional specifications, and general installation guidelines.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SRV",
+        "SRV-X2",
+        "SRV FPC - Long insertion sensor (SRV-X5)",
+        "SR-sensors"
+      ],
+      "extracted_text": "(https://support.rheonics.com/en/support/solutions/articles/81000413589-flanged-process-density-meter-and-viscometer-norms-rating-and-sizes)\nRheonics SRV compatible flange sizes\n(https://support.rheonics.com/en/support/solutions/articles/81000413589-flanged-process-density-meter-and-viscometer-norms-rating-and-sizes)\n\nWhen ordering this option, the customer needs to provide the norm, size and pressure rating of the connection. Either state this via text or attach a drawing of the flange. Because this is a custom build, the lead times are typically around 6-8 weeks.\n\nConsider that even though large flange sizes are possible to mount, these rarely make sense from a process integration perspective. Large flanges tend to have large standpipes on the process side. This means that there is a potential risk of a stagnation zone. With the SRV flange, the extension into the fluid is limited to about around 80 mm. In case longer extensions are needed, you will need an SRV FPC - Long insertion sensor (SRV-X5).\n\nSpecify flange/adapter norm, size, pressure rating, eg:\nSRV-X2-ANSI 2\" 150lb RF\n\nUnits: mm [inch]\nFigure 1: SRV custom flange dimensions.\n\nSpecifications\nSensor: Rheonics SRV (https://rheonics.com/products/inline-viscometer-srv/)\nOrder code: SRV-X2\nConnection type: Customizable flange/adapter\nDrawing and CAD file: (https://rheonics.com/srv-npt/) (https://rheonics.com/srv-1-5-in-triclamp/) https://rheonics.com/srv-flange/ (https://rheonics.com/srv-flange/)\n\n2. General installation guidelines\n(https://rheonics.com/products/inline-viscometer-srv/) SR-sensors can be placed at any point in a process and at any orientation but is helpful to consider some terms that are usually involved in the sensor measurements.",
+      "specifications": {
+        "Sensor": "Rheonics SRV",
+        "Order code": "SRV-X2",
+        "Connection type": "Customizable flange/adapter",
+        "Max. flange thickness": "25 mm [1.00 inch]",
+        "Overall height": "133 ±1 mm [5.24 ±0.04 inch]",
+        "Insertion depth from flange bottom": "80 ±1 mm [3.14 ±0.04 inch]",
+        "Length of sensor tip below main body": "46 mm [1.80 inch]",
+        "Height of section above flange": "24 mm [0.95 inch]",
+        "Diameter of main body below flange": "26 mm [1.02 inch]",
+        "Diameter of sensor tip": "5 mm [0.20 inch]",
+        "Diameter of sensor tip base": "8 mm [0.31 inch]"
+      },
+      "key_facts": [
+        "When ordering the custom flange option, the customer needs to provide the norm, size, and pressure rating of the connection, either via text or by attaching a drawing of the flange.",
+        "Custom builds for this option typically have lead times of 6-8 weeks.",
+        "Large flange sizes, while technically mountable, rarely make sense from a process integration perspective due to the tendency of large standpipes on the process side, which poses a potential risk of a stagnation zone.",
+        "With the SRV flange, the extension into the fluid is limited to about 80 mm.",
+        "For longer extensions into the fluid, an SRV FPC - Long insertion sensor (SRV-X5) is required.",
+        "SR-sensors can be placed at any point in a process and at any orientation."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "133 ±1 [ 5.24 ±0.04 ]",
+        "24 [ 0.95 ]",
+        "80 ±1 [ 3.14 ±0.04 ]",
+        "46 [ 1.80 ]",
+        "26 Ø [ 1.02 ]",
+        "5 Ø [ 0.20 ]",
+        "8 Ø [ 0.31 ]",
+        "mm [inch]",
+        "Customizable flange/adapter Max. thickness 25 [1.00]",
+        "Figure 1: SRV custom flange dimensions."
+      ],
+      "warnings_notes": [
+        "Large flanges tend to have large standpipes on the process side, which creates a potential risk of a stagnation zone.",
+        "The extension of the SRV flange into the fluid is limited to approximately 80 mm; for longer extensions, the SRV FPC - Long insertion sensor (SRV-X5) is needed."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1259,
+        "cost_usd": 0.0032872999999999995
+      },
+      "source_file": "021_SRV-X2_Inline_Process_Viscometer_with_Custom_Flange.pdf"
+    },
+    {
+      "page_summary": "This page provides technical guidelines for the installation and operation of the Rheonics SRV viscometer, covering submersion requirements, avoiding stagnation zones, and its orientation independence.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV"
+      ],
+      "extracted_text": "2.1 Submersion\nThe viscometer SRV has a sensing element shown inside the red section in Figure 2. This section of the sensor should always be fully submerged in the fluid since SRV measures what is in contact with its sensing element. Incomplete submersion can be a problem when the flow rate is low and the pipe isn't full. A possible solution for low flow rates is placing the sensor horizontally and parallel to the fluid (e.g. in an elbow) instead of a vertical and perpendicular installation.\nFigure 2: SRV sensing area\n2.2 Stagnation/dead zone\nAlso is not good practice to have dead or stagnations zones around the sensing area (Figure 2). A stagnation or dead zone is where a fluid transfer is not good and older fluid may not be fully displaced by newer fluid. This leads to incorrect measurements due to part or all of the measurement being influenced by stationary fluid that is no longer representative of the actual process fluid. This is a clear consequence of long standpipes, once again, if the standpipe can't be short enough, the client should use an FPC version of the sensor so the insertion depth can be modified.\nA clearance of at least 5mm is also recommended between the sensor tip and a pipe wall or any other obstruction.\n2.3 Orientation independence\nSRV has a symmetrical tip, making it possible to face a flowing fluid in any direction. Its shape enables the fluid to be in contact with the tip without creating recirculation zones.",
+      "specifications": {
+        "sensing_element_length": "50 mm",
+        "sensing_element_length_imperial": "1.96 inches",
+        "sensing_element_diameter": "16 mm",
+        "sensing_element_diameter_imperial": "0.63 inches",
+        "minimum_clearance_sensor_tip_obstruction": "5 mm"
+      },
+      "key_facts": [
+        "The Rheonics SRV viscometer's sensing element, highlighted in red in Figure 2, must always be fully submerged in the fluid.",
+        "The SRV viscometer measures what is in contact with its sensing element.",
+        "Incomplete submersion of the SRV sensor can cause issues with low flow rates or when the pipe is not full.",
+        "For low flow rates, a horizontal and parallel installation (e.g., in an elbow) is suggested instead of a vertical and perpendicular one.",
+        "Having dead or stagnation zones around the SRV sensing area is not good practice.",
+        "Stagnation zones result in poor fluid transfer, leading to older, unrepresentative fluid influencing measurements.",
+        "Long standpipes can cause stagnation zones.",
+        "If a standpipe cannot be made sufficiently short, an FPC version of the SRV sensor should be used to allow for adjustable insertion depth.",
+        "A minimum clearance of 5mm is recommended between the SRV sensor tip and any pipe wall or other obstruction.",
+        "The SRV sensor features a symmetrical tip, enabling it to operate facing flowing fluid in any direction.",
+        "The symmetrical shape of the SRV tip facilitates fluid contact without creating recirculation zones."
+      ],
+      "diagram_labels": [
+        "Rheonics",
+        "50 mm",
+        "[1.96\"]",
+        "Ø16 mm",
+        "[0.63\"]",
+        "Figure 2: SRV sensing area"
+      ],
+      "warnings_notes": [
+        "The sensor should always be fully submerged in the fluid.",
+        "It is not good practice to have dead or stagnation zones around the sensing area.",
+        "A clearance of at least 5mm is recommended between the sensor tip and a pipe wall or any other obstruction."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 896,
+        "cost_usd": 0.0023797999999999996
+      },
+      "source_file": "021_SRV-X2_Inline_Process_Viscometer_with_Custom_Flange.pdf"
+    },
+    {
+      "page_summary": "This page provides technical guidance on flow considerations for SRV viscometers, detailing installation best practices for accurate measurements in various fluid types and pipeline configurations, including the use of long insertion probes in standpipes.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV"
+      ],
+      "extracted_text": "Flow lines\nFigure 3: SRV sensing tip.\n\n2.4 Flow\nFor Newtonian fluids flow rate does not affect the viscosity, so SRV should measure the same values in static and moving states of a fluid. For non-Newtonian fluids, the flow rate does matter and viscosity readings may differ between static and moving conditions. The recommendation for processes with non-constant flow rates is to install the SRV in a section in the pipeline with the most consistent flow rate to have a steady viscosity value.\nFlow rate is also relevant to ensure the full submersion of the SRV sensing element into the fluid. For a process with a low flow rate, pipes may not be full of fluid at all points, so SRV should then be placed in a section where the pipe is usually full of fluid (i.e. after a pump).\nIn all cases, the SRV’s sensing element should be completely submerged in the fluid. It’s best to avoid installations with long standpipes, since that may lead to a bad fluid transfer resulting in measurements that do not reflect the true state of fluid or worse high noise measurements.\nWhen installing in a standpipe, choose the appropriate insertion length of the sensor by selecting long insertion probes. This allows the sensing element to clear the stagnation zone and be in the fluid that is of interest for measurement, as in the next figure.\nnon-movement zone e.g. deposits\nMeasurement zone\nStand pipe\nA: Insertion length\nFigure 4: Long insertion probes for long standpipes.\n\n2.5 Fluid types\nThe SRV in general works well with almost all fluids as long as the installation is correct. Some common fluid types and scenarios are mentioned next:\n\n*   Static and moving Newtonian fluids\n*   Moving non-Newtonian fluids (Viscosity can vary at different flow rates)\n*   Inks",
+      "specifications": {},
+      "key_facts": [
+        "For Newtonian fluids, the SRV measures consistent viscosity values regardless of whether the fluid is static or moving, as flow rate does not affect their viscosity.",
+        "For non-Newtonian fluids, flow rate is significant, and viscosity readings may vary between static and moving conditions.",
+        "In processes with non-constant flow rates, it is recommended to install the SRV in a pipeline section that exhibits the most consistent flow rate to ensure a steady viscosity value.",
+        "The full submersion of the SRV sensing element in the fluid is crucial for accurate measurement.",
+        "For low flow rate processes where pipes might not always be full, the SRV should be positioned in a section that is reliably full of fluid, typically after a pump.",
+        "When installing in a standpipe, selecting long insertion probes is necessary to ensure the sensing element clears the stagnation zone and is situated in the fluid area intended for measurement.",
+        "The SRV is generally effective with static and moving Newtonian fluids, moving non-Newtonian fluids (where viscosity is flow-rate dependent), and inks, assuming correct installation."
+      ],
+      "diagram_labels": [
+        "Flow lines",
+        "non-movement zone e.g. deposits",
+        "Measurement zone",
+        "Stand pipe",
+        "A: Insertion length"
+      ],
+      "warnings_notes": [
+        "It’s best to avoid installations with long standpipes, since that may lead to a bad fluid transfer resulting in measurements that do not reflect the true state of fluid or worse high noise measurements."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 834,
+        "cost_usd": 0.0022248
+      },
+      "source_file": "021_SRV-X2_Inline_Process_Viscometer_with_Custom_Flange.pdf"
+    },
+    {
+      "page_summary": "This page details installation instructions for Rheonics inline viscometers, specifically focusing on standard and specific process flange connections for various pipe sizes and fluid conditions.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV-X2",
+        "SRV FPC",
+        "SRV Hygienic FPC",
+        "inline viscometer"
+      ],
+      "extracted_text": "- Blubbly fluids under moving conditions\n- Fluids with solids of micrometers scale\n\n3. Process connection installation instructions\n(https://rheonics.com/products/inline-viscometer-srv/) Since this sensor configuration (SRV-X2) has a custom flange, installation instructions can vary but the next steps are for a standard flange (eg. ANSI 150lb 2\" RF).\n\n3.1 Connection steps\nA standard flange installation will require two flanges, a gasket in between, a bolt, two washers and insulating sleeves (for the bolt) for each hole on the flange.\ni. Place the isolating sleeves, washers and bolts in each hole of one of the flanges (e.g. the process flange).\nii. Place the gasket, aligning it with the flange. Gasket type changes with flange norm and design.\niii. Insert the sensor with flange connection.\niv. Place the isolating sleeves, washers and nuts in the missing flange.\nv. Ensure the gasket is still well placed and start bolting down the flanges. Consider tightening the nuts in a cross sequence.\n\nFigure 5: Standard flange connection components.\n\n3.2 Specific Process Connection installation instructions\n- In line: For inline installations consider the sensing area (Figure 2) and a minimum clearance of the sensor tip to the pipe inner wall (5 mm). For most 1\", 1.5\" or 2\" pipes (for 2\" it depends on the pipe norm) a perpendicular installation with the SRV correctly submerged is not possible. In those cases, the installation is recommended to be parallel as in figure 7.a. For lines bigger than 2\" (figure 7.b), the sensor can be mounted perpendicular to the flow as long as the standpipe allows the sensing element to be submerged in flowing fluid. If the standpipe can't be reduced (figure 7.c), the SRV FPC is recommended with a customizable insertion depth. The SRV Hygienic FPC is an alternative that creates a smoother variation in cross-section than the standard FPC.",
+      "specifications": {
+        "Flange example": "ANSI 150lb 2\" RF",
+        "Minimum sensor tip clearance to pipe inner wall": "5 mm",
+        "Pipe sizes for parallel installation recommendation": "1\", 1.5\", 2\"",
+        "Pipe sizes for perpendicular installation recommendation": "> 2\""
+      },
+      "key_facts": [
+        "The viscometer is suitable for blubbly fluids under moving conditions and fluids with solids of micrometers scale.",
+        "Installation instructions for the SRV-X2 sensor configuration can vary if it has a custom flange, but the provided steps are for a standard flange (e.g., ANSI 150lb 2\" RF).",
+        "A standard flange installation requires two flanges, a gasket, a bolt, two washers, and insulating sleeves for each flange hole.",
+        "For inline installations, consider the sensing area and ensure a minimum clearance of 5 mm between the sensor tip and the pipe inner wall.",
+        "For most 1\", 1.5\", or 2\" pipes (depending on the pipe norm for 2\"), a perpendicular SRV installation may not allow correct submersion, so a parallel installation is recommended.",
+        "For lines bigger than 2\", the sensor can be mounted perpendicular to the flow if the standpipe allows the sensing element to be submerged in the flowing fluid.",
+        "If the standpipe cannot be reduced, the SRV FPC with a customizable insertion depth is recommended.",
+        "The SRV Hygienic FPC is an alternative that creates a smoother variation in cross-section than the standard FPC."
+      ],
+      "diagram_labels": [
+        "Figure 5: Standard flange connection components.",
+        "ANSI ASME B16.5 150LB 2\" RF",
+        "Figure 2",
+        "Figure 7.a",
+        "Figure 7.b",
+        "Figure 7.c"
+      ],
+      "warnings_notes": [
+        "Gasket type changes with flange norm and design.",
+        "Consider tightening the nuts in a cross sequence during flange installation.",
+        "For 2\" pipes, the feasibility of perpendicular installation depends on the specific pipe norm."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1052,
+        "cost_usd": 0.0027697999999999998
+      },
+      "source_file": "021_SRV-X2_Inline_Process_Viscometer_with_Custom_Flange.pdf"
+    },
+    {
+      "page_summary": "This page provides guidelines and illustrations for installing Rheonics SRV and FPC sensors in various tank and pipeline configurations, detailing recommended sensor types and installation practices based on pipe size, standpipe length, and application scenarios.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "FPC sensor",
+        "Long Insertion Sensor (X5)",
+        "short flange sensor"
+      ],
+      "extracted_text": "In tank: Place the sensor at the bottom, wall or lid of the tank as long as the sensing element can be fully submerged in the fluid and dead zones are avoided. Usually, it is useful if the sensor is placed at a tank's height that has always fluid.\nOthers: Larger pipelines or tanks often need a longer probe (i.e. jacketed tanks or pipes), in those scenarios, the client should also use an FPC sensor.\n\nSRV can't fit vertically in this pipe size\n2\" Pipes or smaller\n\nLong standpipe\nSensing element not immersed enough\nPotential plugging or deposits in gap\n\n2.5\" Pipes or bigger\n\nLong standpipe.\nSensing element not immersed enough.\nPotential plugging or deposits in gap.\n\nLong standpipe can't be reduced then an FPC sensor is used with a custom insertion depth.\nA Hygienic version of the sensor can be used to reduced the cross-section decrement.\n\nFigure 6: SRV Flange installation.\n\n3.3 When should you use a Long Insertion Sensor (X5) instead of a short flange sensor?\n*   Installation with long standpipes.\n*   Installation at a tank's roof and short sensor can't be fully submerged.\n*   Jacketed walls in tanks or reactors.\n*   Elbow and cross-pipe flange installations",
+      "specifications": {
+        "pipe_size_small": "2\" or smaller",
+        "pipe_size_big": "2.5\" or bigger"
+      },
+      "key_facts": [
+        "Sensors should be placed at the bottom, wall, or lid of a tank, ensuring the sensing element is fully submerged and dead zones are avoided.",
+        "It is useful if the sensor is placed at a tank's height that always contains fluid.",
+        "For larger pipelines or jacketed tanks/pipes, a longer probe (FPC sensor) should be used.",
+        "SRV sensors cannot fit vertically in pipes 2 inches or smaller.",
+        "Sensing elements must be fully immersed in the fluid to ensure proper operation.",
+        "Long standpipes can lead to the sensing element not being immersed enough, causing potential plugging or deposits in the gap.",
+        "If a long standpipe cannot be reduced, an FPC sensor with a custom insertion depth should be used.",
+        "A Hygienic version of the sensor is available to reduce cross-section decrement.",
+        "Long Insertion Sensors (X5) are recommended for installations with long standpipes.",
+        "Long Insertion Sensors (X5) are recommended for installations at a tank's roof where a short sensor cannot be fully submerged.",
+        "Long Insertion Sensors (X5) are recommended for jacketed walls in tanks or reactors.",
+        "Long Insertion Sensors (X5) are recommended for elbow and cross-pipe flange installations."
+      ],
+      "diagram_labels": [
+        "SRV can't fit vertically in this pipe size",
+        "2\" Pipes or smaller",
+        "Long standpipe",
+        "Sensing element not immersed enough",
+        "Potential plugging or deposits in gap",
+        "2.5\" Pipes or bigger",
+        "Long standpipe.",
+        "Long standpipe can't be reduced then an FPC sensor is used with a custom insertion depth.",
+        "A Hygienic version of the sensor can be used to reduced the cross-section decrement.",
+        "Figure 6: SRV Flange installation.",
+        "Rheonics"
+      ],
+      "warnings_notes": [
+        "Dead zones must be avoided during sensor placement in tanks.",
+        "Sensing element not immersed enough can lead to inaccurate measurements or sensor malfunction.",
+        "Potential plugging or deposits in gaps between the sensor and the pipe/tank wall can occur if standpipes are too long or the sensor is improperly installed."
+      ],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 971,
+        "cost_usd": 0.0025673
+      },
+      "source_file": "021_SRV-X2_Inline_Process_Viscometer_with_Custom_Flange.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

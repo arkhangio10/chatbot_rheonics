@@ -1,0 +1,61 @@
+{
+  "source_file": "SRV-X5-Flange.pdf",
+  "total_pages": 1,
+  "chunks": [
+    {
+      "page_summary": "This page presents a technical drawing and key specifications for the Rheonics SRV-X5 Long Insertion Probe.",
+      "document_type": "drawing",
+      "product_names": [
+        "Rheonics SRV-X5",
+        "SRV-X5 Long Insertion Probe SRV"
+      ],
+      "extracted_text": "Rheonics SRV-X5\nMax. Pressure\n100 bar (1500 psi)\nMaterial\n316\nOrder Code\nSRV-X5-Axxx-Byyy\nB: Custom Flange/Adapter\n30\nΦ [ 1.18 ]\n14\nΦ [ 0.55 ]\n5\nΦ [ 0.20 ]\n8\nΦ [ 0.31 ]\nA: Insertion length\nmin. 80 mm [3.15]\n46 ±1\n[ 1.80 ±0.04 ]\nmm\nUnits:\n[inch]\nSRV-X5\nLong Insertion Probe SRV\nThis drawing remains property of rheonics. It may be neither copied nor informed to third persons or competitors without our approval. ( 2 paragraph 1 fig.7 copyright act of 9th Sept. 1965)\nProtected by US and International patents granted and pending\nrheonics • Switzerland • USA • www.rheonics.com • info@rheonics.com +41 52 511 32 00 +1 713 364 5427\nRelease: 2402\nrheonics\ninline process\ndensity and viscosity\nmonitoring",
+      "specifications": {
+        "Max. Pressure": "100 bar (1500 psi)",
+        "Material": "316",
+        "Order Code": "SRV-X5-Axxx-Byyy",
+        "Minimum Insertion Length (A)": "80 mm [3.15 inch]",
+        "Probe Length (from flange bottom to end of 5mm dia section)": "46 ±1 mm [1.80 ±0.04 inch]",
+        "Probe Body Diameter (below flange)": "30 mm [1.18 inch]",
+        "Probe Mid-section Diameter": "14 mm [0.55 inch]",
+        "Lower Probe Shaft Diameter": "5 mm [0.20 inch]",
+        "Probe Tip Diameter": "8 mm [0.31 inch]"
+      },
+      "key_facts": [
+        "The Rheonics SRV-X5 is a long insertion probe for inline process density and viscosity monitoring.",
+        "It has a maximum pressure rating of 100 bar (1500 psi).",
+        "The probe is constructed from 316 material.",
+        "The minimum insertion length for the probe is 80 mm (3.15 inches).",
+        "Dimensions for various parts of the probe are provided in both millimeters and inches.",
+        "The drawing specifies a custom flange/adapter option for the probe.",
+        "Rheonics is a company based in Switzerland and USA, specializing in inline process density and viscosity monitoring.",
+        "The document indicates that the product is protected by US and International patents."
+      ],
+      "diagram_labels": [
+        "A: Insertion length min. 80 mm [3.15]",
+        "B: Custom Flange/Adapter",
+        "Φ [ 1.18 ]",
+        "Φ [ 0.55 ]",
+        "Φ [ 0.20 ]",
+        "Φ [ 0.31 ]"
+      ],
+      "warnings_notes": [
+        "This drawing remains property of rheonics. It may be neither copied nor informed to third persons or competitors without our approval. ( 2 paragraph 1 fig.7 copyright act of 9th Sept. 1965)",
+        "Protected by US and International patents granted and pending"
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 929,
+        "cost_usd": 0.0024622999999999997
+      },
+      "source_file": "SRV-X5-Flange.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

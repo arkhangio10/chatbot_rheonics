@@ -1,0 +1,223 @@
+{
+  "source_file": "171_Using_IO-Link_output_from_Rheonics_Sensors_with_PACTware.pdf",
+  "total_pages": 4,
+  "chunks": [
+    {
+      "page_summary": "This page describes the use of IO-Link output from Rheonics sensors, specifically the SRV viscometer and SRD density meter, for industrial automation with PACTware, and details the components of an IO-Link master system.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics process viscometer SRV",
+        "Rheonics process density meter SRD"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nUsing IO-Link output from Rheonics Sensors with PACTware\n\nModified on: Mon, 26 Aug, 2024 at 9:46 PM\n\nIO-Link is a standardized communication protocol used in industrial automation to enable communication between sensors or actuators and a master device, such as a programmable logic controller (PLC) or a distributed control system (DCS). It facilitates the data exchange and configuration parameters between devices reliably and efficiently.\n\nRheonics has successfully implemented an IO-Link communication with their electronics for communication with IO-Link Masters. This enables online process viscometer SRV to transmit real-time viscosity and temperature measurement data over IO-Link to other devices like PLC and IO-Link master. Similarly, Rheonics process density meter SRD can transmit density, concentration, specific gravity, viscosity, kinematic viscosity, and temperature over IO-Link.\n\nFigure 1. IO-LINK master devices\n\n1. Components\n1.1. IO-Link master\nAn IO-Link master is a device used in industrial automation to connect and manage communication between IO-Link-enabled sensors or actuators and a higher-level control system, such as a PLC or a PC.",
+      "specifications": {},
+      "key_facts": [
+        "IO-Link is a standardized communication protocol for industrial automation.",
+        "IO-Link enables reliable and efficient data exchange and configuration between sensors, actuators, and master devices like PLCs or DCS.",
+        "Rheonics has integrated IO-Link communication into their electronics for use with IO-Link Masters.",
+        "The Rheonics online process viscometer SRV can transmit real-time viscosity and temperature data via IO-Link.",
+        "The Rheonics process density meter SRD can transmit density, concentration, specific gravity, viscosity, kinematic viscosity, and temperature data via IO-Link.",
+        "An IO-Link master connects and manages communication between IO-Link-enabled sensors/actuators and a higher-level control system (e.g., PLC or PC)."
+      ],
+      "diagram_labels": [
+        "IO-Link",
+        "MOD-M88x-IO",
+        "IN-DC PWR USB",
+        "Pin 4",
+        "Pin 2",
+        "Error",
+        "CE",
+        "RDY",
+        "BF",
+        "SF",
+        "LNK",
+        "ACT",
+        "X 21",
+        "X 22",
+        "X 07",
+        "X 08",
+        "DI",
+        "I&T"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 721,
+        "cost_usd": 0.0019422999999999999
+      },
+      "source_file": "171_Using_IO-Link_output_from_Rheonics_Sensors_with_PACTware.pdf"
+    },
+    {
+      "page_summary": "This page details the Rheonics SME-DRM module and its IO-Link adapter, covering its features, hardware connectivity with an IO-Link Master, and the structure of its process data.",
+      "document_type": "manual",
+      "product_names": [
+        "IO-Link adapter",
+        "Rheonics SME-DRM",
+        "Rheonics SME"
+      ],
+      "extracted_text": "1.2. IO-Link Adapter\nAn IO-Link converter is a device that facilitates the conversion between different communication protocols.\n\n1.3. Rheonics SME\nThe SME-DRM is an ultra-fast and robust electronics combined with comprehensive computational models, suitable for mounting on DIN rails and inside cabinets. Powered by 24Volts, the Rheonics SME-DRM is equipped with an Ethernet port, SD card slot, Modbus RTU RS-485 port, and 3 channels for 4-20 mA Analog outputs.\n\n2. Hardware connection and block diagram\nConnect the IO-Link adapter from the Rheonics sensor to an IO-Link Master device.\n\nFigure 2. Rheonics SME IO-Link slave to IO-Link Master\n\n3. Data Structure\nAddress 0\n\nParameter | Data In Format\n---|---\nSensor Status | 1 Unsigned Int16\nPower Supply | 2 Float 32\n- | 3 -\nParameter 12 Viscosity Last Good | 4 Float 32",
+      "specifications": {
+        "power_input": "24 Volts",
+        "analog_outputs": "3 channels for 4-20 mA",
+        "sensor_status_data_format": "Unsigned Int16",
+        "power_supply_data_format": "Float 32",
+        "parameter_12_viscosity_last_good_data_format": "Float 32"
+      },
+      "key_facts": [
+        "An IO-Link converter facilitates the conversion between different communication protocols.",
+        "The SME-DRM is an ultra-fast and robust electronics device.",
+        "The SME-DRM combines comprehensive computational models.",
+        "The SME-DRM is suitable for mounting on DIN rails and inside cabinets.",
+        "The SME-DRM is powered by 24Volts.",
+        "The Rheonics SME-DRM is equipped with an Ethernet port, SD card slot, Modbus RTU RS-485 port, and 3 channels for 4-20 mA Analog outputs.",
+        "The IO-Link adapter connects the Rheonics sensor to an IO-Link Master device."
+      ],
+      "diagram_labels": [
+        "IO-Link",
+        "Designed by PN",
+        "X11",
+        "X12",
+        "X21",
+        "X22",
+        "X31",
+        "X32",
+        "X01",
+        "X02",
+        "X03",
+        "X04",
+        "X05",
+        "X06",
+        "X07",
+        "X08",
+        "IO-Link adapter",
+        "A",
+        "B",
+        "Modbus TCP Ethernet RJ45",
+        "Reset",
+        "SD-Card",
+        "D.C.S.P."
+      ],
+      "warnings_notes": [
+        "Applies to all SME Versions"
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 808,
+        "cost_usd": 0.0021598
+      },
+      "source_file": "171_Using_IO-Link_output_from_Rheonics_Sensors_with_PACTware.pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions and a data map for accessing and interpreting process data from a Rheonics sensor using PACTware software and an IO-Link device.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics sensor"
+      ],
+      "extracted_text": "Table 1. Address 0 data access point\n| Parameter | Register | Data Type |\n|---|---|---|\n| - | 5 | - |\n| Parameter 12 Viscosity Last Good - Status | 6 | Unsigned Int16 |\n| Parameter 13 Density Last Good | 7 | Float 32 |\n| - | 8 | - |\n| Parameter 13 Density Last Good - Status | 9 | Unsigned Int16 |\n| Parameter 2 Temperature Median | 10 | Float 32 |\n| - | 11 | - |\n| Parameter 2 Temperature Median -Status | 12 | Unsigned Int16 |\n| Parameter 4 Kinematic Viscosity | 13 | Float 32 |\n| - | 14 | - |\n| Parameter 4 Kinematic Viscosity-Status | 15 | Unsigned Int16 |\n\n4. Accessing the Data\n4.1. Open PACTware and select the IO-Link device that is connected\n4.2. Scan the connected device to display all preconfigured data stored in the Rheonics sensor.\n4.3. In Output (from PLC), select the address 0 to access the preprogrammed data from the adapter. This will provide access to the Input registers from the sensor. Check Table 1\n4.4. In Pactware to visualize data, go to “Process data”, and click the cyclic read button.\n\n[Screenshot of PACTware DC software interface]\nPACTware DC\nDevice Favorites Settings\nSet device parameter\nSave as favorite Clone parameters\n\nNavigation Menu:\n1. Start\n2. Connection Parameter\n3. Search\n4. Select DTM\n5. Device\nRead from device\nWrite to device\nParameter\n\nDetail Menu:\nIdentification\nParameter\nProcess data\nProcess data structure\nEvents\nInfo\nConnection info\n\nDevice Information:\nVendor: Banner Engineering Corporation\nProduct: S15C-MGN-KQ\nProduct id: S15C-MGN-KQ\n\nProcess Data Section:\nProcess data V (Enable or disable cyclic read from device for process data)\n\nInput (to PLC)\nName | Value\nProcess Data In : Read Set Register 02 Value | 3500\nProcess Data In : Read Set Register 03 Value | 256\nProcess Data In : Read Set Register 04 Value | 0\nProcess Data In : Read Set Register 05 Value | 0\nProcess Data In : Read Set Register 06 Value | 2\nProcess Data In : Read Set Register 07 Value | 0\nProcess Data In : Read Set Register 08 Value | 16343\nProcess Data In : Read Set Register 09 Value | 9234\nProcess Data In : Read Set Register 10 Value | 168\nProcess Data In : Read Set Register 11 Value | 0\nProcess Data In : Read Set Register 12 Value | 16343\nProcess Data In : Read Set Register 13 Value | 9234\nProcess Data In : Read Set Register 14 Value | 24\nProcess Data In : Read Set Register 15 Value | 24\n\nOutput (from PLC)\nName | Value\n+ Process Data Out\n\nFigure 3. Starting cyclic read with Rheonics sensor\n\n4.5. The data should be converted back into the PLC or DCS using the information from Table 1",
+      "specifications": {
+        "Parameter 12 Viscosity Last Good - Status (Register 6)": "Unsigned Int16",
+        "Parameter 13 Density Last Good (Register 7)": "Float 32",
+        "Parameter 13 Density Last Good - Status (Register 9)": "Unsigned Int16",
+        "Parameter 2 Temperature Median (Register 10)": "Float 32",
+        "Parameter 2 Temperature Median -Status (Register 12)": "Unsigned Int16",
+        "Parameter 4 Kinematic Viscosity (Register 13)": "Float 32",
+        "Parameter 4 Kinematic Viscosity-Status (Register 15)": "Unsigned Int16"
+      },
+      "key_facts": [
+        "PACTware software is used to interface with an IO-Link device to access data from a Rheonics sensor.",
+        "The Rheonics sensor stores preconfigured data which is displayed upon scanning the connected IO-Link device.",
+        "Address 0 is used to access preprogrammed data and input registers from the sensor via an adapter.",
+        "Sensor data can be visualized in PACTware by navigating to the 'Process data' section and clicking the cyclic read button.",
+        "Data obtained from the sensor must be converted back into the PLC or DCS using the data type information provided in Table 1."
+      ],
+      "diagram_labels": [
+        "PACTware DC",
+        "Device",
+        "Favorites",
+        "Settings",
+        "Set device parameter",
+        "Save as favorite",
+        "Clone parameters",
+        "1. Start",
+        "2. Connection Parameter",
+        "3. Search",
+        "4. Select DTM",
+        "5. Device",
+        "Read from device",
+        "Write to device",
+        "Parameter",
+        "Menu",
+        "Identification",
+        "Process data",
+        "Process data structure",
+        "Events",
+        "Info",
+        "Connection info",
+        "Vendor: Banner Engineering Corporation",
+        "Product: S15C-MGN-KQ",
+        "Product id: S15C-MGN-KQ",
+        "Process data V",
+        "Enable or disable cyclic read from device for process data",
+        "Input (to PLC)",
+        "Name",
+        "Value",
+        "Process Data In : Read Set Register 02 Value",
+        "Process Data In : Read Set Register 03 Value",
+        "Process Data In : Read Set Register 04 Value",
+        "Process Data In : Read Set Register 05 Value",
+        "Process Data In : Read Set Register 06 Value",
+        "Process Data In : Read Set Register 07 Value",
+        "Process Data In : Read Set Register 08 Value",
+        "Process Data In : Read Set Register 09 Value",
+        "Process Data In : Read Set Register 10 Value",
+        "Process Data In : Read Set Register 11 Value",
+        "Process Data In : Read Set Register 12 Value",
+        "Process Data In : Read Set Register 13 Value",
+        "Process Data In : Read Set Register 14 Value",
+        "Process Data In : Read Set Register 15 Value",
+        "Output (from PLC)",
+        "+ Process Data Out"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1683,
+        "cost_usd": 0.0043473
+      },
+      "source_file": "171_Using_IO-Link_output_from_Rheonics_Sensors_with_PACTware.pdf"
+    },
+    {
+      "page_summary": "This page provides a reference to a Rheonics support article explaining how to check data in a PLC, specifically covering IO-Link integration with a Siemens S7-1200 PLC and an IO-Link Master SM-1278.",
+      "document_type": "manual",
+      "product_names": [
+        "S7-1200",
+        "IO-Link Master SM-1278"
+      ],
+      "extracted_text": "5. How to check the data in a PLC?\nCheck this support article: https://support.rheonics.com/en/support/solutions/articles/81000413652-io-link-integration-with-s7-1200-with-io-link-master-sm-1278\n(https://support.rheonics.com/en/support/solutions/articles/81000413652-io-link-integration-with-s7-1200-with-io-link-master-sm-1278)",
+      "specifications": {},
+      "key_facts": [
+        "To check data in a PLC, users are directed to a specific Rheonics support article.",
+        "The referenced support article addresses IO-Link integration with a Siemens S7-1200 PLC.",
+        "The integration also involves an IO-Link Master SM-1278."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 357,
+        "cost_usd": 0.0010323
+      },
+      "source_file": "171_Using_IO-Link_output_from_Rheonics_Sensors_with_PACTware.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

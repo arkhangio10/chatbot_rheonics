@@ -1,0 +1,54 @@
+{
+  "source_file": "065_Data-Types_(Modbus_RTU_RS-485).pdf",
+  "total_pages": 1,
+  "chunks": [
+    {
+      "page_summary": "This page details the Modbus RTU RS-485 data types used by Rheonics devices, including floating point and integer types, and a comprehensive breakdown of parameter status bits indicating various error, warning, and operational conditions.",
+      "document_type": "notes",
+      "product_names": [],
+      "extracted_text": "Phone: +1 713 234 0863\nData-Types (Modbus RTU RS-485)\nModified on: Fri, 3 Jul, 2020 at 2:03 PM\n\n*   Float: IEEE754 floating point. This data type spans two registers which should be read together. Depending on the endianness of the host it might be necessary to swap high/low byte and/or the respective registers.\n*   Int16: Signed 16 bit integer (register)\n*   Uint16: Unsigned 16 bit integer\n*   Parameter status: The parameter status is a bitmask of individual status bits. As a general rule Bit 0 checking should be implemented where a set bit corresponds to an error/warning condition. In case of a critical error the parameter value is also set to NAN (not a number – See IEEE754)\n    *   Bit 0: General error – Check other bits for more detailed configuration\n    *   Bit 1: Internal configuration error – Restart. If error persists call Rheonics for support\n    *   Bit 2: Hardware error, e.g. broken temperature sensor. Call Rheonics for support and arrange RMA\n    *   Bit 3: Dependency error: a parameter is calculated from other parameters and one of the source parameter has an error. Check all other parameters for errors.\n    *   Bit 4: Device is starting up and no results are ready.\n    *   Bit 5: Internal error – Restart. If error persists call Rheonics for support.\n    *   Bit 8: Parameter result is not stable. Check measurement conditions (flow, vibration, etc.)\n    *   Bit 15: Parameter exceeds sensor upper limit. No results available.\n    *   Bit 14: Parameter below sensor lower limit. No results available.\n    *   Bit 13: Parameter value above upper warning range. Measurements might not be accurate and sensor performance might be reduced.\n    *   Bit 12: Parameter value below lower warning range. Measurements might not be accurate and sensor performance might be reduced.",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics devices use Modbus RTU RS-485 for communication.",
+        "The Float data type is an IEEE754 floating point, occupying two registers.",
+        "Int16 is a signed 16-bit integer, and Uint16 is an unsigned 16-bit integer.",
+        "The Parameter status is a bitmask, where Bit 0 indicates a general error or warning.",
+        "Bit 1 signifies an internal configuration error.",
+        "Bit 2 indicates a hardware error, such as a broken temperature sensor.",
+        "Bit 3 indicates a dependency error where a calculated parameter's source parameter has an error.",
+        "Bit 4 indicates the device is in a startup phase, and results are not yet available.",
+        "Bit 5 signifies an internal error.",
+        "Bit 8 indicates that the parameter result is not stable.",
+        "Bit 15 signals that the parameter has exceeded the sensor's upper limit.",
+        "Bit 14 signals that the parameter is below the sensor's lower limit.",
+        "Bit 13 indicates the parameter value is above the upper warning range.",
+        "Bit 12 indicates the parameter value is below the lower warning range."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "For the Float data type, it might be necessary to swap high/low bytes or registers depending on the host's endianness.",
+        "As a general rule, Bit 0 of the parameter status should be checked to identify error/warning conditions.",
+        "If a critical error occurs, the parameter value will be set to NAN (Not a Number) as per IEEE754.",
+        "In case of Bit 1 or Bit 5 internal errors, a restart is recommended; if the error persists, Rheonics support should be contacted.",
+        "A Bit 2 hardware error, such as a broken temperature sensor, requires contacting Rheonics for support and to arrange an RMA.",
+        "When a Bit 3 dependency error occurs, all other parameters should be checked for errors.",
+        "For a Bit 8 unstable parameter result, measurement conditions (like flow, vibration) should be checked.",
+        "When Bit 15 or Bit 14 are set (parameter exceeds or is below sensor limits), no results will be available.",
+        "If Bit 13 or Bit 12 are set (parameter in warning range), measurements might not be accurate, and sensor performance might be reduced."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1115,
+        "cost_usd": 0.0029273
+      },
+      "source_file": "065_Data-Types_(Modbus_RTU_RS-485).pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

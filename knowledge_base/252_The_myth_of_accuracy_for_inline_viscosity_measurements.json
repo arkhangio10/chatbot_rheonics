@@ -1,0 +1,65 @@
+{
+  "source_file": "252_The_myth_of_accuracy_for_inline_viscosity_measurements.pdf",
+  "total_pages": 2,
+  "chunks": [
+    {
+      "page_summary": "This page discusses the concept of accuracy in inline viscosity measurements, differentiating between viscosity and consistency, and explaining how these concepts apply to Newtonian and non-Newtonian fluids.",
+      "document_type": "whitepaper",
+      "product_names": [],
+      "extracted_text": "Phone: +1 713 234 0863\n\nThe myth of accuracy for inline viscosity measurements\nModified on: Tue, 12 Mar, 2024 at 5:41 PM\n\nIntroduction\nAccuracy is only meaningful for a viscometer when measuring the viscosity of a Newtonian fluid.\nSince viscosity describes a fluid’s resistance to flow, nearly all viscometers rely on deforming - shearing - the fluid in one way or another, and then measuring the effects of that shearing.\nA Newtonian fluid’s resistance to shearing depends only on the rate at which it is sheared. If the shear rate is known, then the accuracy, with which its resistance to shearing can be measured, defines the accuracy of the measurement.\nBut there are many difficulties that stand in the way of measuring viscosity - so many, that viscosity is almost a mythical quantity that doesn’t really exist for most fluids.\n\nViscosity vs. Consistency\nAlmost everyone has experienced viscosity of many common fluids. Honey, for instance, is thousands of time more viscous than water. Honey takes much longer to flow out of a jar than water does. You have to work harder to rub honey between your fingers than you do water. And if you spill honey on the floor, it takes much longer to spread than does the same amount of water.\nThese are all subjective qualities of honey - we experience them as “consistency” rather than a more scientific, quantitative term like “viscosity”. If I told you that honey has a viscosity of 4,000 centipoise, but water’s viscosity is only 1 centipoise, it wouldn’t mean as much as all the subjective experiences that make honey what it is.\nBut honey is a nearly Newtonian fluid - it would show pretty much the same viscosity if I measured its drag on a rotating spindle, how fast it flowed out of a calibrated funnel (a Zahn cup, for instance) or how fast it flowed through a glass capillary viscometer.\nFor the consumer of honey, however, consistency matters more than a number describing viscosity. This is the case for most fluid products made and sold for industrial, medical, and household use.\nKetchup is a common example of a non-Newtonian fluid. For instance, when you pour ketchup onto a hamburger, it doesn't even behave like a liquid. It spreads out in a puddle, but doesn't keep spreading - it piles up in a little mound on top, that keeps its shape until you push it down, whether with a fork or with the top of the bun.",
+      "specifications": {
+        "phone_number": "+1 713 234 0863",
+        "last_modified_date": "Tue, 12 Mar, 2024 at 5:41 PM",
+        "honey_viscosity_example": "4,000 centipoise",
+        "water_viscosity_example": "1 centipoise"
+      },
+      "key_facts": [
+        "Accuracy for a viscometer is primarily meaningful when measuring the viscosity of a Newtonian fluid.",
+        "Viscometers operate by deforming (shearing) a fluid and measuring the effects.",
+        "A Newtonian fluid's resistance to shearing depends solely on the rate at which it is sheared.",
+        "Viscosity is presented as an \"almost mythical quantity that doesn’t really exist for most fluids\" due to inherent measurement difficulties.",
+        "Subjective qualities of fluids are often described as \"consistency\" rather than the scientific term \"viscosity.\"",
+        "Honey is cited as a nearly Newtonian fluid.",
+        "Ketchup is provided as a common example of a non-Newtonian fluid."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 896,
+        "cost_usd": 0.0023797999999999996
+      },
+      "source_file": "252_The_myth_of_accuracy_for_inline_viscosity_measurements.pdf"
+    },
+    {
+      "page_summary": "This page explains that ketchup possesses a consistency rather than a single definable viscosity, and manufacturers must quantify and maintain this consistency to meet consumer expectations.",
+      "document_type": "notes",
+      "product_names": [],
+      "extracted_text": "Ketchup doesn't have a viscosity! It has a consistency - the way it behaves when trying to get it out of the bottle, and how it lies on the food. Trying to measure the viscosity of ketchup with different kinds of viscometers will give you a whole range of numbers that are scattered all over the place. Even trying to measure it with a simple rotating spindle viscometer will give you different numbers depending on how fast the spindle is turning, how long you've been measuring, and whether you've moved the spindle in the last few seconds.\nIt is impossible to define a viscosity for ketchup, since any measurement is going to be different from any other measurement. What ketchup manufacturers need is a way of quantifying the consistency of the product - they want to keep the ketchup's consistency constant because that is what the customer expects.\nYou probably don't want to buy a brand of ketchup that piles nicely on your hamburger some of the time but drips off onto your hands and clothing another time!",
+      "specifications": {},
+      "key_facts": [
+        "Ketchup possesses a consistency, which describes its behavior, rather than a single definable viscosity.",
+        "Attempting to measure ketchup's viscosity using various viscometers or even a simple rotating spindle viscometer under different conditions yields a wide range of inconsistent numbers.",
+        "It is impossible to define a singular viscosity for ketchup because measurements will vary.",
+        "Ketchup manufacturers' primary need is to quantify and maintain the consistency of their product to satisfy customer expectations.",
+        "Inconsistent ketchup consistency (e.g., sometimes piling, sometimes dripping) is undesirable for customers."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 433,
+        "cost_usd": 0.0012223000000000002
+      },
+      "source_file": "252_The_myth_of_accuracy_for_inline_viscosity_measurements.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

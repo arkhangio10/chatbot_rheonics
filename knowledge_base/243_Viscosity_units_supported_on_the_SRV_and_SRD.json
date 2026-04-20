@@ -1,0 +1,130 @@
+{
+  "source_file": "243_Viscosity_units_supported_on_the_SRV_and_SRD.pdf",
+  "total_pages": 3,
+  "chunks": [
+    {
+      "page_summary": "This document defines viscosity, introduces Rheonics' SRV and SRD products, and explains how the SRV sensor measures viscosity using a balanced torsional resonator.",
+      "document_type": "notes",
+      "product_names": [
+        "SRV",
+        "SRD",
+        "SME-TRD",
+        "Rheonics process viscometer SRV"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nViscosity units supported on the SRV and SRD\nModified on: Tue, 28 Nov, 2023 at 6:15 PM\n\nViscosity is a measure of a fluid’s resistance to deformation or flow. In simpler terms, it refers to how thick or thin a fluid\nis. Viscosity is defined as the ratio of shear stress to shear rate when a fluid is subjected to uniform shearing.\n\n[Image of SME-TRD with SRV probe, CE and ATEX symbols]\nFigure 1. SME-TRD with SRV probe\n\nTABLE OF CONTENTS\n*   1. How is Viscosity measured with the SRV?\n*   2. What Units are available as output from Rheonics process viscometer SRV?\n*   3. Why is it important to measure viscosity?\n*   4. References\n\n1. How is Viscosity measured with the SRV?\nThe rheonics SRV measures viscosity by means of a balanced torsional resonator, one end of which is immersed in\nthe fluid under test. The more viscous the fluid, the higher the mechanical damping of the resonator. By measuring the\ndamping, the product of viscosity x density may be calculated by rheonics' proprietary algorithms.",
+      "specifications": {},
+      "key_facts": [
+        "Viscosity is a measure of a fluid’s resistance to deformation or flow.",
+        "Viscosity is defined as the ratio of shear stress to shear rate when a fluid is subjected to uniform shearing.",
+        "The Rheonics SRV measures viscosity using a balanced torsional resonator.",
+        "The SRV calculates the product of viscosity x density by measuring the mechanical damping of the resonator using Rheonics' proprietary algorithms.",
+        "The document was last modified on Tue, 28 Nov, 2023 at 6:15 PM."
+      ],
+      "diagram_labels": [
+        "CE",
+        "Ex",
+        "ATEX",
+        "rheonics",
+        "KEEP COVER TIGHT WHILE CIRCUITS ARE LIVE",
+        "Figure 1. SME-TRD with SRV probe"
+      ],
+      "warnings_notes": [
+        "KEEP COVER TIGHT WHILE CIRCUITS ARE LIVE"
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 617,
+        "cost_usd": 0.0016823
+      },
+      "source_file": "243_Viscosity_units_supported_on_the_SRV_and_SRD.pdf"
+    },
+    {
+      "page_summary": "This page illustrates the frequency response of a Rheonics viscometer probe in fluids of different viscosities and details the various viscosity units available as output from the Rheonics process viscometer SRV.",
+      "document_type": "datasheet",
+      "product_names": [
+        "Rheonics process viscometer SRV",
+        "Rheonics probe"
+      ],
+      "extracted_text": "Response of the same resonator immersed in two fluids of different viscosities\nmagnitude low viscosity\nmagnitude high viscosity\nphase low viscosity\nphase high viscosity\n\nFigure 2. Rheonics probe response when immersed in fluid.\n\n2. What Units are available as output from Rheonics process viscometer SRV?\nThese diverse viscosity units are crucial for ensuring accurate and standardized communication of material properties across different fields. The choice of unit depends on the specific characteristics of the substance being measured and the industry or discipline in which the measurement is applied.\n\n1. mPa·s (millipascal-second):\n  ◦ Description: This unit represents viscosity measured in millipascal-seconds. It is a metric unit of dynamic viscosity.\n  ◦ Importance: mPa·s is crucial for precise measurements of dynamic viscosity, particularly in scientific research and industrial applications. It provides a standardized and convenient unit for expressing viscosity in a metric context.\n\n2. cP (centipoise):\n  ◦ Description: Centipoise is a unit of dynamic viscosity in the centimeter-gram-second (CGS) system, representing one-hundredth of a poise.\n  ◦ Importance: Centipoise is widely used in industries where the viscosity of fluids significantly impacts product quality. It is particularly valuable in fields such as pharmaceuticals, cosmetics, and petrochemicals for quality control and product development.\n\n3. Pa·s (pascal-second):\n  ◦ Description: The pascal-second is the SI unit of dynamic viscosity. It is equivalent to one newton-second per square meter.",
+      "specifications": {},
+      "key_facts": [
+        "The Rheonics process viscometer SRV can output viscosity measurements in mPa·s (millipascal-second), cP (centipoise), and Pa·s (pascal-second).",
+        "The choice of viscosity unit depends on the specific characteristics of the substance being measured and the industry or discipline.",
+        "mPa·s is a metric unit of dynamic viscosity, important for precise measurements in scientific research and industrial applications, providing a standardized and convenient metric context.",
+        "cP is a unit of dynamic viscosity in the centimeter-gram-second (CGS) system, representing one-hundredth of a poise.",
+        "cP is widely used in industries like pharmaceuticals, cosmetics, and petrochemicals for quality control and product development.",
+        "Pa·s is the SI unit of dynamic viscosity and is equivalent to one newton-second per square meter."
+      ],
+      "diagram_labels": [
+        "Low viscosity",
+        "High viscosity",
+        "Frequency, Hz.",
+        "magnitude low viscosity",
+        "magnitude high viscosity",
+        "phase low viscosity",
+        "phase high viscosity",
+        "Response of the same resonator immersed in two fluids of different viscosities",
+        "Figure 2. Rheonics probe response when immersed in fluid.",
+        "7500",
+        "7600",
+        "7700",
+        "7800",
+        "7900",
+        "8000",
+        "8100",
+        "8200",
+        "8300",
+        "8400",
+        "8500"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 830,
+        "cost_usd": 0.0022148
+      },
+      "source_file": "243_Viscosity_units_supported_on_the_SRV_and_SRD.pdf"
+    },
+    {
+      "page_summary": "This page details the importance of dynamic viscosity measurements, defines common units like Pa·s, Poise, and Reyn, and explains why viscosity measurement is crucial across various industries.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "inline viscometer",
+        "inline density meter"
+      ],
+      "extracted_text": "o   Importance: As the SI unit of dynamic viscosity, Pa·s is fundamental in scientific research, engineering, and fluid dynamics. Its use provides consistency and compatibility across various disciplines, ensuring accurate and standardized measurements of fluid behavior.\n\n4.  Poise:\no   Description: The poise is the CGS unit of dynamic viscosity, equal to one dyne-second per square centimeter.\no   Importance: The poise is essential for historical and specific contexts, especially in older literature and applications where the CGS system is still relevant. It serves as a valuable unit for expressing dynamic viscosity in the centimeter-gram-second system.\n\n5.  Reyn:\no   Description: The Reyn is a unit of dynamic viscosity in the British Gravitational System (BG), where 1 Reyn is defined as the viscosity of 1 pound-force second per square foot.\no   Importance: While less common today, the Reyn is historically significant in the British Gravitational System. It may be encountered in older literature and certain specialized fields. Understanding the Reyn can be important for interpreting and converting data from historical sources that use this unit.\n\nUnderstanding and measuring viscosity is crucial in various industries to ensure the proper functioning of fluids in processes ranging from manufacturing to transportation. The choice of unit depends on the specific requirements of the application and the preferred system of measurement.\n\n3. Why is it important to measure viscosity?\n\nViscosity measurements are vital in characterizing materials for research and development purposes. In the petroleum industry, viscosity assessment ensures the quality of crude oil and lubricants. It optimizes industrial processes by enhancing efficiency in mixing and pumping\n\nMeasuring viscosity is crucial for quality control in manufacturing various products, including pharmaceuticals and cosmetics.\n\nEnvironmental monitoring utilizes viscosity measurements to assess water quality and detect contaminants. Viscosity is fundamental in predicting fluid flow for engineering applications. Industries such as food processing and printing depend on viscosity control to achieve desired product consistency and quality.\n\n4. References\n1.  https://rheonics.com/products/inline-viscometer-srv/ (https://rheonics.com/products/inline-viscometer-srv/)\n2.  https://rheonics.com/products/inline-density-meter-srd/ (https://rheonics.com/products/inline-density-meter-srd/)\n3.  https://en.wikipedia.org/wiki/Viscosity (https://en.wikipedia.org/wiki/Viscosity)",
+      "specifications": {
+        "Poise definition": "one dyne-second per square centimeter",
+        "Reyn definition": "1 pound-force second per square foot"
+      },
+      "key_facts": [
+        "Pa·s is the SI unit of dynamic viscosity, fundamental in scientific research, engineering, and fluid dynamics, providing consistency and compatibility for measurements of fluid behavior.",
+        "The Poise is the CGS unit of dynamic viscosity, equivalent to one dyne-second per square centimeter, and is important for historical and specific contexts where the CGS system is still relevant.",
+        "The Reyn is a unit of dynamic viscosity in the British Gravitational System, defined as 1 pound-force second per square foot, and holds historical significance for interpreting data from older literature and specialized fields.",
+        "Understanding and measuring viscosity is crucial across various industries, including manufacturing and transportation, to ensure the proper functioning of fluids.",
+        "Viscosity measurements are vital for characterizing materials in research and development, ensuring the quality of crude oil and lubricants in the petroleum industry, and optimizing industrial processes by enhancing mixing and pumping efficiency.",
+        "Measuring viscosity is crucial for quality control in the manufacturing of products such as pharmaceuticals and cosmetics.",
+        "Environmental monitoring uses viscosity measurements to assess water quality and detect contaminants.",
+        "Viscosity control is fundamental for predicting fluid flow in engineering applications and is essential for achieving desired product consistency and quality in industries like food processing and printing.",
+        "The choice of viscosity unit depends on the specific application's requirements and the preferred system of measurement."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 969,
+        "cost_usd": 0.0025623
+      },
+      "source_file": "243_Viscosity_units_supported_on_the_SRV_and_SRD.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

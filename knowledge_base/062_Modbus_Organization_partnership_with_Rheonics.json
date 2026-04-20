@@ -1,0 +1,168 @@
+{
+  "source_file": "062_Modbus_Organization_partnership_with_Rheonics.pdf",
+  "total_pages": 5,
+  "chunks": [
+    {
+      "page_summary": "This page details Rheonics' partnership with the Modbus Organization and highlights the Modbus communication capabilities of their density and viscosity meters.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics density meters",
+        "Rheonics viscometers",
+        "Modbus ready density and viscosity meter"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nModbus Organization partnership with Rheonics\n\nModified on: Wed, 28 Feb, 2024 at 10:56 PM\n\nThe Modbus Organization is a group of independent users and suppliers of automation devices that seeks to drive the adoption of the Modbus communication protocol suite and the evolution to address architectures for distributed automation systems across multiple market segments. The Modbus Organization will also provide the infrastructure to obtain and share information about the protocols, their application, and certification to simplify implementation by users resulting in reduced costs.\n\nModbus RTU and Modbus TCP/IP are available on Rheonics density meters and viscometers over a 2-wire RS-485 interface and Ethernet port.\n\nModbus ready density and viscosity meter\n\nOutputs:\nDensity\nViscosity\nTemperature\nConcentration\nCompensated viscosity\nCompensated density\n\nFigure 1. RS485 and Ethernet port used for Modbus communication\n\n1. Rheonics Membership\n\nRheonics is a member of the Modbus organization as a vendor of hardware, software, and Modbus-compatible systems. Check our membership at this link: Modbus Organization Members (https://modbus.org/about.php)\n\n[Device Display Readings from image]:\nSTATUS: READY, WITHIN LIMITS\nVisc: 20.814 cP\nDens: 1.000 g/cc\nTemp: 24.321 °C\nSN: 0001000210000003",
+      "specifications": {
+        "Supported Modbus protocols": "Modbus RTU, Modbus TCP/IP",
+        "Communication interfaces": "2-wire RS-485, Ethernet port",
+        "Measured outputs": "Density, Viscosity, Temperature, Concentration, Compensated viscosity, Compensated density"
+      },
+      "key_facts": [
+        "Rheonics is partnered with the Modbus Organization.",
+        "The Modbus Organization aims to drive the adoption and evolution of the Modbus communication protocol suite for automation systems.",
+        "Rheonics density meters and viscometers are capable of Modbus RTU and Modbus TCP/IP communication.",
+        "Modbus communication on Rheonics devices is achieved through a 2-wire RS-485 interface and an Ethernet port.",
+        "Rheonics is a vendor member of the Modbus Organization, providing hardware, software, and Modbus-compatible systems.",
+        "The contact phone number for Rheonics is +1 713 234 0863."
+      ],
+      "diagram_labels": [
+        "Modbus RTU",
+        "Modbus TCP/IP",
+        "Density",
+        "Viscosity",
+        "Temperature",
+        "Concentration",
+        "Compensated viscosity",
+        "Compensated density",
+        "Figure 1. RS485 and Ethernet port used for Modbus communication"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 801,
+        "cost_usd": 0.0021422999999999998
+      },
+      "source_file": "062_Modbus_Organization_partnership_with_Rheonics.pdf"
+    },
+    {
+      "page_summary": "This page details Rheonics' Modbus integration capabilities, support resources, and their membership in the Modbus organization for their fluid process monitoring instruments.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "Modbus-compatible sensors",
+        "Rheonics sensor"
+      ],
+      "extracted_text": "Rheonics\n3 Sugar Creek Center Blvd Suite 100\nSugar Land, TX 77478\nUSA\nwww.rheonics.com\n713-364-5474 - Telephone\n- Fax\nRheonics brings together a team of experts from the leading universities and global companies to build cutting edge fluid process monitoring instruments. Rheonics is advised by an advisory board made of leaders from the industrial automation & process industry.\nFigure 2. Rheonics membership in the Modbus organization\nRheonics provides detailed user manuals and technical support for integration. Our Modbus-compatible sensors can be easily integrated into Modbus networks thanks to all the guidelines and steps provided in our support portal. In addition, our experienced engineering team can assist with installation and configuration to ensure successful integration into your Modbus network on time. Visit our Support portal for more information on Modbus Protocol: Modbus RTU (RS-485) (https://support.rheonics.com/en/support/solutions/folders/81000217005) and Modbus TCP/IP (Ethernet) (https://support.rheonics.com/en/support/solutions/folders/81000217062).\nFigure 3. Modbus partnership between Modbus organization and Rheonics\n2. How does this partnership benefit your process?\nWhen evaluating network options for your device, both Modbus TCP/IP and Modbus RTU provide distinct advantages:",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics provides detailed user manuals and technical support for Modbus integration of their sensors.",
+        "Rheonics' Modbus-compatible sensors can be easily integrated into Modbus networks using guidelines and steps from their support portal.",
+        "An experienced Rheonics engineering team is available for installation and configuration assistance for Modbus network integration.",
+        "The Rheonics Support portal offers information on Modbus RTU (RS-485) and Modbus TCP/IP (Ethernet) protocols.",
+        "Rheonics is a member of the Modbus organization.",
+        "Both Modbus TCP/IP and Modbus RTU offer distinct advantages for device network options."
+      ],
+      "diagram_labels": [
+        "Figure 2. Rheonics membership in the Modbus organization",
+        "Modbus MEMBER",
+        "Process",
+        "Alarms",
+        "Modbus",
+        "Info",
+        "V: 1234.56",
+        "D: 1234.56",
+        "T: 123.45",
+        "rheonics",
+        "Figure 3. Modbus partnership between Modbus organization and Rheonics"
+      ],
+      "warnings_notes": [
+        "KEEP COVER TIGHT WHILE CIRCUITS ARE ALIVE"
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 720,
+        "cost_usd": 0.0019398000000000002
+      },
+      "source_file": "062_Modbus_Organization_partnership_with_Rheonics.pdf"
+    },
+    {
+      "page_num": 3,
+      "page_summary": "Extraction failed",
+      "document_type": "unknown",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "extraction_failed": true,
+      "source_file": "062_Modbus_Organization_partnership_with_Rheonics.pdf"
+    },
+    {
+      "page_summary": "This page details the implementation and benefits of Modbus communication in Rheonics sensors, outlines various applications where Modbus is utilized by Rheonics customers, and describes advanced calculation models available via Modbus.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SME"
+      ],
+      "extracted_text": "with a common speed being 9600 baud, indicating the number of bits transmitted per second.\n\nIn Standard Modbus, information is organized and stored within the Server device using four distinct tables. These tables are designed to accommodate different types of data – two for on/off discrete values (coils) and two for numerical values (registers). Importantly, each of these tables comprises both a read-only section and a read-write section.\n\n5. Why do we have this option in our sensors?\n\nIn multiple automation applications, Modbus plays a pivotal role by ensuring smooth communication between an array of field devices and the central control system, with a special emphasis on its integration with PLCs.\n\nRheonics SME with Modbus communication facilitates remote access to comprehensive device diagnostics and configurations, resulting in swift decision-making, reduced downtime, and an overall enhancement of system efficiency.\n\n6. Rheonics Expertise\n\nA few typical applications where our customers are using Modbus protocol are:\n\n*   Transmission of density (weight) of drilling mud over Modbus.\n*   The viscosity of batter mix that is applied to various appetizer food products.\n*   Plywood glue manufacturing and application - measure and transmit viscosity and temperature of glue.\n*   Measure and transmit viscosity in the process for water-based ink.\n*   Measure and transmit the density, viscosity, and temperature of ceramic slurry from the slurry drum to the PLC and SCADA system in shell rooms.\n*   Monitoring and transmission of density, viscosity, and temperature to SCADA system over Modbus in Processing plants for food production as well as in the beverage industry and dairies\n*   Automation and control for water/wastewater treatment uses PLC with Modbus communication to get sewage water density and viscosity for nitrification, polyelectrolyte, and calamity detection.\n*   and many more.\n\n7. What is available in Modbus?\n\nWe also offer advanced calculation models for compensated viscosity, compensated density, and concentration which can be transmitted over Modbus along with the line measurements. Learn how you can get °API, °Baume, compensated viscosity, and density using the onboard MATHS engine > Measurements (https://support.rheonics.com/en/support/solutions/81000186361)\n\n8. Resources\n\n1. Modbus RTU (RS-485) (https://support.rheonics.com/en/support/solutions/folders/81000217005)",
+      "specifications": {
+        "communication_speed": "9600 baud"
+      },
+      "key_facts": [
+        "Standard Modbus organizes information in a Server device using four distinct tables: two for on/off discrete values (coils) and two for numerical values (registers).",
+        "Each Modbus table includes both a read-only section and a read-write section.",
+        "Modbus plays a pivotal role in automation applications by ensuring smooth communication between field devices and central control systems, with a special emphasis on PLCs.",
+        "Rheonics SME sensors with Modbus communication facilitate remote access to device diagnostics and configurations.",
+        "Modbus communication in Rheonics SME sensors leads to swift decision-making, reduced downtime, and an overall enhancement of system efficiency.",
+        "Rheonics customers use Modbus for various applications including transmission of density for drilling mud, viscosity of batter mix, viscosity and temperature of plywood glue, viscosity of water-based ink, and density, viscosity, and temperature for ceramic slurry, food production, beverage industry, dairies, and water/wastewater treatment.",
+        "Rheonics offers advanced calculation models for compensated viscosity, compensated density, and concentration transmittable via Modbus.",
+        "The onboard MATHS engine can provide values such as °API, °Baume, compensated viscosity, and density."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 941,
+        "cost_usd": 0.0024923
+      },
+      "source_file": "062_Modbus_Organization_partnership_with_Rheonics.pdf"
+    },
+    {
+      "page_summary": "This page lists technical references for Modbus TCP, Modbus TCP/IP, EtherNet/IP, and HART communication protocols, with several entries specifically mentioning Rheonics viscometer and density meter integration.",
+      "document_type": "manual",
+      "product_names": [
+        "R X20",
+        "viscometer",
+        "density meter"
+      ],
+      "extracted_text": "2. Modbus TCP (Ethernet) (https://support.rheonics.com/en/support/solutions/folders/81000217062)\n3. Modbus TCP integration with B&R X20/Sensor Connection to PLC (https://support.rheonics.com/en/support/solutions/folders/81000286852)\n4. Modbus TCP/IP Integration with Micro820 (https://support.rheonics.com/en/support/solutions/folders/81000290913)\n\n9. References\n1. The Modbus Organization (https://modbus.org/)\n2. What is Modbus and How does it work? | Schneider Electric USA (https://www.se.com/us/en/faqs/FA168406/)\n3. Rheonics Integration to PLC » rheonics :: viscometer and density meter (https://rheonics.com/rheonics-integration-to-plc/)\n4. EtherNet/IP: The standard protocol for communication in industrial networks » rheonics :: viscometer and density meter (https://rheonics.com/ethernet-ip-the-standard-protocol-for-communication-in-industrial-networks/)\n5. HART partnership between FieldComm Group and Rheonics » rheonics :: viscometer and density meter (https://rheonics.com/hart-partnership-between-fieldcomm-group-and-rheonics/)",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics provides support documentation for Modbus TCP (Ethernet) integration.",
+        "Rheonics offers documentation for Modbus TCP integration with B&R X20 sensors connected to PLCs.",
+        "Rheonics supports Modbus TCP/IP integration with Micro820 controllers.",
+        "Rheonics viscometers and density meters can be integrated into PLCs.",
+        "Rheonics viscometers and density meters utilize EtherNet/IP as a standard communication protocol for industrial networks.",
+        "Rheonics has a partnership with FieldComm Group regarding HART communication for its viscometers and density meters."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 606,
+        "cost_usd": 0.0016547999999999999
+      },
+      "source_file": "062_Modbus_Organization_partnership_with_Rheonics.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": [
+      3
+    ]
+  }
+}

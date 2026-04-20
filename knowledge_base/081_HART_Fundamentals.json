@@ -1,0 +1,637 @@
+{
+  "source_file": "081_HART_Fundamentals.pdf",
+  "total_pages": 13,
+  "chunks": [
+    {
+      "page_summary": "This page provides an introduction to HART protocol fundamentals, its operational principles, and a detailed table of contents outlining its characteristics, commands, and integration with Rheonics devices and various industrial control systems.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "Rheonics HART device",
+        "Rheonics inline viscosity and density meter",
+        "Rheonics SME",
+        "Siemens/ET 200SP HA",
+        "Allen-Bradley/ControlLogix HART I/O Modules",
+        "Emerson/RX3i Analog Input module, HART",
+        "Phoenix Contact/AXL P Al8 HART 1F - Analog module",
+        "Schneider Electric/ Modicon X80",
+        "ABB | Al845 Analog Input S/R HART 8 ch",
+        "Honeywell|C300",
+        "Yokogawa|JUXXTA D",
+        "ABB|System 800xA",
+        "Rockwell automation|PlantPaX"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nHART Fundamentals\n\nModified on: Tue, 31 Oct, 2023 at 12:35 AM\n\nTABLE OF CONTENTS\n\n1. What is the HART protocol?\n2. How HART protocol work?\n3. HART Characteristics\n4. HART Commands\n5. What configuration do I need in a Rheonics HART device?\n  5.1. Short address\n  5.2. HART communication devices\n    5.2.1. PLC\n      5.2.1.1. Siemens/ET 200SP HA\n      5.2.1.2. Allen-Bradley/ControlLogix HART I/O Modules\n      5.2.1.3. Emerson/RX3i Analog Input module, HART\n      5.2.1.4. Phoenix Contact/AXL P Al8 HART 1F - Analog module\n      5.2.1.5. Schneider Electric/ Modicon X80\n      5.2.1.6. ABB | Al845 Analog Input S/R HART 8 ch\n    5.2.2. DCS\n      5.2.2.1. Honeywell|C300\n      5.2.2.2. Yokogawa|JUXXTA D\n      5.2.2.3. ABB|System 800xA\n      5.2.2.4. Rockwell automation|PlantPaX\n    5.2.3. Field Communicator\n    5.2.4. HART Modem\n6. Does Rheonics inline viscosity and density meter support HART?\n7. How does Rheonics support HART integration and development?\n8. REFERENCES\n\n1. What is the HART protocol?\n“HART” is an acronym for Highway Addressable Remote Transducer. The HART Protocol superimposes digital communication signals at a low level on top of a 4-20mA signal using the Frequency Shift Keying (FSK) standard. The HART protocol is used worldwide to send and receive digital information on analog current loops (4-20 mA) between field instruments and distributed control systems.[1]\n\n2. How HART protocol work?\nUsing the same 4-20mA wiring used for analog communications in Channel 1 from the Rheonics SME, a digital signal is encoded with a technique known as Frequency Shift Keying(FSK). Data from the digital signal includes PV, status, diagnostics, and additional measurements or calculations.",
+      "specifications": {
+        "Current signal range": "4-20 mA"
+      },
+      "key_facts": [
+        "HART stands for Highway Addressable Remote Transducer.",
+        "The HART Protocol superimposes digital communication signals at a low level on top of a 4-20mA signal.",
+        "HART uses the Frequency Shift Keying (FSK) standard for digital communication.",
+        "The HART protocol is utilized globally for transmitting and receiving digital information over analog current loops (4-20 mA) between field instruments and distributed control systems.",
+        "The Rheonics SME employs 4-20mA wiring for analog communications, and a digital signal is encoded using Frequency Shift Keying (FSK).",
+        "Data transmitted via the HART digital signal includes Process Variable (PV), status, diagnostics, and additional measurements or calculations."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1028,
+        "cost_usd": 0.0027098
+      },
+      "source_file": "081_HART_Fundamentals.pdf"
+    },
+    {
+      "page_num": 2,
+      "page_summary": "Extraction failed",
+      "document_type": "unknown",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "extraction_failed": true,
+      "source_file": "081_HART_Fundamentals.pdf"
+    },
+    {
+      "page_summary": "This page details the HART communication topology for Rheonics sensors, explains the hierarchical structure of HART commands, and provides initial configuration information for Rheonics HART devices.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Sensor",
+        "Rheonics HART device",
+        "Rheonics SME"
+      ],
+      "extracted_text": "SME\nRheonics SME\n34V DC\nGND\nModbus RS485 A\nModbus RS485 B\nModbus TCP/IP\nSensor connection\nLoop +\nGND -\nCH1 +\nCH2 +\nCH3 +\nPLC\n250Ω\nHART communicator\n\nFigure 2. HART Topology with Rheonics Sensor\n\n4. HART Commands\nAccording to the HART Protocol, all communication takes place through a request (or command) from the host communication device during normal operation. For example, the host may be a PLC, distributed control system, or a PC-based asset management system.\n\nFigure 3. HART command list.\n\nHART Command List (Pyramid):\n- Non-public: For manufacturer's use for maintenance\n- Wireless HART: Command designed specifically for WirelessHART devices.\n- Device Specific: Device Specific commands represent functions that are unique to each field device.\n- Common Practice: Common Practice commands provide functions implemented by many, but not necessarily all, HART Communication devices.\n- Universal: All devices using the HART Protocol must recognize and support the universal commands.\n\n5. What configuration do I need in a Rheonics HART device?\n5.1. Short address\nRheonics sensor by default is set to a polling address 0, this can be edited at any time by the Rheonics Support time when applications with multidrop devices are needed.",
+      "specifications": {
+        "resistor": "250 Ω"
+      },
+      "key_facts": [
+        "The HART Protocol enables communication via requests or commands from a host device, such as a PLC, distributed control system, or PC-based asset management system.",
+        "HART commands are classified into Universal, Common Practice, Device Specific, Wireless HART, and Non-public categories.",
+        "All devices using the HART Protocol are required to recognize and support universal commands.",
+        "Rheonics sensors are factory-set to a default polling address of 0.",
+        "The polling address of a Rheonics sensor can be modified by Rheonics Support for multidrop device applications."
+      ],
+      "diagram_labels": [
+        "SME",
+        "Rheonics SME",
+        "34V DC",
+        "GND",
+        "Modbus RS485 A",
+        "Modbus RS485 B",
+        "Modbus TCP/IP",
+        "Sensor connection",
+        "Loop +",
+        "GND -",
+        "CH1 +",
+        "CH2 +",
+        "CH3 +",
+        "PLC",
+        "250Ω",
+        "HART communicator",
+        "Figure 2. HART Topology with Rheonics Sensor",
+        "Non-public",
+        "For manufacturer's use for maintenance",
+        "Wireless HART",
+        "Command designed specifically for WirelessHART devices.",
+        "Device Specific",
+        "Device Specific commands represent functions that are unique to each field device.",
+        "Common Practice",
+        "Common Practice commands provide functions implemented by many, but not necessarily all, HART Communication devices.",
+        "Universal",
+        "All devices using the HART Protocol must recognize and support the universal commands.",
+        "Figure 3. HART command list."
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 840,
+        "cost_usd": 0.0022398
+      },
+      "source_file": "081_HART_Fundamentals.pdf"
+    },
+    {
+      "page_summary": "This page details HART communication devices, specifically focusing on Programmable Logic Controllers (PLCs) and providing examples of HART-compatible analog input cards from Siemens and Allen-Bradley for industrial automation.",
+      "document_type": "manual",
+      "product_names": [
+        "HART communication devices",
+        "PLC (Programmable Logic Controller)",
+        "DCS",
+        "HART modem",
+        "Siemens SIMATIC ET 200SP HA",
+        "Interface Module IM 155-6 PN HA",
+        "Allen-Bradley/ControlLogix HART I/O Modules",
+        "Allen-Bradley/Rockwell Automation"
+      ],
+      "extracted_text": "5.2. HART communication devices\n,Common devices that are used for HART communication are PLC, DCS, HART modem and HART communication.\n\n5.2.1. PLC\nA Programmable Logic Controller (PLC) is a digital computer that uses inputs and outputs to automate industrial processes. HART communication requires special hardware, which is not available in every analog card used in PLCs. Therefore, it is important to select the right analog card when the application requires HART communication.\nSome examples of HART analog input cards:\n\n5.2.1.1. Siemens/ET 200SP HA\nThe Siemens SIMATIC ET 200SP HA Interface Module IM 155-6 PN HA supports HART communication.\n\nFigure 4. Analog card with HART-compatible SIMATIC ET 200SP HA[2]\n\n5.2.1.2. Allen-Bradley/ControlLogix HART I/O Modules\nThese modules are designed to maximize system performance by combining real-time HART data with standard analog data. They're part of the Allen-Bradley/Rockwell Automation brand.",
+      "specifications": {},
+      "key_facts": [
+        "Common devices for HART communication include PLCs, DCS, and HART modems.",
+        "A Programmable Logic Controller (PLC) is a digital computer designed to automate industrial processes through inputs and outputs.",
+        "HART communication in PLCs necessitates special hardware, specifically the appropriate analog card, which is not universally available in all analog cards.",
+        "The Siemens SIMATIC ET 200SP HA Interface Module IM 155-6 PN HA provides support for HART communication.",
+        "Allen-Bradley/ControlLogix HART I/O Modules are engineered to enhance system performance by integrating real-time HART data with conventional analog data.",
+        "Allen-Bradley/ControlLogix modules are components of the Allen-Bradley/Rockwell Automation brand."
+      ],
+      "diagram_labels": [
+        "HF",
+        "AI",
+        "4xI 2-wire HART",
+        "DIAG",
+        "24V DC",
+        "Max. 10A",
+        "X1",
+        "X2",
+        "Figure 4. Analog card with HART-compatible SIMATIC ET 200SP HA[2]"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 692,
+        "cost_usd": 0.0018698
+      },
+      "source_file": "081_HART_Fundamentals.pdf"
+    },
+    {
+      "page_summary": "This page describes various HART-enabled analog input modules from different manufacturers, including ControlLogix, Emerson/RX3i, and Phoenix Contact/AXL, detailing their channel configurations and data collection capabilities.",
+      "document_type": "manual",
+      "product_names": [
+        "ControlLogix HART I/O Modules",
+        "Emerson/RX3i Analog Input module",
+        "HART module",
+        "IC695ALG626",
+        "Phoenix Contact/AXL P AI8 HART 1F - Analog module",
+        "AxioLine P local bus"
+      ],
+      "extracted_text": "Figure 5. ControlLogix HART I/O Modules[3]\n\n5.2.1.3. Emerson/RX3i Analog Input module, HART\nThis HART module has 16 channels single-ended and 8 channels differential. The channels are configurable for voltage, current, and current/HART.\n\nFigure 6. HART analog input module IC695ALG626 - RX3i[4]\n\n5.2.1.4. Phoenix Contact/AXL P AI8 HART 1F - Analog module\nThe analog input I/O module with HART capabilities collects analog input and HART data from the field I/O terminals and makes this information available to the bus coupler through the AxioLine P local bus.",
+      "specifications": {
+        "channels_single_ended": "16",
+        "channels_differential": "8",
+        "channel_configuration_options": "voltage, current, current/HART"
+      },
+      "key_facts": [
+        "The Emerson/RX3i HART module has 16 single-ended channels and 8 differential channels.",
+        "The channels of the Emerson/RX3i module are configurable for voltage, current, and current/HART.",
+        "The Phoenix Contact/AXL P AI8 HART 1F - Analog module collects analog input and HART data from field I/O terminals.",
+        "The Phoenix Contact/AXL module makes collected information available to the bus coupler through the AxioLine P local bus."
+      ],
+      "diagram_labels": [
+        "MODULE OK",
+        "FIELD STATUS",
+        "TB",
+        "IC695ALG",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 576,
+        "cost_usd": 0.0015798000000000001
+      },
+      "source_file": "081_HART_Fundamentals.pdf"
+    },
+    {
+      "page_summary": "This page introduces the Schneider Electric Modicon X80 system, describing it as a range of I/O modules and racks, and features an image of an analog output card.",
+      "document_type": "manual",
+      "product_names": [
+        "Modicon X80",
+        "Analog output card AXL"
+      ],
+      "extracted_text": "Figure 7. Analog output card AXL[5]\n\n5.2.1.5. Schneider Electric/ Modicon X80\n\nThe Modicon X80 is a range of I/O (Input/Output) modules and racks produced by Schneider Electric. They are part of the hardware component and provide HART-compatible analog inputs.",
+      "specifications": {},
+      "key_facts": [
+        "The Modicon X80 is a series of I/O modules and racks manufactured by Schneider Electric.",
+        "Modicon X80 components are designed to provide HART-compatible analog inputs."
+      ],
+      "diagram_labels": [
+        "Figure 7. Analog output card AXL[5]"
+      ],
+      "warnings_notes": [],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 269,
+        "cost_usd": 0.0008123
+      },
+      "source_file": "081_HART_Fundamentals.pdf"
+    },
+    {
+      "page_summary": "This page describes the ABB AI845 Analog Input S/R HART 8 ch module, part of the ABB S800 I/O range, and includes an image of a HART analog input card.",
+      "document_type": "manual",
+      "product_names": [
+        "ABB AI845 Analog Input S/R HART 8 ch",
+        "ABB S800 I/O",
+        "BMXAMO0410H"
+      ],
+      "extracted_text": "Figure 8. HART analog input card BMXAMO0410H[6]\n\n5.2.1.6. ABB | AI845 Analog Input S/R HART 8 ch\nThe ABB AI845 Analog Input S/R HART 8 ch is a module that's part of the ABB's S800 I/O range. It provides eight analog input channels and supports HART protocol.",
+      "specifications": {
+        "Analog Input Channels": "8"
+      },
+      "key_facts": [
+        "The ABB AI845 Analog Input S/R HART 8 ch is a module.",
+        "It is part of the ABB's S800 I/O range.",
+        "It provides eight analog input channels.",
+        "It supports HART protocol."
+      ],
+      "diagram_labels": [
+        "00",
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31"
+      ],
+      "warnings_notes": [],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 525,
+        "cost_usd": 0.0014523
+      },
+      "source_file": "081_HART_Fundamentals.pdf"
+    },
+    {
+      "page_summary": "This page introduces the benefits of Distributed Control Systems (DCS) for HART devices, illustrating an Analog Input S/R HART module (AI845) and detailing the Honeywell C300 Controller as a core DCS component.",
+      "document_type": "manual",
+      "product_names": [
+        "AI845",
+        "Honeywell C300 Controller",
+        "Honeywell Experion LX",
+        "Honeywell Experion PKS"
+      ],
+      "extracted_text": "Figure 9. Analog Input S/R HART 8 ch AI845 [7]\n\n5.2.2. DCS\nOne of the key advantages of using DCS for HART devices is the ability to access detailed information about the devices. DCS can read and interpret the digital data transmitted by HART devices, providing valuable insights into their health, status, and diagnostics. This information can be used for predictive maintenance, troubleshooting, and optimizing process performance.\n\nSome examples of DCS modules:\n\n5.2.2.1. Honeywell|C300\nThe Honeywell C300 Controller is part of Honeywell's Experion LX and Experion PKS distributed Control Systems (DCS). This controller is the core unit for control and data acquisition in these systems, and it's designed to enhance process control performance and reliability.",
+      "specifications": {
+        "Channels": "8 ch",
+        "Input_current_range": "0-20mA",
+        "Input_voltage_range": "0-5V"
+      },
+      "key_facts": [
+        "One key advantage of using DCS for HART devices is the ability to access detailed information about the devices.",
+        "DCS can read and interpret digital data transmitted by HART devices, offering insights into device health, status, and diagnostics.",
+        "Information from DCS and HART devices can be utilized for predictive maintenance, troubleshooting, and optimizing process performance.",
+        "The Honeywell C300 Controller is a core unit for control and data acquisition within Honeywell's Experion LX and Experion PKS Distributed Control Systems.",
+        "The Honeywell C300 Controller is designed to enhance process control performance and reliability."
+      ],
+      "diagram_labels": [
+        "F",
+        "R",
+        "W",
+        "AI845",
+        "8 ch",
+        "0-20mA",
+        "0-5V",
+        "HART"
+      ],
+      "warnings_notes": [],
+      "page_num": 8,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 563,
+        "cost_usd": 0.0015473000000000002
+      },
+      "source_file": "081_HART_Fundamentals.pdf"
+    },
+    {
+      "page_summary": "This page details components of Distributed Control Systems (DCS), specifically illustrating the Honeywell C300 controller module with its various connections and identifying the Yokogawa JUXTA D series as a modular signal conditioner, while also mentioning ABB System 800xA.",
+      "document_type": "manual",
+      "product_names": [
+        "Honeywell C300",
+        "Yokogawa JUXTA D",
+        "ABB System 800xA",
+        "D Series"
+      ],
+      "extracted_text": "5.2.2.2. Yokogawa|JUXTA D\nFigure 10. DCS Honeywell C300[8]\nThe D Series is a DCS-supported signal conditioner, consisting of modular type signal converters with versatile I/O specifications and housing nest.\nFigure 11. DCS Yokowaga JUXTA D[9]\n5.2.2.3. ABB|System 800xA",
+      "specifications": {},
+      "key_facts": [
+        "The Honeywell C300 is a controller module with redundant I/O links, FTE address switches, battery connection for RAM retention, and private redundancy communication path.",
+        "The Yokogawa JUXTA D (D Series) is a DCS-supported signal conditioner.",
+        "The Yokogawa JUXTA D consists of modular type signal converters.",
+        "The Yokogawa JUXTA D features versatile I/O specifications and a housing nest."
+      ],
+      "diagram_labels": [
+        "I/O Termination Assembly",
+        "FTE Address Switches",
+        "Battery Connection for RAM retention",
+        "Private Redundancy Communication Path",
+        "Redundant FTE Connectors",
+        "Redundant I/O Link #1",
+        "C300 Controller Module",
+        "Redundant I/O Link #2",
+        "POWER",
+        "STATUS",
+        "CONTROLLER",
+        "FTE",
+        "SERIES C300 I/O",
+        "ASSY NO. 51308125-",
+        "REV",
+        "Honeywell CHINA",
+        "DEVICE INDEX",
+        "MEMORY BACK-UP",
+        "GPS",
+        "DATE CODE",
+        "BAR CODE",
+        "Honeywell"
+      ],
+      "warnings_notes": [],
+      "page_num": 9,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 548,
+        "cost_usd": 0.0015098
+      },
+      "source_file": "081_HART_Fundamentals.pdf"
+    },
+    {
+      "page_summary": "This page details how Distributed Control Systems (DCS) like ABB System 800xA and Rockwell PlantPAx, along with HART field communicators, enable communication with and management of HART-enabled devices.",
+      "document_type": "manual",
+      "product_names": [
+        "System 800xA",
+        "HART-enabled devices",
+        "DCS ABB System 800xA",
+        "Rockwell Automation's PlantPAx Distributed Control System (DCS)",
+        "HART (Highway Addressable Remote Transducer) protocol",
+        "HART communicator"
+      ],
+      "extracted_text": "The System 800xA can be used to communicate with HART-enabled devices. This means that System 800xA can collect, configure, calibrate, and diagnose HART devices. It does this through HART-capable I/O modules, which can communicate with HART devices and bring their data back to the System 800xA.\n\nFigure 12. DCS ABB System 800xA[10]\n\n5.2.2.4. Rockwell automation|PlantPAx\n\nRockwell Automation's PlantPAx Distributed Control System (DCS) supports the use of HART (Highway Addressable Remote Transducer) protocol through specific I/O modules. These modules can communicate with HART-enabled devices, allowing for enhanced device management and diagnostics.\n\nPlantPAx\nDistributed Control System\n\nFigure 13. DCS Rockwell automation PlantPAx[11]\n\n5.2.3. Field Communicator\n\nThe HART communicator is ideal for monitoring or calibrating multiple instruments or for monitoring instruments in hazardous areas. The HART communicator does not require physical contact with the instrument, so it can be used in places where physical access is limited or hazardous. It also provides the ability to monitor or calibrate multiple instruments, which can be especially helpful in industrial or hazardous environments.",
+      "specifications": {},
+      "key_facts": [
+        "The System 800xA can communicate with HART-enabled devices to collect, configure, calibrate, and diagnose them through HART-capable I/O modules.",
+        "Rockwell Automation's PlantPAx Distributed Control System (DCS) supports the HART (Highway Addressable Remote Transducer) protocol via specific I/O modules for enhanced device management and diagnostics.",
+        "HART communicators are suitable for monitoring or calibrating multiple instruments in hazardous areas or where physical access is limited, as they do not require physical contact with the instrument."
+      ],
+      "diagram_labels": [
+        "Figure 12. DCS ABB System 800xA[10]",
+        "PlantPAx Distributed Control System",
+        "Figure 13. DCS Rockwell automation PlantPAx[11]"
+      ],
+      "warnings_notes": [],
+      "page_num": 10,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 645,
+        "cost_usd": 0.0017522999999999998
+      },
+      "source_file": "081_HART_Fundamentals.pdf"
+    },
+    {
+      "page_summary": "This page details the functionality of HART modems, showcases various HART communication devices including a Yokogawa portable communicator, an Emerson device communicator, and a Commubox USB/HART modem, and poses a question regarding Rheonics' support for HART communication.",
+      "document_type": "manual",
+      "product_names": [
+        "Yokogawa YHC5150X Portable Hart Communicator",
+        "Emerson AMS Trex Device Communicator",
+        "HART modem Commubox FXA195 USB/HART modem",
+        "Rheonics inline viscosity and density meter"
+      ],
+      "extracted_text": "Figure 14. Yokogawa YHC5150X Portable Hart Communicator(Left)[12] and Emerson AMS Trex Device Communicator (Right) [13]\n\n5.2.4. HART Modem\nThe HART modem is a signal modulation/demodulation device that exchanges information efficiently over a serial link. It is in compliance with the HART protocol. The HART modem allows users to send and receive data between two devices over a serial link. It is a simple and reliable communication solution and can be used with a variety of devices.\n\nFigure 15. HART modem Commubox FXA195 USB/HART modem [14]\n\n6. Does Rheonics inline viscosity and density meter support HART?",
+      "specifications": {
+        "Pressure": "0.04504574",
+        "Analog Output Alarm Level": "4.017297 mA"
+      },
+      "key_facts": [
+        "HART modems are signal modulation/demodulation devices designed for efficient information exchange over a serial link.",
+        "HART modems comply with the HART protocol.",
+        "HART modems allow users to send and receive data between two devices over a serial link.",
+        "HART modems provide a simple and reliable communication solution for a variety of devices."
+      ],
+      "diagram_labels": [
+        "YOKOGAWA",
+        "M1500 Temp: 183",
+        "EMERSON",
+        "12:06",
+        "Exit",
+        "Overview",
+        "Alerts",
+        "Device",
+        "Communications",
+        "Advisory",
+        "Investigate",
+        "Burst",
+        "Change",
+        "Pressure",
+        "Analog Output",
+        "0.04504574 Pressure",
+        "4.017297 Alarm Level (mA)",
+        "Menu",
+        "Service Tools",
+        "Configure",
+        "Commubox FXA195",
+        "USB/HART"
+      ],
+      "warnings_notes": [],
+      "page_num": 11,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 639,
+        "cost_usd": 0.0017373
+      },
+      "source_file": "081_HART_Fundamentals.pdf"
+    },
+    {
+      "page_summary": "This page details how Rheonics supports the HART communication protocol for its sensors, outlines its partnership with the FieldComm Group, and describes the available technical support and resources for HART integration.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SME sensor electronics",
+        "inline viscometer SRV",
+        "inline density meter SRD",
+        "HART-compatible sensors"
+      ],
+      "extracted_text": "Yes, all Rheonics SME sensor electronics support the HART communication protocol. It can be ordered prior to the shipment or can be enabled remotely. To order the HART communication protocol on Rheonics sensors, check for the C8-HART option on the RFQ page for the specific device you are ordering, eg. inline viscometer SRV or inline density meter SRD. More information on how to order the HART communication protocol can be found in this support article: Getting Started with HART communication (https://support.rheonics.com/en/support/solutions/articles/81000412295)\n\n7. How does Rheonics support HART integration and development?\n\nFieldComm Group is an organization that develops standards for communication and integration between devices and systems in the petrochemical industry. They provide specifications, test procedures, and other documentation for digital communication technologies. They also provide training and support services to help companies implement these technologies. HART partnership between FieldComm Group and Rheonics (https://support.rheonics.com/en/support/solutions/articles/81000412192-hart-partnership-between-fieldcomm-group-and-rheonics)\n\nHome / Membership\n\nCURRENT MEMBERS\n\n3S Co., Ltd\n3-Sci\nA H Enterprises Inc. (AMFLOW)\nABB\nABM Sensor Technology, Inc.\nAdvanet Inc.\nADZ NAGANO GmbH\nAgar Corporation\nAlsensio GmbH\nAMETEK Magnetrol\nAnalog Devices\nAnderson Instrument Company\nAnhui Chuanxin Instrumentation Technology Co., Ltd.\nAnhui Luojian Control System Co., Ltd.\nAnhui Tiankang (Group) Shares Co., Ltd\nAparian Inc.\nApilisens S.A.\nArmstrong International\nASA S.r.l.\nAshcroft\nAtomhorizon Electric\nAuma\nAutonics\nAutrol by Dupon System Co., Ltd.\nAzbil Corporation\nBadger Meter\nBahra Advanced Cable Manufacture Co. Ltd\nBaker Hughes Oilfield Operations LLC\nBaldota Control and Equipments Pvt Ltd\nBaoji XingYuTeng Measure and Control Instruments Co.,Ltd.\nGODA\nGoldcard\nGP-50 Ltd.\nHACH Company\nHamilton Bonaduz AG\nHangzhou Holisys Automation Co. Ltd.\nHangzhou SDIC Microelectronics Inc.\nHanwei Electronics Group Corporation\nHarbin East Annunciator Equipment Development co.,Ltd\nHarold Beck & Sons, Inc.\nHawk Measurement Systems Pty. Ltd.\nHeinrichs Messtechnik\nHengyang Zhicheng Electric Co.,Ltd\nHengyang Northern Photoelectric Information Technology Co. Ltd.\nHEST\nHIMA Paul Hildebrandt GmbH\nHitachi High-Tech Solutions\nHitachi, Ltd.\nHK Instrument (Dalian) Co., Ltd\nHoehlzsch GmbH\nHunter Flow Controls Inc.\nHoneywell International\nHongxin Precision Instrument Co.,Ltd, Shunchang Fujian Huaxin Instrument (Beijing) Co.,Ltd.\nHYDAC Electronic GmbH\nIDEX\nIfak Technology+Service GmbH\nIGM-Detector, Co. Ltd.\nIMI Precision Engineering\nProcess Level Technology, Ltd\nProComSol, Ltd.\nProsense\nPT Korosi Specindo\nPulsar Measurement\nPyromation LLC\nQINGDAO ADD VALUE FLOW METERING CO.,LTD.\nQQT Inc.\nR. Stahl GmbH\nRAMCRO S.p.A.\nRelcom\nResearch and Production Complex \"VIP\", JSC (AO \"NPK \"VIP\")\nREXA Inc.\nRheonics\nRheonik\nRheonetics Analytical BV\nRIIT Ltd.\nRiken Keiki Co., Ltd.\nRittmeyer AG\nRockwell Automation\nRohrbach Cossasco Systems\nRotron Engineering\nRotex\nRotork Controls\nRotork YTC Limited\nSage Metering, Inc.\nSAMSON AG\nSatron Instruments Inc.\nSBEM Pvt. Ltd.\nScanSense AS\n\nFigure 16. Rheonics membership in Fieldcomm Group\n\nRheonics provides detailed user manuals and technical support for integration. Our HART-compatible sensors can be easily integrated into any HART network thanks to all the guidelines and steps provided in our support portal. In addition, our experienced engineering team can assist with installation and configuration to ensure successful integration into your HART network in a timely manner. Visit our Support portal for more information on HART Protocol: HART (https://support.rheonics.com/en/support/solutions/folders/81000284399)\n\n8. REFERENCES",
+      "specifications": {},
+      "key_facts": [
+        "All Rheonics SME sensor electronics support the HART communication protocol.",
+        "The HART communication protocol can be ordered prior to shipment or enabled remotely.",
+        "To order the HART communication protocol on Rheonics sensors, customers should check for the C8-HART option on the RFQ page for the specific device.",
+        "FieldComm Group is an organization that develops standards for communication and integration between devices and systems in the petrochemical industry.",
+        "FieldComm Group provides specifications, test procedures, documentation, training, and support services for digital communication technologies.",
+        "Rheonics is a member of the FieldComm Group, as indicated in Figure 16.",
+        "Rheonics provides detailed user manuals and technical support for HART integration.",
+        "Rheonics' HART-compatible sensors can be easily integrated into any HART network using guidelines and steps from their support portal.",
+        "Rheonics' experienced engineering team can assist with the installation and configuration of HART network integration.",
+        "Further information on HART communication, the partnership with FieldComm Group, and HART Protocol support is available via provided Rheonics support articles and portals."
+      ],
+      "diagram_labels": [
+        "Home",
+        "Membership",
+        "CURRENT MEMBERS",
+        "3S Co., Ltd",
+        "3-Sci",
+        "A H Enterprises Inc. (AMFLOW)",
+        "ABB",
+        "ABM Sensor Technology, Inc.",
+        "Advanet Inc.",
+        "ADZ NAGANO GmbH",
+        "Agar Corporation",
+        "Alsensio GmbH",
+        "AMETEK Magnetrol",
+        "Analog Devices",
+        "Anderson Instrument Company",
+        "Anhui Chuanxin Instrumentation Technology Co., Ltd.",
+        "Anhui Luojian Control System Co., Ltd.",
+        "Anhui Tiankang (Group) Shares Co., Ltd",
+        "Aparian Inc.",
+        "Apilisens S.A.",
+        "Armstrong International",
+        "ASA S.r.l.",
+        "Ashcroft",
+        "Atomhorizon Electric",
+        "Auma",
+        "Autonics",
+        "Autrol by Dupon System Co., Ltd.",
+        "Azbil Corporation",
+        "Badger Meter",
+        "Bahra Advanced Cable Manufacture Co. Ltd",
+        "Baker Hughes Oilfield Operations LLC",
+        "Baldota Control and Equipments Pvt Ltd",
+        "Baoji XingYuTeng Measure and Control Instruments Co.,Ltd.",
+        "GODA",
+        "Goldcard",
+        "GP-50 Ltd.",
+        "HACH Company",
+        "Hamilton Bonaduz AG",
+        "Hangzhou Holisys Automation Co. Ltd.",
+        "Hangzhou SDIC Microelectronics Inc.",
+        "Hanwei Electronics Group Corporation",
+        "Harbin East Annunciator Equipment Development co.,Ltd",
+        "Harold Beck & Sons, Inc.",
+        "Hawk Measurement Systems Pty. Ltd.",
+        "Heinrichs Messtechnik",
+        "Hengyang Zhicheng Electric Co.,Ltd",
+        "Hengyang Northern Photoelectric Information Technology Co. Ltd.",
+        "HEST",
+        "HIMA Paul Hildebrandt GmbH",
+        "Hitachi High-Tech Solutions",
+        "Hitachi, Ltd.",
+        "HK Instrument (Dalian) Co., Ltd",
+        "Hoehlzsch GmbH",
+        "Hunter Flow Controls Inc.",
+        "Honeywell International",
+        "Hongxin Precision Instrument Co.,Ltd, Shunchang Fujian Huaxin Instrument (Beijing) Co.,Ltd.",
+        "HYDAC Electronic GmbH",
+        "IDEX",
+        "Ifak Technology+Service GmbH",
+        "IGM-Detector, Co. Ltd.",
+        "IMI Precision Engineering",
+        "Process Level Technology, Ltd",
+        "ProComSol, Ltd.",
+        "Prosense",
+        "PT Korosi Specindo",
+        "Pulsar Measurement",
+        "Pyromation LLC",
+        "QINGDAO ADD VALUE FLOW METERING CO.,LTD.",
+        "QQT Inc.",
+        "R. Stahl GmbH",
+        "RAMCRO S.p.A.",
+        "Relcom",
+        "Research and Production Complex \"VIP\", JSC (AO \"NPK \"VIP\")",
+        "REXA Inc.",
+        "Rheonics",
+        "Rheonik",
+        "Rheonetics Analytical BV",
+        "RIIT Ltd.",
+        "Riken Keiki Co., Ltd.",
+        "Rittmeyer AG",
+        "Rockwell Automation",
+        "Rohrbach Cossasco Systems",
+        "Rotron Engineering",
+        "Rotex",
+        "Rotork Controls",
+        "Rotork YTC Limited",
+        "Sage Metering, Inc.",
+        "SAMSON AG",
+        "Satron Instruments Inc.",
+        "SBEM Pvt. Ltd.",
+        "ScanSense AS",
+        "Figure 16. Rheonics membership in Fieldcomm Group"
+      ],
+      "warnings_notes": [],
+      "page_num": 12,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 2268,
+        "cost_usd": 0.0058097999999999995
+      },
+      "source_file": "081_HART_Fundamentals.pdf"
+    },
+    {
+      "page_summary": "This page lists external resources and product information related to HART technology and compatible industrial automation devices from various manufacturers.",
+      "document_type": "notes",
+      "product_names": [
+        "SIMATIC ET 200SP HA",
+        "Rockwell 1756 HART card",
+        "RX3i Analog Input module, HART, 16/8",
+        "AXL P AI8 HART",
+        "HART Analog module Modicon X80",
+        "HART Module 3BSE023675R1",
+        "Series C I/O Modules",
+        "JUXTA D Series Signal Conditioners",
+        "System 800xA Select I/O",
+        "PlantPAx Distributed Control System",
+        "HART Communicator YHC5150X",
+        "AMS Trex Device Communicator",
+        "Commubox FXA195 USB/HART modem"
+      ],
+      "extracted_text": "HART Technology Explained | FieldComm Group (https://www.fieldcommgroup.org/technologies/hart/hart-technology-explained) [1]\nHART-compatible SIMATIC ET 200SP HA (https://support.industry.siemens.com/cs/pd/258569?pdti=td&dl=en&lc=en-PE) [2]\nRockwell 1756 HART card (https://literature.rockwellautomation.com/idc/groups/literature/documents/pp/1756-pp016_-en-p.pdf) [3]\nRX3i Analog Input module, HART, 16/8 | Emerson US (https://www.emerson.com/en-us/catalog/emerson-ic695alg626) [4]\nAXL P AI8 HART | Phoenix Contact (https://www.phoenixcontact.com/en/products/io-component-axl-p-ai8-hart-1f-1052429) [5]\nHART Analog module Modicon X80 | Schneider Electric (https://www.se.com/en/us/product/BMEAHI0812H/analog-isolated-high-level-input-module-modicon-x80-8-hart-inputs-4-to-20ma-for-severe-environments/) [6]\nHART Module 3BSE023675R1 | ABB (https://new.abb.com/products/3BSE023675R1/3bse023675r1?PE) [7]\nSeries C I/O Modules | Honeywell (https://process.honeywell.com/us/en/products/control-and-supervisory-systems/distributed-control-systems-dcs/experion-pks/i-o-modules/series-c-i-o-modules#overview) [8]\nJUXTA D Series Signal Conditioners (https://www.yokogawa.com/solutions/products-and-services/measurement/components-products/signal-conditioners/juxta-d-r-series/juxta-d-series-signal-conditioners/) [9]\nSystem 800xA Select I/O fundamentally changes automation project execution (https://new.abb.com/control-systems/system-800xa/the-future-of-project-execution/system-800xa-s-select-i-o-fundamentally-changes-automation-project-execution) [10]\nPlantPAx Distributed Control System | Rockwell Automation (https://www.rockwellautomation.com/en-us/capabilities/process-solutions/process-systems/plantpax-distributed-control-system.html) [11]\nHART Communicator YHC5150X (https://www.yokogawa.com/solutions/products-and-services/measurement/field-instruments-products/device-smart-communicators-2/hart-communicator-yhc5150x/) [12]\nAMS Trex Device Communicator | Emerson US (https://www.emerson.com/en-us/automation/asset-performance-management/field-device-management/field-communicators/ams-trex-device-communicator) [13]\nCommubox FXA195 USB/HART modem (https://www.es.endress.com/en/field-instruments-overview/system-components-recorder-data-manager/hart-usb-interface-commubox-fxa195?store_locale=en&t.tabId=product-overview) [14]",
+      "specifications": {},
+      "key_facts": [
+        "The page provides a list of 14 external resources and product pages related to HART (Highway Addressable Remote Transducer) communication technology.",
+        "The resources cover various industrial automation components and systems, including I/O modules, signal conditioners, distributed control systems, and HART communicators.",
+        "Manufacturers such as Siemens, Rockwell Automation, Emerson, Phoenix Contact, Schneider Electric, ABB, Honeywell, Yokogawa, and Endress+Hauser are featured for their HART-compatible products."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 13,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1217,
+        "cost_usd": 0.0031823
+      },
+      "source_file": "081_HART_Fundamentals.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": [
+      2
+    ]
+  }
+}

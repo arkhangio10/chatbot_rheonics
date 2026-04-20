@@ -1,0 +1,376 @@
+{
+  "source_file": "Ultra-long TT sensor viscometer and density meter assembly _ Rheonics Support.pdf",
+  "total_pages": 7,
+  "chunks": [
+    {
+      "page_summary": "This document provides assembly instructions and detailed information for Rheonics ultra-long insertion SR-TT Teletube sensors, including SRV and SRD variants.",
+      "document_type": "manual",
+      "product_names": [
+        "SR-TT",
+        "Teletube",
+        "SRV",
+        "SRD",
+        "SRV-TT",
+        "SRD-TT",
+        "SME-TRD",
+        "SME-TR",
+        "SRx-TT-CAB",
+        "SRx-TT-TR"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nUltra-long insertion sensor type SR-TT assembly instructions\nModified on: Tue, 16 Jul, 2024 at 11:51 PM\n\nTABLE OF CONTENTS\n* Type-SR Teletube sensor probe parts list\n* Assembly Instruction\n* Assembly Video Tutorial\n\nRheonics Teletube\nFor simplicity of construction of long insertion probes, especially when the insertion length is ultra-long (above 600 mm). Rheonics offers the Teletube Variant for the SRV and SRD. This variant allows the unit to be delivered in smaller parts that are assembled by the user before final installation. Assembly is straightforward and simplified based on threaded joints.\n\nSRV and SRD Teletube probes are used to simplify the assembly and reduce the costs of using a long and ultra-long insertion length.\n\nThe Teletube assembly is composed of the parts shown above. At the fluid end, it requires the Teletube version of the SRV or SRD (SRV-TT or SRD-TT). At the other end, it has two variants with a cable gland version (SRx-TT-CAB) and another where the transmitter SME-TR(D) is mounted directly (SRx-TT-TR).\n\nThe Teletube variant is defined by the user with the process connection, total length (if needed), and insertion length of the probe.\n\nFigure 1: Rheonics SRV and SRD Teletube with SME-TRD and cable gland end\nCommon installations of the SRV and SRD Teletube are in tanks, vessels, reactors, or big pipes.",
+      "specifications": {
+        "insertion length": "above 600 mm"
+      },
+      "key_facts": [
+        "Rheonics offers the Teletube Variant for SRV and SRD sensors to simplify construction of ultra-long insertion probes.",
+        "The Teletube variant allows sensor units to be delivered in smaller parts, which are assembled by the user prior to final installation.",
+        "Assembly of the Teletube variant is straightforward and simplified through the use of threaded joints.",
+        "SRV and SRD Teletube probes are designed to simplify assembly and reduce costs for applications requiring long and ultra-long insertion lengths.",
+        "The Teletube assembly requires a Teletube version of SRV or SRD (SRV-TT or SRD-TT) at the fluid end.",
+        "The non-fluid end of the Teletube assembly has two variants: a cable gland version (SRx-TT-CAB) or a direct transmitter mount for SME-TR(D) (SRx-TT-TR).",
+        "The user defines the Teletube variant by specifying the process connection, total length (if required), and insertion length of the probe.",
+        "Common installation environments for SRV and SRD Teletube sensors include tanks, vessels, reactors, and large pipes."
+      ],
+      "diagram_labels": [
+        "SME-TRD or -TR",
+        "AT-TT",
+        "SRx-TT-TRD",
+        "EXT-TT",
+        "OR-TT",
+        "CG-TT",
+        "Cable gland",
+        "AB-TT",
+        "SRx-TT-CAB",
+        "SRx-TT"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 918,
+        "cost_usd": 0.0024348
+      },
+      "source_file": "Ultra-long TT sensor viscometer and density meter assembly _ Rheonics Support.pdf"
+    },
+    {
+      "page_summary": "This page illustrates the installation of Rheonics SRV and SRD Teletube sensors and provides a detailed parts list for their assembly variants.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics",
+        "SRV Teletube",
+        "SRD Teletube",
+        "SRV-X5",
+        "SRD-X5",
+        "SRV-TT",
+        "SRD-TT",
+        "OR-TT",
+        "EXT-TT",
+        "AB-TT",
+        "CG-TT"
+      ],
+      "extracted_text": "rheonics\nFigure 2: Installation Example of SRV and SRD Teletubes\nFor smaller insertion lengths, Rheonics offers the SRV-X5 (https://support.rheonics.com/en/support/solutions/articles/81000411102-srv-x5-long-insertion-probe) and SRD-X5 (https://support.rheonics.com/en/support/solutions/articles/81000411193-srd-x5-long-insertion-probe), with 30 mm diameter body as the Teletube. Users can define the process connection and insertion length upon order.\n\nTeletube Sensor Variant - Parts List\nThe next table details all parts that can be used for the assembly, depending on the Teletube back-end variant, some parts may not be included. Quantities vary depending on the insertion length.\n\nPart | Quantity | Comment | Images\n-----|----------|---------|-------\nSRV-TT or SRD-TT | 1 | Sensor Probe | SRV-TT or SRD-TT (image)\nOR-TT | 1 for Sensor\n1 for back-end connector\n1 for each extension tube | Ø27X1.5 O-ring. Select the right material for your process fluid and operational temperature compatibility. | OR-TT (image)\nEXT-TT | Defined by insertion length (distance from sensor probe tip to process connection) | Extension tubes: May be one or many. These parts are numbered from 1 to X. The part with the process connection flange is generally the last one. | EXT-TT (image)\nAB-TT | 1 | End back adapter Female G3/4\" - Female NPT 1/2\". Only for -TT-CAB option. | AB-TT (image)\nCG-TT | 1 | Only for -TT-CAB option (Cable gland for sensor cable) | CG-TT (image)",
+      "specifications": {
+        "body_diameter": "30 mm",
+        "o_ring_size": "Ø27X1.5",
+        "adapter_thread_type_1": "Female G3/4\"",
+        "adapter_thread_type_2": "Female NPT 1/2\""
+      },
+      "key_facts": [
+        "Rheonics offers SRV-X5 and SRD-X5 models for applications requiring smaller insertion lengths.",
+        "The SRV-X5 and SRD-X5 Teletubes feature a 30 mm diameter body.",
+        "Users have the flexibility to define the process connection and insertion length when ordering.",
+        "The provided parts list details components for Teletube sensor assembly, with quantities varying based on the insertion length and back-end variant.",
+        "Extension tubes (EXT-TT) can be numerous, and the last part typically includes the process connection flange.",
+        "The AB-TT end back adapter and CG-TT cable gland are specifically intended for the -TT-CAB option."
+      ],
+      "diagram_labels": [
+        "SRV or SRD Teletube with SME-TR(-TRD)",
+        "SRV or SRD Teletube with Cable Gland",
+        "Figure 2: Installation Example of SRV and SRD Teletubes",
+        "SRV-TT or SRD-TT",
+        "OR-TT",
+        "EXT-TT",
+        "AB-TT",
+        "CG-TT"
+      ],
+      "warnings_notes": [
+        "Select the right material for your process fluid and operational temperature compatibility for the O-ring (OR-TT).",
+        "AB-TT (End back adapter) is only for -TT-CAB option.",
+        "CG-TT (Cable gland for sensor cable) is only for -TT-CAB option."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1022,
+        "cost_usd": 0.0026948
+      },
+      "source_file": "Ultra-long TT sensor viscometer and density meter assembly _ Rheonics Support.pdf"
+    },
+    {
+      "page_summary": "This page provides assembly instructions, lists necessary tools, and details components for connecting extension tubes and adapters for Rheonics viscometers and density sensors.",
+      "document_type": "manual",
+      "product_names": [
+        "AT-TT",
+        "-TT-TR",
+        "Transmitter mount adapter",
+        "OR-TT",
+        "Teletube assembly",
+        "TOW-M12",
+        "TLG",
+        "LOCTITE 242",
+        "LOCTITE 2422 HI TEMP TL MS 30G",
+        "M12 connector",
+        "EXT-TT",
+        "APC adapter",
+        "Teletube sensor"
+      ],
+      "extracted_text": "AT-TT:\n  Quantity: 1\n  Comment: End back adapter Female G3/4\" - Male NPT 1/2\". Only for -TT-TR option (Transmitter mount adapter).\n\nThe OR-TT is a standard O-Ring that is used for sealing all the G threaded in the Teletube assembly. This is available in various materials from Rheonics and third-party O-ring suppliers. Order the correct O-ring material that is compatible with your process fluid and operational temperature.\n\nFollow the specified temperature for your probes as components are only rated for the ordered temperature. The use of probes outside of their specified operational range will result in irreversible damage.\n\nAssembly Tools:\n- TOW-M12\n  Quantity: 1\n  Comment: Torque Wrench for M12 connector\n- TLG\n  Quantity: 1\n  Comment: Thread Locker Glue. Standard: LOCTITE 242. For High Temperatures: LOCTITE 2422 HI TEMP TL MS 30G.\n\nIt is recommended to use TLG (Thread Locker Glue) to avoid the threads coming loose. However, when the sensor needs to be disassembled, then you can assemble the Teletube sensor without the TLG and only apply TLG when the permanent configuration is fixed. TLG is reworkable in some cases - check the TLG is appropriate for your use case and process fluid. For sensor rentals the TLG is not included as the installation is intended to be disassembled later.\n\nAssembly Instructions:\n- Verify all parts for assembly and tools to be used.\n- I. Prepare extension Tubes: If only one extension tube EXT-TT is delivered, no preparation is required, go to step 5. If multiple EXT-TT parts are delivered, follow the next steps.\n\n  1.  Instruction: Identify female and male G3/4\" thread port of the EXT-TT part. Identify the EXT-TT with flange, this will be the last tube to assemble - not applicable if APC adapter (https://support.rheonics.com/en/support/solutions/articles/81000413923-apc-adjustable-process-connector-assembly-guideline) is used.\n  2.  Instruction: Place an O-Ring OR-TT at the male thread port base.\n  3.  Instruction: Apply some of the TLG paste in the male G3/4\" threads for secure thread lock. Not applicable for rentals.",
+      "specifications": {
+        "AT-TT_female_thread": "G3/4",
+        "AT-TT_male_thread": "NPT 1/2",
+        "TOW-M12_connector_size": "M12",
+        "TLG_standard_product": "LOCTITE 242",
+        "TLG_high_temperature_product": "LOCTITE 2422 HI TEMP TL MS 30G",
+        "EXT-TT_thread_size": "G3/4"
+      },
+      "key_facts": [
+        "The OR-TT is a standard O-Ring used for sealing all G threaded connections in the Teletube assembly.",
+        "The OR-TT is available in various materials from Rheonics and third-party O-ring suppliers.",
+        "The correct O-ring material must be compatible with your process fluid and operational temperature.",
+        "Components are rated for the ordered temperature of the probes.",
+        "TLG (Thread Locker Glue) is recommended to prevent threads from coming loose.",
+        "TLG is reworkable in some cases, but its appropriateness for the specific use case and process fluid should be verified.",
+        "TLG is not included with sensor rentals because the installation is intended for later disassembly.",
+        "If only one EXT-TT extension tube is delivered, no preparation is required, and the user should proceed to step 5.",
+        "If multiple EXT-TT parts are delivered, users must follow the detailed assembly steps provided.",
+        "The EXT-TT with a flange should be the last tube to assemble, unless an APC adapter is being used.",
+        "TLG paste should be applied to the male G3/4\" threads for a secure thread lock.",
+        "Applying TLG paste is not applicable for rental equipment."
+      ],
+      "diagram_labels": [
+        "AT-TT",
+        "TOW-M12",
+        "TLG",
+        "Female Nut G3/4\"",
+        "Male Nut G3/4\"",
+        "EXT-TT",
+        "OR-TT",
+        "Threadlocker"
+      ],
+      "warnings_notes": [
+        "Follow the specified temperature for your probes as components are only rated for the ordered temperature. The use of probes outside of their specified operational range will result in irreversible damage.",
+        "Check the TLG is appropriate for your use case and process fluid.",
+        "For sensor rentals the TLG is not included as the installation is intended to be disassembled later.",
+        "TLG paste application is not applicable for rentals."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1311,
+        "cost_usd": 0.0034173
+      },
+      "source_file": "Ultra-long TT sensor viscometer and density meter assembly _ Rheonics Support.pdf"
+    },
+    {
+      "page_summary": "This page provides illustrated step-by-step instructions for assembling extension tubes and inserting a sensor cable, detailing different connection types for Rheonics viscometers or density sensors.",
+      "document_type": "manual",
+      "product_names": [
+        "EXT-TT",
+        "OR-TT",
+        "AB-TT",
+        "AT-TT",
+        "Sensor probe",
+        "Sensor cable"
+      ],
+      "extracted_text": "Thread in the G3/4\" male and female port until faces get in contact and O-Ring is compressed. Hand tightening is enough.\n4\nRepeat the process (step 2 to 4) for all EXT-TT delivered in the assigned order.\nIf there is a tube with a process connection, this one will be the last in the assembly.\n5\nPlace an OR-TT on the G3/4\" male port base of the last EXT-TT. Piece may look different depending on the process connection you ordered.\n6\nApply some TLG paste in the male G3/4\" threads.\nNot applicable for rentals.\n7\nA. For -TT-CAB\nThread in the AB-TT G3/4\" female port to the last EXT-TT G3/4\" male port.\nB. For -TT-TR\nThread in the AT-TT G3/4\" female port to the last EXT-TT G3/4\" male port.\nII. Sensor probe and cable\n8\nInsert the sensor cable through the assembled extension tube.\nNOTE: If you used the AT-TT part the back-end will look different.",
+      "specifications": {
+        "thread_size": "G3/4\"",
+        "connector_type": "M12"
+      },
+      "key_facts": [
+        "G3/4\" male and female ports should be threaded until their faces make contact and the O-Ring is compressed.",
+        "Hand tightening is sufficient for the initial threading of ports.",
+        "The assembly process for EXT-TT components (steps 2 to 4, which includes threading) should be repeated for all EXT-TTs delivered in the assigned order.",
+        "If a tube includes a process connection, it must be the last component in the assembly sequence.",
+        "An OR-TT (O-Ring) is to be placed on the G3/4\" male port base of the last EXT-TT.",
+        "The physical appearance of the piece may vary based on the specific process connection ordered.",
+        "TLG paste should be applied to the male G3/4\" threads, with an exception for rental units.",
+        "For -TT-CAB configurations, the AB-TT G3/4\" female port must be threaded onto the last EXT-TT G3/4\" male port.",
+        "For -TT-TR configurations, the AT-TT G3/4\" female port must be threaded onto the last EXT-TT G3/4\" male port.",
+        "The sensor cable should be inserted through the assembled extension tube.",
+        "The back-end appearance of the assembly will differ if an AT-TT part was utilized."
+      ],
+      "diagram_labels": [
+        "EXT-TT",
+        "OR-TT",
+        "Process connection",
+        "Threadlocker",
+        "AB-TT",
+        "AT-TT",
+        "Cable + M12-Connector"
+      ],
+      "warnings_notes": [
+        "Not applicable for rentals.",
+        "NOTE: If you used the AT-TT part the back-end will look different."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 795,
+        "cost_usd": 0.0021273
+      },
+      "source_file": "Ultra-long TT sensor viscometer and density meter assembly _ Rheonics Support.pdf"
+    },
+    {
+      "page_summary": "This page provides illustrated step-by-step instructions for assembling and connecting Rheonics SRV-TT and SRD-TT sensor probes with various accessories and electronics units.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV-TT",
+        "SRD-TT",
+        "OR-TT",
+        "TOW-M12",
+        "EXT-TT",
+        "CG-TT Cable Gland",
+        "AB-TT",
+        "SME-XXX",
+        "SME-TRD",
+        "SME-TR",
+        "Transmitter",
+        "AT-TT"
+      ],
+      "extracted_text": "9. Place an OR-TT at the base of the G3/4\" thread port of the sensor probe SRV-TT or SRD-TT.\n\n10. Thread in the sensor cable M12 connector to the M12 port at the sensor probe back end.\n    Use the TOW-M12 tool for a secure connection.\n\n11. Apply some TLG paste in the male G3/4\" threads of the sensor probe.\n    Not applicable for rentals.\n\n12. Thread in the sensor probe G3/4\" port into the extension tube assembly.\n\n13. A. For -TT-CAB\n    Pass the cable through the CG-TT Cable Gland, add PTFE tape to the thread, and thread it in the AB-TT NPT 1/2\" port. Your probe is now ready.\n    Once assembly is installed, connect the sensor cable to the appropriate electronics unit (SME-XXX). Refer to the SME wiring guidelines (https://support.rheonics.com/en/support/solutions/articles/81000393097-sensor-electronics-sme-wiring-drawing) to connect the sensor cable wires to the appropriate terminal block in the Transmitter.\n\n    B. For -TT-TR\n    Wire the sensor cable in the SME-TRD or -TR electronics, add PTFE tape to the 1/2\" NPT thread, and thread the sensor probe to the SME.\n    Refer to the SME wiring guidelines (https://support.rheonics.com/en/support/solutions/articles/81000393097-sensor-electronics-sme-wiring-drawing) to connect the sensor cable wires to the appropriate terminal block in the Transmitter.",
+      "specifications": {
+        "Thread type 1": "G3/4\"",
+        "Thread type 2": "1/2\" NPT",
+        "Connector/Port size": "M12"
+      },
+      "key_facts": [
+        "An OR-TT component should be placed at the base of the G3/4\" thread port of SRV-TT or SRD-TT sensor probes.",
+        "The M12 connector of the sensor cable needs to be threaded into the M12 port at the sensor probe's back end, and the TOW-M12 tool should be used for a secure connection.",
+        "TLG paste must be applied to the male G3/4\" threads of the sensor probe, but this step is not applicable for rental units.",
+        "The sensor probe's G3/4\" port should be threaded into an extension tube assembly.",
+        "For -TT-CAB installations, the cable is routed through a CG-TT Cable Gland, PTFE tape is applied to the thread, and then threaded into an AB-TT NPT 1/2\" port.",
+        "After assembly installation, the sensor cable must be connected to an appropriate SME-XXX electronics unit, following the provided SME wiring guidelines to connect wires to the Transmitter's terminal block.",
+        "For -TT-TR installations, the sensor cable is wired into SME-TRD or -TR electronics, PTFE tape is added to the 1/2\" NPT thread, and the sensor probe is threaded to the SME.",
+        "Wiring guidelines for both -TT-CAB and -TT-TR configurations are available at https://support.rheonics.com/en/support/solutions/articles/81000393097-sensor-electronics-sme-wiring-drawing for connecting sensor cable wires to the Transmitter's terminal block."
+      ],
+      "diagram_labels": [
+        "SRV-TT",
+        "SRD-TT",
+        "OR-TT",
+        "Rheonics",
+        "M12 - Port",
+        "M12 - Connector",
+        "TOW-M12",
+        "Threadlocker",
+        "G3/4\" Port",
+        "EXT-TT",
+        "Add PTFE tape",
+        "CG-TT",
+        "AB-TT",
+        "AT-TT",
+        "SME-TR",
+        "SME-TRD"
+      ],
+      "warnings_notes": [
+        "Not applicable for rentals."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1130,
+        "cost_usd": 0.0029647999999999996
+      },
+      "source_file": "Ultra-long TT sensor viscometer and density meter assembly _ Rheonics Support.pdf"
+    },
+    {
+      "page_summary": "This page provides links to assembly video tutorials for Rheonics Teletube products and details an order code for Rheonics long insertion viscometers and density meters.",
+      "document_type": "manual",
+      "product_names": [
+        "Teletube",
+        "Rheonics long insertion viscometer",
+        "Rheonics density meter",
+        "SRV",
+        "SRD"
+      ],
+      "extracted_text": "Assembly Video Tutorial\n*   Assembly Teletube with Cable Gland video tutorial.\n    *   Assembly Teletube with Cable Gland\n    *   rheonics\n    *   Watch on\n*   Assembly Teletube with SME-TR(D) video tutorial.\n    *   Assembly Teletube with SME-TR(D)\n    *   rheonics\n    *   Watch on\n\nTeletube Order Code\nHow to Order Rheonics long insertion viscometer and density meter\nCode Form: SR_ - TT - L_ _ _ - A_ _ _ - B_ _ _ - (TR/CAB)\nExample: SRD - TT - L900 - A700 - BA20B - TR\n\n1.  Rheonics SR- Type sensor\n    *   SRV: Inline Viscometer\n    *   SRD: Inline Density and Viscosity meter\n2.  Process Connection Configuration\n    *   TT: Teletube Assembly\n4.  Insertion Depth - \"A\"\n    *   Defined by client. Distance from sensor connection to sensor tip. Probe wetted zone.\n5.  Process Connection \"B\"\n    *   Defined by client. The connection ID must be bigger than 32mm. Ask Rheonics Sales Team for availability of connections. Code is defined by Rheonics.\n    *   BA20B: Flange ANSI B16.5 2\" 300 lb RF\n    *   B30T: 3\" Tri Clamp",
+      "specifications": {
+        "Minimum Process Connection ID": "32mm",
+        "Flange Type BA20B": "ANSI B16.5 2\" 300 lb RF",
+        "Tri Clamp Type B30T": "3\""
+      },
+      "key_facts": [
+        "Rheonics offers assembly video tutorials for Teletube products, specifically for 'Cable Gland' and 'SME-TR(D)' configurations.",
+        "The Teletube order code is structured with several parameters: SR (sensor type), TT (process connection configuration), L (an unspecified length parameter), A (insertion depth), B (process connection type), and a final TR/CAB component.",
+        "SRV stands for Inline Viscometer within the Rheonics SR- Type sensor category.",
+        "SRD stands for Inline Density and Viscosity meter within the Rheonics SR- Type sensor category.",
+        "TT in the order code designates a Teletube Assembly for the Process Connection Configuration.",
+        "Insertion Depth \"A\" is defined by the client as the distance from the sensor connection to the sensor tip, encompassing the probe's wetted zone.",
+        "Process Connection \"B\" is defined by the client and has a minimum internal diameter requirement of 32mm.",
+        "The code for Process Connection \"B\" is defined by Rheonics.",
+        "BA20B is a specific Process Connection \"B\" option, referring to a Flange ANSI B16.5 2\" 300 lb RF.",
+        "B30T is another specific Process Connection \"B\" option, referring to a 3\" Tri Clamp."
+      ],
+      "diagram_labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "warnings_notes": [
+        "The connection ID for Process Connection \"B\" must be bigger than 32mm.",
+        "Customers should ask the Rheonics Sales Team for availability of connections.",
+        "The code for Process Connection \"B\" is defined by Rheonics."
+      ],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 934,
+        "cost_usd": 0.0024748
+      },
+      "source_file": "Ultra-long TT sensor viscometer and density meter assembly _ Rheonics Support.pdf"
+    },
+    {
+      "page_summary": "This page details specifications for sensor probe length and back-end variants, provides links to configuration tools for SRV viscometers and SRD density and viscosity meters, and lists downloads and references for sensor assembly, wiring, and installation.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRV viscometer",
+        "SRD density and viscosity meter",
+        "Teletube Sensor probe",
+        "SME (Standard Sensor Electronics)",
+        "EX - Explosive Proof sensor",
+        "SR-Type Sensor"
+      ],
+      "extracted_text": "Total Length - L\nDefined by client. Total length of the sensor probe. If not defined, it will be the shorter available based on the Insertion Length A.\n\nBack End Variant\nSelect between:\nTR: Adapter for SME -TR or -TRD\nCAB: Cable gland end\n\nThe appropriate RFQ page for SRV viscometer (https://rheonics.com/request-for-quotation/srv/), or SRD density and viscosity meter (https://rheonics.com/request-for-quotation/srd/), should be used to configure other options of the sensor, like viscosity range, calibration accuracy, pressure rating, etc.\n\nDownloads\n* Teletube Sensor probe parts list and Assembly Guide (https://rheonics.com/wp-content/uploads/2023/11/rheonics-teletube-assembly-guide.pdf)\n\nReferences\n[1] Wiring of standard sensor electronics (SME) (https://support.rheonics.com/en/support/solutions/articles/8100039307-sensor-electronics-sme-wiring-drawing)\n[2] How to wire EX - Explosive Proof sensor electronics (SME) (https://support.rheonics.com/en/support/solutions/articles/81000410683-wire-preparation-for-rheonics-ex-sensor)\n[3] SR- Type Sensor Installation Guidelines (https://support.rheonics.com/en/support/solutions/articles/81000411886-installation-guidelines-for-inline-viscometer-srv-and-density-meter-srd)\n[4] Tank and Recirculation Line Installation (https://support.rheonics.com/en/support/solutions/articles/81000412034-process-viscometer-and-density-meter-installation-in-recirculation-line-versus-in-the-mixing-tank)",
+      "specifications": {
+        "Total Length": "Client defined (defaulting to shorter Insertion Length A)",
+        "Back End Variant TR": "Adapter for SME -TR or -TRD",
+        "Back End Variant CAB": "Cable gland end"
+      },
+      "key_facts": [
+        "The total length of the sensor probe (L) is defined by the client; if not specified, the shorter available length based on Insertion Length A will be used.",
+        "Two back-end variants are available: an adapter for SME-TR or -TRD, and a cable gland end.",
+        "Rheonics provides RFQ pages for SRV viscometers and SRD density and viscosity meters to configure sensor options such as viscosity range, calibration accuracy, and pressure rating.",
+        "A 'Teletube Sensor probe parts list and Assembly Guide' is available as a downloadable PDF.",
+        "References cover wiring instructions for standard and explosive-proof sensor electronics, general SR-Type sensor installation guidelines, and specific installation advice for tanks and recirculation lines."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 845,
+        "cost_usd": 0.0022523
+      },
+      "source_file": "Ultra-long TT sensor viscometer and density meter assembly _ Rheonics Support.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

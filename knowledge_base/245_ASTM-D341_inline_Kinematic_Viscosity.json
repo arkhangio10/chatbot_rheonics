@@ -1,0 +1,209 @@
+{
+  "source_file": "245_ASTM-D341_inline_Kinematic_Viscosity.pdf",
+  "total_pages": 4,
+  "chunks": [
+    {
+      "page_summary": "This page details how the ASTM-D341 standard is applied using Rheonics inline viscometers and density sensors (SRV and SRD) to calculate the kinematic viscosity of petroleum oil and liquid hydrocarbons.",
+      "document_type": "notes",
+      "product_names": [
+        "SRV",
+        "SRD",
+        "Rheonics Control Panel (RCP) software",
+        "Rheonics sensors",
+        "PT1000",
+        "SME (Smart Electronic Unit)"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nASTM-D341 inline Kinematic Viscosity\n\nModified on: Tue, 6 Feb, 2024 at 10:08 PM\n\nThis article explains how the ASTM-D341 standard can be used in the inline density and viscosity meter SRD, and process viscometer SRV to calculate the kinematic viscosity of petroleum oil or liquid hydrocarbon in certain conditions and ranges.\n\n1. Introduction\n\nThe SRV and SRD sensors are Rheonics inline process viscometer and density meter respectively. These sensors output the real-time dynamic viscosity of a fluid based on a torsional resonator and temperature by an inbuilt PT1000.\n\nThe SRV supports manual input of a constant, temperature-dependent or external sensor density value to calculate the kinematic viscosity of the fluid, dividing the dynamic viscosity by the density. Review more information here. However, the RCP software also allows users to get kinematic viscosity through the Calculation Tab using any formula.\n\nRheonics SRD is an inline sensor to measure density and viscosity of a fluid. Due to the inline density readings, the fluid's kinematic viscosity is automatically calculated.\n\nAll Rheonics sensors have a powerful electronic unit (SME) that allows different equations to be loaded into the unit to calculate specific parameters. The equations will need inputs such as real-time viscosity and temperature, which can be measured by the SRV, or constant values as coefficients that should be calculated by the user and input in the Rheonics Control Panel (RCP) software.\n\n2. ASTM-D341 model\n\nThe ASTM-D341 standard provides Kinematic Viscosity vs Temperature charts, which can help determine the Kinematic Viscosity of a petroleum product or liquid hydrocarbon at any temperature within a limited range, by providing just two data points which are the kinematic viscosities of the fluid at two known temperatures.\n\nThe standard defines the equation to relate kinematic viscosity and temperature:\nlog(log(ν + 0,7)) = A – B log(T)\nEquation 1: ASTM-D341 standard equation\n\nWhere ν = Kinematic Viscosity in cSt and T = is the temperature in Kelvin",
+      "specifications": {},
+      "key_facts": [
+        "The article explains how the ASTM-D341 standard can be used with Rheonics inline density and viscosity meter SRD and process viscometer SRV.",
+        "The purpose of this application is to calculate the kinematic viscosity of petroleum oil or liquid hydrocarbons.",
+        "SRV and SRD sensors are Rheonics' inline process viscometer and density meter, respectively.",
+        "These sensors measure real-time dynamic viscosity using a torsional resonator and fluid temperature via an inbuilt PT1000.",
+        "The SRV sensor allows for manual input of density (constant, temperature-dependent, or external sensor data) to calculate kinematic viscosity by dividing dynamic viscosity by density.",
+        "The Rheonics Control Panel (RCP) software includes a Calculation Tab that enables users to derive kinematic viscosity using various formulas.",
+        "The Rheonics SRD sensor, equipped with inline density measurement capabilities, automatically calculates the fluid's kinematic viscosity.",
+        "All Rheonics sensors incorporate a powerful electronic unit (SME) which can be loaded with different equations to calculate specific parameters.",
+        "These equations require inputs such as real-time viscosity and temperature (measured by SRV), and user-calculated constant coefficients entered into the RCP software.",
+        "The ASTM-D341 standard offers Kinematic Viscosity vs Temperature charts for determining the kinematic viscosity of petroleum products or liquid hydrocarbons within a limited temperature range, given two known kinematic viscosity data points.",
+        "The ASTM-D341 standard defines the equation log(log(ν + 0,7)) = A – B log(T) to relate kinematic viscosity and temperature.",
+        "In the ASTM-D341 equation, ν represents Kinematic Viscosity in centistokes (cSt), and T represents temperature in Kelvin."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1040,
+        "cost_usd": 0.0027397999999999997
+      },
+      "source_file": "245_ASTM-D341_inline_Kinematic_Viscosity.pdf"
+    },
+    {
+      "page_summary": "This page details the calculation of constants A and B for kinematic viscosity estimation using two temperature-viscosity data points, providing an example with a hydraulic oil's kinematic viscosity plot according to the ASTM-D341 standard.",
+      "document_type": "notes",
+      "product_names": [],
+      "extracted_text": "And constants A and B are:\n\nB = (log(log(v₂ + 0,7)) - log(log(v₁ + 0,7))) / (log(T₁) - log(T₂))\n\nA = B log(T₁) + log(log(v₁ + 0,7))\n\nEquation 2: Coefficients A and B\n\nThe two data points known for kinematic viscosity and temperature are defined by subscripts 1 and 2 in v and T in the equations above for A and B.\n\nWith parameters A and B calculated, kinematic viscosity can be estimated at any temperature within the range.\n\nThe kinematic viscosity obtained by the ASTM-D341 standard, should be used only in the range in which hydrocarbon or petroleum fluids are homogeneous liquids.\n\nExample\n\nWe can take the specifications of a fluid given by the vendor to obtain the kinematic viscosity at two different temperatures. For example, an (https://belcomotoroils.com/wp-content/uploads/2020/05/HYDRAULIC-OIL-ISO-VG.pdf) hydraulic oil from (https://belcomotoroils.com/wp-content/uploads/2020/05/HYDRAULIC-OIL-ISO-VG.pdf) (https://belcomotoroils.com/wp-content/uploads/2020/05/HYDRAULIC-OIL-ISO-VG.pdf) (https://belcomotoroils.com/wp-content/uploads/2020/05/HYDRAULIC-OIL-ISO-VG.pdf) BELCO (https://belcomotoroils.com/wp-content/uploads/2020/05/HYDRAULIC-OIL-ISO-VG.pdf) (https://belcomotoroils.com/wp-content/uploads/2020/05/HYDRAULIC-OIL-ISO-VG.pdf) (https://belcomotoroils.com/wp-content/uploads/2020/05/HYDRAULIC-OIL-ISO-VG.pdf). Kinematic viscosity for this fluid is given at 40°C (31.4 mm2/s or cSt) and 100°C (5.4 mm2/s). Calculating values for A and B, we can plot the estimated kinematic viscosity within that temperature range as shown below.\n\n[XY Graph Image]\n\nFigure 1: Kinematic Viscosity plot for hydraulic oil following ASTM-D341 standard\n\nFrom the plot, it can be noticed that the kinematic viscosity has a strong dependency in the temperature.",
+      "specifications": {
+        "Kinematic viscosity at 40°C": "31.4 mm2/s",
+        "Kinematic viscosity at 100°C": "5.4 mm2/s"
+      },
+      "key_facts": [
+        "Constants A and B are calculated using two known data points for kinematic viscosity and temperature.",
+        "Once A and B are calculated, kinematic viscosity can be estimated at any temperature within the given range.",
+        "The kinematic viscosity obtained by the ASTM-D341 standard is applicable only to homogeneous hydrocarbon or petroleum fluids.",
+        "The example demonstrates calculating A and B using hydraulic oil specifications from BELCO.",
+        "The plot shows that kinematic viscosity has a strong dependency on temperature."
+      ],
+      "diagram_labels": [
+        "XY Graph",
+        "kin. Visc",
+        "Kin. Visc (cSt)",
+        "Temperature (°C)",
+        "Figure 1: Kinematic Viscosity plot for hydraulic oil following ASTM-D341 standard"
+      ],
+      "warnings_notes": [
+        "The kinematic viscosity obtained by the ASTM-D341 standard, should be used only in the range in which hydrocarbon or petroleum fluids are homogeneous liquids."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 968,
+        "cost_usd": 0.0025597999999999997
+      },
+      "source_file": "245_ASTM-D341_inline_Kinematic_Viscosity.pdf"
+    },
+    {
+      "page_summary": "This page details how Rheonics' SRV and SRD sensors utilize the ASTM-D341 model in RCP software for kinematic viscosity calculation and temperature compensation, along with the necessary configuration steps.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV sensor",
+        "SRD sensor",
+        "RCP software"
+      ],
+      "extracted_text": "3. SRV and SRD sensor ASTM-D341 calculation:\nThrough configuration in the Calculation Tab in the RCP software, the SRD and SRV sensors can calculate the kinematic viscosity using the ASTM-D341 model and apply temperature compensations (i.e. removing temperature dependency) in the results. This allows to monitor any changes in kinematic viscosity that are not created by temperature.\n\nFrom the previous example, user can configured the sensor to compensate the kinematic viscosity at 60°C (Tref), then the output would look like the red line (compensated viscosity) in the graph below.\n\nXY Graph\nKin. Visc (cSt)\nTemperature (°C)\nkin. Visc\nComp. Visc\nFigure 2: Temperature compensated Kinematic Viscosity for hydraulic oil at 60°C\n\n4. RCP configuration of ASTM-D341\n\nThe ASTM-D341 standard model is available for RCP version 5.4.0.6 onwards.\n\nWith the SRV or SRD connected and recognized by the RCP, enable the Expert Mode from the Settings Tab using the password provided in the RCP manual.\n\nGo to Calculation Tab and follow next steps:\n1. Select Viscosity and the Model ASTM-D341 for Kinematic Viscosity\n2. Input the known Kinematic Viscosity and Temperature of the fluid at two different points. Specify the reference temperature for compensation.\n3. Click on upload model",
+      "specifications": {
+        "Reference compensation temperature": "60°C",
+        "Kinematic Viscosity range": "5-32.5 cSt",
+        "Temperature range": "40-100 °C",
+        "RCP software minimum version": "5.4.0.6"
+      },
+      "key_facts": [
+        "SRD and SRV sensors can calculate kinematic viscosity using the ASTM-D341 model within the RCP software.",
+        "The ASTM-D341 model applies temperature compensations to remove temperature dependency from kinematic viscosity results.",
+        "The system allows monitoring changes in kinematic viscosity that are independent of temperature fluctuations.",
+        "Users can configure the sensor to compensate kinematic viscosity to a specific reference temperature, such as 60°C.",
+        "Configuration of the ASTM-D341 model requires RCP software version 5.4.0.6 or onwards.",
+        "Expert Mode in RCP, enabled via a password from the RCP manual, is necessary for configuration.",
+        "The configuration process involves selecting the ASTM-D341 model for kinematic viscosity, inputting two known kinematic viscosity and temperature points, and specifying a reference temperature for compensation."
+      ],
+      "diagram_labels": [
+        "XY Graph",
+        "Kin. Visc (cSt)",
+        "Temperature (°C)",
+        "kin. Visc",
+        "Comp. Visc",
+        "Figure 2: Temperature compensated Kinematic Viscosity for hydraulic oil at 60°C"
+      ],
+      "warnings_notes": [
+        "The ASTM-D341 standard model is available for RCP version 5.4.0.6 onwards.",
+        "Enable the Expert Mode from the Settings Tab using the password provided in the RCP manual."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 831,
+        "cost_usd": 0.0022172999999999997
+      },
+      "source_file": "245_ASTM-D341_inline_Kinematic_Viscosity.pdf"
+    },
+    {
+      "page_summary": "This page illustrates the configuration and activation of an ASTM-D341 kinematic viscosity standard model within the Rheonics Control Panel software, showing the user interface both before and after a model upload.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel",
+        "Rheonics RCP"
+      ],
+      "extracted_text": "Rheonics Control Panel 5.4.0.6\nMeasurement | Events | Settings | Service | Communication | Scaling | Calculation | Logger | Help\nAdvanced Calculations | Thermal Compensation of Density, Viscosity\nSelect Measurement to Apply Model: Viscosity\nCalculated Value: mPa.s\nStatus\nSelect Model from List: Kin Visc ASTM-D341\nTemperature Compensated Kinematic Viscosity ASTM-D341 Model\nV2 [cSt]: 2\nT2 [°C]: 70\nTref [°C]: 50\nV1 [cSt]: 4\nT1 [°C]: 40\nUnits: cSt\nlog(log(v + 0.7)) = A - Blog(T)\nUPLOAD MODEL\nChange SMET Output\nLCD Display (for TRD Only) Select Line to Display: None\nOutput on 4-20 mA channel Select channel number: None\nLoad Configuration\nAccess measurement with applied model over Modbus RTU/TCP register: 192\nCalculation History\nFigure 3: Configuration of ASTM-D341 Kinematic Viscosity standard on Rheonics RCP\n\n4. Once the model is correctly uploaded, the box will turn green as well as the Status led. The new calculated value for kinematic viscosity will be shown. The sensor measured viscosity will need to be within the limits of the dynamic viscosity resulting from V1 and V2.\n\nRheonics Control Panel 5.4.0.6\nMeasurement | Events | Settings | Service | Communication | Scaling | Calculation | Logger | Help\nAdvanced Calculations | Thermal Compensation of Density, Viscosity\nSelect Measurement to Apply Model: Viscosity\nCalculated Value: 5.09085 mPa.s\nStatus (green indicator)\nSelect Model from List: Kin Visc ASTM-D341\nTemperature Compensated Kinematic Viscosity ASTM-D341 Model\nV2 [cSt]: 2\nT2 [°C]: 70\nTref [°C]: 50\nV1 [cSt]: 4\nT1 [°C]: 40\nUnits: cSt\nlog(log(v + 0.7)) = A - Blog(T)\nUPLOAD MODEL\nChange SMET Output\nLCD Display (for TRD Only) Select Line to Display: None\nOutput on 4-20 mA channel Select channel number: None\nLoad Configuration\nAccess measurement with applied model over Modbus RTU/TCP register: 192\nCalculation History\nFigure 4: ASTM-D341 Kinematic Viscosity standard set on Rheonics RCP",
+      "specifications": {
+        "Rheonics Control Panel Version": "5.4.0.6",
+        "V2": "2 cSt",
+        "T2": "70 °C",
+        "Tref": "50 °C",
+        "V1": "4 cSt",
+        "T1": "40 °C",
+        "Modbus RTU/TCP register": "192",
+        "Calculated Value (Figure 4)": "5.09085 mPa.s"
+      },
+      "key_facts": [
+        "The Rheonics Control Panel (RCP) software, version 5.4.0.6, facilitates advanced calculations including thermal compensation for density and viscosity.",
+        "Users can configure the system to apply a Kinematic Viscosity ASTM-D341 model to viscosity measurements.",
+        "The ASTM-D341 model requires specific input values for V2 (2 cSt), T2 (70 °C), Tref (50 °C), V1 (4 cSt), and T1 (40 °C).",
+        "The model utilizes the mathematical expression `log(log(v + 0.7)) = A - Blog(T)` for its calculations.",
+        "Upon successful upload of the model, the 'Calculated Value' field will populate, the associated box will turn green, and the Status LED will illuminate green.",
+        "An example shows a calculated value of 5.09085 mPa.s after the model has been configured.",
+        "The sensor's measured viscosity is expected to fall within the dynamic viscosity limits defined by V1 and V2.",
+        "The system allows configuration of SMET output for LCD displays (for TRD Only) and 4-20 mA channels.",
+        "Measurement data processed with the applied model can be accessed via Modbus RTU/TCP register 192."
+      ],
+      "diagram_labels": [
+        "Rheonics Control Panel 5.4.0.6",
+        "Measurement",
+        "Events",
+        "Settings",
+        "Service",
+        "Communication",
+        "Scaling",
+        "Calculation",
+        "Logger",
+        "Help",
+        "Advanced Calculations",
+        "Thermal Compensation of Density, Viscosity",
+        "Select Measurement to Apply Model",
+        "Viscosity",
+        "Calculated Value",
+        "Status",
+        "mPa.s",
+        "Select Model from List",
+        "Kin Visc ASTM-D341",
+        "Temperature Compensated Kinematic Viscosity ASTM-D341 Model",
+        "V2 [cSt]",
+        "T2 [°C]",
+        "Tref [°C]",
+        "V1 [cSt]",
+        "T1 [°C]",
+        "Units",
+        "cSt",
+        "log(log(v + 0.7)) = A - Blog(T)",
+        "UPLOAD MODEL",
+        "Change SMET Output",
+        "LCD Display (for TRD Only) Select Line to Display",
+        "None",
+        "Output on 4-20 mA channel Select channel number",
+        "Load Configuration",
+        "Access measurement with applied model over Modbus RTU/TCP register",
+        "Calculation History",
+        "Figure 3",
+        "Figure 4",
+        "1 (highlights Select Measurement to Apply Model, Calculated Value, Status, and Select Model from List section)",
+        "2 (highlights V2, T2, Tref, V1, T1 input fields)",
+        "3 (highlights UPLOAD MODEL button)",
+        "4 (highlights Calculated Value and the green Status LED in Figure 4)"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1549,
+        "cost_usd": 0.0040123
+      },
+      "source_file": "245_ASTM-D341_inline_Kinematic_Viscosity.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

@@ -1,0 +1,348 @@
+{
+  "source_file": "154_Diagnostics_and_Parameter_Readings_with_Profinet.pdf",
+  "total_pages": 3,
+  "chunks": [
+    {
+      "page_summary": "This page provides a guide on accessing diagnostics and parameter readings for Rheonics PROFINET instruments using a master configuration tooling software.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics PROFINET instruments",
+        "rheonics-smet"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nDiagnostics and Parameter Readings with Profinet\n\nModified on: Sun, 15 Feb, 2026 at 12:42 AM\n\nThe Rheonics PROFINET instruments offer many different modules and parameters. To select these modules/parameters, the master configuration tooling software is used.\n\n1. Rheonics device provides 2 modules “Diagnostics_1” and “Device Parameters_1”.\n\nFigure 1. Device overview Controller Address.\n  - Software Interface Header:\n    - Path: Profinet Integration with SMET ▸ Ungrouped devices ▸ rheonics-smet [Rheonics SMET]\n    - View Tabs: Topology view, Network view, Device view\n  - Device overview table:\n    - Row 1 (rheonics-smet):\n      - Module: rheonics-smet\n      - Rack: 0\n      - Slot: 0\n      - Type: Rheonics SMET\n      - Article no.: www.rheonics.com\n      - Firmware: 1.0\n    - Row 2 (X1):\n      - Module: X1\n      - Rack: 0\n      - Slot: 0 X1\n      - Type: rheonics-smet\n    - Row 3 (X1 P1):\n      - Module: X1 P1\n      - Rack: 0\n      - Slot: 0 X1 P1\n      - Type: X1 P1\n    - Row 4 (Diagnostics_1):\n      - Module: Diagnostics_1\n      - Rack: 0\n      - Slot: 1\n      - I address: 68...135\n      - Type: Diagnostics\n      - Firmware: 1.0\n    - Row 5 (Device Parameters_1):\n      - Module: Device Parameters_1\n      - Rack: 0\n      - Slot: 2\n      - I address: 136...436\n      - Type: Device Parameters\n      - Firmware: 1.0\n    - Row 6 (Empty):\n      - Rack: 0\n      - Slot: 3\n    - Row 7 (Empty):\n      - Rack: 0\n      - Slot: 4\n  - Device Parameters_1 [Device Parameters] lower pane:\n    - Tabs: General, IO tags, System constants, Texts, Properties, Info, Diagnostics\n    - System constants section (under 'Show hardware system constant ▼'):\n      - Table columns: Name, Type, Hardware identi., Used by, Comment\n      - Row 1:\n        - Name: rheonics-smet~Device_Parameters_1\n        - Type: Hw_SubModule\n        - Hardware identi.: 277\n        - Used by: PLC_1\n\n2. Diagnostics_1\n  1. This module covers data that is useful for the Rheonics Support team to help customers diagnose any issues.",
+      "specifications": {
+        "Rheonics_SMET_Firmware": "1.0",
+        "Diagnostics_1_I_address_range": "68...135",
+        "Diagnostics_1_Firmware": "1.0",
+        "Device_Parameters_1_I_address_range": "136...436",
+        "Device_Parameters_1_Firmware": "1.0",
+        "Hardware_Identifier_rheonics-smet~Device_Parameters_1": "277"
+      },
+      "key_facts": [
+        "Rheonics PROFINET instruments provide various modules and parameters.",
+        "A master configuration tooling software is required to select PROFINET modules and parameters.",
+        "A Rheonics device offers two main modules: “Diagnostics_1” and “Device Parameters_1”.",
+        "The “Diagnostics_1” module provides data intended to assist the Rheonics Support team in diagnosing customer issues."
+      ],
+      "diagram_labels": [
+        "Profinet Integration with SMET",
+        "Ungrouped devices",
+        "rheonics-smet [Rheonics SMET]",
+        "Topology view",
+        "Network view",
+        "Device view",
+        "Device overview",
+        "Module",
+        "Rack",
+        "Slot",
+        "I address",
+        "Q address",
+        "Type",
+        "Article no.",
+        "Firmware",
+        "Com...",
+        "X1",
+        "X1 P1",
+        "Diagnostics_1",
+        "Device Parameters_1",
+        "Device Parameters_1 [Device Parameters]",
+        "General",
+        "IO tags",
+        "System constants",
+        "Texts",
+        "Properties",
+        "Info",
+        "Diagnostics",
+        "Show hardware system constant ▼",
+        "Name",
+        "Hardware identi.",
+        "Used by",
+        "Comment",
+        "rheonics-smet~Device_Parameters_1",
+        "Hw_SubModule",
+        "PLC_1",
+        "Figure 1. Device overview Controller Address."
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1282,
+        "cost_usd": 0.0033447999999999998
+      },
+      "source_file": "154_Diagnostics_and_Parameter_Readings_with_Profinet.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions and parameter tables for configuring diagnostic and process tags related to a Rheonics SMET sensor within a Siemens PLC environment using Profinet integration.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SMET",
+        "PLC_1 [CPU 1212C DC/DC/DC]"
+      ],
+      "extracted_text": "3. Device Parameters_1\n\nThis module covers the 22 parameters available for the SMET, as well the sensor status parameter.\n\nFigure 2. Diagnostic module.\n\nDiagnostics\n| Name            | Data type | Address | Retain | Acces... | Writ... | Visibl... | Monitor value   |\n|-----------------|-----------|---------|--------|----------|---------|-----------|-----------------|\n| 1 Input Volage  | Real      | %ID68   |        | ✓        | ✓       | ✓         | 23.39333        |\n| 2 FV            | DWord     | %ID72   |        | ✓        | ✓       | ✓         | 16#3B02_0000    |\n| 3 ph            | DWord     | %ID76   |        | ✓        | ✓       | ✓         | 16#1700_0000    |\n| 4 i-            | DWord     | %ID80   |        | ✓        | ✓       | ✓         | 16#0200_0000    |\n| 5 i+            | DWord     | %ID84   |        | ✓        | ✓       | ✓         | 16#0200_0000    |\n| 6 q             | Real      | %ID88   |        | ✓        | ✓       | ✓         | 1.019042        |\n| 7 fr            | Real      | %ID92   |        | ✓        | ✓       | ✓         | 7421.489        |\n| 8 df-           | Real      | %ID96   |        | ✓        | ✓       | ✓         | 7420.38         |\n| 9 df+           | Real      | %ID100  |        | ✓        | ✓       | ✓         | 7422.624        |\n| 10 SW VERSION   | DInt      | %ID106  |        | ✓        | ✓       | ✓         | 825_241_907     |\n| 11 ESN SM       | DInt      | %ID108  |        | ✓        | ✓       | ✓         | 825_440_307     |\n| 12 <Add new>    |           |         |        |          |         |           |                 |\n\n3.1. Define tags in the PLC table based in the information from the GSD file.\n\nFigure 3. Define tag in the plc table from gsd file.\n\nProfinet Integration with SMET ▶ PLC_1 [CPU 1212C DC/DC/DC] ▶ PLC tags ▶ SMET_DATA [150]\nTags | User constants\n| Name                                    | Data type | Address | Retain | Acces... | Writ... | Visibl... | Comment       |\n|-----------------------------------------|-----------|---------|--------|----------|---------|-----------|---------------|\n| 1 Sensor Status                         | USInt     | %IB136  |        | ✓        | ✓       | ✓         | Sensor Status |\n| 2 Parameter 0 Viscosity Median value    | Real      | %ID138  |        | ✓        | ✓       | ✓         |               |\n| 3 Parameter 0 Viscosity Median raw value| Real      | %ID142  |        | ✓        | ✓       | ✓         |               |\n| 4 Parameter 0 Viscosity Median status   | USInt     | %IB146  |        | ✓        | ✓       | ✓         |               |\n| 5 Parameter 0 Viscosity Median private status| USInt | %IB148  |        | ✓        | ✓       | ✓         |               |\n| 6 Parameter 0 Viscosity Median unit     | Word      | %IW204  |        | ✓        | ✓       | ✓         |               |\n| 7 Parameter 1 density median value      | Real      | %ID205  |        | ✓        | ✓       | ✓         |               |\n| 8 Parameter 1 density median raw value  | Real      | %ID209  |        | ✓        | ✓       | ✓         |               |",
+      "specifications": {
+        "Diagnostic Module Parameters": [
+          {
+            "name": "Input Volage",
+            "data_type": "Real",
+            "address": "%ID68",
+            "retain": false,
+            "access": true,
+            "writable": true,
+            "visible": true,
+            "monitor_value": "23.39333"
+          },
+          {
+            "name": "FV",
+            "data_type": "DWord",
+            "address": "%ID72",
+            "retain": false,
+            "access": true,
+            "writable": true,
+            "visible": true,
+            "monitor_value": "16#3B02_0000"
+          },
+          {
+            "name": "ph",
+            "data_type": "DWord",
+            "address": "%ID76",
+            "retain": false,
+            "access": true,
+            "writable": true,
+            "visible": true,
+            "monitor_value": "16#1700_0000"
+          },
+          {
+            "name": "i-",
+            "data_type": "DWord",
+            "address": "%ID80",
+            "retain": false,
+            "access": true,
+            "writable": true,
+            "visible": true,
+            "monitor_value": "16#0200_0000"
+          },
+          {
+            "name": "i+",
+            "data_type": "DWord",
+            "address": "%ID84",
+            "retain": false,
+            "access": true,
+            "writable": true,
+            "visible": true,
+            "monitor_value": "16#0200_0000"
+          },
+          {
+            "name": "q",
+            "data_type": "Real",
+            "address": "%ID88",
+            "retain": false,
+            "access": true,
+            "writable": true,
+            "visible": true,
+            "monitor_value": "1.019042"
+          },
+          {
+            "name": "fr",
+            "data_type": "Real",
+            "address": "%ID92",
+            "retain": false,
+            "access": true,
+            "writable": true,
+            "visible": true,
+            "monitor_value": "7421.489"
+          },
+          {
+            "name": "df-",
+            "data_type": "Real",
+            "address": "%ID96",
+            "retain": false,
+            "access": true,
+            "writable": true,
+            "visible": true,
+            "monitor_value": "7420.38"
+          },
+          {
+            "name": "df+",
+            "data_type": "Real",
+            "address": "%ID100",
+            "retain": false,
+            "access": true,
+            "writable": true,
+            "visible": true,
+            "monitor_value": "7422.624"
+          },
+          {
+            "name": "SW VERSION",
+            "data_type": "DInt",
+            "address": "%ID106",
+            "retain": false,
+            "access": true,
+            "writable": true,
+            "visible": true,
+            "monitor_value": "825_241_907"
+          },
+          {
+            "name": "ESN SM",
+            "data_type": "DInt",
+            "address": "%ID108",
+            "retain": false,
+            "access": true,
+            "writable": true,
+            "visible": true,
+            "monitor_value": "825_440_307"
+          }
+        ],
+        "SMET Data PLC Tags": [
+          {
+            "name": "Sensor Status",
+            "data_type": "USInt",
+            "address": "%IB136",
+            "retain": false,
+            "access": true,
+            "writable": true,
+            "visible": true,
+            "comment": "Sensor Status"
+          },
+          {
+            "name": "Parameter 0 Viscosity Median value",
+            "data_type": "Real",
+            "address": "%ID138",
+            "retain": false,
+            "access": true,
+            "writable": true,
+            "visible": true,
+            "comment": ""
+          },
+          {
+            "name": "Parameter 0 Viscosity Median raw value",
+            "data_type": "Real",
+            "address": "%ID142",
+            "retain": false,
+            "access": true,
+            "writable": true,
+            "visible": true,
+            "comment": ""
+          },
+          {
+            "name": "Parameter 0 Viscosity Median status",
+            "data_type": "USInt",
+            "address": "%IB146",
+            "retain": false,
+            "access": true,
+            "writable": true,
+            "visible": true,
+            "comment": ""
+          },
+          {
+            "name": "Parameter 0 Viscosity Median private status",
+            "data_type": "USInt",
+            "address": "%IB148",
+            "retain": false,
+            "access": true,
+            "writable": true,
+            "visible": true,
+            "comment": ""
+          },
+          {
+            "name": "Parameter 0 Viscosity Median unit",
+            "data_type": "Word",
+            "address": "%IW204",
+            "retain": false,
+            "access": true,
+            "writable": true,
+            "visible": true,
+            "comment": ""
+          },
+          {
+            "name": "Parameter 1 density median value",
+            "data_type": "Real",
+            "address": "%ID205",
+            "retain": false,
+            "access": true,
+            "writable": true,
+            "visible": true,
+            "comment": ""
+          },
+          {
+            "name": "Parameter 1 density median raw value",
+            "data_type": "Real",
+            "address": "%ID209",
+            "retain": false,
+            "access": true,
+            "writable": true,
+            "visible": true,
+            "comment": ""
+          }
+        ]
+      },
+      "key_facts": [
+        "This module covers 22 parameters available for the SMET, including sensor status.",
+        "Tags in the PLC table are defined based on information from the GSD file for Profinet integration."
+      ],
+      "diagram_labels": [
+        "Figure 2. Diagnostic module.",
+        "Figure 3. Define tag in the plc table from gsd file."
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 2744,
+        "cost_usd": 0.0069998
+      },
+      "source_file": "154_Diagnostics_and_Parameter_Readings_with_Profinet.pdf"
+    },
+    {
+      "page_summary": "This page displays a software interface (TIA Portal and Rheonics Control Panel) used for monitoring real-time process parameters, including viscosity, density, temperature, and pressure, from a Rheonics inline viscometer and density meter.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics inline viscometer",
+        "Rheonics density meter",
+        "Rheonics Control Panel S.4.0.0"
+      ],
+      "extracted_text": "3.2. Go to online mode and start monitoring the parameters from the SME\n\nSiemens - C:\\Users\\Administrator\\Documents\\Automation\\Profinet integration with rheonics\\Profinet integration with rheonics\\Profinet integration with rheonics - PL... PROFIBUS DP\\PLC 1 [CPU 1212C DC/DC/DC] - PLC tags - Parameters [153]\n\nProject Edit View Insert Online Options Tools Window Help\nSave project\nGo online\nGo offline\nSearch in project\n\nProject tree:\n  Profinet integration with rheonics\n  Add new device\n  Devices & networks\n  PLC_1 [CPU 1212C DC/DC/DC]\n    Device configuration\n    Online & diagnostics\n    Program blocks\n      Add new block\n      Main [OB1]\n    Technology objects\n    External source files\n    PLC tags\n      Show all tags\n      Add new tag table\n      Parameters [153]\n    Diagnostics [11]\n    PLC data types\n    Watch and force tables\n    Online backups\n    Traces\n    OPC UA communicat...\n    Device proxy data\nDetails view\nPortal view\nOverview\n\nParameters Table:\nHeaders: Name, Data type, Address, Retain, Access, Visibl..., Monitor value, Comment\nRows:\n  Parameter 0 Viscosity Median V... DWord, %ID138, 16#3E5F_A15F\n  Parameter 0 Viscosity Median r... Real, %ID142, 0.218389\n  Parameter 0 Viscosity Median s... Word, %IW146, 16#0000\n  Parameter 0 Viscosity Median p... Word, %IW148, 16#0000\n  Parameter 0 Viscosity Median u... Byte, %IB150, 16#01\n  Parameter 1 density median val. Real, %ID151, 1.946452\n  Parameter 1 density median ra... Real, %ID155, 1.946452\n  Parameter 1 density median sta... Word, %IW159, 16#0000\n  Parameter 1 density median pri... Word, %IW161, 16#0000\n  Parameter 1 density median uni... Byte, %IB163, 16#18\n  Parameter 2 temperature medi... Real, %ID164, 29.301\n  Parameter 2 temperature medi... Real, %ID168, 29.301\n\nRheonics Control Panel S.4.0.0:\nTabs: Measurement, Events, Settings, Service, Diagnostics, Communication, Logger, Help\nMeasured Values:\n  Viscosity\n  Density\n  Temperature\n  Pressure\nStatus:\n  Running\n  E00\n  Logging: Stopped\n  Pressure: Manual\n\nTotally Integrated Automation PORTAL\nTasks\nOptions\nFind and replace:\n  Find:\n  Whole words only\n  Match case\n  Find in substructures\n  Find in hidden texts\n  Use wildcards\n  Use regular expressions\n  Down\n  Up\n  Find (button)\n  Replace with:\n  Whole document\n  From current position\n  Selection\n  Replace (button)\n  Replace all (button)\nLanguages & resources:\n  Editing language: English (United States)\n  Reference language: English (United States)\nLibraries\n\nFigure 4. Data monitor from SME showing the measured data in both the TIA portal and RCP.\n\nFor Variable mapping please refer to the table files on the Profinet GSD file for Rheonics inline viscometer and density meter (https://support.rheonics.com/en/support/solutions/articles/81000401423).",
+      "specifications": {
+        "Viscosity": "0.2180 mPa.s",
+        "Density": "1.9465 g/cc",
+        "Temperature": "29.301 °C",
+        "Pressure": "1.00 bar"
+      },
+      "key_facts": [
+        "The document section describes how to go online and monitor parameters from a Rheonics device using a Siemens Totally Integrated Automation (TIA) Portal and the Rheonics Control Panel.",
+        "The Rheonics Control Panel S.4.0.0 displays real-time measured values for viscosity, density, temperature, and pressure.",
+        "Detailed parameter data, including addresses and monitor values for viscosity, density, and temperature, are available in a parameter table within the TIA Portal.",
+        "A Profinet GSD file is available on the Rheonics support website for variable mapping of their inline viscometer and density meter."
+      ],
+      "diagram_labels": [
+        "Viscosity [mPa.s]",
+        "Density [g/cc]",
+        "hh:mm:ss",
+        "0.2185",
+        "0.2184",
+        "0.2183",
+        "-1.9465",
+        "-1.9464",
+        "-1.9463",
+        "-1.9462",
+        "00:00:00",
+        "00:00:05",
+        "00:00:20"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1428,
+        "cost_usd": 0.0037098
+      },
+      "source_file": "154_Diagnostics_and_Parameter_Readings_with_Profinet.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "source_file": "STCM-Datasheet-2310.pdf",
+  "total_pages": 3,
+  "chunks": [
+    {
+      "page_summary": "This page introduces the Rheonics SR-STCM, a Smart Thermal Control Module for SRV and SRD viscometers and density sensors, highlighting its compact design, precise temperature control capabilities, and various connectivity options.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SR-STCM",
+        "SRV",
+        "SRD",
+        "STCM"
+      ],
+      "extracted_text": "rheonics\nSR-STCM\nSRV and SRD Smart Thermal Control Module\n\n*   5 °C to 120 °C\n*   0.005 °C temp. stability\n*   0.05 °C temp. accuracy\n*   Integrated temperature controller\n*   Standalone operation\n*   Ethernet, Wi-Fi, RS485, USB ports for direct integration\n*   Desktop and in-line units\n\nSTCM is custom designed to ensure uniform temperature distribution across SRV and/or SRD even when installed in a flow loop with moving fluids. Heating and cooling is achieved through solid-state thermal devices with an advanced model-based controller. STCM was designed after extensive simulation and testing to ensure high level of thermal stability, accuracy and repeatability.\n\nSTCM eliminates the need for bulky and expensive thermal test chambers (climate chambers) for temperature control. It reduces the foot print to the same size as a typical small coffee machine while achieving 10x better stability and uniformity compared to a 100L commercial thermal chamber. It enables fluid analysis with SRV in field and mobile units without compromising data integrity.\n\nSRV Accessories - STCM\n©Rheonics\n2310",
+      "specifications": {
+        "temperature_range": "5 °C to 120 °C",
+        "temperature_stability": "0.005 °C",
+        "temperature_accuracy": "0.05 °C"
+      },
+      "key_facts": [
+        "The SR-STCM is a Smart Thermal Control Module designed for SRV and SRD sensors.",
+        "It ensures uniform temperature distribution across SRV and/or SRD, even when installed in a flow loop with moving fluids.",
+        "Heating and cooling are achieved through solid-state thermal devices with an advanced model-based controller.",
+        "The STCM was designed after extensive simulation and testing to ensure high thermal stability, accuracy, and repeatability.",
+        "The STCM eliminates the need for bulky and expensive thermal test chambers for temperature control.",
+        "Its footprint is reduced to the same size as a typical small coffee machine.",
+        "It achieves 10x better stability and uniformity compared to a 100L commercial thermal chamber.",
+        "The module enables fluid analysis with SRV in field and mobile units without compromising data integrity.",
+        "It features an integrated temperature controller and supports standalone operation.",
+        "Connectivity options include Ethernet, Wi-Fi, RS485, and USB ports for direct integration.",
+        "The unit is suitable for both desktop and in-line applications."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 715,
+        "cost_usd": 0.0019273
+      },
+      "source_file": "STCM-Datasheet-2310.pdf"
+    },
+    {
+      "page_summary": "This page provides detailed specifications for the Rheonics STCM inline viscometer and density sensor, including its physical dimensions, power requirements, operational temperature ranges, communication interfaces, and a thermal uniformity visualization of an SRV sensor.",
+      "document_type": "datasheet",
+      "product_names": [
+        "STCM",
+        "SRV",
+        "SRD",
+        "SMEBOX",
+        "STCM-FT"
+      ],
+      "extracted_text": "rheonics\nThermal uniformity across the SRV during operation along with the fluid chamber\n\nSTCM Specification\n\nParameter | Value | Notes\n---|---|---\nDimensions | 314 x 165 x 450 (mm) | As big as a typical desktop coffee machine\n | 12.4 x 6.5 x 17.72 (inch) |\nPower Input | 110 / 220 V AC | Mains supply\nPower consumption | max. 650W |\nTotal Weight | 11.6 kg (25.6 lb) | Including SRV/SRD and fluid cell\nTemperature range | 5 °C to 120 °C |\n | 40 °F to 250 °F |\nSample Fluid | Sample volume 22ml | Both static and inline flow-through models available\n | Inline flow through model (STCM-FT) |\nTemperature stability | 0.005 °C |\nTemperature accuracy | 0.05 °C | Depends on calibration required\nAmbient temperature | max. 65 °C |\n | max. 150 °F |\nController | Integrated SMEBOX | Standalone Controller and Integrated CPU\nCommunication | Wi-Fi, USB-C, RS-485 (Modbus), Ethernet (TCP/IP, Modbus TCP) | Direct control of STCM and SRV/SRD from RCP software\nCommunication (Sensor direct) | Ethernet, RS-485 (Modbus), USB, SD-Card, Bluetooth LTE4.0, 4-20 mA | Same as a standard SRV/SRD electronics. Accessible through the integrated SMEBOX.\n\nSRV Accessories - STCM\n©Rheonics\n2310",
+      "specifications": {
+        "Dimensions": "314 x 165 x 450 mm (12.4 x 6.5 x 17.72 inch)",
+        "Power Input": "110 / 220 V AC",
+        "Power consumption": "max. 650 W",
+        "Total Weight": "11.6 kg (25.6 lb)",
+        "Temperature range": "5 °C to 120 °C (40 °F to 250 °F)",
+        "Sample Fluid Volume": "22 ml",
+        "Sample Fluid Model Type": "Inline flow through model (STCM-FT)",
+        "Temperature stability": "0.005 °C",
+        "Temperature accuracy": "0.05 °C",
+        "Ambient temperature": "max. 65 °C (max. 150 °F)",
+        "Controller": "Integrated SMEBOX",
+        "Communication": "Wi-Fi, USB-C, RS-485 (Modbus), Ethernet (TCP/IP, Modbus TCP)",
+        "Communication (Sensor direct)": "Ethernet, RS-485 (Modbus), USB, SD-Card, Bluetooth LTE4.0, 4-20 mA"
+      },
+      "key_facts": [
+        "The STCM has dimensions comparable to a typical desktop coffee machine.",
+        "The power input for the STCM is 110 / 220 V AC, supplied from mains.",
+        "The total weight of 11.6 kg (25.6 lb) includes the SRV/SRD sensor and fluid cell.",
+        "Both static and inline flow-through models are available for sample fluid handling.",
+        "The STCM controller is an Integrated SMEBOX, which functions as a standalone controller with an integrated CPU.",
+        "The communication interfaces allow for direct control of the STCM and SRV/SRD from RCP software.",
+        "Direct sensor communication options are equivalent to a standard SRV/SRD electronics."
+      ],
+      "diagram_labels": [
+        "Surface Temperature (C)"
+      ],
+      "warnings_notes": [
+        "Temperature accuracy of 0.05 °C depends on the calibration required.",
+        "Direct sensor communication is accessible through the integrated SMEBOX."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1062,
+        "cost_usd": 0.0027948
+      },
+      "source_file": "STCM-Datasheet-2310.pdf"
+    },
+    {
+      "page_summary": "This page details the features of Rheonics RCP Software for data acquisition and temperature control, highlighting its application with the STCM accessory for comprehensive fluid property measurements and analysis.",
+      "document_type": "manual",
+      "product_names": [
+        "RCP Software",
+        "Rheonics Control Panel 5.4.0.4",
+        "SRV",
+        "STCM"
+      ],
+      "extracted_text": "rheonics\n\nRCP Software – Data acquisition and temperature control\n\n[Rheonics Control Panel 5.4.0.4 Software Interface]\nTabs: Measurement | Events | Settings | Service | Diagnostics | Communication | Temp. Control | Logger | Help\n\nSection: Constant Temperature\nSet Temperature: [0°C, checkbox enabled]\nSelect thermal control unit: [DTCM, dropdown selected]\nConnection: [Red Dot]\n\nSection: Program Controls\nButtons: Play | Pause | Stop | Sensor Extraction\n\nSubsection: Temperature Profile\nTemperature ramp [checkbox enabled]\nTable Headers: Temperature [°C] | Dwell Time [s]\nTable Data:\n20°C | 600s\n30°C | 600s\n40°C | 600s\n50°C | 600s\n60°C | 600s\n70°C | 600s\n80°C | 600s\n90°C | 600s\n100°C | 600s\n110°C | 600s\n120°C | 600s\n0°C | 0s\n0°C | 0s\n0°C | 0s\nNr. Of Steps: [0]\n# cycles: [1]\nUse same dwell time [checkbox enabled]\n\n[Graph: Temperature [°C] vs Time [min] showing a stepped ramp profile]\n\nButtons: Save | Open | Save As\nSaved profile path: [empty field]\n\nSection: Test State\nTemp. Setpt.: 0°C\nTemp. Oven: 0°C\nTemp. Sensor: 0°C\nRun Time: 00:00:00\nRemaining Time: 00:00:00\nTest State: Idle\n\nSection: Logging\nSampling Duration: [300]\n# Samples: [100]\nData Path: [Folder Icon]\n\nKey Features:\nSimultaneous fluid measurement & precision temperature control\nConstant temperature mode\nTemperature ramps with varying dwell times\nTarget temperature modes – constant and ramp\nData export to excel and other statistical software\n\nSTCM Description:\nSTCM is built for calibration verification, viscosity and density measurements at various temperatures, estimating temperature compensation factors for viscosity and density, estimation of activation energy from Arrhenius viscosity models.\n\nFooter:\nSRV Accessories - STCM\n©Rheonics\n2310",
+      "specifications": {
+        "Rheonics Control Panel Version": "5.4.0.4",
+        "Set Temperature Value (UI)": "0°C",
+        "Thermal Control Unit Type": "DTCM",
+        "Temperature Profile Range (Example)": "20°C to 120°C",
+        "Dwell Time Per Step (Example)": "600s",
+        "Default Dwell Time (End of Profile Example)": "0s",
+        "Number of Steps Configured (UI Value)": "0",
+        "Number of Cycles": "1",
+        "Test State Temperature Setpoint": "0°C",
+        "Test State Oven Temperature": "0°C",
+        "Test State Sensor Temperature": "0°C",
+        "Test State Run Time": "00:00:00",
+        "Test State Remaining Time": "00:00:00",
+        "Logging Sampling Duration": "300",
+        "Logging Number of Samples": "100"
+      },
+      "key_facts": [
+        "The RCP Software provides capabilities for data acquisition and temperature control.",
+        "It enables simultaneous fluid measurement alongside precision temperature control.",
+        "The software supports both constant temperature mode and temperature ramps with user-configurable dwell times.",
+        "Target temperature modes can be set as either constant or ramp profiles.",
+        "Data acquired through the software can be exported for analysis in Excel and other statistical software.",
+        "The STCM accessory is designed for calibrating and verifying viscosity and density measurements across a range of temperatures.",
+        "STCM aids in determining temperature compensation factors for both viscosity and density.",
+        "The system can be used to estimate activation energy based on Arrhenius viscosity models.",
+        "The Rheonics Control Panel version displayed is 5.4.0.4."
+      ],
+      "diagram_labels": [
+        "Rheonics Control Panel 5.4.0.4",
+        "Measurement",
+        "Events",
+        "Settings",
+        "Service",
+        "Diagnostics",
+        "Communication",
+        "Temp. Control",
+        "Logger",
+        "Help",
+        "Constant Temperature",
+        "Set Temperature",
+        "Select thermal control unit",
+        "DTCM",
+        "Connection",
+        "Program Controls",
+        "Play",
+        "Pause",
+        "Stop",
+        "Sensor Extraction",
+        "Temperature Profile",
+        "Temperature ramp",
+        "Auto Fill Ramp...",
+        "Temperature [°C]",
+        "Dwell Time [s]",
+        "Nr. Of Steps",
+        "# cycles",
+        "Use same dwell time",
+        "Time [min]",
+        "Save",
+        "Open",
+        "Save As",
+        "Saved profile path",
+        "Test State",
+        "Temp. Setpt.",
+        "Temp. Oven",
+        "Temp. Sensor",
+        "Run Time",
+        "Remaining Time",
+        "Test State",
+        "Idle",
+        "Logging",
+        "Sampling Duration",
+        "# Samples",
+        "Data Path"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1431,
+        "cost_usd": 0.0037172999999999998
+      },
+      "source_file": "STCM-Datasheet-2310.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

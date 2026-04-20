@@ -1,0 +1,315 @@
+{
+  "source_file": "108_Installing_the_Rheonics_Control_Panel_(RCP)_Application.pdf",
+  "total_pages": 6,
+  "chunks": [
+    {
+      "page_summary": "This page provides a step-by-step installation guide for the Rheonics Control Panel (RCP) application, detailing how to prepare the installation source and proceed through the setup wizard.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel (RCP)",
+        "Rheonics"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nInstalling the Rheonics Control Panel (RCP) Application\nModified on: Fri, 3 Jul, 2020 at 11:51 AM\n\nThe installation software is supplied on a USB drive (USB stick, flash drive). Updates can also be downloaded from Rheonics website, contact support.\n\nOpen the folder on the USB drive to view files. If the system asks whether to repair the disk, select the “Open without repairing” option. Before proceeding, copy the files to a folder on your computer, and remove the USB stick and put it in a secure place.\n\nThe newly created installation folder will contain the following Setup files. Execute the RCPSetup_Vx.x.x.x_full.exe file.\n\nName                     | Date modified\n-------------------------|------------------\nManuals                  | 13/02/2020 12:36\nWin7_USB_Driver          | 29/08/2018 12:31\nRCPSetup_V4.3.0.2_full   | 5/03/2020 11:47\nReadme                   | 16/04/2020 06:32\nTransmitter Display Module and USB Inst... | 23/07/2018 01:06\n\nThe following procedure explains the full installation of the RCP software:\n1. Double click on “RCPSetup_Vx.x.x.x_full.exe” to start the installation process.\n2. The installer will start the Setup Wizard Application. Click “Next” to continue the installation process.\n\n3. A dialog will appear to select the installation directories. Use the default, unless there is a reason to select a different location, and click “Next”:",
+      "specifications": {
+        "free_disk_space_required": "273.0 MB"
+      },
+      "key_facts": [
+        "The Rheonics Control Panel (RCP) installation software is provided on a USB drive.",
+        "Updates for the software are available for download from the Rheonics website.",
+        "Users must copy installation files from the USB drive to their computer before proceeding with installation.",
+        "The main installation executable is named `RCPSetup_Vx.x.x.x_full.exe` (e.g., `RCPSetup_V4.3.0.2_full`).",
+        "The default installation path for Rheonics Control Panel is `C:\\Program Files\\RheonicsControlPanel`.",
+        "The installation requires at least 273.0 MB of free disk space."
+      ],
+      "diagram_labels": [
+        "Setup - Rheonics Control Panel",
+        "Select Destination Location",
+        "Where should Rheonics Control Panel be installed?",
+        "Setup will install Rheonics Control Panel into the following folder.",
+        "To continue, click Next. If you would like to select a different folder, click Browse.",
+        "C:\\Program Files\\RheonicsControlPanel",
+        "At least 273.0 MB of free disk space is required.",
+        "< Back",
+        "Next >",
+        "Cancel"
+      ],
+      "warnings_notes": [
+        "If the system prompts to repair the disk when opening the USB drive, select the “Open without repairing” option.",
+        "Before installation, copy the files from the USB stick to a folder on your computer and then remove the USB stick, storing it securely.",
+        "When selecting installation directories, it is recommended to use the default unless there is a specific reason to choose a different location."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 929,
+        "cost_usd": 0.0024622999999999997
+      },
+      "source_file": "108_Installing_the_Rheonics_Control_Panel_(RCP)_Application.pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions for installing the Rheonics Control Panel software, including options for desktop shortcuts, file extraction, and handling the installation of the LabVIEW Runtime Engine using the NI Package Manager.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel",
+        "RCP",
+        "LabVIEW Runtime Engine",
+        "NI Package Manager"
+      ],
+      "extracted_text": "4. Click check box to create a Desktop shortcut, and click “Next”:\nSetup - Rheonics Control Panel\nSelect Additional Tasks\nWhich additional tasks should be performed?\nSelect the additional tasks you would like Setup to perform while installing Rheonics Control Panel, then click Next.\nAdditional shortcuts:\nCreate a desktop shortcut\n< Back\nNext >\nCancel\n\n5. Click “Install” to complete the installation process of RCP\nSetup - Rheonics Control Panel\nReady to Install\nSetup is now ready to begin installing Rheonics Control Panel on your computer.\nClick Install to continue with the installation, or click Back if you want to review or change any settings.\nDestination location:\nC:\\Program Files\\Rheonics\\ControlPanel\nAdditional tasks:\nAdditional shortcuts:\nCreate a desktop shortcut\n< Back\nInstall\nCancel\n\n6. The installer will extract the files in the default destination.\nSetup - Rheonics Control Panel\nInstalling\nPlease wait while Setup installs Rheonics Control Panel on your computer.\nExtracting files...\nC:\\Program Files\\LabVIEWRunTimeEngine2012.exe\nCancel\n\n7. When the files are copied. The wizard will display the message \"installing LabVIEW runtime engine\". This will prompt a new window with the \"NI Package Manager\" software.\nNI Package Manager\nLoading...\n© 2006-2019 National Instruments. All rights reserved.\nNATIONAL INSTRUMENTS\n\n8. If you get the window below, it means that LabVIEW Runtime Engine is already installed. Click the X at the top right of the window to close it and continue from step 12. Otherwise follow the instructions from step 9.",
+      "specifications": {},
+      "key_facts": [
+        "Users must select the option to create a desktop shortcut for the Rheonics Control Panel during the installation process.",
+        "The installation process for the Rheonics Control Panel (RCP) is completed by clicking the 'Install' button.",
+        "The installer automatically extracts necessary files, including 'LabVIEWRunTimeEngine2012.exe', to the default destination.",
+        "The 'NI Package Manager' software handles the installation of the LabVIEW Runtime Engine.",
+        "If the 'NI Package Manager' window appears with 'Loading...', it indicates that the LabVIEW Runtime Engine is already installed.",
+        "If the LabVIEW Runtime Engine is already installed, users should close the 'NI Package Manager' window and proceed to step 12."
+      ],
+      "diagram_labels": [
+        "Setup - Rheonics Control Panel",
+        "Select Additional Tasks",
+        "Which additional tasks should be performed?",
+        "Select the additional tasks you would like Setup to perform while installing Rheonics Control Panel, then click Next.",
+        "Additional shortcuts:",
+        "Create a desktop shortcut",
+        "< Back",
+        "Next >",
+        "Cancel",
+        "Ready to Install",
+        "Setup is now ready to begin installing Rheonics Control Panel on your computer.",
+        "Click Install to continue with the installation, or click Back if you want to review or change any settings.",
+        "Destination location:",
+        "C:\\Program Files\\Rheonics\\ControlPanel",
+        "Install",
+        "Installing",
+        "Please wait while Setup installs Rheonics Control Panel on your computer.",
+        "Extracting files...",
+        "C:\\Program Files\\LabVIEWRunTimeEngine2012.exe",
+        "NI Package Manager",
+        "Loading...",
+        "© 2006-2019 National Instruments. All rights reserved.",
+        "NATIONAL INSTRUMENTS"
+      ],
+      "warnings_notes": [
+        "If LabVIEW Runtime Engine is not already installed, users should follow instructions from step 9.",
+        "If LabVIEW Runtime Engine is already installed, click the X at the top right of the window to close it and continue from step 12."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 991,
+        "cost_usd": 0.0026172999999999995
+      },
+      "source_file": "108_Installing_the_Rheonics_Control_Panel_(RCP)_Application.pdf"
+    },
+    {
+      "page_summary": "This page provides installation instructions for software, including accepting a license agreement, reviewing an installation summary for LabVIEW 2019 runtime, and notes on the completion process.",
+      "document_type": "manual",
+      "product_names": [
+        "LabVIEW 2019 runtime",
+        "NATIONAL INSTRUMENTS SOFTWARE"
+      ],
+      "extracted_text": "Installing\nSelect Agree Review Finish\nNo operation to be performed.\n9. Accept the license agreement\nInstalling\nSelect Agree Review Finish\nYou must accept the license agreements below to proceed.\nNI\nNATIONAL INSTRUMENTS SOFTWARE LICENSE AGREEMENT\nCAREFULLY READ THIS SOFTWARE LICENSE AGREEMENT ('AGREEMENT'). BY DOWNLOADING\nTHE SOFTWARE AND/OR CLICKING THE APPLICABLE BUTTON TO COMPLETE THE INSTALLATION\nPROCESS, YOU AGREE TO BE BOUND BY THE TERMS OF THIS AGREEMENT. IF YOU DO NOT\nAGREE TO BE BOUND BY THE TERMS OF THIS AGREEMENT, DO NOT DOWNLOAD, INSTALL, OR USE THE SOFTWARE. YOU MUST\nRETURN THE SOFTWARE (WITH ALL ACCOMPANYING WRITTEN MATERIALS AND THEIR CONTAINERS) WITHIN THIRTY (30) DAYS OF\nRECEIPT FOR A REFUND. IF YOU ARE ACCEPTING THESE TERMS ON BEHALF OF AN ENTITY, YOU AGREE THAT YOU HAVE AUTHORITY TO BIND THE ENTITY TO\nTHESE TERMS.\nThe terms of this Agreement apply to the computer software provided with this Agreement, all updates or\nupgrades to the software that may be provided later by NI as part of any maintenance, technical support, or\nThis license agreement applies to the following packages: LabVIEW Runtime (32-bit).\nI accept the above license agreement.\nI do not accept the license agreement.\nNext\nBack\n10. In the install summary, the LabVIEW 2019 runtime should be listed. Click \"Next\" to continue.\nInstalling\nSelect Agree Review Finish\nReview the following summary before continuing.\nInstall\nLabVIEW Runtime (32-bit)\n2019\nBack Next\n11. A progress bar will indicate the state of the install. At the end of the install process, it will prompt to reboot. DO NOT REBOOT AT THIS POINT, CLOSE\nTHE WINDOW BY CLICKING THE \"x\" ON THE TOP RIGHT CORNER.\nInstalling\nSelect Agree Review Finish\nReboot to complete operation.\nA reboot is needed in order to complete the operation.\nReboot Now",
+      "specifications": {
+        "LabVIEW Runtime": "32-bit",
+        "LabVIEW Runtime version": "2019"
+      },
+      "key_facts": [
+        "To proceed with the installation, users must accept the license agreements.",
+        "The NATIONAL INSTRUMENTS SOFTWARE LICENSE AGREEMENT dictates terms for downloading, installing, and using the software.",
+        "The license agreement covers LabVIEW Runtime (32-bit).",
+        "The install summary should list LabVIEW 2019 runtime.",
+        "A progress bar will indicate the state of the installation.",
+        "At the end of the installation, a reboot will be prompted.",
+        "A reboot is needed to complete the operation."
+      ],
+      "diagram_labels": [
+        "Installing",
+        "Select",
+        "Agree",
+        "Review",
+        "Finish",
+        "No operation to be performed.",
+        "You must accept the license agreements below to proceed.",
+        "NI",
+        "NATIONAL INSTRUMENTS SOFTWARE LICENSE AGREEMENT",
+        "I accept the above license agreement.",
+        "I do not accept the license agreement.",
+        "Back",
+        "Next",
+        "Review the following summary before continuing.",
+        "Install",
+        "LabVIEW Runtime (32-bit)",
+        "2019",
+        "Reboot to complete operation.",
+        "A reboot is needed in order to complete the operation.",
+        "Reboot Now"
+      ],
+      "warnings_notes": [
+        "DO NOT REBOOT AT THIS POINT, CLOSE THE WINDOW BY CLICKING THE \"x\" ON THE TOP RIGHT CORNER."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 930,
+        "cost_usd": 0.0024648
+      },
+      "source_file": "108_Installing_the_Rheonics_Control_Panel_(RCP)_Application.pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions for installing or verifying the installation of National Instruments VISA runtime components and the Rheonics Control Panel software.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel",
+        "VISA runtime engine",
+        "NI Certificates Installer",
+        "NI I/O Trace",
+        "NI PXI Platform Services Runtime",
+        "NI-VISA .NET Development Support",
+        "NI-VISA .NET Runtime",
+        "NI-VISA C Examples"
+      ],
+      "extracted_text": "12. The installer will display the message \"Installing VISA runtime engine\", with a progress bar\n    Setup - Rheonics Control Panel\n    Installing\n    Please wait while Setup installs Rheonics Control Panel on your computer.\n    Installing VISA Runtime 2019\n    Cancel\n\n13. A window will display a list of items to install. Click on the \"Deselect All\" button and click \"Next\".\n    Installing\n    Select\n    Agree\n    Review\n    Finish\n    Additional items you may wish to install:\n    NI Certificates Installer\n    NI Certificates configures Microsoft Windows to always trust software from NI. When NI Certificates\n    are installed, no Windows security popups appear for installers that have a valid National Instruments\n    digital signature.\n    NI I/O Trace\n    Debugging utility for monitoring function calls to various National Instruments APIs.\n    NI PXI Platform Services Runtime\n    NI PXI Platform Services Runtime supports NI PXI Chassis and Controllers, implements the PXI\n    specifications, and supplies system services to other NI products.\n    NI-VISA .NET Development Support\n    Installs the local assembly for development of NI-VISA applications using the standard .NET API\n    specified by the IVI Foundation.\n    NI-VISA .NET Runtime\n    Enables you to run applications that use the NI-VISA .NET API.\n    NI-VISA C Examples\n    Provides examples for programming using the C API\n    Select All\n    Deselect All\n    Next\n\n14. If the window below is displayed, then VISA runtime is already installed in your system. Click on the X at the top right corner of the window, and ignore the steps below.\n    Installing\n    Select\n    Agree\n    Review\n    Finish\n    No operation to be performed.\n\n15. Afterwards, the list of items that will be installed is presented. Make sure that the \"NI-Visa Runtime\" is present, and click \"Next\"",
+      "specifications": {},
+      "key_facts": [
+        "The installer for Rheonics Control Panel will display a progress bar for \"Installing VISA runtime engine\" and specifically mentions \"Installing VISA Runtime 2019\".",
+        "During the installation of additional items, users are instructed to click \"Deselect All\" and then \"Next\".",
+        "If the installation window shows \"No operation to be performed\", it indicates that the VISA runtime is already installed on the system.",
+        "If VISA runtime is already installed, users should close the window by clicking the 'X' and ignore subsequent installation steps related to it.",
+        "Before proceeding with the final installation, it is crucial to ensure that \"NI-Visa Runtime\" is listed among the items to be installed.",
+        "After confirming the presence of \"NI-Visa Runtime\", the user should click \"Next\" to continue."
+      ],
+      "diagram_labels": [
+        "Setup - Rheonics Control Panel",
+        "Installing",
+        "Please wait while Setup installs Rheonics Control Panel on your computer.",
+        "Installing VISA Runtime 2019",
+        "Cancel",
+        "Select",
+        "Agree",
+        "Review",
+        "Finish",
+        "Additional items you may wish to install:",
+        "NI Certificates Installer",
+        "NI I/O Trace",
+        "NI PXI Platform Services Runtime",
+        "NI-VISA .NET Development Support",
+        "NI-VISA .NET Runtime",
+        "NI-VISA C Examples",
+        "Select All",
+        "Deselect All",
+        "Next",
+        "No operation to be performed."
+      ],
+      "warnings_notes": [
+        "If the 'No operation to be performed' window is displayed, click on the X at the top right corner of the window, and ignore the steps below."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1010,
+        "cost_usd": 0.0026648
+      },
+      "source_file": "108_Installing_the_Rheonics_Control_Panel_(RCP)_Application.pdf"
+    },
+    {
+      "page_summary": "This page provides a step-by-step guide for installing National Instruments software components, including NI Update Service, NI-VISA, NI-VISA Runtime, and Microsoft .NET Framework, as dependencies for RCP Software.",
+      "document_type": "manual",
+      "product_names": [
+        "NI Update Service",
+        "NI-VISA",
+        "NI-VISA Runtime",
+        "Microsoft .NET Framework 4.6.2",
+        "NATIONAL INSTRUMENTS SOFTWARE",
+        "RCP Software",
+        "LabVIEW runtime"
+      ],
+      "extracted_text": "Installing\nSelect Agree Review Finish\nReview the following summary before continuing.\n▼ Install\nNI Update Service 19.0.0\nNI-VISA 19.0.0\nNI-VISA Runtime 19.0.0\nBack Next\n\n16. Accept the Visa install license agreement and click \"Next\"\n\nInstalling\nSelect Agree Review Finish\nYou must accept the license agreements below to proceed.\nNI NATIONAL INSTRUMENTS SOFTWARE LICENSE AGREEMENT\nCAREFULLY READ THIS SOFTWARE LICENSE AGREEMENT (\"AGREEMENT\"). BY DOWNLOADING\nTHE SOFTWARE AND/OR CLICKING THE APPLICABLE BUTTON TO COMPLETE THE INSTALLATION\nPROCESS, YOU AGREE TO BE BOUND BY THE TERMS OF THIS AGREEMENT. IF YOU DO NOT\nWISH TO BECOME A PARTY TO THIS AGREEMENT, DO NOT INSTALL OR USE THE SOFTWARE AND\nRETURN THE SOFTWARE (WITH ALL ACCOMPANYING WRITTEN MATERIALS AND THEIR\nCONTAINERS) WITHIN THIRTY (30) DAYS OF RECEIPT FOR A FULL REFUND. IF YOU ACCEPT\nTHIS AGREEMENT, THEN YOU REPRESENT AND WARRANT THAT YOU HAVE AUTHORITY TO BIND\nTHE ENTITY TO THESE TERMS.\nThe terms of this Agreement apply to the computer software provided with this Agreement, all updates or\nupgrades to the software that may be provided later by NI as part of any maintenance, technical support, or\nThis license agreement applies to the following packages: NI Update Service, NI-VISA.\nI accept the above 2 license agreements.\nI do not accept all the license agreements.\nBack Next\n\n17. Wait for the files to be installed in the system.\n\nInstalling\nSelect Agree Review Finish\nInstalling Microsoft .NET Framework 4.6.2\nDecompressing C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\nipkg-701a-10c1-96eb-0b19\\update\\DotNet462.msi\nfrom C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\nipkg-701a-10c1-96eb-0b19\\data.tar.gz\nNext\n\n18. If you get prompted with this window, click \"No\".\n\nNI Update Service\n? NI Update Service checks for available updates each time you install new NI software. Would you like NI Update Service also to\ncheck for updates periodically?\nNote: If updates are available, you can choose whether to install or ignore them. Updates are never installed automatically.\nYes No\n\n19. The installer will prompt to reboot the system. YOU SHOULD REBOOT TO FINISH THE INSTALL.\n\nRCP Software and its required dependency LabVIEW runtime and NI-VISA runtime are now installed and RCP is ready for use.\n\nInstalled an old version and looking to update to new version:",
+      "specifications": {
+        "NI Update Service Version": "19.0.0",
+        "NI-VISA Version": "19.0.0",
+        "NI-VISA Runtime Version": "19.0.0",
+        "Microsoft .NET Framework Version": "4.6.2",
+        "License Agreement Refund Period": "30 days"
+      },
+      "key_facts": [
+        "The installation process involves reviewing a summary of components and accepting a software license agreement.",
+        "The software components being installed include NI Update Service, NI-VISA, NI-VISA Runtime, and Microsoft .NET Framework 4.6.2.",
+        "Users must accept the National Instruments Software License Agreement to proceed with the installation.",
+        "A system reboot is required to finalize the installation process.",
+        "Upon successful installation, RCP Software, LabVIEW runtime, and NI-VISA runtime will be ready for use.",
+        "Users are instructed to decline periodic update checks from the NI Update Service during installation."
+      ],
+      "diagram_labels": [
+        "Installing",
+        "Select",
+        "Agree",
+        "Review",
+        "Finish",
+        "Review the following summary before continuing.",
+        "Install",
+        "NI Update Service",
+        "NI-VISA",
+        "NI-VISA Runtime",
+        "Back",
+        "Next",
+        "You must accept the license agreements below to proceed.",
+        "NATIONAL INSTRUMENTS SOFTWARE LICENSE AGREEMENT",
+        "I accept the above 2 license agreements.",
+        "I do not accept all the license agreements.",
+        "Installing Microsoft .NET Framework 4.6.2",
+        "Decompressing",
+        "NI Update Service (Window Title)",
+        "NI Update Service checks for available updates each time you install new NI software. Would you like NI Update Service also to check for updates periodically?",
+        "Note: If updates are available, you can choose whether to install or ignore them. Updates are never installed automatically.",
+        "Yes",
+        "No"
+      ],
+      "warnings_notes": [
+        "YOU SHOULD REBOOT TO FINISH THE INSTALL.",
+        "If you get prompted with the NI Update Service window, click \"No\" to decline periodic update checks.",
+        "Note: If updates are available, you can choose whether to install or ignore them. Updates are never installed automatically."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1317,
+        "cost_usd": 0.0034323
+      },
+      "source_file": "108_Installing_the_Rheonics_Control_Panel_(RCP)_Application.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions for users with an old version of Rheonics RCP software on how to update to a new version using the RCP_Lite_VX and directs them to a support article for the RCP Lite Installer.",
+      "document_type": "notes",
+      "product_names": [
+        "RCP",
+        "RCP_Lite_VX",
+        "RCP Lite Installer"
+      ],
+      "extracted_text": "If you have installed an old version of RCP, and want to do an update for a new version, You could use the \"RCP_Lite_VX.\"\nCheck the solution article - Installing RCP Lite Installer (https://support.rheonics.com/en/support/solutions/articles/81000296)",
+      "specifications": {},
+      "key_facts": [
+        "Users with an old version of RCP software who wish to update to a new version can use the \"RCP_Lite_VX\" tool.",
+        "A solution article titled \"Installing RCP Lite Installer\" is available for further guidance.",
+        "The solution article can be found at the URL: https://support.rheonics.com/en/support/solutions/articles/81000296."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "It is advised to check the solution article for comprehensive instructions on installing the RCP Lite Installer."
+      ],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 326,
+        "cost_usd": 0.0009548
+      },
+      "source_file": "108_Installing_the_Rheonics_Control_Panel_(RCP)_Application.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "source_file": "112_Using_TeamViewer_for_remote_support.pdf",
+  "total_pages": 2,
+  "chunks": [
+    {
+      "page_summary": "This document provides instructions for Rheonics customers on how to prepare their PC for remote support using TeamViewer, including software installation and connectivity requirements.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics sensors"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nUsing TeamViewer for remote support\n\nModified on: Fri, 19 Dec, 2025 at 8:53 PM\n\nRheonics support teams use a variety of remote connection softwares to help customers in field. TeamViewer is one such software. Information below provides detail on the customer to prepare their PC for first use with TeamViewer.\n\nWe will need a way to remotely connect to a PC that is connected to the sensor (electronics) over USB. It is important that the sensor probe is connected correctly to the electronics and electronics is powered with 24V DC power supply.\n\nTo allow us to remotely connect and run diagnostics on the sensor, we need teamviewer (remote connection software) and teraterm (serial terminal).\n\nInstall the following two:\n1. Teamviewer: https://www.teamviewer.com/en/teamviewer-automatic-download/\n(https://www.teamviewer.com/en/teamviewer-automatic-download/)\n\nOnce teamviewer is running, then send us this screenshot which has both the login and password. Remember if the PC restarts or you close and restart teamviewer, the password will change so send us the latest screenshot or login/password.\n\n2. Send us Teamviewer login and password. See this screenshot to get the two details or send us a screenshot of the Teamviewer window:",
+      "specifications": {
+        "power_supply": "24V DC"
+      },
+      "key_facts": [
+        "Rheonics support teams utilize remote connection software, including TeamViewer, to assist customers in the field.",
+        "The document details the steps for customers to prepare their PC for initial use with TeamViewer for remote support.",
+        "Remote connection requires a PC linked to the sensor's electronics via USB.",
+        "TeamViewer (remote connection software) and Teraterm (serial terminal) are necessary for remote diagnostics on the sensor.",
+        "TeamViewer's password changes if the PC restarts or if TeamViewer is closed and restarted."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "It is important that the sensor probe is connected correctly to the electronics.",
+        "The sensor electronics must be powered with a 24V DC power supply.",
+        "Customers must install TeamViewer from the provided URL: https://www.teamviewer.com/en/teamviewer-automatic-download/.",
+        "After TeamViewer is running, customers must send a screenshot containing both the login and password to Rheonics support.",
+        "If the PC restarts or TeamViewer is closed and restarted, the password will change, requiring the customer to send the latest screenshot or login/password."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 692,
+        "cost_usd": 0.0018698
+      },
+      "source_file": "112_Using_TeamViewer_for_remote_support.pdf"
+    },
+    {
+      "page_summary": "This page illustrates the user interface and core functionalities of TeamViewer for remote control, meeting management, and unattended access.",
+      "document_type": "presentation",
+      "product_names": [
+        "TeamViewer"
+      ],
+      "extracted_text": "Check out what's possible with TeamViewer - Remote Control\n\nTeamViewer Application Interface:\n  Menu Bar: Connection, Extras, Help, Feedback\n\n  Left Panel Features:\n    - Meeting Icon Description: Join or initiate a meeting in the meeting view.\n    - Computers & Contacts Icon Description: Always have your contacts and device information available. Connect to devices and contacts via the Computers & Contacts list with a single click.\n\n  Right Panel - Allow Remote Control Section:\n    - YOUR ID: 123 456 789\n    - PASSWORD: abc123\n    - Description: The remote control view displays your TeamViewer ID. This number is needed to connect to this device.\n\n  Right Panel - Unattended Access Section:\n    - Checkbox: Start TeamViewer with Windows (checked)\n    - Link: Assign device to account\n    - Link: Grant easy access\n\n  Right Panel - Control Remote Computer Section:\n    - Input field: Partner ID\n    - Radio button option: Remote control\n    - Radio button option: File transfer (selected)\n    - Button: CONNECT\n    - Description: Enter the TeamViewer ID of another device here to remotely control it.\n\nURL: https://static.teamviewer.com/resources/2018/09/BauhausHowItWorks-RemoteControl.png",
+      "specifications": {},
+      "key_facts": [
+        "The page demonstrates how TeamViewer enables remote control and file transfer capabilities.",
+        "Users need their TeamViewer ID and password to allow remote control of their device.",
+        "To control a remote computer, the user must input the partner's TeamViewer ID.",
+        "TeamViewer provides options for unattended access, including integration with Windows startup and account assignment.",
+        "The 'Computers & Contacts' list allows users to maintain and easily connect to stored device and contact information.",
+        "TeamViewer also supports joining or initiating meetings.",
+        "The image is sourced from teamviewer.com resources, indicating it's an official explanation of 'How It Works'."
+      ],
+      "diagram_labels": [
+        "Check out what's possible with TeamViewer - Remote Control",
+        "TeamViewer",
+        "Connection",
+        "Extras",
+        "Help",
+        "Feedback",
+        "Allow Remote Control",
+        "YOUR ID",
+        "123 456 789",
+        "PASSWORD",
+        "abc123",
+        "Unattended Access",
+        "Start TeamViewer with Windows",
+        "Assign device to account",
+        "Grant easy access",
+        "Control Remote Computer",
+        "Partner ID",
+        "Remote control",
+        "File transfer",
+        "CONNECT",
+        "Join or initiate a meeting in the meeting view.",
+        "The remote control view displays your TeamViewer ID. This number is needed to connect to this device.",
+        "Enter the TeamViewer ID of another device here to remotely control it.",
+        "Always have your contacts and device information available. Connect to devices and contacts via the Computers & Contacts list with a single click."
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 774,
+        "cost_usd": 0.0020748
+      },
+      "source_file": "112_Using_TeamViewer_for_remote_support.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

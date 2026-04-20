@@ -1,0 +1,161 @@
+{
+  "source_file": "184_Polyurethane_production_application.pdf",
+  "total_pages": 4,
+  "chunks": [
+    {
+      "page_summary": "This page describes the application of Rheonics SRV viscometers for real-time monitoring and control in polyurethane production, detailing the two-step polymerization reaction process.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "SRV Viscometer",
+        "SRV Inline viscometer"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nPolyurethane production application\n\nModified on: Wed, 20 Dec, 2023 at 5:04 PM\n\nReal-time Monitoring and Control of Polyurethane Production\n\nMonitor > Control > Optimize >Monetize™\n\nFigure 1: Viscometer for inline monitoring and control of Polyurethane production\n\nPolyurethane is a versatile material with a wide range of applications, including adhesives, sealants, coatings, foams, and elastomers. It is produced by reacting a polyol (a polyalcohol) with a diisocyanate (a compound with two isocyanate groups). The reaction can be carried out in a variety of ways, but the most common process is a two-step polymerization reaction:\n\nStep 1: The polyol and diisocyanate are reacted to form a prepolymer. The prepolymer is a low-viscosity liquid that can be easily processed and transported.\n\nStep 2: The prepolymer is then reacted with a chain extender (a short-chain polyol or diamine) to form the final polyurethane polymer. The chain extender controls the molecular weight and crosslinking of the polymer, which determines its properties.\n\nStep 3: The mixture of the prepolymer and the chain extender is injected into molds depending on the customer's requirements.",
+      "specifications": {},
+      "key_facts": [
+        "Polyurethane is a versatile material used in adhesives, sealants, coatings, foams, and elastomers.",
+        "Polyurethane is produced by reacting a polyol (a polyalcohol) with a diisocyanate (a compound with two isocyanate groups).",
+        "The most common process for polyurethane production is a two-step polymerization reaction.",
+        "In Step 1, polyol and diisocyanate are reacted to form a low-viscosity prepolymer that is easily processed and transported.",
+        "In Step 2, the prepolymer reacts with a chain extender (a short-chain polyol or diamine) to form the final polyurethane polymer.",
+        "The chain extender controls the molecular weight and crosslinking of the polymer, which determines its properties.",
+        "In Step 3, the mixture of the prepolymer and the chain extender is injected into molds based on customer requirements.",
+        "Rheonics SRV viscometers are used for real-time monitoring and control of polyurethane production."
+      ],
+      "diagram_labels": [
+        "SRV Viscometer",
+        "water out",
+        "water in",
+        "Isocynate day/feed tank \"A\"",
+        "Return line",
+        "Actuator",
+        "Recirculation mix head",
+        "Supply line",
+        "Polyol day/feed tank \"B\"",
+        "SRV Inline viscometer",
+        "Top mold (Core)",
+        "Land area (Sealing area)",
+        "Bottom mold (Cavity)"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 757,
+        "cost_usd": 0.0020323
+      },
+      "source_file": "184_Polyurethane_production_application.pdf"
+    },
+    {
+      "page_summary": "This page details the importance of viscosity control in the polyurethane production process and explains how Rheonics SRV inline viscometers are utilized to monitor and adjust viscosity at various stages.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "SRV inline viscometer",
+        "SRV inline process viscometers"
+      ],
+      "extracted_text": "Step 4: The final product is stored, packaged, and distributed to the customer.\n\n[Diagram: Polyurethane production process flow]\nFigure 2. Polyurethane production process\n\nWhere viscosity is important\nViscosity is an important parameter to monitor and control throughout the polyurethane production process. In step 1, the viscosity of the prepolymer affects its processibility. If the viscosity is too high, the prepolymer will be difficult to pump and mix. If the viscosity is too low, the prepolymer may not be able to support the weight of the fillers and additives that are added to it.\n\nIn step 2, the viscosity of the prepolymer and chain extender mixture affects the reaction kinetics. If the viscosity is too high, the reaction rate will be slow. If the viscosity is too low, the reaction rate may be too fast, which can lead to side reactions and defects in the final product.\n\nHow and where the SRV inline process viscometers are used\nSRV Inline viscometer is used to monitor and control the viscosity of the prepolymer and chain extender mixture at various points in the polyurethane production process. For example, The SRV is used to:\n\n*   Ensure that the prepolymer viscosity is within the specified range before it is fed into the reactor.\n*   Monitor the viscosity of the prepolymer and chain extender mixture during the reaction to ensure that the reaction is proceeding at the desired rate.\n*   Control the addition of a chain extender to ensure that the final polyurethane polymer has the desired molecular weight and crosslinking.\n\nInline process viscometers are typically installed in a pipe or pipeline carrying the prepolymer and chain extender mixture. The viscometer measures the viscosity of the mixture in real time and sends the data to a controller. The controller can then be used to adjust the feed rate of the reactants or to add other additives to control the viscosity.",
+      "specifications": {},
+      "key_facts": [
+        "Viscosity is an important parameter to monitor and control throughout the polyurethane production process.",
+        "In step 1 of polyurethane production, prepolymer viscosity affects its processibility.",
+        "If prepolymer viscosity is too high, it becomes difficult to pump and mix.",
+        "If prepolymer viscosity is too low, it may not support the weight of fillers and additives.",
+        "In step 2, the viscosity of the prepolymer and chain extender mixture affects reaction kinetics.",
+        "High viscosity in the prepolymer and chain extender mixture leads to a slow reaction rate.",
+        "Low viscosity in the prepolymer and chain extender mixture can lead to a reaction rate that is too fast, causing side reactions and defects.",
+        "Rheonics SRV Inline viscometers are used to monitor and control the viscosity of the prepolymer and chain extender mixture at various points in the polyurethane production process.",
+        "SRV viscometers ensure prepolymer viscosity is within the specified range before being fed into the reactor.",
+        "SRV viscometers monitor the viscosity of the prepolymer and chain extender mixture during reaction to ensure the desired reaction rate.",
+        "SRV viscometers aid in controlling the addition of a chain extender to achieve the desired molecular weight and crosslinking in the final polyurethane polymer.",
+        "Inline process viscometers are typically installed in pipes or pipelines carrying the prepolymer and chain extender mixture.",
+        "The viscometer measures the viscosity of the mixture in real time.",
+        "Viscosity data from the viscometer is sent to a controller.",
+        "A controller uses the viscometer data to adjust the feed rate of reactants or to add other additives to control viscosity."
+      ],
+      "diagram_labels": [
+        "Feedstock Storage",
+        "Inline Mixing",
+        "Molding",
+        "Packaging and Storage",
+        "Distribution",
+        "Figure 2. Polyurethane production process"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 939,
+        "cost_usd": 0.0024872999999999996
+      },
+      "source_file": "184_Polyurethane_production_application.pdf"
+    },
+    {
+      "page_summary": "This page illustrates the application of Rheonics SRV inline viscometers in polyurethane production, detailing their role in controlling feed product viscosity, showing installation examples, and outlining benefits such as improved product quality, reduced waste, and increased efficiency.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRV Viscometer",
+        "HPT-G12"
+      ],
+      "extracted_text": "Figure 3. Inline process Viscometer SRV controls the viscosity of the feed products and the mixing result\n\nInstallation Lines\n\nPolyol Line\nPolyol fluid\nrheonics\nSensor Cable\nSRV G1/2\"\nHPT-G12\n\nIsocyanate Line\nIsocyanate fluid\nrheonics\nSensor Cable\nSRV G1/2\"\nHPT-G12\n\nBenefits of using inline viscometer SRV\n\nKey benefits to using SRV inline process viscometers in polyurethane production:\n\n*   Improved product quality: By monitoring and controlling viscosity, inline viscometers help to produce polyurethane polymers with consistent properties. This leads to improved product quality and performance.\n*   Reduced waste: Tight quality control through real-time measurement from the viscosity sensor in the line reduces waste by preventing the production of out-of-spec products.\n*   Increased efficiency: SRV Helps increase production efficiency by eliminating the need for manual sampling and testing.\n\nOverall, inline process viscometers like the SRV are a valuable tool for monitoring and controlling viscosity in polyurethane production. Real-time monitoring and control of the incoming raw materials, mixing process and reaction improve product quality, reduce waste, and increase efficiency.",
+      "specifications": {
+        "SRV connection type": "G1/2\""
+      },
+      "key_facts": [
+        "Inline process Viscometer SRV controls the viscosity of feed products and the mixing result.",
+        "SRV inline process viscometers are employed in polyurethane production.",
+        "Monitoring and controlling viscosity with inline viscometers helps produce polyurethane polymers with consistent properties, leading to improved product quality and performance.",
+        "Real-time measurement from the viscosity sensor in the line reduces waste by preventing the production of out-of-spec products.",
+        "SRV viscometers increase production efficiency by eliminating the need for manual sampling and testing.",
+        "Inline process viscometers like the SRV are a valuable tool for monitoring and controlling viscosity in polyurethane production.",
+        "Real-time monitoring and control of incoming raw materials, the mixing process, and reaction improve product quality, reduce waste, and increase efficiency."
+      ],
+      "diagram_labels": [
+        "Polyol Storage",
+        "Diisocyanate Storage",
+        "Controller",
+        "SRV Viscometer",
+        "Dynamic Inline mixer",
+        "To molding stage",
+        "Polyol fluid",
+        "Isocyanate fluid",
+        "Sensor Cable",
+        "SRV G1/2\"",
+        "HPT-G12"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 697,
+        "cost_usd": 0.0018823000000000002
+      },
+      "source_file": "184_Polyurethane_production_application.pdf"
+    },
+    {
+      "page_summary": "This page lists three references related to polyurethane applications, polyurethane, and viscosity in polyurethane polymers.",
+      "document_type": "whitepaper",
+      "product_names": [],
+      "extracted_text": "REFERENCES:\n[1] List of polyurethane applications (https://en.wikipedia.org/wiki/List_of_polyurethane_applications)\n[2] Polyurethane (https://en.wikipedia.org/wiki/Polyurethane)\n[3] Viscosity in Polyurethane Polymer (https://www.process-insights.com/products-3/products-industrial/nir-uv-vis-process-and-lab-analyzers/viscosity-in-polyurethane-polymer/)",
+      "specifications": {},
+      "key_facts": [
+        "Reference [1] is 'List of polyurethane applications' from en.wikipedia.org.",
+        "Reference [2] is 'Polyurethane' from en.wikipedia.org.",
+        "Reference [3] is 'Viscosity in Polyurethane Polymer' from process-insights.com, relating to industrial NIR-UV-VIS process and lab analyzers."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 276,
+        "cost_usd": 0.0008297999999999999
+      },
+      "source_file": "184_Polyurethane_production_application.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

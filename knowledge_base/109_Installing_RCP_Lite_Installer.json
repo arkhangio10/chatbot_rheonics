@@ -1,0 +1,141 @@
+{
+  "source_file": "109_Installing_RCP_Lite_Installer.pdf",
+  "total_pages": 3,
+  "chunks": [
+    {
+      "page_summary": "This page provides step-by-step instructions for installing the Rheonics Control Panel Lite software, including guidance on updating existing versions.",
+      "document_type": "manual",
+      "product_names": [
+        "RCP",
+        "RCP Lite Installer",
+        "RCP_Lite_VX.X.X.X.exe",
+        "RCPLite_V4.1.1.5_V2",
+        "RCPLite_V4.3.0.2",
+        "RCPSetup_V4.3.0.2",
+        "Rheonics Control Panel",
+        "Rheonics_RCP_Manual"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nInstalling RCP Lite Installer\n\nModified on: Fri, 3 Jul, 2020 at 11:40 AM\n\nIf you have installed an old version of RCP, and want to do an update for a new version, You could use the \"RCP_Lite_VX.X.X.X.exe\" installer provided by Rheonics and skip the full install. Double click on the file to start the install process.\n\n[File Explorer Window - List of Installers]\n  Name\n  Test Installers\n  RCPLite_V4.1.1.5_V2\n  RCPLite_V4.3.0.2\n  RCPSetup_V4.3.0.2\n  Rheonics_RCP_Manual\n\n1. Click Next on the dialog below to start the installation process\n\n[Setup - Rheonics Control Panel - Welcome Wizard]\n  Window Title: Setup - Rheonics Control Panel\n  rheonics\n  Welcome to the Rheonics Control Panel Setup Wizard\n  This will install Rheonics Control Panel version 4.3.0.2 on your computer.\n  It is recommended that you close all other applications before continuing.\n  Click Next to continue, or Cancel to exit Setup.\n  Control Panel Setup Wizard\n  Buttons: Next >, Cancel\n\n2. A dialog will appear to select the installation directories. Use the default, unless there is a reason to select a different location, and click \"Next\".\n\n[Setup - Rheonics Control Panel - Select Destination Location]\n  Window Title: Setup - Rheonics Control Panel\n  Select Destination Location\n  Where should Rheonics Control Panel be installed?\n  Setup will install Rheonics Control Panel into the following folder.\n  To continue, click Next. If you would like to select a different folder, click Browse...\n  Default path: C:\\Program Files\\Rheonics Control Panel\n  Button: Browse...\n  At least 273.0 MB of free disk space is required.\n  Buttons: < Back, Next >, Cancel",
+      "specifications": {
+        "Software Version": "4.3.0.2",
+        "Disk Space Required": "273.0 MB",
+        "Phone Number": "+1 713 234 0863",
+        "Document Modified Date": "Fri, 3 Jul, 2020",
+        "Document Modified Time": "11:40 AM"
+      },
+      "key_facts": [
+        "This document outlines the installation procedure for the RCP Lite Installer.",
+        "Users can update an existing RCP installation by directly using the provided \"RCP_Lite_VX.X.X.X.exe\" installer, skipping a full re-installation.",
+        "The installation process will install Rheonics Control Panel version 4.3.0.2.",
+        "The installation requires at least 273.0 MB of free disk space.",
+        "The default installation directory for the Rheonics Control Panel is \"C:\\Program Files\\Rheonics Control Panel\"."
+      ],
+      "diagram_labels": [
+        "Name",
+        "D",
+        "Test Installers",
+        "RCPLite_V4.1.1.5_V2",
+        "RCPLite_V4.3.0.2",
+        "RCPSetup_V4.3.0.2",
+        "Rheonics_RCP_Manual",
+        "Setup - Rheonics Control Panel",
+        "rheonics",
+        "Welcome to the Rheonics Control Panel Setup Wizard",
+        "Next >",
+        "Cancel",
+        "Control Panel Setup Wizard",
+        "Select Destination Location",
+        "Where should Rheonics Control Panel be installed?",
+        "Browse...",
+        "C:\\Program Files\\Rheonics Control Panel",
+        "< Back"
+      ],
+      "warnings_notes": [
+        "It is recommended that you close all other applications before continuing.",
+        "Use the default installation directories unless there is a specific reason to choose a different location."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1107,
+        "cost_usd": 0.0029073
+      },
+      "source_file": "109_Installing_RCP_Lite_Installer.pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions with corresponding screenshots for installing and completing the setup of the Rheonics Control Panel software.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel",
+        "RCP"
+      ],
+      "extracted_text": "3. Click check box to create a Desktop shortcut, and click “Next”:\nSetup - Rheonics Control Panel\nSelect Additional Tasks\nWhich additional tasks should be performed?\nSelect the additional tasks you would like Setup to perform while installing Rheonics Control Panel, then click Next.\nAdditional shortcuts:\nCreate a desktop shortcut\n< Back\nNext >\nCancel\n4. Click “Install” to complete the installation process of RCP:\nSetup - Rheonics Control Panel\nReady to Install\nSetup is now ready to begin installing Rheonics Control Panel on your computer.\nClick Install to continue with the installation, or click Back if you want to review or change any settings.\nDestination location:\nC:\\Program Files\\Rheonics\\ControlPanel\nAdditional tasks:\nAdditional shortcuts:\nCreate a desktop shortcut\n< Back\nInstall\nCancel\n5. The installer will extract the files in the default destination.\nSetup - Rheonics Control Panel\nInstalling\nPlease wait while Setup installs Rheonics Control Panel on your computer.\nExtracting files...\nC:\\Program Files\\LabVIEW\\RunTimeEngine2012.exe\nCancel\n6. Click “Finish” to finish the install process.\nSetup - Rheonics Control Panel\nrheonics\nCompleting the Rheonics Control Panel Setup Wizard\nSetup has finished installing Rheonics Control Panel on your computer. The application may be launched by selecting the installed shortcuts.\nClick Finish to exit Setup.\nControl Panel\nSetup Wizard\nFinish\nRCP software is now updated and ready to use.",
+      "specifications": {},
+      "key_facts": [
+        "The installation process involves selecting additional tasks, such as creating a desktop shortcut for the Rheonics Control Panel.",
+        "The default installation path for the Rheonics Control Panel is C:\\Program Files\\Rheonics\\ControlPanel.",
+        "During installation, the setup extracts necessary files, including 'LabVIEW\\RunTimeEngine2012.exe'.",
+        "After completing the setup wizard, the Rheonics Control Panel software will be updated and ready to use."
+      ],
+      "diagram_labels": [
+        "Setup - Rheonics Control Panel",
+        "Select Additional Tasks",
+        "Which additional tasks should be performed?",
+        "Select the additional tasks you would like Setup to perform while installing Rheonics Control Panel, then click Next.",
+        "Additional shortcuts:",
+        "Create a desktop shortcut",
+        "< Back",
+        "Next >",
+        "Cancel",
+        "Ready to Install",
+        "Setup is now ready to begin installing Rheonics Control Panel on your computer.",
+        "Click Install to continue with the installation, or click Back if you want to review or change any settings.",
+        "Destination location:",
+        "C:\\Program Files\\Rheonics\\ControlPanel",
+        "Install",
+        "Installing",
+        "Please wait while Setup installs Rheonics Control Panel on your computer.",
+        "Extracting files...",
+        "C:\\Program Files\\LabVIEW\\RunTimeEngine2012.exe",
+        "rheonics",
+        "Completing the Rheonics Control Panel Setup Wizard",
+        "Setup has finished installing Rheonics Control Panel on your computer. The application may be launched by selecting the installed shortcuts.",
+        "Click Finish to exit Setup.",
+        "Control Panel",
+        "Setup Wizard",
+        "Finish"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 837,
+        "cost_usd": 0.0022322999999999996
+      },
+      "source_file": "109_Installing_RCP_Lite_Installer.pdf"
+    },
+    {
+      "page_summary": "This page is almost entirely blank, featuring only a faint, thin horizontal line near the top, suggesting it might be an empty page within a document or a placeholder.",
+      "document_type": "notes",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 106,
+        "cost_usd": 0.0004048
+      },
+      "source_file": "109_Installing_RCP_Lite_Installer.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

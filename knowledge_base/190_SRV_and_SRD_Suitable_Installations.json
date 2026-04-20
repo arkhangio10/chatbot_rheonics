@@ -1,0 +1,159 @@
+{
+  "source_file": "190_SRV_and_SRD_Suitable_Installations.pdf",
+  "total_pages": 3,
+  "chunks": [
+    {
+      "page_summary": "This document outlines the suitable installation criteria and considerations for Rheonics SRV viscometers and SRD density and viscometer sensors, including critical dimensions, clearance requirements, and general guidelines.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "SRD",
+        "Type-SR"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nSRV and SRD Suitable Installations\n\nModified on: Mon, 6 Nov, 2023 at 11:17 PM\n\nWhat products are involved?\nSRV (https://rheonics.com/products/inline-viscometer-srv/) Viscometer and SRD (https://rheonics.com/products/inline-density-meter-srd/) Density meter and viscometer sensors.\n\nWhat is the purpose of this article?\nShowcase suitable installation points of Rheonics SR- sensors in tank and pipeline, useful accessories and additional installation considerations.\n\nRheonics SRV and SRD installation criteria\nRheonis Type-SR sensors have two main criterias for installation, these are:\n* Immerse the sensing element and area in the fluid\n* Avoid deposits, dead and stagnation zones around the sensing area\n\nRheonics SRV sensor probes have the same resonator across all its variants (short, flush, long, slimline, reactor). Same happens with the SRD. So these installation criterias apply for all sensor probe variants.\n\nRheonics SRV Viscometer\nSRV tip's clearance to any obstruction 5 mm [0.2\"]\n\nRheonics SRD Density and Viscosity Meter\nSRD tip's clearance to any obstruction 12 mm [0.5\"]\n\nAvoid stagnation zones in the sensing zones (red areas)\nEnsure sensing element in red is in contact with fluid\nFigure 1: Rheonics SRV and SRD installation criterias.\n\nBased on these considerations, Rheonics Type-SR inline viscometer and density meter have great flexibility at installation with design variants and customizable process connections. In addition, Rheonics accessories can be used to mount the probes in different scenarios.\n\nInstallation Examples\nNext table specifies the sensor variants best suited, for each installation scenario, with a check mark. Some cells have a Rheonics code for a specific accessory useful for the installation.",
+      "specifications": {
+        "SRV sensing element length": "50 mm [1.96\"]",
+        "SRV sensing element diameter": "Ø16 mm [0.63\"]",
+        "SRV tip's minimum clearance to obstruction": "5 mm [0.2\"]",
+        "SRD sensing element length": "50 mm [1.96\"]",
+        "SRD sensing element diameter/width": "Ø35 mm [1.4\"]",
+        "SRD sensing element height": "35 mm [1.4\"]",
+        "SRD tip's minimum clearance to obstruction": "12 mm [0.5\"]"
+      },
+      "key_facts": [
+        "Rheonics Type-SR sensors require their sensing element and area to be immersed in the fluid.",
+        "Installation of Rheonics Type-SR sensors must avoid deposits, dead, and stagnation zones around the sensing area.",
+        "Rheonics SRV sensor probes and SRD sensor probes share the same resonator across all their variants, meaning the specified installation criteria apply universally.",
+        "Rheonics Type-SR inline viscometers and density meters offer great installation flexibility due to design variants and customizable process connections.",
+        "Rheonics provides accessories that can be used to mount the probes in various installation scenarios."
+      ],
+      "diagram_labels": [
+        "Rheonics SRV Viscometer",
+        "50 mm [1.96\"]",
+        "Ø16 mm [0.63\"]",
+        "SRV tip's clearance to any obstruction 5 mm [0.2\"]",
+        "Rheonics SRD Density and Viscosity Meter",
+        "50 mm [1.96\"]",
+        "Ø35 mm [1.4\"]",
+        "35 mm [1.4\"]",
+        "SRD tip's clearance to any obstruction 12 mm [0.5\"]",
+        "Avoid stagnation zones in the sensing zones (red areas)",
+        "Ensure sensing element in red is in contact with fluid",
+        "Figure 1: Rheonics SRV and SRD installation criterias."
+      ],
+      "warnings_notes": [
+        "Avoid deposits, dead and stagnation zones around the sensing area.",
+        "Avoid stagnation zones in the sensing zones (red areas).",
+        "Ensure sensing element in red is in contact with fluid."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1093,
+        "cost_usd": 0.0028723
+      },
+      "source_file": "190_SRV_and_SRD_Suitable_Installations.pdf"
+    },
+    {
+      "page_summary": "This page illustrates various installation points for Rheonics viscometers and density sensors in tanks and pipes, detailing compatible mounting accessories and options for each location.",
+      "document_type": "manual",
+      "product_names": [
+        "TMA-34N",
+        "WOL-34NS",
+        "WOL-34NL",
+        "HAW-TN",
+        "HAW-TK",
+        "WFT",
+        "Flush Flange",
+        "IFC-34N",
+        "HPT-12G",
+        "IFC-15T",
+        "FET"
+      ],
+      "extracted_text": "Figure 2: Installation point examples.\n\nTable 1: General Installation\n\n| Description | Location | Thread X1-34N | Thread X1-12G | X2 Custom Flange | X3 Tri-Clamp | X4 Flush | X5 Long Insertion |\n|---|---|---|---|---|---|---|---|\n| 1. Top of tank/Long insertion* | [Image of tank top insertion] | ✓ TMA-34N (https://rheonics.com/tma-34n/) | - | - | - | - | ✓ |\n| 2. Tank wall | [Image of tank wall insertion] | ✓ WOL-34NS (https://rheonics.com/product-accessories/wol-34ns/) WOL-34NL (https://rheonics.com/product-accessories/wol-34nl/) | ✓ HAW-TN (https://rheonics.com/product-accessories/haw-12g-xtn/) HAW-TK (https://rheonics.com/product-accessories/haw-12g-xtk/) | ✓ | ✓ WFT (https://rheonics.com/wp-content/uploads/2023/05/wft-15t.pdf) | ✓ Flush Flange (https://rheonics.com/wp-content/uploads/2023/09/SRV-X4-TC-1.5in_Flush-weld-flange.pdf) | ✓ |\n| 3. Jacketed wall** | [Image of jacketed wall insertion] | ✓ WOL-34NS (https://rheonics.com/product-accessories/wol-34ns/) WOL-34NL (https://rheonics.com/product-accessories/wol-34nl/) | ✓ HAW-TN (https://rheonics.com/product-accessories/haw-12g-xtn/) HAW-TK (https://rheonics.com/product-accessories/haw-12g-xtk/) | ✓ | ✓ WFT (https://rheonics.com/wp-content/uploads/2023/05/wft-15t.pdf) | ✓ Flush Flange (https://rheonics.com/wp-content/uploads/2023/09/SRV-X4-TC-1.5in_Flush-weld-flange.pdf) | ✓ Useful for big jacket sizes |\n| 4. Bottom tank | [Image of bottom tank insertion] | ✓ WOL-34NS (https://rheonics.com/product-accessories/wol-34ns/) WOL-34NL (https://rheonics.com/product-accessories/wol-34nl/) | ✓ HAW-TN (https://rheonics.com/product-accessories/haw-12g-xtn/) HAW-TK (https://rheonics.com/product-accessories/haw-12g-xtk/) | ✓ | ✓ WFT (https://rheonics.com/wp-content/uploads/2023/05/wft-15t.pdf) | ✓ Flush Flange (https://rheonics.com/wp-content/uploads/2023/09/SRV-X4-TC-1.5in_Flush-weld-flange.pdf) | ✓ |\n| 5. Tee piece - Long standpipe | [Image of tee piece installation] | - | - | - | - | - | ✓ |\n| 6. Pipe (2\" or above)*** | [Image of pipe installation] | ✓ WOL-34NS (https://rheonics.com/product-accessories/wol-34ns/) WOL-34NL (https://rheonics.com/product-accessories/wol-34nl/) | ✓ HAW-TN (https://rheonics.com/product-accessories/haw-12g-xtn/) HAW-TK (https://rheonics.com/product-accessories/haw-12g-xtk/) | ✓ | ✓ WFT (https://rheonics.com/wp-content/uploads/2023/05/wft-15t.pdf) | ✓ Minimal standpipe needed | ✓ For large pipes (approx. above 4\") |\n| 7. Elbow | [Image of elbow installation] | ✓ IFC-34N (https://rheonics.com/product-accessories/ifc-34n-srv/) | ✓ HPT-12G (https://rheonics.com/hpt-srx/) | - | ✓ IFC-15T (https://rheonics.com/ifc-15t/) FET (https://rheonics.com/product-accessories/fet-15t-15t/) | - | ✓ FET (https://rheonics.com/product-accessories/fet-15t-15t/) |",
+      "specifications": {
+        "Pipe size for installation": "2 inches or above",
+        "Pipe size for X5 Long Insertion": "approximately above 4 inches",
+        "Flush Flange weld size": "1.5 inches"
+      },
+      "key_facts": [
+        "The page provides a matrix of general installation points and compatible Rheonics mounting accessories.",
+        "The X5 Long Insertion option is useful for big jacket sizes when installing on a jacketed wall.",
+        "For pipe installations (2\" or above), the X4 Flush option requires minimal standpipe.",
+        "For large pipes (approximately above 4\"), the X5 Long Insertion option is available.",
+        "Installation points covered include top of tank, tank wall, jacketed wall, bottom tank, tee piece (long standpipe), pipe, and elbow."
+      ],
+      "diagram_labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "warnings_notes": [
+        "Footnote markers (*, **, ***) are present for 'Top of tank/Long insertion', 'Jacketed wall', and 'Pipe (2\" or above)', but the corresponding footnote text is not provided on this page."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1564,
+        "cost_usd": 0.0040498
+      },
+      "source_file": "190_SRV_and_SRD_Suitable_Installations.pdf"
+    },
+    {
+      "page_summary": "This page provides a table detailing suitable sensor installation types for small pipes, complemented by important notes and considerations for installation, especially concerning fluid and ambient temperature differences, and accessory recommendations.",
+      "document_type": "manual",
+      "product_names": [
+        "IFC-34N",
+        "HPT-12G",
+        "IFC-V25",
+        "SRV",
+        "SRD",
+        "FET-15T",
+        "FET-20T",
+        "FET-20X",
+        "SLP (-X6)",
+        "RP (-X7)"
+      ],
+      "extracted_text": "Description\tLocation\tThread X1-34N\tThread X1-12G\tX2 Custom Flange\tX3 Tri-Clamp\tX4 Flush\tX5 Long Insertion\n8. Small pipe (DN38 or less)\t(Blue triangle icon pointing down)\t✓ IFC-34N (https://rheonics.com/product-accessories/ifc-34n-srv/)\t✓ HPT-12G (https://rheonics.com/hpt-srx/)\t-\t-\t✓ IFC-V25 (https://rheonics.com/wp-content/uploads/2023/08/SRV-X4-BVF_IFC-V25_DN25.pdf) (https://rheonics.com/product-accessories/fet-15t-15t/)\t-\n\n*If fluid fills the tank/vessel completely, a long insertion is not mandatory and all variants can be used from the top.\n**Requires a cut in the jacket\n***2\" ANSI Standards (OD 60.3mm). For most 2\" pipes the ID size may be close to 50mm. Care should be taken to ensure installation criteria (Figure 2) specially for high-viscosity fluids. Alternatively, use an elbow installation with the FET-15T(-20T or -20X) (https://rheonics.com/product-accessories/fet-15t-15t/).\n\nNotes:\n* For flush (X4) and short (X1, X2 and X3) SRD, density deviation may happen if there is a difference between ambient and fluid temperature. This is avoidable with a long immersion probe (X5).\n* For small pipes also consider a elbow installation with SLP (-X6) and RP (-X7) sensor variants.\n* Review all SRV variants (https://support.rheonics.com/en/support/solutions/folders/81000297659) and SRD variants (https://support.rheonics.com/en/support/solutions/folders/81000297659).\n* Visit Rheonics accessory table (https://rheonics.com/product-accessories/).",
+      "specifications": {
+        "Pipe Diameter": "DN38 or less",
+        "Pipe OD": "60.3 mm",
+        "Pipe ID (typical for 2 inch pipes)": "50 mm"
+      },
+      "key_facts": [
+        "For small pipes (DN38 or less), Thread X1-34N (IFC-34N), Thread X1-12G (HPT-12G), and X4 Flush (IFC-V25) are recommended installation options.",
+        "If a tank or vessel is completely filled with fluid, a long insertion probe is not required, and all sensor variants can be installed from the top.",
+        "For most 2-inch ANSI standard pipes (OD 60.3mm), the internal diameter (ID) can be close to 50mm, necessitating careful adherence to installation criteria, especially for high-viscosity fluids.",
+        "Elbow installation is an alternative for 2-inch pipes, particularly with FET-15T, -20T, or -20X accessories.",
+        "Density deviation for flush (X4) and short (X1, X2, X3) SRD variants may occur if there's a difference between ambient and fluid temperature, which can be mitigated using a long immersion probe (X5).",
+        "For small pipes, an elbow installation should also be considered when using SLP (-X6) and RP (-X7) sensor variants."
+      ],
+      "diagram_labels": [
+        "Location icon (blue triangle pointing down over a grey line, indicating an installation point)"
+      ],
+      "warnings_notes": [
+        "Installation requires a cut in the jacket.",
+        "Care should be taken to ensure installation criteria (Figure 2) are met, especially for high-viscosity fluids.",
+        "Density deviation may occur for flush (X4) and short (X1, X2 and X3) SRD variants if there is a difference between ambient and fluid temperature; this can be avoided with a long immersion probe (X5)."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1140,
+        "cost_usd": 0.0029898
+      },
+      "source_file": "190_SRV_and_SRD_Suitable_Installations.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

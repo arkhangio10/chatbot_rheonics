@@ -1,0 +1,399 @@
+{
+  "source_file": "192_Rheonics_SRV_and_SRD_-_VAF_ViscoSense_Retrofit.pdf",
+  "total_pages": 7,
+  "chunks": [
+    {
+      "page_summary": "This article provides guidelines for retrofitting VAF ViscoSense viscosity and density sensors with Rheonics SRV inline viscometers or SRD inline density and viscosity meters.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics SRV",
+        "Rheonics SRD",
+        "VAF ViscoSense",
+        "SR V - Inline Viscosity Meter",
+        "SRD - Inline Density and Viscosity meter",
+        "Rheonics Type-SR sensor"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nRheonics SRV and SRD - VAF ViscoSense Retrofit\nModified on: Wed, 26 Feb, 2025 at 9:16 AM\nWhat is the purpose of this article?\nTo provide guidelines on how the Rheonics SRV inline viscometer or SRD density and viscosity meter can retrofit the VAF ViscoSense line of viscosity and density sensors.\nWhat products are involved?\nRheonics SRV (https://rheonics.com/products/inline-viscometer-srv/) or SR V - Inline Viscosity Meter (https://rheonics.com/products/inline-viscometer-srv/) and SRD - Inline Density and Viscosity meter (https://rheonics.com/products/inline-density-meter-srd/).\n1. Introduction\nRheonics sensors are used in multiple industrial applications to measure the viscosity and/or density of fluids, enabling highly accurate tracking and tight control of the fluid.\nThe Rheonics SRV (https://rheonics.com/products/inline-viscometer-srv/) sensor measures viscosity and temperature inline, while the Rheonics SRD (https://rheonics.com/products/inline-density-meter-srd/) sensor measures density in addition to viscosity and temperature.\nThe sensor probes are compact, light, hermetically sealed, and factory-calibrated, so they don't need re-calibration during its operational lifetime.\nRheonics sensors use a balanced torsional resonator (BTR) as sensing technology, which vibrates torsionally and is connected to the outside world at a node. The BTR technology patented by Rheonics offers a significant advantage over competitors in the market, as it allows the SR-sensors to be compact, lightweight, and resistant to external vibrations. Review Rheonics sensor operating principle (https://rheonics.com/whitepapers/).\n2. Retrofit\nUsers may need to replace a viscometer or density meter in line due to malfunction, lack of spare parts, or to simply try out Rheonics sensors and the BTR technology advantages.\nIn those cases, the user most likely has an existing installation point from the former sensor that he may want to reuse to install the Rheonics Type-SR sensor. The SRV and SRD favor retrofit installations due to the modular design of the probe. Rheonics offers different probe variants, these are flush, short and long insertion sensors, with all process connections available while ensuring consistency of performance across all variants.\nWhat needs to be verified for good installation of the SRV and SRD?\nThe SRV and SRD probes have a sensing area that should be free of obstructions and deposits. These areas should be immersed in the fluid of interest. Review this article for more information: Installation Guidelines for inline process SRV viscometer and SRD density and viscosity meter",
+      "specifications": {},
+      "key_facts": [
+        "The article provides guidelines for retrofitting VAF ViscoSense sensors with Rheonics SRV inline viscometers or SRD inline density and viscosity meters.",
+        "Rheonics SRV sensors measure viscosity and temperature, while Rheonics SRD sensors measure density, viscosity, and temperature.",
+        "Rheonics sensor probes are compact, light, hermetically sealed, and factory-calibrated, eliminating the need for re-calibration during their operational lifetime.",
+        "Rheonics sensors utilize a patented Balanced Torsional Resonator (BTR) technology, which provides advantages such as compactness, lightweight design, and resistance to external vibrations.",
+        "The modular design of Rheonics SRV and SRD probes facilitates retrofit installations.",
+        "Rheonics offers various probe variants including flush, short, and long insertion sensors, compatible with all process connections.",
+        "For proper installation, the sensing area of SRV and SRD probes must be free of obstructions and deposits and fully immersed in the fluid of interest."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "For good installation of SRV and SRD probes, the sensing area should be free of obstructions and deposits and fully immersed in the fluid of interest."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1030,
+        "cost_usd": 0.0027148
+      },
+      "source_file": "192_Rheonics_SRV_and_SRD_-_VAF_ViscoSense_Retrofit.pdf"
+    },
+    {
+      "page_summary": "This page details Rheonics SRV sensor versatility for retrofitting existing installations and provides a compatibility overview with VAF Instruments' ViscoSense viscometers and density sensors.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Type-SR sensors",
+        "SRV-X4",
+        "SRV-X2",
+        "SRV-X5",
+        "ViscoSense",
+        "ViscoSense3",
+        "ViscoSense3D",
+        "Rheonics SRV",
+        "Rheonics SRD",
+        "Rheonics SRV Viscometer",
+        "VAF ViscoSense 3"
+      ],
+      "extracted_text": "https://support.rheonics.com/en/support/solutions/articles/81000411886-installation-guidelines-for-inline-viscometer-srv-and-density-meter-srd\n\nBy selecting the correct insertion length “A” and process connection “B”, Rheonics Type-SR sensors can be ordered to retrofit almost all existing installations, while having the sensing area correctly placed. Figure 1 shows the SRV-X4 (Flush Tri-Clamp), -X2 (Short threaded) and -X5 (Long insertion flanged), all with customizable process connection.\n\nRheonics favors open standards and these also provide a way for customer to order an alternative sensor when they plan to replace Rheonics ones.\n\nFigure 1: Rheonics SRV sensor versatility on design.\n\n3. VAF Instruments\n\nVAF Instruments (https://www.vaf.nl/) is a company mainly focused on the maritime industry and builts sensors and solutions specially suited for that area.\n\nVAF ViscoSense:\n\nThe ViscoSense, viscosity and density meters, is one of VAF product lines for inline measurement and process control of ship’s fuel to achieve combustion efficiency. The ViscoSense3 is a viscosity and temperature sensor and the ViscoSense3D adds density as a third reading. Rheonics offers the SRV and SRD sensors for potential retrofits of the VAF units.\n\nTable 1: Rheonics and VAF Instrument viscometer and density meters\n\nVAF Instrument | Rheonics sensor for retrofit\nViscoSense 3 | Rheonics viscometer SRV\nViscoSense 3D | Rheonics density and viscosity meter SRD\n\nRheonics SRV Viscometer\n70 [2.76]\n124 [4.87]\n\nVAF ViscoSense 3\n77.3 [3.05]\n169 [6.64]",
+      "specifications": {
+        "Rheonics SRV Viscometer probe length": "70 mm [2.76 inches]",
+        "Rheonics SRV Viscometer body length": "124 mm [4.87 inches]",
+        "VAF ViscoSense 3 probe length": "77.3 mm [3.05 inches]",
+        "VAF ViscoSense 3 body length": "169 mm [6.64 inches]"
+      },
+      "key_facts": [
+        "Rheonics Type-SR sensors can be customized with specific insertion lengths (\"A\") and process connections (\"B\") to retrofit existing installations.",
+        "Rheonics Type-SR sensors mentioned include SRV-X4 (Flush Tri-Clamp), SRV-X2 (Short threaded), and SRV-X5 (Long insertion flanged).",
+        "Rheonics promotes open standards, allowing customers to use alternative sensors if they wish to replace Rheonics ones.",
+        "VAF Instruments is a company focused on providing sensors and solutions for the maritime industry.",
+        "The VAF ViscoSense product line includes viscosity and density meters for inline measurement and process control of ship's fuel.",
+        "The VAF ViscoSense3 is a sensor that measures viscosity and temperature.",
+        "The VAF ViscoSense3D is an advanced sensor that measures viscosity, temperature, and density.",
+        "Rheonics SRV and SRD sensors are compatible and offered as retrofit options for VAF ViscoSense units."
+      ],
+      "diagram_labels": [
+        "Figure 1: Rheonics SRV sensor versatility on design.",
+        "rheonics (logo)",
+        "Rheonics SRV Viscometer",
+        "VAF ViscoSense 3"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1017,
+        "cost_usd": 0.0026822999999999994
+      },
+      "source_file": "192_Rheonics_SRV_and_SRD_-_VAF_ViscoSense_Retrofit.pdf"
+    },
+    {
+      "page_summary": "This page provides an installation overview and a detailed dimensional drawing for Rheonics VAF ViscoSense sensors in a ductile iron housing, including various flange specifications and associated part numbers.",
+      "document_type": "datasheet",
+      "product_names": [
+        "Rheonics SRV",
+        "VAF ViscoSense 3",
+        "ViscoSense",
+        "VS2",
+        "VS3",
+        "VS3D"
+      ],
+      "extracted_text": "Figure 2: Rheonics SRV and VAF ViscoSense 3 comparison - mm [in]. Download drawing. (https://rheonics.com/wp-content/uploads/2024/03/Rheonics-Viscometer-SRV-VAF-Retrofit.pdf)\n\nInstallation of the VAF ViscoSense sensors require a ductile iron sensor housing specially designed for marine applications. The ViscoSense housing varies in sizes and it is shown in Figure 3 and 4. The sensor probe is threaded in the housing which has flanges as connection to the process.\n\nMIN. REQUIRED WITHDRAWAL SPACE\nFIXED CABLE LENGTH 5m -0,1m\nMAX. 189\n150 ±0,5\n23\nOC\nOF\nOE\nOM\n16 Bar\n180° C\nDN50 (2\")\nN x OD\n\nFLANGE | C | E | F | N x OD | M\nDIN PN 10/16 | 165 | 125 | 102 | 4x18 | 3\nANSI CLASS 150RF | 152.4 | 120.6 | 92 | 4x19 | 1.6\nANSI 300RF | 165 | 127 | 92 | 8x19 | 1.6\nJIS 10K | 155 | 120 | 100 | 4x19 | 2\nJIS 16/20K | 155 | 120 | 100 | 8x19 | 2\nJIS 30K | 165 | 130 | 105 | 8x19 | 2\n\nPARTS LIST VS2/VS3 SENSOR : 0820-1230\nPARTS LIST VS3D SENSOR : 0820-1232\nEXT. CONNECTION DIAGRAM VS2 : 0820-2023\nEXT. CONNECTION DIAGRAM VS3 : 0820-2033\nEXT. CONNECTION DIAGRAM VS3D : 0820-2036\n\nVAF INSTRUMENTS\nDATE : 03-04-13\nDRAWN : PV\nCHECKED : WR\nMATERIAL :\nSEMI MAT. :\nDIMENSIONAL DRAWING\nVS2/VS3/VS3D SENSOR\nIN HOUSING DN50 16Bar\n0820-1068 A\n\nREV | DESCRIPTION | DATE | PAR\nA | EXT. CONN DIAGRAM REFERENCES ADDED | 9-12-16 | WR\nA | DIM. HOUSING ANSI 300RF AND JIS30K ADDED\n\nTHIS CONFIDENTIAL DOCUMENT IS THE SOLE PROPERTY OF VAF INSTRUMENTS.\nIT MUST NOT BE REPRODUCED IN ANY MATERIAL FORM OR ITS CONTENTS\nMUST NOT BE COMMUNICATED TO ANY THIRD PARTY WITHOUT THE WRITTEN\nCONSENT OF VAF INSTRUMENTS.\nDIMENSIONS IN mm\n\nFigure 3: ViscoSense sensor and housing [1]",
+      "specifications": {
+        "Fixed Cable Length": "5m -0.1m",
+        "Minimum Required Withdrawal Space": "150 mm",
+        "Maximum Overall Height": "189 mm",
+        "Flange Pressure Rating": "16 Bar",
+        "Flange Temperature Rating": "180 °C",
+        "Nominal Diameter": "DN50 (2\")",
+        "Flange Face-to-Face Length": "150 ±0.5 mm",
+        "End Piece Length": "23 mm",
+        "DIN PN 10/16 Flange Dimension C": "165 mm",
+        "DIN PN 10/16 Flange Dimension E": "125 mm",
+        "DIN PN 10/16 Flange Dimension F": "102 mm",
+        "DIN PN 10/16 Flange Bolt Holes (N x OD)": "4x18",
+        "DIN PN 10/16 Flange Dimension M": "3 mm",
+        "ANSI CLASS 150RF Flange Dimension C": "152.4 mm",
+        "ANSI CLASS 150RF Flange Dimension E": "120.6 mm",
+        "ANSI CLASS 150RF Flange Dimension F": "92 mm",
+        "ANSI CLASS 150RF Flange Bolt Holes (N x OD)": "4x19",
+        "ANSI CLASS 150RF Flange Dimension M": "1.6 mm",
+        "ANSI 300RF Flange Dimension C": "165 mm",
+        "ANSI 300RF Flange Dimension E": "127 mm",
+        "ANSI 300RF Flange Dimension F": "92 mm",
+        "ANSI 300RF Flange Bolt Holes (N x OD)": "8x19",
+        "ANSI 300RF Flange Dimension M": "1.6 mm",
+        "JIS 10K Flange Dimension C": "155 mm",
+        "JIS 10K Flange Dimension E": "120 mm",
+        "JIS 10K Flange Dimension F": "100 mm",
+        "JIS 10K Flange Bolt Holes (N x OD)": "4x19",
+        "JIS 10K Flange Dimension M": "2 mm",
+        "JIS 16/20K Flange Dimension C": "155 mm",
+        "JIS 16/20K Flange Dimension E": "120 mm",
+        "JIS 16/20K Flange Dimension F": "100 mm",
+        "JIS 16/20K Flange Bolt Holes (N x OD)": "8x19",
+        "JIS 16/20K Flange Dimension M": "2 mm",
+        "JIS 30K Flange Dimension C": "165 mm",
+        "JIS 30K Flange Dimension E": "130 mm",
+        "JIS 30K Flange Dimension F": "105 mm",
+        "JIS 30K Flange Bolt Holes (N x OD)": "8x19",
+        "JIS 30K Flange Dimension M": "2 mm",
+        "Parts List VS2/VS3 Sensor Number": "0820-1230",
+        "Parts List VS3D Sensor Number": "0820-1232",
+        "External Connection Diagram VS2 Number": "0820-2023",
+        "External Connection Diagram VS3 Number": "0820-2033",
+        "External Connection Diagram VS3D Number": "0820-2036",
+        "Drawing Number": "0820-1068",
+        "Drawing Revision": "A",
+        "Drawing Date": "03-04-13",
+        "Revision A Date": "9-12-16"
+      },
+      "key_facts": [
+        "VAF ViscoSense sensors require a ductile iron sensor housing.",
+        "The sensor housing is specifically designed for marine applications.",
+        "The ViscoSense housing varies in sizes.",
+        "The sensor probe is threaded into the housing.",
+        "The housing connects to the process via flanges.",
+        "The dimensional drawing details VS2/VS3/VS3D sensors in a DN50 housing, rated for 16 Bar.",
+        "All dimensions provided in the drawing are in millimeters.",
+        "Revision 'A' of the drawing updated external connection diagram references and added ANSI 300RF and JIS30K housing dimensions."
+      ],
+      "diagram_labels": [
+        "MIN. REQUIRED WITHDRAWAL SPACE",
+        "FIXED CABLE LENGTH 5m -0,1m",
+        "MAX. 189",
+        "150 ±0,5",
+        "23",
+        "OC",
+        "OF",
+        "OE",
+        "OM",
+        "16 Bar",
+        "180° C",
+        "DN50 (2\")",
+        "N x OD"
+      ],
+      "warnings_notes": [
+        "This confidential document is the sole property of VAF Instruments.",
+        "It must not be reproduced in any material form or its contents.",
+        "It must not be communicated to any third party without the written consent of VAF Instruments.",
+        "Dimensions are in mm."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 2178,
+        "cost_usd": 0.005584799999999999
+      },
+      "source_file": "192_Rheonics_SRV_and_SRD_-_VAF_ViscoSense_Retrofit.pdf"
+    },
+    {
+      "page_summary": "This page provides technical details for the Rheonics ViscoSense sensor and its housing, including a parts list and revision history, and describes the retrofit process for Rheonics SRV viscometers into standard VAF housings with specific probe options, accompanied by dimensional drawings.",
+      "document_type": "datasheet",
+      "product_names": [
+        "ViscoSense V2 SENSOR",
+        "Rheonics SRV viscometer",
+        "VAF probe",
+        "SRV-X1-XXX",
+        "SRV-X6"
+      ],
+      "extracted_text": "DETAIL A\n\nITEM No. | PART NUMBER | QTY | DESCRIPTION | MATERIAL\n1 | 0279-0096 | 1 | ViscoSense V2 SENSOR (including items 2,3 and 4) | AISI 316L\n2 | 0630-3022 | 1 | O-RING, ID 25.12xØ1.78mm | VITON\n3 | 1731-0404 | 2 | HEX SET SCREW M4x4mm DIN 916 | AISI 316L\n4 | 0442-0326 | 1 | FLOW TUBE | AISI 316L\n\nDIM. DRAW. VS2/VS3 SENSOR : 0820-1068\nEXTERN CONNECTION DIAGRAM VS2 : 0820-2023\nEXTERN CONNECTION DIAGRAM VS3 : 0820-2033\n\nVAF INSTRUMENTS\n\nPARTS LIST VS2/VS3 SENSOR : 0820-1230\n\nREV | DESCRIPTION | DATE | PAR\nG | REF. DIM. DRAW ADDED | 09-12-16 | WR\nF | EXT. CONN 0820-2033 WAS -2036 | 23-06-16 | WR\nE | ITEM 1, INCLUDING ETC ADDED | 30-06-15 | WR\nD | EXT. CONN. DIAGRAM REFERENCES | 13-10-14 | WR\nC | DRAW. NAME V9 SENSOR WAS VS2 |\nC | FLOWTUBE 3 SLOTS | 11-11-11 | WR\n\nDATE: 8-12-2016\nDRAWN: Regleer\nCHECKED: WR\nMATERIAL:\nSEMI MAT.:\n\nFigure 4: ViscoSense sensor and housing detailed [1].\n\nRheonics sensors don't need the use of a factory designed housing for operation, but the sensor can be ordered to retrofit the standard VAF housing if this housing is to be reused.\nSee Figure 5 as an example. The Rheonics SRV viscometer can be ordered to replace a VAF probe and use the existing housing. Depending on the housing size and fluid type, the required SRV probe for VAF retrofit is a short probe with custom threaded connection (SRV-X1-XXX). For specific cases, where long insertion is required, -a slimline long insertion probe with custom connection (SRV-X6) can be used.\n\n30 [1.18]\n108.6 [4.27]\n50 [1.97]\n150 [5.91]\n152.4 [6.00]\n\nFigure 5: Rheonics SRV viscometer retrofit for VAF ViscoSense - mm [in]. Download drawing.\n(https://rheonics.com/wp-content/uploads/2024/03/Rheonics-Viscometer-SRV-VAF-Retrofit.pdf)",
+      "specifications": {
+        "ViscoSense V2 Sensor Material": "AISI 316L",
+        "O-RING Material": "VITON",
+        "O-RING ID": "25.12 mm",
+        "O-RING Thickness": "1.78 mm",
+        "HEX SET SCREW Material": "AISI 316L",
+        "HEX SET SCREW Size": "M4x4mm",
+        "HEX SET SCREW Standard": "DIN 916",
+        "Flow Tube Material": "AISI 316L",
+        "Maximum Pressure": "16 Bar",
+        "Maximum Temperature": "180 °C",
+        "Diameter (Figure 5, top probe)": "30 mm [1.18 in]",
+        "Overall Length (Figure 5, cross-section)": "108.6 mm [4.27 in]",
+        "Internal Diameter (Figure 5, housing flow path)": "50 mm [1.97 in]",
+        "Mounting Base Length (Figure 5, cross-section)": "150 mm [5.91 in]",
+        "Flange Diameter (Figure 5, end view)": "152.4 mm [6.00 in]"
+      },
+      "key_facts": [
+        "Rheonics sensors can retrofit into standard VAF housings, eliminating the need for a factory-designed housing.",
+        "The Rheonics SRV viscometer can replace a VAF probe in existing VAF housings.",
+        "For VAF retrofit, a short SRV probe with custom threaded connection (SRV-X1-XXX) is available.",
+        "For specific cases requiring long insertion, a slimline long insertion probe with custom connection (SRV-X6) can be used.",
+        "The ViscoSense V2 sensor, HEX SET SCREW, and FLOW TUBE are made from AISI 316L.",
+        "The O-RING used in the ViscoSense V2 sensor assembly is made of VITON and has an ID of 25.12 mm and a thickness of 1.78 mm.",
+        "The ViscoSense V2 sensor and housing assembly is rated for a maximum pressure of 16 Bar and a maximum temperature of 180 °C."
+      ],
+      "diagram_labels": [
+        "DETAIL A",
+        "VAF",
+        "1",
+        "2",
+        "3",
+        "4",
+        "A",
+        "16 Bar",
+        "180° C",
+        "INSTRUMENTS",
+        "A-A",
+        "Rheonics Viscometer SRV",
+        "VAF Housing"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1516,
+        "cost_usd": 0.0039298
+      },
+      "source_file": "192_Rheonics_SRV_and_SRD_-_VAF_ViscoSense_Retrofit.pdf"
+    },
+    {
+      "page_summary": "This page provides technical drawings and descriptions for retrofitting Rheonics density and viscosity meters (SRD and Type-SR) into existing VAF ViscoSense and Viscotherm housings, including detailed dimensions.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SRD",
+        "VAF ViscoSense",
+        "Viscotherm",
+        "Rheonics Type-SR sensors"
+      ],
+      "extracted_text": "Figure 6: Rheonics SRD density and viscosity meter retrofit for VAF ViscoSense - mm [in]. Download drawing.\n\nVAF ViscoSense in Viscotherm housing\n\nViscotherm is an an older viscosity measuring system from VAF. The Viscotherm housing (Figure 6) now enables users to retrofit the original Viscotherm system entirely. Once again, Rheonics Type-SR sensors can be mounted in these housings with the correct configuration as in Figure 7.\n\nFigure 7: Viscosense on Viscotherm housing (VAF order code: 0401-0816) [2].",
+      "specifications": {
+        "sensor_head_diameter_f6": "30 mm [1.18 in]",
+        "overall_height_f6": "108.6 mm [4.28 in]",
+        "housing_body_width_f6": "150 mm [5.91 in]",
+        "internal_pipe_diameter_f6": "50 mm [1.97 in]",
+        "flange_outer_diameter_f6": "152.4 mm [6.00 in]",
+        "withdrawal_space_height_f7": "150 mm",
+        "sensor_cable_bend_radius_f7": "90 mm",
+        "max_sensor_length_f7": "179 mm",
+        "max_sensor_length_eexd_f7": "175 mm",
+        "internal_pipe_diameter_f7": "50 mm [2 in]",
+        "outlet_height_from_base_f7": "150 mm",
+        "housing_base_length_f7": "200 mm",
+        "vaf_order_code_viscotherm_housing": "0401-0816"
+      },
+      "key_facts": [
+        "Rheonics SRD density and viscosity meters can be retrofitted into VAF ViscoSense housings.",
+        "Viscotherm is an older viscosity measuring system manufactured by VAF.",
+        "The Viscotherm housing (as referenced in Figure 6, and specifically shown in Figure 7) allows for the complete retrofit of the original Viscotherm system.",
+        "Rheonics Type-SR sensors can be mounted in these Viscotherm housings with the configuration shown in Figure 7.",
+        "The VAF order code for the Viscotherm housing shown is 0401-0816."
+      ],
+      "diagram_labels": [
+        "Rheonics Density and Viscosity meter SRD",
+        "VAF Housing",
+        "A-A",
+        "WITHDRAWAL SPACE",
+        "MAX. 179",
+        "EExd MAX. 175",
+        "Ø50 (2\")",
+        "OUTLET",
+        "INLET",
+        "Nx D",
+        "ØE",
+        "ØC",
+        "ØF",
+        "L",
+        "M"
+      ],
+      "warnings_notes": [
+        "Reference [2] is mentioned in Figure 7's caption but not defined on this page."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 855,
+        "cost_usd": 0.0022773
+      },
+      "source_file": "192_Rheonics_SRV_and_SRD_-_VAF_ViscoSense_Retrofit.pdf"
+    },
+    {
+      "page_summary": "This page provides dimensional drawings for Rheonics SRV viscometer and SRD density and viscosity meter retrofits for VAF ViscoSense, along with instructions on how to order a Rheonics Type-SR sensor for retrofit.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SRV viscometer",
+        "VAF ViscoSense",
+        "VAF Viscotherm Retrofit Housing",
+        "Rheonics SRD density and viscosity meter",
+        "Rheonics Type-SR sensor",
+        "SRV inline viscometer",
+        "SRD viscosity and density meter"
+      ],
+      "extracted_text": "Figure 8: Rheonics SRVviscometer retrofit for VAF ViscoSense - mm [in]. Download drawing.\n(https://rheonics.com/wp-content/uploads/2024/03/Rheonics-Viscometer-SRV-VAF-Retrofit.pdf)\n\nFigure 9: Rheonics SRD density and viscosity meter retrofit for VAF ViscoSense - mm [in]. Download drawing.\n(https://rheonics.com/wp-content/uploads/2024/03/Rheonics-Density-and-Viscosity-Meter-SRD-VAF-Retrofit.pdf)\n\n4. How to order a Rheonics Type-SR sensor for retrofit?\nTo get a quote for VAF viscosense, do the following:\na. Use the online RFQ pages for SRV inline viscometer (https://rheonics.com/request-for-quotation/srv/) and SRD viscosity and density meter (https://rheonics.com/request-for-quotation/srd/).\nb. Select the operating conditions (temperature and pressure rating) and sensor specifications (electronics, measurement range, calibration, etc.)\nc. For process connections, select X1 - custom thread. Use the fillable box below the process connection options to write \"VAF retrofit required\". Specify the thread type required, if different to M40x1.5.\nd. If possible, send installation pictures or drawings of the sensor to be replaced to info@rheonics.com",
+      "specifications": {
+        "SRV viscometer retrofit height": "112 mm [4.41 in]",
+        "SRV viscometer retrofit diameter": "Ø 50 mm [1.97 in]",
+        "SRD density and viscosity meter retrofit height": "112 mm [4.43 in]",
+        "SRD density and viscosity meter retrofit diameter": "Ø 50 mm [1.97 in]",
+        "Default custom thread type": "M40x1.5"
+      },
+      "key_facts": [
+        "Rheonics provides retrofit solutions for VAF ViscoSense using their SRV viscometer and SRD density and viscosity meter.",
+        "Dimensional drawings for both SRV viscometer and SRD density and viscosity meter retrofits for VAF ViscoSense are available for download in PDF format.",
+        "To obtain a quote for a VAF ViscoSense retrofit, customers should use the online RFQ pages for SRV inline viscometers or SRD viscosity and density meters.",
+        "Ordering requires specifying operating conditions (temperature, pressure rating) and sensor specifications (electronics, measurement range, calibration).",
+        "For process connections, customers must select 'X1 - custom thread' and specify 'VAF retrofit required' in the provided box.",
+        "The default custom thread type is M40x1.5, but other thread types can be specified.",
+        "It is recommended to send installation pictures or drawings of the sensor being replaced to info@rheonics.com for retrofit orders."
+      ],
+      "diagram_labels": [
+        "Rheonics Viscometer SRV",
+        "VAF Viscotherm Retrofit Housing",
+        "112 [ 4.41 ]",
+        "Ø 50 [ 1.97 ]",
+        "Rheonics density and viscosity meter SRD",
+        "112 [ 4.43 ]"
+      ],
+      "warnings_notes": [],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 940,
+        "cost_usd": 0.0024898
+      },
+      "source_file": "192_Rheonics_SRV_and_SRD_-_VAF_ViscoSense_Retrofit.pdf"
+    },
+    {
+      "page_summary": "This page provides important notes regarding Rheonics sensors for retrofits, a disclaimer about document illustrations, external references, and a list of related articles concerning Rheonics SRV and SRD products.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics sensors",
+        "SRV",
+        "SRD",
+        "Viscosense 3",
+        "Viscotherm",
+        "Emerson 7829",
+        "SRV X1-34N",
+        "SRV X6 Slimline Long Insertion probe",
+        "SRD X1-34N",
+        "SRD X6 S"
+      ],
+      "extracted_text": "Note: Rheonics sensors are suitable for retrofits but care should be taken to comply with minimum installation requirements for the sensing element to ensure reproducible and repeatable readings. These can be reviewed in any other article for SRV and SRD (https://support.rheonics.com/en/support/solutions/folders/81000297658 and https://support.rheonics.com/en/support/solutions/folders/81000297659).\n\nContact the technical sales team at info@rheonics.com or Technical support team at support@rheonics.com if needed to help you get the correct retrofit.\n\nDisclaimer\n\nPictures, photos, and images used are for illustration purposes and do not constitute any warranty or assertions on the suitability of use and should not be construed as an explicit or implicit recommendation or endorsement. All illustrations are given proper credit from our source of access and by their use here we do not specify or establish any copyright which belongs and stays unaffected with the existing copyright holder of that material.\n\nReferences\n\n[1]: Viscosense 3 (https://www.vaf.nl/media/1519/tib-775-qb-0418-2-viscosense3.pdf?type=Manual)\n[2]: Retrofitting Viscotherm to Viscosense (https://www.vaf.nl/media/1251/ib-732-qb-1020-retrofitting-viscotherm-to-viscosense.pdf?type=Brochure)\n\nRelated Articles\n\n- Rheonics SRV - Emerson 7829 Retrofit (https://support.rheonics.com/en/support/solutions/articles/81000412025-rheonics-srv-emerson-7829-retrofit)\n- SRV X1-34N (https://support.rheonics.com/en/support/solutions/articles/81000409840-srv-x1-34n-inline-process-viscometer-with-npt-3-4-)\n- SRV X6 Slimline Long Insertion probe (https://support.rheonics.com/en/support/solutions/articles/81000412401-srv-x6-slp-slimline-viscometer)\n- SRD X1-34N (https://support.rheonics.com/en/support/solutions/articles/81000409841-srd-x1-34n-inline-process-density-meter-with-npt-3-4-)\n- SRD X6 S (https://rheonics.com/request-for-quotation/srv/) limline Long Insertion probe (https://support.rheonics.com/en/support/solutions/articles/81000412461-srd-x6-slp-slimline-density-meter) (https://rheonics.com/request-for-quotation/srv/)",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics sensors are suitable for retrofits, but compliance with minimum installation requirements for the sensing element is crucial for reproducible and repeatable readings.",
+        "Installation requirements for SRV and SRD sensors can be found in referenced articles.",
+        "Technical sales and support teams are available for assistance with retrofits via info@rheonics.com and support@rheonics.com.",
+        "All pictures, photos, and images are used for illustration purposes only and do not imply warranty or suitability for use.",
+        "The document explicitly states that illustrations do not constitute explicit or implicit recommendations or endorsements.",
+        "Copyright of all illustrative material remains with the original copyright holder."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Note: Rheonics sensors are suitable for retrofits but care should be taken to comply with minimum installation requirements for the sensing element to ensure reproducible and repeatable readings. These can be reviewed in any other article for SRV and SRD (https://support.rheonics.com/en/support/solutions/folders/81000297658 and https://support.rheonics.com/en/support/solutions/folders/81000297659).",
+        "Disclaimer: Pictures, photos, and images used are for illustration purposes and do not constitute any warranty or assertions on the suitability of use and should not be construed as an explicit or implicit recommendation or endorsement. All illustrations are given proper credit from our source of access and by their use here we do not specify or establish any copyright which belongs and stays unaffected with the existing copyright holder of that material."
+      ],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1241,
+        "cost_usd": 0.0032422999999999996
+      },
+      "source_file": "192_Rheonics_SRV_and_SRD_-_VAF_ViscoSense_Retrofit.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

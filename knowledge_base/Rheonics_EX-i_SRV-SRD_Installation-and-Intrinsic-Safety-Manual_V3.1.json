@@ -1,0 +1,1237 @@
+{
+  "source_file": "Rheonics_EX-i_SRV-SRD_Installation-and-Intrinsic-Safety-Manual_V3.1.pdf",
+  "total_pages": 32,
+  "chunks": [
+    {
+      "page_summary": "This page is the cover for an installation manual detailing intrinsically safe sensors from Rheonics, which are ATEX and IECEx certified viscometers and density meters.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "SRD",
+        "SRV-FPC",
+        "SRD-FPC",
+        "SR Sensors"
+      ],
+      "extracted_text": "EN\nATEX and IECEx Certified Sensors\nInstallation of Intrinsically Safe Sensors\nManual\nrheonics\ninline process\ndensity and viscosity\nmonitoring\nApplicable to Rheonics Sensor Types: SRV, SRD, SRV-FPC, SRD-FPC\nCertified ATEX and IECEx Viscometers and Density Meters\nProduct: SR Sensors - ATEX and IECEx certified\nRev 3.1 February 2023",
+      "specifications": {},
+      "key_facts": [
+        "The sensors are ATEX and IECEx Certified.",
+        "The document is an Installation Manual for Intrinsically Safe Sensors.",
+        "Rheonics provides inline process density and viscosity monitoring solutions.",
+        "The manual is applicable to Rheonics Sensor Types: SRV, SRD, SRV-FPC, and SRD-FPC.",
+        "The sensors are certified as ATEX and IECEx Viscometers and Density Meters.",
+        "The product covered is SR Sensors, which are ATEX and IECEx certified.",
+        "The document revision is 3.1, dated February 2023."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 387,
+        "cost_usd": 0.0011072999999999999
+      },
+      "source_file": "Rheonics_EX-i_SRV-SRD_Installation-and-Intrinsic-Safety-Manual_V3.1.pdf"
+    },
+    {
+      "page_summary": "This page provides contact information for Rheonics' global, European, and US headquarters, along with copyright, trademark, and document-specific information for the Type-SR Sensor manual.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Type-SR Sensor"
+      ],
+      "extracted_text": "Rheonics | Switzerland | U.S.A.\n\nrheonics\n\nGLOBAL SUPPORT\nFor Support, visit: https://support.rheonics.com\n\nEUROPE HEADQUARTERS\nRheonics GmbH\nWinterthur, Switzerland\nTel: +41 52 511 32 00\n\nUS HEADQUARTERS\nRheonics, Inc.\nSugar Land, TX, USA\nTel: +1 713 364 5427\n\nWebsite: https://rheonics.com\nSupport Portal: https://support.rheonics.com\nSales E-Mail: info@rheonics.com\nSupport E-Mail: support@rheonics.com\n\n© COPYRIGHT RHEONICS 2023\nNo part of this publication may be copied or distributed, transmitted, transcribed, stored in a retrieval system, or translated into any human or computer language, in any form or by any means, electronic, mechanical, manual, or otherwise, or disclosed to third parties without the express written permission of Rheonics. The information contained in this manual is subject to change without notice.\n\nTRADEMARKS\nRheonics is a trademark of Rheonics, Inc. Other product and company names listed in this manual are trademarks or trade names of their respective manufacturers.\n\nRheonics Type-SR Sensor Installation and Intrinsic Safety Manual\nVersion 3.1, Updated: February 23, 2023\nRheonics GmbH, Winterthur, Switzerland\n\n©Rheonics. Rheonics confidential and proprietary information.\n\nP. 2",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics has a presence in Switzerland and the U.S.A.",
+        "Global support for Rheonics products is available by visiting https://support.rheonics.com.",
+        "Rheonics GmbH, the European headquarters, is located in Winterthur, Switzerland, and can be reached at +41 52 511 32 00.",
+        "Rheonics, Inc., the US headquarters, is located in Sugar Land, TX, USA, and can be reached at +1 713 364 5427.",
+        "The official website for Rheonics is https://rheonics.com.",
+        "Sales inquiries can be directed to info@rheonics.com.",
+        "Support inquiries can be directed to support@rheonics.com.",
+        "This publication is copyrighted by Rheonics in 2023.",
+        "Rheonics is a trademark of Rheonics, Inc.",
+        "This document is titled \"Rheonics Type-SR Sensor Installation and Intrinsic Safety Manual\".",
+        "The manual is Version 3.1 and was updated on February 23, 2023.",
+        "The document is considered confidential and proprietary information of Rheonics.",
+        "The manual is associated with Rheonics GmbH, Winterthur, Switzerland.",
+        "This is page 2 of the document."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "No part of this publication may be copied or distributed, transmitted, transcribed, stored in a retrieval system, or translated into any human or computer language, in any form or by any means, electronic, mechanical, manual, or otherwise, or disclosed to third parties without the express written permission of Rheonics.",
+        "The information contained in this manual is subject to change without notice.",
+        "Other product and company names listed in this manual are trademarks or trade names of their respective manufacturers.",
+        "©Rheonics. Rheonics confidential and proprietary information."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 902,
+        "cost_usd": 0.0023948
+      },
+      "source_file": "Rheonics_EX-i_SRV-SRD_Installation-and-Intrinsic-Safety-Manual_V3.1.pdf"
+    },
+    {
+      "page_summary": "This page presents the table of contents for the Rheonics Type-SR Sensor Installation and Intrinsic Safety Manual, including an important note regarding the official version of the document.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Type-SR Sensor"
+      ],
+      "extracted_text": "Rheonics | Switzerland | U.S.A.\nrheonics\nEnglish version of this manual is the only approved version from Rheonics. Installers should refer to it to confirm the correctness of information. In case of any questions contact your local partner or Rheonics support.\nContents\n1. Purpose of this manual ................................................................................................5\n2. Description of the sensors and general installation considerations ...............................5\n3. EX label description ......................................................................................................7\n   3.1. General note on Category of protection and operating zone .....................................9\n   3.2. Description of “X” conditions: operating conditions not described on the label, but that are necessary in order to maintain intrinsic safety .........................................9\n     3.2.1. Area classification & Gas Grouping .....................................................................9\n     3.2.2. Electrical parameters relevant to intrinsic safety..................................................10\n     3.2.3. Temperature rating of the sensors according to T class ......................................10\n     3.2.4. Pressure rating of the sensors ............................................................................11\n     3.2.5. Damage protection .............................................................................................11\n4. Safe use of ATEX approved equipment ........................................................................13\n   4.1. Notes on Safe Use of the ATEX Approved Equipment ..............................................13\n   4.2. Mounting, Commissioning, and Operation ...............................................................13\n5. Electrical Installation ...................................................................................................13\n   5.1. Cabling....................................................................................................................14\n   5.2. Zener diode barriers.................................................................................................18\n   5.3. Installation diagrams................................................................................................20\n   5.4. Equipotential bonding ..............................................................................................25\n     5.4.1. Bonding/grounding conductor ............................................................................25\n     5.4.2. Bonding to the sensor ..........................................................................................26\n     5.4.3. Bonding configurations .......................................................................................27\n6. Maintenance ................................................................................................................31\n   6.1. External Maintenance ...............................................................................................31\n   6.2. Sensor Maintenance..................................................................................................31\n   6.3. Internal Maintenance ................................................................................................31\n7. Returning Equipment to the factory ............................................................................31\n8. Intrinsic safety certificates...........................................................................................32\n9. Revisions and approvals ..............................................................................................32\nP. 3\nRheonics Type-SR Sensor Installation and Intrinsic Safety Manual\nVersion 3.1, Updated: February 23, 2023\nRheonics GmbH, Winterthur, Switzerland\n©Rheonics. Rheonics confidential and proprietary information.",
+      "specifications": {},
+      "key_facts": [
+        "The English version of this manual is the only approved version from Rheonics.",
+        "Installers should refer to this manual to confirm the correctness of information.",
+        "In case of any questions, contact your local partner or Rheonics support.",
+        "The document is a Rheonics Type-SR Sensor Installation and Intrinsic Safety Manual, Version 3.1, updated on February 23, 2023.",
+        "The document is confidential and proprietary information of Rheonics."
+      ],
+      "diagram_labels": [
+        "Language/Translation icon"
+      ],
+      "warnings_notes": [
+        "English version of this manual is the only approved version from Rheonics. Installers should refer to it to confirm the correctness of information. In case of any questions contact your local partner or Rheonics support.",
+        "©Rheonics. Rheonics confidential and proprietary information."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 975,
+        "cost_usd": 0.0025773
+      },
+      "source_file": "Rheonics_EX-i_SRV-SRD_Installation-and-Intrinsic-Safety-Manual_V3.1.pdf"
+    },
+    {
+      "page_summary": "This page provides a table of contents for figures and tables within the Rheonics Type-SR Sensor Installation and Intrinsic Safety Manual, along with an introduction emphasizing intrinsic safety and ATEX certification.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV sensor",
+        "SRD sensor",
+        "Rheonics Type-SR Sensor",
+        "Pt1000"
+      ],
+      "extracted_text": "Rheonics | Switzerland | U.S.A.\nrheonics\n\nFigures\nFigure 1: Example of sensor labels identifying the markings ................................................................ 7\nFigure 2: IECEx Explosion classification description ................................................................................ 8\nFigure 3: ATEX marking description ...................................................................................................... 8\nFigure 4: SRV sensor with protective sleeve and impact shield mounted ............................................. 12\nFigure 5: End view of SRV showing orientation of slot in impact shield ............................................. 12\nFigure 6: Pinout of M12 connector with no Pt1000 installed .............................................................. 15\nFigure 7: Pinout of M12 connector with 4-wire Pt1000 connection .................................................... 16\nFigure 8: Pinout of M12 connector with 3-wire Pt1000 connection .................................................... 17\nFigure 9: Variant 1 - Wiring diagram with Pt1000 installed, 4-wire Pt1000 connection .................... 22\nFigure 10: Variant 2 - Wiring diagram with no Pt1000 installed ........................................................ 23\nFigure 11: Variant 3 - Wiring diagram with Pt1000 installed, 3-wire Pt1000 connection .................. 24\nFigure 12: Installation of grounding tab on SRV/SRD sensor .............................................................. 26\nFigure 13: Several sensors grounded to common grounding point (\"Star\" topology) ......................... 28\nFigure 14: Individual bonding of sensors to their Zener diode barriers ................................................ 29\nFigure 15: Hybrid, or multi-drop bonding ............................................................................................ 30\n\nTables\nTable 1: EX-relevant electrical specification for SRV/SRD sensors ...................................................... 10\nTable 2: Temperatures for gas ignition classes .................................................................................... 10\nTable 3: Sensor cable specifications .................................................................................................... 18\nTable 4: Transducer coil circuit Zener diode barrier specifications ...................................................... 18\nTable 5: Pt1000 circuit(s) Zener diode barrier specifications .............................................................. 19\nTable 6: Specification of commercial Zener diode barrier suitable for transducer coil circuit ............ 19\nTable 7: Specification of commercial Zener diode barrier suitable for Pt1000 circuit(s) .................... 19\n\nIntroduction\nThe operational conditions cited in this manual are essential to and pertain only to the maintenance of intrinsic safety of the device. Operational conditions required for achieving the specified measurement accuracy and operational factors not relevant to operation in explosive atmospheres are given in the configuration data sheet supplied with the sensor. Please refer to the sensor configuration data sheet before installing and operating the sensor.\n\nThis is a certified ATEX document. Changes must be approved by the Rheonics EX Authorized Personnel.\n\nRheonics Type-SR Sensor Installation and Intrinsic Safety Manual\nVersion 3.1, Updated: February 23, 2023\nRheonics GmbH, Winterthur, Switzerland\n\n©Rheonics. Rheonics confidential and proprietary information.\nP. 4",
+      "specifications": {},
+      "key_facts": [
+        "The operational conditions in this manual are essential for maintaining the intrinsic safety of the device.",
+        "Details on measurement accuracy and operational factors not relevant to explosive atmospheres are provided in the sensor's configuration data sheet.",
+        "This document is a certified ATEX document.",
+        "Any changes to this ATEX document must be approved by Rheonics EX Authorized Personnel.",
+        "The document is considered Rheonics confidential and proprietary information."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Please refer to the sensor configuration data sheet before installing and operating the sensor.",
+        "This is a certified ATEX document. Changes must be approved by the Rheonics EX Authorized Personnel.",
+        "©Rheonics. Rheonics confidential and proprietary information."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1059,
+        "cost_usd": 0.0027873
+      },
+      "source_file": "Rheonics_EX-i_SRV-SRD_Installation-and-Intrinsic-Safety-Manual_V3.1.pdf"
+    },
+    {
+      "page_summary": "This page is an excerpt from the Rheonics Type-SR Sensor Installation and Intrinsic Safety Manual, detailing the purpose of the manual, safety considerations for installation in hazardous environments, and a description of SRV and SRD sensors.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SRV",
+        "SRV-FPC",
+        "SRD",
+        "SRD-FPC",
+        "SR sensors",
+        "Rheonics SRV/SRD sensors"
+      ],
+      "extracted_text": "Rheonics | Switzerland | U.S.A.\n\nrheonics\n\nATTENTION: Installation in hazardous environment locations shall be made in accordance with IECEx 60079-14 and other applicable codes and standards.\n\n1. Purpose of this manual\n\nThis manual contains information to enable the safe installation and operation of Rheonics SRV, SRV-FPC, SRD and SRD-FPC sensors in areas that potentially contain explosive atmospheres. The manual is an adjunct to the operation and configuration manual provided with the particular sensor to be installed. It applies only to Rheonics SRV, SRV-FPC, SRD and SRD-FPC sensors labelled with the hexagonal ATEX mark:\n\n[Ex symbol]\n\nAll other versions of Rheonics SRV/SRD sensors should NOT be considered safe to use in areas with potential presence of explosive atmospheres.\n\n2. Description of the sensors and general installation considerations\n\nRheonics SRV sensors are used to measure and control the viscosity of fluids, mainly under process conditions. Rheonics SRD sensors measure, in addition, fluid density as well as true dynamic and kinematic viscosity. Each sensor has a symmetric torsional resonator as its sensitive element. The effect of the fluid in which it is immersed on its resonant response – its resonant frequency and damping – is measured and interpreted by the electronics unit with which it is supplied.\n\nBoth of these devices, hereafter referred to collectively as “SR” sensors, are delivered in a version that is intrinsically safe. That means that as long as the sensors are installed and operated as specified in this manual, they are incapable of igniting explosive atmospheres in which they operate, provided they are operated within the envelope of parameters described in this manual.\n\nEach Rheonics SR sensor is delivered paired with an electronics unit that both operates the sensor and transmits its measurement values over one of a variety of interfaces. The electronics unit is not itself intrinsically safe. When operating Rheonics SR sensors in a hazardous area, one or more Zener diode barriers must be installed between the Rheonics SR sensor and its electronics unit. This barrier serves to limit the amount of current and voltage available to the sensor in case of a fault in its electronics unit and/or within the sensor itself. The specifications for the required barriers are given in section 5.2 below.\n\nRheonics Type-SR Sensor Installation and Intrinsic Safety Manual\nVersion 3.1, Updated: February 23, 2023\nRheonics GmbH, Winterthur, Switzerland\n\n©Rheonics. Rheonics confidential and proprietary information.\nP. 5",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics SRV sensors are used to measure and control the viscosity of fluids under process conditions.",
+        "Rheonics SRD sensors measure fluid density, true dynamic viscosity, and kinematic viscosity.",
+        "Both SRV and SRD sensors utilize a symmetric torsional resonator as their sensitive element, with its resonant response measured and interpreted by an electronics unit.",
+        "Rheonics SRV, SRV-FPC, SRD, and SRD-FPC sensors labeled with the hexagonal ATEX mark are designed for safe installation and operation in potentially explosive atmospheres.",
+        "\"SR\" sensors (referring collectively to SRV and SRD devices) are delivered in an intrinsically safe version.",
+        "The electronics unit paired with an SR sensor is not intrinsically safe.",
+        "When operating Rheonics SR sensors in a hazardous area, one or more Zener diode barriers must be installed between the SR sensor and its electronics unit."
+      ],
+      "diagram_labels": [
+        "Ex (Hexagonal ATEX mark)"
+      ],
+      "warnings_notes": [
+        "ATTENTION: Installation in hazardous environment locations shall be made in accordance with IECEx 60079-14 and other applicable codes and standards.",
+        "All other versions of Rheonics SRV/SRD sensors should NOT be considered safe to use in areas with potential presence of explosive atmospheres.",
+        "SR sensors are intrinsically safe as long as they are installed and operated as specified in this manual and within the envelope of parameters described in this manual.",
+        "The specifications for the required barriers are given in section 5.2 below.",
+        "©Rheonics. Rheonics confidential and proprietary information."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1077,
+        "cost_usd": 0.0028323
+      },
+      "source_file": "Rheonics_EX-i_SRV-SRD_Installation-and-Intrinsic-Safety-Manual_V3.1.pdf"
+    },
+    {
+      "page_summary": "This page outlines the intrinsic safety requirements, installation guidelines, and technical specifications for Rheonics SR sensors, detailing ingress protection, material, connectivity, and Zener barrier placement.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SR sensors",
+        "Rheonics Type-SR Sensor"
+      ],
+      "extracted_text": "Rheonics | Switzerland | U.S.A.\nrheonics\nRheonics SR sensors are specified to maintain IP54 ingress protection under all operating conditions. They are hermetically sealed in fully welded AISI 316L housings. Electrical connections are made through a M12 connector whose contacts are hermetically sealed into a glass insulating disk.\nThe Zener diode barriers themselves must be situated either outside of any hazardous zone, or in the zone specified by the manufacturers as safe for the barriers. The Rheonics SR sensor’s electronics unit must be situated outside the hazardous zone.\nSuitable cabling to safely connect the Rheonics SR sensor to its associated Zener barrier(s) is to be provided by the installer. The minimum specification for the cabling to ensure intrinsic safety is given in section 5.1.\nInstallation of Rheonics SR sensors must be performed by a qualified installer who is familiar with safe installation practices for intrinsically safe equipment. In addition, the installer must be familiar with the contents of this installation manual, to ensure that all conditions relevant to maintaining intrinsic safety of the Rheonics SR sensors are met.\nThe following topics are covered in the next sections:\nDescription of the Ex label as it defines the safe operating parameters of the sensor\nDiscussion of limits on specific operating parameters of the Rheonics SR sensors not explicitly listed on the label, but as indicated by the symbol “X” following the ATEX and IECEx certificate numbers.\nSpecification of the Zener diode barrier(s) to ensure safe operation of the Rheonics SR sensors, as well as specific recommendations for commercially available barriers for use with the Rheonics SR sensors.\nP. 6\nRheonics Type-SR Sensor Installation and Intrinsic Safety Manual\nVersion 3.1, Updated: February 23, 2023\nRheonics GmbH, Winterthur, Switzerland\n©Rheonics. Rheonics confidential and proprietary information.",
+      "specifications": {
+        "Ingress Protection": "IP54",
+        "Housing Material": "AISI 316L",
+        "Connector Type": "M12"
+      },
+      "key_facts": [
+        "Rheonics SR sensors are specified to maintain IP54 ingress protection under all operating conditions.",
+        "Rheonics SR sensors are hermetically sealed in fully welded AISI 316L housings.",
+        "Electrical connections for Rheonics SR sensors are made through an M12 connector with contacts hermetically sealed into a glass insulating disk.",
+        "Zener diode barriers must be situated either outside any hazardous zone or in a manufacturer-specified safe zone.",
+        "The Rheonics SR sensor’s electronics unit must be situated outside the hazardous zone.",
+        "Cabling for connecting the Rheonics SR sensor to its Zener barrier(s) must be provided by the installer, with minimum specifications for intrinsic safety given in section 5.1.",
+        "Installation of Rheonics SR sensors requires a qualified installer familiar with safe installation practices for intrinsically safe equipment and this installation manual.",
+        "The document is the Rheonics Type-SR Sensor Installation and Intrinsic Safety Manual, Version 3.1, updated February 23, 2023.",
+        "Upcoming sections will describe the 'Ex' label, discuss operating parameter limits indicated by 'X' in ATEX/IECEx certificates, and specify Zener diode barriers for safe operation.",
+        "Rheonics is headquartered in Winterthur, Switzerland, with presence in Switzerland and U.S.A."
+      ],
+      "diagram_labels": [
+        "Ex"
+      ],
+      "warnings_notes": [
+        "The Zener diode barriers themselves must be situated either outside of any hazardous zone, or in the zone specified by the manufacturers as safe for the barriers.",
+        "The Rheonics SR sensor’s electronics unit must be situated outside the hazardous zone.",
+        "Installation of Rheonics SR sensors must be performed by a qualified installer who is familiar with safe installation practices for intrinsically safe equipment.",
+        "The installer must be familiar with the contents of this installation manual, to ensure that all conditions relevant to maintaining intrinsic safety of the Rheonics SR sensors are met.",
+        "Discussion of limits on specific operating parameters of the Rheonics SR sensors not explicitly listed on the label, but as indicated by the symbol “X” following the ATEX and IECEx certificate numbers.",
+        "©Rheonics. Rheonics confidential and proprietary information."
+      ],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1031,
+        "cost_usd": 0.0027172999999999998
+      },
+      "source_file": "Rheonics_EX-i_SRV-SRD_Installation-and-Intrinsic-Safety-Manual_V3.1.pdf"
+    },
+    {
+      "page_summary": "This page describes and illustrates the markings found on both old and new Rheonics sensor EX labels, detailing each component of the explosion protection classification and certification information.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Type-SR Sensor"
+      ],
+      "extracted_text": "Rheonics | Switzerland | U.S.A.\nrheonics\n\n3. EX label description:\n\nOld label\nType: SRV\nS/N: BD-B05-1759\nRheonics GmbH\nSwitzerland\nCE0035 Ex II 1 G\nEx ia IIC Tx Ga\nIECEx TUR 19.0005 X\nTÜV 19 ATEX 8332 X\n\nNew label\nS/N:\nRheonics GmbH\nSwitzerland\nCE\nType:\nEx II 1 G\nEx ia IIC Tx Ga\nCE0035\nIECEx TUR 19.0005 X\nTÜV 19 ATEX 8332 X\n\n1 CE mark Notified body: TÜV Rheinland\n2 ATEX Marking\n3 Explosion classification\n4 IECEx certificate number with appended “X”\n5 ATEX certificate number with appended “X”\n6 Sensor\n7 Identification Number\n8 Sensor Manufacturer\n\n* See below for “Tx” and “X” conditions for explosion classification and certificates\n\nFigure 1: Example of sensor labels identifying the markings\n\nRheonics Type-SR Sensor Installation and Intrinsic Safety Manual\nVersion 3.1, Updated: February 23, 2023\nRheonics GmbH, Winterthur, Switzerland\nP. 7\n©Rheonics. Rheonics confidential and proprietary information.",
+      "specifications": {
+        "CE Notified Body Number": "0035",
+        "CE Notified Body Name": "TÜV Rheinland",
+        "ATEX Marking": "Ex II 1 G",
+        "Explosion Classification": "Ex ia IIC Tx Ga",
+        "IECEx Certificate Number": "TUR 19.0005 X",
+        "ATEX Certificate Number": "TÜV 19 ATEX 8332 X",
+        "Old Label Sensor Type": "SRV",
+        "Old Label Serial Number": "BD-B05-1759",
+        "Document Version": "3.1",
+        "Document Update Date": "February 23, 2023"
+      },
+      "key_facts": [
+        "This document explains the markings found on Rheonics sensor EX labels, showcasing both old and new label formats.",
+        "The labels detail critical explosion protection information, including ATEX marking, explosion classification, and certification numbers from both IECEx and ATEX standards.",
+        "The presence of 'X' in certificate numbers and 'Tx' in the explosion classification indicates that specific conditions for safe use must be consulted.",
+        "Sensor labels also provide the sensor's type, identification number (serial number), and the manufacturer, Rheonics GmbH.",
+        "This page is part of the Rheonics Type-SR Sensor Installation and Intrinsic Safety Manual."
+      ],
+      "diagram_labels": [
+        "Old label",
+        "New label",
+        "Type: SRV",
+        "S/N: BD-B05-1759",
+        "Rheonics GmbH Switzerland",
+        "CE0035",
+        "Ex II 1 G",
+        "Ex ia IIC Tx Ga",
+        "IECEx TUR 19.0005 X",
+        "TÜV 19 ATEX 8332 X",
+        "CE",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "Figure 1: Example of sensor labels identifying the markings"
+      ],
+      "warnings_notes": [
+        "* See below for “Tx” and “X” conditions for explosion classification and certificates",
+        "©Rheonics. Rheonics confidential and proprietary information."
+      ],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 974,
+        "cost_usd": 0.0025748
+      },
+      "source_file": "Rheonics_EX-i_SRV-SRD_Installation-and-Intrinsic-Safety-Manual_V3.1.pdf"
+    },
+    {
+      "page_summary": "This page provides an explanation of IECEx explosion classification markings and ATEX marking descriptions for Rheonics Type-SR Sensors.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Type-SR Sensor"
+      ],
+      "extracted_text": "Rheonics | Switzerland | U.S.A.\nrheonics\nEx ia IIC Tx Ga\nFigure 2: IECEx Explosion classification description\n1 Intrinsically safe\n2 Safe for gas groups IIA, IIB and IIC\n3 Ignition temperature classes that define ambient/fluid temperature range, as\ngiven in table below\n4 Equipment protection level = very high\nEx II 1 G\nFigure 3: ATEX marking description\n1 ATEX Mark\n2 Non-mining equipment\n3 Category 1 (Zone 0)\n4 For gases\nRheonics Type-SR Sensor Installation and Intrinsic Safety Manual\nVersion 3.1, Updated: February 23, 2023\nRheonics GmbH, Winterthur, Switzerland\n©Rheonics. Rheonics confidential and proprietary information.\nP. 8",
+      "specifications": {},
+      "key_facts": [
+        "The IECEx classification 'Ex ia IIC Tx Ga' indicates intrinsically safe equipment.",
+        "The 'IIC' in the IECEx marking denotes safety for gas groups IIA, IIB, and IIC.",
+        "The 'Tx' in the IECEx marking represents ignition temperature classes, which define the ambient/fluid temperature range.",
+        "The 'Ga' in the IECEx marking specifies a very high equipment protection level.",
+        "The 'Ex' symbol in the ATEX marking denotes compliance with ATEX directives.",
+        "The 'II' in the ATEX marking specifies that the equipment is non-mining equipment.",
+        "The '1' in the ATEX marking indicates Category 1 equipment, suitable for Zone 0 environments.",
+        "The 'G' in the ATEX marking signifies the equipment is intended for use with gases.",
+        "The document is Version 3.1 of the Rheonics Type-SR Sensor Installation and Intrinsic Safety Manual, updated on February 23, 2023.",
+        "The document is confidential and proprietary information of Rheonics."
+      ],
+      "diagram_labels": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "warnings_notes": [
+        "Rheonics confidential and proprietary information."
+      ],
+      "page_num": 8,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 577,
+        "cost_usd": 0.0015823000000000002
+      },
+      "source_file": "Rheonics_EX-i_SRV-SRD_Installation-and-Intrinsic-Safety-Manual_V3.1.pdf"
+    },
+    {
+      "page_summary": "This page details area classification (hazardous zones) and gas grouping for Rheonics Type-SR sensors, along with conditions necessary to maintain intrinsic safety and usage restrictions based on prior installation categories.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SRV or SRD sensor",
+        "Rheonics Type-SR Sensor"
+      ],
+      "extracted_text": "Rheonics | Switzerland | U.S.A.\nrheonics\n\n3.1. General note on Category of protection and operating zone\nAlthough the sensors are specified for Category 1 (hazardous Zone 0), they may also be used for Categories 2 and 3 (Zones 1 and 2) installation. However, if the sensor has been used in a Category 3 (Zone 2) installation, it is no longer safe to use in categories 1 and 2 (Zones 0 and 1), because of the risk that the sensor has been damaged. It is the responsibility of the installer and the end user to ensure that any Rheonics SRV or SRD sensor that has been used in a Category 3 installation is not re-used for Category 1 or 2 installations.\n\n3.2. Description of “X” conditions: operating conditions not described on the label, but that are necessary in order to maintain intrinsic safety\n\nCertain operating conditions must be met in order to ensure that the sensors and their associated Zener diode barriers meet intrinsic safety criteria. These include:\n* Electrical parameter\n* Operating temperature range\n* Safe hydrostatic pressure limits\n* Maintenance of ingress protection\n* Protection against mechanical impact\n* Protection against solid materials transported by fluid being monitored\n\n3.2.1. Area classification & Gas Grouping\n\nArea classification\n| Zone | Description |\n|---|---|\n| Zone 1 | Area in which an explosive gas atmosphere is likely to occur in normal operation occasionally |\n| Zone 2 | Area in which an explosive gas atmosphere is not likely to occur in normal operation and if it does occur, is likely to do so only infrequently and will exist for a short period only |\n| Zone 21 | Place in which an explosive atmosphere in the form of a cloud of combustible dust in air is likely to occur in normal operation occasionally |\n| Zone 22 | Place in which an explosive atmosphere in the form of a cloud of combustible dust in air is not likely to occur in normal operation but, if it does, will persist for a short period only |\n\nGas Grouping\n| Group | Gas |\n|---|---|\n| Group IIA | Propane |\n| Group IIB | Ethylene |\n| Group IIC | Hydrogen and Acetylene |\n\nRheonics Type-SR Sensor Installation and Intrinsic Safety Manual\nVersion 3.1, Updated: February 23, 2023\nRheonics GmbH, Winterthur, Switzerland\nP. 9\n©Rheonics. Rheonics confidential and proprietary information.",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics sensors are specified for Category 1 (hazardous Zone 0) and may also be used for Categories 2 and 3 (Zones 1 and 2) installations.",
+        "Certain operating conditions, referred to as “X” conditions, are necessary to maintain intrinsic safety and include electrical parameters, operating temperature range, safe hydrostatic pressure limits, maintenance of ingress protection, protection against mechanical impact, and protection against solid materials transported by fluid being monitored.",
+        "Zone 1 is defined as an area where an explosive gas atmosphere is likely to occur occasionally in normal operation.",
+        "Zone 2 is defined as an area where an explosive gas atmosphere is not likely to occur in normal operation, or if it does, it will occur infrequently and for a short period only.",
+        "Zone 21 refers to a place where an explosive atmosphere in the form of a cloud of combustible dust in air is likely to occur occasionally in normal operation.",
+        "Zone 22 refers to a place where an explosive atmosphere in the form of a cloud of combustible dust in air is not likely to occur in normal operation, but if it does, it will persist for a short period only.",
+        "Gas Group IIA includes Propane.",
+        "Gas Group IIB includes Ethylene.",
+        "Gas Group IIC includes Hydrogen and Acetylene."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "If a sensor has been used in a Category 3 (Zone 2) installation, it is no longer safe to use in categories 1 and 2 (Zones 0 and 1), because of the risk that the sensor has been damaged.",
+        "It is the responsibility of the installer and the end user to ensure that any Rheonics SRV or SRD sensor that has been used in a Category 3 installation is not re-used for Category 1 or 2 installations.",
+        "©Rheonics. Rheonics confidential and proprietary information."
+      ],
+      "page_num": 9,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1097,
+        "cost_usd": 0.0028823
+      },
+      "source_file": "Rheonics_EX-i_SRV-SRD_Installation-and-Intrinsic-Safety-Manual_V3.1.pdf"
+    },
+    {
+      "page_num": 10,
+      "page_summary": "Extraction failed",
+      "document_type": "unknown",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "extraction_failed": true,
+      "source_file": "Rheonics_EX-i_SRV-SRD_Installation-and-Intrinsic-Safety-Manual_V3.1.pdf"
+    },
+    {
+      "page_num": 11,
+      "page_summary": "Extraction failed",
+      "document_type": "unknown",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "extraction_failed": true,
+      "source_file": "Rheonics_EX-i_SRV-SRD_Installation-and-Intrinsic-Safety-Manual_V3.1.pdf"
+    },
+    {
+      "page_summary": "This page illustrates the components and proper installation of protective and impact shields for an SRV sensor, including a critical safety warning.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV sensor",
+        "Rheonics Type-SR Sensor"
+      ],
+      "extracted_text": "Rheonics | Switzerland | U.S.A.\n\nrheonics\n\nFigure 4: SRV sensor with protective sleeve and impact shield mounted\n\n1 Slots in protective sleeve exclude any fluid-borne particles larger than 8 mm diameter\n2 Protective shield\n3 Impact shield\n\nFigure 5: End view of SRV showing orientation of slot in impact shield\n\n1 Impact shield\n2 Impact shield must be installed so that slot in shield is facing down\n\nATTENTION: These parameters and conditions must be adhered to. If not, injury may be caused to person or property.\n\nRheonics Type-SR Sensor Installation and Intrinsic Safety Manual\nVersion 3.1, Updated: February 23, 2023\nRheonics GmbH, Winterthur, Switzerland\n\nP. 12\n\n©Rheonics. Rheonics confidential and proprietary information.",
+      "specifications": {
+        "fluid-borne particle exclusion diameter": "8 mm"
+      },
+      "key_facts": [
+        "The document pertains to the installation and intrinsic safety of the Rheonics Type-SR Sensor.",
+        "The manual is version 3.1 and was updated on February 23, 2023.",
+        "The protective sleeve includes slots designed to exclude fluid-borne particles larger than 8 mm in diameter.",
+        "The impact shield must be installed with its slot facing downwards.",
+        "Adherence to specified parameters and conditions is mandatory to prevent injury to persons or property.",
+        "This document contains confidential and proprietary information of Rheonics."
+      ],
+      "diagram_labels": [
+        "1",
+        "2",
+        "3",
+        "SRV sensor",
+        "protective sleeve",
+        "impact shield",
+        "SRV"
+      ],
+      "warnings_notes": [
+        "ATTENTION: These parameters and conditions must be adhered to. If not, injury may be caused to person or property.",
+        "©Rheonics. Rheonics confidential and proprietary information."
+      ],
+      "page_num": 12,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 548,
+        "cost_usd": 0.0015098
+      },
+      "source_file": "Rheonics_EX-i_SRV-SRD_Installation-and-Intrinsic-Safety-Manual_V3.1.pdf"
+    },
+    {
+      "page_summary": "This page outlines the safe use, mounting, commissioning, operation, and electrical installation procedures for Rheonics ATEX approved equipment, specifically focusing on intrinsic safety and compliance.",
+      "document_type": "manual",
+      "product_names": [
+        "Type-SR Sensor",
+        "sensor",
+        "instrument",
+        "device",
+        "equipment"
+      ],
+      "extracted_text": "Rheonics | Switzerland | U.S.A.\nrheonics\n\n4. Safe use of ATEX approved equipment\n\n4.1. Notes on Safe Use of the ATEX Approved Equipment\nApproved usage of the sensor is restricted to fluids compatible with the wetted materials of the sensor and within the restrictions on temperature and pressure as defined in the product manual.\n\n4.2. Mounting, Commissioning, and Operation\nThe device has been designed to operate safely in accordance with the current technical and safety regulations of the EU. If installed incorrectly or used for applications for which it is not intended, it is possible that application related changes may arise. For this reason, the instrument must be installed, connected, operated, and maintained according to the instructions in this and the specific product operating manual.\nPersons handling/installing or commissioning this equipment must be authorized and suitably qualified. The manual must be read, understood, and the instructions must be followed.\nModifications and repairs to the device are only permissible when they are expressly approved in this manual.\n\n5. Electrical Installation\n\nATTENTION: Substitution of components may impair intrinsic safety.\n\nInstallation of the sensors must be carried out according to the instructions and diagrams in this section. Sensors installed in this manner will become part of an intrinsically safe system that will be incapable of igniting explosive gas atmospheres as specified on the sensor label and additional specifications in the preceding section 3 above.\nThere are four basic considerations that govern the electrical installation of the sensor. They are:\n• Cabling\n  o Selection of a suitable cable\n  o Wiring of the cable to a suitable sensor-side connector\n  o Wiring of the cable to the Zener diode barrier(s) associated with the system.\n• Selection / identification of wiring scheme depending on intended Pt1000 temperature sensor connection\n\nRheonics Type-SR Sensor Installation and Intrinsic Safety Manual\nVersion 3.1, Updated: February 23, 2023\nRheonics GmbH, Winterthur, Switzerland\n©Rheonics. Rheonics confidential and proprietary information.\nP. 13",
+      "specifications": {},
+      "key_facts": [
+        "The device has been designed to operate safely in accordance with the current technical and safety regulations of the EU.",
+        "The instrument must be installed, connected, operated, and maintained according to the instructions in this and the specific product operating manual.",
+        "Persons handling, installing, or commissioning this equipment must be authorized and suitably qualified.",
+        "Installation of the sensors must be carried out according to the instructions and diagrams in this section.",
+        "Sensors installed correctly will become part of an intrinsically safe system incapable of igniting explosive gas atmospheres.",
+        "Four basic considerations govern the electrical installation of the sensor: cabling (selection, wiring to sensor-side connector, wiring to Zener diode barrier) and selection/identification of the wiring scheme for Pt1000 temperature sensor connection."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Approved usage of the sensor is restricted to fluids compatible with the wetted materials of the sensor and within the restrictions on temperature and pressure as defined in the product manual.",
+        "If installed incorrectly or used for applications for which it is not intended, it is possible that application related changes may arise.",
+        "The manual must be read, understood, and the instructions must be followed.",
+        "Modifications and repairs to the device are only permissible when they are expressly approved in this manual.",
+        "ATTENTION: Substitution of components may impair intrinsic safety.",
+        "Rheonics confidential and proprietary information."
+      ],
+      "page_num": 13,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 891,
+        "cost_usd": 0.0023672999999999997
+      },
+      "source_file": "Rheonics_EX-i_SRV-SRD_Installation-and-Intrinsic-Safety-Manual_V3.1.pdf"
+    },
+    {
+      "page_summary": "This page from the Rheonics Type-SR Sensor manual details various sensor connection configurations, Zener diode barrier requirements, equipotential bonding methods, and cabling instructions for SRV/SRD sensors.",
+      "document_type": "manual",
+      "product_names": [
+        "Type-SR Sensor",
+        "SRV/SRD sensor",
+        "Pt1000"
+      ],
+      "extracted_text": "Rheonics | Switzerland | U.S.A.\nrheonics\n\nSensor with 4-wire Pt1000 connection\n*   3 Zener diode barriers required\n*   Highest accuracy\n*   Uses standard sensor\n\nSensor with 3-wire Pt1000 connection\n*   2 Zener diode barriers required\n*   Lower accuracy than 4-wire Pt1000 connection\n*   Uses standard sensor\n*   May require temperature calibration for best accuracy\n\nSensor with no Pt1000 sensor\n*   1 Zener diode barrier required\n*   Uses special sensor with no Pt1000 installed\n*   Temperature may be measured with external temperature sensor\n*   Possibility of temperature estimation without external sensor. Please consult Rheonics for more information regarding accuracy.\n\nZener diode barrier selection\n*   Using Zener diode barriers recommended in this manual\n*   Using alternative Zener diode barriers that meet the specifications given in this manual.\n\nEquipotential bonding method selection\n*   Using cable shield for equipotential bonding\n*   Using separate bonding conductor\n    *   Different schemes possible depending on requirements of system layout\n\n5.1. Cabling\n\nThe SRV/SRD sensor is connected to its associated Zener diode barriers by means of a cable that has an 8 pole M12 connector on the sensor end. The end that connects to the Zener diode barrier must be provided with crimped conductor-end sleeves, which are held by screw clamps on the Zener diode barriers.\n\nElectrical connections to the M12 connector depend on the presence or absence of the Pt1000, and in its presence, whether a 3-wire or a 4-wire connection has been selected. For a connection with no Pt1000, the pins are assigned as in Fig. 6:\n\nRheonics Type-SR Sensor Installation and Intrinsic Safety Manual\nVersion 3.1, Updated: February 23, 2023\nRheonics GmbH, Winterthur, Switzerland\n©Rheonics. Rheonics confidential and proprietary information.\nP. 14",
+      "specifications": {},
+      "key_facts": [
+        "A sensor with a 4-wire Pt1000 connection requires 3 Zener diode barriers, offers the highest accuracy, and uses a standard sensor.",
+        "A sensor with a 3-wire Pt1000 connection requires 2 Zener diode barriers, has lower accuracy than a 4-wire Pt1000 connection, uses a standard sensor, and may require temperature calibration for best accuracy.",
+        "A sensor without a Pt1000 installed requires 1 Zener diode barrier, uses a special sensor, and allows temperature measurement via an external sensor or estimation.",
+        "Zener diode barriers for Rheonics sensors should either be those recommended in the manual or alternative ones meeting the manual's specifications.",
+        "Equipotential bonding can be implemented using the cable shield or a separate bonding conductor, with different schemes possible based on system layout.",
+        "The SRV/SRD sensor utilizes an 8-pole M12 connector on the sensor end for connection to Zener diode barriers.",
+        "The cable end connecting to the Zener diode barrier must be equipped with crimped conductor-end sleeves secured by screw clamps.",
+        "Electrical pin assignments for the M12 connector vary based on the presence or absence of a Pt1000 and the selected wiring configuration (3-wire or 4-wire)."
+      ],
+      "diagram_labels": [
+        "Fig. 6"
+      ],
+      "warnings_notes": [
+        "Please consult Rheonics for more information regarding accuracy (for temperature estimation without an external sensor).",
+        "©Rheonics. Rheonics confidential and proprietary information."
+      ],
+      "page_num": 14,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 953,
+        "cost_usd": 0.0025223
+      },
+      "source_file": "Rheonics_EX-i_SRV-SRD_Installation-and-Intrinsic-Safety-Manual_V3.1.pdf"
+    },
+    {
+      "page_summary": "This page illustrates the pinout for an M12 connector without a Pt1000 installed, for a Rheonics Type-SR Sensor, including a diagram and a detailed pin assignment table.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Type-SR Sensor",
+        "M12 connector",
+        "Pt1000"
+      ],
+      "extracted_text": "Rheonics | Switzerland | U.S.A.\nrheonics\n\n1\n2\n3\n4\n5\n6\n7\n8\n9\n\n1: Transducer coil +\n2: Transducer coil -\n3: No connect\n4: No connect\n5: No connect\n6: No connect\n7: No connect\n8: No connect\n9: Signal assignment version without Pt1000\nM12 connector front view\n\nFigure 6: Pinout of M12 connector with no Pt1000 installed\n\nFor a connection with 4 wires, the pinout is shown in Fig. 7 below:\n\nRheonics Type-SR Sensor Installation and Intrinsic Safety Manual\nVersion 3.1, Updated: February 23, 2023\nRheonics GmbH, Winterthur, Switzerland\n\n©Rheonics. Rheonics confidential and proprietary information.\nP. 15",
+      "specifications": {
+        "M12 connector pinout": "See diagram and table for details",
+        "Transducer coil +": "Pin 1",
+        "Transducer coil -": "Pin 2",
+        "No connect": "Pins 3, 4, 5, 6, 7, 8"
+      },
+      "key_facts": [
+        "The document is an installation and intrinsic safety manual for the Rheonics Type-SR Sensor.",
+        "The document version is 3.1, updated on February 23, 2023.",
+        "The pinout shown is for an M12 connector without a Pt1000 installed.",
+        "For a 4-wire connection, the pinout is described elsewhere (Fig. 7).",
+        "The diagram shows a front view of the M12 connector."
+      ],
+      "diagram_labels": [
+        "1: Transducer coil +",
+        "2: Transducer coil -",
+        "3: No connect",
+        "4: No connect",
+        "5: No connect",
+        "6: No connect",
+        "7: No connect",
+        "8: No connect",
+        "9: Signal assignment version without Pt1000",
+        "M12 connector front view"
+      ],
+      "warnings_notes": [
+        "©Rheonics. Rheonics confidential and proprietary information."
+      ],
+      "page_num": 15,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 675,
+        "cost_usd": 0.0018273000000000002
+      },
+      "source_file": "Rheonics_EX-i_SRV-SRD_Installation-and-Intrinsic-Safety-Manual_V3.1.pdf"
+    },
+    {
+      "page_summary": "This page illustrates the M12 connector pinout for a 4-wire Pt1000 connection used with Rheonics Type-SR Sensors, detailing the function of each of the eight pins.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Type-SR Sensor"
+      ],
+      "extracted_text": "Rheonics | Switzerland | U.S.A.\nrheonics\n\n[Diagram of an 8-pin M12 connector with internal pin numbers 1-8 and external red pointers 1-9]\n\nPinout Table:\n1: Transducer coil +\n2: Transducer coil -\n3: No connect\n4: No connect\n5: Pt1000 Sens +\n6: Pt1000 Sens -\n7: Pt1000 I +\n8: Pt1000 I -\n9: Signal assignment Pt1000 4-wire version\nM12 connector front view\n\nFigure 7: Pinout of M12 connector with 4-wire Pt1000 connection\n\nFor a connection with 3 wires, the pinout in Fig. 8 is used:\n\nRheonics Type-SR Sensor Installation and Intrinsic Safety Manual\nVersion 3.1, Updated: February 23, 2023\nRheonics GmbH, Winterthur, Switzerland\n\n©Rheonics. Rheonics confidential and proprietary information.\nP. 16",
+      "specifications": {},
+      "key_facts": [
+        "This page is from the Rheonics Type-SR Sensor Installation and Intrinsic Safety Manual.",
+        "The manual version is 3.1, and it was updated on February 23, 2023.",
+        "Rheonics has operations in Switzerland and the U.S.A.",
+        "The document specifies the pin assignments for an M12 connector using a 4-wire Pt1000 connection.",
+        "The diagram shows a front view of the M12 connector.",
+        "Pins 1 and 2 are designated for the Transducer coil (+ and - respectively).",
+        "Pins 3 and 4 are not connected.",
+        "Pins 5 and 6 are for Pt1000 Sense (+ and - respectively).",
+        "Pins 7 and 8 are for Pt1000 Current (+ and - respectively).",
+        "A separate Figure 8 is referenced for 3-wire connections."
+      ],
+      "diagram_labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "Transducer coil +",
+        "Transducer coil -",
+        "No connect",
+        "Pt1000 Sens +",
+        "Pt1000 Sens -",
+        "Pt1000 I +",
+        "Pt1000 I -",
+        "Signal assignment Pt1000 4-wire version",
+        "M12 connector front view",
+        "Figure 7"
+      ],
+      "warnings_notes": [
+        "©Rheonics. Rheonics confidential and proprietary information."
+      ],
+      "page_num": 16,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 758,
+        "cost_usd": 0.0020348
+      },
+      "source_file": "Rheonics_EX-i_SRV-SRD_Installation-and-Intrinsic-Safety-Manual_V3.1.pdf"
+    },
+    {
+      "page_summary": "This page provides a pinout diagram and signal assignment table for an M12 connector with a 3-wire Pt1000 connection, along with associated installation requirements and document details.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Type-SR Sensor"
+      ],
+      "extracted_text": "Rheonics | Switzerland | U.S.A.\nrheonics\n\nFigure 8: Pinout of M12 connector with 3-wire Pt1000 connection\n\n1: Transducer coil +\n2: Transducer coil -\n3: No connect\n4: No connect\n5: Pt1000 Sens +\n6: Pt1000 Gnd\n7: Pt1000 I +\n8: No connect\nSignal assignment Pt1000 3-wire version\nM12 connector front view\n\nIn addition, the M12 connector must be rated at IP54 or higher.\n\nDetailed pinout and connection diagrams are given in section 5.3 below.\n\nThe cable and connector selected must be rated for at least the highest ambient temperature at which the sensor will be used. They must meet the following specifications:\n\nRheonics Type-SR Sensor Installation and Intrinsic Safety Manual\nVersion 3.1, Updated: February 23, 2023\nRheonics GmbH, Winterthur, Switzerland\n\nP. 17\n\n©Rheonics. Rheonics confidential and proprietary information.",
+      "specifications": {
+        "M12 connector rating": "IP54 or higher"
+      },
+      "key_facts": [
+        "The M12 connector must be rated at IP54 or higher for installation.",
+        "Detailed pinout and connection diagrams are provided in section 5.3 of the document.",
+        "The cable and connector chosen for the sensor must be rated for at least the highest ambient temperature it will operate in and meet specific requirements.",
+        "The document is an 'Installation and Intrinsic Safety Manual' for the Rheonics Type-SR Sensor, Version 3.1, updated on February 23, 2023.",
+        "The information presented is confidential and proprietary to Rheonics."
+      ],
+      "diagram_labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "warnings_notes": [
+        "©Rheonics. Rheonics confidential and proprietary information."
+      ],
+      "page_num": 17,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 609,
+        "cost_usd": 0.0016623
+      },
+      "source_file": "Rheonics_EX-i_SRV-SRD_Installation-and-Intrinsic-Safety-Manual_V3.1.pdf"
+    },
+    {
+      "page_summary": "This page details the specifications for sensor cables and Zener diode barriers required for connecting Rheonics SRV/SRD sensors, including considerations for built-in Pt1000 temperature sensors.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Type-SR Sensor",
+        "SRV/SRD",
+        "Pt1000",
+        "Helu Kabel type OB-BL-PAAR-CY 4x2x0.5mm²"
+      ],
+      "extracted_text": "Rheonics | Switzerland | U.S.A.\nrheonics\nTable 3: Sensor cable specifications\nParameter | Value\nMinimum ingress protection (cable + connector) | IP54\nConnector | M12 8 pole, A-coded, female, IP54\nTwisted pair cable with a shield | 4x2, shielded cable with 4 twisted pairs\nMaximum length | 500 m.\nMinimum required conductor cross section | 0.25 mm²\nMaximum practical cross section | 0.5 mm²\nMaximum inductance | 1.5 mH/km, per conductor\nMaximum capacitance, conductor-to-conductor | 220nF/km\nMaximum capacitance, wire to shield | 300nF/km\nA commercial cable that satisfies the preceding specification is Helu Kabel type OB-BL-PAAR-CY 4x2x0.5mm².\n\n5.2. Zener diode barriers\n\nEach SRV/SRD must be connected to its electronics unit through Zener diode barriers as appropriate to the installation. There are several different connection options, depending on whether or not the SRV/SRD has a built-in Pt1000, and if so, how the Pt1000 is connected (4 or 3 wire connection). The diagrams in section below show these options.\n\nIn addition to the proper connection, the Zener diode barriers need to fulfill the electrical specifications shown in the following tables.\n\nThe Zener diode barrier connected to the transducer coil circuit must meet the following specifications:\n\nTable 4: Transducer coil circuit Zener diode barrier specifications\nParameter | Symbol | Value | Unit\nMax. output voltage | Uo | <= 7.5 | V\nMin. series resistance | Ro | >= 9.8 | Ohm\nMax. output current | Io | <= 750 | mA\nMax. output power | Po | <= 1.4 | W\nFuse rating | | <= 200 | mA\n\nThis Zener diode barrier must have two channels, one for each conductor of the transducer coil circuit.\n\nIf the Pt1000 is present in the sensor, it must be connected to one or two Zener diode barriers with the following specification, each with two channels:\n\nRheonics Type-SR Sensor Installation and Intrinsic Safety Manual\nVersion 3.1, Updated: February 23, 2023\nRheonics GmbH, Winterthur, Switzerland\n\n©Rheonics. Rheonics confidential and proprietary information.\nP. 18",
+      "specifications": {
+        "Minimum ingress protection (cable + connector)": "IP54",
+        "Connector": "M12 8 pole, A-coded, female, IP54",
+        "Twisted pair cable with a shield": "4x2, shielded cable with 4 twisted pairs",
+        "Maximum length": "500 m",
+        "Minimum required conductor cross section": "0.25 mm²",
+        "Maximum practical cross section": "0.5 mm²",
+        "Maximum inductance": "1.5 mH/km per conductor",
+        "Maximum capacitance, conductor-to-conductor": "220 nF/km",
+        "Maximum capacitance, wire to shield": "300 nF/km",
+        "Max. output voltage (Uo)": "<= 7.5 V",
+        "Min. series resistance (Ro)": ">= 9.8 Ohm",
+        "Max. output current (Io)": "<= 750 mA",
+        "Max. output power (Po)": "<= 1.4 W",
+        "Fuse rating": "<= 200 mA"
+      },
+      "key_facts": [
+        "A commercial cable that satisfies the sensor cable specifications is Helu Kabel type OB-BL-PAAR-CY 4x2x0.5mm².",
+        "Each SRV/SRD sensor must be connected to its electronics unit via Zener diode barriers.",
+        "Connection options for SRV/SRD sensors vary based on whether a Pt1000 is built-in and its connection type (4 or 3-wire).",
+        "The Zener diode barrier for the transducer coil circuit must feature two channels, one for each conductor.",
+        "If a Pt1000 is present in the sensor, it must be connected to one or two Zener diode barriers, each with two channels.",
+        "This document is part of the Rheonics Type-SR Sensor Installation and Intrinsic Safety Manual, Version 3.1, updated on February 23, 2023."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "©Rheonics. Rheonics confidential and proprietary information."
+      ],
+      "page_num": 18,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1227,
+        "cost_usd": 0.0032072999999999997
+      },
+      "source_file": "Rheonics_EX-i_SRV-SRD_Installation-and-Intrinsic-Safety-Manual_V3.1.pdf"
+    },
+    {
+      "page_summary": "This page provides detailed specifications for Zener diode barriers suitable for Rheonics Pt1000 circuits and transducer coil circuits, including recommendations for specific commercial barriers and connection guidelines.",
+      "document_type": "manual",
+      "product_names": [
+        "Pt1000 circuit(s)",
+        "Pepperl + Fuchs Z757",
+        "Pepperl + Fuchs Z041",
+        "Rheonics Type-SR Sensor"
+      ],
+      "extracted_text": "Rheonics | Switzerland | U.S.A.\nRheonics\nP. 19\n\nTable 5: Pt1000 circuit(s) Zener diode barrier specifications\nMax. output power\nPo\n<= 100\nmW\nFuse rating\nN/A\nmA\n\nFor a 3-wire connection, a single barrier may be used, with the third (grounding) lead of the Pt1000 circuit connected to ground through the cable shield.\nFor a 4-wire connection, two Zener diode barriers must be used, with two wires connected to each of the two channels of the Zener diode barriers.\nThe Zener diode barriers must be located outside of the hazardous zone, or in a zone allowed by the manufacturer's specification. They must be properly grounded.\nCommercial Zener diode barriers that fulfill these specifications are:\n\nFor transducer coil circuit:\nPepperl + Fuchs Z757\n\nTable 6: Specification of commercial Zener diode barrier suitable for transducer coil circuit\nSeries resistance\n9.8 ohms, min.\nFuse rating\n200 mA\nMaximum safe voltage\n250 V\nOutput voltage, Uo\n7.14 V\nOutput current, Io\n729 mA\nOutput power, Po\n1.3 W\n\nContact Rheonics Technical Support for information on other recommended barriers.\n\nFor Pt1000 circuits (1 or 2 units depending on whether 3 or 4 wire connections are used):\nPepperl + Fuchs Z041\n\nTable 7: Specification of commercial Zener diode barrier suitable for Pt1000 circuit(s)\nSeries resistance\n1957 ohms, min.\nFuse rating\n80 mA\nMaximum safe voltage\n250 V\nOutput voltage, Uo\n8.61 V\nOutput current, Io\n4 mA\nOutput power, Po\n9.4 mW\n\nContact Rheonics Technical Support for information on other recommended barriers.\n\nRheonics Type-SR Sensor Installation and Intrinsic Safety Manual\nVersion 3.1, Updated: February 23, 2023\nRheonics GmbH, Winterthur, Switzerland\n\n©Rheonics. Rheonics confidential and proprietary information.",
+      "specifications": {
+        "Pt1000 circuit(s) Zener diode barrier - Max. output power (P₀)": "<= 100 mW",
+        "Pt1000 circuit(s) Zener diode barrier - Fuse rating": "N/A mA",
+        "Pepperl + Fuchs Z757 (transducer coil circuit) - Series resistance": "9.8 ohms, min.",
+        "Pepperl + Fuchs Z757 (transducer coil circuit) - Fuse rating": "200 mA",
+        "Pepperl + Fuchs Z757 (transducer coil circuit) - Maximum safe voltage": "250 V",
+        "Pepperl + Fuchs Z757 (transducer coil circuit) - Output voltage (U₀)": "7.14 V",
+        "Pepperl + Fuchs Z757 (transducer coil circuit) - Output current (I₀)": "729 mA",
+        "Pepperl + Fuchs Z757 (transducer coil circuit) - Output power (P₀)": "1.3 W",
+        "Pepperl + Fuchs Z041 (Pt1000 circuit) - Series resistance": "1957 ohms, min.",
+        "Pepperl + Fuchs Z041 (Pt1000 circuit) - Fuse rating": "80 mA",
+        "Pepperl + Fuchs Z041 (Pt1000 circuit) - Maximum safe voltage": "250 V",
+        "Pepperl + Fuchs Z041 (Pt1000 circuit) - Output voltage (Uo)": "8.61 V",
+        "Pepperl + Fuchs Z041 (Pt1000 circuit) - Output current (Io)": "4 mA",
+        "Pepperl + Fuchs Z041 (Pt1000 circuit) - Output power (Po)": "9.4 mW"
+      },
+      "key_facts": [
+        "For a 3-wire connection of a Pt1000 circuit, a single Zener diode barrier may be used, with the third (grounding) lead connected to ground through the cable shield.",
+        "For a 4-wire connection, two Zener diode barriers must be used, with two wires connected to each of the two channels of the Zener diode barriers.",
+        "Pepperl + Fuchs Z757 is a recommended commercial Zener diode barrier for transducer coil circuits.",
+        "Pepperl + Fuchs Z041 is a recommended commercial Zener diode barrier for Pt1000 circuits (1 or 2 units depending on 3 or 4 wire connections).",
+        "The document is Version 3.1 of the Rheonics Type-SR Sensor Installation and Intrinsic Safety Manual, updated on February 23, 2023."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "The Zener diode barriers must be located outside of the hazardous zone, or in a zone allowed by the manufacturer's specification.",
+        "Zener diode barriers must be properly grounded.",
+        "Rheonics confidential and proprietary information."
+      ],
+      "page_num": 19,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1362,
+        "cost_usd": 0.0035448
+      },
+      "source_file": "Rheonics_EX-i_SRV-SRD_Installation-and-Intrinsic-Safety-Manual_V3.1.pdf"
+    },
+    {
+      "page_num": 20,
+      "page_summary": "Extraction failed",
+      "document_type": "unknown",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "extraction_failed": true,
+      "source_file": "Rheonics_EX-i_SRV-SRD_Installation-and-Intrinsic-Safety-Manual_V3.1.pdf"
+    },
+    {
+      "page_summary": "This page details various grounding connection types (G1, G2, G3) and equipotential bonding options for the Rheonics Type-SR Sensor, emphasizing the installer's responsibilities for ensuring secure grounding.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Type-SR Sensor"
+      ],
+      "extracted_text": "Rheonics | Switzerland | U.S.A.\nrheonics\n\nwith this circuit, the accuracy of the temperature measurement must be verified and possibly re-calibrated by the end user.\n\nIn all cases, the sensor-side diagram shows a ground connection to the sensor labeled “Ground tab (optional)”. This refers to the installation of an equipotential bonding connection to the sensor. The options for bonding to the sensor body are given in section 5.4.2, following the installation diagrams.\n\nCable conductor colors are given for convenience only. They reflect cables whose conductors are color coded according to the DIN 47100 norm. It is the installer’s responsibility to verify that the correct M12 cable connector pins are routed to the proper Zener diode barrier terminals, regardless of the actual conductor colors.\n\nIn the following wiring diagrams (Figs. 9-11), there are three types of ground connections, labeled “G1”, “G2” and “G3”. For the Zener diode barriers, G2 is the default grounding connection, usually provided by the manufacturer as a grounding clamp that grips the DIN rail on which the Zener diode barrier is mounted. It is the installer’s responsibility to make sure that the DIN rails are securely grounded to a known reliable grounding point.\n\nIn the case that secure grounding of the DIN rails cannot be assured, most Zener diode barriers are provided with a screw-clamp grounding terminal labeled G1. In that case, the installer must ground each Zener diode barrier to a known reliable grounding point with a suitable conductor.\n\nThe sensor grounding tab ground connections are labeled “G3” and refer to the sensor’s connection to an equipotential bonding conductor. As described in section 5.4.3 below, there are several options available for equipotential bonding of the sensor. The appropriate method for bonding the sensor should be selected from among these options.\n\nRheonics Type-SR Sensor Installation and Intrinsic Safety Manual\nVersion 3.1, Updated: February 23, 2023\nRheonics GmbH, Winterthur, Switzerland\n\nP. 21\n\n©Rheonics. Rheonics confidential and proprietary information.",
+      "specifications": {
+        "document_version": "3.1",
+        "last_updated_date": "February 23, 2023",
+        "page_number": "21"
+      },
+      "key_facts": [
+        "The accuracy of the temperature measurement must be verified and possibly re-calibrated by the end user.",
+        "Sensor-side diagrams depict a ground connection to the sensor labeled 'Ground tab' (optional) for equipotential bonding.",
+        "Options for bonding to the sensor body are detailed in section 5.4.2.",
+        "Cable conductor colors are provided for convenience and follow the DIN 47100 norm.",
+        "There are three types of ground connections mentioned in wiring diagrams (Figs. 9-11): G1, G2, and G3.",
+        "G2 is the default grounding connection for Zener diode barriers, typically a grounding clamp provided by the manufacturer that grips the DIN rail.",
+        "If secure grounding of DIN rails cannot be assured, Zener diode barriers with a screw-clamp grounding terminal labeled G1 are used.",
+        "G3 refers to the sensor’s connection to an equipotential bonding conductor.",
+        "Section 5.4.3 describes various options for equipotential bonding of the sensor, from which an appropriate method should be chosen."
+      ],
+      "diagram_labels": [
+        "Ground tab",
+        "G1",
+        "G2",
+        "G3"
+      ],
+      "warnings_notes": [
+        "It is the installer’s responsibility to verify that the correct M12 cable connector pins are routed to the proper Zener diode barrier terminals, regardless of the actual conductor colors.",
+        "It is the installer’s responsibility to make sure that the DIN rails are securely grounded to a known reliable grounding point.",
+        "In the case that secure grounding of the DIN rails cannot be assured, the installer must ground each Zener diode barrier to a known reliable grounding point with a suitable conductor.",
+        "©Rheonics. Rheonics confidential and proprietary information."
+      ],
+      "page_num": 21,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1023,
+        "cost_usd": 0.0026972999999999997
+      },
+      "source_file": "Rheonics_EX-i_SRV-SRD_Installation-and-Intrinsic-Safety-Manual_V3.1.pdf"
+    },
+    {
+      "page_summary": "This page presents a wiring diagram for a Rheonics Type-SR sensor, illustrating a 4-wire Pt1000 connection across safe, intrinsically safe, and hazardous zones.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Type-SR Sensor",
+        "Pt1000",
+        "SRV",
+        "SRD",
+        "Z041",
+        "Z757"
+      ],
+      "extracted_text": "Rheonics | Switzerland | U.S.A.\nrheonics\nA\nB\nC\n1\nSMET sensor terminal block\n1\n2\n3\n4\n5\n6\n7\n8\n0\n1\n2\n3\n4\n5\n6\n7\n8\nred\nblue\npink\ngrey\nShield (black)\nbrown\nwhite\nZ041\nZ041\nZ757\nred\nblue\npink\ngrey\nbrown\nwhite\nShield (black)\ngrey\npink\nred\nblue\nbrown\nwhite\nShield (black)\nSensor\nSRV / SRD\n2\n3\n1 | M12 cable connector female, rear view\n2 | Sensor:M12 connector male, front view\n3 | Ground tab (optional)\nA | Safe Zone\nB | Intrinsically safe cable\nC | Hazardous Zone\nFigure 9: Variant 1 - Wiring diagram with Pt1000 installed, 4-wire Pt1000 connection\nRheonics Type-SR Sensor Installation and Intrinsic Safety Manual\nVersion 3.1, Updated: February 23, 2023\nRheonics GmbH, Winterthur, Switzerland\nP. 22\n©Rheonics. Rheonics confidential and proprietary information.",
+      "specifications": {
+        "document_version": "3.1",
+        "update_date": "February 23, 2023",
+        "page_number": "22",
+        "sensor_type": "Pt1000",
+        "connection_type": "4-wire Pt1000",
+        "connector_type": "M12"
+      },
+      "key_facts": [
+        "The document is part of the Rheonics Type-SR Sensor Installation and Intrinsic Safety Manual, Version 3.1, updated February 23, 2023.",
+        "Figure 9 depicts a Variant 1 wiring diagram for a Pt1000 sensor using a 4-wire connection.",
+        "The wiring diagram illustrates connections between a SMET sensor terminal block in a Safe Zone (A), an intrinsically safe cable (B), and M12 connectors for a SRV/SRD sensor in a Hazardous Zone (C).",
+        "The M12 cable connector female (rear view) is labeled as '1' and the Sensor M12 connector male (front view) is labeled as '2'.",
+        "An optional ground tab is labeled as '3'.",
+        "Components Z041 and Z757 are shown within the Safe Zone."
+      ],
+      "diagram_labels": [
+        "A (Safe Zone)",
+        "B (Intrinsically safe cable)",
+        "C (Hazardous Zone)",
+        "1 (M12 cable connector female, rear view)",
+        "2 (Sensor:M12 connector male, front view)",
+        "3 (Ground tab (optional))",
+        "SMET sensor terminal block",
+        "Z041",
+        "Z757",
+        "Sensor SRV / SRD",
+        "Shield (black)",
+        "red",
+        "blue",
+        "pink",
+        "grey",
+        "brown",
+        "white",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "0",
+        "3x"
+      ],
+      "warnings_notes": [
+        "©Rheonics. Rheonics confidential and proprietary information."
+      ],
+      "page_num": 22,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 990,
+        "cost_usd": 0.0026147999999999996
+      },
+      "source_file": "Rheonics_EX-i_SRV-SRD_Installation-and-Intrinsic-Safety-Manual_V3.1.pdf"
+    },
+    {
+      "page_summary": "This page provides a wiring diagram for Rheonics SRV/SRD sensors, specifically Variant 2 without a Pt1000 installed, detailing the connection between the sensor terminal block, an intrinsically safe cable, and the sensor itself, and categorizing zones as safe or hazardous.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Type-SR Sensor",
+        "Sensor SRV / SRD"
+      ],
+      "extracted_text": "Rheonics | Switzerland | U.S.A.\nRheonics\nA\nB\nC\n1\nSMET sensor terminal block\n0 1 2 3 4 5 6 7 8\nbrown\nZ757\n8\n7\n6\n5\n3x\n4\nbrown\nwhite\n2\n3\nwhite\nShield\n(black)\nShield (black)\n2\nSensor\nSRV / SRD\n3\n1\nM12 cable connector female, rear view\n2\nSensor:M12 connector male, front view\n3\nGround tab (optional)\nA\nSafe Zone\nB\nIntrinsically safe cable\nC\nHazardous Zone\nFigure 10: Variant 2 - Wiring diagram with no Pt1000 installed\nRheonics Type-SR Sensor Installation and Intrinsic Safety Manual\nVersion 3.1, Updated: February 23, 2023\nRheonics GmbH, Winterthur, Switzerland\n©Rheonics. Rheonics confidential and proprietary information.\nP. 23",
+      "specifications": {},
+      "key_facts": [
+        "The document is a page from the Rheonics Type-SR Sensor Installation and Intrinsic Safety Manual.",
+        "The wiring diagram presented is for Variant 2 and does not include a Pt1000 temperature sensor installation.",
+        "The diagram differentiates between a Safe Zone (A), an Intrinsically safe cable (B), and a Hazardous Zone (C).",
+        "Connections are shown for an SMET sensor terminal block, an M12 cable connector (female, rear view), an M12 sensor connector (male, front view), and the Sensor SRV / SRD.",
+        "The document specifies the inclusion of an optional ground tab.",
+        "The manual version is 3.1, updated on February 23, 2023.",
+        "The document is considered confidential and proprietary information of Rheonics."
+      ],
+      "diagram_labels": [
+        "A",
+        "B",
+        "C",
+        "SMET sensor terminal block",
+        "brown",
+        "white",
+        "Z757",
+        "3x",
+        "Shield (black)",
+        "Sensor SRV / SRD",
+        "1 (M12 cable connector female, rear view)",
+        "2 (Sensor:M12 connector male, front view)",
+        "3 (Ground tab (optional))",
+        "Safe Zone",
+        "Intrinsically safe cable",
+        "Hazardous Zone",
+        "Figure 10: Variant 2 - Wiring diagram with no Pt1000 installed"
+      ],
+      "warnings_notes": [
+        "©Rheonics. Rheonics confidential and proprietary information."
+      ],
+      "page_num": 23,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 775,
+        "cost_usd": 0.0020773
+      },
+      "source_file": "Rheonics_EX-i_SRV-SRD_Installation-and-Intrinsic-Safety-Manual_V3.1.pdf"
+    },
+    {
+      "page_summary": "This page provides a detailed wiring diagram for a Rheonics Type-SR sensor with an installed Pt1000, illustrating a 3-wire connection across safe, intrinsically safe cable, and hazardous zones, accompanied by a legend and document information.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Type-SR Sensor",
+        "Pt1000",
+        "Sensor SRV / SRD"
+      ],
+      "extracted_text": "Rheonics | Switzerland | U.S.A.\nrheonics\nA\nB\nC\nSMET sensor terminal block\nZ041\nblue\nred\npink\ngrey\nbrown\nwhite\nZ757\nShield (black)\n1\nShield (black)\n2\nSensor SRV / SRD\n3\n1 M12 cable connector female, rear view\n2 Sensor:M12 connector male, front view\n3 Ground tab (optional)\nA Safe Zone\nB Intrinsically safe cable\nC Hazardous Zone\nFigure 11: Variant 3 - Wiring diagram with Pt1000 installed, 3-wire Pt1000 connection\nRheonics Type-SR Sensor Installation and Intrinsic Safety Manual\nVersion 3.1, Updated: February 23, 2023\nRheonics GmbH, Winterthur, Switzerland\n©Rheonics. Rheonics confidential and proprietary information.\nP. 24",
+      "specifications": {
+        "Pt1000 connection type": "3-wire",
+        "Document Version": "3.1",
+        "Update Date": "February 23, 2023"
+      },
+      "key_facts": [
+        "This document details wiring for the Rheonics Type-SR Sensor.",
+        "The wiring diagram, Figure 11, shows Variant 3 for a Pt1000 sensor with a 3-wire connection.",
+        "The wiring setup is divided into three main zones: a Safe Zone (A), an Intrinsically Safe Cable (B), and a Hazardous Zone (C).",
+        "Components Z041 and Z757 are part of the intrinsic safety barrier located in the Safe Zone.",
+        "The sensor unit is identified as 'Sensor SRV / SRD' and uses an M12 connector (male, front view).",
+        "The cable connector is an M12 female connector (rear view).",
+        "The shield (black wire) is connected to pin 3 of the M12 connector in the hazardous zone, and an optional ground tab (3) is available.",
+        "The document is an installation and intrinsic safety manual."
+      ],
+      "diagram_labels": [
+        "A",
+        "B",
+        "C",
+        "SMET sensor terminal block",
+        "Z041",
+        "Z757",
+        "blue",
+        "red",
+        "pink",
+        "grey",
+        "brown",
+        "white",
+        "Shield (black)",
+        "1",
+        "2",
+        "3",
+        "Sensor SRV / SRD",
+        "M12 cable connector female, rear view",
+        "Sensor:M12 connector male, front view",
+        "Ground tab (optional)",
+        "Safe Zone",
+        "Intrinsically safe cable",
+        "Hazardous Zone"
+      ],
+      "warnings_notes": [
+        "©Rheonics. Rheonics confidential and proprietary information."
+      ],
+      "page_num": 24,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 823,
+        "cost_usd": 0.0021972999999999997
+      },
+      "source_file": "Rheonics_EX-i_SRV-SRD_Installation-and-Intrinsic-Safety-Manual_V3.1.pdf"
+    },
+    {
+      "page_summary": "This page details the methods and requirements for equipotential bonding and grounding conductors for Rheonics sensors to prevent gas ignition and ensure electrical safety in potentially hazardous environments.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Type-SR Sensor",
+        "Helu Kabel type OB-BL-PAAR-CY 4x2x0.5mm²"
+      ],
+      "extracted_text": "Rheonics | Switzerland | U.S.A.\nrheonics\n5.4. Equipotential bonding\n5.4.1. Bonding/grounding conductor\nIn order to eliminate the risk of gas ignition by sparks and/or local heating caused by ground loops, the sensors and their associated Zener barriers must be connected by suitable conductors, as specified in the following sections.\nThere are four different options for equipotential bonding. The first makes use of the cable shield braid to perform the potential equalization function, providing the shield meets certain basic requirements. The other three depend on independent bonding conductors that connect each sensor to the common ground potential.\nThere are several options available for the equipotential bonding wiring:\n1. Sensor cable shields for equipotential bonding\n   1.1. The cable must have a braided shield with a total cross-sectional copper area of at least 2.5mm².\n   1.2. If it is desired to use the cable shield for equipotential bonding, it is recommended to use Helu Kabel type OB-BL-PAAR-CY 4x2x0.5mm² for the sensor connection\n   1.3. The cable shield must be firmly bonded to the shell of the M12 connector used for the sensor connection. Follow connector manufacturer’s installation instructions.\n   1.4. The cable shield must be securely connected to the grounding terminal of its associated Zener diode barrier.\n2. If a cable other than the recommended type is used, the installer must ensure that its shield cross sectional area is at least 2.5mm². If this cannot be verified, then one of the following equipotential bonding methods must be used. Each of the following methods requires using a sensor with an installed bonding tab. The optional bonding tab is included with each sensor delivered. Proper installation of the bonding tab is shown in Fig. 12 below.\n   2.1. In the case of multiple sensors installed in a specific location that are then connected to Zener barriers in a remote electrical system, a “star” topology can be used (Fig. 13 below)\n   2.2. If it is more convenient because of the layout of an array of sensors in the system, a hybrid or “multi-drop” configuration can be used (Fig.14 below).\n   2.3. Individual bonding wires between sensors and Zener diode barriers. This requires installing the bonding tab delivered with the sensor. Each sensor is connected to its respective barrier by means of a wire of at least 4mm² cross section. On the sensor side, the wire is connected to the bonding tab on the back of the sensor; on the Zener diode barrier side it is connected to the grounding terminal of the barrier (Fig. 15 below)\nRheonics Type-SR Sensor Installation and Intrinsic Safety Manual\nVersion 3.1, Updated: February 23, 2023\nRheonics GmbH, Winterthur, Switzerland\n©Rheonics. Rheonics confidential and proprietary information.\nP. 25",
+      "specifications": {
+        "cable_shield_min_cross_sectional_copper_area": "2.5 mm²",
+        "recommended_cable_type": "Helu Kabel type OB-BL-PAAR-CY 4x2x0.5mm²",
+        "bonding_wire_min_cross_section": "4 mm²",
+        "connector_type": "M12"
+      },
+      "key_facts": [
+        "Equipotential bonding is required to eliminate the risk of gas ignition by sparks or local heating caused by ground loops.",
+        "Sensors and their associated Zener barriers must be connected by suitable conductors for equipotential bonding.",
+        "There are four different options for equipotential bonding.",
+        "One option for equipotential bonding uses the cable shield braid, provided it meets specific basic requirements.",
+        "The other three equipotential bonding options utilize independent bonding conductors.",
+        "If using the cable shield for equipotential bonding, the cable must have a braided shield with a total cross-sectional copper area of at least 2.5mm².",
+        "Helu Kabel type OB-BL-PAAR-CY 4x2x0.5mm² is the recommended cable for sensor connection when using the cable shield for equipotential bonding.",
+        "The cable shield must be firmly bonded to the M12 connector shell and securely connected to the grounding terminal of the associated Zener diode barrier.",
+        "If a non-recommended cable is used, its shield cross-sectional area must be verified to be at least 2.5mm².",
+        "If the shield cross-sectional area cannot be verified, alternative equipotential bonding methods using a sensor with an installed bonding tab are required.",
+        "An optional bonding tab is included with each sensor for alternative bonding methods.",
+        "For multiple sensors with remote Zener barriers, a “star” topology can be used.",
+        "A hybrid or “multi-drop” configuration can be used for convenience with an array of sensors.",
+        "Individual bonding wires between sensors and Zener diode barriers must have a cross-section of at least 4mm².",
+        "The individual bonding wire connects to the bonding tab on the back of the sensor and to the grounding terminal of the Zener diode barrier.",
+        "This document is Version 3.1 of the Rheonics Type-SR Sensor Installation and Intrinsic Safety Manual, updated on February 23, 2023."
+      ],
+      "diagram_labels": [
+        "Fig. 12 below",
+        "Fig. 13 below",
+        "Fig.14 below",
+        "Fig. 15 below"
+      ],
+      "warnings_notes": [
+        "©Rheonics. Rheonics confidential and proprietary information."
+      ],
+      "page_num": 25,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1382,
+        "cost_usd": 0.0035947999999999996
+      },
+      "source_file": "Rheonics_EX-i_SRV-SRD_Installation-and-Intrinsic-Safety-Manual_V3.1.pdf"
+    },
+    {
+      "page_num": 26,
+      "page_summary": "Extraction failed",
+      "document_type": "unknown",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "extraction_failed": true,
+      "source_file": "Rheonics_EX-i_SRV-SRD_Installation-and-Intrinsic-Safety-Manual_V3.1.pdf"
+    },
+    {
+      "page_summary": "This page details electrical bonding and grounding configurations, including star topology, for Rheonics Type-SR sensors to ensure proper function and intrinsic safety, particularly concerning cable shield connections and Zener diode barriers.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Type-SR Sensor"
+      ],
+      "extracted_text": "Rheonics | Switzerland | U.S.A.\nrheonics\n\nlength of heat-shrink tubing. The free end of the shield is then crimped into a ferrule, which can then be clamped under the appropriate ground terminal of the Zener diode barrier.\n\nEven if a cable is used whose shield cross sectional area is less than the specified minimum, proper connection of the shield is essential to ensure proper functioning of the sensor. The shield must be connected both to the shell of the connector, as well as to the Zener diode barrier(s), although in that case, the function of preserving intrinsic safety will be performed by one of the following bonding configurations.\n\n5.4.3. Bonding configurations\n\nIn the event that a cable with sufficient shield cross sectional area is used, then no additional configuration of the equipotential bonding must be performed.\n\nIf the shield cross sectional area is insufficient, or cannot be verified, then one of the following methods may be selected.\n\nThree different scenarios are possible, each of which ensures adequate electrical bonding. The particular scheme that is used depends on the overall sensor setup as well as the preference of the installer.\n\n5.4.3.1.Star topology\n\nThis is particularly useful where several sensors are installed in one area, and must be connected to their associated Zener diode barriers in an electrical cabinet somewhat remote from the installed sensors. In that case, all the sensors in a given area may be tied to a local grounding point, each with a wire of at least 4mm² cross section (ca. 11AWG), and that local grounding point connected to a second grounding point in the remote electrical cabinet by a wire of at least 6mm² cross section. Each Zener diode barrier in the electrical cabinet is then connected to the common grounding point by means of a wire of at least 4mm² cross section. This is shown schematically in the following figure:\n\n\nRheonics Type-SR Sensor Installation and Intrinsic Safety Manual\nVersion 3.1, Updated: February 23, 2023\nRheonics GmbH, Winterthur, Switzerland\n\n©Rheonics. Rheonics confidential and proprietary information.\nP. 27",
+      "specifications": {
+        "minimum wire cross-section for local grounding point connection": "4 mm² (ca. 11AWG)",
+        "minimum wire cross-section for inter-grounding point connection": "6 mm²",
+        "minimum wire cross-section for Zener diode barrier connection": "4 mm²"
+      },
+      "key_facts": [
+        "The free end of a cable shield should be crimped into a ferrule and clamped under the ground terminal of a Zener diode barrier.",
+        "Proper shield connection is essential for sensor functioning, even if the cable's cross-sectional area is less than the specified minimum.",
+        "The shield must be connected to both the connector shell and the Zener diode barrier(s) to preserve intrinsic safety.",
+        "No additional equipotential bonding configuration is required if the cable has a sufficient shield cross-sectional area.",
+        "If the shield cross-sectional area is insufficient or cannot be verified, specific bonding methods must be chosen.",
+        "Three different scenarios exist to ensure adequate electrical bonding, with the choice depending on the sensor setup and installer's preference.",
+        "Star topology is suitable for installations with multiple sensors in one area connected to remote Zener diode barriers in an electrical cabinet.",
+        "In a star topology, sensors in a given area are tied to a local grounding point using a wire of at least 4mm² (approx. 11AWG) cross section.",
+        "The local grounding point is connected to a second grounding point in the remote electrical cabinet via a wire of at least 6mm² cross section.",
+        "Each Zener diode barrier in the electrical cabinet is connected to the common grounding point using a wire of at least 4mm² cross section.",
+        "This document is part of the Rheonics Type-SR Sensor Installation and Intrinsic Safety Manual, Version 3.1, updated on February 23, 2023.",
+        "Rheonics GmbH is located in Winterthur, Switzerland."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Rheonics confidential and proprietary information."
+      ],
+      "page_num": 27,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1043,
+        "cost_usd": 0.0027473000000000003
+      },
+      "source_file": "Rheonics_EX-i_SRV-SRD_Installation-and-Intrinsic-Safety-Manual_V3.1.pdf"
+    },
+    {
+      "page_summary": "This page illustrates a \"Star\" topology for grounding multiple Rheonics Type-SR sensors using individual bonding conductors, detailing connections between sensors in hazardous zones and Zener Barriers in a safe area.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Type-SR Sensor"
+      ],
+      "extracted_text": "Rheonics | Switzerland | U.S.A.\nrheonics\n\n1 Zener Barriers, safe area\n2 Sensors, Zone 0\n3 4 mm² bonding wires (1 per sensor)\n4 4 mm² bonding wires (1 per sensor)\n5 6 mm² wire connecting printing press ground point to barrier ground points\n6 Common grounding points at printing press\n7 Common grounding points at printing press\n8 Star connected bonding\n\nFigure 13: Several sensors grounded to common grounding point (\"Star\" topology)\n\n5.4.3.2. Individual bonding conductors\n\nA second method, which may be more convenient in situations when the safe zone is close to the sensor installation area, is to use an individual bonding wire of at least 4mm² cross section connecting each sensor to its associated Zener diode barriers. This is analogous to the use of cable shields for bonding, except that the bonding conductors are now run parallel to the cables. This arrangement is shown schematically in the following figure:\n\nRheonics Type-SR Sensor Installation and Intrinsic Safety Manual\nVersion 3.1, Updated: February 23, 2023\nRheonics GmbH, Winterthur, Switzerland\nP. 28\n©Rheonics. Rheonics confidential and proprietary information.",
+      "specifications": {
+        "individual sensor bonding wire cross-section": "4 mm²",
+        "main grounding wire cross-section (ground point to barrier)": "6 mm²"
+      },
+      "key_facts": [
+        "The document describes a \"Star\" topology for grounding multiple sensors to a common grounding point.",
+        "This grounding method is suggested for situations where the safe zone is close to the sensor installation area.",
+        "Individual bonding wires with a minimum cross-section of 4 mm² are used to connect each sensor to its associated Zener diode barriers.",
+        "The bonding conductors in this arrangement are run parallel to the cables, unlike the use of cable shields for bonding.",
+        "The diagram illustrates Zener Barriers located in a safe area and sensors in Zone 0.",
+        "A 6 mm² wire connects the printing press ground point to the barrier ground points.",
+        "The document is part of the 'Rheonics Type-SR Sensor Installation and Intrinsic Safety Manual', Version 3.1, updated on February 23, 2023."
+      ],
+      "diagram_labels": [
+        "ZB1",
+        "ZB2",
+        "ZB3",
+        "S1",
+        "S2",
+        "S3",
+        "Zener Barriers, safe area (1)",
+        "Sensors, Zone 0 (2)",
+        "4 mm² bonding wires (1 per sensor) (3)",
+        "4 mm² bonding wires (1 per sensor) (4)",
+        "6 mm² wire connecting printing press ground point to barrier ground points (5)",
+        "Common grounding points at printing press (6)",
+        "Common grounding points at printing press (7)",
+        "Star connected bonding (8)"
+      ],
+      "warnings_notes": [
+        "Rheonics confidential and proprietary information."
+      ],
+      "page_num": 28,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 791,
+        "cost_usd": 0.0021173
+      },
+      "source_file": "Rheonics_EX-i_SRV-SRD_Installation-and-Intrinsic-Safety-Manual_V3.1.pdf"
+    },
+    {
+      "page_num": 29,
+      "page_summary": "Extraction failed",
+      "document_type": "unknown",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "extraction_failed": true,
+      "source_file": "Rheonics_EX-i_SRV-SRD_Installation-and-Intrinsic-Safety-Manual_V3.1.pdf"
+    },
+    {
+      "page_summary": "This page illustrates a hybrid or multi-drop bonding scheme for Rheonics sensors and zener barriers, providing critical installation responsibilities and specifications for intrinsic safety.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Type-SR Sensor"
+      ],
+      "extracted_text": "Rheonics | Switzerland | U.S.A.\nrheonics\n\n[Diagram showing Zener Barriers (ZB1, ZB2, ZB3) in a safe area (1), connected by individual bonding wires (3) to a grounding rail (5), and Sensors (S1, S2, S3) in Zone 0 (2), connected by individual bonding wires (4) to the same grounding rail (5). The entire setup is labeled as Multi-drop bonding (6).]\n\n1 Zener Barriers, safe area\n2 Sensors, Zone 0\n3 4 mm² individual bonding wires\n4 4 mm² individual bonding wires\n5 Grounding rail (minimum 6mm² cross section)\n6 Multi-drop bonding\n\nFigure 15: Hybrid, or multi-drop bonding\n\nIn any event, it is the sole responsibility of the installer to ensure proper equipotential bonding of all elements of the system, to avoid creation of a potentially unsafe system due to improper bonding.\n\nRheonics Type-SR Sensor Installation and Intrinsic Safety Manual\nVersion 3.1, Updated: February 23, 2023\nRheonics GmbH, Winterthur, Switzerland\nP. 30\n\n©Rheonics. Rheonics confidential and proprietary information.",
+      "specifications": {
+        "Individual bonding wire cross-section": "4 mm²",
+        "Grounding rail cross-section": "minimum 6mm²"
+      },
+      "key_facts": [
+        "The page illustrates a hybrid or multi-drop bonding scheme (Figure 15).",
+        "The system consists of Zener Barriers located in a safe area and Sensors located in Zone 0.",
+        "Individual bonding wires of 4 mm² cross-section are used for connections.",
+        "A grounding rail with a minimum 6mm² cross-section is part of the bonding system.",
+        "This content is from the Rheonics Type-SR Sensor Installation and Intrinsic Safety Manual, Version 3.1, updated on February 23, 2023.",
+        "Rheonics GmbH is located in Winterthur, Switzerland.",
+        "The page number is P. 30."
+      ],
+      "diagram_labels": [
+        "1: Zener Barriers, safe area",
+        "2: Sensors, Zone 0",
+        "3: 4 mm² individual bonding wires",
+        "4: 4 mm² individual bonding wires",
+        "5: Grounding rail (minimum 6mm² cross section)",
+        "6: Multi-drop bonding",
+        "ZB1",
+        "ZB2",
+        "ZB3",
+        "S1",
+        "S2",
+        "S3",
+        "Figure 15: Hybrid, or multi-drop bonding"
+      ],
+      "warnings_notes": [
+        "In any event, it is the sole responsibility of the installer to ensure proper equipotential bonding of all elements of the system, to avoid creation of a potentially unsafe system due to improper bonding.",
+        "©Rheonics. Rheonics confidential and proprietary information."
+      ],
+      "page_num": 30,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 789,
+        "cost_usd": 0.0021122999999999997
+      },
+      "source_file": "Rheonics_EX-i_SRV-SRD_Installation-and-Intrinsic-Safety-Manual_V3.1.pdf"
+    },
+    {
+      "page_summary": "This page provides detailed instructions for external, sensor, and internal maintenance of Rheonics sensors, along with a comprehensive procedure for returning equipment to the factory for service.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Type-SR Sensor",
+        "EX sensor"
+      ],
+      "extracted_text": "Rheonics | Switzerland | U.S.A.\n\nRheonics\n\n6. Maintenance\n\n6.1. External Maintenance\nThe Rheonics sensors can be externally cleaned and maintained by wiping with a dry clean cloth.\n\n6.2. Sensor Maintenance\nThe sensor can be maintained by switching off the power, removing the probe from the process and cleaning the probe with a solvent compatible with 316SS. After cleaning the probe clean and dry the sensor with compressed air before inserting it back it the process. It is not recommended to use an ultrasonic bath for cleaning.\n\n6.3. Internal Maintenance\nPlease make sure that the internals of the unit always stay dry and clean. There are no user maintainable components inside the electronic compartment.\n\n7. Returning Equipment to the factory\n\nInstructions for Returning Your Instrument for Service\nThe following information will help you return your instrument to Rheonics and will ensure that your order is processed promptly. To request details, contact your local Rheonics distributor or contact one of our offices directly.\n\nPlease follow these easy steps to return your instrument for factory service:\n\n1) To obtain a Return Materials Authorization (RMA) number from Rheonics, submit a support ticket with subject \"RMA Request for EX sensor\" – https://support.rheonics.com/support/tickets/new\n2) Rheonics Support Team will provide you with an RMA Number/Reference number to be used with the shipment.\n3) Pack your instrument carefully. Use the original packaging and foam or bubble wrap and include the Reference Number/RMA number with the unit(s).\n\nShip the unit(s) to the address on the RMA. Include RMA/Reference Number (Your RMA Number – supplied by Rheonics) on the shipment.\n\nRheonics Type-SR Sensor Installation and Intrinsic Safety Manual\nVersion 3.1, Updated: February 23, 2023\nRheonics GmbH, Winterthur, Switzerland\n\n©Rheonics. Rheonics confidential and proprietary information.\n\nP. 31",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics sensors can be externally cleaned and maintained by wiping with a dry clean cloth.",
+        "Sensor maintenance involves switching off power, removing the probe, and cleaning it with a solvent compatible with 316SS.",
+        "After cleaning, the sensor probe must be cleaned and dried with compressed air before re-inserting it into the process.",
+        "The internals of the unit should always be kept dry and clean.",
+        "To return an instrument for service, a Return Materials Authorization (RMA) number is required.",
+        "An RMA number can be obtained by submitting a support ticket on the Rheonics website using the subject \"RMA Request for EX sensor\" at https://support.rheonics.com/support/tickets/new.",
+        "The Rheonics Support Team will provide an RMA Number/Reference number for use with the shipment.",
+        "Instruments must be packed carefully using original packaging, foam, or bubble wrap, including the Reference Number/RMA number with the unit(s).",
+        "The RMA Number supplied by Rheonics must be included on the shipment and shipped to the address specified on the RMA.",
+        "This document is part of the Rheonics Type-SR Sensor Installation and Intrinsic Safety Manual, Version 3.1, updated on February 23, 2023."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "It is not recommended to use an ultrasonic bath for cleaning the sensor.",
+        "There are no user maintainable components inside the electronic compartment.",
+        "©Rheonics. Rheonics confidential and proprietary information."
+      ],
+      "page_num": 31,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 906,
+        "cost_usd": 0.0024048
+      },
+      "source_file": "Rheonics_EX-i_SRV-SRD_Installation-and-Intrinsic-Safety-Manual_V3.1.pdf"
+    },
+    {
+      "page_summary": "This page provides information on intrinsic safety certificates for Rheonics products and details the revision history of the Rheonics Type-SR Sensor Installation and Intrinsic Safety Manual.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Type-SR Sensor"
+      ],
+      "extracted_text": "Rheonics | Switzerland | U.S.A.\nrheonics\n\n8. Intrinsic safety certificates\n\nATEX Certificate\nIECEx Certificate\n\nFor latest certificates of Rheonics products, solutions & electronics, visit:\nhttps://rheonics.com/resources/certificates/\n\n9. Revisions and approvals\n\nVersion | Nature of changes | Approvals | Date\n1.0 | Original version | S. Kumar, J. Goodbread | 22.06.2020\n2.0 | 1. Minor edits in the existing sections.\n    2. Update of address and addition of revisions table.\n    3. Inclusion of the following sections:\n        • Safe Use of ATEX approved equipment\n        • Maintenance and procedures of return of equipment | S. Kumar, J. Goodbread | 29.10.2020\n3.0 | 1. Update of coil and PT1000 Ex relevant parameters (table 1).\n    2. Update of barrier specification (table 4, table 5). | S. Kumar, J. Goodbread | 30.09.2022\n3.1 | 1. Update of coil and PT1000 Ex relevant parameters (table 1). | S. Kumar | 23.02.2023\n\nP. 32\n\nRheonics Type-SR Sensor Installation and Intrinsic Safety Manual\nVersion 3.1, Updated: February 23, 2023\nRheonics GmbH, Winterthur, Switzerland\n\n©Rheonics. Rheonics confidential and proprietary information.",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics provides ATEX and IECEx intrinsic safety certificates for its products.",
+        "The latest certificates for Rheonics products, solutions, and electronics can be found on their website at https://rheonics.com/resources/certificates/.",
+        "The document is titled 'Rheonics Type-SR Sensor Installation and Intrinsic Safety Manual'.",
+        "The current version of the manual is 3.1, updated on February 23, 2023.",
+        "Version 2.0 of the manual introduced sections on 'Safe Use of ATEX approved equipment' and 'Maintenance and procedures of return of equipment'.",
+        "Updates in versions 3.0 and 3.1 involved coil and PT1000 Ex relevant parameters, and barrier specifications.",
+        "The document is confidential and contains proprietary information belonging to Rheonics.",
+        "Rheonics is located in Winterthur, Switzerland, and has a presence in Switzerland and the U.S.A."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "For latest certificates of Rheonics products, solutions & electronics, visit: https://rheonics.com/resources/certificates/",
+        "©Rheonics. Rheonics confidential and proprietary information."
+      ],
+      "page_num": 32,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 744,
+        "cost_usd": 0.0019998
+      },
+      "source_file": "Rheonics_EX-i_SRV-SRD_Installation-and-Intrinsic-Safety-Manual_V3.1.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": [
+      10,
+      11,
+      20,
+      26,
+      29
+    ]
+  }
+}

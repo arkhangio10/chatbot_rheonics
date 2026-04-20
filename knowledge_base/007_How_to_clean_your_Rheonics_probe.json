@@ -1,0 +1,392 @@
+{
+  "source_file": "007_How_to_clean_your_Rheonics_probe.pdf",
+  "total_pages": 9,
+  "chunks": [
+    {
+      "page_summary": "This page provides essential guidance on how to clean Rheonics inline viscometer and density sensor probes, highlighting the importance of cleanliness for accurate measurements and outlining recommended cleaning practices, including warnings against damaging methods.",
+      "document_type": "manual",
+      "product_names": [
+        "Inline process viscometer SRV",
+        "Inline process density meter SRD",
+        "SR probes",
+        "SRV sensors",
+        "SRD sensors",
+        "inline fluid viscometer and density meter"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nHow to clean your Rheonics probe?\nModified on: Thu, 21 Dec, 2023 at 4:43 PM\n\nWhich products are involved?\nInline process viscometer SRV (https://rheonics.com/products/inline-viscometer-srv/)\ninline process density meter SRD (https://rheonics.com/products/inline-density-meter-srd/)\nVisit Rheonics product page: Products » inline fluid viscometer and density meter (https://rheonics.com/products/)\n\n1. What is the importance of a clean probe?\nAccurate measurements of process fluid density and viscosity are an important part of many industrial processes, and cleanliness plays a major role in obtaining accurate readings. Often the process fluid causes deposits and measurement probes should be cleaned to ensure accurate viscosity and density measurements.\n\nDirt, debris, sticking material, and other contaminants can interfere with the sensor operation and cause incorrect readings. The SR probes are a stable, robust sensor system that operates over a wide range of temperatures and pressures. The standard sensor is made of 316L stainless steel, which is one of the most widely used materials in manufacturing processes involving fluids.\n\nThe SRV and SRD sensors are based on a resonant sensing element that operates in the range of approximately 7-8 kHz. The sensor measures fluid properties in a layer of fluid surrounding the resonant element. The sensor measures what it is in contact with so it is important to ensure that fluid that is of interest is in contact with the sensing element at all times.\n\nIf the sensor sensing element gets coated with sticky fluid and solids, it is recommended that the sensor is cleaned. This cleaning often takes place in situ aka the sensor is cleaned along with the line or vessel it is installed in. However, at times it is desired or important to remove and mechanically clean the probe/sensing element.\n\nAdherent films can be removed by using appropriate solvents and/or wiping with a cloth or paper. Under no circumstances should abrasives be used to clean the resonator, as these will change the geometry and destroy its calibration.\n\nDo not use ultrasonic cleaners under any circumstance as that could damage the probe internal components.",
+      "specifications": {
+        "Sensor operating frequency": "7-8 kHz",
+        "Standard sensor material": "316L stainless steel"
+      },
+      "key_facts": [
+        "Cleanliness is crucial for obtaining accurate viscosity and density measurements from Rheonics probes.",
+        "Process fluid can cause deposits on measurement probes, necessitating cleaning to ensure accurate readings.",
+        "Dirt, debris, sticking material, and other contaminants can interfere with sensor operation and lead to incorrect readings.",
+        "Rheonics SR probes are stable, robust sensor systems capable of operating across a wide range of temperatures and pressures.",
+        "The standard SR sensor is constructed from 316L stainless steel, a widely used material in manufacturing processes involving fluids.",
+        "SRV and SRD sensors employ a resonant sensing element that operates at approximately 7-8 kHz.",
+        "The sensor measures fluid properties within a layer of fluid immediately surrounding the resonant element.",
+        "It is important to ensure that the fluid of interest is consistently in contact with the sensing element.",
+        "Cleaning of the sensor is recommended when its sensing element becomes coated with sticky fluid and solids.",
+        "Cleaning can occur 'in situ' (with the sensor installed in the line or vessel) or by removing the probe for mechanical cleaning.",
+        "Adherent films on the probe can be removed using appropriate solvents and/or wiping with a cloth or paper."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Under no circumstances should abrasives be used to clean the resonator, as these will change the geometry and destroy its calibration.",
+        "Do not use ultrasonic cleaners under any circumstance as that could damage the probe internal components."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1001,
+        "cost_usd": 0.0026422999999999998
+      },
+      "source_file": "007_How_to_clean_your_Rheonics_probe.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions for cleaning Rheonics SRV/SRD probes and discusses the chemical compatibility of Stainless steel 316, listing types of chemical hazards.",
+      "document_type": "manual",
+      "product_names": [
+        "SR probes",
+        "SRV probes",
+        "SRD probes",
+        "Rheonics sensors"
+      ],
+      "extracted_text": "2. Removing the coating with a solvent-saturated cloth or paper\n\nCleaning SR (SRV or SRD) probes requires a gentle hand and the right materials. To start, use a soft cloth to wipe down the SR probe thoroughly. Make sure to remove any grease or dirt buildup that may have accumulated on its surface. Then, dampen a clean cloth with warm water and mild dish soap. Gently wipe down the stainless steel probe with the cloth and rinse it off with clean water. Finally, dry the stainless steel probe with a soft cloth. With these steps, your SR probe will remain clean and perform its best.\n\nFigure 1. Manually wiping the SRV probe with a cloth\n\nWhen it comes to stainless steel probes, it's important to keep them clean in order to protect the material from corrosive elements. Washing stainless steel probes with warm water and mild detergent can help prevent corrosion. For tougher soils or stains, a stainless steel cleaner or vinegar-based solution can be used on the probes. It is important to remember not to use any harsh abrasives, metallic scouring pads, or steel wool as these can damage stainless steel surfaces.\n\n3. Chemical compatibility for Stainless steel 316\n\nWhen it comes to chemically cleaning the Rheonics sensors, there are many different chemical solutions available. The most popular solution is a mixture of water and detergent, which can help remove dirt, dust, and other foreign materials from the stainless steel surface. It is important to note that stainless steel should not be exposed to harsh chemical cleaners for long periods of time, as this can cause damage to the surface. Additionally, stainless steel should always be dried thoroughly after being chemically cleaned in order to avoid any corrosion.\n\nThe following table can be used to verify the compatibility with different chemicals:\n\nA: Asphyxiant (Gas and vapor only)\nC: Corrosive\nF: Flammable\nO: Oxidizer\nT: Toxic",
+      "specifications": {
+        "material_type": "Stainless steel 316"
+      },
+      "key_facts": [
+        "SR (SRV or SRD) probes should be cleaned with a soft cloth, warm water, and mild dish soap to remove grease or dirt buildup.",
+        "For tougher soils or stains on stainless steel probes, a stainless steel cleaner or vinegar-based solution can be used.",
+        "Stainless steel probes must be kept clean to protect them from corrosive elements and prevent corrosion.",
+        "The most popular chemical cleaning solution for Rheonics sensors is a mixture of water and detergent.",
+        "Stainless steel should always be dried thoroughly after chemical cleaning to avoid corrosion.",
+        "Chemical compatibility for Stainless steel 316 needs to be verified.",
+        "Asphyxiant (Gas and vapor only), Corrosive, Flammable, Oxidizer, and Toxic are categories used to verify chemical compatibility."
+      ],
+      "diagram_labels": [
+        "Figure 1. Manually wiping the SRV probe with a cloth"
+      ],
+      "warnings_notes": [
+        "It is important to remember not to use any harsh abrasives, metallic scouring pads, or steel wool as these can damage stainless steel surfaces.",
+        "Stainless steel should not be exposed to harsh chemical cleaners for long periods of time, as this can cause damage to the surface."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 818,
+        "cost_usd": 0.0021847999999999998
+      },
+      "source_file": "007_How_to_clean_your_Rheonics_probe.pdf"
+    },
+    {
+      "page_summary": "This page provides a chemical compatibility chart for various acids, detailing their potential effects and recommended usage guidelines.",
+      "document_type": "datasheet",
+      "product_names": [],
+      "extracted_text": "Hazard\tCompatibility\nAcids\t\nAcetic\tC\tNo noticeable effect at low concentrations and room temperature. Moderate to severe effect at high concentration and/or high temperature. Test before using and verify calibration periodically.\nAqua Regia\tC\tSevere effect or degradation, exposure not recommended\nChromic\tC\tMinor effect or a slight change in appearance or properties. Test before repeated exposure and verify calibration periodically.\nHydrochloric\tC\tSevere effect or degradation, exposure not recommended\nHydrofluoric\tC\tMinor effect or a slight change in appearance or properties. Test before repeated exposure and verify calibration periodically.\nNitric\tC\tNo noticeable effect\nPhosphoric\tC\tSevere effect or degradation, exposure not recommended\nSulfuric\tC\tSevere effect or degradation, exposure not recommended",
+      "specifications": {},
+      "key_facts": [
+        "Acetic acid shows no noticeable effect at low concentrations and room temperature, but a moderate to severe effect at high concentrations and/or high temperatures.",
+        "Aqua Regia causes severe effect or degradation.",
+        "Chromic acid may cause a minor effect or a slight change in appearance or properties.",
+        "Hydrochloric acid causes severe effect or degradation.",
+        "Hydrofluoric acid may cause a minor effect or a slight change in appearance or properties.",
+        "Nitric acid has no noticeable effect.",
+        "Phosphoric acid causes severe effect or degradation.",
+        "Sulfuric acid causes severe effect or degradation."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "For Acetic acid, test before using and verify calibration periodically, especially at high concentrations and/or temperatures.",
+        "Exposure to Aqua Regia is not recommended due to severe effect or degradation.",
+        "For Chromic acid, test before repeated exposure and verify calibration periodically.",
+        "Exposure to Hydrochloric acid is not recommended due to severe effect or degradation.",
+        "For Hydrofluoric acid, test before repeated exposure and verify calibration periodically.",
+        "Exposure to Phosphoric acid is not recommended due to severe effect or degradation.",
+        "Exposure to Sulfuric acid is not recommended due to severe effect or degradation."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 550,
+        "cost_usd": 0.0015148000000000002
+      },
+      "source_file": "007_How_to_clean_your_Rheonics_probe.pdf"
+    },
+    {
+      "page_summary": "This page is a chemical compatibility table for various caustics, gases, and oxidants, detailing their effects on a material, likely related to Rheonics' viscometers or density sensors.",
+      "document_type": "datasheet",
+      "product_names": [],
+      "extracted_text": "Caustics\n  Ammonium Hydroxide | C | No noticeable effect\n  Potassium Hydroxide | C | No noticeable effect\n  Sodium Hydroxide | C | Minor effect or a slight change in appearance or properties. Test before repeated exposure and verify calibration periodically.\nGases\n  Air | O | No noticeable effect\n  Ammonia | C,F,T | No noticeable effect\n  Argon | A | No noticeable effect\n  Carbon Dioxide | A | No noticeable effect\n  Carbon Monoxide | F,T | No noticeable effect\n  Chlorine | C,T | No noticeable effect\n  Fluorine | C,O,T | No noticeable effect\n  Helium | A | No noticeable effect\n  Hydrogen | A,F | No noticeable effect\n  Hydrogen Sulfide | C,F,T | No noticeable effect\n  Methane | A,F | No noticeable effect\n  Nitrogen | A | No noticeable effect\n  Nitrous Oxide | O | No noticeable effect\n  Ozone | O | No noticeable effect\n  Propane | A,F | No noticeable effect\nOxidants\n  Hydrogen Peroxide | O | No noticeable effect\n  Sodium Hypochlorite | O | No noticeable effect at low concentrations and room temperature. Moderate to severe effect at high concentration and/or high temperature. Test before using and verify calibration periodically.",
+      "specifications": {
+        "Ammonium Hydroxide_code": "C",
+        "Ammonium Hydroxide_effect": "No noticeable effect",
+        "Potassium Hydroxide_code": "C",
+        "Potassium Hydroxide_effect": "No noticeable effect",
+        "Sodium Hydroxide_code": "C",
+        "Sodium Hydroxide_effect": "Minor effect or a slight change in appearance or properties. Test before repeated exposure and verify calibration periodically.",
+        "Air_code": "O",
+        "Air_effect": "No noticeable effect",
+        "Ammonia_code": "C,F,T",
+        "Ammonia_effect": "No noticeable effect",
+        "Argon_code": "A",
+        "Argon_effect": "No noticeable effect",
+        "Carbon Dioxide_code": "A",
+        "Carbon Dioxide_effect": "No noticeable effect",
+        "Carbon Monoxide_code": "F,T",
+        "Carbon Monoxide_effect": "No noticeable effect",
+        "Chlorine_code": "C,T",
+        "Chlorine_effect": "No noticeable effect",
+        "Fluorine_code": "C,O,T",
+        "Fluorine_effect": "No noticeable effect",
+        "Helium_code": "A",
+        "Helium_effect": "No noticeable effect",
+        "Hydrogen_code": "A,F",
+        "Hydrogen_effect": "No noticeable effect",
+        "Hydrogen Sulfide_code": "C,F,T",
+        "Hydrogen Sulfide_effect": "No noticeable effect",
+        "Methane_code": "A,F",
+        "Methane_effect": "No noticeable effect",
+        "Nitrogen_code": "A",
+        "Nitrogen_effect": "No noticeable effect",
+        "Nitrous Oxide_code": "O",
+        "Nitrous Oxide_effect": "No noticeable effect",
+        "Ozone_code": "O",
+        "Ozone_effect": "No noticeable effect",
+        "Propane_code": "A,F",
+        "Propane_effect": "No noticeable effect",
+        "Hydrogen Peroxide_code": "O",
+        "Hydrogen Peroxide_effect": "No noticeable effect",
+        "Sodium Hypochlorite_code": "O",
+        "Sodium Hypochlorite_effect": "No noticeable effect at low concentrations and room temperature. Moderate to severe effect at high concentration and/or high temperature. Test before using and verify calibration periodically."
+      },
+      "key_facts": [
+        "Most listed caustics (Ammonium Hydroxide, Potassium Hydroxide), all listed gases, and Hydrogen Peroxide have no noticeable effect on the material.",
+        "Sodium Hydroxide may cause minor effects or a slight change in appearance or properties and requires periodic calibration verification and testing before repeated exposure.",
+        "Sodium Hypochlorite shows no noticeable effect at low concentrations and room temperature but can have moderate to severe effects at high concentrations and/or high temperatures.",
+        "For Sodium Hypochlorite, testing before use and periodic calibration verification are required."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "For Sodium Hydroxide: Test before repeated exposure and verify calibration periodically.",
+        "For Sodium Hypochlorite: Test before using and verify calibration periodically. Note potential moderate to severe effect at high concentration and/or high temperature."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1162,
+        "cost_usd": 0.0030448
+      },
+      "source_file": "007_How_to_clean_your_Rheonics_probe.pdf"
+    },
+    {
+      "page_summary": "This page is a table detailing the effects of various salts on a system or material, including recommendations for testing and calibration.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Salts\nAmmonium Nitrate: No noticeable effect\nAmmonium Persulfate: Minor effect or a slight change in appearance or properties. Test before repeated exposure and verify calibration periodically.\nSodium Carbonate: No noticeable effect",
+      "specifications": {},
+      "key_facts": [
+        "Ammonium Nitrate has no noticeable effect.",
+        "Ammonium Persulfate may cause a minor effect or a slight change in appearance or properties.",
+        "Sodium Carbonate has no noticeable effect."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "For Ammonium Persulfate, test before repeated exposure.",
+        "For Ammonium Persulfate, verify calibration periodically."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 218,
+        "cost_usd": 0.0006848
+      },
+      "source_file": "007_How_to_clean_your_Rheonics_probe.pdf"
+    },
+    {
+      "page_summary": "This page presents a table detailing the effects of various solvents on a product or material, including compatibility ratings and cautionary notes.",
+      "document_type": "datasheet",
+      "product_names": [],
+      "extracted_text": {
+        "table_headers": [
+          "Solvents",
+          "Compatibility Code",
+          "Effect"
+        ],
+        "table_rows": [
+          {
+            "Solvents": "Acetone",
+            "Compatibility Code": "F",
+            "Effect": "No noticeable effect"
+          },
+          {
+            "Solvents": "Carbon tetrachloride",
+            "Compatibility Code": "T",
+            "Effect": "Minor effect or a slight change in appearance or properties. Test before repeated exposure and verify calibration periodically."
+          },
+          {
+            "Solvents": "DI Water",
+            "Compatibility Code": "",
+            "Effect": "No noticeable effect"
+          },
+          {
+            "Solvents": "Ethyl alcohol",
+            "Compatibility Code": "F",
+            "Effect": "No noticeable effect"
+          },
+          {
+            "Solvents": "Ethyl Glycol",
+            "Compatibility Code": "",
+            "Effect": "Minor effect or a slight change in appearance or properties. Test before repeated exposure and verify calibration periodically."
+          },
+          {
+            "Solvents": "Glycerin",
+            "Compatibility Code": "",
+            "Effect": "No noticeable effect"
+          },
+          {
+            "Solvents": "Isopropyl alcohol",
+            "Compatibility Code": "F",
+            "Effect": "Minor effect or a slight change in appearance or properties. Test before repeated exposure and verify calibration periodically."
+          },
+          {
+            "Solvents": "Kerosene",
+            "Compatibility Code": "F",
+            "Effect": "No noticeable effect"
+          },
+          {
+            "Solvents": "Methyl alcohol",
+            "Compatibility Code": "F,T",
+            "Effect": "No noticeable effect"
+          },
+          {
+            "Solvents": "Methyl ethyl ketone",
+            "Compatibility Code": "F",
+            "Effect": "Minor effect or a slight change in appearance or properties. Test before repeated exposure and verify calibration periodically."
+          },
+          {
+            "Solvents": "Toluene",
+            "Compatibility Code": "F",
+            "Effect": "No noticeable effect"
+          },
+          {
+            "Solvents": "Trichloroethane",
+            "Compatibility Code": "A",
+            "Effect": "Minor effect or a slight change in appearance or properties. Test before repeated exposure and verify calibration periodically."
+          }
+        ]
+      },
+      "specifications": {},
+      "key_facts": [
+        "Several solvents including Acetone, DI Water, Ethyl alcohol, Glycerin, Kerosene, Methyl alcohol, and Toluene have no noticeable effect.",
+        "Carbon tetrachloride, Ethyl Glycol, Isopropyl alcohol, Methyl ethyl ketone, and Trichloroethane may cause minor effects or slight changes in appearance or properties.",
+        "For solvents causing minor effects, testing before repeated exposure and periodic calibration verification are recommended."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Test before repeated exposure and verify calibration periodically."
+      ],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 728,
+        "cost_usd": 0.0019598
+      },
+      "source_file": "007_How_to_clean_your_Rheonics_probe.pdf"
+    },
+    {
+      "page_summary": "This page from a technical document describes commonly used cleaners, focusing on alkaline and caustic (sodium hydroxide) cleaning for Rheonics probes and sensors, including details on the corrosion resistance and stress corrosion cracking susceptibility of stainless steel 316.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics probe",
+        "Rheonics sensors",
+        "stainless steel 316"
+      ],
+      "extracted_text": "Figure 2. Chemical compatibility table[2]\n\n4. Commonly used cleaners\n\n4.1. Alkaline cleaning\nAlkaline solutions can be applied to the Rheonics probe to remove water-soluble materials. Alkaline solutions dissolve the bonds between water-soluble molecules, allowing them to be drawn off the probe and away from the surface, keeping the probe clean.\n\n4.2. Caustic (Sodium Hydroxide)\nSodium Hydroxide (Caustic Soda) is a strong base.\nIn a wide range of industries including investment casing, it is used for metal degreasing and cleaning.\nRheonics sensors made of stainless steel 316 are considered resistant to corrosion below 80 degrees Celsius, up to the limit of their solubility.\n\n[Graph: Corrosion resistance of stainless steels]\n\nFigure 3. Corrosion resistance of stainless steels[3]\n\nUp to the limit of solubility, they are resistant to sodium hydroxide at any temperature below 80 °C.\nStainless steel 316 material is susceptible to stress corrosion cracking (SCC) attack at higher temperatures. If service temperatures are limited to 95°C, this should not be an issue.\n\n4.3. Acidic cleaning",
+      "specifications": {
+        "Sodium hydroxide corrosion resistance temperature for stainless steel 316": "below 80 degrees Celsius",
+        "Stainless steel 316 SCC service temperature limit": "95°C",
+        "Graph Y-axis temperature range": "20-180 °C",
+        "Graph X-axis weight range": "0-100 weight-%"
+      },
+      "key_facts": [
+        "Alkaline solutions can be used on Rheonics probes to remove water-soluble materials by dissolving intermolecular bonds.",
+        "Sodium Hydroxide (Caustic Soda) is a strong base used in industries for metal degreasing and cleaning.",
+        "Rheonics sensors made of stainless steel 316 are resistant to corrosion by sodium hydroxide below 80 degrees Celsius.",
+        "Stainless steel 316 is susceptible to stress corrosion cracking (SCC) at higher temperatures.",
+        "Limiting service temperatures to 95°C for stainless steel 316 should prevent stress corrosion cracking (SCC)."
+      ],
+      "diagram_labels": [
+        "Temperature, °C",
+        "weight-%",
+        "Risk of SCC",
+        "Figure 3. Corrosion resistance of stainless steels[3]"
+      ],
+      "warnings_notes": [
+        "Stainless steel 316 material is susceptible to stress corrosion cracking (SCC) attack at higher temperatures."
+      ],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 700,
+        "cost_usd": 0.0018898
+      },
+      "source_file": "007_How_to_clean_your_Rheonics_probe.pdf"
+    },
+    {
+      "page_num": 8,
+      "page_summary": "Extraction failed",
+      "document_type": "unknown",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "extraction_failed": true,
+      "source_file": "007_How_to_clean_your_Rheonics_probe.pdf"
+    },
+    {
+      "page_summary": "This page lists three Rheonics resources related to inline viscosity and density measurements, calibration, and IIoT solutions, followed by a general disclaimer about the use of images.",
+      "document_type": "notes",
+      "product_names": [
+        "inline viscometer",
+        "density meter",
+        "SRV"
+      ],
+      "extracted_text": "1. What is CIP? Optimizing CIP (Clean In Place) Systems with inline viscosity & density measurements » rheonics :: viscometer and density meter (https://rheonics.com/what-is-cip-optimizing-cip-clean-in-place-systems-with-inline-viscosity-density-measurements/)\n2. Calibration verification procedure for inline viscometer and density meter (https://support.rheonics.com/en/support/solutions/articles/81000390161-calibrating-srv-in-field-verification-and-re-calibration)\n3. rheonics iiot automated solutions » viscosity density temperature control (https://rheonics.com/solutions/)\n\nDISCLAIMER\nPictures, photos, and images used are for illustration purposes and do not constitute any warranty or assertions on the suitability of use and should not be construed as an explicit or implicit recommendation or endorsement. All illustrations are given proper credit from our source of access and by their use here we do not specify or establish any copyright which belongs and stays unaffected with the existing copyright holder of that material",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics offers information on optimizing Clean In Place (CIP) Systems using inline viscosity and density measurements.",
+        "A calibration and verification procedure is available for Rheonics inline viscometers and density meters, specifically mentioning SRV for in-field verification and re-calibration.",
+        "Rheonics provides IIoT automated solutions for viscosity, density, and temperature control.",
+        "Pictures, photos, and images on this page are for illustration purposes only.",
+        "The use of images does not constitute any warranty or assertions regarding suitability of use.",
+        "Illustrations should not be construed as an explicit or implicit recommendation or endorsement.",
+        "All illustrations are given proper credit from their source of access.",
+        "The use of material on this page does not specify or establish any copyright that belongs to Rheonics and the copyright remains with the existing holder."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Pictures, photos, and images used are for illustration purposes and do not constitute any warranty or assertions on the suitability of use and should not be construed as an explicit or implicit recommendation or endorsement. All illustrations are given proper credit from our source of access and by their use here we do not specify or establish any copyright which belongs and stays unaffected with the existing copyright holder of that material"
+      ],
+      "page_num": 9,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 636,
+        "cost_usd": 0.0017297999999999999
+      },
+      "source_file": "007_How_to_clean_your_Rheonics_probe.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": [
+      8
+    ]
+  }
+}

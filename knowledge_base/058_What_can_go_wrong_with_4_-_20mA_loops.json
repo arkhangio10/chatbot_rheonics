@@ -1,0 +1,652 @@
+{
+  "source_file": "058_What_can_go_wrong_with_4_-_20mA_loops.pdf",
+  "total_pages": 5,
+  "chunks": [
+    {
+      "page_summary": "This page discusses common problems, symptoms, and troubleshooting recommendations for 4-20mA current loops, particularly in the context of Rheonics sensors.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics sensors"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nWhat can go wrong with 4 - 20mA loops ?\n\nModified on: Tue, 22 Nov, 2022 at 1:55 PM\n\nMany factors can lead to a malfunctioning 4-20mA loop. The problem can be caused by a poor selection of power, wiring or loop devices. In the event that the loop does not appear to work properly, it is recommended that you first check the power and wiring.\n\nMultiple loops must be installed if we want to monitor all three (3) channels available. Running so much wire could lead to problems with ground loops if independent loops are not properly isolated or there is a bad wiring connection.\n\nFigure 1. Device diagram in a 4-20mA current Loop\n\nSYMPTOMS\nRemember Rheonics sensors provide 3 non-isolated analogs outputs, below we are going to describe what could happen with bad wiring, unproperly earthing and bring out possible solutions for these issues by adding 4-20mA isolators. We have 3.5 mA that can be read as error signal.\n\n- Unpredictable 4-20 mA signal fluctuations; are a sign that something is interfering with your current loop. This is likely a result of electrical noise or a ground loop.\n\n- Variation in display signal; the signal may also experience an addition or subtraction by some value from one point in the loop to another. This is caused because bad scaling in the instrument.\n\n- Shared commons causing signal averaging; Problems with shared, non-isolated commons will commonly average the processed signal causing the same value to be registered on devices that should be receiving different process variables.\n\nCorrect wiring.\n\nTroublesome wiring when shared common device.\n\n-Physical damage to the components; Overload, poorly wiring and dimensioning the devices in the loop. Power supply voltage must always be at least as high as the worst-case sum of all of the voltage drops in the loop.",
+      "specifications": {
+        "Power Source Voltage Range": "18-36V",
+        "Receiver Impedance": "50-500 Ω",
+        "Error Signal Threshold": "3.5 mA"
+      },
+      "key_facts": [
+        "Malfunctioning 4-20mA loops can be caused by poor selection of power, wiring, or loop devices.",
+        "If a 4-20mA loop does not work properly, it is recommended to first check the power and wiring.",
+        "Multiple loops must be installed to monitor all three available channels.",
+        "Running too much wire can lead to problems with ground loops if independent loops are not properly isolated or if there is a bad wiring connection.",
+        "Rheonics sensors provide three non-isolated analog outputs.",
+        "Possible solutions for bad wiring or improper earthing issues in 4-20mA loops involve adding 4-20mA isolators.",
+        "A 3.5 mA signal can be interpreted as an error signal.",
+        "Unpredictable 4-20 mA signal fluctuations indicate interference, electrical noise, or a ground loop.",
+        "Variation in display signal can be caused by bad scaling in the instrument.",
+        "Shared, non-isolated commons can cause signal averaging, leading to the same value being registered on devices that should be receiving different process variables.",
+        "Overload, poor wiring, and improper dimensioning of devices in the loop can lead to physical damage to components.",
+        "The power supply voltage must always be at least as high as the worst-case sum of all voltage drops in the loop."
+      ],
+      "diagram_labels": [
+        "Power Source: 18-36V",
+        "Transmitter and Sensor",
+        "2-conductor shielded cable, with shield grounded only at control end to avoid ground loops.",
+        "Receiver: Normally 50-500 Ω",
+        "Figure 1. Device diagram in a 4-20mA current Loop",
+        "Correct wiring.",
+        "Power Supply",
+        "Viscosity CH1",
+        "Density CH2",
+        "TEMPERATURE CH3",
+        "R1",
+        "R2",
+        "R3",
+        "Troublesome wiring when shared common device.",
+        "Shared Common"
+      ],
+      "warnings_notes": [
+        "In the event that the loop does not appear to work properly, it is recommended that you first check the power and wiring.",
+        "Running so much wire could lead to problems with ground loops if independent loops are not properly isolated or there is a bad wiring connection.",
+        "-Physical damage to the components; Overload, poorly wiring and dimensioning the devices in the loop.",
+        "Power supply voltage must always be at least as high as the worst-case sum of all of the voltage drops in the loop."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1165,
+        "cost_usd": 0.0030523
+      },
+      "source_file": "058_What_can_go_wrong_with_4_-_20mA_loops.pdf"
+    },
+    {
+      "page_summary": "This page explains the problem of ground loops in non-isolated analog outputs and describes solutions using galvanic and optical isolation methods.",
+      "document_type": "manual",
+      "product_names": [
+        "Siemens TD400C"
+      ],
+      "extracted_text": "GROUND LOOPS\nGround loops are our main issue to fix with the usage for non-isolated analog outputs. A ground loop is a flow of current from one signal ground to another because of a voltage differential between the two grounds.\nThis can happen if two devices in the network are grounded at separate locations and one of the locations causes the signal ground there to experience a higher voltage potential, so it is recommended to be the only ground on the control side.\nFigure 2. Ground Loops\nThese isolation requirements become exponentially harder to accomplish as the number of loops increases. When the conductive path between the different voltage's potential is isolated, a current cannot form between the two voltages point.\nA ground loop forms when at least these conditions are present:\n1.  There are two grounds;\n2.  The grounds are at different potentials;\n3.  There is a galvanic path between the grounds.\nIsolation methods for Galvanic Isolation:\nThe main purpose of a signal isolator is to interrupt or break the galvanic path between circuits that are created by grounding of various potentials. See figure 3.\nFigure 3. Isolated system diagram.\nOptical Isolation\nAn optical isolation circuit has as operating principle two basic parts: a light source (usually a LED- Light Emitting Diode, working as the transmitter) and a photo-sensitive detector (usually a phototransistor, acting as the receiver). The output signal of the optocoupler is proportional to the light intensity of the source see Figure 4",
+      "specifications": {
+        "Power Source": "18-36V",
+        "Analog Output Signal": "4-20mA"
+      },
+      "key_facts": [
+        "Ground loops are a primary issue with non-isolated analog outputs, caused by a voltage differential between signal grounds.",
+        "Ground loops can occur if network devices are grounded at separate locations, leading to a higher voltage potential at one signal ground.",
+        "It is recommended to have only one ground on the control side to prevent ground loops.",
+        "Isolation requirements become exponentially harder to achieve as the number of loops increases.",
+        "When the conductive path between different voltage potentials is isolated, current cannot form between them.",
+        "A ground loop requires the presence of two grounds, these grounds being at different potentials, and a galvanic path between them.",
+        "The main purpose of a signal isolator is to interrupt or break the galvanic path between circuits created by grounding.",
+        "Optical isolation circuits operate with a light source (LED) as a transmitter and a photo-sensitive detector (phototransistor) as a receiver.",
+        "The output signal of an optocoupler is proportional to the light intensity of its source."
+      ],
+      "diagram_labels": [
+        "GROUND LOOPS",
+        "Power Source: 18-36V",
+        "Transmitter and Sensor",
+        "4-20mA",
+        "Receiver",
+        "V1",
+        "IG",
+        "V2",
+        "Figure 2. Ground Loops",
+        "ISOLATOR",
+        "1",
+        "2",
+        "3",
+        "4",
+        "Figure 3. Isolated system diagram."
+      ],
+      "warnings_notes": [
+        "It is recommended to be the only ground on the control side to prevent ground loops."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 793,
+        "cost_usd": 0.0021222999999999997
+      },
+      "source_file": "058_What_can_go_wrong_with_4_-_20mA_loops.pdf"
+    },
+    {
+      "page_summary": "This page explains different methods of galvanic signal isolation (opto-coupler, transformer), discusses the disadvantages of using isolation, and provides troubleshooting steps for power supply issues with 2-wire self-powered transmitters.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Sensor",
+        "Acromag"
+      ],
+      "extracted_text": "Figure 4. Galvanic Signal Isolation via an Opto-Coupler\nTransformer Isolation- The electromagnetic isolation uses a transformer to electromagnetically couple the required signal across an air gap or non-conductive isolation gap. The electromagnetic field intensity level is proportional to the input signal applied to the transformer. Figure 5\nFigure 5. Galvanic isolation via Transformer\nDISADVANTAGE OF USING ISOLATION, the isolation adds a burden in the circuit so the original 720 Ω will drop to the technical specification of the isolator resistance or voltage.\nExample for commercial isolator compatible with Rheonics Sensor:\nFigure 6. Commercial Isolator for 2 wire Self-powered transmitter\nPOWER\nThe first step we should take is test the power supply, so we must measure the loop power supply and ensure that it has the proper power level(18-36VDC).\n1. If the power supply is reading as zero, check if the power source is powered, a fuse is blown, or if the power supply is damaged.\n2. If we have a little drop in the power supply, check if the power supply is unregulated. This little variation is normal for an unregulated supply.\n3. If the power supply is regulated, and the output is below the value expected, it may be caused by a high loop load. Disconnect the loop and measure the voltage output. If the voltage output remains with low",
+      "specifications": {
+        "Isolator resistance": "720 Ω",
+        "Power supply voltage range": "18-36 VDC"
+      },
+      "key_facts": [
+        "Galvanic signal isolation can be achieved via an opto-coupler or a transformer.",
+        "Electromagnetic isolation uses a transformer to couple signals across an air gap or non-conductive isolation gap, with the electromagnetic field intensity proportional to the input signal.",
+        "Using isolation adds a burden to the circuit, causing the original 720 Ω to drop to the technical specification of the isolator resistance or voltage.",
+        "A commercial isolator compatible with Rheonics Sensor is available from Acromag for 2-wire self-powered transmitters.",
+        "The first step in troubleshooting is to test the power supply and ensure it has the proper power level between 18 and 36 VDC.",
+        "A small drop in the power supply voltage is considered normal for an unregulated supply.",
+        "If a regulated power supply's output is below the expected value, it might be due to a high loop load."
+      ],
+      "diagram_labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "+",
+        "-",
+        "Acromag",
+        "CHAN 2",
+        "PWR",
+        "SPAN",
+        "ZERO",
+        "CHAN 1",
+        "2 WIRE XMTR INPUT",
+        "4-20mA",
+        "DC SUPPLY",
+        "SHIELDED CABLE",
+        "TB1",
+        "IN+",
+        "IN-",
+        "OUT+",
+        "OUT-",
+        "SNS",
+        "ISOLATED CHANNEL 1",
+        "TYPICAL 2-WIRE INPUT TRANSMITTER CONNECTION",
+        "NOTE 1",
+        "R"
+      ],
+      "warnings_notes": [
+        "If the power supply is reading as zero, check if the power source is powered, a fuse is blown, or if the power supply is damaged.",
+        "If the power supply is regulated, and the output is below the value expected, it may be caused by a high loop load. Disconnect the loop and measure the voltage output. If the voltage output remains with low"
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 920,
+        "cost_usd": 0.0024397999999999998
+      },
+      "source_file": "058_What_can_go_wrong_with_4_-_20mA_loops.pdf"
+    },
+    {
+      "page_summary": "This page provides guidelines for proper wiring practices, explains the benefits of using twisted pair cables for noise reduction, and outlines a common troubleshooting test for wiring issues, including considerations for voltage drops and load impedance for Rheonics sensors.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics sensor"
+      ],
+      "extracted_text": "level, the supply is broken.\n\nWIRING\nAll wires in the system should be shielded twisted pair in which both wires are used. All sensor signals should be isolated if possible, using devices with isolated inputs and outputs. Lastly, always be aware of non-isolated multi-loop devices and take care while planning your wiring.\n\nNoise in straight and twisted pair cables\n\nFigure 7. Twisted pair cable\n\nThe benefits of employing a twisted pair cable are those: Magnetic field cancellation, electric field pickup and radiation, keeps wire close together, balances common mode impedance.\n\nA common test for Wiring troubleshooting:\n1. Check the installation of each cable based on our wiring diagram.\n2. With the loop supply powered, measure the voltages across the devices within the loop. The voltages on the loop devices should agree with the specifications in technical sheet, and also the voltage polarity must agree with the + and – of the terminal block. If the voltages across all the loop devices are zero, then wire is broken.\n3. Verifying transmitter compliance margin, the wiring and receiving devices are essentially resistive elements so each voltage drop will be just the resistance of the device across its terminals or the wire’s resistance multiplied by the loop current so consider this at maximum when the loop current is 20mA. The total of all the wiring and device voltage drops must sum to exactly the loop power supply voltage. For our Rheonics sensor, the maximum load impedance is (0 to 720 Ohms), so be careful with how many devices are installed in series so the voltage drop cannot affect our device to ensure proper operation first, calculate and sum all the voltage drops in the loop when the loop current is at 20mA. For the wiring, add up the wire lengths and use Table 1 below to find the total wire resistance.",
+      "specifications": {
+        "maximum_loop_current": "20mA",
+        "maximum_load_impedance": "0 to 720 Ohms"
+      },
+      "key_facts": [
+        "All wires in the system should be shielded twisted pair, with both wires used.",
+        "Sensor signals should be isolated if possible, using devices with isolated inputs and outputs.",
+        "Twisted pair cables offer benefits such as magnetic field cancellation, reduced electric field pickup and radiation, and balanced common mode impedance.",
+        "During wiring troubleshooting, voltages across loop devices must agree with technical sheet specifications and polarity must match the terminal block.",
+        "If voltages across all loop devices are zero, it indicates a broken wire.",
+        "The total of all wiring and device voltage drops must sum to the loop power supply voltage.",
+        "For Rheonics sensors, the maximum load impedance is between 0 and 720 Ohms.",
+        "Voltage drops in the loop should be calculated at a maximum loop current of 20mA to ensure proper device operation."
+      ],
+      "diagram_labels": [
+        "Noise in straight and twisted pair cables",
+        "Straight cable",
+        "Twisted pair cable",
+        "Magnetic field",
+        "Induced noise current",
+        "Figure 7. Twisted pair cable"
+      ],
+      "warnings_notes": [
+        "Always be aware of non-isolated multi-loop devices and take care while planning your wiring.",
+        "If the voltages across all the loop devices are zero, then wire is broken.",
+        "Be careful with how many devices are installed in series so the voltage drop cannot affect our device to ensure proper operation."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 847,
+        "cost_usd": 0.0022573
+      },
+      "source_file": "058_What_can_go_wrong_with_4_-_20mA_loops.pdf"
+    },
+    {
+      "page_summary": "This page provides American Wire Gage (AWG) copper wire resistance specifications and offers troubleshooting advice for 4-20mA loop devices, covering wiring considerations, display scaling, and PLC input issues.",
+      "document_type": "manual",
+      "product_names": [
+        "SME-DRM"
+      ],
+      "extracted_text": "Table 1. AWG Resistance copper wire\n\nFor receiving devices, the manufacturers should provide the input internal resistance (typically between 50 and 500 Ohms.). Finally sum the voltage drops of the wiring, the transmitting device, and the receiving device(s) if the sum exceeds the power supply voltage, the transmitter will be unable to source the full 4-20mA range, working properly only up to some current value below 20mA.\n\nLOOP DEVICES\n\nTroubleshooting a loop depends in each device that is connected in the loop and the wire. The most important troubleshooting step is to make sure that is it wired properly.\n\n-A display that is improperly scaled will react to the 4-20mA signal, not displaying the proper values for the loop.\n\n-Usage of non-insulated PLC inputs can also carry plenty of issues since each of those can create a path that is connected to earth ground.\n\nResources:\n\n*   Connecting 4-20 mA outputs (https://support.rheonics.com/en/support/solutions/articles/81000297457)\n*   Powering the Sensor - Input power to transmitter (https://support.rheonics.com/en/support/solutions/articles/81000297455)\n*   Best Practices for Cabling Installation (https://support.rheonics.com/en/support/solutions/articles/81000408323)\n*   Wire preparation for SME-DRM (Din Rail Mount) (https://support.rheonics.com/en/support/solutions/articles/81000408391)",
+      "specifications": {
+        "AWG_Resistance_Copper_Wire": {
+          "0000": {
+            "Diameter": "460.0 mils",
+            "Cross Section Circular": "212,000.0 mils",
+            "Cross Section Square": "0.166 inches",
+            "Ohms per 1,000 ft (25C=77F)": "0.05 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "0.0577 Ohms",
+            "Ohms per mile (25C=77F)": "0.264 Ohms",
+            "Pounds per 1,000 ft": "641.0 lbs"
+          },
+          "000": {
+            "Diameter": "410.0 mils",
+            "Cross Section Circular": "168,000.0 mils",
+            "Cross Section Square": "0.132 inches",
+            "Ohms per 1,000 ft (25C=77F)": "0.063 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "0.0727 Ohms",
+            "Ohms per mile (25C=77F)": "0.333 Ohms",
+            "Pounds per 1,000 ft": "508.0 lbs"
+          },
+          "00": {
+            "Diameter": "365.0 mils",
+            "Cross Section Circular": "133,000.0 mils",
+            "Cross Section Square": "0.105 inches",
+            "Ohms per 1,000 ft (25C=77F)": "0.0793 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "0.0917 Ohms",
+            "Ohms per mile (25C=77F)": "0.420 Ohms",
+            "Pounds per 1,000 ft": "403.0 lbs"
+          },
+          "0": {
+            "Diameter": "325.0 mils",
+            "Cross Section Circular": "106,000.0 mils",
+            "Cross Section Square": "0.0829 inches",
+            "Ohms per 1,000 ft (25C=77F)": "0.100 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "0.116 Ohms",
+            "Ohms per mile (25C=77F)": "0.528 Ohms",
+            "Pounds per 1,000 ft": "319.0 lbs"
+          },
+          "1": {
+            "Diameter": "289.0 mils",
+            "Cross Section Circular": "83,700.0 mils",
+            "Cross Section Square": "0.0657 inches",
+            "Ohms per 1,000 ft (25C=77F)": "0.126 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "0.146 Ohms",
+            "Ohms per mile (25C=77F)": "0.665 Ohms",
+            "Pounds per 1,000 ft": "253.0 lbs"
+          },
+          "2": {
+            "Diameter": "258.0 mils",
+            "Cross Section Circular": "66,400.0 mils",
+            "Cross Section Square": "0.0521 inches",
+            "Ohms per 1,000 ft (25C=77F)": "0.159 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "0.184 Ohms",
+            "Ohms per mile (25C=77F)": "0.839 Ohms",
+            "Pounds per 1,000 ft": "201.0 lbs"
+          },
+          "3": {
+            "Diameter": "229.0 mils",
+            "Cross Section Circular": "52,600.0 mils",
+            "Cross Section Square": "0.0413 inches",
+            "Ohms per 1,000 ft (25C=77F)": "0.201 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "0.232 Ohms",
+            "Ohms per mile (25C=77F)": "1.061 Ohms",
+            "Pounds per 1,000 ft": "159.0 lbs"
+          },
+          "4": {
+            "Diameter": "204.0 mils",
+            "Cross Section Circular": "41,700.0 mils",
+            "Cross Section Square": "0.0328 inches",
+            "Ohms per 1,000 ft (25C=77F)": "0.253 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "0.292 Ohms",
+            "Ohms per mile (25C=77F)": "1.335 Ohms",
+            "Pounds per 1,000 ft": "126.0 lbs"
+          },
+          "5": {
+            "Diameter": "182.0 mils",
+            "Cross Section Circular": "33,100.0 mils",
+            "Cross Section Square": "0.0260 inches",
+            "Ohms per 1,000 ft (25C=77F)": "0.319 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "0.369 Ohms",
+            "Ohms per mile (25C=77F)": "1.685 Ohms",
+            "Pounds per 1,000 ft": "100.0 lbs"
+          },
+          "6": {
+            "Diameter": "162.0 mils",
+            "Cross Section Circular": "26,300.0 mils",
+            "Cross Section Square": "0.0206 inches",
+            "Ohms per 1,000 ft (25C=77F)": "0.403 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "0.465 Ohms",
+            "Ohms per mile (25C=77F)": "2.13 Ohms",
+            "Pounds per 1,000 ft": "79.5 lbs"
+          },
+          "7": {
+            "Diameter": "144.0 mils",
+            "Cross Section Circular": "20,800.0 mils",
+            "Cross Section Square": "0.0164 inches",
+            "Ohms per 1,000 ft (25C=77F)": "0.508 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "0.586 Ohms",
+            "Ohms per mile (25C=77F)": "2.68 Ohms",
+            "Pounds per 1,000 ft": "63.0 lbs"
+          },
+          "8": {
+            "Diameter": "128.0 mils",
+            "Cross Section Circular": "16,500.0 mils",
+            "Cross Section Square": "0.0130 inches",
+            "Ohms per 1,000 ft (25C=77F)": "0.641 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "0.739 Ohms",
+            "Ohms per mile (25C=77F)": "3.38 Ohms",
+            "Pounds per 1,000 ft": "50.0 lbs"
+          },
+          "9": {
+            "Diameter": "114.0 mils",
+            "Cross Section Circular": "13,100.0 mils",
+            "Cross Section Square": "0.0103 inches",
+            "Ohms per 1,000 ft (25C=77F)": "0.808 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "0.932 Ohms",
+            "Ohms per mile (25C=77F)": "4.27 Ohms",
+            "Pounds per 1,000 ft": "39.6 lbs"
+          },
+          "10": {
+            "Diameter": "102.0 mils",
+            "Cross Section Circular": "10,400.0 mils",
+            "Cross Section Square": "0.00815 inches",
+            "Ohms per 1,000 ft (25C=77F)": "1.02 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "1.18 Ohms",
+            "Ohms per mile (25C=77F)": "5.38 Ohms",
+            "Pounds per 1,000 ft": "31.4 lbs"
+          },
+          "11": {
+            "Diameter": "91.0 mils",
+            "Cross Section Circular": "8,230.0 mils",
+            "Cross Section Square": "0.00647 inches",
+            "Ohms per 1,000 ft (25C=77F)": "1.28 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "1.48 Ohms",
+            "Ohms per mile (25C=77F)": "6.75 Ohms",
+            "Pounds per 1,000 ft": "24.9 lbs"
+          },
+          "12": {
+            "Diameter": "81.0 mils",
+            "Cross Section Circular": "6,530.0 mils",
+            "Cross Section Square": "0.00513 inches",
+            "Ohms per 1,000 ft (25C=77F)": "1.62 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "1.87 Ohms",
+            "Ohms per mile (25C=77F)": "8.55 Ohms",
+            "Pounds per 1,000 ft": "19.8 lbs"
+          },
+          "13": {
+            "Diameter": "72.0 mils",
+            "Cross Section Circular": "5,180.0 mils",
+            "Cross Section Square": "0.00407 inches",
+            "Ohms per 1,000 ft (25C=77F)": "2.04 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "2.36 Ohms",
+            "Ohms per mile (25C=77F)": "10.77 Ohms",
+            "Pounds per 1,000 ft": "15.7 lbs"
+          },
+          "14": {
+            "Diameter": "64.0 mils",
+            "Cross Section Circular": "4,110.0 mils",
+            "Cross Section Square": "0.00323 inches",
+            "Ohms per 1,000 ft (25C=77F)": "2.58 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "2.97 Ohms",
+            "Ohms per mile (25C=77F)": "13.62 Ohms",
+            "Pounds per 1,000 ft": "12.4 lbs"
+          },
+          "15": {
+            "Diameter": "57.0 mils",
+            "Cross Section Circular": "3,260.0 mils",
+            "Cross Section Square": "0.00256 inches",
+            "Ohms per 1,000 ft (25C=77F)": "3.25 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "3.75 Ohms",
+            "Ohms per mile (25C=77F)": "17.16 Ohms",
+            "Pounds per 1,000 ft": "9.86 lbs"
+          },
+          "16": {
+            "Diameter": "51.0 mils",
+            "Cross Section Circular": "2,580.0 mils",
+            "Cross Section Square": "0.00203 inches",
+            "Ohms per 1,000 ft (25C=77F)": "4.09 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "4.73 Ohms",
+            "Ohms per mile (25C=77F)": "21.6 Ohms",
+            "Pounds per 1,000 ft": "7.82 lbs"
+          },
+          "17": {
+            "Diameter": "45.0 mils",
+            "Cross Section Circular": "2,050.0 mils",
+            "Cross Section Square": "0.00161 inches",
+            "Ohms per 1,000 ft (25C=77F)": "5.16 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "5.96 Ohms",
+            "Ohms per mile (25C=77F)": "27.2 Ohms",
+            "Pounds per 1,000 ft": "6.20 lbs"
+          },
+          "18": {
+            "Diameter": "40.0 mils",
+            "Cross Section Circular": "1,620.0 mils",
+            "Cross Section Square": "0.00128 inches",
+            "Ohms per 1,000 ft (25C=77F)": "6.51 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "7.51 Ohms",
+            "Ohms per mile (25C=77F)": "34.4 Ohms",
+            "Pounds per 1,000 ft": "4.92 lbs"
+          },
+          "19": {
+            "Diameter": "36.0 mils",
+            "Cross Section Circular": "1,290.0 mils",
+            "Cross Section Square": "0.00101 inches",
+            "Ohms per 1,000 ft (25C=77F)": "8.21 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "9.48 Ohms",
+            "Ohms per mile (25C=77F)": "43.3 Ohms",
+            "Pounds per 1,000 ft": "3.90 lbs"
+          },
+          "20": {
+            "Diameter": "32.0 mils",
+            "Cross Section Circular": "1,020.0 mils",
+            "Cross Section Square": "0.000802 inches",
+            "Ohms per 1,000 ft (25C=77F)": "10.4 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "11.9 Ohms",
+            "Ohms per mile (25C=77F)": "54.9 Ohms",
+            "Pounds per 1,000 ft": "3.09 lbs"
+          },
+          "21": {
+            "Diameter": "28.5 mils",
+            "Cross Section Circular": "810.0 mils",
+            "Cross Section Square": "0.000636 inches",
+            "Ohms per 1,000 ft (25C=77F)": "13.1 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "15.1 Ohms",
+            "Ohms per mile (25C=77F)": "69.1 Ohms",
+            "Pounds per 1,000 ft": "2.45 lbs"
+          },
+          "22": {
+            "Diameter": "25.3 mils",
+            "Cross Section Circular": "642.0 mils",
+            "Cross Section Square": "0.000505 inches",
+            "Ohms per 1,000 ft (25C=77F)": "16.5 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "19.0 Ohms",
+            "Ohms per mile (25C=77F)": "87.1 Ohms",
+            "Pounds per 1,000 ft": "1.94 lbs"
+          },
+          "23": {
+            "Diameter": "22.6 mils",
+            "Cross Section Circular": "509.0 mils",
+            "Cross Section Square": "0.000400 inches",
+            "Ohms per 1,000 ft (25C=77F)": "20.8 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "24.0 Ohms",
+            "Ohms per mile (25C=77F)": "109.8 Ohms",
+            "Pounds per 1,000 ft": "1.54 lbs"
+          },
+          "24": {
+            "Diameter": "20.1 mils",
+            "Cross Section Circular": "404.0 mils",
+            "Cross Section Square": "0.000317 inches",
+            "Ohms per 1,000 ft (25C=77F)": "26.2 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "30.2 Ohms",
+            "Ohms per mile (25C=77F)": "138.3 Ohms",
+            "Pounds per 1,000 ft": "1.22 lbs"
+          },
+          "25": {
+            "Diameter": "17.9 mils",
+            "Cross Section Circular": "320.0 mils",
+            "Cross Section Square": "0.000252 inches",
+            "Ohms per 1,000 ft (25C=77F)": "33.0 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "38.1 Ohms",
+            "Ohms per mile (25C=77F)": "174.1 Ohms",
+            "Pounds per 1,000 ft": "0.970 lbs"
+          },
+          "26": {
+            "Diameter": "15.9 mils",
+            "Cross Section Circular": "254.0 mils",
+            "Cross Section Square": "0.000200 inches",
+            "Ohms per 1,000 ft (25C=77F)": "41.6 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "48.0 Ohms",
+            "Ohms per mile (25C=77F)": "220.0 Ohms",
+            "Pounds per 1,000 ft": "0.769 lbs"
+          },
+          "27": {
+            "Diameter": "14.2 mils",
+            "Cross Section Circular": "202.0 mils",
+            "Cross Section Square": "0.000158 inches",
+            "Ohms per 1,000 ft (25C=77F)": "52.5 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "60.6 Ohms",
+            "Ohms per mile (25C=77F)": "277.0 Ohms",
+            "Pounds per 1,000 ft": "0.610 lbs"
+          },
+          "28": {
+            "Diameter": "12.6 mils",
+            "Cross Section Circular": "160.0 mils",
+            "Cross Section Square": "0.000126 inches",
+            "Ohms per 1,000 ft (25C=77F)": "66.2 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "76.4 Ohms",
+            "Ohms per mile (25C=77F)": "350.0 Ohms",
+            "Pounds per 1,000 ft": "0.484 lbs"
+          },
+          "29": {
+            "Diameter": "11.3 mils",
+            "Cross Section Circular": "127.0 mils",
+            "Cross Section Square": "0.0000995 inches",
+            "Ohms per 1,000 ft (25C=77F)": "83.4 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "96 Ohms",
+            "Ohms per mile (25C=77F)": "440.0 Ohms",
+            "Pounds per 1,000 ft": "0.384 lbs"
+          },
+          "30": {
+            "Diameter": "10.0 mils",
+            "Cross Section Circular": "101.0 mils",
+            "Cross Section Square": "0.0000789 inches",
+            "Ohms per 1,000 ft (25C=77F)": "105.0 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "121.0 Ohms",
+            "Ohms per mile (25C=77F)": "554.0 Ohms",
+            "Pounds per 1,000 ft": "0.304 lbs"
+          },
+          "31": {
+            "Diameter": "8.9 mils",
+            "Cross Section Circular": "79.7 mils",
+            "Cross Section Square": "0.0000626 inches",
+            "Ohms per 1,000 ft (25C=77F)": "133.0 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "153.0 Ohms",
+            "Ohms per mile (25C=77F)": "702.0 Ohms",
+            "Pounds per 1,000 ft": "0.241 lbs"
+          },
+          "32": {
+            "Diameter": "8.0 mils",
+            "Cross Section Circular": "63.2 mils",
+            "Cross Section Square": "0.0000496 inches",
+            "Ohms per 1,000 ft (25C=77F)": "167.0 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "193.0 Ohms",
+            "Ohms per mile (25C=77F)": "882.0 Ohms",
+            "Pounds per 1,000 ft": "0.191 lbs"
+          },
+          "33": {
+            "Diameter": "7.1 mils",
+            "Cross Section Circular": "50.1 mils",
+            "Cross Section Square": "0.0000394 inches",
+            "Ohms per 1,000 ft (25C=77F)": "211.0 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "243.0 Ohms",
+            "Ohms per mile (25C=77F)": "1,114.0 Ohms",
+            "Pounds per 1,000 ft": "0.152 lbs"
+          },
+          "34": {
+            "Diameter": "6.3 mils",
+            "Cross Section Circular": "39.8 mils",
+            "Cross Section Square": "0.0000312 inches",
+            "Ohms per 1,000 ft (25C=77F)": "266.0 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "307.0 Ohms",
+            "Ohms per mile (25C=77F)": "1,404.0 Ohms",
+            "Pounds per 1,000 ft": "0.120 lbs"
+          },
+          "35": {
+            "Diameter": "5.6 mils",
+            "Cross Section Circular": "31.5 mils",
+            "Cross Section Square": "0.0000248 inches",
+            "Ohms per 1,000 ft (25C=77F)": "335.0 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "387.0 Ohms",
+            "Ohms per mile (25C=77F)": "1,769.0 Ohms",
+            "Pounds per 1,000 ft": "0.0954 lbs"
+          },
+          "36": {
+            "Diameter": "5.0 mils",
+            "Cross Section Circular": "25.0 mils",
+            "Cross Section Square": "0.0000196 inches",
+            "Ohms per 1,000 ft (25C=77F)": "423.0 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "488.0 Ohms",
+            "Ohms per mile (25C=77F)": "2,230.0 Ohms",
+            "Pounds per 1,000 ft": "0.0757 lbs"
+          },
+          "37": {
+            "Diameter": "4.5 mils",
+            "Cross Section Circular": "19.8 mils",
+            "Cross Section Square": "0.0000156 inches",
+            "Ohms per 1,000 ft (25C=77F)": "533.0 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "616.0 Ohms",
+            "Ohms per mile (25C=77F)": "2,810.0 Ohms",
+            "Pounds per 1,000 ft": "0.0600 lbs"
+          },
+          "38": {
+            "Diameter": "4.0 mils",
+            "Cross Section Circular": "15.7 mils",
+            "Cross Section Square": "0.0000123 inches",
+            "Ohms per 1,000 ft (25C=77F)": "673.0 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "776.0 Ohms",
+            "Ohms per mile (25C=77F)": "3,550.0 Ohms",
+            "Pounds per 1,000 ft": "0.0476 lbs"
+          },
+          "39": {
+            "Diameter": "3.5 mils",
+            "Cross Section Circular": "12.5 mils",
+            "Cross Section Square": "0.0000098 inches",
+            "Ohms per 1,000 ft (25C=77F)": "848.0 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "979.0 Ohms",
+            "Ohms per mile (25C=77F)": "4,480.0 Ohms",
+            "Pounds per 1,000 ft": "0.0377 lbs"
+          },
+          "40": {
+            "Diameter": "3.1 mils",
+            "Cross Section Circular": "9.9 mils",
+            "Cross Section Square": "0.0000078 inches",
+            "Ohms per 1,000 ft (25C=77F)": "1,070.0 Ohms",
+            "Ohms per 1,000 ft (65C=149F)": "1,230.0 Ohms",
+            "Ohms per mile (25C=77F)": "5,650.0 Ohms",
+            "Pounds per 1,000 ft": "0.0299 lbs"
+          }
+        }
+      },
+      "key_facts": [
+        "Manufacturers should specify the input internal resistance for receiving devices, typically between 50 and 500 Ohms.",
+        "If the combined voltage drops across wiring, the transmitting device, and receiving device(s) exceed the power supply voltage, the transmitter will be unable to source the full 4-20mA range.",
+        "Proper wiring is the most important troubleshooting step for a loop system.",
+        "Improperly scaled displays will react to the 4-20mA signal but will not show correct values for the loop.",
+        "Non-insulated PLC inputs can create issues by establishing a path to earth ground."
+      ],
+      "diagram_labels": [
+        "Table 1. AWG Resistance copper wire"
+      ],
+      "warnings_notes": [
+        "If the sum of the voltage drops of the wiring, the transmitting device, and the receiving device(s) exceeds the power supply voltage, the transmitter will be unable to source the full 4-20mA range, working properly only up to some current value below 20mA.",
+        "A display that is improperly scaled will react to the 4-20mA signal, not displaying the proper values for the loop.",
+        "Usage of non-insulated PLC inputs can also carry plenty of issues since each of those can create a path that is connected to earth ground."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 8167,
+        "cost_usd": 0.0205573
+      },
+      "source_file": "058_What_can_go_wrong_with_4_-_20mA_loops.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

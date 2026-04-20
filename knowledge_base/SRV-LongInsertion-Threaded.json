@@ -1,0 +1,56 @@
+{
+  "source_file": "SRV-LongInsertion-Threaded.pdf",
+  "total_pages": 1,
+  "chunks": [
+    {
+      "page_summary": "This page provides dimensional specifications and options for the Rheonics SRV FPC sensor, highlighting its variable insertion length and flange adaptability.",
+      "document_type": "drawing",
+      "product_names": [
+        "SRV FPC"
+      ],
+      "extracted_text": "Variable dimensions:\nA: Insertion length Any length larger than 55.7 mm\nB: Flange/adapter: Specify the norm, size, pressure rating, e.g.\nNPT 1 1/4\"\nNPT 2\"\nG1 1/4\"\nR1 1/4\"\n\nB: Customer specified flange/adapter\nwetted surfaces (Material 316L)\n\nA: Insertion length min 55.7 [2.19]\n55,7 [2.19]\n30 φ [1.18]\n8 φ [0.31]\n\nUnits: mm [inch]\n\nSRV FPC\nThread, Long customizable insertion length\n\nThis drawing remains property of rheonics. It may be neither copied nor informed to third persons or competitors without our approval. ( 2 § paragraph 1 fig.7 copyright act of 9th Sept. 1965)\n\nProtected by US and International patents granted and pending\n\nrheonics • Switzerland • USA • www.rheonics.com • info@rheonics.com +41 52 511 32 00 +1 713 364 5427\n\nrheonics\ninline process\ndensity and viscosity\nmonitoring",
+      "specifications": {
+        "Minimum insertion length": "55.7 mm",
+        "Sensor tip and lower body length": "55.7 mm [2.19 inch]",
+        "Sensor body diameter": "30 mm [1.18 inch]",
+        "Sensor tip diameter": "8 mm [0.31 inch]",
+        "Wetted surfaces material": "316L",
+        "Example flange/adapter type 1": "NPT 1 1/4\"",
+        "Example flange/adapter type 2": "NPT 2\"",
+        "Example flange/adapter type 3": "G1 1/4\"",
+        "Example flange/adapter type 4": "R1 1/4\""
+      },
+      "key_facts": [
+        "The SRV FPC sensor offers a long, customizable insertion length.",
+        "The insertion length for the SRV FPC sensor must be any length larger than 55.7 mm.",
+        "Customers must specify the norm, size, and pressure rating for the flange/adapter.",
+        "The wetted surfaces of the sensor are made from Material 316L.",
+        "Rheonics provides inline process density and viscosity monitoring solutions.",
+        "The sensor's overall body diameter is 30 mm (1.18 inch).",
+        "The sensor's tip diameter is 8 mm (0.31 inch)."
+      ],
+      "diagram_labels": [
+        "B: Customer specified flange/adapter",
+        "wetted surfaces",
+        "A: Insertion length min 55.7 [2.19]"
+      ],
+      "warnings_notes": [
+        "This drawing remains property of rheonics. It may be neither copied nor informed to third persons or competitors without our approval. ( 2 § paragraph 1 fig.7 copyright act of 9th Sept. 1965)",
+        "The product is protected by US and International patents granted and pending."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 830,
+        "cost_usd": 0.0022148
+      },
+      "source_file": "SRV-LongInsertion-Threaded.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

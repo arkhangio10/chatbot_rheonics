@@ -1,0 +1,1044 @@
+{
+  "source_file": "149_Rheonics_Sensor_Output_Analog_signal_integration_with_Micrologix_Family_PLC.pdf",
+  "total_pages": 12,
+  "chunks": [
+    {
+      "page_summary": "This page outlines the procedure for integrating Rheonics sensor output analog 4-20mA signals with Allen-Bradley MicroLogix Family PLCs.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SRV viscometer",
+        "SRD density-viscosity meter",
+        "DVP gas density-viscosity meter",
+        "DVM HPHT density-viscosity meter",
+        "Micrologix Family PLC",
+        "MicroLogix 1100 PLC",
+        "Smart Module Electronics unit (SME)",
+        "RSLogix"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nRheonics Sensor Output Analog signal integration with Micrologix Family PLC\n\nModified on: Fri, 18 Oct, 2024 at 9:17 PM\n\nWhat products are involved?\n\nRheonics SRV viscometer, SRD density-viscosity meter, DVP gas density-viscosity meter, and DVM HPHT density-viscosity meter\n\nWhat is the purpose of this article?\n\nThis article describes the procedure for integrating Rheonics Smart Module Electronics unit (SME) 4-20mA signal into the Micrologix PLC Family using RSLogix.\n\n1. Overview\n\nRheonics viscosity and density meters bring fluid intelligence and process control to a broad range of customer applications. Each sensor is equipped with a Smart Module Electronics unit (SME), which drives the sensor, evaluates its response, and enables communication through all major communication protocols\n\nIn the world of industrial automation, Allen-Bradley PLCs remain reliable and well-established. As a result of their proven track record and extensive support infrastructure, these PLCs remain a critical component of many systems. This article guides integrating an SME’s analog 4-20 mA signal with a MicroLogix PLC\n\nFigure 1. MicroLogix 1100 PLC. Image sourced from Rockwell Automation’s website.\n\n2. SME’s 4-20 mA channel wiring",
+      "specifications": {
+        "Analog Output Signal": "4-20 mA"
+      },
+      "key_facts": [
+        "Rheonics viscosity and density meters provide fluid intelligence and process control for a broad range of customer applications.",
+        "Each Rheonics sensor is equipped with a Smart Module Electronics unit (SME) which drives the sensor, evaluates its response, and enables communication through all major communication protocols.",
+        "Allen-Bradley PLCs are reliable, well-established, and critical components in industrial automation systems.",
+        "This article guides the integration of an SME's analog 4-20 mA signal with a MicroLogix PLC using RSLogix."
+      ],
+      "diagram_labels": [
+        "Figure 1. MicroLogix 1100 PLC. Image sourced from Rockwell Automation’s website."
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 689,
+        "cost_usd": 0.0018623000000000001
+      },
+      "source_file": "149_Rheonics_Sensor_Output_Analog_signal_integration_with_Micrologix_Family_PLC.pdf"
+    },
+    {
+      "page_summary": "This page provides technical guidance on connecting Rheonics Smart Module Electronics (SME) 4-20mA outputs to MicroLogix PLCs, discussing methods like using resistors or expansion I/O modules and considerations for accuracy and resolution.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Smart Module Electronics (SME)",
+        "SME-DRM",
+        "MicroLogix PLC",
+        "MicroLogix 1400",
+        "1762-IF4 module"
+      ],
+      "extracted_text": "The Rheonics Smart Module Electronics (SME) includes three in-built output channels for 4-20mA signals, labeled CH1+, CH2+, and CH3+ on the SME's housing. In this setup, CH1+ is connected to get the viscosity output.\n\n[Image: Diagram of SME-DRM device with various connections and labels]\n\nFigure 2. SME-DRM 4.20 mA outputs\n\nFor more information on the SME's 4 -20 mA channels, take a look at Connecting 4-20 mA outputs. It's crucial to make sure the sensor cables are wired properly as well: Connecting sensor cable colored wires to transmitter electronics\n\n3. 4-20 mA on a Micrologix PLC\n\nMicroLogix base units do not have embedded 4-20mA analog inputs. There are two approaches to address this issue:\n\n*   Using a 500 Ω resistor.\n*   Using an expansion I/O module.\n\nA 500Ω resistor, according to Ohm's Law, would convert the SME current output into a measurable voltage that a MicroLogix base unit can read. However, this approach comes with trade-offs, which will be discussed later in the article. It's always recommended to use a solution supported by the manufacturer whenever possible.\n\n4. 4-20 mA on Base Micrologix PLC: Using a 500Ω Resistor\n\nA 500 Ω resistor can create a voltage drop across the MicroLogix input terminals. This method can be an effective low-cost solution for applications that don't require high accuracy. However, high-precision resistors are recommended to avoid inaccurate readings.\n\nOccasionally, embedded analog inputs have lower resolutions than dedicated I/O modules. Table 1 provides important information about a MicroLogix 1400 embedded analog input, particularly its resolution. Depending on the customer's application and requirements, a 12-bit resolution may or may not be sufficient, for cases where a higher resolution is needed, the 1762-IF4 module, which offers 15-bit resolution (Table 2), might be more appropriate.",
+      "specifications": {
+        "output_current_range": "4-20 mA",
+        "power_input": "24 V dc",
+        "resistor_value": "500 Ω",
+        "micrologix_1400_resolution": "12-bit",
+        "1762_IF4_module_resolution": "15-bit"
+      },
+      "key_facts": [
+        "The Rheonics Smart Module Electronics (SME) has three in-built 4-20mA output channels (CH1+, CH2+, CH3+).",
+        "CH1+ on the SME is connected for viscosity output in the described setup.",
+        "MicroLogix base units lack embedded 4-20mA analog inputs.",
+        "There are two methods to connect 4-20mA signals to MicroLogix PLCs: using a 500 Ω resistor or an expansion I/O module.",
+        "A 500 Ω resistor converts the SME's current output into a measurable voltage for a MicroLogix base unit.",
+        "Using a 500 Ω resistor is a low-cost solution for applications not requiring high accuracy.",
+        "Embedded analog inputs typically have lower resolutions compared to dedicated I/O modules.",
+        "The MicroLogix 1400 embedded analog input has a 12-bit resolution.",
+        "The 1762-IF4 module offers a higher 15-bit resolution."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "SME-DRM",
+        "24 V dc +",
+        "gnd -",
+        "modbus A (RS485) B",
+        "power",
+        "sensor",
+        "comm.",
+        "data",
+        "usb",
+        "display",
+        "SD-card",
+        "reset",
+        "ethernet tcp/ip",
+        "modbus tcp",
+        "4-20 mA output",
+        "loop+",
+        "gnd -",
+        "ch1 +",
+        "ch2 +",
+        "ch3 +",
+        "sensor connection",
+        "swiss made",
+        "PN:1917-BO/SN:BFCM-R02-19101399",
+        "CE",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "Figure 2. SME-DRM 4.20 mA outputs"
+      ],
+      "warnings_notes": [
+        "It's crucial to ensure sensor cables are wired properly, specifically connecting sensor cable colored wires to transmitter electronics.",
+        "The approach of using a 500Ω resistor comes with trade-offs.",
+        "It is always recommended to use a solution supported by the manufacturer whenever possible.",
+        "High-precision resistors are recommended to avoid inaccurate readings when using the 500 Ω resistor method.",
+        "A 12-bit resolution (e.g., MicroLogix 1400) may not be sufficient for applications requiring higher resolution, in which case a 15-bit resolution module (e.g., 1762-IF4) might be more appropriate."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1400,
+        "cost_usd": 0.0036398
+      },
+      "source_file": "149_Rheonics_Sensor_Output_Analog_signal_integration_with_Micrologix_Family_PLC.pdf"
+    },
+    {
+      "page_summary": "This page provides technical specifications and wiring instructions for connecting Rheonics sensors to a Micrologix 1400 PLC for 0-10V analog input using a resistor or a 4-20mA expansion module.",
+      "document_type": "manual",
+      "product_names": [
+        "T766-L32AWA/A",
+        "T766-L32BWA/A",
+        "T766-L32BXB/A",
+        "Micrologix 1400",
+        "SME",
+        "1762-IF4",
+        "Rheonics"
+      ],
+      "extracted_text": "Description\nT766-L32AWA/A, T766-L32BWA/A, T766-L32BXB/A\nVoltage input range\n+0...10V DC - 1 LSB\nType of data\n12-bit unsigned integer\nInput coding\n0...4095\nVoltage input impedance\n>199 KΩ\nInput resolution\n12 bits\nNon-linearity\n±0.05% of full scale\nOverall accuracy\n±0.1% of full scale\nUpdate time\n100/20/16/67 ms (selectable)\nVoltage input overvoltage protection\n10.5V DC\nField wiring to logic isolation\nNon-isolated with internal logic\nTable 1. Analog Input on Micrologix 1400\n4.1 Micrologix 0-10 V input wiring\nFor this example, a Micrologix 1400 will be used. Wire a 500Ω resistor as shown on Figure 3. The high parallel resistance on the analog inputs (199 KΩ according to Table 1) will result in a small loss of precision, though the impact is minimal.\nFigure 3. Micrologix Wiring\nFinally, wire the two cables that will carry the 4-20 mA signal from the SME to the Micrologix's analog input. The current will pass through the resistor and provide a 0 -10 V signal. Note that while the resistor is specified as 500Ω, the actual value is 492Ω. Using a high-precision resistor will minimize this difference.\n5. 4-20 mA on Micrologix PLC: Using an Expansion Module\nWiring the SME's channels to an expansion module such as a 1762-IF4 is the recommended approach. This alternative is the ideal solution to a more robust and accurate system and reliable process control.\nTable 2 is extracted from Rockwell's documentation. It shows data ranges for 0 -10 V and 4 - 20 mA analog inputs for 1762-IF4 expansion modules.",
+      "specifications": {
+        "Voltage input range": "0-10 V DC",
+        "Type of data": "12-bit unsigned integer",
+        "Input coding": "0-4095",
+        "Voltage input impedance": ">199 KΩ",
+        "Input resolution": "12 bits",
+        "Non-linearity": "±0.05 % of full scale",
+        "Overall accuracy": "±0.1 % of full scale",
+        "Update time": "100/20/16/67 ms (selectable)",
+        "Voltage input overvoltage protection": "10.5 V DC",
+        "Field wiring to logic isolation": "Non-isolated with internal logic",
+        "Resistor value (specified)": "500 Ω",
+        "Resistor value (actual)": "492 Ω"
+      },
+      "key_facts": [
+        "A Micrologix 1400 PLC can be used for 0-10 V input wiring by converting a 4-20 mA signal.",
+        "A 500Ω resistor should be wired between the 4-20mA signal and the Micrologix's analog input to provide a 0-10V signal.",
+        "The high parallel resistance of the Micrologix analog inputs (>199 KΩ) results in minimal loss of precision when using the resistor method.",
+        "Using a high-precision resistor is recommended to minimize the difference between the specified 500Ω and actual 492Ω values for the current-to-voltage conversion.",
+        "Wiring the SME's channels to a 1762-IF4 expansion module is the recommended approach for a more robust, accurate, and reliable system for 4-20 mA on Micrologix PLC."
+      ],
+      "diagram_labels": [
+        "492Ω",
+        "IV0(+)",
+        "IV2(+)",
+        "COM IV1(+)",
+        "IV3(+)",
+        "Allen-Bradley",
+        "POWER",
+        "RUN",
+        "FAULT",
+        "FORCE",
+        "MicroLogix 1400",
+        "ESC",
+        "OK",
+        "VDC+",
+        "VDC-",
+        "rheonics",
+        "24 V dc +",
+        "gnd",
+        "modbus A (RS485)",
+        "B",
+        "power",
+        "sensor",
+        "comm.",
+        "data",
+        "usb",
+        "reset",
+        "SD-card",
+        "display",
+        "loop+",
+        "gnd -",
+        "4-20mA output",
+        "cha +",
+        "ethernet tcp/ip modbus tcp",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "sensor connection",
+        "swiss made",
+        "24VDC"
+      ],
+      "warnings_notes": [
+        "The high parallel resistance on the analog inputs (199 KΩ according to Table 1) will result in a small loss of precision, though the impact is minimal.",
+        "Note that while the resistor is specified as 500Ω, the actual value is 492Ω. Using a high-precision resistor will minimize this difference."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1457,
+        "cost_usd": 0.0037822999999999997
+      },
+      "source_file": "149_Rheonics_Sensor_Output_Analog_signal_integration_with_Micrologix_Family_PLC.pdf"
+    },
+    {
+      "page_summary": "This page provides analog input specifications, wiring instructions for a 1762-IF4 expansion module with a Rheonics SME device, and details on channel configuration.",
+      "document_type": "manual",
+      "product_names": [
+        "1762-IF4",
+        "SME",
+        "SME-DRM",
+        "RSLogix",
+        "RCP"
+      ],
+      "extracted_text": "Normal Operating Range | Full Scale Range | Raw/Proportional Data | Scaled for PID\n0 to 10 Vdc | 10.5V dc | 32760 | 16380\n0 to 10 Vdc | 0.0V dc | 0 | 0\n4 to 20 mA | 21.0 mA | 32760 | 16380\n4 to 20 mA | 20.0 mA | 31200 | 15600\n4 to 20 mA | 4.0 mA | 6240 | 3120\n4 to 20 mA | 0.0 mA | 0 | 0\nTable 2. Analog Input on 1762-IF4 Expansion Module\nA quick comparison between Table 1 and Table 2 reveals that the analog inputs on the 1762-IF4 module offer a major advantage: improved resolution, along with dedicated inputs for 4-20 mA signals, thus avoiding the need to add a resistor or risk losing precision. The data from both tables will be used as a reference for programming in RSLogix, particularly for scaling purposes.\n\n5.1 1762-IF4 4-20 input wiring\nWiring an IO expansion module is straightforward. Connect two wires between the SME's analog 4-20mA output to one of the expansion module terminals. The expansion modules expect two connections: IN0+ and IN0- were used in Figure 4 example.\n\nFigure 4. 1762-IF4 Expansion Module input wiring\n\n6. SME's channel configuration on RCP\nThe 4-20mA Settings in the “Service” Tab allows the user to read and set the upper and lower limits for each of the channels, as well as to set which parameter is assigned to each of them. In Figure 5, viscosity is set on Channel 1",
+      "specifications": {
+        "Analog Input (0 to 10 Vdc) - Full Scale (10.5V dc) - Raw/Proportional Data": "32760",
+        "Analog Input (0 to 10 Vdc) - Full Scale (10.5V dc) - Scaled for PID": "16380",
+        "Analog Input (0 to 10 Vdc) - Full Scale (0.0V dc) - Raw/Proportional Data": "0",
+        "Analog Input (0 to 10 Vdc) - Full Scale (0.0V dc) - Scaled for PID": "0",
+        "Analog Input (4 to 20 mA) - Full Scale (21.0 mA) - Raw/Proportional Data": "32760",
+        "Analog Input (4 to 20 mA) - Full Scale (21.0 mA) - Scaled for PID": "16380",
+        "Analog Input (4 to 20 mA) - Full Scale (20.0 mA) - Raw/Proportional Data": "31200",
+        "Analog Input (4 to 20 mA) - Full Scale (20.0 mA) - Scaled for PID": "15600",
+        "Analog Input (4 to 20 mA) - Full Scale (4.0 mA) - Raw/Proportional Data": "6240",
+        "Analog Input (4 to 20 mA) - Full Scale (4.0 mA) - Scaled for PID": "3120",
+        "Analog Input (4 to 20 mA) - Full Scale (0.0 mA) - Raw/Proportional Data": "0",
+        "Analog Input (4 to 20 mA) - Full Scale (0.0 mA) - Scaled for PID": "0"
+      },
+      "key_facts": [
+        "The 1762-IF4 module's analog inputs offer improved resolution and dedicated 4-20 mA inputs, eliminating the need for an external resistor.",
+        "Data from the analog input tables serves as a reference for programming and scaling in RSLogix.",
+        "Wiring an IO expansion module involves connecting the SME's analog 4-20mA output to module terminals like IN0+ and IN0-.",
+        "The SME's channel configuration on RCP (Remote Control Panel) allows setting upper and lower limits and assigning parameters for 4-20mA channels.",
+        "Viscosity can be configured on Channel 1 using the 4-20mA Settings in the \"Service\" Tab of RCP."
+      ],
+      "diagram_labels": [
+        "INO+",
+        "INO-",
+        "IN1+",
+        "IN1-",
+        "IN2+",
+        "IN2-",
+        "IN3+",
+        "IN3-",
+        "COM",
+        "Commons connected internally",
+        "rheonics",
+        "SME-DRM",
+        "24 V dc +",
+        "gnd",
+        "modbus A (RS485) B",
+        "power",
+        "sensor",
+        "comm.",
+        "data",
+        "usb",
+        "display",
+        "reset",
+        "SD-card",
+        "ethernet tcp/ip",
+        "modbus tcp",
+        "4-20 mA output",
+        "loop+",
+        "gnd -",
+        "ch1+",
+        "ch2+",
+        "ch3+",
+        "sensor connection",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "warnings_notes": [
+        "swiss made",
+        "CE"
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1444,
+        "cost_usd": 0.0037497999999999997
+      },
+      "source_file": "149_Rheonics_Sensor_Output_Analog_signal_integration_with_Micrologix_Family_PLC.pdf"
+    },
+    {
+      "page_summary": "This page details the configuration of 4-20mA analog signals for viscosity, density, and temperature outputs using the Rheonics Control Panel software and explains how to access input data files in RSLogix500.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel 5.4.0.6",
+        "RSLogix500"
+      ],
+      "extracted_text": "with an Upper Range Value (URV) of 3,000 cP, density on Channel 2, and temperature on Channel 3.\n\nRheonics Control Panel 5.4.0.6\n  Measurement | Events | Settings | Service | Communication | Temp. Control | Logger | Help\n\n  System Info\n    Sensor S/N: BR-SN01\n    Electronics S/N: 191016776\n\n  Software Info\n    Interface FW Version: 04.00/8-0-g1b83654ce6\n    Sensor FW Version: SWV201c\n\n  Update Values\n    Refresh\n\n  4-20 mA Settings\n    Channel 1: Viscosity\n      4 mA: 0.00 cP\n      20 mA: 3000.00 cP\n      Update button\n\n    Channel 2: Density\n      4 mA: 0.000 kg/m3\n      20 mA: 1500.000 kg/m3\n      Update button\n\n    Channel 3: Temperature\n      4 mA: -20.00 °C\n      20 mA: 130.00 °C\n      Update button\n\n  4-20 mA Calibration Check\n    Live:\n      Channel 1: 4.006 mA\n      Channel 2: 7.248 mA\n      Channel 3: 8.267 mA\n    Channel 1 calibration inputs: 5.000, 15.000\n      4 mA button\n      16 mA button\n      Calibrate button\n      Test: 10 mA button\n    Channel 2 calibration inputs: 5.000, 15.000\n      4 mA button\n      16 mA button\n      Calibrate button\n      Test: 10 mA button\n    Channel 3 calibration inputs: 5.000, 15.000\n      4 mA button\n      16 mA button\n      Calibrate button\n      Test: 10 mA button\n\n  Density (SRV Only)\n    Set Density:\n      Constant radio button\n      Constant value: 0.000000 kg/m3\n      Temp. Dependent Density Curve (T,°C) radio button\n      Write button\n    Density, g/cc: 0.000000 xT^2 + 0.000000 xT + 0.000000\n\nFigure 5. 4-20mA settings box\n\nFor more information on how to set up an analog signal on the RCP, take a look at:Analog signals setup with the RCP\n\n7. Input configuration on RSLogix500\n\n7.1 Input Configuration\n\nRegardless of whether a 0-10V or a 4-20 mA signal is used, the value will be stored in the Input Data File. To access the file, look for the Input icon on the left bar, as shown in Figure 6.\n\nUNTITLED LAD 2 (RSLogix500)\n  Project\n  Help\n  Controller\n    Controller Properties\n    Processor Status\n    Function Files\n    IO Configuration\n    Channel Configuration\n  Program Files\n    SYS 0 -\n    SYS 1 -\n    LAD 2 -\n  Data Files\n    Cross Reference\n    00 - OUTPUT\n    I1 - INPUT (highlighted)\n    S2 - STATUS\n    B3 - BINARY\n    T4 - TIMER\n    C5 - COUNTER\n    R6 - CONTROL\n    N7 - INTEGER\n    F8 - FLOAT\n  Data Logging",
+      "specifications": {
+        "Viscosity_URV": "3000 cP",
+        "Viscosity_4mA_Setting": "0.00 cP",
+        "Viscosity_20mA_Setting": "3000.00 cP",
+        "Density_4mA_Setting": "0.000 kg/m3",
+        "Density_20mA_Setting": "1500.000 kg/m3",
+        "Temperature_4mA_Setting": "-20.00 °C",
+        "Temperature_20mA_Setting": "130.00 °C",
+        "Sensor_Serial_Number": "BR-SN01",
+        "Electronics_Serial_Number": "191016776",
+        "Interface_FW_Version": "04.00/8-0-g1b83654ce6",
+        "Sensor_FW_Version": "SWV201c",
+        "Live_4_20mA_Calibration_Check_Channel_1": "4.006 mA",
+        "Live_4_20mA_Calibration_Check_Channel_2": "7.248 mA",
+        "Live_4_20mA_Calibration_Check_Channel_3": "8.267 mA",
+        "Density_SRV_Only_Constant_Value": "0.000000 kg/m3",
+        "Density_SRV_Only_Temp_Dependent_Coefficient_T_Squared": "0.000000 g/cc",
+        "Density_SRV_Only_Temp_Dependent_Coefficient_T": "0.000000 g/cc",
+        "Density_SRV_Only_Temp_Dependent_Constant": "0.000000 g/cc"
+      },
+      "key_facts": [
+        "The Rheonics Control Panel allows configuration of 4-20 mA analog outputs for viscosity, density, and temperature.",
+        "Viscosity is assigned to Channel 1 with an Upper Range Value (URV) of 3,000 cP, corresponding to a 20 mA output.",
+        "Density is assigned to Channel 2 with a range of 0.000 to 1500.000 kg/m3 across the 4-20 mA output.",
+        "Temperature is assigned to Channel 3 with a range of -20.00 to 130.00 °C across the 4-20 mA output.",
+        "The Rheonics Control Panel provides real-time 4-20 mA calibration check values for each channel.",
+        "Density can be set as a constant value or a temperature-dependent quadratic curve via the Rheonics Control Panel.",
+        "Input data, whether from a 0-10V or 4-20 mA signal, is stored in the 'I1 - INPUT' Data File within RSLogix500."
+      ],
+      "diagram_labels": [
+        "Rheonics Control Panel 5.4.0.6",
+        "Measurement",
+        "Events",
+        "Settings",
+        "Service",
+        "Communication",
+        "Temp. Control",
+        "Logger",
+        "Help",
+        "System Info",
+        "Sensor S/N",
+        "BR-SN01",
+        "Electronics S/N",
+        "191016776",
+        "Software Info",
+        "Interface FW Version",
+        "04.00/8-0-g1b83654ce6",
+        "Sensor FW Version",
+        "SWV201c",
+        "Update Values",
+        "Refresh",
+        "4-20 mA Settings",
+        "Channel 1",
+        "Viscosity",
+        "4 mA",
+        "0.00 cP",
+        "20 mA",
+        "3000.00 cP",
+        "Update",
+        "Channel 2",
+        "Density",
+        "0.000 kg/m3",
+        "1500.000 kg/m3",
+        "Channel 3",
+        "Temperature",
+        "-20.00 °C",
+        "130.00 °C",
+        "4-20 mA Calibration Check",
+        "Live",
+        "4.006 mA",
+        "7.248 mA",
+        "8.267 mA",
+        "5.000",
+        "15.000",
+        "16 mA",
+        "Calibrate",
+        "Test: 10 mA",
+        "Density (SRV Only)",
+        "Set Density",
+        "Constant",
+        "0.000000 kg/m3",
+        "Temp. Dependent Density Curve (T,°C)",
+        "Write",
+        "Density, g/cc",
+        "xT^2",
+        "xT",
+        "UNTITLED LAD 2",
+        "Project",
+        "Help",
+        "Controller",
+        "Controller Properties",
+        "Processor Status",
+        "Function Files",
+        "IO Configuration",
+        "Channel Configuration",
+        "Program Files",
+        "SYS 0 -",
+        "SYS 1 -",
+        "LAD 2 -",
+        "Data Files",
+        "Cross Reference",
+        "00 - OUTPUT",
+        "I1 - INPUT",
+        "S2 - STATUS",
+        "B3 - BINARY",
+        "T4 - TIMER",
+        "C5 - COUNTER",
+        "R6 - CONTROL",
+        "N7 - INTEGER",
+        "F8 - FLOAT",
+        "Data Logging"
+      ],
+      "warnings_notes": [
+        "For more information on how to set up an analog signal on the RCP, take a look at:Analog signals setup with the RCP",
+        "Regardless of whether a 0-10V or a 4-20 mA signal is used, the value will be stored in the Input Data File."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 2475,
+        "cost_usd": 0.0063273
+      },
+      "source_file": "149_Rheonics_Sensor_Output_Analog_signal_integration_with_Micrologix_Family_PLC.pdf"
+    },
+    {
+      "page_summary": "This page details how to configure analog inputs, specifically the 1762-IF4 expansion module, for a MicroLogix 1100 Series B PLC within RSLogix software, covering input data representation and I/O configuration steps.",
+      "document_type": "manual",
+      "product_names": [
+        "MicroLogix 1100 Series B",
+        "1762-IF4",
+        "RSLogix",
+        "Bul.1763"
+      ],
+      "extracted_text": "Figure 6. Input Data File\nThe user is reminded that the resolution and the actual integer value stored on the file will depend on the input used (see Tables 1 and 2). For example, if using the embedded input I:0.4 (0-10 V), after connecting the sensor to the PLC, a value between 0 and 4095 (12-bit resolution, as shown in Table 1) is expected to be stored at I:0.4.\n\nData File I1 (bin) -- INPUT\nOffset | 15 | 14 | 13 | 12 | 11 | 10 | 9 | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 | Module/Part | Description\nI:0.0  | 0  | 0  | 0  | 0  | 0  | 0  | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | Bul.1763    | MicroLogix 1100 Series B\nI:0.1  | 0  | 0  | 0  | 0  | 0  | 0  | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | Bul.1763    | MicroLogix 1100 Series B\nI:0.2  | 0  | 0  | 0  | 0  | 0  | 0  | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | Bul.1763    | MicroLogix 1100 Series B\nI:0.3  | 0  | 0  | 0  | 0  | 0  | 0  | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | Bul.1763    | MicroLogix 1100 Series B\nI:0.4  | 0  | 0  | 0  | 0  | 0  | 0  | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | Bul.1763    | MicroLogix 1100 Series B-Analog Inp 0\nI:0.5  | 0  | 0  | 0  | 0  | 0  | 0  | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | Bul.1763    | MicroLogix 1100 Series B-Analog Inp 1\nI:1.0  | 0  | 0  | 0  | 0  | 0  | 0  | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1762-IF4    | Analog 4 Chan. Input\nI:1.1  | 0  | 0  | 0  | 0  | 0  | 0  | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1762-IF4    | Analog 4 Chan. Input\nI:1.2  | 0  | 0  | 0  | 0  | 0  | 0  | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1762-IF4    | Analog 4 Chan. Input\nI:1.3  | 0  | 0  | 0  | 0  | 0  | 0  | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1762-IF4    | Analog 4 Chan. Input\nI:1.4  | 0  | 0  | 0  | 0  | 0  | 0  | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1762-IF4    | Analog 4 Chan. Input\n\nI:0/0\nSymbol:\nDesc:\nRadix: Binary\nColumns: 16\n\nFigure 7. Inputs on RSLogix\nIf an Analog Input from expansion module 1762-IF4 is used, additional configuration is needed. Click on IO configuration, on the left bar.\n\nFigure 8. IO Configuration\nSelect the appropriate card and double-click it to add it, in this case 1762-IF4 is selected (Figure 9). The new card will appear on the left side. This stack will show all the selected cards for the program. After clicking the newly added 1262-IF4 card, a configuration window will appear,.\nFor a 1762-IF4 analog input, the most basic configuration fields needed are Input Range and Data Format. Both found in the tab Analog Input Configuration (Figure 9)",
+      "specifications": {
+        "Embedded input voltage range": "0-10 V",
+        "Embedded input resolution": "12-bit",
+        "Embedded input integer value range": "0-4095"
+      },
+      "key_facts": [
+        "The resolution and actual integer value stored in the file depend on the input used (refer to Tables 1 and 2).",
+        "For the embedded input I:0.4 (0-10 V), a 12-bit resolution value between 0 and 4095 is expected after connecting a sensor to the PLC.",
+        "Additional configuration is required in RSLogix if an Analog Input from the 1762-IF4 expansion module is used.",
+        "To configure the I/O, click on 'IO configuration' on the left bar of the RSLogix interface.",
+        "To add a card, double-click the appropriate card (e.g., 1762-IF4, as selected in Figure 9).",
+        "Newly added cards will appear on the left side, forming a stack of selected cards for the program.",
+        "After selecting a card, a configuration window will appear (e.g., for the '1262-IF4' card, as mentioned in the text, likely a typo for 1762-IF4).",
+        "The essential configuration fields for a 1762-IF4 analog input are 'Input Range' and 'Data Format', located in the 'Analog Input Configuration' tab (Figure 9)."
+      ],
+      "diagram_labels": [
+        "Data File I1 (bin) -- INPUT",
+        "Offset",
+        "15",
+        "14",
+        "13",
+        "12",
+        "11",
+        "10",
+        "9",
+        "8",
+        "7",
+        "6",
+        "5",
+        "4",
+        "3",
+        "2",
+        "1",
+        "0",
+        "Bul.1763",
+        "MicroLogix 1100 Series B",
+        "MicroLogix 1100 Series B-Analog Inp 0",
+        "MicroLogix 1100 Series B-Analog Inp 1",
+        "1762-IF4",
+        "Analog 4 Chan. Input",
+        "I:0.0",
+        "I:0.1",
+        "I:0.2",
+        "I:0.3",
+        "I:0.4",
+        "I:0.5",
+        "I:1.0",
+        "I:1.1",
+        "I:1.2",
+        "I:1.3",
+        "I:1.4",
+        "I:0/0",
+        "Symbol:",
+        "Desc:",
+        "I1 (tab)",
+        "Properties (tab)",
+        "Usage (tab)",
+        "Forces (tab)",
+        "Help (tab)",
+        "Radix: Binary",
+        "Columns: 16",
+        "UNTITLED - [LAD 2]",
+        "Project (tree item)",
+        "Help (tree item under Project)",
+        "Controller (tree item)",
+        "Controller Properties",
+        "Processor Status",
+        "Function Files",
+        "IO Configuration (tree item, highlighted)",
+        "Channel Configuration",
+        "Program Files (tree item)",
+        "SYS 0 -",
+        "SYS 1 -",
+        "LAD 2 -",
+        "Data Files (tree item)",
+        "Cross Reference",
+        "O0 - OUTPUT",
+        "I1 - INPUT",
+        "S2 - STATUS",
+        "B3 - BINARY",
+        "T4 - TIMER",
+        "C5 - COUNTER",
+        "R6 - CONTROL",
+        "N7 - INTEGER",
+        "F8 - FLOAT",
+        "Data Logging (tree item)",
+        "Configuration (under Data Logging)",
+        "Status (under Data Logging)",
+        "0000 (right pane content)",
+        "File 2 (bottom bar tab)"
+      ],
+      "warnings_notes": [],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 2340,
+        "cost_usd": 0.0059898
+      },
+      "source_file": "149_Rheonics_Sensor_Output_Analog_signal_integration_with_Micrologix_Family_PLC.pdf"
+    },
+    {
+      "page_summary": "This page details the configuration of analog input modules in RSLogix, explaining the concepts of input range and data format, and describing the processing of different data formats.",
+      "document_type": "manual",
+      "product_names": [
+        "RSLogix",
+        "MicroLogix",
+        "1762-IF4",
+        "1769-IF4",
+        "1762-IA8",
+        "1762-20F2",
+        "1762-IQ8",
+        "1762-IQ8OW6",
+        "1762-IQ16",
+        "1762-IQ32T",
+        "1762-OA8",
+        "1762-OB8",
+        "1762-OB16",
+        "1762-OB32T",
+        "1762-OV32T",
+        "1762-OW8",
+        "1762-OW16",
+        "1762-IT4",
+        "1762-IR4",
+        "1762-OF4",
+        "1762-UX6I",
+        "MicroLogix 1100 Series B"
+      ],
+      "extracted_text": {
+        "top_banner_title": "Module #1: 1762-IF4 - Analog 4 Chan. Input",
+        "figure_9": {
+          "caption": "Figure 9. Analog configuration on RSLogix",
+          "io_configuration_window": {
+            "title": "I/O Configuration",
+            "current_cards_available_section": {
+              "header": "Current Cards Available",
+              "filter_field": "Filter All",
+              "read_io_config_button": "Read IO Config",
+              "power_supply_button": "PowerSupply....",
+              "recently_added_section": "Recently Added",
+              "module_list_table": [
+                {
+                  "Part #": "0 Buil. 1763",
+                  "Description": "MicroLogix 1100 Series B"
+                },
+                {
+                  "Part #": "1762-IF4",
+                  "Description": "Analog 4 Chan. Input"
+                },
+                {
+                  "Part #": "1762-IA8",
+                  "Description": "8-Input 79/132 VAC"
+                },
+                {
+                  "Part #": "1762-20F2",
+                  "Description": "Analog 2 Chan. Input, 2 Chan. Output"
+                },
+                {
+                  "Part #": "1762-IF4",
+                  "Description": "Analog 4 Chan. Input"
+                },
+                {
+                  "Part #": "1762-IQ8",
+                  "Description": "Input 10-30 VDC"
+                },
+                {
+                  "Part #": "1762-IQ8OW6",
+                  "Description": "8-Input 10/30 VDC, 6-Output (RLY)"
+                },
+                {
+                  "Part #": "1762-IQ16",
+                  "Description": "16-Input 10/30 VDC"
+                },
+                {
+                  "Part #": "1762-IQ32T",
+                  "Description": "32-point 24Vdc (Sink/Source) Input"
+                },
+                {
+                  "Part #": "1762-OA8",
+                  "Description": "8-Output 120/240 VAC"
+                },
+                {
+                  "Part #": "1762-OB8",
+                  "Description": "8-Output (TRANS-SRC) 10/50 VDC"
+                },
+                {
+                  "Part #": "1762-OB16",
+                  "Description": "16-Output (TRANS-SRC) 10/50 VDC"
+                },
+                {
+                  "Part #": "1762-OB32T",
+                  "Description": "32-point 24Vdc (Trans-Source) output"
+                },
+                {
+                  "Part #": "1762-OV32T",
+                  "Description": "32-point 24Vdc(Trans-Sink) output"
+                },
+                {
+                  "Part #": "1762-OW8",
+                  "Description": "8-Output Relay"
+                },
+                {
+                  "Part #": "1762-OW16",
+                  "Description": "16-Output (RLY) 240 VAC"
+                },
+                {
+                  "Part #": "1762-IT4",
+                  "Description": "4-Channel Thermocouple Input Module"
+                },
+                {
+                  "Part #": "1762-IR4",
+                  "Description": "4-Channel RTD/Resistance Input Modu"
+                },
+                {
+                  "Part #": "1762-OF4",
+                  "Description": "4-Channel Analog I/V Output Module"
+                },
+                {
+                  "Part #": "1762-UX6I",
+                  "Description": "6-Ch High Current Isolated Relay Outpu"
+                },
+                {
+                  "Part #": "Other...",
+                  "Description": "Generic I/O Card Type I/D"
+                }
+              ],
+              "buttons": [
+                "Adv Config",
+                "Help",
+                "Hide All Cards"
+              ]
+            },
+            "footer_counter": "C5 - COUNTER"
+          },
+          "module_configuration_window": {
+            "title": "Module #1: 1762-IF4 - Analog 4 Chan. Input",
+            "tabs": [
+              "Expansion General Configuration",
+              "Analog Input Configuration",
+              "Generic Extra Data Config"
+            ],
+            "channel_configurations": [
+              {
+                "channel": "0",
+                "filter": "60 Hz, 450 ms upc",
+                "input_range": "4 to 20 mA",
+                "data_format": "Scaled for PID"
+              },
+              {
+                "channel": "1",
+                "filter": "60 Hz, 450 ms upc",
+                "input_range": "-10 to +10 VDC",
+                "data_format": "Raw/Proportional"
+              },
+              {
+                "channel": "2",
+                "filter": "60 Hz, 450 ms upd",
+                "input_range": "-10 to +10 VDC",
+                "data_format": "Raw/Proportional"
+              },
+              {
+                "channel": "3",
+                "filter": "60 Hz, 450 ms upc",
+                "input_range": "-10 to +10 VDC",
+                "data_format": "Raw/Proportional"
+              }
+            ],
+            "action_buttons": [
+              "Aceptar",
+              "Cancelar",
+              "Aplicar",
+              "Ayuda"
+            ]
+          }
+        },
+        "main_paragraph_1": "The Input Range describes the type of signal to be used: either -10 to 10 VDC or 4-20 mA. In this case, the 4-20 mA signal is selected. The Data Format determines how the PLC will process the raw data, and the selected option will affect how the analog value is stored in the Input Data File (Figure 7). The available options for the 1762-IF4 are displayed in Figure 10.",
+        "figure_10": {
+          "caption": "Figure 10. Data Format options",
+          "dropdown_display": "Data Format",
+          "options_visible": [
+            "Raw/Proportional",
+            "Scaled for PID"
+          ]
+        },
+        "main_paragraph_2": "For completeness sake, Table 3 lists all the available options in RSLogix.",
+        "table_3_data_format_options": [
+          {
+            "option": "Raw/Proportional Data",
+            "description": "The value at the controller is proportional to the selected input and scaled into the maximum data range allowed by the bit resolution of the A/D converter (for example, 16-bit resolution provides a -32,767 to +32,767 full range for a +/- 10vdc user input. Refer to the instruction manual for your input card for a table of valid formats and data ranges."
+          },
+          {
+            "option": "Engineering Units",
+            "description": "The module scales the analog data to the actual current or voltage values for the selected input range. The resolution of the engineering units is dependent on the converter resolution. Refer to the instruction manual for your input card for a table of valid formats and data ranges. (This option only applies to the 1769-IF4 module)."
+          },
+          {
+            "option": "Scaled for PID",
+            "description": "The value at the controller is an integer with 0 representing the lower range and 16,383 representing the upper range. The MicroLogix uses this range in its PID equation. The amount over and under range is also included. Refer to the instruction manual for your input card for a table of valid formats and data ranges."
+          }
+        ]
+      },
+      "specifications": {
+        "Input signal types": "-10 to 10 VDC, 4-20 mA",
+        "A/D converter resolution": "16-bit",
+        "Raw/Proportional data range (for +/- 10VDC input)": "-32,767 to +32,767",
+        "Scaled for PID data range": "0 to 16,383",
+        "Filter settings": "60 Hz, 450 ms upc/upd"
+      },
+      "key_facts": [
+        "The Input Range defines the type of analog signal (voltage or current) used by the module.",
+        "The Data Format determines how the Programmable Logic Controller (PLC) processes raw analog data and stores it in the Input Data File.",
+        "The 1762-IF4 module supports 'Raw/Proportional Data' and 'Scaled for PID' data formats.",
+        "Raw/Proportional Data scales the input into the full data range based on the A/D converter's bit resolution, such as -32,767 to +32,767 for 16-bit resolution with a +/- 10VDC input.",
+        "The 'Engineering Units' option scales analog data to actual current or voltage values, and this option is specifically for the 1769-IF4 module.",
+        "The 'Scaled for PID' data format uses an integer range of 0 to 16,383, which MicroLogix controllers utilize for their PID equations.",
+        "Channel 0 is configured for a 4-20 mA input signal and 'Scaled for PID' data format.",
+        "Channels 1, 2, and 3 are configured for -10 to +10 VDC input and 'Raw/Proportional' data format."
+      ],
+      "diagram_labels": [
+        "I/O Configuration",
+        "Current Cards Available",
+        "Filter All",
+        "Read IO Config",
+        "PowerSupply....",
+        "Recently Added",
+        "Adv Config",
+        "Help",
+        "Hide All Cards",
+        "C5 - COUNTER",
+        "Module #1: 1762-IF4 - Analog 4 Chan. Input",
+        "Expansion General Configuration",
+        "Analog Input Configuration",
+        "Generic Extra Data Config",
+        "Channel 0",
+        "Filter",
+        "60 Hz, 450 ms upc",
+        "Input Range",
+        "4 to 20 mA",
+        "Data Format",
+        "Scaled for PID",
+        "Channel 1",
+        "-10 to +10 VDC",
+        "Raw/Proportional",
+        "Channel 2",
+        "60 Hz, 450 ms upd",
+        "Channel 3",
+        "Aceptar",
+        "Cancelar",
+        "Aplicar",
+        "Ayuda",
+        "Data Format options"
+      ],
+      "warnings_notes": [
+        "Refer to the instruction manual for your input card for a table of valid formats and data ranges.",
+        "The 'Engineering Units' option only applies to the 1769-IF4 module.",
+        "The document mentions 'Figure 7' which is not provided on this page."
+      ],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 2844,
+        "cost_usd": 0.0072498
+      },
+      "source_file": "149_Rheonics_Sensor_Output_Analog_signal_integration_with_Micrologix_Family_PLC.pdf"
+    },
+    {
+      "page_summary": "This page provides technical details on configuring data format options and scaling analog signals from sensors (like 4-20 mA) into engineering units, specifically viscosity in cP, using the SCP (Scale with Parameters) block within the RSLogix MicroLogix software environment.",
+      "document_type": "manual",
+      "product_names": [
+        "RSLogix",
+        "MicroLogix",
+        "1769-IF4 module",
+        "1762-IF4",
+        "SCP block",
+        "RSLogix Micro Starter Lite"
+      ],
+      "extracted_text": "Percent Value\nThe input data is presented as a percent of the full range (for example, -0.5V to 10.5V = -5% to 105%). Refer to the instruction manual for your input card for a table of valid formats and data ranges. (This option only applies to the 1769-IF4 module).\n\nTable 3. Data Format Options - RSLogix\n\nUltimately the option selected will dictate the values on the Input Data File that will be used to “scale” the analog signal to a useful unit, like pressure, cP or °C.\n\n*   Raw/Proportional Data option will use the entire resolution to display the signal, which means the 4-20 mA will be converted to an integer up to 32,760 (Table 2).\n*   Scaled for PID will scale it to the full scale that RSLogix, as a convention, uses in the PID blocks; converting the electric value to an integer up to 16380 (Table 2). Selecting Scaled for PID takes the user one step closer to using the same “language” for all its blocks. It’s a matter of convention and personal preferences.\n\nFor most programmers, working with Engineering Units would be the best option since the signal will be scaled automatically to the selected Input Range while using most of the resolution, therefore getting a useful unit without further scaling; however, there is no such option for 1762-IF4.\n\nFor this case, Scaled for PID is selected; however, selecting one over the other will make no difference since the signal will still need further processing to get a useful value, for this case a viscosity value in cP.\n\n7.2 SCP Block\n\nNo further configuration is needed for the IO. The MicroLogix will be able to read the 4-20 mA sensor and store the value in the Input Data file. To implement control logic, the integer value needs to be scaled to the appropriate viscosity unit using an SCP block.\n\nThe SCP block takes an input value and scales it to a range determined by creating a linear relationship between input min and max values (what integer values we get from the sensor) and scaled min and max values (what values in cP we want and are configured on the RCP), as shown in Figure 12. The scaled result is returned to the address indicated by the output parameter in viscosity units.\n\nFirst, Look for SCP block under Advanced Math (Figure 11)\n\nFigure 11. Advanced Math - SCP Block\n\nClick the SCP option to add the block to a rung.",
+      "specifications": {
+        "Input Voltage Range": "-0.5 V to 10.5 V",
+        "Input Percentage Range": "-5% to 105%",
+        "Raw/Proportional Data Integer Conversion Limit": "32,760",
+        "Scaled for PID Integer Conversion Limit": "16,380",
+        "Sensor Current Output": "4-20 mA"
+      },
+      "key_facts": [
+        "The selected data format option dictates the values used to scale the analog signal into useful units like pressure, cP, or °C.",
+        "The Raw/Proportional Data option utilizes the entire resolution to display the signal, converting 4-20 mA to an integer up to 32,760.",
+        "The Scaled for PID option scales the electric value to an integer up to 16,380, consistent with RSLogix's PID blocks.",
+        "Working with Engineering Units is generally the preferred option for programmers to avoid further scaling, but it is not available for the 1762-IF4 module.",
+        "If 'Scaled for PID' is selected, further processing is still necessary to obtain a useful value, such as viscosity in cP.",
+        "The MicroLogix can read a 4-20 mA sensor and store its value in the Input Data file.",
+        "To implement control logic and convert to appropriate units (e.g., viscosity), the integer value from the sensor must be scaled using an SCP block.",
+        "The SCP block establishes a linear relationship between input integer values from the sensor and desired scaled min/max values in cP, which are configured on the RCP.",
+        "The scaled output from the SCP block is provided in viscosity units.",
+        "The SCP block is located under the 'Advanced Math' functions in RSLogix Micro Starter Lite.",
+        "To add an SCP block, click the 'SCP' option within the Advanced Math section."
+      ],
+      "diagram_labels": [
+        "Percent Value",
+        "Table 3. Data Format Options - RSLogix",
+        "Figure 11. Advanced Math - SCP Block",
+        "RSLogix Micro Starter Lite - UNTITLED",
+        "File",
+        "Edit",
+        "View",
+        "Search",
+        "Comms",
+        "Tools",
+        "Window",
+        "Help",
+        "B3:3/3",
+        "OFFLINE",
+        "No Edits",
+        "Driver: EMU500-1",
+        "No Forces",
+        "Forces Enabled",
+        "LN",
+        "LOG",
+        "DEG",
+        "RAD",
+        "XPY",
+        "ABS",
+        "SCP",
+        "SWP",
+        "DCD",
+        "ENC",
+        "TDF",
+        "Trig Functions",
+        "Advanced Math"
+      ],
+      "warnings_notes": [
+        "The option to present input data as a percent of the full range (e.g., -0.5V to 10.5V = -5% to 105%) only applies to the 1769-IF4 module.",
+        "There is no 'Engineering Units' option for the 1762-IF4 module."
+      ],
+      "page_num": 8,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1474,
+        "cost_usd": 0.0038247999999999997
+      },
+      "source_file": "149_Rheonics_Sensor_Output_Analog_signal_integration_with_Micrologix_Family_PLC.pdf"
+    },
+    {
+      "page_num": 9,
+      "page_summary": "Extraction failed",
+      "document_type": "unknown",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "extraction_failed": true,
+      "source_file": "149_Rheonics_Sensor_Output_Analog_signal_integration_with_Micrologix_Family_PLC.pdf"
+    },
+    {
+      "page_summary": "This page details the process of signal scaling using SCP (Scale with Parameters) blocks for analog inputs, demonstrating how raw sensor data is converted into engineering units like centipoise (cP) for different input types (0-10V and 4-20 mA).",
+      "document_type": "manual",
+      "product_names": [
+        "1762-IF4 card"
+      ],
+      "extracted_text": "SCP\nScale w/Parameters\nInput: I:0.4\nInput Min.: 0\nInput Max.: 4095\nScaled Min.: 0\nScaled Max.: 3000\nOutput: F8:0\n\nFigure 14. Configured SCP Block for 0-10V on embedded Analog Input\n\n7.5 Signal Scaling Output\n\nFigures 15 and 16 show the scaling by the SCP blocks for a 4-20 mA signal, using the SCP block configured for a 1762-IF4 card (Figure 13).\n\nSince Scaled for PID was selected in the I/O settings, the value in I:1.0 is scaled to the PID range by the PLC. The SCP block then takes this PID-scaled integer and, using the Input Min, Input Max, Scaled Min, and Scaled Max, creates a linear relationship to convert the signal into a useful unit such as cP (centipoise). The final scaled value is stored as a float in F8:0.\n\nFor Figure 15, an analog integer of 3120 is stored on I1.0, which represents the Input Min configured. This value is actually what the block gets when a 4 mA signal input is read; the calculated value on F8:0 is 0 cP as expected.\n\nSCP\nScale w/Parameters\nInput: I:1.0 (3120)\nInput Min.: 3120.0\nInput Max.: 15600.0\nScaled Min.: 0.0\nScaled Max.: 3000.0\nOutput: F8:0 (0.0)\nEND\n\nFigure 15. Scaling - 3120 as Input\n\nIn the same way, for an analog integer value of 10,500 stored in I1.0 (Figure 16), a corresponding calculated value of 1,774.038 cP is stored in F8:0.",
+      "specifications": {
+        "Figure 14 SCP Block Configuration (0-10V Analog Input)": {
+          "Input Address": "I:0.4",
+          "Input Min": "0",
+          "Input Max": "4095",
+          "Scaled Min": "0",
+          "Scaled Max": "3000",
+          "Output Address": "F8:0"
+        },
+        "Figure 15 SCP Block Configuration (4-20mA Signal)": {
+          "Input Address": "I:1.0",
+          "Current Input Value": "3120 (analog integer)",
+          "Input Min": "3120.0",
+          "Input Max": "15600.0",
+          "Scaled Min": "0.0 cP",
+          "Scaled Max": "3000.0 cP",
+          "Output Address": "F8:0",
+          "Calculated Output Value (for 3120 input)": "0.0 cP"
+        },
+        "Calculated Value for 10500 Input": "1774.038 cP"
+      },
+      "key_facts": [
+        "The SCP block is used for scaling analog input signals, converting a PID-scaled integer into a useful engineering unit like centipoise (cP).",
+        "The scaling process creates a linear relationship between the input (Input Min, Input Max) and the scaled output (Scaled Min, Scaled Max).",
+        "The final scaled value is stored as a float in the F8:0 register.",
+        "For a 4-20 mA signal, an analog integer input of 3120 corresponds to the configured Input Min and results in a scaled value of 0 cP.",
+        "An analog integer input of 10,500 corresponds to a calculated value of 1,774.038 cP."
+      ],
+      "diagram_labels": [
+        "SCP",
+        "Scale w/Parameters",
+        "Input",
+        "Input Min.",
+        "Input Max.",
+        "Scaled Min.",
+        "Scaled Max.",
+        "Output",
+        "I:0.4",
+        "0",
+        "4095",
+        "3000",
+        "F8:0",
+        "I:1.0",
+        "3120",
+        "3120.0",
+        "15600.0",
+        "0.0",
+        "0.0<",
+        "3000.0<",
+        "END"
+      ],
+      "warnings_notes": [],
+      "page_num": 10,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1204,
+        "cost_usd": 0.0031498
+      },
+      "source_file": "149_Rheonics_Sensor_Output_Analog_signal_integration_with_Micrologix_Family_PLC.pdf"
+    },
+    {
+      "page_summary": "This page explains how a viscosity value is scaled using an SCP block and compares the pros and cons of analog versus digital communication for Rheonics sensors.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics sensors",
+        "Rheonics viscosity and density meters"
+      ],
+      "extracted_text": "Figure 16. Scaling - 10500 as Input\n\nSCP\nScale w/Parameters\nInput: I:1.0, 10500\nInput Min.: 3120.0\nInput Max.: 15600.0\nScaled Min.: 0.0\nScaled Max.: 3000.0\nOutput: F8:0, 1774.038\nEND\n\nThe newly calculated viscosity value from the SCP block can then be used for further control applications, such as setting high or low limits, defining a setpoint, or displaying the value to an operator, among other uses.\n\n8. Analog vs. Digital - Pros and Cons\n\nAnalog communication, particularly 4-20 mA current signals, has been a longstanding standard in industrial settings. An analog signal's primary advantage is its simplicity. This simplicity means it requires very little configuration, and analog components are generally less expensive, which makes for great option for basic measurements.\n\nHowever, analog communication comes with limitations:\n* Only one piece of information can be transmitted per channel, which makes it unsuitable for transferring diagnostic data or multiple measurements at the same time.\n* Analog signals are also more prone to electrical interference, which can degrade signal quality in electrically noisy industrial environments.\n* Over time, analog systems may need calibration to maintain accuracy, adding to maintenance efforts and potential downtime.\n\nMany limitations of analog systems can be addressed by using digital communication protocols such as Modbus, Profinet or Ethernet/IP, all of which are supported by Rheonics sensors\n\n* Digital signals allow multiple data type transmission over a single communication interface at once. This way, measurements, device status, diagnostic information, and even control commands can be exchanged between devices and control systems.\n* They are inherently less susceptible to electrical noise, which makes them ideal for industrial settings with high electromagnetic interference. This is crucial for maintaining accurate and consistent data transmission and a reliable process control.\n* Digital networks are scalable and flexible, allowing multiple devices to communicate over a single network cable or wireless connection\n\nThe choice between analog and digital communication ultimately depends on the application, however, for a reliable viscosity control, it is heavily recommended the use of digital communication. For detailed information on all available communication options for Rheonics viscosity and density meters, visit",
+      "specifications": {
+        "Input": "10500",
+        "Input Min": "3120.0",
+        "Input Max": "15600.0",
+        "Scaled Min": "0.0",
+        "Scaled Max": "3000.0",
+        "Output": "1774.038"
+      },
+      "key_facts": [
+        "A viscosity value calculated by an SCP block can be used for control applications like setting limits, defining setpoints, or displaying values.",
+        "Analog communication, particularly 4-20 mA current signals, is a standard in industrial settings due to its simplicity, minimal configuration, and lower cost for basic measurements.",
+        "Analog communication is limited to transmitting one piece of information per channel, making it unsuitable for diagnostic data or multiple measurements.",
+        "Analog signals are susceptible to electrical interference, which can degrade signal quality in noisy industrial environments.",
+        "Analog systems may require periodic calibration to maintain accuracy, contributing to maintenance and potential downtime.",
+        "Digital communication protocols like Modbus, Profinet, and Ethernet/IP address the limitations of analog systems.",
+        "Rheonics sensors support Modbus, Profinet, and Ethernet/IP communication protocols.",
+        "Digital signals enable the transmission of multiple data types, including measurements, device status, diagnostic information, and control commands, over a single interface.",
+        "Digital signals are less prone to electrical noise and electromagnetic interference, which is vital for accurate and consistent data transmission and reliable process control in industrial settings.",
+        "Digital networks are scalable and flexible, allowing multiple devices to communicate via a single network cable or wirelessly.",
+        "For reliable viscosity control, the use of digital communication is heavily recommended."
+      ],
+      "diagram_labels": [
+        "SCP",
+        "Scale w/Parameters",
+        "Input",
+        "Input Min.",
+        "Input Max.",
+        "Scaled Min.",
+        "Scaled Max.",
+        "Output",
+        "END"
+      ],
+      "warnings_notes": [],
+      "page_num": 11,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1054,
+        "cost_usd": 0.0027748
+      },
+      "source_file": "149_Rheonics_Sensor_Output_Analog_signal_integration_with_Micrologix_Family_PLC.pdf"
+    },
+    {
+      "page_summary": "This page is a reference section listing three external documents, including two Rockwell Automation publications and Micrologix Instruction Set Help.",
+      "document_type": "manual",
+      "product_names": [
+        "Rockwell Automation Publication 1766-IN001F-EN-P",
+        "Rockwell Automation Publication 1762-RM001H-EN-P",
+        "Micrologix Instruction Set Help"
+      ],
+      "extracted_text": "9. References\n1. Rockwell Automation Publication 1766-IN001F-EN-P.\n2. Rockwell Automation Publication 1762-RM001H-EN-P.\n3. Micrologix Instruction Set Help.",
+      "specifications": {},
+      "key_facts": [
+        "The document references Rockwell Automation Publication 1766-IN001F-EN-P.",
+        "The document references Rockwell Automation Publication 1762-RM001H-EN-P.",
+        "The document references Micrologix Instruction Set Help."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 12,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 280,
+        "cost_usd": 0.0008397999999999999
+      },
+      "source_file": "149_Rheonics_Sensor_Output_Analog_signal_integration_with_Micrologix_Family_PLC.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": [
+      9
+    ]
+  }
+}

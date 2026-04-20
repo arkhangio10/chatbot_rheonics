@@ -1,0 +1,60 @@
+{
+  "source_file": "SRV_SANITARY.pdf",
+  "total_pages": 1,
+  "chunks": [
+    {
+      "page_summary": "This page provides a detailed engineering drawing with dimensions and technical specifications for the Rheonics SRV-short sanitary/aseptic viscometer and density sensor, including available flange types, surface finish requirements, and EHEDG compliance criteria.",
+      "document_type": "drawing",
+      "product_names": [
+        "SRV - short"
+      ],
+      "extracted_text": "Units: mm [inch]\nSRV - short\nSanitary / Aseptic connection\n\nProtected by US and International patents granted and pending\n\nrheonics • Switzerland • USA • www.rheonics.com • info@rheonics.com +41 52 511 32 00 +1 713 364 5427\n\nSpecify flange in Order.\nAvailable sizes are as follows:\nDIN11853-1/2/3, Nominal diameter >=DN40\nDIN11864-1/2/3, Nominal diameter >=DN40\nDIN 11851, Nominal diameter >=DN40\nISO 2852 (DIN 32676 B), Nominal diameter >=DN40\nOthers; Variline®, BoiControl®, etc.\n\nAll wetted surfaces are < Ra 0.8\n\nFor EHEDG compliance the criterion: ΦD - 14mm > L must be fulfilled\n\nSchnitt A-A\n\nThis drawing remains property of rheonics. It may be neither copied nor informed to third persons or competitors without our approval. ( 2 paragraph 1 fig.7 copyright act of 9th Sept. 1965)\n\nrheonics\ninline process\ndensity and viscosity\nmonitoring",
+      "specifications": {
+        "Overall Height (above flange)": "56.4 mm [2.22 inch]",
+        "Height from flange to top of upper body taper": "26.6 mm [1.05 inch]",
+        "Overall Length (below flange)": "76.7 mm [3.02 inch]",
+        "Main body diameter": "30 mm [1.18 inch]",
+        "Probe shaft diameter (upper)": "Φ13.9 mm [Φ0.55 inch]",
+        "Probe shaft diameter (middle)": "Φ5 mm [Φ0.20 inch]",
+        "Probe shaft diameter (lower)": "Φ8 mm [Φ0.31 inch]",
+        "Sensing area length": "45.7 mm [1.80 inch]",
+        "Sensing area tip length": "19.7 mm [0.77 inch]",
+        "Wetted surfaces roughness average": "< Ra 0.8",
+        "Flange Nominal diameter (DIN11853-1/2/3, DIN11864-1/2/3, DIN 11851, ISO 2852)": ">=DN40"
+      },
+      "key_facts": [
+        "The SRV-short sensor is designed for sanitary and aseptic connections.",
+        "The sensor is available with various flange types including DIN11853, DIN11864, DIN 11851, and ISO 2852, as well as proprietary options like Variline® and BoiControl®.",
+        "All wetted surfaces of the sensor must have a roughness average (Ra) less than 0.8.",
+        "The device is protected by US and International patents that are both granted and pending.",
+        "Rheonics manufactures inline process density and viscosity monitoring equipment."
+      ],
+      "diagram_labels": [
+        "A",
+        "Dead space",
+        "Sensing area",
+        "Schnitt A-A",
+        "ΦD",
+        "L"
+      ],
+      "warnings_notes": [
+        "This drawing remains the property of Rheonics and may not be copied, shared with third parties, or provided to competitors without Rheonics' approval, as per 2 paragraph 1 fig.7 of the copyright act of 9th Sept. 1965.",
+        "The product is protected by US and International patents, which are granted and pending.",
+        "For EHEDG compliance, the criterion 'ΦD - 14mm > L' must be fulfilled."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1004,
+        "cost_usd": 0.0026497999999999995
+      },
+      "source_file": "SRV_SANITARY.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

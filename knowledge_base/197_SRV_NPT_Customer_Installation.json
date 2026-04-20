@@ -1,0 +1,285 @@
+{
+  "source_file": "197_SRV_NPT_Customer_Installation.pdf",
+  "total_pages": 6,
+  "chunks": [
+    {
+      "page_summary": "This page provides installation instructions and considerations for the Rheonics SRV NPT viscometer, outlining key requirements, mechanical dimensions, and NPT connection details.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV - Inline Viscosity Meter",
+        "SRV NPT",
+        "SRV NPT 3/4\""
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nSRV NPT Customer Installation\nModified on: Fri, 31 May, 2024 at 3:27 AM\n\nWhat products are involved?\n(https://rheonics.com/products/inline-viscometer-srv/) SRV - Inline Viscosity Meter\n(https://rheonics.com/products/inline-viscometer-srv/)\n\nWhat is the purpose of this article?\nTo give installation options and instructions for the viscometer SRV with NPT 3/4” process connection.\n\n1. Overview\nThree important requirements are needed for any installation of the SRV. These are submersion of the sensing element, avoiding stagnation zones, and considering a tip's clearance to obstructions (i.e. pipe inner wall). Read more on this article: SRV NPT 3/4”. (https://support.rheonics.com/support/solutions/articles/81000409840-srv-npt-3-4-)\n\n[Diagram showing a Rheonics sensor]\n50 mm [1.96\"]\nØ16 mm [0.63\"]\n\nSRV tip's clearance to any obstruction: 5 mm [0.2\"]\nAvoid stagnation zones in the sensing zones (red area)\nEnsure sensing element in red is in contact with fluid\nFigure 1: SRV main installation considerations.\n\nNPT (National Pipe Taper) is a tapered thread connection standard based on ANSI/ASME B1.20.1. It requires the use of a sealant (Teflon tape or sealing compound) to create a proper installation without leaks or damage in the threads.",
+      "specifications": {
+        "SRV tip length": "50 mm [1.96\"]",
+        "SRV tip diameter": "Ø16 mm [0.63\"]",
+        "SRV tip clearance to any obstruction": "5 mm [0.2\"]"
+      },
+      "key_facts": [
+        "The document provides installation options and instructions for the viscometer SRV with NPT 3/4\" process connection.",
+        "Three important requirements for SRV installation include submersion of the sensing element, avoiding stagnation zones, and considering a tip's clearance to obstructions (e.g., pipe inner wall).",
+        "The SRV's sensing element (the red area in the diagram) must be in contact with the fluid.",
+        "NPT (National Pipe Taper) is a tapered thread connection standard based on ANSI/ASME B1.20.1.",
+        "Proper NPT installation requires the use of a sealant (Teflon tape or sealing compound) to create a proper installation without leaks or damage in the threads."
+      ],
+      "diagram_labels": [
+        "rheonics (logo)",
+        "50 mm [1.96\"]",
+        "Ø16 mm [0.63\"]",
+        "Figure 1: SRV main installation considerations."
+      ],
+      "warnings_notes": [
+        "Avoid stagnation zones in the sensing zones (red area).",
+        "Ensure sensing element in red is in contact with fluid.",
+        "The use of a sealant (Teflon tape or sealing compound) is required for NPT installations to create a proper installation without leaks or damage in the threads."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 881,
+        "cost_usd": 0.0023423
+      },
+      "source_file": "197_SRV_NPT_Customer_Installation.pdf"
+    },
+    {
+      "page_summary": "This page outlines various installation options for Rheonics sensors in tanks, covering mounting from the top, wall, or bottom, and recommending specific accessories like the TMA-34N tank mount adapter and WOL-34NL weldolet for different scenarios.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SRV",
+        "TMA-34N tank mount adapter",
+        "standard short NPT sensor",
+        "WOL-34NL weldolet"
+      ],
+      "extracted_text": "2. Installation options\n\n2.1 In tank:\nWhen mounting the sensor in a tank, the user should decide whether to install the sensor vertically from the top, horizontally from the tank's wall, or at the bottom with the sensor vertically or upwards. This decision should be based on the characteristics of the fluid and tank, i.e. if tank has moving parts that can hit the sensor like mixer impellers, if the tank is double jacketed that complicates a side installation, if there are existing ports at the tank's lid, wall or bottom that can be reused, etc.\n\nRheonics SRV is unaffected by the installation as long as the 3 previous points in Figure 1 are followed.\n\na. In tank lid or open vessel:\nWhen installing the sensor from the top of a tank or in an open vessel Rheonics recommends to use:\n\n• TMA-34N tank mount adapter: (https://rheonics.com/product-accessories/tma-34n/) The insertion length of the sensor in the tank can be modified with the length of a threaded male 3/4” NPT pipe, see article for installation: Installing density & viscosity sensor in Tank. (https://support.rheonics.com/support/solutions/articles/81000385151-installing-density-viscosity-sensor-in-tank-with-rheonics-tank-mount-adapter)\n\nTMA-34N Tank Mount Adapter\n\nFigure 2: SRV mounted in the TMA-34N in a tank's lid and open vessel.\n\nb. In tank wall or bottom\nHere, as in any other installation, the sensor should be mounted in a way that the complete sensing element is submerged in the fluid. Coating depth has to be sufficient. Potential issues could be that the fluid is static and moving which can change the apparent viscosity of the coating itself.\nWith a standard short NPT sensor, Rheonics recommends the use of this accessory:\n\n• WOL-34NL weldolet. (https://rheonics.com/product-accessories/wol-34nl/) Weldolet with 3/4” NPT connection for lines bigger than 2.5” and tanks.",
+      "specifications": {
+        "pipe_thread_size": "3/4 inch NPT",
+        "weldolet_connection_thread_size": "3/4 inch NPT",
+        "weldolet_line_size_minimum": "2.5 inches"
+      },
+      "key_facts": [
+        "Sensor installation orientation (vertical from top, horizontal from wall, or vertical from bottom) should be determined based on fluid and tank characteristics.",
+        "Factors influencing installation decisions include the presence of moving parts (e.g., mixer impellers), double-jacketed tanks, and existing ports.",
+        "Rheonics SRV performance is unaffected by installation as long as three specific points from Figure 1 (not shown on this page) are followed.",
+        "For installation from the top of a tank or in an open vessel, the TMA-34N tank mount adapter is recommended.",
+        "The insertion length of the sensor when using the TMA-34N adapter can be modified with a threaded male 3/4” NPT pipe.",
+        "For all installations, the complete sensing element of the sensor must be submerged in the fluid.",
+        "Sufficient coating depth is essential for proper sensor operation.",
+        "The fluid being static or moving can potentially alter the apparent viscosity of the coating itself.",
+        "For installation in a tank wall or bottom using a standard short NPT sensor, the WOL-34NL weldolet is recommended.",
+        "The WOL-34NL weldolet provides a 3/4” NPT connection and is suitable for lines larger than 2.5 inches and tanks."
+      ],
+      "diagram_labels": [
+        "TMA-34N Tank Mount Adapter",
+        "Figure 2: SRV mounted in the TMA-34N in a tank's lid and open vessel."
+      ],
+      "warnings_notes": [
+        "Potential issues could be that the fluid is static and moving which can change the apparent viscosity of the coating itself."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1073,
+        "cost_usd": 0.0028223
+      },
+      "source_file": "197_SRV_NPT_Customer_Installation.pdf"
+    },
+    {
+      "page_num": 3,
+      "page_summary": "Extraction failed",
+      "document_type": "unknown",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "extraction_failed": true,
+      "source_file": "197_SRV_NPT_Customer_Installation.pdf"
+    },
+    {
+      "page_summary": "This page provides installation recommendations and warnings for Rheonics inline viscometers and density sensors, comparing recommended flow cell installations with problematic standard NPT tee and elbolet installations.",
+      "document_type": "manual",
+      "product_names": [
+        "IFC-34N-SRV",
+        "SRV"
+      ],
+      "extracted_text": "Using the flow cell in-line is recommended up to DN25\nFigure 5: Inline flowcell IFC-34N-SRV\nProblems with standard off-the-shelf NPT tee connections is that these don't ensure that the sensing element is well submerged in fluid. Also there is a clear dead zone around the sensor, the fluid in contact with the sensing element will not correctly represent the main flowing fluid of interest.\nStandard NPT tee\nRheonics IFC-34N-SRV\nFigure 6: Comparison Rheonics flow cell and standard tee piece.\nb. For 1.5” and 2” lines: Unfortunately, there are limited installation options for the SRV 3/4” NPT in these pipe sizes. For most pipe norms perpendicular installation will not comply with the requirements of avoiding stagnation zones, having the complete sensing element in the flowing fluid and the required clearance for the sensor's tip. Installation in elbows with elbolets will most likely not have the sensing element sufficiently immersed in the fluid, leading to deposits around the sensing element, as in next figure.\nFlow\nSusceptible to plugging, can affect the readings\nFigure 7: Potential issue with standard SRV in elbolet.\nIn ANSI standards, a 2” pipe (60.3 OD) will be enough for the sensor to be installed vertically. For this and other pipes with enough ID, Rheonics recommends using the next accessory:",
+      "specifications": {
+        "recommended_flow_cell_line_size_max": "DN25",
+        "pipe_sizes_limited_installation_options": "1.5 inches",
+        "pipe_sizes_limited_installation_options_2": "2 inches",
+        "sensor_connection_type": "SRV 3/4” NPT",
+        "ANSI_pipe_size_for_vertical_installation": "2 inches (60.3 OD)"
+      },
+      "key_facts": [
+        "Using the flow cell in-line is recommended for lines up to DN25.",
+        "Standard off-the-shelf NPT tee connections do not ensure the sensing element is well submerged in fluid.",
+        "Standard NPT tee connections can create a dead zone around the sensor, leading to inaccurate fluid representation.",
+        "Rheonics IFC-34N-SRV flow cell is designed to ensure proper immersion and fluid flow past the sensing element.",
+        "For 1.5” and 2” lines, installation options for the SRV 3/4” NPT are limited.",
+        "Perpendicular installation in most pipe norms will not comply with requirements for avoiding stagnation zones and ensuring complete sensing element immersion and tip clearance.",
+        "Installation in elbows with elbolets may not sufficiently immerse the sensing element.",
+        "Elbolet installations can lead to deposits around the sensing element, making it susceptible to plugging and affecting readings.",
+        "In ANSI standards, a 2” pipe (60.3 OD) is sufficient for vertical sensor installation.",
+        "For pipes with enough ID (Internal Diameter), Rheonics recommends using a specific accessory (not detailed on this page)."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "Standard NPT tee",
+        "Rheonics IFC-34N-SRV",
+        "Flow",
+        "Susceptible to plugging, can affect the readings"
+      ],
+      "warnings_notes": [
+        "Problems with standard off-the-shelf NPT tee connections: don't ensure sensing element is well submerged; clear dead zone around sensor means fluid in contact won't correctly represent main flowing fluid of interest.",
+        "For 1.5” and 2” lines: Limited installation options for SRV 3/4” NPT. Perpendicular installation will not comply with requirements (avoiding stagnation zones, complete sensing element immersion, sensor tip clearance).",
+        "Installation in elbows with elbolets: May not sufficiently immerse sensing element, leading to deposits around sensing element, which can cause plugging and affect readings."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 983,
+        "cost_usd": 0.0025972999999999994
+      },
+      "source_file": "197_SRV_NPT_Customer_Installation.pdf"
+    },
+    {
+      "page_summary": "This page provides installation recommendations and dimensional specifications for Rheonics SRV viscometers and density sensors using various connection types and pipe configurations.",
+      "document_type": "manual",
+      "product_names": [
+        "WOL-34NS",
+        "SRV NPT",
+        "WOL-34NL",
+        "SRV-X5",
+        "SRV FPC 1 1/4\" NPT",
+        "SRV-X5-1.25\" NPT",
+        "SRV"
+      ],
+      "extracted_text": "- WOL-34NS: (https://rheonics.com/product-accessories/wol-34ns/). Weldolet with 3/4\" NPT connection for 2\" lines (60.3 OD). With this pipe size the sensor can be installed perpendicular to the flow.\n- Figure 8: SRV NPT in WOL-34NS for 2\" Pipes (63.6 OD).\n- If the 2\" pipe has an OD<63.6 mm, Rheonics recommends:\n  - Use a long insertion (-X5) sensor in an elbow. This variant will have a 1 1/4\" NPT connection because of the sensor diameter of 30mm. Hygienic version of the -X5 is also an option to reduce the cross-section decrement in the line when the sensor is installed.\n- Figure 9: SRV FPC 1 1/4\" NPT in an elbow.\n- Consider other process connections. Tri-Clamp is another connection type available for the SRV that has installation accessories for pipes with 1.5\" and 2\" sizes.\n- A tilted installation (i.e. an installation at an angle) is usually not recommended, since for non-newtonian fluids the sensing element's base never gets full in channel which makes it susceptible to plugging.\n- c. For lines bigger than 2\": For these pipes, a perpendicular installation of the sensor can fulfill the 3 basic needs of installation, sizewise, mentioned in section 1 of this article. One must be ensure that the entire sensing element is fully submerged and exposed to flow.",
+      "specifications": {
+        "WOL-34NS weldolet connection type": "3/4\" NPT",
+        "WOL-34NS compatible pipe outer diameter": "60.3 mm (2 inches)",
+        "SRV NPT recommended installation pipe outer diameter": "63.6 mm",
+        "SRV-X5 sensor connection type": "1 1/4\" NPT",
+        "SRV-X5 sensor element diameter": "30 mm",
+        "Tri-Clamp compatible pipe sizes": "1.5 inches",
+        "Tri-Clamp compatible pipe sizes (additional)": "2 inches",
+        "SRV NPT fitting height above pipe surface": "18.8 mm [0.74 in]",
+        "SRV NPT fitting diameter (at pipe surface)": "60.3 mm [2.37 in]",
+        "SRV NPT max insertion depth from pipe outer surface": "69.6 mm [2.74 in]",
+        "SRV NPT min distance from sensor tip to inner pipe wall": "9.6 mm [0.38 in]",
+        "SRV FPC 1 1/4\" NPT sensor element diameter": "30 mm [1.18 in]"
+      },
+      "key_facts": [
+        "The WOL-34NS weldolet allows for perpendicular installation of the sensor to the flow in 2\" pipes (60.3 mm OD).",
+        "For 2\" pipes with an outer diameter less than 63.6 mm, Rheonics recommends using a long insertion (-X5) sensor in an elbow.",
+        "The -X5 sensor variant uses a 1 1/4\" NPT connection and has a sensor diameter of 30mm.",
+        "A hygienic version of the -X5 sensor is available as an option to reduce cross-section decrement in the line.",
+        "Tri-Clamp is an alternative process connection type for SRV sensors, with installation accessories available for 1.5\" and 2\" pipe sizes.",
+        "For pipes larger than 2\", a perpendicular installation of the sensor is suitable.",
+        "The entire sensing element must be fully submerged and exposed to flow for proper installation."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "Type SRV SN SRV-000",
+        "Weld thickness depends on required pressure rating",
+        "For larger OD, use WOL-34NL",
+        "Units: mm [inch]",
+        "A",
+        "SRV-NPT",
+        "Ø 60.3 [2.37]",
+        "18.8 [0.74]",
+        "min 5 [0.2]",
+        "max 69.6 [2.74]",
+        "9.6 [0.38]",
+        "Standard 1 1/4\" NPT elbolet",
+        "Ø 30 [1.18]",
+        "1 1/4\" NPT",
+        "A: Insertion Length",
+        "SRV-X5-1.25\" NPT",
+        "Flow",
+        "2\" Pipe"
+      ],
+      "warnings_notes": [
+        "Weld thickness depends on required pressure rating.",
+        "For larger OD pipes, use WOL-34NL.",
+        "A tilted installation is usually not recommended for non-Newtonian fluids, as the sensing element's base may not get full in the channel, making it susceptible to plugging.",
+        "One must ensure that the entire sensing element is fully submerged and exposed to flow during installation."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1326,
+        "cost_usd": 0.0034547999999999996
+      },
+      "source_file": "197_SRV_NPT_Customer_Installation.pdf"
+    },
+    {
+      "page_summary": "This page details the WOL-34NL weldolet for Rheonics SRV-NPT sensor installation, providing dimensional guidance and emphasizing the importance of correct installation for reliable data collection.",
+      "document_type": "manual",
+      "product_names": [
+        "WOL-34NL weldolet",
+        "SRV-NPT",
+        "WOL-34NS"
+      ],
+      "extracted_text": "• WOL-34NL weldolet. (https://rheonics.com/product-accessories/wol-34nl/). Rheonics recommends using the WOL-34NL weldolet to avoid stagnation zones and maximize the immersion depth of the sensor into the pipe for optimal measurement conditions. This weldolet is used for 3/4\" NPT connection in lines equal to or bigger than 2.5\" and tanks.\n\nA\nSRV-NPT\nrheonics\npotented. actual.\nType on\nQR code to verify\nrheonics\nWeld thickness\ndepends on\nrequired pressure rating\nOuter diameter must be\nlarger than Φ70mm.\nFor Φ60.3mm, use\nWOL-34NS\n15\n[0.59]\nmin 5 [0.2]\n69.6\nmax [2.74]\nUnits:\nmm\n[inch]\nA\nFigure 10: SRV NPT in WOL-34NL for pipes equal to or bigger than 2.5\"\n\n3. Path to correct installation and reliable data collection\n\nRheonics recommends the user to ask the Support Team for recommendations before installation. The client should point out what are the possible installation points, fluid characteristics, photos and any other useful information (Tank’s drawing for a tank installation).\n\nTo get feedback from Rheonics Support Team, the client should explain the intended fluid to measure and share pictures or drawings of possible installation points.\n\nA correct installation of the sensor is a prerequisite for a reliable data collection. Incorrect installation of the sensor can lead to systematic measurement errors that cannot be corrected by data processing.",
+      "specifications": {
+        "connection_type_weldolet": "3/4\" NPT",
+        "minimum_pipe_size_weldolet": "2.5\"",
+        "outer_diameter_requirement_weldolet": "larger than Φ70mm",
+        "alternative_weldolet_for_smaller_diameter": "WOL-34NS for Φ60.3mm",
+        "dimension_1": "15 mm [0.59 inch]",
+        "dimension_min_immersion": "5 mm [0.2 inch]",
+        "dimension_max_length": "69.6 mm [2.74 inch]"
+      },
+      "key_facts": [
+        "The WOL-34NL weldolet is recommended to avoid stagnation zones and maximize sensor immersion depth for optimal measurement.",
+        "The WOL-34NL weldolet is used for 3/4\" NPT connections in lines equal to or bigger than 2.5\" and tanks.",
+        "For pipes with an outer diameter of Φ60.3mm, the WOL-34NS weldolet should be used instead of WOL-34NL.",
+        "Rheonics recommends users consult their Support Team for installation recommendations.",
+        "Clients should provide details such as intended installation points, fluid characteristics, photos, and tank drawings to the Support Team.",
+        "Correct installation of the sensor is crucial for reliable data collection.",
+        "Incorrect sensor installation can result in systematic measurement errors that cannot be corrected by data processing."
+      ],
+      "diagram_labels": [
+        "A",
+        "SRV-NPT",
+        "rheonics",
+        "patented. actual.",
+        "Type on QR code to verify",
+        "Weld thickness depends on required pressure rating",
+        "Outer diameter must be larger than Φ70mm.",
+        "For Φ60.3mm, use WOL-34NS",
+        "15",
+        "[0.59]",
+        "min 5 [0.2]",
+        "69.6",
+        "max [2.74]",
+        "Units:",
+        "mm",
+        "[inch]",
+        "Figure 10: SRV NPT in WOL-34NL for pipes equal to or bigger than 2.5\""
+      ],
+      "warnings_notes": [
+        "Weld thickness depends on required pressure rating.",
+        "Incorrect installation of the sensor can lead to systematic measurement errors that cannot be corrected by data processing."
+      ],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1064,
+        "cost_usd": 0.0027998
+      },
+      "source_file": "197_SRV_NPT_Customer_Installation.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": [
+      3
+    ]
+  }
+}

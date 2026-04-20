@@ -1,0 +1,802 @@
+{
+  "source_file": "150_Modbus_TCP_integration_with_B&R_X20_and_B&R_Automation_studio.pdf",
+  "total_pages": 7,
+  "chunks": [
+    {
+      "page_summary": "This page details the integration of Rheonics sensors using Modbus TCP with B&R X20 PLCs and B&R Automation Studio, including prerequisites and connection diagrams.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Sensors",
+        "Modbus RTU",
+        "Modbus TCP",
+        "B&R X20 PLC",
+        "B&R Automation studio",
+        "Rheonics Sensor Electronics (SME)",
+        "SME-DRM",
+        "RCP software"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nModbus TCP integration with B&R X20 and B&R Automation studio\nModified on: Sun, 15 Feb, 2026 at 12:50 AM\n\nModbus TCP communication setup with a PLC\nRheonics Sensors support Modbus RTU and TCP. For Modbus TCP, ethernet connection is required. The example below shows the connection steps and configuration of Modbus registers on a PLC. This example uses B&R X20 PLC and B&R Automation studio to configure the communication.\n\nPrerequisite:\nA PLC which supports Modbus TCP either natively or through an expansion module\nRheonics Sensor Electronics (SME) with Ethernet and Modbus TCP enabled\nEthernet on SME should be set to either DHCP or Static IP through RCP\nIP address of the Rheonics SME - this can be read out from the SME using RCP software\n\nEthernet Connection\nThe sensor electronics (SME) can be connected directly to the B&R control with an RJ45 Ethernet cable. Alternatively, a router, switch or hub can be used to connect the sensor and PLC to the factory LAN.",
+      "specifications": {
+        "phone_number": "+1 713 234 0863",
+        "modification_timestamp": "Sun, 15 Feb, 2026 at 12:50 AM",
+        "ethernet_connector_type": "RJ45"
+      },
+      "key_facts": [
+        "Rheonics Sensors support both Modbus RTU and Modbus TCP protocols.",
+        "Modbus TCP communication requires an Ethernet connection.",
+        "This document provides an example of Modbus TCP integration using a B&R X20 PLC and B&R Automation studio.",
+        "A prerequisite for Modbus TCP integration is a PLC that supports Modbus TCP either natively or via an expansion module.",
+        "Rheonics Sensor Electronics (SME) must have both Ethernet and Modbus TCP enabled.",
+        "The Ethernet configuration on the SME should be set to either DHCP or Static IP, adjustable through RCP.",
+        "The IP address of the Rheonics SME can be obtained using RCP software.",
+        "The SME can be connected directly to the B&R control using an RJ45 Ethernet cable.",
+        "Alternatively, a router, switch, or hub can be used to connect the sensor and PLC to the factory LAN."
+      ],
+      "diagram_labels": [
+        "MODBUS Server TCP/IP",
+        "24V dc+",
+        "Gnd-",
+        "Modbu",
+        "A",
+        "B",
+        "RS485",
+        "Ethernet",
+        "RJ45",
+        "USB",
+        "Display",
+        "Loop",
+        "Gnd+",
+        "Gnd-",
+        "Ch1+",
+        "Ch2+",
+        "Ch3+",
+        "SME-DRM",
+        "MODBUS Client TCP/IP",
+        "MODBUS Client 2 TCP/IP",
+        "MODBUS Server 2 TCP/IP"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 868,
+        "cost_usd": 0.0023098
+      },
+      "source_file": "150_Modbus_TCP_integration_with_B&R_X20_and_B&R_Automation_studio.pdf"
+    },
+    {
+      "page_summary": "This page provides a step-by-step guide for configuring Modbus TCP communication between sensor electronics and a B&R PLC using B&R Automation Studio, focusing on network interface and Modbus parameters.",
+      "document_type": "manual",
+      "product_names": [
+        "B&R Automation Studio",
+        "B&R PLC",
+        "X20CP1585",
+        "Rheonics sensor electronics (implied)"
+      ],
+      "extracted_text": "PLC configuration steps for establishing Modbus communication\nThis project uses B&R Automation Studio to setup Modbus TCP communication between the Sensor electronics and a B&R PLC. A project has already been created in Automation Studio and the corresponding PLC from B&R has been added.\n\nInterface configuration\nThe numbers in front of the text are highlighted in front of the steps performed.\n\n1, 2 Select Physical View and select the desired interface for the Modbus configuration.\n3 Open Configuration of the interface.\n4 Select Mode: enter IP address manually. (For direct connection of the sensor to the PLC) Enter an IP address with a suitable subnet mask for the interface.\n5 Activate Modbus communication = on\n\nAddition of TCP_any interface\n1 Select the interface in the Physical View.",
+      "specifications": {
+        "Automation Studio Version": "V 4.8.2.72",
+        "Device Name": "X20CP1585",
+        "Device Version": "1.8",
+        "Interface Type": "ETH (IF2)",
+        "Activate interface": "on",
+        "Redundant parameter": "Single CPU Project",
+        "Single CPU parameters - Host name": "br-automation",
+        "Single CPU parameters - Baud rate": "auto",
+        "Mode": "enter IP address manually",
+        "IP address": "192.168.0.100",
+        "Subnet Mask": "255.255.255.0",
+        "INA parameters - Activate online communication": "on",
+        "INA parameters - Port number": "11159",
+        "INA parameters - Redundant INA configuration": "Single CPU",
+        "ANSL parameters - Activate online communication": "on",
+        "SNMP parameters - Activate SNMP": "activated",
+        "Modbus parameters - Activate Modbus communication": "on",
+        "Modbus parameters - Use as Modbus slave": "off",
+        "Modbus parameters - Use as Modbus master": "on",
+        "openSafety over TCP/IP - Use as Modbus slave": "off",
+        "Diagnostics - Slave diagnostics": "none"
+      },
+      "key_facts": [
+        "B&R Automation Studio is used to configure Modbus TCP communication.",
+        "Modbus TCP communication is established between Sensor electronics and a B&R PLC.",
+        "A pre-existing project in Automation Studio with the B&R PLC added is required.",
+        "The configuration process involves selecting the 'Physical View' and the desired interface (ETH/IF2).",
+        "Manual IP address entry (192.168.0.100) and subnet mask (255.255.255.0) are required for direct sensor-to-PLC connection.",
+        "Modbus communication must be explicitly activated within the Modbus parameters.",
+        "The device X20CP1585 is configured with version 1.8."
+      ],
+      "diagram_labels": [
+        "1 (Physical View tab)",
+        "2 (ETH interface selected)",
+        "3 (Open Configuration icon)",
+        "4 (Mode section with IP address and Subnet Mask)",
+        "5 (Modbus parameters section)",
+        "File",
+        "Edit",
+        "View",
+        "Open",
+        "Project",
+        "Debug",
+        "Source Control",
+        "Online",
+        "Tools",
+        "Window",
+        "Help",
+        "Physical View",
+        "Hardware.hwl [System Designer]",
+        "X20CP1585.IF2 [Configuration]*",
+        "Name",
+        "L... Position",
+        "Ver",
+        "Value",
+        "X20CP1585",
+        "Serial",
+        "ETH",
+        "PLK",
+        "USB",
+        "X2X",
+        "IF1",
+        "IF2",
+        "IF3",
+        "IF4",
+        "IF5",
+        "IF6",
+        "SS1",
+        "Activate interface",
+        "Redundant parameter",
+        "Single CPU parameters",
+        "Host name",
+        "br-automation",
+        "Baud rate",
+        "auto",
+        "Mode",
+        "IP address",
+        "Subnet Mask",
+        "INA parameters",
+        "Activate online communication",
+        "Port number",
+        "11159",
+        "Redundant INA configuration",
+        "ANSL parameters",
+        "VNC Servers",
+        "SNMP parameters",
+        "Activate SNMP",
+        "activated",
+        "openSAFETY-over-UDP Tunnel",
+        "Modbus parameters",
+        "Activate Modbus communication",
+        "on",
+        "Use as Modbus slave",
+        "off",
+        "Use as Modbus master",
+        "openSafety over TCP/IP",
+        "Diagnostics",
+        "Slave diagnostics",
+        "none",
+        "Bonding",
+        "Logical...",
+        "Configu..."
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1292,
+        "cost_usd": 0.0033697999999999996
+      },
+      "source_file": "150_Modbus_TCP_integration_with_B&R_X20_and_B&R_Automation_studio.pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions and a software screenshot demonstrating how to add and configure a Modbus TCP/IP connection for a sensor within the Automation Studio software.",
+      "document_type": "manual",
+      "product_names": [
+        "Modbus Tcp_any",
+        "X20CP1585",
+        "Automation Studio V 4.8.2",
+        "ModbusSlaveCou",
+        "sensor"
+      ],
+      "extracted_text": "Initial Steps:\n2 Search for Modbus in the Toolbox.\n3 Add Modbus Tcp_any by double-clicking.\n4 Modbus Tcp_any appears graphically in the System Designer.\n\nSoftware Interface Details:\nApplication Title: C:\\Users\\simon\\Documents\\PA_Backup\\ModbusKonfiguration\\ModbusKonfiguration.apj - Automation Studio V 4.8.2...\nMenu Bar: File Edit View Open Project Debug Source Control Online Tools Window Help\n\nLeft Pane (Physical View):\nTitle: Physical View\nHardware Tree:\n  Name L... Position\n  X20CP1585\n    Serial\n    ETH IF2 (Labeled as 1)\n    PLK IF3\n    USB IF4\n    USB IF5\n    X2X IF6\n    SS1\nBottom Tabs: Logical Configu... Physical...\n\nRight Pane (Toolbox - Hardware Catalog):\nTitle: Toolbox - Hardware Catalog (X20CP1585.IF2)\nTabs: Catalog Favorites Recent\nSearch Bar: Modbus (Labeled as 2)\nProduct Group:\n  I/O (Checkbox)\nNetwork Type:\n  Ethernet (Checkbox, with icon)\nHardware List:\n  Name            Description\n  ModbusSlaveCou  Generic Modbus Station\n  ModbusTcp_any   Generic Modbus Station (Labeled as 3)\n\nSystem Designer Graphical Area:\n  Modbus icon (connected, labeled as 4)\n\nConfiguration of Modbus Tcp_any:\n1 Select Modbus Tcp_any.\n2 Call up the configuration of Modbus Tcp_any.\n3 Specify the IP address for the sensor. (Same range as the address of the interface)\n  Specify TCP Port 502.",
+      "specifications": {
+        "TCP Port": "502",
+        "Automation Studio Version": "4.8.2"
+      },
+      "key_facts": [
+        "The document details the process of adding and configuring a Modbus TCP/IP communication module for a sensor within the B&R Automation Studio software environment.",
+        "Users must locate 'Modbus' in the Toolbox and then add the 'Modbus Tcp_any' component.",
+        "The 'Modbus Tcp_any' is identified as a 'Generic Modbus Station' in the hardware catalog.",
+        "The configuration steps require specifying an IP address for the sensor, ensuring it matches the interface's range, and setting the TCP Port to 502."
+      ],
+      "diagram_labels": [
+        "1 (ETH IF2 interface selection)",
+        "2 (Modbus search field)",
+        "3 (ModbusTcp_any entry in hardware list)",
+        "4 (Graphical representation of Modbus module)",
+        "Physical View",
+        "Hardware.hwl [System Designer]",
+        "Toolbox - Hardware Catalog (X20CP1585.IF2)",
+        "Name",
+        "L... Position",
+        "X20CP1585",
+        "Serial",
+        "ETH",
+        "PLK",
+        "USB",
+        "X2X",
+        "IF1",
+        "IF2",
+        "IF3",
+        "IF4",
+        "IF5",
+        "IF6",
+        "SS1",
+        "Logical",
+        "Configu...",
+        "Physical...",
+        "Catalog",
+        "Favorites",
+        "Recent",
+        "Modbus",
+        "Product Group",
+        "I/O",
+        "Network Type",
+        "Ethernet",
+        "Description",
+        "ModbusSlaveCou",
+        "Generic Modbus Station"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 973,
+        "cost_usd": 0.0025723
+      },
+      "source_file": "150_Modbus_TCP_integration_with_B&R_X20_and_B&R_Automation_studio.pdf"
+    },
+    {
+      "page_summary": "This page displays a software interface for configuring Modbus TCP/IP settings, specifically for 'Modbus Tcp_any', and provides instructions to refer to the Rheonics Modbus-Manual for further details.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Modbus-Manual",
+        "Rheonics"
+      ],
+      "extracted_text": "C:\\Users\\simon\\Documents\\PA_Backup\\ModbusKonfiguration\\ModbusKonfiguration.apj\\Config1 - Automation Studio\nFile Edit View Open Project Debug Source Control Online Tools Window Help\nPhysical View\nName\nX20CP1585\nSerial\nETH\nModbus Tcp_any\nPLK\nUSB\nUSB\nX2X\nHardware.hwl [System Designer]\nModbusTcp_any [Configuration]\nName | Value\nModbus Tcp_any\nGeneral\nModule supervised: off\nEthernet\nMode: Internet address\nIP address: 192.168.0.0\nUnit identifier: 0\nTCP port: 502\nNumber of pending requests: 1\nTimeouts\nRefresh time violation: 1500\nPlug and play timer: 10\nSimulation\nSimulation device\nChannel configuration\nLogical ... Configu... Physical ...\nConfiguration of Modbus Tcp_any according to the example form the Modbus manual\nDefine Block 1 in the Tcp_any configuration according to the example of the Rheonics Modbus-Manual\n(https://support.rheonics.com/en/support/solutions/articles/81000297668) - Commands and use.",
+      "specifications": {
+        "Module supervised": "off",
+        "Mode": "Internet address",
+        "IP address": "192.168.0.0",
+        "Unit identifier": "0",
+        "TCP port": "502",
+        "Number of pending requests": "1",
+        "Refresh time violation": "1500",
+        "Plug and play timer": "10"
+      },
+      "key_facts": [
+        "This page illustrates the configuration of Modbus Tcp_any settings within a software interface.",
+        "The configuration includes parameters for Ethernet mode, IP address, unit identifier, TCP port, and timeouts.",
+        "The example configuration for Modbus Tcp_any aligns with guidance from the Rheonics Modbus-Manual.",
+        "Block 1 in the Tcp_any configuration should be defined based on the Rheonics Modbus-Manual, which covers commands and use.",
+        "The Rheonics Modbus-Manual is accessible via the URL: https://support.rheonics.com/en/support/solutions/articles/81000297668."
+      ],
+      "diagram_labels": [
+        "Physical View",
+        "X20CP1585",
+        "Serial",
+        "ETH",
+        "Modbus Tcp_any",
+        "PLK",
+        "USB",
+        "X2X",
+        "Hardware.hwl [System Designer]",
+        "ModbusTcp_any [Configuration]",
+        "Name",
+        "Value",
+        "General",
+        "Module supervised",
+        "Ethernet",
+        "Mode",
+        "IP address",
+        "Unit identifier",
+        "TCP port",
+        "Number of pending requests",
+        "Timeouts",
+        "Refresh time violation",
+        "Plug and play timer",
+        "Simulation",
+        "Simulation device",
+        "Channel configuration",
+        "Logical ...",
+        "Configu...",
+        "Physical ...",
+        "File",
+        "Edit",
+        "View",
+        "Open",
+        "Project",
+        "Debug",
+        "Source Control",
+        "Online",
+        "Tools",
+        "Window",
+        "Help",
+        "Automation Studio"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 920,
+        "cost_usd": 0.0024397999999999998
+      },
+      "source_file": "150_Modbus_TCP_integration_with_B&R_X20_and_B&R_Automation_studio.pdf"
+    },
+    {
+      "page_summary": "This page provides a guide for configuring Modbus TCP communication to read sensor data, specifically viscosity measurements and status, from Rheonics sensors into a PLC.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics sensors"
+      ],
+      "extracted_text": {
+        "software_configuration_ui": {
+          "window_title": "C:\\Users\\mmn\\Documents\\PA_Backup\\ModbusKonfiguration\\ModbusKonfiguration.app\\Config1 - Automation Studio V 4.8.2",
+          "menu_bar": "File Edit View Open Project Debug Source Control Online Tools Window Help",
+          "navigation_pane": {
+            "physical_view": [
+              "X20CP1585",
+              "Serial",
+              "ETH",
+              "Modbus_Top_any",
+              "PLK",
+              "USB",
+              "X2X"
+            ],
+            "logical_view_tabs": [
+              "Logical",
+              "Configura",
+              "Physical"
+            ]
+          },
+          "details_pane": {
+            "modbus_top_any_settings": {
+              "general": {
+                "module_supervised": "off"
+              },
+              "ethernet": {
+                "mode": "Ethernet address",
+                "ip_address": "192.168.0.0",
+                "unit_identifier": "255",
+                "tcp_port": "502",
+                "number_of_pending_requests": "1",
+                "timeouts": {
+                  "refresh_time_violation": "1500",
+                  "plug_and_play_timer": "10"
+                }
+              },
+              "simulation_device": null,
+              "channel_configuration": {
+                "reset_outputs_on_fatal_error": null,
+                "block_1": {
+                  "function_code": "FC4: Read input register",
+                  "refresh_time": "100",
+                  "block_send_mode": "cyclic",
+                  "starting_address_read": "64",
+                  "number_of_items_read": "4",
+                  "starting_address_write": "0",
+                  "number_of_items_write": "1"
+                },
+                "channel_1": {
+                  "name": "Viscosity-AverageFloat32",
+                  "data_type": "REAL",
+                  "direction": "Read"
+                },
+                "channel_2": {
+                  "name": "Viscosity-AverageInt16",
+                  "data_type": "INT",
+                  "direction": "Read"
+                },
+                "channel_3": {
+                  "name": "Viscosity-AverageStatusUInt16",
+                  "data_type": "UINT",
+                  "direction": "Read"
+                },
+                "channel_4": {
+                  "name": "",
+                  "data_type": "BOOL",
+                  "direction": "Read"
+                }
+              }
+            }
+          }
+        },
+        "modbus_manual_excerpt_1": {
+          "pdf_title": "Modbus-Manual-TCP-V1.0.pdf",
+          "page_number": "Page 10 of 11",
+          "heading": "Reading Multiple parameters; Viscosity Average value in float, UInt and status.",
+          "modbus_parameters": {
+            "address": "64 = 0x0040 (word) (Address in Hex of the first register)",
+            "functional_code": "04=0x0004 (word) (Read input registers)",
+            "number_of_registers": "04=0x0004 (word)",
+            "unit_id": "255 = 0xFF"
+          },
+          "command_structure_table": {
+            "headers": [
+              "Trans. ID (H byte)",
+              "Trans. ID (L byte)",
+              "Proto. ID (H byte)",
+              "Proto. ID (L byte)",
+              "Length (H byte)",
+              "Length (L byte)",
+              "Unit ID",
+              "Funct. Code",
+              "Start Address (H byte)",
+              "Start Address (L byte)",
+              "# of registers (H byte)",
+              "# of registers (L byte)"
+            ],
+            "values": [
+              "00",
+              "00",
+              "00",
+              "00",
+              "00",
+              "06",
+              "FF",
+              "04",
+              "00",
+              "40",
+              "00",
+              "04"
+            ]
+          },
+          "command_response": {
+            "raw_data": "0408F451EC0EBD000",
+            "decoded_values": {
+              "viscosity_average_float32": "30.54 cP",
+              "viscosity_average_uint16": "3054 cP",
+              "viscosity_average_status_uint16": "0"
+            }
+          },
+          "copyright": "© Rheonics"
+        },
+        "caption_1": "Define channels according to the Rheonics Modbus-Manual - Input Registers (https://support.rheonics.com/en/support/solutions/articles/81000297664) - specify data to be read",
+        "modbus_manual_excerpt_2": {
+          "company_logo_text": "rheonics",
+          "heading": "Modbus TCP Manual",
+          "register_table": {
+            "headers": [
+              "Address (Dec)",
+              "Register (Dec)",
+              "Length (Reg.)",
+              "Type",
+              "Description"
+            ],
+            "parameters": {
+              "parameter_1": [
+                {
+                  "address_dec": "40",
+                  "register_dec": "300041",
+                  "length_reg": "2",
+                  "type": "Float",
+                  "description": "Parameter 1 value as float"
+                },
+                {
+                  "address_dec": "42",
+                  "register_dec": "300043",
+                  "length_reg": "1",
+                  "type": "Int16",
+                  "description": "Parameter 1 value scaled by 100 as signed integer"
+                },
+                {
+                  "address_dec": "43",
+                  "register_dec": "300044",
+                  "length_reg": "1",
+                  "type": "UInt16",
+                  "description": "Parameter 1 status (See data-types section)"
+                }
+              ],
+              "parameter_2": [
+                {
+                  "address_dec": "48",
+                  "register_dec": "300049",
+                  "length_reg": "2",
+                  "type": "Float",
+                  "description": "Parameter 2 value as float"
+                },
+                {
+                  "address_dec": "50",
+                  "register_dec": "300051",
+                  "length_reg": "1",
+                  "type": "Int16",
+                  "description": "Parameter 2 value scaled by 100 as signed integer"
+                },
+                {
+                  "address_dec": "51",
+                  "register_dec": "300052",
+                  "length_reg": "1",
+                  "type": "UInt16",
+                  "description": "Parameter 2 status (See datatypes)"
+                }
+              ],
+              "parameter_3": [
+                {
+                  "address_dec": "54",
+                  "register_dec": "300057",
+                  "length_reg": "2",
+                  "type": "Float",
+                  "description": "Parameter 3 value as float"
+                },
+                {
+                  "address_dec": "56",
+                  "register_dec": "300059",
+                  "length_reg": "1",
+                  "type": "Int16",
+                  "description": "Parameter 3 value scaled by 100 as signed integer"
+                },
+                {
+                  "address_dec": "57",
+                  "register_dec": "300060",
+                  "length_reg": "1",
+                  "type": "UInt16",
+                  "description": "Parameter 3 status (See datatypes)"
+                }
+              ],
+              "parameter_4": [
+                {
+                  "address_dec": "64",
+                  "register_dec": "300065",
+                  "length_reg": "2",
+                  "type": "Float",
+                  "description": "Parameter 4 value as float"
+                },
+                {
+                  "address_dec": "66",
+                  "register_dec": "300067",
+                  "length_reg": "1",
+                  "type": "Int16",
+                  "description": "Parameter 4 value scaled by 100 as signed integer"
+                },
+                {
+                  "address_dec": "67",
+                  "register_dec": "300068",
+                  "length_reg": "1",
+                  "type": "UInt16",
+                  "description": "Parameter 4 status (See datatypes)"
+                }
+              ],
+              "parameter_5": []
+            }
+          }
+        },
+        "caption_2": "Repeat steps for all the measurement parameters from the sensor you want to access from your PLC.",
+        "modbus_downloads_section": {
+          "heading": "Modbus related downloads & links",
+          "paragraph": "The following is a list of modbus manuals, register tables, and configuration files that are provided here to simplify the integration of Rheonics sensors with a PLC when using Modbus TCP."
+        }
+      },
+      "specifications": {
+        "ip_address": "192.168.0.0",
+        "unit_identifier": "255",
+        "tcp_port": "502",
+        "number_of_pending_requests": "1",
+        "refresh_time_violation": "1500",
+        "plug_and_play_timer": "10",
+        "modbus_block_refresh_time": "100",
+        "modbus_starting_address_read": "64 (decimal)",
+        "modbus_number_of_items_read": "4",
+        "modbus_starting_address_write": "0 (decimal)",
+        "modbus_number_of_items_write": "1",
+        "viscosity_average_float32": "30.54 cP",
+        "viscosity_average_uint16_scaled": "3054 cP",
+        "viscosity_average_status_uint16": "0",
+        "modbus_function_code_read_input_registers": "04 (0x0004)",
+        "modbus_command_structure_length": "06 (bytes)",
+        "modbus_command_structure_start_address": "0040 (hex)",
+        "modbus_command_structure_num_registers": "0004 (hex)"
+      },
+      "key_facts": [
+        "This document guides users through configuring Modbus TCP communication to read measurement parameters from Rheonics sensors using a PLC.",
+        "It demonstrates setting up Modbus communication parameters such as IP address (192.168.0.0), TCP port (502), Unit ID (255), and using function code FC4 to read input registers.",
+        "The configuration example illustrates reading Viscosity Average as a Float32 (e.g., 30.54 cP) and as a scaled UInt16 (e.g., 3054 cP), along with a status (UInt16 value of 0).",
+        "Rheonics provides Modbus manuals, register tables, and configuration files to simplify the integration of their sensors with PLCs using Modbus TCP.",
+        "The process involves defining channels for specific data types such as REAL for Float32, INT for Int16, and UINT for UInt16 parameters."
+      ],
+      "diagram_labels": [
+        "File",
+        "Edit",
+        "View",
+        "Open",
+        "Project",
+        "Debug",
+        "Source Control",
+        "Online",
+        "Tools",
+        "Window",
+        "Help",
+        "Physical View",
+        "Name",
+        "Value",
+        "X20CP1585",
+        "Serial",
+        "ETH",
+        "Modbus_Top_any",
+        "PLK",
+        "USB",
+        "X2X",
+        "General",
+        "Module supervised",
+        "Ethernet",
+        "Mode",
+        "IP address",
+        "Unit identifier",
+        "TCP port",
+        "Number of pending requests",
+        "Timeouts",
+        "Refresh time violation",
+        "Plug and play timer",
+        "Simulation device",
+        "Channel configuration",
+        "Reset outputs on fatal error",
+        "Block 1",
+        "Function code",
+        "Refresh time",
+        "Block send mode",
+        "Starting address (read)",
+        "Number of items (read)",
+        "Starting address (write)",
+        "Number of items (write)",
+        "Channel 1",
+        "Data type",
+        "Direction",
+        "Read",
+        "Viscosity-AverageFloat32",
+        "REAL",
+        "Channel 2",
+        "Viscosity-AverageInt16",
+        "INT",
+        "Channel 3",
+        "Viscosity-AverageStatusUInt16",
+        "UINT",
+        "Channel 4",
+        "BOOL",
+        "Logical",
+        "Configura",
+        "Reading Multiple parameters; Viscosity Average value in float, UInt and status.",
+        "Address",
+        "Functional code",
+        "Number of registers",
+        "Unit ID",
+        "Command Structure",
+        "Trans. ID (H byte)",
+        "Trans. ID (L byte)",
+        "Proto. ID (H byte)",
+        "Proto. ID (L byte)",
+        "Length (H byte)",
+        "Length (L byte)",
+        "Funct. Code",
+        "Start Address (H byte)",
+        "Start Address (L byte)",
+        "# of registers (H byte)",
+        "# of registers (L byte)",
+        "Command Response",
+        "Number of bytes",
+        "1st reg. (H byte)",
+        "1st reg. (L byte)",
+        "8th reg. (H byte)",
+        "8th reg. (L byte)",
+        "Viscosity Average (Float32)",
+        "Viscosity Average (UInt16)",
+        "Viscosity Average Status (UInt16)",
+        "© Rheonics",
+        "Page 10 of 11",
+        "Modbus TCP Manual",
+        "Address (Dec)",
+        "Register (Dec)",
+        "Length (Reg.)",
+        "Type",
+        "Description",
+        "Parameter 1",
+        "Parameter 1 value as float",
+        "Parameter 1 value scaled by 100 as signed integer",
+        "Parameter 1 status (See data-types section)",
+        "Parameter 2",
+        "Parameter 2 value as float",
+        "Parameter 2 value scaled by 100 as signed integer",
+        "Parameter 2 status (See datatypes)",
+        "Parameter 3",
+        "Parameter 3 value as float",
+        "Parameter 3 value scaled by 100 as signed integer",
+        "Parameter 3 status (See datatypes)",
+        "Parameter 4",
+        "Parameter 4 value as float",
+        "Parameter 4 value scaled by 100 as signed integer",
+        "Parameter 4 status (See datatypes)",
+        "Parameter 5"
+      ],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 3795,
+        "cost_usd": 0.009627300000000002
+      },
+      "source_file": "150_Modbus_TCP_integration_with_B&R_X20_and_B&R_Automation_studio.pdf"
+    },
+    {
+      "page_summary": "This page provides an overview of Rheonics Modbus TCP communication, including register types, configuration files for Modbuspoll software, and troubleshooting guides for common issues like Ethernet connectivity, IP address management, and Modbus register checking.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Modbus TCP",
+        "Rheonics sensor electronics SMET",
+        "Rheonics Sensor",
+        "Rheonics electronics"
+      ],
+      "extracted_text": "Rheonics Modbus TCP Manual\n(https://rheonics.com/resources/download-request-manual-modbus-tcp/)\nRheonics Modbus registers support articles\n*   input (https://support.rheonics.com/en/support/solutions/articles/81000297664) registers\n*   data (https://support.rheonics.com/en/support/solutions/articles/81000297665) types\n*   command (https://support.rheonics.com/en/support/solutions/articles/81000297668) types and response\n*   error (https://support.rheonics.com/en/support/solutions/articles/81000297667) status\n\nModbuspoll configuration file for input registers [download link, for use with modbuspoll software]\n*   input registers\n*   extended input registers (externally writable modbus register and estimated parameters)\n*   4-20mA configuration registers\n*   Location configuration registers\n*   Ethernet configuration registers\n*   Sensor s/n, Hardware and Firmware version registers\n\nTroubleshooting\n\nHow to connect ethernet cable to Rheonics electronics?\nSee the support knowledge article on connecting ethernet cable to sensor electronics (https://support.rheonics.com/en/support/solutions/articles/81000300292).\n\nHow to get the IP address of the Rheonics Sensor connected to the LAN?\nUsing RCP software (https://support.rheonics.com/en/support/solutions/articles/81000297177), you can both check the assigned IP address and also assign a static IP address or switch the unit to DHCP.\n\nHow to check Modbus registers on the Rheonics sensor using PC?\nUsers can use Modbus polling software to check the modbus registers on the Rheonics sensor using a PC. Modbuspoll (https://support.rheonics.com/en/support/solutions/articles/81000388169), is an external software that can be used.\n[We do not imply any guarantee or undertake any liability for your use of the software, use of any third party software is up to the customer]\n\nRheonics sensor electronics SMET does not get an IP address\nCheck that the sensor was ordered with ethernet and Modbus TCP option.\nCheck the ethernet setting on the network where the sensor is connected.\nIf a direct connection is used to PLC then ensure the sensor is assigned an IP address and subnet as needed by the PLC. Refer to the (https://support.rheonics.com/en/support/solutions/articles/81000297604) Modbus TCP support article (https://support.rheonics.com/en/support/solutions/articles/81000297604) to configure static IP",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics Modbus registers are categorized into input, data, command, and error types, each with dedicated support articles for detailed information.",
+        "A Modbuspoll configuration file is provided for input registers, intended for use with Modbuspoll software.",
+        "The Modbuspoll configuration covers various register types including input, extended input, 4-20mA configuration, location, Ethernet, and sensor serial number/hardware/firmware version.",
+        "To connect an Ethernet cable to Rheonics electronics, users should consult the support knowledge article on connecting Ethernet cable to sensor electronics.",
+        "The RCP software can be utilized to check and assign IP addresses for Rheonics sensors connected to a LAN, or to switch the unit to DHCP.",
+        "Modbus polling software, such as Modbuspoll, is recommended for checking Modbus registers on a Rheonics sensor via a PC.",
+        "If a Rheonics sensor electronics SMET does not obtain an IP address, verify that the sensor was ordered with the Ethernet and Modbus TCP option and check the Ethernet settings on the network.",
+        "For a direct connection to a PLC, ensure the sensor has a static IP address and subnet configured as required by the PLC, referring to the Modbus TCP support article for guidance."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "We do not imply any guarantee or undertake any liability for your use of the software, use of any third party software is up to the customer."
+      ],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1122,
+        "cost_usd": 0.0029447999999999996
+      },
+      "source_file": "150_Modbus_TCP_integration_with_B&R_X20_and_B&R_Automation_studio.pdf"
+    },
+    {
+      "page_summary": "This page provides a list of references, including links to Rheonics software manuals, communication protocol manuals, and product pages for various inline viscometers and density sensors.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel",
+        "Rheonics Modbus TCP",
+        "Rheonics SRV",
+        "Rheonics SRD",
+        "Rheonics DVP",
+        "Rheonics DVM",
+        "Inline viscometer SRV",
+        "Inline density and viscosity meter SRD",
+        "HPHT probe density and viscosity meter DVP",
+        "HPHT inline flow through density meter and viscometer DVM"
+      ],
+      "extracted_text": "address for the sensor.\n\nReferences\n\nRheonics Control Panel software manual (https://rheonics.com/resources/download-request-manual-rheonics-control-panel-software/)\nRheonics Modbus TCP manual (https://rheonics.com/resources/download-request-manual-modbus-tcp/)\nRheonics SRV, SRD, DVP and DVM product manuals (https://rheonics.com/resources/manuals/)\nInline viscometer SRV product page (https://rheonics.com/products/inline-viscometer-srv/)\nInline density and viscosity meter SRD product page (https://rheonics.com/products/inline-density-meter-srd/)\nHPHT probe density and viscosity meter DVP product page (https://rheonics.com/products/inline-gas-lng-density-meter-dvp/)\nHPHT inline flow through density meter and viscometer DVM product page (https://rheonics.com/products/hpht-pvt-density-meter-viscometer-dvm/)",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics provides a Control Panel software manual accessible via a dedicated URL.",
+        "A Modbus TCP manual from Rheonics is available online.",
+        "Product manuals for Rheonics SRV, SRD, DVP, and DVM sensors are accessible through a general manuals page.",
+        "A product page for the Inline viscometer SRV is available.",
+        "A product page for the Inline density and viscosity meter SRD is available.",
+        "A product page for the HPHT probe density and viscosity meter DVP is available.",
+        "A product page for the HPHT inline flow through density meter and viscometer DVM is available."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 594,
+        "cost_usd": 0.0016248
+      },
+      "source_file": "150_Modbus_TCP_integration_with_B&R_X20_and_B&R_Automation_studio.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

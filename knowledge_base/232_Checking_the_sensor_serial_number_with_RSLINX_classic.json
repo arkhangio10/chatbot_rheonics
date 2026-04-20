@@ -1,0 +1,112 @@
+{
+  "source_file": "232_Checking_the_sensor_serial_number_with_RSLINX_classic.pdf",
+  "total_pages": 2,
+  "chunks": [
+    {
+      "page_summary": "This page provides instructions on how to identify the serial number and sensor type of a Rheonics Ethernet/IP device using RSLinx Classic software.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics device",
+        "RSLINX classic",
+        "RSLinx Classic Lite",
+        "RH B19-1234 SRV"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nChecking the sensor serial number with RSLINX classic\nModified on: Wed, 1 Jun, 2022 at 7:59 PM\n\nAny Rheonics device that has Ethernet/IP protocol activated can have its serial number and sensor type verified with the RSLINX classic software. To do this the Rheonics sensor must be connected to the same network as the PLC. The device will appear with a yellow question mark showcasing the IP address, sensor serial number, and sensor type below.\n\nFigure 1. Finding the sensor serial number and sensor type with RsLinx classic.\n\nWhen the Eds file is installed, the device will appear on the device list from the RSLinx classic with Rheonics icon and provide the information from the sensor serial number and sensor type.",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics devices with activated Ethernet/IP protocol can have their serial number and sensor type verified using RSLINX classic software.",
+        "The Rheonics sensor needs to be connected to the same network as the PLC for discovery in RSLINX classic.",
+        "Initially, an unrecognized Rheonics device will appear in RSLINX classic with a yellow question mark, displaying its IP address, sensor serial number, and sensor type.",
+        "After the appropriate Eds file is installed, the device will appear in the RSLINX classic device list with a Rheonics icon and provide full information on its serial number and sensor type."
+      ],
+      "diagram_labels": [
+        "RSLinx Classic Lite - [RSWho - 1]",
+        "File",
+        "View",
+        "Communications",
+        "Station",
+        "DDE/OPC",
+        "Security",
+        "Window",
+        "Help",
+        "Autobrowse",
+        "Refresh",
+        "Not Browsing",
+        "Workstation, DESKTOP-T022CBI",
+        "Linx Gateways, Ethernet",
+        "AB_ETHIP-2, Ethernet",
+        "192.168.8.134, Micro820, 2080-LC20-20QBB",
+        "192.168.8.20, Unrecognized Device, RH B19-1234 SRV",
+        "192.168.8.134 2080-LC20-20...",
+        "192.168.8.20 RH B19-1234 SRV",
+        "For Help, press F1",
+        "NUM",
+        "05/30/22",
+        "12:41 PM"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 754,
+        "cost_usd": 0.0020247999999999998
+      },
+      "source_file": "232_Checking_the_sensor_serial_number_with_RSLINX_classic.pdf"
+    },
+    {
+      "page_summary": "This page displays a screenshot of the RSLinx Classic Lite software interface, illustrating the process of identifying a sensor's serial number and type (specifically an RH B19-1234 SRV) after its EDS file has been installed.",
+      "document_type": "manual",
+      "product_names": [
+        "RSLinx Classic Lite",
+        "RH B19-1234 SRV",
+        "2080-LC20-20...",
+        "AB_ETHIP-2"
+      ],
+      "extracted_text": "RSLinx Classic Lite - [RSWho - 1]\nFile View Communications Station DDE/OPC Security Window Help\nAutobrowse\nRefresh\nBrowsing - node 192.168.8.20 found\nWorkstation, DESKTOP-T022CBI\n  Linx Gateways, Ethernet\n    AB_ETHIP-2, Ethernet\n192.168.8.134\n2080-LC20-20...\n192.168.8.20\nRH B19-1234 SRV\nFigure 2. Finding the sensor serial number and sensor type with RsLinx classic when the eds file is installed.",
+      "specifications": {},
+      "key_facts": [
+        "The RSLinx Classic software can be used to identify a sensor's serial number and type.",
+        "For a sensor to be properly identified in RSLinx Classic, its corresponding EDS (Electronic Data Sheet) file must be installed.",
+        "A sensor identified as 'RH B19-1234 SRV' is connected and found at IP address 192.168.8.20.",
+        "Another device, '2080-LC20-20...', is detected at IP address 192.168.8.134 but appears to be unrecognized or offline (indicated by a crossed-out icon)."
+      ],
+      "diagram_labels": [
+        "RSLinx Classic Lite",
+        "RSWho - 1",
+        "File",
+        "View",
+        "Communications",
+        "Station",
+        "DDE/OPC",
+        "Security",
+        "Window",
+        "Help",
+        "Autobrowse",
+        "Refresh",
+        "Browsing - node 192.168.8.20 found",
+        "Workstation, DESKTOP-T022CBI",
+        "Linx Gateways, Ethernet",
+        "AB_ETHIP-2, Ethernet",
+        "192.168.8.134",
+        "2080-LC20-20...",
+        "192.168.8.20",
+        "RH B19-1234 SRV",
+        "Figure 2."
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 704,
+        "cost_usd": 0.0018997999999999999
+      },
+      "source_file": "232_Checking_the_sensor_serial_number_with_RSLINX_classic.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

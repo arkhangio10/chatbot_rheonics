@@ -1,0 +1,115 @@
+{
+  "source_file": "059_Setting_4-20mA_range_for_getting_the_full_range_while_ensuring_sufficient_sensitivity_to_viscosity_change.pdf",
+  "total_pages": 2,
+  "chunks": [
+    {
+      "page_summary": "This page details how to set the 4-20mA output range for a Rheonics viscometer, ensuring full range and sensitivity across a standard viscosity range, using a linear equation model.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nSetting 4-20mA range for getting the full range while ensuring sufficient sensitivity to viscosity change\n\nModified on: Wed, 11 May, 2022 at 7:40 AM\n\nA current loop can be modeled with a commonly used equation of a straight line with the form y = mx + b. 4-20mA signals represents a value in 0 - 100% scale.\n\nFor Rheonics standard range of viscosity(0-3000cP) this line can be modeled as follows:\n\n[Graph: Y-axis labeled 'mA', X-axis labeled 'Centipoise']\n\nWhere:\ny: Instrument Output\nx: Instrument Input\nm: Slope\nb: y-intercept\n\nFinding m and b:\nm = Rise / Run\n\nIn our scenario m is calculated as.",
+      "specifications": {
+        "Output Signal Range": "4-20 mA",
+        "Viscosity Range (Rheonics standard)": "0-3000 cP"
+      },
+      "key_facts": [
+        "The 4-20mA current loop signal represents a value in a 0-100% scale.",
+        "The relationship between viscosity (input) and current (output) for Rheonics viscometers in the 0-3000 cP range can be modeled by a straight line equation (y = mx + b).",
+        "y represents the Instrument Output (current in mA).",
+        "x represents the Instrument Input (viscosity in Centipoise).",
+        "m is the slope of the line, and b is the y-intercept.",
+        "The slope (m) is calculated as 'Rise / Run'."
+      ],
+      "diagram_labels": [
+        "mA",
+        "Centipoise"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 536,
+        "cost_usd": 0.0014798
+      },
+      "source_file": "059_Setting_4-20mA_range_for_getting_the_full_range_while_ensuring_sufficient_sensitivity_to_viscosity_change.pdf"
+    },
+    {
+      "page_summary": "This page explains the linear scaling of analog current signals from a Rheonics sensor and demonstrates how a Siemens PLC card interprets these signals into digital counts across various current ranges, illustrating concepts of overflow, overrange, and underflow.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics sensor",
+        "Siemens card 6ES7134-6GD01-0BA1",
+        "Micro820"
+      ],
+      "extracted_text": "m = Rise / Run = (y1 - y0) / (x1 - x0) = (20 - 4) / (3000 - 0) = 16 / 3000\n\nb is calculated as the value that intercepts with the y-axis. b is equal to 4.\n\nUsing this linear equation, we can predict any value for y given x, and vice versa. To find the correct limits to use with the Rheonics sensor, for example with a viscosity of 1cP for water the signal you get on the analog channel is 4 mA + 1/3000*16 mA = 4.0053 mA ( you get a 0.0053 mA signal for water) so you cannot measure it with anything but an extremely accurate ammeter!\n\nIf the range is reduced to 0-10cP, for example, 1cP will give you 4mA + 1/10*16mA = 5.6mA - something that a PLC can actually measure!\n\nPLC resolution\n\nFor a Siemens card 6ES7134-6GD01-0BA1 with a resolution of 16 bits with a range of -32768 to 32,767 ADC counts, the raw value from the PLC must be scaled to real-life measurements. In our scenario, the low limit will correspond to (4mA-0-0cP) and High Limit (20mA-27648-3000cP)\n\nValues\nDec.  Hex.  0 to 20 mA *     4 to 20 mA     Range\n32767 7FFF  >23.52 mA        >22.81 mA      Overflow\n32511 7EFF  23.52 mA         22.81 mA       Overrange\n27649 6C01\n27648 6C00  20 mA            20 mA          Nominal range\n20736 5100  15 mA            16 mA\n1     1     723.4 nA         4 mA + 578.7 nA\n0     0     0 mA             4 mA\n-1    FFFF                                  Underrange\n-4864 ED00  -3.52 mA         1.185 mA\n-32768 8000 <-3.52 mA        <1.185 mA      Underflow\n\nReferences:\nAnalog signal Integration with Micro820\n(https://support.rheonics.com/en/support/solutions/articles/81000398725)",
+      "specifications": {
+        "linear_equation_slope": "16/3000",
+        "linear_equation_y_intercept": "4",
+        "example_viscosity_water": "1 cP",
+        "analog_signal_for_1cP_standard_range": "4.0053 mA",
+        "analog_signal_for_1cP_0-10cP_range": "5.6 mA",
+        "plc_card_model": "Siemens 6ES7134-6GD01-0BA1",
+        "plc_card_resolution": "16 bits",
+        "plc_card_adc_count_range": "-32768 to 32767 counts",
+        "plc_scaling_low_limit": "4 mA (0 cP)",
+        "plc_scaling_high_limit": "20 mA (3000 cP)",
+        "plc_adc_nominal_high_limit": "27648 counts",
+        "current_range_0-20mA_overflow_value": ">23.52 mA",
+        "current_range_0-20mA_overflow_adc": "32767 Dec",
+        "current_range_0-20mA_overrange_value": "23.52 mA",
+        "current_range_0-20mA_overrange_adc": "32511 Dec",
+        "current_range_0-20mA_nominal_high_value": "20 mA",
+        "current_range_0-20mA_nominal_high_adc": "27648 Dec",
+        "current_range_0-20mA_nominal_low_value": "0 mA",
+        "current_range_0-20mA_nominal_low_adc": "0 Dec",
+        "current_range_0-20mA_underflow_value": "<-3.52 mA",
+        "current_range_0-20mA_underflow_adc": "-32768 Dec",
+        "current_range_4-20mA_overflow_value": ">22.81 mA",
+        "current_range_4-20mA_overflow_adc": "32767 Dec",
+        "current_range_4-20mA_overrange_value": "22.81 mA",
+        "current_range_4-20mA_overrange_adc": "32511 Dec",
+        "current_range_4-20mA_nominal_high_value": "20 mA",
+        "current_range_4-20mA_nominal_high_adc": "27648 Dec",
+        "current_range_4-20mA_nominal_low_value": "4 mA",
+        "current_range_4-20mA_nominal_low_adc": "0 Dec",
+        "current_range_4-20mA_underflow_value": "<1.185 mA",
+        "current_range_4-20mA_underflow_adc": "-32768 Dec"
+      },
+      "key_facts": [
+        "A linear equation `m = (y1 - y0) / (x1 - x0)` with a y-intercept of `b = 4` is provided for calculating linear relationships between input and output.",
+        "For a Rheonics sensor, a viscosity of 1 cP for water in a standard range (implied 0-3000cP) results in an analog signal of approximately 4.0053 mA, with a very small differential signal (0.0053 mA) that requires an extremely accurate ammeter to measure.",
+        "Reducing the measurement range, such as to 0-10 cP, enhances the analog signal's sensitivity for a given viscosity (e.g., 1 cP yields 5.6 mA), making it more discernible by a PLC.",
+        "The Siemens card 6ES7134-6GD01-0BA1 has a 16-bit resolution, converting analog current signals into digital counts ranging from -32768 to 32,767.",
+        "PLC raw ADC values must be scaled, where the low limit corresponds to 4mA (0cP) and the high limit to 20mA (3000cP) with 27648 ADC counts.",
+        "The table illustrates various digital ADC counts (Decimal and Hexadecimal) and their corresponding current values for both 0-20 mA and 4-20 mA measuring ranges, along with classifications such as Overflow, Overrange, Nominal range, Underrange, and Underflow."
+      ],
+      "diagram_labels": [
+        "Values",
+        "Dec.",
+        "Hex.",
+        "Current measuring range",
+        "0 to 20 mA *",
+        "4 to 20 mA",
+        "Range"
+      ],
+      "warnings_notes": [
+        "Measurement of very small signal changes (e.g., 0.0053 mA for water at 1cP in a wide range) requires an extremely accurate ammeter.",
+        "The asterisk next to '0 to 20 mA *' in the table header implies a missing footnote or further explanation."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1996,
+        "cost_usd": 0.0051297999999999995
+      },
+      "source_file": "059_Setting_4-20mA_range_for_getting_the_full_range_while_ensuring_sufficient_sensitivity_to_viscosity_change.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

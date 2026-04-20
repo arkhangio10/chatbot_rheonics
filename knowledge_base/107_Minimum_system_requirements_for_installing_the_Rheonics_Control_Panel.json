@@ -1,0 +1,44 @@
+{
+  "source_file": "107_Minimum_system_requirements_for_installing_the_Rheonics_Control_Panel.pdf",
+  "total_pages": 1,
+  "chunks": [
+    {
+      "page_summary": "This page details the minimum system requirements for installing the Rheonics Control Panel, including operating system, necessary software, free disk space, and RAM.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics Control Panel"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nMinimum system requirements for installing the\nRheonics Control Panel\n\nModified on: Fri, 3 Jul, 2020 at 10:43 AM\n\nOperating System: Windows 7 or Higher (Windows 10 recommended)\nRequired: LabVIEW Run-Time Engine 2019, and NI-VISA Run-Time Engine 19.0. Included in the full installer RCPSetup_Vx.x.x.x_full.exe\nBoth run-time engine installers are also available online at:\nhttps://www.ni.com/es-cr/support/downloads/software-products/download.labview.html#301182\n(https://www.ni.com/es-cr/support/downloads/software-products/download.labview.html#301182)\nhttps://www.ni.com/es-cr/support/downloads/drivers/download.ni-visa.html#305862\n(https://www.ni.com/es-cr/support/downloads/drivers/download.ni-visa.html#305862)\nFree Disk Space: 2 GB (For full installation including run-time engines)\nRAM: 2GB",
+      "specifications": {
+        "Operating System": "Windows 7 or Higher (Windows 10 recommended)",
+        "Required Software": "LabVIEW Run-Time Engine 2019, NI-VISA Run-Time Engine 19.0",
+        "Free Disk Space": "2 GB",
+        "RAM": "2 GB"
+      },
+      "key_facts": [
+        "The Rheonics Control Panel requires an operating system of Windows 7 or higher, with Windows 10 being recommended.",
+        "Required software includes LabVIEW Run-Time Engine 2019 and NI-VISA Run-Time Engine 19.0.",
+        "The full installer for the Rheonics Control Panel is named RCPSetup_Vx.x.x.x_full.exe and includes the necessary run-time engines.",
+        "Online links are provided for downloading the LabVIEW and NI-VISA run-time engine installers.",
+        "A minimum of 2 GB of free disk space is required for a full installation, which includes the run-time engines.",
+        "The system needs at least 2 GB of RAM.",
+        "The document was modified on Friday, July 3, 2020, at 10:43 AM."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 683,
+        "cost_usd": 0.0018473
+      },
+      "source_file": "107_Minimum_system_requirements_for_installing_the_Rheonics_Control_Panel.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

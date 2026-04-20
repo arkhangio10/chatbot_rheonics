@@ -1,0 +1,419 @@
+{
+  "source_file": "048_Wire_preparation_for_SME-DRM_(Din_Rail_Mount).pdf",
+  "total_pages": 12,
+  "chunks": [
+    {
+      "page_summary": "This page provides guidance and details on wire preparation techniques for Rheonics sensor cables, specifically for use with the SME-DRM (Din Rail Mount) transmitter, outlining involved products, purpose, and required tools.",
+      "document_type": "manual",
+      "product_names": [
+        "SME-DRM",
+        "SRV",
+        "SRD",
+        "DVM",
+        "DVP",
+        "SMET"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nWire preparation for SME-DRM (Din Rail Mount)\n\nModified on: Thu, 17 Nov, 2022 at 6:43 PM\n\nWhich Products are Involved?\nSRV (https://rheonics.com/products/inline-viscometer-srv/)\nSRD (https://rheonics.com/products/inline-density-meter-srd/)\nDVM (https://rheonics.com/products/hpht-pvt-density-meter-viscometer-dvm/)\nDVP (https://rheonics.com/products/inline-gas-lng-density-meter-dvp/)\nSME-DRM (https://rheonics.com/electronics-and-communication/)\nFor SME-DRM (DIN rail mount) transmitter. Visit our product page to learn more about the full features.\nVisit Rheonics product page: https://rheonics.com/products/\n\nWhat is the purpose of this article?\nTo give guidance and good practices when preparing Rheonics sensor cables with a crimp of length 8mm and terminal diameter 1mm. The terminals of the SMET are rated for wires of 0.2 - 1.5 mm2 i.e. AWG 24 - 16.\n\n1. Tools and BoM list\n\n1.1. Tools\n* Crimping Tool\nCrimping tools are used to deform materials and create connections. To connect wires together or to other connectors, crimping is commonly used in electrical work.\n\n* Precision Micro Wire Cutter\nA wire cutter or cable cutter is a tool that cut wires and cables in a safe manner without damaging the insulation or conductors.",
+      "specifications": {
+        "crimp_length": "8 mm",
+        "terminal_diameter": "1 mm",
+        "wire_gauge_min_mm2": "0.2 mm2",
+        "wire_gauge_max_mm2": "1.5 mm2",
+        "wire_gauge_min_awg": "24 AWG",
+        "wire_gauge_max_awg": "16 AWG",
+        "crimping_tool_awg_range": "24-10 AWG"
+      },
+      "key_facts": [
+        "This article provides guidance and good practices for preparing Rheonics sensor cables.",
+        "The document specifically addresses wire preparation for the SME-DRM (DIN rail mount) transmitter.",
+        "Rheonics sensor cables should be prepared with a crimp length of 8mm and a terminal diameter of 1mm.",
+        "The terminals of the SMET are rated for wires ranging from 0.2 mm2 (AWG 24) to 1.5 mm2 (AWG 16).",
+        "Crimping tools are commonly used in electrical work to deform materials and create secure electrical connections.",
+        "Precision micro wire cutters are used to cut wires and cables safely without damaging insulation or conductors."
+      ],
+      "diagram_labels": [
+        "Wire preparation for shielded cable",
+        "1. Tools and BoM list",
+        "2. Cable Length",
+        "3. Cable strip",
+        "4. Cutting cable's shield",
+        "5. Strip the wire ends",
+        "6. Properly usage of crimpers",
+        "7. Preparing grounding cable",
+        "8. Hiding shield leftovers",
+        "9. Shrink tube positioning",
+        "Figure 1. Crimping Tool - 24-10 AWG.[1]",
+        "Figure 2. Precision Micro Wire Cutter. [2]"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 968,
+        "cost_usd": 0.0025597999999999997
+      },
+      "source_file": "048_Wire_preparation_for_SME-DRM_(Din_Rail_Mount).pdf"
+    },
+    {
+      "page_summary": "This page provides descriptions and images for common tools including a measuring tape, stripping tool, knife, and soldering equipment.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "• Measuring Tape\nA Measure Tape is a tool used to measure length.\nFigure 3. Measuring Tape.[3]\n• Stripping tool\nWire strippers are portable handheld tools used by workers, especially electricians, to remove the protective coating of electric wires for replacement or repair.\nFigure 4. Stripping tool[4]\n• Knife\nA tool used to cut wires or cables.\nFigure 5. Knife. [5]\n• Soldering Equipment\nA durable, permanent connection can be created by joining conductive metal elements with solder. Soldering machines are essential tools for building, modifying, and repairing electronics.",
+      "specifications": {},
+      "key_facts": [
+        "A Measure Tape is a tool used to measure length.",
+        "Wire strippers are portable handheld tools used by workers, especially electricians, to remove the protective coating of electric wires for replacement or repair.",
+        "A knife is a tool used to cut wires or cables.",
+        "A durable, permanent connection can be created by joining conductive metal elements with solder.",
+        "Soldering machines are essential tools for building, modifying, and repairing electronics."
+      ],
+      "diagram_labels": [
+        "Figure 3. Measuring Tape.[3]",
+        "Figure 4. Stripping tool[4]",
+        "Figure 5. Knife. [5]"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 365,
+        "cost_usd": 0.0010523
+      },
+      "source_file": "048_Wire_preparation_for_SME-DRM_(Din_Rail_Mount).pdf"
+    },
+    {
+      "page_summary": "This page describes soldering equipment and a hot air gun, detailing their components and providing a Bill of Materials for related items, including specific ferrule dimensions.",
+      "document_type": "manual",
+      "product_names": [
+        "937 SOLDERING STATION",
+        "RS PRO (Hot air gun)",
+        "RND (Ferrule)",
+        "RS PRO (Solder wire)",
+        "HellermannTyton (Heat Shrink tube)",
+        "Vogt (Eyelet)"
+      ],
+      "extracted_text": "Iron handle\nIron temperature display\nSoldering iron temperature adjustment knob\nIron fever indicator\nIron temperature adjustable knob\nIron seat\nHigh temperature cleaning sponge\nFigure 6. Soldering Equipment.[6]\nHot air gun\nHeat guns are devices that emit a jet of compressed air toward a particular point or surface.\nFigure 7. Hot air gun.[7]\n1.2. BoM list\nItem name | Manufacturer name | Manufacturer Part Number | Vendor Part number | Reference\nFerrule | RND | RND 465-00566 | 301-10-345 | https://www.distrelec.ch/\nSolder wire | RS PRO | 800-7661 | 800-7661 | https://uk.rs-online.com/web/\nHeat Shrink tube | HellermannTyton | 380-03005 | 711-4783 | https://uk.rs-online.com/web/\nEyelet | Vogt | 2007.68 | 300-73-088 | https://www.distrelec.ch/\nFerrule\nCorrect ferrule size must be selected based on the gauge of the wire, as a standard Rheonics uses ferrule with a pin length of 8mm and diameter of 1mm (cross-section 0.5mm2).",
+      "specifications": {
+        "Soldering iron displayed temperature": "300 °C",
+        "RND Ferrule Manufacturer Part Number": "RND 465-00566",
+        "RND Ferrule Vendor Part Number": "301-10-345",
+        "RS PRO Solder wire Manufacturer Part Number": "800-7661",
+        "RS PRO Solder wire Vendor Part Number": "800-7661",
+        "HellermannTyton Heat Shrink tube Manufacturer Part Number": "380-03005",
+        "HellermannTyton Heat Shrink tube Vendor Part Number": "711-4783",
+        "Vogt Eyelet Manufacturer Part Number": "2007.68",
+        "Vogt Eyelet Vendor Part Number": "300-73-088",
+        "Rheonics standard ferrule pin length": "8 mm",
+        "Rheonics standard ferrule diameter": "1 mm",
+        "Rheonics standard ferrule cross-section": "0.5 mm2"
+      },
+      "key_facts": [
+        "Heat guns are devices that emit a jet of compressed air toward a particular point or surface.",
+        "Correct ferrule size must be selected based on the gauge of the wire.",
+        "Rheonics uses a standard ferrule with a pin length of 8mm and a diameter of 1mm (cross-section 0.5mm2)."
+      ],
+      "diagram_labels": [
+        "Iron handle",
+        "Iron temperature display",
+        "Soldering iron temperature adjustment knob",
+        "Iron fever indicator",
+        "Iron temperature adjustable knob",
+        "Iron seat",
+        "High temperature cleaning sponge"
+      ],
+      "warnings_notes": [
+        "CE (compliance mark)",
+        "ESD SAFE (safety indication)",
+        "Correct ferrule size must be selected based on the gauge of the wire."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 912,
+        "cost_usd": 0.0024197999999999997
+      },
+      "source_file": "048_Wire_preparation_for_SME-DRM_(Din_Rail_Mount).pdf"
+    },
+    {
+      "page_summary": "This page describes common electrical installation components including insulated ferrules, solder wire, and heat shrink tubing, outlining their characteristics and uses.",
+      "document_type": "manual",
+      "product_names": [
+        "22 AWG (8mm Pin) Insulated Ferrules",
+        "Solder wire",
+        "RS PRO Solder wire (UFI:MVDF-2A8S-GJ02-916C, P/N RS800-7661)",
+        "Heat shrink tube"
+      ],
+      "extracted_text": "Figure 8. 22 AWG (8mm Pin) Insulated Ferrules. [8]\n\n* Solder wire\nSolder wires are wires with a low melting point, used to create joints using a soldering iron.\n\n(Solder Reel Details)\nRS PRO\nRS Components Ltd., NW17 9RS.UK\n60031 France\nwww.rs-components.com\nUFI:MVDF-2A8S-GJ02-916C\nFluxCore\nNC Flux\n1.1% Flux\nLot# 21040601\nLeaded\nSn60/Pb40\n0.028\" Dia\n0.71 mm\nP/N 0.25Kg\nRS800-7661\nSee SDS Before Use\n\nFigure 9. Solder wire[9]\n\n* Heat shrink tube\nHeat shrink tubing is a common element in most electrical installations that protects wires from moisture, dust, abrasion, and sharp objects that might otherwise damage them.",
+      "specifications": {
+        "Ferrule Wire Gauge": "22 AWG",
+        "Ferrule Pin Length": "8 mm",
+        "Solder Composition": "Sn60/Pb40",
+        "Solder Flux Type": "NC Flux",
+        "Solder Flux Content": "1.1%",
+        "Solder Diameter": "0.028 inches (0.71 mm)",
+        "Solder Weight": "0.25 Kg"
+      },
+      "key_facts": [
+        "Solder wires are wires with a low melting point, used to create joints using a soldering iron.",
+        "Heat shrink tubing is a common element in most electrical installations that protects wires from moisture, dust, abrasion, and sharp objects that might otherwise damage them."
+      ],
+      "diagram_labels": [
+        "Figure 8. 22 AWG (8mm Pin) Insulated Ferrules.",
+        "Figure 9. Solder wire",
+        "RS PRO",
+        "FluxCore",
+        "Leaded"
+      ],
+      "warnings_notes": [
+        "See SDS Before Use"
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 656,
+        "cost_usd": 0.0017798
+      },
+      "source_file": "048_Wire_preparation_for_SME-DRM_(Din_Rail_Mount).pdf"
+    },
+    {
+      "page_summary": "This page provides instructions for cable preparation, including cutting to length and stripping, along with visual examples of heat shrink tubes and eyelets.",
+      "document_type": "manual",
+      "product_names": [
+        "SME-DRM"
+      ],
+      "extracted_text": "Figure 10. Heat shrink tube[10]\n\n*   Eyelet\nEyelet fittings are used for mounting cable assemblies using screws, pins, rivets, and bolts.\n\nFigure 11. Eyelet. [11]\n\n2. Cable Length\n\nRequired tools:\n1. Knife\n2. Measurement tape\n\n*   Take the cable and cut the required length for your application by measuring with tape. We recommend stripping out the cable sheath at 18 cm (7 inches) from the end as a suitable length to prepare the cables for attachment to SME-DRM.\n\nFigure 12. Cutting cable to the correct length.\n\n3. Cable strip\n\nRequirements:",
+      "specifications": {
+        "cable sheath strip length": "18 cm (7 inches)"
+      },
+      "key_facts": [
+        "Eyelet fittings are used for mounting cable assemblies using screws, pins, rivets, and bolts.",
+        "Required tools for cable length preparation are a knife and measurement tape.",
+        "It is recommended to strip out the cable sheath at 18 cm (7 inches) from the end for attachment to SME-DRM."
+      ],
+      "diagram_labels": [
+        "Figure 10. Heat shrink tube",
+        "Figure 11. Eyelet.",
+        "Figure 12. Cutting cable to the correct length."
+      ],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 398,
+        "cost_usd": 0.0011348
+      },
+      "source_file": "048_Wire_preparation_for_SME-DRM_(Din_Rail_Mount).pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions for preparing a cable, including stripping the sheath, cutting the cable shield, and cleaning remnants, using tools like a knife, cutter, and cable stripper.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "1. Knife\n• Strip out the sheath with the help of the cutter and a previous cut.\n\nFigure 13. Strip cable sheath.\n\n4. Cutting cable shield\nRequirements:\n1. Knife\n2. Cutter\n• Loosen the metal shield from the black cable cover and cut it out.\n\nFigure 14. Removing the cable shielding to get access to the internal wires.\n• With the help of the cutter, clean all the remnants from the shield and cable cover.\n\nFigure 15. Cleaning the cover remnants.\n\n5. Stripping the wire ends\nRequirement:\n1. Cable stripper",
+      "specifications": {},
+      "key_facts": [
+        "To prepare a cable, first strip out the sheath using a knife and a cutter after making a previous cut.",
+        "Cutting the cable shield requires a knife and a cutter as tools.",
+        "The metal shield should be loosened from the black cable cover and then cut out.",
+        "After removing the cable shielding, use a cutter to clean all remnants from the shield and cable cover.",
+        "Stripping the wire ends requires a cable stripper."
+      ],
+      "diagram_labels": [
+        "Figure 13. Strip cable sheath.",
+        "Figure 14. Removing the cable shielding to get access to the internal wires.",
+        "Figure 15. Cleaning the cover remnants."
+      ],
+      "warnings_notes": [],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 400,
+        "cost_usd": 0.0011398
+      },
+      "source_file": "048_Wire_preparation_for_SME-DRM_(Din_Rail_Mount).pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions and best practices for stripping and crimping wires, specifically for sensor cable connections, including tool usage and ferrule recommendations.",
+      "document_type": "manual",
+      "product_names": [
+        "SME",
+        "sensor cable"
+      ],
+      "extracted_text": "Stripping the wire at 9mm from the end with the stripping tool.\n6. Proper usage of crimpers\nRequirement:\n1. Crimping tool\nYour crimping tool should have a nest for inserting the terminal. After inserting in the correct slot, squeeze the crimp tool firmly and release it to get a long-lasting, tight fuse.\nUnused wires should be neither stripped nor crimped. We recommend protectiong the ends with a shrink tube to avoid the ends making any electrica\nWe recommend crimping the ferrules on two sides instead of 4 sides as they work better with the terminals on the SME.\nTwist the wire and Crimp them (Crimpers) using the Crimping Tool.\nFigure 16. Stripping wire end\nFigure 17. Crimping the wire end.\nFinal results after crimping all wires from the sensor cable.",
+      "specifications": {
+        "stripping_length": "9mm"
+      },
+      "key_facts": [
+        "Wires should be stripped 9mm from the end using a stripping tool.",
+        "A crimping tool needs a nest for inserting the terminal.",
+        "To achieve a long-lasting, tight fuse, the crimp tool should be squeezed firmly after the terminal is in the correct slot.",
+        "Unused wires should not be stripped or crimped.",
+        "Crimping ferrules on two sides is recommended over four sides for better compatibility with SME terminals.",
+        "Wires must be twisted before crimping them with the crimping tool."
+      ],
+      "diagram_labels": [
+        "Weidmüller stripax",
+        "KNIPEX GERMANY",
+        ".25",
+        ".50",
+        "1.0",
+        "1.5",
+        "2.5",
+        "Figure 16. Stripping wire end",
+        "Figure 17. Crimping the wire end."
+      ],
+      "warnings_notes": [
+        "Unused wires should be neither stripped nor crimped. We recommend protectiong the ends with a shrink tube to avoid the ends making any electrica (text cut off, likely 'electrical contact').",
+        "We recommend crimping the ferrules on two sides instead of 4 sides as they work better with the terminals on the SME."
+      ],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 600,
+        "cost_usd": 0.0016397999999999999
+      },
+      "source_file": "048_Wire_preparation_for_SME-DRM_(Din_Rail_Mount).pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions and visual aids for preparing a grounding cable, including crimping wires, preparing metal shield threads, and stripping thin cables.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Figure 18. Crimped wires.\n\n7. Preparing grounding cable\n\nRequirements:\n1. Soldering machine\n2. Solder wire\n3. Heat Shrink tube\n4. Hot air gun\n\n*   Now take the prepared sensor cable and the metal shield and put them together to one side.\n\nFigure 19. Metal shield thread prepared to be twisted.\n\n*   Take a thin cable and strip both ends.\n\nFigure 20. Thin cable with both ends stripped.\n\n*   Take the twisted metal shield of the prepared sensor cable and the stripped end of the thin wire and twist them together by adding some flux if necessary.",
+      "specifications": {},
+      "key_facts": [
+        "Preparing a grounding cable requires a soldering machine, solder wire, heat shrink tube, and a hot air gun.",
+        "The prepared sensor cable and metal shield should be combined on one side.",
+        "A thin cable needs to have both its ends stripped.",
+        "The twisted metal shield of the sensor cable and the stripped end of the thin wire should be twisted together, potentially with flux."
+      ],
+      "diagram_labels": [
+        "Figure 18. Crimped wires.",
+        "Figure 19. Metal shield thread prepared to be twisted.",
+        "Figure 20. Thin cable with both ends stripped."
+      ],
+      "warnings_notes": [],
+      "page_num": 8,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 393,
+        "cost_usd": 0.0011223000000000001
+      },
+      "source_file": "048_Wire_preparation_for_SME-DRM_(Din_Rail_Mount).pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions and corresponding images for soldering cable connections, applying heat shrink, and preparing a ground wire, culminating in a section about managing shield leftovers.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Figure 21. Ground cable\n\n*   Solder the joint obtained in the previous step using the soldering equipment and the solder wire.\n\nFigure 22. Soldering the join from two wires.\n\n*   Put a heat shrink and pull it back so it completely covers the solder joint. Apply heat with the air gun.\n\nFigure 23. Ground wire with Heat shrink\n\n*   Soldering the ground wire in preparation for the eyelet.\n\nFigure 24. Applying soldering material to the ground wire cable end.\n\n8. Hiding shield leftovers",
+      "specifications": {},
+      "key_facts": [
+        "The joint from the previous step should be soldered using appropriate equipment and solder wire.",
+        "A heat shrink must be positioned to completely cover the solder joint and then heated with an air gun.",
+        "The ground wire requires soldering as a preparatory step for attaching an eyelet.",
+        "Soldering material is to be applied to the end of the ground wire cable.",
+        "Section 8 of the document covers the process of hiding shield leftovers."
+      ],
+      "diagram_labels": [
+        "Figure 21. Ground cable",
+        "Figure 22. Soldering the join from two wires.",
+        "Figure 23. Ground wire with Heat shrink",
+        "Figure 24. Applying soldering material to the ground wire cable end."
+      ],
+      "warnings_notes": [],
+      "page_num": 9,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 404,
+        "cost_usd": 0.0011498
+      },
+      "source_file": "048_Wire_preparation_for_SME-DRM_(Din_Rail_Mount).pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions with accompanying figures on how to apply heat shrink tubing and prepare a wire for soldering an eyelet on a sensor cable.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Requirement:\n1. Heat Shrink\n2. Hot air gun\n3. Eyelet\n\n*   Pull the shrink tube over the prepared sensor cable to cover the group of wires.\n\nFigure 25. Heat shrink tube pulled back in sensor cable cover\n\n*   Blow hot air using the hot air gun at the shrink tube when oriented as instructed in the previous step.\n\nFigure 26. Hot air was applied to the heat shrink tube\n\n*   Inserting the Heat Shrink tubing before soldering the eyelet.\n\nFigure 27. Inserting Heat Shrink tube\n\n*   Soldering the eyelet with the ground wire.",
+      "specifications": {},
+      "key_facts": [
+        "The required items for this procedure are heat shrink, a hot air gun, and an eyelet.",
+        "The first step involves pulling the shrink tube over the prepared sensor cable to cover the wires.",
+        "A hot air gun is used to apply heat to the shrink tube, causing it to shrink.",
+        "Heat shrink tubing must be inserted onto the wire before the eyelet is soldered.",
+        "An eyelet is to be soldered with the ground wire."
+      ],
+      "diagram_labels": [
+        "Figure 25. Heat shrink tube pulled back in sensor cable cover",
+        "Figure 26. Hot air was applied to the heat shrink tube",
+        "Figure 27. Inserting Heat Shrink tube"
+      ],
+      "warnings_notes": [],
+      "page_num": 10,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 413,
+        "cost_usd": 0.0011723
+      },
+      "source_file": "048_Wire_preparation_for_SME-DRM_(Din_Rail_Mount).pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions for assembling a sensor cable for the Rheonics SME-DRM device, detailing the process of soldering an eyelet with a ground wire and securing it with heat shrink, along with relevant references and recommended articles.",
+      "document_type": "manual",
+      "product_names": [
+        "SME-DRM"
+      ],
+      "extracted_text": "Figure 28. Soldering the eyelet with the ground wire.\n\n*   Cover the eyelet with heat shrink and blow it with heat to secure the joint.\n\nFigure 29. Eyelet with heat shrink.\n\n*   After all the steps are complete the final result for the SME-DRM (https://rheonics.com/electronics-and-communication/) sensor cable is as shown below:\n\nFigure 30. Sensor cable assembly completed for use with SME-DRM.\n\nReferences:\n\n[1] https://www.knipex-tools.com/products/crimping-pliers/ferrules/crimping-pliers-wire-ferrules/9762145A\n[2] https://www.ferrulesdirect.com/products/fd3101\n[3] https://civiconcepts.com/blog/how-to-read-measure-tape\n[4] https://www.ferrulesdirect.com/products/fd2810ws\n[5] https://www.uline.com/BL_1158/Uline-Steel-Utility-Knife\n[6] https://schofic.com/product/schofic-937-rework-soldering-station-smd-desoldering-solder-iron-handle-esd-soldering-kit-soldering-machine-soldering-iron-soldering-stand-937/\n[7] https://uk.rs-online.com/web/p/heat-guns/1245159\n[8] https://www.distrelec.ch/en/bootlace-ferrule-5mm-white-14mm-pack-of-100-pieces-rnd-connect-rnd-465-00566/p/30110345\n[9] https://uk.rs-online.com/web/p/solder/8007661\n[10] https://uk.rs-online.com/web/p/heat-shrink-tubing/7114783\n[11] https://www.distrelec.ch/en/solder-eyelet-tin-plated-brass-pu-pack-of-100-pieces-vogt-2007-68/p/30073088?track=true&no-cache=true&marketingPopup=false\n\nRecommended articles:\n\nhttps://support.rheonics.com/en/support/solutions/articles/81000408323-best-practices-for-cabling-installation",
+      "specifications": {},
+      "key_facts": [
+        "The process involves soldering an eyelet with a ground wire.",
+        "Heat shrink must be applied over the eyelet and secured with heat to ensure a strong joint.",
+        "The completed sensor cable assembly is designed for use with the SME-DRM product.",
+        "The document provides eleven references for specific tools and components required for the assembly, including crimping pliers, ferrules, measuring tape, utility knife, soldering station, heat guns, bootlace ferrules, solder, heat shrink tubing, and solder eyelets.",
+        "A recommended article provides best practices for cabling installation."
+      ],
+      "diagram_labels": [
+        "Figure 28. Soldering the eyelet with the ground wire.",
+        "Figure 29. Eyelet with heat shrink.",
+        "Figure 30. Sensor cable assembly completed for use with SME-DRM."
+      ],
+      "warnings_notes": [],
+      "page_num": 11,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 933,
+        "cost_usd": 0.0024722999999999998
+      },
+      "source_file": "048_Wire_preparation_for_SME-DRM_(Din_Rail_Mount).pdf"
+    },
+    {
+      "page_summary": "This page provides links to Rheonics support articles and includes a disclaimer regarding the use of images and photos.",
+      "document_type": "notes",
+      "product_names": [],
+      "extracted_text": "https://support.rheonics.com/en/support/solutions/articles/81000406853-nothing-is-happening-when-i-plug-in-the-usb-cable-\n(https://support.rheonics.com/en/support/solutions/articles/81000406853-nothing-is-happening-when-i-plug-in-the-usb-cable-)\nhttps://support.rheonics.com/en/support/solutions/articles/81000397120-what-can-go-wrong-with-4-20ma-loops-\n(https://support.rheonics.com/en/support/solutions/articles/81000397120-what-can-go-wrong-with-4-20ma-loops-)\nDISCLAIMER\nPictures, photos, and images used are for illustration purposes and do not constitute any warranty or assertions on the suitability of use and should not be construed as an explicit or implicit recommendation or endorsement. All illustrations are given proper credit from our source of access and by their use here we do not specify or establish any copyright which belongs and stays unaffected with the existing copyright holder of that material",
+      "specifications": {},
+      "key_facts": [
+        "Pictures, photos, and images are used for illustration purposes only.",
+        "The use of images does not constitute any warranty or assertions on the suitability of use.",
+        "The use of images should not be construed as an explicit or implicit recommendation or endorsement.",
+        "All illustrations are given proper credit from their source of access.",
+        "The use of illustrations does not specify or establish any new copyright; existing copyright remains with the holder."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Pictures, photos, and images used are for illustration purposes and do not constitute any warranty or assertions on the suitability of use and should not be construed as an explicit or implicit recommendation or endorsement.",
+        "All illustrations are given proper credit from our source of access and by their use here we do not specify or establish any copyright which belongs and stays unaffected with the existing copyright holder of that material."
+      ],
+      "page_num": 12,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 554,
+        "cost_usd": 0.0015248
+      },
+      "source_file": "048_Wire_preparation_for_SME-DRM_(Din_Rail_Mount).pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

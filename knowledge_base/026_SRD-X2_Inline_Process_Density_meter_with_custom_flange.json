@@ -1,0 +1,323 @@
+{
+  "source_file": "026_SRD-X2_Inline_Process_Density_meter_with_custom_flange.pdf",
+  "total_pages": 7,
+  "chunks": [
+    {
+      "page_summary": "This page provides an overview and technical considerations for the Rheonics SRD-X2 inline process density meter, specifically focusing on its custom flange configuration and installation guidelines.",
+      "document_type": "notes",
+      "product_names": [
+        "SRD-X2",
+        "SRD - Inline density and viscosity meter",
+        "SRD"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nSRD-X2: Inline Process Density meter with custom flange\n\nModified on: Mon, 30 Dec, 2024 at 6:20 PM\n\nWhat products are involved?\n(https://rheonics.com/products/inline-viscometer-srv/)SRD - Inline density and viscosity meter\n(https://rheonics.com/products/inline-density-meter-srd/)\n\nWhat is the purpose of this article?\nTo give an overview of the SRD with Flange/Custom adapter connection (SRD X2), installation guidelines, instructions and special considerations. Flange norm, size, pressure rating, etc. should be defined by the customer with the order.\n\n1. Introduction\n(https://rheonics.com/products/inline-density-meter-srd/)\nSRD is Rheonics sensor for inline density and viscosity measurement. Read more on SRD here.\nThis sensor configuration (SRD-X2) allows the client to determine the type of flange/adapter needed in case none of the other standard connections are suitable. There are very few limitations to what kind of process connection can be used, but it must follow the next considerations:\n\n*   Flange material must be 316L or 304.\n*   Flange/adapter thickness must be less than 1\".\n*   Flange/adapter diamenter should at least have a 33mm size.\n*   The flange connection on the line (customer interface) must have an inner diameter bigger than 26mm for the SRD sensor to fit.",
+      "specifications": {
+        "flange_material": "316L or 304",
+        "flange_adapter_thickness_max": "1 inch",
+        "flange_adapter_diameter_min": "33 mm",
+        "customer_interface_inner_diameter_min": "26 mm"
+      },
+      "key_facts": [
+        "Rheonics can be contacted at phone number +1 713 234 0863.",
+        "This document was last modified on Mon, 30 Dec, 2024 at 6:20 PM.",
+        "The SRD is a Rheonics sensor designed for inline density and viscosity measurement.",
+        "The SRD-X2 sensor configuration offers flexibility for clients to specify custom flange or adapter types when standard connections are not suitable.",
+        "The customer is responsible for defining the flange norm, size, and pressure rating for their order.",
+        "The flange connection on the customer's line must have an inner diameter greater than 26mm to accommodate the SRD sensor."
+      ],
+      "diagram_labels": [
+        "rheonics PN16 D30"
+      ],
+      "warnings_notes": [
+        "For custom flange/adapter connections, the flange material must be 316L or 304.",
+        "The flange/adapter thickness must be less than 1\".",
+        "The flange/adapter diameter should be at least 33mm.",
+        "The flange connection on the line (customer interface) must have an inner diameter bigger than 26mm for the SRD sensor to fit."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 853,
+        "cost_usd": 0.0022722999999999997
+      },
+      "source_file": "026_SRD-X2_Inline_Process_Density_meter_with_custom_flange.pdf"
+    },
+    {
+      "page_summary": "This page provides technical details and specifications for custom flange options for Rheonics SRV/SRD inline viscometers and density sensors, including a dimensional drawing and ordering information.",
+      "document_type": "datasheet",
+      "product_names": [
+        "Rheonics",
+        "SRV FPC - Long insertion sensor (SRV-X5)",
+        "SRD-X2",
+        "Rheonics SRD",
+        "Inline Viscometer SRV",
+        "Inline Density Meter SRD"
+      ],
+      "extracted_text": "When ordering this option, the customer needs to provide the norm, size and pressure rating of the connection. Either state this via text or attach a drawing of the flange. Because this is a custom build, the lead times are typically around 6-8 weeks.\n\nConsider that even though large flange sizes are possible to mount, these rarely make sense from a process integration perspective. Large flanges tend to have large standpipes on the process side. This means that there are potential risks of a stagnation zones and wall effects, that highly affect the SRD readings.. With the SRD flange, the extension into the fluid is limited to about around 80 mm. In case longer extensions are needed, you will need an SRV FPC - Long insertion sensor (SRV-X5).\n\nSpecify flange/adapter norm, size, pressure rating, eg:\nSRD-X2-ANSI 1\" 150lb RF\n\n[Diagram: Custom flange dimensions with Rheonics logo]\nUnits: mm [inch]\nFigure 1: SRV custome flange dimensions.\n\nSpecifications\nSensor: (https://rheonics.com/products/inline-viscometer-srv/) (https://rheonics.com/products/inline-viscometer-srv/) Rheonics SRD (https://rheonics.com/products/inline-density-meter-srd/)\nOrder code: SRD-X2\nConnection type: Customizable flange/adapter\nDrawing and CAD file: (https://rheonics.com/srv-npt/) (https://rheonics.com/srv-1-5-in-triclamp/) (https://rheonics.com/srv-flange/%C2%A0) https://rheonics.com/srd-flange/ (https://rheonics.com/srd-flange/)",
+      "specifications": {
+        "Overall Sensor Height (with flange)": "126 ±1 mm [4.96 ±0.04 inch]",
+        "Sensor Body Length (below flange)": "73 ±1 mm [2.86 ±0.04 inch]",
+        "Sensor Tip Length (below body)": "39 mm [1.52 inch]",
+        "Flange Extension (from top of sensor body to top of flange)": "24 mm [0.95 inch]",
+        "Sensor Body Diameter": "ø 26 mm [1.02 inch]",
+        "Sensor Tip Mid Diameter": "ø 5 mm [0.20 inch]",
+        "Sensor Tip End Diameter": "13 mm [0.51 inch]",
+        "Customizable Flange/Adapter Maximum Thickness": "25 mm [1.00 inch]",
+        "Maximum Fluid Extension (SRD flange)": "80 mm",
+        "Order code": "SRD-X2",
+        "Connection type": "Customizable flange/adapter"
+      },
+      "key_facts": [
+        "Customers must provide the norm, size, and pressure rating of the connection or a drawing of the flange when ordering a custom option.",
+        "Custom flange builds typically have lead times of 6-8 weeks.",
+        "Large flange sizes are generally not recommended from a process integration perspective.",
+        "Large flanges often lead to large standpipes on the process side, which can cause stagnation zones and wall effects that highly affect SRD readings.",
+        "The extension of the SRD flange into the fluid is limited to approximately 80 mm.",
+        "For fluid extensions longer than 80 mm, the SRV FPC - Long insertion sensor (SRV-X5) is required.",
+        "An example of specifying flange/adapter norm, size, and pressure rating is: SRD-X2-ANSI 1\" 150lb RF.",
+        "Links to product information:\n- Rheonics Inline Viscometer SRV: https://rheonics.com/products/inline-viscometer-srv/\n- Rheonics Inline Density Meter SRD: https://rheonics.com/products/inline-density-meter-srd/",
+        "Links to drawing and CAD files:\n- SRV NPT: https://rheonics.com/srv-npt/\n- SRV 1.5-in Tri-Clamp: https://rheonics.com/srv-1-5-in-triclamp/\n- SRV Flange: https://rheonics.com/srv-flange/%C2%A0\n- SRD Flange: https://rheonics.com/srd-flange/"
+      ],
+      "diagram_labels": [
+        "rheonics (logo)",
+        "126 ±1 [4.96 ±0.04]",
+        "73 ±1 [2.86 ±0.04]",
+        "39 [1.52]",
+        "24 [0.95]",
+        "ø 26 [1.02]",
+        "ø 5 [0.20]",
+        "13 [0.51]",
+        "Customizable flange/adapter Max. thickness 25 [1.00]",
+        "Units: mm [inch]",
+        "Figure 1: SRV custome flange dimensions."
+      ],
+      "warnings_notes": [
+        "Because this is a custom build, the lead times are typically around 6-8 weeks.",
+        "Consider that even though large flange sizes are possible to mount, these rarely make sense from a process integration perspective. Large flanges tend to have large standpipes on the process side. This means that there are potential risks of a stagnation zones and wall effects, that highly affect the SRD readings..",
+        "With the SRD flange, the extension into the fluid is limited to about around 80 mm.",
+        "In case longer extensions are needed, you will need an SRV FPC - Long insertion sensor (SRV-X5)."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1455,
+        "cost_usd": 0.0037772999999999995
+      },
+      "source_file": "026_SRD-X2_Inline_Process_Density_meter_with_custom_flange.pdf"
+    },
+    {
+      "page_summary": "This page provides essential installation guidelines for Rheonics SR-sensors, covering proper submersion, avoidance of stagnation zones, and recommended sensor orientation to ensure accurate and representative fluid measurements.",
+      "document_type": "manual",
+      "product_names": [
+        "SR-sensors",
+        "SRD sensor",
+        "FPC version of the sensor"
+      ],
+      "extracted_text": "2. General installation guidelines\nSR-sensors can be placed at any point in a process and at any orientation but is helpful to consider some terms that are usually involved in the sensor measurements.\n\n2.1 Submersion\nThe SRD sensor has a sensing element shown inside the red section in Figure 2. This section of the sensor should always be fully submerged in the fluid since the SRD measures what is in contact with its sensing element. Incomplete submersion can be a problem when the flow rate is low and the pipe isn't full. A possible solution for low flow rates is placing the sensor horizontally and parallel to the fluid (e.g. in an elbow) instead of a vertical and perpendicular installation.\n\nFigure 2: SRD sensing area\n\n2.2 Stagnation/dead zone\nAlso is not good practice to have dead or stagnations zones around the sensing area (Figure 2). A stagnation or dead zone is where a fluid transfer is not good and older fluid may not be fully displaced by newer fluid. This leads to incorrect measurements due to part or all of the measurement being influenced by stationary fluid that is no longer representative of the actual process fluid. This is a clear consequence of long standpipes, once again, if the standpipe can't be short enough, the client should use an FPC version of the sensor so the insertion depth can be modified. A clearance of at least 12mm is also recommended between the sensor tip and a pipe wall or any other obstruction.\n\n2.3 Recommended orientation\nSRD has a sensing tip that is recommended to be aligned with the fluid flow direction to avoid creating recirculation zones around it. Read more on this topic, here (https://support.rheonics.com/en/support/solutions/articles/81000408815-srd-fluid-end-orientation).",
+      "specifications": {
+        "sensing_area_length": "50 mm [1.96 inches]",
+        "sensing_area_diameter": "35 mm [1.38 inches]",
+        "recommended_clearance_sensor_tip_to_wall": "12 mm"
+      },
+      "key_facts": [
+        "SR-sensors can be placed at any point and orientation in a process, but specific considerations are helpful.",
+        "The sensing element of the SRD sensor must always be fully submerged in the fluid.",
+        "Incomplete submersion can lead to problems, especially with low flow rates or pipes that are not full.",
+        "For low flow rates, a horizontal and parallel sensor installation (e.g., in an elbow) is a possible solution, rather than a vertical and perpendicular installation.",
+        "It is not good practice to have dead or stagnation zones around the sensing area.",
+        "Stagnation zones occur when fluid transfer is poor, leading to older fluid not being fully displaced and consequently incorrect measurements.",
+        "Long standpipes are a clear cause of stagnation zones.",
+        "If standpipes cannot be short, using an FPC version of the sensor is recommended to allow for adjustable insertion depth.",
+        "A minimum clearance of 12mm is recommended between the sensor tip and any pipe wall or obstruction.",
+        "The SRD sensing tip should be aligned with the fluid flow direction to prevent recirculation zones."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "50 mm [1.96\"]",
+        "Ø35 mm [1.38\"]",
+        "Figure 2: SRD sensing area"
+      ],
+      "warnings_notes": [
+        "Incomplete submersion can be a problem when the flow rate is low and the pipe isn't full.",
+        "It is not good practice to have dead or stagnation zones around the sensing area, as this leads to incorrect measurements.",
+        "Long standpipes can cause stagnation zones, which impact measurement accuracy.",
+        "To avoid creating recirculation zones, the SRD sensing tip should be aligned with the fluid flow direction."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 980,
+        "cost_usd": 0.0025897999999999997
+      },
+      "source_file": "026_SRD-X2_Inline_Process_Density_meter_with_custom_flange.pdf"
+    },
+    {
+      "page_summary": "This page details the importance of fluid flow characteristics and proper sensor installation for accurate viscosity and density measurements using Rheonics SRD sensors, especially concerning Newtonian and non-Newtonian fluids.",
+      "document_type": "manual",
+      "product_names": [
+        "SRD"
+      ],
+      "extracted_text": "Sensor long axis\nOrientation plane\nRheonics\nFlow lines\nOrientation plane\nFigure 3: SRD sensing tip.\n2.4 Flow\nFor Newtonian fluids flow rate does not affect the viscosity, so SRD should measure the same values in static and moving states of a fluid. For non-Newtonian fluids, the flow rate does matter and viscosity readings may differ between static and moving conditions. The recommendation for processes with non-constant flow rates is to install the SRD in a section in the pipeline with the most consistent flow rate to have a steady viscosity value. Density measurements in the SRD are unaffected by the fluid's flow rate and state.\nFlow rate is also relevant to ensure the full submersion of the SRD sensing element into the fluid. For a process with a low flow rate, pipes may not be full at all points, so the SRD should then be placed in a section where the pipe is usually full of fluid (i.e. after a pump).\nIn all cases, the SRD's sensing element should be completely submerged in the fluid. It's best to avoid installations with long standpipes, since that may lead to a bad fluid transfer resulting in measurements that do not reflect the true state of fluid or worse high noise measurements.\nWhen installing in a standpipe, choose the appropriate insertion length of the sensor by selecting long insertion probes. This allows the sensing element to clear the stagnation zone and be in the fluid that is of interest for measurement, as in the next figure.",
+      "specifications": {},
+      "key_facts": [
+        "For Newtonian fluids, the flow rate does not affect the viscosity measurements by the SRD sensor.",
+        "For non-Newtonian fluids, the flow rate does affect viscosity, and readings may differ between static and moving conditions.",
+        "For processes with non-constant flow rates, it is recommended to install the SRD in a pipeline section with the most consistent flow rate to achieve a steady viscosity value.",
+        "SRD density measurements are unaffected by the fluid's flow rate and state.",
+        "Flow rate is important for ensuring the full submersion of the SRD sensing element.",
+        "For low flow rate processes, the SRD should be placed in a section where the pipe is usually full of fluid (e.g., after a pump).",
+        "The SRD's sensing element must always be completely submerged in the fluid.",
+        "When installing in a standpipe, select long insertion probes to ensure the sensing element clears the stagnation zone and is within the fluid of interest for measurement."
+      ],
+      "diagram_labels": [
+        "Sensor long axis",
+        "Orientation plane",
+        "Flow lines",
+        "Rheonics"
+      ],
+      "warnings_notes": [
+        "It's best to avoid installations with long standpipes, since that may lead to a bad fluid transfer resulting in measurements that do not reflect the true state of fluid or worse high noise measurements."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 725,
+        "cost_usd": 0.0019523
+      },
+      "source_file": "026_SRD-X2_Inline_Process_Density_meter_with_custom_flange.pdf"
+    },
+    {
+      "page_summary": "This page provides information on the types of fluids compatible with Rheonics SRD sensors and outlines the initial steps for process connection installation using flanges.",
+      "document_type": "manual",
+      "product_names": [
+        "SRD",
+        "SRD-X2"
+      ],
+      "extracted_text": "non movement zone\ne.g. deposits\nMeasurement\nzone\nStand pipe\nA: Insertion length\nFigure 5: Long insertion probes for long standpipes.\n2.5 Fluid types\nSRD has good performance with the following fluid types and scenarios:\n* Static and moving Newtonian fluids\n* Moving non-Newtonian fluids: Viscosity can vary at different flow rates, SRD needs to be fully submerged\n  and without stagnation zones.\n* Slurries: Typical use case for the SRD. Density in slurries vary with time, as slurry ages, and as it is mixed.\n* Fluids with solids of micrometers scale: Solids of the size of rice corn shouldn't affect measurements.\n* Fluids with greater solids: Solids with a bigger size will most likely create spikes in the SRD readings when\n  these hit the sensor. Depending on the percentage of solids in the fluid and after some data analysis,\n  Rheonics may be able to apply some filters to handle these fluids better. However, it is helpful to avoid this\n  kind of solids or install the sensor axially.\n3. Process connection installation instructions\nSince this sensor configuration (SRD-X2) has a custom flange, installation instructions can vary but the next steps\nare for a standard flange (eg. ANSI 150lb 1\" RF).\n3.1 Connection steps\nA standard flange installation will require two flanges, a gasket in between, a bolt, two washers and insulating\nsleeves (for the bolt) for each hole on the flange.",
+      "specifications": {
+        "standard_flange_type": "ANSI 150lb 1\" RF"
+      },
+      "key_facts": [
+        "The SRD sensor exhibits good performance with static and moving Newtonian fluids.",
+        "For moving non-Newtonian fluids, the SRD sensor must be fully submerged and free of stagnation zones.",
+        "Slurries are a typical use case for the SRD, where density can vary with time, age, and mixing.",
+        "Solids of micrometer scale, such as rice corn size, are not expected to affect SRD measurements.",
+        "Fluids containing larger solids may cause spikes in SRD readings when they impact the sensor.",
+        "Rheonics can provide filters to improve handling of fluids with greater solids, potentially after data analysis.",
+        "The SRD-X2 sensor configuration features a custom flange.",
+        "Standard flange installations require two flanges, a gasket, a bolt, two washers, and insulating sleeves for each hole."
+      ],
+      "diagram_labels": [
+        "non movement zone",
+        "e.g. deposits",
+        "Measurement zone",
+        "A: Insertion length",
+        "Stand pipe"
+      ],
+      "warnings_notes": [
+        "It is helpful to avoid fluids with greater solids or install the sensor axially to prevent spikes in SRD readings."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 729,
+        "cost_usd": 0.0019623
+      },
+      "source_file": "026_SRD-X2_Inline_Process_Density_meter_with_custom_flange.pdf"
+    },
+    {
+      "page_summary": "This page details the assembly instructions for a standard flange connection and provides specific process connection installation guidelines for Rheonics sensors in various inline and in-tank applications.",
+      "document_type": "manual",
+      "product_names": [
+        "SRD",
+        "SRD Long Insertion Probe (FPC)",
+        "SRD Hygienic FPC"
+      ],
+      "extracted_text": "Figure 6: Standard flange connection components.\n\ni. Place the isolating sleeves, washers and bolts in each hole of one of the flanges (e.g. the process flange).\nii. Place the gasket, aligning it with the flange. Gasket type changes with flange norm and design.\niii. Insert the sensor with flange connection.\niv. Place the isolating sleeves, washers and nuts in the missing flange.\nv. Ensure the gasket is still well placed and start bolting down the flanges. Consider tightening the nuts in a cross sequence.\n\n3.2 Specific Process Connection installation instructions\n\n*   In line: For inline installations consider the sensing area (Figure 2) and a minimum clearance of the sensor tip to the pipe inner wall (12 mm for the SRD). For most 1\", 1.5\" or 2\" pipes (for 2\" it depends on the pipe norm) a perpendicular installation with the SRD correctly submerged is not possible. In those cases, the installation is recommended to be parallel as in figure 7.a. For lines bigger than 2\" (figure 7.b), the sensor can be mounted perpendicular to the flow as long as the standpipe allows the sensing element to be submerged in flowing fluid.If the standpipe can't be reduced (figure 7.c), the SRD Long Insertion Probe (FPC) is recommended with a customizable insertion depth. The SRD Hygienic FPC is an alternative that creates a smoother variation in cross-section than the standard probe.\n*   In tank: Place the sensor at the bottom, wall or lid of the tank as long as the sensing element can be fully submerged in the fluid and dead zones are avoided. Usually, it is useful if the sensor is placed at a tank's height that has always fluid.\n*   Others: Larger pipelines or tanks often need a longer probe (i.e. jacketed tanks or pipes), in those scenarios, the client should also use a long insertion sensor.",
+      "specifications": {
+        "flange_standard": "ANSI ASME B16.5",
+        "flange_pressure_class": "150LB",
+        "flange_size": "2\"",
+        "flange_face_type": "FF",
+        "minimum_sensor_tip_clearance_SRD": "12 mm",
+        "pipe_sizes_parallel_installation_recommended": "1\", 1.5\", 2\"",
+        "pipe_sizes_perpendicular_installation_possible": "> 2\""
+      },
+      "key_facts": [
+        "Standard flange connections involve placing isolating sleeves, washers, and bolts, then a gasket, inserting the sensor, adding more hardware, and tightening nuts in a cross sequence.",
+        "For inline installations, consider the sensing area and maintain a minimum 12 mm clearance between the SRD sensor tip and the pipe inner wall.",
+        "Perpendicular SRD installation is typically not possible for 1\", 1.5\", or 2\" pipes, requiring a parallel installation.",
+        "For pipes larger than 2\", the sensor can be mounted perpendicular to the flow if the standpipe allows the sensing element to be fully submerged.",
+        "If a standpipe cannot be reduced, the SRD Long Insertion Probe (FPC) or SRD Hygienic FPC are recommended for customizable or smoother insertion.",
+        "For in-tank installations, the sensor should be placed to ensure the sensing element is fully submerged and to avoid dead zones, often at a height that always contains fluid.",
+        "Larger pipelines or jacketed tanks often require a long insertion sensor."
+      ],
+      "diagram_labels": [
+        "Figure 6: Standard flange connection components.",
+        "ANSI ASME B16.5 150LB 2\" FF"
+      ],
+      "warnings_notes": [
+        "Gasket type changes with flange norm and design.",
+        "Ensure the gasket is still well placed before bolting down flanges.",
+        "Consider tightening the nuts in a cross sequence.",
+        "For in-tank installations, dead zones should be avoided."
+      ],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 998,
+        "cost_usd": 0.0026347999999999996
+      },
+      "source_file": "026_SRD-X2_Inline_Process_Density_meter_with_custom_flange.pdf"
+    },
+    {
+      "page_summary": "This page illustrates correct and incorrect installation methods for Rheonics SRD and Long Insertion Sensor (FPC) in various pipe and tank configurations, providing guidelines on when to use each sensor type.",
+      "document_type": "manual",
+      "product_names": [
+        "SRD",
+        "Long Insertion Sensor (FPC)",
+        "Rheonics"
+      ],
+      "extracted_text": "SRD can't fit vertically in this pipe size without affecting its sensing area\n2\" Pipes or smaller\nLong standpipe.\nSensing element not immersed enough.\nPotential plugging or deposits in gap\n2.5\" Pipes or bigger\nLong standpipe can't be reduced then a long insertion probe is used with a custom insertion depth.\nLong standpipe.\nSensing element not immersed enough.\nPotential plugging or deposits in gap.\nA Hygienic version of the sensor can be used to reduced the cross-section decrement.\nFigure 7: SRD Flange installation.\n3.3 When should you use a Long Insertion Sensor (FPC) instead of a short flange sensor?\n* Installation with long standpipes.\n* Installation at a tank's roof and short sensor can't be fully submerged.\n* Jacketed walls in tanks or reactors.\n* Elbow and cross-pipe flange installations",
+      "specifications": {
+        "pipe_size_small": "2 inches or smaller",
+        "pipe_size_big": "2.5 inches or bigger"
+      },
+      "key_facts": [
+        "The SRD sensor cannot be installed vertically in pipes 2 inches or smaller without affecting its sensing area.",
+        "Improper installation in long standpipes or larger pipes (2.5 inches or bigger) can result in the sensing element not being immersed enough, leading to potential plugging or deposits.",
+        "For long standpipes that cannot be reduced, a long insertion probe with a custom insertion depth should be used.",
+        "A hygienic version of the sensor is available to reduce cross-section decrement in certain installations.",
+        "Long Insertion Sensors (FPC) are recommended for installations with long standpipes.",
+        "Long Insertion Sensors (FPC) are recommended for installations at a tank's roof where a short sensor cannot be fully submerged.",
+        "Long Insertion Sensors (FPC) are recommended for installations in jacketed walls in tanks or reactors.",
+        "Long Insertion Sensors (FPC) are recommended for elbow and cross-pipe flange installations."
+      ],
+      "diagram_labels": [
+        "Rheonics",
+        "2\" Pipes or smaller",
+        "2.5\" Pipes or bigger",
+        "X",
+        "✓"
+      ],
+      "warnings_notes": [
+        "SRD sensors cannot fit vertically in pipe sizes 2 inches or smaller without affecting their sensing area.",
+        "In installations with long standpipes, if the sensing element is not immersed sufficiently, there is potential for plugging or deposits in the gap.",
+        "If a long standpipe cannot be reduced, a long insertion probe with a custom insertion depth must be used to ensure proper sensing."
+      ],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 695,
+        "cost_usd": 0.0018773
+      },
+      "source_file": "026_SRD-X2_Inline_Process_Density_meter_with_custom_flange.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

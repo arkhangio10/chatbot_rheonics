@@ -1,0 +1,122 @@
+{
+  "source_file": "086_How_to_order_WirelessHART_in_Rheonics_sensors.pdf",
+  "total_pages": 2,
+  "chunks": [
+    {
+      "page_summary": "This page provides instructions on how to order WirelessHART communication for Rheonics sensors, explaining the process for both initial purchase and later upgrades, and includes a visual guide from the company's request for quotation page.",
+      "document_type": "notes",
+      "product_names": [
+        "WirelessHART",
+        "Rheonics sensors",
+        "C10-WirelessHART",
+        "SME electronics",
+        "Viscometers",
+        "Density meters",
+        "SME-TK",
+        "SME-DRM",
+        "SME-BOX",
+        "Fixed Transmitter",
+        "SS Electronics",
+        "Modbus RTU",
+        "USB",
+        "Ethernet",
+        "Bluetooth LE 4.0",
+        "Modbus TCP",
+        "Ethernet/IP",
+        "HART",
+        "Profinet"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nHow to order WirelessHART in Rheonics sensors?\n\nModified on: Wed, 11 Mar, 2026 at 9:37 PM\n\nThe purpose of this article is to explain which hardware and configuration are essential for a successful WirelessHART implementation.\n\n1. When I order the sensor, have I already purchased WirelessHART?\n\nNo, you will need to order the WirelessHART communication protocol before the sensor is shipped. To order the WirelessHART communication protocol, remember to check the C10-WirelessHART option in the RFQ page.\n\nWirelessHART is available on all Rheonics standard viscometers and density meters that use SME electronics. The video below shows the steps to add WirelessHART to the device configuration.\n\n2. Can I order WirelessHART after a sensor is shipped?\n\nYes, communication protocols like WirelessHART can be ordered later. Contact Rheonics sales to order or go to our Order page https://rheonics.com/request-for-quotation/ (https://rheonics.com/request-for-quotation/)\n\n[Content from screenshot of Rheonics Order Page]\nrheonics.com/request-for-quotation/srv/\nrheonics\nSOLUTIONS PRODUCTS SUPPORT COMPANY ORDER\n\nEZ : SME-TK : Transmitter housing with solid cover\nE2 : SME-DRM : DIN-rail mount housing\nE4 : SME-BOX : Desktop version of electronics with 10.4\" touchscreen\n\nFT Option - Fixed Transmitter mounted on top of sensor pro\nSS Electronics - Stainless Steel Transmitter Housing, available for E1 and E2\n\nCommunication\nRheonics electronics are pre-configured with the following communication options.\nC1 : 4-20 mA : 3 channels of 4-20 mA analog signal\nC2 : Modbus RTU (RS-485) : Modbus RTU over RS-485\nC3 : USB : USB 2.0 compliant service and data acquisition port\nC4 : Ethernet : Ethernet active on RJ45 connector\n\nAdditional FieldBus Communication Options\nC5 : Bluetooth LE 4.0 : Bluetooth module for short range communication (only for E1)\nC6 : Modbus TCP (Article)\nC7 : Ethernet/IP (Article)\nC8 : HART (Article)\nC9 : Profinet (Article)\nC10 : WirelessHART (Article)\n\nTemperature (select one) *\nT1 : 125 °C : Sensor rated for operation in process fluids up to 125 °C (250 °F)\nT2 : 150 °C : Sensor rated for operation in process fluids up to 150 °C (300 °F)\n\nFigure 1. Ordering WirelessHART communication.\n\n3. Cabling",
+      "specifications": {
+        "Analog Signal Channels": "3 channels of 4-20 mA",
+        "USB Standard": "USB 2.0",
+        "Bluetooth Standard": "Bluetooth LE 4.0",
+        "Sensor Temperature Rating T1": "125 °C (250 °F)",
+        "Sensor Temperature Rating T2": "150 °C (300 °F)"
+      },
+      "key_facts": [
+        "WirelessHART communication protocol must be ordered before the sensor is shipped for initial purchase.",
+        "The C10-WirelessHART option must be selected on the RFQ page to order WirelessHART.",
+        "WirelessHART is compatible with all Rheonics standard viscometers and density meters that use SME electronics.",
+        "Communication protocols like WirelessHART can be ordered after a sensor has been shipped.",
+        "Rheonics offers various communication options including 4-20 mA, Modbus RTU (RS-485), USB 2.0, Ethernet, Bluetooth LE 4.0, Modbus TCP, Ethernet/IP, HART, Profinet, and WirelessHART.",
+        "Rheonics sensors are available with temperature ratings up to 125 °C (250 °F) or 150 °C (300 °F) for process fluids."
+      ],
+      "diagram_labels": [
+        "Select C10: WirelessHART communication option",
+        "EZ : SME-TK : Transmitter housing with solid cover",
+        "E2 : SME-DRM : DIN-rail mount housing",
+        "E4 : SME-BOX : Desktop version of electronics with 10.4\" touchscreen",
+        "FT Option - Fixed Transmitter mounted on top of sensor pro",
+        "SS Electronics - Stainless Steel Transmitter Housing, available for E1 and E2",
+        "Communication",
+        "Rheonics electronics are pre-configured with the following communication options.",
+        "C1 : 4-20 mA : 3 channels of 4-20 mA analog signal",
+        "C2 : Modbus RTU (RS-485) : Modbus RTU over RS-485",
+        "C3 : USB : USB 2.0 compliant service and data acquisition port",
+        "C4 : Ethernet : Ethernet active on RJ45 connector",
+        "Additional FieldBus Communication Options",
+        "C5 : Bluetooth LE 4.0 : Bluetooth module for short range communication (only for E1)",
+        "C6 : Modbus TCP (Article)",
+        "C7 : Ethernet/IP (Article)",
+        "C8 : HART (Article)",
+        "C9 : Profinet (Article)",
+        "C10 : WirelessHART (Article)",
+        "Temperature (select one) *",
+        "T1 : 125 °C : Sensor rated for operation in process fluids up to 125 °C (250 °F)",
+        "T2 : 150 °C : Sensor rated for operation in process fluids up to 150 °C (300 °F)"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1601,
+        "cost_usd": 0.0041423
+      },
+      "source_file": "086_How_to_order_WirelessHART_in_Rheonics_sensors.pdf"
+    },
+    {
+      "page_summary": "This page details the cost-saving benefits of WirelessHART communication, contrasting it with traditional wired installations, and provides a list of relevant Rheonics and FieldComm Group references.",
+      "document_type": "notes",
+      "product_names": [
+        "WirelessHART",
+        "SRV Inline Viscometer",
+        "SRD Inline Density Meter"
+      ],
+      "extracted_text": "https://support.rheonics.com/en/support/solutions/articles/81000418933-getting-started-with-wirelesshart-communication (https://support.rheonics.com/en/support/solutions/articles/81000418933-getting-started-with-wirelesshart-communication)\n\n4. Benefits\n\nThe \"Hidden\" Savings: Total Installed Cost (TIC)\n\nThis is where WirelessHART wins. In 2026, labor and material costs for wired infrastructure (conduit, cable trays, and engineering) have continued to climb.\n\n*   Wired Installation: Can cost $60 to $120 per foot to install. If your device is 200 feet from the control room, you're looking at $12,000+ just in \"getting there.\"\n*   WirelessHART Installation: You bolt it to the pipe and turn it on. The \"installation cost\" is essentially just the labor for the technician to commission the device in the software.\n\nPro Tip:\nWirelessHART is a \"Mesh\" network. This means the more devices you buy, the stronger and more redundant the network becomes. If you only buy one device, its signal might be weak. If you buy ten, they act as repeaters for each other.\n\n5. References\n\n*   Rheonics, \"SRV Inline Viscometer.\" [Online]. Available: Rheonics SRV » inline online Viscometer for fluid viscosity monitoring (https://rheonics.com/products/inline-viscometer-srv/). [Accessed: Sep. 9, 2025].\n*   Rheonics, \"SRD Inline Density Meter.\" [Online]. Available: rheonics SRD » Density Meter inline online specific gravity concentration (https://rheonics.com/products/inline-density-meter-srd/). [Accessed: Sep. 9, 2025].\n*   Rheonics, \"Electronics and Communication.\" [Online]. Available: Electronics and Communication » rheonics :: viscometer and density meter (https://rheonics.com/electronics-and-communication/). [Accessed: Sep. 9, 2025].\n*   Rheonics, \"HART Fundamentals.\" [Online]. Available: HART Fundamentals : Rheonics Support (https://support.rheonics.com/en/support/solutions/articles/81000412287-hart-fundamentals). [Accessed: Sep. 9, 2025].\n*   FieldComm Group, \"WirelessHART – Expanding the Possibilities\" (Rev. 3.3 brochure). [Online]. Available: WirelessHart_Expanding_Possibilities_bro_Rev3.3.pdf (https://www.fieldcommgroup.org/sites/default/files/imce_files/technology/documents/WirelessHart_Expanding_Possibilities_bro_Rev3.3.pdf). [Accessed: Sep. 9, 2025].\n*   Rheonics, \"Getting Started with WirelessHART Communication\". [Online]. Available: Getting Started with WirelessHART Communication (https://support.rheonics.com/en/support/solutions/articles/81000418933-getting-started-with-wirelesshart-communication).",
+      "specifications": {
+        "Wired installation cost per foot": "$60 to $120/foot",
+        "Wired device distance from control room": "200 feet",
+        "Estimated wired installation cost for 200 feet": "$12,000+"
+      },
+      "key_facts": [
+        "WirelessHART communication significantly reduces Total Installed Cost (TIC) compared to wired installations.",
+        "By 2026, labor and material costs for wired infrastructure, including conduit, cable trays, and engineering, are projected to continue rising.",
+        "Wired installations can incur costs of $60 to $120 per foot.",
+        "A wired device located 200 feet from the control room could have installation costs exceeding $12,000 for infrastructure alone.",
+        "WirelessHART installation involves simple physical mounting and software commissioning.",
+        "WirelessHART utilizes a Mesh network architecture.",
+        "The strength and redundancy of a WirelessHART network increase with the number of devices.",
+        "Individual WirelessHART devices can act as repeaters, enhancing signal strength, especially when multiple devices are deployed.",
+        "All referenced online documents were accessed on September 9, 2025."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Pro Tip: WirelessHART is a \"Mesh\" network. This means the more devices you buy, the stronger and more redundant the network becomes. If you only buy one device, its signal might be weak. If you buy ten, they act as repeaters for each other."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1206,
+        "cost_usd": 0.0031548
+      },
+      "source_file": "086_How_to_order_WirelessHART_in_Rheonics_sensors.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

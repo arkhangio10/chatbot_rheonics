@@ -1,0 +1,131 @@
+{
+  "source_file": "057_Connecting_4-20_mA_outputs.pdf",
+  "total_pages": 3,
+  "chunks": [
+    {
+      "page_summary": "This page provides instructions and a wiring diagram for connecting the 4-20 mA analog outputs of Rheonics SME electronics, along with its electrical parameters.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SME"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nConnecting 4-20 mA outputs\n\nModified on: Fri, 19 May, 2023 at 5:31 PM\n\nRheonics SME has self-powered 4-20mA analog outputs. This means that any connection to a controller device must be considered as a 4-wire transmitter. A 4-wire transmitter consists of two power wires and two signal wires. The two power wires supply the power to the transmitter, while the two signal wires transmit the signal back to the controller device.\n\n1. Wiring diagram for SME electronics\n\nRheonics transmitter\nV+\nV-\nB+\nA-\nVM+\nV-\nCH1\nCH2\nCH3\n\n4/20 mA connection, self-powered\n24V\nWiring Option (A)\n4/20 mA input\nR 4.36\nWiring Option (B)\n4/20 mA input\nR 4.36\n\nFigure 1. Wiring diagram for Rheonics SME.\n\n2. Electrical Parameters\nLoad impedance: 0 to 720 Ohms\nOutput range: 4-20mA, (3.5mA error)\nGalvanic isolation: none",
+      "specifications": {
+        "load_impedance": "0 to 720 Ohms",
+        "output_range": "4-20 mA",
+        "output_error": "3.5 mA",
+        "power_supply_voltage": "24 V"
+      },
+      "key_facts": [
+        "Rheonics SME has self-powered 4-20mA analog outputs.",
+        "Any connection of Rheonics SME to a controller device must be considered as a 4-wire transmitter.",
+        "A 4-wire transmitter uses two power wires to supply power to the transmitter and two signal wires to transmit the signal back to the controller device.",
+        "The electrical parameters for Rheonics SME include a load impedance range of 0 to 720 Ohms.",
+        "The output range for Rheonics SME is 4-20mA, with a potential error of 3.5mA.",
+        "Rheonics SME does not provide galvanic isolation.",
+        "The document was last modified on Friday, May 19, 2023, at 5:31 PM."
+      ],
+      "diagram_labels": [
+        "Rheonics transmitter",
+        "V+",
+        "V-",
+        "B+",
+        "A-",
+        "VM+",
+        "CH1",
+        "CH2",
+        "CH3",
+        "4/20 mA connection, self-powered",
+        "24V",
+        "Wiring Option (A)",
+        "4/20 mA input",
+        "R 4.36",
+        "Wiring Option (B)",
+        "Figure 1. Wiring diagram for Rheonics SME."
+      ],
+      "warnings_notes": [
+        "Galvanic isolation: none"
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 794,
+        "cost_usd": 0.0021247999999999996
+      },
+      "source_file": "057_Connecting_4-20_mA_outputs.pdf"
+    },
+    {
+      "page_summary": "This page describes wiring options for the Rheonics SME, clarifies its nature as an active 4-wire transmitter, outlines its characteristics, and provides important notes regarding its analog outputs and power supply for Ex sensors.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SME",
+        "Ex Sensors"
+      ],
+      "extracted_text": "Wiring Option (A)\n* Connect positive terminal of current input module to desired channel terminal of SME device\n* Connective negative terminal of current input module to negative power supply terminal used for SME device\n\nWiring Option (B)\n* Connect positive terminal of current input module to desired channel terminal of SME device\n* Connect negative terminal of current input module to V- terminal of SME device\n\n3. Is the Rheonics SME a passive or active device?\nRheonics SME is considered 4-wire transmitter, in other words, it is an active sensor transmitter. Passive sensor devices are in general 2-wire transmitters require to be powered by external power supplies, instead, active sensor devices will use the same power supply from the transmitter to create a controlled analog output.\n\nFigure 2. 4-wire transmitter, a block diagram of the Rheonics SME.\n\nAn active analog output incorporates circuitry to actively drive and control the output signal.\n\nIt has the following characteristics:\n1. If a test is done by measuring the analog output with the device powered on, we are going to receive a voltage output or a current output different from zero.\n2. The output from the Rheonics sensor must be connected to a sinking input from a PLC.\n\nNotes\n* The 4/20mA outputs are not galvanically isolated. It is not recommended to route the 4/20mA to off-site locations if the corresponding 4/20mA input does not provide galvanic isolation.\n* Only for Ex Sensors. Power Input: 240V Maximum AC Single Phase, this is exclusive for Ex sensor configuration and would be the best to protect the zener barriers used in the configuration, only single phase power supplies should be used.\n\nReferences:",
+      "specifications": {
+        "Analog output current range": "4-20 mA",
+        "Power Input for Ex Sensors": "240V Maximum AC Single Phase"
+      },
+      "key_facts": [
+        "The Rheonics SME is an active 4-wire transmitter.",
+        "Active sensor devices use the same power supply from the transmitter to create a controlled analog output.",
+        "An active analog output incorporates circuitry to actively drive and control the output signal.",
+        "When the device is powered on, measuring the analog output will yield a voltage or current output different from zero.",
+        "The output from the Rheonics sensor must be connected to a sinking input from a PLC.",
+        "The 4/20mA outputs of the Rheonics SME are not galvanically isolated.",
+        "For Ex Sensors, a 240V Maximum AC Single Phase power input is exclusive and recommended to protect zener barriers.",
+        "Only single-phase power supplies should be used for Ex sensor configurations."
+      ],
+      "diagram_labels": [
+        "Power Supply",
+        "4 Wire Transmitter",
+        "Measuring Device",
+        "V +",
+        "GND",
+        "Iout",
+        "COM",
+        "i = 4-20mA",
+        "4.58 mA",
+        "15.22 °C",
+        "Figure 2. 4-wire transmitter, a block diagram of the Rheonics SME."
+      ],
+      "warnings_notes": [
+        "The 4/20mA outputs are not galvanically isolated.",
+        "It is not recommended to route the 4/20mA to off-site locations if the corresponding 4/20mA input does not provide galvanic isolation.",
+        "For Ex Sensors, only single-phase power supplies should be used."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 894,
+        "cost_usd": 0.0023748
+      },
+      "source_file": "057_Connecting_4-20_mA_outputs.pdf"
+    },
+    {
+      "page_summary": "This page presents a question about potential issues with 4-20mA loops and provides a link to a Rheonics support article addressing the topic.",
+      "document_type": "notes",
+      "product_names": [],
+      "extracted_text": "• What can go wrong with 4 - 20mA loops ?\n(https://support.rheonics.com/en/support/solutions/articles/81000397120)",
+      "specifications": {},
+      "key_facts": [
+        "The page discusses potential problems associated with 4-20mA loops.",
+        "A Rheonics support article is available at https://support.rheonics.com/en/support/solutions/articles/81000397120 to provide information on 4-20mA loop issues."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 223,
+        "cost_usd": 0.0006973000000000001
+      },
+      "source_file": "057_Connecting_4-20_mA_outputs.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "source_file": "071_Modbus_TCP_-_Data_Types.pdf",
+  "total_pages": 1,
+  "chunks": [
+    {
+      "page_summary": "This page details Modbus TCP data types and the interpretation of parameter status bits, including various error and warning conditions relevant to Rheonics sensors.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Phone: +1 713 234 0863\n\nModbus TCP - Data Types\n\nModified on: Fri, 3 Jul, 2020 at 3:14 PM\n\n*   Float: IEEE754 floating point. This data type spans two registers which should be read together. Depending on the endianness of the host it might be necessary to swap high/low byte and/or the respective registers.\n*   Int16: Signed 16 bit integer (register)\n*   Uint16: Unsigned 16 bit integer\n*   Parameter status: The parameter status is a bitmask of individual status bits. As a general rule Bit 0 checking should be implemented where a set bit corresponds to an error/warning condition. In case of a critical error the parameter value is also set to NAN (not a number – See IEEE754)\n*   Bit 0: General error – Check other bits for more detailed configuration\n*   Bit 1: Internal configuration error – Restart. If error persists call Rheonics for support\n*   Bit 2: Hardware error, e.g. broken temperature sensor. Call Rheonics for support and arrange RMA\n*   Bit 3: Dependency error: a parameter is calculated from other parameters and one of the source parameter has an error. Check all other parameters for errors.\n*   Bit 4: Device is starting up and no results are ready.\n*   Bit 5: Internal error – Restart. If error persists call Rheonics for support.\n*   Bit 8: Parameter result is not stable. Check measurement conditions (flow, vibration, etc.)\n*   Bit 15: Parameter exceeds sensor upper limit. No results available.\n*   Bit 14: Parameter below sensor lower limit. No results available.\n*   Bit 13: Parameter value above upper warning range. Measurements might not be accurate and sensor performance might be reduced.\n*   Bit 12: Parameter value below lower warning range. Measurements might not be accurate and sensor performance might be reduced.",
+      "specifications": {},
+      "key_facts": [
+        "The Float data type is an IEEE754 floating point, occupying two registers, and may require byte or register swapping depending on the host's endianness.",
+        "Int16 represents a signed 16-bit integer.",
+        "Uint16 represents an unsigned 16-bit integer.",
+        "The Parameter status is a bitmask where each set bit indicates a specific error or warning condition.",
+        "If a critical error occurs, the parameter value is set to NAN (Not a Number) per IEEE754 standard.",
+        "Bit 0 indicates a general error, requiring further examination of other bits for detailed configuration information.",
+        "Bit 1 and Bit 5 both denote an internal configuration error, recommending a restart and contacting Rheonics if the error persists.",
+        "Bit 2 indicates a hardware error, such as a broken temperature sensor, requiring users to contact Rheonics for support and to arrange a Return Material Authorization (RMA).",
+        "Bit 3 signals a dependency error where a parameter, calculated from others, has an error in one of its source parameters.",
+        "Bit 4 signifies that the device is starting up and no results are currently available.",
+        "Bit 8 indicates that the parameter result is not stable, suggesting a check of measurement conditions like flow or vibration.",
+        "Bit 15 signifies that a parameter value has exceeded the sensor's upper operational limit, meaning no results are available.",
+        "Bit 14 signifies that a parameter value is below the sensor's lower operational limit, meaning no results are available.",
+        "Bit 13 indicates that the parameter value is above the upper warning range, which may lead to reduced measurement accuracy and sensor performance.",
+        "Bit 12 indicates that the parameter value is below the lower warning range, which may lead to reduced measurement accuracy and sensor performance."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "If an internal configuration error (Bit 1 or Bit 5) persists after a restart, call Rheonics for support.",
+        "For hardware errors (Bit 2), such as a broken temperature sensor, call Rheonics for support and arrange an RMA.",
+        "If the parameter result is not stable (Bit 8), check measurement conditions including flow and vibration.",
+        "If parameter values are outside the warning ranges (Bit 13 or Bit 12), measurements might not be accurate and sensor performance might be reduced."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1071,
+        "cost_usd": 0.0028172999999999996
+      },
+      "source_file": "071_Modbus_TCP_-_Data_Types.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

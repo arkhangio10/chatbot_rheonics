@@ -1,0 +1,171 @@
+{
+  "source_file": "121_Cup_Second_Conversion_and_Coefficients_for_Rheonics_SRV.pdf",
+  "total_pages": 4,
+  "chunks": [
+    {
+      "page_summary": "This page details the conversion of Rheonics SRV viscosity measurements to cup seconds using a linear relationship defined by coefficients 'a' and 'b', providing a table of these coefficients for common cup types and outlining methods for calculating custom coefficients.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics SRV"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nCup Second Conversion and Coefficients for Rheonics SRV\n\nModified on: Tue, 19 Apr, 2022 at 7:21 PM\n\nTABLE OF CONTENTS\n*   Calculating Custom Coefficients:\n    *   Finding coefficients from specifications\n    *   Finding Coefficients Experimentally\n*   Analyzing the viscosity variations:\n*   Example: Ford 4 cup.\n\nRheonics SRV viscosity measurements can be converted to cup seconds, for different cup types, and for small viscosity variations.\nWe assume that there is a linear relationship between the cup second measurements and the dynamic viscosity in cP (mPa.s).\nTherefore, we can simplify the relationship as:\n\nV_cs = a * V_cp + b  (1)\n\nWhere a and b are the slope and offset between the two respectively.\nFor different cup types we have found the following relationships between cup seconds measurements and dynamic viscosity in cP:\n\nCup Type | a | b\n---|---|---\nISO 4mm | 0.76 | 2\nAfnor 4 | 0.14 | 36\nBS B4 | 0.29 | 9\nFord 4 | 0.24 | 8\nZahn 4 | 0.09 | -2\nDin 4 | 0.23 | 5\nTable 1 Cup second conversion coefficients\n\nCalculating Custom Coefficients:\n\nIf your cup is not listed in the table above, then you can use the specifications sheet of the cup to find a relationship between cup seconds measurements and cP. You could also find the direct relationship empirically between the SRV and the cup.\nIn this case, \"a\" is defined as:",
+      "specifications": {
+        "ISO 4mm": {
+          "a": 0.76,
+          "b": 2
+        },
+        "Afnor 4": {
+          "a": 0.14,
+          "b": 36
+        },
+        "BS B4": {
+          "a": 0.29,
+          "b": 9
+        },
+        "Ford 4": {
+          "a": 0.24,
+          "b": 8
+        },
+        "Zahn 4": {
+          "a": 0.09,
+          "b": -2
+        },
+        "Din 4": {
+          "a": 0.23,
+          "b": 5
+        }
+      },
+      "key_facts": [
+        "Rheonics SRV viscosity measurements can be converted to cup seconds for different cup types and small viscosity variations.",
+        "A linear relationship is assumed between cup second measurements and dynamic viscosity in cP (mPa.s).",
+        "The conversion relationship is given by the equation: V_cs = a * V_cp + b, where 'a' is the slope and 'b' is the offset.",
+        "Coefficients 'a' and 'b' are provided for various standard cup types including ISO 4mm, Afnor 4, BS B4, Ford 4, Zahn 4, and Din 4.",
+        "Custom coefficients can be determined from the cup's specifications sheet or empirically if the cup type is not listed in the provided table."
+      ],
+      "diagram_labels": [
+        "Table 1 Cup second conversion coefficients"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 904,
+        "cost_usd": 0.0023997999999999997
+      },
+      "source_file": "121_Cup_Second_Conversion_and_Coefficients_for_Rheonics_SRV.pdf"
+    },
+    {
+      "page_summary": "This page provides methods and an example calculation for deriving coefficients 'a' and 'b' to convert cup seconds measurements into centipoise viscosity, utilizing either vendor specifications or experimental data with an SRV sensor.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV"
+      ],
+      "extracted_text": "a = (V_csmax - V_csmin) / (V_cpmax - V_cpmin) (2)\nAnd \"b\" can be found by selecting the maximum or minimum over the measurement range.\nb = V_csmin - a * V_cpmin (3)\n\nFinding coefficients from specifications:\nYou can find different conversion tables online or from the cup manufacturer. For example, in the table below, the equivalencies between the cup seconds and centipoise can be seen for a measurement range:\n\nTable: Cup Second Equivalencies\nCENTIPOISE: 1.00, 2.00, 3.00, 5.00, 7.50, 10.0, 15.0, 20.0, 25.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 100, 125, 150, 175, 200, 225, 250, 275, 300, 325, 350, 375, 400, 500, 600, 700, 800, 900, 1000, 1200, 1500, 1750\n'Ultra Low' Cup: 53, 68, 84\nShell Cup #1: 17, 21.5, 26, 35, 46, 57\nShell Cup #2: 18.3, 22, 30.4, 39, 47, 56\nShell Cup #2.5: 19, 25, 30, 35.6, 46.6, 57\nShell Cup #3: 18.6, 22, 28.6, 32, 38, 42, 48, 55\nShell Cup #3.5: 17.5, 20, 24.6, 29.2, 34, 38.4, 43, 47.8, 59.4\nShell Cup #4: 18, 21, 24, 27, 30, 37, 45, 52, 60\nShell Cup #5: 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60, 64\nShell Cup #6: 17.5, 19, 20.5, 22.5, 25, 31.5, 37.5, 44, 50, 56.5, 63, 78\nZahn Cup #1: 30.5, 32, 35, 38, 42, 52, 60, 68\nZahn Cup #2: 18, 19, 20, 22.5, 25, 28, 30, 34, 38, 43, 53, 63, 72\nZahn Cup #3: 17, 19.5, 22, 24.5, 27, 30, 32, 35.5, 38, 41, 43, 45, 48.5, 58, 70\nZahn Cup #4: 17, 18, 19.5, 20.5, 22.5, 24, 26, 28, 30, 32, 35, 38, 41, 45, 49, 51, 54, 65, 70\nZahn Cup #5: 17, 18.5, 20, 21, 22.5, 27, 31, 35, 40, 45, 49, 60\nFord Cup #3: 32, 37, 40, 43, 53, 63, 73, 83, 93, 103, 113, 120, 130\nFord Cup #4: 20, 22, 25, 28, 35, 40, 48, 55, 62, 70, 80, 90, 98, 103\nExample: A sample which drains in 39 seconds.\n\nFigure 1 Cup second equivalencies – these are generally valid for a certain type of viscometer so they are not universal.\n\nFor example. If we use Shell cup #3 over the measurement range of 18.6 to 28.6 seconds, the viscosities in cP over that range are 25 to 40 cP respectively.\nReplacing these values in equation (2) we can find coefficient a:\na = (28.6 - 18.6) / (40 - 25) = 0.667 s/cP (4)\n\nAnd replacing result of equation (4) in equation (3), we can find coefficient b.\nb = 18.6s - (0.667s / cP) * 25 cP = 1.925 (5)\n\nFinding Coefficients Experimentally\nInstead of using the vendor specifications for cup conversion you can directly use the SRV measurements and cup second measurements over a range.\n1. Make sure that the temperature doesn’t vary during the process.\n2. For lower range measure Dynamic Viscosity with SRV and the cup seconds viscosity. Take note of both values. This will be V_CPmin and V_csmin respectively.\n3. For highest range measure Dynamic Viscosity with SRV and the cup seconds viscosity. Take note of both values. This will be V_CPmax and V_csmax respectively.",
+      "specifications": {
+        "coefficient_a": "0.667 s/cP",
+        "coefficient_b": "1.925",
+        "example_measurement_range_shell_cup_3_seconds": "18.6 s to 28.6 s",
+        "example_viscosity_range_shell_cup_3_cP": "25 cP to 40 cP"
+      },
+      "key_facts": [
+        "Coefficients 'a' and 'b' are used to convert cup seconds to centipoise viscosity.",
+        "Coefficient 'a' is calculated using the difference between maximum and minimum cup seconds and centipoise values (Equation 2).",
+        "Coefficient 'b' is calculated using the minimum cup seconds, coefficient 'a', and minimum centipoise (Equation 3).",
+        "Coefficients can be determined either by using vendor-provided conversion tables (specifications) or through experimental measurements.",
+        "Experimental determination of coefficients involves measuring Dynamic Viscosity with an SRV sensor and cup seconds viscosity at both lower and higher ranges.",
+        "Maintaining a constant temperature is crucial when performing experimental measurements for coefficient determination.",
+        "Cup second equivalencies are generally specific to a certain type of viscometer and are not universally applicable."
+      ],
+      "diagram_labels": [
+        "(2)",
+        "(3)",
+        "CENTIPOISE",
+        "'Ultra Low' Cup",
+        "Shell Cup #1",
+        "Shell Cup #2",
+        "Shell Cup #2.5",
+        "Shell Cup #3",
+        "Shell Cup #3.5",
+        "Shell Cup #4",
+        "Shell Cup #5",
+        "Shell Cup #6",
+        "Zahn Cup #1",
+        "Zahn Cup #2",
+        "Zahn Cup #3",
+        "Zahn Cup #4",
+        "Zahn Cup #5",
+        "Ford Cup #3",
+        "Ford Cup #4",
+        "Example: A sample which drains in 39 seconds.",
+        "Figure 1 Cup second equivalencies",
+        "(4)",
+        "(5)"
+      ],
+      "warnings_notes": [
+        "Figure 1 Cup second equivalencies – these are generally valid for a certain type of viscometer so they are not universal.",
+        "Make sure that the temperature doesn’t vary during the process."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 2142,
+        "cost_usd": 0.005494799999999999
+      },
+      "source_file": "121_Cup_Second_Conversion_and_Coefficients_for_Rheonics_SRV.pdf"
+    },
+    {
+      "page_summary": "This page details the calculation and analysis of viscosity variations, including conversions between cup seconds and cP, highlights the importance of temperature stability, and recommends using SRV measurements for accuracy.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV"
+      ],
+      "extracted_text": "4. Replace these values in equations (2) and (3), as we did in previous section, to find the \"a\" and \"b\" coefficients.\n\nIMPORTANT:\nWe are assuming that over the measurements range, the temperature remains constant and that the relationship between cup seconds and cP is linear. HOWEVER, in most processes, the temperature doesn't remain constant, and viscosity can be highly dependent on it. This WILL affect the calculated coefficients a, and b. Also, the relationship between cup seconds and cP is usually non-linear during the entire measurements range of the cup. Following the non-linear dependency:\nV_cs = (V_cP + sqrt(V_cP^2 + 4KC)) / 2K\n\nTherefore, we encourage you to use the measurements from SRV, instead of making the cup-seconds conversions.\n\nAnalyzing the viscosity variations:\nFor a certain measurement range, and from equation (1), we can deduce that a viscosity variation in cup seconds correlates with a viscosity variation in cP as follows:\nV_cs2 - V_cs1 = a * V_cP2 + b - a * V_cP1 - b (6)\n\nAnd simplifying equation (6) we get:\nV_cs2 - V_cs1 = a * (V_cP2 - V_cP1) (7)\n\nDelta V_cs = a * Delta V_cP (8)\n\nHaving a linear relationship between the two, with a constant slope a. From equation 8 we can deduce that a percentile variation within a measurement range in cP relates with the same percentile cup second variation as follows.\n(V_csmeas - V_csmin) / Delta V_cs * 100 = a * (V_cPmeas - V_cPmin) / (a * Delta V_cP) * 100 (9)\n\nSimplifying equation (9) we get:\nDelta V_cs % = Delta V_cP % (10)\n\nThis is; a percentile variation of measured viscosity within a range in cP is equivalent to the variation in cup seconds, for small variation ranges.\n\nExample: Ford 4 cup.\nMeasuring 94 cP with SRV (assuming that density = 1 g/cc) and applying equation (1) and the table coefficients, we obtain:\nV_cs = 0.24 * 94 + 8 = 30.5 cup seconds (11)",
+      "specifications": {
+        "measured_viscosity_example": "94 cP",
+        "assumed_density_example": "1 g/cc",
+        "calculated_cup_seconds_example": "30.5 cup seconds"
+      },
+      "key_facts": [
+        "The relationship between cup seconds and cP is assumed linear only when temperature remains constant over the measurement range.",
+        "In most processes, temperature does not remain constant, and viscosity's high dependence on temperature will affect the calculated coefficients 'a' and 'b'.",
+        "The relationship between cup seconds and cP is typically non-linear throughout the entire measurement range of a cup.",
+        "A percentile variation of measured viscosity in cP is equivalent to the variation in cup seconds for small variation ranges."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "IMPORTANT: We are assuming that over the measurements range, the temperature remains constant and that the relationship between cup seconds and cP is linear. HOWEVER, in most processes, the temperature doesn't remain constant, and viscosity can be highly dependent on it. This WILL affect the calculated coefficients a, and b. Also, the relationship between cup seconds and cP is usually non-linear during the entire measurements range of the cup.",
+        "Recommendation: We encourage you to use the measurements from SRV, instead of making the cup-seconds conversions."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 934,
+        "cost_usd": 0.0024748
+      },
+      "source_file": "121_Cup_Second_Conversion_and_Coefficients_for_Rheonics_SRV.pdf"
+    },
+    {
+      "page_summary": "This page is almost entirely blank, featuring only a faint horizontal line near the top.",
+      "document_type": "",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 88,
+        "cost_usd": 0.00035979999999999996
+      },
+      "source_file": "121_Cup_Second_Conversion_and_Coefficients_for_Rheonics_SRV.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

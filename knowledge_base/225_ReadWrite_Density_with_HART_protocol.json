@@ -1,0 +1,205 @@
+{
+  "source_file": "225_ReadWrite_Density_with_HART_protocol.pdf",
+  "total_pages": 5,
+  "chunks": [
+    {
+      "page_summary": "This document outlines the HART protocol command 128-Write SRV Density for Rheonics SRV sensors, detailing its data structure, parameters, and response codes.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics sensors",
+        "SRV"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nRead/Write Density with HART protocol\n\nModified on: Mon, 30 May, 2022 at 3:59 PM\n\nThis article covers the usage of the HART-specific commands available for Rheonics sensors. Only SRV\n\n1. Command 128-Write SRV Density\n\nThis command is available in HART-7 (only), it accepts 6 Float values which are the Do0 to Do5 (Coefficients from a temperature compensated density).\n\nRequest Data Bytes\n\nTable 1\nBytes   Format   Data\n0-3     Float    Do0\n4-7     Float    Do1\n8-11    Float    Do2\n12-15   Float    Do3\n16-19   Float    Do4\n20-23   Float    Do5\n\nResponse data bytes\n\nSame as request data bytes.\n\nCommand specific response codes\n\nCode   Class   Description\n0      Success Command accepted, does not guarantee that data will be accepted by the sensor\n5      Error   Command frames too short\n7      Error   The device is not an SRV and thus does not accept density parameters\n64     Error   Command not implemented (it's only available in HART-7)\n\nExample:\n\nThe Density SRV output can be described as a polynomial of the form:",
+      "specifications": {
+        "command_availability": "HART-7 only",
+        "request_data_Do0_bytes": "0-3",
+        "request_data_Do0_format": "Float",
+        "request_data_Do1_bytes": "4-7",
+        "request_data_Do1_format": "Float",
+        "request_data_Do2_bytes": "8-11",
+        "request_data_Do2_format": "Float",
+        "request_data_Do3_bytes": "12-15",
+        "request_data_Do3_format": "Float",
+        "request_data_Do4_bytes": "16-19",
+        "request_data_Do4_format": "Float",
+        "request_data_Do5_bytes": "20-23",
+        "request_data_Do5_format": "Float"
+      },
+      "key_facts": [
+        "The article details the HART-specific command 128-Write SRV Density for Rheonics SRV sensors.",
+        "The command 128-Write SRV Density is exclusively available in HART-7.",
+        "This command accepts six Float values, representing coefficients (Do0 to Do5) for a temperature-compensated density.",
+        "The response data bytes for Command 128-Write SRV Density are the same as the request data bytes.",
+        "The document provides a list of command-specific response codes and their corresponding descriptions, including success and various error conditions."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "A successful command (Code 0) does not guarantee that the data will be accepted by the sensor.",
+        "The command will result in an error (Code 7) if the device is not an SRV and therefore does not accept density parameters.",
+        "The command is only available in HART-7; if attempted on other HART versions, it will return an error (Code 64)."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 895,
+        "cost_usd": 0.0023772999999999997
+      },
+      "source_file": "225_ReadWrite_Density_with_HART_protocol.pdf"
+    },
+    {
+      "page_summary": "This page details the process of configuring density polynomial coefficients for SRV HART devices using HART command 128, including defining decimal values and their conversion to hexadecimal format for both constant and temperature-dependent density applications.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV HART devices",
+        "HARTmpt software"
+      ],
+      "extracted_text": "Dout = D05 * T^5 + D04 * T^4 + D03 * T^3 + D02 * T^2 + D01 * T + D00\n(1)\n\nThis model can describe constant density or a temperature-dependent density.\n\na. Constant density input\nTo describe a constant density, the coefficient Do0 should be set equal to the constant density value, and all the other coefficients should be set to zero.\n\nb. Temperature-dependent density input\nTo describe a temperature-dependent density, assign values to the coefficients, that reflects the density behavior of your fluid with temperature. If you have a fluid reference table (for example Cannon fluids, Nippon grease), you can fit the density to a polynomial model to get the coefficients.\n\nAll the tests below will be completed with HARTmpt software\n\nCommand 128 - Write SRV Density\n\nSRV HART devices can edit these coefficients by using the HART command 128, this can be achieved by using the coefficient in hex format.\n\n1. Define the coefficient values based on a polynomial model, for example\nDo0= 1           Do1=0.003          Do2=0.001\n\n2. Convert coefficients to Hex based on the request data bytes from the table 1 from section 1, all unused values must be covered too, otherwise, the command will return an error command\nDo0= 0x3f800000  Do1=0x3b449ba6     Do2=0x3a83126f",
+      "specifications": {},
+      "key_facts": [
+        "The provided polynomial model (Equation 1) can describe either constant density or temperature-dependent density.",
+        "For constant density input, the coefficient Do0 should be set equal to the constant density value, and all other coefficients (Do1 through Do5) must be set to zero.",
+        "For temperature-dependent density input, coefficient values should reflect the fluid's density behavior with temperature.",
+        "Fluid reference tables, such as those for Cannon fluids or Nippon grease, can be used to fit density to a polynomial model to determine the coefficients.",
+        "All tests described on this page are intended to be completed using HARTmpt software.",
+        "SRV HART devices allow editing of these density coefficients using HART command 128.",
+        "Coefficient values must be converted to and transmitted in hex format for configuration.",
+        "Example decimal coefficient values are Do0=1, Do1=0.003, and Do2=0.001.",
+        "Example hexadecimal conversions for these coefficients are Do0=0x3f800000, Do1=0x3b449ba6, and Do2=0x3a83126f."
+      ],
+      "diagram_labels": [
+        "(1)"
+      ],
+      "warnings_notes": [
+        "When converting coefficients to Hex based on the request data bytes from table 1 (from section 1), all unused values must be covered; otherwise, the command will return an error."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 800,
+        "cost_usd": 0.0021398
+      },
+      "source_file": "225_ReadWrite_Density_with_HART_protocol.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions and a graphical user interface screenshot detailing the process of inputting hexadecimal coefficient values and data bytes to send a 'write density' command (Command 128) via a HARTmpt-like software interface.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "3. Input the hex value for all the coefficients 3F 80 00 00 3B 44 9B A6 3A 83 12 6F 00 00 00 00 00 00 00 00\n4. Input data bytes with software like HARTmpt and click send command\n\nSend Command (Window Title)\n    Polling: 0 (Input field value)\n    Command: 128 (Input field value)\n    Data will be sent:\n        3F 80 00 00 3B 44 9B A6 3A 83 12 6F (Text area content)\n    Send (Button)\n    Clean (Button)\n    Cancel (Button)\n    Respond Code: (Empty text box)\n    Received data: (Empty text box)\n\nFigure 1. Command 128, write density.",
+      "specifications": {},
+      "key_facts": [
+        "The document provides step-by-step instructions for configuring coefficients and sending data bytes.",
+        "Hexadecimal values for coefficients are specified as 3F 80 00 00 3B 44 9B A6 3A 83 12 6F 00 00 00 00 00 00 00 00.",
+        "Data bytes are to be input using software similar to HARTmpt.",
+        "The 'Send Command' interface features fields for Polling (set to 0) and Command (set to 128).",
+        "The data bytes shown being sent are '3F 80 00 00 3B 44 9B A6 3A 83 12 6F'.",
+        "Command 128 is identified as the 'write density' command."
+      ],
+      "diagram_labels": [
+        "Send Command",
+        "Polling",
+        "Command",
+        "Data will be sent",
+        "Send",
+        "Clean",
+        "Cancel",
+        "Respond Code",
+        "Received data",
+        "Figure 1. Command 128, write density."
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 619,
+        "cost_usd": 0.0016872999999999999
+      },
+      "source_file": "225_ReadWrite_Density_with_HART_protocol.pdf"
+    },
+    {
+      "page_summary": "This page details the expected responses for HART command 128 through a graphical user interface example and provides a textual description of HART command 129 for reading SRV density coefficients.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV"
+      ],
+      "extracted_text": "5. Command 128 response, the response is as expected based on Table 1\nSend Command\nPolling 0\nCommand 128\nData will be sent\n3F 80 00 00 3B 44 9B A6 3A 83 12 6F 00 00 00 00 00 00 00 00 00 00 00\nSend\nClean\nCancel\nRespond Code\n00 00\nReceived data\n3F 80 00 00 3B 44 9B A6 3A 83 12 6F 00 00 00 00 00 00 00 00 00 00 00\nFigure 2. Command 128 response from HARTmpt.\n2. Command 129-Read SRV density\nThis command is available in HART-7 (only), it accepts 6 Float values which are the Do0 to Do5(Coefficients from a temperature compensated density)\nRequest Data Bytes\nThere are no request data bytes\nResponse data bytes\nSee response from the status from each coefficient from density\nCommand specific response codes\nThere are not command specific responses",
+      "specifications": {
+        "Command 128": "response",
+        "Command 129": "Read SRV density",
+        "Command 129 accepted values": "6 Float values",
+        "Command 129 Float value range": "Do0 to Do5",
+        "HART protocol version": "HART-7 (only)"
+      },
+      "key_facts": [
+        "The response for Command 128 is consistent with expectations outlined in Table 1 (not provided on this page).",
+        "Command 129 is specifically designed to read SRV density.",
+        "Command 129 is exclusively supported by the HART-7 communication protocol.",
+        "Command 129 processes 6 Float values, which represent coefficients (Do0 to Do5) used for temperature-compensated density calculations.",
+        "No specific data bytes are required when sending Command 129.",
+        "The response to Command 129 provides the status for each density coefficient.",
+        "Command 129 does not utilize any unique command-specific response codes."
+      ],
+      "diagram_labels": [
+        "Send Command",
+        "Polling",
+        "Command",
+        "Data will be sent",
+        "Send",
+        "Clean",
+        "Cancel",
+        "Respond Code",
+        "Received data",
+        "Figure 2. Command 128 response from HARTmpt."
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 734,
+        "cost_usd": 0.0019747999999999996
+      },
+      "source_file": "225_ReadWrite_Density_with_HART_protocol.pdf"
+    },
+    {
+      "page_summary": "This page illustrates a software interface showing the process and response for Command 129, which retrieves current values from the density model loaded into an SRV device.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "density sensor"
+      ],
+      "extracted_text": "Command 129 will return the current values from the density model that are loaded into the SRV\n\nSend Command\n\nPolling 0\nCommand 129\nData will be sent\n\nSend Clean Cancel\n\nRespond Code\n00 00\n\nReceived data\n3F 80 00 00 3B 44 9B A6 3A 83 12 6F 00 00 00 00 00 00 00 00 00 00 00 00\n\nFigure 3. Command 129 response.",
+      "specifications": {},
+      "key_facts": [
+        "Command 129 retrieves the current values from the density model loaded into the SRV.",
+        "The 'Send Command' interface shows 'Polling' set to 0 and 'Command' set to 129.",
+        "The 'Respond Code' displayed is '00 00'.",
+        "The 'Received data' for this command is '3F 80 00 00 3B 44 9B A6 3A 83 12 6F 00 00 00 00 00 00 00 00 00 00 00 00'."
+      ],
+      "diagram_labels": [
+        "Send Command",
+        "Polling",
+        "Command",
+        "Data will be sent",
+        "Send",
+        "Clean",
+        "Cancel",
+        "Respond Code",
+        "Received data",
+        "Figure 3. Command 129 response."
+      ],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 504,
+        "cost_usd": 0.0013998
+      },
+      "source_file": "225_ReadWrite_Density_with_HART_protocol.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

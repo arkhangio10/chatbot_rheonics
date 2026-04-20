@@ -1,0 +1,58 @@
+{
+  "source_file": "SRV_FLANGE.pdf",
+  "total_pages": 1,
+  "chunks": [
+    {
+      "page_summary": "This page details the variable dimensions for the Rheonics SRV flange, including insertion lengths, flange specifications, and critical dimensions, alongside company contact and legal information.",
+      "document_type": "drawing",
+      "product_names": [
+        "SRV flange"
+      ],
+      "extracted_text": "Variable dimensions:\nA: Insertion length\nStandard insertion length is 79.7 mm\nCustom lengths are possible from 45.7mm<A<79.7mm\n\nB: Flange/adapter:\nSpecify the norm, size, pressure rating, e.g.\nANSI 150 LB RF 2 inch\nANSI 300 LB RF 1.5 inch\n\nUnits: mm [inch]\n\nSRV flange\n\nThis drawing remains property of rheonics. It may be neither copied nor informed to third persons or competitors without our approval. (2 paragraph 1 fig.7 copyright act of 9th Sept. 1965)\n\nProtected by US and International patents granted and pending\nrheonics • Switzerland • USA • www.rheonics.com • info@rheonics.com +41 52 511 32 00 +1 713 364 5427\n\nrheonics\ninline process density and viscosity monitoring",
+      "specifications": {
+        "standard_insertion_length": "79.7 mm",
+        "custom_insertion_length_range": "45.7 mm < A < 79.7 mm",
+        "minimal_insertion_length": "45.7 mm [1.80\"]",
+        "max_flange_thickness": "25.4 mm [1.00\"]",
+        "top_diameter": "30 mm [1.18\"]",
+        "middle_body_diameter": "26 mm [1.02\"]",
+        "probe_tip_diameter": "8 mm [0.31\"]",
+        "example_flange_type_1": "ANSI 150 LB RF 2 inch",
+        "example_flange_type_2": "ANSI 300 LB RF 1.5 inch"
+      },
+      "key_facts": [
+        "The SRV flange has a standard insertion length of 79.7 mm.",
+        "Custom insertion lengths for the SRV flange are available, ranging from 45.7 mm to just under 79.7 mm.",
+        "Flange specifications, including norm, size, and pressure rating, must be provided for the 'B' dimension.",
+        "The document specifies dimensions in both millimeters and inches.",
+        "Rheonics offers inline process density and viscosity monitoring solutions."
+      ],
+      "diagram_labels": [
+        "A: Insertion length",
+        "B",
+        "Max flange thickness",
+        "minimal insertion length",
+        "Standard",
+        "mm",
+        "[inch]"
+      ],
+      "warnings_notes": [
+        "This drawing remains property of rheonics. It may be neither copied nor informed to third persons or competitors without our approval. (2 paragraph 1 fig.7 copyright act of 9th Sept. 1965)",
+        "Protected by US and International patents granted and pending"
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 767,
+        "cost_usd": 0.0020572999999999998
+      },
+      "source_file": "SRV_FLANGE.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

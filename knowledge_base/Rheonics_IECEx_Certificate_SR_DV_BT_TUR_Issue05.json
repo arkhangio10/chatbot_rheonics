@@ -1,0 +1,233 @@
+{
+  "source_file": "Rheonics_IECEx_Certificate_SR_DV_BT_TUR_Issue05.pdf",
+  "total_pages": 5,
+  "chunks": [
+    {
+      "page_summary": "This page is an IECEx Certificate of Conformity (Issue No. 5) for Rheonics GmbH's Fluid Properties Sensors, detailing their explosion protection markings for intrinsic safety.",
+      "document_type": "certificate",
+      "product_names": [
+        "Fluid Properties Sensors",
+        "Type-SR",
+        "Type-DV",
+        "Type-BT"
+      ],
+      "extracted_text": "IECEx Certificate of Conformity\nINTERNATIONAL ELECTROTECHNICAL COMMISSION\nIEC Certification System for Explosive Atmospheres\nfor rules and details of the IECEx Scheme visit www.iecex.com\n\nCertificate No.: IECEx TUR 19.0005X\nStatus: Current\nDate of Issue: 2025-01-28\nApplicant: Rheonics GmbH\nZuercherstrasse 39-41\nWinterthur 8400\nSwitzerland\nEquipment: Fluid Properties Sensors; Type-SR, Type-DV, and Type-BT\nOptional accessory:\nType of Protection: Ex ia\nMarking: Ex ia IIC/IIB/IIA T6 ... T1 Ga\nEx ia IIIC T200 85°C ... 435°C Da\n\nPage 1 of 4\nIssue No: 5\nCertificate history:\nIssue 4 (2024-08-05)\nIssue 3 (2024-01-23)\nIssue 2 (2022-10-07)\nIssue 1 (2020-10-05)\nIssue 0 (2019-09-11)\n\nApproved for issue on behalf of the IECEx\nCertification Body:\nChristian Mehrhoff\nPosition: Assigned certifier\nSignature: (for printed version)\nDate: (for printed version)\n2025-01-28\n\n1. This certificate and schedule may only be reproduced in full.\n2. This certificate is not transferable and remains the property of the issuing body.\n3. The Status and authenticity of this certificate may be verified by visiting www.iecex.com or use of this QR Code.\n\nCertificate issued by:\nTUV Rheinland Industrie Service GmbH\nAm Grauen Stein\n51105 Cologne\nGermany",
+      "specifications": {
+        "Certificate No.": "IECEx TUR 19.0005X",
+        "Status": "Current",
+        "Date of Issue": "2025-01-28",
+        "Page": "1 of 4",
+        "Issue No": "5",
+        "Type of Protection": "Ex ia",
+        "Marking_Gas_Group": "IIC/IIB/IIA",
+        "Marking_Temperature_Class_Gas": "T6 ... T1",
+        "Marking_Protection_Level_Gas": "Ga",
+        "Marking_Dust_Group": "IIIC",
+        "Marking_Maximum_Surface_Temperature_Dust": "T200",
+        "Marking_Ambient_Temperature_Range_Dust": "85°C ... 435°C",
+        "Marking_Protection_Level_Dust": "Da"
+      },
+      "key_facts": [
+        "The certificate IECEx TUR 19.0005X is currently valid and was issued on January 28, 2025, as Issue No. 5.",
+        "The applicant for the certificate is Rheonics GmbH, located in Winterthur, Switzerland.",
+        "The certified equipment consists of Fluid Properties Sensors, specifically Type-SR, Type-DV, and Type-BT.",
+        "The equipment features 'Ex ia' type of protection, indicating intrinsic safety.",
+        "The equipment is marked for use in explosive gas atmospheres with protection level Ga, covering gas groups IIC/IIB/IIA and temperature classes from T6 to T1.",
+        "The equipment is also marked for use in explosive dust atmospheres with protection level Da, covering dust group IIIC, with a maximum surface temperature of 200°C for an ambient temperature range of 85°C to 435°C.",
+        "The certificate was approved by Christian Mehrhoff, an Assigned certifier, on behalf of the IECEx Certification Body.",
+        "The certificate was issued by TUV Rheinland Industrie Service GmbH in Cologne, Germany."
+      ],
+      "diagram_labels": [
+        "IECEx",
+        "TÜVRheinland",
+        "QR Code"
+      ],
+      "warnings_notes": [
+        "This certificate and schedule may only be reproduced in full.",
+        "This certificate is not transferable and remains the property of the issuing body.",
+        "The Status and authenticity of this certificate may be verified by visiting www.iecex.com or use of this QR Code."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1123,
+        "cost_usd": 0.0029473
+      },
+      "source_file": "Rheonics_IECEx_Certificate_SR_DV_BT_TUR_Issue05.pdf"
+    },
+    {
+      "page_summary": "This page is an IECEx Certificate of Conformity issued to Rheonics GmbH, detailing its compliance with explosive atmosphere standards and related test reports.",
+      "document_type": "certificate",
+      "product_names": [],
+      "extracted_text": "IECEx Certificate\nof Conformity\n\nCertificate No.: IECEx TUR 19.0005X\nDate of issue: 2025-01-28\nPage 2 of 4\nIssue No: 5\n\nManufacturer:\nRheonics GmbH\nZuercherstrasse 39-41\nWinterthur 8400\nSwitzerland\n\nManufacturing locations:\n\nThis certificate is issued as verification that a sample(s), representative of production, was assessed and tested and found to comply with the IEC Standard list below and that the manufacturer's quality system, relating to the Ex products covered by this certificate, was assessed and found to comply with the IECEx Quality system requirements. This certificate is granted subject to the conditions as set out in IECEx Scheme Rules, IECEx 02 and Operational Documents as amended\n\nSTANDARDS :\nThe equipment and any acceptable variations to it specified in the schedule of this certificate and the identified documents, was found to comply with the following standards\n\nIEC 60079-0:2017 Edition:7.0 Explosive atmospheres - Part 0: Equipment - General requirements\nIEC 60079-11:2011 Edition:6.0 Explosive atmospheres - Part 11: Equipment protection by intrinsic safety \"i\"\n\nThis Certificate does not indicate compliance with safety and performance requirements other than those expressly included in the Standards listed above.\n\nTEST & ASSESSMENT REPORTS:\nA sample(s) of the equipment listed has successfully met the examination and test requirements as recorded in:\n\nTest Report:\nDE/TUR/ExTR19.0005/05\n\nQuality Assessment Report:\nDE/TUR/QAR19.0013/05",
+      "specifications": {},
+      "key_facts": [
+        "This document is an IECEx Certificate of Conformity.",
+        "The certificate number is IECEx TUR 19.0005X.",
+        "The certificate was issued on 2025-01-28.",
+        "This document is Page 2 of 4 of the certificate and is Issue No: 5.",
+        "The manufacturer is Rheonics GmbH, located at Zuercherstrasse 39-41, Winterthur 8400, Switzerland.",
+        "The certificate verifies that a sample(s) of production was assessed, tested, and found to comply with the listed IEC Standards.",
+        "The manufacturer's quality system for Ex products was assessed and found to comply with IECEx Quality system requirements.",
+        "The certificate is subject to conditions set out in IECEx Scheme Rules, IECEx 02, and Operational Documents as amended.",
+        "The equipment complies with IEC 60079-0:2017 Edition:7.0 for 'Explosive atmospheres - Part 0: Equipment - General requirements'.",
+        "The equipment complies with IEC 60079-11:2011 Edition:6.0 for 'Explosive atmospheres - Part 11: Equipment protection by intrinsic safety \"i\"'.",
+        "A sample(s) of the equipment met examination and test requirements recorded in Test Report DE/TUR/ExTR19.0005/05.",
+        "A Quality Assessment Report DE/TUR/QAR19.0013/05 is associated with the assessment."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "This Certificate does not indicate compliance with safety and performance requirements other than those expressly included in the Standards listed above."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 887,
+        "cost_usd": 0.0023572999999999997
+      },
+      "source_file": "Rheonics_IECEx_Certificate_SR_DV_BT_TUR_Issue05.pdf"
+    },
+    {
+      "page_summary": "This page is the third page of an IECEx Certificate of Conformity (IECEx TUR 19.0005X) issued on 2025-01-28, detailing the equipment covered, electrical and environmental data, and specific conditions of use for Rheonics sensors.",
+      "document_type": "certificate",
+      "product_names": [
+        "SRV",
+        "SRD",
+        "Rheonics DV",
+        "DVM",
+        "DVP",
+        "DVI",
+        "Rheonics BT",
+        "BTC",
+        "BTS"
+      ],
+      "extracted_text": "IECEx\nIECEx Certificate of Conformity\nCertificate No.: IECEx TUR 19.0005X\nPage 3 of 4\nDate of issue: 2025-01-28\nIssue No: 5\n\nEQUIPMENT:\nEquipment and systems covered by this Certificate are as follows:\nSRV: A sensor to measure viscosity of a liquid in which its active end is immersed\nSRD: A sensor to measure simultaneous density and viscosity of a liquid in which its active end is immersed.\nRheonics DV (DVM, DVP and DVI) sensors measure fluid density and viscosity in higher temperature and pressure ranges.\nRheonics BT (BTC, BTS) are viscosity and density meters with unobstructed tubular flow channels meant for inline measurements in piping installations.\nThe sensors are made in type of protection Ex ia and can be installed in hazardous gas atmospheres of up to zone 0. The sensors are available in different housing variants.\n\nElectrical data:\nPlease see the attachment.\n\nEnvironmental data:\nPlease see the attachment.\n\nSPECIFIC CONDITIONS OF USE: YES as shown below:\n1. The max. ambient and fluid temperature Ta for gas group depends on the temperature class of the explosive atmosphere:\nSee environmental data.\n2. Equipment maximum surface temperatures vary according to different ambient temperature ranges in the dust group:\nSee environmental data.\n3. The sensor has to be included into the equipotential bonding system.\n4. The DVM, DVP and DVI sensors contain titanium. These sensors must be protected from impact or mechanical friction during the installation and use that can chip or abrade their housings or active elements.",
+      "specifications": {
+        "Certificate No.": "IECEx TUR 19.0005X",
+        "Date of issue": "2025-01-28",
+        "Page": "3 of 4",
+        "Issue No": "5",
+        "Type of protection": "Ex ia",
+        "Hazardous gas atmospheres": "up to zone 0"
+      },
+      "key_facts": [
+        "This document is an IECEx Certificate of Conformity with certificate number IECEx TUR 19.0005X, issued on 2025-01-28, and is page 3 of 4, issue number 5.",
+        "The SRV sensor measures viscosity of a liquid by immersing its active end.",
+        "The SRD sensor measures simultaneous density and viscosity of a liquid by immersing its active end.",
+        "Rheonics DV sensors (DVM, DVP, and DVI) are designed to measure fluid density and viscosity in higher temperature and pressure ranges.",
+        "Rheonics BT meters (BTC, BTS) are viscosity and density meters with unobstructed tubular flow channels for inline measurements in piping installations.",
+        "The sensors covered by this certificate are made with type of protection Ex ia and can be installed in hazardous gas atmospheres up to zone 0.",
+        "The sensors are available in various housing variants.",
+        "The maximum ambient and fluid temperature (Ta) for the gas group depends on the temperature class of the explosive atmosphere.",
+        "Equipment maximum surface temperatures vary according to different ambient temperature ranges in the dust group.",
+        "The sensor must be included into the equipotential bonding system.",
+        "Rheonics DVM, DVP, and DVI sensors contain titanium and must be protected from impact or mechanical friction during installation and use to prevent damage to their housings or active elements."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Electrical data: Please see the attachment.",
+        "Environmental data: Please see the attachment.",
+        "The max. ambient and fluid temperature Ta for gas group depends on the temperature class of the explosive atmosphere: See environmental data.",
+        "Equipment maximum surface temperatures vary according to different ambient temperature ranges in the dust group: See environmental data.",
+        "The sensor has to be included into the equipotential bonding system.",
+        "The DVM, DVP and DVI sensors contain titanium. These sensors must be protected from impact or mechanical friction during the installation and use that can chip or abrade their housings or active elements."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1081,
+        "cost_usd": 0.0028423
+      },
+      "source_file": "Rheonics_IECEx_Certificate_SR_DV_BT_TUR_Issue05.pdf"
+    },
+    {
+      "page_summary": "This page is the fourth and final page of an IECEx Certificate of Conformity, detailing certificate changes for issue 5, including a company's location change, and referencing an annex attachment.",
+      "document_type": "notes",
+      "product_names": [],
+      "extracted_text": "IECEx\nIECEx Certificate of Conformity\n\nCertificate No.: IECEx TUR 19.0005X\nDate of issue: 2025-01-28\nPage 4 of 4\nIssue No: 5\n\nDETAILS OF CERTIFICATE CHANGES (for issues 1 and above)\nCompany's location has changed.\n\nAnnex:\nAttachment IECEx TUR 19.0005X_05.pdf",
+      "specifications": {},
+      "key_facts": [
+        "This document is Page 4 of 4 of an IECEx Certificate of Conformity.",
+        "The Certificate Number is IECEx TUR 19.0005X.",
+        "The certificate was issued on 2025-01-28.",
+        "This is Issue No. 5 of the certificate.",
+        "A notable change documented is that the company's location has changed.",
+        "An annex attachment, 'IECEx TUR 19.0005X_05.pdf', is referenced."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "DETAILS OF CERTIFICATE CHANGES (for issues 1 and above)",
+        "Company's location has changed."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 376,
+        "cost_usd": 0.0010798
+      },
+      "source_file": "Rheonics_IECEx_Certificate_SR_DV_BT_TUR_Issue05.pdf"
+    },
+    {
+      "page_summary": "This page is an attachment to an IECEx certificate detailing the electrical and environmental specifications for Rheonics fluid properties sensors for use in hazardous areas.",
+      "document_type": "datasheet",
+      "product_names": [
+        "Fluid Properties Sensors",
+        "Type-SR",
+        "Type-DV",
+        "Type-BT"
+      ],
+      "extracted_text": "IEC IECEx\nAttachment to Certificate\nIECEx TUR 19.0005X\nIssue 05\n\nDevice: Fluid Properties Sensors\nType: Type-SR, Type-DV, and Type-BT\n\nManufacturer: Rheonics GmbH\n\nAddress: Zuercherstrasse 39-41\n8400 Winterthur\nSwitzerland\n\nElectrical data:\n\nTransducer Coil + Pt1000 circuit\nIS Parameter\nGas group IIC:\nGas group IIB:\nUi\n10V\n10V\nIi\n30mA\n80mA\nPi\n75mW\n130mW\nCi\nnegligible\nnegligible\nLi\n20mH\n20mH\n\nThe sum of the output currents Io of the supplying circuits shall not exceed the given Ii and the input circuits shall refer to the same ground.\n\nEnvironmental data:\n\nAmbient temperatures for gas ignition classes\n\nAmbient and fluid temperature\nrange Ta\nT class\nGas group IIC / IIB:\nT6\n-200°C....+70°C\nT5\n-200°C....+85°C\nT4\n-200°C....+120°C\nT3\n-200°C ....+185°C\nT2\n-200°C ....+285°C\nT1\n-200°C ....+435°C\n\nAmbient temperatures for dust ignition temperature ranges\n\nDust Group IIIC:\nMaximum Surface\nTemperature\nAmbient Temperature\nT85°C\n-200°C....+70°C\nT100°C\n-200°C....+85°C\nT135°C\n-200°C ....+120°C\nT200°C\n-200°C ....+185°C\nT285°C\n-200°C ....+270°C\nT435°C\n-200°C ....+420°C\n\nTÜV Rheinland Industrie Service GmbH Am Grauen Stein 51105 Köln\nTel. +49 (0) 221 806-0 Fax. + 49 (0) 221 806 114\n\npage 1 / 1",
+      "specifications": {
+        "IS Parameter - Ui (Gas group IIC)": "10 V",
+        "IS Parameter - Ui (Gas group IIB)": "10 V",
+        "IS Parameter - Ii (Gas group IIC)": "30 mA",
+        "IS Parameter - Ii (Gas group IIB)": "80 mA",
+        "IS Parameter - Pi (Gas group IIC)": "75 mW",
+        "IS Parameter - Pi (Gas group IIB)": "130 mW",
+        "IS Parameter - Ci (Gas group IIC)": "negligible",
+        "IS Parameter - Ci (Gas group IIB)": "negligible",
+        "IS Parameter - Li (Gas group IIC)": "20 mH",
+        "IS Parameter - Li (Gas group IIB)": "20 mH",
+        "Ambient and fluid temperature range Ta (T6, Gas group IIC / IIB)": "-200 °C to +70 °C",
+        "Ambient and fluid temperature range Ta (T5, Gas group IIC / IIB)": "-200 °C to +85 °C",
+        "Ambient and fluid temperature range Ta (T4, Gas group IIC / IIB)": "-200 °C to +120 °C",
+        "Ambient and fluid temperature range Ta (T3, Gas group IIC / IIB)": "-200 °C to +185 °C",
+        "Ambient and fluid temperature range Ta (T2, Gas group IIC / IIB)": "-200 °C to +285 °C",
+        "Ambient and fluid temperature range Ta (T1, Gas group IIC / IIB)": "-200 °C to +435 °C",
+        "Ambient Temperature (Dust Group IIIC, T85°C)": "-200 °C to +70 °C",
+        "Ambient Temperature (Dust Group IIIC, T100°C)": "-200 °C to +85 °C",
+        "Ambient Temperature (Dust Group IIIC, T135°C)": "-200 °C to +120 °C",
+        "Ambient Temperature (Dust Group IIIC, T200°C)": "-200 °C to +185 °C",
+        "Ambient Temperature (Dust Group IIIC, T285°C)": "-200 °C to +270 °C",
+        "Ambient Temperature (Dust Group IIIC, T435°C)": "-200 °C to +420 °C"
+      },
+      "key_facts": [
+        "This document is an Attachment to Certificate IECEx TUR 19.0005X, Issue 05.",
+        "The device covered are Fluid Properties Sensors, specifically Type-SR, Type-DV, and Type-BT.",
+        "The manufacturer is Rheonics GmbH, located at Zuercherstrasse 39-41, 8400 Winterthur, Switzerland.",
+        "Electrical data is provided for a Transducer Coil + Pt1000 circuit for Gas group IIC and Gas group IIB.",
+        "Environmental data includes ambient temperatures for gas ignition classes (T1 to T6) and ambient temperatures for dust ignition temperature ranges (Dust Group IIIC for maximum surface temperatures T85°C to T435°C).",
+        "The document specifies intrinsic safety parameters (Ui, Ii, Pi, Ci, Li) for both Gas group IIC and IIB.",
+        "The document is managed by TÜV Rheinland Industrie Service GmbH."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "The sum of the output currents Io of the supplying circuits shall not exceed the given Ii.",
+        "The input circuits shall refer to the same ground."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1594,
+        "cost_usd": 0.0041248
+      },
+      "source_file": "Rheonics_IECEx_Certificate_SR_DV_BT_TUR_Issue05.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

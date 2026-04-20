@@ -1,0 +1,915 @@
+{
+  "source_file": "075_Can_I_connect_to_the_Rheonics_Sensor_using_a_straight-through_ethernet_cable_directly_from_the_computer.pdf",
+  "total_pages": 16,
+  "chunks": [
+    {
+      "page_summary": "This support article from Rheonics details how to directly connect Rheonics sensors to a computer using a straight-through Ethernet cable, addressing product involvement and setup requirements.",
+      "document_type": "support article",
+      "product_names": [
+        "Rheonics Sensor",
+        "SRV",
+        "SRD",
+        "DVM",
+        "SME-DRM",
+        "SME"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nCan I connect to the Rheonics Sensor using a straight-through ethernet cable directly from the computer?\n\nModified on: Fri, 30 Jan, 2026 at 3:22 PM\n\nWhich Products are Involved?\nSRV (https://rheonics.com/products/inline-viscometer-srv/), SRD (https://rheonics.com/products/inline-density-meter-srd/), DVM (https://rheonics.com/products/hpht-pvt-density-meter-viscometer-dvm/), SME-DRM (https://rheonics.com/electronics-and-communication/).\nFor SME-DRM (DIN rail mount) transmitter. Visit Rheonics product page: https://rheonics.com/products/ (https://rheonics.com/products/)\n\n1. Can I connect using an ethernet cable directly from my computer or laptop?\nRheonics ethernet-enabled sensor can connect with straight-through cables to ethernet ports that support Auto MDI-X after setting the correct IP address and Subnet mask. To correctly set the IP address and subnet mask on the SME (sensor electronics), check this support article https://support.rheonics.com/en/support/solutions/articles/81000397449-connecting-your-sme-using-ethernet\n\n2. What to do if I want to connect to the sensor connected over LAN?\nThis article is not for you, refer to the article for LAN connections (https://support.rheonics.com/en/support/solutions/folders/81000219061) or check our RCP manual Rheonics Control Panel Section 4.1.2. (https://rheonics.com/wp-content/uploads/dlm_uploads/2019/09/Rheonics_RCP_Manual.pdf)\n\n3. How do I connect to sensor SME electronics using an ethernet cable plugged directly into my computer?\nThe connection between the SME and the PC directly with a single Ethernet cable is only possible if the PC ethernet device (NIC) supports Auto-MDI-X. In figure 1 it is shown how both the SME and a Laptop are connected and receive data through the RCP software.",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics ethernet-enabled sensors can be connected directly to a computer or laptop using straight-through Ethernet cables, provided the computer's ethernet port supports Auto MDI-X.",
+        "Correct IP address and Subnet mask must be set on the SME (sensor electronics) for a direct connection.",
+        "For connecting to a sensor over a LAN, users are advised to refer to a dedicated article for LAN connections or the Rheonics Control Panel (RCP) manual.",
+        "The connection between the SME and a PC/laptop allows data reception through the RCP software.",
+        "Involved products include SRV (inline viscometer), SRD (inline density meter), DVM (HPHT-PVT density meter), and SME-DRM (DIN rail mount) transmitter."
+      ],
+      "diagram_labels": [
+        "Figure 1"
+      ],
+      "warnings_notes": [
+        "This article is not for connections over LAN; refer to the article for LAN connections or the RCP manual."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 866,
+        "cost_usd": 0.0023048
+      },
+      "source_file": "075_Can_I_connect_to_the_Rheonics_Sensor_using_a_straight-through_ethernet_cable_directly_from_the_computer.pdf"
+    },
+    {
+      "page_summary": "This page illustrates the physical and logical connections between a Rheonics SME device and a computer using an Ethernet cable, and begins to detail the necessary PC configuration steps for communication.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SME",
+        "SME-ORM",
+        "RCP software"
+      ],
+      "extracted_text": "Ethernet cable connected directly to the laptop\nEthernet cable connected directly to the SME without Switch or router.\nCommunication is achieved through RCP software\nDevice Configuration\nSensor Type\nDensity\nTemperature\nMW\nLog Settings\nRheonics SME\n24 V dc +\ngnd\nModbus A (RS485)\nModbus B (RS485)\npower\nsensor\ncomm\ndata\nusb\ndisplay\n4-20 mA output\nch1 +\nch1 -\ngnd +\ngnd -\nch2 +\nch2 -\nch3 +\nch3 -\nreset\nSD-card\nrheonics SME-ORM\nEthernet\nInput mode\nBlock Diagram\nLaptop\nNIC with AUTO MID-X functionality\nEither crossover or straight-through Ethernet cable\nFigure 1. Ethernet cable between SME and computer\n4. What do I need to configure on the PC?\nThe PC must be set as follow for the correct communication with the SME:\n4.1. Open Control Panel",
+      "specifications": {
+        "Ethernet Speed": "10/100 Mbps",
+        "Density Value 1": "0.00",
+        "Density Value 2": "1.5000",
+        "MW Value 1": "27.70",
+        "MW Value 2": "14.5040",
+        "Power Input": "24 V dc",
+        "Analog Output": "4-20 mA",
+        "Digital Interface": "RS485"
+      },
+      "key_facts": [
+        "The Rheonics SME device can be connected directly to a laptop using an Ethernet cable without an intermediary switch or router.",
+        "Communication with the Rheonics SME is achieved through the RCP software.",
+        "The Ethernet connection can be established using either a crossover or straight-through cable, implying the laptop's Network Interface Card (NIC) should have AUTO MID-X functionality.",
+        "Configuration on the PC is required to ensure correct communication with the SME.",
+        "The initial step for PC configuration involves opening the Control Panel."
+      ],
+      "diagram_labels": [
+        "Ethernet cable connected directly to the laptop",
+        "Ethernet cable connected directly to the SME without Switch or router.",
+        "Communication is achieved through RCP software",
+        "Rheonics SME",
+        "24 V dc +",
+        "gnd",
+        "Modbus A (RS485)",
+        "Modbus B (RS485)",
+        "power",
+        "sensor",
+        "comm",
+        "data",
+        "usb",
+        "display",
+        "4-20 mA output",
+        "ch1 +",
+        "ch1 -",
+        "gnd +",
+        "gnd -",
+        "ch2 +",
+        "ch2 -",
+        "ch3 +",
+        "ch3 -",
+        "reset",
+        "SD-card",
+        "rheonics SME-ORM",
+        "Ethernet",
+        "10/100 Mbps",
+        "Input mode",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "Block Diagram",
+        "Laptop",
+        "NIC with AUTO MID-X functionality",
+        "Either crossover or straight-through Ethernet cable",
+        "Figure 1. Ethernet cable between SME and computer"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 920,
+        "cost_usd": 0.0024397999999999998
+      },
+      "source_file": "075_Can_I_connect_to_the_Rheonics_Sensor_using_a_straight-through_ethernet_cable_directly_from_the_computer.pdf"
+    },
+    {
+      "page_summary": "This page provides a step-by-step guide on how to access and navigate the Control Panel in Windows, specifically focusing on finding network settings.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Filters\nBest match\nControl Panel\nDesktop app\nRecent\nNetwork and Sharing Center\nSystem\nUninstall a program\nApps\nSettings\nSettings\nSystem\nTaskbar notification area\nSearch suggestions\ncontrol panel - See web results\ncontrol panel\nFigure 2. Control Panel Search\n4.2. Select Network and internet\nControl Panel\nControl Panel\nSearch Control Panel\nAdjust your computer's settings\nView by: Category\nSystem and Security\nReview your computer's status\nSave backup copies of your files with File History\nBackup and Restore (Windows 7)\nUser Accounts\nChange account type\nNetwork and Internet\nView network status and tasks\nChoose homegroup and sharing options\nAppearance and Personalization\nHardware and Sound\nView devices and printers\nAdd a device\nClock, Language, and Region\nAdd a language\nChange input methods\nChange date, time, or number formats\nPrograms\nUninstall a program\nEase of Access\nLet Windows suggest settings\nOptimize visual display",
+      "specifications": {},
+      "key_facts": [
+        "The Control Panel can be found by searching 'control panel' in the Windows search bar.",
+        "The 'Control Panel' desktop app is typically the 'Best match' in search results.",
+        "After opening the Control Panel, users can adjust computer settings.",
+        "The 'Network and Internet' option is available within the Control Panel to view network status and tasks, and choose homegroup and sharing options."
+      ],
+      "diagram_labels": [
+        "Control Panel (Desktop app)",
+        "control panel (search input)",
+        "Network and Internet"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 468,
+        "cost_usd": 0.0013098
+      },
+      "source_file": "075_Can_I_connect_to_the_Rheonics_Sensor_using_a_straight-through_ethernet_cable_directly_from_the_computer.pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions with screenshots for navigating Windows network settings to find and check the status of an Ethernet connection.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Figure 3. Network and Internet\n4.3. Click \"Change adapter Settings\"\n\nNetwork and Sharing Center\n  < Control Panel > Network and Internet > Network and Sharing Center\n  Control Panel Home\n  Change adapter settings\n  Change advanced sharing settings\n\n  View your basic network information and set up connections\n  View your active networks\n    Network: Public network\n    Access type: Internet\n    Connections: Ethernet\n\n  Change your networking settings\n    Set up a new connection or network\n      Set up a broadband, dial-up, or VPN connection; or set up a router or access point.\n    Troubleshoot problems\n      Diagnose and repair network problems, or get troubleshooting information.\n\n  See also\n    HomeGroup\n    Infrared\n    Internet Options\n    Windows Defender Firewall\n\nFigure 4. Adapter Settings\n4.4. Find your IP address, Right-click the ethernet ico, and select status from the context menu.\n\nNetwork Connections\n  < Control Panel > Network and Internet > Network Connections\n  Organize\n  Disable this network device\n  Diagnose this connection\n  Rename this connection\n\n  Ethernet\n    Right-click context menu:\n      Disable\n      Status\n      Diagnose\n      Bridge Connections\n      Create Shortcut\n      Delete\n      Rename\n      Properties\n\n  1 item selected\n\nFigure 5. Status check\n4.5. Look into the details of your own network",
+      "specifications": {},
+      "key_facts": [
+        "To access adapter settings, navigate to the Network and Sharing Center and click 'Change adapter settings'.",
+        "To find your IP address and check the status of an Ethernet connection, right-click the Ethernet icon in Network Connections and select 'Status' from the context menu."
+      ],
+      "diagram_labels": [
+        "Figure 3. Network and Internet",
+        "Network and Sharing Center",
+        "Control Panel Home",
+        "Change adapter settings",
+        "Change advanced sharing settings",
+        "View your basic network information and set up connections",
+        "View your active networks",
+        "Network",
+        "Public network",
+        "Access type: Internet",
+        "Connections: Ethernet",
+        "Change your networking settings",
+        "Set up a new connection or network",
+        "Troubleshoot problems",
+        "See also",
+        "HomeGroup",
+        "Infrared",
+        "Internet Options",
+        "Windows Defender Firewall",
+        "Figure 4. Adapter Settings",
+        "Network Connections",
+        "Organize",
+        "Disable this network device",
+        "Diagnose this connection",
+        "Rename this connection",
+        "Ethernet",
+        "Disable",
+        "Status",
+        "Diagnose",
+        "Bridge Connections",
+        "Create Shortcut",
+        "Delete",
+        "Rename",
+        "Properties",
+        "1 item",
+        "1 item selected",
+        "Figure 5. Status check"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 783,
+        "cost_usd": 0.0020973
+      },
+      "source_file": "075_Can_I_connect_to_the_Rheonics_Sensor_using_a_straight-through_ethernet_cable_directly_from_the_computer.pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions and screenshots for configuring network settings on a Windows operating system, focusing on IP address setup.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Network Connection Details\nNetwork Connection Details:\nProperty\nConnection-specific DN...\nDescription\nPhysical Address\nDHCP Enabled\nIPv4 Address\nIPv4 Subnet Mask\nIPv4 Default Gateway\nIPv4 DNS Server\nIPv4 WINS Server\nNetBIOS over Tcpip En...\nLink-local IPv6 Address\nIPv6 Default Gateway\nIPv6 DNS Server\nClose\nFigure 6. Network settings\n4.6. Set the IP address, Right-click Local Area connection, and select properties\nNetwork Connections\n^ Control Panel > Network and Internet > Network Connections\nOrganize Disable this network device Diagnose this connection Rename this connection\nEthernet\nDisable\nStatus\nDiagnose\nBridge Connections\nCreate Shortcut\nDelete\nRename\nProperties\n1 item 1 item selected\nFigure 7. Properties Menu\n4.7. Double click Internet Protocol Version 4 (TCP/IPv4).",
+      "specifications": {
+        "Description": "ASIX AX88772B USB2.0 to Fast Ethernet",
+        "Physical Address": "80-6D-97-11-99-53",
+        "DHCP Enabled": "No",
+        "IPv4 Address": "192.168.62.17",
+        "IPv4 Subnet Mask": "255.255.255.0",
+        "IPv4 Default Gateway": "192.168.62.17",
+        "IPv4 DNS Server": "192.168.62.17",
+        "IPv4 WINS Server": "",
+        "NetBIOS over Tcpip Enabled": "Yes",
+        "Link-local IPv6 Address": "fe80::c77:de30:467c:ce1a%9",
+        "IPv6 Default Gateway": "",
+        "IPv6 DNS Server": "fe80::aaf7:e0ff:fe5b:9181%9"
+      },
+      "key_facts": [
+        "The document provides instructions on how to access and modify network settings within a Windows environment.",
+        "The first step involves viewing 'Network Connection Details' which includes IPv4 and IPv6 configuration.",
+        "The second step instructs the user to right-click a 'Local Area connection' (specifically 'Ethernet') and select 'Properties' from the context menu.",
+        "The network adapter in the example is identified as an ASIX AX88772B USB2.0 to Fast Ethernet.",
+        "The example IPv4 address is 192.168.62.17 with a subnet mask of 255.255.255.0 and a default gateway and DNS server also set to 192.168.62.17.",
+        "The final instruction is to double click 'Internet Protocol Version 4 (TCP/IPv4)' to proceed with configuration."
+      ],
+      "diagram_labels": [
+        "Network Connection Details",
+        "Property",
+        "Value",
+        "Close",
+        "Figure 6. Network settings",
+        "Network Connections",
+        "Control Panel",
+        "Network and Internet",
+        "Network Connections",
+        "Organize",
+        "Disable this network device",
+        "Diagnose this connection",
+        "Rename this connection",
+        "Search Network Connections",
+        "Ethernet",
+        "Disable",
+        "Status",
+        "Diagnose",
+        "Bridge Connections",
+        "Create Shortcut",
+        "Delete",
+        "Rename",
+        "Properties",
+        "1 item",
+        "1 item selected",
+        "Figure 7. Properties Menu"
+      ],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 939,
+        "cost_usd": 0.0024872999999999996
+      },
+      "source_file": "075_Can_I_connect_to_the_Rheonics_Sensor_using_a_straight-through_ethernet_cable_directly_from_the_computer.pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions on configuring network settings, specifically the IP address, for an Ethernet adapter, and clarifies how to configure network settings for Rheonics sensors.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics sensor",
+        "SME electronics",
+        "ASIX AX88772B USB2.0 to Fast Ethernet Adapter"
+      ],
+      "extracted_text": "Ethernet 2 Properties\nNetworking Sharing\nConnect using:\nASIX AX88772B USB2.0 to Fast Ethernet Adapter\nConfigure...\nThis connection uses the following items:\nClient for Microsoft Networks\nFile and Printer Sharing for Microsoft Networks\nNpcap Packet Driver (NPCAP)\nQoS Packet Scheduler\nInternet Protocol Version 4 (TCP/IPv4)\nMicrosoft Network Adapter Multiplexor Protocol\nMicrosoft LLDP Protocol Driver\nInstall... Uninstall... Properties\nDescription\nAllows your computer to access resources on a Microsoft network.\nOK Cancel\nFigure 8. Internet protocol version 4 (TCP/IPv4)\n4.8. Select “Use the Following IP address:” and type in the IP address, Subnet mask, and Default gateway. Click OK to apply the settings.\nInternet Protocol Version 4 (TCP/IPv4) Properties\nGeneral\nYou can get IP settings assigned automatically if your network supports this capability. Otherwise, you need to ask your network administrator for the appropriate IP settings.\nObtain an IP address automatically\nUse the following IP address:\nIP address: 192.168.62.17\nSubnet mask: 255.255.255.0\nDefault gateway: 192.168.62.17\nObtain DNS server address automatically\nUse the following DNS server addresses:\nPreferred DNS server: .\nAlternate DNS server: .\nValidate settings upon exit\nAdvanced...\nOK Cancel\nFigure 9. Setting IP Address.\n5. What do I need to configure on the SME electronics?\nAll configuration for the Network settings on the Rheonics sensor is done through the RCP software.",
+      "specifications": {
+        "IP address": "192.168.62.17",
+        "Subnet mask": "255.255.255.0",
+        "Default gateway": "192.168.62.17"
+      },
+      "key_facts": [
+        "The Ethernet adapter being configured is an ASIX AX88772B USB2.0 to Fast Ethernet Adapter.",
+        "The 'Internet Protocol Version 4 (TCP/IPv4)' component is selected for the network connection.",
+        "Users must manually select 'Use the following IP address:' to configure network settings.",
+        "The specified IP address, Subnet mask, and Default gateway are 192.168.62.17, 255.255.255.0, and 192.168.62.17, respectively.",
+        "All network settings configuration for the Rheonics sensor's SME electronics is performed using the RCP software."
+      ],
+      "diagram_labels": [
+        "Figure 8. Internet protocol version 4 (TCP/IPv4)",
+        "Figure 9. Setting IP Address."
+      ],
+      "warnings_notes": [],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 788,
+        "cost_usd": 0.0021098
+      },
+      "source_file": "075_Can_I_connect_to_the_Rheonics_Sensor_using_a_straight-through_ethernet_cable_directly_from_the_computer.pdf"
+    },
+    {
+      "page_summary": "This page details the configuration of communication settings for Rheonics devices, including Modbus RTU, Ethernet, Bluetooth, and LCD display parameters, using the Rheonics Control Panel (RCP) software.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel 5.3.1.6",
+        "SME-TRD"
+      ],
+      "extracted_text": "5.1. Open RCP and select the “Communication” Tab. The following steps should be done with USB communication in the “Setting tab”\nRheonics Control Panel 5.3.1.6\nTabs: Measurement, Events, Settings, Service, Communication, Logger, Help\nModbus RTU (RS-485)\nModbus Address: 1\nBaud Rate: 38400\nParity: ODD\nLCD Display (SME-TRD Only)\nLine 1: Parameter: Viscosity, Resolution: 0.00\nLine 2: Parameter: Density, Resolution: 0.000\nLine 3: Parameter: Temperature, Resolution: 0.00\nWrite and Update\nWrite Config (button)\nLoad Config (button)\nEthernet\nEthernet MAC: 70:B3:D5:D2:03:92\nDHCP: False\nIP: 192.168.62.20\nSubnet: 255.255.255.0\nGateway IP: 192.168.62.20\nDNS: 192.168.62.20\nTerminal Port: 10001\nLocation ID\nLocation ID: [Empty]\nLocation Name: [Empty]\nLatitude: 0.000000\nLongitude: 0.000000\nAltitude: 0\nOperation History\nRTC Time: 22/10/21 07:54:05\nLast power Reset: 22/10/21 07:14:12\nSupply Voltage: 23.53 V\nSME Temp: 33.80 °C\nMax. Sensor Temp. Exposure: 35.70 °C\nMax. SME Temp. Exposure: 39.90 °C\nBluetooth LTE 4.0\nMAC: 70:B3:D5:D2:03:92\nFigure 10. Communication tab in RCP software\n5.2. Fill Ethernet parameters - Subnet Mask should be the same for both PC and SME.\nEthernet MAC\nMAC Address is the physical address that identifies a device on the same local network. This value cannot be modified.\nDHCP\nIt is recommended to set this value as false if we are looking to integrate the sensor alongside other controllers. If the value is left to a true value, to identify the assigned IP address it is necessary the support from the IT department of your company.\nIP\nIP address is a unique address that identifies a device on the internet or a local network. This address should not be duplicated on the same network to avoid conflict with the devices and is normally set by the integrator or IT department.",
+      "specifications": {
+        "Modbus Address": "1",
+        "Modbus Baud Rate": "38400",
+        "Modbus Parity": "ODD",
+        "LCD Line 1 Parameter": "Viscosity",
+        "LCD Line 1 Resolution": "0.00",
+        "LCD Line 2 Parameter": "Density",
+        "LCD Line 2 Resolution": "0.000",
+        "LCD Line 3 Parameter": "Temperature",
+        "LCD Line 3 Resolution": "0.00",
+        "Ethernet MAC": "70:B3:D5:D2:03:92",
+        "Ethernet DHCP": "False",
+        "Ethernet IP": "192.168.62.20",
+        "Ethernet Subnet": "255.255.255.0",
+        "Ethernet Gateway IP": "192.168.62.20",
+        "Ethernet DNS": "192.168.62.20",
+        "Ethernet Terminal Port": "10001",
+        "Location Latitude": "0.000000",
+        "Location Longitude": "0.000000",
+        "Location Altitude": "0",
+        "RTC Time": "22/10/21 07:54:05",
+        "Last power Reset": "22/10/21 07:14:12",
+        "Supply Voltage": "23.53 V",
+        "SME Temp": "33.80 °C",
+        "Max. Sensor Temp. Exposure": "35.70 °C",
+        "Max. SME Temp. Exposure": "39.90 °C",
+        "Bluetooth MAC": "70:B3:D5:D2:03:92"
+      },
+      "key_facts": [
+        "The Rheonics Control Panel (RCP) software version is 5.3.1.6.",
+        "Configuration steps for the Communication tab should be performed with USB communication in the Setting tab.",
+        "The MAC Address is a physical identifier for a device on a local network and cannot be modified.",
+        "It is recommended to set DHCP to 'false' if integrating the sensor with other controllers.",
+        "Leaving DHCP as 'true' may require IT department support to identify the assigned IP address.",
+        "An IP address is a unique identifier for a device on a network and should not be duplicated to prevent conflicts.",
+        "The Subnet Mask must be identical for both the PC and the SME device."
+      ],
+      "diagram_labels": [
+        "Figure 10. Communication tab in RCP software"
+      ],
+      "warnings_notes": [
+        "The following steps should be done with USB communication in the “Setting tab”.",
+        "Subnet Mask should be the same for both PC and SME.",
+        "MAC Address is the physical address that identifies a device on the same local network. This value cannot be modified.",
+        "It is recommended to set DHCP value as false if we are looking to integrate the sensor alongside other controllers.",
+        "If the DHCP value is left to a true value, to identify the assigned IP address it is necessary the support from the IT department of your company.",
+        "IP address should not be duplicated on the same network to avoid conflict with the devices and is normally set by the integrator or IT department."
+      ],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1568,
+        "cost_usd": 0.0040598
+      },
+      "source_file": "075_Can_I_connect_to_the_Rheonics_Sensor_using_a_straight-through_ethernet_cable_directly_from_the_computer.pdf"
+    },
+    {
+      "page_summary": "This page provides definitions and configuration instructions for Ethernet network parameters on an SME device using RCP software.",
+      "document_type": "manual",
+      "product_names": [
+        "SME",
+        "RCP software"
+      ],
+      "extracted_text": "Subnet\nSubnet mask is a number that distinguishes the network address and the host address within an IP address. A subnet is a smaller network within a network that requires a subnet mask. This value depends on the IP class to be used normally, the most common one is Class C with 255.255.255.0\n\nGateway IP\nA gateway is a network node that serves as an access point to another network. This value is commonly set to 0.0.0.0 if no access to other networks is required. Commonly used when we are going to use routers in our network.\n\nDNS\nDNS stands for the Domain Name System, connecting domain names to IP addresses. Value can be set to 0.0.0.0 if not used.\n\nTerminal Port\nThe default port number used is 10001 for Telnet service.\n\nEthernet\nEthernet MAC: 70:B3:D5:D2:03:92\nDHCP: False\nIP: 192.168.62.20\nSubnet: 255.255.255.0\nGateway IP: 192.168.62.20\nDNS: 192.168.62.20\nTerminal Port: 10001\n\nFigure 11. Ethernet Parameters configured on the SME using RCP software\n\n5.3. Click on the \"Write config\" button.",
+      "specifications": {
+        "Ethernet MAC": "70:B3:D5:D2:03:92",
+        "DHCP": "False",
+        "IP": "192.168.62.20",
+        "Subnet Mask": "255.255.255.0",
+        "Gateway IP": "192.168.62.20",
+        "DNS": "192.168.62.20",
+        "Terminal Port": "10001"
+      },
+      "key_facts": [
+        "A subnet mask distinguishes the network address and the host address within an IP address.",
+        "A subnet is a smaller network within a network that requires a subnet mask.",
+        "The subnet mask value depends on the IP class, with Class C commonly using 255.255.255.0.",
+        "A gateway is a network node that provides an access point to another network.",
+        "Gateway IP is commonly set to 0.0.0.0 if no access to other networks is required and is used when routers are present.",
+        "DNS stands for the Domain Name System, which connects domain names to IP addresses.",
+        "The DNS value can be set to 0.0.0.0 if not used.",
+        "The default port number for Telnet service is 10001.",
+        "Ethernet Parameters for the SME device are configured using RCP software.",
+        "To apply configuration changes, the \"Write config\" button must be clicked."
+      ],
+      "diagram_labels": [
+        "Ethernet",
+        "Ethernet MAC",
+        "DHCP",
+        "IP",
+        "Subnet",
+        "Gateway IP",
+        "DNS",
+        "Terminal Port"
+      ],
+      "warnings_notes": [],
+      "page_num": 8,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 844,
+        "cost_usd": 0.0022497999999999997
+      },
+      "source_file": "075_Can_I_connect_to_the_Rheonics_Sensor_using_a_straight-through_ethernet_cable_directly_from_the_computer.pdf"
+    },
+    {
+      "page_summary": "This page displays the Rheonics Control Panel software interface for configuring device parameters and provides instructions for connecting a PC to the SME device using an Ethernet cable.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel 5.3.1.6",
+        "SME",
+        "SME-TRD"
+      ],
+      "extracted_text": "Rheonics Control Panel 5.3.1.6\nMeasurement | Events | Settings | Service | Communication | Logger | Help\n\nModbus RTU (RS-485)\nModbus Address: 1\nBaud Rate: 38400\nParity: ODD\n\nLCD Display (SME-TRD Only)\nParameter\nLine 1: Viscosity, Resolution: 0.00\nLine 2: Density, Resolution: 0.000\nLine 3: Temperature, Resolution: 0.00\n\nWrite and Update\nWrite Config\nLoad Config\n\nEthernet\nEthernet MAC: 70:B3:D5:D2:03:92\nDHCP: False\nIP: 192.168.62.20\nSubnet: 255.255.255.0\nGateway IP: 192.168.62.20\nDNS: 192.168.62.20\nTerminal Port: 10001\n\nLocation ID\nLocation ID: \nLocation Name: \nLatitude: 0.000000\nLongitude: 0.000000\nAltitude: 0\n\nBluetooth LTE 4.0\nMAC: 70:B3:D5:D2:03:92\n\nOperation History\nRTC Time: 22/10/21 07:54:05\nLast power Reset: 22/10/21 07:14:12\nSupply Voltage: 23.53 V\nSME Temp: 33.80 °C\nMax. Sensor Temp. Exposure: 35.70 °C\nMax. SME Temp. Exposure: 39.90 °C\n\nFigure 12. Uploading parameters\n\n6. How do I connect the PC and SME?\n\n6.1. Next is to connect the same Ethernet cable to the PC and the SME. Be aware that most PC only has one ethernet port, so LAN connectivity won't be possible over ethernet anymore (often wireless connections are available in PC which can be used during this time for internet connectivity if needed - RCP does not need internet connectivity for normal functioning). Find the Ethernet port on your computer and connect the ethernet cable.",
+      "specifications": {
+        "Modbus Address": "1",
+        "Modbus Baud Rate": "38400",
+        "Modbus Parity": "ODD",
+        "LCD Line 1 Parameter": "Viscosity",
+        "LCD Line 1 Resolution": "0.00",
+        "LCD Line 2 Parameter": "Density",
+        "LCD Line 2 Resolution": "0.000",
+        "LCD Line 3 Parameter": "Temperature",
+        "LCD Line 3 Resolution": "0.00",
+        "Ethernet MAC": "70:B3:D5:D2:03:92",
+        "DHCP": "False",
+        "IP Address": "192.168.62.20",
+        "Subnet Mask": "255.255.255.0",
+        "Gateway IP": "192.168.62.20",
+        "DNS Server": "192.168.62.20",
+        "Terminal Port": "10001",
+        "Location Latitude": "0.000000",
+        "Location Longitude": "0.000000",
+        "Location Altitude": "0",
+        "Bluetooth LTE 4.0 MAC": "70:B3:D5:D2:03:92",
+        "RTC Time": "22/10/21 07:54:05",
+        "Last Power Reset Time": "22/10/21 07:14:12",
+        "Supply Voltage": "23.53 V",
+        "SME Temperature": "33.80 °C",
+        "Max. Sensor Temp. Exposure": "35.70 °C",
+        "Max. SME Temp. Exposure": "39.90 °C"
+      },
+      "key_facts": [
+        "The Rheonics Control Panel version is 5.3.1.6.",
+        "The software provides settings for Modbus RTU, LCD Display (SME-TRD Only), Ethernet, Location ID, and Bluetooth LTE 4.0.",
+        "Operation history includes RTC time, last power reset, supply voltage, SME temperature, and maximum sensor/SME temperature exposure.",
+        "The Rheonics Control Panel (RCP) does not require internet connectivity for normal functioning.",
+        "To connect a PC and SME, an Ethernet cable is used to connect the Ethernet port on the PC to the SME."
+      ],
+      "diagram_labels": [
+        "Rheonics Control Panel 5.3.1.6",
+        "Measurement",
+        "Events",
+        "Settings",
+        "Service",
+        "Communication",
+        "Logger",
+        "Help",
+        "Modbus RTU (RS-485)",
+        "Modbus Address",
+        "Baud Rate",
+        "Parity",
+        "LCD Display (SME-TRD Only)",
+        "Parameter",
+        "Resolution",
+        "Line 1",
+        "Viscosity",
+        "Line 2",
+        "Density",
+        "Line 3",
+        "Temperature",
+        "Write and Update",
+        "Write Config",
+        "Load Config",
+        "Ethernet",
+        "Ethernet MAC",
+        "DHCP",
+        "IP",
+        "Subnet",
+        "Gateway IP",
+        "DNS",
+        "Terminal Port",
+        "Location ID",
+        "Location Name",
+        "Latitude",
+        "Longitude",
+        "Altitude",
+        "Bluetooth LTE 4.0",
+        "MAC",
+        "Operation History",
+        "RTC Time",
+        "Last power Reset",
+        "Supply Voltage",
+        "SME Temp",
+        "Max. Sensor Temp. Exposure",
+        "Max. SME Temp. Exposure",
+        "Figure 12. Uploading parameters"
+      ],
+      "warnings_notes": [
+        "Be aware that most PC only has one ethernet port, so LAN connectivity won't be possible over ethernet anymore (often wireless connections are available in PC which can be used during this time for internet connectivity if needed - RCP does not need internet connectivity for normal functioning)."
+      ],
+      "page_num": 9,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1672,
+        "cost_usd": 0.0043198
+      },
+      "source_file": "075_Can_I_connect_to_the_Rheonics_Sensor_using_a_straight-through_ethernet_cable_directly_from_the_computer.pdf"
+    },
+    {
+      "page_summary": "This page illustrates the connection of an Ethernet cable to a PC and provides an instruction for connecting an Ethernet cable to an RJ45 port on an SME.",
+      "document_type": "manual",
+      "product_names": [
+        "SME"
+      ],
+      "extracted_text": "PC Ethernet port\nFigure 13. Connecting the Ethernet cable to the PC.\n6.2. Connect the Ethernet cable to the RJ45 ethernet port on the SME.",
+      "specifications": {},
+      "key_facts": [
+        "Figure 13 demonstrates connecting an Ethernet cable to a PC.",
+        "Instruction 6.2 directs to connect the Ethernet cable to the RJ45 ethernet port on the SME."
+      ],
+      "diagram_labels": [
+        "PC Ethernet port"
+      ],
+      "warnings_notes": [],
+      "page_num": 10,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 194,
+        "cost_usd": 0.0006248
+      },
+      "source_file": "075_Can_I_connect_to_the_Rheonics_Sensor_using_a_straight-through_ethernet_cable_directly_from_the_computer.pdf"
+    },
+    {
+      "page_summary": "This page provides an image demonstrating the connection of an Ethernet cable to a Rheonics SME-DRM device and instructs on how to establish Ethernet communication using RCP software.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics",
+        "SME-DRM",
+        "SME"
+      ],
+      "extracted_text": "rheonics\nSME-DRM\n\n24 V dc +\ngnd\nmodbus\n(RS485)\npower\nsensor\ncom\n\nUSB\nreset\ndisplay\nSD-card\n\n4-20 mA output\nloop+\ngnd -\ngnd -\nch1 +\nch2 +\nch3 +\n\nsensor connection\n8\n7\n6\n5\n4\n3\n2\n1\n0\nswiss made\n\nFigure 14. Connecting the Ethernet cable to the SME\n\n7. How do I use RCP software to connect to the Rheonics sensor over Ethernet?\n\n7.1. Once the Ethernet cable is connected on each end, it would be necessary to enable Ethernet communication. Set the IP address in RCP that you configured for the SME, go to the setting tab and select Ethernet in the radio button, fill in the same IP address you used in the “Communication” tab, and click the “Apply” button.",
+      "specifications": {
+        "Power Input": "24 V dc",
+        "Analog Output": "4-20 mA",
+        "Communication Protocol": "Modbus (RS485)"
+      },
+      "key_facts": [
+        "The document illustrates how to connect an Ethernet cable to the Rheonics SME device.",
+        "To enable Ethernet communication, the Ethernet cable must be connected on both ends.",
+        "Users must set the IP address in the RCP software to match the IP address configured for the SME.",
+        "The process involves navigating to the 'setting tab' in RCP, selecting 'Ethernet' via a radio button, filling in the IP address in the 'Communication' tab, and clicking 'Apply'.",
+        "The device shown is labeled 'SME-DRM' and is 'swiss made'.",
+        "The SME-DRM device supports 24 V DC power input, Modbus (RS485) communication, 4-20 mA analog output, USB, display, and SD-card connectivity, and has a multi-pin sensor connection."
+      ],
+      "diagram_labels": [
+        "24 V dc +",
+        "gnd",
+        "modbus",
+        "(RS485)",
+        "power",
+        "sensor",
+        "com",
+        "USB",
+        "reset",
+        "display",
+        "SD-card",
+        "4-20 mA output",
+        "loop+",
+        "gnd -",
+        "ch1 +",
+        "ch2 +",
+        "ch3 +",
+        "sensor connection",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "swiss made",
+        "SME-DRM",
+        "rheonics"
+      ],
+      "warnings_notes": [],
+      "page_num": 11,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 765,
+        "cost_usd": 0.0020523
+      },
+      "source_file": "075_Can_I_connect_to_the_Rheonics_Sensor_using_a_straight-through_ethernet_cable_directly_from_the_computer.pdf"
+    },
+    {
+      "page_summary": "This page illustrates the 'Settings' tab of the Rheonics Control Panel software, detailing various configuration options for sensor communication, units, logging, and graph display, along with instructions for verifying communication status.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel 5.3.1.6",
+        "SRV",
+        "sensor SME"
+      ],
+      "extracted_text": "Rheonics Control Panel 5.3.1.6\nMeasurement | Events | Settings | Service | Communication | Logger | Help\n\nOperator\nName / ID: Rheonics\nClient: Rheonics GmbH\n\nCommunication\nUSB\nEthernet\nBluetooth\nPort: COM3\nIP: 192.168.62.20\nPort: 10001\nAutodetect\nApply\nDevice Manager\nStatus (green circle)\n\nSensor Configuration\nSensor Type: SRV\nImport\nExport\nExpert Mode\n\nUnits\nViscosity: mPa.s (selected), cP, cSt\nDensity: g/cc (selected), kg/m³, lb/gal, lb/ft³\nTemperature: °C (selected), °K, °F\nPressure: bar (selected), kPa, MPa, psi, torr, atm\n\nResolution\n(Viscosity): 0.00\n(Density): 0.0000\n(Temperature): 0.00\n(Pressure): 0.00\n\nPressure Gauge\nCommunication:\nDevice ID: No Sensor\n\nLog Settings\nLogging Interval: 10 sec\nMeasurement Frequency (Every): 1 sec\nLog and display data with error code (checkbox)\nLog debug information (checkbox): 10 sec\n\nGraph Settings\nViscosity: auto (selected), fix\n Min: 1 mPa.s\n Max: 40 mPa.s\nDensity: auto (selected), fix\n Min: 0 g/cc\n Max: 1.5 g/cc\nTemperature Scale: auto (selected), fix\n Min: 10 °C\n Max: 60 °C\nPressure Scale: auto (selected), fix\n Min: 1 bar\n Max: 10 bar\nTime Scale: full (selected), fix\n Range: 5 min\nGraph Interval: realtime (selected), same as logging\nPlot df (damping) and Fres (resonant frequency) instead of Viscosity & Density (checkbox)\n\nFigure 15. Settings Tab\n\n7.2. If everything is correct, status-led will turn green signaling communication between RCP on PC and the sensor SME.\n\nCommunication | Temp. Control | Logger | Help\nCommunication\nUSB\nEthernet\nBluetooth\nPort: COM5\nIP: 192.168.62.20\nPort: 10001\nAutodetect\nApply\nDevice Manager\nStatus led (green circle)\n\nFigure 16. Status Led with green color.\n\n7.3. After all the settings are complete, go to the “measurement tab” to verify that the data is being receive",
+      "specifications": {
+        "logging_interval": "10 sec",
+        "measurement_frequency": "1 sec",
+        "log_debug_information_interval": "10 sec",
+        "viscosity_min": "1 mPa.s",
+        "viscosity_max": "40 mPa.s",
+        "density_min": "0 g/cc",
+        "density_max": "1.5 g/cc",
+        "temperature_min": "10 °C",
+        "temperature_max": "60 °C",
+        "pressure_min": "1 bar",
+        "pressure_max": "10 bar",
+        "time_scale_range": "5 min"
+      },
+      "key_facts": [
+        "The Rheonics Control Panel version is 5.3.1.6.",
+        "The software provides tabs for Measurement, Events, Settings, Service, Communication, Logger, and Help.",
+        "Operator details include Name/ID as 'Rheonics' and Client as 'Rheonics GmbH'.",
+        "Communication can be established via USB, Ethernet, or Bluetooth with a specific IP address (192.168.62.20) and Port (10001) for Ethernet/Bluetooth.",
+        "The Sensor Type is configured as 'SRV'.",
+        "Users can select preferred units for Viscosity (mPa.s, cP, cSt), Density (g/cc, kg/m³, lb/gal, lb/ft³), Temperature (°C, °K, °F), and Pressure (bar, kPa, MPa, psi, torr, atm).",
+        "Resolution settings are available for Viscosity, Density, Temperature, and Pressure.",
+        "Logging settings include interval (10 sec), measurement frequency (1 sec), and options to log error codes and debug information.",
+        "Graph settings allow automatic or fixed scaling for Viscosity, Density, Temperature, and Pressure, with defined minimum and maximum values.",
+        "The Time Scale for graphs can be 'full' or 'fix' with a range of '5 min'.",
+        "Graph Interval can be set to 'realtime' or 'same as logging'.",
+        "There is an option to plot damping (df) and resonant frequency (Fres) instead of Viscosity & Density.",
+        "A green status LED indicates correct communication between the Rheonics Control Panel (RCP) on the PC and the sensor SME.",
+        "After completing settings, users should navigate to the 'measurement tab' to verify data reception."
+      ],
+      "diagram_labels": [
+        "A",
+        "B",
+        "C",
+        "Status",
+        "Status led",
+        "Rheonics Control Panel 5.3.1.6",
+        "Figure 15. Settings Tab",
+        "Figure 16. Status Led with green color."
+      ],
+      "warnings_notes": [],
+      "page_num": 12,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1422,
+        "cost_usd": 0.0036948
+      },
+      "source_file": "075_Can_I_connect_to_the_Rheonics_Sensor_using_a_straight-through_ethernet_cable_directly_from_the_computer.pdf"
+    },
+    {
+      "page_summary": "This page displays a Rheonics Control Panel software interface showing real-time measurements and logging options, accompanied by a technical explanation of MDI/MDIX Ethernet interfaces and a diagram illustrating a cable setup.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel 5.3.1.6"
+      ],
+      "extracted_text": "Rheonics Control Panel 5.3.1.6\nMeasurement Events Settings Service Communication Temp. Control Logger Help\n\nMeasured Values\nViscosity: 0.00 mPa.s\nDensity: 1.5000 g/cc\nTemperature: 29.70 °C\nPressure: 14.5040 psi\n\nStatus\nRunning ... E00\nLogging: Stopped\nPressure: Select Channel\nManual entry [checkbox] 14.5 psi\n\nLog Measurements\nSample Name: [text field]\nStart Logging [button] Add Event [button]\n[text field] [icon]\n\nSensor Information\nSerial Number: B11-0103\nFres: 7400.02 Hz\ndf: 1.14 Hz\n\n[Chart 1: Viscosity and Density over time]\nViscosity [mPa.s] (left y-axis)\nDensity [g/cc] (right y-axis)\nhh:mm:ss (x-axis) 02:18:14 to 02:51:14\n\n[Chart 2: Temperature and Pressure over time]\nTemperature [°C] (left y-axis)\nPressure [psi] (right y-axis)\nhh:mm:ss (x-axis) 02:18:14 to 02:51:14\n\nFigure 16. Measurements were received through Ethernet Cable.\n\n8. What are MDI/MDIX and Auto MDI-X?\n\nThe MDI/MDIX are Ethernet interfaces (physical and electrical/optical) in a computer network that carry transmissions. Twisted pair cables should be connected so that the transmission pair on one end is connected to the receiving pair on the other. [1]\n\nThe MDI (Medium Dependent Interface) is an Ethernet port connection that connects to the NIC (Network Interface Card) or Integrated NIC port on a PC. Input and output signals on a NIC must be redirected to receiving signals on a hub or network switch. Thus, the latter devices use MDIX to switch transmission and receiving signals – X here stands for crossover, indicating that inputs and outputs are reversed.\n\n[Figure 17: MDI PC to MDI Device setup diagram]\nFigure 17. MDI PC to MDI Device setup.\n\nIn routers, hubs, and network switches, MDIX (Medium Dependent Interface Crossover). A straight-through cable connects pins 1 and 2 (transmitting) of an MDI device to pins 1 and 2 (receiving) of an MDIX device, and vice versa for pins 3 and 6 (receiving) of an MDI device to pins 3 and 6 (transmitting) of an MDIX device. MDIX eliminates the need for crossover twisted pair cabling in this case.",
+      "specifications": {
+        "Viscosity": "0.00 mPa.s",
+        "Density": "1.5000 g/cc",
+        "Temperature": "29.70 °C",
+        "Pressure": "14.5040 psi",
+        "Manual entry pressure": "14.5 psi",
+        "Fres": "7400.02 Hz",
+        "df": "1.14 Hz"
+      },
+      "key_facts": [
+        "Measurements for the Rheonics Control Panel can be received through an Ethernet Cable.",
+        "MDI/MDIX refers to Ethernet interfaces (physical and electrical/optical) that carry transmissions in a computer network.",
+        "Twisted pair cables require a connection where the transmission pair on one end connects to the receiving pair on the other.",
+        "MDI (Medium Dependent Interface) is an Ethernet port used for connecting to a NIC (Network Interface Card) or integrated NIC on a PC.",
+        "Input and output signals on a NIC must be redirected to receiving signals when connected to a hub or network switch.",
+        "MDIX is utilized by hubs or network switches to switch transmission and receiving signals, with 'X' signifying crossover and reversed inputs/outputs.",
+        "MDIX (Medium Dependent Interface Crossover) in network devices like routers and hubs eliminates the need for crossover twisted pair cabling.",
+        "A straight-through cable connects transmitting pins 1 and 2 of an MDI device to receiving pins 1 and 2 of an MDIX device.",
+        "A straight-through cable also connects receiving pins 3 and 6 of an MDI device to transmitting pins 3 and 6 of an MDIX device."
+      ],
+      "diagram_labels": [
+        "Rheonics Control Panel 5.3.1.6",
+        "Measurement",
+        "Events",
+        "Settings",
+        "Service",
+        "Communication",
+        "Temp. Control",
+        "Logger",
+        "Help",
+        "Measured Values",
+        "Viscosity",
+        "Density",
+        "Temperature",
+        "Pressure",
+        "Status",
+        "Running ...",
+        "E00",
+        "Logging: Stopped",
+        "Select Channel",
+        "Manual entry",
+        "Log Measurements",
+        "Sample Name",
+        "Start Logging",
+        "Add Event",
+        "Sensor Information",
+        "Serial Number",
+        "Fres",
+        "df",
+        "Viscosity [mPa.s]",
+        "Density [g/cc]",
+        "Temperature [°C]",
+        "Pressure [psi]",
+        "hh:mm:ss",
+        "02:18:14",
+        "02:51:14",
+        "Transmit",
+        "Receive",
+        "NIC MDI",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "+",
+        "-"
+      ],
+      "warnings_notes": [],
+      "page_num": 13,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1455,
+        "cost_usd": 0.0037772999999999995
+      },
+      "source_file": "075_Can_I_connect_to_the_Rheonics_Sensor_using_a_straight-through_ethernet_cable_directly_from_the_computer.pdf"
+    },
+    {
+      "page_summary": "This page explains MDI/MDIX interfaces, cable types for Ethernet connections, and the Auto MDI-X feature.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Figure 18. MDI PC to Hub MDI-x.\n\nThe MDI interface is used by end stations such as PCs and workstations, while the MDIX interface is used by hubs and network switches. Often, routers have multiple MDIX ports and a single MDI port and to connect to other hubs or switches without a crossover Ethernet cable, some network hubs and switches have an MDI port. The MDI and MDIX ports are generally connected via straight-through twisted pair cables. Crossover twisted pair cables are used for MDI-to-MDI and MDIX-to-MDIX connections.\n\nAuto MDI-X is the solution to getting the wrong cable for any configuration, it will automatically detect cable type and configures the connection accordingly avoiding the issue of getting the wrong cable. Both types of cables can be used as long as the feature is enabled at either end of the link. [2]\n\n| Setting         | MDI/MDIX Device Type (PC or other MDI device) | MDI/MDIX Device Type (Switch, hub, or other MDIX device) |\n|-----------------|---------------------------------------------|----------------------------------------------------------|\n| MDI             | Crossover cable                             | Straight-through cable                                   |\n| MDIX            | Straight-through cable                      | Crossover cable                                          |\n| Auto-MDI/MDIX   | Either crossover or straight-through cable  | Either crossover or straight-through cable               |\n\n9. How do I check my computer meets the requirements for the Ethernet cable direct connection?\n\n*   Ethernet card datasheet\n\nDatasheet for the NIC should indicate if it is compatible with auto-MDI-x",
+      "specifications": {},
+      "key_facts": [
+        "The MDI interface is used by end stations (e.g., PCs, workstations).",
+        "The MDIX interface is used by hubs and network switches.",
+        "Routers often feature multiple MDIX ports and a single MDI port.",
+        "MDI and MDIX ports are typically connected with straight-through twisted pair cables.",
+        "Crossover twisted pair cables are used for MDI-to-MDI and MDIX-to-MDIX connections.",
+        "Auto MDI-X automatically detects and configures the cable type, preventing incorrect cable usage.",
+        "With Auto MDI-X enabled, both crossover and straight-through cables can be used.",
+        "To check computer compatibility for direct Ethernet connection, consult the Ethernet card datasheet.",
+        "The Network Interface Card (NIC) datasheet should specify auto-MDI-X compatibility."
+      ],
+      "diagram_labels": [
+        "Transmit",
+        "Receive",
+        "+",
+        "-",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "NIC MDI",
+        "Hub MDI-x",
+        "Figure 18. MDI PC to Hub MDI-x."
+      ],
+      "warnings_notes": [],
+      "page_num": 14,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 763,
+        "cost_usd": 0.0020472999999999997
+      },
+      "source_file": "075_Can_I_connect_to_the_Rheonics_Sensor_using_a_straight-through_ethernet_cable_directly_from_the_computer.pdf"
+    },
+    {
+      "page_summary": "This page provides a data sheet for a Network Interface Card (NIC), detailing its hardware, performance, connector, and software specifications, along with instructions and visual aids for configuring its advanced properties, particularly for 1000BASE-T compliance.",
+      "document_type": "datasheet",
+      "product_names": [
+        "Realtek - RTL8111H"
+      ],
+      "extracted_text": "Data Sheet\nHardware\nWarranty: 2 Years\nBus Type: PCI Express\nCard Type: Low Profile (SP bracket incl.)\nChipset ID: Realtek - RTL8111H\nIndustry Standards: IEEE 802.3, IEEE 802.3u, IEEE 802.3x, IEEE 802.3ab\nInterface: RJ45 (Gigabit Ethernet)\nPorts: 1\nPerformance\nAuto MDIX: Yes\nCompatible Networks: 10/100/1000 Mbps\nFull Duplex Support: Yes\nJumbo Frame Support: 9K max.\nMaximum Data Transfer Rate: 1000 Mbps\nSupported Protocols: CSMA/CD\nConnector(s)\nConnector Type(s): 1 - PCI Express x1\nExternal Ports: 1 - RJ-45\nSoftware\nOS Compatibility: Windows® 2000, XP, Vista, 7, 8, 8.1, 10\nFigure 19. Datasheet from NIC with compatibility with auto-MDI-x[3]\n\n*   Verify that the NIC complies with 1000BASE-T standard\n*   The 1000BASE-T standard was promoted by Daniel Joseph Dove[4]. Some Fast Ethernet devices might have Auto MDI-X function incorporated.\n*   It requires that the interfaces be configured to auto-negotiate speed and duplex. This can be identified if we go to the Ethernet card properties>Advanced tab\n\nEthernet Status\nGeneral\nConnection\nIPv4 Connectivity: No Internet access\nIPv6 Connectivity: No network access\nMedia State: Enabled\nDuration: 03:18:15\nSpeed: 100.0 Mbps\nDetails...\nActivity\nSent: 26,686\nReceived: 92,870\nBytes\nProperties\nDisable\nDiagnose\nClose\n\nRealtek PCIe GbE Family Controller Properties\nGeneral\nAdvanced\nDriver\nDetails\nEvents\nThe following properties are available for this network adapter. Click on the property you want to change on the left, and then select its value on the right.\nProperty | Value\nFlow Control\nInterrupt Moderation\nNetwork Address\nPriority & VLAN\nReceive Buffers\nSpeed & Duplex\nTransmit Buffers\nAuto Negotiation\nOK\nCancel\n\nFigure 20. Advanced properties of ethernet card.\n\n10. FAQ/Troubleshooting",
+      "specifications": {
+        "Warranty": "2 Years",
+        "Bus Type": "PCI Express",
+        "Card Type": "Low Profile (SP bracket incl.)",
+        "Chipset ID": "Realtek - RTL8111H",
+        "Industry Standards": "IEEE 802.3, IEEE 802.3u, IEEE 802.3x, IEEE 802.3ab",
+        "Interface": "RJ45 (Gigabit Ethernet)",
+        "Ports": "1",
+        "Auto MDIX": "Yes",
+        "Compatible Networks": "10/100/1000 Mbps",
+        "Full Duplex Support": "Yes",
+        "Jumbo Frame Support": "9K max.",
+        "Maximum Data Transfer Rate": "1000 Mbps",
+        "Supported Protocols": "CSMA/CD",
+        "Connector Type(s)": "1 - PCI Express x1",
+        "External Ports": "1 - RJ-45",
+        "OS Compatibility": "Windows® 2000, XP, Vista, 7, 8, 8.1, 10"
+      },
+      "key_facts": [
+        "The Network Interface Card (NIC) has a 2-year warranty and supports PCI Express.",
+        "The NIC uses the Realtek - RTL8111H chipset and is compliant with several IEEE 802.3 standards.",
+        "It provides one RJ45 Gigabit Ethernet port with Auto MDIX and Full Duplex support.",
+        "The NIC is compatible with 10/100/1000 Mbps networks and supports a maximum data transfer rate of 1000 Mbps.",
+        "Jumbo Frames up to 9K max are supported.",
+        "The NIC is compatible with Windows operating systems from 2000 to 10.",
+        "The 1000BASE-T standard was promoted by Daniel Joseph Dove.",
+        "Some Fast Ethernet devices might incorporate Auto MDI-X functionality.",
+        "For proper operation, network interfaces are required to be configured for auto-negotiation of speed and duplex.",
+        "Configuration for auto-negotiation can be verified and set within the Ethernet card properties under the Advanced tab."
+      ],
+      "diagram_labels": [
+        "Ethernet Status",
+        "General",
+        "Connection",
+        "IPv4 Connectivity",
+        "No Internet access",
+        "IPv6 Connectivity",
+        "No network access",
+        "Media State",
+        "Enabled",
+        "Duration",
+        "03:18:15",
+        "Speed",
+        "100.0 Mbps",
+        "Details...",
+        "Activity",
+        "Sent",
+        "Received",
+        "Bytes",
+        "Properties",
+        "Disable",
+        "Diagnose",
+        "Close",
+        "Realtek PCIe GbE Family Controller Properties",
+        "Advanced",
+        "Driver",
+        "Details",
+        "Events",
+        "Property",
+        "Value",
+        "Flow Control",
+        "Interrupt Moderation",
+        "Network Address",
+        "Priority & VLAN",
+        "Receive Buffers",
+        "Speed & Duplex",
+        "Transmit Buffers",
+        "Auto Negotiation",
+        "OK",
+        "Cancel"
+      ],
+      "warnings_notes": [
+        "It requires that the interfaces be configured to auto-negotiate speed and duplex. This can be identified if we go to the Ethernet card properties>Advanced tab."
+      ],
+      "page_num": 15,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1513,
+        "cost_usd": 0.0039223
+      },
+      "source_file": "075_Can_I_connect_to_the_Rheonics_Sensor_using_a_straight-through_ethernet_cable_directly_from_the_computer.pdf"
+    },
+    {
+      "page_summary": "This page provides a troubleshooting guide for common Ethernet connectivity issues, specifically related to pinging devices, MDI-X support, and IP configuration, including references and a disclaimer.",
+      "document_type": "manual",
+      "product_names": [
+        "SME",
+        "SMET"
+      ],
+      "extracted_text": "Problem\n1. Ethernet cable is connected between my PC and the SME, but cannot ping the address\n2. My PC support auto MDI-X, but still not getting data\n3. How do I check if my PC supports auto MDI-X?\n4. Which ethernet cable should I use crossover cable to straight-through cable?\n5. Is there a software that I can use to verify if my ethernet card supports auto MDI-x\n\nSolution\n1. Verify the IP address for each device is different and Subnet Mask is the same\n2. Your PC might not support auto MDI-X\n3. Try changing the crossover cable to a straight-through cable or vice-versa.\n4. Verify that you can ping the address with the console command ping AAA.BBB.CCC.DDD>IP address\n\n1. Verify that the SME has a static IP address and that DHCP is set as false.\n2. Verify that you can ping the address with the console command ping AAA.BBB.CCC.DDD>IP address\n\n1. Verify the datasheet from your Ethernet card, it should mention if Auto MDI-x is supported or not.\n\n4. Any of the two configurations is compatible with Auto MDI-x\n\n5. Some manufacturers provide software that can provide the characteristics of the Ethernet card. Users can verify this by looking at the datasheet or checking if the system is Gigabit Ethernet.\n\nReferences\n1. https://community.fs.com/blog/mdi-vs-mdix-and-auto-mdim\n2. http://www.hp.com/hpinfo/abouthp/iplicensing/automdix.html [2]\n3. https://assets.alliedelec.com/v1590663186/Datasheets/fef893262b7bbaf1d59632d3c3c77bec.pdf [3]\n4. https://www.ieee802.org/3/ab/public/feb98/ddmdix1.pdf [4]\n5. https://support.rheonics.com/en/support/solutions/articles/81000397449-connecting-your-smet-using-ethernet\n6. https://support.rheonics.com/en/support/solutions/articles/81000300292-introducing-ethernet-connections-on-smet\n\nDISCLAIMER\nPictures, photos and images used are for illustration purposes and do not constitute any warranty or assertions on the suitability of use and should not be construed as an explicit or implicit recommendation or endorsement. All illustrations are given proper credit from our source of access and by their use here we do not specify or establish any copyright which belongs and stays unaffected with the existing copyright holder of that material.",
+      "specifications": {},
+      "key_facts": [
+        "To troubleshoot inability to ping a device (SME) over Ethernet, verify distinct IP addresses and matching subnet masks, check for Auto MDI-X support, try different cable types (crossover/straight-through), and use the `ping` command.",
+        "If a PC supports Auto MDI-X but still isn't receiving data, ensure the SME has a static IP address with DHCP disabled and verify ping connectivity.",
+        "Auto MDI-X support for an Ethernet card can be confirmed by reviewing its datasheet.",
+        "Either crossover or straight-through Ethernet cables are compatible when using Auto MDI-X.",
+        "Software from manufacturers or checking the datasheet/Gigabit Ethernet status can help verify an Ethernet card's characteristics, including Auto MDI-X support."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Pictures, photos and images used are for illustration purposes and do not constitute any warranty or assertions on the suitability of use and should not be construed as an explicit or implicit recommendation or endorsement. All illustrations are given proper credit from our source of access and by their use here we do not specify or establish any copyright which belongs and stays unaffected with the existing copyright holder of that material."
+      ],
+      "page_num": 16,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1014,
+        "cost_usd": 0.0026747999999999997
+      },
+      "source_file": "075_Can_I_connect_to_the_Rheonics_Sensor_using_a_straight-through_ethernet_cable_directly_from_the_computer.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

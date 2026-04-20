@@ -1,0 +1,117 @@
+{
+  "source_file": "006_SRV_Sensor_from_box_to_operation.pdf",
+  "total_pages": 2,
+  "chunks": [
+    {
+      "page_summary": "This page provides an unboxing guide and initial setup steps for the Rheonics SRV Sensor system, detailing its components and subsequent configuration procedures.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV Sensor",
+        "SME",
+        "SRV system",
+        "RCP software"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nSRV Sensor from box to operation\n\nModified on: Fri, 3 Jul, 2020 at 5:57 PM\n\n1 What's in the box\nThe following items are delivered with the SRV system:\n*   Sensor cable\n*   Electronic transmitter, SME\n*   SRV sensor\n*   USB stick with software tool installer\n*   Cable glands (optional)\n\n[Image showing the components of the SRV system in a foam packaging]\n\n2 Preparing the system\nThe sensor measurement system consists of two components:\n*   SRV Sensor\n*   SME Transmitter (Electronics unit)\n\nThe transmitter is shipped fully assembled. Gain access to the connections by unscrewing the cover and removing the display (if ordered with display) by pulling it out. The SME electronics module is now accessible for connecting the sensor, power, and communication cables.\n\n3 Subsequent steps\nConnecting and disconnecting wires to the terminal blocks on SME electronics (https://support.rheonics.com/en/support/solutions/articles/81000297453)\nConnecting sensor cable colored wires to transmitter electronics (https://support.rheonics.com/en/support/solutions/articles/81000297454)\nPowering the transmitter (https://support.rheonics.com/support/solutions/articles/81000297455)\nConfiguring the communication options based on selection (https://support.rheonics.com/support/solutions/81000100945)\nConfiguring the RCP software (https://support.rheonics.com/support/solutions/folders/81000211411)\n\n4 Operating the system",
+      "specifications": {},
+      "key_facts": [
+        "The SRV system includes a sensor cable, an electronic SME transmitter, an SRV sensor, a USB stick with software, and optional cable glands.",
+        "The sensor measurement system is composed of an SRV Sensor and an SME Transmitter (Electronics unit).",
+        "The transmitter is delivered fully assembled, and access to its connections is gained by unscrewing the cover and removing the display (if applicable).",
+        "The SME electronics module provides access points for connecting the sensor, power, and communication cables.",
+        "The document provides links to detailed support articles for connecting wires, powering the transmitter, and configuring communication options and RCP software."
+      ],
+      "diagram_labels": [
+        "B08-147"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 701,
+        "cost_usd": 0.0018923000000000002
+      },
+      "source_file": "006_SRV_Sensor_from_box_to_operation.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions for setting up and operating the Rheonics Control Panel software, including connecting the sensor and transmitter, and explains how viscosity measurements are calculated.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel (RCP) Software",
+        "Transmitter",
+        "SRV Sensor",
+        "Electronic box"
+      ],
+      "extracted_text": "After installing the software and setting up the port, the system may now be started. The installation of the Rheonics Control Panel (RCP) Software and its settings are described in the RCP manual.\n\nTHE ELECTRONIC BOX MUST BE ATTACHED TO THE COMPUTER WITH THE USB CABLE AND POWERED UP IN ORDER FOR THE SYSTEM TO OPERATE\n\n1. Connect the sensor to the Transmitter (https://support.rheonics.com/en/support/solutions/articles/81000297454)\n2. Connect power to Transmitter (https://support.rheonics.com/en/support/solutions/articles/81000297455)\n3. Connect the micro USB cable to the Transmitter electronics. (https://support.rheonics.com/en/support/solutions/articles/81000297828) Connect the other end to a free USB port on the computer.\n\nNow that the proper operating mode has been established, run the Rheonics Control Panel software. The Rheonics Control Panel application is opened from the Start menu.\n\nWhen the software is running, you will see a screen similar to the following:\n\nFor help about the Rheonics Control Panel (RCP) and its settings see: Help -> RCP – Rheonics Control Panel Software manual\n\nViscosity measurement\n\nThe SRV measures the density-viscosity product of the fluid:\n\nDensity-Viscosity Product = ρ*η\nρ = Density [g/cc]\nη = Dynamic viscosity [mPa.s]\n\nThe Rheonics Control Panel allows you to enter the appropriate fluid density to obtain the dynamic viscosity (η, in mPa.s) or kinematic viscosity (η/ρ, in cSt). By default, the electronics and software use 1 g/cc as the density. To enter the actual density of the fluid in the software, follow the instructions in the RCP manual.\n\nNOTE:\n\nElectronics box can be programmed to set a constant or temperature-dependent density value. Please check RCP manual for instructions on changing\n\n4 Handling the sensor\n\nSome good practices on how to handle the sensor have been outlined in the support article Handling the SRV Sensor (https://support.rheonics.com/en/support/solutions/articles/81000297531).",
+      "specifications": {
+        "Viscosity_measured": "0 mPa.s",
+        "Density_measured": "0.2844 g/cc",
+        "Temperature_measured": "28.43 °C",
+        "Pressure_measured": "1 bar",
+        "Sensor_Serial_Number": "805-0152",
+        "Fres_frequency": "7453.99 Hz",
+        "df_frequency": "1.09 Hz",
+        "Default_density_for_calculations": "1 g/cc"
+      },
+      "key_facts": [
+        "The Rheonics Control Panel (RCP) Software and its settings are described in the RCP manual.",
+        "The electronic box must be attached to the computer via a USB cable and powered up for the system to operate.",
+        "The Rheonics Control Panel application is opened from the Start menu.",
+        "The SRV sensor measures the density-viscosity product of the fluid (ρ*η).",
+        "The Rheonics Control Panel software allows users to input fluid density to calculate dynamic viscosity (η in mPa.s) or kinematic viscosity (η/ρ in cSt).",
+        "By default, the electronics and software use 1 g/cc as the density for viscosity calculations.",
+        "The electronic box can be programmed to set a constant or temperature-dependent density value."
+      ],
+      "diagram_labels": [
+        "Rheonics Control Panel",
+        "Back",
+        "Search programs and files",
+        "Sleep",
+        "Measurement",
+        "Events",
+        "Settings",
+        "Service",
+        "Diagnostics",
+        "Help",
+        "Measured Values",
+        "Viscosity",
+        "Density",
+        "Temperature",
+        "Pressure",
+        "Status",
+        "Running",
+        "E00",
+        "Stopped",
+        "Manual",
+        "Log Measurements",
+        "Sample Name",
+        "Start Logging",
+        "Add Event",
+        "Sensor Information",
+        "Serial Number",
+        "Fres",
+        "df",
+        "Viscosity [mPa.s]",
+        "Temperature [°C]",
+        "Pressure [bar]",
+        "hh:mm:ss"
+      ],
+      "warnings_notes": [
+        "THE ELECTRONIC BOX MUST BE ATTACHED TO THE COMPUTER WITH THE USB CABLE AND POWERED UP IN ORDER FOR THE SYSTEM TO OPERATE",
+        "NOTE: Electronics box can be programmed to set a constant or temperature-dependent density value. Please check RCP manual for instructions on changing"
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1220,
+        "cost_usd": 0.0031897999999999996
+      },
+      "source_file": "006_SRV_Sensor_from_box_to_operation.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

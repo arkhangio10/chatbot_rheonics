@@ -1,0 +1,70 @@
+{
+  "source_file": "069_Modbus_TCP_-_Protocol.pdf",
+  "total_pages": 2,
+  "chunks": [
+    {
+      "page_summary": "This document explains the Modbus TCP protocol, detailing its definition, integration with Rheonics inline viscometers and density sensors, frame structure, and supported function codes for parameter mapping.",
+      "document_type": "notes",
+      "product_names": [
+        "inline viscometers",
+        "density sensors",
+        "SRV",
+        "SRD",
+        "Smart Measurement Electronics (SME)"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nModbus TCP - Protocol\n\nModified on: Thu, 16 Jan, 2025 at 10:20 PM\n\n1. What is Modbus TCP?\nModbus TCP is an open industrial Ethernet protocol based on the Modbus standard, enabling communication between devices over TCP/IP networks. It uses Ethernet as the physical layer (defined by IEEE802.3) and encapsulates the traditional Modbus message structure within TCP frames.\nIt's a request-response protocol, where clients (masters) send requests to servers (slaves) to read or write data. Modbus TCP supports real-time communication for tasks such as reading sensor data or controlling actuators with minimal delays.\n\n2. How does Modbus TCP work with Rheonics Inline Viscometers?\nRheonics inline viscometers and density meters support Modbus TCP out of the box, thanks to its Smart Measurement Electronics (SME) (https://rheonics.com/electronics-and-communication/), making the integration of our SRV (https://rheonics.com/products/inline-viscometer-srv/) and SRD (https://rheonics.com/products/inline-density-meter-srd/) sensors into customers' processes straightforward and seamless.\nModbus TCP communicates over Rheonics SME's Ethernet port (https://support.rheonics.com/en/support/solutions/articles/81000297604), utilizing the standard TCP/IP stack for digital communication. The protocol supports function code 04 (Input Registers), which reads input registers to retrieve data such as viscosity, temperature, and density measurements from our viscosity and density sensors.\nIf you are looking for additional information about Modbus TCP for Rheonics Viscometers, visit Rheonics Support Portal (https://support.rheonics.com).\n\n3. Modbus TCP Frame Structure\nThe structure of the request and response body in Modbus TCP connections, from the function code to the end of the data portion, has exactly the same layout and meaning as in the other MODBUS variants, such as Modbus RTU or Modbus ASCII. The only differences in these other cases are the form of any 'framing' sequence, error check pattern, and address interpretation.\nThe command and response are prefixed by eight bytes as follows:\n\nTable 1. Modbus TCP framing\n| Byte | Description |\n|---|---|\n| byte 0: | transaction identifier – copied by server – usually 0 |\n| byte 1: | transaction identifier – copied by server – usually 0 |\n| byte 2: | protocol identifier = 0 |\n| byte 3: | protocol identifier = 0 |\n| byte 4: | length field (upper byte) |\n| byte 5: | length field (lower byte) |\n| byte 6: | unit identifier |\n| byte 7: | MODBUS function code |\n| byte 8 onwards: | Data |\n\nTo learn more about the command and response, take a look at Modbus TCP/IP Command and Response Examples: Rheonics Support (https://support.rheonics.com/en/support/solutions/articles/81000297668).\n\n4. Input Registers and Parameter Mapping\nThe SME responds to Modbus function code 0x04, allowing Modbus TCP Clients to read the input registers where all the parameters are mapped. All other Modbus TCP function codes are not used and are therefore not covered in this article.\n\nTable 2: Supported Modbus Function Code\n| Function Code (Dec) | Name | Description |\n|---|---|---|\n| 04 | Read Input Registers | Read Analog Inputs (AI) |",
+      "specifications": {},
+      "key_facts": [
+        "Modbus TCP is an open industrial Ethernet protocol based on the Modbus standard, enabling communication between devices over TCP/IP networks.",
+        "Modbus TCP uses Ethernet (IEEE802.3) as the physical layer and encapsulates the traditional Modbus message structure within TCP frames.",
+        "Modbus TCP functions as a request-response protocol, where clients (masters) send requests to servers (slaves) to read or write data.",
+        "Rheonics inline viscometers and density meters inherently support Modbus TCP.",
+        "Integration of Rheonics SRV and SRD sensors via Modbus TCP is seamless due to Smart Measurement Electronics (SME).",
+        "Modbus TCP communication on Rheonics systems occurs over the SME's Ethernet port using the standard TCP/IP stack.",
+        "The Modbus TCP protocol supports function code 04 (Input Registers) for retrieving data such as viscosity, temperature, and density measurements from Rheonics sensors.",
+        "The Modbus TCP command and response structure is prefixed by eight bytes.",
+        "The Rheonics SME responds to Modbus function code 0x04, enabling Modbus TCP Clients to read mapped input parameters."
+      ],
+      "diagram_labels": [
+        "Table 1. Modbus TCP framing",
+        "Byte",
+        "Description",
+        "Table 2: Supported Modbus Function Code",
+        "Function Code (Dec)",
+        "Name",
+        "Description"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1285,
+        "cost_usd": 0.0033522999999999995
+      },
+      "source_file": "069_Modbus_TCP_-_Protocol.pdf"
+    },
+    {
+      "page_summary": "This page from a Rheonics technical document outlines the mapping of measured parameters to Modbus input registers, lists these parameters with their corresponding measurands and descriptions, and provides a section of references for further information and troubleshooting.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SRV Inline Viscometer",
+        "Rheonics SRD Inline Density Meter",
+        "Rheonics Inline Viscosity-Density Meter"
+      ],
+      "extracted_text": "The measured parameters are mapped into the Modbus input registers; the variable associated with each parameter is listed in Table 3.\n\nTable 3. Measured parameters list\n\n| Parameter   | Measurand                       | Description                                                     |\n|-------------|---------------------------------|-----------------------------------------------------------------|\n| Parameter 0 | Viscosity median                | Takes the median of the last 5 sensor measurements points       |\n| Parameter 1 | Density median                  |                                                                 |\n| Parameter 2 | Temperature median              |                                                                 |\n| Parameter 3 | Kinematic Viscosity             |                                                                 |\n| Parameter 4 | Density average                 | Calculates the average of the last 5 measurement points         |\n| Parameter 5 | Viscosity raw 'process measurement' | Reads the direct measurement taken by the sensor.               |\n| Parameter 6 | Density raw                     | Reads the direct measurement taken by the sensor.               |\n| Parameter 7 | Temperature raw                 | Reads the direct measurement taken by the sensor.               |\n| Parameter 12| Viscosity Last Good             | Keeps the last-good median measurement in memory when there is a measurement error |\n| Parameter 13| Density Last Good               | Keeps the last-good median measurement in memory when there is a measurement error |\n| Error       | Error State                     | Error state of the sensor                                       |\n\nA detailed list of Input Registers is available on the Rheonics Support Portal in the article: Modbus TCP - Input Registers (https://support.rheonics.com/en/support/solutions/articles/81000297664).\n\nIf you are having issues with Modbus TCP, take a look at our Modbus TCP Troubleshooting Article (https://support.rheonics.com/en/support/solutions/articles/81000297666).\n\n5. References\n\n1. MODBUS Organization, MODBUS Application Protocol Specification V1.1b, June 2006. [Online]. Available: https://www.modbus.org/specs.php [Accessed: Jan. 8, 2025].\n2. Rheonics, \"SRV Inline Viscometer.\" [Online]. Available: Rheonics Inline Viscometer - SRV (https://www.rheonics.com/srv-inline-viscometer) [Accessed: Jan. 8, 2025].\n3. Rheonics, \"SRD Inline Density Meter.\" [Online]. Available: Rheonics Inline Viscosity-Density Meter (https://www.rheonics.com/srd-density-meter) [Accessed: Jan. 8, 2025].\n4. Rheonics, \"Electronics and Communication.\" [Online]. Available: Rheonics Electronics and Communications (https://www.rheonics.com/electronics-and-communication) [Accessed: Jan. 8, 2025].\n5. Rheonics, \"Modbus TCP Input Registers.\" [Online]. Available: Modbus Input Registers (https://support.rheonics.com/en/support/solutions/articles/81000297459) [Accessed: Jan. 8, 2025].",
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 832,
+        "cost_usd": 0.0022197999999999996
+      },
+      "source_file": "069_Modbus_TCP_-_Protocol.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

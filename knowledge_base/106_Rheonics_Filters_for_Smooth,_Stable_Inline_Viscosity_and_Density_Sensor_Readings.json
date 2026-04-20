@@ -1,0 +1,164 @@
+{
+  "source_file": "106_Rheonics_Filters_for_Smooth,_Stable_Inline_Viscosity_and_Density_Sensor_Readings.pdf",
+  "total_pages": 3,
+  "chunks": [
+    {
+      "page_summary": "This page describes Rheonics Filters, which are configuration files for Rheonics Smart Module Electronics (SME) designed to improve the stability and consistency of inline viscosity and density sensor readings by reducing noise caused by various fluid conditions.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "Rheonics Filters",
+        "Rheonics SRV viscometer",
+        "SRD density-viscosity meter",
+        "DVP gas density-viscosity meter",
+        "DVM HPHT density-viscosity meter",
+        "Rheonics Smart Module Electronics (SME)",
+        "Rheonics Control Panel (RCP)",
+        "Rheonics SME-TRD"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nRheonics Filters for Smooth, Stable Inline Viscosity and Density Sensor Readings\nModified on: Thu, 20 Nov, 2025 at 8:41 PM\nWhat products are involved?\nRheonics SRV viscometer (https://rheonics.com/products/inline-viscometer-srv/), SRD density-viscosity meter (https://rheonics.com/products/inline-density-meter-srd/), DVP gas density-viscosity meter (https://rheonics.com/products/inline-gas-lng-density-meter-dvp/) and DVM HPHT density-viscosity meter (https://rheonics.com/products/hpht-pvt-density-meter-viscometer-dvm/).\nWhat is the purpose of this article?\nThis article explains how Rheonics Filters improve signal stability in Rheonics inline viscometers and density sensors and how to apply them using the Rheonics Control Panel (RCP).\nTABLE OF CONTENTS\n1. Overview\n2. Use Cases and Benefits\n3. Why Use Rheonics Filters?\n4. How to Apply Filters\n5. References\n1. Overview\nRheonics Filters are configuration files loaded into Rheonics Smart Module Electronics (SME) (https://rheonics.com/electronics-and-communication/) to improve measurement stability and consistency.\nThese filters fine-tune the internal signal-processing parameters that determine how viscosity and density readings are calculated and smoothed, resulting in more reliable, noise-free data.\nThis feature is especially valuable in processes where the signal is inherently noisy or unstable.\nFigure 1. Rheonics SME-TRD.\n2. Use Cases and Benefits\nIndustrial fluids often show noise in the viscosity signal due to entrained air, turbulence, or suspended solids. Rheonics Filters mitigate these effects by loading a configuration file that can be loaded in Rheonics SME.\nTypical benefits\nReduced noise for more representative viscosity and density measurements.\nImproved repeatability (https://rheonics.com/measurement-device-repeatability-and-reproducibility/) in noisy or variable systems.\nReduces system noise to achieve reliable process control with sensor feedback.\nMore consistent data for quality tracking and reporting.",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics Filters are configuration files loaded into Rheonics Smart Module Electronics (SME).",
+        "Rheonics Filters improve measurement stability and consistency for viscosity and density sensor readings.",
+        "Filters fine-tune internal signal-processing parameters to calculate and smooth viscosity and density readings, providing more reliable, noise-free data.",
+        "The filtering feature is especially valuable in processes with inherently noisy or unstable signals.",
+        "Rheonics Filters mitigate noise in viscosity signals caused by entrained air, turbulence, or suspended solids in industrial fluids.",
+        "Benefits of Rheonics Filters include reduced noise for more representative measurements, improved repeatability in noisy or variable systems, reduced system noise for reliable process control with sensor feedback, and more consistent data for quality tracking and reporting."
+      ],
+      "diagram_labels": [
+        "Figure 1. Rheonics SME-TRD."
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 881,
+        "cost_usd": 0.0023423
+      },
+      "source_file": "106_Rheonics_Filters_for_Smooth,_Stable_Inline_Viscosity_and_Density_Sensor_Readings.pdf"
+    },
+    {
+      "page_summary": "This page describes the benefits of Rheonics Filters for reducing signal noise and provides instructions on how to apply these filters using the Rheonics Control Panel software, along with relevant references.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "Rheonics Filters",
+        "Rheonics Control Panel (RCP)",
+        "Rheonics SRV Inline Viscometer",
+        "Rheonics SRD Inline Density Meter",
+        "SME (configuration file/operator manual)"
+      ],
+      "extracted_text": "Reduces need for external smoothing or recalculation.\n\nFigure 2. Noise on viscosity signal\n\n3. Why Use Rheonics Filters?\n\nWhile process noise can often be mitigated by control-system filtering, Rheonics Filters provide a field-tested, out-of-the-box solution specifically tuned for Rheonics inline sensors.\n\nThey are validated across multiple industries and process conditions to deliver reliable signal stability without additional integration complexity.\n\nThis feature reflects Rheonics’ commitment to providing complete, plug-and-play measurement solutions that simplify setup and integration time.\n\n4. How to Apply Filters\n\nFilters are delivered as configuration files and are custom generated by the Rheonics Support Team based on your process characteristics and measurement goals.\n\nTo apply a filter:\n*   Contact Rheonics Support and describe your process and measurement goals.\n*   Export and send your current SME configuration file.\n*   Rheonics Support will send back a configuration file tailored to your SME.\n*   Load the configuration file using the Rheonics Control Panel (RCP) software.\n\nFigure 3. Importing a filter configuration file in the Rheonics Control Panel (RCP)\n\nFor more information on Rheonics RCP, review our article: Running the RCP Program : Rheonics Support. (https://support.rheonics.com/en/support/solutions/articles/82000859570-running-the-rcp-program-rheonics-support)\n\nRheonics RCP Manual is available at: Rheonics Control Panel User Manual (https://rheonics.com/wp-content/uploads/2025/02/Rheonics_Software-Manual_RCP-SM.pdf?utm_source=chatgpt.com)\n\n5. References\n\n*   Rheonics, “SRV Inline Viscometer.” [Online]. Available: Rheonics SRV » inline online Viscometer for fluid viscosity monitoring (https://rheonics.com/products/inline-viscometer-srv/). [Accessed: Sep. 9, 2025].\n*   Rheonics, “SRD Inline Density Meter.” [Online]. Available: Rheonics SRD » Density Meter inline online specific gravity concentration (https://rheonics.com/products/inline-density-meter-srd/). [Accessed: Sep. 9, 2025].\n*   Rheonics, “Electronics and Communication.” [Online]. Available: Electronics and Communication » rheonics :: viscometer and density meter (https://rheonics.com/electronics-and-communication/). [Accessed: Sep. 9, 2025].\n*   Rheonics, “Software Manual RCP-SM.” [Online]. Available: Rheonics Control Panel User Manual (https://rheonics.com/wp-content/uploads/2025/02/Rheonics_Software-Manual_RCP-SM.pdf). [Accessed: Sep. 9, 2025].\n*   Rheonics, “SME Operator Manual SME-OP-2508.” [Online]. Available: SME-OP-2508 (https://rheonics.com/wp-content/uploads/2025/08/Rheonics_SME-OP-2508.pdf?utm_source=chatgpt.com). [Accessed: Sep. 9, 2025].",
+      "specifications": {
+        "Rheonics Control Panel Version": "5.2.1.8",
+        "Viscosity Units": "mPa.s, cP, cSt",
+        "Density Units": "g/cc, kg/m³, lb/gal, lb/ft³",
+        "Temperature Units": "°C, °K, °F",
+        "Pressure Units": "bar, kPa, MPa, psi, torr, atm",
+        "Resolution (Viscosity, Density, Temperature)": "0.0000",
+        "Resolution (Pressure)": "0.00",
+        "Ethernet IP Address": "10.5.33.101",
+        "Ethernet Port": "10001"
+      },
+      "key_facts": [
+        "Rheonics Filters reduce the need for external smoothing or recalculation of signals.",
+        "Rheonics Filters provide a field-tested, out-of-the-box solution specifically tuned for Rheonics inline sensors to mitigate process noise.",
+        "Rheonics Filters are validated across multiple industries and process conditions to deliver reliable signal stability without additional integration complexity.",
+        "Rheonics offers complete, plug-and-play measurement solutions that simplify setup and integration time.",
+        "Filters are delivered as custom-generated configuration files by the Rheonics Support Team, based on specific process characteristics and measurement goals.",
+        "Applying a filter involves contacting Rheonics Support, exporting the current SME configuration file, receiving a tailored configuration file, and loading it using the Rheonics Control Panel (RCP) software.",
+        "The Rheonics Control Panel (RCP) software shown has version 5.2.1.8."
+      ],
+      "diagram_labels": [
+        "Figure 2. Noise on viscosity signal",
+        "Figure 3. Importing a filter configuration file in the Rheonics Control Panel (RCP)",
+        "Rheonics Control Panel 5.2.1.8",
+        "Measurement",
+        "Events",
+        "Settings",
+        "Service",
+        "Communication",
+        "Scaling",
+        "Calculation",
+        "Logger",
+        "Help",
+        "Operator",
+        "Name / ID",
+        "Rheonics",
+        "Client",
+        "Rheonics GmbH",
+        "Sensor Configuration",
+        "Sensor Type",
+        "SRD",
+        "Import",
+        "Export",
+        "Disable Expert Mode",
+        "Factory Reset",
+        "Power Reset",
+        "Communication",
+        "USB",
+        "Port",
+        "COM9",
+        "Ethernet",
+        "IP",
+        "Port",
+        "Autodetect",
+        "Apply",
+        "Device Manager",
+        "Status",
+        "Units",
+        "Viscosity",
+        "mPa.s",
+        "cP",
+        "cSt",
+        "Density",
+        "g/cc",
+        "kg/m³",
+        "lb/gal",
+        "lb/ft³",
+        "Temperature",
+        "°C",
+        "°K",
+        "°F",
+        "Pressure",
+        "bar",
+        "kPa",
+        "MPa",
+        "psi",
+        "torr",
+        "atm",
+        "Resolution"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1633,
+        "cost_usd": 0.004222299999999999
+      },
+      "source_file": "106_Rheonics_Filters_for_Smooth,_Stable_Inline_Viscosity_and_Density_Sensor_Readings.pdf"
+    },
+    {
+      "page_summary": "This page is blank and contains no discernible information.",
+      "document_type": "notes",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 83,
+        "cost_usd": 0.0003473
+      },
+      "source_file": "106_Rheonics_Filters_for_Smooth,_Stable_Inline_Viscosity_and_Density_Sensor_Readings.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

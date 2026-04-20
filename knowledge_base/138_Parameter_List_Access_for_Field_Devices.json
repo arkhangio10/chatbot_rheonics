@@ -1,0 +1,65 @@
+{
+  "source_file": "138_Parameter_List_Access_for_Field_Devices.pdf",
+  "total_pages": 2,
+  "chunks": [
+    {
+      "page_summary": "This page provides a list of measurement parameters output by Rheonics sensors, along with their corresponding indices for field device access.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics sensors",
+        "Field Devices"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nParameter List Access for Field Devices\n\nModified on: Tue, 20 May, 2025 at 5:40 PM\n\nRheonics sensors output measurements referred to as parameters, starting at index 0. The output for each parameter is listed below.\n\nTable 1. Parameters List\n\nIndex | Parameter\n--- | ---\n0 | viscosity median / 5 measurements\n1 | density median / 5 measurements\n2 | temperature median / 5 measurements\n3 | Kinematic Viscosity\n4 | density average / 5 measurements\n5 | V - viscosity raw\n6 | D - density raw\n7 | T - temperature raw\n8 | f - resonant frequency (Hz)\n9 | fc - compensated resonant frequency (Hz)\n10 | df - damping (Hz)\n11 | Tc - Coil temperature\n12 | viscosity median and last good\n13 | density median and last good\n14 | Displays of mapped value from Modbus register 512",
+      "specifications": {
+        "f - resonant frequency": "Hz",
+        "fc - compensated resonant frequency": "Hz",
+        "df - damping": "Hz"
+      },
+      "key_facts": [
+        "Rheonics sensors output measurements are referred to as parameters.",
+        "The parameters are indexed starting from 0.",
+        "The document was modified on Tuesday, May 20, 2025, at 5:40 PM.",
+        "The contact phone number is +1 713 234 0863.",
+        "Parameter 14 displays a mapped value from Modbus register 512."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 504,
+        "cost_usd": 0.0013998
+      },
+      "source_file": "138_Parameter_List_Access_for_Field_Devices.pdf"
+    },
+    {
+      "page_summary": "This page displays a table listing indexed parameters related to sensor measurements, calculated values from various models, and Modbus register mappings.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Index | Parameter\n15 | Displays of mapped value from Modbus register 514\n16 | Displays of mapped value from Modbus register 516\n17 | Te - Estimated Temperature (from internal temperature Algorithm)\n18 | Tp - Temperature from PT1000 sensor present in sensor\n19 | Calculated parameter from viscosity model\n20 | Calculated parameter from density model\n21 | Calculated parameter from concentration model\n22 | Sensor cleanliness ratio",
+      "specifications": {},
+      "key_facts": [
+        "Parameters 15 and 16 display mapped values retrieved from Modbus registers 514 and 516, respectively.",
+        "Parameter 17, 'Te', represents an estimated temperature calculated using an internal temperature algorithm.",
+        "Parameter 18, 'Tp', indicates the temperature measured by an integrated PT1000 sensor.",
+        "The device can provide calculated parameters derived from viscosity, density, and concentration models.",
+        "Parameter 22 provides a sensor cleanliness ratio."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 319,
+        "cost_usd": 0.0009373000000000001
+      },
+      "source_file": "138_Parameter_List_Access_for_Field_Devices.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

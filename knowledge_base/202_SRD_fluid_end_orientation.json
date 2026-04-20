@@ -1,0 +1,123 @@
+{
+  "source_file": "202_SRD_fluid_end_orientation.pdf",
+  "total_pages": 3,
+  "chunks": [
+    {
+      "page_summary": "This page provides instructions on how to properly orient the Rheonics SRD inline density and viscosity probe to ensure optimal fluid flow and measurement conditions.",
+      "document_type": "notes",
+      "product_names": [
+        "SRD",
+        "SR-Sensor"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nSRD fluid end orientation\nModified on: Tue, 13 Aug, 2024 at 7:06 PM\n\nWhat products are involved?\n(https://rheonics.com/products/inline-density-meter-srd/) (https://rheonics.com/products/inline-density-meter-srd/)\n\nWhat is the purpose of this article?\nTo show how to align the fluid end of the sensor sensing element to streamline fluid flow across it. Demonstrate the use of a flow direction guide on the sensor to orient the sensor fluid end.\n\n1. Overview\nSRD is Rheonics inline density and viscosity probe. It can be installed in any position as long as the fluid to be measured is in full contact with the sensing element of the probe.\nRheonics, however, recommends to take some considerations to ensure the best measuring conditions for the sensor. The SRD sensor probes have a marking (e.g. a black dot or notch) next to, and aligned with, the M12 connector. From this marking, a sensor orientation plane can be drawn as in Figure 1.\n\nIf the SRD probe doesn't have the dot or notch aligned to the sensing tip, it means that the SRD probe comes from a previous release, before this characteristic was implemented. In those cases, the user should find another orientation sign to be able to align the probe tip to the flow line in installation.\n\nFigure 1: SR-Sensor top view.\n\nIn particular for the SRD, the orientation plane has the marking and the SRD fluid end coplanar or aligned to each other. The sensor fluid end refers to the sensing tip. It is recommended to orient the SRD so its fluid end is parallel to the flow, avoiding recirculation zones around it. The marking, like the black dot in some probe versions, helps the user to know how to orient without seeing the fluid end itself.\n\nFigure 2: SRD long axis and axis fluid end.",
+      "specifications": {},
+      "key_facts": [
+        "The SRD is a Rheonics inline density and viscosity probe.",
+        "The SRD can be installed in any position as long as the fluid to be measured is in full contact with the sensing element of the probe.",
+        "Rheonics recommends taking some considerations to ensure the best measuring conditions for the sensor.",
+        "SRD sensor probes have a marking (e.g., a black dot or notch) next to, and aligned with, the M12 connector, from which a sensor orientation plane can be drawn.",
+        "The orientation plane of the SRD is coplanar or aligned with its fluid end, which refers to the sensing tip.",
+        "It is recommended to orient the SRD so its fluid end is parallel to the flow, thereby avoiding recirculation zones around it.",
+        "The marking, like the black dot in some probe versions, helps the user to orient the sensor without seeing the fluid end itself."
+      ],
+      "diagram_labels": [
+        "Orientation plane",
+        "Black dot",
+        "M12 Connector",
+        "Sensor long axis",
+        "Flow lines"
+      ],
+      "warnings_notes": [
+        "If the SRD probe doesn't have the dot or notch aligned to the sensing tip, it means that the SRD probe comes from a previous release, before this characteristic was implemented. In those cases, the user should find another orientation sign to be able to align the probe tip to the flow line in installation."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 875,
+        "cost_usd": 0.0023273
+      },
+      "source_file": "202_SRD_fluid_end_orientation.pdf"
+    },
+    {
+      "page_summary": "This page provides detailed installation recommendations and considerations for Rheonics SRD sensors in various pipeline configurations, including straight pipes, angled installations, and elbows, with specific guidance on sensor orientation relative to fluid flow.",
+      "document_type": "manual",
+      "product_names": [
+        "SRD",
+        "WOL-34NS",
+        "flow-cell"
+      ],
+      "extracted_text": "Note: Some older versions of the SRD may not have the tip or fin orientation aligned with a marking. In those cases, user should align the pr\n\n2. Related installations\nThis orientation consideration is relevant for a tee or weldolet installation on pipe, and not on an elbow or tank and chamber installation.\n\na. SRD in pipeline - Recommendation applies\nIn this example, a SRD NPT 3/4\"-14 is installed on a 2\" pipe with the WOL-34NS accessory (see Rheonics accessories table (https://rheonics.com/product-accessories/)).\nSensing element is fully submerged in fluid, distance between SRD tip and inner wall is 12mm minimum and the sensor paddle is aligned with the fluid flow. Same would be recommended for a tee installation.\n\nFigure 3: SRD installation on pipe with WOL-34NS.\n\nb. SRD installed at an angle - Recommendation applies\nThis is a less frequent but still valid installation option of the SRD with some considerations. Special attention should be given to possible dead space around the sensor. It is usually better to install the sensor perpendicular to the pipe, on an elbow or with the use of a flow-cell. (https://rheonics.com/product-accessories/)\nThis is, however, useful to point out that, this article recommendation is not about the sensor being always perpendicular to the flow. It is fine if the SRD is tilted, since the long axis fluid end could still be parallel to the flow as in next figure. Consider that on a position near the 90°, the installation would be on an elbow pipe, in which case the sensor orientation is not relevant any more.\n\nFigure 4: SRD tilt degrees\n\nc. SRD in elbow - Recommendation doesn't apply\nOn an elbow installation, the SRD long axis is parallel to the fluid, which makes the axis fluid end orientation not relevant any more.",
+      "specifications": {
+        "NPT_fitting_size": "3/4 inch - 14",
+        "pipe_size": "2 inch",
+        "min_distance_SRD_tip_to_inner_wall": "12 mm",
+        "max_tilt_degree": "180 degrees",
+        "elbow_installation_position_angle": "near 90 degrees"
+      },
+      "key_facts": [
+        "Orientation considerations apply to tee or weldolet installations on pipes but not to elbows, tanks, or chamber installations.",
+        "For pipeline installations using an SRD NPT 3/4\"-14 with a WOL-34NS accessory in a 2\" pipe, the sensing element must be fully submerged in the fluid.",
+        "The distance between the SRD tip and the inner wall must be a minimum of 12mm.",
+        "The sensor paddle should be aligned with the fluid flow.",
+        "For angled SRD installations, special attention should be given to potential dead space around the sensor.",
+        "It is generally better to install the sensor perpendicular to the pipe, on an elbow, or using a flow-cell.",
+        "The recommendation is not that the sensor must always be perpendicular to the flow; tilting is acceptable if the long axis fluid end remains parallel to the flow.",
+        "In an elbow installation, the SRD's long axis is parallel to the fluid, rendering the axis fluid end orientation irrelevant."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "Figure 3: SRD installation on pipe with WOL-34NS.",
+        "Tilt degree up to 180°",
+        "Flow direction",
+        "Figure 4: SRD tilt degrees"
+      ],
+      "warnings_notes": [
+        "Note: Some older versions of the SRD may not have the tip or fin orientation aligned with a marking. In those cases, user should align the product/probe.",
+        "Special attention should be given to possible dead space around the sensor."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 993,
+        "cost_usd": 0.0026222999999999997
+      },
+      "source_file": "202_SRD_fluid_end_orientation.pdf"
+    },
+    {
+      "page_summary": "This page illustrates the installation of an SRD FPC sensor on an elbow pipe, provides information about a demonstrative video for fluid end alignment, and lists references to Rheonics' inline density meters and accessories.",
+      "document_type": "manual",
+      "product_names": [
+        "SRD FPC",
+        "SRD",
+        "Density Meter",
+        "viscometer"
+      ],
+      "extracted_text": "Figure 6: SRD FPC installed on an elbow.\n\n3. Demonstrative Video\n\nSRD Fluid End Orientation alignment with a mark\nrheonics\n\nWatch on\n\nReferences:\n[1] rheonics SRD » Density Meter inline online specific gravity concentration (https://rheonics.com/products/inline-density-meter-srd/)\n[2] Accessories » rheonics :: viscometer and density meter (https://rheonics.com/product-accessories/)",
+      "specifications": {},
+      "key_facts": [
+        "An SRD FPC sensor is designed for installation on an elbow pipe.",
+        "A demonstrative video is available for guidance on SRD Fluid End Orientation alignment.",
+        "Rheonics offers SRD Density Meters for inline online specific gravity and concentration measurements.",
+        "Rheonics provides accessories for its viscometers and density meters."
+      ],
+      "diagram_labels": [
+        "Rheonics",
+        "Flow direction"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 344,
+        "cost_usd": 0.0009998000000000001
+      },
+      "source_file": "202_SRD_fluid_end_orientation.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

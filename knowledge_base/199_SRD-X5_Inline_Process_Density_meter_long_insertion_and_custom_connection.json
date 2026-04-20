@@ -1,0 +1,263 @@
+{
+  "source_file": "199_SRD-X5_Inline_Process_Density_meter_long_insertion_and_custom_connection.pdf",
+  "total_pages": 6,
+  "chunks": [
+    {
+      "page_summary": "This page provides an overview of the Rheonics SRD-X5 inline process density meter with long insertion and custom connection options, detailing its customizable features, material requirements, and ordering lead times.",
+      "document_type": "notes",
+      "product_names": [
+        "SRD-X5",
+        "SRD",
+        "SRV",
+        "SRD Inline density and viscosity meter",
+        "FPC version"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nSRD-X5: Inline Process Density meter long insertion and custom connection\n\nModified on: Mon, 30 Dec, 2024 at 6:21 PM\n\nWhat products are involved?\n(https://rheonics.com/products/inline-density-meter-srd/) SRD Inline density and viscosity meter.\n(https://rheonics.com/products/inline-density-meter-srd/)\n\nWhat is the purpose of this article?\nTo provide an overview of the SRD-X5 long insertion probe version and the installation options.\n\n1. Introduction\nThe long insertion sensor (FPC) version is available for both SRD and SRV sensors. It is a sensor variant customizable in length and process connection, that gives full flexibility in mounting. Insertion length is a configurable parameter that is specified as \"A\" that can be requested from 100mm (for the SRD) up to any length needed by the client. It is also available with any flange or process adapter, as long as the process connection requested is 316L or 304L and has an ID larger than Ø33 mm. The client should then state the \"A\" length and process connection norm, which has the letter code \"B\". The typical lead time is 6-12 weeks for these customizable probes. Lead times can change and will be confirmed by sales in the order confirmation.",
+      "specifications": {
+        "insertion_length_min_SRD": "100 mm",
+        "process_connection_material": "316L or 304L",
+        "process_connection_ID_min": "33 mm",
+        "typical_lead_time_customizable_probes": "6-12 weeks"
+      },
+      "key_facts": [
+        "The SRD-X5 is an inline process density meter designed for long insertion and custom connections.",
+        "The FPC version of the long insertion sensor is compatible with both SRD and SRV sensors.",
+        "The sensor offers customization in length and process connection for flexible mounting.",
+        "The insertion length, designated as parameter \"A\", can be requested from 100mm for SRD sensors and up to any length required by the client.",
+        "Process connections can be any flange or process adapter, provided they are made of 316L or 304L material.",
+        "The internal diameter of the process connection must be larger than Ø33 mm.",
+        "Clients need to specify the \"A\" length and the process connection norm, denoted by the letter code \"B\".",
+        "Lead times for these customizable probes typically range from 6 to 12 weeks.",
+        "The purpose of this article is to provide an overview of the SRD-X5 long insertion probe version and its installation options."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "PN16 EN10"
+      ],
+      "warnings_notes": [
+        "Lead times can change and will be confirmed by sales in the order confirmation."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 832,
+        "cost_usd": 0.0022197999999999996
+      },
+      "source_file": "199_SRD-X5_Inline_Process_Density_meter_long_insertion_and_custom_connection.pdf"
+    },
+    {
+      "page_summary": "This page provides mechanical drawings, dimensional specifications, and possible configuration details for the Rheonics SRD-X5 inline viscometer and density sensor.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRD-X5",
+        "Rheonics SRD"
+      ],
+      "extracted_text": "Defined by Rheonics\n30\nø [ 1.18 ]\n14\nø [ 0.55 ]\n44.4\n[ 1.75 ]\n13\n[ 0.51 ]\n34 mm\n[1.4\"]\n50 mm\n[1.96\"]\nø35 mm\n[1.4\"]\nSRD sensing area\nFigure 1: SRD-X5 reference drawing.\n\nSRD X5 A178 1.5\" TC\n178\nA: Insertion Length [ 7.00 ]\n\nSRD X5 A158 1.25\" NPT\n158\nA: Insertion Length [ 6.22 ]\n\nSRD X5 A213.6 ANSI 150lb 2\"\n213.6\nA: Insertion Length [ 8.41 ]\n\nFigure 2: SRD-X5 possible configurations.\n\nSpecifications\nSensor\nRheonics SRD (https://rheonics.com/products/inline-viscometer-srd/)\nOrder code\nSRD-X5\nInsertion length A\nCustomizable\nConnection type B\nCustomizable ID>33mm",
+      "specifications": {
+        "main_body_diameter": "30 mm [1.18 in]",
+        "middle_shaft_diameter": "14 mm [0.55 in]",
+        "end_shaft_diameter": "13 mm [0.51 in]",
+        "shaft_extension_length": "44.4 mm [1.75 in]",
+        "sensing_area_height": "50 mm [1.96 in]",
+        "sensing_area_diameter": "35 mm [1.4 in]",
+        "sensing_area_offset": "34 mm [1.4 in]",
+        "srd_x5_a178_1_5_tc_insertion_length": "178 mm [7.00 in]",
+        "srd_x5_a158_1_25_npt_insertion_length": "158 mm [6.22 in]",
+        "srd_x5_a213_6_ansi_150lb_2_insertion_length": "213.6 mm [8.41 in]",
+        "customizable_connection_minimum_id": "33 mm"
+      },
+      "key_facts": [
+        "The SRD-X5 is an inline viscometer and density sensor from Rheonics, with its design defined by the company.",
+        "The sensor includes a sensing area with a height of 50 mm (1.96 inches) and a diameter of 35 mm (1.4 inches), offset 34 mm (1.4 inches) from the main body.",
+        "The insertion length (A) and connection type (B) for the SRD-X5 are customizable according to specific application needs.",
+        "Customizable connection types require a minimum inner diameter greater than 33 mm.",
+        "Three example configurations are shown for the SRD-X5: A178 with 1.5\" TC, A158 with 1.25\" NPT, and A213.6 with ANSI 150lb 2\"."
+      ],
+      "diagram_labels": [
+        "Defined by Rheonics",
+        "B",
+        "A: Insertion Length",
+        "SRD sensing area",
+        "Figure 1: SRD-X5 reference drawing.",
+        "SRD X5 A178 1.5\" TC",
+        "SRD X5 A158 1.25\" NPT",
+        "SRD X5 A213.6 ANSI 150lb 2\"",
+        "Figure 2: SRD-X5 possible configurations."
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1024,
+        "cost_usd": 0.0026997999999999996
+      },
+      "source_file": "199_SRD-X5_Inline_Process_Density_meter_long_insertion_and_custom_connection.pdf"
+    },
+    {
+      "page_summary": "This page provides an overview of installation advantages and examples for the Rheonics SRD-X5 sensor, specifically focusing on long insertion in tee or long standpipe configurations.",
+      "document_type": "manual",
+      "product_names": [
+        "SRD-X5"
+      ],
+      "extracted_text": "Drawing and CAD file eg. for flange\nSRD-X5 CAD files (https://rheonics.com/wp-content/uploads/2024/07/Rheonics_SRD-X5-Flange.zip)\n\nWith a customizable insertion depth there are many installation advantages. The SRD-X5 sensor is recommended for following scenarios:\n\n*   Installation with long standpipes\n*   Mounting in tank's lid\n*   Jacketed walls in tanks or reactors\n*   Elbow and cross-pipe installations\n*   Most flange installations\n*   Fluids with yield stress\n*   To ensure good accuracy when fluid temperature is at much higher or lower temperature than ambient temperature\n\n2. Installation examples\n\n2.1. Long insertion sensor in tee or long standpipe\nThis is a typical method of process installation. Also, this type of process installation allows using already existing flanges on a process line. The recommended insertion depth “A” should be such that the sensing area is fully exposed to the flow. It is good practice to also have the 14 mm neck diameter exposed to the flow, as indicated by the figure below.\n\nFor an inline pipe installation of the SRD, it is recommended that the sensor’s tip has a parallel orientation with the flow. Follow this article for more information: SRD fluid end orientation. (https://support.rheonics.com/support/solutions/articles/81000408815-srd-fluid-end-orientation)\n\nFigure 3: SRD-X5 Tee Installation\n\n2.2 Long insertion sensor in Elbow or Cross pipe",
+      "specifications": {
+        "neck_diameter": "14 mm"
+      },
+      "key_facts": [
+        "The SRD-X5 sensor offers many installation advantages due to its customizable insertion depth.",
+        "The SRD-X5 sensor is recommended for installation with long standpipes, mounting in tank's lids, jacketed walls, elbow and cross-pipe installations, most flange installations, fluids with yield stress, and for good accuracy in extreme fluid temperatures.",
+        "Long insertion in tee or long standpipe is a typical process installation method that allows using existing flanges.",
+        "The recommended insertion depth 'A' for the SRD-X5 sensor should ensure the sensing area is fully exposed to the flow.",
+        "It is good practice for the SRD-X5 installation to have the 14 mm neck diameter exposed to the flow.",
+        "For inline pipe installation of the SRD sensor, its tip is recommended to have a parallel orientation with the flow."
+      ],
+      "diagram_labels": [
+        "A",
+        "Figure 3: SRD-X5 Tee Installation"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 715,
+        "cost_usd": 0.0019273
+      },
+      "source_file": "199_SRD-X5_Inline_Process_Density_meter_long_insertion_and_custom_connection.pdf"
+    },
+    {
+      "page_summary": "This page provides installation guidelines and diagrams for Rheonics SRD long insertion probes in various configurations, including T-piece, elbow, and jacketed pipe, and offers a solution for tank roof installations.",
+      "document_type": "manual",
+      "product_names": [
+        "SRD long insertion probe",
+        "SRD-X5",
+        "SRD-X5-NPT 1.25”"
+      ],
+      "extracted_text": "The preferred installation scenario is installing the SRD long insertion probe in a T-piece, such that the flow is parallel to the sensing element, like in an elbow. This installation method is ideal for a reliable density and viscosity measurements with the long insertion probe, even for highly non-Newtonian fluids and fluids with yield stress. This also helps with considerable thermal differences between the fluid and ambient (sensor back). The insertion depth “A” should be sufficiently long, that the Ø14mm section is in the straight section of the T-piece (blue rectangle). Inserting the sensor further into the flow, benefits the measurements, but may increase the pressure drop due to the reduced cross-sectional area. Ideally, the flow should go towards the sensor for maximal exposure, the inverse flow direction may affect the response time of the sensor. In next installation examples, the fluid flows against the sensor, hitting the sensor tip first.\n\nFigure 4: SRD-X5 on Elbow Installation.\n\nFigure 5: SRD-X5-NPT 1.25” in Jacketed Pipe\n\nFigure 6: SRD-X5-NPT 1.25” Elbow Installation\n\n2.3 Long insertion sensor in tank’s roof\nThere are cases where the client needs to install the sensor in a tank or reactor, and a wall or bottom installation is not possible due to jacketed walls, scrapper or mixing blades near the wall, etc. Then, an installation from the tank’s top or lid is the best solution.",
+      "specifications": {
+        "sensor_section_diameter": "14 mm",
+        "sensor_body_diameter_fig4": "30 mm",
+        "fitting_type_and_size": "NPT 1.25\""
+      },
+      "key_facts": [
+        "The preferred installation for the SRD long insertion probe is in a T-piece, with flow parallel to the sensing element, such as in an elbow.",
+        "This installation method is suitable for reliable density and viscosity measurements of highly non-Newtonian fluids, fluids with yield stress, and in environments with significant thermal differences.",
+        "The insertion depth 'A' must ensure that the Ø14mm section of the sensor is positioned within the straight section of the T-piece.",
+        "While further insertion of the sensor into the flow can enhance measurements, it may lead to increased pressure drop due to a reduced cross-sectional area.",
+        "For optimal sensor exposure, the flow should ideally move towards the sensor, as an inverse flow direction might negatively impact the sensor's response time.",
+        "In some installation examples provided, the fluid flows against the sensor, striking the sensor tip first.",
+        "When wall or bottom installation of a long insertion sensor in a tank or reactor is not possible (e.g., due to jacketed walls, scrapers, or mixing blades), installing the sensor from the tank's top or lid is the recommended solution."
+      ],
+      "diagram_labels": [
+        "A",
+        "Ø30 mm",
+        "ID",
+        "Flow direction",
+        "Straight section of the T-piece",
+        "NPT 1.25\"",
+        "Jacketed pipe",
+        "Straight section of the pipe"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 846,
+        "cost_usd": 0.0022547999999999995
+      },
+      "source_file": "199_SRD-X5_Inline_Process_Density_meter_long_insertion_and_custom_connection.pdf"
+    },
+    {
+      "page_summary": "This page provides installation guidelines for Rheonics SRD long insertion probes and SRD-X5 sensors, detailing suitable scenarios for top-mounted installations and introducing the Adjustable Process Connector (APC) accessory.",
+      "document_type": "manual",
+      "product_names": [
+        "SRD long insertion probes",
+        "SRD-X5 sensor",
+        "TMA-34N accessory",
+        "Adjustable Process Connector (APC)"
+      ],
+      "extracted_text": "The SRD long insertion probes are typically used when an installation of the sensor from the top is needed. It is recommended that the entire sensing element is fully wetted at all times when a measurement is needed. The filling height may vary over the course of the reaction, and be dependent on how much of each component has been added, or if there is a constant influx of air.\nThis installation option is well-suited for next scenarios:\n*   There is no clearance between the sidewall and the blade (scrapper blade often is quite close to the wall)\n*   There is no existing port on side wall or bottom of reactor vessel and installing a new port is not possible\n*   There are existing ports on the lid or are easier to install\n*   Vessel is double jacketed which makes it hard to install ports\n\nFigure 7: SRD-X5 on Tank's roof\n\nAlternatively, another solution for installation in tanks is the use of the TMA-34N accessory, read more about this here (https://rheonics.com/tma-34n/).\n\n3. Adjustable Process Connector - APC\nRheonics SRD-X5 sensor can be installed with the APC adapter for ambient pressure. The APC is a mechanical joint of pieces that can clamp a flange or process connection on the sensor body without welding. This enables easy change of flanges and the immersion depth can be varied.\nThe APC can adjust a Tri-Clamp, flange or any other connection with a maximum thickness of 1\" and an OD diameter of at least 50mm.",
+      "specifications": {
+        "sensor_diameter": "30 mm",
+        "APC_max_connection_thickness": "1 \"",
+        "APC_min_connection_OD_diameter": "50 mm"
+      },
+      "key_facts": [
+        "SRD long insertion probes are typically used for top-mounted sensor installations.",
+        "The entire sensing element should be fully wetted for accurate measurements.",
+        "Top installation is suitable for scenarios with no sidewall clearance, no existing side/bottom ports, existing lid ports, or double-jacketed vessels.",
+        "The TMA-34N accessory offers an alternative solution for tank installations.",
+        "The Adjustable Process Connector (APC) allows installation of the SRD-X5 sensor for ambient pressure.",
+        "The APC is a mechanical joint that clamps connections without welding.",
+        "The APC facilitates easy flange changes and allows for varied immersion depth.",
+        "The APC can adjust to Tri-Clamp, flange, or other connections with a maximum thickness of 1 inch and an outer diameter of at least 50mm."
+      ],
+      "diagram_labels": [
+        "Ø30 mm",
+        "It is recommended that the minimum volume in tank still covers the sensing element",
+        "Figure 7: SRD-X5 on Tank's roof"
+      ],
+      "warnings_notes": [
+        "It is recommended that the entire sensing element is fully wetted at all times when a measurement is needed.",
+        "It is recommended that the minimum volume in tank still covers the sensing element."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 813,
+        "cost_usd": 0.0021723
+      },
+      "source_file": "199_SRD-X5_Inline_Process_Density_meter_long_insertion_and_custom_connection.pdf"
+    },
+    {
+      "page_summary": "This page illustrates the Rheonics SRD-X5 sensor with an APC adapter through a 3D render and a technical drawing, providing key dimensions and process connection specifications along with relevant reference links.",
+      "document_type": "datasheet",
+      "product_names": [
+        "Rheonics SRD-X5",
+        "APC adapter",
+        "Inline Density Meter SRD",
+        "TMA-34N"
+      ],
+      "extracted_text": "Figure 8: Rheonics SRD-X5 with APC adapter.\n\nProcess connection of customer's choice\nMax. Thickness = 1''\nOD > 50mm\n\n30 Min [1.2]\n78.4 [3.09]\n73 A: Insertion Length Min [2.87]\n\nFigure 9: Rheonics SRD-X5 with APC drawing.\n\nReferences\n[1]: https://rheonics.com/products/inline-density-meter-srd/\n[2]: https://rheonics.com/tma-34n/",
+      "specifications": {
+        "Sensor Length (threaded section)": "30 mm [1.2 in]",
+        "Adapter Body Length": "78.4 mm [3.09 in]",
+        "Minimum Insertion Length (A)": "73 mm [2.87 in]",
+        "Process Connection Maximum Thickness": "1 inch",
+        "Process Connection Outer Diameter": "> 50 mm"
+      },
+      "key_facts": [
+        "The document features a Rheonics SRD-X5 sensor configured with an APC adapter.",
+        "The APC adapter facilitates a process connection chosen by the customer.",
+        "The maximum allowable thickness for the process connection is 1 inch.",
+        "The outer diameter (OD) of the process connection must be greater than 50 mm.",
+        "The minimum insertion length for the sensor, labeled 'A', is 73 mm (2.87 inches)."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "Process connection of customer's choice",
+        "Max. Thickness = 1''",
+        "OD > 50mm",
+        "30 Min [1.2]",
+        "78.4 [3.09]",
+        "A: Insertion Length Min [2.87]",
+        "73",
+        "Figure 8: Rheonics SRD-X5 with APC adapter.",
+        "Figure 9: Rheonics SRD-X5 with APC drawing."
+      ],
+      "warnings_notes": [],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 610,
+        "cost_usd": 0.0016648
+      },
+      "source_file": "199_SRD-X5_Inline_Process_Density_meter_long_insertion_and_custom_connection.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

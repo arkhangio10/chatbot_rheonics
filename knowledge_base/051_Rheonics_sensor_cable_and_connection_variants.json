@@ -1,0 +1,208 @@
+{
+  "source_file": "051_Rheonics_sensor_cable_and_connection_variants.pdf",
+  "total_pages": 5,
+  "chunks": [
+    {
+      "page_summary": "This page describes Rheonics sensor cable and connection variants, detailing connection types, ordering options, and specifications for a standard straight M12 connector cable.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics viscosity and/or density sensor probes",
+        "SRV",
+        "SRD",
+        "DVP",
+        "SME",
+        "Rheonics sensors"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nRheonics sensor cable and connection variants\nModified on: Wed, 29 May, 2024 at 5:57 PM\n\nRheonics viscosity and/or density sensor probes are connected to the sensor electronics with a sensor cable. A M12 8-pin connection is used on the sensor probe (SRV, SRD, DVP) and 8 pin-terminal connections is used in the sensor electronics (SME).\n\nVisit the next article for the wiring color code to follow to connect sensor cable wires (standard probe) to the electronics: Connecting sensor cable colored wires to transmitter electronics\n\nSensor cable and connector options for Standard and EX-certified sensor probe\nRheonics sensors are delivered with a sensor cable as configured in the RFQ (Request for Quotation). Users can define the type (straight or 90° angled), length, and if EX certification (explosive environment) is required.\n\nThe sensor cable variants are shown below. All cables are shielded and use the same M12 port with 8 pins, A-coded connector.\n\n1. Standard sensor cable with straight M12 connector\n\nFigure 1: Standard sensor cable with straight M12 connector\n\nSpecifications:\n*   Insulation material - Sheath: PUR\n*   IP Rating: IP68\n*   Temperature range: -30°C to 90°C\n*   Molded connector: M12 8-pin Female A-coded Straight",
+      "specifications": {
+        "Insulation material - Sheath": "PUR",
+        "IP Rating": "IP68",
+        "Temperature range": "-30°C to 90°C",
+        "Molded connector": "M12 8-pin Female A-coded Straight"
+      },
+      "key_facts": [
+        "Rheonics viscosity and/or density sensor probes connect to sensor electronics using a sensor cable.",
+        "A M12 8-pin connection is utilized on SRV, SRD, DVP sensor probes and SME (Sensor Measurement Electronics).",
+        "Sensor cable and connector options are available for both standard and EX-certified sensor probes.",
+        "Rheonics sensors are supplied with a sensor cable configured per the Request for Quotation (RFQ).",
+        "Users can specify the cable type (straight or 90° angled), length, and whether EX certification is needed for explosive environments.",
+        "All sensor cable variants are shielded and share the same M12 8-pin, A-coded connector."
+      ],
+      "diagram_labels": [
+        "Figure 1: Standard sensor cable with straight M12 connector"
+      ],
+      "warnings_notes": [
+        "Users should visit the next article for the wiring color code to connect standard probe sensor cable wires to transmitter electronics.",
+        "EX certification (explosive environment) might be required, which users can define in the RFQ."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 793,
+        "cost_usd": 0.0021222999999999997
+      },
+      "source_file": "051_Rheonics_sensor_cable_and_connection_variants.pdf"
+    },
+    {
+      "page_summary": "This page provides details on Rheonics standard sensor cables, including specifications, available lengths, and download links for technical drawings for both straight and 90° angled M12 connectors.",
+      "document_type": "datasheet",
+      "product_names": [
+        "Standard sensor cable with straight M12 connector",
+        "Standard sensor cable with 90° angled M12 connector"
+      ],
+      "extracted_text": "Description\tLengths available\tDrawing\nStandard sensor cable with straight M12 connector\n\t5 m (15 ft)\n\t10 m (30 ft)\n\t30 m (90 ft)\n\tCustom length (up to 500 m/1500 feet)\tDownload Drawing (pdf)\n\t(https://rheonics.com/wp-content/uploads/2024/02/Sensor-Cable-Straight.pdf)\n\n2. Standard sensor cable with 90° angled M12 connector\n\n[Image of a sensor cable with a 90° angled M12 connector]\n\nFigure 2: Standard sensor cable with 90° angled M12 connector\n\nSpecifications:\n*   Insulation material - Sheath: PUR\n*   IP Rating: IP68\n*   Temperature range: -30°C to 90°C\n*   Molded connector: M12 8-pin Female-A-coded 90° Angled\n\nDescription\tLengths available\tDrawing\nStandard sensor cable with 90° angled M12 connector\n\t5 m (15 ft)\n\t10 m (30 ft)\n\t30 m (90 ft)\n\tCustom length (up to 500 m/1500 feet)\tDownload Drawing (pdf)\n\t(https://rheonics.com/wp-content/uploads/2024/02/Sensor-Cable-90-angled.pdf)",
+      "specifications": {
+        "Insulation material (Sheath)": "PUR",
+        "IP Rating": "IP68",
+        "Temperature range": "-30°C to 90°C",
+        "Molded connector type (90° angled cable)": "M12 8-pin Female-A-coded 90° Angled",
+        "Standard cable lengths available": [
+          "5 m (15 ft)",
+          "10 m (30 ft)",
+          "30 m (90 ft)"
+        ],
+        "Custom cable length maximum": "500 m (1500 ft)"
+      },
+      "key_facts": [
+        "Rheonics offers standard sensor cables with both straight and 90° angled M12 connectors.",
+        "Available standard lengths for both cable types include 5 m, 10 m, and 30 m.",
+        "Custom lengths for the sensor cables are available up to 500 meters (1500 feet).",
+        "The sensor cable sheath is made from PUR insulation material.",
+        "The sensor cables have an ingress protection rating of IP68.",
+        "The operational temperature range for the sensor cables is -30°C to 90°C.",
+        "The 90° angled M12 connector is an 8-pin Female-A-coded type.",
+        "Technical drawings for both straight and 90° angled M12 sensor cables are available for download in PDF format from rheonics.com."
+      ],
+      "diagram_labels": [
+        "Figure 2: Standard sensor cable with 90° angled M12 connector"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 867,
+        "cost_usd": 0.0023073
+      },
+      "source_file": "051_Rheonics_sensor_cable_and_connection_variants.pdf"
+    },
+    {
+      "page_summary": "This page details the specifications and available lengths for two types of Rheonics sensor cables: a patch sensor cable for HT (High Temperature) applications and an IP69K rated sensor cable.",
+      "document_type": "datasheet",
+      "product_names": [
+        "Patch sensor cable for HT applications",
+        "IP69K sensor cable"
+      ],
+      "extracted_text": "3. Patch sensor cable for HT applications\n\nFigure 3: Patch sensor cable with straight M12 connector for HT applications\n\nSpecifications:\n* Insulation material - Sheath: PTFE\n* IP Rating: IP65\n* Max. temperature range: 150°C\n* Connector: M12 8-pin Female-A-coded Straight\n* Molded connector: M12 8-pin Female-A-coded 90° Angled\n\nDescription | Lengths available | Drawing\n---|---|---\nPatch sensor cable for HT applications with straight M12 connector | 5 m (15 ft) only | Download Drawing (pdf) (https://rheonics.com/wp-content/uploads/2024/02/Sensor-HT-Cable-Straight.pdf)\n\n4. IP69K sensor cable and straight M12 connector\n\nFigure 4: IP69K sensor cable with straight M12 connector.\n\nSpecifications:\n* Insulation material - Sheath: TPE-S\n* IP Rating: IP69K",
+      "specifications": {
+        "Patch sensor cable for HT applications - Insulation material Sheath": "PTFE",
+        "Patch sensor cable for HT applications - IP Rating": "IP65",
+        "Patch sensor cable for HT applications - Max. temperature range": "150°C",
+        "Patch sensor cable for HT applications - Connector": "M12 8-pin Female-A-coded Straight",
+        "Patch sensor cable for HT applications - Molded connector": "M12 8-pin Female-A-coded 90° Angled",
+        "Patch sensor cable for HT applications - Lengths available": "5 m (15 ft)",
+        "IP69K sensor cable - Insulation material Sheath": "TPE-S",
+        "IP69K sensor cable - IP Rating": "IP69K"
+      },
+      "key_facts": [
+        "The Patch sensor cable for HT applications features PTFE insulation material for its sheath.",
+        "The Patch sensor cable for HT applications has an IP65 rating.",
+        "The maximum temperature range for the Patch sensor cable for HT applications is 150°C.",
+        "The Patch sensor cable for HT applications connector is an M12 8-pin Female-A-coded Straight type.",
+        "The molded connector for the Patch sensor cable for HT applications is an M12 8-pin Female-A-coded 90° Angled type.",
+        "The Patch sensor cable for HT applications is only available in a length of 5 meters (15 feet).",
+        "The IP69K sensor cable uses TPE-S as its sheath insulation material.",
+        "The IP69K sensor cable has an IP69K rating."
+      ],
+      "diagram_labels": [
+        "Figure 3: Patch sensor cable with straight M12 connector for HT applications",
+        "Figure 4: IP69K sensor cable with straight M12 connector."
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 801,
+        "cost_usd": 0.0021422999999999998
+      },
+      "source_file": "051_Rheonics_sensor_cable_and_connection_variants.pdf"
+    },
+    {
+      "page_summary": "This page provides specifications and ordering information for IP69K and EX sensor cables with M12 connectors, including details on available lengths and special cable sourcing considerations.",
+      "document_type": "datasheet",
+      "product_names": [
+        "IP69K sensor cable with straight M12 connector",
+        "EX sensor cable and straight M12 connector"
+      ],
+      "extracted_text": "Max. temperature range: 105°C\nConnector: M12 8-pin Female-A-coded Straight\n\nDescription\nIP69K sensor cable with straight M12 connector\n\nLengths available\n5 m (15 ft) only\n\nDrawing\nDownload Drawing (pdf)\n(https://rheonics.com/wp-content/uploads/2024/05/Sensor-Cable-IP69K-Straight.pdf)\n\n5. EX sensor cable and straight M12 connector\n\nFigure 5: EX sensor cable and straight M12 connector\n\nSpecifications:\n\nInsulation material - Sheath: Special PVC for intrinsically safe installations\nIP Rating: IP67\nTemperature range: -30°C to 80°C\nConnector: M12 8-pin Female-A-coded Straight\n\nDescription\nEX sensor cable and straight M12 connector\n\nLengths available\n5 m (15 ft)\n10 m (30 ft)\n30 m (90 ft)\nCustom length (up to 500 m/1500 feet)\n\nDrawing\nDownload Drawing (pdf)\n(https://rheonics.com/wp-content/uploads/2024/02/Sensor-Cable-EX-Straight.pdf)\n\nSource special sensor cables locally\n\nIn addition to the sensor cables Rheonics can provide, user may at times require an special cable that Rheonics may not be able to provide. Special configurations can vary like requirement of PEEK sheath, PUR sheath, high temperature, armoured, extra heavy duty, etc.\n\nTo be compatible with Rheonics sensor probes, a sensor cable should comply with the following. If these specifications are met, user can source cables locally for special needs in consultation with rheonics technical team.",
+      "specifications": {
+        "IP69K sensor cable_max_temperature_range": "105°C",
+        "IP69K sensor cable_connector_type": "M12 8-pin Female-A-coded Straight",
+        "IP69K sensor cable_lengths_available": "5 m (15 ft)",
+        "EX sensor cable_insulation_material_sheath": "Special PVC for intrinsically safe installations",
+        "EX sensor cable_ip_rating": "IP67",
+        "EX sensor cable_temperature_range": "-30°C to 80°C",
+        "EX sensor cable_connector_type": "M12 8-pin Female-A-coded Straight",
+        "EX sensor cable_lengths_available_standard": "5 m (15 ft), 10 m (30 ft), 30 m (90 ft)",
+        "EX sensor cable_lengths_available_custom": "up to 500 m (1500 feet)"
+      },
+      "key_facts": [
+        "Rheonics offers IP69K sensor cables in a 5m (15 ft) length only.",
+        "Rheonics offers EX sensor cables in standard lengths of 5m (15 ft), 10m (30 ft), and 30m (90 ft).",
+        "Custom lengths for EX sensor cables are available up to 500m (1500 feet).",
+        "EX sensor cables are designed with special PVC sheath for intrinsically safe installations.",
+        "Users may need special cable configurations (e.g., PEEK sheath, PUR sheath, high temperature, armoured, extra heavy duty) that Rheonics may not provide.",
+        "Locally sourced sensor cables must comply with Rheonics sensor probe specifications.",
+        "For special cable needs, users should consult with the Rheonics technical team."
+      ],
+      "diagram_labels": [
+        "Figure 5: EX sensor cable and straight M12 connector"
+      ],
+      "warnings_notes": [
+        "To be compatible with Rheonics sensor probes, a sensor cable should comply with the following. If these specifications are met, user can source cables locally for special needs in consultation with rheonics technical team."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1046,
+        "cost_usd": 0.0027548
+      },
+      "source_file": "051_Rheonics_sensor_cable_and_connection_variants.pdf"
+    },
+    {
+      "page_summary": "This page details the specific cable requirements for compatibility with Rheonics sensors, outlining conductor type, cable construction, shielding, and connector specifications.",
+      "document_type": "datasheet",
+      "product_names": [
+        "Rheonics sensor"
+      ],
+      "extracted_text": "Cable requirements for Rheonics sensor compatibility\n1 4 pair of AWG 23 conductors\n2 Twisted\n3 Shielded\n4 M12-8 A-coded female connector",
+      "specifications": {
+        "Number of pairs": "4",
+        "Wire gauge": "AWG 23",
+        "Cable construction": "Twisted",
+        "Shielding": "Shielded",
+        "Connector type": "M12-8 A-coded female"
+      },
+      "key_facts": [
+        "Cables for Rheonics sensors require 4 pairs of AWG 23 conductors.",
+        "The cable must be twisted.",
+        "The cable must be shielded.",
+        "The cable must use an M12-8 A-coded female connector for compatibility."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 280,
+        "cost_usd": 0.0008397999999999999
+      },
+      "source_file": "051_Rheonics_sensor_cable_and_connection_variants.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

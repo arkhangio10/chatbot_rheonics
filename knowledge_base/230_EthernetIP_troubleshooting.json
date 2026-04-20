@@ -1,0 +1,72 @@
+{
+  "source_file": "230_EthernetIP_troubleshooting.pdf",
+  "total_pages": 2,
+  "chunks": [
+    {
+      "page_summary": "This document provides an Ethernet/IP troubleshooting guide for various issues related to electronics, probes, communication, and data, offering solutions for each problem.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "RCP",
+        "SME",
+        "PLC",
+        "GDS"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nEthernet/IP troubleshooting\nModified on: Sat, 23 Apr, 2022 at 7:33 PM\n\nElectronics Issues\n  No LED lights, display, or output signals\n    1. Check power supply and cabling\n  Viscosity is not stable\n    1. SRV viscosity output is compared against only dynamic viscosity of the calibration fluids.\n    2. Sensor is not fully in fluid.\n\nProbe Issues\n  NaN values are displayed on the RCP software or PLC\n    1. Check wiring from the probe to SME is correct.\n    2. Measure the internal resistance from the probe\n\nCommunication Issues\n  No data is visible\n    1. Try to reset the SME and/or restart your master.\n    2. Check all settings are correct with RCP and controller side.\n    3. Verify there is no duplicated address in the network\n    4. Try to use the ping command to get a response from either the PLC or SME.\n    5. Verify that the latest version of the GDS file is installed-\n\nData issues\n  The measured value is different from my reference standards\n    1. SRV viscosity output is compared against only dynamic viscosity of the calibration fluids\n  Wrong Unit from the data stream\n    1. Unit is received as HEX representation, convert to decimal\n  Wrong readings for each parameter\n    1. Verify each parameter is correctly mapped, some bytes are swapped",
+      "specifications": {},
+      "key_facts": [
+        "If no LED lights, display, or output signals are present, check the power supply and cabling.",
+        "If viscosity is unstable, ensure SRV viscosity output is compared against only dynamic viscosity of the calibration fluids and that the sensor is fully immersed in fluid.",
+        "When NaN values are displayed on RCP software or PLC, verify correct wiring from the probe to SME and measure the internal resistance of the probe.",
+        "If no data is visible, attempt to reset the SME, restart the master, check all settings on both RCP and controller sides, ensure no duplicated network addresses exist, use the ping command to test response from PLC or SME, and confirm the latest GDS file is installed.",
+        "If measured values differ from reference standards, remember that SRV viscosity output is compared against dynamic viscosity of calibration fluids.",
+        "If the unit received from the data stream is incorrect, convert HEX representation to decimal.",
+        "For wrong readings of parameters, verify that each parameter is correctly mapped, as some bytes might be swapped."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Troubleshooting contact phone number: +1 713 234 0863.",
+        "Document last modified on: Saturday, April 23, 2022, at 7:33 PM."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 749,
+        "cost_usd": 0.0020123
+      },
+      "source_file": "230_EthernetIP_troubleshooting.pdf"
+    },
+    {
+      "page_summary": "This page provides troubleshooting information for common sensor status, device installation, and connection request errors, along with their causes and resolution steps.",
+      "document_type": "manual",
+      "product_names": [
+        "Studio5000"
+      ],
+      "extracted_text": "Sensor Status does not match any bit from the sensor status table\n1. Sensor status byte is swapped\n\nCannot install or do not see device after installation\nFollow these steps to handle the issue:\n1. EDS Hardware installation tool as administrator.\n2. Delete all iterations of .eds for the device.\n3. Reboot\n4. Install .eds for the device\n5. Reboot\n6. Add device\n7. Device added!\n\nCode 16#012f Connection Request error: Inconsistent application path combination(Only Studio5000)\nIncorrect eds file is installed, please check the latest eds file from the support portal. Data sent does not match the data received.",
+      "specifications": {},
+      "key_facts": [
+        "If the sensor status does not match any bit from the sensor status table, the sensor status byte is swapped.",
+        "To resolve installation issues where a device is not visible, users should run the EDS Hardware installation tool as administrator, delete all existing .eds files for the device, reboot, install the correct .eds file, reboot again, and then add the device.",
+        "A 'Code 16#012f Connection Request error: Inconsistent application path combination' (specific to Studio5000) indicates an incorrect EDS file or a mismatch between sent and received data."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "The connection request error (Code 16#012f) is relevant 'Only Studio5000'.",
+        "For 'Code 16#012f Connection Request error', users should check the latest .eds file from the support portal."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 451,
+        "cost_usd": 0.0012673
+      },
+      "source_file": "230_EthernetIP_troubleshooting.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

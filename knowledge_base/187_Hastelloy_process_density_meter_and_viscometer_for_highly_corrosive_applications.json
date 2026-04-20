@@ -1,0 +1,236 @@
+{
+  "source_file": "187_Hastelloy_process_density_meter_and_viscometer_for_highly_corrosive_applications.pdf",
+  "total_pages": 4,
+  "chunks": [
+    {
+      "page_summary": "This page from Rheonics describes the use of Hastelloy C22 as a corrosion-resistant material for their inline process density meters and viscometers, detailing its composition, chemical resistance, and applications for highly corrosive fluids.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "Rheonics inline SRV viscometer",
+        "Rheonics density and viscosity meter SRD"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nHastelloy process density meter and viscometer for highly corrosive applications\n\nModified on: Tue, 10 Mar, 2026 at 4:58 PM\n\n[Image of a Rheonics sensor probe with 'HASTELLOY C-22' label, and puzzle pieces representing Nickel (Ni) and Molybdenum (Mo) with atomic numbers and masses]\n\nWhat is the purpose of this article?\nDescribe Rheonics sensor probes with Hastelloy C22 wetted parts for applications with highly corrosive fluids, material characteristics, and use cases.\n\nWhat products are involved?\n(https://rheonics.com/products/inline-viscometer-srv/)Rheonics inline SRV viscometer (https://rheonics.com/products/inline-viscometer-srv/),\nand density and viscosity meter SRD (https://rheonics.com/products/inline-density-meter-srd/).\n\nHastelloy C22 Material\n\nThe Hastelloy C22, or simply Alloy C22, is known for being a corrosion-resistant material, composed mainly of nickel, chromium, and molybdenum.\n\nThe Alloy C22 is used for a wide range of harsh chemicals in the industry including:\n\n*   Chloride fluids (e.g. Calcium, ferric, magnesium, aluminum chloride)\n*   Nitric acid - HNO3\n*   Sulfuric acid - H2SO4\n*   Hydrochloric acid - HCl\n*   Oxidizing acid, etc.\n\nSome key characteristics of the Hastelloy C22 material are:\n\n*   Composition: The nickel-chromium-molybdenum composition of Hastelloy C22 has an overall better performance and resistance than other Hastelloy variants (e.g. C276, C4, 625).\n*   Corrosion resistance: Used in severe corrosive fluids (presence of acids, chloride, nitric, oxidizing fluids, etc.) even at high temperatures.\n*   Application: Used in piping and pumping systems, general industry, automotive, chemical, etc. where exposure to corrosive fluids restricts the use of alternative metals (e.g. Stainless Stel 316, 316L, 904L)",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics offers sensor probes with Hastelloy C22 wetted parts for applications involving highly corrosive fluids.",
+        "Hastelloy C22, also known as Alloy C22, is a corrosion-resistant material primarily composed of nickel, chromium, and molybdenum.",
+        "Alloy C22 is suitable for a wide range of harsh industrial chemicals, including chloride fluids (e.g., Calcium, ferric, magnesium, aluminum chloride), nitric acid (HNO3), sulfuric acid (H2SO4), hydrochloric acid (HCl), and oxidizing acids.",
+        "The nickel-chromium-molybdenum composition of Hastelloy C22 provides superior performance and resistance compared to other Hastelloy variants like C276, C4, and 625.",
+        "Hastelloy C22 maintains its corrosion resistance in severe corrosive fluids, including acids, chlorides, nitric, and oxidizing fluids, even at high temperatures.",
+        "Hastelloy C22 is applied in piping and pumping systems across various industries such as general industry, automotive, and chemical, particularly where corrosive fluids restrict the use of alternative metals like Stainless Steel 316, 316L, and 904L.",
+        "The document provides contact information: Phone: +1 713 234 0863.",
+        "The document was last modified on Tuesday, March 10, 2026, at 4:58 PM."
+      ],
+      "diagram_labels": [
+        "HASTELLOY C-22",
+        "28 Ni NICKEL 58.693 Transition metal",
+        "42 Mo MOLYBDENUM 95.96 Transition metal"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1031,
+        "cost_usd": 0.0027172999999999998
+      },
+      "source_file": "187_Hastelloy_process_density_meter_and_viscometer_for_highly_corrosive_applications.pdf"
+    },
+    {
+      "page_summary": "This page details the material characteristics of Hastelloy C22, its application in Rheonics inline density and viscosity sensors for corrosive environments, and its superior chemical compatibility compared to Stainless Steel 316L.",
+      "document_type": "datasheet",
+      "product_names": [
+        "Rheonics SRD Inline process Density and Viscosity meter",
+        "Rheonics SRV Inline process Viscometer",
+        "SR-X5-Axxx-B1N25"
+      ],
+      "extracted_text": "Table 1: Hastelloy C22 Material Characteristics\n\n| Name | Hastelloy C22 Material |\n| :------------------------------ | :--------------------- |\n| | Hastelloy C22 |\n| | DIN 2.4602 |\n| | NiCr21Mo14W |\n| Composition | Nickel Ni 50-63% |\n| | Chromium Cr 20 - 23% |\n| | Molybdenum Mo 12 - 14% |\n| | Others |\n| PREN (Pitting Resistance Equivalent Number) | 46 |\n| Density | 8.61 g/cm3 |\n\nRheonics Sensors with Hastelloy C22 wetted surface\n\nRheonics SRD Inline process Density and Viscosity meter, and SRV Inline process Viscometer are available with Hastelloy C22 material as probe's wetted part or fluid exposed area. This means that the material in contact with the fluid is Hastelloy C22, compatible for corrosive fluids and various acids. The back side of the probe, including the connector, is made of Stainless Steel 316L (SS 316L) standard material, as shown in Figure 2.\n\nFigure 2: C22 Probe with SS316 back side.Wetted parts are shaded in light blue.\n\nThe Hastelloy C22 probe variants enables the use of Rheonics inline sensors to measure density, viscosity and temperature, as well as related parameters such as concentration, of corrosive fluids and acids even at high temperatures without affecting the sensor operation, integrity and accuracy. This results in constant monitoring and tight control of the fluid's properties.\n\nFigure 3: SRV and SRD Long Insertion NPT 1.25\" (SR-X5-Axxx-B1N25)\n\nRheonics Hastelloy C22 high corrosion resistance viscosity and density sensor probes are recommended when Stainless Steel 316L (1.4435) - the standard sensor probe's material - is not compatible with the application fluids.\n\nTable 2: Benefit of Hastelloy over stainless for corrosive environments\n\nCompatibility of Hastelloy and Stainless Steel with corrosive fluids\n\n| Chemical Fluid | Stainless Steel 316L (1.4435) | Hastelloy C22 (2.4602) |\n| :---------------------- | :------------------------------ | :--------------------- |\n| Aluminum chloride | Bad | Good |\n| Ammonium chloride | Bad | Good |\n| Calcium chloride | Bad | Good |\n| Calcium nitrate | Bad | Good |\n| Chloric acid | Bad | Good |\n| Ferric chloride | Bad | Good |\n| Hydrochloric acid | Bad | Good |\n| Sulfuric acid | Bad | Good |",
+      "specifications": {
+        "Material Name (Hastelloy C22)": "Hastelloy C22",
+        "Material DIN (Hastelloy C22)": "2.4602",
+        "Material UNS (Hastelloy C22)": "NiCr21Mo14W",
+        "Composition Nickel (Hastelloy C22)": "50-63%",
+        "Composition Chromium (Hastelloy C22)": "20-23%",
+        "Composition Molybdenum (Hastelloy C22)": "12-14%",
+        "PREN (Pitting Resistance Equivalent Number) (Hastelloy C22)": "46",
+        "Density (Hastelloy C22)": "8.61 g/cm3",
+        "Compatibility Aluminum chloride (Stainless Steel 316L)": "Bad",
+        "Compatibility Ammonium chloride (Stainless Steel 316L)": "Bad",
+        "Compatibility Calcium chloride (Stainless Steel 316L)": "Bad",
+        "Compatibility Calcium nitrate (Stainless Steel 316L)": "Bad",
+        "Compatibility Chloric acid (Stainless Steel 316L)": "Bad",
+        "Compatibility Ferric chloride (Stainless Steel 316L)": "Bad",
+        "Compatibility Hydrochloric acid (Stainless Steel 316L)": "Bad",
+        "Compatibility Sulfuric acid (Stainless Steel 316L)": "Bad",
+        "Compatibility Aluminum chloride (Hastelloy C22)": "Good",
+        "Compatibility Ammonium chloride (Hastelloy C22)": "Good",
+        "Compatibility Calcium chloride (Hastelloy C22)": "Good",
+        "Compatibility Calcium nitrate (Hastelloy C22)": "Good",
+        "Compatibility Chloric acid (Hastelloy C22)": "Good",
+        "Compatibility Ferric chloride (Hastelloy C22)": "Good",
+        "Compatibility Hydrochloric acid (Hastelloy C22)": "Good",
+        "Compatibility Sulfuric acid (Hastelloy C22)": "Good"
+      },
+      "key_facts": [
+        "Rheonics SRD and SRV inline sensors are available with Hastelloy C22 as the wetted part for contact with corrosive fluids and various acids.",
+        "The non-wetted parts of the probe, including the connector, are made of Stainless Steel 316L.",
+        "Hastelloy C22 probe variants allow Rheonics inline sensors to measure density, viscosity, and temperature, as well as related parameters like concentration, in corrosive fluids and acids even at high temperatures without compromising sensor operation, integrity, or accuracy.",
+        "Hastelloy C22 high corrosion resistance viscosity and density sensor probes are recommended when Stainless Steel 316L (1.4435) is not compatible with the application fluids.",
+        "Hastelloy C22 demonstrates 'Good' compatibility with Aluminum chloride, Ammonium chloride, Calcium chloride, Calcium nitrate, Chloric acid, Ferric chloride, Hydrochloric acid, and Sulfuric acid, whereas Stainless Steel 316L is 'Bad' for all these chemical fluids."
+      ],
+      "diagram_labels": [
+        "Stainless Steel 316L",
+        "Fluid-Exposed Area",
+        "*Blue color just for reference"
+      ],
+      "warnings_notes": [
+        "Stainless Steel 316L (1.4435) - the standard sensor probe's material - is not compatible with the application fluids for which Hastelloy C22 is recommended."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1582,
+        "cost_usd": 0.0040948
+      },
+      "source_file": "187_Hastelloy_process_density_meter_and_viscometer_for_highly_corrosive_applications.pdf"
+    },
+    {
+      "page_summary": "This page details Rheonics Type-SR sensor variants made with Hastelloy C22, outlining their applications across various industries and providing critical installation guidelines, including sensor probe dimensions and required clearances.",
+      "document_type": "manual",
+      "product_names": [
+        "SR-C22-X1",
+        "SR-C22-X2",
+        "SR-C22-X3",
+        "SR-C22-X4",
+        "SR-C22-X5",
+        "Type-SR Sensor",
+        "Rheonics Type-SR sensors",
+        "Rheonics SRV Viscometer",
+        "Rheonics SRD Density and Viscosity Meter",
+        "Inline Density meter",
+        "Viscometer"
+      ],
+      "extracted_text": "Chemicals compatibility with Stainless Steel 316L, Hastelloy C22 and Titanium Gr. 5.\n(https://support.rheonics.com/en/support/solutions/articles/81000412247-process-viscometer-and-density-meter-chemical-compatibility)\nThe Rheonics sensor probes offered with Hastelloy C22 wetted material are shown in next table.\n\nTable 3: Rheonics sensor variants offered with Hastelloy C22\n| Sensor Code | Sensor variant with Hastelloy C22 |\n|---|---|\n| SR-C22-X1 | Type-SR Sensor short probe with threaded connection, e.g. G1/2, 3/4\" NPT |\n| SR-C22-X2 | Type-SR Sensor short probe with custom connection, e.g. Flanges |\n| SR-C22-X3 | Type-SR Sensor short probe with Tri-Clamp connection |\n| SR-C22-X4 | Type-SR Sensor flush probe with custom connection, e.g. Tri-Clamp, Flanges |\n| SR-C22-X5 | Type-SR Sensor long insertion probe with custom connection, e.g. Flange, API Hub, Tri-Clamp |\n\nApplications of Inline Density meter and Viscometer with Hastelloy C22\nSome industries and applications where Rheonics Type-SR sensors made of Hastelloy C22 are:\n*   Automotive industry: Density monitoring and acid concentration (e.g. sulfuric acid) on battery performance and production.\n*   Brine, potassium chloride and water, and hydrochloric acid and hypochlorous acid.\n*   Chemical Processing and Science: Brine for electrochemical cell with hypochlorous acid.\n*   Chemical crystallization.\n*   Pharmaceutical: Ethanol distillation. Acids and cleaning density monitoring.\n*   Pulp and paper - ammonium Sulfite Mill.\n*   Refinery Industry - coke refinery at vaporizer.\n*   Water and wastewater treatment.\n\nInstallation of Rheonics Hastelloy C22 Density meter and Viscometers for corrosive fluids\nRheonics Type-SR sensors have a simple installation process. The main requirement is to have the sensing area of the sensor probes correctly immersed in fluid without dead zones as shown in next image.\n\nRheonics SRV Viscometer\nSRV tip's clearance to any obstruction 5 mm [0.2\"]\n\nRheonics SRD Density and Viscosity Meter\nSRD tip's clearance to any obstruction 12 mm [0.5\"]\n\nAvoid stagnation zones in the sensing zones (red areas)\nEnsure sensing element in red is in contact with fluid\nFigure 4: Type-SR sensor probe's sensing element.\n\nFor further installation considerations, visit next pages for each sensor:\n*   SRD Density and Viscosity meter installation articles (https://support.rheonics.com/en/support/solutions/folders/81000297659)\n*   SRV Viscometer installation articles (https://support.rheonics.com/en/support/solutions/folders/81000297658)\n\nRheonics optional accessories for installation (e.g. flow cells for installation in 1\" lines, weldolets, protection cages, etc.) are mostly manufactured in Stainless Steel 316L and are not offered as standard in Hastelloy C22 material. Enquire with sales team for available options.",
+      "specifications": {
+        "SRV Viscometer sensing area length": "50 mm [1.96\"]",
+        "SRV Viscometer sensing area diameter": "Ø16 mm [0.63\"]",
+        "SRV tip's clearance to any obstruction": "5 mm [0.2\"]",
+        "SRD Density and Viscosity Meter sensing area total length": "50 mm [1.96\"]",
+        "SRD Density and Viscosity Meter sensing element (wider part) length": "35 mm [1.4\"]",
+        "SRD Density and Viscosity Meter sensing area diameter": "Ø35 mm [1.4\"]",
+        "SRD tip's clearance to any obstruction": "12 mm [0.5\"]",
+        "Optional accessories installation line size": "1\""
+      },
+      "key_facts": [
+        "Rheonics sensor probes are offered with Hastelloy C22 wetted material.",
+        "Rheonics Type-SR sensors are utilized in diverse applications, including automotive, chemical processing, pharmaceutical, pulp and paper, refinery, and water/wastewater treatment.",
+        "The primary requirement for installing Rheonics Type-SR sensors is to ensure the sensing area of the probes is correctly immersed in fluid without creating dead zones.",
+        "The sensing element, indicated by red areas in diagrams, must be in direct contact with the fluid.",
+        "Rheonics optional installation accessories (e.g., flow cells, weldolets, protection cages) are predominantly manufactured from Stainless Steel 316L and are not standard in Hastelloy C22 material."
+      ],
+      "diagram_labels": [
+        "Rheonics SRV Viscometer",
+        "50 mm [1.96\"]",
+        "Ø16 mm [0.63\"]",
+        "SRV tip's clearance to any obstruction 5 mm [0.2\"]",
+        "Rheonics SRD Density and Viscosity Meter",
+        "50 mm [1.96\"]",
+        "Ø35 mm [1.4\"]",
+        "35 mm [1.4\"]",
+        "SRD tip's clearance to any obstruction 12 mm [0.5\"]",
+        "Figure 4: Type-SR sensor probe's sensing element."
+      ],
+      "warnings_notes": [
+        "Avoid stagnation zones in the sensing zones (red areas).",
+        "Ensure sensing element in red is in contact with fluid.",
+        "For further installation considerations, visit the SRD Density and Viscosity meter installation articles and SRV Viscometer installation articles.",
+        "Rheonics optional accessories for installation are mostly manufactured in Stainless Steel 316L and are not offered as standard in Hastelloy C22 material.",
+        "Enquire with the sales team for available options regarding accessories."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1617,
+        "cost_usd": 0.0041823
+      },
+      "source_file": "187_Hastelloy_process_density_meter_and_viscometer_for_highly_corrosive_applications.pdf"
+    },
+    {
+      "page_summary": "This page provides an ordering guide and configuration options for Rheonics SR-Type inline viscometers and density meters, detailing material choices, process connection types, and required information for quotation.",
+      "document_type": "datasheet",
+      "product_names": [
+        "Rheonics viscometer",
+        "Rheonics density meter",
+        "Rheonics Type-SR sensor",
+        "SRD (Inline Density and Viscosity meter)",
+        "SRV (Inline Viscometer)"
+      ],
+      "extracted_text": "Plastic materials e.g. PTFE can be used as accessories for compatibility with corrosive fluids.\n\nHow to order Rheonics viscometer and density meter made of Hastelloy C22 material?\n\nHow to order Rheonics Type-SR sensor with flange?\n\nCode Form: SR_ - C22 - X_ - A___ - B______\nExamples:\n  SRV - C22 - X1 - 34N\n  SRD - C22 - X5 - A200 - BD50CR\n\n1 Rheonics SR- Type sensor\n  SRD: Inline Density and Viscosity meter\n  SRV: Inline Viscometer\n\n2 Wetted material\n  Available variants:\n    C22: Hastelloy C22\n    SS: Stainless Steel 316L\n\n3 Process Connection Configuration\n  Define the process connection from the options shown*. Probe variants compatible with C22 material are:\n    -X1: Threaded probes.\n    -X2: Short variant. Define flange with norm, size, pressure rating, etc.\n    -X3: Tri Clamp probes\n    -X4: Flush probes.\n    -X5: Long insertion variant. Define flange with norm, size, pressure rating, etc.\n  *Rheonics can keep adding new process connection variants.\n\n4 Insertion Depth - \"A\" - If applicable\n  Only applicable for -X5.\n  The insertion length should be defined, this is the distance between the sensor tip and the flange. Probe wetted zone.\n\n5 Process Connection \"B\"\n  Process connection should be defined by the user for all flanges with norm, size, pressure rating, etc.\n  Rheonics will then create the corresponding flange's code.\n  Prefix \"B\" is only used for -X5 sensors.\n  Examples:\n    34N: 3/4” NPT\n    BD50CR: DIN Flange DN50 PN16 RF for -X5\n\nSRD density meter and viscometer online RFQ\n(https://rheonics.com/request-for-quotation/srd/)\nSRV viscometer online RFQ\n(https://rheonics.com/request-for-quotation/srv/)\n(https://rheonics.com/request-for-quotation/srv/)\n\nMaterial\nSensor probe wetted part\n  Stainless steel 316L (1.4435)\n  C22: Hastelloy C22 (2.4602)\n\nProcess Connection (Select one) *\n  X1 : 3/4\" NPT threaded probe (Article)\n  X1 : G 1/2\" BSPP threaded probe (Article)\n  X2 : Probe with Flange, specify flange DN/PN in box below (Article)\n  X3 : Probe with Tri-Clamp, specify TC norm & size in box below (Article)\n  X4 : Flush probe, specify flange type, norm & size in box below (Article)\n  X5 : Long insertion probe (FPC), select A & B in sections below (Article)\n  X6 : Slimline probe (SLP), select A & B in sections below (Drawing)\n  X7 : Reactor probe (RP), select L & B in sections below (Drawing)\n\nFor X2, X3, X4: Specify type, norm and size of process connection:\n\nFor X5, X6 and X7: Use the following fields to specify further configuration\nA: Insertion Length - For X5 and X6, input insertion length of probe, A (in mm) in box below. Specify unit if other than mm.\n\nL: Total Probe Length - For X7\n\nB: Process connection type, norm and size - For X5, X6 and X7\n\nFor X2, X3, X4: Specify type, norm and size of process connection:\n\nFor X5, X6 and X7: Use the following fields to specify further configuration\nA: Insertion Length - For X5 and X6, input insertion length of probe, A (in mm) in box below. Specify unit if other than mm.\n\nL: Total Probe Length - For X7\n\nB: Process connection type, norm and size - For X5, X6 and X7\n\nComplete the RFQ (https://rheonics.com/request-for-quotation/) with missing details (viscosity and/or density range, calibration accuracy, temperature rating, etc.), submit the form, and the Sales Team will contact you soon.",
+      "specifications": {
+        "Wetted Material C22": "Hastelloy C22",
+        "Wetted Material SS": "Stainless Steel 316L",
+        "Sensor Probe Wetted Part Option 1": "Stainless steel 316L (1.4435)",
+        "Sensor Probe Wetted Part Option 2": "C22: Hastelloy C22 (2.4602)",
+        "Process Connection X1 Threaded Probe Option 1": "3/4\" NPT",
+        "Process Connection X1 Threaded Probe Option 2": "G 1/2\" BSPP",
+        "Process Connection B Example 1": "34N: 3/4” NPT",
+        "Process Connection B Example 2": "BD50CR: DIN Flange DN50 PN16 RF"
+      },
+      "key_facts": [
+        "Plastic materials like PTFE can be used as accessories for compatibility with corrosive fluids.",
+        "The Rheonics SR-Type sensor can be configured as an SRD (Inline Density and Viscosity meter) or an SRV (Inline Viscometer).",
+        "Available wetted materials for the sensor probe include Hastelloy C22 (2.4602) and Stainless Steel 316L (1.4435).",
+        "Process connection configurations include threaded probes (X1), short variant flanges (X2), Tri-Clamp probes (X3), flush probes (X4), long insertion probes (X5), slimline probes (X6), and reactor probes (X7).",
+        "Insertion depth 'A' is only applicable for -X5 and -X6 probes and defines the distance between the sensor tip and the flange/wetted zone.",
+        "Process connection 'B' specifies the flange type, norm, size, and pressure rating, and is used for -X5, -X6 and -X7 sensors.",
+        "To complete an order, an online Request For Quotation (RFQ) form must be submitted with details such as viscosity/density range, calibration accuracy, and temperature rating.",
+        "Rheonics will create the corresponding flange code based on user-defined process connection 'B' details.",
+        "The prefix 'B' for process connection is only used for -X5, -X6, and -X7 sensors."
+      ],
+      "diagram_labels": [
+        "1 (Rheonics SR- Type sensor)",
+        "2 (Wetted material)",
+        "3 (Process Connection Configuration)",
+        "4 (Insertion Depth - \"A\")",
+        "5 (Process Connection \"B\")",
+        "SRD density meter and viscometer online RFQ",
+        "SRV viscometer online RFQ",
+        "Material",
+        "Sensor probe wetted part",
+        "Stainless steel 316L (1.4435)",
+        "C22: Hastelloy C22 (2.4602)",
+        "Process Connection (Select one) *",
+        "X1 : 3/4\" NPT threaded probe",
+        "X1 : G 1/2\" BSPP threaded probe",
+        "X2 : Probe with Flange, specify flange DN/PN in box below",
+        "X3 : Probe with Tri-Clamp, specify TC norm & size in box below",
+        "X4 : Flush probe, specify flange type, norm & size in box below",
+        "X5 : Long insertion probe (FPC), select A & B in sections below",
+        "X6 : Slimline probe (SLP), select A & B in sections below",
+        "X7 : Reactor probe (RP), select L & B in sections below",
+        "For X2, X3, X4: Specify type, norm and size of process connection:",
+        "For X5, X6 and X7: Use the following fields to specify further configuration",
+        "A: Insertion Length - For X5 and X6, input insertion length of probe, A (in mm) in box below. Specify unit if other than mm.",
+        "L: Total Probe Length - For X7",
+        "B: Process connection type, norm and size - For X5, X6 and X7"
+      ],
+      "warnings_notes": [
+        "Plastic materials e.g. PTFE can be used as accessories for compatibility with corrosive fluids.",
+        "Rheonics can keep adding new process connection variants.",
+        "Process Connection (Select one) * (indicates a required selection)."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 2192,
+        "cost_usd": 0.0056197999999999994
+      },
+      "source_file": "187_Hastelloy_process_density_meter_and_viscometer_for_highly_corrosive_applications.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

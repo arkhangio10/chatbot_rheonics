@@ -1,0 +1,326 @@
+{
+  "source_file": "195_SRV-X6_SLP_Slimline_Viscometer.pdf",
+  "total_pages": 7,
+  "chunks": [
+    {
+      "page_summary": "This page provides an overview and installation information for the Rheonics SRV-X6 Slimline Viscometer (SLP variant), detailing its features, applications, and connection options.",
+      "document_type": "notes",
+      "product_names": [
+        "SRV-X6",
+        "SLP Slimline Viscometer",
+        "Rheonics Inline Viscometer SRV",
+        "Slimline Probe - SLP (-X6)",
+        "SRV-SLP",
+        "SRV-X5 long insertion sensor",
+        "SR-SLP",
+        "SRV-X7 Reactor Probe"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nSRV-X6: SLP Slimline Viscometer\n\nModified on: Tue, 18 Jun, 2024 at 4:56 PM\n\nWhat products are involved?\nRheonics Inline Viscometer SRV (https://rheonics.com/products/inline-viscometer-srv/)\n\nWhat is the purpose of this article?\nTo give an overview of the Slimline Probe - SLP (-X6) version of the SRV sensor and installation information.\n\n1. Overview\n\nThe Rheonics Slimline (SLP) variant, for the viscometer SRV, is a long probe configurable in insertion length and process connection. It has a body diameter of 19mm, which is the main difference from a standard long insertion sensor (-X5) (https://support.rheonics.com/en/support/solutions/articles/81000411102-srv-x5-long-insertion-probe) that has a 30mm diameter. The SRV-SLP is used inline to monitor real-time viscosity and temperature readings. Its configuration code is -X6.\n\nThe SRV-X6 19mm diameter body opens up the possibility of using more process connections of small sizes. This is well suited for installations in small tanks or vessels and in small lines, creating less pressure drops. Installation is also possible in bioreactor tanks and glass reactors.\n\nSome process connections of interest for the SRV-X6 are 1” NPT, 3/4” NPT, Ingold DN25, Tri-Clamp, and others.\n\nSince the SR-SLP sensors are long insertion probes, the client should define the Insertion Length A and the Process Connection B.\n\nRheonics also offers a 19 mm diameter variant with no connection or with a compression fitting for a customizable insertion length, see more here SRV-X7 Reactor Probe (https://support.rheonics.com/en/support/solutions/articles/81000412268-srv-x7-rp-reactor-probe-viscometer).",
+      "specifications": {
+        "SRV-SLP/SRV-X6 body diameter": "19 mm",
+        "SRV-X5 body diameter": "30 mm",
+        "SRV-X6 process connections": "1” NPT, 3/4” NPT, Ingold DN25, Tri-Clamp",
+        "SRV-X7 body diameter": "19 mm"
+      },
+      "key_facts": [
+        "The Rheonics Slimline (SLP) variant of the SRV viscometer is a long probe configurable in insertion length and process connection.",
+        "The SRV-SLP/SRV-X6 has a body diameter of 19mm.",
+        "The 19mm body diameter of the SRV-X6 allows for the use of more process connections of small sizes.",
+        "The SRV-SLP is well suited for installations in small tanks, vessels, lines, bioreactor tanks, and glass reactors, creating less pressure drops.",
+        "The SRV-SLP is used inline to monitor real-time viscosity and temperature readings.",
+        "The configuration code for this specific Slimline Probe is -X6.",
+        "Standard long insertion sensors (-X5) have a 30mm diameter, differentiating them from the SRV-SLP (-X6).",
+        "Process connection options for the SRV-X6 include 1” NPT, 3/4” NPT, Ingold DN25, Tri-Clamp, among others.",
+        "Clients are required to define the Insertion Length A and Process Connection B for SR-SLP sensors.",
+        "Rheonics offers another 19 mm diameter variant, the SRV-X7 Reactor Probe, which can be provided with no connection or a compression fitting for customizable insertion length."
+      ],
+      "diagram_labels": [
+        "rheonics"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1092,
+        "cost_usd": 0.0028698
+      },
+      "source_file": "195_SRV-X6_SLP_Slimline_Viscometer.pdf"
+    },
+    {
+      "page_summary": "This page provides a technical drawing and specifications for the Rheonics Slimline SRV-X6 viscometer probe, detailing its dimensions, compatibility, and various installation advantages.",
+      "document_type": "datasheet",
+      "product_names": [
+        "Slimline SRV-X6",
+        "Viscometer SRV",
+        "Slimline Probe",
+        "SR-SLP"
+      ],
+      "extracted_text": "A: Insertion Length\nB: Custom Flange\nUnits: mm [inch]\nFigure 1: Slimline SRV-X6 dimensions\n\nSpecifications\nSensor compatibility: Viscometer SRV (https://rheonics.com/products/inline-viscometer-srv/)\nOrder code: SRV-X6-Axxx-Byyy\nInsertion length A - xxx: Customizable (min. 80mm)\nProcess Connection B - zzz: Customizable (min. OD 22mm)\nDrawings: SR-SLP Configuration Drawing (https://rheonics.com/wp-content/uploads/2023/10/Rheonics_SR-SLP_Slimline-Probe.pdf)\n\nWith the Slimline Probe there are many installation advantages. Some installation scenarios of this sensor variant are:\n* Installation in small pipelines (e.g. 1\", 1.25\" ID pipes)\n* Installation with reduced connections: Ingold DN25, 1\" NPT, 3/4\" NPT.\n* Installation in reactors and bioreactors\n* Installation in pipe sizes bigger than 1.5\" with less effect on the cross section reduction inside the pipe (compared to -X5 sensors as in next figure).",
+      "specifications": {
+        "Insertion Length A (Min)": "80 mm",
+        "Process Connection B (Min OD)": "22 mm",
+        "Sensor Compatibility": "Viscometer SRV",
+        "Order Code": "SRV-X6-Axxx-Byyy",
+        "Diagram Segment Length": "46 mm [1.81 inch]",
+        "Diagram Diameter 1": "19 mm [0.75 inch]",
+        "Diagram Diameter 2": "14 mm [0.55 inch]",
+        "Diagram Diameter 3": "5 mm [0.20 inch]",
+        "Diagram Diameter 4": "8 mm [0.31 inch]",
+        "Installation Scenario - Small Pipelines Example ID": "1\", 1.25\" pipes",
+        "Installation Scenario - Reduced Connections": "Ingold DN25, 1\" NPT, 3/4\" NPT",
+        "Installation Scenario - Pipe Sizes": ">1.5\""
+      },
+      "key_facts": [
+        "The Slimline SRV-X6 viscometer probe has customizable insertion length A with a minimum of 80mm.",
+        "The process connection B is customizable with a minimum outer diameter of 22mm.",
+        "The probe is compatible with the Rheonics Viscometer SRV.",
+        "It is designed for installation in small pipelines, such as 1\" and 1.25\" ID pipes.",
+        "The Slimline Probe supports reduced connections, including Ingold DN25, 1\" NPT, and 3/4\" NPT.",
+        "It is suitable for installation in reactors and bioreactors.",
+        "The probe can be used in pipe sizes bigger than 1.5\" with minimal cross-section reduction compared to -X5 sensors."
+      ],
+      "diagram_labels": [
+        "A: Insertion Length",
+        "B: Custom Flange",
+        "rheonics",
+        "Units: mm [inch]",
+        "Figure 1: Slimline SRV-X6 dimensions"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 879,
+        "cost_usd": 0.0023372999999999996
+      },
+      "source_file": "195_SRV-X6_SLP_Slimline_Viscometer.pdf"
+    },
+    {
+      "page_summary": "This page details Rheonics SRV Slimline Probes, including a comparison of SRV-X5 and SRV-X6 models, installation guidelines for the SRV-X6 sensing element, and configuration examples with ordering information for a 3/4\" NPT threaded version.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRV-X5",
+        "SRV-X6 Slimline Probe",
+        "SRV-SLP sensor",
+        "SRV-X1-34N",
+        "SRV Slimline Viscometer"
+      ],
+      "extracted_text": "Figure 3: SRV Slimline Probe comparison with SRV-X5 mm [in.]\nSRV-X5\nSRV-X6 Slimline Probe\n2. Installation principles\nThe Rheonics SRV-X6 Slimline requires the next installation criteria to be followed to ensure accurate, repeatable and reproducible viscosity readings.\nEnsure sensing element in red is in contact with fluid\nAvoid dead or stagnation zones in the sensing (red) area\nSRV-SLP tip needs a clearance of 5 mm [0.2\"] to any obstruction\nFigure 3: SRV-X6 Slimline Sensing element\n3. Configuration examples\nSome examples of possible configurations for the SRV-SLP sensor are shown below:\n3/4” NPT Thread: This connection is offered by Rheonics with the short SRV (SRV-X1-34N) too. Using an SRV-SLP probe would allow for a longer customizable insertion as in next figure. Process connection code is -B34N.\nFigure 4: Slimline SRV-X6 3/4” NPT mm [in.]\nSRV SLP A: 83mm B: 3/4” NPT\nPart\nSRV Slimline Viscometer\nOrder Code\nSRV-X6-A83-B34N",
+      "specifications": {
+        "SRV-X5_diameter": "30 mm [1.18 in]",
+        "SRV-X6_Slimline_Probe_diameter": "19 mm [0.75 in]",
+        "SRV-X6_sensing_element_length": "50 mm [1.96 in]",
+        "SRV-X6_sensing_element_diameter": "16 mm [0.63 in]",
+        "SRV-SLP_tip_minimum_clearance": "5 mm [0.2 in]",
+        "SRV-X6_3/4_NPT_insertion_length_A": "83 mm [3.27 in]"
+      },
+      "key_facts": [
+        "The Rheonics SRV-X6 Slimline requires specific installation criteria to ensure accurate, repeatable, and reproducible viscosity readings.",
+        "The 3/4” NPT Thread connection for the SRV-SLP sensor is offered by Rheonics, also available with the short SRV (SRV-X1-34N).",
+        "Using an SRV-SLP probe allows for a longer customizable insertion.",
+        "The process connection code for the 3/4” NPT Thread is -B34N.",
+        "The order code for an SRV Slimline Viscometer with A: 83mm and B: 3/4” NPT configuration is SRV-X6-A83-B34N."
+      ],
+      "diagram_labels": [
+        "SRV-X5",
+        "SRV-X6 Slimline Probe",
+        "30",
+        "Ø [1.18]",
+        "19",
+        "Ø [0.75]",
+        "rheonics",
+        "50 mm [1.96\"]",
+        "Ø16 mm [0.63\"]",
+        "83",
+        "A: [3.27]",
+        "B: 3/4” NPT Thread"
+      ],
+      "warnings_notes": [
+        "Ensure sensing element in red is in contact with fluid.",
+        "Avoid dead or stagnation zones in the sensing (red) area.",
+        "SRV-SLP tip needs a clearance of 5 mm [0.2\"] to any obstruction."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1000,
+        "cost_usd": 0.0026398
+      },
+      "source_file": "195_SRV-X6_SLP_Slimline_Viscometer.pdf"
+    },
+    {
+      "page_summary": "This page details different process connection options (Ingold DN25, DIN 11851 DN40, Tri-Clamp D34) for Rheonics Slimline SRV-X6 viscometers, including diagrams, dimensions, applications, and corresponding order codes.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRV Slimline Viscometer",
+        "Slimline SRV-X6",
+        "SRV-SLP"
+      ],
+      "extracted_text": "Ingold DN25: This is a connection designed by Mettler Toledo (https://www.mt.com/ph/en/home/products/Process-Analytics/ingold-process-analytics.html). It can be used in bioreactor applications. Process connection code is -BI25. Review more about this configuration here (https://support.rheonics.com/en/support/solutions/articles/81000412234-inline-process-viscometer-srv-with-ingold-connection-options-and-installation).\n\nFigure 5: Slimline SRV-X6 Ingold DN25 mm [in.]\n\nSRV SLP A: 124mm B: Ingold DN25\nPart | Order Code\nSRV Slimline Viscometer | SRV-X6-A124-BI25\n\nDIN 11851 Sanitary DN 40: Connection used for hygienic applications and easy disassembly. Common in food and beverage industries. Process connection code is: -BH40.\n\nFigure 6: Slimline SRV-X6 Hygienic DIN 11851 DN40 mm [in.]\n\nSRV SLP A: 123mm B: DIN 11851 DN40\nPart | Order Code\nSRV Slimline Viscometer | SRV-X6-A123-BH40\n\nTri-Clamp D34 (0.5\"): Tri Clamp is used in hygienic installations for food, pharmaceutical and other industries. The SRV-SLP can be ordered with Tri Clamp sizes from Ø34 mm (equivalent to ISO 1127 DN20) up. Process connection code for D34 (0.5\") is: -B05T.",
+      "specifications": {
+        "Ingold DN25 Process Connection Code": "-BI25",
+        "SRV SLP A (Ingold DN25) Length": "124 mm",
+        "SRV SLP A (Ingold DN25) Length [imperial]": "4.89 in",
+        "SRV Slimline Viscometer Order Code (Ingold DN25)": "SRV-X6-A124-BI25",
+        "DIN 11851 Sanitary DN 40 Process Connection Code": "-BH40",
+        "SRV SLP A (DIN 11851 DN40) Length": "123 mm",
+        "SRV SLP A (DIN 11851 DN40) Length [imperial]": "4.86 in",
+        "SRV Slimline Viscometer Order Code (DIN 11851 DN40)": "SRV-X6-A123-BH40",
+        "Tri-Clamp Size": "D34 (0.5\")",
+        "Tri-Clamp Minimum Size (Metric)": "Ø34 mm",
+        "Tri-Clamp Minimum Size (ISO Equivalent)": "ISO 1127 DN20",
+        "Tri-Clamp D34 (0.5\") Process Connection Code": "-B05T"
+      },
+      "key_facts": [
+        "The Ingold DN25 connection is designed by Mettler Toledo and can be used in bioreactor applications.",
+        "The DIN 11851 Sanitary DN 40 connection is suitable for hygienic applications and easy disassembly, commonly found in food and beverage industries.",
+        "The Tri-Clamp is used in hygienic installations for food, pharmaceutical, and other industries.",
+        "The SRV-SLP can be ordered with Tri Clamp sizes from Ø34 mm (equivalent to ISO 1127 DN20) and larger."
+      ],
+      "diagram_labels": [
+        "124",
+        "A: [ 4.89 ]",
+        "B: DN25 Ingold",
+        "rheonics",
+        "123",
+        "A: [ 4.86 ]",
+        "B: DIN 11851 DN40"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1090,
+        "cost_usd": 0.0028648
+      },
+      "source_file": "195_SRV-X6_SLP_Slimline_Viscometer.pdf"
+    },
+    {
+      "page_summary": "This page provides installation examples, dimensions, and product codes for Rheonics Slimline viscometers used in elbow pipes and small reactors.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRV Slimline Viscometer",
+        "SRV-X6",
+        "SRV-X6 TC D34",
+        "SRV-X6-A110-B05T",
+        "SRV-X6-A123-BH40",
+        "SRV-X6-A124-BH40",
+        "SR-SLP variants"
+      ],
+      "extracted_text": "SRV SLP A: 110mm B: Tri Clamp D34 (0.5\")\nPart | Order Code\nSRV Slimline Viscometer | SRV-X6-A110-B05T\n\n4. Installation examples\n\nInstallation in Elbow Pipe: An installation at an elbow with the fluid hitting the sensing element axially is the ideal and most recommended scenario for Rheonics sensors. The SR-SLP variants are well suited for this installation since their ø19mm diameter allows a minimum pressure drop in line.\n\nFigure 7: Slimline SRV-X6 TC D34 mm [in.]\n\nFigure 8: Slimline SRV-X6 double jacketed elbow installation mm [in.]\n\nSRV SLP A: 110mm B: Tri Clamp D34\nPart | Order Code\nSRV Slimline Viscometer | SRV-X6-A124-BH40\n\nInstallation in small reactor: Small reactors such as a glass reactor has limited space and requires the use of small process connections. The SRV-X6 can be used in these conditions to measure viscosity and temperature inline. Next example uses an Ingold DN25 connection for installation at top of a glass reactor lid.",
+      "specifications": {
+        "SRV-X6 TC D34 length": "110 mm [4.33 in]",
+        "SRV-X6 TC D34 connection type": "Tri-Clamp D34 - DN20",
+        "SR-SLP variants diameter": "19 mm",
+        "Slimline SRV-X6 double jacketed elbow installation outer diameter": "56 mm [2.20 in]",
+        "Slimline SRV-X6 double jacketed elbow installation length": "123 mm [4.86 in]",
+        "Slimline SRV-X6 double jacketed elbow installation inner pipe diameter": "38 mm [1.51 in]",
+        "Small reactor connection type": "Ingold DN25"
+      },
+      "key_facts": [
+        "An installation at an elbow with the fluid hitting the sensing element axially is the ideal and most recommended scenario for Rheonics sensors.",
+        "The SR-SLP variants are well suited for elbow installations due to their ø19mm diameter, which allows a minimum pressure drop in line.",
+        "Small reactors, such as glass reactors, have limited space and require the use of small process connections.",
+        "The SRV-X6 can be used in small reactor conditions to measure viscosity and temperature inline.",
+        "An Ingold DN25 connection can be used for installation at the top of a glass reactor lid in small reactors."
+      ],
+      "diagram_labels": [
+        "Rheonics",
+        "110",
+        "A: [4.33]",
+        "B: Tri-Clamp D34 - DN20",
+        "SRV-X6-A123-BH40",
+        "Recommended flow direction",
+        "56",
+        "[2.20]",
+        "123",
+        "A: [4.86]",
+        "38",
+        "[1.51]"
+      ],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 909,
+        "cost_usd": 0.0024122999999999996
+      },
+      "source_file": "195_SRV-X6_SLP_Slimline_Viscometer.pdf"
+    },
+    {
+      "page_summary": "This page illustrates the installation of a Rheonics Slimline SRV-X6 viscometer in a glass bioreactor and provides a detailed guide on how to order Rheonics long insertion viscometers and density meters.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRV-X6",
+        "Rheonics Slimline Probe",
+        "SRV Inline Viscometer",
+        "SRD Inline Density and Viscosity meter"
+      ],
+      "extracted_text": "Figure 9: Slimline SRV-X6 glass bioreactor installation example\n\n5. How to order the Rheonics Slimline Probe?\n\nRheonics SRV-X6 Slimline Probe follows next code form.\n\nHow to Order Rheonics long insertion viscometer and density meter\nCode Form: SR_ - X6 - A_ - B_\nExample: SRV - X6 - A124 - B34N\n\n1 Rheonics SR-Type sensor\nSRV: Inline Viscometer\nSRD: Inline Density and Viscosity meter\n\n2 Process Connection Configuration\nX6: Slimline Probe Variant - SLP. Probe variant with Ø19 mm body.\n\n3 Insertion Depth - \"A\"\nDefined by client. Distance from sensor conencton to sensor tip. Probe wetted zone.\n\n4 Process Connection \"B\"\nDefined by client. Common connections are: 3/4\" NPT, 1\" NPT, Tri Clamp DN34, 1.5\", G 1\". Ask Rheonics Sales Team for availability of connections. Some codes defined by Rheonics:\nB34N: 3/4\" NPT\nB11N: 1\" NPT\nB15T: 1.5\" Tri Clamp\n\nThe appropriate RFQ page for SRV viscometer (https://rheonics.com/request-for-quotation/srv/) should be used to configure other options of the sensor, like viscosity range, calibration accuracy, pressure rating, etc.",
+      "specifications": {
+        "probe_body_diameter": "19 mm",
+        "process_connection_code_b34n": "3/4\" NPT",
+        "process_connection_code_b11n": "1\" NPT",
+        "process_connection_code_b15t": "1.5\" Tri Clamp"
+      },
+      "key_facts": [
+        "The Rheonics Slimline SRV-X6 is suitable for installation in a glass bioreactor.",
+        "The Rheonics Slimline Probe ordering follows a specific code form: SR_ - X6 - A_ - B_.",
+        "SRV in the code form designates an Inline Viscometer.",
+        "SRD in the code form designates an Inline Density and Viscosity meter.",
+        "The X6 Slimline Probe Variant (SLP) has a body diameter of 19 mm.",
+        "Insertion Depth \"A\" is a client-defined parameter, measured from the sensor connection to the sensor tip, encompassing the probe's wetted zone.",
+        "Process Connection \"B\" is also client-defined, with common types including 3/4\" NPT, 1\" NPT, Tri Clamp DN34, 1.5\", and G 1\".",
+        "Rheonics has defined specific codes for certain process connections, such as B34N for 3/4\" NPT, B11N for 1\" NPT, and B15T for 1.5\" Tri Clamp.",
+        "Additional sensor options, including viscosity range, calibration accuracy, and pressure rating, can be configured via the RFQ page for SRV viscometers."
+      ],
+      "diagram_labels": [
+        "Rheonics",
+        "SRV-X6-A174-BI25",
+        "Ingold Nut",
+        "Ingold welded adapter DN25",
+        "Glass Reactor"
+      ],
+      "warnings_notes": [
+        "Ask Rheonics Sales Team for availability of connections.",
+        "The appropriate RFQ page for SRV viscometer (https://rheonics.com/request-for-quotation/srv/) should be used to configure other options of the sensor, like viscosity range, calibration accuracy, pressure rating, etc."
+      ],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 992,
+        "cost_usd": 0.0026198
+      },
+      "source_file": "195_SRV-X6_SLP_Slimline_Viscometer.pdf"
+    },
+    {
+      "page_summary": "This page provides a single external reference for 'Ingold Process Analytics'.",
+      "document_type": "notes",
+      "product_names": [
+        "Ingold Process Analytics"
+      ],
+      "extracted_text": "References\n[1]: Ingold Process Analytics (https://www.mt.com/ph/en/home/products/Process-Analytics/ingold-process-analytics.html)",
+      "specifications": {},
+      "key_facts": [
+        "The document contains one reference.",
+        "The reference is to Ingold Process Analytics.",
+        "The reference URL is https://www.mt.com/ph/en/home/products/Process-Analytics/ingold-process-analytics.html."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 193,
+        "cost_usd": 0.0006223
+      },
+      "source_file": "195_SRV-X6_SLP_Slimline_Viscometer.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

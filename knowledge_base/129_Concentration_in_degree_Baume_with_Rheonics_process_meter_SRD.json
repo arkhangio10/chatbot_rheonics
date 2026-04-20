@@ -1,0 +1,303 @@
+{
+  "source_file": "129_Concentration_in_degree_Baume_with_Rheonics_process_meter_SRD.pdf",
+  "total_pages": 5,
+  "chunks": [
+    {
+      "page_summary": "This page details the calculation of concentration in degree Baume using Rheonics process meters SRD and SME, outlining the mathematical formulas, applications, and required inputs for accurate measurements.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics process meter SRD",
+        "SRD",
+        "SME"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nConcentration in degree Baume with Rheonics process meter SRD\n\nModified on: Sun, 15 Feb, 2026 at 12:47 AM\n\nModel Name Baume: Valid for SRD\n\n1. What is does?\n\nConverts line density and temperature into 'Baume' unit, a method of measurement of a chemical's specific gravity using hydrometers.\n\n2. Application\n\nSugar beet processing, ophthalmics, starch industry, winemaking, industrial water treatment, and printed circuit board (PCB) fabrication.\n\n3. Maths\n\nBelow is found the mathematical formula for Baume's degree calculation.\n°Bé = 140/SG60 - 130; if SG60 < 1\n°Bé = -145/SG60 + 145; otherwise\nwhere SG60 = SG(60F/60F)\n\nTo obtain the correct measurements for the Baume degree, the SRD and SME work together as a powerful tool for measuring density, which is an extremely significant variable. The user would need to input:\n\n3.1. Dataset of densities and temperatures.\n3.2. Input Water density at T2 (60°F – Baume). Needed for Specific Gravity @60°F calculation. Compensated density is calculated with the values measured with SME\n\nSG = Density of Process Fluid at Reference Temperature T1 / Density of Water at Reference Temperature T2",
+      "specifications": {
+        "Reference Temperature": "60°F"
+      },
+      "key_facts": [
+        "The Rheonics process meter SRD is used for calculating concentration in degree Baume.",
+        "The system converts line density and temperature into 'Baume' units, which is a method for measuring a chemical's specific gravity.",
+        "Applications for Baume degree calculation include sugar beet processing, ophthalmics, starch industry, winemaking, industrial water treatment, and printed circuit board (PCB) fabrication.",
+        "The Baume degree calculation relies on Specific Gravity at 60°F (SG60).",
+        "The SRD and SME devices work together to measure density for Baume degree calculations.",
+        "Users need to input datasets of densities and temperatures, and water density at 60°F for specific gravity calculations."
+      ],
+      "diagram_labels": [
+        "°Bé",
+        "SG60",
+        "SG(60F/60F)",
+        "SG",
+        "Density of Process Fluid at Reference Temperature T1",
+        "Density of Water at Reference Temperature T2"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 721,
+        "cost_usd": 0.0019422999999999999
+      },
+      "source_file": "129_Concentration_in_degree_Baume_with_Rheonics_process_meter_SRD.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions on how to load and configure mathematical models for viscosity, density, and concentration within the Rheonics Control Panel software, specifically focusing on the Baume degree model.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel",
+        "SME",
+        "SME-SRD"
+      ],
+      "extracted_text": "3.3. Convert measure line density and line temperatures. Values are taken from SME-SRD.\n3.4. Convert the line density of process fluid to temperature compensated for density value at T1 (60°F –Baume)\n– By using a dataset table from a known product.\n\n4. How to load models into the SME?\n\nThe calculation tab allows configuring the SME to run mathematical models for Viscosity, Density, and Concentration.\n\n[Rheonics Control Panel 5.4.0.0 UI Screenshot]\n\nFigure 1. Calculation tab for Brix degree model\n\nThe following steps are to load the models into SME:\n1. In the Dropdown list “Select Measurement to Apply Model” select. That will modify the “Select Model from List” dropdown menu values. Select Measurement application (Concentration)\n2. In “Select Model from list” select the model you would like to use for the specific parameter. When you select the model, you will get more information about the specific equation used and the coefficients you will need to apply to that model. Select “Baume”\n3. “Load Dataset” button, this operation is crucial to get the correct measurement for Baume degree so that density and temperature to be measured from the process must be within this table. Dataset table must cover at least the following instances:\n   a. Five reference temperatures (at least)\n   b. The density for each of four product types at the five reference temperatures from Process (60 reference points in all, at least)\n   c. The base temperature (60°F), must be one of the five reference temperatures.\n   d. Guarantee inline density value is between the density values from the table otherwise output from SME will be NaN.\n\n5. Matrix Referral",
+      "specifications": {
+        "Water Density at 60°F": "999.07 Kg/m3",
+        "Modbus RTU/TCP register for applied model measurement": "208",
+        "Base Temperature": "60°F",
+        "Minimum reference temperatures for dataset": "5",
+        "Minimum reference points for dataset": "60"
+      },
+      "key_facts": [
+        "Line density and temperature values are sourced from SME-SRD.",
+        "The calculation tab allows for configuring mathematical models for Viscosity, Density, and Concentration in the SME.",
+        "The 'Load Dataset' operation is crucial for obtaining correct Baume degree measurements.",
+        "The dataset table must encompass at least five reference temperatures.",
+        "The dataset table must include density data for at least four product types across the five reference temperatures, totaling at least 60 reference points.",
+        "The base temperature of 60°F must be one of the five reference temperatures included in the dataset.",
+        "The inline density value must fall within the range of density values provided in the dataset table."
+      ],
+      "diagram_labels": [
+        "Rheonics Control Panel 5.4.0.0",
+        "Measurement",
+        "Events",
+        "Settings",
+        "Service",
+        "Diagnostics",
+        "Communication",
+        "Scaling",
+        "Calculation",
+        "Logger",
+        "Help",
+        "Advanced Calculations",
+        "Thermal Compensation of Density, Viscosity",
+        "Select Measurement to Apply Model",
+        "Concentration",
+        "Calculated Value",
+        "65504",
+        "Status",
+        "Select Model from List",
+        "Baume",
+        "Matrix Referral",
+        "Baume Model",
+        "Load DataSet",
+        "Water Density at 60°F [Kg/m3]",
+        "999.07",
+        "Units",
+        "°Bé",
+        "UPLOAD MODEL",
+        "LCD Display (for TRD Only)",
+        "Select Line to Display",
+        "None",
+        "Load Configuration",
+        "Change SMET Output",
+        "Output on 4-20 mA channel",
+        "Select channel number",
+        "208",
+        "Calculation History",
+        "°Bé = 140/SG60 – 130; if SG60 < 1 -145/SG60 + 145; otherwise where SG60 = SG(60F/60F)"
+      ],
+      "warnings_notes": [
+        "Guarantee inline density value is between the density values from the table otherwise output from SME will be NaN."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1106,
+        "cost_usd": 0.0029048
+      },
+      "source_file": "129_Concentration_in_degree_Baume_with_Rheonics_process_meter_SRD.pdf"
+    },
+    {
+      "page_summary": "This page details the process of inputting temperature and density data for products like Ferric Chloride, calculating and loading Tk coefficients, and uploading a mathematical model within the Rheonics system.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel Software",
+        "SME"
+      ],
+      "extracted_text": "Matrix Referral\nDensity [Kg/m3]\nT [°C]\nP1\nP2\nP3\nP4\nP4\nP5\nP6\nP7\nP8\nP9\nP10\nP11\nP12\nP13\nP14\n50\n997\n1024\n1060\n1078\n40\n1001\n1028\n1064\n1082\n30\n1005\n1031\n1066\n1084\n20\n1007\n1033\n1068\n1086\n15.556\n1008\n1034\n1069\n1088\nTemperature [°C]\nRef Temp [°C]\nTk coefficients\n15.556\n([-0.483541,0.004729],[-0.431921,0.004242],[-0.380300,0.003755],[-0.338464,0.002001])\nImport\nExport Table\nTk1, Tk2\nLoad Tks & Close\nCancel\nFigure 2. Sample Dataset for Ferric Chloride (input values is Celcious instead Farenheit).\n5.1. Dataset for Ferric Chloride, first column is for temperature. The rest of the columns should be each for a product \"P\", and the densities of that product at the different temperatures.\n5.2. Import: Select dataset from an .csv sheet\narchive\nclear grape juice.csv\nCrudeoil_1.csv\ndatatable_20pts.csv\nFerric Chlorine.csv\nFigure 4. Selecting dataset\n5.3. Export: Export current table to .csv\n5.4. \"Tk1, Tk2\" button to create the coefficients that will be used on the model.\n5.5. Calculated Tk coefficients by internal model.\n5.6. \"Load Tks & Close\" button to load these coefficients into the model\n6. Uploading the Mathematical Model\nClick \"Upload Model\" to load the model settings into SME. The button should turn GREEN for a couple of seconds if the action was successful or turn RED if the operation was Rheonics Control Panel Software unsuccessful. This action will refresh the values for the Uncompensated and Compensated indicators. Here you can verify if the model is calculating the expected values. If not, you can correct and repeat the process.",
+      "specifications": {
+        "Density [Kg/m3] (P1)": "997, 1001, 1005, 1007, 1008",
+        "Density [Kg/m3] (P2)": "1024, 1028, 1031, 1033, 1034",
+        "Density [Kg/m3] (P3)": "1060, 1064, 1066, 1068, 1069",
+        "Density [Kg/m3] (P4)": "1078, 1082, 1084, 1086, 1088",
+        "Temperature [°C]": "50, 40, 30, 20, 15.556",
+        "Ref Temp [°C]": "15.556",
+        "Tk coefficients": "([-0.483541,0.004729],[-0.431921,0.004242],[-0.380300,0.003755],[-0.338464,0.002001])"
+      },
+      "key_facts": [
+        "The first column of the dataset is for temperature, and subsequent columns represent the densities of different products at varying temperatures.",
+        "The sample dataset displayed is for Ferric Chloride, with input temperature values in Celsius.",
+        "Datasets are imported from .csv files.",
+        "The \"Tk1, Tk2\" button is used to generate coefficients for the mathematical model.",
+        "Tk coefficients are calculated by an internal model.",
+        "The \"Load Tks & Close\" button loads the calculated Tk coefficients into the model.",
+        "Clicking \"Upload Model\" loads the model settings into SME.",
+        "A successful model upload is indicated by the \"Upload Model\" button turning GREEN temporarily.",
+        "An unsuccessful model upload is indicated by the \"Upload Model\" button turning RED.",
+        "Uploading the model refreshes the values for Uncompensated and Compensated indicators, allowing verification of expected values."
+      ],
+      "diagram_labels": [
+        "Matrix Referral",
+        "Density [Kg/m3]",
+        "T [°C]",
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7",
+        "P8",
+        "P9",
+        "P10",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "Temperature [°C]",
+        "Ref Temp [°C]",
+        "Tk coefficients",
+        "Import",
+        "Export Table",
+        "Tk1, Tk2",
+        "Load Tks & Close",
+        "Cancel",
+        "Figure 2. Sample Dataset for Ferric Chloride (input values is Celcious instead Farenheit).",
+        "archive",
+        "clear grape juice.csv",
+        "Crudeoil_1.csv",
+        "datatable_20pts.csv",
+        "Ferric Chlorine.csv",
+        "Figure 4. Selecting dataset"
+      ],
+      "warnings_notes": [
+        "If the \"Upload Model\" operation is unsuccessful (button turns RED), the user should correct the issue and repeat the process."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1545,
+        "cost_usd": 0.0040022999999999994
+      },
+      "source_file": "129_Concentration_in_degree_Baume_with_Rheonics_process_meter_SRD.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions and screenshots for configuring Baume model calculations, LCD display outputs, and analog/Modbus channel assignments within the Rheonics Control Panel software.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel 5.4.0.0",
+        "SME"
+      ],
+      "extracted_text": "Rheonics Control Panel 5.4.0.0\nMeasurement Events Settings Service Diagnostics Communication Scaling Calculation Logger Help\nAdvanced Calculations | Thermal Compensation of Density, Viscosity\nSelect Measurement to Apply Model: Concentration\nCalculated Value: 6.1414\nStatus: (green circle)\nSelect Model from List: Baume\nMatrix Referral: Baume Model\nLoad DataSet (button)\nWater Density at 60°F [Kg/m3]: 999.07\nUnits: °Bé\n°Bé = 140/SG60 – 130; if SG60 < 1\n–145/SG60 + 145; otherwise\nwhere SG60 = SG(60F/60F)\nUPLOAD MODEL (button)\nChange SMET Output\nLCD Display (for TRD Only) Select Line to Display: None (selected)\nOutput on 4-20 mA channel Select channel number: None (selected)\nLoad Configuration (button)\nAccess measurement with applied model over Modbus RTU/TCP register: 208\nCalculation History (button)\n\nFigure 4. Baume model loaded into the SME.\n\n6.1. Click “Load Configuration” to update the display and channel configurations in SME.\n\n* LCD Display\nSelect the line to display the parameter:\n  LCD Display (for TRD Only) Select Line to Display: (Dropdown options: None, Line 1, Line 2, Line 3)\n  Output on 4-20 mA channel Select channel number\n\nFigure 5. Selecting read line for LCD display\n\nChanges can be verified on the “Communication” Tab\n\n* Analog outputs\nSelect analog channel to send data, this can be verified in “Service” Tab\n  Output on 4-20 mA channel Select channel number: (Dropdown options: None, Ch1, Ch2, Ch3)\n  Modbus RTU/TCP register\n\nFigure 6. Selecting analog output channel\n\n* Modbus TCP/IP register\nMeasurement can always be accessed at the register address that is displayed.",
+      "specifications": {
+        "Calculated Value": "6.1414",
+        "Water Density at 60°F": "999.07 Kg/m3",
+        "Display Units": "°Bé",
+        "Baume Formula (SG60 < 1)": "140/SG60 – 130",
+        "Baume Formula (otherwise)": "–145/SG60 + 145",
+        "SG60 Definition": "SG(60F/60F)",
+        "Modbus RTU/TCP register address": "208",
+        "Analog Output Type": "4-20 mA"
+      },
+      "key_facts": [
+        "The Rheonics Control Panel software version is 5.4.0.0.",
+        "The page details configurations for Advanced Calculations, specifically Thermal Compensation of Density and Viscosity.",
+        "The Baume model is selected for concentration measurement.",
+        "A calculated value of 6.1414 is shown, likely in °Bé.",
+        "The default water density at 60°F is 999.07 Kg/m3.",
+        "The 'Load Configuration' button updates display and channel configurations within the SME.",
+        "LCD Display configuration options (None, Line 1, Line 2, Line 3) are specific to TRD (Transmitter with Remote Display) Only.",
+        "Analog output channels (None, Ch1, Ch2, Ch3) can be selected for 4-20 mA data transmission.",
+        "Changes to display settings can be verified on the 'Communication' Tab.",
+        "Analog output channel selections can be verified on the 'Service' Tab.",
+        "Measurement data from the applied model is accessible via Modbus RTU/TCP at register address 208."
+      ],
+      "diagram_labels": [
+        "Measurement",
+        "Events",
+        "Settings",
+        "Service",
+        "Diagnostics",
+        "Communication",
+        "Scaling",
+        "Calculation",
+        "Logger",
+        "Help",
+        "Advanced Calculations",
+        "Thermal Compensation of Density, Viscosity",
+        "Select Measurement to Apply Model",
+        "Concentration",
+        "Calculated Value",
+        "Status",
+        "Select Model from List",
+        "Baume",
+        "Matrix Referral",
+        "Baume Model",
+        "Load DataSet",
+        "Water Density at 60°F [Kg/m3]",
+        "Units",
+        "°Bé",
+        "UPLOAD MODEL",
+        "Change SMET Output",
+        "LCD Display (for TRD Only)",
+        "Select Line to Display",
+        "None",
+        "Line 1",
+        "Line 2",
+        "Line 3",
+        "Output on 4-20 mA channel",
+        "Select channel number",
+        "Ch1",
+        "Ch2",
+        "Ch3",
+        "Load Configuration",
+        "Access measurement with applied model over Modbus RTU/TCP register",
+        "Calculation History",
+        "Modbus RTU/TCP register"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1262,
+        "cost_usd": 0.0032948
+      },
+      "source_file": "129_Concentration_in_degree_Baume_with_Rheonics_process_meter_SRD.pdf"
+    },
+    {
+      "page_summary": "This page describes how to access measurement data via Modbus RTU/TCP register 208 and explains the functionality of the 'Calculation History' button for retrieving stored models and coefficients.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Access measurement with applied model over Modbus RTU/TCP register 208\n\n*   “Calculation History” button allows you to open a file where the last uploaded models and coefficients for these models are stored. This is for user reference.",
+      "specifications": {},
+      "key_facts": [
+        "Measurement data with an applied model can be accessed via Modbus RTU/TCP register 208.",
+        "The 'Calculation History' button provides access to a file containing previously uploaded models and their coefficients.",
+        "The 'Calculation History' feature is intended for user reference."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 229,
+        "cost_usd": 0.0007122999999999999
+      },
+      "source_file": "129_Concentration_in_degree_Baume_with_Rheonics_process_meter_SRD.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

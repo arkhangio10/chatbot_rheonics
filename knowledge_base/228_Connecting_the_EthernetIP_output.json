@@ -1,0 +1,85 @@
+{
+  "source_file": "228_Connecting_the_EthernetIP_output.pdf",
+  "total_pages": 2,
+  "chunks": [
+    {
+      "page_summary": "This page provides instructions and a wiring diagram for connecting Rheonics SME devices using their Ethernet/IP output.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SME devices",
+        "Rheonics sensor",
+        "SME-DRM 1",
+        "SME-DRM 2",
+        "SME-DRM 3"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nConnecting the Ethernet/IP output\nModified on: Sun, 15 Feb, 2026 at 12:41 AM\nGeneral\nThe Rheonics SME devices offer the Ethernet/IP service over the Ethernet interface.\nWiring\nThe SME can be connected through the Ethernet RJ45 connector as part of a network, with intermediary network devices (router, switches) or directly to an Ethernet host in a direct connection.\nConnect Rheonics sensor, PLC, and PC (with RCP software installed) with an Ethernet Cable.\nWe recommend using an Ethernet Switch.\nConnect SME to the PC running RCP to configure the SME.",
+      "specifications": {
+        "Voltage": "24 V dc",
+        "Output": "4-20 mA output",
+        "Communication Protocol": "Modbus A (RS485)"
+      },
+      "key_facts": [
+        "Rheonics SME devices provide Ethernet/IP service via an Ethernet interface.",
+        "The SME can be connected using an Ethernet RJ45 connector to a network via intermediary devices or directly to an Ethernet host.",
+        "Rheonics sensors, PLCs, and PCs (with RCP software) should be connected with an Ethernet Cable.",
+        "Using an Ethernet Switch is recommended for connections.",
+        "An SME device needs to be connected to a PC running RCP software for configuration."
+      ],
+      "diagram_labels": [
+        "PC with RCP software",
+        "Ethernet Switch",
+        "Control Logix",
+        "SME-DRM 1",
+        "SME-DRM 2",
+        "SME-DRM 3",
+        "24 V dc",
+        "gnd",
+        "Modbus A (RS485)",
+        "power",
+        "sensor",
+        "data",
+        "reset",
+        "ethernet",
+        "4-20 mA output",
+        "display",
+        "sensor connection",
+        "swiss made"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 582,
+        "cost_usd": 0.0015948000000000002
+      },
+      "source_file": "228_Connecting_the_EthernetIP_output.pdf"
+    },
+    {
+      "page_summary": "This page provides a reference link to a Rheonics support article on connecting an SME device via Ethernet.",
+      "document_type": "manual",
+      "product_names": [
+        "SME"
+      ],
+      "extracted_text": "References\nConnecting to your SME using ethernet\n(https://support.rheonics.com/support/solutions/articles/81000397449-connecting-to-your-smet-using-ethernet)",
+      "specifications": {},
+      "key_facts": [
+        "A support article is available detailing how to connect an SME device using Ethernet."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 165,
+        "cost_usd": 0.0005522999999999999
+      },
+      "source_file": "228_Connecting_the_EthernetIP_output.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

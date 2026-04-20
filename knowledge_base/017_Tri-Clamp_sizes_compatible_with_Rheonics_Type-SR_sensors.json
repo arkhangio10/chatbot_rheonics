@@ -1,0 +1,503 @@
+{
+  "source_file": "017_Tri-Clamp_sizes_compatible_with_Rheonics_Type-SR_sensors.pdf",
+  "total_pages": 4,
+  "chunks": [
+    {
+      "page_summary": "This page provides guidelines for selecting and ensuring compatibility of Tri-Clamp connections with Rheonics Type-SR sensors, detailing their components and installation.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics Type-SR sensors",
+        "SRV sensors",
+        "SRD sensors",
+        "Rheonics SR-sensor designs",
+        "SRV X3"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nTri-Clamp sizes compatible with Rheonics Type-SR sensors\n\nModified on: Tue, 16 Dec, 2025 at 7:18 PM\n\nWhat products are involved?\nSRV and SRD sensors with Tri-Clamp connections (https://rheonics.com/products/inline-viscometer-srv/)\n\nWhat is the purpose of this article?\nTo give guidelines on the selection and compatibility of Tri-Clamp connections across known standards, sizes and Rheonics SR-sensor designs (flush, short and long insertion).\n\n1. Introduction\nA Tri-Clamp (TC) fitting allows for an easy process installation in pipes and tanks. It is widely used in the food industry for hygienic purposes, and at any place where frequent cleaning and disassembly are required. Pressure and temperature ratings vary for a Tri-Clamp connection based on the type of clamp used.\nA Tri-Clamp connection is composed of 3 main parts: the ferrules, a gasket and a clamp. These parts can be supplied in the market under different standards and sizes. Each standard can use a code or dimension to identify the parts.\nIn the case of the Rheonics sensors, a TC connection is welded in the probe (Figure 1) and should be clamped with a ferrule welded inline.\nFind out how to select the correct gasket here (https://support.rheonics.com/en/support/solutions/articles/81000407485-how-to-select-the-correct-seal-ring-for-tri-clamp-adapters-).\n\nFigure 1: SRV X3 Tri-Clamp mounting parts",
+      "specifications": {},
+      "key_facts": [
+        "The article provides guidelines for selecting and ensuring compatibility of Tri-Clamp connections across various standards, sizes, and Rheonics SR-sensor designs (flush, short, and long insertion).",
+        "SRV and SRD sensors with Tri-Clamp connections are the products involved in this compatibility guide.",
+        "A Tri-Clamp (TC) fitting facilitates easy process installation in pipes and tanks.",
+        "Tri-Clamp fittings are extensively used in the food industry due to their hygienic properties and the need for frequent cleaning and disassembly.",
+        "Pressure and temperature ratings for Tri-Clamp connections depend on the specific type of clamp utilized.",
+        "A Tri-Clamp connection consists of three primary components: ferrules, a gasket, and a clamp.",
+        "These Tri-Clamp components are available in the market under different standards and sizes, each identifiable by a specific code or dimension.",
+        "For Rheonics sensors, the TC connection is welded directly into the probe and must be clamped with an inline-welded ferrule."
+      ],
+      "diagram_labels": [
+        "Figure 1: SRV X3 Tri-Clamp mounting parts"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 760,
+        "cost_usd": 0.0020398
+      },
+      "source_file": "017_Tri-Clamp_sizes_compatible_with_Rheonics_Type-SR_sensors.pdf"
+    },
+    {
+      "page_summary": "This page provides a compatibility guide for Rheonics sensors with various Tri-Clamp connections and international standards, detailing ferrule dimensions and minimum required diameters for different sensor designs.",
+      "document_type": "datasheet",
+      "product_names": [
+        "Rheonics sensors",
+        "Flush (SR-X4)",
+        "Slimline (SR-X6)",
+        "Short (SR-X3)",
+        "Long (SR-X5)",
+        "HS Long (SR-HS)",
+        "Short Hygienic Series (-HS)",
+        "Long Hygienic Series (-HS)"
+      ],
+      "extracted_text": "Rheonics sensors can be ordered with different Tri-Clamp connections. Rheonics also offers EHEDG certified sensors, find the certifications here (https://rheonics.com/resources/certificates/). The customer can specify the required standard and size for the connection on the probe in any design (flush, short and long insertion) but should be familiar with the next points for a good sensor configuration and installation:\n*   Sizes (in different standards) compatible with each Rheonics sensor design (flush, short and long insertion).\n*   Sizes compatible with EHEDG certification for Rheonics sensors.\n*   Compatibility between Clamp sizes in different standards.\n\n2. Compatibility table\nTo understand the points mentioned above, Rheonics provides the next table. When reviewing the table consider the following:\n*   First column stands for the ferrule bigger OD (TC diameter). Rows with the same TC dimension can be clamped together.\n*   Three norms are evaluated, these are ISO 1127, DIN 32676 (DIN 11850) and ASME-BPE.\n*   Rheonics sensor designs are Flush, Short and Long.\n*   The minimum diameter required for Flush is 14 mm, for Slimline 19mm, for Short (old versions: 26 mm, new versions: 14 mm), for Short Hygienic Series (-HS) 23 mm, for Long 30 mm, and for Long Hygienic Series (-HS) 42 mm.\n\nFigure 2: Ferrule dimensions\n\n| TC (mm) | ISO 1127 | DIN 32676 | ASME-BPE | ID (mm) | OD (mm) | Flush (SR-X4) | Slimline (SR-X6) | Short (SR-X3) | Long (SR-X5) | HS Long (SR-HS) |\n| :------ | :------- | :-------- | :------- | :------ | :------ | :-------------- | :--------------- | :------------ | :------------ | :-------------- |\n| 25      | DN 10    | -         | -        | 14      | 17.2    | X*              | -                | -             | -             | -               |\n| 25      | -        | DN 10     | -        | 10      | 12      | -               | -                | -             | -             | -               |\n| 25      | -        | -         | 3/4\"     | 15.75   | 19.05   | X*              | -                | -             | -             | -               |\n| 34      | DN 8     | -         | -        | 10.3    | 13.5    | -               | -                | -             | -             | -               |\n| 34      | -        | DN 8      | -        | 8.0     | 10.0    | -               | -                | -             | -             | -               |\n| 34      | DN 10    | -         | -        | 14.0    | 17.2    | X*              | -                | -             | -             | -               |\n| 34      | -        | DIN 10    | -        | 10.0    | 13.0    | -               | -                | -             | -             | -               |\n| 34      | DN 15    | -         | -        | 18.1    | 21.3    | X               | -                | -             | -             | -               |\n| 34      | -        | DIN 15    | -        | 16.0    | 19.0    | X               | -                | -             | -             | -               |\n| 34      | DN 20    | -         | -        | 23.7    | 26.9    | X               | X                | -             | -             | -               |\n| 34      | -        | DIN 20    | -        | 20.0    | 23.0    | X               | X                | -             | -             | -               |\n| 50.5    | DN 6     | -         | -        | 7.0     | 10.2    | -               | -                | -             | -             | -               |\n| 50.5    | -        | DIN 6     | -        | 6.0     | 8.0     | -               | -                | -             | -             | -               |\n| 50.5    | DN 8     | -         | -        | 10.3    | 13.5    | -               | -                | -             | -             | -               |",
+      "specifications": {
+        "TC_diameters": [
+          "25 mm",
+          "34 mm",
+          "50.5 mm"
+        ],
+        "ISO_1127_standards": [
+          "DN 10",
+          "DN 8",
+          "DN 15",
+          "DN 20",
+          "DN 6"
+        ],
+        "DIN_32676_standards": [
+          "DN 10",
+          "DIN 10",
+          "DIN 8",
+          "DIN 15",
+          "DIN 20",
+          "DIN 6"
+        ],
+        "ASME_BPE_standards": [
+          "3/4 inch"
+        ],
+        "ID_values": [
+          "14 mm",
+          "10 mm",
+          "15.75 mm",
+          "10.3 mm",
+          "8.0 mm",
+          "14.0 mm",
+          "18.1 mm",
+          "16.0 mm",
+          "23.7 mm",
+          "20.0 mm",
+          "7.0 mm",
+          "6.0 mm"
+        ],
+        "OD_values": [
+          "17.2 mm",
+          "12 mm",
+          "19.05 mm",
+          "13.5 mm",
+          "10.0 mm",
+          "13.0 mm",
+          "21.3 mm",
+          "19.0 mm",
+          "26.9 mm",
+          "23.0 mm",
+          "10.2 mm",
+          "8.0 mm"
+        ],
+        "minimum_diameter_Flush": "14 mm",
+        "minimum_diameter_Slimline": "19 mm",
+        "minimum_diameter_Short_old_versions": "26 mm",
+        "minimum_diameter_Short_new_versions": "14 mm",
+        "minimum_diameter_Short_Hygienic_Series_HS": "23 mm",
+        "minimum_diameter_Long": "30 mm",
+        "minimum_diameter_Long_Hygienic_Series_HS": "42 mm"
+      },
+      "key_facts": [
+        "Rheonics sensors can be ordered with different Tri-Clamp connections.",
+        "Rheonics offers EHEDG certified sensors.",
+        "The customer can specify the required standard and size for the connection on the probe in any design (flush, short and long insertion).",
+        "Three norms are evaluated for compatibility: ISO 1127, DIN 32676 (DIN 11850) and ASME-BPE.",
+        "Rheonics sensor designs include Flush, Short, and Long.",
+        "The first column of the compatibility table represents the ferrule's larger OD (TC diameter).",
+        "Rows with the same TC dimension can be clamped together.",
+        "Minimum diameter requirements vary for different sensor designs and versions."
+      ],
+      "diagram_labels": [
+        "TC",
+        "ID",
+        "OD",
+        "Figure 2: Ferrule dimensions"
+      ],
+      "warnings_notes": [
+        "Customers should be familiar with the provided points for good sensor configuration and installation.",
+        "A link is provided to find certifications: https://rheonics.com/resources/certificates/.",
+        "When reviewing the compatibility table, specific considerations regarding TC diameter and clamping, evaluated norms, and Rheonics sensor designs should be kept in mind."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 2105,
+        "cost_usd": 0.0054023
+      },
+      "source_file": "017_Tri-Clamp_sizes_compatible_with_Rheonics_Type-SR_sensors.pdf"
+    },
+    {
+      "page_summary": "This page provides a compatibility table and installation guidelines for Rheonics sensors with various Tri-Clamp sizes and standards, including notes on hygienic design and sensor probe clearance requirements.",
+      "document_type": "manual",
+      "product_names": [
+        "Flush (SR-X4)",
+        "Slimline (SR-X6)",
+        "Short (SR-X3)",
+        "Long (SR-X5)",
+        "HS Long (SR-HS)",
+        "SRV sensor probe",
+        "SRD sensor probe"
+      ],
+      "extracted_text": "TC (mm) ISO 1127 DIN 32676 ASME-BPE ID (mm) OD (mm) Flush (SR-X4) Slimline (SR-X6) Short (SR-X3) Long (SR-X5) HS Long (SR-HS)\n50.5 DN 10 - - 14.0 17.2 X* - - - -\n50.5 DN 15 - - 18.1 21.3 X - - - -\n50.5 DN 20 - - 23.7 26.9 X X X** - -\n50.5 - - 1\" 22.1 25.4 X X - - -\n50.5 DN 25 - - 29.7 33.7 X X X X -\n50.5 - DN 25 - 26.0 29.0 X X X** - -\n50.5 - - 1 1/2\" 34.8 38.1 X X X X -\n50.5 DN 32 - - 38.4 42.4 X X X X -\n50.5 - DN 32 - 32.0 35.0 X X X X -\n50.5 - DN 40 - 38 41 X X X X -\n64 DN 20 - - 23.7 26.9 X X - - -\n64 DN 32 - - 38.4 42.4 X X X X -\n64 DN 40 - - 44.3 48.3 X X X X -\n64 - DN 50 - 50 53 X X X X X\n64 - - 2\" 47.5 50.8 X X X X X\n77.5 DN 50 - - 56.3 60.3 X X X X X\n77.5 - - 2 1/2\" 60.2 63.5 X X X X X\n91 DN 65 - - 72.1 76.1 X X X X X\n91 - DN 65 - 66.0 70.0 X X X X X\n91 - - 3\" 72.9 76.2 X X X X X\n119 - DN 100 - 100 104 X X X X X\n119 - - 4\" 97.38 101.6 X X X X X\n\nHS: Hygienic, 3-A and EHEDG compatible. For EHEDG compliant installation, the rule D-d>L must be maintained. See EHEDG installation guidelines. (https://rheonics.com/wp-content/uploads/2023/07/EHEDG_Installation_Guideline_A.pdf)\n\nx* Seal gasket will be over the weld line, care should be taken to use sufficiently conformal gaskets to seal. For correct sensor operation, read note below.\nx** Newest version of -X3 probe variant required (former -HD-X3)\n\nNote:\n\n*   For the SRV sensor probe, the sensing element should have a clearance diameter of at least 16 mm.\n*   For the SRD sensor probe, the sensing element should have a clearance diameter of at least 35 mm.\n\nFind CAD files for various TC sizes here (https://rheonics.com/cad-type-sr-triclamp/).\n\nWhat about bigger Tri-Clamp sizes?\nWelding bigger Tri-Clamp sizes on the sensor body is possible but may only make sense for the Long insertion probes. For flush and short sensors a big TC would force to use a long standpipe or long matching ferrule neck, placing the sensing element in a dead zone. Consider installation principles for the SRV and SRD. (https://rheonics.com/wp-content/uploads/2023/07/EHEDG_Installation_Guideline_A.pdf)\n\nReferences\n\n[1]. TC Ferrules acc. ISO 1127 (https://www.aseptconn.ch/en/tri-clamp-connections/tri-clamp-ferrules/tc-ferrules-acc-iso-1127)",
+      "specifications": {
+        "compatibility_table": [
+          {
+            "TC (mm)": "50.5",
+            "ISO 1127": "DN 10",
+            "DIN 32676": "-",
+            "ASME-BPE": "-",
+            "ID (mm)": "14.0",
+            "OD (mm)": "17.2",
+            "Flush (SR-X4)": "X*",
+            "Slimline (SR-X6)": "-",
+            "Short (SR-X3)": "-",
+            "Long (SR-X5)": "-",
+            "HS Long (SR-HS)": "-"
+          },
+          {
+            "TC (mm)": "50.5",
+            "ISO 1127": "DN 15",
+            "DIN 32676": "-",
+            "ASME-BPE": "-",
+            "ID (mm)": "18.1",
+            "OD (mm)": "21.3",
+            "Flush (SR-X4)": "X",
+            "Slimline (SR-X6)": "-",
+            "Short (SR-X3)": "-",
+            "Long (SR-X5)": "-",
+            "HS Long (SR-HS)": "-"
+          },
+          {
+            "TC (mm)": "50.5",
+            "ISO 1127": "DN 20",
+            "DIN 32676": "-",
+            "ASME-BPE": "-",
+            "ID (mm)": "23.7",
+            "OD (mm)": "26.9",
+            "Flush (SR-X4)": "X",
+            "Slimline (SR-X6)": "X",
+            "Short (SR-X3)": "X**",
+            "Long (SR-X5)": "-",
+            "HS Long (SR-HS)": "-"
+          },
+          {
+            "TC (mm)": "50.5",
+            "ISO 1127": "-",
+            "DIN 32676": "-",
+            "ASME-BPE": "1\"",
+            "ID (mm)": "22.1",
+            "OD (mm)": "25.4",
+            "Flush (SR-X4)": "X",
+            "Slimline (SR-X6)": "X",
+            "Short (SR-X3)": "-",
+            "Long (SR-X5)": "-",
+            "HS Long (SR-HS)": "-"
+          },
+          {
+            "TC (mm)": "50.5",
+            "ISO 1127": "DN 25",
+            "DIN 32676": "-",
+            "ASME-BPE": "-",
+            "ID (mm)": "29.7",
+            "OD (mm)": "33.7",
+            "Flush (SR-X4)": "X",
+            "Slimline (SR-X6)": "X",
+            "Short (SR-X3)": "X",
+            "Long (SR-X5)": "X",
+            "HS Long (SR-HS)": "-"
+          },
+          {
+            "TC (mm)": "50.5",
+            "ISO 1127": "-",
+            "DIN 32676": "DN 25",
+            "ASME-BPE": "-",
+            "ID (mm)": "26.0",
+            "OD (mm)": "29.0",
+            "Flush (SR-X4)": "X",
+            "Slimline (SR-X6)": "X",
+            "Short (SR-X3)": "X**",
+            "Long (SR-X5)": "-",
+            "HS Long (SR-HS)": "-"
+          },
+          {
+            "TC (mm)": "50.5",
+            "ISO 1127": "-",
+            "DIN 32676": "-",
+            "ASME-BPE": "1 1/2\"",
+            "ID (mm)": "34.8",
+            "OD (mm)": "38.1",
+            "Flush (SR-X4)": "X",
+            "Slimline (SR-X6)": "X",
+            "Short (SR-X3)": "X",
+            "Long (SR-X5)": "X",
+            "HS Long (SR-HS)": "-"
+          },
+          {
+            "TC (mm)": "50.5",
+            "ISO 1127": "DN 32",
+            "DIN 32676": "-",
+            "ASME-BPE": "-",
+            "ID (mm)": "38.4",
+            "OD (mm)": "42.4",
+            "Flush (SR-X4)": "X",
+            "Slimline (SR-X6)": "X",
+            "Short (SR-X3)": "X",
+            "Long (SR-X5)": "X",
+            "HS Long (SR-HS)": "-"
+          },
+          {
+            "TC (mm)": "50.5",
+            "ISO 1127": "-",
+            "DIN 32676": "DN 32",
+            "ASME-BPE": "-",
+            "ID (mm)": "32.0",
+            "OD (mm)": "35.0",
+            "Flush (SR-X4)": "X",
+            "Slimline (SR-X6)": "X",
+            "Short (SR-X3)": "X",
+            "Long (SR-X5)": "X",
+            "HS Long (SR-HS)": "-"
+          },
+          {
+            "TC (mm)": "50.5",
+            "ISO 1127": "-",
+            "DIN 32676": "DN 40",
+            "ASME-BPE": "-",
+            "ID (mm)": "38",
+            "OD (mm)": "41",
+            "Flush (SR-X4)": "X",
+            "Slimline (SR-X6)": "X",
+            "Short (SR-X3)": "X",
+            "Long (SR-X5)": "X",
+            "HS Long (SR-HS)": "-"
+          },
+          {
+            "TC (mm)": "64",
+            "ISO 1127": "DN 20",
+            "DIN 32676": "-",
+            "ASME-BPE": "-",
+            "ID (mm)": "23.7",
+            "OD (mm)": "26.9",
+            "Flush (SR-X4)": "X",
+            "Slimline (SR-X6)": "X",
+            "Short (SR-X3)": "-",
+            "Long (SR-X5)": "-",
+            "HS Long (SR-HS)": "-"
+          },
+          {
+            "TC (mm)": "64",
+            "ISO 1127": "DN 32",
+            "DIN 32676": "-",
+            "ASME-BPE": "-",
+            "ID (mm)": "38.4",
+            "OD (mm)": "42.4",
+            "Flush (SR-X4)": "X",
+            "Slimline (SR-X6)": "X",
+            "Short (SR-X3)": "X",
+            "Long (SR-X5)": "X",
+            "HS Long (SR-HS)": "-"
+          },
+          {
+            "TC (mm)": "64",
+            "ISO 1127": "DN 40",
+            "DIN 32676": "-",
+            "ASME-BPE": "-",
+            "ID (mm)": "44.3",
+            "OD (mm)": "48.3",
+            "Flush (SR-X4)": "X",
+            "Slimline (SR-X6)": "X",
+            "Short (SR-X3)": "X",
+            "Long (SR-X5)": "X",
+            "HS Long (SR-HS)": "-"
+          },
+          {
+            "TC (mm)": "64",
+            "ISO 1127": "-",
+            "DIN 32676": "DN 50",
+            "ASME-BPE": "-",
+            "ID (mm)": "50",
+            "OD (mm)": "53",
+            "Flush (SR-X4)": "X",
+            "Slimline (SR-X6)": "X",
+            "Short (SR-X3)": "X",
+            "Long (SR-X5)": "X",
+            "HS Long (SR-HS)": "X"
+          },
+          {
+            "TC (mm)": "64",
+            "ISO 1127": "-",
+            "DIN 32676": "-",
+            "ASME-BPE": "2\"",
+            "ID (mm)": "47.5",
+            "OD (mm)": "50.8",
+            "Flush (SR-X4)": "X",
+            "Slimline (SR-X6)": "X",
+            "Short (SR-X3)": "X",
+            "Long (SR-X5)": "X",
+            "HS Long (SR-HS)": "X"
+          },
+          {
+            "TC (mm)": "77.5",
+            "ISO 1127": "DN 50",
+            "DIN 32676": "-",
+            "ASME-BPE": "-",
+            "ID (mm)": "56.3",
+            "OD (mm)": "60.3",
+            "Flush (SR-X4)": "X",
+            "Slimline (SR-X6)": "X",
+            "Short (SR-X3)": "X",
+            "Long (SR-X5)": "X",
+            "HS Long (SR-HS)": "X"
+          },
+          {
+            "TC (mm)": "77.5",
+            "ISO 1127": "-",
+            "DIN 32676": "-",
+            "ASME-BPE": "2 1/2\"",
+            "ID (mm)": "60.2",
+            "OD (mm)": "63.5",
+            "Flush (SR-X4)": "X",
+            "Slimline (SR-X6)": "X",
+            "Short (SR-X3)": "X",
+            "Long (SR-X5)": "X",
+            "HS Long (SR-HS)": "X"
+          },
+          {
+            "TC (mm)": "91",
+            "ISO 1127": "DN 65",
+            "DIN 32676": "-",
+            "ASME-BPE": "-",
+            "ID (mm)": "72.1",
+            "OD (mm)": "76.1",
+            "Flush (SR-X4)": "X",
+            "Slimline (SR-X6)": "X",
+            "Short (SR-X3)": "X",
+            "Long (SR-X5)": "X",
+            "HS Long (SR-HS)": "X"
+          },
+          {
+            "TC (mm)": "91",
+            "ISO 1127": "-",
+            "DIN 32676": "DN 65",
+            "ASME-BPE": "-",
+            "ID (mm)": "66.0",
+            "OD (mm)": "70.0",
+            "Flush (SR-X4)": "X",
+            "Slimline (SR-X6)": "X",
+            "Short (SR-X3)": "X",
+            "Long (SR-X5)": "X",
+            "HS Long (SR-HS)": "X"
+          },
+          {
+            "TC (mm)": "91",
+            "ISO 1127": "-",
+            "DIN 32676": "-",
+            "ASME-BPE": "3\"",
+            "ID (mm)": "72.9",
+            "OD (mm)": "76.2",
+            "Flush (SR-X4)": "X",
+            "Slimline (SR-X6)": "X",
+            "Short (SR-X3)": "X",
+            "Long (SR-X5)": "X",
+            "HS Long (SR-HS)": "X"
+          },
+          {
+            "TC (mm)": "119",
+            "ISO 1127": "-",
+            "DIN 32676": "DN 100",
+            "ASME-BPE": "-",
+            "ID (mm)": "100",
+            "OD (mm)": "104",
+            "Flush (SR-X4)": "X",
+            "Slimline (SR-X6)": "X",
+            "Short (SR-X3)": "X",
+            "Long (SR-X5)": "X",
+            "HS Long (SR-HS)": "X"
+          },
+          {
+            "TC (mm)": "119",
+            "ISO 1127": "-",
+            "DIN 32676": "-",
+            "ASME-BPE": "4\"",
+            "ID (mm)": "97.38",
+            "OD (mm)": "101.6",
+            "Flush (SR-X4)": "X",
+            "Slimline (SR-X6)": "X",
+            "Short (SR-X3)": "X",
+            "Long (SR-X5)": "X",
+            "HS Long (SR-HS)": "X"
+          }
+        ],
+        "SRV_sensor_probe_clearance_diameter": "at least 16 mm",
+        "SRD_sensor_probe_clearance_diameter": "at least 35 mm"
+      },
+      "key_facts": [
+        "The page provides a compatibility table for Rheonics sensors with various Tri-Clamp (TC) sizes, and ISO 1127, DIN 32676, and ASME-BPE standards.",
+        "Sensor types covered include Flush (SR-X4), Slimline (SR-X6), Short (SR-X3), Long (SR-X5), and HS Long (SR-HS).",
+        "HS (Hygienic, 3-A, and EHEDG compatible) sensors are available for certain TC sizes.",
+        "For EHEDG compliant installations, the rule D-d>L must be maintained, and specific EHEDG installation guidelines are referenced.",
+        "The SRV sensor probe requires a sensing element clearance diameter of at least 16 mm.",
+        "The SRD sensor probe requires a sensing element clearance diameter of at least 35 mm.",
+        "Welding bigger Tri-Clamp sizes is generally more suitable for Long insertion probes, as using them with flush and short sensors might create dead zones due to the need for long standpipes or matching ferrule necks.",
+        "CAD files for various TC sizes are available online.",
+        "The newest version of the -X3 probe variant (formerly -HD-X3) is required in specific cases for optimal compatibility."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "x* Seal gasket will be over the weld line; care should be taken to use sufficiently conformal gaskets to seal. For correct sensor operation, read note below.",
+        "x** Newest version of -X3 probe variant required (former -HD-X3).",
+        "For EHEDG compliant installation, the rule D-d>L must be maintained.",
+        "Consider installation principles for the SRV and SRD when using bigger Tri-Clamp sizes to avoid placing the sensing element in a dead zone, especially for flush and short sensors."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 5036,
+        "cost_usd": 0.0127298
+      },
+      "source_file": "017_Tri-Clamp_sizes_compatible_with_Rheonics_Type-SR_sensors.pdf"
+    },
+    {
+      "page_summary": "This page provides references for Tri-Clamp (TC) ferrules according to ASME BPE standards and TC weld stubs according to DIN 11850 standards, including URLs for more information.",
+      "document_type": "notes",
+      "product_names": [
+        "TC Ferrules",
+        "TC Schweissstutzen"
+      ],
+      "extracted_text": "[2]. TC Ferrules acc. ASME BPE (https://www.aseptconn.ch/en/tri-clamp-connections/tri-clamp-ferrules/tc-ferrules-asme-bpe-dt-414-1-316l)\n[3]. TC Schweissstutzen nach DIN 11850 (https://www.aseptconn.ch/de/tri-clamp-verbindungen/tri-clamp-schweissstutzen/tc-schweissstutzen-nach-din-11850)",
+      "specifications": {},
+      "key_facts": [
+        "Information regarding TC Ferrules conforming to ASME BPE standards is referenced with a specific URL.",
+        "Information concerning TC Schweissstutzen (weld stubs) adhering to DIN 11850 standards is referenced with a specific URL."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 314,
+        "cost_usd": 0.0009247999999999999
+      },
+      "source_file": "017_Tri-Clamp_sizes_compatible_with_Rheonics_Type-SR_sensors.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

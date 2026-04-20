@@ -1,0 +1,377 @@
+{
+  "source_file": "Rheonics_Datasheet_SRV_Process_Viscometer_EN.pdf",
+  "total_pages": 6,
+  "chunks": [
+    {
+      "page_summary": "This page provides a comprehensive overview and detailed specifications for the Rheonics SRV wide viscosity range inline process viscometer, including its features, performance metrics, operational environment, mechanical characteristics, and communication options.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRV"
+      ],
+      "extracted_text": "rheonics\nSRV\nWIDE VISCOSITY RANGE INLINE PROCESS VISCOMETER\n• Online, real-time, simultaneous viscosity and temperature monitoring\n• Repeatable measurements in both Newtonian and non-Newtonian fluids\n• Hermetically sealed, available in 316L stainless steel and Hastelloy C22 wetted parts\n• Available with EX certifications, Hygienic certified designs and with wide range of process connections\nSpecifications\nFluid Measurements\nViscosity Range\n3 to 10,000 cP\n0.5 to 50,000 cP (available)\nViscosity Accuracy\n5% of reading (standard)\n1% & higher accuracy available\nReproducibility\nBetter than 0.1% of reading\nTemperature\nPt1000 (DIN EN 60751 class B)\nCalibrated to NIST traceable viscosity standards.\nOperational Environment\nProcess Fluid Temperature\n-40 up to 285 °C\n-40 up to 545 °F\nPressure Range\nup to 10,000 psi\nup to 690 bar\nMechanical\nMaterial (Wetted parts)\nStainless steel 316L\nHastelloy C22\nVariant\nFlush, Short, Long, Slim, Reactor\nProcess Connection\nThreaded, Flange, Sanitary\nEHEDG and 3-A certified hygienic available\nIngress Protection\nIP69K\nLimited by the M12 connector IP rating\nElectrical Connection\nM12 (8-pin, A-coded)\nCE\nEHEDG\n3-A\nIECEx\nIEC TELEX\nATEX\nElectronics & Communication\nAnalog output\n4-20 mA (3 channel)\n{Viscosity, Density, Temp.}\nDigital output\nModbus RTU (RS-485)\nEthernet (Ethernet/IP,\nModbus TCP, Profinet)\nUSB\nHART\nDisplay\nMulti-line LCD\n(SME-TRD)\nOperational temp.\n20 to 65 °C\nPower supply\n24 V DC\nSME-TR(D)\nIP65/66\nSME-DRM\nIP40/50\nWireless output\nBluetooth LE 4.0\nSoftware\nData acquisition and service control panel\niOS and Android app\nProtected by US and International patents granted and pending\nrheonics\nrheonics • Switzerland • USA • www.rheonics.com • info@rheonics.com\nSRV-DS-2501\n+41 52 511 32 00\n+1 713 364 5427",
+      "specifications": {
+        "Viscosity Range": "3 to 10,000 cP (standard), 0.5 to 50,000 cP (available)",
+        "Viscosity Accuracy": "5% of reading (standard), 1% & higher accuracy available",
+        "Reproducibility": "Better than 0.1% of reading",
+        "Temperature Sensor": "Pt1000 (DIN EN 60751 class B)",
+        "Process Fluid Temperature": "-40 up to 285 °C (-40 up to 545 °F)",
+        "Pressure Range": "up to 10,000 psi (up to 690 bar)",
+        "Material (Wetted parts)": "Stainless steel 316L, Hastelloy C22",
+        "Variant": "Flush, Short, Long, Slim, Reactor",
+        "Process Connection": "Threaded, Flange, Sanitary",
+        "Ingress Protection (Sensor)": "IP69K",
+        "Electrical Connection": "M12 (8-pin, A-coded)",
+        "Analog output": "4-20 mA (3 channel for Viscosity, Density, Temp.)",
+        "Digital output": "Modbus RTU (RS-485), Ethernet (Ethernet/IP, Modbus TCP, Profinet), USB, HART",
+        "Display": "Multi-line LCD (SME-TRD)",
+        "Operational temperature (Electronics)": "20 to 65 °C",
+        "Power supply": "24 V DC",
+        "Ingress Protection (SME-TR(D))": "IP65/66",
+        "Ingress Protection (SME-DRM)": "IP40/50",
+        "Wireless output": "Bluetooth LE 4.0",
+        "Software": "Data acquisition and service control panel, iOS and Android app"
+      },
+      "key_facts": [
+        "The SRV is a wide viscosity range inline process viscometer.",
+        "It offers online, real-time, simultaneous viscosity and temperature monitoring.",
+        "The SRV provides repeatable measurements in both Newtonian and non-Newtonian fluids.",
+        "It is hermetically sealed and available with 316L stainless steel and Hastelloy C22 wetted parts.",
+        "The viscometer is available with EX certifications and Hygienic certified designs.",
+        "The SRV supports a wide range of process connections.",
+        "The device is calibrated to NIST traceable viscosity standards.",
+        "Hygienic variants are EHEDG and 3-A certified."
+      ],
+      "diagram_labels": [
+        "rheonics"
+      ],
+      "warnings_notes": [
+        "Ingress Protection (IP69K) is limited by the M12 connector IP rating.",
+        "Protected by US and International patents granted and pending."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1406,
+        "cost_usd": 0.0036547999999999997
+      },
+      "source_file": "Rheonics_Datasheet_SRV_Process_Viscometer_EN.pdf"
+    },
+    {
+      "page_num": 2,
+      "page_summary": "Extraction failed",
+      "document_type": "unknown",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "extraction_failed": true,
+      "source_file": "Rheonics_Datasheet_SRV_Process_Viscometer_EN.pdf"
+    },
+    {
+      "page_summary": "This page details the mechanical and electrical features, electronics options, wetted materials, process connections, certification, and mounting configurations for the Rheonics SRV wide viscosity range inline process viscometer.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRV",
+        "SME-TRD",
+        "SME-TR",
+        "SME-DRM"
+      ],
+      "extracted_text": "SRV\nWIDE VISCOSITY RANGE INLINE PROCESS VISCOMETER\nMechanical & Electrical\nrheonics\n\nElectronics (select between)\nSME-TRD\nSME-TR\n• Transmitter housing (IP66)\n• Onsite and remote installation of electronics head\n• Available with and without display for field use\n\nCable Gland\n• Standard\n• Ex Rated\n\nSensor Cable\n• Up to 1,500m (4,921 ft.)\n\nM12 connector\n• (IP67 | IP68 | IP69K)\n\nSME-DRM\n• DIN rail mount\n• Extra-small form factor\n• for easy installation\n• Ethernet connection\n\nProcess fluid wetted materials available\n• 316L stainless steel (standard)\n• Available with custom coatings, Hastelloy C22\n\nProcess connection\n• Flush, Short and Long insertion, slimline, reactor probes\n• Threaded, Flange, Tri-clamp, Varinline, Ingold, API, 6A\n• EHEDG and 3-A certified hygienic version\n\nEx Certified sensors\n• Intrinsically safe\n• Covers full Ex temperature range\n• IECEx, ATEX, JPEx, others\n\nMounting\n\nPipe †any configuration possible\nflanged\ntri-clamp\nlong insertion probe\nNPT thread\nLearn more\n\nTank †any configuration possible including long insertion adapters\nlong insertion probe\nLearn more\n\nrheonics · Switzerland · USA · www.rheonics.com · info@rheonics.com\n+41 52 511 32 00\n+1 713 364 5427\nSRV-DS-2501",
+      "specifications": {
+        "sensor_cable_length": "1,500 m (4,921 ft.)",
+        "m12_connector_ip_rating": "IP67 | IP68 | IP69K",
+        "transmitter_housing_ip_rating": "IP66",
+        "wetted_materials": "316L stainless steel, Hastelloy C22",
+        "process_connection_standards": "API, 6A, EHEDG, 3-A"
+      },
+      "key_facts": [
+        "The SRV is a wide viscosity range inline process viscometer.",
+        "Available electronics include the SME-TRD/SME-TR transmitter housing (IP66) for onsite/remote installation with or without display, and the SME-DRM DIN rail mount module with Ethernet connection.",
+        "The sensor cable can extend up to 1,500 meters.",
+        "M12 connectors are rated for IP67, IP68, and IP69K environments.",
+        "Standard wetted materials are 316L stainless steel, with options for custom coatings and Hastelloy C22.",
+        "A variety of process connection types are available, including flush, short/long insertion, threaded, flange, tri-clamp, Varinline, Ingold, API, and 6A.",
+        "Hygienic versions are EHEDG and 3-A certified.",
+        "SRV sensors are Ex certified, intrinsically safe, and cover a full Ex temperature range, meeting IECEx, ATEX, and JPEx standards.",
+        "The viscometer can be mounted in various configurations for pipes (flanged, tri-clamp, NPT thread, long insertion) and tanks (including long insertion adapters).",
+        "The document identifier is SRV-DS-2501."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "flanged",
+        "tri-clamp",
+        "long insertion probe",
+        "NPT thread",
+        "Learn more"
+      ],
+      "warnings_notes": [
+        "Pipe mounting: Any configuration possible.",
+        "Tank mounting: Any configuration possible including long insertion adapters."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1060,
+        "cost_usd": 0.0027898
+      },
+      "source_file": "Rheonics_Datasheet_SRV_Process_Viscometer_EN.pdf"
+    },
+    {
+      "page_summary": "This page provides an overview of the Rheonics SRV inline process viscometer, detailing its electronic installation, connectivity options, display features, and physical dimensions of associated components.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRV",
+        "SME-TR",
+        "SME-TRD",
+        "SME-DRM"
+      ],
+      "extracted_text": "rheonics\nSRV\nWIDE VISCOSITY RANGE INLINE PROCESS VISCOMETER\nElectronics installation\nDisplay connector\nUSB\nEthernet (Ethernet/IP, Modbus TCP, Profinet)\nPower 24V DC\nModbus RTU (RS-485)\n4-20mA analog output\nViscosity(ch1)\nDensity(ch2)\nTemperature(ch3)\nHART\nSensor cable\nPOWER\nSTATUS\nERROR\nHART\nSENSOR RUNNING\nPROCESS WITHIN LIMITS\nVISC: 3.81 cPa.s\nDENS: 1234.56 g/cc\nTEMP: 59.69°C\nDAS-01: SUM1621 0043 C00\nrheonics\nAll data subject to change without prior notice. All rights reserved. Rheonics GmbH.\nIndustrial high-contrast LCD\nBluetooth LE 4.0\nStatus LED\nDimensions\n127.0 [5.00\"]\n114.0 [4.49\"]\nrheonics\n17.5 [0.69\"]\n145.0 [5.71\"]\n1/2\" NPT (standard)\nTR: 50.0 [1.97\"]\nTRD: 70.0 [2.76\"]\n59.0 [1.97\"]\n85.0 [3.35\"]\n45.0 [1.76\"]\n78.0 [3.07\"]\nUnits: mm [inch]\nSME-TR / SME-TRD\nSME-DRM\nThe sizes provided are approximate and may not be exact.\nrheonics • Switzerland • USA • www.rheonics.com • info@rheonics.com\n+41 52 511 32 00\n+1 713 364 5427\nSRV-DS-2501",
+      "specifications": {
+        "Power": "24 V DC",
+        "Analog Output Channels": "3",
+        "Analog Output Signal": "4-20mA",
+        "Digital Communication Protocols": "Ethernet/IP, Modbus TCP, Profinet, Modbus RTU (RS-485), HART, Bluetooth LE 4.0",
+        "SME-TR/TRD Top Width": "127.0 mm [5.00 inch]",
+        "SME-TR/TRD Inner Top Width": "114.0 mm [4.49 inch]",
+        "SME-TR/TRD Base Width": "145.0 mm [5.71 inch]",
+        "SME-TR/TRD Side Extension": "17.5 mm [0.69 inch]",
+        "SME-TR/TRD Pipe Connection": "1/2\" NPT (standard)",
+        "SME-TR Height": "50.0 mm [1.97 inch]",
+        "SME-TRD Height": "70.0 mm [2.76 inch]",
+        "SME-TR/TRD Width": "59.0 mm [1.97 inch]",
+        "SME-DRM Height": "85.0 mm [3.35 inch]",
+        "SME-DRM Width": "45.0 mm [1.76 inch]",
+        "SME-DRM Length": "78.0 mm [3.07 inch]"
+      },
+      "key_facts": [
+        "The SRV is a wide viscosity range inline process viscometer.",
+        "The viscometer's electronics support display, USB, Ethernet, Modbus RTU, and HART connections.",
+        "It provides a 4-20mA analog output for viscosity (ch1), density (ch2), and temperature (ch3).",
+        "The device features an industrial high-contrast LCD with real-time process values, Bluetooth LE 4.0 connectivity, and status LEDs.",
+        "Dimensional specifications are provided for SME-TR, SME-TRD, and SME-DRM components, with units in millimeters and inches."
+      ],
+      "diagram_labels": [
+        "Display connector",
+        "USB",
+        "Ethernet (Ethernet/IP, Modbus TCP, Profinet)",
+        "Power 24V DC",
+        "Modbus RTU (RS-485)",
+        "4-20mA analog output",
+        "Viscosity(ch1)",
+        "Density(ch2)",
+        "Temperature(ch3)",
+        "HART",
+        "Sensor cable",
+        "POWER",
+        "STATUS",
+        "ERROR",
+        "HART (LED)",
+        "SENSOR RUNNING",
+        "PROCESS WITHIN LIMITS",
+        "VISC",
+        "DENS",
+        "TEMP",
+        "DAS-01",
+        "rheonics (on display)",
+        "127.0",
+        "[5.00\"]",
+        "114.0",
+        "[4.49\"]",
+        "rheonics (on enclosure)",
+        "17.5",
+        "[0.69\"]",
+        "145.0",
+        "[5.71\"]",
+        "1/2\" NPT (standard)",
+        "TR: 50.0 [1.97\"]",
+        "TRD: 70.0 [2.76\"]",
+        "59.0",
+        "[1.97\"]",
+        "85.0",
+        "[3.35\"]",
+        "45.0",
+        "[1.76\"]",
+        "78.0",
+        "[3.07\"]"
+      ],
+      "warnings_notes": [
+        "All data subject to change without prior notice.",
+        "All rights reserved. Rheonics GmbH.",
+        "The sizes provided are approximate and may not be exact."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1511,
+        "cost_usd": 0.0039173
+      },
+      "source_file": "Rheonics_Datasheet_SRV_Process_Viscometer_EN.pdf"
+    },
+    {
+      "page_summary": "This page provides technical dimensions and software features for the Rheonics SRV wide viscosity range inline process viscometer.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRV",
+        "rheonics Application"
+      ],
+      "extracted_text": "rheonics\nSRV\nWIDE VISCOSITY RANGE INLINE PROCESS VISCOMETER\n\nSRV dimensions\n\n3/4\" NPT version\nOthers variants available\nLearn more\n\nFront View\nTop View\nPerspective View\nM12 8pin Male\n3/4\" thread\n\nUnits: mm [inch]\nThe sizes provided are approximate and may not be exact.\n\nSoftware\n\nrheonics Application\nDevice: {B05-0101}\nDensity: 1.0039 lb/ft³\nViscosity: 230.03 mPa·s\nTemp: 150 °K\nConnect using:\n- Bluetooth\n- Cloud\n- Real-time data\n- Process view\n- Alerts\n- Configure\n- Android\n- iOS\n\nPC Data Acquisition & Analysis\n10:32am\n0.8249 g/cc\n240.33 cP\n62 °C\nConnect over:\n- USB\n- Ethernet\n- Bluetooth\n- Cloud\n- Configure sensor\n- Check calibration\n- Firmware upgrade\n\nrheonics • Switzerland • USA • www.rheonics.com • info@rheonics.com\n+41 52 511 32 00\n+1 713 364 5427\nSRV-DS-2501",
+      "specifications": {
+        "overall_length_3_4_npt_version": "133 mm [5.24 in]",
+        "top_connector_height": "11 mm [0.44 in]",
+        "main_body_cylindrical_height": "44 mm [1.74 in]",
+        "threaded_section_height": "22.0 mm [0.87 in]",
+        "sensing_probe_base_height": "46 mm [1.79 in]",
+        "sensing_probe_total_height_from_thread": "56 mm [2.19 in]",
+        "hexagonal_body_width_across_flats": "37 mm [1.44 in]",
+        "main_body_diameter_top_section": "32 mm [1.26 in]",
+        "connector_type": "M12 8pin Male",
+        "main_body_diameter_below_connector": "30 mm [1.18 in]",
+        "process_connection_thread_type": "3/4 inch thread",
+        "probe_diameter_part_1": "16 mm [0.63 in]",
+        "probe_diameter_part_2_tip_end": "5 mm [0.20 in]",
+        "probe_diameter_part_3_mid_section": "8 mm [0.31 in]",
+        "rheonics_app_example_density": "1.0039 lb/ft³",
+        "rheonics_app_example_viscosity": "230.03 mPa·s",
+        "rheonics_app_example_temperature": "150 °K",
+        "pc_app_example_density_at_10_32am": "0.8249 g/cc",
+        "pc_app_example_viscosity_at_10_32am": "240.33 cP",
+        "pc_app_example_temperature_at_10_32am": "62 °C"
+      },
+      "key_facts": [
+        "The SRV is a wide viscosity range inline process viscometer.",
+        "Detailed dimensions are provided for the SRV, including a 3/4 inch NPT version with an overall length of 133 mm (5.24 inches).",
+        "Rheonics offers a mobile application for Android and iOS that connects to the SRV via Bluetooth and Cloud.",
+        "The mobile application provides real-time data, a process view, alerts, and sensor configuration.",
+        "PC software is available for data acquisition and analysis, connecting via USB, Ethernet, Bluetooth, and Cloud.",
+        "The PC software enables sensor configuration, calibration checks, and firmware upgrades."
+      ],
+      "diagram_labels": [
+        "SRV dimensions",
+        "3/4\" NPT version",
+        "Others variants available",
+        "Learn more",
+        "Front View",
+        "Top View",
+        "Perspective View",
+        "M12 8pin Male",
+        "3/4\" thread",
+        "Units: mm",
+        "Units: inch",
+        "rheonics (on sensor)",
+        "Device: {B05-0101}",
+        "Density",
+        "Viscosity",
+        "Temp",
+        "Connect using:",
+        "Bluetooth",
+        "Cloud",
+        "Real-time data",
+        "Process view",
+        "Alerts",
+        "Configure",
+        "Android",
+        "iOS",
+        "PC Data Acquisition & Analysis",
+        "Connect over:",
+        "USB",
+        "Ethernet",
+        "Configure sensor",
+        "Check calibration",
+        "Firmware upgrade",
+        "10:32am",
+        "0.8249 g/cc",
+        "240.33 cP",
+        "62 °C",
+        "6:00am",
+        "10:00am",
+        "2:00pm",
+        "6:00pm",
+        "10:00pm",
+        "150",
+        "100",
+        "50",
+        "0",
+        "-20"
+      ],
+      "warnings_notes": [
+        "The sizes provided are approximate and may not be exact."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1435,
+        "cost_usd": 0.0037273000000000002
+      },
+      "source_file": "Rheonics_Datasheet_SRV_Process_Viscometer_EN.pdf"
+    },
+    {
+      "page_summary": "This page provides comprehensive ordering information and available configurations for the Rheonics SRV wide viscosity range inline process viscometer.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRV",
+        "WIDE VISCOSITY RANGE INLINE PROCESS VISCOMETER"
+      ],
+      "extracted_text": "rheonics\nSRV\nWIDE VISCOSITY RANGE INLINE PROCESS VISCOMETER\n\nOrdering\nWe recommend using the online RFQ form: https://rheonics.com/request-for-quotation/\nFor sensor accessories visit: https://rheonics.com/product-accessories/\nOrdering code example\nSRV | V1 | STD | E1 | C1,C2 | T1 | P1 | X1\nViscosity range | Calibration | Electronics | Communication | Temperature | Pressure | Process Connection\n\nOrder code | Name | Short description\n\nViscosity range (select one)\nV1 | 3-3000 cP | Standard calibrated range\nV2 | 3 - 50,000 cP | Extended calibrated range\nV3 | 0.5 - 3000 cP | Extended lower calibrated range\nV4 | custom | Customer specified calibrated range within 0.5 - 50,000 cP\n\nCalibration (select one)\nSTD | Standard calibration\nCUS | Customer specific calibrations - specify viscosity range, accuracy required and operational conditions\n\nElectronics (select one)\nE1 | SME-TRD | Transmitter housing with display\nE2 | SME-TR | Transmitter housing with solid cover\nE3 | SME-DRM | DIN-rail mount housing\n\nCommunication (select all)\nC1 | 4-20 mA | 3 channels of 4-20 mA analog signal\nC2 | Modbus RTU (RS-485) | Modbus RTU over RS-485\nC3 | USB | USB 2.0 compliant service and data acquisition port\nC4 | Ethernet | Ethernet over RJ45 connector\nC5 | Bluetooth LE 4.0 | Bluetooth module for short range wireless communication (only for E1)\nC6 | Modbus TCP | Modbus TCP over Ethernet\nC7 | Ethernet/IP | Ethernet/IP protocol\nC8 | HART | HART over analog channels\nC9 | Profinet | Profinet protocol\n\nTemperature (select one)\nT1 | 125 °C (250 °F) | Sensor rated for operation in process fluids up to 125 °C (250 °F)\nT2 | 150 °C (300 °F) | Sensor rated for operation in process fluids up to 150 °C (300 °F)\nT3 | 200 °C (400 °F) | Sensor rated for operation in process fluids up to 200 °C (400 °F)\nT4 | Max. operating temp. | Specify your required maximum temperature\n\nPressure (select one)\nP1 | 15 bar (200 psi) | Sensor rated for process fluids pressure up to 15 bar (200 psi)\nP2 | 70 bar (1000 psi) | Sensor rated for process fluids pressure up to 70 bar (1000 psi)\nP3 | 200 bar (3000 psi) | Sensor rated for process fluids pressure up to 200 bar (3000 psi)\nP4 | 350 bar (5000 psi) | Sensor rated for process fluids pressure up to 350 bar (5000 psi)\nP5 | 500 bar (7500 psi) | Sensor rated for process fluids pressure up to 500 bar (7500 psi)\n\nProcess Connection (select one)\nX1 | Threaded | Threaded process connection - 3/4\" NPT or G1/2\"\nX2 | Custom flange | Flange adapter, specify type e.g. DN/PN - Hygienic EHEDG or 3-A certified version available\nX3 | Tri-clamp | Tri-clamp flange, specify size - Hygienic EHEDG or 3-A certified version available\nX4 | Flush variant | Flush probe, specify flange - Hygienic EHEDG or 3-A certified version available\nX5 | Long insertion | Long insertion probe, specify insertion length and flange - Hygienic EHEDG or 3-A certified version available\nX6 | Slimline probe | Slimline long probe, pecify insertion length and flange - Hygienic 3-A certified version available\nX7 | Reactor probe | Reactor probe, specify length and compression fitting\nX8 | Teletube | Versatile probe with compatible extension tubes, specify insertion length and flange\n\nContact Information\nrheonics GmbH\nWinterthur,\nSwitzerland\n+41 52 511 32 00\n\nrheonics Inc.\nSugar Land, Texas,\nUnited States of America\n+1 713 364 5427\n\nwww.rheonics.com\ninfo@rheonics.com\nin rheonics\n@rheonics\n+41 52 511 3200\n\nProtected by US and International patents granted and pending\nrheonics • Switzerland • USA • www.rheonics.com • info@rheonics.com • +41 52 511 32 00 • +1 713 364 5427\n†subject to change without notice\n® rheonics\nSRV-DS-2501",
+      "specifications": {
+        "viscosity_range_standard": "3-3000 cP",
+        "viscosity_range_extended": "3-50000 cP",
+        "viscosity_range_extended_lower": "0.5-3000 cP",
+        "viscosity_range_custom": "0.5-50000 cP",
+        "temperature_rating_T1": "125 °C (250 °F)",
+        "temperature_rating_T2": "150 °C (300 °F)",
+        "temperature_rating_T3": "200 °C (400 °F)",
+        "pressure_rating_P1": "15 bar (200 psi)",
+        "pressure_rating_P2": "70 bar (1000 psi)",
+        "pressure_rating_P3": "200 bar (3000 psi)",
+        "pressure_rating_P4": "350 bar (5000 psi)",
+        "pressure_rating_P5": "500 bar (7500 psi)",
+        "threaded_process_connection_type": "3/4\" NPT or G1/2\"",
+        "communication_analog": "3 channels of 4-20 mA analog signal",
+        "communication_modbus_rtu": "Modbus RTU over RS-485",
+        "communication_usb": "USB 2.0 compliant service and data acquisition port",
+        "communication_ethernet": "Ethernet over RJ45 connector",
+        "communication_bluetooth": "Bluetooth LE 4.0",
+        "communication_modbus_tcp": "Modbus TCP over Ethernet",
+        "communication_ethernet_ip": "Ethernet/IP protocol",
+        "communication_hart": "HART over analog channels",
+        "communication_profinet": "Profinet protocol",
+        "electronics_display": "SME-TRD (Transmitter housing with display)",
+        "electronics_solid_cover": "SME-TR (Transmitter housing with solid cover)",
+        "electronics_din_rail": "SME-DRM (DIN-rail mount housing)"
+      },
+      "key_facts": [
+        "The Rheonics SRV is a wide viscosity range inline process viscometer.",
+        "Customers can use an online RFQ form (https://rheonics.com/request-for-quotation/) to request a quotation for the SRV viscometer.",
+        "Accessories for the sensor are available via the product accessories page (https://rheonics.com/product-accessories/).",
+        "Custom calibrated viscosity ranges can be specified between 0.5 cP and 50,000 cP.",
+        "The Bluetooth LE 4.0 communication module is only available with the SME-TRD (E1) electronics option.",
+        "Various process connections are available, including threaded (3/4\" NPT or G1/2\"), custom flange, tri-clamp, flush variant, long insertion, slimline probe, reactor probe, and teletube.",
+        "Hygienic EHEDG or 3-A certified versions are available for custom flange, tri-clamp, flush variant, long insertion, and slimline probe process connections.",
+        "Rheonics holds granted and pending US and International patents.",
+        "The information provided in this document is subject to change without notice."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Protected by US and International patents granted and pending.",
+        "Subject to change without notice."
+      ],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 2136,
+        "cost_usd": 0.005479799999999999
+      },
+      "source_file": "Rheonics_Datasheet_SRV_Process_Viscometer_EN.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": [
+      2
+    ]
+  }
+}

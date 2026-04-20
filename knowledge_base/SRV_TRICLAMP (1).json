@@ -1,0 +1,57 @@
+{
+  "source_file": "SRV_TRICLAMP (1).pdf",
+  "total_pages": 1,
+  "chunks": [
+    {
+      "page_summary": "This page provides detailed variable dimensions for the SRV Tri-Clamp adapter, including standard and optional sizes, and features a dimensioned drawing of the sensor body and probe in both millimeters and inches.",
+      "document_type": "drawing",
+      "product_names": [
+        "SRV Tri-Clamp"
+      ],
+      "extracted_text": "Variable dimensions:\nB: Flange/adapter:\nTri-Clamp adapters are compatible with all standardss (ISO/DIN/ASME)\nStandard Tri-Clamp is D=50.5mm [1.5\"]\nOther options:\nD=64mm\nD=77.5mm\nD=91mm\nD=106mm\n\nUnits: mm\n[inch]\n\nSRV Tri-Clamp\n\nThis drawing remains property of rheonics. It may be neither copied nor informed to third persons or competitors without our approval. ( 2 paragraph 1 fig.7 copyright act of 9th Sept. 1965)\n\nProtected by US and International patents granted and pending\n\nrheonics • Switzerland • USA • www.rheonics.com • info@rheonics.com +41 52 511 32 00 +1 713 364 5427\n\nrheonics\ninline process\ndensity and viscosity\nmonitoring",
+      "specifications": {
+        "Tri-Clamp standard diameter": "50.5 mm [1.5 in]",
+        "Tri-Clamp adapter option diameter 1": "64 mm",
+        "Tri-Clamp adapter option diameter 2": "77.5 mm",
+        "Tri-Clamp adapter option diameter 3": "91 mm",
+        "Tri-Clamp adapter option diameter 4": "106 mm",
+        "Overall top width": "50.5 mm [1.99 in]",
+        "Body diameter": "30 mm [1.18 in]",
+        "Upper shaft diameter": "26 mm [1.02 in]",
+        "Lower shaft/tip diameter": "8 mm [0.31 in]",
+        "Length from flange base to first step": "45.7 mm [1.80 in]",
+        "Length from flange base to second step": "55.7 mm [2.19 in]",
+        "Total length from flange base to tip": "79.7 mm [3.14 in]"
+      },
+      "key_facts": [
+        "Tri-Clamp adapters are compatible with ISO/DIN/ASME standards.",
+        "Rheonics provides multiple Tri-Clamp adapter diameter options: 50.5mm, 64mm, 77.5mm, 91mm, and 106mm.",
+        "The product dimensions are provided in both millimeters and inches.",
+        "Rheonics offers inline process density and viscosity monitoring solutions."
+      ],
+      "diagram_labels": [
+        "D=",
+        "Ø",
+        "mm",
+        "inch"
+      ],
+      "warnings_notes": [
+        "This drawing remains property of rheonics. It may be neither copied nor informed to third persons or competitors without our approval. ( 2 paragraph 1 fig.7 copyright act of 9th Sept. 1965)",
+        "Protected by US and International patents granted and pending"
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 783,
+        "cost_usd": 0.0020973
+      },
+      "source_file": "SRV_TRICLAMP (1).pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

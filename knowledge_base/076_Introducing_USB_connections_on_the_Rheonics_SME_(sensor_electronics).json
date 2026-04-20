@@ -1,0 +1,310 @@
+{
+  "source_file": "076_Introducing_USB_connections_on_the_Rheonics_SME_(sensor_electronics).pdf",
+  "total_pages": 5,
+  "chunks": [
+    {
+      "page_summary": "This page introduces the USB connection capabilities for Rheonics SME (sensor electronics) and notes the use of a standard USB micro B port.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics SME",
+        "SME-DRM"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nIntroducing USB connections on the Rheonics SME\n(sensor electronics)\n\nModified on: Thu, 3 Jul, 2025 at 5:49 PM\n\nAll Rheonics sensor electronics (SME) come with standard USB micro B port.\nConnecting USB cable to SME-DRM\nSME-DRM",
+      "specifications": {},
+      "key_facts": [
+        "All Rheonics sensor electronics (SME) are equipped with a standard USB micro B port.",
+        "The document mentions connecting a USB cable to SME-DRM."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 257,
+        "cost_usd": 0.0007823000000000001
+      },
+      "source_file": "076_Introducing_USB_connections_on_the_Rheonics_SME_(sensor_electronics).pdf"
+    },
+    {
+      "page_summary": "This page displays a detailed view of a Rheonics SME-DRM module, highlighting its various ports, connectors, indicators, and identification markings.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SME-DRM"
+      ],
+      "extracted_text": {
+        "company_info": {
+          "company_name": "rheonics",
+          "origin": "swiss made"
+        },
+        "power_input": {
+          "label": "5v dc",
+          "connections": [
+            "+"
+          ],
+          "ground_connections": [
+            "gnd -"
+          ]
+        },
+        "modbus_rs485": {
+          "label": "modbus",
+          "connections": [
+            "A",
+            "(RS485) B"
+          ]
+        },
+        "status_indicators": {
+          "power": "green LED",
+          "sensor": "red LED",
+          "comm": "LED",
+          "data": "LED"
+        },
+        "ethernet_communication": {
+          "label": "ethernet tcp/ip",
+          "protocol": "modbus tcp"
+        },
+        "usb_port": "usb",
+        "reset_button": "reset",
+        "sd_card_slot": "SD-card",
+        "display_connector": "display",
+        "analog_output": {
+          "label": "4-20 mA output",
+          "channels": [
+            "loop+",
+            "gnd -",
+            "gnd -",
+            "ch1 +",
+            "ch2 +",
+            "ch3 +"
+          ]
+        },
+        "sensor_connection": {
+          "label": "sensor connection",
+          "pins": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
+          ]
+        },
+        "product_identification": {
+          "part_number": "PN:1917-BO",
+          "serial_number": "SN:BFCM-R02-19101590"
+        },
+        "compliance": "CE",
+        "caption": "SME-DRM with Micro-USB cable"
+      },
+      "specifications": {
+        "power_input": "5V DC",
+        "analog_output": "4-20 mA"
+      },
+      "key_facts": [
+        "The device is a Rheonics SME-DRM module.",
+        "It features multiple communication interfaces including Modbus RS485, Ethernet TCP/IP, and Modbus TCP.",
+        "The module provides a 5V DC power input and a 4-20 mA analog output with three channels.",
+        "It includes status indicators for power, sensor, communication, and data.",
+        "Connectivity options consist of a USB port, an SD card slot, a display connector, and an 8-pin sensor connection.",
+        "The product is identified by part number PN:1917-BO and serial number SN:BFCM-R02-19101590.",
+        "The module is CE compliant and manufactured in Switzerland.",
+        "A Micro-USB cable is used with the SME-DRM."
+      ],
+      "diagram_labels": [
+        "5v dc +",
+        "gnd -",
+        "modbus A",
+        "(RS485) B",
+        "power",
+        "sensor",
+        "comm.",
+        "data",
+        "ethernet tcp/ip",
+        "modbus tcp",
+        "usb",
+        "reset",
+        "SD-card",
+        "display",
+        "4-20 mA output",
+        "loop+",
+        "gnd -",
+        "ch1 +",
+        "ch2 +",
+        "ch3 +",
+        "sensor connection",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "PN:1917-BO/SN:BFCM-R02-19101590",
+        "CE",
+        "swiss made"
+      ],
+      "warnings_notes": [
+        "CE marking indicates compliance with European health, safety, and environmental protection standards."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1059,
+        "cost_usd": 0.0027873
+      },
+      "source_file": "076_Introducing_USB_connections_on_the_Rheonics_SME_(sensor_electronics).pdf"
+    },
+    {
+      "page_summary": "This page displays a Rheonics SME-DRM module, showcasing its various input/output ports, status LEDs, and product identification, with a USB cable connected.",
+      "document_type": "manual",
+      "product_names": [
+        "SME-DRM"
+      ],
+      "extracted_text": "rheonics\nswiss made\n\nPN:1917-BO/SN:BFCM-R02-19\nsensor connection\n0\n1\n2\n3\n4\n5\n6\n7\n8\n\n+ 24 V dc\ngnd\nmodbus A (RS485) B\npower (green LED visible)\nsensor (red LED visible)\ncomm. (red/amber LED visible)\ndata (red/amber LED visible)\n\nusb (micro USB port)\ndisplay (connector)\nreset (button)\nSD-card (slot)\n\n4-20 mA output\nloop+\ngnd -\ngnd -\nch1 +\nch2 +\nch3 +\n\nSME-DRM with connected USB cable (caption)",
+      "specifications": {
+        "Input Voltage": "24 V dc",
+        "Output Current": "4-20 mA",
+        "Communication Protocol": "Modbus RS485"
+      },
+      "key_facts": [
+        "The device is a Rheonics SME-DRM module.",
+        "It features status LEDs for power, sensor, communication, and data.",
+        "It supports Modbus RS485 communication.",
+        "The module includes a USB port, SD-card slot, and a display connector.",
+        "It provides 4-20 mA analog outputs across three channels (ch1, ch2, ch3).",
+        "The device is identified by part number PN:1917-BO/SN:BFCM-R02-19.",
+        "The product is labeled as 'swiss made'."
+      ],
+      "diagram_labels": [
+        "+ 24 V dc",
+        "gnd",
+        "modbus A (RS485) B",
+        "power",
+        "sensor",
+        "comm.",
+        "data",
+        "usb",
+        "display",
+        "reset",
+        "SD-card",
+        "4-20 mA output",
+        "loop+",
+        "gnd -",
+        "ch1 +",
+        "ch2 +",
+        "ch3 +",
+        "PN:1917-BO/SN:BFCM-R02-19",
+        "sensor connection",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "rheonics",
+        "swiss made",
+        "CE"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 700,
+        "cost_usd": 0.0018898
+      },
+      "source_file": "076_Introducing_USB_connections_on_the_Rheonics_SME_(sensor_electronics).pdf"
+    },
+    {
+      "page_summary": "This page illustrates the connection ports and LED indicators of a Rheonics transmitter, likely an SME-TRD or SME-TR model, and provides a reference to a support article for USB cable connection instructions.",
+      "document_type": "manual",
+      "product_names": [
+        "SME-TRD",
+        "SME-TR",
+        "transmitter"
+      ],
+      "extracted_text": "modbus A\n(RS-232) B\npower (green LED)\nsensor (red LED)\ncomm.\ndata\nethernet tcp/ip\nmodbus tcp\nusb\ndisplay\n4-20 mA output\nloop+\ngnd -\ngnd -\nch1 +\nch2 +\nch3 +\n1 2 3 4 5 6 7\nsensor connection\nP/N: 1812-0050\nswiss made\nCE\n\nConnecting USB cable to SME-TRD and SME-TR\nrefer to article on connecting USB cable to transmitter\n(https://support.rheonics.com/en/support/solutions/articles/81000297828)",
+      "specifications": {
+        "4-20 mA output": "4-20 mA"
+      },
+      "key_facts": [
+        "The image displays the various connectivity options and status indicators of a Rheonics transmitter device.",
+        "The device features multiple communication interfaces, including Modbus (RS-232), Ethernet (TCP/IP, Modbus TCP), and USB.",
+        "It provides a 4-20 mA analog output with connections for loop+, ground, and three channels (ch1+, ch2+, ch3+).",
+        "A dedicated 7-pin connector is present for sensor connection.",
+        "LED indicators signal the status of power (green), sensor (red), communication, and data activity.",
+        "The device is identified as 'swiss made' and bears the 'CE' compliance mark, with a partially visible part number P/N: 1812-0050.",
+        "Instructions for connecting a USB cable to SME-TRD and SME-TR transmitters are referenced via a link to a Rheonics support article."
+      ],
+      "diagram_labels": [
+        "modbus A",
+        "(RS-232) B",
+        "power",
+        "sensor",
+        "comm.",
+        "data",
+        "ethernet tcp/ip",
+        "modbus tcp",
+        "usb",
+        "display",
+        "4-20 mA output",
+        "loop+",
+        "gnd -",
+        "ch1 +",
+        "ch2 +",
+        "ch3 +",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "sensor connection",
+        "P/N: 1812-0050",
+        "swiss made",
+        "CE"
+      ],
+      "warnings_notes": [
+        "CE (compliance mark)",
+        "Refer to article on connecting USB cable to transmitter for detailed instructions."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 749,
+        "cost_usd": 0.0020123
+      },
+      "source_file": "076_Introducing_USB_connections_on_the_Rheonics_SME_(sensor_electronics).pdf"
+    },
+    {
+      "page_summary": "This page is entirely blank and contains no discernible content or information.",
+      "document_type": "",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 84,
+        "cost_usd": 0.00034979999999999994
+      },
+      "source_file": "076_Introducing_USB_connections_on_the_Rheonics_SME_(sensor_electronics).pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

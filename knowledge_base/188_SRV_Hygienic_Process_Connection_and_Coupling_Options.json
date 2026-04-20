@@ -1,0 +1,590 @@
+{
+  "source_file": "188_SRV_Hygienic_Process_Connection_and_Coupling_Options.pdf",
+  "total_pages": 14,
+  "chunks": [
+    {
+      "page_summary": "This page introduces Rheonics SRV hygienic process connection and coupling options, detailing its purpose, involved products, and outlining a table of contents for a comprehensive discussion on various hygienic coupling types relevant to sanitary industries.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "Rheonics SRV sensor",
+        "SRV - Inline Viscosity Meter"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nSRV Hygienic Process Connection and Coupling Options\n\nModified on: Wed, 10 Sep, 2025 at 10:01 PM\n\nWhat is the purpose of this article?\nProvide an overview and concepts of the main hygienic coupling types used in the industry and their compatibility with the Rheonics SRV sensor.\n\nWhat products are involved?\n(https://rheonics.com/products/inline-viscometer-srv/) SRV - Inline Viscosity Meter (https://rheonics.com/products/inline-viscometer-srv/)\n\nTABLE OF CONTENTS\n* Introduction\n* Rheonics SRV Overview\n* Overview of Hygienic Coupling Types\n  * Tri-Clamp couplings\n  * DIN11851 Couplings\n  * SMS Couplings\n  * RJT Couplings\n  * IDF Couplings\n* Conclusion\n* References\n\nIntroduction\nSanitary process industries depend on hygienic couplings to ensure cleanable, leak-free, and contamination-free connections between instrumentation and equipment. In industries like food & beverage and pharmaceutical, maintaining strict hygiene standards is mandatory, so following sanitary compliances is essential for their processes. Selecting appropriate couplings directly impacts process integrity to follow sanitary regulations, and ease of maintenance and cleaning operations like CIP (Clean-in-Place) and SIP (Sterilize-in-Place).\n\nThis article provides an overview of the main hygienic couplings available to use with Rheonics SRV sensors, designed for real-time monitoring of viscosity, density, and temperature used in a wide range of sanitary applications.\n\nRheonics SRV Overview",
+      "specifications": {
+        "Phone": "+1 713 234 0863",
+        "Modified Date": "Wed, 10 Sep, 2025",
+        "Modified Time": "10:01 PM"
+      },
+      "key_facts": [
+        "The article's purpose is to provide an overview of main hygienic coupling types used in the industry and their compatibility with the Rheonics SRV sensor.",
+        "The Rheonics SRV - Inline Viscosity Meter is a product involved in the article's discussion.",
+        "Sanitary process industries rely on hygienic couplings to ensure cleanable, leak-free, and contamination-free connections.",
+        "Maintaining strict hygiene standards and following sanitary compliances are mandatory in food & beverage and pharmaceutical industries.",
+        "Appropriate coupling selection directly impacts process integrity, adherence to sanitary regulations, and facilitates maintenance operations such as CIP (Clean-in-Place) and SIP (Sterilize-in-Place).",
+        "Rheonics SRV sensors are designed for real-time monitoring of viscosity, density, and temperature in various sanitary applications, and this article covers compatible hygienic couplings for them."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 762,
+        "cost_usd": 0.0020448
+      },
+      "source_file": "188_SRV_Hygienic_Process_Connection_and_Coupling_Options.pdf"
+    },
+    {
+      "page_summary": "This page provides an overview of Rheonics SRV inline viscometers, detailing their technology, suitability for hygienic applications, and the various hygienic coupling options and certifications available.",
+      "document_type": "datasheet",
+      "product_names": [
+        "Rheonics sensor SRV",
+        "SRV",
+        "inline process viscometer SRV",
+        "SRV probes",
+        "Rheonics SR sensors"
+      ],
+      "extracted_text": "The Rheonics sensor SRV (https://support.rheonics.com/en/support/solutions/folders/81000297658) measures viscosity and temperature in line for real-time process control and monitoring.\nThe SRV is factory calibrated and does not need recalibration over its operational lifetime. However, clients may require calibration or verification for instruments used in their industry as part of their Quality Control. Optional re-adjustments or offset corrections can be performed if needed to match specific references. For more details, see Calibration of inline process viscometer SRV in field and factory.\nRheonics sensors technology is based on a balanced torsional resonator (BTR). The patented BTR technology has a significant advantage over competitors since it allows the sensors to be compact, lightweight, and unaffected by external vibrations.\nThe SRV is well suited for hygienic applications where viscosity is a critical process parameter. For example, in the personal care market (i.e., shampoos, liquid soap, and lotions production) and the food & beverage industry (i.e., milk, glazes, sauces, and even aerated or foamy liquids production) a precise control is required to ensure product uniformity, consistency, and quality compliance.\nBy default, the SRV features a hygienic design, and if required, it can be provided with a hygienic certification upon request. Its sanitary and versatile modular construction makes it easy to achieve integration into applications where hygiene compliance is required.\n\nFigure 1 - Rheonics SRV sensor: Versatility for hygienic installation options\n\nOverview of Hygienic Coupling Types\n\nHygienic coupling or unions are designed to follow sanitary compliances in sanitary process systems. Their design ensures that no product residue is trapped at the connection points, which is essential in maintaining sterility and process integrity, especially during Clean-in-Place (CIP) and Sterilize-in-Place (SIP) procedures.\nAs mentioned before, SRV probes come with a hygienic design by default, making them suitable for sanitary applications. If needed, probes can also be supplied with hygienic certification. There is no universal standard for hygienic couplings, as different industries and regions favor specific connection types. However, most followed guidelines from recognized organizations, such as EHEDG and 3-A, are available for Rheonics SR sensors.",
+      "specifications": {},
+      "key_facts": [
+        "The Rheonics SRV sensor measures viscosity and temperature in line for real-time process control and monitoring.",
+        "The SRV is factory calibrated and does not need recalibration over its operational lifetime.",
+        "Rheonics sensors technology is based on a patented balanced torsional resonator (BTR).",
+        "The BTR technology allows sensors to be compact, lightweight, and unaffected by external vibrations.",
+        "The SRV is well suited for hygienic applications in personal care (e.g., shampoos, liquid soap, lotions) and food & beverage (e.g., milk, glazes, sauces, aerated/foamy liquids) industries.",
+        "The SRV features a hygienic design by default and can be provided with a hygienic certification upon request.",
+        "The SRV's sanitary and versatile modular construction facilitates integration into applications requiring hygiene compliance.",
+        "Hygienic couplings prevent product residue trapping at connection points, essential for sterility and process integrity during Clean-in-Place (CIP) and Sterilize-in-Place (SIP) procedures.",
+        "SRV probes come with a hygienic design by default and can be supplied with hygienic certification.",
+        "Most followed guidelines from recognized organizations like EHEDG and 3-A are available for Rheonics SR sensors."
+      ],
+      "diagram_labels": [
+        "Figure 1 - Rheonics SRV sensor: Versatility for hygienic installation options"
+      ],
+      "warnings_notes": [
+        "Clients may require calibration or verification for instruments used in their industry as part of their Quality Control.",
+        "Optional re-adjustments or offset corrections can be performed if needed to match specific references.",
+        "There is no universal standard for hygienic couplings, as different industries and regions favor specific connection types.",
+        "Most followed guidelines from recognized organizations, such as EHEDG and 3-A, are available for Rheonics SR sensors."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1025,
+        "cost_usd": 0.0027023
+      },
+      "source_file": "188_SRV_Hygienic_Process_Connection_and_Coupling_Options.pdf"
+    },
+    {
+      "page_summary": "This page details Tri-Clamp hygienic couplings, their components, compatibility standards, and industrial applications, emphasizing the relevant hygienic certifications for Rheonics sensors.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Sensors",
+        "Rheonics SRV sensor",
+        "Tri-Clamp couplings",
+        "Tri-Clover",
+        "Tri-Ferrule"
+      ],
+      "extracted_text": "Figure 2 - Hygienic certifications available for Rheonics Sensors\nFor more details, visit Rheonics hygienic and sanitary installation (https://support.rheonics.com/en/support/solutions/articles/81000412155)\nRheonics offers a wide range of industrial process connection options to ensure compatibility. The most commonly used hygienic couplings compatible with the Rheonics SRV sensor include:\nTri-Clamp couplings\nTri-Clamp (also known as Tri-Clover or Tri-Ferrule) couplings are among the most popular hygienic connections, known for their simple assembly and ease of cleaning. These couplings are widely used in the food, beverage, and pharmaceutical industries due to their fast disassembly and compatibility with a broad range of equipment.\nThese consist of two identical ferrules, a hinged clamp ring, and a seal ring. Tri-Clamp connections are compatible with several tubing standards, including DIN 11850, EN 10357, ASME-BPE, BS 4825, ISO 2037, and ISO 1127, allowing easy integration into hygienic piping systems.\nTheir proven performance and versatility make Tri-Clamp couplings a preferred choice in dairy, breweries, pharmaceuticals, cosmetics, food and beverage, and biotech industries.\nComponents:\n* Two identical ferrules\n* Hinged clamp ring\n* Seal ring",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics offers a wide range of industrial process connection options for compatibility with its SRV sensors.",
+        "Tri-Clamp couplings, also known as Tri-Clover or Tri-Ferrule, are popular hygienic connections.",
+        "Tri-Clamp couplings are known for simple assembly, ease of cleaning, and fast disassembly.",
+        "These couplings are widely used in the food, beverage, pharmaceutical, dairy, breweries, cosmetics, and biotech industries.",
+        "A Tri-Clamp connection consists of two identical ferrules, a hinged clamp ring, and a seal ring.",
+        "Tri-Clamp connections are compatible with tubing standards including DIN 11850, EN 10357, ASME-BPE, BS 4825, ISO 2037, and ISO 1127.",
+        "Rheonics sensors are available with hygienic certifications from 3-A Sanitary Standards and EHEDG (European Hygienic Engineering & Design Group)."
+      ],
+      "diagram_labels": [
+        "Clamp Coupling",
+        "Clamp ring",
+        "Ferrule",
+        "Seal Ring",
+        "Tube"
+      ],
+      "warnings_notes": [
+        "Hygienic certifications for Rheonics Sensors include 3-A Sanitary Standards and EHEDG."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 707,
+        "cost_usd": 0.0019073
+      },
+      "source_file": "188_SRV_Hygienic_Process_Connection_and_Coupling_Options.pdf"
+    },
+    {
+      "page_summary": "This page details how to construct an ordering code for Rheonics inline process viscometers by selecting product family, hygienic design, variant design (probe type), insertion length, and Tri-Clamp coupling size.",
+      "document_type": "datasheet",
+      "product_names": [
+        "Inline process Viscometer",
+        "SRV-X3",
+        "SRV-X5",
+        "Rheonics sensors"
+      ],
+      "extracted_text": "Figure 3 - Tri-Clamp Coupling Pipe connection [1]\n\nHow to create an ordering code:\n\n| Code Element | Description |\n|---|---|\n| SRV | Product family: Inline process Viscometer |\n| HD / HS | Hygienic design and certification:\n  **HD**: Sensor with hygienic design only, no hygienic certification (standard)\n  **HS**: Sensor with hygienic design and certification. Requires specifying the desired certification on the order:\n  • EHEDG\n  • 3-A |\n| X3 / X5 | Variant design:\n  **X3**: Short Probe with Tri-Clamp connection\n  **X5**: Long Insertion Probe with custom process connection. Requires specification of the insertion length in millimeters (**AXXX**)\n  For more information, please refer to:\n  • SRV-X3: Inline Process Viscometer with Tri-Clamp (https://support.rheonics.com/en/support/solutions/articles/81000410430-srv-x3-inline-process-viscometer-with-tri-clamp)\n  • SRV-X5: Inline Process Viscometer with long insertion and custom connection (https://support.rheonics.com/en/support/solutions/articles/81000411102-srv-x5-inline-process-viscometer-long-insertion-and-custom-connection) |\n| AXXX | Insertion length (in mm): Only for the X5 variant |\n| XXT / BXXT | Denotes the coupling type and defines the size of the Tri-Clamp connection required, expressed in inches (the first number is an integer, and the second decimal).\n  - For X3 use **XXT** (e.g., 15T)\n  - For X5 use **BXXT** (e.g., B15T) |\n\nSizes available: https://support.rheonics.com/en/support/solutions/articles/81000411921\nReview Tri-Clamp sizes compatibility with Rheonics sensors (https://support.rheonics.com/en/support/solutions/articles/81000411921)\n\n• 15T / B15T - 50.5 compatible with DN32 DN25 (ISO 1127), DN25 DN32 DN40 (DIN32676), 1.5\" (ASME-BPE)\n• 20T / B20T - 64 compatible with DN32 DN40 (ISO 1127), DN50 (DIN32676), 2\" (ASME-BPE)\n• 25T / B25T - 75 compatible with DN50 (ISO 1127), 2 1/2\" (ASME-BPE)\n• 30T / B30T - 91 compatible with DN65 (ISO 1127), DN65 (DIN32676), 3\" (ASME-BPE)\n\nNote: Larger sizes are also available. For more information or custom configurations, please contact our support team.",
+      "specifications": {
+        "Tri_Clamp_Sizes_Compatibility": [
+          {
+            "code": "15T / B15T",
+            "diameter_mm": "50.5",
+            "compatible_standards": [
+              "DN32 DN25 (ISO 1127)",
+              "DN25 DN32 DN40 (DIN32676)",
+              "1.5\" (ASME-BPE)"
+            ]
+          },
+          {
+            "code": "20T / B20T",
+            "diameter_mm": "64",
+            "compatible_standards": [
+              "DN32 DN40 (ISO 1127)",
+              "DN50 (DIN32676)",
+              "2\" (ASME-BPE)"
+            ]
+          },
+          {
+            "code": "25T / B25T",
+            "diameter_mm": "75",
+            "compatible_standards": [
+              "DN50 (ISO 1127)",
+              "2 1/2\" (ASME-BPE)"
+            ]
+          },
+          {
+            "code": "30T / B30T",
+            "diameter_mm": "91",
+            "compatible_standards": [
+              "DN65 (ISO 1127)",
+              "DN65 (DIN32676)",
+              "3\" (ASME-BPE)"
+            ]
+          }
+        ]
+      },
+      "key_facts": [
+        "Rheonics inline process viscometers can be ordered with different hygienic design and certification levels.",
+        "The HD code denotes a sensor with hygienic design only (standard), while HS denotes a sensor with hygienic design and certification (EHEDG or 3-A) which must be specified.",
+        "The X3 variant signifies a short probe with a Tri-Clamp connection.",
+        "The X5 variant signifies a long insertion probe with a custom process connection, for which the insertion length in millimeters (AXXX) must be specified.",
+        "The AXXX code represents the insertion length in millimeters and is only applicable for the X5 variant.",
+        "The XXT/BXXT code defines the coupling type and the size of the Tri-Clamp connection, expressed in inches (the first number is an integer, and the second decimal).",
+        "For X3 variants, the coupling size is denoted by XXT (e.g., 15T).",
+        "For X5 variants, the coupling size is denoted by BXXT (e.g., B15T).",
+        "Specific Tri-Clamp sizes (15T/B15T, 20T/B20T, 25T/B25T, 30T/B30T) are available, with corresponding diameters in mm and compatibility with various international pipe standards (ISO, DIN, ASME-BPE)."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Note: Larger sizes are also available. For more information or custom configurations, please contact our support team."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1540,
+        "cost_usd": 0.0039898
+      },
+      "source_file": "188_SRV_Hygienic_Process_Connection_and_Coupling_Options.pdf"
+    },
+    {
+      "page_summary": "This page provides an example of a product code for a short probe inline viscometer variant, details its characteristics, and describes DIN 11851 hygienic couplings and their components.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRV inline process viscometer",
+        "SRV-HD-X3-15T",
+        "DIN11851 Couplings"
+      ],
+      "extracted_text": "Example:\nPosition | 1 | - | 2 | - | 3 | - | 4 | Drawing\nCode | SRV | - | HD | - | X3 | - | 15T | SRV-HD-X3-15T\n                                           (https://rheonics.com/wp-content/uploads/2025/09/SRV-HD-X3-15T.pdf)\n\nDescription: Short probe variant of the SRV inline process viscometer, hygienic design without certification, and Tri-Clamp (50.5 mm) process connection.\n\nFigure 4 - SRV-HD-X3-15T: Short Probe with Tri Clamp coupling\n\nDIN11851 Couplings\n\nDIN 11851 unions, commonly known as dairy or milk couplings, are hygienic fittings widely used for connecting process lines in sanitary industries. They are characterized by their threaded connection and D-shaped seal, which ensures reliable performance and easy maintenance.\n\nDIN 11851 unions conform to the DIN 11850 tube standard, making them compatible with many hygienic piping systems. Their high-quality stainless steel construction and popularity in regions like Western Europe make them a reliable choice for food, beverage, and pharmaceutical applications.\n\nComponents:\n* Male threaded part\n* D-shaped Seal ring\n* Liner\n* Round slotted nut",
+      "specifications": {
+        "Tri-Clamp process connection": "50.5 mm"
+      },
+      "key_facts": [
+        "The SRV-HD-X3-15T is a short probe variant of the SRV inline process viscometer.",
+        "The SRV-HD-X3-15T features a hygienic design but does not include specific certification.",
+        "The SRV-HD-X3-15T utilizes a Tri-Clamp process connection of 50.5 mm.",
+        "DIN 11851 unions are commonly referred to as dairy or milk couplings.",
+        "These unions are hygienic fittings primarily used for connecting process lines in sanitary industries.",
+        "DIN 11851 unions are characterized by a threaded connection and a D-shaped seal, which contribute to reliable performance and easy maintenance.",
+        "DIN 11851 unions comply with the DIN 11850 tube standard, ensuring compatibility with numerous hygienic piping systems.",
+        "They are constructed from high-quality stainless steel.",
+        "DIN 11851 unions are a trusted choice for food, beverage, and pharmaceutical applications, particularly popular in Western Europe.",
+        "The components of DIN 11851 couplings include a male threaded part, a D-shaped seal ring, a liner, and a round slotted nut."
+      ],
+      "diagram_labels": [
+        "Figure 4 - SRV-HD-X3-15T: Short Probe with Tri Clamp coupling",
+        "Rheonics"
+      ],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 796,
+        "cost_usd": 0.0021298
+      },
+      "source_file": "188_SRV_Hygienic_Process_Connection_and_Coupling_Options.pdf"
+    },
+    {
+      "page_summary": "This page provides an exploded view of a DIN11851 coupling and detailed instructions on how to create an ordering code for Rheonics inline process viscometers, including options for hygienic design, probe variants, and coupling sizes.",
+      "document_type": "datasheet",
+      "product_names": [
+        "Inline process Viscometer",
+        "SRV-X2: Inline Process Viscometer with Custom Flange",
+        "SRV-X5: Inline Process Viscometer with long insertion and custom connection"
+      ],
+      "extracted_text": "DIN11851 Coupling\n\nRound, slotted nut\nEN10357 Tube\nWeld liner\nSeal ring\nWeld male\nEN10357 Tube\n\nFigure 5 - DIN11851 Coupling Pipe connection [1]\n\nHow to create an ordering code:\n\nCode Element | Description\n------------ | -----------\nSRV          | Product family: Inline process Viscometer\nHD / HS      | Hygienic design and certification:\n             |   HD: Sensor with hygienic design only, no hygienic certification (standard)\n             |   HS: Sensor with hygienic design and certification. Requires specifying the desired certification on the order:\n             |     * EHEDG\n             |     * 3-A\nX2 / X5      | Variant design:\n             |   X2: Short Probe with custom connection\n             |   X5: Long Insertion Probe with custom process connection. Requires specification of the insertion length in millimeters (AXXX)\n             |   For more information, please refer to:\n             |     * SRV-X2: Inline Process Viscometer with Custom Flange (https://support.rheonics.com/en/support/solutions/articles/81000410684)\n             |     * SRV-X5: Inline Process Viscometer with long insertion and custom connection (https://support.rheonics.com/en/support/solutions/articles/81000411102)\nAXXX         | Insertion length (in mm): Only for the X5 variant\nBHXX         | Denotes the coupling type and defines the size of the DIN11851 connection required, expressed in millimeters.\n\nSizes available:\n* BH32: DN32\n* BH40: DN40",
+      "specifications": {
+        "insertion_length_unit": "mm",
+        "coupling_size_unit": "mm"
+      },
+      "key_facts": [
+        "The document explains how to construct an ordering code for Rheonics inline process viscometers.",
+        "The 'SRV' code element denotes the Inline process Viscometer product family.",
+        "Hygienic design options include 'HD' (hygienic design only, no certification) and 'HS' (hygienic design with specified certification).",
+        "For 'HS' variants, required certifications like EHEDG or 3-A must be specified.",
+        "Probe variants include 'X2' for a Short Probe with custom connection and 'X5' for a Long Insertion Probe with custom process connection.",
+        "The 'X5' variant requires specifying the insertion length in millimeters (AXXX).",
+        "The 'BHXX' code element specifies the DIN11851 coupling type and its size in millimeters.",
+        "Available coupling sizes are BH32 (DN32) and BH40 (DN40)."
+      ],
+      "diagram_labels": [
+        "DIN11851 Coupling",
+        "Round, slotted nut",
+        "EN10357 Tube",
+        "Weld liner",
+        "Seal ring",
+        "Weld male"
+      ],
+      "warnings_notes": [
+        "HS sensors require specifying the desired hygienic certification on the order (e.g., EHEDG, 3-A).",
+        "X5 variant requires specification of the insertion length in millimeters (AXXX).",
+        "For more information on SRV-X2, refer to https://support.rheonics.com/en/support/solutions/articles/81000410684.",
+        "For more information on SRV-X5, refer to https://support.rheonics.com/en/support/solutions/articles/81000411102."
+      ],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1009,
+        "cost_usd": 0.0026622999999999994
+      },
+      "source_file": "188_SRV_Hygienic_Process_Connection_and_Coupling_Options.pdf"
+    },
+    {
+      "page_summary": "This page details various viscometer connection sizes, an example configuration for an SRV inline process viscometer, and information about SMS couplings, including their components and compatibility.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRV inline process viscometer",
+        "SRV-HD-X2-BH40"
+      ],
+      "extracted_text": "BH50: DN50\nBH65: DN65\nNote: Larger sizes are also available. For more information or custom configurations, please contact our support team.\nExample:\nPosition | 1 | - | 2 | - | 3 | - | 4 | Drawing\nCode | SRV | - | HD | - | X2 | - | BH40 | SRV-HD-X2-BH40 (https://rheonics.com/wp-content/uploads/2025/09/SRV-HD-X2-BH40.pdf)\nDescription: Short probe variant of the SRV inline process viscometer, hygienic design without certification, and DIN11851 DN40 process connection.\nFigure 6 - SRV-HD-X2-BH40: Short probe with DIN11851 coupling\nSMS Couplings\nSMS (Swedish Manufacturing Standard) unions are widely used hygienic fittings designed for connecting process lines in sanitary industries. While they share similar application fields with DIN 11851 unions, SMS unions are distinguishable by their unique mechanical and sealing design.\nSMS unions are also compatible with tube standards like BS 4825 and ISO 2037, ensuring easy integration into hygienic piping systems. Their availability in regions where DIN standards prevail, such as Europe and parts of Latin America, increases their accessibility and ease of use in existing setups.\nComponents:\nMale threaded part\nSquare-shaped Seal ring\nLiner\nRound slotted nut",
+      "specifications": {
+        "BH50_size": "DN50",
+        "BH65_size": "DN65",
+        "Process_connection_type": "DIN11851 DN40",
+        "Compatible_tube_standards": "BS 4825, ISO 2037"
+      },
+      "key_facts": [
+        "The SRV-HD-X2-BH40 is a short probe variant of the SRV inline process viscometer.",
+        "The SRV-HD-X2-BH40 features a hygienic design without certification and a DIN11851 DN40 process connection.",
+        "SMS (Swedish Manufacturing Standard) unions are hygienic fittings commonly used in sanitary industries for connecting process lines.",
+        "SMS unions have a unique mechanical and sealing design, distinguishing them from DIN 11851 unions.",
+        "SMS unions are compatible with tube standards such as BS 4825 and ISO 2037.",
+        "SMS unions are available in regions where DIN standards prevail, including Europe and parts of Latin America.",
+        "The components of an SMS coupling include a male threaded part, a square-shaped seal ring, a liner, and a round slotted nut."
+      ],
+      "diagram_labels": [
+        "Figure 6 - SRV-HD-X2-BH40: Short probe with DIN11851 coupling"
+      ],
+      "warnings_notes": [
+        "Note: Larger sizes are also available. For more information or custom configurations, please contact our support team."
+      ],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 803,
+        "cost_usd": 0.0021473
+      },
+      "source_file": "188_SRV_Hygienic_Process_Connection_and_Coupling_Options.pdf"
+    },
+    {
+      "page_summary": "This page provides an ordering guide for Rheonics inline process viscometers, detailing SMS coupling components, hygienic design variants, probe types, and available coupling sizes.",
+      "document_type": "datasheet",
+      "product_names": [
+        "Inline Process Viscometer",
+        "SRV-X2",
+        "SRV-X5"
+      ],
+      "extracted_text": "Figure 7 - SMS Coupling Pipe connection [1]\n\nHow to create an ordering code:\n\n| Code Element | Description |\n|---|---|\n| SRV | Product family: Inline process Viscometer |\n| HD / HS | Hygienic design and certification:\n  HD: Sensor with hygienic design only, no hygienic certification (standard)\n  HS: Sensor with hygienic design and certification. Requires specifying the desired certification on the order:\n  * EHDG\n  * 3-A |\n| X2 / X5 | Variant design:\n  X2: Short Probe with custom connection\n  X5: Long Insertion Probe with custom process connection. Requires specification of the insertion length in millimeters (AXXX)\n  For more information, please refer to:\n  * SRV-X2: Inline Process Viscometer with Custom Flange (https://support.rheonics.com/en/support/solutions/articles/81000410684)\n  * SRV-X5: Inline Process Viscometer with long insertion and custom connection (https://support.rheonics.com/en/support/solutions/articles/81000411102) |\n| AXXX | Insertion length (in mm): Only for the X5 variant |\n| BSXX | Denotes the coupling type and defines the size of the SMS connection required, expressed in inches (the first number is an integer, and the second decimal). |\n\nSizes available:\n* BS15: 1.5\"\n* BS20: 2\"\n* BS25: 2.5\"\n* BS30: 3\"\n* BS40: 4\"",
+      "specifications": {
+        "coupling_sizes": [
+          "1.5 in",
+          "2 in",
+          "2.5 in",
+          "3 in",
+          "4 in"
+        ],
+        "insertion_length_unit": "mm"
+      },
+      "key_facts": [
+        "SRV is the product family code for Rheonics Inline Process Viscometer.",
+        "HD signifies a sensor with hygienic design without hygienic certification (standard).",
+        "HS signifies a sensor with hygienic design and requires specifying the desired certification (EHDG or 3-A).",
+        "X2 denotes a Short Probe variant with a custom connection.",
+        "X5 denotes a Long Insertion Probe variant with a custom process connection, which requires a specified insertion length.",
+        "AXXX specifies the insertion length in millimeters, exclusively for the X5 variant.",
+        "BSXX defines the SMS coupling type and its size in inches, where the first number is an integer and the second is a decimal."
+      ],
+      "diagram_labels": [
+        "SMS Coupling",
+        "Round, slotted nut",
+        "Weld liner",
+        "Seal ring",
+        "Weld male",
+        "BS 4825-1 Tube"
+      ],
+      "warnings_notes": [
+        "For the HS variant, the desired hygienic certification (EHDG or 3-A) must be specified on the order.",
+        "The X5 variant requires specification of the insertion length in millimeters (AXXX).",
+        "The AXXX code for insertion length is only applicable for the X5 variant.",
+        "The BSXX code expresses the SMS connection size in inches, where the first number is an integer and the second is a decimal (e.g., 1.5 represented by BS15)."
+      ],
+      "page_num": 8,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 892,
+        "cost_usd": 0.0023698
+      },
+      "source_file": "188_SRV_Hygienic_Process_Connection_and_Coupling_Options.pdf"
+    },
+    {
+      "page_summary": "This page details the SRV-HD-X2-BS15 short probe viscometer variant, including its product code breakdown and connection type, and provides information on RJT (Ring Joint Type) hygienic couplings, their features, benefits, and components.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRV",
+        "SRV-HD-X2-BS15",
+        "RJT Couplings",
+        "RJT (Ring Joint Type) unions"
+      ],
+      "extracted_text": "Note: Larger sizes are also available. For more information or custom configurations, please contact our support team.\nExample:\n| Position | 1 | - | 3 | - | 2 | - | 4 | Drawing |\n|---|---|---|---|---|---|---|---|---|\n| Code | SRV | - | HD | - | X2 | - | BS15 | SRV-HD-X2-BS15 (https://rheonics.com/wp-content/uploads/2025/09/SRV-HD-X2-BS15.pdf) |\nDescription: Short probe variant of the SRV inline process viscometer, hygienic design without certification, and SMS 1.5\" process connection.\n\nFigure 8 - SRV-HD-X2-BS15: Short probe with SMS coupling\n\nRJT Couplings\nRJT (Ring Joint Type) unions are hygienic fittings commonly used in the UK and globally for sanitary process connections. Its simple but robust design featuring a male threaded part, pressed liner, hexagon nut, and O-ring seal ensures a secure and leak-resistant connection in demanding sanitary applications.\nKnown for their reliability and ease of maintenance, RJT unions allow for quick assembly and disassembly, minimizing downtime during cleaning or part replacement. They are also compatible with BS 4825 and ISO 2037 tubing standards, making them a practical choice for hygienic systems requiring efficiency and consistent performance.\n\nComponents:\n* Male threaded part\n* O-shaped Seal ring\n* Liner\n* Hexagon nut",
+      "specifications": {
+        "process_connection": "SMS 1.5\""
+      },
+      "key_facts": [
+        "The SRV-HD-X2-BS15 is a short probe variant of the SRV inline process viscometer.",
+        "The SRV-HD-X2-BS15 features a hygienic design without certification.",
+        "RJT (Ring Joint Type) unions are hygienic fittings commonly used in the UK and globally for sanitary process connections.",
+        "RJT unions feature a simple but robust design.",
+        "The design of RJT unions includes a male threaded part, a pressed liner, a hexagon nut, and an O-ring seal.",
+        "RJT unions ensure a secure and leak-resistant connection in demanding sanitary applications.",
+        "RJT unions are known for their reliability and ease of maintenance.",
+        "RJT unions allow for quick assembly and disassembly, which minimizes downtime during cleaning or part replacement.",
+        "RJT unions are compatible with BS 4825 and ISO 2037 tubing standards.",
+        "RJT unions are a practical choice for hygienic systems requiring efficiency and consistent performance.",
+        "Components of an RJT coupling include a male threaded part, an O-shaped Seal ring, a liner, and a hexagon nut."
+      ],
+      "diagram_labels": [
+        "Figure 8 - SRV-HD-X2-BS15: Short probe with SMS coupling"
+      ],
+      "warnings_notes": [
+        "Larger sizes are also available. For more information or custom configurations, please contact our support team."
+      ],
+      "page_num": 9,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 841,
+        "cost_usd": 0.0022422999999999996
+      },
+      "source_file": "188_SRV_Hygienic_Process_Connection_and_Coupling_Options.pdf"
+    },
+    {
+      "page_summary": "This page describes the components of an RJT coupling pipe connection and provides a detailed guide on creating an ordering code for Rheonics inline process viscometers, including options for hygienic design, probe variants, and coupling sizes.",
+      "document_type": "manual",
+      "product_names": [
+        "Inline Process Viscometer",
+        "SRV-X2: Inline Process Viscometer with Custom Flange",
+        "SRV-X5: Inline Process Viscometer with long insertion and custom connection"
+      ],
+      "extracted_text": "RJT Coupling\nFigure 9 - RJT Coupling Pipe connection [1]\n\nHow to create an ordering code:\n\nCode Element | Description\n------------ | -----------\nSRV | Product family: Inline process Viscometer\nHD / HS | Hygienic design and certification:\n             | HD: Sensor with hygienic design only, no hygienic certification (standard)\n             | HS: Sensor with hygienic design and certification. Requires specifying the desired certification on the order:\n             | • EHEDG\n             | • 3-A\n             | Variant design:\nX2 / X5      | X2: Short Probe with custom connection\n             | X5: Long Insertion Probe with custom process connection. Requires specification of the insertion length in millimeters (AXXX)\n             | For more information, please refer to:\n             | (https://support.rheonics.com/en/support/solutions/articles/81000410684-srv-x2-inline-process-viscometer-with-custom-flange)\n             | • SRV-X2: Inline Process Viscometer with Custom Flange\n             |   (https://support.rheonics.com/en/support/solutions/articles/81000410684)\n             | • SRV-X5: Inline Process Viscometer with long insertion and custom connection\n             |   (https://support.rheonics.com/en/support/solutions/articles/81000411102)\nAXXX         | Insertion length (in mm): Only for the X5 variant\nBRXX         | Denotes the coupling type and defines the size of the RJT connection required, expressed in inches (the first number is an integer, and the second decimal).\n\nSizes available:\n• BR15: 1.5”",
+      "specifications": {
+        "BR15 coupling size": "1.5 inches",
+        "insertion length unit": "millimeters"
+      },
+      "key_facts": [
+        "SRV is the product family code for Rheonics Inline Process Viscometers.",
+        "HD indicates a sensor with hygienic design only, without hygienic certification, which is considered standard.",
+        "HS indicates a sensor with hygienic design and certification, requiring specific certifications like EHEDG or 3-A to be specified on the order.",
+        "X2 represents a Short Probe with a custom connection.",
+        "X5 represents a Long Insertion Probe with a custom process connection, for which the insertion length in millimeters (AXXX) must be specified.",
+        "AXXX is used to specify the insertion length in millimeters, exclusively for the X5 probe variant.",
+        "BRXX denotes the RJT coupling type and its size, which is expressed in inches, where the first number is an integer and the second is a decimal.",
+        "An available RJT coupling size is BR15, corresponding to 1.5 inches."
+      ],
+      "diagram_labels": [
+        "Hexagon nut",
+        "BS 4825-1 Tube",
+        "Weld liner",
+        "Seal ring",
+        "Weld male"
+      ],
+      "warnings_notes": [],
+      "page_num": 10,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 853,
+        "cost_usd": 0.0022722999999999997
+      },
+      "source_file": "188_SRV_Hygienic_Process_Connection_and_Coupling_Options.pdf"
+    },
+    {
+      "page_summary": "This page details various process connection sizes, describes a specific short probe variant (SRV-HD-X2-BR15) with an RJT coupling, and explains the features and components of IDF hygienic couplings.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRV",
+        "SRV-HD-X2-BR15"
+      ],
+      "extracted_text": "BR20: 2\"\nBR25: 2.5\"\nBR30: 3\"\nBR40: 4\"\n\nNote: Larger sizes are also available. For more information or custom configurations, please contact our support team.\n\nExample:\n\n| Position | 1 | - | 3 | - | 2 | - | 4 | Drawing |\n|---|---|---|---|---|---|---|---|---|\n| Code | SRV | - | HD | - | X2 | - | BR15 | SRV-HD-X2-BR15 (https://rheonics.com/wp-content/uploads/2025/09/SRV-HD-X2-BR15.pdf) |\n\nDescription: Short probe variant of the SRV inline process viscometer, hygienic design without certification, and RJT 1.5\" process connection.\n\nFigure 10 - SRV-HD-X2-BR15: Short probe with RJT coupling\n\nIDF Couplings\n\nIDF (International Dairy Federation) unions provide reliable hygienic connections primarily in dairy, brewery, and pharmaceutical industries where strict hygiene standards are essential. Their design includes a male threaded part, liner, nut, and seal, all built to also meet standards BS 4825 and ISO 2037.\n\nThough less common than other union types, IDF couplings are valued for their dependable performance in applications demanding high reliability and cleanliness. Their specialized construction makes them a trusted choice for maintaining system integrity in environments with uncompromising hygiene requirements.\n\nComponents:\n* Male threaded part\n* T-shaped Seal ring\n* Liner\n* Hexagon nut",
+      "specifications": {
+        "BR20_size": "2\"",
+        "BR25_size": "2.5\"",
+        "BR30_size": "3\"",
+        "BR40_size": "4\"",
+        "RJT_process_connection": "1.5\""
+      },
+      "key_facts": [
+        "Larger sizes are available, and custom configurations can be obtained by contacting support.",
+        "SRV-HD-X2-BR15 is a short probe variant of the SRV inline process viscometer.",
+        "The SRV-HD-X2-BR15 features a hygienic design without certification and an RJT 1.5\" process connection.",
+        "IDF (International Dairy Federation) unions provide reliable hygienic connections.",
+        "IDF couplings are primarily used in dairy, brewery, and pharmaceutical industries requiring strict hygiene standards.",
+        "The design of IDF couplings includes a male threaded part, liner, nut, and seal.",
+        "IDF couplings meet BS 4825 and ISO 2037 standards.",
+        "IDF couplings are valued for their dependable performance in applications demanding high reliability and cleanliness.",
+        "The specialized construction of IDF couplings makes them a trusted choice for maintaining system integrity in environments with uncompromising hygiene requirements."
+      ],
+      "diagram_labels": [
+        "Figure 10 - SRV-HD-X2-BR15: Short probe with RJT coupling"
+      ],
+      "warnings_notes": [
+        "Note: Larger sizes are also available. For more information or custom configurations, please contact our support team."
+      ],
+      "page_num": 11,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 852,
+        "cost_usd": 0.0022697999999999998
+      },
+      "source_file": "188_SRV_Hygienic_Process_Connection_and_Coupling_Options.pdf"
+    },
+    {
+      "page_summary": "This page details the IDF Coupling pipe connection, provides instructions for creating a Rheonics inline viscometer ordering code, and lists available hygienic certifications and connection sizes.",
+      "document_type": "manual",
+      "product_names": [
+        "Inline process Viscometer",
+        "SRV-X2: Inline Process Viscometer with Custom Flange",
+        "SRV-X5: Inline Process Viscometer with long insertion and custom connection"
+      ],
+      "extracted_text": "IDF Coupling\n\nFigure 11 - IDF Coupling Pipe connection [1]\n\nHow to create an ordering code:\nCode Element | Description\n------------ | -----------\nSRV          | Product family: Inline process Viscometer\nHD / HS      | Hygienic design and certification:\n             |   **HD**: Sensor with hygienic design only, no hygienic certification (standard)\n             |   **HS**: Sensor with hygienic design and certification. Requires specifying the desired certification on the order:\n             |     * EHEDG\n             |     * 3-A\nX2 / X5      | Variant design:\n             |   **X2**: Short Probe with custom connection\n             |   **X5**: Long Insertion Probe with custom process connection. Requires specification of the insertion length in millimeters (AXXX)\n             |   For more information, please refer to:\n             |     * SRV-X2: Inline Process Viscometer with Custom Flange (https://support.rheonics.com/en/support/solutions/articles/81000410684)\n             |     * SRV-X5: Inline Process Viscometer with long insertion and custom connection (https://support.rheonics.com/en/support/solutions/articles/81000411102)\nAXXX         | Insertion length (in mm): Only for the X5 variant\nBIXX         | Denotes the coupling type and defines the size of the IDF connection required, expressed in inches (the first number is an integer, and the second decimal).\n\nSizes available:\n* BI15: 1.5\"\n* BI20: 2\"\n* BI25: 2.5\"\n* BI30: 3\"",
+      "specifications": {
+        "insertion_length": "AXXX mm (for X5 variant only)",
+        "idf_connection_size_unit": "inches",
+        "idf_connection_sizes_available": "1.5\", 2\", 2.5\", 3\""
+      },
+      "key_facts": [
+        "The page describes the components of an IDF Coupling pipe connection.",
+        "The ordering code for Rheonics inline process viscometers includes elements for product family, hygienic design, probe variant, insertion length, and coupling type and size.",
+        "SRV is the code element for the Inline process Viscometer product family.",
+        "HD signifies a sensor with hygienic design only, without hygienic certification.",
+        "HS signifies a sensor with hygienic design and certification, requiring specification of EHEDG or 3-A certification.",
+        "X2 indicates a short probe with a custom connection.",
+        "X5 indicates a long insertion probe with a custom process connection, requiring a specified insertion length in millimeters (AXXX).",
+        "AXXX specifies the insertion length in millimeters, which is applicable only for the X5 variant.",
+        "BIXX denotes the IDF coupling type and its size, expressed in inches, where the first number is an integer and the second is a decimal.",
+        "Available IDF connection sizes are 1.5\", 2\", 2.5\", and 3\"."
+      ],
+      "diagram_labels": [
+        "IDF Coupling",
+        "Hexagon nut",
+        "Weld liner",
+        "Seal ring",
+        "Weld male",
+        "BS 4825-1 Tube"
+      ],
+      "warnings_notes": [
+        "HD: Sensor with hygienic design only, no hygienic certification (standard).",
+        "HS: Sensor with hygienic design and certification. Requires specifying the desired certification on the order.",
+        "X5: Long Insertion Probe with custom process connection. Requires specification of the insertion length in millimeters (AXXX).",
+        "AXXX: Insertion length (in mm): Only for the X5 variant.",
+        "BIXX: Denotes the coupling type and defines the size of the IDF connection required, expressed in inches (the first number is an integer, and the second decimal)."
+      ],
+      "page_num": 12,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1021,
+        "cost_usd": 0.0026923
+      },
+      "source_file": "188_SRV_Hygienic_Process_Connection_and_Coupling_Options.pdf"
+    },
+    {
+      "page_summary": "This page describes the SRV-HD-X2-BI15 short probe inline process viscometer variant, its IDF 1.5\" process connection, and the importance of hygienic couplings in sanitary processes.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRV inline process viscometer",
+        "SRV-HD-X2-BI15",
+        "Rheonics SRV sensor"
+      ],
+      "extracted_text": "• BI40: 4”\nNote: Larger sizes are also available. For more information or custom configurations, please contact our support team.\nExample:\nPosition | 1 | - | 3 | - | 2 | - | 4 | Drawing\nCode     | SRV | - | HD | - | X2 | - | BI15 | SRV-HD-X2-BI15\n(https://rheonics.com/wp-content/uploads/2025/09/SRV-HD-X2-BI15.pdf)\nDescription: Short probe variant of the SRV inline process viscometer, hygienic design without certification, and IDF 1.5” process connection.\nFigure 12 - SRV-HD-X2-BI15: Short probe with IDF coupling\nConclusion\nSelecting the proper hygienic coupling is crucial for maintaining process integrity, ensuring cleanliness, and complying with industry standards in sanitary processes. Each Tri-Clamp, DIN 11851, SMS, RJT, and IDF has distinct properties to consider.\nRheonics SRV sensor features process connections that accept all these sanitary coupling designs, getting great flexibility and enabling plug-in integration into any sanitary system without requiring major piping modifications.",
+      "specifications": {
+        "BI40_size": "4 inch",
+        "process_connection_size": "1.5 inch"
+      },
+      "key_facts": [
+        "Larger sizes of the product are available.",
+        "For more information or custom configurations, customers should contact the support team.",
+        "The SRV-HD-X2-BI15 is a short probe variant of the SRV inline process viscometer.",
+        "The SRV-HD-X2-BI15 features a hygienic design without certification.",
+        "The SRV-HD-X2-BI15 has an IDF 1.5\" process connection.",
+        "Selecting the proper hygienic coupling is crucial for maintaining process integrity, ensuring cleanliness, and complying with industry standards in sanitary processes.",
+        "Industry standards for sanitary process couplings include Tri-Clamp, DIN 11851, SMS, RJT, and IDF, each having distinct properties.",
+        "Rheonics SRV sensors feature process connections that accept various sanitary coupling designs.",
+        "Rheonics SRV sensors provide great flexibility and enable plug-in integration into any sanitary system without requiring major piping modifications."
+      ],
+      "diagram_labels": [
+        "Figure 12 - SRV-HD-X2-BI15: Short probe with IDF coupling"
+      ],
+      "warnings_notes": [
+        "Note: Larger sizes are also available. For more information or custom configurations, please contact our support team."
+      ],
+      "page_num": 13,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 733,
+        "cost_usd": 0.0019723
+      },
+      "source_file": "188_SRV_Hygienic_Process_Connection_and_Coupling_Options.pdf"
+    },
+    {
+      "page_summary": "This page provides a list of references, specifically one pertaining to the types of connections for sanitary tubes.",
+      "document_type": "notes",
+      "product_names": [],
+      "extracted_text": "References (https://www.sanitaryfittings-cad.com/Articles/The-6-connection-types-for-sanitary-tubes)\n\n[1] Sanitary Fittings CAD, “The 6 connection types for sanitary tubes”. https://www.sanitaryfittings-cad.com/Articles/The-6-connection-types-for-sanitary-tubes (https://www.sanitaryfittings-cad.com/Articles/The-6-connection-types-for-sanitary-tubes)",
+      "specifications": {},
+      "key_facts": [
+        "The page lists a reference titled \"The 6 connection types for sanitary tubes\" from Sanitary Fittings CAD.",
+        "The reference is accessible via the URL: https://www.sanitaryfittings-cad.com/Articles/The-6-connection-types-for-sanitary-tubes."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 14,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 277,
+        "cost_usd": 0.0008323
+      },
+      "source_file": "188_SRV_Hygienic_Process_Connection_and_Coupling_Options.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

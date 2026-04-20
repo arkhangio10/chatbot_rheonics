@@ -1,0 +1,211 @@
+{
+  "source_file": "102_LoRaWAN_Fundamentals.pdf",
+  "total_pages": 3,
+  "chunks": [
+    {
+      "page_summary": "This page provides a fundamental overview of LoRaWAN technology, detailing its definition, key characteristics, architectural components, and the Over The Air Activation (OTAA) process for device connection.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "Rheonics sensors"
+      ],
+      "extracted_text": [
+        "Phone: +1 713 234 0863",
+        "LoRaWAN Fundamentals",
+        "Modified on: Fri, 14 Nov, 2025 at 11:31 PM",
+        "TABLE OF CONTENTS",
+        "1. What is LoRaWAN?",
+        "2. LoRaWAN Characteristics",
+        "3. LoRaWAN components",
+        "4. LoRaWAN Connection",
+        "  4.1. Over The Air Activation (OTAA)",
+        "  4.2. Activation By Personalization",
+        "5. LoRaWAN messages",
+        "6. LoRaWAN Classes",
+        "7. LoRaWAN Regions specification",
+        "8. LoRaWAN Network Servers",
+        "9. LoRaWAN applications",
+        "10. References",
+        "1. What is LoRaWAN?",
+        "LoRaWAN stands for Low Power, Wide Area Network. It is a communication protocol that allows devices to connect to the internet wirelessly [1]. LoRaWAN is the software layer that defines how devices use LoRa, which is the technique that encodes information on radio waves using chirp pulses, making it robust against interference [2].",
+        "2. LoRaWAN Characteristics",
+        "- Useful for transmitting small-sized payloads like Rheonics sensor data over long distances (up to 10km)[3].",
+        "- Low power consumption.",
+        "- AES-128 encryption ensures secure communication.",
+        "- Bidirectional communication, which means the devices can send and receive data.",
+        "3. LoRaWAN components",
+        "1. End devices: devices that send or receive messages via a gateway.",
+        "2. Gateways: intermediary that connects end devices with the network server via the internet.",
+        "3. Network Server: software that manages the LoRaWAN network.",
+        "4. Application servers: responsible for processing and visualizing the data.",
+        "Figure 1: LoRaWAN architecture [4]",
+        "4. LoRaWAN Connection",
+        "For end devices to communicate, they must be registered on a LoRaWAN network server [5]. There are two activation methods: OTAA and ABP.",
+        "4.1. Over The Air Activation (OTAA)",
+        "It is a secure and recommended activation method. It consists of a join procedure with the network, where security keys are generated.",
+        "Prior to activation",
+        "3 main variables should be defined in the end device and Network Server to make the connection.",
+        "- AppEUI (JoinEUI): provided by the device or can be randomly generated in the network, and is used to identify the Join Server, which assists during the join procedure.",
+        "- DevEUI: unique identifier of the device, typically assigned by the manufacturer.",
+        "- AppKey: secret key that should be used by the network where the end device will register.",
+        "Procedure",
+        "1. End device sends a join-request to the network.",
+        "2. The network verifies the request and generates session keys (AppSKey and NwkSKey) if the device is allowed to join."
+      ],
+      "specifications": {
+        "transmission_distance": "up to 10 km",
+        "encryption_standard": "AES-128",
+        "secure_payload_protocol": "TCP/IP TLS1.2"
+      },
+      "key_facts": [
+        "LoRaWAN stands for Low Power, Wide Area Network (LPWAN).",
+        "LoRaWAN is a communication protocol that enables devices to connect wirelessly to the internet.",
+        "LoRa is the underlying technique for LoRaWAN, encoding information on radio waves using chirp pulses, which makes it robust against interference.",
+        "LoRaWAN is suitable for transmitting small-sized payloads, such as Rheonics sensor data, over long distances up to 10km.",
+        "AES-128 encryption is utilized in LoRaWAN to ensure secure communication.",
+        "LoRaWAN supports bidirectional communication, meaning devices can both send and receive data.",
+        "The primary components of a LoRaWAN architecture are End devices, Gateways, Network Servers, and Application servers.",
+        "End devices must be registered on a LoRaWAN network server to enable communication.",
+        "Over The Air Activation (OTAA) is a secure and recommended method for device activation in a LoRaWAN network.",
+        "Prior to OTAA, three main variables must be defined: AppEUI (JoinEUI) to identify the Join Server, DevEUI as a unique device identifier, and AppKey as a secret key for network registration.",
+        "During the OTAA procedure, an end device sends a join-request, and the network verifies it to generate session keys (AppSKey and NwkSKey) if the device is permitted to join."
+      ],
+      "diagram_labels": [
+        "End Nodes",
+        "Concentrator / Gateway",
+        "Network Server",
+        "Application Server",
+        "Pet tracking",
+        "Vending machine",
+        "Smoke alarm",
+        "Trash container",
+        "Water meter",
+        "LoRa RF LoRaWAN",
+        "LTE/M/Ethernet",
+        "TCP/IP TLS1.2 LoRaWAN",
+        "TCP/IP TLS1.2 Secure Payload",
+        "AES-Secured Payload",
+        "Figure 1: LoRaWAN architecture [4]"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1302,
+        "cost_usd": 0.0033948
+      },
+      "source_file": "102_LoRaWAN_Fundamentals.pdf"
+    },
+    {
+      "page_summary": "This page details LoRaWAN Over-the-Air Activation (OTAA) and Activation By Personalization (ABP) procedures, explains LoRaWAN message types, communication classes, regional specifications, lists common network servers, and outlines typical LoRaWAN applications.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "The Things Network (TTN)",
+        "ThingPark (Actility)",
+        "Helium",
+        "Senra",
+        "Swisscom",
+        "ChirpStack",
+        "AWS IoT Core for LoRaWAN",
+        "Ignition"
+      ],
+      "extracted_text": "3. The network server sends a join-accept message back to the device.\n4. Network server keeps the NwkSKey previously generated and sends the AppSKey to the application server.\n5. End device decrypts the join-accept message and gets the two session keys (AppSKey and NwkSKey), and now it is activated.\n\nFigure 2: LoRaWAN OTAA procedure [5]\n\n4.2. Activation By Personalization\nIt is a simpler but less secure activation method.\nProcedure\n1. DevAddr, NwkSKey, and AppSKey are stored on the end device.\n2. DevAddr and NwkSKey are also stored in the network server.\n3. AppSKey is stored in the application server.\n\n5. LoRaWAN messages\n*   Uplink messages: sent by the end device to the network server through a gateway.\n*   Downlink messages: sent by the network server to an end device through a gateway.\nEnd devices can’t send uplink messages while receiving downlink messages.\n\n6. LoRaWAN Classes\nLoRaWAN has different device types, which determine the communication [6].\n*   Class A: sends uplink messages at any time\n*   Class B: receives periodic downlink messages. Low latency for downlink\n*   Class C: can receive downlink messages at almost any time. Lowest latency, but highest power consumption.\n\n7. LoRaWAN Regions specification\nLoRaWAN allows users to use unlicensed radio frequencies, which makes it a low-cost option. These frequencies enable long-range communication, and for this reason, specific bands are assigned to different regions according to regulations. The frequency plans can be found at Frequency Plans (https://www.thethingsnetwork.org/docs/lorawan/frequency-plans/). To check the regional parameters depending on the country, refer to RP002-1.0.4 Regional Parameters (https://resources.lora-alliance.org/technical-specifications/rp002-1-0-4-regional-parameters). In countries without a specified LoRaWAN plan, it is possible to use end devices or gateways that follow another regional channel plan.\n\n8. LoRaWAN Network Servers\nAs mentioned before, network servers are necessary to manage messages and connections. Some of the most widely used are:\n*   The Things Network (TTN)\n*   ThingPark (Actility)\n*   Helium\n*   Senra\n*   Swisscom\n*   ChirpStack\n\n9. LoRaWAN applications\n1. Remote Monitoring\n    Send sensor data to a gateway and visualize it through a LoRaWAN network server remotely.\n2. Integration with AWS\n    AWS IoT Core for LoRaWAN provides a managed LoRaWAN Network Server, enabling direct integration of device data into AWS services.\n3. Integration with MQTT\n    The Things Network server has the option to work as an MQTT server, which can be connected to Ignition to receive data and visualize it remotely.",
+      "specifications": {},
+      "key_facts": [
+        "During Over-the-Air Activation (OTAA), the network server sends a join-accept message back to the device.",
+        "In the OTAA process, the network server manages the NwkSKey and sends the AppSKey to the application server.",
+        "An end device becomes activated after decrypting the join-accept message and obtaining both AppSKey and NwkSKey.",
+        "Activation By Personalization (ABP) is a simpler but less secure method for device activation.",
+        "For ABP, DevAddr, NwkSKey, and AppSKey are pre-stored on the end device, with DevAddr and NwkSKey also on the network server, and AppSKey on the application server.",
+        "Uplink messages are transmitted from an end device to the network server via a gateway.",
+        "Downlink messages are transmitted from the network server to an end device via a gateway.",
+        "LoRaWAN end devices are unable to send uplink messages while simultaneously receiving downlink messages.",
+        "LoRaWAN defines different device classes (Class A, B, C) that dictate communication behavior.",
+        "Class A devices can send uplink messages at any time.",
+        "Class B devices receive periodic downlink messages with low latency.",
+        "Class C devices can receive downlink messages almost continuously, offering the lowest latency but requiring the highest power consumption.",
+        "LoRaWAN uses unlicensed radio frequencies, offering a low-cost and long-range communication solution.",
+        "Specific frequency bands for LoRaWAN are assigned by regional regulations, with resources available for frequency plans and regional parameters.",
+        "Network servers are essential for managing LoRaWAN connections and messages.",
+        "Key LoRaWAN applications include remote monitoring, integration with AWS IoT Core, and integration with MQTT.",
+        "AWS IoT Core for LoRaWAN offers a managed network server for direct integration of device data into AWS services.",
+        "The Things Network server can function as an MQTT server, enabling data reception and visualization via platforms like Ignition."
+      ],
+      "diagram_labels": [
+        "End Device",
+        "Network Server",
+        "Application Server",
+        "Definition of DevEUI, JoinEUI, AppKey",
+        "1. Join-Request",
+        "2. Network verifies. Generates AppSKey and NwkSKey",
+        "3. Join Accept message",
+        "4. Sends AppSKey",
+        "5. obtains AppSKey and NwkSKey",
+        "Figure 2: LoRaWAN OTAA procedure [5]"
+      ],
+      "warnings_notes": [
+        "Activation By Personalization is a simpler but less secure activation method.",
+        "Class C devices have the highest power consumption.",
+        "In countries without a specified LoRaWAN plan, it is possible to use end devices or gateways that follow another regional channel plan."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1461,
+        "cost_usd": 0.0037923
+      },
+      "source_file": "102_LoRaWAN_Fundamentals.pdf"
+    },
+    {
+      "page_summary": "This page provides an overview of integrating LoRaWAN with Ignition, detailing the setup for Rheonics sensors using various converters and gateways, along with a list of references for LoRaWAN fundamentals.",
+      "document_type": "manual",
+      "product_names": [
+        "SenseCAP M2 LoRaWAN gateway",
+        "LoRaWAN/Modbus TCP Master Converter",
+        "RS485-LN LoRaWAN Converter",
+        "Rheonics Sensors (SRV)",
+        "Rheonics Sensors (SRD)",
+        "Rheonics Sensors (DVP)",
+        "Rheonics SME",
+        "Ignition",
+        "The Things Stack"
+      ],
+      "extracted_text": "Figure 3: Integration of LoRaWAN with Ignition\n\nTo configure the SenseCAP M2 LoRaWAN gateway refer to the following article Configuring LoRaWAN Gateway for Remote Data Visualization of Rheonics Sensors (https://rheonics.com/wiki/configuring-lorawan-gateway-for-remote-data-visualization-of-rheonics-sensors/)\n\nTo use a LoRaWAN/Modbus TCP Master Converter for Remote Data Visualization of Rheonics Sensors refer to Using LoRaWAN/Modbus TCP Master Converter for Remote Data Visualization of Rheonics Sensors (https://rheonics.com/wiki/using-lorawan-modbus-tcp-master-converter-for-remote-data-visualization-of-rheonics-sensors/)\n\nTo use a LoRaWAN/RS485 Converter for Remote Data Visualization of Rheonics Sensors refer to Using RS485-LN LoRaWAN Converter for Rheonics Sensors Remote Data Visualization of Rheonics Sensors (https://rheonics.com/wiki/using-rs485-ln-lorawan-converter-for-rheonics-sensors-remote-data-visualization-of-rheonics-sensors/)\n\n10. References\n[1] What is LoRaWAN® Specification (https://lora-alliance.org/about-lorawan-old/)\n[2] What are LoRa and LoRaWAN? (https://www.thethingsnetwork.org/docs/lorawan/what-is-lorawan/)\n[3] Understanding LoRaWAN Fundamentals (https://www.thethingsindustries.com/docs/getting-started/1-understand-lorawan/)\n[4] LoRaWAN Architecture (https://www.thethingsnetwork.org/docs/lorawan/architecture/)\n[5] End Device Activation (https://www.thethingsnetwork.org/docs/lorawan/end-device-activation/)\n[6] Device Classes (https://www.thethingsnetwork.org/docs/lorawan/classes/)",
+      "specifications": {},
+      "key_facts": [
+        "The document provides instructions for configuring the SenseCAP M2 LoRaWAN gateway for remote data visualization of Rheonics sensors.",
+        "It details the usage of LoRaWAN/Modbus TCP Master Converters for remote data visualization of Rheonics sensors.",
+        "The page also covers the application of LoRaWAN/RS485 Converters for remote data visualization of Rheonics sensors.",
+        "A diagram illustrates the integration of various components including a device with Ignition, an Internet Access Point, a SenseCAP M2 gateway, Rheonics SME devices, and Rheonics sensors with Modbus TCP and Modbus RTU LoRaWAN converters.",
+        "The document includes a reference section with external links for understanding LoRaWAN specifications, architecture, fundamentals, and device classes."
+      ],
+      "diagram_labels": [
+        "Device with Ignition",
+        "Ignition",
+        "THE THINGS STACK",
+        "Internet Access Point",
+        "Ethernet",
+        "SenseCAP M2",
+        "LoRaWAN/Ethernet Front",
+        "Modbus TCP",
+        "Rheonics SME",
+        "Rheonics Sensors (eg. SRV, SRD, DVP, others) for density, viscosity, temperature",
+        "Modbus RTU",
+        "RS485-LN"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 926,
+        "cost_usd": 0.0024547999999999996
+      },
+      "source_file": "102_LoRaWAN_Fundamentals.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "source_file": "116_Linear_model_-_Temperature_compensated_density.pdf",
+  "total_pages": 4,
+  "chunks": [
+    {
+      "page_summary": "This document explains the linear model for temperature-compensated density, including the mathematical formula, key concepts, and data collection considerations for Rheonics sensors.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics Control Panel (RCP)",
+        "Smart Module Electronics (SME)",
+        "SRD",
+        "DVP",
+        "DVM"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nLinear model - Temperature compensated density\n\nModified on: Fri, 18 Aug, 2023 at 4:29 PM\n\nWhat products are involved in this article?\nThis article is based on the use of RCP (Rheonics Control Panel) (https://support.rheonics.com/en/support/solutions/articles/81000297177-running-the-rcp-program) connected to the SME (Smart Module Electronics) operating SRD (https://rheonics.com/products/inline-density-meter-srd/), DVP (https://rheonics.com/products/inline-gas-lng-density-meter-dvp/), and DVM (https://rheonics.com/products/hpht-pvt-density-viscometer-dvm/). Hence it can be used for any of these Rheonics sensors.\n\nWhat is the purpose of this article?\nExplain the process to get a temperature compensated density when it has a linear trend. Usual applications are with fluids with a linear dependency on temperature.\n\n1. Temperature-compensated Density\n\nDensity, defined as the substance's mass per unit of volume is an important fluid property that has an increasing presence in monitoring processes and control systems.\n\nDensity is affected by temperature and pressure. For most liquids, the Density decreases with temperature. As pressure increases, the density of any stable material also increases, markedly in gases, and almost negligibly in liquids and solids.\n\nIn most cases, we want to monitor the fluid density at a constant reference temperature. If the process temperature isn't constant, an additional source of error to the control system is added. To avoid the temperature dependence on the fluid's density and truly monitor its consistency, the temperature compensated density is introduced.\n\nTo compensate for temperature effects, the Rheonics Control Panel offers the following models Linear, Polynomial, or ASTM functions.\n\n2. Math model\n\nThe SRD (https://rheonics.com/products/inline-density-meter-srd/) sensor can measure inline density, viscosity, and temperature. With the use of mathematical models, temperature compensated measurements can be obtained.\n\nBelow is the mathematical formula for the density linear model used in the RCP (Rheonics software).\n\nρcomp = ρL + A * (Tref - T)\n\nEquation 1: Density Linear Model.\n\nWhere:\nρcomp - Compensated density, calculated by the Sensor.\nρL - Line density, read by the Sensor.\nA - Coefficient, specified by the user.\nT - Temperature, read by the Sensor.\nTref - Reference temperature, is the temperature around which the Sensor will compensate for the readings. This is defined and should be specified by the user.\n\n3. Checking the data\n\nThe first step to achieving a compensated density requires the user to take samples of density at different temperatures, these temperatures must be higher and lower than the operation temperature range in your process. Once enough data is obtained (to see the linear behavior), the user should define the reference temperature. For this example, the blue point (15°C) is used as the typical set-point temperature of the process line.\n\nThe following steps outline the correct procedure for data analysis:",
+      "specifications": {
+        "typical_set_point_temperature": "15°C"
+      },
+      "key_facts": [
+        "Density is defined as the substance's mass per unit of volume and is an important fluid property.",
+        "Density is affected by temperature and pressure.",
+        "For most liquids, density decreases with temperature, while in gases it increases markedly, and in solids/liquids it increases almost negligibly with pressure.",
+        "Temperature compensated density is introduced to monitor fluid consistency by avoiding temperature dependence when process temperature isn't constant.",
+        "The Rheonics Control Panel offers Linear, Polynomial, or ASTM functions for temperature compensation.",
+        "The SRD sensor can measure inline density, viscosity, and temperature.",
+        "The mathematical formula for the density linear model used in the RCP is ρcomp = ρL + A * (Tref - T).",
+        "Achieving compensated density requires taking density samples at temperatures both higher and lower than the operation range to observe linear behavior.",
+        "The reference temperature (Tref) for compensation is defined and specified by the user."
+      ],
+      "diagram_labels": [
+        "Equation 1: Density Linear Model."
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1115,
+        "cost_usd": 0.0029273
+      },
+      "source_file": "116_Linear_model_-_Temperature_compensated_density.pdf"
+    },
+    {
+      "page_summary": "This page details a procedure for calculating temperature-compensated density, including selecting reference data, plotting density versus temperature, determining the slope (coefficient A), and applying a compensation formula.",
+      "document_type": "manual",
+      "product_names": [
+        "Sensor",
+        "RCP software"
+      ],
+      "extracted_text": "3.1. Select the reference temperature and density from data obtained in tests. Here, reference temperature and density are highlighted in blue in the next Table, we want to create a correlation at 15°C where we expect a density of 1.00 g/cc.\n\nTable 1. Data points from inline measurements.\n| Temperature [°C] | Density [g/cc] |\n|------------------|----------------|\n| 0                | 1.75           |\n| 5                | 1.50           |\n| 10               | 1.25           |\n| 15               | 1.00           |\n| 20               | 0.75           |\n| 25               | 0.50           |\n| 30               | 0.25           |\n\n3.2. Plot data points of Density vs Temperature to study the behavior of the data. In this scenario, a straight line can represent the data behavior.\n\nFigure 1: Plot chart Density vs Temperature\n\n3.3. To obtain coefficient A from equation 1, which is the slope of the line, we need to calculate it with the following equation 2. Another way to obtain the A coefficients is using the linear regression method.\n\nEquation 2. Slope calculation\nA = (ρ₂ - ρ₁) / (T₂ - T₁)\n\nIn that way, the calculated coefficient would be A = -0.05. Then we need to calculate the density compensated with Equation 1.\n\nTable 2. Compensated density calculation table.\n| ρcomp = ρL + A (Tref - T) @15 °C | Results |\n|------------------------------------|---------|\n| ρcomp = 1.75 -0.05 (15- 0) @15 °C  | 1       |\n| ρcomp = 1.50 -0.05 (15- 5) @15 °C  | 1       |\n| ρcomp = 1.25 -0.05 (15- 10) @15 °C | 1       |\n| ρcomp = 1.10 -0.05 (15- 15) @15 °C | 1       |\n| ρcomp = 1.00 -0.05 (15- 20) @15 °C | 1       |\n| ρcomp = 0.85 -0.05 (15- 25) @15 °C | 1       |\n| ρcomp = 0.75 -0.05 (15- 30) @15 °C | 1       |\n\nWith all the input parameters set on the Sensor through the RCP software, the temperature compensated viscosity will look like the next graph in Figure 2.",
+      "specifications": {
+        "Reference Temperature": "15 °C",
+        "Expected Density at Reference Temperature": "1.00 g/cc",
+        "Coefficient A (Slope)": "-0.05",
+        "Compensated Density (ρcomp) Results": "1"
+      },
+      "key_facts": [
+        "The document outlines a process to create a density-temperature correlation using inline measurement data.",
+        "The correlation aims to achieve an expected density of 1.00 g/cc at a reference temperature of 15°C.",
+        "A linear relationship is assumed to represent the behavior of density versus temperature data.",
+        "Coefficient A, representing the slope of the line, is calculated using Equation 2 or the linear regression method.",
+        "The calculated coefficient A is -0.05.",
+        "After applying the compensation formula, the compensated density (ρcomp) for various temperatures at a 15°C reference consistently yields a result of 1.",
+        "The input parameters for compensation are set using the RCP software on the Sensor."
+      ],
+      "diagram_labels": [
+        "Density vs Temperature",
+        "ρ [g/cc]",
+        "T [°C]"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1030,
+        "cost_usd": 0.0027148
+      },
+      "source_file": "116_Linear_model_-_Temperature_compensated_density.pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions on how to load and configure thermal compensation models for density into Rheonics sensor electronics using the Rheonics Control Panel software, illustrated with a graph of compensated density and a screenshot of the software interface.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics",
+        "RCP",
+        "Rheonics Control Panel",
+        "Sensor electronics",
+        "SME-TRD"
+      ],
+      "extracted_text": "Density vs Temperature\nFigure 2. Expected results when applying the mathematical model.\n\n4. How to load models into the Sensor electronics?\n\nThe calculation tab on RCP allows configuring the Sensor to run mathematical models for viscosity, density, and concentration. Expert mode needs to be enabled for this.\n\nRheonics Control Panel 5.4.0.6\nMeasurement | Events | Settings | Service | Communication | Scaling | Calculation | Logger | Help\nAdvanced Calculations | Thermal Compensation of Density, Viscosity\nSelect Measurement to Apply Model: Density\nSelect Model from List: Density Linear Model\nCalculated Value: 1 mPa.s\nStatus: [red dot]\nTemperature Compensated Density Linear Model\nA: 0 (labeled 3)\nTref [°C]: 0 (labeled 4)\nUnits: g/cc\nρcomp = ρL + A · (Tref − T)\nUPLOAD MODEL (labeled 5)\nLCD Display (for TRD Only) Select Line to Display: Line 1\nLoad Configuration (labeled 6)\nOutput on 4-20 mA channel Select channel number: Ch2\nAccess measurement with applied model over Modbus RTU/TCP register: 200\nCalculation History (labeled 7)\nFigure 3. Calculation tab for the linear model of density.\n\nThe following steps are needed to load the models into the Sensor electronics:\n1. In the dropdown list “Select Measurement to Apply Model” and choose “Density”.\n2. In “Select Model from list” select the model you would like to use for the specific parameter. When you select the model, you will get more information about the specific equation used and the coefficients you will need to apply to that model. Select “Density Linear Model”\n3. Input A calculated coefficient. For this example, it has a value of -0.05.\n4. Input reference temperature is used to find the coefficients models. In this example is 15°C.\n5. Click “Upload Model” to load the model settings into Sensor electronics. The button should turn GREEN for a couple of seconds if the action was successful or turn RED if the operation was unsuccessful. This action will refresh the values for the uncompensated and compensated indicators. Here you can verify if the model is calculating the expected values. If not, you can correct and repeat the process.\n6. Click “Load Configuration” to update the display and channel configurations in Sensor electronics.\n\n4.1. Handling Sensor Outputs\n\nFor the SME-TRD, the compensated viscosity values can be shown on the display. Select the line to display the parameter:",
+      "specifications": {
+        "A coefficient (example)": "-0.05",
+        "Reference Temperature (Tref) (example)": "15 °C",
+        "Rheonics Control Panel Version": "5.4.0.6",
+        "Output 4-20 mA channel": "Ch2",
+        "Modbus RTU/TCP register": "200",
+        "Calculated Value Display Unit (in UI)": "mPa.s",
+        "Density Unit (in UI)": "g/cc"
+      },
+      "key_facts": [
+        "The Rheonics Control Panel (RCP) calculation tab is used to configure mathematical models for viscosity, density, and concentration.",
+        "Expert mode must be enabled in RCP to access these advanced calculation features.",
+        "The density compensation model uses the equation: ρcomp = ρL + A · (Tref − T).",
+        "Clicking 'Upload Model' loads the configured model settings into the sensor electronics.",
+        "The 'Upload Model' button provides visual feedback (GREEN for success, RED for failure).",
+        "After uploading, the uncompensated and compensated indicator values refresh, allowing users to verify the model's accuracy.",
+        "The 'Load Configuration' button updates the display and channel configurations in the sensor electronics.",
+        "For the SME-TRD, compensated viscosity values can be displayed.",
+        "The page describes the process to apply a 'Density Linear Model'."
+      ],
+      "diagram_labels": [
+        "Density vs Temperature",
+        "ρ [g/cc]",
+        "T [°C]",
+        "Density",
+        "Compensated Density",
+        "Rheonics Control Panel 5.4.0.6",
+        "Measurement",
+        "Events",
+        "Settings",
+        "Service",
+        "Communication",
+        "Scaling",
+        "Calculation",
+        "Logger",
+        "Help",
+        "Advanced Calculations | Thermal Compensation of Density, Viscosity",
+        "Select Measurement to Apply Model",
+        "Density",
+        "Select Model from List",
+        "Density Linear Model",
+        "Calculated Value",
+        "1 mPa.s",
+        "Status",
+        "Temperature Compensated Density Linear Model",
+        "A",
+        "Tref [°C]",
+        "Units",
+        "g/cc",
+        "ρcomp = ρL + A · (Tref − T)",
+        "UPLOAD MODEL",
+        "LCD Display (for TRD Only) Select Line to Display",
+        "Line 1",
+        "Load Configuration",
+        "Output on 4-20 mA channel Select channel number",
+        "Ch2",
+        "Access measurement with applied model over Modbus RTU/TCP register",
+        "200",
+        "Calculation History"
+      ],
+      "warnings_notes": [
+        "Expert mode needs to be enabled for configuring mathematical models in the calculation tab.",
+        "The 'Upload Model' button turning RED indicates an unsuccessful operation, requiring correction and re-attempt.",
+        "It is important to verify if the model is calculating the expected values after uploading."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1406,
+        "cost_usd": 0.0036547999999999997
+      },
+      "source_file": "116_Linear_model_-_Temperature_compensated_density.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions on configuring LCD display lines and analog output channels for Rheonics devices, details Modbus RTU/TCP register access for measurements, and references a demonstration video for loading density linear models into Rheonics sensors.",
+      "document_type": "manual",
+      "product_names": [
+        "TRD",
+        "Rheonics sensor"
+      ],
+      "extracted_text": "LCD Display (for TRD Only)\nSelect Line to Display\nNone\nLine 1\nLine 2\nLine 3\nOutput on 4-20 mA channel\nSelect channel number\nFigure 4. Selecting read line for LCD display.\nSelect the analog channel to send data, this can be verified in the “Service” Tab\nOutput on 4-20 mA channel\nSelect channel number\nNone\nCh1\nCh2\nCh3\nModbus RTU/TCP register\nFigure 5. Selecting analog output channel\nMeasurement can always be accessed at the register address that is displayed.\nAccess measurement with applied model over Modbus RTU/TCP register\n208\nFigure 6. Modbus TCP/IP register\n4.2 Demonstration Video\nHow to load the density linear model into the Rheonics sens\nrheonics\nWatch on\nVideo 1. Configuration Density Linear model in RPC Software.",
+      "specifications": {},
+      "key_facts": [
+        "The LCD display configuration allows selecting between 'None', 'Line 1', 'Line 2', or 'Line 3' for TRD models.",
+        "Analog output channels for 4-20 mA can be configured to 'None', 'Ch1', 'Ch2', or 'Ch3'.",
+        "The selection of the analog channel for data transmission can be verified in the 'Service' Tab.",
+        "Measurement data, including an applied model, is accessible via Modbus RTU/TCP at register address 208.",
+        "A demonstration video (Video 1) explains how to configure a density linear model in RPC Software for Rheonics sensors."
+      ],
+      "diagram_labels": [
+        "LCD Display (for TRD Only)",
+        "Select Line to Display",
+        "None",
+        "Line 1",
+        "Line 2",
+        "Line 3",
+        "Output on 4-20 mA channel",
+        "Select channel number",
+        "Modbus RTU/TCP register",
+        "Ch1",
+        "Ch2",
+        "Ch3",
+        "Access measurement with applied model over Modbus RTU/TCP register",
+        "208",
+        "How to load the density linear model into the Rheonics sens",
+        "rheonics",
+        "Watch on"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 649,
+        "cost_usd": 0.0017622999999999998
+      },
+      "source_file": "116_Linear_model_-_Temperature_compensated_density.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

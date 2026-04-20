@@ -1,0 +1,322 @@
+{
+  "source_file": "163_Installing_the_eds_file_in_Logix_Designer.pdf",
+  "total_pages": 5,
+  "chunks": [
+    {
+      "page_summary": "This page provides step-by-step instructions for installing an .eds file from Rheonics into Logix Designer software, which is used for configuring Rockwell PLCs.",
+      "document_type": "notes",
+      "product_names": [
+        "Logix Designer",
+        "Rockwell PLCs"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nInstalling the eds file in Logix Designer\n\nModified on: Thu, 5 Feb, 2026 at 3:43 PM\n\nLogix Designer is a useful tool for programming Rockwell PLCs, the following steps describe how to install the eds from Rheonics to get important data for the user.\n\n1. Open up a project.\n2. Install the eds file. Open the “Tools” menu and select “EDS Hardware Installation Tool”\n\n[Screenshot of Logix Designer software. The 'Tools' menu is open, displaying options like 'Options...', 'Security', 'Import', 'Export', and 'EDS Hardware Installation Tool', which is highlighted. The 'Controller Organizer' pane shows a project structure with 'Tasks', 'I/O', 'Motion Groups', 'Assets', and 'Ethernet' sections.]\n\nFigure 1. Installing the .eds file.",
+      "specifications": {},
+      "key_facts": [
+        "The document outlines how to install an .eds file in Logix Designer.",
+        "Logix Designer is a software used for programming Rockwell PLCs.",
+        "The .eds file is provided by Rheonics and is necessary for users to access important data.",
+        "The installation process begins by opening an existing project in Logix Designer.",
+        "Users must navigate to the 'Tools' menu within Logix Designer and select 'EDS Hardware Installation Tool' to initiate the file installation."
+      ],
+      "diagram_labels": [
+        "File",
+        "Edit",
+        "View",
+        "Search",
+        "Logic",
+        "Communications",
+        "Tools",
+        "Window",
+        "Help",
+        "Options...",
+        "Security",
+        "Documentation Languages...",
+        "Import",
+        "Export",
+        "EDS Hardware Installation Tool",
+        "Motion",
+        "Monitor Equipment Phases",
+        "Plug-in Manager...",
+        "Custom Tools...",
+        "ControlFLASH Plus",
+        "Compare Tool",
+        "Controller Organizer",
+        "Power-Up Handler",
+        "Tasks",
+        "A_SCADA (10 ms)",
+        "Main",
+        "B_FA_Matrix (10 ms)",
+        "Faults",
+        "C_Control (10 ms)",
+        "D_Devices (10 ms)",
+        "GPS_Forward",
+        "I/O",
+        "I/O Mapping",
+        "Unscheduled",
+        "Motion Groups",
+        "Ungrouped Axes",
+        "Assets",
+        "Logical Model",
+        "I/O Configuration",
+        "1769 Bus",
+        "[0] 1769-L3ERM",
+        "Ethernet",
+        "1769-L3ERM",
+        "Wireless Gateway - EtherNet/IP WHart",
+        "PLX31-EIP-MBS Modbus_Gateway",
+        "AX6M",
+        "Figure 1. Installing the .eds file."
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 787,
+        "cost_usd": 0.0021073
+      },
+      "source_file": "163_Installing_the_eds_file_in_Logix_Designer.pdf"
+    },
+    {
+      "page_summary": "This page provides a step-by-step instruction with a corresponding screenshot demonstrating how to add a new module, specifically an SRV module, to an Ethernet configuration within a controller organizer software.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV module",
+        "1769-L36ERM"
+      ],
+      "extracted_text": "3. On the Controller Organizer window, right-click on the Ethernet module under I/O Configuration Tab and add a New Module.\n\n**Screenshot Content:**\nPower-Up Handler\nTasks\nA_SCADA (10 ms)\nMain\nB_FA_Matrix (10 ms)\nFaults\nC_Control (10 ms)\nD_Devices (10 ms)\nGPS_Forward\nE_IO\nIO_Mapping\nUnscheduled\nMotion Groups\nUngrouped Axes\nAssets\nLogical Model\nI/O Configuration\n1769 Bus\n[0] 1769-L36ERM\nEthernet\n(Right-click context menu on 'Ethernet')\nNew Module...\nImport Module...\nDiscover Modules...\nPaste Ctrl+V\nProperties Alt+Enter\nPrint\n...lus Size\n\nFigure 2. Adding SRV module.",
+      "specifications": {
+        "Task Timing": "10 ms"
+      },
+      "key_facts": [
+        "To add a new module, users must right-click on the Ethernet module within the I/O Configuration Tab of the Controller Organizer window.",
+        "The process described is for adding a new module.",
+        "The illustration specifically demonstrates the procedure for adding an SRV module."
+      ],
+      "diagram_labels": [
+        "Power-Up Handler",
+        "Tasks",
+        "A_SCADA (10 ms)",
+        "Main",
+        "B_FA_Matrix (10 ms)",
+        "Faults",
+        "C_Control (10 ms)",
+        "D_Devices (10 ms)",
+        "GPS_Forward",
+        "E_IO",
+        "IO_Mapping",
+        "Unscheduled",
+        "Motion Groups",
+        "Ungrouped Axes",
+        "Assets",
+        "Logical Model",
+        "I/O Configuration",
+        "1769 Bus",
+        "[0] 1769-L36ERM",
+        "Ethernet",
+        "New Module...",
+        "Import Module...",
+        "Discover Modules...",
+        "Paste Ctrl+V",
+        "Properties Alt+Enter",
+        "Print",
+        "lus Size",
+        "Figure 2. Adding SRV module."
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 649,
+        "cost_usd": 0.0017622999999999998
+      },
+      "source_file": "163_Installing_the_eds_file_in_Logix_Designer.pdf"
+    },
+    {
+      "page_summary": "This page illustrates the process of adding a new module to an IO tree and configuring its definition, including connection information and data size settings.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics_SME",
+        "SRV-SME",
+        "5069 Backplane",
+        "5069-L306ERMS2 STANDARD_VCS",
+        "5069-IB8S/A DI_1",
+        "5069-OB8/A DO_1",
+        "5069-IV4/A AI_1",
+        "5069-OBV8S/A DO_2",
+        "5069-OB8/A DO_3",
+        "5069-IB16/A DI_2",
+        "PowerFlex 525-EENET FEED_PUMP",
+        "0676_002B_002A Rheonics_SME"
+      ],
+      "extracted_text": "4. New Module added to IO tree\n5069 Backplane\n[0] 5069-L306ERMS2 STANDARD_VCS\n[1] 5069-IB8S/A DI_1\n[2] 5069-OB8/A DO_1\n[3] 5069-IV4/A AI_1\n[4] 5069-OBV8S/A DO_2\n[5] 5069-OB8/A DO_3\n[6] 5069-IB16/A DI_2\nA1/A2, Ethernet\n5069-L306ERMS2 STANDARD_VCS\n0676_002B_002A Rheonics_SME\nPowerFlex 525-EENET FEED_PUMP\nFigure 3. IO module (SRV-SME).\n\n5. Module definition shows the IO connection info like data size for the input, output, and data type(This value might depend on the eds file version).\nModule Definition\nGeneral\nConnection\nModule Info\nInternet Protocol\nPort Configuration\nGeneral\nRevision: 1 001\nElectronic Keying: Disable Keying\nConnections:\nName\nExclusiveOwner\nSize\nInput: 341 SINT\nOutput: 0 SINT\nThe disabled controls cannot be changed while online.\nOK\nCancel\nHelp\nFigure 4. Module Definition-General.",
+      "specifications": {
+        "Input_Size": "341 SINT",
+        "Output_Size": "0 SINT",
+        "Revision": "1.001"
+      },
+      "key_facts": [
+        "A new module, identified as '0676_002B_002A Rheonics_SME', has been successfully added to the IO tree under the 'A1/A2, Ethernet' section.",
+        "The module definition provides detailed IO connection information, including data size for input and output, and the data type.",
+        "The data size and type values displayed in the module definition might vary depending on the specific EDS (Electronic Data Sheet) file version being used.",
+        "The 'Electronic Keying' setting for the module is configured as 'Disable Keying'.",
+        "The 'ExclusiveOwner' connection for the module has an input size of 341 SINT and an output size of 0 SINT."
+      ],
+      "diagram_labels": [
+        "5069 Backplane",
+        "[0] 5069-L306ERMS2 STANDARD_VCS",
+        "[1] 5069-IB8S/A DI_1",
+        "[2] 5069-OB8/A DO_1",
+        "[3] 5069-IV4/A AI_1",
+        "[4] 5069-OBV8S/A DO_2",
+        "[5] 5069-OB8/A DO_3",
+        "[6] 5069-IB16/A DI_2",
+        "A1/A2, Ethernet",
+        "5069-L306ERMS2 STANDARD_VCS",
+        "0676_002B_002A Rheonics_SME",
+        "PowerFlex 525-EENET FEED_PUMP",
+        "Module Definition",
+        "General",
+        "Connection",
+        "Module Info",
+        "Internet Protocol",
+        "Port Configuration",
+        "Revision",
+        "Electronic Keying",
+        "Disable Keying",
+        "Connections",
+        "Name",
+        "Size",
+        "ExclusiveOwner",
+        "Input",
+        "Output",
+        "SINT",
+        "OK",
+        "Cancel",
+        "Help"
+      ],
+      "warnings_notes": [
+        "This value (data size/type) might depend on the eds file version.",
+        "The disabled controls cannot be changed while online."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1225,
+        "cost_usd": 0.0032023
+      },
+      "source_file": "163_Installing_the_eds_file_in_Logix_Designer.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions and screenshots for configuring connection settings and viewing module information for Rheonics devices, including details like product name, serial number, and status.",
+      "document_type": "manual",
+      "product_names": [
+        "RH B07-0169 SRV"
+      ],
+      "extracted_text": "6. Set the connection for RPI 3200 and Connection over Ethernet/IP multicast\n    - Connection\n    - Module Info\n    - Internet Protocol\n    - Port Configuration\n\n    [Table/Screenshot: Module Definition-Connection]\n    - Name: ExclusiveOwner\n    - Requested Packet Interval (RPI) (ms): 100.0 (Range: 1.0 - 3200.0)\n    - Connection over EtherNet/IP: Unicast\n    - Input Trigger: Cyclic\n\n    Figure 5. Module Definition-Connection.\n\n7. Module Info provides information from sensor serial number and sensor type, and revision.\n    - General\n    - Connection\n    - Module Info\n    - Internet Protocol\n    - Port Configuration\n\n    [Table/Screenshot: Module Info]\n    - **Identification**\n        - Vendor: Rheonics\n        - Product Type: Generic Device (keyable)\n        - Product Name: RH B07-0169 SRV\n    - **Status**\n        - Major Fault: None\n        - Minor Fault: None\n        - Internal State: Self-test or State Unknown\n    - Configured: No\n    - Owned: No\n    - Module Identity: Match\n    - Protection Mode: None\n    - Revision: 1.001\n    - Product Code: 0676_002B_002A\n    - Serial Number: 00000000\n    - Buttons: Refresh, Reset Module\n\n    Figure 6. Module Definition-Module Info.",
+      "specifications": {
+        "Requested Packet Interval (RPI)": "100.0 ms",
+        "Requested Packet Interval (RPI) Range": "1.0 - 3200.0 ms",
+        "Revision": "1.001"
+      },
+      "key_facts": [
+        "Connection settings can be configured for Requested Packet Interval (RPI) and Ethernet/IP multicast.",
+        "The Requested Packet Interval (RPI) can be set between 1.0 ms and 3200.0 ms, with a default or current value of 100.0 ms.",
+        "Connection over EtherNet/IP can be set to Unicast with a Cyclic input trigger.",
+        "The Module Info section displays identification details including the vendor (Rheonics), product type (Generic Device keyable), and product name (RH B07-0169 SRV).",
+        "Module status information includes Major Fault (None), Minor Fault (None), and Internal State (Self-test or State Unknown).",
+        "The module is not configured or owned, and its identity matches.",
+        "Protection mode for the module is set to None.",
+        "The module's firmware revision is 1.001, with a product code of 0676_002B_002A and a serial number of 00000000."
+      ],
+      "diagram_labels": [
+        "Figure 5. Module Definition-Connection.",
+        "Figure 6. Module Definition-Module Info.",
+        "Connection",
+        "Module Info",
+        "Internet Protocol",
+        "Port Configuration",
+        "Name",
+        "Requested Packet Interval (RPI) (ms)",
+        "Connection over EtherNet/IP",
+        "Input Trigger",
+        "ExclusiveOwner",
+        "Unicast",
+        "Cyclic",
+        "General",
+        "Identification",
+        "Vendor",
+        "Product Type",
+        "Product Name",
+        "Status",
+        "Major Fault",
+        "Minor Fault",
+        "Internal State",
+        "Configured",
+        "Owned",
+        "Module Identity",
+        "Protection Mode",
+        "Revision",
+        "Product Code",
+        "Serial Number",
+        "Refresh",
+        "Reset Module"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1004,
+        "cost_usd": 0.0026497999999999995
+      },
+      "source_file": "163_Installing_the_eds_file_in_Logix_Designer.pdf"
+    },
+    {
+      "page_summary": "This page details how to configure the Internet Protocol (IP) settings for a Rheonics device using a software interface and provides links to relevant support articles for Ethernet/IP connections and troubleshooting.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics inline viscometer and density meter"
+      ],
+      "extracted_text": "8. Internet Protocol helps to set the IP Address from SME (This IP address must match the one defined on the RCP software)\n\nNavigation Menu:\n- General\n- Connection\n- Module Info\n- Internet Protocol\n- Port Configuration\n\nInternet Protocol Configuration Screen:\nHeading: Internet Protocol\nOption: Manually configure IP settings\n\nFields:\nPhysical Module IP Address: 172 . 20 . 100 . 15\nSubnet Mask: 255 . 255 . 255 . 0\nGateway Address: 0 . 0 . 0 . 0\nDomain Name: [Empty input field]\nHost Name: rheonics.localhost\n\nActions:\nRefresh communication.\nSet <-\n\nFigure 7. Setting IP Address from SME to Logix Designer.\n\nReferences:\n- Introducing Ethernet connections on SME (https://support.rheonics.com/support/solutions/articles/81000300292-introducing-ethernet-connections-on-smet)\n- EthernetIP EDS file for Rheonics inline viscometer and density meter (https://support.rheonics.com/support/solutions/articles/81000393236-ethernetip-eds-file-for-rheonics-inline-viscometer-and-density-meter)\n- Ethernet/IP troubleshooting (https://support.rheonics.com/support/solutions/articles/81000402741-ethernet-ip-troubleshooting)\n- Connecting the Ethernet/IP output (https://support.rheonics.com/support/solutions/articles/81000402805-connecting-the-ethernet-ip-output)",
+      "specifications": {},
+      "key_facts": [
+        "The IP address set from SME must match the one defined on the RCP software.",
+        "The Internet Protocol settings for the device can be manually configured.",
+        "The document provides an example configuration for Physical Module IP Address (172.20.100.15), Subnet Mask (255.255.255.0), and Gateway Address (0.0.0.0).",
+        "The host name is configured as 'rheonics.localhost'.",
+        "The page includes references to support articles for Ethernet connections on SME, Ethernet/IP EDS files for Rheonics inline viscometers and density meters, Ethernet/IP troubleshooting, and connecting Ethernet/IP output.",
+        "The illustration demonstrates setting the IP Address from SME to Logix Designer."
+      ],
+      "diagram_labels": [
+        "General",
+        "Connection",
+        "Module Info",
+        "Internet Protocol",
+        "Port Configuration",
+        "Manually configure IP settings",
+        "Physical Module IP Address",
+        "Subnet Mask",
+        "Gateway Address",
+        "Domain Name",
+        "Host Name",
+        "Refresh communication",
+        "Set"
+      ],
+      "warnings_notes": [
+        "This IP address must match the one defined on the RCP software."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 807,
+        "cost_usd": 0.0021573
+      },
+      "source_file": "163_Installing_the_eds_file_in_Logix_Designer.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

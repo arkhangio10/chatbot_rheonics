@@ -1,0 +1,260 @@
+{
+  "source_file": "032_How_to_select_the_correct_Seal_Ring_for_Tri-Clamp_adapters.pdf",
+  "total_pages": 6,
+  "chunks": [
+    {
+      "page_summary": "This page provides a guide on selecting the appropriate seal ring (gasket) material for Tri-Clamp adapters based on application, process conditions, chemical compatibility, and temperature ranges.",
+      "document_type": "notes",
+      "product_names": [
+        "Tri-Clamp adapters",
+        "Seal Ring",
+        "Tuf-Flex/Ansi-Flex (Gasket)",
+        "Tuf-Steel (Gasket)",
+        "PTFE (Gasket)",
+        "Silicone (platinum) (Gasket)",
+        "FKM Fluoroelastomer (Gasket)",
+        "VITON (Gasket)"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nHow to select the correct Seal Ring for Tri-Clamp adapters?\n\nModified on: Thu, 29 Sep, 2022 at 10:10 PM\n\nGasket installation for tri-clamps is straightforward, but there are a few things you should keep in mind to select the correct seal:\n\n1. Select the correct gasket material based on your application\n\nDepending on the process condition and chemical composition of the fluid, a suitable sealing material must be selected. Otherwise, leakage through the seal or degradation may occur. The table below serves as a guide for selecting a suitable sealing material for a few key applications.\n\n| Gasket                   | Comments                                                                     | Application                                                                                                                                                                                                                                                                                              | Temperature(°F)         | Temperature (°C)        |\n|--------------------------|------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|-------------------------|\n| Tuf-Flex/Ansi-Flex       | Maintains seal with wide temperature variations. Has an extended service life. | Designed to meet critical requirements in biopharmaceutical, ultra-pure water, WFI (water for injection), and difficult food and beverage processing.                                                                                                                                                       | -20°F to 300°F          | -29°C to 149°C          |\n| Tuf-Steel                | Maintains seal with wide temperature variations. Has extended service life.  | Ideal for sanitary steam pipe connections in extreme temperatures ranging from -320°F to 550°F.                                                                                                                                                                                                           | -320°F to 550°F         | -196°C to 288°C         |\n| PTFE                     | Wide temperature variations may cause leakage at ΔT. 500°F.                  | Works for longer periods of time in both water and steam applications.                                                                                                                                                                                                                                   | -100°F to 500°F         | -73°C to 260°C          |\n| Silicone(platinum)       | Very flexible low temperature. 450°F.                                        | In sanitary water systems when PTFE is not feasible due to severely misaligned fittings, or if the cost of high-pressure clamps does not outweigh the benefits of PTFE (extended service life).                                                                                                              | -40°F to 450°F          | -40°C to 232°C          |\n| FKM Fluoroelastomer or VITON | Acceptable for steam applications. 400°F.                                    | Excellent compatibility with strong acids.                                                                                                                                                                                                                                                               | -30°F to 400°F          | -34°C to 204°C          |",
+      "specifications": {
+        "Tuf-Flex/Ansi-Flex Temperature F": "-20°F to 300°F",
+        "Tuf-Flex/Ansi-Flex Temperature C": "-29°C to 149°C",
+        "Tuf-Steel Temperature F": "-320°F to 550°F",
+        "Tuf-Steel Temperature C": "-196°C to 288°C",
+        "PTFE Temperature F": "-100°F to 500°F",
+        "PTFE Temperature C": "-73°C to 260°C",
+        "Silicone(platinum) Temperature F": "-40°F to 450°F",
+        "Silicone(platinum) Temperature C": "-40°C to 232°C",
+        "FKM Fluoroelastomer or VITON Temperature F": "-30°F to 400°F",
+        "FKM Fluoroelastomer or VITON Temperature C": "-34°C to 204°C"
+      },
+      "key_facts": [
+        "Gasket installation for tri-clamps is straightforward, but careful selection of the seal is necessary.",
+        "Selecting the correct gasket material prevents leakage and degradation based on process conditions and chemical composition of the fluid.",
+        "Tuf-Flex/Ansi-Flex gaskets maintain seals with wide temperature variations, have an extended service life, and are suitable for biopharmaceutical, ultra-pure water, WFI, and difficult food/beverage processing.",
+        "Tuf-Steel gaskets are ideal for sanitary steam pipe connections in extreme temperatures and offer extended service life.",
+        "PTFE gaskets work for longer periods in water and steam applications, but wide temperature variations may cause leakage at 500°F.",
+        "Silicone (platinum) gaskets are very flexible at low temperatures and are suitable for sanitary water systems when PTFE is not viable due to misaligned fittings or cost considerations.",
+        "FKM Fluoroelastomer or VITON gaskets are acceptable for steam applications and exhibit excellent compatibility with strong acids."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Leakage through the seal or degradation may occur if an unsuitable sealing material is selected.",
+        "Wide temperature variations with PTFE gaskets may cause leakage at ΔT. 500°F.",
+        "PTFE may not be feasible in sanitary water systems with severely misaligned fittings."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1378,
+        "cost_usd": 0.0035848
+      },
+      "source_file": "032_How_to_select_the_correct_Seal_Ring_for_Tri-Clamp_adapters.pdf"
+    },
+    {
+      "page_summary": "This page provides a table detailing gasket material properties, applications, and temperature ranges, along with basic guidelines for installing clamps and gaskets in process lines.",
+      "document_type": "manual",
+      "product_names": [
+        "EPDM (peroxide cured) gasket",
+        "Buna (Nitrile) gasket",
+        "Gylon blau gasket",
+        "Buna Tri-Clamp® Gaskets",
+        "Clamp",
+        "Ferrule",
+        "Gasket",
+        "Flange",
+        "Tube"
+      ],
+      "extracted_text": "Table 1. Gasket Material and applications (Temperatures from this table might vary from each brand)\n\n| Material | Applications | Temperature Range (°F) | Temperature Range (°C) |\n|---|---|---|---|\n| **EPDM (peroxide cured)** | Low-pressure steam only. 300°F. Chemically, EPDM has good resistance to animal oils, vegetable oils, ozone, strong chemicals, and oxidizing chemicals. Do not use EPDM gaskets for mineral oils, solvents, or aromatic hydrocarbons. | -30°F to 300°F | -34°C to 149°C |\n| **Buna (Nitrile)** | Not recommended for strong acids and ozone. Chemically, Buna is resistant to many hydrocarbons, fats, oils, greases, hydraulic fluids, and chemicals. Never use Buna Tri-Clamp® Gaskets for Ozone (except PVC blends), ketones, esters, aldehydes, chlorinated hydrocarbons, or nitro hydrocarbons. | -30°F to 200°F | -34°C to 93°C |\n| **Gylon blau** | Wide temperature range. Food processing, Pharmaceutical. | -346°F to 500°F | -210°C to 260°C |\n\n2. Basic Installation guidelines\n\n*   Install the gasket by opening the clamp. Make sure there are no residues on the sealing surfaces if you are changing an older gasket.\n\nFigure 1. Installing the Clamp into the ferrule. (1)\n\n*   Ensure the gasket is the right size for the fitting and center it on the flange. There should be no ridges on the gasket that are not aligned with the fitting geometry and the gasket should align with the Internal Diameter.\n\nTUBE\nFLANGE DIAMETER",
+      "specifications": {
+        "EPDM (peroxide cured) operating temperature range": "-30°F to 300°F (-34°C to 149°C)",
+        "Buna (Nitrile) operating temperature range": "-30°F to 200°F (-34°C to 93°C)",
+        "Gylon blau operating temperature range": "-346°F to 500°F (-210°C to 260°C)",
+        "EPDM (peroxide cured) low-pressure steam max temperature": "300°F"
+      },
+      "key_facts": [
+        "EPDM (peroxide cured) gaskets are suitable for low-pressure steam up to 300°F and have good resistance to animal oils, vegetable oils, ozone, strong chemicals, and oxidizing chemicals.",
+        "Buna (Nitrile) gaskets are resistant to many hydrocarbons, fats, oils, greases, hydraulic fluids, and chemicals.",
+        "Gylon blau gaskets offer a wide temperature range and are used in food processing and pharmaceutical applications.",
+        "When installing a gasket, the clamp should be opened, and sealing surfaces must be free of residues, especially when replacing an older gasket.",
+        "The gasket must be the correct size for the fitting, centered on the flange, without unaligned ridges, and aligned with the Internal Diameter."
+      ],
+      "diagram_labels": [
+        "Figure 1. Installing the Clamp into the ferrule. (1)",
+        "TUBE",
+        "FLANGE DIAMETER"
+      ],
+      "warnings_notes": [
+        "Do not use EPDM gaskets for mineral oils, solvents, or aromatic hydrocarbons.",
+        "Buna (Nitrile) gaskets are not recommended for strong acids and ozone.",
+        "Never use Buna Tri-Clamp® Gaskets for Ozone (except PVC blends), ketones, esters, aldehydes, chlorinated hydrocarbons, or nitro hydrocarbons.",
+        "Make sure there are no residues on the sealing surfaces if you are changing an older gasket.",
+        "There should be no ridges on the gasket that are not aligned with the fitting geometry and the gasket should align with the Internal Diameter.",
+        "Temperatures from this table might vary from each brand."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1047,
+        "cost_usd": 0.0027573
+      },
+      "source_file": "032_How_to_select_the_correct_Seal_Ring_for_Tri-Clamp_adapters.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions for aligning ferrules, gaskets, and clamps, ordering information for Rheonics sensor clamps and gaskets, and technical specifications for a GYLON blau gasket.",
+      "document_type": "datasheet",
+      "product_names": [
+        "Rheonics sensor",
+        "GYLON blau gasket",
+        "tri-clamp process connection"
+      ],
+      "extracted_text": "Figure 2. Align the ferrule and gasket correctly (2)\n\n*   While the clamp is installed, the gasket should not slide out of position.\n*   Align the clamp with the fitting by centering it.\n\nFigure 3. Clamp correctly fit into the center of the system ferrule-gasket (3)\n\n*   When using clamps with multiple bolts, make sure the bolts are tightened uniformly. To prevent the fitting faces from pulling out of alignment, bolts must be tightened in steps.\n\n3. How to order the clamp and gasket for the rheonics sensor?\n\n*   Let's order a gasket and clamp for a Rheonics sensor with a tri-clamp process connection with a 1.5\" opening, depending on the application a variety of seals could be used.\n*   We can select a gasket from this provider: https://www.schwer.com/. The order code for this example is CL-CG112Z505-Gy\n\nTechnical data\nStandard: DIN / ISO / INCH\nConnection 1: Zoll 1 1/2\"\nConnection 2: A 50,5\nMaterial: GYLON blau\nNW: 1 1/2\"\nZoll: 1 1/2\"\nA: 50,5mm\nb: 35,0 ±0,6mm\nWeight: 5 g\n\nTable 2. Datasheet for GYLON blau gasket.",
+      "specifications": {
+        "Standard": "DIN / ISO / INCH",
+        "Connection 1": "Zoll 1 1/2\"",
+        "Connection 2": "A 50,5",
+        "Material": "GYLON blau",
+        "NW": "1 1/2\"",
+        "Zoll": "1 1/2\"",
+        "A": "50,5 mm",
+        "b": "35,0 ±0,6 mm",
+        "Weight": "5 g"
+      },
+      "key_facts": [
+        "The gasket should not slide out of position when the clamp is installed.",
+        "The clamp should be aligned with the fitting by centering it.",
+        "When using clamps with multiple bolts, bolts must be tightened uniformly and in steps to prevent fitting faces from pulling out of alignment.",
+        "A gasket and clamp for a Rheonics sensor with a 1.5\" tri-clamp process connection can be ordered, with various seals available depending on the application.",
+        "Gaskets can be sourced from schwer.com, with an example order code CL-CG112Z505-Gy provided.",
+        "The datasheet provides technical specifications for a GYLON blau gasket."
+      ],
+      "diagram_labels": [
+        "Figure 2. Align the ferrule and gasket correctly (2)",
+        "Figure 3. Clamp correctly fit into the center of the system ferrule-gasket (3)",
+        "Table 2. Datasheet for GYLON blau gasket."
+      ],
+      "warnings_notes": [
+        "While the clamp is installed, the gasket should not slide out of position.",
+        "When using clamps with multiple bolts, make sure the bolts are tightened uniformly. To prevent the fitting faces from pulling out of alignment, bolts must be tightened in steps."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 850,
+        "cost_usd": 0.0022647999999999995
+      },
+      "source_file": "032_How_to_select_the_correct_Seal_Ring_for_Tri-Clamp_adapters.pdf"
+    },
+    {
+      "page_summary": "This page provides information on selecting a Flat Clamp Gasket, detailing its specifications and offering guidance on matching it with connecting tubes and selecting the appropriate clamp and ferrule.",
+      "document_type": "manual",
+      "product_names": [
+        "Flat Clamp Gasket",
+        "CL-CG11Z505-Gy",
+        "GYLON blau gasket"
+      ],
+      "extracted_text": "Flat Clamp Gasket\nCL-CG11Z505-Gy\n\nDIN, ISO, INCH\n\nStandard: DIN / ISO / INCH\nConnection 1: Zoll 1 1/2\"\nConnection 2: A 50,5\nMaterial: GYLON blau\nAUSWAHL ZURÜCKSETZEN\n\nFigure 4. GYLON blau gasket dimensions. (4)\n\nIt is generally recommended to choose the one with the same b-dimension as the connecting tube. The inside diameter of a gasket should always be identical to the inside diameter of the pipes so that there's absolutely no void or intrusion. There are multiple options for 1.5\" TCs, so it depends on your needs.\n\nThere are local sources for gaskets - online retailers and offline stores that should be consulted by the installers, the example here is only shown as a demonstration.\n\n4. Selecting the Clamp and Ferrule\n\nTo select the correct clamp, the beveled surface on the outside diameter(D) of the ferrule must match the inside diameter(A) of the clamp. Note that the clamp typically determines the pressure rating of the connection.\n\nschwer\nfittings",
+      "specifications": {
+        "Standard": "DIN / ISO / INCH",
+        "Connection 1": "1 1/2 inch",
+        "Connection 2": "A 50.5",
+        "Material": "GYLON blau"
+      },
+      "key_facts": [
+        "It is generally recommended to choose a gasket with the same 'b-dimension' as the connecting tube.",
+        "The inside diameter of a gasket should always be identical to the inside diameter of the pipes to ensure no void or intrusion.",
+        "Multiple options for 1.5\" TCs exist, and the choice depends on specific needs.",
+        "Installers should consult local sources, including online and offline retailers, for gaskets, as the example provided is for demonstration only.",
+        "To select the correct clamp, the beveled surface on the outside diameter (D) of the ferrule must match the inside diameter (A) of the clamp.",
+        "The clamp typically determines the pressure rating of the connection."
+      ],
+      "diagram_labels": [
+        "b",
+        "A",
+        "I",
+        "D",
+        "L",
+        "w",
+        "p",
+        "d"
+      ],
+      "warnings_notes": [
+        "The inside diameter of a gasket should always be identical to the inside diameter of the pipes so that there's absolutely no void or intrusion.",
+        "There are local sources for gaskets - online retailers and offline stores that should be consulted by the installers, the example here is only shown as a demonstration.",
+        "Note that the clamp typically determines the pressure rating of the connection."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 751,
+        "cost_usd": 0.0020173
+      },
+      "source_file": "032_How_to_select_the_correct_Seal_Ring_for_Tri-Clamp_adapters.pdf"
+    },
+    {
+      "page_summary": "This page provides a list of suppliers and external references for various sanitary fittings, clamps, and gaskets, complemented by a diagram illustrating ferrule and clamp dimensions.",
+      "document_type": "manual",
+      "product_names": [
+        "Stainless Steel Sanitary Ferrule Gasket",
+        "Tri-clamp sanitary fittings",
+        "1-5-tc-fitting-clamp",
+        "flat-clamp-gasket",
+        "single-pin-clamps"
+      ],
+      "extracted_text": "schwer\nfittings\nFigure 5.Ferrule dimensions (Left) and Clamp dimension (Right) (5)\n\n5. Supplier\n\nSuppliers:\nhttps://sanitaryfittings.us/ (https://sanitaryfittings.us/contact-us)\nhttps://www.austenitex.com/ (https://www.austenitex.com/)\nhttps://www.schwer.com/ (https://www.schwer.com/)\n\n6. References\n\n1. https://www.amazon.com (https://www.amazon.com) . [Online] https://www.amazon.com/Stainless-Steel-Sanitary-\nFerrule-Gasket/dp/B01NBOAJS8.[1]\n2. https://www.proflow-dynamics.com (https://www.proflow-dynamics.com) . [Online] https://www.proflow-\ndynamics.com/products/tri-clamp-sanitary-fittings.html (https://www.proflow-dynamics.com/products/tri-clamp-sanitary-\nfittings.html). [2].\n3. https://us.kromedispense.com (https://us.kromedispense.com) . [Online] https://us.kromedispense.com/product/1-5-tc-\nfitting-clamp/ (https://us.kromedispense.com/product/1-5-tc-fitting-clamp/). [3].\n4. https://www.schwer.com (https://www.schwer.com) . [Online] https://www.schwer.com/en_GB/flat-clamp-\ngasket/a/CG112Z505-Gy/5a37cf191029f68df235bc61?source=L2VuX0dCL3NIYXJpbmctZWxlbWVudC9BMTEyMDAzNTAxNzA0MDM0MzIwMS8xMTUwMi9hbWluZW1lbnQuaHRtbA== (https://www.schwer.com/en_GB/flat-clamp-gasket/a/CG112Z505-Gy/5a37cf191029f68df235bc61?source=L2VuX0dCL3NIYXJpbmctZWxlbWVudC9BMTEyMDAzNTAxNzA0MDM0MzIwMS8xMTUwMi9hbWluZW1lbnQuaHRtbA==). [4].\n5. https://www.schwer.com/ (https://www.schwer.com/) . [Online] https://www.schwer.com/en_GB/single-pin-\nclamps/pr/CL-CL1/5a37cf341029f68df235bf48 (https://www.schwer.com/en_GB/single-pin-clamps/pr/CL-\nCL1/5a37cf341029f68df235bf48). [5].\n\n7. Sources\n\n1. https://rubberfab.com/ (https://rubberfab.com/)\n2. https://sanitaryfittings.us/ (https://sanitaryfittings.us/)\n3. https://www.austenitex.com/ (https://www.austenitex.com/)\n4. https://www.schwer.com/ (https://www.schwer.com/)",
+      "specifications": {},
+      "key_facts": [
+        "The page lists three suppliers: sanitaryfittings.us, austenitex.com, and schwer.com.",
+        "It provides five online references for specific components including a Stainless Steel Sanitary Ferrule Gasket from Amazon, Tri-clamp sanitary fittings from Proflow Dynamics, a 1-5-tc-fitting-clamp from Kromedispense, and a flat-clamp-gasket and single-pin-clamps from Schwer.com.",
+        "The document contains a diagram illustrating ferrule and clamp dimensions.",
+        "A 'Sources' section reiterates some of the supplier links, adding rubberfab.com to the list."
+      ],
+      "diagram_labels": [
+        "A",
+        "B",
+        "C",
+        "schwer fittings"
+      ],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1149,
+        "cost_usd": 0.0030123
+      },
+      "source_file": "032_How_to_select_the_correct_Seal_Ring_for_Tri-Clamp_adapters.pdf"
+    },
+    {
+      "page_summary": "This page contains a disclaimer regarding the illustrative nature and copyright of all pictures, photos, and images used in the document.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "DISCLAIMER\nPictures, photos and images used are for illustration purposes and do not constitute any warranty or assertions on suitability of use and should not be construed as an explicit or implicit recommendation or endorsement. All illustrations are given proper credit from our source of access and by their use here we do not specify or establish any copyright which belongs and stays unaffected with the existing copyright holder of that material",
+      "specifications": {},
+      "key_facts": [
+        "Pictures, photos, and images are used for illustration purposes only.",
+        "They do not constitute a warranty or assertions regarding suitability of use.",
+        "They should not be interpreted as an explicit or implicit recommendation or endorsement.",
+        "All illustrations are properly credited from their source of access.",
+        "The use of illustrations in this document does not establish new copyright.",
+        "The existing copyright of the material remains unaffected."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Pictures, photos and images used are for illustration purposes and do not constitute any warranty or assertions on suitability of use and should not be construed as an explicit or implicit recommendation or endorsement. All illustrations are given proper credit from our source of access and by their use here we do not specify or establish any copyright which belongs and stays unaffected with the existing copyright holder of that material"
+      ],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 350,
+        "cost_usd": 0.0010148
+      },
+      "source_file": "032_How_to_select_the_correct_Seal_Ring_for_Tri-Clamp_adapters.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

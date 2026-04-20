@@ -1,0 +1,161 @@
+{
+  "source_file": "008_EHEDG_and_3-A.pdf",
+  "total_pages": 4,
+  "chunks": [
+    {
+      "page_summary": "This page provides an overview of EHEDG and 3-A hygienic design standards, highlights Rheonics' compliant SRV viscometer and SRD density and viscosity meter, and explains the importance of these certifications in hygienic industries.",
+      "document_type": "notes",
+      "product_names": [
+        "SR-Type Rheonics sensor probes",
+        "SRV viscometer",
+        "SRD density and viscosity meter"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nEHEDG and 3-A\nModified on: Tue, 6 Feb, 2024 at 8:42 PM\n\nWhat products are involved?\nThe SR-Type Rheonics sensor probes, SRV viscometer and SRD density and viscosity meter.\n\nWhat is the purpose of this article?\nDefine and compare international organizations dealing with hygienic industrial designs and review Rheonics hygienic certificate.\n\nIntroduction\nIndustries like Food and Beverage or Pharmaceutical need to follow specific requirements in their production lines so the quality of end products is preserved. As part of the requirements, all equipment included in the production needs to be designed following national or international hygienic standards, so that proper cleaning and sanitizing are achieved.\n\nMultiple organizations develop standards for sanitary and hygienic design in the industry. For example, EHEDG and 3-A are well-known organizations that share the same purpose, to provide and standardize requirements for hygienic design, but differ in content, how certification is granted and the location where they are mainly used. Let's review them closely.\n\nVisit EHEDG certified Rheonics process viscometer and density meter blog post\nVisit 3-A certified Rheonics process viscometer and density meter blog post\n\nFigure 1: Rheonics viscometer SRV hygienic probes.",
+      "specifications": {},
+      "key_facts": [
+        "Hygienic design is critical in Food, Beverage, and Pharmaceutical industries to preserve product quality and ensure proper cleaning and sanitizing.",
+        "EHEDG and 3-A are prominent organizations that set standards for sanitary and hygienic equipment design.",
+        "These organizations aim to standardize hygienic design requirements but vary in content, certification processes, and primary regions of use.",
+        "Rheonics manufactures SRV viscometers and SRD density and viscosity meters that are certified for hygienic applications.",
+        "The article's purpose is to define and compare EHEDG and 3-A, and to discuss Rheonics' hygienic certifications."
+      ],
+      "diagram_labels": [
+        "Figure 1: Rheonics viscometer SRV hygienic probes."
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 614,
+        "cost_usd": 0.0016748
+      },
+      "source_file": "008_EHEDG_and_3-A.pdf"
+    },
+    {
+      "page_summary": "This page provides definitions and a comparison of the European Hygienic Engineering & Design Group (EHEDG) and 3-A Sanitary Standards, outlining their missions, geographic focus, design requirements, and certification processes.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "Rheonics sensors"
+      ],
+      "extracted_text": "Definitions\nEHEDG (http://www.ehedg.org/)\nThe European Hygienic Engineering & Design Group is a non-profit organization founded in 1989. Its main objective is to promote food safety and quality across the food and beverage industry based on 42 guidelines that deal with specific principles in the design, construction, operation and maintenance of equipment involved in this industry. EHEDG certification requires a theoretical review of the design and a standardized cleaning test. EHEDG's guidelines are widely used, mainly in Europe, by food companies for food safety regulations, thus improving food safety performance.\n\n3A (https://www.3-a.org/) (http://www.ehedg.org/) (https://www.3-a.org/):\nThis non-profit US-based organization was founded in 1978 and is focused on ensuring and improving hygienic designs in the dairy food, beverage, and pharmaceutical industries using very specific technical principles. Design features such as angles, radii, dimensions, surface smoothness, etc. should match 3-A standards for certification. The objective of this organization is to protect products from contamination and ensure all equipment's surfaces in contact with the product can be mechanically cleaned and easily dismantled so it favors manual cleaning and inspection.\n\nDifferences\n* Geographic focus: EHEDG has a more European approach while 3-A is focused in the US and other parts of the world.\n* Design requirements: There are some key differences in the requirements each organization has, so there are no technical equivalences between them. EHEDG details guidelines of design, it doess not specify technical requirements but rather an intended result verified by tests. On the other hand, 3-A provides standards rather than guidelines and is very detailed in the technical features to follow. It can be said that EHEDG covers a broader application range.\n* Certification requirements: 3-A requires a theoretical review of the design so it follows its standards. EHEDG requires both a theoretical and practical review with a standardized cleaning test of the equipment.\n\nSimilarity\n* Mission: Despite the differences explained before both EHEDG and 3-A have a similar mission, which is to promote food safety through hygienic design guidelines/standards for the industry.\n\nRheonics sensors and Hygienic installations",
+      "specifications": {},
+      "key_facts": [
+        "The European Hygienic Engineering & Design Group (EHEDG) is a non-profit organization founded in 1989.",
+        "EHEDG's main objective is to promote food safety and quality across the food and beverage industry.",
+        "EHEDG operates based on 42 guidelines covering design, construction, operation, and maintenance of equipment.",
+        "EHEDG certification requires a theoretical review of design and a standardized cleaning test.",
+        "EHEDG guidelines are widely used, mainly in Europe, to improve food safety performance.",
+        "3-A is a non-profit US-based organization founded in 1978.",
+        "3-A focuses on ensuring and improving hygienic designs in the dairy food, beverage, and pharmaceutical industries.",
+        "3-A standards require specific design features like angles, radii, dimensions, and surface smoothness for certification.",
+        "The objective of 3-A is to protect products from contamination and ensure equipment surfaces in contact with the product can be mechanically cleaned and easily dismantled for manual cleaning and inspection.",
+        "EHEDG has a more European geographic focus, while 3-A is focused in the US and other parts of the world.",
+        "EHEDG provides design guidelines focused on intended results verified by tests, not specific technical requirements.",
+        "3-A provides detailed technical standards rather than general guidelines.",
+        "EHEDG covers a broader application range compared to 3-A.",
+        "3-A certification requires a theoretical review of the design to ensure compliance with its standards.",
+        "EHEDG certification requires both a theoretical and practical review, including a standardized cleaning test.",
+        "Both EHEDG and 3-A share the mission to promote food safety through hygienic design guidelines/standards for the industry."
+      ],
+      "diagram_labels": [
+        "EUROPEAN HYGIENIC ENGINEERING & DESIGN GROUP",
+        "EHEDG",
+        "3-A"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1039,
+        "cost_usd": 0.0027373
+      },
+      "source_file": "008_EHEDG_and_3-A.pdf"
+    },
+    {
+      "page_summary": "This page outlines the hygienic installation requirements for Rheonics SR and SRD sensors, particularly focusing on placement in tee pieces and alignment within fluid flow to ensure proper operation and cleaning.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SR sensor",
+        "SRD, density and viscosity meter"
+      ],
+      "extracted_text": "Rheonics SR sensor must be installed according to the requirements given in EHEDG Guidelines 8, 10 and 37 [1-3]. Review Rheonics EHEDG installation guidelines in its web page here (https://rheonics.com/resources/manuals/). Some of the most noticable requirements are:\n\n*   In **tee pieces**: the ratio between upstand (L) and the diameters difference (D – d) shall be in the relation of (D – d)/L ≥ 1. See figure below for reference.\n\n[Diagram of Rheonics hygienic installation in standpipes]\n\nFigure 2: Rheonics hygienic installation in standpipes.\n\n*   For the **SRD, density and viscosity meter**: Place the SRD end probe tip aligned with the fluid flow’s lines to create a parallel flow (see Figure below). This recommendation is relevant when the angle α, formed by the fluid’s flow lines and sensor tip axis, is 90° or less. When α is 0° the installation creates an axial flow, in which case the end tip orientation is not relevant anymore. Perpendicular flow must be avoided because it affects the cleaning process, as shown in next Figure too.\n*   Once the probe is installed, the tip is not visible to know if it is aligned. To solve this issue, there is a black dot next to the M12 cable connector. This dot is aligned with the sensor tip and helps the user orient the probe as required.",
+      "specifications": {
+        "tee_piece_ratio": "(D – d)/L ≥ 1",
+        "SRD_alignment_angle_maximum_for_parallel_flow": "90°",
+        "SRD_alignment_angle_for_axial_flow": "0°"
+      },
+      "key_facts": [
+        "Rheonics SR sensor must be installed following EHEDG Guidelines 8, 10, and 37.",
+        "For tee piece installations, the ratio between upstand (L) and the diameters difference (D – d) must be greater than or equal to 1.",
+        "For the SRD, density and viscosity meter, the end probe tip should be aligned with the fluid flow's lines to create a parallel flow.",
+        "The parallel flow recommendation for the SRD is relevant when the angle α, formed by the fluid's flow lines and sensor tip axis, is 90° or less.",
+        "When α is 0° for the SRD installation, an axial flow is created, and the end tip orientation is no longer relevant.",
+        "A black dot next to the M12 cable connector on the SRD is aligned with the sensor tip to help users orient the probe since the tip itself is not visible after installation."
+      ],
+      "diagram_labels": [
+        "L",
+        "d",
+        "D",
+        "Figure 2: Rheonics hygienic installation in standpipes."
+      ],
+      "warnings_notes": [
+        "Perpendicular flow must be avoided because it affects the cleaning process.",
+        "Rheonics SR sensor installation requires adherence to EHEDG Guidelines 8, 10, and 37."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 802,
+        "cost_usd": 0.0021447999999999997
+      },
+      "source_file": "008_EHEDG_and_3-A.pdf"
+    },
+    {
+      "page_summary": "This page details Rheonics' hygienic installation requirements for the SRD sensor, illustrating sensor orientation relative to fluid flow and providing references to relevant guidelines and certifications.",
+      "document_type": "manual",
+      "product_names": [
+        "SRD"
+      ],
+      "extracted_text": "Figure 3: Rheonics hygienic installation requirement for SRD.\nReferences\n[1]: http://www.ehedg.org/ (http://www.ehedg.org/)\n[2]: https://www.3-a.org/ (https://www.3-a.org/)\n[3]: Rheonics EHEDG Installation Guideline (https://rheonics.com/wp-content/uploads/2023/07/EHEDG_Installation_Guideline_A.pdf)\n[4]: Rheonics Certificates (https://rheonics.com/resources/certificates/)",
+      "specifications": {
+        "axial_flow_angle": "0°",
+        "parallel_flow_angle": "90°"
+      },
+      "key_facts": [
+        "Figure 3 illustrates the Rheonics hygienic installation requirements for the SRD product.",
+        "The diagram shows the importance of aligning the fluid end mass axis with a black dot on the sensor.",
+        "Three primary flow orientations are depicted: axial flow (a = 0°), parallel flow (a = 90°), and perpendicular flow.",
+        "Installation references include guidelines from EHEDG and 3-A, as well as Rheonics' own EHEDG Installation Guideline and Certificates."
+      ],
+      "diagram_labels": [
+        "A",
+        "rheonics",
+        "Liquid flow direction",
+        "α",
+        "Sensor tip axis",
+        "Fluid end mass axis and black dot are aligned",
+        "axial flow",
+        "a = 0°",
+        "parallel flow",
+        "a = 90°",
+        "perpendicular flow"
+      ],
+      "warnings_notes": [
+        "Rheonics hygienic installation requirement for SRD."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 488,
+        "cost_usd": 0.0013598
+      },
+      "source_file": "008_EHEDG_and_3-A.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

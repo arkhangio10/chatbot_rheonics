@@ -1,0 +1,314 @@
+{
+  "source_file": "036_Using_Rheonics_process_viscometer_and_density_meter_as_table_top_instruments.pdf",
+  "total_pages": 7,
+  "chunks": [
+    {
+      "page_num": 1,
+      "page_summary": "Extraction failed",
+      "document_type": "unknown",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "extraction_failed": true,
+      "source_file": "036_Using_Rheonics_process_viscometer_and_density_meter_as_table_top_instruments.pdf"
+    },
+    {
+      "page_summary": "This page details the installation requirements for Rheonics SR-Type viscometers and density sensors (SRV and SRD), focusing on sensing element placement, fluid contact, and considerations for laboratory setups.",
+      "document_type": "manual",
+      "product_names": [
+        "SR-Type sensors",
+        "SRV",
+        "SRD",
+        "STCM system"
+      ],
+      "extracted_text": "Installation requirements\n\nThe type-SR sensors have a sensing element that requires minimum fluid volume (cross-section) to be maintained as shown in the next image.\n\nrheonlcs\nrheonlcs\n50 mm\n[1.96\"]\n34 mm\n[1.4\"]\n50 mm\n[1.96\"]\nØ16 mm\n[0.63\"]\nØ35 mm\n[1.4\"]\nSRV tip's clearance to any obstruction\n5 mm [0.2\"]\nSRD tip's clearance to any obstruction\n12 mm [0.5\"]\nAvoid stagnation zones in the sensing zones (red areas)\nEnsure sensing element in red is in contact with fluid\nFigure 1: SRV and SRD sensing areas.\n\nThe SRD has an additional requirement relevant to temperature differences greater than 20°C between ambient (sensor probe's back) and fluid. This article (https://support.rheonics.com/en/support/solutions/articles/81000412500-maintaining-the-srd-s-temperature-balance-for-high-density-accuracy) explains the topic in detail. This scenario affects the density readings with a systematic offset. The solution is using a long insertion probe or a controlled temperature environment (for the SRD short or flush probes). This last option is more feasible in laboratory setups.\n\nRheonics offers accessories to use the SR-Type sensors (SRV and SRD) in laboratory setups.\n\nDespite the recommended setup shown in this article, other laboratory installations can be used. Rheonics offers the STCM system (https://rheonics.com/product-accessories/sr-stcm-srv-and-srd-smart-thermal-control-module/) for static or flowing fluids under controlled temperature conditions. Alternatively, clients can use proper setups for their case, following the recommendation made in proper installation of SRV (https://support.rheonics.com/en/support/solutions/folders/81000297658) and SRD (https://support.rheonics.com/en/support/solutions/folders/81000297659). Next image shows general recommendations for laboratory setups.\n\nGeneral considerations for viscometer SRV measurements in laboratory, static or calibration setup.",
+      "specifications": {
+        "SRV sensing element length": "50 mm",
+        "SRV sensing element length (imperial)": "1.96 \"",
+        "SRV sensing element diameter": "16 mm",
+        "SRV sensing element diameter (imperial)": "0.63 \"",
+        "SRV tip's clearance to any obstruction": "5 mm",
+        "SRV tip's clearance to any obstruction (imperial)": "0.2 \"",
+        "SRD sensing element length": "50 mm",
+        "SRD sensing element length (imperial)": "1.96 \"",
+        "SRD sensing element diameter": "35 mm",
+        "SRD sensing element diameter (imperial)": "1.4 \"",
+        "SRD tip's clearance to any obstruction": "12 mm",
+        "SRD tip's clearance to any obstruction (imperial)": "0.5 \"",
+        "SRD temperature difference threshold": "20°C"
+      },
+      "key_facts": [
+        "Type-SR sensors require a minimum fluid volume around their sensing element.",
+        "The SRD has an additional requirement regarding temperature differences greater than 20°C between the sensor probe's back and the fluid.",
+        "Large temperature differences can cause a systematic offset in SRD density readings.",
+        "To address temperature difference issues with SRD, a long insertion probe or a controlled temperature environment is recommended, especially for short or flush probes.",
+        "Rheonics provides accessories for using SR-Type sensors (SRV and SRD) in laboratory setups.",
+        "The STCM system is offered by Rheonics for managing static or flowing fluids under controlled temperature conditions in laboratory installations.",
+        "Clients should follow Rheonics' recommendations for proper installation of SRV and SRD in laboratory setups.",
+        "General considerations are available for viscometer SRV measurements in laboratory, static, or calibration setups."
+      ],
+      "diagram_labels": [
+        "rheonlcs",
+        "50 mm",
+        "[1.96\"]",
+        "34 mm",
+        "[1.4\"]",
+        "Ø16 mm",
+        "[0.63\"]",
+        "Ø35 mm",
+        "[1.4\"]",
+        "SRV tip's clearance to any obstruction",
+        "5 mm [0.2\"]",
+        "SRD tip's clearance to any obstruction",
+        "12 mm [0.5\"]",
+        "Figure 1: SRV and SRD sensing areas."
+      ],
+      "warnings_notes": [
+        "Avoid stagnation zones in the sensing zones (red areas).",
+        "Ensure the sensing element (highlighted in red) is in contact with fluid.",
+        "Temperature differences greater than 20°C between the SRD sensor probe's back and the fluid can affect density readings with a systematic offset."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1299,
+        "cost_usd": 0.0033872999999999998
+      },
+      "source_file": "036_Using_Rheonics_process_viscometer_and_density_meter_as_table_top_instruments.pdf"
+    },
+    {
+      "page_summary": "This page provides laboratory setup guidelines for Rheonics SRV viscometers and SRD density sensors, detailing fluid recommendations, immersion requirements, temperature considerations, and links to support articles.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics",
+        "SRV",
+        "SRD"
+      ],
+      "extracted_text": "Figure 2: SRV Laboratory Setup Guidelines\n\nGeneral considerations for density and viscosity meter SRD measurements in laboratory, static or calibration setup.\n\nFigure 3: SRD Laboratory Setup Guidelines\n\n*If the process fluid temperature differs by more than 15 °C from the ambient temperature, then thermal equilibrium along the probe should be considered, i.e. an oven or a long insertion probe for deeper immersion is recommended.\n\nRead more about SRD’s thermal equilibrium requirement.\n(https://support.rheonics.com/en/support/solutions/articles/81000412500-maintaining-the-srd-s-temperature-balance-for-high-density-accuracy)\n\nReview the calibration guidelines article for SRV and SRD.\n(https://support.rheonics.com/en/support/solutions/articles/81000390161-calibrating-srv-in-field-verification-and-re-calibration)",
+      "specifications": {
+        "temperature_difference_threshold": "15 °C"
+      },
+      "key_facts": [
+        "The document provides setup guidelines for SRV (viscometer) and SRD (density sensor/viscosity meter) in laboratory, static, or calibration environments.",
+        "Recommended fluids for measurements include calibrated fluids, oils, and alcohols.",
+        "The sensor's sensing area must be fully immersed in the fluid.",
+        "Mixing or stirring is optional, but fluid level variations caused by stirring will impact measurement readings.",
+        "A heater can be optionally used for testing at different temperatures.",
+        "If the process fluid temperature varies more than 15 °C from ambient, thermal equilibrium along the probe should be considered, potentially requiring an oven or a long insertion probe for deeper immersion.",
+        "Further details on SRD's thermal equilibrium and SRV/SRD calibration are available on the Rheonics support website."
+      ],
+      "diagram_labels": [
+        "Clamp the sensor",
+        "Recommended Fluids: - Calibrated fluids - Oils - Alcohols",
+        "Do not use water",
+        "Make sure the sensing area is fully immersed",
+        "Mixing or stirring the fluid is optional. A varying fluid level in sensing area due to stirring will impact the readings",
+        "Heater: Optional to test at different temperatures",
+        "Heater: Optional to test at near ambient temperature*"
+      ],
+      "warnings_notes": [
+        "Do not use water (with the sensor in this setup).",
+        "A varying fluid level in the sensing area due to stirring will impact the readings.",
+        "If the process fluid temperature differs by more than 15 °C from the ambient temperature, thermal equilibrium along the probe should be considered; an oven or a long insertion probe for deeper immersion is recommended."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 731,
+        "cost_usd": 0.0019673
+      },
+      "source_file": "036_Using_Rheonics_process_viscometer_and_density_meter_as_table_top_instruments.pdf"
+    },
+    {
+      "page_summary": "This page details two types of Rheonics sensor probe stands, the SCS-00A-ME made of stainless steel and the SCS-00A-PM made of POM plastic, describing their materials, recommended uses, and compatibility.",
+      "document_type": "datasheet",
+      "product_names": [
+        "Rheonics Sensor Probe Stand",
+        "SCS-00A-ME: Stainless Steel Probe Stand",
+        "SCS-00A-PM: POM Plastic Probe Stand",
+        "SRV",
+        "SRD",
+        "Reactor probe (X7)",
+        "Slimline probes (X6)"
+      ],
+      "extracted_text": "Rheonics Sensor Probe Stand\n\nSCS-00A-ME: Stainless Steel Probe Stand\n\nThis accessory is made of stainless steel 304 (1.4301), it is an bespoke, robust but light, and high temperature capable stand to firmly hold the sensor probe upwards.\n\nFigure 4: Rheonics Stainless Steel Probe Stand\n\nSCS-00A-PM: POM Plastic Probe Stand\n\nThis stand is made of POM (Polyoxymethylene) a high mechanical strength plastic that ensures rigidity in the probe stand. It is recommended for application of up to 65°C only.\nBoth sensor probe stands, in any material, are the same for both SRV and SRD, hygienic and standard design, EX and EHEDG certified, and all X variants - except the Reactor probe (X7) and slimline probes (X6).\n\nFigure 5: Rheonics POM Plastic Probe Stand\n\nTable 1: Rheonics Probe Stand Setup Example",
+      "specifications": {
+        "SCS-00A-ME_material": "stainless steel 304 (1.4301)",
+        "SCS-00A-PM_material": "POM (Polyoxymethylene)",
+        "SCS-00A-PM_max_application_temperature": "65°C"
+      },
+      "key_facts": [
+        "The SCS-00A-ME is a stainless steel 304 probe stand that is robust, light, and high-temperature capable.",
+        "The SCS-00A-ME stand is designed to firmly hold the sensor probe upwards.",
+        "The SCS-00A-PM stand is made of POM (Polyoxymethylene), a high mechanical strength plastic.",
+        "The POM plastic stand ensures rigidity in holding the probe.",
+        "Both sensor probe stands (SCS-00A-ME and SCS-00A-PM) are compatible with SRV and SRD sensors.",
+        "Both sensor probe stands are compatible with hygienic and standard designs of sensors.",
+        "Both sensor probe stands are compatible with EX and EHEDG certified variants of sensors.",
+        "Both sensor probe stands are compatible with all X variants of sensors, except for the Reactor probe (X7) and slimline probes (X6)."
+      ],
+      "diagram_labels": [
+        "Figure 4: Rheonics Stainless Steel Probe Stand",
+        "Figure 5: Rheonics POM Plastic Probe Stand",
+        "Table 1: Rheonics Probe Stand Setup Example"
+      ],
+      "warnings_notes": [
+        "The SCS-00A-PM (POM Plastic Probe Stand) is recommended for application of up to 65°C only.",
+        "The sensor probe stands are not compatible with the Reactor probe (X7) and slimline probes (X6)."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 810,
+        "cost_usd": 0.0021647999999999997
+      },
+      "source_file": "036_Using_Rheonics_process_viscometer_and_density_meter_as_table_top_instruments.pdf"
+    },
+    {
+      "page_summary": "This page provides details on Rheonics Sensor Probe Stands and Rheonics Calibration Cylinders, including order codes, compatibility information, specifications, and associated drawings.",
+      "document_type": "datasheet",
+      "product_names": [
+        "Sensor Probe Stand",
+        "SRV Sensor Probe",
+        "Rheonics Calibration Cylinders",
+        "SCC-SRV Calibration Cylinder",
+        "SCC-SRD Calibration Cylinder",
+        "SRV",
+        "SRD",
+        "SRV-HD",
+        "SRD-HD"
+      ],
+      "extracted_text": "Description\nSensor Probe Stand\nSRV Sensor Probe\n\nOrder Code\nSCS-00A-ME / SCS-00A-PM\nSRV-X1 to X5\nSuitable for all SRV and SRD probe variants, except -X6 and -X7\n\nDrawing\n(https://rheonics.com/wp-content/uploads/2023/12/Rheonics_SCS-00A-ME.pdf)\n(https://rheonics.com/wp-content/uploads/2023/12/Rheonics_SCS-00A-ME.pdf) Rheonics Sensor Probe Stand\n(https://rheonics.com/wp-content/uploads/2023/12/Rheonics_SCS-00A-ME.pdf)\n\nRheonics Calibration Cylinders - SCC and HCC\nThese accessory are made of PTFE and are specially designed for the SRV, SRD, SRV-HD or SRD-HD (HD: Hygienic design), also compatible with -HS variants. Due to the SRV's sensing area being smaller than the SRD's, the SRD cylinders can be used for the SRV as well, but not viceversa. All calibration cylinders are listed in next table, they all have a minimum liquid volume required and a maximum allowed, and O-ring required to ensure a leak-free seal. The sensor probe is mounted as shown in the example below.\n\nFigure 6: Rheonics Calibration Cylinder\n\nTable 2: Rheonics Calibration Cylinders\nCalibration Cylinder | Designed for [Compatible] | Minimum Volume | Maximum Volume | O-Ring required | Drawing\nSCC-SRV | SRV | 19 ml | 21 ml | Ø16x2.5mm | SCC-SRV drawing (https://rheonics.com/wp-content/uploads/2024/01/SCC-SRV.pdf)\nSCC-SRD | SRD [SRV] | 50 ml | 66 ml | Ø16x2.5mm | SCC-SRD drawing (https://rheonics.com/wp-content/uploads/2024/01/SCC-SRD.pdf)",
+      "specifications": {
+        "Sensor Probe Stand Order Code": "SCS-00A-ME / SCS-00A-PM",
+        "SRV Sensor Probe Order Code": "SRV-X1 to X5",
+        "Calibration Cylinder O-Ring Diameter": "16x2.5 mm",
+        "Calibration Cylinder O-Ring Diameter (Alternate)": "14x2.5 mm",
+        "SCC-SRV Minimum Volume": "19 ml",
+        "SCC-SRV Maximum Volume": "21 ml",
+        "SCC-SRV O-Ring required": "16x2.5 mm",
+        "SCC-SRD Minimum Volume": "50 ml",
+        "SCC-SRD Maximum Volume": "66 ml",
+        "SCC-SRD O-Ring required": "16x2.5 mm"
+      },
+      "key_facts": [
+        "Rheonics Calibration Cylinders are made of PTFE.",
+        "The calibration cylinders are designed for SRV, SRD, SRV-HD, SRD-HD (Hygienic design) probes, and are also compatible with -HS variants.",
+        "All calibration cylinders require a minimum liquid volume and an O-ring to ensure a leak-free seal.",
+        "The sensor probe is mounted as shown in Figure 6.",
+        "Drawings for the Sensor Probe Stand are available at rheonics.com/wp-content/uploads/2023/12/Rheonics_SCS-00A-ME.pdf.",
+        "The SCC-SRV calibration cylinder is designed for SRV probes.",
+        "The SCC-SRD calibration cylinder is designed for SRD probes, and can also be used for SRV probes.",
+        "Drawings for the SCC-SRV cylinder are available at rheonics.com/wp-content/uploads/2024/01/SCC-SRV.pdf.",
+        "Drawings for the SCC-SRD cylinder are available at rheonics.com/wp-content/uploads/2024/01/SCC-SRD.pdf."
+      ],
+      "diagram_labels": [
+        "Calibration Cylinder",
+        "SCC-SRV",
+        "SCC-SRD",
+        "HCC-SRD",
+        "O-Ring",
+        "Φ16x2.5mm",
+        "Φ14x2.5mm",
+        "rheonics"
+      ],
+      "warnings_notes": [
+        "SRV Sensor Probe variants -X6 and -X7 are not suitable with the listed order codes.",
+        "Due to the SRV's sensing area being smaller than the SRD's, the SRD cylinders can be used for the SRV, but not vice versa (SRV cylinders cannot be used for SRD probes)."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1292,
+        "cost_usd": 0.0033697999999999996
+      },
+      "source_file": "036_Using_Rheonics_process_viscometer_and_density_meter_as_table_top_instruments.pdf"
+    },
+    {
+      "page_summary": "This page details the components and setup for laboratory calibration of Rheonics viscometers and density sensors, providing specifications for calibration cylinders, probe stands, and sensor probes, along with environmental considerations for accurate measurements.",
+      "document_type": "manual",
+      "product_names": [
+        "HCC-SRD",
+        "SRD-HD",
+        "SRV-HD",
+        "SCS-00A-ME",
+        "SCC-SRX",
+        "SRV-X1-34N",
+        "SCC-SRV",
+        "SRV",
+        "SRD"
+      ],
+      "extracted_text": "Calibration Cylinder | Designed for [Compatible] | Minimum Volume | Maximum Volume | O-Ring required | Drawing\nHCC-SRD | SRD-HD [SRV-HD] | 50 ml | 58 ml | Ø14x2.5mm | HCC-SRD drawing (https://rheonics.com/wp-content/uploads/2024/01/HCC-SRD.pdf)\n\nCalibration setup\n\nUsing Rheonics probe stand (SCS-00A-ME) and calibration cylinder (SCC-SRX), the user can create an ideal setup for laboratory uses with static fluid.\nThe probe stand has holes at the base that can be threaded in tables to avoid unwanted movements.\n\nFigure 7: Calibration stand setup in optical table\n\nTable 3: Laboratory Calibration Setup Example\nDescription | Order Code | CAD Files\nSensor Probe Stand | SCS-00A-ME | \nSRV Sensor Probe | SRV-X1-34N | SRV Calibration Setup Examples CAD files (https://rheonics.com/wp-content/uploads/2023/12/Rheonics_SR-Calibration-Stand-Setup.zip)\n| Suitable for all SRV and SRD probe variants, except -X6 and -X7 | \nCalibration Cylinder | SCC-SRV | \n\nThe setup can be placed in an oven to create a temperature-controlled environment for the measurements. This is especially convenient for the SRD, to keep the thermal balance needed along its resonator and ensure the accuracy in density readings when fluid measurements above or below ambient temperature is required.",
+      "specifications": {
+        "Calibration Cylinder (HCC-SRD) Minimum Volume": "50 ml",
+        "Calibration Cylinder (HCC-SRD) Maximum Volume": "58 ml",
+        "O-Ring required for HCC-SRD": "Ø14x2.5mm",
+        "Sensor Probe Stand Order Code": "SCS-00A-ME",
+        "SRV Sensor Probe Order Code": "SRV-X1-34N",
+        "Calibration Cylinder Order Code": "SCC-SRV"
+      },
+      "key_facts": [
+        "The Rheonics probe stand (SCS-00A-ME) and calibration cylinder (SCC-SRX) are used to create an ideal setup for laboratory calibration with static fluids.",
+        "The probe stand includes threaded holes at its base to secure it to tables, preventing unwanted movements.",
+        "The calibration setup can be placed in an oven to create a temperature-controlled environment for measurements.",
+        "Temperature control is particularly convenient and important for SRD sensors to maintain thermal balance along their resonators, ensuring accuracy in density readings when fluid measurements are conducted above or below ambient temperature.",
+        "The SRV-X1-34N sensor probe is suitable for all SRV and SRD probe variants, with the explicit exception of -X6 and -X7 models."
+      ],
+      "diagram_labels": [
+        "Figure 7: Calibration stand setup in optical table"
+      ],
+      "warnings_notes": [
+        "SRV-X1-34N sensor probe is suitable for all SRV and SRD probe variants, except -X6 and -X7.",
+        "For SRD sensors, maintaining thermal balance along its resonator is essential for accurate density readings when fluid measurements are performed above or below ambient temperature."
+      ],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 920,
+        "cost_usd": 0.0024397999999999998
+      },
+      "source_file": "036_Using_Rheonics_process_viscometer_and_density_meter_as_table_top_instruments.pdf"
+    },
+    {
+      "page_summary": "This page displays an image of a calibration setup for Rheonics inline viscometers and density meters inside an oven and lists references for related calibration and maintenance procedures.",
+      "document_type": "manual",
+      "product_names": [
+        "inline viscometer",
+        "density meter",
+        "SRV",
+        "SRD resonator"
+      ],
+      "extracted_text": "Figure 8: Calibration stand setup in oven\nReferences\n[1]: Calibration verification procedure for inline viscometer and density meter\n(https://support.rheonics.com/en/support/solutions/articles/81000390161-calibrating-srv-in-field-verification-and-re-calibration)\n[2]: Ensure thermal balance in SRD resonator for density accuracy\n(https://support.rheonics.com/en/support/solutions/articles/81000412500-maintaining-the-srd-s-temperature-balance-for-high-density-accuracy)",
+      "specifications": {},
+      "key_facts": [
+        "The page illustrates a calibration stand setup inside an oven, depicted in Figure 8.",
+        "Reference [1] provides a calibration verification procedure for Rheonics inline viscometers and density meters.",
+        "Reference [2] emphasizes the importance of ensuring thermal balance in the SRD resonator for maintaining high-density accuracy."
+      ],
+      "diagram_labels": [
+        "Figure 8: Calibration stand setup in oven"
+      ],
+      "warnings_notes": [
+        "It is important to ensure thermal balance in the SRD resonator for density accuracy."
+      ],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 391,
+        "cost_usd": 0.0011173
+      },
+      "source_file": "036_Using_Rheonics_process_viscometer_and_density_meter_as_table_top_instruments.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": [
+      1
+    ]
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "source_file": "098_PROFIBUS_Fundamentals.pdf",
+  "total_pages": 6,
+  "chunks": [
+    {
+      "page_summary": "This page provides an introduction to PROFIBUS fundamentals, outlining its purpose, listing Rheonics products that utilize it, and presenting a table of contents for further details on the protocol.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "SRV viscometer",
+        "SRD density-viscosity meter",
+        "DVP gas density-viscosity meter",
+        "DVM HPHT density-viscosity meter"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nPROFIBUS Fundamentals\n\nModified on: Fri, 28 Mar, 2025 at 5:40 PM\n\nWhat products are involved?\n\nRheonics SRV viscomete (https://rheonics.com/products/inline-viscometer-srv/), SRD density-viscosity meter (https://rheonics.com/products/inline-density-meter-srd/), DVP gas density-viscosity meter (https://rheonics.com/products/inline-gas-lng-density-meter-dvp/), and DVM HPHT density-viscosity meter (https://rheonics.com/products/hpht-pvt-density-meter-viscometer-dvm/).\n\nWhat is the purpose of this article?\n\nThis article describes the fundamentals of PROFIBUS communication protocol.\n\nTABLE OF CONTENTS\n\n*   1. What is PROFIBUS?\n*   2. What are the characteristics of PROFIBUS?\n*   3. What devices do I need to set up a PROFIBUS network?\n    *   3.1 PROFIBUS Master\n    *   3.2 Slave devices\n    *   3.3 PROFIBUS Cables\n    *   3.4 PROFIBUS Connectors\n*   4. What configuration do I need?\n    *   4.1 Device Description Files\n    *   4.2 Addressing in PROFIBUS\n    *   4.3 How does Rheonics support PROFIBUS integration and development?\n*   5. References\n\n1. What is PROFIBUS?\n\nPROFIBUS (Process Field Bus) is a standardized fieldbus communication protocol widely used in industrial automation and process control. It is based on IEC 61158 and IEC 61784 standards, which define fieldbus communication technologies and their specific protocol implementations, including signal characteristics and medium access requirements. Using serial communication over RS-485 or fiber optic networks, it enables efficient data exchange between industrial devices, including sensors like Rheonics inline viscometers, as well as controllers and actuators.",
+      "specifications": {},
+      "key_facts": [
+        "The article describes the fundamentals of PROFIBUS communication protocol.",
+        "PROFIBUS (Process Field Bus) is a standardized fieldbus communication protocol widely used in industrial automation and process control.",
+        "PROFIBUS is based on IEC 61158 and IEC 61784 standards.",
+        "PROFIBUS standards define fieldbus communication technologies, their specific protocol implementations, signal characteristics, and medium access requirements.",
+        "PROFIBUS uses serial communication over RS-485 or fiber optic networks.",
+        "PROFIBUS enables efficient data exchange between industrial devices, including Rheonics inline viscometers, controllers, and actuators."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 786,
+        "cost_usd": 0.0021048
+      },
+      "source_file": "098_PROFIBUS_Fundamentals.pdf"
+    },
+    {
+      "page_summary": "This page provides an overview of PROFIBUS, detailing its characteristics, two main variants (DP and PA), and key features that contribute to its continued widespread use.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "PROFIBUS",
+        "PROFINET",
+        "PROFIBUS DP",
+        "PROFIBUS PA",
+        "MBP (Manchester Bus Powered)",
+        "RS-485"
+      ],
+      "extracted_text": "Although considered a predecessor to PROFINET (https://support.rheonics.com/en/support/solutions/folders/81000292663), PROFIBUS remains widely used due to its reliability, compatibility with legacy systems, and proven performance all over the world.\n\n[Image: PROFIBUS logo]\n\nFigure 1. PROFIBUS. Image Sourced from PROFIBUS & PROFINET International website.\n\n2. What are the characteristics of PROFIBUS?\n\nPROFIBUS has two main variants in use today: PROFIBUS DP and PROFIBUS PA.\n\n2.1 PROFIBUS DP\n\nPROFIBUS DP (Dezentralized Peripherals) is designed for high-speed, half-duplex communication between controllers and field devices, making it ideal for factory and industrial automation. It uses an RS-485 physical layer, typically over twisted-pair copper cables.\n\n2.2 PROFIBUS PA\n\nPROFIBUS PA (Process Automation) is designed for hazardous environments, providing intrinsic safety and allowing power and data to be transmitted over the same cable. It uses the MBP (Manchester Bus Powered) physical layer, which supports communication and power delivery on a two-wire system but at lower data speeds compared to PROFIBUS DP.\n\n2.3 Key Features\n\n*   Field device integration: Supports a wide range of devices, from sensors to controllers.\n*   High flexibility: Suits various industries such as manufacturing, process control, and energy.\n*   Communication speeds: Up to 12 Mbps (PROFIBUS DP).\n*   Wide address space: Up to 126 devices on a single network.\n*   Extended cable length: Supports longer wire lengths without the need of repeaters, compared to PROFINET's 100-meter limitation.\n*   Reduced Signal Loss: Digital signals maintain integrity over long distances, unlike analog signals, which degrade with increasing cable length.",
+      "specifications": {
+        "Communication speed (PROFIBUS DP)": "12 Mbps",
+        "Max devices per network": "126",
+        "PROFINET cable length limitation": "100 meters"
+      },
+      "key_facts": [
+        "PROFIBUS is a predecessor to PROFINET but remains widely used globally due to its reliability, compatibility with legacy systems, and proven performance.",
+        "PROFIBUS has two main variants: PROFIBUS DP and PROFIBUS PA.",
+        "PROFIBUS DP (Dezentralized Peripherals) is designed for high-speed, half-duplex communication ideal for factory and industrial automation.",
+        "PROFIBUS DP utilizes an RS-485 physical layer over twisted-pair copper cables.",
+        "PROFIBUS PA (Process Automation) is designed for hazardous environments, offering intrinsic safety.",
+        "PROFIBUS PA allows both power and data transmission over the same cable.",
+        "PROFIBUS PA uses the MBP (Manchester Bus Powered) physical layer, supporting communication and power delivery on a two-wire system.",
+        "PROFIBUS PA operates at lower data speeds compared to PROFIBUS DP.",
+        "PROFIBUS supports the integration of a wide range of devices, from sensors to controllers.",
+        "PROFIBUS offers high flexibility, suitable for diverse industries including manufacturing, process control, and energy.",
+        "PROFIBUS supports longer wire lengths without repeaters compared to PROFINET's 100-meter limitation.",
+        "PROFIBUS digital signals maintain integrity over long distances, unlike analog signals which degrade with increasing cable length."
+      ],
+      "diagram_labels": [
+        "Figure 1. PROFIBUS."
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 952,
+        "cost_usd": 0.0025198
+      },
+      "source_file": "098_PROFIBUS_Fundamentals.pdf"
+    },
+    {
+      "page_summary": "This page provides an overview of setting up a PROFIBUS network, detailing the roles and communication mechanisms of PROFIBUS masters and slave devices.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SME"
+      ],
+      "extracted_text": "3. What devices do I need to set up a PROFIBUS network?\n\n3.1 PROFIBUS Master\n\nA PROFIBUS Master is a PLC, DCS, or PC-based controller that initiates communication with the “Slaves”. In a master-slave interaction, the master has unidirectional control over all its slave devices and processes. The controller will always be the master, and the IO devices will always be slaves.\n\nIn addition to cyclical communication for the fast exchange of input and output data between the master and slaves at regular intervals, need-based data can also be transmitted using PROFIBUS, e.g. device setting data. A master has the initiative, accessing the data of a slave in read or write mode acyclically.\n\n[Diagram: PROFIBUS network showing PLC/DCS, Eng. Station, and various slave devices connected via PROFIBUS, illustrating Cyclic Channel IO Data Exchange (green arrows) and Acyclic Channel Parameter Access (dashed arrows).]\n\nFigure 2. PROFIBUS Master. Image Sourced from PROFIBUS & PROFINET International website.\n\nFigure 2 illustrates a PROFIBUS network with two masters. The PLC/DCS centrally manages regular cyclic communication (green arrows) with slave devices, such as sensors and actuators. The Engineering Station, shown on the right, interacts with the network via acyclic communication (dashed arrows), focusing on tasks like configuration and diagnostics rather than continuous control.\n\n3.2 Slave devices\n\nSensors, actuators, or other field devices respond to a prompting master with a response message. The master's request message contains commands or queries, while the response message includes process data or feedback from the field device.\n\nIn the case of PROFIBUS DP, the protocol supports up to 125 slave devices per master. Each slave is assigned a unique address within the range of 0 to 126, with one address reserved for the master.\n\nIn a setup where the Rheonics SME (https://rheonics.com/electronics-and-communication/) acts as a Modbus TCP server to a Modbus-PROFIBUS gateway, the gateway acts as the Modbus client while serving as the slave to the PROFIBUS master, typically a PLC.",
+      "specifications": {
+        "maximum_slave_devices_per_master": "125",
+        "slave_address_range": "0 to 126"
+      },
+      "key_facts": [
+        "A PROFIBUS Master is a PLC, DCS, or PC-based controller that initiates communication with slave devices.",
+        "The PROFIBUS master has unidirectional control over all its slave devices and processes.",
+        "In a PROFIBUS network, IO devices always function as slaves.",
+        "PROFIBUS communication includes cyclic communication for fast input/output data exchange and acyclic communication for need-based data like device settings.",
+        "The master always initiates data access in a PROFIBUS network.",
+        "PROFIBUS slave devices (sensors, actuators, field devices) respond to master requests with process data or feedback.",
+        "In PROFIBUS DP, one address in the range of 0 to 126 is reserved for the master.",
+        "The Rheonics SME can act as a Modbus TCP server, interfacing with a Modbus-PROFIBUS gateway, which then acts as a Modbus client to the SME and a PROFIBUS slave to the PROFIBUS master."
+      ],
+      "diagram_labels": [
+        "Cyclic Channel IO Data Exchange",
+        "Acyclic Channel Parameter Access",
+        "PROFIBUS",
+        "PLC / DCS",
+        "Eng. Station"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 886,
+        "cost_usd": 0.0023547999999999998
+      },
+      "source_file": "098_PROFIBUS_Fundamentals.pdf"
+    },
+    {
+      "page_summary": "This page details the specifications and usage of PROFIBUS DP cables and connectors, including their characteristics and proper termination, and features the Rheonics SME device connections.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SME",
+        "SME-DRM"
+      ],
+      "extracted_text": "Figure 3. Rheonics SME\n\n3.3 PROFIBUS Cables\nTwisted, shielded copper pair RS-485 cables are the standard choice for PROFIBUS DP data transmission in non-intrinsically safe applications. These cables are easily identifiable by their characteristic purple outer sheath.\n\nThese cables include a shielding layer, such as a braided or foil shield, to minimize electromagnetic interference (EMI).\n\nWhile PROFIBUS maintains RS-485 communication standards, connector types can vary. Figure 4 illustrates a PROFIBUS cable using an M12 connector, demonstrating that RS-485 communication is not limited to traditional DB connectors (like DB9).\n\nFigure 4. PROFIBUS Cable. Image Sourced from Siemen's Website\n\n3.4 PROFIBUS Connectors\nThe most common connector for PROFIBUS DP is a DB9 serial connector. Typically, since RS-485 transmission is used, all devices are connected in a line structure (or bus). This topology requires proper termination at the beginning and end of each segment to prevent signal reflections, which can cause communication errors or data loss.",
+      "specifications": {
+        "power_input": "24 V DC",
+        "output_type": "4-20 mA",
+        "communication_standard_profibus": "RS-485",
+        "common_profibus_connector_type": "DB9 serial connector",
+        "alternative_profibus_connector_type": "M12 connector"
+      },
+      "key_facts": [
+        "Twisted, shielded copper pair RS-485 cables are the standard choice for PROFIBUS DP data transmission.",
+        "PROFIBUS DP is used in non-intrinsically safe applications.",
+        "PROFIBUS DP cables are easily identifiable by their characteristic purple outer sheath.",
+        "PROFIBUS cables include a shielding layer (braided or foil shield) to minimize electromagnetic interference (EMI).",
+        "PROFIBUS maintains RS-485 communication standards, but connector types can vary (e.g., M12, DB9).",
+        "The most common connector for PROFIBUS DP is a DB9 serial connector.",
+        "RS-485 transmission typically connects all devices in a line structure (or bus).",
+        "This bus topology requires proper termination at the beginning and end of each segment to prevent signal reflections."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "SME-DRM",
+        "power",
+        "24 V DC",
+        "MODBUS A (RS-485) B",
+        "sensor",
+        "comm.",
+        "data",
+        "ethernet",
+        "USB",
+        "display",
+        "SD card",
+        "reset",
+        "sensor connection",
+        "PN-1917-BO/SN.BFCM-R02-19101399",
+        "swiss made",
+        "CE",
+        "4-20 mA output",
+        "ch1",
+        "ch2",
+        "ch3",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "warnings_notes": [
+        "Improper termination at the beginning and end of each segment can cause communication errors or data loss."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 875,
+        "cost_usd": 0.0023273
+      },
+      "source_file": "098_PROFIBUS_Fundamentals.pdf"
+    },
+    {
+      "page_summary": "This page explains PROFIBUS connector termination, the function of Generic Station Description (GSD) files, and the addressing scheme within a PROFIBUS network, illustrated with relevant diagrams.",
+      "document_type": "manual",
+      "product_names": [
+        "PROFIBUS Connector",
+        "S7-1500",
+        "CPU 1511-1 PN",
+        "S7-1200",
+        "CPU 1212C",
+        "S7-300",
+        "CPU 315-2 DP",
+        "Slave_1 IM 153-1",
+        "HMI_1 KTP1200 Basic",
+        "Slave_2 SINAMICS CU24",
+        "Slave_3 SINAMICS CU24",
+        "TIA Portal"
+      ],
+      "extracted_text": "Many DB9 connectors have integrated termination resistors, which can be activated using a built-in switch, such as the red switch shown in Figure 5. This design simplifies installation and maintenance by reducing the risk of incorrect termination, ensuring stable and reliable network operation. If a device that is not at the end of the bus has its termination enabled, it introduces an additional resistor into the network, causing an error.\n\nFigure 5. PROFIBUS Connector. Image Sourced from Siemens Website\n\n4. What configuration do I need?\n\n4.1. Device Description Files\n\nA GSD file (Generic Station Description) is a standardized text file that describes the communication parameters of a PROFIBUS device. It includes details such as device identification, supported baud rates, operating modes, diagnostic data length, and I/O module configurations. This file is necessary for integrating a PROFIBUS device (like a PROFIBUS Gateway) into a network using tools such as TIA Portal. It is provided by the device manufacturer and can usually be found in the documentation or their website.\n\n4.2. Addressing in PROFIBUS\n\nIn a PROFIBUS network, each device, whether it's a master or a slave, must have a unique address within the range of 0 to 126. This ensures that each device is identifiable and avoids communication conflicts. Figure 6 shows a simple PROFIBUS network (purple cable) where an S-300 is a PROFIBUS Master with a unique address of 1.\n\nFigure 6. PROFIBUS Network. One PROFIBUS Master",
+      "specifications": {
+        "PROFIBUS_address_range": "0 to 126"
+      },
+      "key_facts": [
+        "Many DB9 PROFIBUS connectors feature integrated termination resistors, activated by a built-in switch.",
+        "This design simplifies PROFIBUS installation and maintenance by mitigating incorrect termination risks.",
+        "A GSD (Generic Station Description) file is a standardized text file detailing a PROFIBUS device's communication parameters.",
+        "GSD files specify device identification, supported baud rates, operating modes, diagnostic data length, and I/O module configurations.",
+        "GSD files are essential for integrating PROFIBUS devices, such as PROFIBUS Gateways, into a network using tools like TIA Portal.",
+        "GSD files are provided by the device manufacturer and are found in documentation or on their website.",
+        "Each device in a PROFIBUS network, whether master or slave, must possess a unique address.",
+        "PROFIBUS device addresses are assigned within the range of 0 to 126 to ensure identifiability and prevent communication conflicts.",
+        "Figure 6 illustrates a PROFIBUS network with an S-300 acting as a PROFIBUS Master with address 1."
+      ],
+      "diagram_labels": [
+        "On",
+        "Off",
+        "R",
+        "B1",
+        "B2",
+        "A1",
+        "A2",
+        "Master system: S7-300.DP-Mastersystem",
+        "1",
+        "S7-300 CPU 315-2 DP",
+        "2",
+        "S7-1200 CPU 1212C",
+        "Multi assigned",
+        "PN/IE_1",
+        "S7-1500 CPU 1511-1 PN",
+        "3",
+        "Slave_1 IM 153-1",
+        "S7-300",
+        "S7-300.DP-Mastersystem",
+        "4",
+        "Slave_2 SINAMICS CU24...",
+        "S7-300",
+        "5",
+        "Slave_3 SINAMICS CU24...",
+        "S7-300",
+        "6",
+        "HMI_1 KTP1200 Basic..."
+      ],
+      "warnings_notes": [
+        "If a device that is not at the end of the bus has its termination enabled, it introduces an additional resistor into the network, causing an error."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1153,
+        "cost_usd": 0.0030222999999999995
+      },
+      "source_file": "098_PROFIBUS_Fundamentals.pdf"
+    },
+    {
+      "page_summary": "This page details Rheonics' support for PROFIBUS and PROFINET integration, including its membership in the PI association and the resources provided for integrating its inline viscosity and density sensors.",
+      "document_type": "manual",
+      "product_names": [
+        "inline viscosity sensors",
+        "density sensors"
+      ],
+      "extracted_text": "4.3. How does Rheonics support PROFIBUS integration and development?\nThe PROFIBUS and PROFINET International (PI) association (https://www.profibus.com/) is one of the largest automation organizations in the world and is responsible for PROFIBUS and PROFINET, two of the leading automation technologies. Its main goals include the continuous development of PROFIBUS and PROFINET technology, know-how transfer, and investment protection.\n\nRheonics is a member of the PI association as a vendor of hardware, software, and PROFIBUS-compatible systems. You can check our membership on the official PI website at the following link: Members (https://www.profibus.com/pi-organization/members?tx_solr%5Bq%5D=rheonics#tx_solr-results).\n\nRheonics provides detailed user manuals and technical support for integration. Our inline viscosity and density sensors can be easily integrated into PROFIBUS networks thanks to all the guidelines and steps provided in our Support Portal (https://support.rheonics.com/en/support/home). In addition, our experienced engineering team can assist with installation and configuration to ensure successful integration into your PROFIBUS network in a timely manner.\n\n5. References\n1. PI (PROFIBUS & PROFINET International), \"PROFIBUS System Description: Technology and Application,\" Available: PROFIBUS.com (https://www.profibus.com/download/profibus-technology-and-application-system-description). [Accessed: Dec. 2, 2024].",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics is a member of the PROFIBUS and PROFINET International (PI) association, which is one of the largest automation organizations.",
+        "The PI association is responsible for the continuous development of PROFIBUS and PROFINET technology, know-how transfer, and investment protection.",
+        "Rheonics is a vendor of hardware, software, and PROFIBUS-compatible systems.",
+        "Rheonics provides detailed user manuals and technical support for the integration of its inline viscosity and density sensors into PROFIBUS networks.",
+        "Rheonics offers a Support Portal (https://support.rheonics.com/en/support/home) with guidelines and steps for integration.",
+        "Rheonics has an experienced engineering team available to assist with installation and configuration for PROFIBUS network integration."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 638,
+        "cost_usd": 0.0017348
+      },
+      "source_file": "098_PROFIBUS_Fundamentals.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

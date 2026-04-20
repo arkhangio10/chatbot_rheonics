@@ -1,0 +1,159 @@
+{
+  "source_file": "093_Taking_the_PROFINET_road_with_Rheonics_SME.pdf",
+  "total_pages": 2,
+  "chunks": [
+    {
+      "page_summary": "This page outlines the steps and resources required to configure and integrate Rheonics SME and sensors with the PROFINET communication protocol.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics SME",
+        "Rheonics Sensor",
+        "inline viscometer",
+        "density meter"
+      ],
+      "extracted_text": {
+        "contact_info": "Phone: +1 713 234 0863",
+        "title": "Taking the PROFINET road with Rheonics SME",
+        "metadata": "Modified on: Sun, 9 Jul, 2023 at 12:57 AM",
+        "introduction": "The integration of Rheonics sensors with PROFINET protocol offers users a more secure and reliable data exchange between devices. The protocol provides higher levels of security to protect data from external threats, as well as improved reliability to ensure that the data is accurately transmitted.",
+        "main_section_title": "1. How to set the PROFINET communication on Rheonics Sensor?",
+        "steps": [
+          {
+            "step_number": 1,
+            "text": "It is necessary to have a Rheonics SME with PROFINET communication enabled, for this you will need to order the PROFINET communication protocol prior to the shipment of the sensor or order later. To order the PROFINET communication protocol remember to check the C9-PROFINET option on the ",
+            "links": [
+              {
+                "text": "RFQ page",
+                "url": "https://rheonics.com/request-for-quotation/srv/"
+              }
+            ]
+          },
+          {
+            "step_number": 2,
+            "text": "Establishing network settings: ",
+            "links": [
+              {
+                "text": "Network Setup through USB communication for Rheonics SME",
+                "url": "https://support.rheonics.com/en/support/solutions/articles/81000411282-network-setup-through-usb-communication-for-rheonics-sme"
+              }
+            ]
+          },
+          {
+            "step_number": 3,
+            "text": "Download the GSDML file from this link: ",
+            "links": [
+              {
+                "text": "Profinet connection to inline viscometer and density meter",
+                "url": "https://support.rheonics.com/en/support/solutions/articles/81000401423-profinet-gsd-file-for-rheonics-inline-viscometer-and-density-meter"
+              }
+            ]
+          },
+          {
+            "step_number": 4,
+            "text": "Connecting the Ethernet cable: ",
+            "links": [
+              {
+                "text": "Connecting ethernet cable to rheonics viscometer and density meter transmitter",
+                "url": "https://support.rheonics.com/en/support/solutions/articles/81000300292-introducing-ethernet-connections-on-smet"
+              }
+            ]
+          },
+          {
+            "step_number": 5,
+            "text": "Verify with one of the tools shown in this support article that the Rheonics Sensor can be detected on your PROFINET network: ",
+            "links": [
+              {
+                "text": "Software for Profinet integration with Rheonics Sensors",
+                "url": "https://support.rheonics.com/en/support/solutions/articles/81000411197-software-for-profinet-integration-with-rheonics-sensors"
+              }
+            ]
+          },
+          {
+            "step_number": 6,
+            "text": "Rheonics has several examples of how to integrate the SME into a PROFINET network: ",
+            "links": [
+              {
+                "text": "Which PLCs are compatible with PROFINET?",
+                "url": "https://support.rheonics.com/en/support/solutions/articles/81000411191-which-plcs-are-compatible-with-profinet-"
+              }
+            ]
+          },
+          {
+            "step_number": 7,
+            "text": "With all the setup prepared, the next step is to integrate our sensor with the PROFINET network: ",
+            "links": [
+              {
+                "text": "Rheonics integration articles",
+                "url": "https://support.rheonics.com/en/support/solutions/articles/81000195693"
+              }
+            ]
+          },
+          {
+            "step_number": 8,
+            "text": "The Rheonics sensor parameters available for PROFINET: ",
+            "links": [
+              {
+                "text": "Parameter List access for field devices",
+                "url": "https://support.rheonics.com/en/support/solutions/articles/81000393235-parameter-list-access-for-field-devices"
+              }
+            ]
+          },
+          {
+            "step_number": 9,
+            "text": "Check the user manual for information about the PROFINET protocol on Rheonics SME: ",
+            "links": [
+              {
+                "text": "https://rheonics.com/wp-content/uploads/2022/03/Profinet-rheonics_manual_V1.0.pdf",
+                "url": "https://rheonics.com/wp-content/uploads/2022/03/Profinet-rheonics_manual_V1.0.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      "specifications": {},
+      "key_facts": [
+        "Rheonics sensors can be integrated with the PROFINET protocol to achieve secure, reliable, and accurate data exchange.",
+        "The PROFINET protocol enhances data security against external threats and improves transmission reliability.",
+        "PROFINET communication requires a Rheonics SME with the C9-PROFINET option, which must be ordered.",
+        "The setup process involves establishing network settings via USB, downloading a GSDML file, connecting an Ethernet cable, and verifying sensor detection on the PROFINET network.",
+        "Rheonics provides support articles and examples for integrating the SME into a PROFINET network and lists compatible PLCs.",
+        "Access to Rheonics sensor parameters for PROFINET is available through a dedicated support article.",
+        "A user manual is available for detailed information on the PROFINET protocol specifically for Rheonics SME."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1564,
+        "cost_usd": 0.0040498
+      },
+      "source_file": "093_Taking_the_PROFINET_road_with_Rheonics_SME.pdf"
+    },
+    {
+      "page_summary": "This page is completely blank and contains no discernible information.",
+      "document_type": "notes",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [
+        "The page is entirely blank."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 96,
+        "cost_usd": 0.0003798
+      },
+      "source_file": "093_Taking_the_PROFINET_road_with_Rheonics_SME.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

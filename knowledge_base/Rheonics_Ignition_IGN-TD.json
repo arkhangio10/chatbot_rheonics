@@ -1,0 +1,827 @@
+{
+  "source_file": "Rheonics_Ignition_IGN-TD.pdf",
+  "total_pages": 16,
+  "chunks": [
+    {
+      "page_summary": "This page is the title slide for a Rheonics training deck focusing on the configuration of the Type-SR sensor's UDT within Ignition.",
+      "document_type": "presentation",
+      "product_names": [
+        "Type-SR sensor"
+      ],
+      "extracted_text": "rheonics\nRheonics Training Deck\nType-SR sensor UDT Configuration\nin Ignition\nRheonics\nWinterthur, Switzerland\nSugar Land, Texas, U.S.A.\nrheonics\n© Rheonics | Global Partners Training\nIGN-TD-2502",
+      "specifications": {},
+      "key_facts": [
+        "This document is a Rheonics Training Deck.",
+        "The training deck covers the UDT configuration of the Type-SR sensor in Ignition.",
+        "Rheonics has locations in Winterthur, Switzerland, and Sugar Land, Texas, U.S.A.",
+        "The content is copyrighted by Rheonics and is part of Global Partners Training.",
+        "The document identifier is IGN-TD-2502."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 273,
+        "cost_usd": 0.0008223
+      },
+      "source_file": "Rheonics_Ignition_IGN-TD.pdf"
+    },
+    {
+      "page_summary": "This page outlines the agenda for a training session covering Rheonics Type-SR features, communication options, and detailed integration steps with the Ignition platform.",
+      "document_type": "presentation",
+      "product_names": [
+        "Rheonics Type-SR",
+        "Rheonics sensors",
+        "Ignition",
+        "Ignition Gateway",
+        "Ignition Exchange",
+        "Ignition Designer"
+      ],
+      "extracted_text": "Agenda\n1. Rheonics Type-SR Features overview\n2. Communication options\n3. What is ignition?\n4. What can you achieve by integrating Rheonics sensors with Ignition?\n5. Where to Find Rheonics in Ignition Exchange?\n6. What is included?\n7.1. Ignition Gateway-OPC UA Device connection\n7.2. Ignition Gateway-Create new device\n7.3. Ignition Gateway-Configuring Rheonics Device\n8.1. Ignition Designer Launcher\n8.2. Integrating Rheonics sensor in Ignition Designer\n8.3. Mapping variables in Ignition Designer\nrheonics\n© Rheonics | Global Partners Training\n2",
+      "specifications": {},
+      "key_facts": [
+        "The training agenda includes an overview of Rheonics Type-SR features.",
+        "Communication options will be discussed in the training.",
+        "The session will explain what Ignition is and the benefits of integrating Rheonics sensors with it.",
+        "Instructions will be provided on how to locate Rheonics within Ignition Exchange.",
+        "The agenda covers practical steps for Ignition Gateway, including OPC UA Device connection, creating new devices, and configuring Rheonics devices.",
+        "Detailed steps for using Ignition Designer are included, focusing on launcher, sensor integration, and variable mapping.",
+        "This document is part of Rheonics' Global Partners Training.",
+        "This is page 2 of the document."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 445,
+        "cost_usd": 0.0012523
+      },
+      "source_file": "Rheonics_Ignition_IGN-TD.pdf"
+    },
+    {
+      "page_summary": "This page provides an overview of the features and key specifications for Rheonics Type-SR inline viscometers and density sensors, detailing the SRV viscometer and the SRD density and viscosity meter.",
+      "document_type": "presentation",
+      "product_names": [
+        "Type-SR",
+        "SRV",
+        "SRD"
+      ],
+      "extracted_text": "1. Rheonics Type-SR Features overview\n\nSRV: Symmetric torsional resonator\nRheonics inline viscometer\nViscosity range:\n0.5 – 50 000 cP\nViscosity accuracy:\n5% of reading (standard)\n1% or higher available\nReproducibility:\nbetter than 0.1% of reading\n\nDensity range:\n0.0 – 4.0 g/cc\n0.0 – 33.4 lb/gal\nDensity accuracy:\n0.001 g/cc\n0.008 lb/gal\nSRD: Symmetric torsional resonator\nRheonics inline density and viscosity meter\nReproducibility:\nbetter than 0.1% of reading\n\nrheonics\n© Rheonics | Global Partners Training\n3",
+      "specifications": {
+        "SRV_Viscosity_range": "0.5 - 50000 cP",
+        "SRV_Viscosity_accuracy_standard": "5% of reading",
+        "SRV_Viscosity_accuracy_option": "1% or higher available",
+        "SRV_Reproducibility": "better than 0.1% of reading",
+        "SRD_Density_range_g/cc": "0.0 - 4.0 g/cc",
+        "SRD_Density_range_lb/gal": "0.0 - 33.4 lb/gal",
+        "SRD_Density_accuracy_g/cc": "0.001 g/cc",
+        "SRD_Density_accuracy_lb/gal": "0.008 lb/gal",
+        "SRD_Reproducibility": "better than 0.1% of reading"
+      },
+      "key_facts": [
+        "Rheonics offers Type-SR devices, which include the SRV inline viscometer and the SRD inline density and viscosity meter.",
+        "Both SRV and SRD models utilize symmetric torsional resonator technology.",
+        "The SRV inline viscometer has a viscosity range of 0.5 to 50,000 cP.",
+        "The standard viscosity accuracy for the SRV is 5% of reading, with 1% or higher accuracy options available.",
+        "The SRD inline density and viscosity meter has a density range of 0.0 to 4.0 g/cc (or 0.0 to 33.4 lb/gal).",
+        "The SRD meter achieves a density accuracy of 0.001 g/cc (or 0.008 lb/gal).",
+        "Both the SRV and SRD models demonstrate a reproducibility better than 0.1% of reading for their measurements."
+      ],
+      "diagram_labels": [
+        "rheonics"
+      ],
+      "warnings_notes": [
+        "© Rheonics | Global Partners Training"
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 754,
+        "cost_usd": 0.0020247999999999998
+      },
+      "source_file": "Rheonics_Ignition_IGN-TD.pdf"
+    },
+    {
+      "page_summary": "This page details the various communication options available for Rheonics' products, including wired and wireless protocols, and highlights their robust operational capabilities.",
+      "document_type": "presentation",
+      "product_names": [],
+      "extracted_text": "2. Communication options\n\nEasy integration: Programming API & Wireless options\nStable in harshest environments: Operational to 65 °C ambient and in high EMI process environments\n\n[Device wiring diagram showing internal components and external connections]\nDisplay connector\nUSB\nEthernet\nPower 24V DC\nModbus RTU (RS-485)\nViscosity(ch1)\nDensity(ch2)\nTemperature(ch3)\nGND\nSensor cable\n\n[Icons representing supported communication technologies and standards]\n4-20 mA\nUSB\nEthernet TCP/IP\nModbus MEMBER\nMicro SD\nBluetooth®\nFieldbus Foundation\nHART COMMUNICATION PROTOCOL\nISA100Wireless\nPROFINET®\nPROFIBUS®\nWi Fi™\n\nrheonics\n© Rheonics | Global Partners Training\n4",
+      "specifications": {
+        "Operational Ambient Temperature": "65 °C",
+        "Power Supply": "24V DC",
+        "Viscosity Output Channel": "ch1",
+        "Density Output Channel": "ch2",
+        "Temperature Output Channel": "ch3"
+      },
+      "key_facts": [
+        "Easy integration is provided through Programming API and Wireless options.",
+        "The device is stable in harshest environments.",
+        "The device is operational up to 65 °C ambient temperature.",
+        "The device is operational in high EMI (Electromagnetic Interference) process environments."
+      ],
+      "diagram_labels": [
+        "Display connector",
+        "USB",
+        "Ethernet",
+        "Power 24V DC",
+        "Modbus RTU (RS-485)",
+        "Viscosity(ch1)",
+        "Density(ch2)",
+        "Temperature(ch3)",
+        "GND",
+        "Sensor cable"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 508,
+        "cost_usd": 0.0014098
+      },
+      "source_file": "Rheonics_Ignition_IGN-TD.pdf"
+    },
+    {
+      "page_summary": "This page illustrates the architectural overview of the Ignition system, demonstrating how Rheonics SRD units integrate with PLCs, a database, an Ignition server, and various end-user interfaces.",
+      "document_type": "presentation",
+      "product_names": [
+        "SRD",
+        "Ignition server",
+        "Ignition"
+      ],
+      "extracted_text": "3. What is Ignition?\n\nSRD 1\nModbus RTU\nRS485\nModbus TCP\nEthernet\nReset\nSD-Card\nApplies to all SRD versions\n\nSRD 2\nModbus RTU\nRS485\nModbus TCP\nEthernet\nReset\nSD-Card\nApplies to all SRD versions\n\nSRD 3\nModbus RTU\nRS485\nModbus TCP\nEthernet\nReset\nSD-Card\nApplies to all SRD versions\n\nSRD 4\nModbus RTU\nRS485\nModbus TCP\nEthernet\nReset\nSD-Card\nApplies to all SRD versions\n\nSRD 5\nModbus RTU\nRS485\nModbus TCP\nEthernet\nReset\nSD-Card\nApplies to all SRD versions\n\nSRD 6\nModbus RTU\nRS485\nModbus TCP\nEthernet\nReset\nSD-Card\nApplies to all SRD versions\n\nPLC 1\nPLC 2\n\nDatabase\n\nIgnition server\n\nMobile devices\nWeb-Based application\nPanel views\n\nrheonics\n© Rheonics | Global Partners Training\n5",
+      "specifications": {},
+      "key_facts": [
+        "The page describes the architecture of an Ignition system.",
+        "Rheonics SRD units (SRD 1 through SRD 6) are connected to PLCs (PLC 1 and PLC 2).",
+        "Each SRD unit supports Modbus RTU via RS485 and Modbus TCP via Ethernet, and includes reset and SD-Card functionalities.",
+        "All mentioned communication and features apply to all SRD versions.",
+        "PLCs feed data to an Ignition server, which is connected to a database.",
+        "The Ignition server enables access via mobile devices, web-based applications, and panel views."
+      ],
+      "diagram_labels": [
+        "SRD 1",
+        "SRD 2",
+        "SRD 3",
+        "SRD 4",
+        "SRD 5",
+        "SRD 6",
+        "Modbus RTU",
+        "RS485",
+        "Modbus TCP",
+        "Ethernet",
+        "Reset",
+        "SD-Card",
+        "PLC 1",
+        "PLC 2",
+        "Database",
+        "Ignition server",
+        "Mobile devices",
+        "Web-Based application",
+        "Panel views"
+      ],
+      "warnings_notes": [
+        "Applies to all SRD versions"
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 762,
+        "cost_usd": 0.0020448
+      },
+      "source_file": "Rheonics_Ignition_IGN-TD.pdf"
+    },
+    {
+      "page_summary": "This page outlines the benefits of integrating Rheonics sensors with Ignition for improved downtime management, focusing on data integration, visualization, multi-instrument data, and process traceability.",
+      "document_type": "presentation",
+      "product_names": [
+        "Rheonics sensors",
+        "Ignition"
+      ],
+      "extracted_text": "4. What can you achieve by integrating Rheonics sensors with Ignition?\n\nKey benefits:\n• Quick integration of sensor data\n• Real-time visualization dashboards\n• Actionable multi-instrument data\n• Complete Traceability across process\n\nDOWNTIME MANAGEMENT\n\nComplete Traceability across process\nQuick integration of sensor data\nReal-time visualization dashboards\nActionable multi-instrument data\n\n© Rheonics | Global Partners Training\n6",
+      "specifications": {},
+      "key_facts": [
+        "Integrating Rheonics sensors with Ignition offers key benefits including quick integration of sensor data.",
+        "Real-time visualization dashboards are a key benefit of integrating Rheonics sensors with Ignition.",
+        "Actionable multi-instrument data can be achieved by integrating Rheonics sensors with Ignition.",
+        "Complete traceability across the process is a benefit provided by integrating Rheonics sensors with Ignition.",
+        "The integration supports downtime management by enabling quick integration of sensor data, real-time visualization dashboards, actionable multi-instrument data, and complete traceability across the process."
+      ],
+      "diagram_labels": [
+        "DOWNTIME MANAGEMENT",
+        "Complete Traceability across process",
+        "Quick integration of sensor data",
+        "Real-time visualization dashboards",
+        "Actionable multi-instrument data"
+      ],
+      "warnings_notes": [],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 394,
+        "cost_usd": 0.0011248
+      },
+      "source_file": "Rheonics_Ignition_IGN-TD.pdf"
+    },
+    {
+      "page_summary": "This page provides a step-by-step guide on how to locate Rheonics resources, specifically their Viscosity and Density meter template package, on the Inductive Automation Ignition Exchange website.",
+      "document_type": "presentation",
+      "product_names": [
+        "Rheonics Viscosity and Density meter",
+        "Viscosity meter SRV",
+        "Density meter SRD"
+      ],
+      "extracted_text": "5. Where to Find Rheonics in Ignition Exchange?\n\nIgnition Exchange | Inductive Automation\ninductiveautomation.com/exchange?search=rheonics\n\nCall Us 1-800-266-7798 | Schedule a Demo\n\ninductive automation.\n\nProduct Pricing Resources Partners Support About Download Ignition\n\nIgnition Exchange\n\nDiscover, share, and download community made Ignition resources in collaboration with your organization or the Ignition® community.\n\nCreate a free account\nAbout the Exchange\nAlready have an account? Sign In\n\n1. Ignition Exchange website\n\n2. Search bar, type “Rheonics”\n\nAll Resources\nIndustry Packs NEW!\n\nCategories\nAll\n\nTypes\nAll\n\nIgnition Version\nAll\n\nMaker Edition Compatible\n\nAbout\nStyle Guide\nTerms & Conditions\nAcceptable Use\n\nSort by: New | Popular | Recently Updated\n\n1 Results\n\nCancel rheonics Q\n\nClear Filters\n\nINSTRUMENT INTERFACE\nBeginner\n\nRheonics Viscosity and Density meter\n\nViscosity meter SRV and Density meter SRD\n\n3. Rheonics Template package\n\nrheonics\n\n© Rheonics | Global Partners Training\n\n7",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics resources can be found on the Inductive Automation Ignition Exchange website.",
+        "Users should navigate to inductiveautomation.com/exchange to find the Ignition Exchange website.",
+        "To find Rheonics' resources, type 'rheonics' into the search bar on the Ignition Exchange.",
+        "The search result will show the 'Rheonics Viscosity and Density meter' template package, which includes resources for Viscosity meter SRV and Density meter SRD.",
+        "The template package is categorized under 'Instrument Interface' and is suitable for 'Beginner' users."
+      ],
+      "diagram_labels": [
+        "1. Ignition Exchange website",
+        "2. Search bar, type \"Rheonics\"",
+        "3. Rheonics Template package",
+        "inductiveautomation.com/exchange?search=rheonics",
+        "Product",
+        "Pricing",
+        "Resources",
+        "Partners",
+        "Support",
+        "About",
+        "Download Ignition",
+        "Create a free account",
+        "About the Exchange",
+        "Sign In",
+        "All Resources",
+        "Industry Packs NEW!",
+        "Categories All",
+        "Types All",
+        "Ignition Version All",
+        "Maker Edition Compatible",
+        "About",
+        "Style Guide",
+        "Terms & Conditions",
+        "Acceptable Use",
+        "Sort by: New | Popular | Recently Updated",
+        "1 Results",
+        "Cancel",
+        "rheonics",
+        "Clear Filters",
+        "INSTRUMENT INTERFACE",
+        "Beginner",
+        "Rheonics Viscosity and Density meter",
+        "Viscosity meter SRV and Density meter SRD"
+      ],
+      "warnings_notes": [],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 831,
+        "cost_usd": 0.0022172999999999997
+      },
+      "source_file": "Rheonics_Ignition_IGN-TD.pdf"
+    },
+    {
+      "page_summary": "This presentation slide outlines the contents of a Rheonics software package, detailing the purpose of each folder and included file.",
+      "document_type": "presentation",
+      "product_names": [
+        "Rheonics sensors",
+        "rheonics_viscosity_and_density_meter"
+      ],
+      "extracted_text": "6. What is included?\n\nC > Documents > rheonics_viscosity_and_density_meter.1.0.2\n\nName\nDate modified\nType\nSize\n\nImages\n12/18/2024 4:17 PM\nFile folder\nOther\n12/18/2024 4:17 PM\nFile folder\nProjects\n12/18/2024 4:17 PM\nFile folder\nTags\n12/18/2024 4:17 PM\nFile folder\nMANIFEST\n10/29/2024 8:45 PM\nFile\n1 KB\nREADME\n10/29/2024 8:45 PM\nMD File\n4 KB\n\n1. Images Folder: This contains graphical assets including icons and Logos from the sensor.\n2. Others Folder: Here you'll find a PDF with instructions and some additional resources.\n3. Projects Folder: This includes three project files that users can use to integrate Rheonics sensors into their processes.\n4. Tags Folder: This contains UDT (User-Defined Tag) definitions to simplify sensor configuration in Ignition.\n\nRheonics\n© Rheonics | Global Partners Training\n8",
+      "specifications": {
+        "MANIFEST_file_size": "1 KB",
+        "README_file_size": "4 KB"
+      },
+      "key_facts": [
+        "The package includes an 'Images Folder' for graphical assets like icons and logos from the sensor.",
+        "The 'Others Folder' contains a PDF with instructions and additional resources.",
+        "The 'Projects Folder' contains three project files to assist users in integrating Rheonics sensors into their processes.",
+        "The 'Tags Folder' provides UDT (User-Defined Tag) definitions.",
+        "UDT definitions are used to simplify sensor configuration in Ignition.",
+        "The described package is named 'rheonics_viscosity_and_density_meter.1.0.2' and is located in 'C > Documents'.",
+        "The slide is part of 'Global Partners Training' by Rheonics."
+      ],
+      "diagram_labels": [
+        "Name",
+        "Date modified",
+        "Type",
+        "Size",
+        "Images",
+        "Other",
+        "Projects",
+        "Tags",
+        "MANIFEST",
+        "README",
+        "File folder",
+        "File",
+        "MD File",
+        "Search"
+      ],
+      "warnings_notes": [],
+      "page_num": 8,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 691,
+        "cost_usd": 0.0018673
+      },
+      "source_file": "Rheonics_Ignition_IGN-TD.pdf"
+    },
+    {
+      "page_summary": "This page illustrates the Ignition Gateway interface, providing step-by-step instructions for configuring OPC UA device connections within the system, alongside other gateway management options.",
+      "document_type": "manual",
+      "product_names": [
+        "Ignition Gateway"
+      ],
+      "extracted_text": "7.1. Ignition Gateway-OPC UA Device connection\nConfig > System > Overview\nTrial Expired 0:00:08 Two hours went by already? Not to worry, just click reset for two more.\nReset Trial\nActivate Ignition\nHome\nStatus\nConfig\nSECURITY\nGeneral\nAuditing\nUsers, Roles\nService Security\nIdentity Providers\nOAuth2 Clients\nSecurity Levels\nSecurity Zones\nDATABASES\nConnections\nDrivers\nStore and Forward\nALARMING\nGeneral\nJournal\nNotification\nOn-Call Rosters\nSchedules\nTAGS\nHistory\nRealtime\nOPC CLIENT\nOPC Connections\nOPC Quick Client\nOPC UA\nDevice Connections\nSecurity\nServer Settings\nBACNET\nLocal Devices\nENTERPRISE ADMINISTRATION\nSetup\nSearch...\nlocalhost:8088/web/config/opcua/servercertificates\nActivate a License\nDownload Gateway Backup\nDefine a Security Zone\nSet access levels on a Security Policy\nCONNECTIONS\nCreate a new database connection\nConnect to a 3rd party OPC server\nCreate a new device connection\nSYSTEMS\nCreate an alarm journal profile\nManage schedules and holidays\nCreate a new alarm notification profile\nTest an alarm notification pipeline\nAdd users to an on-call roster\nDATA ACQUISITION\nDefine a new realtime tag provider\nManage tag historians\nQuickly read or write tags in a device\nFirst, navigate to the Config section, scroll down to OPC Connections, and select Device Connections.\n© Rheonics | Global Partners Training\n9",
+      "specifications": {},
+      "key_facts": [
+        "The page describes how to set up OPC UA device connections using the Ignition Gateway interface.",
+        "The Ignition Gateway provides configuration options for Security, Databases, Alarming, Tags, OPC Client, OPC UA, BACNET, and Enterprise Administration.",
+        "Users can activate licenses, download gateway backups, and manage various system settings from the overview page.",
+        "The Ignition Gateway is currently operating under an expiring trial license, with an option to reset for two more hours."
+      ],
+      "diagram_labels": [
+        "Home",
+        "Status",
+        "Config",
+        "SECURITY",
+        "General",
+        "Auditing",
+        "Users, Roles",
+        "Service Security",
+        "Identity Providers",
+        "OAuth2 Clients",
+        "Security Levels",
+        "Security Zones",
+        "DATABASES",
+        "Connections",
+        "Drivers",
+        "Store and Forward",
+        "ALARMING",
+        "General",
+        "Journal",
+        "Notification",
+        "On-Call Rosters",
+        "Schedules",
+        "TAGS",
+        "History",
+        "Realtime",
+        "OPC CLIENT",
+        "OPC Connections",
+        "OPC Quick Client",
+        "OPC UA",
+        "Device Connections",
+        "Security",
+        "Server Settings",
+        "BACNET",
+        "Local Devices",
+        "ENTERPRISE ADMINISTRATION",
+        "Setup",
+        "Search...",
+        "Activate a License",
+        "Download Gateway Backup",
+        "Define a Security Zone",
+        "Set access levels on a Security Policy",
+        "CONNECTIONS",
+        "Create a new database connection",
+        "Connect to a 3rd party OPC server",
+        "Create a new device connection",
+        "SYSTEMS",
+        "Create an alarm journal profile",
+        "Manage schedules and holidays",
+        "Create a new alarm notification profile",
+        "Test an alarm notification pipeline",
+        "Add users to an on-call roster",
+        "DATA ACQUISITION",
+        "Define a new realtime tag provider",
+        "Manage tag historians",
+        "Quickly read or write tags in a device",
+        "Reset Trial",
+        "Activate Ignition",
+        "Config > System > Overview"
+      ],
+      "warnings_notes": [
+        "Trial Expired 0:00:08 Two hours went by already? Not to worry, just click reset for two more."
+      ],
+      "page_num": 9,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1041,
+        "cost_usd": 0.0027423
+      },
+      "source_file": "Rheonics_Ignition_IGN-TD.pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions on how to create a new device, specifically a Rheonics sensor using Modbus TCP, within the Ignition Gateway interface.",
+      "document_type": "presentation",
+      "product_names": [
+        "Ignition Gateway",
+        "Rheonics sensor",
+        "Modbus TCP",
+        "Programmable Device Simulator"
+      ],
+      "extracted_text": "7.2. Ignition Gateway-Create new device\nIgnition-DESKTOP-N3R361S\nsupport-team@rheonics.com | Log Out\nHelp Get Designer\nIgnition!\nSYSTEM\nOverview\nBackup/Restore\nIgnition Exchange\nLicensing\nModules\nProjects\nRedundancy\nGateway Settings\nNETWORKING\nWeb Server\nEmail Settings\nGateway Network\nSECURITY\nGeneral\nAuditing\nUsers, Roles\nService Security\nIdentity Providers\nOAuth2 Clients\nSecurity Levels\nSecurity Zones\nDATABASES\nConnections\nDrivers\nStore and Forward\nALARMING\nGeneral\nJournal\nNotification\nOn-Call Rosters\nSchedules\nSearch...\nConfig > Opcua > Devices\nTrial Expired 0:00:00 Two hours went by already? Not to worry, just click reset for two more.\nReset Trial Activate Ignition\nName\nRheonics\nSample_Device\n→ Create new Device...\nType\nModbus TCP\nProgrammable Device Simulator\nDescription\nViscosity\nEnabled\ntrue\ntrue\nStatus\nConnecting\nRunning\nMore edit\nMore edit\nCreate a new device and select Modbus TCP, click Next, and then enter the configuration details for the Rheonics sensor.\nrheonics\n© Rheonics | Global Partners Training\n10",
+      "specifications": {},
+      "key_facts": [
+        "The page demonstrates how to create a new device in Ignition Gateway.",
+        "A Rheonics device, configured as Modbus TCP for viscosity, is shown with a 'Connecting' status.",
+        "A 'Sample_Device' configured as a 'Programmable Device Simulator' is shown with a 'Running' status.",
+        "To configure a Rheonics sensor, users must select 'Create new Device', choose 'Modbus TCP', click 'Next', and then input the sensor's configuration details.",
+        "The Ignition trial is expired but can be reset for two more hours."
+      ],
+      "diagram_labels": [
+        "Ignition!",
+        "Home",
+        "Status",
+        "Config",
+        "SYSTEM",
+        "Overview",
+        "Backup/Restore",
+        "Ignition Exchange",
+        "Licensing",
+        "Modules",
+        "Projects",
+        "Redundancy",
+        "Gateway Settings",
+        "NETWORKING",
+        "Web Server",
+        "Email Settings",
+        "Gateway Network",
+        "SECURITY",
+        "General",
+        "Auditing",
+        "Users, Roles",
+        "Service Security",
+        "Identity Providers",
+        "OAuth2 Clients",
+        "Security Levels",
+        "Security Zones",
+        "DATABASES",
+        "Connections",
+        "Drivers",
+        "Store and Forward",
+        "ALARMING",
+        "General",
+        "Journal",
+        "Notification",
+        "On-Call Rosters",
+        "Schedules",
+        "Search...",
+        "Config > Opcua > Devices",
+        "Name",
+        "Type",
+        "Description",
+        "Enabled",
+        "Status",
+        "Rheonics",
+        "Modbus TCP",
+        "Viscosity",
+        "true",
+        "Connecting",
+        "More",
+        "edit",
+        "Sample_Device",
+        "Programmable Device Simulator",
+        "Running",
+        "→ Create new Device...",
+        "Reset Trial",
+        "Activate Ignition",
+        "Help",
+        "Get Designer",
+        "Log Out"
+      ],
+      "warnings_notes": [
+        "Trial Expired 0:00:00 Two hours went by already? Not to worry, just click reset for two more."
+      ],
+      "page_num": 10,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 983,
+        "cost_usd": 0.0025972999999999994
+      },
+      "source_file": "Rheonics_Ignition_IGN-TD.pdf"
+    },
+    {
+      "page_summary": "This page details the configuration process for a Rheonics device, specifically a viscosity meter, within an Ignition Gateway using Modbus TCP parameters, showing both the device setup and the Modbus address mapping.",
+      "document_type": "presentation",
+      "product_names": [
+        "Rheonics Device",
+        "Ignition Gateway",
+        "Rheonics",
+        "Rheonics1",
+        "Sample_Device",
+        "Viscosity meter"
+      ],
+      "extracted_text": "7.3. Ignition Gateway-Configuring Rheonics Device\n\nGeneral\n  Name: Rheonics1\n  Description: Viscosity meter\n  Enabled: [checkbox checked] (default: true)\n\nConnectivity\n  Hostname: 192.168.3.6\n    Hostname/IP address of the Modbus device.\n  Port: 502\n    Port to connect to. (default: 502)\n  Local Address: 192.168.3.2\n    Address of network adapter to connect from. (default: )\n  Communication Timeout: 2000\n    Maximum amount of time to wait for a response. (default: 2,000)\n\n[ ] Show advanced properties\nCreate New Device [button]\n\nRheonics Modbus TCP parameters configuration, after saving the changes the device should take a few seconds to connect\n\nAddress Configuration for 'Rheonics'\n  Choose File [button] No file chosen\n  Import Configuration [button]\n  Export Configuration [button]\n\n  Table: Modbus Address Configuration\n    Prefix | Start | End | Step | Unit ID | Modbus Type           | Modbus Address | Action\n    DLG    | 1     | 2   | 0    | 0       | Input Register (Float)| 143            | [delete]\n    TR     | 1     | 2   | 0    | 0       | Input Register (Float)| 95             | [delete]\n    VLG    | 1     | 2   | 0    | 0       | Input Register (Float)| 135            | [delete]\n    SST    | 1     | 2   | 0    | 0       | Input Register (Int16)| 33             | [delete]\n    SSN    | 1     | 8   | 0    | 0       | Holding Register (Double)| 1000          | [delete]\n    KVS    | 1     | 2   | 0    | 0       | Input Register (Float)| 65             | [delete]\n\n  Radix: 10\n  Add Row [link]\n  Save [button]\n\n[✓] Successfully updated Device 'Rheonics'\n\n  Table: Configured Devices\n    Name         | Type                      | Description     | Enabled | Status      | Actions\n    Rheonics     | Modbus TCP                | Viscosity       | true    | Disconnected| More [button] edit [button]\n    Rheonics1    | Modbus TCP                | Viscosity meter | true    | Connected   | More [button] edit [button]\n    Sample_Device| Programmable Device Simulator| true         | Running     | More [button] edit [button]\n\n→ Create new Device... [link]\n\n© Rheonics | Global Partners Training\nPage 11",
+      "specifications": {
+        "Hostname": "192.168.3.6",
+        "Port": "502",
+        "Local Address": "192.168.3.2",
+        "Communication Timeout": "2000 ms",
+        "Modbus Address DLG": "143",
+        "Modbus Address TR": "95",
+        "Modbus Address VLG": "135",
+        "Modbus Address SST": "33",
+        "Modbus Address SSN": "1000",
+        "Modbus Address KVS": "65",
+        "Radix": "10"
+      },
+      "key_facts": [
+        "Rheonics Modbus TCP parameters can be configured through an Ignition Gateway interface.",
+        "After saving configuration changes for a Rheonics device, it should take a few seconds to connect.",
+        "A Rheonics device named 'Rheonics1' is configured as a Modbus TCP viscosity meter and is currently in a 'Connected' status.",
+        "The default port for Modbus communication is 502.",
+        "The default communication timeout is 2,000 ms.",
+        "Modbus addresses for various parameters (DLG, TR, VLG, SST, SSN, KVS) are configured, indicating different Modbus types like Input Register (Float), Input Register (Int16), and Holding Register (Double)."
+      ],
+      "diagram_labels": [
+        "General",
+        "Name",
+        "Description",
+        "Enabled",
+        "Connectivity",
+        "Hostname",
+        "Port",
+        "Local Address",
+        "Communication Timeout",
+        "Show advanced properties",
+        "Create New Device",
+        "Address Configuration for 'Rheonics'",
+        "Choose File",
+        "No file chosen",
+        "Import Configuration",
+        "Export Configuration",
+        "Prefix",
+        "Start",
+        "End",
+        "Step",
+        "Unit ID",
+        "Modbus Type",
+        "Modbus Address",
+        "delete",
+        "Radix",
+        "Add Row",
+        "Save",
+        "Successfully updated Device 'Rheonics'",
+        "Name",
+        "Type",
+        "Description",
+        "Enabled",
+        "Status",
+        "More",
+        "edit",
+        "Create new Device..."
+      ],
+      "warnings_notes": [
+        "Enabled: (default: true)",
+        "Port: (default: 502)",
+        "Local Address: (default: )",
+        "Communication Timeout: (default: 2,000)",
+        "Successfully updated Device \"Rheonics\""
+      ],
+      "page_num": 11,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1414,
+        "cost_usd": 0.0036747999999999998
+      },
+      "source_file": "Rheonics_Ignition_IGN-TD.pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions on how to add and open a new project in the Ignition Designer Launcher using Rheonics project templates for Rheonics sensors.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Package",
+        "Rheonics project template",
+        "Rheonics sensor",
+        "SRD_Template",
+        "SRV_template",
+        "Ignition Designer",
+        "Ignition Designer Launcher"
+      ],
+      "extracted_text": "8.1. Ignition Designer Launcher\n\n[Application Window: Ignition Designer Launcher]\n  Ignition Designer Launcher\n  My Designers\n  Filter Designers\n  All\n  Favorites\n  About\n  Settings\n\n  Ignition-DESKTOP-N3R3615\n  http://localhost:8088\n\n[Dialog Window: Open]\n  Open\n  Look In: Projects\n  Rheonics_project_template.zip\n  SRD_Template.zip\n  SRV_template.zip\n  File Name:\n  Files of Type: Ignition Project Files (.proj, .zip)\n  Open\n  Cancel\n\n  Edit\n  Add Designer\n  Open Designer\n\nAdd a new project using the material available on Rheonics Package downloaded from Ignition exchange website\n\n* Start by clicking on the Import Project button.\n* Select the Rheonics project template, then enter a new project name, such as Rheonics Project Template Webinar.\n* Click on the Import Project button at the bottom to proceed.\n* Once the project is imported, click Open to access all the templates associated with the Rheonics sensor.\n\nFinally enter username and password to launch the Ignition designer.\n\n[Footer]\n  rheonics\n  © Rheonics | Global Partners Training\n  12",
+      "specifications": {},
+      "key_facts": [
+        "New projects in Ignition Designer Launcher are added using Rheonics Package materials downloaded from the Ignition exchange website.",
+        "The process involves clicking the 'Import Project' button, selecting a Rheonics project template, and entering a project name.",
+        "After importing, the project can be opened to access all templates associated with the Rheonics sensor.",
+        "Launching the Ignition designer requires entering a username and password."
+      ],
+      "diagram_labels": [
+        "Ignition Designer Launcher",
+        "My Designers",
+        "Filter Designers",
+        "All",
+        "Favorites",
+        "About",
+        "Settings",
+        "Ignition-DESKTOP-N3R3615",
+        "http://localhost:8088",
+        "Open",
+        "Look In:",
+        "Projects",
+        "Rheonics_project_template.zip",
+        "SRD_Template.zip",
+        "SRV_template.zip",
+        "File Name:",
+        "Files of Type:",
+        "Ignition Project Files (.proj, .zip)",
+        "Edit",
+        "Add Designer",
+        "Open Designer",
+        "Cancel"
+      ],
+      "warnings_notes": [],
+      "page_num": 12,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 724,
+        "cost_usd": 0.0019498
+      },
+      "source_file": "Rheonics_Ignition_IGN-TD.pdf"
+    },
+    {
+      "page_summary": "This page demonstrates the integration of Rheonics sensor data into Ignition Designer, highlighting the use of pre-configured SRV and SRD templates within the Vision module.",
+      "document_type": "presentation",
+      "product_names": [
+        "Rheonics sensor",
+        "Rheonics_SRD",
+        "Rheonics_SRV"
+      ],
+      "extracted_text": "8.2. Integrating Rheonics sensor in Ignition Designer\n\nRheonics_project_template_webinar - Ignition-DESKTOP-N3R3615 - Ignition Designer\nFile Edit View Project Component Alignment Shape Tools Help\n\nProject Browser\n  Q Filter\n  Perspective\n  Transaction Groups\n  Vision\n    Client Events\n    Windows\n    Templates\n      Rheonics_SRD\n      Rheonics_SRV\n\nTag Browser\n  + Q default\n  Tags UDT Definitions\n  Tag Value\n\nVision Property Editor\n\nVision Windows & Templates\n  Learn Mo... Gateway Status\n  Create a New Window\n    Name of the window\n    Main Window Popup Window Docked Window\n  [Preview windows labeled 'Rheonics' with numerical data: 22.3, 10.5, 10.9, 20.3, 20.5]\n  Main Window (below previews)\n\nComponent Palette\n  Q Filter\n  Input\n    Text Field\n    Numeric Text Field\n    Spinner\n    Formatted Text Field\n    Password Field\n    Text Area\n    Dropdown List\n    Slider\n    Language Selector\n  Momentary Button\n  Toggle Button\n  Check Box\n  Radio Button\n  Tab Strip\n  Display\n    Label\n\nOn the Vision section, we can observe the SRV and SRD templates. These templates are fully prepared to handle the Rheonics data.\n\n(-) (-) % 252 / 1024 mb Trial Mode: 01:37:04\n\nrheoncs\n© Rheonics | Global Partners Training\n13",
+      "specifications": {},
+      "key_facts": [
+        "The Ignition Designer's Vision section includes SRV and SRD templates for Rheonics data integration.",
+        "These SRV and SRD templates are fully prepared to handle Rheonics data."
+      ],
+      "diagram_labels": [
+        "Project Browser",
+        "Q Filter",
+        "Perspective",
+        "Transaction Groups",
+        "Vision",
+        "Client Events",
+        "Windows",
+        "Templates",
+        "Rheonics_SRD",
+        "Rheonics_SRV",
+        "Tag Browser",
+        "Tags",
+        "UDT Definitions",
+        "Tag",
+        "Value",
+        "Vision Property Editor",
+        "Vision Windows & Templates",
+        "Learn Mo...",
+        "Gateway Status",
+        "Create a New Window",
+        "Name of the window",
+        "Main Window",
+        "Popup Window",
+        "Docked Window",
+        "Rheonics (preview window)",
+        "Component Palette",
+        "Input",
+        "Text Field",
+        "Numeric Text Field",
+        "Spinner",
+        "Formatted Text Field",
+        "Password Field",
+        "Text Area",
+        "Dropdown List",
+        "Slider",
+        "Language Selector",
+        "Momentary Button",
+        "Toggle Button",
+        "Check Box",
+        "Radio Button",
+        "Tab Strip",
+        "Display",
+        "Label"
+      ],
+      "warnings_notes": [],
+      "page_num": 13,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 851,
+        "cost_usd": 0.0022673
+      },
+      "source_file": "Rheonics_Ignition_IGN-TD.pdf"
+    },
+    {
+      "page_summary": "This page illustrates the process of mapping variables from an OPC client setup to display components within the Ignition Designer software for Rheonics viscometers.",
+      "document_type": "presentation",
+      "product_names": [
+        "Viscometer SRV",
+        "Rheonics_SRD",
+        "Rheonics_SRV",
+        "Rheonics1",
+        "UnitId 0",
+        "DLG1-DLG2",
+        "KVS1-KVS2",
+        "SSN1-SSN8",
+        "SST1-SST2",
+        "TR1-TR2",
+        "VLG1-VLG2",
+        "VLG1",
+        "VLG2"
+      ],
+      "extracted_text": "8.3. Mapping variables in Ignition Designer\nRheonics_project_template_webinar - Ignition-DESKTOP-N3R3615 - Ignition Designer\nFile Edit View Project Component Alignment Shape Tools Help\nProject Browser\nFilter\nProject Properties\nRheonics_SRD\nRheonics_SRV\nTemplates\nRheonics_SRD\nRheonics_SRV\nThe next step is to map the variables based on the registers assigned during the OPC client setup\nViscometer SRV\nrheoncs\nViscosity\n-2.0000 CP\nTag Browser\ndefault\nUDT Definitions\nTags\nDefinition\nConfig\nKinematic Viscosity\nSensor serial number\nSensor Status\nTemperature\nViscosity\nVLG1\nIgnition OPC UA Server/ns=1;s=[Rheonics]VLG1\nVLG2\nIgnition OPC UA Server/ns=1;s=[Rheonics]VLG2\nVision Property Editor\nNumber format pattern\n#.0000\nData\nValue\n2.0\nText\ntext\nAppearance\nStyle\n14 Segment\nBackground Color\n0.0.0\nLED Display \"LED Display\" (423,56) [239x70]\nComponent Palette\nFilter\nInput\nText Field\nNumeric Text Field\nSpinner\nFormatted Text Field\nPassword Field\nText Area\nDropdown List\nSRV 1\nRead completed. Ignition OPC UA Server/ns=1;s=[Rheonics]VLG2\nValue: null\nQuality: Bad (\"Bad: Timeout: The operation timed out.\")\nTimestamp: 1/23/99, 7:00:00 PM PET\nTYPE ACTION TITLE\nServer refresh Ignition OPC UA Server\nObject\nDevices\nObject\nRheonics1\nObject\nRheonics\nObject\nUnitId 0\nObject\nDLG1-DLG2\nObject\nKVS1-KVS2\nObject\nSSN1-SSN8\nObject\nSST1-SST2\nObject\nTR1-TR2\nObject\nVLG1-VLG2\nTag\n[s|r|w]\nVLG1\nTag\n[s|r|w]\nVLG2\nObject\nDiagnostics\nSubscription 1 Add\nServer Address Value Quality Timestamp\nRadio Button\nTab Strip\nDisplay\nLabel\nRate (ms):\n(-,-) 100% 323 / 1024 mb Trial Mode: 01:29:23\nrheoncs\n© Rheonics | Global Partners Training\n14",
+      "specifications": {
+        "Number format pattern": "#.0000",
+        "Value": "2.0",
+        "Style": "14 Segment",
+        "Background Color": "0.0.0",
+        "LED Display dimensions": "239x70",
+        "Memory usage": "323 / 1024 mb",
+        "Trial Mode remaining time": "01:29:23"
+      },
+      "key_facts": [
+        "The page describes how to map variables in Ignition Designer, specifically for Rheonics products.",
+        "Variable mapping is based on registers assigned during the OPC client setup.",
+        "The Ignition Designer software interface is shown, detailing project browser, tag browser, vision property editor, and component palette.",
+        "Rheonics uses Ignition OPC UA Server for data communication, with examples like VLG1 and VLG2 tags.",
+        "The system can monitor Kinematic Viscosity, Sensor serial number, Sensor Status, Temperature, and Viscosity.",
+        "A displayed viscosity value of -2.0000 CP is shown on a Viscometer SRV display component.",
+        "The software is running in trial mode with 1 hour, 29 minutes, and 23 seconds remaining."
+      ],
+      "diagram_labels": [
+        "Viscometer SRV",
+        "Viscosity",
+        "CP",
+        "SRV 1",
+        "Temperature"
+      ],
+      "warnings_notes": [
+        "Quality: Bad (\"Bad: Timeout: The operation timed out.\") - This indicates a communication error or timeout with the OPC UA server at the timestamp 1/23/99, 7:00:00 PM PET."
+      ],
+      "page_num": 14,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1234,
+        "cost_usd": 0.0032248
+      },
+      "source_file": "Rheonics_Ignition_IGN-TD.pdf"
+    },
+    {
+      "page_summary": "This page, likely from a training presentation, directs users to the Rheonics Support Portal via a QR code to learn more about the company and its integration with Ignition.",
+      "document_type": "presentation",
+      "product_names": [
+        "Ignition"
+      ],
+      "extracted_text": "9. Where can I learn more?\n[QR code]\nVisit the Rheonics Support Portal to learn more about Rheonics and its integration with Ignition.\nrheonics\n© Rheonics | Global Partners Training\n15",
+      "specifications": {},
+      "key_facts": [
+        "Users can learn more about Rheonics and its integration with Ignition by visiting the Rheonics Support Portal.",
+        "A QR code is provided to facilitate access to the Rheonics Support Portal.",
+        "The document is part of a \"Global Partners Training\" program by Rheonics.",
+        "This is page 15 of the document."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 15,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 234,
+        "cost_usd": 0.0007248
+      },
+      "source_file": "Rheonics_Ignition_IGN-TD.pdf"
+    },
+    {
+      "page_summary": "This page provides contact information for Rheonics GmbH in Switzerland and Rheonics, Inc. in the U.S.A., including phone numbers, a website, and email addresses for sales and support.",
+      "document_type": "presentation",
+      "product_names": [],
+      "extracted_text": "Contact\n\nRheonics GmbH\nWinterthur, Switzerland 🇨🇭\nTel: +41 52 511 32 00\n\nRheonics, Inc. 🇺🇸\nTexas, U.S.A.\nTel: +1 713 364 5427\n\nWeb:\nhttps://rheonics.com\n\nEmail:\nSales: info@rheonics.com\nSupport: support@rheonics.com\n\nrheonics\n© Rheonics | Global Partners Training\n16",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics GmbH is located in Winterthur, Switzerland and can be reached at +41 52 511 32 00.",
+        "Rheonics, Inc. is located in Texas, U.S.A. and can be reached at +1 713 364 5427.",
+        "The official website for Rheonics is https://rheonics.com.",
+        "For sales inquiries, contact info@rheonics.com.",
+        "For support, contact support@rheonics.com.",
+        "This document is part of Rheonics Global Partners Training material.",
+        "The page number is 16."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 16,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 398,
+        "cost_usd": 0.0011348
+      },
+      "source_file": "Rheonics_Ignition_IGN-TD.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

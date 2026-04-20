@@ -1,0 +1,171 @@
+{
+  "source_file": "EHEDG_Installation_Guideline_A.pdf",
+  "total_pages": 5,
+  "chunks": [
+    {
+      "page_summary": "This page is the cover of an installation guideline for Rheonics Density & Viscosity Meters, specifically detailing the installation of EHEDG Approved Products.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Density & Viscosity Meters"
+      ],
+      "extracted_text": "Installation Guideline\nInstallation of EHEDG Approved Products\nSR/EHEDG/IG-202203 Rev-A\n\nRheonics Density & Viscosity Meters\nINSTALLATION GUIDELINE\nInstallation of EHEDG Approved Products\n\nrheonics\ninline process\ndensity and viscosity\nmonitoring",
+      "specifications": {},
+      "key_facts": [
+        "This document is an Installation Guideline.",
+        "The guideline is for Rheonics Density & Viscosity Meters.",
+        "It covers the installation of EHEDG Approved Products.",
+        "The document's identifier is SR/EHEDG/IG-202203 Rev-A.",
+        "Rheonics offers inline process density and viscosity monitoring solutions."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 276,
+        "cost_usd": 0.0008297999999999999
+      },
+      "source_file": "EHEDG_Installation_Guideline_A.pdf"
+    },
+    {
+      "page_summary": "This page provides contact information for Rheonics' global support and headquarters, along with legal notices regarding copyright and trademarks.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "GLOBAL SUPPORT\n\nFor Support, visit: https://support.rheonics.com\n\nEUROPE HEADQUARTERS\nRheonics GmbH\nKlosterstrasse. 19\n8406 Winterthur Switzerland\nTel: +41 52 511 32 00\n\nUS HEADQUARTERS\nRheonics, Inc.\n3 Sugar Creek Center Blvd, Ste 100\nSugar Land, TX 77478\nUnited States of America\nTel: +1 713 364 5427\n\nWebsite: https://rheonics.com\nSupport Portal: https://support.rheonics.com\nSales E-Mail: info@rheonics.com\nSupport E-Mail: support@rheonics.com\n\n© COPYRIGHT RHEONICS 2022\n\nNo part of this publication may be copied or distributed, transmitted, transcribed, stored in a retrieval system,\nor translated into any primary computer language, in any form or by any means, electronic, mechanical,\nmanual, or otherwise, or disclosed to third parties without the express written permission of Rheonics. The\ninformation contained in this manual is subject to change without notice.\n\nTRADEMARKS\n\nRheonics is a trademark of Rheonics, Inc. Other product and company names listed in this manual are trademarks\nor trade names of their respective manufacturers.\n\nPage 2 of 5",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics provides global support, accessible via https://support.rheonics.com.",
+        "The European headquarters for Rheonics GmbH is located at Klosterstrasse. 19, 8406 Winterthur, Switzerland, with a telephone number of +41 52 511 32 00.",
+        "The US headquarters for Rheonics, Inc. is located at 3 Sugar Creek Center Blvd, Ste 100, Sugar Land, TX 77478, United States of America, with a telephone number of +1 713 364 5427.",
+        "Additional contact information for Rheonics includes their website (https://rheonics.com), support portal (https://support.rheonics.com), sales email (info@rheonics.com), and general support email (support@rheonics.com).",
+        "This document is copyrighted by Rheonics in 2022.",
+        "Rheonics is a trademark of Rheonics, Inc.",
+        "Other product and company names mentioned in the manual are trademarks or trade names of their respective manufacturers."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "No part of this publication may be copied or distributed, transmitted, transcribed, stored in a retrieval system, or translated into any primary computer language, in any form or by any means, electronic, mechanical, manual, or otherwise, or disclosed to third parties without the express written permission of Rheonics.",
+        "The information contained in this manual is subject to change without notice."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 760,
+        "cost_usd": 0.0020398
+      },
+      "source_file": "EHEDG_Installation_Guideline_A.pdf"
+    },
+    {
+      "page_summary": "This page is a table of contents for an installation guide of EHEDG approved products, listing one section for the SR-Sensor series.",
+      "document_type": "manual",
+      "product_names": [
+        "SR-Sensor series"
+      ],
+      "extracted_text": "Installation of EHEDG Approved Products\nSR/EHEDG/IG-202203\n\nContents\n\n1 SR-Sensor series ..............................................................4\n\nPage 3 of 5",
+      "specifications": {},
+      "key_facts": [
+        "This document pertains to the installation of EHEDG approved products.",
+        "The document's identifier is SR/EHEDG/IG-202203.",
+        "The document includes a section about the SR-Sensor series, which starts on page 4."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 231,
+        "cost_usd": 0.0007172999999999999
+      },
+      "source_file": "EHEDG_Installation_Guideline_A.pdf"
+    },
+    {
+      "page_summary": "This page provides detailed installation guidelines for the Rheonics SR-Sensor series, emphasizing EHEDG compliance and proper integration into process environments.",
+      "document_type": "manual",
+      "product_names": [
+        "SR-Sensor series",
+        "VARINLINE®"
+      ],
+      "extracted_text": "Installation of EHEDG Approved Products\nSR/EHEDG/IG-202203\n\n1 SR-Sensor series\n\nThe Type SR sensor must be installed according to the requirements given in EHEDG Guidelines 8, 10 and 37 [1-3]. That is to install the sensor according to the following guidelines\n\n1. Sensor must be mounted in a self-draining orientation\n2. In tanks, the sensor must be positioned to be directly assessed and wetted for cleaning and be installed flush to the process area\n3. For tee piece installations, the ratio between upstand (L) and the diameter (D – d) shall be (D – d)/L ≥ 1, (see figure 2)\n4. For welded adapters, the food contact surface must be smooth and the welding done according to EHEDG guideline 9 and 35 [4-5]\n5. Suitable pipe couplings and process connections with applicable gaskets must be applied according to the EHEDG position paper. Rheonics supports:\n   * DIN11853-1/2/3\n   * DIN11864-1/2/3\n   * DIN 11851 in combination with ASEPTO-STAR k-flex upgrade gaskets\n   * ISO 2852, DIN 32676, BS 4825 Part 3 in combination with Tri-Clamp seals\n   * ISO 2853, BS 4825 Part 4 in combination with T-seals\n   * VARINLINE® tank flange type T and P with EPDM O-Ring in size B,F,N,G\n6. The device has been developed for cleaning in place (CIP) applications and need not be dismantled for cleaning.\n\nFigure 1: Example of an installation on a tank using or flush sensor design with a flush type weld-on connector.\nFigure 2: Example of an installation in a Tee piece. the ratio between upstand (L) and the diameter(D – d) shall be (D – d)/L ≥ 1\n\nPage 4 of 5",
+      "specifications": {
+        "Tee piece installation minimum (D-d)/L ratio": "1 (unitless)",
+        "VARINLINE® tank flange O-Ring material": "EPDM",
+        "VARINLINE® tank flange O-Ring sizes": "B, F, N, G",
+        "Supported pipe coupling standards": "DIN11853-1/2/3, DIN11864-1/2/3, DIN 11851, ISO 2852, DIN 32676, BS 4825 Part 3, ISO 2853, BS 4825 Part 4",
+        "Supported gasket technologies": "ASEPTO-STAR k-flex upgrade gaskets, Tri-Clamp seals, T-seals"
+      },
+      "key_facts": [
+        "The Type SR sensor must be installed according to EHEDG Guidelines 8, 10, and 37.",
+        "The sensor must be mounted in a self-draining orientation.",
+        "In tanks, the sensor needs to be positioned for direct assessment, wetted for cleaning, and installed flush to the process area.",
+        "For tee piece installations, the ratio between upstand (L) and the diameter (D - d) must be (D - d)/L ≥ 1.",
+        "For welded adapters, the food contact surface must be smooth and the welding must adhere to EHEDG guideline 9 and 35.",
+        "Rheonics supports specific DIN, ISO, and BS standards for pipe couplings and process connections, including VARINLINE® tank flanges.",
+        "The device has been developed for Cleaning In Place (CIP) applications and does not need to be dismantled for cleaning."
+      ],
+      "diagram_labels": [
+        "Figure 1: Example of an installation on a tank using or flush sensor design with a flush type weld-on connector.",
+        "Figure 2: Example of an installation in a Tee piece. the ratio between upstand (L) and the diameter(D – d) shall be (D – d)/L ≥ 1",
+        "L",
+        "D",
+        "d"
+      ],
+      "warnings_notes": [
+        "Installation of the SR sensor must comply with EHEDG Guidelines 8, 10, and 37.",
+        "For welded adapters, welding must be done according to EHEDG guideline 9 and 35.",
+        "All pipe couplings and process connections, including gaskets, must adhere to the EHEDG position paper."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1205,
+        "cost_usd": 0.0031522999999999994
+      },
+      "source_file": "EHEDG_Installation_Guideline_A.pdf"
+    },
+    {
+      "page_summary": "This page provides installation guidelines for SRD tips, focusing on required flow patterns and hygienic design principles, referencing EHEDG documents.",
+      "document_type": "manual",
+      "product_names": [
+        "SRD-tip",
+        "M12 connector"
+      ],
+      "extracted_text": "Installation of EHEDG Approved Products\nSR/EHEDG/IG-202203\n\n7. The flow around the SRD tip must be parallel, axial or anything between the two (angle a in figure 4 0° ≤ a ≤ 90°). Perpendicular flow must be avoided because it hinders the cleaning process, as shown in figure 3. The SRD-tip is not visible post installation. To ensure the correct orientation of the tip, there is a black dot on the M12 connector indicating the long axis of the SRD-tip (figure 4).\n\nFigure 3: The black dot on the M12 connector indicates the long axis on the SRD tip for proper installation.\n\nFigure 4: Permitted flow patterns are parallel flow and axial flow, or any flow direction between the two. Perpendicular flow patterns are not permitted because the recirculation zones hinders cleaning.\n\nReferences:\n[1] EHEDG Guideline: Doc 8: HYGIENIC DESIGN PRINCIPLES\n[2] EHEDG Guideline: Doc 10: HYGIENIC DESIGN OF CLOSED EQUIPMENT FOR PROCESSING OF LIQUID FOOD\n[3] EHEDG Guideline: Doc 37: HYGIENIC DESIGN AND APPLICATION OF SENSORS\n[4] EHEDG Guideline: Doc 9: WELDING STAINLESS STEEL TO MEET HYGIENIC REQUIREMENTS\n[5] EHEDG Guideline: Doc 35: HYGIENIC WELDING OF STAINLESS STEEL TUBING IN THE FOOD PROCESS INDUSTRY\n\nPage 5 of 5",
+      "specifications": {
+        "flow_angle_a_range": "0° ≤ a ≤ 90°"
+      },
+      "key_facts": [
+        "The flow around the SRD tip must be parallel, axial, or any direction between these two.",
+        "Perpendicular flow must be avoided as it hinders the cleaning process.",
+        "The SRD-tip is not visible after installation.",
+        "A black dot on the M12 connector indicates the long axis of the SRD-tip for correct orientation.",
+        "Permitted flow patterns include parallel flow, axial flow, or any direction in between.",
+        "Perpendicular flow patterns are not permitted due to recirculation zones that hinder cleaning."
+      ],
+      "diagram_labels": [
+        "A",
+        "Fluid end mass axis and black dot are aligned",
+        "Liquid flow directions",
+        "axial flow",
+        "parallel flow",
+        "perpendicular flow"
+      ],
+      "warnings_notes": [
+        "Perpendicular flow must be avoided because it hinders the cleaning process.",
+        "Perpendicular flow patterns are not permitted because the recirculation zones hinders cleaning."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 694,
+        "cost_usd": 0.0018748
+      },
+      "source_file": "EHEDG_Installation_Guideline_A.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

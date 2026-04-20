@@ -1,0 +1,196 @@
+{
+  "source_file": "031_Tri-clamp_adapter_for_Rheonics_viscometer_SRV_and_density_meter_SRD.pdf",
+  "total_pages": 6,
+  "chunks": [
+    {
+      "page_summary": "This page provides an overview of Tri-clamp adapters for Rheonics viscometer SRV and density meter SRD, detailing connection types, material specifications, and design considerations.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics viscometer SRV",
+        "density meter SRD",
+        "inline viscometer SRV",
+        "inline density and viscosity meter SRD"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nTri-clamp adapter for Rheonics viscometer SRV and density meter SRD\n\nModified on: Fri, 30 Sep, 2022 at 1:53 PM\n\nTri Clamp process connection\n\nTri Clamp (sometimes referred to as Tri Clover) is a commonly used sanitary fitting with a clamp end ferrule, size (1\", 2\", DN20, DN40, etc) of a Tri Clamp is determined by the tubing outer diameter and the norm used (USA uses ASTM while Europe and Asia uses mostly DIN/ISO norm). The components of the Tri Clamp connection and commonly available materials are:\n\n  Clamp ferrules (material: 304/304L, 316/316L)\n  Gasket (material: FKM, Viton, FPM, etc)\n  Clamp (material: 304/304L, 316/316L)\n\nTri Clamp adapter design considerations\n\nTo connect the inline viscometer SRV or inline density and viscosity meter SRD using tri-clamp connections is easy. We recommend that you design the adapter keeping the following in mind:\n\n  Avoid stagnant fluid zones around the sensing element",
+      "specifications": {
+        "Tri-clamp sizes": "1\", 2\", DN20, DN40",
+        "Clamp ferrules material": "304/304L, 316/316L",
+        "Gasket material": "FKM, Viton, FPM",
+        "Clamp material": "304/304L, 316/316L"
+      },
+      "key_facts": [
+        "The document was modified on Friday, September 30, 2022, at 1:53 PM.",
+        "Tri Clamp, also known as Tri Clover, is a commonly used sanitary fitting.",
+        "The size of a Tri Clamp is determined by the tubing's outer diameter and the norm used.",
+        "USA typically uses ASTM norms for Tri Clamps, while Europe and Asia predominantly use DIN/ISO norms.",
+        "Connecting Rheonics SRV or SRD using tri-clamp connections is considered easy.",
+        "It is recommended to design the adapter to avoid stagnant fluid zones around the sensing element."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Design recommendation: Avoid stagnant fluid zones around the sensing element when connecting the inline viscometer SRV or inline density and viscosity meter SRD using tri-clamp connections."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 721,
+        "cost_usd": 0.0019422999999999999
+      },
+      "source_file": "031_Tri-clamp_adapter_for_Rheonics_viscometer_SRV_and_density_meter_SRD.pdf"
+    },
+    {
+      "page_summary": "This page provides technical considerations for installing Rheonics sensors, focusing on optimizing fluid transport, handling non-Newtonian fluids, and recommending a Tri Clamp adapter design for effective and hygienic sensor integration.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Tri Clamp adapter",
+        "Rheonics sensors"
+      ],
+      "extracted_text": "• Ensure best fluid transport across the sensing element - the better the transport, the better the measurement tracks the actual changes in the fluid\n• Avoid deposits on the sensor, but if you have some possibility of deposit then place the sensor in a way that the sensing element sees least deposits and any sedimentation only affects the neck of the sensor.\n• However, if there are any deposits, the sensor detects and can warn customers (digital communication needed)\n• Remember: Sensor measures what is around it\n\nSpecial consideration for real world applications aka non-Newtonian fluids\n\n• Non-Newtonian fluids make up 99% of applications and have a strong dependence of viscosity on shear rate.\n• Shear rate is affected by the flow conditions imposed on the fluids by the pumping and the piping.\n• If the fluid has very different flow rates across the sensor and is not consistent then the measurements will also change as the fluid flow rate changes across the sensor.\n\nDesigning your flow-through adapter/cell/spool in a way that makes the flow regime consistent across the sensor is important to get stable, consistent readings from the sensor in your application.\n\nRheonics Tri Clamp adapter recommendation\n\nThe design we propose for the adapter takes the points mentioned above into consideration. The sensor is long enough that you can introduce the sensing element in a flow through section by tilting the sensor. For larger ID pipes (>2\", >DN50), you can install the sensor vertically while keeping the points mentioned above in consideration.\n\nThe example below shows a 2\" pipe. The design has the following advantages:\n\n• ensuring complete sensor sensing element is in the flow\n• make it easy to create hygienic connections\n• removable to check and clean sensors when and if needed",
+      "specifications": {
+        "non_newtonian_fluid_application_percentage": "99%",
+        "pipe_id_for_vertical_installation": ">2\"",
+        "pipe_dn_for_vertical_installation": ">DN50",
+        "example_pipe_size": "2\""
+      },
+      "key_facts": [
+        "Optimal fluid transport across the sensing element leads to better measurement accuracy in tracking fluid changes.",
+        "Sensor placement should minimize deposits on the sensing element, with sedimentation ideally only affecting the sensor's neck.",
+        "If deposits occur, the sensor can detect them and warn customers via digital communication.",
+        "The sensor measures the properties of the fluid immediately surrounding it.",
+        "Non-Newtonian fluids constitute 99% of applications and exhibit a strong dependence of viscosity on shear rate.",
+        "Shear rate is influenced by flow conditions dictated by pumping and piping.",
+        "Inconsistent and varying flow rates across the sensor with non-Newtonian fluids will cause measurement changes.",
+        "Consistent flow regimes across the sensor are crucial for stable and consistent readings.",
+        "The recommended Rheonics Tri Clamp adapter design allows for tilting the sensor to introduce the sensing element into the flow section.",
+        "For larger pipes (ID >2\" or DN50), the sensor can be installed vertically.",
+        "Advantages of the recommended adapter design include ensuring the complete sensing element is in the flow, facilitating hygienic connections, and enabling easy removal for checking and cleaning."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "If there is a possibility of deposit, place the sensor such that the sensing element sees the least deposits and sedimentation only affects the neck.",
+        "If deposits occur, the sensor can detect and warn customers (digital communication needed)."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 869,
+        "cost_usd": 0.0023122999999999998
+      },
+      "source_file": "031_Tri-clamp_adapter_for_Rheonics_viscometer_SRV_and_density_meter_SRD.pdf"
+    },
+    {
+      "page_summary": "This page displays a 3D render of an inline process sensor, likely a viscometer or density sensor, integrated into a pipe section with marked coordinate axes.",
+      "document_type": "drawing",
+      "product_names": [],
+      "extracted_text": "Faint, unreadable text (possibly including 'RHEONICS' and a serial number) is visible on the sensor body. Coordinate axis labels 'z' and 'y' are present.",
+      "specifications": {},
+      "key_facts": [
+        "The image shows a sensor integrated into a process pipe fitting.",
+        "The sensor is mounted at an angle relative to the main pipe axis.",
+        "The pipe section includes connection points, likely flanges or tri-clamps, at both ends.",
+        "A coordinate system with 'z' and 'y' axes is indicated near the sensor's connection to the pipe.",
+        "An electrical earth/ground symbol is visible on the sensor's main body."
+      ],
+      "diagram_labels": [
+        "z",
+        "y",
+        "Electrical Earth/Ground symbol"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 270,
+        "cost_usd": 0.0008148000000000001
+      },
+      "source_file": "031_Tri-clamp_adapter_for_Rheonics_viscometer_SRV_and_density_meter_SRD.pdf"
+    },
+    {
+      "page_summary": "This page describes the application of Computational Fluid Dynamics (CFD) simulation by Rheonics to optimize the flow field around their SRV viscometer's sensing element by minimizing low velocity flow.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "RHEONICS SRV"
+      ],
+      "extracted_text": "RHEONICS SRV\nS/N: 2040-1000x\npatent protected\n\nComputational fluid dynamics (CFD) simulation of flow field around the sensing element\n\nCFD uses numerical analysis to analyze and solve fluid flow problems. It is commonly used in fluid mechanics to solve and visualize flow field around structures. We have used CFD to analyze the flow velocity around the sensing element and used it to minimize low velocity flow around the sensing element.",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics utilizes Computational Fluid Dynamics (CFD) for numerical analysis of fluid flow problems.",
+        "CFD is used to analyze and visualize the flow field around the sensing element.",
+        "The primary goal of employing CFD in this context is to minimize low velocity flow around the sensing element.",
+        "The Rheonics SRV product is patent protected."
+      ],
+      "diagram_labels": [
+        "RHEONICS SRV",
+        "S/N: 2040-1000x",
+        "patent protected",
+        "x",
+        "z"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 358,
+        "cost_usd": 0.0010348
+      },
+      "source_file": "031_Tri-clamp_adapter_for_Rheonics_viscometer_SRV_and_density_meter_SRD.pdf"
+    },
+    {
+      "page_summary": "This page details a CFD analysis of fluid flow around a Rheonics sensor, provides downloadable resources for adapters and sensors, and includes a reference to an article on seal rings.",
+      "document_type": "notes",
+      "product_names": [
+        "Tri Clamp SRV",
+        "Tri Clamp SRD",
+        "SRV",
+        "SRD",
+        "Tri Clamp pipe adapter",
+        "Tri Clamp flow through adapter"
+      ],
+      "extracted_text": "CFD results analysis:\n\n* BLUE shows low flow velocity regions which is minimized around the sensing element\n* BLUE areas around neck of sensor shows low fluid velocity in that region but it is ok as neck is not contributing to the measurement.\n* We also recommend orienting the sensor so it faces the oncoming flow, this ensures better cleaning of the probe by having higher flow velocity of the fluid around it, however it is generally not an issue if it faces away from flow\n* there should be good gap between the sensing element end and wall of pipe to ensure large solids in flow (if present) does not get stuck in between.\n\nResources:\n\nDownload drawing for a 2\" Tri Clamp pipe adapter.\nDownload 3D STEP file for a Tri Clamp SRV - viscometer\nDownload 3D STEP file for a Tri Clamp SRD - density and viscosity meter\nDownload 3D STEP file for a 2\" Tri Clamp flow through adapter with SRV\n\nReferences:\nHow to select the correct Seal Ring for Tri-Clamp adapters?\n(https://support.rheonics.com/en/support/solutions/articles/81000407485)",
+      "specifications": {},
+      "key_facts": [
+        "Blue regions in the CFD analysis indicate low flow velocity regions minimized around the sensing element.",
+        "Low fluid velocity around the sensor's neck does not affect measurement.",
+        "Orienting the sensor to face oncoming flow improves cleaning due to higher fluid velocity.",
+        "A sufficient gap between the sensing element and the pipe wall is necessary to prevent large solids from getting stuck."
+      ],
+      "diagram_labels": [
+        "-0.05"
+      ],
+      "warnings_notes": [
+        "We recommend orienting the sensor so it faces the oncoming flow to ensure better cleaning of the probe, although it is generally not an issue if it faces away from flow.",
+        "There should be a good gap between the sensing element end and the wall of the pipe to ensure large solids in flow (if present) do not get stuck in between."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 581,
+        "cost_usd": 0.0015923
+      },
+      "source_file": "031_Tri-clamp_adapter_for_Rheonics_viscometer_SRV_and_density_meter_SRD.pdf"
+    },
+    {
+      "page_summary": "This page is almost entirely blank, featuring only a faint horizontal line near the top.",
+      "document_type": "unknown",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 85,
+        "cost_usd": 0.0003523
+      },
+      "source_file": "031_Tri-clamp_adapter_for_Rheonics_viscometer_SRV_and_density_meter_SRD.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

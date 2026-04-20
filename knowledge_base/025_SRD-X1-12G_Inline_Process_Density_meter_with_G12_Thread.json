@@ -1,0 +1,269 @@
+{
+  "source_file": "025_SRD-X1-12G_Inline_Process_Density_meter_with_G12_Thread.pdf",
+  "total_pages": 6,
+  "chunks": [
+    {
+      "page_summary": "This page provides an overview, installation guidance, and dimensional specifications for the Rheonics SRD-X1-12G inline process density meter with a G1/2\" thread.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRD-X1-12G",
+        "SRD Inline density and viscosity meter",
+        "G1/2\" SRD sensor"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nSRD-X1-12G: Inline Process Density meter with G1/2\" Thread\nModified on: Mon, 17 Feb, 2025 at 7:42 PM\n\nWhat products are involved?\nSRD Inline density and viscosity meter. (https://rheonics.com/products/inline-density-meter-srd/)\n\nWhat is the purpose of this article?\nTo provide guidance on the installation of the G1/2\" SRD sensor (SRD-X1-12G).\n\n1. Introduction\nSRD is Rheonics sensor for inline density and viscosity measurements. This sensor is suited for pure density application, as well as when a simultaneous measurement of dynamic or kinematic viscosity is needed. Read more on the SRD here (https://rheonics.com/products/inline-density-meter-srd/).\nThe Industrial G connection is a cylindrical thread connection that follows the norm ISO 228. It is also referred to as BSPP (British Standard Pipe Parallel). It requires an O-ring for correct sealing. A Ø17.86x2.62mm O-ring is used for standard installation of the sensor.\nThe SRD with the G1/2\" thread connection has the order code SRD-X1-12G.\nG 1/2\" connection is only recommended for SRD in applications where measurement is done at temperatures between 25-45 °C (75 °F - 115 °F).\n\nUnits: mm [inch]\nFigure 1: SRD G1/2\" dimensions",
+      "specifications": {
+        "O-ring dimensions": "Ø17.86x2.62mm",
+        "Recommended operating temperature (G1/2\" connection)": "25-45 °C (75-115 °F)",
+        "Overall length": "127 ±1 mm [5.01 ±0.04 inch]",
+        "Sensor body length": "65 mm [2.58 inch]",
+        "Thread length": "14 mm [0.56 inch]",
+        "Probe extension length (from thread shoulder)": "62 ±1 mm [2.44 ±0.04 inch]",
+        "Exposed probe tip length": "40 mm [1.57 inch]",
+        "Probe diameter (thin section)": "Ø5 mm [Ø0.20 inch]",
+        "Probe tip diameter": "Ø13 mm [Ø0.51 inch]",
+        "Connector diameter": "Ø30 mm [Ø1.18 inch]",
+        "Wrench flat size": "SW24",
+        "Thread type": "G 1/2\""
+      },
+      "key_facts": [
+        "The document provides installation guidance for the SRD-X1-12G sensor.",
+        "The SRD sensor is designed for inline density and viscosity measurements.",
+        "The sensor can be used for pure density applications or for simultaneous dynamic or kinematic viscosity measurements.",
+        "The Industrial G connection is a cylindrical thread connection that conforms to ISO 228 and is also known as BSPP (British Standard Pipe Parallel).",
+        "An O-ring is required for proper sealing of the G connection.",
+        "The standard O-ring dimensions for installation are Ø17.86x2.62mm.",
+        "The SRD model with a G1/2\" thread connection has the order code SRD-X1-12G."
+      ],
+      "diagram_labels": [
+        "Rheonics",
+        "SW24",
+        "G 1/2\"",
+        "Units: mm [inch]",
+        "Figure 1: SRD G1/2\" dimensions"
+      ],
+      "warnings_notes": [
+        "The G 1/2\" connection is only recommended for SRD in applications where measurement is done at temperatures between 25-45 °C (75 °F - 115 °F)."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1047,
+        "cost_usd": 0.0027573
+      },
+      "source_file": "025_SRD-X1-12G_Inline_Process_Density_meter_with_G12_Thread.pdf"
+    },
+    {
+      "page_summary": "This page provides specifications and general installation guidelines for Rheonics SRD sensors, focusing on submersion and avoiding stagnation zones.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SRD",
+        "SRD-X1-12G",
+        "SR-sensors",
+        "SRD sensor",
+        "SRD-G1/2"
+      ],
+      "extracted_text": "Specifications\n\nSensor: Rheonics SRD\n(https://rheonics.com/products/inline-viscometer-srv/)\n(https://rheonics.com/products/inline-viscometer-srd/)\nOrder code: SRD-X1-12G\nConnection type: G 1/2\"\nDrawing and CAD file: SRD-G1/2\" CAD file\n(https://rheonics.com/srv-npt/)\n(https://rheonics.com/wp-content/uploads/2023/05/Rheonics-SRD-12G.zip)\n\n2. General installation guidelines\nSR-sensors can be placed at any point in a process and at any orientation but the following considerations should be observed to ensure stable, accurate, low-noise measurements.\n\n2.1 Submersion\nThe SRD sensor has a sensing element shown inside the red section in Figure 2. This section of the sensor should always be fully submerged in the fluid since the SRD measures what is in contact with its sensing element. Incomplete submersion is a potential problem when the flow rate is low and the pipe isn't full. A possible solution for low flow rates is placing the sensor horizontally and parallel to the fluid (e.g. in an elbow) instead of a vertical and perpendicular installation.\nNotice that a clearance is needed below the sensor's tip from any external obstruction (e.g. pipe inner wall).\nConcentration of bubbles within this area can affect the readings, most common consequences of bubbles are a decrease in density and an increase in viscosity.\n\nFigure 2: SRD-G1/2\" sensing area\n\n2.2 Stagnation/dead zone\nIt is not good practice to have dead or stagnant zones around the sensing area (Figure 2). These are defined as any space, inside the red zone, where fluid transport is insufficient leading to immobile fluid, as well as possible accumulation of solids and deposits, or unwanted material like air. These all have negative effects on the measurement.\nThe SRD is significantly affected by stagnation zones, leading to incorrect measurements due to part or all of the measurement being influenced by stationary fluid that is no longer representative of the actual process fluid. This is a common issue for viscosity on the SRD, and examples are long standpipes or weldolets that create",
+      "specifications": {
+        "Sensor": "Rheonics SRD",
+        "Order code": "SRD-X1-12G",
+        "Connection type": "G 1/2\"",
+        "Sensing area length": "50 mm [1.96\"]",
+        "Sensing area diameter": "35 mm [1.4\"]"
+      },
+      "key_facts": [
+        "Rheonics SRD sensors require their sensing element to be fully submerged in the fluid.",
+        "Horizontal sensor placement, such as in an elbow, can resolve issues of incomplete submersion at low flow rates.",
+        "A clearance is necessary below the sensor's tip to avoid external obstructions.",
+        "Bubbles in the sensing area can cause a decrease in density readings and an increase in viscosity readings.",
+        "Dead or stagnant zones around the sensing area lead to inaccurate measurements due to the sensor interacting with immobile or unrepresentative fluid.",
+        "Stagnation zones, often caused by long standpipes or weldolets, are a common problem for viscosity measurements on the SRD sensor."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "50 mm",
+        "1.96\"",
+        "Ø35 mm",
+        "1.4\"",
+        "Figure 2: SRD-G1/2\" sensing area"
+      ],
+      "warnings_notes": [
+        "Incomplete submersion is a potential problem when the flow rate is low and the pipe isn't full.",
+        "A clearance is needed below the sensor's tip from any external obstruction (e.g. pipe inner wall).",
+        "Concentration of bubbles within this area can affect the readings, most common consequences of bubbles are a decrease in density and an increase in viscosity.",
+        "It is not good practice to have dead or stagnant zones around the sensing area (Figure 2). These all have negative effects on the measurement.",
+        "The SRD is significantly affected by stagnation zones, leading to incorrect measurements."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1084,
+        "cost_usd": 0.0028497999999999996
+      },
+      "source_file": "025_SRD-X1-12G_Inline_Process_Density_meter_with_G12_Thread.pdf"
+    },
+    {
+      "page_summary": "This page provides guidance on the recommended orientation and the effect of fluid flow on density and viscosity measurements using the SRD sensor.",
+      "document_type": "manual",
+      "product_names": [
+        "SRD"
+      ],
+      "extracted_text": "considerable gaps around the sensor.\n\n2.3 Recommended orientation\nSRD has a sensing tip that is recommended to be aligned with the fluid flow direction to avoid creating recirculation zones around it. Read more on this topic, here.\n\nFigure 3: SRD tip orientation.\n\n2.4 Flow\nThe flow rate for newtonian and non-Newtonian fluids shouldn't significantly affect the density readings of the SRD. However, fluctuations in density may still occur throughout a process that can be associated with changes in the state of the fluid (static and moving conditions) and will most likely occur if aggregates are added to the fluid in a mixing process. SRD is perfectly suited to monitor these changes in density.\nThe scenario for viscosity is different. For Newtonian fluids flow rate does not affect the viscosity, so SRD should measure the same values in static and moving states of a fluid. But for non-Newtonian fluids, the flow rate does matter and viscosity readings may differ between static and moving conditions. The recommendation for processes with non-constant flow rates is to install the SRD in a section in the pipeline with the most consistent flow rate to have a steady viscosity value.\nFlow rate is also relevant to ensure the full submersion of the SRD sensing element into the fluid, which is needed for the correct operation of the sensor. For a process with a low flow rate, pipes may not be full at all points, so the SRD should then be placed in a section where the pipe is usually full of fluid (i.e. after a pump).\nIn all cases, the SRD’s sensing element should be completely submerged in the fluid. It's best to avoid installations with long standpipes, since that may lead to a bad fluid transfer resulting in measurements that do not reflect the true state of fluid or worse high noise measurements.",
+      "specifications": {},
+      "key_facts": [
+        "The SRD sensing tip is recommended to be aligned with the fluid flow direction to avoid creating recirculation zones.",
+        "The flow rate for Newtonian and non-Newtonian fluids should not significantly affect the density readings of the SRD.",
+        "Fluctuations in density may occur due to changes in the fluid's state or the addition of aggregates, which the SRD is suited to monitor.",
+        "For Newtonian fluids, flow rate does not affect viscosity, ensuring consistent measurements in static and moving fluid states.",
+        "For non-Newtonian fluids, flow rate matters, and viscosity readings may differ between static and moving conditions.",
+        "For processes with non-constant flow rates, it is recommended to install the SRD in a pipeline section with the most consistent flow rate to ensure a steady viscosity value.",
+        "Full submersion of the SRD sensing element into the fluid is necessary for correct sensor operation.",
+        "In processes with low flow rates where pipes might not always be full, the SRD should be placed in a section of the pipe that is typically full of fluid, such as after a pump."
+      ],
+      "diagram_labels": [
+        "Orientation plane",
+        "Sensor long axis",
+        "Flow lines"
+      ],
+      "warnings_notes": [
+        "It's best to avoid installations with long standpipes, since that may lead to bad fluid transfer, measurements that do not reflect the true state of fluid, or high noise measurements."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 794,
+        "cost_usd": 0.0021247999999999996
+      },
+      "source_file": "025_SRD-X1-12G_Inline_Process_Density_meter_with_G12_Thread.pdf"
+    },
+    {
+      "page_summary": "This page provides installation guidelines and common application scenarios for Rheonics SRD viscometers and density sensors, including information on specific weldolet accessories.",
+      "document_type": "manual",
+      "product_names": [
+        "SRD",
+        "SRD-X1-12G",
+        "SlurryTrack",
+        "SRV-12G",
+        "HAW-12G-MTK",
+        "HAW-12G-OTK2"
+      ],
+      "extracted_text": "Figure 4: SRD-X1-12G installation indications\n\n2.5 Common applications for SRD\nThe SRD is used with all next common, but not limited to, the next fluid types. Some examples are: and behaviors.\n\n*   Static and moving Newtonian fluids\n*   Static and moving non-Newtonian fluids: Density readings should be constant for all states of the same fluid. Viscosity readings may differ between states.\n*   Investment casting slurries: This is a typical use case for the SRD. Density in slurries varies with time, as slurry ages and as it is mixed. Installation in slurry rotating tanks is common, changes in the spinning velocity and the insertion of molds to the tank will be noticeable with the SRD readings. Rheonics has developed an Integrated System called SlurryTrack for this and other slurry applications (e.g. Drilling mud slurries, battery electrode slurry, CMP slurry).\n*   Fluids with solids of micrometers scale: Solids of this size shouldn't affect measurements.\n*   Fluids with large-size solid particles: Solids with large size (>3mm diameter) will most likely create spikes in the SRD readings when these hit the sensor. Depending on the percentage of solids in the fluid and after some data analysis, onboard filters can be applied to reduce the noisiness of measured data. However, it is helpful to avoid this kind of solids or install the sensor axially to reduce the cross-sectional area of the sensing element exposed to particle impingement.\n\nSome fluids create deposits around the sensor over time. Noisy readings and an increasing slope in the plotted data can be indicators of deposits around the sensor (i.e. the sensor is dirty). In these cases, proper cleaning should be performed. The frequency for cleaning the sensor depends on the application and may be is different for each application or installation.\n\n3. Installation options\n\n3.1. G1/2\" Weldolets - HAW accessories\nThe HAW line of Rheonics weldolets enable the installation of the SRV-12G in tanks and pipes (also suitable for the SRD). These weldolets have two versions, one with metal-metal sealing and another with an O-Ring Ø15.1×1.6 mm sealing for hygienic installations. Hygienic certification for the latter adapter is currently available with 3-A, but EHEDG certification is planned.\n\n*   HAW-12G-MTK (https://rheonics.com/product-accessories/haw-12g-mtk/): Weldolet with metal-metal seal\n*   HAW-12G-OTK2 (https://rheonics.com/product-accessories/haw-12g-otk2/): Weldolet with a Ø15.1×1.6 mm O-ring seal",
+      "specifications": {
+        "large_solid_particle_diameter": ">3 mm",
+        "O-Ring_seal_dimensions": "Ø15.1×1.6 mm"
+      },
+      "key_facts": [
+        "The SRD sensor is designed for use with static and moving Newtonian and non-Newtonian fluids.",
+        "Density in slurries, such as investment casting slurries, varies with time and mixing.",
+        "Rheonics offers an Integrated System called SlurryTrack for various slurry applications.",
+        "Solids of micrometers scale typically do not affect SRD measurements.",
+        "Large-size solid particles (>3mm diameter) can cause spikes in SRD readings.",
+        "Onboard filters can reduce noisiness from large particles, but avoiding such solids or axial sensor installation is recommended.",
+        "Deposits around the sensor can lead to noisy readings and an increasing slope in data, indicating a need for cleaning.",
+        "The HAW line of Rheonics weldolets (HAW-12G-MTK and HAW-12G-OTK2) facilitates the installation of SRV-12G and SRD sensors.",
+        "HAW weldolets come in two versions: one with metal-metal sealing and another with an O-Ring seal for hygienic installations.",
+        "The O-Ring version of the HAW weldolet (HAW-12G-OTK2) has 3-A hygienic certification, with EHEDG certification planned."
+      ],
+      "diagram_labels": [
+        "Fluid's height",
+        "Pipe is not full, sensing element is not fully submerged",
+        "Pipe is full of fluid",
+        "Pipe is full but sensing element is in long standpipe",
+        "Not recommended for fluids with solids or that can create deposits",
+        "Sensing element is correctly submerged in moving fluid",
+        "Figure 4: SRD-X1-12G installation indications"
+      ],
+      "warnings_notes": [
+        "Not recommended for fluids with solids or that can create deposits (from diagram).",
+        "Solids with large size (>3mm diameter) will most likely create spikes in the SRD readings when these hit the sensor. It is helpful to avoid this kind of solids or install the sensor axially to reduce the cross-sectional area of the sensing element exposed to particle impingement.",
+        "Noisy readings and an increasing slope in the plotted data can be indicators of deposits around the sensor (i.e. the sensor is dirty). In these cases, proper cleaning should be performed.",
+        "EHEDG certification for the O-Ring adapter (HAW-12G-OTK2) is planned (currently available with 3-A)."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1359,
+        "cost_usd": 0.0035372999999999997
+      },
+      "source_file": "025_SRD-X1-12G_Inline_Process_Density_meter_with_G12_Thread.pdf"
+    },
+    {
+      "page_summary": "This page provides installation instructions for a sensor probe in pipe, tank, and wall applications, detailing required components and placement recommendations.",
+      "document_type": "manual",
+      "product_names": [
+        "HAW-12G-MTK",
+        "HAW-12G-OTK2",
+        "SRD G1/2"
+      ],
+      "extracted_text": "Figure 5: HAW-12G-MTK\n\nFigure 6: HAW-12G-OTK2\n\n3.2. Threaded port on pipe or tank wall\nSensor probe installation is also possible by creating a threaded hole in the pipe or tank. Installation requires a Ø17.86x2.62 mm O-ring.\nIn tank installations, it is recommended to place the sensor at a level that has always fluid. The entire sensing element must be submerged in the fluid so it can also be placed at a tank's bottom.\n\nFigure 7: SRD G1/2” with O-ring mounted in a wall\n\nSteps for installation in walls:\nA hole with G1/2” threads is needed in the wall.\ni. Place the Ø17.86x2.62 mm O-ring seal on the sensor, so it fits the notch of the sensor just above the thread.",
+      "specifications": {
+        "O-ring dimensions": "Ø17.86x2.62 mm",
+        "Wall thread requirement": "G1/2\""
+      },
+      "key_facts": [
+        "Sensor probe installation can be achieved by creating a threaded hole in a pipe or tank.",
+        "A Ø17.86x2.62 mm O-ring is required for installation.",
+        "For tank installations, the sensor should be placed at a level where fluid is always present.",
+        "The entire sensing element must be submerged in the fluid during tank installation.",
+        "The sensor can be placed at the bottom of a tank.",
+        "Wall installation requires a hole with G1/2\" threads.",
+        "The Ø17.86x2.62 mm O-ring seal should be placed on the sensor, fitting into the notch just above its thread."
+      ],
+      "diagram_labels": [
+        "Figure 5: HAW-12G-MTK",
+        "Figure 6: HAW-12G-OTK2",
+        "Figure 7: SRD G1/2” with O-ring mounted in a wall"
+      ],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 602,
+        "cost_usd": 0.0016448
+      },
+      "source_file": "025_SRD-X1-12G_Inline_Process_Density_meter_with_G12_Thread.pdf"
+    },
+    {
+      "page_summary": "This page provides an installation instruction for Rheonics SRV G 1/2 and SRD G1/2\" sensors, including dimensional specifications for proper sealing.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV G 1/2",
+        "SRD G1/2\"",
+        "inline-density-meter-srd"
+      ],
+      "extracted_text": "Figure 8: SRV G 1/2 with O-ring\nii. Insert the sensor into the female thread part. Manually, give it enough turns until noticing the correct sealing with the wall or adapter adaptor pressing against the O-ring.\nRecommended max. wall thickness\n14\n[0.55]\nO-ring Φ17.86x2.62 mm\nUnits: mm [inch]\nFigure 9: SRD G1/2” in wall drawing\nReferences\n[1]: https://rheonics.com/products/inline-density-meter-srd/ (https://rheonics.com/products/inline-density-)",
+      "specifications": {
+        "Recommended max. wall thickness": "14 mm [0.55 inch]",
+        "O-ring dimensions": "Φ17.86 x 2.62 mm"
+      },
+      "key_facts": [
+        "The sensor should be inserted into the female thread part.",
+        "The sensor should be manually turned until correct sealing is achieved.",
+        "Correct sealing occurs when the wall or adapter presses against the O-ring.",
+        "The Rheonics SRV G 1/2 sensor is shown with an O-ring.",
+        "The recommended maximum wall thickness for the SRD G1/2\" installation is 14 mm (0.55 inches).",
+        "The O-ring has a diameter of 17.86 mm and a thickness of 2.62 mm."
+      ],
+      "diagram_labels": [
+        "SRV G 1/2 with O-ring",
+        "Recommended max. wall thickness",
+        "O-ring",
+        "Units: mm [inch]",
+        "SRD G1/2” in wall drawing"
+      ],
+      "warnings_notes": [],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 528,
+        "cost_usd": 0.0014598
+      },
+      "source_file": "025_SRD-X1-12G_Inline_Process_Density_meter_with_G12_Thread.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

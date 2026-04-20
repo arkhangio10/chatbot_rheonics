@@ -1,0 +1,342 @@
+{
+  "source_file": "029_DVP-X1-1N0_1_NPT.pdf",
+  "total_pages": 7,
+  "chunks": [
+    {
+      "page_summary": "This page provides an overview of the Rheonics DVP series, a high-accuracy sensor for online density, viscosity, and temperature measurement, detailing its applications and material composition.",
+      "document_type": "notes",
+      "product_names": [
+        "DVP-X1-1N0",
+        "DVP",
+        "DVP High accuracy simultaneous density and viscosity meter"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nDVP-X1-1N0: 1\" NPT\n\nModified on: Thu, 5 Dec, 2024 at 3:50 PM\n\nWhat products are involved?\nRheonics DVP High accuracy simultaneous density and viscosity meter (https://rheonics.com/products/inline-gas-lnq-density-meter-dvp/)\n\nWhat is the purpose of this article?\nTo give an overview of the Rheonics DVP (https://rheonics.com/products/inline-gas-lnq-density-meter-dvp/) sensor and installation information.\n\nTABLE OF CONTENTS\n\n*   Overview\n*   General Installation Guidelines\n*   DVP Installation Examples\n*   Process Connection Installation Instructions\n\nOverview\nDVP is Rheonics high accuracy sensor for online density, viscosity, and temperature measurement. Combining both a process density meter and viscometer in one instrument, the probe style sensor is easy to install in tanks and lines. Read more on DVP (https://rheonics.com/products/inline-gas-lnq-density-meter-dvp/) here (https://rheonics.com/products/inline-gas-lnq-density-meter-dvp/).\n\nRheonics DVP makes simultaneous process density, viscosity, and temperature measurements. It is used by customers for the measurement of liquids, gases, and cryogenic fluids even in the harshest conditions with high accuracy, for example, the viscosity and density of LPG, Butane, Propane, CBM, CNG, LNG, SNG, and supercritical CO2. It is also used for measuring low and high-molecular-weight hydrocarbons including solvents.\n\nDVP is made of Titanium grade 5 and offers a compatible material where stainless steel 316 is not desirable.",
+      "specifications": {
+        "NPT connection": "1 inch",
+        "Sensor material": "Titanium grade 5",
+        "Undesirable alternative material": "stainless steel 316"
+      },
+      "key_facts": [
+        "The DVP-X1-1N0 is a Rheonics product modified on December 5, 2024, at 3:50 PM.",
+        "The DVP is a high accuracy sensor for online density, viscosity, and temperature measurement.",
+        "It combines a process density meter and viscometer into a single instrument.",
+        "The DVP sensor features a probe style design that is easy to install in tanks and lines.",
+        "Rheonics DVP facilitates simultaneous process density, viscosity, and temperature measurements.",
+        "It is utilized by customers for measuring liquids, gases, and cryogenic fluids with high accuracy, even in harsh conditions.",
+        "Specific applications include measuring viscosity and density of LPG, Butane, Propane, CBM, CNG, LNG, SNG, and supercritical CO2.",
+        "The DVP is also used for measuring low and high-molecular-weight hydrocarbons, including solvents.",
+        "The DVP sensor is constructed from Titanium grade 5.",
+        "Titanium grade 5 is offered as a compatible material in applications where stainless steel 316 is not suitable."
+      ],
+      "diagram_labels": [
+        "rheonics"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 859,
+        "cost_usd": 0.0022873
+      },
+      "source_file": "029_DVP-X1-1N0_1_NPT.pdf"
+    },
+    {
+      "page_summary": "This page provides technical drawings, dimensions, parts breakdown, and specifications for the Rheonics DVP-X1-1N0 inline viscometer and density sensor.",
+      "document_type": "datasheet",
+      "product_names": [
+        "DVP-X1-1N0",
+        "Rheonics DVP"
+      ],
+      "extracted_text": "rheonics\n27 ±1\n[1.05 ±0.04]\n29\n[1.14]\n84 ±1\n[3.31 ±0.04]\n24 ±1\n[0.96 ±0.04]\n33\nΦ [1.32]\nNPT 1\"-11.5\n28\nΦ [1.10]\n1.6\nΦ [0.06]\n6.3\n[0.25]\n27.5\n[1.08]\nFigure 1. DVP-X1-1N0 Dimensions\nM12 Connector\nLabel Area\nBack Cover\nrheonics\n1\" NPT Thread\nWetted Portion\nSensing Element\nTemperature Sensor\nProbe Fingers\nFigure 2. DVP-X1-1N0 Parts\nSpecifications\nSensor\nRheonics DVP Website https://rheonics.com/products/inline-gas-liquid-density-meter-dvp/\nOrder code\nDVP-X1-1N0\nProcess Connection\n1\" - 11.5 NPT\nWrench for Installation\n28 mm [1.102 in]\nTemperature Range\n-70 °C to 185 °C\nPressure Range\nUp to 700 bar [10,000 psi]\nMaterial\nTitanium Grade 5\nDrawings\nDrawing https://rheonics.com/wp-content/uploads/2024/12/DVP-X1-1N0.pdf",
+      "specifications": {
+        "Overall Length Top Section": "27 ±1 mm [1.05 ±0.04 in]",
+        "Threaded Section Length": "29 mm [1.14 in]",
+        "Main Body Length": "84 ±1 mm [3.31 ±0.04 in]",
+        "Bottom Section Length": "24 ±1 mm [0.96 ±0.04 in]",
+        "Top Part Diameter": "33 mm [1.32 in]",
+        "Process Connection Thread": "NPT 1\"-11.5",
+        "Main Body Diameter": "28 mm [1.10 in]",
+        "Internal Pin Diameter": "1.6 mm [0.06 in]",
+        "Internal Pin Height": "6.3 mm [0.25 in]",
+        "Connector End Diameter": "27.5 mm [1.08 in]",
+        "Order Code": "DVP-X1-1N0",
+        "Process Connection Type": "1\" - 11.5 NPT",
+        "Wrench Size for Installation": "28 mm [1.102 in]",
+        "Operating Temperature Range": "-70 °C to 185 °C",
+        "Operating Pressure Range": "Up to 700 bar [10,000 psi]",
+        "Material": "Titanium Grade 5"
+      },
+      "key_facts": [
+        "The DVP-X1-1N0 is a sensor with a 1\" - 11.5 NPT process connection.",
+        "It has an operating temperature range of -70 °C to 185 °C.",
+        "The sensor can withstand pressures up to 700 bar (10,000 psi).",
+        "The wetted material of the sensor is Titanium Grade 5.",
+        "The sensor is equipped with an M12 connector.",
+        "Detailed dimensions and a breakdown of parts are provided for the DVP-X1-1N0 sensor."
+      ],
+      "diagram_labels": [
+        "27 ±1 [1.05 ±0.04]",
+        "29 [1.14]",
+        "84 ±1 [3.31 ±0.04]",
+        "24 ±1 [0.96 ±0.04]",
+        "33 Φ [1.32]",
+        "NPT 1\"-11.5",
+        "28 Φ [1.10]",
+        "1.6 Φ [0.06]",
+        "6.3 [0.25]",
+        "27.5 [1.08]",
+        "M12 Connector",
+        "Label Area",
+        "Back Cover",
+        "1\" NPT Thread",
+        "Wetted Portion",
+        "Sensing Element",
+        "Temperature Sensor",
+        "Probe Fingers"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1172,
+        "cost_usd": 0.0030698
+      },
+      "source_file": "029_DVP-X1-1N0_1_NPT.pdf"
+    },
+    {
+      "page_summary": "This page provides general guidelines for the installation and proper orientation of the Rheonics DVP viscometer and density sensor, focusing on submersion requirements and correct alignment with fluid flow.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics DVP",
+        "DVP probe",
+        "DVP sensor probe"
+      ],
+      "extracted_text": "General Installation Guidelines\nThis section provides guidelines for installing Rheonics DVP to achieve repeatable, and reproducible high-accuracy density and viscosity readings.\n\n1. Submersion\nDVP probe has a recommended area to have fluid and no stagnation which is shown in the red section in Figure 2. This area allows the density and viscosity measurements of the fluid that is in contact with it.\nAs shown in Figure 3, DVP’s sensing area is small and surrounded by two semi-circular walls called probe fingers as part of the ø28mm wetted section (Figures 1 and 2). The fluid goes through the two walls around the sensing area. Deposits or big particles in the fluid should be avoided since these can get sucked around the sensing area thus affecting the sensor accuracy.\nDVP is also not recommended for fluid with magnetic particles like ferrous particles.\n\n[Diagram: DVP Sensing Area]\nEnsure sensing element in red is in contact with fluid\nAvoid dead or stagnation zones in the sensing (red) area\nFigure 3. DVP Sensing Area\n\n2. DVP Orientation\nWhen fluid flow direction is defined and well known, DVP’s front end should be oriented to the flow such that the fluid goes through the probe fingers and surrounds the sensing element, as in Figure 4. This ensures good fluid contact and transfers around the sensing element.\n\n[Diagram: DVP Sensor Tip orientation]\nFigure 4. DVP Sensor Tip orientation\n\nFor easy orientation adjustment, DVP sensor probe has an Alignment Notch or orientation indicator located on the back end of the probe body next to the M12 connector (Figure 5). This Notch should be pointing along the flow direction, that way the sensing element is correctly aligned with fluid flow and there is lower interference with flow.\n\n[Diagram: DVP alignment to the flow direction]\nEnsure that the DVP’s Alignment is the right one aligning the notch to the flow direction\nFigure 5. DVP alignment to the flow direction",
+      "specifications": {
+        "Wetted section diameter": "28 mm",
+        "Sensing area length": "24 mm [0.81\"]",
+        "Sensing area height/width": "14 mm [0.35\"]",
+        "Probe tip outer diameter (cross-section)": "28 mm [0.45\"]"
+      },
+      "key_facts": [
+        "The Rheonics DVP sensor requires fluid contact with the red-highlighted sensing element for accurate density and viscosity measurements.",
+        "The DVP's sensing area is small and surrounded by probe fingers, part of a ø28mm wetted section.",
+        "The DVP probe's front end should be oriented to fluid flow to ensure good fluid contact and efficient transfer around the sensing element.",
+        "An Alignment Notch, located near the M12 connector on the back end of the probe, serves as an orientation indicator.",
+        "The Alignment Notch should be pointed along the fluid flow direction to ensure proper alignment of the sensing element and minimize flow interference."
+      ],
+      "diagram_labels": [
+        "24 mm",
+        "[0.81\"]",
+        "28 mm",
+        "[0.45\"]",
+        "14 mm",
+        "[0.35\"]",
+        "rheonîcs",
+        "Ensure sensing element in red is in contact with fluid",
+        "Avoid dead or stagnation zones in the sensing (red) area",
+        "Figure 3. DVP Sensing Area",
+        "Flow Lines",
+        "Figure 4. DVP Sensor Tip orientation",
+        "Alignment Notch",
+        "Top View",
+        "Bottom View",
+        "Flow Direction",
+        "Ensure that the DVP’s Alignment is the right one aligning the notch to the flow direction",
+        "Figure 5. DVP alignment to the flow direction"
+      ],
+      "warnings_notes": [
+        "Deposits or big particles in the fluid should be avoided since these can get sucked around the sensing area thus affecting the sensor accuracy.",
+        "DVP is not recommended for fluid with magnetic particles like ferrous particles.",
+        "Avoid dead or stagnation zones in the sensing (red) area.",
+        "Ensure sensing element in red is in contact with fluid."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1051,
+        "cost_usd": 0.0027673
+      },
+      "source_file": "029_DVP-X1-1N0_1_NPT.pdf"
+    },
+    {
+      "page_summary": "This page provides guidelines and recommendations for installing Rheonics DVP sensors, focusing on the impact of fluid flow on density and viscosity measurements, and ensuring proper sensor submersion.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics DVP"
+      ],
+      "extracted_text": "3. Flow\nFlow rate or state (flowing and static) of the fluid will impact density and viscosity differently.\n\nDensity readings will not be affected by flow rate or if the fluid is static. Rheonics DVP will measure the same density as long as the fluid composition is the same.\n\nIf fluid is Newtonian, viscosity readings will not be affected by flow rate or fluid's state. DVP will measure the same values in static and moving states of a fluid. Newtonian fluids are relatively few in the industrial world and are limited to some applications (e.g. oils, honey, alcohol, aqueous solutions like brine and sugar syrup, acid, alkalis, etc.)\n\nFor most applications, Non-Newtonian fluids are encountered. Here, depending on the shear sensitivity of the fluid, viscosity readings will differ between static and moving conditions, and can also vary at different flow rates. When using Rheonics DVP, it is recommended to keep flow rate constant for shear-sensitive fluids. If flow rate changes, DVP will show these variations in the viscosity readings due to shear sensitivity of the fluid.\n\nFlow rate is also relevant to ensure the full submersion of the DVP sensing element into the fluid. For a process with a low flow rate, pipes may not be full of fluid at all points, so DVP should then be placed in a section where the pipe is usually full of fluid (i.e. after a pump). Installing the sensor probe upwards can be a solution against low flow rates, but should not be considered for fluids with solids or characteristics that can create deposits around the sensing element.\n\nIn all cases, the DVP's sensing element should be submerged into the fluid. Avoid installations with long standpipes (i.e. using a long weldolet or tee), since that may lead to incomplete immersion or inefficient fluid transfer around the sensing element resulting in measurements that do not reflect the current characteristics of the fluid.\n\nFigure 6. Recommended installation for DVP to avoid stagnation and insufficient submersion\n\nDVP Installation Examples\nInstallation in 2” or larger Pipes\nRheonics DVP can be installed in 2-inch or bigger pipes using a commercial 1” - 11.5 NPT Weldolet. User should ensure that the clearance between the probe tip and the wall of the pipe is at least 5.5 mm to avoid the probe hitting the base of the pipe.\n\nIn small lines, consider that when the DVP probe is installed in a line, it can create pressure drops due to the probe’s body.",
+      "specifications": {
+        "min_pipe_size": "2 inches",
+        "weldolet_type": "1 inch - 11.5 NPT",
+        "min_probe_clearance": "5.5 mm"
+      },
+      "key_facts": [
+        "Flow rate or state of the fluid will impact density and viscosity measurements differently.",
+        "Rheonics DVP density readings are not affected by flow rate or static fluid state as long as the fluid composition remains constant.",
+        "For Newtonian fluids (e.g., oils, honey, alcohol, brine, sugar syrup, acid, alkalis), DVP viscosity readings are not affected by flow rate or fluid's state.",
+        "For Non-Newtonian fluids, DVP viscosity readings can differ between static and moving conditions and vary with flow rates due to shear sensitivity.",
+        "When using Rheonics DVP with shear-sensitive Non-Newtonian fluids, it is recommended to keep the flow rate constant.",
+        "Full submersion of the DVP sensing element into the fluid is essential for accurate measurements.",
+        "For low flow rates, DVP should be placed in a pipe section that is typically full of fluid (e.g., after a pump).",
+        "Rheonics DVP can be installed in pipes 2 inches or larger using a commercial 1\" - 11.5 NPT Weldolet.",
+        "A minimum clearance of 5.5 mm between the DVP probe tip and the pipe wall is required to prevent the probe from hitting the pipe's base."
+      ],
+      "diagram_labels": [
+        "Fluid's height",
+        "Pipe is full of fluid",
+        "No recommended for fluids with solids or that can create deposits",
+        "Figure 6. Recommended installation for DVP to avoid stagnation and insufficient submersion"
+      ],
+      "warnings_notes": [
+        "Installing the sensor probe upwards should not be considered for fluids with solids or characteristics that can create deposits around the sensing element.",
+        "Avoid installations with long standpipes (e.g., long weldolet or tee) as this may lead to incomplete immersion or inefficient fluid transfer, resulting in inaccurate measurements.",
+        "In small lines, the DVP probe's body can create pressure drops when installed in a line."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1141,
+        "cost_usd": 0.0029923
+      },
+      "source_file": "029_DVP-X1-1N0_1_NPT.pdf"
+    },
+    {
+      "page_summary": "This page details installation guidelines for the Rheonics DVP-X1-1N0 probe in pipe configurations using weldolets or tees, and in tank applications, emphasizing proper sensing element contact and considerations for pressure drops and probe alignment.",
+      "document_type": "manual",
+      "product_names": [
+        "DVP",
+        "DVP-X1-1N0 Probe",
+        "DVP-X1-1N0",
+        "long insertion DVP"
+      ],
+      "extracted_text": "DVP 1\" NPT\n\nUnits: mm\n[inch]\n\nFigure 7. DVP-X1-1N0 Installation in pipe\n\nInstallation in 1\" Tee\nFor parallel installations, the Rheonics DVP Probe can be installed in a 1\" NPT Tee, with the flow direction against the sensing element tip, it will ensure that the whole sensing element is in contact with the fluid.\nCustomers should evaluate the pressure drops generated by this kind of installation and be careful not to hit the probe's wetted portion against the pipe installed on the other side or use a Tee with longer arms.\n\nFigure 8. DVP-X1-1N0 Installation in 1in Tee\nCustomers should evaluate the pressure drops generated by this kind of installation\n\nInstallation in Tank\nDVP can be also installed in the side or the bottom of a tank using a 1” - 11.5 NPT Weldolet. if this is a mixing tank ensure that the sensor probe is aligned with the flow as mentioned before in the “DVP Orientation” section. See an example of this installation in Figure 9. Installation from the top of the tank is possible using a long insertion DVP, with a custom insertion length.",
+      "specifications": {
+        "overall_length": "72.5 mm",
+        "overall_length_approx": "2.85 inch",
+        "sensing_element_minimum_immersion": "5.5 mm",
+        "sensing_element_minimum_immersion_approx": "0.22 inch",
+        "pipe_connection_weldolet_size": "1 inch NPT",
+        "pipe_connection_pipe_size": "2 inch SCH 40",
+        "tee_connection_size": "1 inch NPT",
+        "tank_connection_weldolet_size": "1 inch - 11.5 NPT"
+      },
+      "key_facts": [
+        "The Rheonics DVP Probe is designed for installation ensuring the entire sensing element is in contact with the fluid.",
+        "For parallel pipe installations, the DVP Probe should be installed in a 1\" NPT Tee with the flow direction against the sensing element tip.",
+        "The DVP can be installed in the side or bottom of a tank using a 1\" - 11.5 NPT Weldolet.",
+        "For mixing tanks, the sensor probe must be aligned with the flow as described in the 'DVP Orientation' section.",
+        "Installation from the top of a tank is achievable with a long insertion DVP, customizable for specific insertion lengths."
+      ],
+      "diagram_labels": [
+        "B",
+        "Alignment Notch/Indicator",
+        "rheonics",
+        "DVP-X1-1N0 Probe",
+        "1\" NPT Weldolet",
+        "Weld thickness depends on required pressure rating",
+        "2\" SCH 40 Pipe",
+        "Units: mm [inch]",
+        "Aprox. [2.85]",
+        "min 5.5 [0.22]",
+        "1\" NPT Tee",
+        "1\" NPT Pipe",
+        "Avoid Hitting the wetted portion/tip against the pipe"
+      ],
+      "warnings_notes": [
+        "Customers should evaluate the pressure drops generated by this kind of installation.",
+        "Be careful not to hit the probe's wetted portion against the pipe installed on the other side.",
+        "Consider using a Tee with longer arms to prevent hitting the probe's wetted portion.",
+        "Ensure that the sensor probe is aligned with the flow in a mixing tank as mentioned in the 'DVP Orientation' section.",
+        "Weld thickness depends on required pressure rating."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 981,
+        "cost_usd": 0.0025923
+      },
+      "source_file": "029_DVP-X1-1N0_1_NPT.pdf"
+    },
+    {
+      "page_summary": "This page provides detailed installation instructions for Rheonics DVP sensors, covering general NPT connection steps, specific guidelines for in-line and in-tank installations, and requirements for threaded flange mounting to ensure accurate data and prevent fluid stagnation.",
+      "document_type": "manual",
+      "product_names": [
+        "DVP-X1-1N0",
+        "DVP sensor"
+      ],
+      "extracted_text": "Figure 9. DVP-X1-1N0 Installation in Tank\n\nProcess Connection Installation Instructions\n\nConnection steps\nWrap a sealing compound (e.g. Teflon tape) around the sensor NPT thread 1.5 to 3 times in a clockwise direction, to ensure a leak-free seal for some fluids.\n\ni. Place the sensor in the female threaded accessory.\nii. Turn by hand the sensor NPT thread until hand tightened.\niii. Use a wrench (27.5mm size or 1.08”) to give the sensor from 1 up to 3 more turns.\nIn total, according to ASME Standards (https://www.asme.org/), at least 3.5 and at maximum 6 full turns need to be ensured for a correct NPT installation. The sensor shouldn’t be completely tightened.\n\nSpecific Process Connection installation instructions\n*   In line: Ensure the sensing element is exposed to fluid, and avoid stagnation and dead zones. Consider placing the sensor upwards or parallel to the fluid for small flow rates that can’t fully surround the sensing element.\n*   In tank: Place the sensor at the bottom, wall, or side of the tank as long as the sensing element can be fully submerged in the fluid and dead zones are avoided.\n*   Others - Thread flange: The DVP sensor can be mounted on a threaded flange as long as the thread has the same size (1”-11.5). The flange needs to have an inner diameter larger than 28mm on the process side.\n    Once again, in these and any installation cases, stagnation zones around the sensing element should be avoided. For thread flanges, the height of the standpipe of the connection should be kept as small as possible. See an example in the next figure.\n\nFigure 10. DVP Threaded Flange\n\nReferences:\n[1] Rheonics DVP Website (https://rheonics.com/products/inline-gas-lng-density-meter-dvp/)",
+      "specifications": {
+        "NPT thread sealing compound wraps": "1.5 to 3 times",
+        "Wrench size": "27.5 mm",
+        "Wrench size (imperial)": "1.08 in",
+        "Wrench additional turns": "1 to 3 turns",
+        "Total NPT turns (ASME)": "3.5 to 6 turns",
+        "Thread flange thread size": "1\"-11.5",
+        "Thread flange inner diameter (process side)": "> 28 mm"
+      },
+      "key_facts": [
+        "To ensure valuable data is captured, the sensor must be placed below the minimum fluid's height.",
+        "A sealing compound, such as Teflon tape, should be wrapped around the sensor NPT thread 1.5 to 3 times in a clockwise direction to ensure a leak-free seal.",
+        "The sensor's NPT thread should first be hand-tightened, then given an additional 1 to 3 turns with a wrench (27.5mm or 1.08\" size).",
+        "According to ASME Standards, the total NPT installation should involve at least 3.5 and a maximum of 6 full turns.",
+        "The sensor should not be completely tightened during NPT installation.",
+        "For in-line installations, the sensing element must be fully exposed to the fluid, and stagnation or dead zones should be avoided.",
+        "For small flow rates in-line, consider placing the sensor upwards or parallel to the fluid.",
+        "For in-tank installations, the sensor can be placed at the bottom, wall, or side of the tank, provided the sensing element is fully submerged and dead zones are avoided.",
+        "The DVP sensor can be mounted on a threaded flange with a matching thread size (1\"-11.5).",
+        "Threaded flanges must have an inner diameter larger than 28mm on the process side.",
+        "Stagnation zones around the sensing element must be avoided in all installation configurations.",
+        "For threaded flanges, the height of the standpipe of the connection should be kept as small as possible."
+      ],
+      "diagram_labels": [
+        "To not miss out on valuable data throughout the process, place the sensor below the minimum fluid's height.",
+        "A",
+        "B",
+        "Weld thickness depends on required pressure rating",
+        "SECTION A",
+        "SECTION B",
+        "Figure 9. DVP-X1-1N0 Installation in Tank",
+        "X",
+        "✓",
+        "Figure 10. DVP Threaded Flange"
+      ],
+      "warnings_notes": [
+        "The sensor shouldn’t be completely tightened.",
+        "Installation must be performed according to ASME Standards.",
+        "Ensure to avoid stagnation and dead zones for in-line and in-tank installations.",
+        "Stagnation zones around the sensing element should be avoided in all installation cases, including threaded flanges."
+      ],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1227,
+        "cost_usd": 0.0032072999999999997
+      },
+      "source_file": "029_DVP-X1-1N0_1_NPT.pdf"
+    },
+    {
+      "page_summary": "This page is blank, containing only a horizontal line at the top.",
+      "document_type": "",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 85,
+        "cost_usd": 0.0003523
+      },
+      "source_file": "029_DVP-X1-1N0_1_NPT.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

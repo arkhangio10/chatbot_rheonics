@@ -1,0 +1,190 @@
+{
+  "source_file": "204_SRD_flow_through_cells.pdf",
+  "total_pages": 5,
+  "chunks": [
+    {
+      "page_summary": "This page provides an overview of flow-through cells designed for the Rheonics SRD inline density and viscosity meter, detailing their construction material and purpose.",
+      "document_type": "notes",
+      "product_names": [
+        "SRD - Inline Density and Viscosity Meter",
+        "Rheonics SRD sensor",
+        "SRD probe"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nSRD flow through cells\n\nModified on: Tue, 19 Dec, 2023 at 5:15 PM\n\nWhat products are involved?\nSRD - Inline Density and Viscosity Meter (https://rheonics.com/products/inline-density-meter-srd/)\n\nWhat is the purpose of this article?\nThis article provides an overview of the flow through cells available for the Rheonics SRD sensor.\n\n1. Introduction\nRheonics inline density and viscosity meter SRD can be installed on many standard off-the-shelf flow adapters. In addition, Rheonics also offers different flow-through cells custom designed for the SRD probe. These cells are made of Stainless Steel 316L (1.4435) and designed to ensure good flow around the sensing element, optimize fluid volume in the flow cell and minimize pressure drop.\nNext table mentions the flow cells available from Rheonics for the SRD.\n\nFlow through cells for SRD density and viscosity meter\nFlow cell | Sensor connection (Code) | Process connection",
+      "specifications": {
+        "Material": "Stainless Steel 316L (1.4435)"
+      },
+      "key_facts": [
+        "Rheonics inline density and viscosity meter SRD can be installed on many standard off-the-shelf flow adapters.",
+        "Rheonics offers custom-designed flow-through cells for the SRD probe.",
+        "The flow-through cells are made of Stainless Steel 316L (1.4435).",
+        "The flow-through cells are designed to ensure good flow around the sensing element, optimize fluid volume in the flow cell, and minimize pressure drop.",
+        "This article provides an overview of the flow-through cells available for the Rheonics SRD sensor."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 543,
+        "cost_usd": 0.0014973
+      },
+      "source_file": "204_SRD_flow_through_cells.pdf"
+    },
+    {
+      "page_summary": "This page displays two models of flow-through cells for Rheonics SRD density and viscosity meters, detailing their specifications, connection types, and providing links to product pages, drawings, and CAD models.",
+      "document_type": "datasheet",
+      "product_names": [
+        "IFC-34N-SRD",
+        "SRD-X1-34N",
+        "IFC-15T-34N-SRD",
+        "SRD-X3-15T",
+        "SRD"
+      ],
+      "extracted_text": "Flow through cells for SRD density and viscosity meter\n\nIFC-34N-SRD: 3/4” NPT Inline flow cell for SRD\n(https://rheonics.com/product-accessories/ifc-34n-srd/)\nRated up to 200 bar.\nFluid volume: 60 ml\nDrawing (https://rheonics.com/wp-content/uploads/2023/04/IFC-34N-SRD.pdf)\n- CAD model (https://rheonics.com/wp-content/uploads/2023/04/Rheonics_IFC-34N-SRD.zip)\n3/4” NPT\n(SRD-X1-34N)\n(https://support.rheonics.com/en/support/solutions/articles/81000409841-srd-x1-34n-npt-3-4-)\n(https://support.rheonics.com/en/support/solutions/articles/81000409841-srd-x1-34n-npt-3-4-)\n\nIFC-15T-34N-SRD: 3/4” NPT Inline flow cell for SRD - Tri-Clamp\n(https://rheonics.com/product-accessories/ifc-15t-34n-srd/)\nRated up to 200 bar.\nFluid volume: 60 ml\nDrawing (https://rheonics.com/wp-content/uploads/2023/04/IFC-15T-34N-SRD.pdf)\n- CAD model (https://rheonics.com/wp-content/uploads/2023/04/Rheonics_IFC-15T-34N-SRD.zip)\n1.5” Tri-Clamp\n(SRD-X3-15T)\n(https://support.rheonics.com/en/support/solutions/articles/81000410551-srd-x3-tri-clamp)\n3/4” NPT",
+      "specifications": {
+        "Maximum Operating Pressure": "200 bar",
+        "Fluid Volume": "60 ml",
+        "Connection Type (IFC-34N-SRD Flow Cell)": "3/4\" NPT",
+        "Connection Type (SRD-X1-34N Sensor)": "3/4\" NPT",
+        "Connection Type (IFC-15T-34N-SRD Process)": "1.5\" Tri-Clamp",
+        "Connection Type (SRD-X3-15T Sensor)": "3/4\" NPT"
+      },
+      "key_facts": [
+        "Rheonics offers flow-through cells as accessories for their SRD density and viscosity meters.",
+        "The IFC-34N-SRD is an inline flow cell with a 3/4\" NPT connection.",
+        "The IFC-15T-34N-SRD is an inline flow cell with a 1.5\" Tri-Clamp process connection, and a 3/4\" NPT connection for the SRD sensor.",
+        "Both listed flow cell models are rated for a maximum operating pressure of 200 bar.",
+        "Both listed flow cell models have a fluid volume of 60 ml.",
+        "Product pages, technical drawings (PDF), and CAD models (ZIP) are available for download for both IFC-34N-SRD and IFC-15T-34N-SRD.",
+        "Support articles are provided for the associated SRD sensor models: SRD-X1-34N and SRD-X3-15T."
+      ],
+      "diagram_labels": [
+        "flow direction",
+        "sensor",
+        "rheonics",
+        "P/N 2529-05"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1086,
+        "cost_usd": 0.0028548
+      },
+      "source_file": "204_SRD_flow_through_cells.pdf"
+    },
+    {
+      "page_summary": "This page describes Rheonics flow-through cells, specifically an elbow tee accessory, for SRD density and viscosity meters, detailing available sizes, connection types, and compatibility with various probes and SRD models.",
+      "document_type": "datasheet",
+      "product_names": [
+        "FET-XXT-XXT",
+        "FET-20T-20T",
+        "SRD",
+        "SRD-X3-15T",
+        "SRD-X3-20T",
+        "SRD-X5",
+        "SRV probe"
+      ],
+      "extracted_text": "Flow through cells for SRD density and viscosity meter\n\nFET-XXT-XXT: Flow elbow shorten tee (https://rheonics.com/product-accessories/fet-15t-15t/) with Tri-Clamp connection.\n\nAvailable for 1.5” and 2” sizes. E.g.: FET-20T-20T.\n\nDrawing (https://rheonics.com/wp-content/uploads/2023/04/Rheonics_FET-15T-15T.pdf) - CAD model (https://rheonics.com/wp-content/uploads/2023/10/Rheonics_FET-15T-15T.zip)\n\n1.5” Tri-Clamp (SRD-X3-15T) (https://support.rheonics.com/en/support/solutions/articles/81000410551-srd-x3-tri-clamp))\n\n2” Tri-Clamp (SRD-X3-20T)\n\nTri-Clamp\n\nAlso suitable for the SRD-X5 (https://support.rheonics.com/en/support/solutions/articles/81000411193-srd-x5-long-insertion-probe) variant and the SRV probe.",
+      "specifications": {
+        "Connection Type": "Tri-Clamp",
+        "Sizes Available": "1.5 inches, 2 inches"
+      },
+      "key_facts": [
+        "The FET-XXT-XXT is a flow elbow shorten tee with Tri-Clamp connection.",
+        "The FET-XXT-XXT is available in 1.5 inch and 2 inch sizes.",
+        "An example model for the 2 inch size is FET-20T-20T.",
+        "Drawings and CAD models for FET-15T-15T are available via provided URLs.",
+        "The 1.5 inch Tri-Clamp variant for SRD-X3 is SRD-X3-15T.",
+        "The 2 inch Tri-Clamp variant for SRD-X3 is SRD-X3-20T.",
+        "The accessory is also suitable for the SRD-X5 long-insertion probe variant and the SRV probe."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 715,
+        "cost_usd": 0.0019273
+      },
+      "source_file": "204_SRD_flow_through_cells.pdf"
+    },
+    {
+      "page_summary": "This page provides details on flow through cells, including elbow shorten tees and flow tee spool pieces, designed for Rheonics SRD density and viscosity meters, specifying their available sizes, connection types, and compatible sensor models.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRD density and viscosity meter",
+        "FET-XXT-XXX",
+        "FET-15T-XXX",
+        "SRD-X3-15T",
+        "SRD-X3-20T",
+        "SRD-X5",
+        "SRV",
+        "FTP-15T-XXT",
+        "FTP-15T-30T"
+      ],
+      "extracted_text": "Flow through cells for SRD density and viscosity meter\n\nFET-XXT-XXX: Flow elbow shorten tee with welding ports.\nAvailable for 1.5” and 2” sizes. E.g.: FET-15T-XXX\n(https://rheonics.com/wp-content/uploads/2023/06/Rheonics_FET-15T-XXX.pdf)\nDrawing. (https://rheonics.com/wp-content/uploads/2023/06/Rheonics_FET-15T-XXX.pdf) - CAD model (https://rheonics.com/wp-content/uploads/2023/06/Rheonics_FET-15T-XXX.zip)\n\n1.5” Tri-Clamp\n(SRD-X3-15T (https://support.rheonics.com/en/support/solutions/articles/81000410551-srd-x3-tri-clamp))\n\n2” Tri-Clamp\n(SRD-X3-20T)\nAlso suitable for the SRD-X5 (https://support.rheonics.com/en/support/solutions/articles/81000411193-srd-x5-long-insertion-probe) variant and the SRV.\nWelding\n\nFTP-15T-XXT: Flow tee spool piece with Tri-Clamp connection.\nInlet/outlet available sizes of 2”, 3”, 4” and 6” Tri-Clamp. E.g:: FTP-15T-30T\n\n1.5” Tri-Clamp\n(SRD-X3-15T (https://support.rheonics.com/en/support/solutions/articles/81000410551-srd-x3-tri-clamp)). Also suitable for the SRV.\nTri-Clamp",
+      "specifications": {
+        "FET-XXT-XXX_available_sizes": "1.5 inches, 2 inches",
+        "FTP-15T-XXT_inlet_outlet_available_sizes": "2 inches, 3 inches, 4 inches, 6 inches"
+      },
+      "key_facts": [
+        "The page provides information on flow through cells for SRD density and viscosity meters.",
+        "The FET-XXT-XXX series includes flow elbow shorten tees with welding ports, available in 1.5-inch and 2-inch sizes.",
+        "The FTP-15T-XXT series includes flow tee spool pieces with Tri-Clamp connections, available in 2-inch, 3-inch, 4-inch, and 6-inch inlet/outlet sizes.",
+        "Both FET-XXT-XXX and FTP-15T-XXT flow cells are compatible with SRD-X3-15T, SRD-X3-20T, SRD-X5, and SRV sensors.",
+        "PDF drawings and CAD models are available for the FET-15T-XXX model."
+      ],
+      "diagram_labels": [
+        "Elbow shorten tee",
+        "Flow tee spool piece"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 931,
+        "cost_usd": 0.0024672999999999995
+      },
+      "source_file": "204_SRD_flow_through_cells.pdf"
+    },
+    {
+      "page_summary": "This page describes various flow-through cells and connection accessories for Rheonics SRD density and viscosity meters, detailing product models, available sizes, and compatibility.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRD",
+        "FTP-15T-XXX",
+        "FTP-15T-30X",
+        "SRD-X3-15T",
+        "SRV"
+      ],
+      "extracted_text": "Flow through cells for SRD density and viscosity meter\n\nFTP-15T-XXX\n(https://rheonics.com/product-accessories/ftp-15t-xxx/): Flow tee spool piece with Tri-Clamp connection.\nInlet/outlet available sizes of 2\", 3\", 4\" and 6\". E.g.: FTP-15T-30X\n\n1.5” Tri-Clamp\n(SRD-X3-15T\n(https://support.rheonics.com/en/support/solutions/articles/81000411193-srd-x5-long-insertion-probe)). Also suitable for the SRV.\nWelding\n\nReferences:\n[1]: https://support.rheonics.com/en/support/solutions/folders/81000297659\n(https://support.rheonics.com/en/support/solutions/folders/81000297659)\n[2]: https://rheonics.com/product-accessories/",
+      "specifications": {
+        "Inlet/outlet available sizes": "2, 3, 4, 6 inches",
+        "Tri-Clamp size": "1.5 inches"
+      },
+      "key_facts": [
+        "FTP-15T-XXX models are flow tee spool pieces designed with Tri-Clamp connections for SRD density and viscosity meters.",
+        "FTP-15T-XXX flow tee spool pieces are available with inlet/outlet sizes of 2, 3, 4, and 6 inches.",
+        "The SRD-X3-15T is associated with a 1.5-inch Tri-Clamp and welding connection.",
+        "The SRD-X3-15T is also suitable for use with the SRV product."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 565,
+        "cost_usd": 0.0015523
+      },
+      "source_file": "204_SRD_flow_through_cells.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

@@ -1,0 +1,319 @@
+{
+  "source_file": "128_Concentration_in_degree_Plato_with_Rheonics_process_meter_SRD.pdf",
+  "total_pages": 5,
+  "chunks": [
+    {
+      "page_summary": "This document explains how to calculate concentration in degrees Plato using Rheonics process meters (SRD and SME) by applying specific mathematical formulas based on line density and temperature measurements.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics process meter SRD",
+        "SRD",
+        "SME"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nConcentration in degree Plato with Rheonics process meter SRD\n\nModified on: Thu, 3 Jul, 2025 at 5:56 PM\n\nModel Name Plato: Valid for SRD\n\n1. What it does do?\n\nDetermines concentration of dissolved solids in a brewery wort from line density and temperature.\n\n2. Application\n\nBreweries / Beverage\n\n3. Maths\n\nBelow finds the mathematical formula for Plato's degree calculation.\n\n°P = 135.997 · SG_{20/20}^3 - 630.272 · SG_{20/20}^2 + 1111.14 · SG_{20/20} - 616.868\nwhere SG_{20/20} = SG(20°C/20°C)\n\nTo obtain the correct measurements for Plato's degree, the SRD and SME work together as a powerful tool for measuring density, which is an extremely significant variable. The user would need to input:\n\n3.1. Input Water density at T2 (20°C – Plato). Needed for Specific Gravity @20°C calculation.\nCompensated density with Temperature T1 is calculated with the values measured with SME.\n\nSG = (Density of Process Fluid at Reference Temperature T1) / (Density of Water at Reference Temperature T2)\n\n3.2. Measure process line density and line temperatures. Values are taken from SME-SRD.\n3.3. Convert the line density of process fluid to temperature compensated for density value at T1 (20°C – Plato) – By using a dataset table from a known product.\n\n4. How to load models into the SME?\n\nThe calculation tab allows configuring the SME to run mathematical models for Viscosity, Density, and Concentration.",
+      "specifications": {
+        "Plato_degree_formula": "°P = 135.997 · SG_{20/20}^3 - 630.272 · SG_{20/20}^2 + 1111.14 · SG_{20/20} - 616.868",
+        "Specific_Gravity_20/20_definition": "SG_{20/20} = SG(20°C/20°C)",
+        "Specific_Gravity_formula": "SG = (Density of Process Fluid at Reference Temperature T1) / (Density of Water at Reference Temperature T2)",
+        "Water_density_input_temperature": "T2 (20°C)",
+        "Density_compensation_temperature": "T1 (20°C)"
+      },
+      "key_facts": [
+        "The document describes the calculation of concentration in degree Plato.",
+        "The 'Plato' model is valid for the SRD process meter.",
+        "The calculation determines the concentration of dissolved solids in brewery wort.",
+        "The primary application is in Breweries and Beverage industries.",
+        "The SRD and SME work together to measure density for Plato's degree calculation.",
+        "Users need to input water density at T2 (20°C) for Specific Gravity @20°C calculation.",
+        "Compensated density at Temperature T1 is calculated using values from the SME.",
+        "Process line density and line temperatures are measured, with values taken from SME-SRD.",
+        "Line density of process fluid needs to be converted to a temperature-compensated density value at T1 (20°C) using a dataset table from a known product.",
+        "The SME's calculation tab enables configuration for mathematical models for Viscosity, Density, and Concentration."
+      ],
+      "diagram_labels": [
+        "°P",
+        "SG_{20/20}",
+        "SG(20°C/20°C)",
+        "SG",
+        "Density of Process Fluid at Reference Temperature T1",
+        "Density of Water at Reference Temperature T2"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1133,
+        "cost_usd": 0.0029722999999999998
+      },
+      "source_file": "128_Concentration_in_degree_Plato_with_Rheonics_process_meter_SRD.pdf"
+    },
+    {
+      "page_summary": "This page provides an overview and step-by-step instructions for configuring the Brix degree model and loading datasets within the Calculation tab of the Rheonics Control Panel software.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel",
+        "SME"
+      ],
+      "extracted_text": "Rheonics Control Panel 5.4.0.0\nMeasurement | Events | Settings | Service | Diagnostics | Communication | Scaling | Calculation | Logger | Help\nAdvanced Calculations | Thermal Compensation of Density, Viscosity\nSelect Measurement to Apply Model: Concentration\nCalculated Value: 1.714\nStatus: (Green circle)\nSelect Model from List: Brix\nMatrix Referral: Brix Model\nLoad DataSet\nWater Density at 20°C [Kg/m3]: 998.23\nUnits: °B\n°B = ((182.4601 · SG_20/20 - 775.6821) · SG_20/20 + 1262.7794) · SG_20/20 - 669.5622\nwhere SG_20/20 = SG(20°C/20°C)\nUPLOAD MODEL\nLCD Display (for TRD Only) Select Line to Display: None\nChange SMET Output\nOutput on 4-20 mA channel Select channel number: None\nLoad Configuration\nAccess measurement with applied model over Modbus RTU/TCP register: 208\nCalculation History\nFigure 1. Calculation tab for Brix degree model\nThe following steps are to load the models into SME:\n1. In the Dropdown list “Select Measurement to Apply Model” select. That will modify the “Select Model from List” dropdown menu values. Select Measurement application (Concentration)\n2. In “Select Model from the list” select the model you would like to use for the specific parameter. When you select the model, you will get more information about the specific equation used and the coefficients you will need to apply that model. Select “Plato”\n3. “Load Dataset” button, this operation is crucial to get the correct measurement for Plato degree so as density and temperature to be the measurement from the process must be within this table. Dataset table must cover at least the following instances:\n  * Five reference temperatures (at least)\n  * The density for each of four product types at the five reference temperatures from Process (20 reference points in all, at least)\n  * The base temperature(20°C), must be one of the five reference temperatures.\n  * Guarantee inline density value is between the density values from the table otherwise output from SME will be NaN.\n5. Matrix Referral",
+      "specifications": {
+        "Rheonics Control Panel Version": "5.4.0.0",
+        "Calculated Value": "1.714 °B",
+        "Water Density at 20°C": "998.23 Kg/m3",
+        "Modbus RTU/TCP register": "208",
+        "Base Temperature": "20 °C"
+      },
+      "key_facts": [
+        "The Rheonics Control Panel software version displayed is 5.4.0.0.",
+        "The 'Calculation' tab is used for advanced calculations, including thermal compensation of density and viscosity.",
+        "Users can select a measurement application (e.g., Concentration) and a specific model (e.g., Brix or Plato).",
+        "Loading a dataset is a crucial operation for accurate Plato degree measurement.",
+        "The process density and temperature must fall within the range defined by the loaded dataset table for correct measurements.",
+        "The dataset table must include at least five reference temperatures.",
+        "The dataset table must contain density values for at least four product types across the five reference temperatures, totaling at least 20 reference points.",
+        "A base temperature of 20°C must be one of the five reference temperatures in the dataset.",
+        "If the inline density value falls outside the range of density values in the dataset table, the output from SME will be 'NaN' (Not a Number).",
+        "The Brix degree (°B) is calculated using a polynomial equation based on SG_20/20 (Specific Gravity at 20°C relative to water at 20°C)."
+      ],
+      "diagram_labels": [
+        "Rheonics Control Panel 5.4.0.0",
+        "Measurement",
+        "Events",
+        "Settings",
+        "Service",
+        "Diagnostics",
+        "Communication",
+        "Scaling",
+        "Calculation",
+        "Logger",
+        "Help",
+        "Advanced Calculations | Thermal Compensation of Density, Viscosity",
+        "Select Measurement to Apply Model",
+        "Concentration",
+        "Calculated Value (1)",
+        "Status",
+        "Select Model from List",
+        "Brix (2)",
+        "Matrix Referral",
+        "Brix Model",
+        "Load DataSet (3)",
+        "Water Density at 20°C [Kg/m3]",
+        "Units",
+        "°B",
+        "UPLOAD MODEL (4)",
+        "LCD Display (for TRD Only) Select Line to Display",
+        "None",
+        "Change SMET Output",
+        "Output on 4-20 mA channel Select channel number",
+        "Load Configuration (5)",
+        "Access measurement with applied model over Modbus RTU/TCP register",
+        "208",
+        "Calculation History (6)",
+        "Figure 1. Calculation tab for Brix degree model"
+      ],
+      "warnings_notes": [
+        "\"Load Dataset\" button, this operation is crucial to get the correct measurement for Plato degree so as density and temperature to be the measurement from the process must be within this table.",
+        "Guarantee inline density value is between the density values from the table otherwise output from SME will be NaN."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1364,
+        "cost_usd": 0.0035497999999999997
+      },
+      "source_file": "128_Concentration_in_degree_Plato_with_Rheonics_process_meter_SRD.pdf"
+    },
+    {
+      "page_summary": "This page describes the process of managing sample datasets for Brix readings, calculating and loading Tk coefficients, and uploading mathematical models within the Rheonics Control Panel Software.",
+      "document_type": "manual",
+      "product_names": [
+        "Matrix Referral",
+        "Rheonics Control Panel Software",
+        "SME"
+      ],
+      "extracted_text": "Matrix Referral\n\nDensity [Kg/m3]\n\nT [°C] | P1 | P2 | P3 | P4 | P4 | P5 | P6 | P7 | P8 | P9 | P10 | P11 | P12 | P13 | P14\n---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---\n60 | 1078.5 | 1088 | 1111.2 | 1130.3\n50 | 1084.5 | 1094 | 1116.6 | 1135.5\n40 | 1089.2 | 1098.9 | 1121.8 | 1114.6\n30 | 1093.2 | 1102.9 | 1126.2 | 1144.4\n20 | 1097.3 | 1108.3 | 1130 | 1150.3\n\nTemperature [°C]\n\nRef Temp [°C]: 20\nTk coefficients: {(-0.591571,0.003214),(-0.555000,0.001500),(-0.586286,0.002857),(0.999571,-0.037214)}\n\nImport | Export Table | Tk1, Tk2 | ? | Load Tks & Close | Cancel\n\nFigure 2. Sample Dataset for Brix readings.\n\n5.1. Dataset for 20 dataset point, first column is for temperature. The rest of the columns should be each for a product \"P\", and the densities of that product at the different temperatures.\n5.2. Import: Select dataset from an .csv sheet\n\narchive 1/12/2022 1:16 AM\nclear grape juice.csv 1/12/2022 6:37 PM\ndatatable_20pts.csv 1/12/2022 7:53 PM\n\nFigure 3. Selecting dataset\n\n5.3. Export: Export current table to .csv\n5.4. \"Tk1, Tk2\" button to create the coefficients that will be used on the model.\n5.5. Calculated Tk coefficients by internal model.\n5.6. \"Load Tks & Close\" button to load these coefficients into the model\n\n6. Uploading the Mathematical Model\n\nClick \"Upload Model\" to load the model settings into SME. The button should turn GREEN for a couple of seconds if the action was successful or turn RED if the operation was Rheonics Control Panel Software unsuccessful. This action will refresh the values for the Uncompensated and Compensated indicators. Here you can verify if the model is calculating the expected values. If not, you can correct and repeat the process.",
+      "specifications": {
+        "Ref Temp": "20 °C",
+        "Tk coefficients": "{(-0.591571,0.003214),(-0.555000,0.001500),(-0.586286,0.002857),(0.999571,-0.037214)}",
+        "Dataset Temperature Range": "20 °C - 60 °C",
+        "Dataset Density (P1, minimum)": "1078.5 Kg/m3",
+        "Dataset Density (P1, maximum)": "1097.3 Kg/m3"
+      },
+      "key_facts": [
+        "The dataset for Brix readings is designed for 20 data points, with the first column indicating temperature and subsequent columns representing densities for various products 'P' at different temperatures.",
+        "Users can import datasets from .csv sheets and export the current table data to .csv files.",
+        "The 'Tk1, Tk2' button is used to generate the coefficients necessary for the model.",
+        "Calculated Tk coefficients are generated by an internal model.",
+        "The 'Load Tks & Close' button loads the generated coefficients into the model.",
+        "Clicking 'Upload Model' loads the model settings into SME, indicated by the button turning GREEN for success or RED for an unsuccessful operation by the Rheonics Control Panel Software.",
+        "Uploading the model refreshes values for Uncompensated and Compensated indicators, allowing users to verify if the model's calculations are as expected."
+      ],
+      "diagram_labels": [
+        "Matrix Referral (window title)",
+        "Density [Kg/m3] (table header)",
+        "T [°C] (table column header)",
+        "P1 (table column header)",
+        "P2 (table column header)",
+        "P3 (table column header)",
+        "P4 (table column header)",
+        "P5 (table column header)",
+        "P6 (table column header)",
+        "P7 (table column header)",
+        "P8 (table column header)",
+        "P9 (table column header)",
+        "P10 (table column header)",
+        "P11 (table column header)",
+        "P12 (table column header)",
+        "P13 (table column header)",
+        "P14 (table column header)",
+        "Temperature [°C] (Y-axis label)",
+        "Ref Temp [°C] (input field label)",
+        "Tk coefficients (input field label)",
+        "Import (button)",
+        "Export Table (button)",
+        "Tk1, Tk2 (button)",
+        "? (button)",
+        "Load Tks & Close (button)",
+        "Cancel (button)",
+        "archive (folder in file explorer)",
+        "clear grape juice.csv (file in file explorer)",
+        "datatable_20pts.csv (file in file explorer)",
+        "Figure 2. Sample Dataset for Brix readings. (figure caption)",
+        "Figure 3. Selecting dataset (figure caption)",
+        "(1) Callout pointing to the main data table content",
+        "(2) Callout pointing to the 'Import' button",
+        "(3) Callout pointing to the 'Export Table' button",
+        "(4) Callout pointing to the 'Tk1, Tk2' button",
+        "(5) Callout pointing to the 'Tk coefficients' input field",
+        "(6) Callout pointing to the 'Load Tks & Close' button"
+      ],
+      "warnings_notes": [
+        "The 'Upload Model' button will turn RED if the Rheonics Control Panel Software operation is unsuccessful.",
+        "If the model does not calculate the expected values after uploading, the user should correct the process and repeat it."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1678,
+        "cost_usd": 0.0043348
+      },
+      "source_file": "128_Concentration_in_degree_Plato_with_Rheonics_process_meter_SRD.pdf"
+    },
+    {
+      "page_summary": "This page details the configuration of the Rheonics Control Panel software for Plato model-based concentration measurement, including display settings, analog output, and Modbus TCP/IP register access for the SME device.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel 5.4.0.0",
+        "SME"
+      ],
+      "extracted_text": "Rheonics Control Panel 5.4.0.0\nMeasurement | Events | Settings | Service | Diagnostics | Communication | Scaling | Calculation | Logger | Help\nAdvanced Calculations | Thermal Compensation of Density, Viscosity\nSelect Measurement to Apply Model: Concentration\nSelect Model from List: Plato\nCalculated Value: -4.591718\nStatus: (Green dot)\nMatrix Referral: Plato Model\nThis Plato degree represents when all sugar in the have consumed. By monitoring this value we can stop the fermentation before the Plato reach 0 or to create dry drinks by going below this number.\nLoad DataSet\nWater Density at 20°C [Kg/m3]: 998.23\n°P = 135.997 * SG₂₀/₂₀³ - 630.272 * SG₂₀/₂₀² + 1111.14 * SG₂₀/₂₀ - 616.868\nwhere SG₂₀/₂₀ = SG(20°C / 20°C)\nUnits: °P\nUPLOAD MODEL\nLCD Display (for TRD Only) Select Line to Display: None\nOutput on 4-20 mA channel Select channel number: None\nChange SMET Output\nLoad Configuration\nAccess measurement with applied model over Modbus RTU/TCP register: 208\nCalculation History\nFigure 4. Plato model loaded into the SME.\n6.1. Click “Load Configuration” to update the display and channel configurations in SME.\n• LCD Display\nSelect the line to display the parameter:\nLCD Display (for TRD Only) Select Line to Display\nOptions: None, Line 1, Line 2, Line 3\nFigure 5. Selecting read line for LCD display\nChanges can be verified on the “Communication” Tab\n• Analog outputs\nSelect analog channel to send data, this can be verified in “Service” Tab\nOutput on 4-20 mA channel Select channel number\nOptions: None, Ch1, Ch2, Ch3\nFigure 6. Selecting analog output channel\n• Modbus TCP/IP register\nMeasurement can always be accessed at the register address that is displayed.\nAccess measurement with applied model over Modbus RTU/TCP register: 208",
+      "specifications": {
+        "Software Version": "5.4.0.0",
+        "Calculated Value": "-4.591718",
+        "Water Density at 20°C": "998.23 Kg/m3",
+        "Modbus RTU/TCP Register Address": "208"
+      },
+      "key_facts": [
+        "The Rheonics Control Panel software version is 5.4.0.0.",
+        "The software provides advanced calculations for thermal compensation of density and viscosity.",
+        "A Plato model can be selected for concentration measurements.",
+        "The 'Calculated Value' for the Plato model is -4.591718, indicating a potential state where sugar has been consumed below 0°P.",
+        "The Plato degree is used to monitor fermentation by indicating when all sugar has been consumed, allowing for controlled stopping of fermentation or creating dry drinks by going below 0°P.",
+        "The Plato calculation uses the formula °P = 135.997 * SG₂₀/₂₀³ - 630.272 * SG₂₀/₂₀² + 1111.14 * SG₂₀/₂₀ - 616.868, where SG₂₀/₂₀ = SG(20°C / 20°C).",
+        "The 'Load Configuration' button updates display and channel configurations in the SME (Sensor Module Electronics).",
+        "For TRD (Thermal Rheology Device) Only, the LCD display can be configured to show data on Line 1, Line 2, or Line 3.",
+        "Analog outputs can send data via 4-20 mA channels (Ch1, Ch2, or Ch3).",
+        "Measurement data, after applying the model, can be accessed via Modbus RTU/TCP at register address 208."
+      ],
+      "diagram_labels": [
+        "Rheonics Control Panel 5.4.0.0",
+        "Measurement",
+        "Events",
+        "Settings",
+        "Service",
+        "Diagnostics",
+        "Communication",
+        "Scaling",
+        "Calculation",
+        "Logger",
+        "Help",
+        "Advanced Calculations | Thermal Compensation of Density, Viscosity",
+        "Select Measurement to Apply Model",
+        "Concentration",
+        "Select Model from List",
+        "Plato",
+        "Calculated Value",
+        "-4.591718",
+        "Status",
+        "Matrix Referral",
+        "Plato Model",
+        "Load DataSet",
+        "Water Density at 20°C [Kg/m3]",
+        "998.23",
+        "Units",
+        "°P",
+        "UPLOAD MODEL",
+        "LCD Display (for TRD Only) Select Line to Display",
+        "None",
+        "Output on 4-20 mA channel Select channel number",
+        "Change SMET Output",
+        "Load Configuration",
+        "Access measurement with applied model over Modbus RTU/TCP register",
+        "208",
+        "Calculation History",
+        "Figure 4. Plato model loaded into the SME.",
+        "LCD Display (for TRD Only)",
+        "Select Line to Display",
+        "None",
+        "Line 1",
+        "Line 2",
+        "Line 3",
+        "Figure 5. Selecting read line for LCD display",
+        "Output on 4-20 mA channel",
+        "Select channel number",
+        "None",
+        "Ch1",
+        "Ch2",
+        "Ch3",
+        "Figure 6. Selecting analog output channel"
+      ],
+      "warnings_notes": [
+        "This Plato degree represents when all sugar in the have consumed. By monitoring this value we can stop the fermentation before the Plato reach 0 or to create dry drinks by going below this number."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1529,
+        "cost_usd": 0.0039623
+      },
+      "source_file": "128_Concentration_in_degree_Plato_with_Rheonics_process_meter_SRD.pdf"
+    },
+    {
+      "page_summary": "This page describes the function of a 'Calculation History' button, which allows users to access a file containing previously uploaded models and coefficients.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "- \"Calculation History\" button allows you to open a file where the last uploaded models and coefficients for these models are stored. This is for user reference.",
+      "specifications": {},
+      "key_facts": [
+        "The 'Calculation History' button provides access to a file containing previously uploaded models and their coefficients.",
+        "The information stored via the 'Calculation History' button is intended for user reference."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "This is for user reference."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 186,
+        "cost_usd": 0.0006048
+      },
+      "source_file": "128_Concentration_in_degree_Plato_with_Rheonics_process_meter_SRD.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

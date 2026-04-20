@@ -1,0 +1,116 @@
+{
+  "source_file": "251_Concentration_units_supported_on_process_concentration_meter_SRD.pdf",
+  "total_pages": 3,
+  "chunks": [
+    {
+      "page_summary": "This page from Rheonics details the various concentration units supported by their SRD process concentration meter, explaining the measurement principles and listing different concentration models.",
+      "document_type": "notes",
+      "product_names": [
+        "SRD",
+        "SME-TRD",
+        "Rheonics Control Panel (RCP)"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nConcentration units supported on process concentration meter SRD\n\nModified on: Tue, 12 Dec, 2023 at 3:26 PM\n\nConcentration is the abundance of a component divided by the total volume of a mixture. The most common concentrations are the percentage of weight or volume present in a mixture. Various units are used to express concentration, each catering to specific industries, scientific disciplines, or chemical applications.\n\nCE\nEx\nATEX\nFigure 1. SME-TRD with SRD probe\n\nTABLE OF CONTENTS\n\n1. How is concentration measured with the SRD?\n2. What Units are available in Rheonics SRD?\n3. Why is it important to measure concentration?\nReferences:\n\n1. How is concentration measured with the SRD?\n\nRheonics offers different kinds of concentration models, which are calculated using Rheonics' algorithms internally by the SME, the calculation model can be loaded using the Rheonics Control Panel software (RCP) or from the factory. The rheonics electronics uses the density measured from the SRD and depending on the case it also uses the temperature.\n\nConcentration Models: (https://support.rheonics.com/en/support/solutions/categories/81000186361/folders/81000287610)\n\n* Brix degree. (https://support.rheonics.com/a/solutions/articles/81000400708?lang=en)\n* Plato degree. (https://support.rheonics.com/a/solutions/articles/81000403196?lang=en)\n* Baume degree. (https://support.rheonics.com/a/solutions/articles/81000403744?lang=en)\n* Matrix referral Specific Gravity. (https://support.rheonics.com/a/solutions/articles/81000404691?lang=en)\n* OIML Concentration. (https://support.rheonics.com/a/solutions/articles/81000411899?lang=en)\n* API degree. (https://support.rheonics.com/a/solutions/articles/81000411901?lang=en)\n* 8 Variable model. (https://support.rheonics.com/a/solutions/articles/81000411903?lang=en)\n* 8 Variable model Specific Gravity. (https://support.rheonics.com/a/solutions/articles/81000411902?lang=en)\n\n2. What Units are available in Rheonics SRD?\n\nThese diverse concentration units are crucial for ensuring accurate and standardized communication of material properties across different fields. Each concentration model has its specific unit, but some of them are dimensionless, for those cases, Rheonics uses a representative unit as the Specific gravity case.\n\nUnits\tApplications\tTransmitter Display View",
+      "specifications": {},
+      "key_facts": [
+        "Concentration is defined as the abundance of a component divided by the total volume of a mixture.",
+        "Common concentrations are expressed as a percentage of weight or volume.",
+        "Various concentration units are used across different industries, scientific disciplines, or chemical applications.",
+        "Rheonics calculates concentration models using proprietary algorithms internally by the SME.",
+        "Concentration calculation models can be loaded onto Rheonics devices using the Rheonics Control Panel software (RCP) or pre-configured at the factory.",
+        "Rheonics electronics use density measured from the SRD and, in some cases, temperature for concentration calculations.",
+        "Supported concentration models include Brix degree, Plato degree, Baume degree, Matrix referral Specific Gravity, OIML Concentration, API degree, 8 Variable model, and 8 Variable model Specific Gravity.",
+        "Diverse concentration units are vital for accurate and standardized communication of material properties.",
+        "For dimensionless concentration models, Rheonics uses Specific gravity as a representative unit."
+      ],
+      "diagram_labels": [
+        "Figure 1. SME-TRD with SRD probe"
+      ],
+      "warnings_notes": [
+        "CE",
+        "ATEX"
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1056,
+        "cost_usd": 0.0027798
+      },
+      "source_file": "251_Concentration_units_supported_on_process_concentration_meter_SRD.pdf"
+    },
+    {
+      "page_summary": "This page illustrates various concentration and density measurement units, their industrial applications, and displays how a Rheonics inline sensor provides these measurements, concluding with an explanation of why concentration measurement is critical.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "Rheonics inline process measurement sensor"
+      ],
+      "extracted_text": "°P (Degree Plato)\nApplications:\n- Breweries\n- Beverage\n\nSensor Display (Example):\n- Density: 1.040 g/ml\n- Temp: 21.08 °C\n- Visc: 1.08 cP\n- Plato: 10.0 °P\n\n°B (Degree Brix)\nApplications:\n- Soft drinks\n- Fruit juices\n- Tomato concentrates\n- Beverage Industry\n- Cutting Oil\n- Machining/Industrial\n\nSensor Display (Example):\n- Density: 1.080 g/ml\n- Temp: 21.08 °C\n- Visc: 1.08 cP\n- Brix: 20.0 °B\n\n°Bé (Degree Baume)\nApplications:\n- Sugar beet processing\n- Ophthalmic\n- Starch industry\n- Winemaking\n- Industrial water treatment\n- Printed circuit board (PCB) fabrication\n\nSensor Display (Example):\n- Density: 1.080 g/ml\n- Temp: 21.08 °C\n- Visc: 1.08 cP\n- Beaume: 23.0 °Bé\n\nSG (Specific Gravity)\nApplications:\n- Chemical Industry\n- Petroleum Industry\n- Pharmaceutical Industry\n- Metallurgy\n- Food and Beverage Industry\n- Water Treatment\n\nSensor Display (Example):\n- Density: 1.080 g/ml\n- Temp: 21.08 °C\n- Visc: 1.08 cP\n- SG: 1.08\n\n°API (Degree API)\nApplications:\n- Crude Oil Classification\n- Refining Suitability\n- Reservoir Engineering\n\nSensor Display (Example):\n- Density: 0.892 g/ml\n- Temp: 21.08 °C\n- Visc: 1.08 cP\n- API: 27.9 °API\n\n%w, %w/w, or %wt (Concentration percent based on weight)\nApplications:\n- Adhesives and Coatings\n- Biotechnology\n- Chemical Manufacturing\n- Quality Control in Manufacturing\n- Mining and Metallurgy\n- Pharmaceuticals\n- Food and Beverage Industry\n- Oil and Gas Industry\n\nSensor Display (Example):\n- Density: 1.080 g/ml\n- Temp: 21.08 °C\n- Visc: 1.08 cP\n- Conc: 20.0 %w\n\n%V, %v/v or %Vo (Concentration percent based on Volume)\nApplications:\n- Adhesives and Coatings\n- Biotechnology\n- Chemical Manufacturing\n- Cleaning and Sanitizing Solutions\n- Pharmaceuticals\n- Food and Beverage Industry\n- Oil and Gas Industry\n\nSensor Display (Example):\n- Density: 0.880 g/ml\n- Temp: 21.08 °C\n- Visc: 1.08 cP\n- Conc: 84.4 %V\n\n3. Why is it important to measure concentration?\nMeasuring concentration is essential to ensure the quality and security of the products, minimize waste, and control the reactions of the mixtures. In industries like pharmaceutical, chemical, and beverage this parameter is crucial because a deviation in the concentration could affect the efficiency of the medicaments, the chemical stability, or the alcohol percentage.\n\nReferences:\n[1] Concentration Measurement (https://rheonics.com/concentration-measurement/#:~:text=Measuring%20chemical%20concentrations%20accurately%20is,them%20to%20make%20informed%20decisions.)\n[2] Units translation table for field devices (https://support.rheonics.com/en/support/solutions/articles/81000393237-units-translation-table-for-field-devices)",
+      "specifications": {},
+      "key_facts": [
+        "Measuring concentration is essential to ensure product quality and security, minimize waste, and control reactions in mixtures.",
+        "A deviation in concentration can significantly affect the efficiency of medicaments, chemical stability, or alcohol percentage in industries such as pharmaceutical, chemical, and beverage.",
+        "Rheonics sensors can display measurements in various industry-specific units including Degree Plato, Degree Brix, Degree Baume, Specific Gravity, Degree API, and concentration percentages by weight or volume.",
+        "Common industrial applications for these measurements include breweries, soft drinks, chemical manufacturing, petroleum, pharmaceuticals, and food and beverage."
+      ],
+      "diagram_labels": [
+        "°P (Degree Plato)",
+        "°B (Degree Brix)",
+        "°Bé (Degree Baume)",
+        "SG (Specific Gravity)",
+        "°API (Degree API)",
+        "%w, %w/w, or %wt (Concentration percent based on weight)",
+        "%V, %v/v or %Vo (Concentration percent based on Volume)",
+        "PROCESS MEASUREMENT SENSOR",
+        "rheonics",
+        "Density",
+        "Temp",
+        "Visc",
+        "Plato",
+        "Brix",
+        "Beaume",
+        "SG",
+        "API",
+        "Conc"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1342,
+        "cost_usd": 0.0034948
+      },
+      "source_file": "251_Concentration_units_supported_on_process_concentration_meter_SRD.pdf"
+    },
+    {
+      "page_summary": "This page provides a list of references and articles related to concentration measurement, including Rheonics' own resources, academic materials, and industry-specific scales like Baume and Brix, along with a mention of a display unit.",
+      "document_type": "notes",
+      "product_names": [
+        "SME-TRD"
+      ],
+      "extracted_text": "[3] Rheonics Concentration articles (https://support.rheonics.com/en/support/solutions/categories/81000186361/folders/81000287610)\n[4] Measuring Concentrations of Solutions (https://chem.libretexts.org/Courses/University_of_Arkansas_Little_Rock/Chem_1402%3A_General_Chemistry_1_(Belford)/Text/4%3A_Stoichiometry%3A_Quantitative_Information_about_Chemical_Reactions/4.11%3A_Solution_Stoichiometry%3A_Concentration_of_Solutions)\n[5] Baume Scale (https://infinitalab.com/blogs/baume-scale/#:~:text=The%20Baume%20scale%20is%20expressed,the%20specific%20gravity%20of%20liquids.)\n[6] NCBI - Brix Measurement (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8951823/#:~:text=Brix%20can%20be%20measured%20in,6%2C%207%2C%208%2C%209%2C%2010.)\n[7] Display SME-TRD",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics provides articles concerning concentration measurement.",
+        "Information on measuring concentrations of solutions is available through external academic resources.",
+        "The Baume Scale, used to express specific gravity of liquids, is referenced as a relevant topic.",
+        "Details on Brix measurement methods are linked via NCBI.",
+        "SME-TRD is identified as a display unit."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 523,
+        "cost_usd": 0.0014473
+      },
+      "source_file": "251_Concentration_units_supported_on_process_concentration_meter_SRD.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

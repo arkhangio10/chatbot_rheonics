@@ -1,0 +1,209 @@
+{
+  "source_file": "155_Rheonics_sensor_integration_with_S7-300_and_Profinet.pdf",
+  "total_pages": 4,
+  "chunks": [
+    {
+      "page_summary": "This page details the integration of Rheonics viscometers and density sensors (SME) with Siemens S7-300 controllers via Profinet, highlighting the use of a GSDML file for Legacy mode compatibility.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics SRV viscometer",
+        "SRD density-viscosity meter",
+        "DVP gas density-viscosity meter",
+        "DVM HPHT density-viscosity meter",
+        "Rheonics SME",
+        "SME-DRM",
+        "Siemens S7-300",
+        "TIA Portal"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nRheonics sensor integration with S7-300 and Profinet\n\nModified on: Wed, 23 Oct, 2024 at 12:01 AM\n\n*   What products are involved?\n    *   Rheonics SRV viscometer (https://rheonics.com/products/inline-viscometer-srv/), SRD density-viscosity meter (https://rheonics.com/products/inline-density-meter-srd/), DVP gas density-viscosity meter (https://rheonics.com/products/inline-gas-lng-density-meter-dvp/) and DVM HPHT density-viscosity meter (https://rheonics.com/products/hpht-pvt-density-meter-viscometer-dvm/)\n\n*   What is the purpose of this article?\n    *   To guide the integration of Rheonics SME with an S7-300 controller based on TIA Portal using a Profinet communication protocol.\n\n1.  PROFINET Overview\n    *   PROFINET is one of the most commonly used industrial communication protocols, it enables data exchange between controllers and devices based on international standards. To link all the components in its network, PROFINET requires standard Ethernet as the communication medium. It can operate on higher transmission speeds than other protocols.\n\n    Figure 1. Profinet communication diagram for S7-300\n\n2.  GSDML File compatible with S7-300\n    *   Startup mode plays a crucial role in how a device establishes communication with a PLC. Modern systems use Advanced mode to enable enhanced features such as faster device initialization, real-time diagnostics, and improved data handling, which allow for quicker error detection and higher data throughput. However, older CPUs like the Siemens S7-300 only support Legacy mode, which lacks these advanced capabilities. To ensure compatibility with such systems, Rheonics developed a GSDML file that allows their viscometers to operate in Legacy mode, ensuring seamless communication with older PLCs while maintaining reliable performance.",
+      "specifications": {},
+      "key_facts": [
+        "The document was last modified on Wednesday, October 23, 2024, at 12:01 AM.",
+        "The Rheonics contact phone number is +1 713 234 0863.",
+        "Rheonics offers SRV viscometers, SRD density-viscosity meters, DVP gas density-viscosity meters, and DVM HPHT density-viscosity meters.",
+        "The purpose of this article is to guide the integration of Rheonics SME sensors with Siemens S7-300 controllers using TIA Portal and Profinet communication protocol.",
+        "PROFINET is a widely used industrial communication protocol that facilitates data exchange between controllers and devices based on international standards.",
+        "PROFINET utilizes standard Ethernet as its communication medium and can operate at higher transmission speeds compared to other industrial protocols.",
+        "Modern industrial control systems use \"Advanced mode\" for device communication to enable enhanced features such as faster device initialization, real-time diagnostics, and improved data handling.",
+        "Older CPUs, specifically the Siemens S7-300, only support \"Legacy mode\" for device communication, which lacks the advanced capabilities of modern systems.",
+        "Rheonics has developed a GSDML file to allow their viscometers to operate in \"Legacy mode\" with Siemens S7-300 PLCs, ensuring seamless communication and reliable performance."
+      ],
+      "diagram_labels": [
+        "S7-300",
+        "PROFINET",
+        "SME-DRM",
+        "Figure 1. Profinet communication diagram for S7-300"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1026,
+        "cost_usd": 0.0027048
+      },
+      "source_file": "155_Rheonics_sensor_integration_with_S7-300_and_Profinet.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions and download links for Profinet GSDML files for Rheonics inline viscometers and density sensors, including specific files for TwinCAT and S7-300 PLCs, along with steps for adding a Rheonics device in Siemens TIA Portal.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics inline viscometer and density meter"
+      ],
+      "extracted_text": "Solution home / Communication connections / PROFINET\nProfinet GSD file for Rheonics inline viscometer and density meter\nPrint\n\nProfinet Support on Rheonics Products\n*   GSD files for all rheonics devices are available for download from this page.\n*   TwinCAT-compatible gsdml can be downloaded from this page under the name of GSDML-V2.4-Rheonics-SMET-TwinCAT-20220321\n*   For S7-300, download the gsdml file named GSDML-V2.4-Rheonics-SMET-Legacy-20220321\n\nAdditionally, the Diagnosis and Parameter tables can be downloaded from this page as excel files and can be imported into Siemens TIA PORTAL software.\n\nReferences\n1. Diagnostics and Parameter Readings with Profinet\n2. Rheonics Sensor Integration with TIA portal\n\nFigure 2. GSDML file compatible with S7-300\nLegacy GSDML file\n\n3. Adding a Rheonics device\n3.1. Open a project.\n3.2. Select [Manage general station description files (GSD)] in the [Options] menu.\n\nSiemens C:\\Users\\rheonics\\Documents\\Automation\\Profinet Integration with SMET\\Profinet Integration with SMET\nProject Edit View Insert Online Options Tools Window Help\nSave project Settings Support packages\nManage general station description files (GSD)\nStart Automation License Manager\nShow reference text\nGlobal libraries\nProject tree\nDevices\nProfinet Integration with SMET\nAdd new device\nDevices & networks\n\nFigure 3. Screenshot of GSD file upload in TIA portal.\nAdd GSD file\n\n3.3. Select the file: GSDML-V2.4-Rheonics-SMET-Legacy-20220321.xml, load, and install this file.",
+      "specifications": {
+        "TwinCAT GSDML file name": "GSDML-V2.4-Rheonics-SMET-TwinCAT-20220321",
+        "S7-300 GSDML file name": "GSDML-V2.4-Rheonics-SMET-Legacy-20220321.xml",
+        "GSDML file version": "V2.4",
+        "Compatible software": "Siemens TIA PORTAL"
+      },
+      "key_facts": [
+        "GSD files for all Rheonics devices are available for download from this page.",
+        "A TwinCAT-compatible GSDML file is available, named GSDML-V2.4-Rheonics-SMET-TwinCAT-20220321.",
+        "For S7-300 PLCs, the GSDML file to download is named GSDML-V2.4-Rheonics-SMET-Legacy-20220321.",
+        "Diagnosis and Parameter tables for Rheonics devices can be downloaded as Excel files and imported into Siemens TIA Portal software.",
+        "To add a Rheonics device in TIA Portal, users must open a project and select 'Manage general station description files (GSD)' from the Options menu.",
+        "The specific file 'GSDML-V2.4-Rheonics-SMET-Legacy-20220321.xml' needs to be selected, loaded, and installed for adding the device."
+      ],
+      "diagram_labels": [
+        "Legacy GSDML file",
+        "Settings",
+        "Manage general station description files (GSD)",
+        "Project tree",
+        "Devices",
+        "Profinet Integration with SMET",
+        "Add new device",
+        "Devices & networks",
+        "Add GSD file"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1010,
+        "cost_usd": 0.0026648
+      },
+      "source_file": "155_Rheonics_sensor_integration_with_S7-300_and_Profinet.pdf"
+    },
+    {
+      "page_summary": "This page details the integration of Rheonics SMET devices into Siemens TIA Portal, including GSD file installation and the process for reading sensor parameters with Siemens S7-300 and newer PLCs.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SMET"
+      ],
+      "extracted_text": "Manage general station description files\nInstalled GSDs\nGSDs in the project\nSource path: C:\\Users\\rheonics\\Desktop\\Profinet\nContent of imported path\nFile\tVersion\tLanguage\tStatus\tInfo\nGSDML-V2.4-Rheonics-SMET-2022...\tV2.4\tEnglish\tNot yet installed\thttp://rheo...\n\nDelete\tInstall\tCancel\n\nFigure 4. Screenshot of GSD file upload in TIA portal.\n\n3.4. A new device is added to the project and the sensor memory addresses are assigned.\n\nUngrouped devices\nsrv-f01-0260 [Rheonics SMET]\n\nDevice overview\nTopology view\tNetwork view\tDevice view\n\nModule\tRack\tSlot\tI address\tQ address\tType\nsrv-f01-0260\n\tsrv-f01-0260\t0\t0\t2037*\t\trheonics-SMET\n\tX1\t0\t0 X1\t2036*\t\trheonics-smet\n\tDiagnostics_1\t0\t1\t1056...1123\t\tDiagnostics\n\tDevice Parameters_1\t0\t2\t1124...1424\t\tDevice Parameters\n\t\t0\t3\t\t\n\t\t0\t4\t\t\n\nFigure 5. Rheonics device in TIA portal.\n\n4. Reading parameters\n\nWhen integrating a sensor with a Siemens S7-300 PLC, reading hardware I/O as a peripheral is required. To do this, a \":P\" must be appended to the tag's test string. This step is specific to the S7-300 architecture, which necessitates peripheral addressing for certain hardware reads.\n\nIn contrast, newer Siemens PLCs, such as those designed for the TIA Portal environment, do not require this process. These PLCs support direct I/O reading without the need for peripheral addressing, simplifying the configuration.\n\nMOVE\nEN\tENO\n%D1130:P\n\"Parameter 0\nViscosity\nMedian raw value\":P\nIN\tOUT\n%DB300.DBD0\n\"ViscosityPreTemperUnit\".Para.\nPara0ViscosityMe\ndRawVal",
+      "specifications": {},
+      "key_facts": [
+        "A new Rheonics device is added to the project and its sensor memory addresses are assigned.",
+        "Integrating a sensor with a Siemens S7-300 PLC requires reading hardware I/O as a peripheral.",
+        "For Siemens S7-300 PLCs, a \":P\" must be appended to the tag's test string to enable peripheral addressing for hardware reads.",
+        "The peripheral addressing step is specific to the S7-300 architecture.",
+        "Newer Siemens PLCs, designed for the TIA Portal environment, do not require peripheral addressing for I/O reading.",
+        "Newer Siemens PLCs support direct I/O reading, which simplifies configuration."
+      ],
+      "diagram_labels": [
+        "Manage general station description files",
+        "Installed GSDs",
+        "GSDs in the project",
+        "Source path",
+        "C:\\Users\\rheonics\\Desktop\\Profinet",
+        "Content of imported path",
+        "File",
+        "Version",
+        "Language",
+        "Status",
+        "Info",
+        "GSDML-V2.4-Rheonics-SMET-2022...",
+        "V2.4",
+        "English",
+        "Not yet installed",
+        "http://rheo...",
+        "Delete",
+        "Install",
+        "Cancel",
+        "Ungrouped devices",
+        "srv-f01-0260 [Rheonics SMET]",
+        "srv-f01-0260",
+        "Device overview",
+        "Topology view",
+        "Network view",
+        "Device view",
+        "Module",
+        "Rack",
+        "Slot",
+        "I address",
+        "Q address",
+        "Type",
+        "X1",
+        "Diagnostics_1",
+        "Device Parameters_1",
+        "2037*",
+        "rheonics-SMET",
+        "2036*",
+        "rheonics-smet",
+        "1056...1123",
+        "Diagnostics",
+        "1124...1424",
+        "Device Parameters",
+        "DP-NORM",
+        "MOVE",
+        "EN",
+        "ENO",
+        "%D1130:P",
+        "IN",
+        "OUT",
+        "%DB300.DBD0",
+        "Parameter 0",
+        "Viscosity",
+        "Median raw value",
+        "ViscosityPreTemperUnit",
+        "Para0ViscosityMe",
+        "dRawVal"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1314,
+        "cost_usd": 0.0034248
+      },
+      "source_file": "155_Rheonics_sensor_integration_with_S7-300_and_Profinet.pdf"
+    },
+    {
+      "page_summary": "This page explains the importance of correct peripheral addressing for PLC sensor data reading and lists support resources for PROFINET integration with Rheonics sensors, including viscometers and density meters.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SME",
+        "Rheonics Sensor",
+        "inline viscometer",
+        "density meter"
+      ],
+      "extracted_text": "Figure 6. Reading parameters as a peripheral.\nBy ensuring the correct peripheral addressing the PLC can accurately read sensor data. Once this configuration is properly set, the data can be efficiently transferred to memory and used for process control, enabling smooth and reliable system operation.\n5. Resources\nTaking the PROFINET road with Rheonics SME\n(https://support.rheonics.com/en/support/solutions/articles/81000411227-taking-the-profinet-road-with-rheonics-sme)\nRheonics Sensor Integration with Siemens PLC using TIA portal\n(https://support.rheonics.com/en/support/solutions/articles/81000401598-rheonics-sensor-integration-with-siemens-plc-s7-1200-using-tia-portal)\nDiagnostics and Parameter Readings with Profinet\n(https://support.rheonics.com/en/support/solutions/articles/81000401909-diagnostics-and-parameter-readings-with-profinet)\nProfinet connection to inline viscometer and density meter\n(https://support.rheonics.com/en/support/solutions/articles/81000401423-profinet-gsd-file-for-rheonics-inline-viscometer-and-density-meter)",
+      "specifications": {},
+      "key_facts": [
+        "Correct peripheral addressing is essential for a PLC to accurately read sensor data.",
+        "Proper configuration of peripheral addressing ensures efficient data transfer to memory and reliable process control.",
+        "Rheonics provides support resources for integrating their sensors, including Rheonics SME, with PROFINET.",
+        "There are specific resources for Rheonics sensor integration with Siemens PLC using TIA portal, particularly for the S7-1200.",
+        "Resources are available for diagnostics and parameter readings with PROFINET.",
+        "Support is offered for PROFINET connection to Rheonics inline viscometers and density meters, including GSD files."
+      ],
+      "diagram_labels": [
+        "Figure 6. Reading parameters as a peripheral."
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 610,
+        "cost_usd": 0.0016648
+      },
+      "source_file": "155_Rheonics_sensor_integration_with_S7-300_and_Profinet.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "source_file": "Retractable Density Meter and Viscometer - Type SR-X5 and X8 _ Rheonics Support.pdf",
+  "total_pages": 5,
+  "chunks": [
+    {
+      "page_summary": "This page describes the Rheonics Retractable Probe Assembly (RPA) for Type SR-X5 and -X8 probes, detailing its functionality, specifications, applications in various industries, and advantages for inline viscometer and density meter operations.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "Rheonics Type SR-X5 probes",
+        "Rheonics Type SR-X8 probes",
+        "Rheonics Retractable Probe Assembly (RPA)",
+        "Rheonics RPA System",
+        "Rheonics inline process viscometer SRV",
+        "Rheonics density meter",
+        "Rheonics viscometer SRD",
+        "Teletube Ultra-Long Insertion Probe",
+        "RPQ assembly"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nRetractable Density Meter and Viscometer - Rheonics Type SR-X5 and -X8 probes\nModified on: Mon, 29 Sep, 2025 at 7:04 PM\n(https://support.rheonics.com/en/support/solutions/articles/81000412793-type-sr-x8-teletube-ultra-long-insertion-probe)\n(https://support.rheonics.com/en/support/solutions/articles/81000411102-srv-x5-long-insertion-probe)\n\nWhat products are involved?\nRheonics RPA System to use with inline process viscometer and density meter in variants Type-SR X5: Teletube Ultra-Long Insertion Probe and Type-SR X8: Teletube Ultra-Long Insertion Probe. Rheonics inline process viscometer SRV and density meter, and viscometer SRD\n\nWhat is the purpose of this article?\nTo give an overview of the Rheonics Ret retractable Probe Assembly, Rheonics-RPA, description, and where to use it.\n\n1. Overview\nIn industrial applications often there is often a need to remove instrumentation from pipes or tanks, without emptying the equipment or stopping the production. In these cases, Rheonics inline process viscometer SRV and density meter, and viscometer SRD sensors can be installed with the Rheonics Ret retractable Probe Assembly - RPA.\n\nThe Rheonics RPA allows the retraction and insertion of Type-SR Sensor probes from the line without disrupting the process. This minimizes downtime for probe inspection or line cleaning since the user doesn't need to stop the process, drain the lines, or create work stoppage orders to remove instrumentation during pigging operations.\n\nThe Rheonics Retractable Probe Assembly can use the long insertion probe (X5 option) or the teletube (X8) variant (explained in detail in the ordering section below). The RPA uses a ball valve to isolate process fluid from the outside environment. The probe is inserted or retracted through the open ball valve. After the probe is retracted, the ball valve is closed to isolate the probe from the fluid inside the line. For sealing purposes, the Rheonics RPA uses a compression fitting nut to fix or allow the movement of the probe. A vertical guide rod allows the linear motion of the probe without undesired movements during insertion or retraction.\n\nFigure 1. Retractable Probe Overview\n\nSpecifications\nSensor compatibility: Viscometer SRV, Density and Viscosity meter SRD\nOrder code: RPA (Ret retractable Probe Assembly)\nProbe material: Stainless Steel 316L\nProbe Length: Customizable\nProcess Connection: 1 1/2\" NPT Thread\nPressure Range: Up to 580 psi (40 bar)\nInstallation Place: In pipes and Tanks\nDrawings: RPA Drawing\n\n2. Where to use the Rheonics Ret retractable Probe Assembly?\nIn certain industrial applications, removing sensors without draining the line might be necessary for maintenance, cleaning, or replacement without interrupting the production process.\n\nIn addition, when a line should be piggable, it is required for the probe to be removed from the line when the pigging operation is ongoing. Instead of removing the complete probe, a more time-efficient mechanism is to use retraction to remove the probe from inside the line thus removing any obstruction from the path of the pigging device. Once the pigging operation is finished, the probe can be reinserted.\n\nAnother use case is when the probe needs to be checked or cleaned during operation. The retractable assembly is able to remove it from the process line for in-situ or external verification and cleaning.\n\nThis ability allows for minimizing downtime, reducing product loss, and maintaining operational efficiency. Some of these industries are:\n*   Crude oil transfer pipelines\n*   Chemical Processing.\n*   Oil and Gas Industry.\n*   Water Treatment Plants.\n*   Food and Beverage Production.\n*   Pharmaceutical Manufacturing.\n*   Industries using Pigging system.\n\nAdvantages of retractable density meter and viscometer:\n*   Removal of the sensor without affecting the ongoing process\n*   Ensuring the process line is piggable.\n*   In-situ cleaning of the probe without contaminating the process fluid (option through upgrades).\n*   In-situ calibration verification using known fluid check in the RPQ assembly (option through upgrades).",
+      "specifications": {
+        "Sensor compatibility": "Viscometer SRV, Density and Viscosity meter SRD",
+        "Order code": "RPA (Retractable Probe Assembly)",
+        "Probe material": "Stainless Steel 316L",
+        "Probe Length": "Customizable",
+        "Process Connection": "1 1/2\" NPT Thread",
+        "Pressure Range": "580 psi (40 bar)",
+        "Installation Place": "In pipes and Tanks",
+        "Drawings": "RPA Drawing"
+      },
+      "key_facts": [
+        "The Rheonics Retractable Probe Assembly (RPA) allows the retraction and insertion of Type-SR Sensor probes from the line without disrupting the process.",
+        "The RPA minimizes downtime for probe inspection or line cleaning since the user doesn't need to stop the process, drain the lines, or create work stoppage orders during pigging operations.",
+        "The Rheonics Ret retractable Probe Assembly can use the long insertion probe (X5 option) or the teletube (X8) variant.",
+        "The RPA uses a ball valve to isolate process fluid from the outside environment.",
+        "For sealing purposes, the Rheonics RPA uses a compression fitting nut to fix or allow the movement of the probe.",
+        "A vertical guide rod allows the linear motion of the probe without undesired movements during insertion or retraction.",
+        "The retractable assembly is able to remove the probe from the process line for in-situ or external verification and cleaning.",
+        "The RPA allows for minimizing downtime, reducing product loss, and maintaining operational efficiency.",
+        "Advantages include removal of the sensor without affecting the ongoing process, ensuring the process line is piggable, in-situ cleaning of the probe without contaminating the process fluid (option through upgrades), and in-situ calibration verification using known fluid check in the RPQ assembly (option through upgrades)."
+      ],
+      "diagram_labels": [
+        "Secure Pin",
+        "Rod",
+        "Rheonics APC",
+        "Compression Nut (To fix the position!)",
+        "Retrac Adapter",
+        "Ball Valve NPT thread 1.5\"",
+        "1 1/2\" NPT Male thread",
+        "Main Pipe/Tank",
+        "Type-SR sensors SRV and SRD Probe Variant -X5 or -X8",
+        "L Defined by Rheonics",
+        "Insertion Length \"A\" Defined by customer"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1719,
+        "cost_usd": 0.0044373
+      },
+      "source_file": "Retractable Density Meter and Viscometer - Type SR-X5 and X8 _ Rheonics Support.pdf"
+    },
+    {
+      "page_summary": "This page details the parts of a Rheonics Retractable Probe (RPA), lists the components included in a standard delivery, and provides instructions for preparing a pipe or tank for RPA installation.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Retractable Probe (RPA)",
+        "SRV/SRD-X8",
+        "SRV/SRD-X5",
+        "Rheonics APC"
+      ],
+      "extracted_text": "3. Parts Index\n\nFigure 2. Retractable Probe Parts\n\nItem | Name | Code\n---|---|---\n1 | Teletube Cable Gland (for X8) | CG-TT\n2 | Securing Pin | SP-RPA\n3 | Rheonics APC | APC\n4 | Movable Guide Slab | MS-RPA\n5 | Retract Guiding Rod | RD-RPA\n6 | Teletube Body (for X8) | BD-TT\n7 | Compression Nut | CN-RPA\n8 | 1 1/2\" NPT Retract Adapter | 1N50-RPA\n9 | Static Guide Slab | ST-RPA\n10 | Ball Valve 1 1/2\" NPT Thread | BV1N50-RPA\n11 | Retract Support Sleeve | RSS-T\n12 | 50 mm Wrench | WRC-50\n13 | Sensor Probe Variant | SRV/SRD-X8 or SRV/SRD-X5\n\n4. What is included in a standard delivery?\n\nItem | Name | Quantity | Reference Image\n---|---|---|---\n1 | 1 1/2\" NPT Ball Valve + 1 1/2\" NPT Retract Adapter | 1 | [Image of ball valve and adapter]\n2 | Retract Guiding Rod | 1 | [Image of guiding rod]\n3 | Retract Probe Assembly | 1 | [Image of probe assembly]\n4 | Retract Support Sleeve | 1 | [Image of support sleeve]\n5 | 50 mm Wrench | 1 | [Image of wrench]\n\n5. How to prepare a pipe or tank for the RPA installation?\n\nThe Rheonics Retractable Probe (RPA) can be seamlessly integrated into the process by using a male 1 1/2\" NPT thread, allowing for the valve to be securely threaded. This could be, for example, using a standpipe or an existing port with an adapter to transition to the required thread.\n\nThe installation must have a minimum inner diameter of ø35 mm to ensure proper immersion and retraction of the sensor probe.",
+      "specifications": {
+        "Ball Valve NPT Thread": "1 1/2\" NPT",
+        "Retract Adapter NPT Thread": "1 1/2\" NPT",
+        "Wrench Size": "50 mm",
+        "Minimum Installation Inner Diameter": "35 mm"
+      },
+      "key_facts": [
+        "The page provides a parts index for a Retractable Probe system.",
+        "The standard delivery includes a 1 1/2\" NPT Ball Valve, a 1 1/2\" NPT Retract Adapter, a Retract Guiding Rod, a Retract Probe Assembly, a Retract Support Sleeve, and a 50 mm Wrench.",
+        "The Rheonics Ret retractable Probe (RPA) requires a male 1 1/2\" NPT thread for seamless integration into a process.",
+        "A standpipe or an existing port with an adapter can be used to transition to the required 1 1/2\" NPT thread for RPA installation."
+      ],
+      "diagram_labels": [
+        "Teletube Cable Gland (for X8)",
+        "Securing Pin",
+        "Rheonics APC",
+        "Movable Guide Slab",
+        "Retract Guiding Rod",
+        "Teletube Body (for X8)",
+        "Compression Nut",
+        "1 1/2\" NPT Retract Adapter",
+        "Static Guide Slab",
+        "Ball Valve 1 1/2\" NPT Thread",
+        "Retract Support Sleeve",
+        "50 mm Wrench",
+        "Sensor Probe Variant"
+      ],
+      "warnings_notes": [
+        "The installation must have a minimum inner diameter of ø35 mm to ensure proper immersion and retraction of the sensor probe."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1027,
+        "cost_usd": 0.0027072999999999997
+      },
+      "source_file": "Retractable Density Meter and Viscometer - Type SR-X5 and X8 _ Rheonics Support.pdf"
+    },
+    {
+      "page_summary": "This page provides detailed assembly and installation instructions for a Rheonics retractable probe system, including connection to the main pipe and sensor insertion.",
+      "document_type": "manual",
+      "product_names": [
+        "RPA",
+        "1N50-RPA",
+        "BV1N50-RPA",
+        "RSS-RPA",
+        "MS-RPA",
+        "SP-RPA",
+        "RD-RPA",
+        "APC",
+        "Ultra-Long TT Sensor viscometer and density meter",
+        "SRx-X5 long insertion probe",
+        "Retractable Probe Ball Valve"
+      ],
+      "extracted_text": "To prepare the pipe or tank for the RPA installation, follow these instructions:\n1. Identify and define the installation point; only a male 1 1/2\" NPT Thread is required. This could be using a standpipe or using an existing port with an adapter to transition to the required thread.\n2. Now, follow the detailed assembly instructions below to install the RPA.\n\nFigure 3. Retractable Probe Installation Interface\n*Pipe to process defined by customer:\n- Inner diameter ID>35mm\n- SL refers to the Standpipe or port length\n\n6. Assembly and Installation Instructions\nThe assembly of this product is simple because most of the parts are delivered assembled. Follow the next steps to start using the retractable probe.\n\n1. Installation and Commissioning\n\nHow to install and commission the RPA?\n\nSteps\n\nDrawing\n\n1. Add PTFE tape to the 1 1/2\" male thread of the installation point and, using the 55mm wrench, connect the BV1N50-RPA with 1N50-RPA to the process. Follow the NPT thread assembly general instructions.\n\n2. With the Hex Key #6 and the M8 screw, tighten the guiding rod to the stationary sheet. Make sure the locking pin is at a comfortable operating position, ideally upwards.\n\n3. Put some lubricant on the O-ring at the front of the 1N50-RPA. With the BV1N50-RPA closed, connect the RSS-RPA on the front of the adapter.\n\n4. There are two options:\na. If the teletube probe isn't assembled, please follow these steps to do it. Ultra-Long TT Sensor viscometer and density meter assembly (https://support.rheonics.com/en/support/solutions/articles/81000412407-ultra-long-insertion-sensor-type-sr-tt-assembly-instructions).\nb. If the teletube is assembled or is an SRx-X5 long insertion probe, continue to step 5.\n\n5. Install the APC on the probe body to be used in the next steps.\n\nNote: The Rheonics APC generally comes already assembled with the Movable Guide Slab, if this is not the case, follow the instructions on the APC article (https://support.rheonics.com/en/support/solutions/articles/81000413923-apc-adjustable-process-connector-assembly-guideline), to assemble it, the Movable Guide Slab works as a process connection.\n\n6. Slide the front of the probe on the RSS-RPA and connect the MS-RPA of the probe assembly to the RD-RPA.\n\n7. Push the probe into the 1N50-RPA until the MS-RPA touches the SP-RPA. Take the RSS-RPA out once the probe is sufficiently inserted into the 1N50-RPA.",
+      "specifications": {
+        "NPT thread requirement": "1 1/2\" male",
+        "wrench size": "55 mm",
+        "hex key size": "#6",
+        "screw type": "M8",
+        "pipe inner diameter": ">35 mm",
+        "NPT thread dimension range": "1 1/2 - 11 1/2"
+      },
+      "key_facts": [
+        "The pipe or tank for RPA installation requires a male 1 1/2\" NPT Thread.",
+        "The assembly of the product is simple as most parts are pre-assembled.",
+        "PTFE tape should be added to the 1 1/2\" male thread of the installation point.",
+        "The BV1N50-RPA should be connected to the process using a 55mm wrench.",
+        "The guiding rod should be tightened to the stationary sheet using a Hex Key #6 and M8 screw, ensuring the locking pin is in a comfortable operating position, ideally upwards.",
+        "Lubricant must be applied to the O-ring at the front of the 1N50-RPA before connecting the RSS-RPA.",
+        "For unassembled teletube probes, specific instructions for Ultra-Long TT Sensor viscometer and density meter assembly must be followed.",
+        "For assembled teletube or SRx-X5 long insertion probes, installation continues from step 5.",
+        "The APC (Adjustable Process Connector) should be installed on the probe body.",
+        "The Rheonics APC typically comes pre-assembled with the Movable Guide Slab; if not, an APC assembly guideline should be consulted.",
+        "The probe should be slid onto the RSS-RPA and connected to the MS-RPA of the probe assembly to the RD-RPA.",
+        "The probe must be pushed into the 1N50-RPA until the MS-RPA touches the SP-RPA, then the RSS-RPA can be removed."
+      ],
+      "diagram_labels": [
+        "SL",
+        "min φ [138]",
+        "NPT 1 1/2 - 11 1/2",
+        "Main Pipe",
+        "1 1/2\" NPT Male Port",
+        "Retractable Probe Ball Valve",
+        "Retractable Probe Ball Valve Closed",
+        "M8 Screw",
+        "Stationary Sheet",
+        "Retractable Probe Guiding Rod",
+        "Locking Pin",
+        "1/2\" NPT to M42 Adapter",
+        "1/2\" NPT to M42 Adapter O-Ring",
+        "Support Sleeve",
+        "Movable Sheet",
+        "Type-SR Probe",
+        "Retractable Probe Ball Valve Opened"
+      ],
+      "warnings_notes": [
+        "Note: The Rheonics APC generally comes already assembled with the Movable Guide Slab, if this is not the case, follow the instructions on the APC article (https://support.rheonics.com/en/support/solutions/articles/81000413923-apc-adjustable-process-connector-assembly-guideline), to assemble it, the Movable Guide Slab works as a process connection."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1576,
+        "cost_usd": 0.0040798
+      },
+      "source_file": "Retractable Density Meter and Viscometer - Type SR-X5 and X8 _ Rheonics Support.pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions for the installation, removal, and reinsertion of a Type-SR sensor probe in a main pipe, utilizing various Rheonics components and tools.",
+      "document_type": "manual",
+      "product_names": [
+        "BV1N50-RPA",
+        "WRC-50",
+        "CN-RPA",
+        "1N50-RPA",
+        "MS-RPA",
+        "SP-RPA",
+        "RSS-RPA",
+        "Type-SR Probe"
+      ],
+      "extracted_text": "8. Now the probe is engaged on the O-ring, the BV1N50-RPA can be safely opened without process fluid being spilled. Open the BV1N50-RPA, take the SP-RPA out, and insert the probe to its final position. Put back the SP-RPA.\n9. Using the WRC-50, tighten the CN-RPA to fix the probe to the 1N50-RPA.\nNow the sensor probe is ready to get measurements.\n\n2. Probe Removal\nSteps\nHow to remove the sensor probe from the mainpipe?\nPlease make sure that the pipe and process are at an ambient pressure to remove the probe from the line.\n1. Using the WRC-50, loosen the CN-RPA that fixes the probe to the 1N50-RPA.\n2. Slide the probe out until the MS-RPA touches the SP-RPA. The BV1N50-RPA can now be closed.\n3. Take the SP-RPA out and, with the help of the RSS-RPA, slide the probe out completely. Put back the SP-RPA.\nOnce the previous steps are done, you can remove/change the probe or clean the line safely.\n\n3. Probe Reinsertion\nSteps\nDrawing\nHow to reinsert the RPA in the process?\n1. Open the BV1N50-RPA, take the SP-RPA out, and with the help of the RSS-RPA, reinsert the probe to its final position. Put back the SP-RPA.\n2. Using the WRC-50, tighten the CN-RPA to fix the probe to the 1N50-RPA.\nNow the sensor probe is ready again to take measurements.",
+      "specifications": {
+        "wrench_size": "50 mm"
+      },
+      "key_facts": [
+        "The BV1N50-RPA can be safely opened without process fluid spill when the probe is engaged on the O-ring.",
+        "The sensor probe is ready for measurements after the CN-RPA is tightened to the 1N50-RPA using the WRC-50.",
+        "For probe removal, the pipe and process must be at ambient pressure.",
+        "The BV1N50-RPA can be closed once the MS-RPA touches the SP-RPA during removal.",
+        "The RSS-RPA is used to slide the probe out completely during removal and to reinsert it to its final position."
+      ],
+      "diagram_labels": [
+        "Main Pipe",
+        "Retractable Probe Ball Valve Opened",
+        "Retractable Probe Guiding Rod",
+        "Locking Pin",
+        "Support Sleeve",
+        "Type-SR Probe",
+        "50 mm wrench",
+        "Retractable Probe Nut"
+      ],
+      "warnings_notes": [
+        "Please make sure that the pipe and process are at an ambient pressure to remove the probe from the line."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 837,
+        "cost_usd": 0.0022322999999999996
+      },
+      "source_file": "Retractable Density Meter and Viscometer - Type SR-X5 and X8 _ Rheonics Support.pdf"
+    },
+    {
+      "page_summary": "This page provides installation guidance for Rheonics sensors in pigging systems and details on how to order a Rheonics Retractable Probe by specifying various features.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics RPA",
+        "Rheonics SRD",
+        "Rheonics SRV",
+        "Rheonics Retractable Probe",
+        "Rheonics - Inline Viscosity and Density meter"
+      ],
+      "extracted_text": "7. Installation examples\nA common installation for the Rheonics RPA is in a line that has a pigging cleaning system. For this case, the sensor probe needs to be removed from the pipe to avoid an impact between the pigging head and the sensor probe. This is easily achieved by using the Rheonics RPA for both the process density and viscosity meter SRD as well as the process viscometer SRV.\nRheonics - Inline Viscosity and Density meter - Retractable\nrheonics\nWatch on\n\n8. How to order the Rheonics Retractable Probe?\n[Diagram with ordering code segments RPA, SRD, SS, Cert., D1, DCAL1, V1, STD, E1, C1~C9, T1, P1, XW-AYYY, CAB05, corresponding to options A-N below]\nA: Retractable Probe Assembly\nB: Sensor Type (SRV or SRD)\nC: Wetted Material\nD: Certifications (Optional)\nE: Density Range (Only for SRD version)\nF: Density Calibration (Only for SRD version)\nG: Viscosity Range\nH: Viscosity Calibration\nI: Electronics Variant\nJ: Communication Protocols\nK: Temperature Rating\nL: Pressure Rating\nM: Variant Design (See options below)\n  * XW: Select between X5 and X8 Variant\n  * AYYY: Insertion length required (Consider the Standpipe length and the immersion required)\nN: Cable variant and Length",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics RPA sensor probes must be removed from the pipe in systems using pigging cleaning to prevent impact damage from the pigging head.",
+        "The Rheonics RPA can be used for both process density and viscosity measurements (SRD) and solely for viscosity measurements (SRV).",
+        "The ordering process for the Rheonics Retractable Probe involves specifying various parameters categorized from A to N.",
+        "Density Range (E) and Density Calibration (F) options are exclusively for the SRD version of the sensor.",
+        "Variant Design (M) includes choosing between X5 and X8 variants and specifying the required insertion length, accounting for standpipe length and immersion."
+      ],
+      "diagram_labels": [
+        "RPA",
+        "SRD",
+        "SS",
+        "Cert.",
+        "D1",
+        "DCAL1",
+        "V1",
+        "STD",
+        "E1",
+        "C1~C9",
+        "T1",
+        "P1",
+        "XW-AYYY",
+        "CAB05",
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N"
+      ],
+      "warnings_notes": [
+        "For installations with a pigging cleaning system, the sensor probe needs to be removed from the pipe to avoid an impact between the pigging head and the sensor probe."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 825,
+        "cost_usd": 0.0022023
+      },
+      "source_file": "Retractable Density Meter and Viscometer - Type SR-X5 and X8 _ Rheonics Support.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

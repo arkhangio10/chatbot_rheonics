@@ -1,0 +1,226 @@
+{
+  "source_file": "096_PROFINET_fundamentals.pdf",
+  "total_pages": 7,
+  "chunks": [
+    {
+      "page_summary": "This page provides a foundational overview of PROFINET, detailing its definition as an industrial Ethernet system and outlining its key technical characteristics and benefits.",
+      "document_type": "whitepaper",
+      "product_names": [],
+      "extracted_text": "Phone: +1 713 234 0863\n\nPROFINET fundamentals\nModified on: Tue, 26 Nov, 2024 at 6:19 PM\n\n1. What is PROFINET?\n\nPROFINET is an open industrial Ethernet system based on international standards and part of IEC 61158 / IEC 61784-2, which defines what the signal looks like on the wire and what the medium accessing the wire has to do, it also uses industrial Ethernet as the physical layer (defined by IEEE802.3). It is a real-time communication protocol, meaning that devices can exchange data in real time with minimal delays. It is also a deterministic protocol, meaning that data is exchanged with predictable latency.\n\nUsing PROFINET, components can communicate cyclically or acyclically, and exchange diagnostics, safety functions, alarms, and additional information. As a communication medium, PROFINET uses Ethernet to link all of those components. PROFINET components can be connected within a network alongside other Ethernet protocols such as OPC UA, SNMP, MQTT, or HTTP, which can be used to complement PROFINET.\n\n2. What are the characteristics of PROFINET?\n\nPROFINET offers several benefits over traditional fieldbus systems, including faster communication speeds, higher bandwidth, and increased flexibility. It also allows remote diagnostics and maintenance, which can reduce downtime and increase productivity.\n\n*   Savings in wiring and installation costs by using distributed IO mechanisms\n*   Physical layer: copper, fiber optics, or wireless\n*   100 Mbps, full duplex\n*   Flexible topology (Line, tree, star, and ring)\n*   High bandwidth\n*   Large message size\n*   Extensive address space\n\nAllows coexistence with other Ethernet protocols",
+      "specifications": {
+        "communication_speed": "100 Mbps"
+      },
+      "key_facts": [
+        "PROFINET is an open industrial Ethernet system based on international standards and part of IEC 61158 / IEC 61784-2.",
+        "PROFINET uses industrial Ethernet as its physical layer, defined by IEEE802.3.",
+        "It is a real-time communication protocol that enables devices to exchange data with minimal delays.",
+        "PROFINET is a deterministic protocol, ensuring data exchange with predictable latency.",
+        "Components using PROFINET can communicate cyclically or acyclically, exchanging diagnostics, safety functions, alarms, and other information.",
+        "PROFINET utilizes Ethernet to connect its components and can coexist with other Ethernet protocols like OPC UA, SNMP, MQTT, or HTTP.",
+        "PROFINET offers advantages over traditional fieldbus systems, including faster communication speeds, higher bandwidth, and increased flexibility.",
+        "The system supports remote diagnostics and maintenance, leading to reduced downtime and increased productivity.",
+        "Key characteristics include savings in wiring/installation costs, support for copper, fiber optics, or wireless physical layers, 100 Mbps full duplex communication, flexible topologies (Line, tree, star, ring), high bandwidth, large message size, and an extensive address space."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 785,
+        "cost_usd": 0.0021022999999999997
+      },
+      "source_file": "096_PROFINET_fundamentals.pdf"
+    },
+    {
+      "page_summary": "This page describes PROFINET as a full-duplex communication system, its supported data rate, and recommendations for compatible Ethernet cable options.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Sensors"
+      ],
+      "extracted_text": "PROFI\nNET\nFigure 1. PROFINET connected devices\n3. What devices do I need to set up a PROFINET network?\n3.1. Is PROFINET Half-Duplex or Full-Duplex?\nPROFINET is a full-duplex system, which means that data can be transmitted in both directions at the same time (Controllers and IO devices can both assume consumer and provider roles, leveraging the full duplex nature of Ethernet). Rheonics Sensors with PROFINET protocol enabled will allow 100 Mbps, full duplex communication.\nFigure 2. Full-Duplex transmission\n3.2. Ethernet cable options\nRecommendations for Ethernet cables that will comply with the PROFINET protocol are the following:\n• Standard Ethernet cable options",
+      "specifications": {
+        "PROFINET communication speed": "100 Mbps"
+      },
+      "key_facts": [
+        "PROFINET is a full-duplex system, enabling data transmission in both directions simultaneously.",
+        "Controllers and IO devices in a PROFINET system can function as both consumers and providers.",
+        "Rheonics Sensors supporting PROFINET protocol are capable of 100 Mbps, full duplex communication.",
+        "Standard Ethernet cable options are recommended for compliance with the PROFINET protocol."
+      ],
+      "diagram_labels": [
+        "PROFINET",
+        "Figure 1. PROFINET connected devices",
+        "Figure 2. Full-Duplex transmission"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 419,
+        "cost_usd": 0.0011873
+      },
+      "source_file": "096_PROFINET_fundamentals.pdf"
+    },
+    {
+      "page_summary": "This page illustrates a CableGeeker flat Ethernet cable, highlighting its CAT.6 specification and suitability for rugged industrial environments.",
+      "document_type": "datasheet",
+      "product_names": [
+        "CableGeeker Flat Ethernet cable",
+        "Industrial Ethernet cable"
+      ],
+      "extracted_text": "CableGeeker CAT.6 ETHERNET CABLE RoHS\nCableGeeker CAT.6 ETHERNET\n\nFigure 4. Flat Ethernet cable\n• Industrial Ethernet cable: Ruggedized Ethernet cables, built for the factory floor",
+      "specifications": {
+        "Category": "CAT.6"
+      },
+      "key_facts": [
+        "The cable is a flat Ethernet cable.",
+        "The cable is branded as CableGeeker.",
+        "The cable supports CAT.6 Ethernet standards.",
+        "The cable is compliant with RoHS.",
+        "The cable is a ruggedized industrial Ethernet type.",
+        "The cable is designed for use on a factory floor."
+      ],
+      "diagram_labels": [
+        "Figure 4. Flat Ethernet cable"
+      ],
+      "warnings_notes": [
+        "RoHS compliant"
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 283,
+        "cost_usd": 0.0008473
+      },
+      "source_file": "096_PROFINET_fundamentals.pdf"
+    },
+    {
+      "page_summary": "This page displays an image of two ruggedized Ethernet cable connectors with protective caps and provides descriptive information about PROFINET and Industrial Ethernet cables.",
+      "document_type": "manual",
+      "product_names": [
+        "Ruggedized ethernet cable",
+        "PROFINET cables",
+        "Industrial Ethernet cables",
+        "EGSXM219U90 RJ-JACK PCMB"
+      ],
+      "extracted_text": "Figure 5. Ruggedized ethernet cable [2]\n\nPROFINET cables: Industrial Ethernet cables that often come with a green jacket, and comply with ruggedized specifications that have been standardized by PI.",
+      "specifications": {},
+      "key_facts": [
+        "The page features ruggedized ethernet cables.",
+        "PROFINET cables are a type of Industrial Ethernet cable.",
+        "PROFINET cables often come with a green jacket.",
+        "PROFINET cables comply with ruggedized specifications.",
+        "The ruggedized specifications for PROFINET cables have been standardized by PI."
+      ],
+      "diagram_labels": [
+        "Figure 5. Ruggedized ethernet cable [2]",
+        "EGSXM219U90",
+        "RJ-JACK PCMB",
+        "CAGE-333-LB",
+        "090709.com"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 328,
+        "cost_usd": 0.0009598
+      },
+      "source_file": "096_PROFINET_fundamentals.pdf"
+    },
+    {
+      "page_summary": "This page provides information on PROFINET ethernet cables and compatibility requirements for switches when used with Rheonics devices.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics devices"
+      ],
+      "extracted_text": "Figure 6. PROFINET ethernet cable[3]\n\n*   Ethernet cables with cat 5, 5e, Cat 6, 6a, or Cat 7 cables, would meet the requirements based on the achievable speed of 100Mbps in 100 meters but specifications must be verified by the integrator.\n\n3.3. Switches\n\nThe switches that should be used together with Rheonics devices should meet the minimum requirements of 100 Mbps and be capable of going full duplex.\n\nWhen looking for a switch that is PROFINET compatible, the following options are the most commonly used, it is up to the user to decide which is the best for their application:",
+      "specifications": {
+        "ethernet_cable_categories": "Cat 5, 5e, Cat 6, 6a, Cat 7",
+        "achievable_speed": "100 Mbps",
+        "maximum_cable_length": "100 meters",
+        "switch_minimum_speed": "100 Mbps",
+        "switch_duplex_mode": "full duplex"
+      },
+      "key_facts": [
+        "Ethernet cables of categories Cat 5, 5e, Cat 6, 6a, or Cat 7 can achieve a speed of 100 Mbps over 100 meters for PROFINET applications.",
+        "Switches used with Rheonics devices must meet a minimum speed of 100 Mbps and support full duplex operation.",
+        "Users are responsible for selecting the best PROFINET compatible switch for their specific application."
+      ],
+      "diagram_labels": [
+        "Figure 6. PROFINET ethernet cable[3]"
+      ],
+      "warnings_notes": [
+        "Specifications of ethernet cables must be verified by the integrator.",
+        "It is up to the user to decide which PROFINET compatible switch is the best for their application."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 510,
+        "cost_usd": 0.0014148000000000001
+      },
+      "source_file": "096_PROFINET_fundamentals.pdf"
+    },
+    {
+      "page_num": 6,
+      "page_summary": "Extraction failed",
+      "document_type": "unknown",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "extraction_failed": true,
+      "source_file": "096_PROFINET_fundamentals.pdf"
+    },
+    {
+      "page_summary": "This page explains how Rheonics supports PROFINEt integration and development, highlighting its membership in PROFIBUS and PROFINET International, available resources, and references to related products and guides.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "Rheonics PROFINET instruments",
+        "TIA portal",
+        "Codesys",
+        "PROFINET-compatible systems",
+        "PROFINET-compatible sensors",
+        "IP68 Ruggedized Cat6 Cable, Plug to Jack, E-Nickel Finish 24AWG STR CM/CMX FR-TPE BLK w/ Dust Caps",
+        "NBC-M12MSD/ 5,0-93B/R4AC - Cable de red - 1407501",
+        "Phoenix Contact"
+      ],
+      "extracted_text": "to order the PROFINET communication protocol can be found in this support article: Getting Started With Profinet and Rheonics Devices (https://support.rheonics.com/en/support/solutions/articles/81000410679-getting-started-with-profinet-and-rheonics-devices)\n\nThe Rheonics PROFINET instruments offer many different modules and parameters. To access these parameters, programming tools like TIA portal or Codesys can be used.\n\n6. How does Rheonics support PROFINET integration and development?\n\nThe PROFIBUS and PROFINET International (PI) association is one of the largest automation organizations in the world and is responsible for PROFIBUS and PROFINET, the two important automation technologies.\n\nPI's main goals include the continuous development of PROFIBUS and PROFINET technology, know-how transfer, and investment protection.\n\nRheonics is a member of PI association as a vendor of hardware, software, and PROFINET-compatible systems. Check our membership at this link: Members (https://www.profibus.com/pi-organization/members?tx_solr%5Bq%5D=rheonics#tx_solr-results)\n\nRheonics provides detailed user manuals and technical support for integration. Our PROFINET-compatible sensors can be easily integrated into PROFINET networks thanks to all the guidelines and steps provided in our support portal. In addition, our experienced engineering team can assist with installation and configuration to ensure successful integration into your PROFINET network in a timely manner. Visit our Support portal for more information on PROFINET Protocol: Profinet (https://support.rheonics.com/en/support/solutions/folders/81000292663)\n\nReferences:\n\nM IP68 Ruggedized Cat6 Cable, Plug to Jack, E-Nickel Finish 24AWG STR CM/CMX FR-TPE BLK w/ Dust Caps, 0.5M (https://www.milestek.com/ip68-ruggedized-cat6-cable-plug-to-jack-e-nickel-finish-24awg-str-cm-cmx-fr-tpe-blk-w-dust-caps-0-5m) [2]\n\nNBC-M12MSD/ 5,0-93B/R4AC - Cable de red - 1407501 | Phoenix Contact (https://www.phoenixcontact.com/es-cl/productos/cable-de-datos-confeccionado-nbc-msd-50-93br4ac-sco-1407501) [3]\n\nHow PROFINET Works? A Beginner's Guide (https://us.profinet.com/webinar/how-profinet-works-a-beginners-guide/) [4]\n\nDISCLAIMER\nPictures, photos and images used are for illustration purposes and do not constitute any warranty or assertions on suitability of use and should not be construed as an explicit or implicit recommendation or endorsement. All illustrations are given proper credit from our source of access and by their use here we do not specify or establish any copyright which belongs and stays unaffected with the existing copyright holder of that material.",
+      "specifications": {
+        "cable_length": "0.5M"
+      },
+      "key_facts": [
+        "Rheonics PROFINET instruments offer many different modules and parameters.",
+        "Programming tools such as TIA portal or Codesys can be used to access Rheonics PROFINET instrument parameters.",
+        "PROFIBUS and PROFINET International (PI) is a major global automation organization responsible for PROFIBUS and PROFINET technologies.",
+        "PI's goals include continuous development of PROFIBUS and PROFINET technology, know-how transfer, and investment protection.",
+        "Rheonics is a member of the PI association, recognized as a vendor of hardware, software, and PROFINET-compatible systems.",
+        "Rheonics provides detailed user manuals and technical support for PROFINET integration.",
+        "Rheonics' PROFINET-compatible sensors can be easily integrated into PROFINET networks using provided guidelines and steps.",
+        "Rheonics' experienced engineering team offers assistance with PROFINET network installation and configuration."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "DISCLAIMER: Pictures, photos and images used are for illustration purposes and do not constitute any warranty or assertions on suitability of use and should not be construed as an explicit or implicit recommendation or endorsement. All illustrations are given proper credit from our source of access and by their use here we do not specify or establish any copyright which belongs and stays unaffected with the existing copyright holder of that material."
+      ],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1267,
+        "cost_usd": 0.0033072999999999996
+      },
+      "source_file": "096_PROFINET_fundamentals.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": [
+      6
+    ]
+  }
+}

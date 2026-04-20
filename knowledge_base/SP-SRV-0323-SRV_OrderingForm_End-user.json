@@ -1,0 +1,147 @@
+{
+  "source_file": "SP-SRV-0323-SRV_OrderingForm_End-user.pdf",
+  "total_pages": 3,
+  "chunks": [
+    {
+      "page_summary": "This page is an ordering form for Rheonics SRV sensors, collecting customer details, application requirements, and sensor ordering specifications.",
+      "document_type": "ordering form",
+      "product_names": [
+        "Rheonics SRV",
+        "Rheonics Sensor"
+      ],
+      "extracted_text": "SP-SRV-0323\nOrdering Form | Rheonics – SRV\nrheoncs\nCustomer and Requirement Details (Final end-user)\nCompany Name\nContact Name\nAddress\nCity\nState/ Province/ Postcode\nCountry\nTelephone\nEmail\nWebsite\nIndustry of Operation:\n  - Printing and Coating\n  - Industrial Mixing and Grinding\n  - Food and Beverages\n  - Energy and Hydrocarbons\n  - Petrochemical\n  - Chemical\n  - Automotive\n  - Paper and Packaging\n  - Life Sciences and Medical\n  - Pumping and Pipeline\n  - Marine\n  - Mining, Minerals and Metals\n  - Investment casting\n  - Others, write in comments below\nApplication (for using the Rheonics Sensor)\nAdditional Comments:\n  Brief description about the application, any other requirements specific to the quote\n  - Process fluids viscosity and density range\n  - Operating conditions\n  - Process connection\nInstallation Documents:\n  List documents sent along with form\nRetrofit:\n  Specify the brand model and configuration of the sensor that is replaced\nSensor ordering options\nProduct Approvals:\n  Do you need EX-certified sensor?\n    - No, not needed\n    - ATEX\n    - IECEx\n  For ATEX certified, specify:\n    - Install location\n    - Language\nSensor Quantity:\n  How many do you need?\nPage 1 of 3",
+      "specifications": {},
+      "key_facts": [
+        "The document is an ordering form identified as SP-SRV-0323 for Rheonics SRV sensors.",
+        "It collects customer and requirement details from the final end-user, including contact information and industry of operation.",
+        "The form requests detailed application information for the Rheonics Sensor, covering process fluids viscosity and density range, operating conditions, and process connection.",
+        "Sections are included for specifying installation documents and details for replacing an existing sensor (retrofit).",
+        "Sensor ordering options include product approvals, specifically inquiring about the need for EX-certified sensors (ATEX or IECEx).",
+        "For ATEX certified sensors, the customer must specify the installation location and desired language.",
+        "The form also asks for the required quantity of sensors.",
+        "This document is 'Page 1 of 3'."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "The form includes a query about requiring an EX-certified sensor (ATEX or IECEx), indicating that compliance with hazardous area regulations is a critical consideration for sensor deployment."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 668,
+        "cost_usd": 0.0018098
+      },
+      "source_file": "SP-SRV-0323-SRV_OrderingForm_End-user.pdf"
+    },
+    {
+      "page_summary": "This page is an ordering form for Rheonics SRV viscometers and density sensors, detailing various configurable options for viscosity range, calibration, electronics, communication, temperature, pressure, process connections, sensor cables, and accessories.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRV",
+        "EX-SRV",
+        "SME-TRD",
+        "SME-TR",
+        "SME-DRM",
+        "EZB-03X",
+        "HPT-G12",
+        "HPT-SRX",
+        "IFC-15T",
+        "IFC-34N"
+      ],
+      "extracted_text": "SP-SRV-0323\nOrdering Form | Rheonics – SRV\nRheonics\n\nOrder Code\nName\nShort description\n\nViscosity range (select one)\nWith EX-SRV, only the V1 option is available.\nV1: 3 - 3000 cP, Standard calibrated range\nV2: 3 - 50,000 cP, Extended calibrated range\nV3: 0.5 - 3000 cP, Extended lower calibrated range\nV4, specify: [ ] Custom, Customer specified calibration range\n\nViscosity Calibration (select one)\nSTD: Standard calibration\nCUS, specify: [ ] Customer specific calibrations - specify viscosity range and accuracy required\n\nElectronics (select one)\nE1: SME-TRD, Transmitter housing with display\nE2: SME-TR, Transmitter housing with solid cover\nE3: SME-DRM, DIN-rail mount housing\n\nCommunication (select all)\nRheonics electronics are pre-configured with the following communication options.\nC1: 4-20 mA, 3 channels of 4-20 mA analog signal\nC2: Modbus RTU, Modbus RTU over RS-485\nC3: USB, USB 2.0 compliant service and data acquisition port\n\nAdditional FiledBus communication options:\nC4: Ethernet, Ethernet over RJ45 connector\nC6: Modbus TCP, Modbus TCP over Ethernet\nC7: Ethernet/IP, Ethernet/IP protocol\nC8: HART, HART over analog channels\nC9: Profinet, Profinet protocol\n\nOnly available with the display module (E1) is selected.\nC5: Bluetooth LE 4.0, Bluetooth module for short range wireless communication\n\nTemperature (select one)\nWith EX-SRV, the T4 option below is not available and T3 is only up to 185°C\nT1: 125 °C (250 °F), Sensor rated for operation in process fluids up to 125 °C (250 °F)\nT2: 150 °C (300 °F), Sensor rated for operation in process fluids up to 150 °C (300 °F)\nT3: 200 °C (400 °F), Sensor rated for operation in process fluids up to 200 °C (400 °F)\nT4, specify: [ ] Max. operating temp., Specify your required maximum temperature\n\nPressure (select one)\nP1: 15 bar (200 psi), Sensor rated for process fluids pressure up to 15 bar (200 psi)\nP2: 70 bar (1000 psi), Sensor rated for process fluids pressure up to 70 bar (1000 psi)\nP3: 200 bar (3000 psi), Sensor rated for process fluids pressure up to 200 bar (3000 psi)\nP4: 350 bar (5000 psi), Sensor rated for process fluids pressure up to 350 bar (5000 psi)\nP5: 500 bar (7500 psi), Sensor rated for process fluids pressure up to 500 bar (7500 psi)\n\nProcess Connection (select one)\nX1: ¾\" NPT or G ½\", Threaded, Threaded process connection\nX2: EHEDG certified version, Flange, Flange adapter, specify DN: [ ] PN: [ ]\nX3: EHEDG certified version, Tri-clamp, Tri-Clamp flange, specify size: [ ]\nX4: EHEDG certified version, Hygienic, Specify Hygienic connection required: [ ]\nX5: EHEDG certified version, FPC version, Long insertion probe, specify: Insertion length (A): [ ] mm, Process connection (B): Norm: [ ] Size: [ ]\n\nSensor Cable (select one)\n5m (15ft): Cable for connecting sensor to transmitter\n10m (30ft): Cable for connecting sensor to transmitter\n30m (90ft): Cable for connecting sensor to transmitter\nCustom: Specify size [ ]\n\nAccessories (Check online at https://rheonics.com/product-accessories/ for full list of accessories available)\nEZB-03X: Barriers for EX sensor (automatically added for EX sensor)\nHPT-G12: Hygienic inline flow with G1/2\" sensor and process connection\nHPT-SRX: HP flow cell for SRV rated up to 10,000 psi\nIFC-15T: Inline adapter for 1.5\" Tri Clamp sensor\nIFC-34N: Inline adapter for ¾\" NPT sensor\n\nPage 2 of 3",
+      "specifications": {
+        "Viscosity range V1": "3 - 3000 cP",
+        "Viscosity range V2": "3 - 50000 cP",
+        "Viscosity range V3": "0.5 - 3000 cP",
+        "Temperature T1": "125 °C (250 °F)",
+        "Temperature T2": "150 °C (300 °F)",
+        "Temperature T3": "200 °C (400 °F)",
+        "Pressure P1": "15 bar (200 psi)",
+        "Pressure P2": "70 bar (1000 psi)",
+        "Pressure P3": "200 bar (3000 psi)",
+        "Pressure P4": "350 bar (5000 psi)",
+        "Pressure P5": "500 bar (7500 psi)",
+        "Sensor cable length 1": "5m (15ft)",
+        "Sensor cable length 2": "10m (30ft)",
+        "Sensor cable length 3": "30m (90ft)",
+        "HPT-SRX Pressure rating": "10,000 psi"
+      },
+      "key_facts": [
+        "The document is an ordering form for Rheonics SRV products, identified by the document number SP-SRV-0323.",
+        "Rheonics offers standard, extended, and custom viscosity calibration ranges.",
+        "Standard communication options include 4-20 mA analog signal (3 channels), Modbus RTU over RS-485, and USB 2.0 compliant service and data acquisition.",
+        "Additional FieldBus communication options include Ethernet, Modbus TCP, Ethernet/IP, HART, and Profinet.",
+        "Sensor cable lengths of 5m, 10m, and 30m are available, with an option for custom sizing.",
+        "A full list of accessories can be found online at https://rheonics.com/product-accessories/."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "With EX-SRV, only the V1 viscosity range option (3 - 3000 cP) is available.",
+        "The Bluetooth LE 4.0 communication option (C5) is only available when the display module (E1) is selected.",
+        "With EX-SRV, the T4 temperature option is not available, and the T3 option is limited to 185°C.",
+        "Barriers for EX sensor (EZB-03X) are automatically added for EX sensor configurations."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1895,
+        "cost_usd": 0.0048773
+      },
+      "source_file": "SP-SRV-0323-SRV_OrderingForm_End-user.pdf"
+    },
+    {
+      "page_summary": "This page is an ordering form (SP-SRV-0323) from Rheonics, listing various accessories and components for SRV viscometers and density sensors, including protective shields, calibration tools, mounting brackets, and weldolets, along with instructions for installation feedback.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRV",
+        "IMS-SR",
+        "SCC-SRX",
+        "SCS-00A",
+        "SFP-SRX",
+        "SPS-SRX",
+        "SR-34N-PS",
+        "SR-M12-CP",
+        "STCM-STD",
+        "SRD",
+        "TMA-34N",
+        "TMB-TRX",
+        "E1 transmitter housings",
+        "E2 transmitter housings",
+        "THX-SS",
+        "WOL-34NS",
+        "WOL-34NL"
+      ],
+      "extracted_text": "SP-SRV-0323\nOrdering Form | Rheonics – SRV\nrheonics\n\nIMS-SR: Impact shield for sensor probe\nSCC-SRX: Calibration cylinder\nSCS-00A: Calibration stand\nSFP-SRX: FPC protective sleeve\nSPS-SRX: Protective sleeve for sensor\nSR-34N-PS: Protective sleeve for ¾” NPT sensor when not in operation\nSR-M12-CP: Protective cap for M12 connector when not in operation\nSTCM-STD: SRV & SRD thermal control module\nTMA-34N: Tank mount adapter\nTMB-TRX: Mounting bracket for E1 & E2 transmitter housings\nTHX-SS: Stainless Steel transmitter housing\nWOL-34NS: ¾” NPT sensor weldolet for 2” pipes\nWOL-34NL: ¾” NPT sensor weldolet for pipes bigger than 2” and tanks\n\nAdditional Configuration Request\n\nSend photos, P&ID, drawing, model of the expected installation to get feedback from our Support Team, include a description in the document sent or in the box below.\n\nPage 3 of 3",
+      "specifications": {
+        "NPT_weldolet_size": "¾” NPT",
+        "WOL-34NS_pipe_diameter": "2”",
+        "WOL-34NL_pipe_diameter": "bigger than 2”"
+      },
+      "key_facts": [
+        "This document is identified as Ordering Form SP-SRV-0323.",
+        "It is the third and final page of the document.",
+        "The form provides a list of accessories and components for Rheonics SRV products.",
+        "Customers are advised to send photos, P&ID, drawings, or models of the expected installation to the Rheonics Support Team for feedback.",
+        "Any description regarding the additional configuration request should be included with the sent documents or in the provided text box."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "The SR-34N-PS protective sleeve is intended for a ¾” NPT sensor specifically when it is not in operation.",
+        "The SR-M12-CP protective cap is designed for an M12 connector when it is not in operation."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 794,
+        "cost_usd": 0.0021247999999999996
+      },
+      "source_file": "SP-SRV-0323-SRV_OrderingForm_End-user.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

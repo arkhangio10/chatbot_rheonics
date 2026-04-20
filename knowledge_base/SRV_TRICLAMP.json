@@ -1,0 +1,78 @@
+{
+  "source_file": "SRV_TRICLAMP.pdf",
+  "total_pages": 1,
+  "chunks": [
+    {
+      "page_summary": "This page details the variable dimensions and specifications for the Rheonics SRV Tri-Clamp product, including a dimensioned technical drawing and company contact information.",
+      "document_type": "drawing",
+      "product_names": [
+        "SRV Tri-Clamp"
+      ],
+      "extracted_text": "Variable dimensions:\n\nB: Flange/adapter:\nTri-Clamp adapters are compatible with all standardss (ISO/DIN/ASME)\nStandard Tri-Clamp is D=50.5mm [1.5\"]\nOther options:\nD=64mm\nD=77.5mm\nD=91mm\nD=106mm\n\nUnits: mm\n[inch]\n\nSRV Tri-Clamp\n\nThis drawing remains property of rheonics. It may be neither copied nor informed to third persons or competitors without our approval. ( 2 paragraph 1 fig.7 copyright act of 9th Sept. 1965)\n\nProtected by US and International patents granted and pending\nrheonics • Switzerland • USA • www.rheonics.com • info@rheonics.com • +41 52 511 32 00 • +1 713 364 5427\n\nrheonics\ninline process\ndensity and viscosity\nmonitoring",
+      "specifications": {
+        "Tri-Clamp adapter compatibility": "ISO/DIN/ASME",
+        "Standard Tri-Clamp diameter (text)": "50.5 mm [1.5 inches]",
+        "Optional Tri-Clamp diameter 1": "64 mm",
+        "Optional Tri-Clamp diameter 2": "77.5 mm",
+        "Optional Tri-Clamp diameter 3": "91 mm",
+        "Optional Tri-Clamp diameter 4": "106 mm",
+        "Overall top diameter (diagram)": "50.5 mm [1.99 inches]",
+        "Main body diameter (diagram)": "30 mm [1.18 inches]",
+        "Shaft diameter (diagram)": "26 mm [1.02 inches]",
+        "Sensor tip diameter (diagram)": "8 mm [0.31 inches]",
+        "Overall immersion length (diagram)": "79.7 mm [3.14 inches]",
+        "Immersion length to shoulder (diagram)": "55.7 mm [2.19 inches]",
+        "Immersion length to sensor base (diagram)": "45.7 mm [1.80 inches]",
+        "Rheonics Switzerland Phone": "+41 52 511 32 00",
+        "Rheonics USA Phone": "+1 713 364 5427",
+        "Rheonics Website": "www.rheonics.com",
+        "Rheonics Email": "info@rheonics.com"
+      },
+      "key_facts": [
+        "The SRV Tri-Clamp product offers variable dimensions for its flange/adapter, suitable for different process connections.",
+        "Tri-Clamp adapters are compatible with international standards, including ISO, DIN, and ASME.",
+        "The standard Tri-Clamp diameter is D=50.5mm; however, there is a discrepancy between the textual specification of 1.5 inches and the diagrammatic label of 1.99 inches for this diameter.",
+        "Optional Tri-Clamp diameters available include 64mm, 77.5mm, 91mm, and 106mm.",
+        "The document provides detailed dimensional specifications for the SRV Tri-Clamp sensor, outlining various diameters and immersion lengths in both millimeters and inches.",
+        "Rheonics specializes in inline process density and viscosity monitoring solutions.",
+        "The technical drawing is the proprietary property of Rheonics and is protected by granted and pending US and International patents.",
+        "Contact information for Rheonics, including website, email, and phone numbers for Switzerland and the USA, is provided."
+      ],
+      "diagram_labels": [
+        "50,5",
+        "D= [ 1.99 ]",
+        "30",
+        "ø [ 1.18 ]",
+        "26",
+        "ø [ 1.02 ]",
+        "8",
+        "ø [ 0.31 ]",
+        "45,7",
+        "[ 1.80 ]",
+        "55,7",
+        "[ 2.19 ]",
+        "79,7",
+        "[ 3.14 ]",
+        "mm",
+        "[inch]"
+      ],
+      "warnings_notes": [
+        "This drawing remains property of rheonics. It may be neither copied nor informed to third persons or competitors without our approval. ( 2 paragraph 1 fig.7 copyright act of 9th Sept. 1965)",
+        "Protected by US and International patents granted and pending"
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1131,
+        "cost_usd": 0.0029673
+      },
+      "source_file": "SRV_TRICLAMP.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

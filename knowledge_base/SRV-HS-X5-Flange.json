@@ -1,0 +1,66 @@
+{
+  "source_file": "SRV-HS-X5-Flange.pdf",
+  "total_pages": 1,
+  "chunks": [
+    {
+      "page_summary": "This page provides a technical drawing and specifications for the Rheonics SRV-HS-X5 Hygienic Long Probe SRV, detailing its dimensions, pressure rating, material, and hygienic certification options.",
+      "document_type": "technical drawing",
+      "product_names": [
+        "SRV-HS-X5",
+        "Hygienic Long Probe SRV"
+      ],
+      "extracted_text": "Rheonics SRV-HS-X5\nMax. Pressure 100 bar (1500 psi)\nMaterial 316\nOrder Code SRV-HS-X5-Axxx-Byyy\nHygienic Certificate Options 3-A, EHEDG\n\nB: Custom Flange/Adapter\n\nA: Insertion length min. 80 mm [3.15]\n46 ±1 [1.80 ±0.04]\n\nφ 42 [1.65]\nφ 30 [1.18]\nφ 14 [0.55]\nφ 5 [0.20]\nφ 8 [0.31]\n\nHygienic certification for certain flanges or process connections\n\nUnits: mm [inch]\n\nSRV-HS-X5\nHygienic Long Probe SRV\n\nProtected by US and International patents granted and pending\n\nThis drawing remains property of rheonics. It may be neither copied nor informed to third persons or competitors without our approval. ( 2 paragraph 1 fig.7 copyright act of 9th Sept. 1965)\n\nrheonics\ninline process\ndensity and viscosity\nmonitoring\n\nrheonics • Switzerland • USA • www.rheonics.com • info@rheonics.com +41 52 511 32 00 +1 713 364 5427\nRelease: 2402",
+      "specifications": {
+        "Max. Pressure": "100 bar (1500 psi)",
+        "Material": "316",
+        "Order Code": "SRV-HS-X5-Axxx-Byyy",
+        "Hygienic Certificate Options": "3-A, EHEDG",
+        "Minimum Insertion Length": "80 mm [3.15 inch]",
+        "Length from flange face to first step": "46 ±1 mm [1.80 ±0.04 inch]",
+        "Diameter 1 (top section)": "42 mm [1.65 inch]",
+        "Diameter 2": "30 mm [1.18 inch]",
+        "Diameter 3": "14 mm [0.55 inch]",
+        "Diameter 4 (probe tip shaft)": "5 mm [0.20 inch]",
+        "Diameter 5 (probe tip end)": "8 mm [0.31 inch]"
+      },
+      "key_facts": [
+        "The document provides detailed dimensional information for the Rheonics SRV-HS-X5 Hygienic Long Probe SRV.",
+        "The maximum operating pressure for the device is 100 bar (1500 psi).",
+        "The probe is constructed from 316 stainless steel.",
+        "The product supports 3-A and EHEDG hygienic certification options.",
+        "Hygienic certification is available for specific flanges or process connections.",
+        "The probe has a minimum insertion length of 80 mm (3.15 inches).",
+        "Rheonics specializes in inline process density and viscosity monitoring.",
+        "The product is protected by granted and pending US and International patents.",
+        "The document was released in 2402."
+      ],
+      "diagram_labels": [
+        "A: Insertion length min. 80 mm [3.15]",
+        "B: Custom Flange/Adapter",
+        "φ 42 [1.65]",
+        "φ 30 [1.18]",
+        "φ 14 [0.55]",
+        "φ 5 [0.20]",
+        "φ 8 [0.31]",
+        "46 ±1 [1.80 ±0.04]"
+      ],
+      "warnings_notes": [
+        "This drawing remains property of rheonics. It may be neither copied nor informed to third persons or competitors without our approval. ( 2 paragraph 1 fig.7 copyright act of 9th Sept. 1965)",
+        "Protected by US and International patents granted and pending"
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1065,
+        "cost_usd": 0.0028022999999999998
+      },
+      "source_file": "SRV-HS-X5-Flange.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

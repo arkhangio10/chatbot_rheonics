@@ -1,0 +1,165 @@
+{
+  "source_file": "046_USB_Connection_to_the_Transmitter.pdf",
+  "total_pages": 3,
+  "chunks": [
+    {
+      "page_summary": "This page provides instructions and visual guidance for connecting a USB cable to a Rheonics SME-TH transmitter unit using a USB adapter board.",
+      "document_type": "manual",
+      "product_names": [
+        "SME-TH",
+        "Transmitter",
+        "USB adapter board"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nUSB Connection to the Transmitter\nModified on: Fri, 3 Jul, 2020 at 5:26 PM\nIf you have ordered the USB connection then you will receive the unit with a USB adapter board as shown in picture below.\nTo connect the USB cable, take off the green USB connector carefully and insert the USB cable through the hole in the transmitter. (see in the picture below)\nThen connect the green USB connector to the USB cable as shown below.",
+      "specifications": {
+        "phone_number": "+1 713 234 0863",
+        "modification_date": "Fri, 3 Jul, 2020",
+        "modification_time": "5:26 PM",
+        "output_current": "4-20 mA",
+        "power_supply": "24V dc"
+      },
+      "key_facts": [
+        "The unit comes with a USB adapter board if the USB connection is ordered.",
+        "To connect the USB cable, the green USB connector must first be carefully removed.",
+        "The USB cable should be inserted through a designated hole in the transmitter.",
+        "The green USB connector is then reconnected to the USB cable."
+      ],
+      "diagram_labels": [
+        "display",
+        "SD-card",
+        "usb",
+        "ethernet",
+        "rheonics",
+        "SME-TH",
+        "4-20 mA output",
+        "sensor connection",
+        "24V dc",
+        "gnd",
+        "modbus (RS485)",
+        "RS232",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "+",
+        "-",
+        "B",
+        "A",
+        "P",
+        "S",
+        "C",
+        "D",
+        "USB"
+      ],
+      "warnings_notes": [
+        "Take off the green USB connector carefully."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 570,
+        "cost_usd": 0.0015648
+      },
+      "source_file": "046_USB_Connection_to_the_Transmitter.pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions and visual guides for connecting a USB cable to a Rheonics transmitter for programming and initial setup.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics",
+        "SME-EH"
+      ],
+      "extracted_text": "Then place the USB connector in the USB connection in the transmitter as shown below.\nConnect the other side of the USB cable to the computer USB port. You can now complete the other connections and connect the display module, close the transmitter and it is ready to use.\nIf you need USB connection just to connect for programming (set 4-20mA channel range, etc.) but don't need it to be connected during the sensor operation, then the easier option is to take out the display and connect the USB cable (micro-USB end) directly in the micro-USB connector in the transmitter as shown below.",
+      "specifications": {
+        "output_signal_type": "4-20mA (channel range configurable)",
+        "power_input": "24V dc"
+      },
+      "key_facts": [
+        "A USB connector is used to establish a connection with the transmitter.",
+        "The USB connection facilitates programming tasks, such as setting the 4-20mA channel range.",
+        "The USB connection is primarily for programming and does not need to remain connected during normal sensor operation.",
+        "The micro-USB end of the USB cable should be connected directly to the micro-USB connector within the transmitter.",
+        "After USB connection, other connections can be completed, the display module connected, and the transmitter closed for use.",
+        "The transmitter includes an SD-card slot, ethernet port, Modbus (RS485) interface, and connections for a display and sensor."
+      ],
+      "diagram_labels": [
+        "display",
+        "usb",
+        "SD-card",
+        "reset",
+        "ethernet",
+        "modbus (RS485)",
+        "gnd",
+        "24V dc",
+        "4-20mA output",
+        "sensor connection",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "rheonics",
+        "SME-EH",
+        "Batch No:"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 561,
+        "cost_usd": 0.0015423
+      },
+      "source_file": "046_USB_Connection_to_the_Transmitter.pdf"
+    },
+    {
+      "page_summary": "This page displays an internal view of a Rheonics control module with various connections and provides an instruction regarding the display module connectivity during and after programming.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "display\nSD card\n4-20 mA output\n1 2 3 4 5 6 7 8\nSensor connection\nethernet\nRS232 / RS485\n4-20 mA\nPower input\nRheonics\nSAD 00\nThe display module will not connect in this mode. After you are finished programming the unit, you can take out the USB cable and connect the display module as mentioned before in this document.",
+      "specifications": {},
+      "key_facts": [
+        "The display module will not connect while the unit is in programming mode.",
+        "The USB cable must be removed after programming the unit.",
+        "The display module should be connected after programming is complete, as instructed elsewhere in the document."
+      ],
+      "diagram_labels": [
+        "P1",
+        "display",
+        "SD card",
+        "4-20 mA output",
+        "1 2 3 4 5 6 7 8",
+        "Sensor connection",
+        "ethernet",
+        "RS232 / RS485",
+        "4-20 mA",
+        "Power input",
+        "Rheonics",
+        "SAD 00"
+      ],
+      "warnings_notes": [
+        "The display module will not connect in this mode (implying a specific operational mode, likely programming via USB)."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 399,
+        "cost_usd": 0.0011373
+      },
+      "source_file": "046_USB_Connection_to_the_Transmitter.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "source_file": "068_Modbus_TCPIP_Troubleshooting_Guide.pdf",
+  "total_pages": 4,
+  "chunks": [
+    {
+      "page_summary": "This page provides a troubleshooting guide for Modbus TCP/IP communication issues with Rheonics inline viscometers and density sensors, outlining steps to verify network settings using ping tests.",
+      "document_type": "manual",
+      "product_names": [
+        "Inline Viscometers",
+        "Density-Viscosity Meters",
+        "Rheonics SME",
+        "Rheonics Viscometer",
+        "Rheonics Sensor"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nModbus TCP/IP Troubleshooting Guide\nModified on: Thu, 16 Jan, 2025 at 11:48 PM\n\n1. Overview\nThis article provides a comprehensive approach to troubleshooting Modbus TCP/IP communication issues, specifically for engineers and technicians working with Rheonics Inline Viscometers (https://rheonics.com/products/inline-viscometer-srv/) and Density-Viscosity Meters (https://rheonics.com/products/inline-density-meter-srd/). Rheonics sensors support out-of-the-box Modbus TCP/IP communication, ensuring seamless integration into customer processes.\n\n2. Network Settings\n* Make sure you can ping the Rheonics SME (https://rheonics.com/electronics-and-communication/). On Windows, open the command prompt and use the ping command to test the connectivity between the PC and Rheonics Viscometer (as shown on Figure 1).\n\nC:\\Users\\______>ping 192.168.3.6\nPinging 192.168.3.6 with 32 bytes of data:\nReply from 192.168.3.6: bytes=32 time=1ms TTL=64\nReply from 192.168.3.6: bytes=32 time=1ms TTL=64\nReply from 192.168.3.6: bytes=32 time=1ms TTL=64\nReply from 192.168.3.6: bytes=32 time=1ms TTL=64\nPing statistics for 192.168.3.6:\nPackets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\nMinimum = 0ms, Maximum = 1ms, Average = 0ms\nC:\\Users\\______>\n\nFigure 1. Ping Command Success\n\nThere are two possible outcomes for a ping test:\n\n2.1 There is a response from IP Address\nIf there is a reply from the IP address, the network settings for both the PC and the Rheonics Sensor are configured correctly. Any issues with Modbus communication would not be caused by Ethernet or TCP/IP.\n\n2.2 There is no response from the IP Address\nIf there is no response from the IP address, follow these steps to troubleshoot:\n* Verify Network Settings on the PC (https://support.rheonics.com/en/support/solutions/articles/81000397449) : Ensure that the PC's network settings, such as IP address and subnet mask, are correctly configured.\n* Check the Rheonics Sensor's Network Settings (https://support.rheonics.com/en/support/solutions/articles/81000297177) : Use the Rheonics Control Panel (RCP) to confirm the sensor's IP address and network configuration.\n* Test with a Different Ethernet Cable: Replace the existing Ethernet cable with a known working cable or use a network cable tester (Figure 2) to rule out wiring issues.",
+      "specifications": {},
+      "key_facts": [
+        "This guide provides a comprehensive approach to troubleshooting Modbus TCP/IP communication issues for Rheonics Inline Viscometers and Density-Viscosity Meters.",
+        "Rheonics sensors support out-of-the-box Modbus TCP/IP communication.",
+        "A successful ping test between a PC and a Rheonics Viscometer indicates that network settings for both devices are configured correctly and that Modbus communication issues are not due to Ethernet or TCP/IP.",
+        "If a ping test yields no response, troubleshooting steps include verifying the PC's network settings (IP address, subnet mask), checking the Rheonics Sensor's network settings using the Rheonics Control Panel (RCP), and testing with an alternative Ethernet cable."
+      ],
+      "diagram_labels": [
+        "Figure 1. Ping Command Success"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1052,
+        "cost_usd": 0.0027697999999999998
+      },
+      "source_file": "068_Modbus_TCPIP_Troubleshooting_Guide.pdf"
+    },
+    {
+      "page_summary": "This page provides detailed instructions and troubleshooting for configuring Modbus settings, handling CRC errors, and utilizing Modbus debugging tools with Rheonics sensors.",
+      "document_type": "manual",
+      "product_names": [
+        "Modbus Poll",
+        "Rheonics ModbusPoll pre-configured files"
+      ],
+      "extracted_text": "Figure 2. Ethernet Cable Tester\n\n3. Modbus Settings\n\n3.1 Verify the Modbus TCP Port\n\n*   Ensure that the Modbus server is using the default port (502). Refer to the following article for details on factory settings: Connecting the Modbus TCP outputs (https://support.rheonics.com/support/solutions/articles/81000297604)\n*   Check that port 502 is open on firewalls between the PC/Modbus TCP Client and the Rheonics Sensor.\n\n3.2 Check Slave Address Configuration\n\n*   Confirm that the Rheonics Sensor’s Modbus slave address is set to 255 (Default value).\n\n3.3 Validate Input Register Address\n\n*   Check and validate Rheonics Input Register addresses. Make sure the data types and the address are correct.\n*   Depending on the PLC or tool being used to read the Input Register, ensure the correct indexing method is being used. Some PLCs or tools are zero-indexed, requiring you to subtract 1 from the register address (e.g., 300137 becomes 136), while others are one-indexed, where the address is used as-is (e.g., 300137).\n\nRegister 300137 corresponds to Parameter 12: Viscosity Last Good (Float), as shown in Rheonics Input Register (https://support.rheonics.com/en/support/solutions/articles/81000297604).\n\n4. CRC Errors\n\nCRC (Cyclic Redundancy Check) errors indicate that the device is detecting bit activity on the network line, but the received bits do not form data that makes sense to the device. When encountering CRC errors, check the following:\n\n*   Ensure that the Pre-Delay is set to at least 50 ms.\n\n5. Modbus Debugging Tools\n\nModbus Poll (https://support.rheonics.com/en/support/solutions/articles/81000388169) is a Modbus master simulator that helps test and verify Modbus communication. It allows real-time monitoring of parameters like viscosity, density, and temperature (Figure 3).\n\nModbus Poll is particularly useful for:\n\n*   Checking if registers are accessible and correctly configured.\n*   Validating data types, such as integers or floats, against expected values.\n\nModbus Poll can be downloaded from this Dropbox link (https://www.dropbox.com/sh/lv76vwm5lnpy79b/AACL7dhglydyX_QcV7GK5lr1a?dl=0) and instructions on how to use Modbus Poll can be found at Rheonics Support Article: Quick Modbus TCP verification using Modbus Poll master software (https://support.rheonics.com/en/support/solutions/articles/81000388169).\n\nFigure 3 shows Rheonics Input Registers on Modbus Poll, after using Rheonics ModbusPoll pre-configured files (https://support.rheonics.com/en/support/solutions/articles/81000397127).",
+      "specifications": {
+        "Modbus TCP Default Port": "502",
+        "Rheonics Sensor Modbus Slave Address (Default)": "255",
+        "CRC Error Pre-Delay Minimum Setting": "50 ms",
+        "Modbus Register 300137 (Parameter ID)": "12 (Viscosity Last Good, Float)"
+      },
+      "key_facts": [
+        "The Modbus server must use the default port 502, and this port needs to be open on firewalls between the PC/Modbus TCP Client and the Rheonics Sensor.",
+        "The Rheonics Sensor's Modbus slave address is configured to a default value of 255.",
+        "When reading Input Registers, it is crucial to ensure the correct indexing method is applied, as some PLCs are zero-indexed (requiring a subtraction of 1 from the register address) while others are one-indexed.",
+        "CRC errors signify that the device detects network activity but the received data is not valid, and can often be resolved by setting the Pre-Delay to at least 50 ms.",
+        "Modbus Poll is a Modbus master simulator software that aids in testing Modbus communication and monitoring parameters like viscosity, density, and temperature.",
+        "Modbus Poll is useful for verifying register accessibility, configuration, and validating data types."
+      ],
+      "diagram_labels": [
+        "Figure 2. Ethernet Cable Tester",
+        "CABLE TESTER",
+        "RJ45 + RJ11",
+        "MASTER NSHL468",
+        "OFF ON S",
+        "REMOTE NSHL468"
+      ],
+      "warnings_notes": [
+        "Ensure that the Modbus server is using the default port (502).",
+        "Check that port 502 is open on firewalls between the PC/Modbus TCP Client and the Rheonics Sensor.",
+        "Confirm that the Rheonics Sensor’s Modbus slave address is set to 255 (Default value).",
+        "Check and validate Rheonics Input Register addresses, ensuring data types and addresses are correct.",
+        "Depending on the PLC or tool, use the correct indexing method; some are zero-indexed (subtract 1 from address), others are one-indexed (use address as-is).",
+        "When encountering CRC errors, ensure that the Pre-Delay is set to at least 50 ms."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1371,
+        "cost_usd": 0.0035673
+      },
+      "source_file": "068_Modbus_TCPIP_Troubleshooting_Guide.pdf"
+    },
+    {
+      "page_summary": "This page explains how to correct Modbus TCP data interpretation issues, such as incorrect data types and endianness, by demonstrating the use of ModScan and ModbusPoll tools and providing a resolution for incorrect register indexing in ModScan.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Inline Viscometers",
+        "Rheonics Density Sensors",
+        "ModScan",
+        "ModbusPoll"
+      ],
+      "extracted_text": "Figure 3. Modbus Poll\n\nModbus Poll - [poll-input-param.mbp]\nFile Edit Connection Setup Functions Display View Window Help\nTx = 1. Err = 0. ID = 255. F = 04. SR = 1000ms\nAlias          00040\n40 Viscosity Median - Para 0 0.523596\n41 Viscosity Median Int --\n42 Viscosity Median Int 52\n43 Viscosity Median Status (??) 0x0100\n44 Viscosity median uncalibrated 0.0523596\n45 --\n46 Units 0\n47 -- 0\n48 Density Median - Para 1 0.53\n49 Density Median Int --\n50 Density Median Int 52\n51 Density Median Status (??) 0x0500\n52 Density median uncalibrated 1\n53 --\n54 Units 24\n55 -- 0\n56 Temperature Median - Para 2 16.84\n57 --\n58 Temperature Median Int 1684\n59 Temperature Median Status (??) 0x0100\n60 Temp median uncalibrated 25.625\n61 --\n62 Units 20\n63 -- 0\n64 Kinematic Viscosity - Para 3 0.987916\n65 --\n66 Kinematic Viscosity Average Int 98\n67 Kinematic Viscosity Average Status (??) 0x0000\nFor Help, press F1. [192.168.8.133]: 502\n\nTake a look at ModScan (https://support.rheonics.com/en/support/solutions/articles/81000416849), another useful tool for debugging Modbus-related issue\n\n6. Correcting Data Types and Endiannes\n\nTypically, the error is a discrepancy between the Modbus TCP values and what is displayed on the sensor or the RCP. This is often due to an incorrect data type or improper endianness settings. To illustrate this, Figure 3 compares two tools used for testing Modbus TCP: ModScan (https://support.rheonics.com/en/support/solutions/articles/81000388169) and ModbusPoll (https://support.rheonics.com/en/support/solutions/articles/81000388169), highlighting a difference in Register 136 in red.\n\nFigure 4. ModScan and ModbusPoll comparison\n\nModScan64 - ModScan RheonicsR\nAddress: 0040\nLength: 125\nMODBUS Point Type: 04: INPUT REGISTER\nDevice ID: 255\nNumber of Polls: 12\nValid Slave Responses: 12\nReset Ctrs\n\n(Data grid excerpt - ModScan):\n30040 2.36e-30   30078 3.36e-44   30116 2.51e-41   30154 0.0000\n30041 -2.42e-35  30079 2.49e-44   30117 0.0000     30155 0.0000\n30042 2.80e-45   30080 2.80e-45   30118 0.0000     30156 0.0000\n30043 --nan      30081 --nan      30119 --nan      30157 --nan\n30044 2.80e-45   30082 2.80e-45   30120 2.27e-41   30158 0.0000\n30045 -2.42e-35  30083 2.49e-44   30121 0.0000     30159 0.0000\n30046 2.80e-45   30084 2.80e-45   30122 0.0000     30160 0.0000\n30047 --nan      30085 --nan      30123 --nan      30161 --nan\n30048 2.80e-45   30086 2.80e-45   30124 2.27e-41   30162 0.0000\n30049 -2.42e-35  30087 2.49e-44   30125 0.0000     30163 0.0000\n30050 2.80e-45   30088 2.80e-45   30126 0.0000     30164 --\n30051 --nan      30089 --nan      30127 --nan\n30052 1.51e-36   30090 1.51e-36   30128 2.80e-45\n30053 4.50e-44   30091 4.50e-44   30129 4.50e-44\n30054 3.50e-44   30092 3.50e-44   30130 4.59e-41\n30055 --nan      30093 --nan      30131 --nan\n30056 2.80e-45   30094 2.80e-45   30132 1.30e-40\n30057 ???????    30095 ???????    30133 2.00e-44\n30058 2.36e-30   30096 2.36e-30   30134 2.80e-44\n30059 2.80e-45   30097 2.80e-45   30135 2.80e-45\n30060 2.36e-30   30098 2.36e-30   30136 2.49e-41\n30061 2.80e-45   30099 2.80e-45   30137 --nan\n30062 2.80e-45   30100 2.80e-45   30138 -2.42e-35\n30063 2.80e-45   30101 2.80e-45   30139 --nan\n30064 2.80e-45   30102 2.80e-45   30140 2.80e-45\n30065 2.80e-45   30103 2.80e-45   30141 2.80e-45\n30066 2.80e-45   30104 2.80e-45   30142 2.80e-45\n30067 ???????    30105 ???????    30143 ???????\n30068 2.49e-44   30106 2.49e-44   30144 2.49e-44\n30069 2.49e-44   30107 2.49e-44   30145 2.49e-44\n30070 -2.42e-35  30108 -2.42e-35  30146 1.40e-43\n30071 --nan      30109 --nan      30147 --nan\n30072 1.40e-43   30110 1.40e-43   30148 1.40e-43\n30073 2.49e-44   30111 2.49e-44   30149 2.49e-44\n30074 2.28e-41   30112 2.28e-41   30150 2.28e-41\n30075 0.0000     30113 0.0000     30151 0.0000\n30076 0.0000     30114 0.0000     30152 0.0000\n30077 --         30115 --         30153 --\n\nModbus Poll - [Input registers/Parameters 0 to 13]\nTx = 38. Err = 0. ID = 255. F = 04. SR = 1000ms\nAlias          00040\n109 Fres Comp Int 7340\n110 Fres Comp Int 7340.21\n111 Units --\n112 Units 56\n113 Units 0\n114 Fres Comp - Para 9 7340.14\n115 Fres Comp Int --\n116 Fres Comp Int 32787\n117 Fres Comp Status (??) 0x0000\n118 Fres Comp uncalibrated 7340.14\n119 --\n120 Units 56\n121 Units 0\n122 df - Para 10 0.902209\n123 df Int --\n124 df Int 90\n125 Fd Status (??) 0x0000\n126 Fd uncalibrated 0.902209\n127 --\n128 Tc - Coil Temp/Ohms - Para 11 nan\n129 Tc Int --\n130 Tc Int -32768\n131 Tc Status (??) 0x0001\n132 Tc uncalibrated nan\n133 --\n134 Viscosity Last Good - Para 12 4144.75\n135 Viscosity Int --\n136 Viscosity Int 32767\n137 VLG uncalibrated (??) 0x0100\n138 VLG uncalibrated 0\n139 --\n140 Units 2\n141 Units 0\n142 Density Last Good - Para 13 1\n143 Density Int --\n144 Density Int 100\n145 DLG uncalibrated (??) 0x0400\n146 DLG uncalibrated 0\n147 --\n148 Units 24\n149 Units 0\n150 --\n\nThis is a common issue involving both incorrect indexing and data types. When using ModScan, selecting the correct starting address is crucial. For example, choosing Register 0040 as the starting address incorrectly applies the Float (MSRF) format to all registers, resulting in incorrect data being displayed.\n\nThis issue can be resolved by changing the starting address to 0041, which corresponds to the first Input Register. This ensures the Float format is correctly applied to the parameters.",
+      "specifications": {},
+      "key_facts": [
+        "Modbus TCP errors can occur due to discrepancies between values displayed on the sensor or RCP and the actual Modbus TCP values.",
+        "These errors are often caused by an incorrect data type or improper endianness settings.",
+        "ModScan (https://support.rheonics.com/en/support/solutions/articles/81000416849) and ModbusPoll (https://support.rheonics.com/en/support/solutions/articles/81000388169) are two tools used for testing Modbus TCP.",
+        "A specific difference in data interpretation between ModScan and ModbusPoll is highlighted for Register 136, appearing in red in ModScan.",
+        "When using ModScan, incorrect indexing, such as choosing Register 0040 as the starting address, can incorrectly apply the Float (MSRF) format to all registers.",
+        "The incorrect application of Float format leads to the display of incorrect data.",
+        "The issue with incorrect data display in ModScan can be resolved by changing the starting address to 0041.",
+        "Changing the starting address to 0041 ensures the Float format is correctly applied because it corresponds to the first Input Register."
+      ],
+      "diagram_labels": [
+        "Modbus Poll - [poll-input-param.mbp]",
+        "File",
+        "Edit",
+        "Connection",
+        "Setup",
+        "Functions",
+        "Display",
+        "View",
+        "Window",
+        "Help",
+        "Tx",
+        "Err",
+        "ID",
+        "F",
+        "SR",
+        "Alias",
+        "00040",
+        "Viscosity Median - Para 0",
+        "Viscosity Median Int",
+        "Viscosity Median Status",
+        "Viscosity median uncalibrated",
+        "Units",
+        "Density Median - Para 1",
+        "Density Median Int",
+        "Density Median Status",
+        "Density median uncalibrated",
+        "Temperature Median - Para 2",
+        "Temperature Median Int",
+        "Temperature Median Status",
+        "Temp median uncalibrated",
+        "Kinematic Viscosity - Para 3",
+        "Kinematic Viscosity Average Int",
+        "Kinematic Viscosity Average Status",
+        "For Help, press F1.",
+        "[192.168.8.133]: 502",
+        "Figure 3. Modbus Poll",
+        "6. Correcting Data Types and Endiannes",
+        "ModScan64 - ModScan RheonicsR",
+        "Address",
+        "Length",
+        "MODBUS Point Type",
+        "04: INPUT REGISTER",
+        "Device ID",
+        "Number of Polls",
+        "Valid Slave Responses",
+        "Reset Ctrs",
+        "Modbus Poll - [Input registers/Parameters 0 to 13]",
+        "Fres Comp Int",
+        "Fres Comp - Para 9",
+        "Fres Comp Status",
+        "Fres Comp uncalibrated",
+        "df - Para 10",
+        "df Int",
+        "Fd Status",
+        "Fd uncalibrated",
+        "Tc - Coil Temp/Ohms - Para 11",
+        "Tc Int",
+        "Tc Status",
+        "Tc uncalibrated",
+        "Viscosity Last Good - Para 12",
+        "VLG uncalibrated",
+        "Density Last Good - Para 13",
+        "DLG uncalibrated",
+        "Figure 4. ModScan and ModbusPoll comparison"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 4051,
+        "cost_usd": 0.0102673
+      },
+      "source_file": "068_Modbus_TCPIP_Troubleshooting_Guide.pdf"
+    },
+    {
+      "page_summary": "This page displays a screenshot of the ModScan_RheonicsR software interface showing MODBUS input register values, which are identified as corrected viscosity values from a Rheonics device.",
+      "document_type": "manual",
+      "product_names": [
+        "ModScan64",
+        "ModScan_RheonicsR"
+      ],
+      "extracted_text": "ModScan64 - ModScan_RheonicsR\nFile Connection Setup View Window Help\nModScan_RheonicsR\nAddress: 0041\nLength: 125\nDevice ID: 255\nMODBUS Point Type: 04: INPUT REGISTER\nNumber of Polls: 77\nValid Slave Responses: 77\nReset Ctrs\n\n30041: 4144.7500\n30042: nan\n30043: nan\n30044: 0.0000\n30045: 0.0000\n30046: nan\n30047: 1.84e-40\n30048: nan\n30049: 1000.0000\n30050: nan\n30051: nan\n30052: 1000.0000\n30053: 1000.0000\n30054: nan\n30055: 2.20e-39\n30056: nan\n30057: 25.3000\n30058: nan\n30059: 5.44e-33\n30060: 0.0000\n30061: 0.0000\n30062: nan\n30063: 1.84e-39\n30064: nan\n30065: 4144.7500\n30066: nan\n30067: nan\n30068: 4144.7500\n30069: 4144.7500\n30070: nan\n30071: 6.43e-40\n30072:\n\n30073: 1.0000\n30074: nan\n30075: 9.18e-39\n30076: 1.0000\n30077: 1.0000\n30078: nan\n30079: 2.20e-39\n30080: nan\n30081: 4144.7500\n30082: nan\n30083: nan\n30084: 1.0000\n30085: 0.0000\n30086: nan\n30087: 1.84e-40\n30088: nan\n30089: 1.0000\n30090: nan\n30091: 9.18e-39\n30092: 1.0000\n30093: 1.0000\n30094: nan\n30095: 2.20e-39\n30096: nan\n30097: 25.3000\n30098: nan\n30099: 5.44e-33\n30100: 1.0000\n30101: 0.0000\n30102: nan\n30103: 1.84e-39\n30104:\n\n30105: 7340.5317\n30106: nan\n30107: nan\n30108: 7340.5317\n30109: 7340.5317\n30110: nan\n30111: 5.14e-39\n30112: nan\n30113: 7340.5317\n30114: nan\n30115: nan\n30116: 7340.5317\n30117: 7340.5317\n30118: nan\n30119: 5.14e-39\n30120: nan\n30121: 0.9022\n30122: nan\n30123: 8.27e-39\n30124: 0.9022\n30125: 0.9022\n30126: nan\n30127: 5.14e-39\n30128: nan\n30129: nan\n30130: nan\n30131: -1.40e-45\n30132: nan\n30133: nan\n30134: nan\n30135: 1.84e-39\n30136:\n\n30137: 4144.7500\n30138: nan\n30139: nan\n30140: nan\n30141: 0.0000\n30142: nan\n30143: 1.84e-40\n30144: nan\n30145: 1.0000\n30146: nan\n30147: 9.18e-39\n30148: nan\n30149: 1.0000\n30150: nan\n30151: 2.20e-39\n30152: nan\n30153: 0.0000\n30154: nan\n30155: 0.0000\n30156: nan\n30157: 0.0000\n30158: nan\n30159: 0.0000\n30160: nan\n30161: 0.0000\n30162: nan\n30163: 0.0000\n30164: nan\n30165: nan\n\nFigure 5. ModScan correct viscosity values",
+      "specifications": {
+        "MODBUS Address": "0041",
+        "MODBUS Length": "125",
+        "MODBUS Device ID": "255",
+        "MODBUS Point Type": "04: INPUT REGISTER",
+        "Number of Polls": "77",
+        "Valid Slave Responses": "77"
+      },
+      "key_facts": [
+        "The page displays MODBUS input register data from a Rheonics device using ModScan software.",
+        "The data shown represents corrected viscosity values.",
+        "The MODBUS connection is configured to read 125 input registers starting from address 0041 for Device ID 255.",
+        "The software interface includes menu options for File, Connection, Setup, View, Window, and Help."
+      ],
+      "diagram_labels": [
+        "Figure 5. ModScan correct viscosity values"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 2019,
+        "cost_usd": 0.0051873
+      },
+      "source_file": "068_Modbus_TCPIP_Troubleshooting_Guide.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

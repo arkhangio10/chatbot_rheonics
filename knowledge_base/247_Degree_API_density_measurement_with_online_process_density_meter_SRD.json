@@ -1,0 +1,204 @@
+{
+  "source_file": "247_Degree_API_density_measurement_with_online_process_density_meter_SRD.pdf",
+  "total_pages": 3,
+  "chunks": [
+    {
+      "page_summary": "This page details the mathematical model and coefficients required for API density measurement using Rheonics' SRD inline density meter, emphasizing temperature and pressure corrections for hydrocarbon groups.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "SRD",
+        "Rheonics Control Panel (RCP)",
+        "SME (Smart Measurement Electronics)"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nDegree API density measurement with online process density meter SRD\nModified on: Mon, 20 Nov, 2023 at 3:26 PM\n\nWhat products are involved in this article?\nThis article is based on the use of RCP (Rheonics Control Panel (https://support.rheonics.com/en/support/solutions/articles/81000297177-running-the-rcp-program)) connected to the SME (Smart Measurement Electronics).\n\nWhat is the purpose of this article?\nExplain the process to get temperature and pressure corrections specific to the hydrocarbon group, using API density referral converted into API Degrees. Usual applications are w\n\n1. Math model\n\nShown below is the mathematical formula for API Specific Gravity\n\nρ_comp = ρ_L * e^{α_ref * ΔT * [1+0.8*α_ref * ΔT]}\nα_ref = (K_0 + K_1 * ρ_ref) / ρ_ref^2\nSG_ref temp = ρ_comp / ρ_water\nΔT = T_L - T_ref\n\nEquation 1. API Specific Gravity\n\nAPIdg = 141.5 / SG60 - 131.5\n\nEquation 2. API Degrees calculation\n\nThe SRD (https://rheonics.com/products/inline-density-meter-srd/) sensor can measure inline density, viscosity, and temperature, in addition, we can use multiple mathematical models to calculate the concentration of a mix. To calculate the API degrees of a fluid we can use Equation 1, where:\n\nSGref temp: Specific gravity at the reference temperature.\npcomp: Compensated density.\npref: Reference density, is the density around which the sensor will compensate the readings. This is defined and should be specified by the user.\npL: Inline Density measured.\npwater: Water density.\nK0 and K1: Coefficients, specified by the user. These coefficients can be found in the API-ASTM tables.\nTL: Inline temperature measured in °C\nTref: Reference temperature, is the temperature around which the sensor will compensate the readings. This is defined and should be specified by the user.\nAPIdg: Api degrees.\n\n2. Checking the data\n\nAll density, viscosity compensation, and concentration models can be loaded into the sensor through the RCP software from Rheonics (https://support.rheonics.com/en/support/solutions/articles/81000297177-running-the-rcp-program), in the \"Calculation\" tab. The API degrees model needs K1 and K0 coefficients, those values can be found in the API-ASTM-IP petroleum measurement tables, as shown below in Table 1. Also, it needs the water density in Kg/m3 at a reference temperature.\n\nTable 1. API-ASTM-IP petroleum measurement table\n\nTemperature [°C] | Density [g/cc] | K0 | K1\nCrude Oil | 771 - 981 | 613.97226 | 0.00000\nGasolines | 654 - 779 | 346.42278 | 0.43884\nKerosines | 779 - 839 | 594.54180 | 0.00000\nFuel Oils | 839 - 1075 | 186.96960 | 0.48618\n\n3. How to load models into the Sensor electronics?",
+      "specifications": {
+        "Crude Oil Density Range": "771 - 981 g/cc",
+        "Crude Oil K0 Coefficient": "613.97226",
+        "Crude Oil K1 Coefficient": "0.00000",
+        "Gasolines Density Range": "654 - 779 g/cc",
+        "Gasolines K0 Coefficient": "346.42278",
+        "Gasolines K1 Coefficient": "0.43884",
+        "Kerosines Density Range": "779 - 839 g/cc",
+        "Kerosines K0 Coefficient": "594.54180",
+        "Kerosines K1 Coefficient": "0.00000",
+        "Fuel Oils Density Range": "839 - 1075 g/cc",
+        "Fuel Oils K0 Coefficient": "186.96960",
+        "Fuel Oils K1 Coefficient": "0.48618",
+        "Inline Temperature Unit": "°C",
+        "Water Density Requirement": "Kg/m3 at a reference temperature"
+      },
+      "key_facts": [
+        "The SRD sensor can measure inline density, viscosity, and temperature.",
+        "Multiple mathematical models can be used to calculate the concentration of a mix.",
+        "API degrees of a fluid can be calculated using Equation 1 (API Specific Gravity) and Equation 2 (API Degrees calculation).",
+        "K0 and K1 coefficients, along with water density, are needed for the API degrees model.",
+        "K0 and K1 coefficients are specified by the user and can be found in API-ASTM tables.",
+        "Density, viscosity compensation, and concentration models can be loaded into the sensor through the RCP software from Rheonics, in the 'Calculation' tab."
+      ],
+      "diagram_labels": [
+        "Equation 1. API Specific Gravity",
+        "Equation 2. API Degrees calculation",
+        "Table 1. API-ASTM-IP petroleum measurement table"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1449,
+        "cost_usd": 0.0037622999999999997
+      },
+      "source_file": "247_Degree_API_density_measurement_with_online_process_density_meter_SRD.pdf"
+    },
+    {
+      "page_summary": "This page describes how to configure the Rheonics Control Panel for calculating API degrees and specific gravity, including loading models and handling sensor outputs.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel 5.4.0.6",
+        "SME-TRD"
+      ],
+      "extracted_text": "Rheonics Control Panel 5.4.0.6\nMeasurement | Events | Settings | Service | Diagnostics | Communication | Temp. Control | Scaling | Calculation | Logger\n\nAdvanced Calculations | Thermal Compensation of Density, Viscosity\n\nSelect Measurement to Apply Model: Concentration\nCalculated Value: 0.971613\nStatus: [Green Status Indicator]\nSelect Model from List: API Degrees\n\nASTM-API Model\nSpecific Gravity\n\nOptions: Crude Oil; 771 - 981 Kg/m3\nK0: 613.97226\nK1: 0\nTref: 60 °F\nWater Ref. Density [Kg/m3]: 999.07\nUnits: °API\n\nAPIdg = 141.5 / SG60 - 131.5\n\nUPLOAD MODEL\n\nChange SMET Output\nLCD Display (for TRD Only) Select Line to Display: Line 1\nLoad Configuration\nOutput on 4-20 mA channel Select channel number: Ch2\nAccess measurement with applied model over Modbus RTU/TCP register: 208\nCalculation History\n\nFigure 1. Calculation tab for API degrees\n\nIn the following steps, we will show how to load the model into the sensor electronics:\n1. In the \"Select Measurement to Apply Model\" dropdown list select \"Concentration\".\n2. In the \"Select Model from the list\" dropdown list select \"API Degrees\". When you select the model, you will get more more information about the specific equation used and the coefficients you will need.\n3. The \"Options\" list shows a list of the most common K0 and K1 values for the hydrocarbon group. Also, you can choose the \"Custom\" option and input your own coefficients K0 and K1.\n4. Input \"K0\" coefficient. For this example, it has a value of 613.97.\n5. Input \"K1\" coefficient. For this example, it has a value of 0,0000.\n6. Input \"Reference temperature\" for the water density, in this example, is 60 °F.\n7. Input \"Water density\" in Kg/m3 at the reference temperature, in this example, is 999.07 Kg/m3.\n8. Click \"Upload Model\" to load the model settings into sensor electronics. The button should turn GREEN for a couple of seconds if the action was successful or turn RED if the operation was unsuccessful. This action will refresh the \"Calculated Value\".\n\nFigure 2. Specific Gravity calculated\n\n9. Click \"Load Configuration\" to update the display and channel configurations in sensor electronics.\n10. The \"Calculation History\" button allows you to open a file with the last uploaded models.\n\n3.1. Handling Sensor Outputs\nFor the SME-TRD, the compensated viscosity values can be shown on the display. Select the line to display the parameter:",
+      "specifications": {
+        "Software Version": "5.4.0.6",
+        "Calculated Value": "0.971613",
+        "K0 coefficient": "613.97226",
+        "K1 coefficient": "0",
+        "Reference temperature": "60 °F",
+        "Water Ref. Density": "999.07 Kg/m3",
+        "Modbus RTU/TCP register": "208",
+        "Output 4-20 mA channel": "Ch2"
+      },
+      "key_facts": [
+        "The Rheonics Control Panel allows advanced calculations for thermal compensation of density and viscosity.",
+        "The 'Select Measurement to Apply Model' dropdown should be set to 'Concentration'.",
+        "The 'Select Model from the list' dropdown should be set to 'API Degrees'.",
+        "Selecting a model provides information about its specific equation and required coefficients.",
+        "The 'Options' list offers common K0 and K1 values for hydrocarbon groups, with a 'Custom' option for manual input.",
+        "For the example shown, the K0 coefficient is 613.97.",
+        "For the example shown, the K1 coefficient is 0.0000.",
+        "The reference temperature for water density in the example is 60 °F.",
+        "The water density at the reference temperature in the example is 999.07 Kg/m3.",
+        "The API degrees (APIdg) are calculated using the formula: 141.5 / SG60 - 131.5.",
+        "Clicking 'Upload Model' loads the configured model settings into the sensor electronics.",
+        "The 'Calculated Value' is refreshed after uploading a model.",
+        "Clicking 'Load Configuration' updates the display and channel configurations in the sensor electronics.",
+        "The 'Calculation History' button allows opening a file containing previously uploaded models.",
+        "For the SME-TRD, compensated viscosity values can be displayed by selecting the appropriate line."
+      ],
+      "diagram_labels": [
+        "Rheonics Control Panel 5.4.0.6",
+        "Measurement",
+        "Events",
+        "Settings",
+        "Service",
+        "Diagnostics",
+        "Communication",
+        "Temp. Control",
+        "Scaling",
+        "Calculation",
+        "Logger",
+        "Advanced Calculations | Thermal Compensation of Density, Viscosity",
+        "Select Measurement to Apply Model",
+        "Concentration",
+        "Calculated Value",
+        "Status",
+        "Select Model from List",
+        "API Degrees",
+        "ASTM-API Model Specific Gravity",
+        "Options",
+        "Crude Oil; 771 - 981 Kg/m3",
+        "K0",
+        "K1",
+        "Tref",
+        "Water Ref. Density [Kg/m3]",
+        "Units",
+        "°API",
+        "APIdg = 141.5 / SG60 - 131.5",
+        "UPLOAD MODEL",
+        "Change SMET Output",
+        "LCD Display (for TRD Only)",
+        "Select Line to Display",
+        "Line 1",
+        "Load Configuration",
+        "Output on 4-20 mA channel",
+        "Select channel number",
+        "Ch2",
+        "Access measurement with applied model over Modbus RTU/TCP register",
+        "208",
+        "Calculation History",
+        "Figure 1. Calculation tab for API degrees",
+        "Figure 2. Specific Gravity calculated",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "warnings_notes": [
+        "The 'Upload Model' button should turn GREEN for a couple of seconds if the action was successful or turn RED if the operation was unsuccessful."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1708,
+        "cost_usd": 0.0044098
+      },
+      "source_file": "247_Degree_API_density_measurement_with_online_process_density_meter_SRD.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions and figures for configuring LCD display lines, analog output channels, and Modbus TCP/IP registers, along with a reference to a demonstration video for loading API degrees models into sensor electronics.",
+      "document_type": "manual",
+      "product_names": [
+        "TRD",
+        "RPC Software",
+        "Rheonics"
+      ],
+      "extracted_text": "Figure 3. Selecting read line for LCD display.\nSelect the analog channel to send data, this can be verified in the \"Service\" Tab\nFigure 4. Selecting analog output channel\nMeasurement can always be accessed at the register address that is displayed.\nFigure 5. Modbus TCP/IP register\n3.2 Demonstration Video\nHow to load the API degrees model into the Sensor electr\nrheonics\nWatch on\nVideo 1. Configuration API degrees model in RPC Software.",
+      "specifications": {
+        "Output_current_range": "4-20 mA",
+        "Modbus_RTU_TCP_register_address": "208"
+      },
+      "key_facts": [
+        "The LCD Display configuration options are specifically for TRD models.",
+        "The selection of the analog channel for sending data can be verified in the \"Service\" Tab.",
+        "Measurement data is consistently accessible at the displayed register address.",
+        "A demonstration video titled \"How to load the API degrees model into the Sensor electr[onics]\" by Rheonics is available.",
+        "Video 1 specifically details the configuration of the API degrees model in RPC Software."
+      ],
+      "diagram_labels": [
+        "LCD Display (for TRD Only)",
+        "Select Line to Display",
+        "None",
+        "Line 1",
+        "Line 2",
+        "Line 3",
+        "Output on 4-20 mA channel",
+        "Select channel number",
+        "Modbus RTU/TCP register",
+        "Ch1",
+        "Ch2",
+        "Ch3",
+        "Access measurement with applied model over Modbus RTU/TCP register",
+        "208"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 505,
+        "cost_usd": 0.0014023000000000002
+      },
+      "source_file": "247_Degree_API_density_measurement_with_online_process_density_meter_SRD.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

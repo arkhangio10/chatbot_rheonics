@@ -1,0 +1,41 @@
+{
+  "source_file": "001_Configuring_the_new_sensor_from_box_to_operation.pdf",
+  "total_pages": 1,
+  "chunks": [
+    {
+      "page_summary": "This page provides a quick guide for configuring a new sensor from Rheonics, outlining installation steps, power requirements, and how to obtain support.",
+      "document_type": "notes",
+      "product_names": [
+        "sensor"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nConfiguring the new sensor : from box to operation\n\nModified on: Tue, 5 May, 2020 at 3:44 PM\n\nYou are ready to use the sensor just in 2 simple steps!\n\n1. Complete the installation as requested in the installation manual (shipped along with the sensor)\n2. Check installation, cable connections are all correct\n\nJust make sure that there is 24 Volt power supply provided to the electronics. No need of any calibration as the sensor come factory calibrated.\n\nIn case you face any issues, write an email to us at support@rheonics.com or start a support ticket here. Please send us the pictures of the installation, including cable connections, so we can cross-check all connections are correct.",
+      "specifications": {
+        "power supply": "24 Volt"
+      },
+      "key_facts": [
+        "The sensor can be configured for operation in two simple steps.",
+        "The first step involves completing the installation as detailed in the installation manual, which is shipped with the sensor.",
+        "The second step requires checking that the installation and all cable connections are correct.",
+        "The sensor's electronics require a 24 Volt power supply.",
+        "No calibration is needed as the sensor is factory calibrated.",
+        "For any issues, customers should contact Rheonics support via email at support@rheonics.com or by starting a support ticket.",
+        "When contacting support for issues, it is recommended to send pictures of the installation, including cable connections, for cross-checking."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 457,
+        "cost_usd": 0.0012823
+      },
+      "source_file": "001_Configuring_the_new_sensor_from_box_to_operation.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "source_file": "212_Inline_Process_Density_Meter_SRD_and_viscometer_SRV_with_integrated_display_transmitter.pdf",
+  "total_pages": 2,
+  "chunks": [
+    {
+      "page_summary": "This page describes Rheonics' \"Fixed Transmitter\" (FT) setup, which integrates the electronics directly into SRV viscometers and SRD density meters, and provides instructions on how to request and configure this option.",
+      "document_type": "notes",
+      "product_names": [
+        "SRV",
+        "SRD",
+        "SME electronics",
+        "Fixed Transmitter (FT) setup",
+        "SME-TRD",
+        "SME-TR",
+        "SME-DRM",
+        "Inline Viscosity Meter",
+        "Inline Density and Viscosity meter"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nInline Process Density Meter SRD and viscometer SRV with integrated display transmitter\n\nModified on: Tue, 3 Dec, 2024 at 6:36 PM\n\nWhat is the purpose of this article?\nShow Rheonics SRV viscometer and SRD density and viscosity meter with SME electronics (https://rheonics.com/electronics-and-communication/) integrated in a Fixed Transmit\n\nWhat products are involved?\n(https://rheonics.com/products/inline-viscometer-srv/) (https://rheonics.com/products/inline-viscometer-srv/) and (https://rheonics.com/products/inline-density-meter-srd/)\nSRV - Inline Viscosity Meter\nSRD - Inline Density and Viscosity meter\n\nRheonics Sensor \"Fixed Transmitter\" Setup\nRheonics SRV viscometer and SRD density and viscosity meter comprise the sensor probe, the sensor cable, and the electronics. All three parts are required for the sensor to operate. The sensor probe is installed in line and in contact with the fluid, while the electronics are usually placed elsewhere in an electronic cabinet (SME-DRM) or outdoors and fixed on a near wall or operator’s accessible area (SME-TRD and -TR), with the sensor cable running from the probe to the electronics.\n\nRheonics offers a \"Fixed Transmitter\" (–FT) setup that allows the SRV Inline Viscometer or SRD Density and Viscosity meter to have the electronics SME unit integrated directly, creating a single-piece sensor unit installed in the line containing all features of communication and local display.\n\nThis setup is compatible with SME-TRD (includes display) and -TR (blind cover) electronics variants. Review all electronic variants here (https://rheonics.com/electronics-and-communication/). Review SME CAD models here (https://support.rheonics.com/en/support/solutions/articles/81000411379-rheonics-sensor-electronics-sme-drawings-and-3d-models).\n\nFigure 1: Rheonics FT Setup: SRV and SRD with SME-TRD integrated transmitter\n\nWhen Rheonics FT Setup is ordered by client, the sensor is delivered fully assembled for installation. If reassembly is required on site, contact Rheonics Team for instructions.\n\nHow to request and configure?\n\nThe \"FT\" Setup is a sensor configuration feature that is added to the full sensor configuration codes.\n\nTo order a Rheonics sensor with integrated transmitter, the \"FT\" Fixed Transmitter option should be selected in the online SRV RFQ (https://rheonics.com/request-for-quotation/srv/) or SRD RFQ (https://rheonics.com/request-for-quotation/srd/). Electronics variants SME-TRD (E1) and -TR (E2) are compatible.\n\nElectronics (select one) *\nPlease refer to the Electronics and Communications Page for more information.\nE1 : SME-TRD : Transmitter housing with display\nE2 : SME-TR : Transmitter housing with solid cover\nE3 : SME-DRM : DIN-rail mount housing\nFT Option - Fixed Transmitter Sensor\nFigure 2: FT Option in RFQ Electronics Section\n\nNext, an order code structure shows the relevant codes for the FT setup.\nHow to Order Rheonics Fixed Transmitter Sensor?",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics SRV viscometers and SRD density and viscosity meters typically consist of a sensor probe, sensor cable, and separate electronics (SME-DRM, SME-TRD, -TR).",
+        "The \"Fixed Transmitter\" (–FT) setup integrates the electronics SME unit directly into the SRV or SRD sensor.",
+        "The FT setup creates a single-piece sensor unit installed in the line, providing all communication and local display features.",
+        "The FT setup is compatible with SME-TRD (includes display) and -TR (blind cover) electronics variants.",
+        "When the Rheonics FT Setup is ordered, the sensor is delivered fully assembled for installation.",
+        "The \"FT\" Setup is a sensor configuration feature added to the full sensor configuration codes during ordering."
+      ],
+      "diagram_labels": [
+        "Figure 1: Rheonics FT Setup: SRV and SRD with SME-TRD integrated transmitter",
+        "Electronics (select one) *",
+        "E1 : SME-TRD : Transmitter housing with display",
+        "E2 : SME-TR : Transmitter housing with solid cover",
+        "E3 : SME-DRM : DIN-rail mount housing",
+        "FT Option - Fixed Transmitter Sensor",
+        "Figure 2: FT Option in RFQ Electronics Section"
+      ],
+      "warnings_notes": [
+        "If reassembly is required on site, contact Rheonics Team for instructions.",
+        "Please refer to the Electronics and Communications Page for more information."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1292,
+        "cost_usd": 0.0033697999999999996
+      },
+      "source_file": "212_Inline_Process_Density_Meter_SRD_and_viscometer_SRV_with_integrated_display_transmitter.pdf"
+    },
+    {
+      "page_summary": "This page outlines the Rheonics SR-type sensor product code form, specifying options for sensor type, electronics, transmitter setup, and probe variants, along with references for further configuration details.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRV",
+        "SRD",
+        "SME-TRD",
+        "SME-TR"
+      ],
+      "extracted_text": "Code Form: SR_ - E_ - FT - X_\nExample: SRV - E1 - FT - X1-34N\n\n1 Rheonics SR- Type sensor\n  SRV: Inline Viscometer\n  SRD: Inline Density and Viscosity meter\n\n2 Electronics Variant\n  E1: SME-TRD electronics in housing with display\n  E2: SME-TR electronics in blind housing\n\n3 FT - Fixed Transmitter Setup\n  Fixed Transmitter on Probe Sensor Setup\n\n4 Sensor Probe Variant\n  Visit SRV variants (https://support.rheonics.com/en/support/solutions/folders/81000297658/) and SRD variants (https://support.rheonics.com/en/support/solutions/folders/81000297659/)\n\nAdditional information and codes are required for the complete sensor configuration in online SRV RFQ (https://support.rheonics.com/en/support/solutions/folders/81000297658/) and SRD RFQ (https://rheonics.com/request-for-quotation/srd/).\n\nReferences\n[1]: Rheonics SME Electronics variants (https://rheonics.com/electronics-and-communication/)",
+      "specifications": {},
+      "key_facts": [
+        "The product code for Rheonics SR-type sensors is composed of four main segments: sensor type, electronics variant, fixed transmitter setup, and sensor probe variant.",
+        "SRV indicates an Inline Viscometer.",
+        "SRD indicates an Inline Density and Viscosity meter.",
+        "The E1 electronics variant includes SME-TRD electronics with a display in its housing.",
+        "The E2 electronics variant includes SME-TR electronics in a blind housing.",
+        "FT stands for Fixed Transmitter Setup, signifying that the transmitter is integrated into the probe sensor setup.",
+        "Further details and codes for complete sensor configuration are available through online Request for Quotation (RFQ) processes for SRV and SRD sensors.",
+        "Specific variant details for SRV and SRD sensors are accessible via provided support links.",
+        "Information regarding Rheonics SME Electronics variants is available through a dedicated URL in the references section."
+      ],
+      "diagram_labels": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 663,
+        "cost_usd": 0.0017973
+      },
+      "source_file": "212_Inline_Process_Density_Meter_SRD_and_viscometer_SRV_with_integrated_display_transmitter.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

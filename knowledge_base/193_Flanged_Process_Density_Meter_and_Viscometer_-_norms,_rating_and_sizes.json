@@ -1,0 +1,388 @@
+{
+  "source_file": "193_Flanged_Process_Density_Meter_and_Viscometer_-_norms,_rating_and_sizes.pdf",
+  "total_pages": 8,
+  "chunks": [
+    {
+      "page_summary": "This page provides guidelines on the compatibility of flange connections with Rheonics Type-SR process density meters and viscometers, detailing various international flange standards and product configurations.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "Rheonics Type-SR process density meter",
+        "Rheonics viscometer",
+        "Rheonics SRV viscometer",
+        "Rheonics SRD density and viscosity meter",
+        "Rheonics sensors Type-SR",
+        "SRV-X2",
+        "SRD-X2",
+        "SRV-X5",
+        "SRD-X5",
+        "SRV-X6",
+        "SRD-X6"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nFlanged Process Density Meter and Viscometer - norms, rating and sizes\n\nModified on: Tue, 15 Apr, 2025 at 11:57 AM\n\nWhat is the purpose of this article?\nTo give guidelines on the compatibility of flange connections with Rheonics Type-SR process density meter and viscometer available in short, slimline, long insertion, and hygienic long insertion variants.\n\nWhat products are involved?\nRheonics SRV viscometer, and SRD density and viscosity meter. (https://rheonics.com/products/inline-viscometer-srv/)\n\n1. Introduction\n\nFlanges\nFlanges are used as industrial connections in pipes, tanks, instruments, peripherals, etc. Flanges vary according to regional norms or standards (like ANSI, DIN, JIS), and by size, pressure rating, and face type. Flange connections are composed of two flanges, bolts, nuts, and, most of the time, a seal.\nSome regional norms for flanges are:\n\n*   ISO 7005-1: Pipe flanges - Steel flanges for industrial and general service piping systems\n*   ANSI ASME B16.5: North American standard applicable for flanges.\n*   DIN 2527: German standard applicable for flanges.\n*   BS/EN 1092: British standard applicable for flanges.\n*   JIS B2220: Japanese Industrial Standards applicable for flanges.\n*   SH/T 3406-2022: Chinese technical specifications for petrochemical steel pipe flanges.\n*   GB/T9115.1-2000: Chinese standard for Welded pipes flange\n*   IS 13159: Indian standard for pipe flanges and flange fittings - Specifications.\n\nMost flanges have markings on the outer surface that indicate the norm/standard and its technical information.\nSome norms have very similar dimensions between flanges but it is not recommended to install two flanges of different norms, this means they are not interchangeable.\n\nRheonics Type-SR sensors\nRheonics sensors Type-SR, viscometer SRV, and density and viscosity meter SRD can be configured with all flanges norm, sizes, and ratings available, either in its short probe (SRV-X2 and SRD-X2), long insertion variant (SRV-X5 and SRD-X5) or slimline probes (SRV-X6 and SRD-X6).",
+      "specifications": {},
+      "key_facts": [
+        "The article provides guidelines on the compatibility of flange connections with Rheonics Type-SR process density meters and viscometers.",
+        "Rheonics SRV viscometer and SRD density and viscosity meters are the products involved in this discussion.",
+        "Flanges are industrial connections for pipes, tanks, instruments, and peripherals, varying by regional norms (e.g., ANSI, DIN, JIS), size, pressure rating, and face type.",
+        "Flange connections typically consist of two flanges, bolts, nuts, and a seal.",
+        "Rheonics Type-SR sensors, including SRV viscometers and SRD density and viscosity meters, are configurable with various flange norms, sizes, and ratings.",
+        "Rheonics sensors are available in short probe (SRV-X2 and SRD-X2), long insertion (SRV-X5 and SRD-X5), and slimline probe (SRV-X6 and SRD-X6) variants."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Some flange norms have very similar dimensions, but it is not recommended to install two flanges of different norms, as they are not interchangeable."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1030,
+        "cost_usd": 0.0027148
+      },
+      "source_file": "193_Flanged_Process_Density_Meter_and_Viscometer_-_norms,_rating_and_sizes.pdf"
+    },
+    {
+      "page_summary": "This page provides installation guidelines and dimensional specifications for Rheonics SRV Viscometer and SRD Density and Viscosity Meter, focusing on flange installation and proper immersion of sensing areas.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV-X5",
+        "Rheonics SRV Viscometer",
+        "Rheonics SRD Density and Viscosity Meter"
+      ],
+      "extracted_text": "Figure 1: Long insertion SRV (SRV-X5) with Flange Installation\n\nFor a correct installation, the following should be considered:\n* Use matching flanges of the same norm, size, and pressure rating.\n* Consider the compatibility of the sensor's wetted material variants with chemical fluids\n* Consider installation of seals for flanges\n* Flanges or standpipes should not cover the sensing area of the sensor probes. Sensing areas shown in the next Figure should be completely immersed in the fluid, avoiding dead zones.\n\nRheonics SRV Viscometer\nSRV tip's clearance to any obstruction 5 mm [0.2\"]\n\nRheonics SRD Density and Viscosity Meter\nSRD tip's clearance to any obstruction 12 mm [0.5\"]\n\nAvoid stagnation zones in the sensing zones (red areas)\nEnsure sensing element in red is in contact with fluid\n\nFigure 2: Rheonics SRV and SRD sensing areas",
+      "specifications": {
+        "SRV sensing area length": "50 mm [1.96\"]",
+        "SRV sensing area diameter": "Ø16 mm [0.63\"]",
+        "SRV tip clearance to obstruction": "5 mm [0.2\"]",
+        "SRD sensing area first section length": "50 mm [1.96\"]",
+        "SRD sensing area second section length": "35 mm [1.4\"]",
+        "SRD sensing area diameter": "Ø35 mm [1.4\"]",
+        "SRD tip clearance to obstruction": "12 mm [0.5\"]",
+        "Flange standard example": "ANSI/ASME B16.5 150LB 2\" FF"
+      },
+      "key_facts": [
+        "Correct installation requires using matching flanges of the same norm, size, and pressure rating.",
+        "The compatibility of the sensor's wetted material variants with chemical fluids must be considered.",
+        "Installation of seals for flanges should be considered.",
+        "Flanges or standpipes must not cover the sensing area of the sensor probes.",
+        "Sensing areas, highlighted in red, should be completely immersed in the fluid to avoid dead zones.",
+        "Stagnation zones in the sensing areas (red areas) must be avoided.",
+        "The sensing element (in red) must be in contact with the fluid."
+      ],
+      "diagram_labels": [
+        "Figure 1: Long insertion SRV (SRV-X5) with Flange Installation",
+        "Rheonics",
+        "ANSI/ASME B16.5 150LB 2\" FF",
+        "Rheonics SRV Viscometer",
+        "50 mm",
+        "[1.96\"]",
+        "Ø16 mm",
+        "[0.63\"]",
+        "SRV tip's clearance to any obstruction 5 mm [0.2\"]",
+        "Rheonics SRD Density and Viscosity Meter",
+        "35 mm",
+        "[1.4\"]",
+        "Ø35 mm",
+        "SRD tip's clearance to any obstruction 12 mm [0.5\"]",
+        "Figure 2: Rheonics SRV and SRD sensing areas"
+      ],
+      "warnings_notes": [
+        "Flanges or standpipes should not cover the sensing area of the sensor probes.",
+        "Sensing areas shown in the next Figure should be completely immersed in the fluid, avoiding dead zones.",
+        "Avoid stagnation zones in the sensing zones (red areas).",
+        "Ensure sensing element in red is in contact with fluid."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 940,
+        "cost_usd": 0.0024898
+      },
+      "source_file": "193_Flanged_Process_Density_Meter_and_Viscometer_-_norms,_rating_and_sizes.pdf"
+    },
+    {
+      "page_summary": "This page provides a compatibility table and relevant flange dimensions for Rheonics SRV and SRD sensors with various Type-SR sensor variants.",
+      "document_type": "datasheet",
+      "product_names": [
+        "Rheonics SRV",
+        "Rheonics SRD",
+        "Rheonics Type-SR sensors",
+        "Short (SR-X2)",
+        "Slimline (SR-X6)",
+        "Long insertion (SR-X5)",
+        "Long Hygienic (SR-HS-X5)"
+      ],
+      "extracted_text": "2. Compatibility table\nRheonics SRV and SRD sensors can be configured with virtually all flanges available, but some variants are better suited for some flanges due to the size, OD, ID of the matching flange, etc. The next table shows a reference for compatibility between Rheonics sensor variants and flanges under each standard.\n\nFigure 3: Relevant dimensions in Flange installations.\n\nFrom previous Figure, relevant dimensions are:\n* OD: Outer diameter of flange\n* ID: Inner diameter of matching flange and standpipe\n* T: Thickness of flanges joint\n* ST: Standpipe length, distance to the main pipe surface\n\nTable 1: Flange's size compatibility with Rheonics Type-SR sensors\nOD | ID | T | ST | Short (SR-X2) | Slimline (SR-X6) | Long insertion (SR-X5) | Long Hygienic (SR-HS-X5)\n--- | --- | --- | --- | --- | --- | --- | ---\nLess than 100 mm (4\") | Bigger than 21 mm (0.82\") | Any* | Less than 400 mm (15\") | Incompatible | Compatible | Incompatible | Incompatible\nLess than 152 mm (6\") | Bigger than 28 mm (1.1\") | Less than 25 mm (1\") | Less than 30 mm (1.2\") | Compatible | Compatible | Incompatible | Incompatible\n(Blank) | Bigger than 32 mm (1.26\") | Any* | Any* | Incompatible | Compatible | Compatible | Incompatible\n(Blank) | Bigger than 44 mm (1.73\") | Any* | Any* | Incompatible | Compatible | Compatible | Compatible",
+      "specifications": {
+        "flange_outer_diameter_max_condition_1": "Less than 100 mm (4\")",
+        "flange_outer_diameter_max_condition_2": "Less than 152 mm (6\")",
+        "flange_inner_diameter_min_condition_1": "Bigger than 21 mm (0.82\")",
+        "flange_inner_diameter_min_condition_2": "Bigger than 28 mm (1.1\")",
+        "flange_inner_diameter_min_condition_3": "Bigger than 32 mm (1.26\")",
+        "flange_inner_diameter_min_condition_4": "Bigger than 44 mm (1.73\")",
+        "flange_thickness_max_condition_1": "Less than 25 mm (1\")",
+        "flange_thickness_condition_any": "Any",
+        "flange_standpipe_length_max_condition_1": "Less than 400 mm (15\")",
+        "flange_standpipe_length_max_condition_2": "Less than 30 mm (1.2\")",
+        "flange_standpipe_length_condition_any": "Any"
+      },
+      "key_facts": [
+        "Rheonics SRV and SRD sensors are designed for configuration with a wide range of flanges, with specific variants being better suited based on flange dimensions.",
+        "The Outer Diameter (OD) refers to the outer diameter of the flange.",
+        "The Inner Diameter (ID) refers to the inner diameter of the matching flange and standpipe.",
+        "The Thickness (T) refers to the thickness of the flange joint.",
+        "The Standpipe length (ST) is the distance from the flange joint to the main pipe surface.",
+        "For flanges with OD less than 100 mm (4\"), ID bigger than 21 mm (0.82\"), any T, and ST less than 400 mm (15\"), the Slimline (SR-X6) sensor is compatible, while Short (SR-X2), Long insertion (SR-X5), and Long Hygienic (SR-HS-X5) sensors are incompatible.",
+        "For flanges with OD less than 152 mm (6\"), ID bigger than 28 mm (1.1\"), T less than 25 mm (1\"), and ST less than 30 mm (1.2\"), both Short (SR-X2) and Slimline (SR-X6) sensors are compatible, while Long insertion (SR-X5) and Long Hygienic (SR-HS-X5) sensors are incompatible.",
+        "For flanges with ID bigger than 32 mm (1.26\"), any T, and any ST, the Slimline (SR-X6) and Long insertion (SR-X5) sensors are compatible, while Short (SR-X2) and Long Hygienic (SR-HS-X5) sensors are incompatible.",
+        "For flanges with ID bigger than 44 mm (1.73\"), any T, and any ST, the Slimline (SR-X6), Long insertion (SR-X5), and Long Hygienic (SR-HS-X5) sensors are compatible, while Short (SR-X2) sensor is incompatible."
+      ],
+      "diagram_labels": [
+        "OD",
+        "ID",
+        "T",
+        "ST",
+        "rheonics"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1357,
+        "cost_usd": 0.0035322999999999995
+      },
+      "source_file": "193_Flanged_Process_Density_Meter_and_Viscometer_-_norms,_rating_and_sizes.pdf"
+    },
+    {
+      "page_num": 4,
+      "page_summary": "Extraction failed",
+      "document_type": "unknown",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "extraction_failed": true,
+      "source_file": "193_Flanged_Process_Density_Meter_and_Viscometer_-_norms,_rating_and_sizes.pdf"
+    },
+    {
+      "page_summary": "This page details the maximum pressure ratings for various Rheonics Type-SR sensor variants and provides an overview of compatible flange types, specifications, and ordering considerations.",
+      "document_type": "datasheet",
+      "product_names": [
+        "Rheonics Type-SR sensor",
+        "SR-X2",
+        "SR-X6",
+        "SR-X5",
+        "SR-HS-X5",
+        "SR-HP",
+        "SRV",
+        "SRD",
+        "SRV-SDP",
+        "SRD-API"
+      ],
+      "extracted_text": "Table 2: Maximum Pressure rating available for Rheonics Type-SR sensor variants compatible with flanges\n\n| Sensor Variant    | Maximum pressure rating available | Comment                                                                                                                                                                                                                                        |\n|-------------------|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n| Short (SR-X2)     | 500 bar (7500 psi)                | P5 pressure configuration                                                                                                                                                                                                                      |\n| Slimline (SR-X6)  | 500 bar (7500 psi)                | P5 pressure configuration                                                                                                                                                                                                                      |\n| Long (SR-X5)      | 100 bar (1500 psi)                | Should be requested upon order.                                                                                                                                                                                                                |\n| SR-HS Long (SR-HS-X5) | 100 bar (1500 psi)                | For long insertion probes with higher pressure ratings, contact Rheonics.                                                                                                                                                                                      |\n| SR-HP             | 1700 bar (25k psi)                | Contact Rheonics.                                                                                                                                                                                                                              |\n| Special solutions | 700 bar (10 000 psi)              | SRV-SDP: Sand detector probe (https://rheonics.com/solutions-item/desander-and-separator-sand-level-realtime-monitoring-for-automatic-removal/)                                                                                                     |\n|                   | 500 bar (7500 psi)                | SRD-API: API Hubs (https://rheonics.com/high-pressure-api-6a-flange-density-meter/)                                                                                                                                                            |\n\n4. Nominal size - This varies according to the size of the line or standpipe that is needed. Refer to the flange norm for sizes available.\n5. Face type - Most of the flange norms have three face types: Raised Face (RF), Flat Face (FF), and Ring-Type Joint (RTJ). Each has recommended application cases. The RF and RTJ are usually used for low, medium, and high-pressure ratings since they concentrate the pressure in a specific area of the flange. The FF face distributes pressure in all the flat faces and is not recommended for high-pressure conditions (approx. higher than 600 psi).\n6. Seal type - For each face type there are specific seal types available. Material, size, and type should be defined. Rheonics Type-SR probes should fit through the seal ID, see the minimum ID requirement in Table 1.\n\n4. Flanges for Rheonics Sensors\n\nAs mentioned before, Rheonics sensors SRV and SRD can be ordered with any flange for installation. However, some flange norms and sizes are more common than others and are usually kept in stock or sourced directly by Rheonics, leading to a faster delivery of the sensors. Whereas other flanges can be categorized as \"custom\" and may even need the client to send the flanges to Rheonics for production of sensors, this leads to a longer delivery time.\nThe next table shows the most commonly used flanges by Rheonics, these are generally kept in stock or can be sourced locally by Rheonics so the sensor can have a fast delivery time.\n\nTable 3: Common flanges for Rheonics Sensors\n\n| Norm            | Specification   | Options                           |\n|-----------------|-----------------|-----------------------------------|\n| ANSI ASME B16.5 | Sizes           | 1”, 1.5”, 2”, 3”, 4”, 6”, 8” and 16” |\n|                 | Pressure rating | 150lb, 300lb                      |\n|                 | Face type       | RF                                |\n| DIN 2527        | DN              | 25, 40, 50, 80, 100, 150, 200, 400 |\n|                 | PN              | PN40                              |\n|                 | Face type       | RF                                |",
+      "specifications": {
+        "Maximum Pressure Rating - Short (SR-X2)": "500 bar (7500 psi)",
+        "Maximum Pressure Rating - Slimline (SR-X6)": "500 bar (7500 psi)",
+        "Maximum Pressure Rating - Long (SR-X5)": "100 bar (1500 psi)",
+        "Maximum Pressure Rating - SR-HS Long (SR-HS-X5)": "100 bar (1500 psi)",
+        "Maximum Pressure Rating - SR-HP": "1700 bar (25k psi)",
+        "Maximum Pressure Rating - Special Solutions (SRV-SDP)": "700 bar (10 000 psi)",
+        "Maximum Pressure Rating - Special Solutions (SRD-API)": "500 bar (7500 psi)",
+        "Flange Face Types": "Raised Face (RF), Flat Face (FF), Ring-Type Joint (RTJ)",
+        "Recommended Use - RF": "low, medium, and high-pressure ratings",
+        "Recommended Use - RTJ": "low, medium, and high-pressure ratings",
+        "Recommended Use - FF": "not recommended for high-pressure conditions (approx. higher than 600 psi)",
+        "ANSI ASME B16.5 Flange Sizes": "1\", 1.5\", 2\", 3\", 4\", 6\", 8\", 16\"",
+        "ANSI ASME B16.5 Flange Pressure Rating": "150lb, 300lb",
+        "ANSI ASME B16.5 Flange Face Type": "RF",
+        "DIN 2527 Flange DN": "25, 40, 50, 80, 100, 150, 200, 400",
+        "DIN 2527 Flange PN": "PN40",
+        "DIN 2527 Flange Face Type": "RF"
+      },
+      "key_facts": [
+        "Rheonics Type-SR sensor variants have different maximum pressure ratings.",
+        "The nominal size of a sensor varies based on the line or standpipe requirements.",
+        "Most flange norms include three face types: Raised Face (RF), Flat Face (FF), and Ring-Type Joint (RTJ).",
+        "RF and RTJ face types concentrate pressure and are suitable for low, medium, and high-pressure applications.",
+        "The FF face type distributes pressure across flat faces and is not recommended for high-pressure conditions (above ~600 psi).",
+        "Specific seal types are available for each face type, and their material, size, and type should be defined to fit Rheonics Type-SR probes through the seal ID.",
+        "Rheonics sensors SRV and SRD can be ordered with any flange for installation.",
+        "Some flange norms and sizes are more common and are kept in stock or sourced by Rheonics for faster delivery.",
+        "Custom flanges or client-supplied flanges may result in longer delivery times.",
+        "Rheonics keeps commonly used flanges in stock or can source them locally for faster sensor delivery."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Long (SR-X5) pressure rating should be requested upon order.",
+        "For long insertion probes with higher pressure ratings (SR-HS Long), contact Rheonics.",
+        "For SR-HP pressure rating, contact Rheonics.",
+        "The Flat Face (FF) flange type is not recommended for high-pressure conditions (approx. higher than 600 psi).",
+        "Rheonics Type-SR probes should fit through the seal ID; refer to minimum ID requirements in Table 1."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1906,
+        "cost_usd": 0.0049048
+      },
+      "source_file": "193_Flanged_Process_Density_Meter_and_Viscometer_-_norms,_rating_and_sizes.pdf"
+    },
+    {
+      "page_summary": "This page details flange specifications for Rheonics sensors under various international norms and provides instructions and code formats for ordering SRV viscometers and SRD density meters.",
+      "document_type": "datasheet",
+      "product_names": [
+        "Rheonics Sensors",
+        "Rheonics SRV process viscometer",
+        "SRD density meter",
+        "Rheonics Type-SR sensor",
+        "SRV: Inline Viscometer",
+        "SRD: Inline Density and Viscosity meter"
+      ],
+      "extracted_text": "Norm                  Specification     Options\nISO 7005-1            DN                25, 40, 50, 80, 100, 150, 200, 400\n                      PN                PN40, PN100\n\nThe next table lists other flange norms that Rheonics is familiar with, but are not frequently used, which means that delivery lead times can increase. Clients can order a similar ANSI or DIN flange or may need to send the specific flange directly to Rheonics.\n\nTable 4: Less common flanges for Rheonics Sensors\n\nNorm                  Specification     Options\nUK - BS/EN 1092       DN                25, 40, 50, 80, 100\n                      PN                PN40, PN100\n                      Face type         RF\nJapan - JIS B2220     DN                25, 40, 50, 80, 100\n                      PN                5k, 10k, 16k, 20k\n                      Face type         RF\nChina - SH/T 3406-2022 DN               25, 40, 50, 80, 100\n                      Class             150lb, 300lb\nIndia - IS 13159      DN                25, 40, 50, 80, 100\n                      PN                PN50, PN100, PN150\n\n5. Ordering Rheonics SRV process viscometer and SRD density meter with Flange\n\nTo order a Rheonics product, the user should go through the RFQ form page online. (https://rheonics.com/request-for-quotation/)\nCodes relevant to flange and pressure configuration are shown below:\nTable 5: Order codes for SRV and SRD flange sensors.\nHow to order Rheonics Type-SR sensor with flange?\n\n1 2 3 4 5\nCode Form: SR_ - P_ - X_ - A__ - B_______\nExamples: SRV - P1 - X2             - A20A\n          SRD - P3 - X5 - A190 - BD50CR\n\n1 Rheonics SR- Type sensor\n  SRV: Inline Viscometer\n  SRD: Inline Density and Viscosity meter\n\n  SRV Viscometer online RFQ (https://rheonics.com/request-for-quotation/srv/)\n  SRD Density meter and viscosity meter RFQ (https://rheonics.com/request-for-quotation/srd/)",
+      "specifications": {
+        "ISO 7005-1": {
+          "DN": "25, 40, 50, 80, 100, 150, 200, 400",
+          "PN": "PN40, PN100"
+        },
+        "UK - BS/EN 1092": {
+          "DN": "25, 40, 50, 80, 100",
+          "PN": "PN40, PN100",
+          "Face type": "RF"
+        },
+        "Japan - JIS B2220": {
+          "DN": "25, 40, 50, 80, 100",
+          "PN": "5k, 10k, 16k, 20k",
+          "Face type": "RF"
+        },
+        "China - SH/T 3406-2022": {
+          "DN": "25, 40, 50, 80, 100",
+          "Class": "150lb, 300lb"
+        },
+        "India - IS 13159": {
+          "DN": "25, 40, 50, 80, 100",
+          "PN": "PN50, PN100, PN150"
+        }
+      },
+      "key_facts": [
+        "Rheonics offers flange options compliant with ISO 7005-1, UK - BS/EN 1092, Japan - JIS B2220, China - SH/T 3406-2022, and India - IS 13159 norms.",
+        "Rheonics SRV is an inline viscometer.",
+        "Rheonics SRD is an inline density and viscosity meter.",
+        "Ordering Rheonics products, including SRV viscometers and SRD density meters with flanges, requires using an online RFQ form.",
+        "Table 5 provides the specific order codes for SRV and SRD flange sensors, outlining a 'Code Form' with five segments."
+      ],
+      "diagram_labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "Rheonics SR- Type sensor"
+      ],
+      "warnings_notes": [
+        "The use of less common flange norms may result in increased delivery lead times.",
+        "Clients can order a similar ANSI or DIN flange or may need to send the specific flange directly to Rheonics for specialized requirements."
+      ],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1391,
+        "cost_usd": 0.0036173
+      },
+      "source_file": "193_Flanged_Process_Density_Meter_and_Viscometer_-_norms,_rating_and_sizes.pdf"
+    },
+    {
+      "page_summary": "This page provides a detailed guide on how to configure and order Rheonics Type-SR sensors, specifically focusing on options for pressure rating, process connection, and insertion depth.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Type-SR sensor",
+        "SR-HP",
+        "SRV-SDP",
+        "SRD-API",
+        "Rheonics Viscometer Short Custom Flange: SRV-X2",
+        "Rheonics Viscometer Long Insertion Flange - SRV-X5",
+        "Rheonics Viscometer Slimline Flange - SRV-X6"
+      ],
+      "extracted_text": "How to order Rheonics Type-SR sensor with flange?\n\n2. Pressure Rating\nDefine the pressure rating for the sensor probe.\nFor higher pressure ratings or specific solutions (SR-HP, SRV-SDP, SRD-API, etc.) contact Rheonics Sales Team directly at info@rheonics.com\n\nPressure (select one) *\nNote: For X5 long insertion sensor probes, maximum pressure rating is 100 bar (1500 psi).\n\nP1: 15 bar (200 psi) : Sensor rated for process fluids pressure up to 15 bar (200 psi)\nP2: 70 bar (1000 psi) : Sensor rated for process fluids pressure up to 70 bar (1000 psi)\nP3: 200 bar (3000 psi) : Sensor rated for process fluids pressure up to 200 bar (3000 psi)\nP4: 350 bar (5000 psi) : Sensor rated for process fluids pressure up to 350 bar (5000 psi)\nP5: 500 bar (7500 psi) : Sensor rated for process fluids pressure up to 500 bar (7500 psi)\n\n3. Process Connection Configuration\nDefine the process connection from the options shown*.\nProbe variants compatible with flanges are:\n\n-X2: Short variant. Define flange with norm, size, pressure rating, etc.\n-X5: Long insertion variant. Define flange with norm, size, pressure rating, etc.\n-X6: Slimline long insertion variant. Define flange with norm, size, pressure rating, etc.\n\n*Rheonics can keep adding new process connection variants.\n\nProcess Connection (Select one) *\n\nX1: 3/4\" NPT threaded probe (Article)\nX1: G 1/2\" BSPP threaded probe (Article)\nX2: Probe with Flange, specify flange DN/PN in box below (Article)\nX3: Probe with Tri-Clamp, specify TC norm & size in box below (Article)\nX4: Flush probe, specify flange type, norm & size in box below (Article)\nX5: Long insertion probe (FPC), select A & B in sections below (Article)\nX6: Slimline probe (SLP), select A & B in sections below (Drawing)\nX7: Reactor probe (RP), select L & B in sections below (Drawing)\n\nFor X2, X3, X4: Specify type, norm and size of process connection: [Input field]\n\nFor X5, X6 and X7: Use the following fields to specify further configuration\n\n4. Insertion Depth - \"A\" - If applicable\nOnly applicable for the -X5 and -X6.\nThe insertion length should be defined, this is the distance between the sensor tip and the flange. Probe wetted zone.\n\nA: Insertion Length - For X5 and X6, input insertion length of probe, A (in mm) in box below. Specify unit if other than mm. [Input field]\nL: Total Probe Length - For X7 [Dropdown]\n\n5. Process Connection \"B\"\nProcess connection should be defined by the user for all flanges with norm, size, pressure rating, etc.\nRheonics will then create the corresponding flange's code.\nPrefix \"B\" is omitted for -X2 sensors, only using flange's code.\nExamples:\n\nA20A: ANSI Flange 2\" 150lb RF\nD50CR: DIN Flange DN50 PN40 RF\n\nFor X2, X3, X4: Specify type, norm and size of process connection: [Input field]\n\nFor X5, X6 and X7: Use the following fields to specify further configuration\n\nA: Insertion Length - For X5 and X6, input insertion length of probe, A (in mm) in box below. Specify unit if other than mm. [Input field]\nL: Total Probe Length - For X7 [Dropdown]\nB: Process connection type, norm and size - For X5, X6 and X7 [Input field]\n\nIf a hygienic sensor probe is needed, select the certification required - EHEDG or 3A. Options can be found in the RFQ.\nComplete the RFQ form (https://rheonics.com/request-for-quotation/) with missing details (viscosity and/or density range, calibration accuracy, temperature rating, etc.), submit the form, and the Sales Team will contact you soon.\n\nRelated Articles\n1. Rheonics Viscometer Short Custom Flange: SRV-X2 (https://support.rheonics.com/en/support/solutions/articles/81000410684-srv-x2-custom-flange)\n2. Rheonics Viscometer Long Insertion Flange - SRV-X5 (https://support.rheonics.com/en/support/solutions/articles/81000411102-srv-x5-long-insertion-probe)\n3. Rheonics Viscometer Slimline Flange - SRV-X6 (https://support.rheonics.com/en/support/solutions/articles/81000412401-srv-x6-slp-slimline-viscometer)",
+      "specifications": {
+        "pressure_rating_P1": "15 bar (200 psi)",
+        "pressure_rating_P2": "70 bar (1000 psi)",
+        "pressure_rating_P3": "200 bar (3000 psi)",
+        "pressure_rating_P4": "350 bar (5000 psi)",
+        "pressure_rating_P5": "500 bar (7500 psi)",
+        "max_pressure_X5_long_insertion_probe": "100 bar (1500 psi)",
+        "probe_variant_X2": "Short variant",
+        "probe_variant_X5": "Long insertion variant",
+        "probe_variant_X6": "Slimline long insertion variant",
+        "process_connection_X1_NPT": "3/4\" NPT threaded probe",
+        "process_connection_X1_BSPP": "G 1/2\" BSPP threaded probe",
+        "process_connection_X2": "Probe with Flange (DN/PN)",
+        "process_connection_X3": "Probe with Tri-Clamp (TC norm & size)",
+        "process_connection_X4": "Flush probe (flange type, norm & size)",
+        "process_connection_X5": "Long insertion probe (FPC)",
+        "process_connection_X6": "Slimline probe (SLP)",
+        "process_connection_X7": "Reactor probe (RP)",
+        "hygienic_probe_certifications": "EHEDG or 3A",
+        "insertion_length_unit": "mm (default)"
+      },
+      "key_facts": [
+        "The document provides a step-by-step guide for ordering Rheonics Type-SR sensors with flange connections.",
+        "Customers must define the sensor's pressure rating, process connection configuration, and insertion depth (if applicable).",
+        "For high-pressure applications or specific solutions (SR-HP, SRV-SDP, SRD-API), direct contact with Rheonics Sales Team is required.",
+        "The Type-SR sensor is available in several probe variants, including -X2 (short), -X5 (long insertion), and -X6 (slimline long insertion), each requiring specific flange definition parameters like norm, size, and pressure rating.",
+        "The insertion length ('A'), relevant for -X5 and -X6 variants, represents the distance from the sensor tip to the flange, defining the probe's wetted zone.",
+        "Process connection options range from threaded (NPT, BSPP) to various flange types, Tri-Clamp, flush, long insertion, slimline, and reactor probes.",
+        "Hygienic sensor probes necessitate specific certifications such as EHEDG or 3A.",
+        "An online Request for Quotation (RFQ) form is available for customers to submit detailed requirements for customized orders, including viscosity/density range, calibration accuracy, and temperature rating."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Note: For X5 long insertion sensor probes, maximum pressure rating is 100 bar (1500 psi).",
+        "*Rheonics can keep adding new process connection variants."
+      ],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 2117,
+        "cost_usd": 0.0054323
+      },
+      "source_file": "193_Flanged_Process_Density_Meter_and_Viscometer_-_norms,_rating_and_sizes.pdf"
+    },
+    {
+      "page_summary": "This page lists links to support articles for three different Rheonics density meter models, categorized by their flange or insertion type.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics Density meter Short Custom Flange: SRD-X2",
+        "Rheonics Density meter Long Insertion Flange - SRD-X5",
+        "Rheonics Density meter Slimline Flange - SRD-X6",
+        "SRD-X2",
+        "SRD-X5",
+        "SRD-X6"
+      ],
+      "extracted_text": "3. Rheonics Density meter Short Custom Flange: SRD-X2\n(https://support.rheonics.com/en/support/solutions/articles/81000410685-srd-x2-custom-flange)\n4. Rheonics Density meter Long Insertion Flange - SRD-X5\n(https://support.rheonics.com/en/support/solutions/articles/81000411193-srd-x5-long-insertion-probe)\n5. Rheonics Density meter Slimline Flange - SRD-X6\n(https://support.rheonics.com/en/support/solutions/articles/81000412461-srd-x6-slp-slimline-density-meter)",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics offers a Short Custom Flange density meter, model SRD-X2, with a dedicated support article.",
+        "Rheonics provides a Long Insertion Flange density meter, model SRD-X5, with its own support documentation.",
+        "A Slimline Flange density meter, model SRD-X6, is available from Rheonics, supported by an online article."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 8,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 453,
+        "cost_usd": 0.0012723
+      },
+      "source_file": "193_Flanged_Process_Density_Meter_and_Viscometer_-_norms,_rating_and_sizes.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": [
+      4
+    ]
+  }
+}

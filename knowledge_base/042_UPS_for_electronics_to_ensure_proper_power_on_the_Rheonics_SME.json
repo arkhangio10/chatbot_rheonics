@@ -1,0 +1,261 @@
+{
+  "source_file": "042_UPS_for_electronics_to_ensure_proper_power_on_the_Rheonics_SME.pdf",
+  "total_pages": 4,
+  "chunks": [
+    {
+      "page_summary": "This page discusses the importance and application of uninterruptible power supplies (UPS), specifically DIN rail industrial UPS, to ensure stable 24V DC power for Rheonics Smart Module Electronics (SME) and associated sensors like SRV, SRD, DVP, and DVM in industrial settings.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "Rheonics SME",
+        "Smart Module Electronics (SME)",
+        "SRV",
+        "SRD",
+        "DVP",
+        "DVM",
+        "UPS",
+        "DIN rail industrial UPS",
+        "Uninterruptible Power Supply"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nUPS for electronics to ensure proper power on the Rheonics SME\n\nModified on: Mon, 27 Jan, 2025 at 8:59 PM\n\nTABLE OF CONTENTS\n* 1. What products are involved in this article?\n* 2. What is the purpose of this article?\n* 3. What is a din rail industrial ups?\n* 4. Reliable Power Protection for Industrial Applications\n* 5. Minimizes Downtime During Power Outages\n* 6. Why is it Important?\n* 7. How to size an Industrial UPS to protect the Rheonics SME?\n* 8. Recommended UPS(excl. battery)\n* 9. Resources\n\n1. What products are involved in this article?\nThis article is based on the use of the SME (Smart Module Electronics) from SRV, SRD, DVP, and DVM. It highlights the use of a UPS to stabilize the 24V DC power supply, ensuring reliable sensor performance. While a UPS is beneficial for power stability, it is not required for normal operation.\n\n2. What is the purpose of this article?\nThis article guides using Smart Module Electronics (SME) with Rheonics sensors—SRV, SRD, DVP, and DVM. It highlights the use of UPS to stabilize the 24V DC power supply, ensuring reliable sensor performance.\n\n3. What is a din rail industrial ups?\nA DIN rail industrial UPS (Uninterruptible Power Supply) is a backup power device specifically designed to provide stable, continuous power to industrial systems in the event of a power interruption. Mounted on a standard DIN rail, this type of UPS is built to support critical equipment, such as control panels, instrumentation, networking, and automation systems in industrial environments.\nKey points when selecting a DIN rail industrial UPS:\n\n4. Reliable Power Protection for Industrial Applications\n1. Ensures uninterrupted power and backup for critical systems, including control and instrumentation equipment.\n2. Built to support demanding industrial environments like factories, warehouses, and edge computing locations.\n3. Protects sensitive control and instrumentation from power fluctuations, ensuring stable and precise operations.",
+      "specifications": {
+        "DC power supply voltage": "24V DC"
+      },
+      "key_facts": [
+        "The article focuses on using a UPS to stabilize the 24V DC power supply for Rheonics Smart Module Electronics (SME) and associated sensors (SRV, SRD, DVP, DVM).",
+        "A UPS is beneficial for power stability in Rheonics SME and sensor applications, though it is not strictly required for normal operation.",
+        "The purpose of the article is to guide users on employing UPS with Rheonics SME and sensors to ensure reliable sensor performance.",
+        "A DIN rail industrial UPS is a backup power device designed to provide stable, continuous power to industrial systems during power interruptions.",
+        "DIN rail industrial UPS are mounted on a standard DIN rail and support critical equipment in industrial environments, including control panels, instrumentation, networking, and automation systems.",
+        "Reliable power protection provided by a DIN rail industrial UPS ensures uninterrupted power and backup for critical control and instrumentation systems.",
+        "Industrial UPS are built to operate in demanding industrial environments such as factories, warehouses, and edge computing locations.",
+        "Industrial UPS protect sensitive control and instrumentation from power fluctuations, leading to stable and precise operations."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 945,
+        "cost_usd": 0.0025023
+      },
+      "source_file": "042_UPS_for_electronics_to_ensure_proper_power_on_the_Rheonics_SME.pdf"
+    },
+    {
+      "page_summary": "This page discusses the importance of industrial UPS systems to minimize downtime during power outages, provides guidance on how to size a UPS for Rheonics SME devices, and recommends a specific Schneider Electric model.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "Rheonics SME",
+        "Schneider Electric BVS240XDPDR",
+        "Schneider Electric Easy UPS"
+      ],
+      "extracted_text": "4. Offers extendable backup runtime with optional battery modules, maintaining service during power disruptions.\n\n5. Minimizes Downtime During Power Outages\n   1. Offers runtime to keep operations active during brief power losses and allows for safe shutdown during extended outages, protecting both data and equipment.\n   2. Shields systems from brownouts, surges, overvoltages, and line noise, preserving the integrity of control and instrumentation systems and reducing costly downtime.\n\n6. Why is it Important?\n   In industrial environments, even brief power interruptions can halt operations, damage equipment, and cause costly downtime. A DIN rail industrial UPS provides backup power, allowing for safe shutdowns and protecting productivity and equipment during power disturbances.\n\n7. How to size an Industrial UPS to protect the Rheonics SME?\n   Proper UPS sizing is crucial to ensure that connected equipment receives stable, uninterrupted power during outages and voltage fluctuations. If a UPS is undersized, it may fail to provide adequate power, leading to unexpected shutdowns, data loss, and potential damage to sensitive devices.\n   1. Voltage Compatibility: Ensure UPS provides stable 24V DC within the device's 18-36V range.\n   2. Power Requirements: Choose a UPS with at least 5W to cover the device's 3W max power need.\n   3. Current Requirements: Select a UPS that supplies at least 200 mA for reliable operation.\n   4. Battery Runtime: Choose sufficient battery capacity for a desired backup time.\n   5. Final UPS Selection: Pick a rugged, DIN-rail UPS that meets voltage, power, and runtime requirements.\n\n8. Recommended UPS(excl. battery)\n   8.1. Schneider Electric BVS240XDPDR\n   The Schneider Electric Easy UPS family includes the Industrial UPS 24V DC DIN Rail model, a 240W UPS designed to provide DC input and output for industrial equipment support.\n\nFigure 1. Schneider Electric BVS240XDPDR[1]",
+      "specifications": {
+        "Rheonics SME voltage compatibility range": "18-36V",
+        "Rheonics SME max power need": "3W",
+        "Recommended UPS output voltage": "24V DC",
+        "Minimum recommended UPS power output": "5W",
+        "Minimum recommended UPS current output": "200 mA",
+        "Schneider Electric BVS240XDPDR power output": "240W",
+        "Schneider Electric BVS240XDPDR DC input/output current": "10A"
+      },
+      "key_facts": [
+        "A DIN rail industrial UPS provides backup power, allowing for safe shutdowns and protecting productivity and equipment during power disturbances in industrial environments.",
+        "Proper UPS sizing is crucial for ensuring connected equipment receives stable, uninterrupted power and prevents unexpected shutdowns, data loss, and damage to sensitive devices.",
+        "The Rheonics SME device requires a stable 24V DC power supply within an 18-36V range and has a maximum power consumption of 3W.",
+        "A suitable UPS for the Rheonics SME should supply at least 5W and 200 mA.",
+        "The Schneider Electric BVS240XDPDR is a recommended 240W Industrial UPS 24V DC DIN Rail model from the Easy UPS family, suitable for industrial equipment support."
+      ],
+      "diagram_labels": [
+        "Schneider Electric",
+        "Easy UPS",
+        "External Battery",
+        "24V",
+        "Remote On/Off",
+        "On Battery",
+        "Replace Battery",
+        "Missing Battery",
+        "Low Battery",
+        "DC Input",
+        "DC Output",
+        "24V",
+        "10A",
+        "Figure 1. Schneider Electric BVS240XDPDR[1]"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 977,
+        "cost_usd": 0.0025823
+      },
+      "source_file": "042_UPS_for_electronics_to_ensure_proper_power_on_the_Rheonics_SME.pdf"
+    },
+    {
+      "page_summary": "This page describes two industrial UPS systems, the Eaton DIN24240DC and the Phoenix Contact QUINT 4, detailing their features, applications, and providing specifications for the Eaton unit.",
+      "document_type": "manual",
+      "product_names": [
+        "Eaton DIN24240DC",
+        "DIN24240DC",
+        "EATON DIN Rail UPS DIN24240DC",
+        "Phoenix Contact QUINT 4",
+        "QUINT UPS"
+      ],
+      "extracted_text": "8.2. Eaton DIN24240DC\nThe DIN24240DC standby UPS system with hardwire DC input/output delivers reliable power and battery backup for computing, networking, control, and storage equipment in factories.\n\nEATON DIN Rail UPS\nDC/DC POWER SUPPLY\nCatalog No: DIN24240DC\nInput: 22.5-29V 10.5A\nOutput: 24.5V 10.5A, 248.9W\nS/N:\nMEP\nNOT FOR SALE\nMade in China\n\nPower\nFault\nBAT (+)\nBAT (-)\nPower On/Off\nRemote On/Off\nOn Battery\nReplace Battery\nBattery Missing\nLow Battery\nCOM\nInput (+)\nInput (-)\nOutput (+)\nOutput (-)\n\nFigure 2. Eaton DIN24240DC standby UPS system[2]\n\n8.3. Phoenix Contact QUINT 4\nThe intelligent QUINT UPS integrates seamlessly into industrial networks, ensuring uninterrupted power supply to your systems, even during mains failures.",
+      "specifications": {
+        "Input Voltage Range": "22.5-29 V",
+        "Input Current": "10.5 A",
+        "Output Voltage": "24.5 V",
+        "Output Current": "10.5 A",
+        "Output Power": "248.9 W"
+      },
+      "key_facts": [
+        "The Eaton DIN24240DC is a standby UPS system with hardwire DC input/output.",
+        "The Eaton DIN24240DC delivers reliable power and battery backup for computing, networking, control, and storage equipment in factories.",
+        "The Phoenix Contact QUINT UPS is an intelligent UPS system.",
+        "The Phoenix Contact QUINT UPS integrates seamlessly into industrial networks.",
+        "The Phoenix Contact QUINT UPS ensures uninterrupted power supply to systems, even during mains failures."
+      ],
+      "diagram_labels": [
+        "EATON",
+        "DIN Rail UPS",
+        "DIN24240DC",
+        "Power",
+        "Fault",
+        "BAT (+)",
+        "BAT (-)",
+        "Power On/Off",
+        "Remote On/Off",
+        "On Battery",
+        "Replace Battery",
+        "Battery Missing",
+        "Low Battery",
+        "COM",
+        "Input (+)",
+        "Input (-)",
+        "Output (+)",
+        "Output (-)",
+        "DC/DC POWER SUPPLY",
+        "Catalog No: DIN24240DC",
+        "Input: 22.5-29V 10.5A",
+        "Output: 24.5V 10.5A, 248.9W",
+        "S/N",
+        "MEP",
+        "NOT FOR SALE",
+        "Made in China"
+      ],
+      "warnings_notes": [
+        "NOT FOR SALE"
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 846,
+        "cost_usd": 0.0022547999999999995
+      },
+      "source_file": "042_UPS_for_electronics_to_ensure_proper_power_on_the_Rheonics_SME.pdf"
+    },
+    {
+      "page_summary": "This page displays an image of a Phoenix Contact QUINT4-UPS DC uninterruptible power supply, detailing its key specifications and providing a list of external resources for related industrial UPS systems.",
+      "document_type": "manual",
+      "product_names": [
+        "QUINT DC-UPS Ord.No.2907071",
+        "QUINT4-UPS",
+        "BVS240XDPDR easy-ups-control-module-24v-dcdc-din-rail-industrial-10a",
+        "240w-din-rail-dc-ups-system-industrial-machine-control~DIN24240DC",
+        "uninterruptible-power-supply-quint4-ups-24dc-24dc-20-2907071"
+      ],
+      "extracted_text": "Figure 3. Phoenix contact QUINT4-UPS [3]\n\n9. Resources\n1. https://www.se.com/us/en/product/BVS240XDPDR/easy-ups-control-module-24v-dcdc-din-rail-industrial-10a/?range=61924-industrial-ups&parent-subcategory-id=8060&filter=business-3-critical-power-cooling-and-racks&selectedNodeId=27602447767\n2. https://tripplite.eaton.com/240w-din-rail-dc-ups-system-industrial-machine-control~DIN24240DC\n3. https://www.phoenixcontact.com/en-pc/products/uninterruptible-power-supply-quint4-ups-24dc-24dc-20-2907071\n\n[On Device Labels]\nQUINT DC-UPS Ord.No.2907071\nInput\nOutput DC 24V 20A\nSignal 24V 20mA\nAlarm\nBat.-Mode\nReady\nRemote\nPS Boost\nBat.-Start\nSGnd\nSOC\nAlarm\nBat.-Mode\nDC OK\ntmax [min]\nService Press < 6 sec\nBattery DC 24V\nPHOENIX CONTACT\nD-32825 Blomberg\nInput: 24V (DC)\nOutput: 24V - 20A, -25°C to 70°C\n-40°C to 70°C (with derating)\nMade by Phoenix Contact in China\nCE cULus EAC",
+      "specifications": {
+        "Output Voltage": "24 V DC",
+        "Output Current": "20 A",
+        "Signal Output": "24 V 20 mA",
+        "Battery Voltage": "24 V DC",
+        "Operating Temperature": "-25°C to 70°C",
+        "Operating Temperature (with derating)": "-40°C to 70°C",
+        "Order Number": "2907071",
+        "Service Button Press Time": "< 6 sec",
+        "tmax Settings": "1 min, 2 min, 3 min, 5 min, 10 min, 15 min, 20 min"
+      },
+      "key_facts": [
+        "The document features a Phoenix Contact QUINT4-UPS, which is a DC uninterruptible power supply.",
+        "The UPS has an output of 24V DC at 20A.",
+        "It includes a signal output providing 24V at 20mA.",
+        "The device is designed to operate with a 24V DC battery.",
+        "It has an operating temperature range of -25°C to 70°C, extendable to -40°C with derating.",
+        "The product is manufactured by Phoenix Contact in China.",
+        "Several external resources related to industrial UPS control modules and din-rail DC-UPS systems are provided from manufacturers like Schneider Electric, Eaton, and Phoenix Contact."
+      ],
+      "diagram_labels": [
+        "QUINT DC-UPS Ord.No.2907071",
+        "1.1",
+        "1.2",
+        "2.1",
+        "2.2",
+        "Input",
+        "Output",
+        "DC 24V 20A",
+        "Signal",
+        "24V 20mA",
+        "Alarm",
+        "Bat.-Mode",
+        "Ready",
+        "Remote",
+        "PS Boost",
+        "Bat.-Start",
+        "SGnd",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "3.5",
+        "3.6",
+        "3.7",
+        "3.8",
+        "3.9",
+        "SOC",
+        "DC OK",
+        "tmax [min]",
+        "1",
+        "2",
+        "3",
+        "5",
+        "10",
+        "15",
+        "20",
+        "Service Press < 6 sec",
+        "Battery DC 24V",
+        "4.1",
+        "4.2",
+        "4.3",
+        "PHOENIX CONTACT",
+        "D-32825 Blomberg",
+        "Input: 24V (DC)",
+        "Output: 24V - 20A, -25°C to 70°C",
+        "-40°C to 70°C (with derating)",
+        "Made by Phoenix Contact in China",
+        "QR code",
+        "CE",
+        "cULus",
+        "EAC"
+      ],
+      "warnings_notes": [
+        "A triangular warning symbol is visible on the device, implying a warning or caution.",
+        "The product is compliant with CE, cULus, and EAC standards.",
+        "The product is manufactured by Phoenix Contact in China."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1449,
+        "cost_usd": 0.0037622999999999997
+      },
+      "source_file": "042_UPS_for_electronics_to_ensure_proper_power_on_the_Rheonics_SME.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

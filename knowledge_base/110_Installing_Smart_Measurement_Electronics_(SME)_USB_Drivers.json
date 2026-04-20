@@ -1,0 +1,87 @@
+{
+  "source_file": "110_Installing_Smart_Measurement_Electronics_(SME)_USB_Drivers.pdf",
+  "total_pages": 2,
+  "chunks": [
+    {
+      "page_summary": "This page provides step-by-step instructions for installing Smart Measurement Electronics (SME) USB drivers on Windows 10 and Windows 7 operating systems for Rheonics sensors.",
+      "document_type": "manual",
+      "product_names": [
+        "Smart Measurement Electronics (SME)",
+        "Rheonics Control Panel",
+        "Rheonics sensor"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nInstalling Smart Measurement Electronics (SME) USB Drivers\n\nModified on: Fri, 3 Jul, 2020 at 11:58 AM\n\nThe USB driver provides a virtual COM-Port on the computer used for the Rheonics Control Panel.\n\nFor Windows 10 users: The Drivers should install automatically when the computer detects the sensor connected on USB port (Device manager will show the sensor on a COM port).\n\nFor Windows 7 users:\n1. Connect the SME to the computer with the USB cable.\n2. If the Windows does not find the drivers automatically, install the drivers manually.\n3. The drivers will be located in the folder _DRIVERS on the flash drive. If you received a zip archive of the drivers. Extract the zip folder to your computer.\n4. Select ‘Browse my computer for driver software’ and navigate to the USB driver folder: _DRIVERS\\ USB\\CDC\n5. Ensure subfolder checkbox is selected.\n6. Click Next and the driver will be installed.\n7. On successful installation, the rheonics sensor will show up as SME in the device manager Ports (COM & LPT) list.",
+      "specifications": {},
+      "key_facts": [
+        "The USB driver for Smart Measurement Electronics (SME) creates a virtual COM-Port on the computer for use with the Rheonics Control Panel.",
+        "For Windows 10 users, SME USB drivers are expected to install automatically upon connecting the sensor via USB.",
+        "For Windows 7 users, manual driver installation is required if the system does not automatically find the drivers.",
+        "The SME drivers are located in the `_DRIVERS` folder on the provided flash drive or within a distributed zip archive.",
+        "The specific path to navigate for the USB driver folder during manual installation is `_DRIVERS\\ USB\\CDC`.",
+        "During manual installation on Windows 7, ensure the subfolder checkbox is selected.",
+        "Upon successful driver installation, the Rheonics sensor will appear as 'SME' in the 'Ports (COM & LPT)' section of the Device Manager."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 604,
+        "cost_usd": 0.0016498
+      },
+      "source_file": "110_Installing_Smart_Measurement_Electronics_(SME)_USB_Drivers.pdf"
+    },
+    {
+      "page_summary": "A screenshot of the Windows Device Manager application, displaying a hierarchical list of connected hardware devices and highlighting a 'USB Serial Device' assigned to 'COM12' under the 'Ports (COM & LPT)' category.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Device Manager\nFile Action View Help\n\nJungo Connectivity\nKeyboards\nMemory technology devices\nMice and other pointing devices\nMonitors\nNetwork adapters\nPortable Devices\nPorts (COM & LPT)\n  USB Serial Device (COM12)\nPrint queues\nPrinters\nProcessors\nSoftware devices\nSound, video and game controllers\nStorage controllers\nSystem devices\nUniversal Serial Bus controllers\nWSD Print Provider",
+      "specifications": {},
+      "key_facts": [
+        "The Windows Device Manager is open and displayed.",
+        "The 'Ports (COM & LPT)' category is expanded.",
+        "A device labeled 'USB Serial Device' is detected and assigned to 'COM12'.",
+        "The 'USB Serial Device (COM12)' entry is highlighted, indicating it is currently selected."
+      ],
+      "diagram_labels": [
+        "Device Manager",
+        "File",
+        "Action",
+        "View",
+        "Help",
+        "Jungo Connectivity",
+        "Keyboards",
+        "Memory technology devices",
+        "Mice and other pointing devices",
+        "Monitors",
+        "Network adapters",
+        "Portable Devices",
+        "Ports (COM & LPT)",
+        "USB Serial Device (COM12)",
+        "Print queues",
+        "Printers",
+        "Processors",
+        "Software devices",
+        "Sound, video and game controllers",
+        "Storage controllers",
+        "System devices",
+        "Universal Serial Bus controllers",
+        "WSD Print Provider"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 458,
+        "cost_usd": 0.0012848
+      },
+      "source_file": "110_Installing_Smart_Measurement_Electronics_(SME)_USB_Drivers.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

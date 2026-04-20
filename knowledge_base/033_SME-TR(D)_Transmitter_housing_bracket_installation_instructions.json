@@ -1,0 +1,68 @@
+{
+  "source_file": "033_SME-TR(D)_Transmitter_housing_bracket_installation_instructions.pdf",
+  "total_pages": 2,
+  "chunks": [
+    {
+      "page_summary": "This page provides installation instructions and descriptive details for the Rheonics SME-TR(D) transmitter housing bracket, including its material and purpose.",
+      "document_type": "manual",
+      "product_names": [
+        "SME-TR(D)",
+        "Transmitter housing bracket",
+        "transmitter bracket"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nSME-TR(D) Transmitter housing bracket installation instructions\n\nModified on: Fri, 18 Sep, 2020 at 12:59 PM\n\nInstallation instructions including pictures for the bracket mount.\n\nA transmitter bracket can be ordered from Rheonics for mounting the transmitter housing to a pipe. The bracket is made of stainless steel.\n\nBracket photo:\n\nMounted transmitter with bracket:",
+      "specifications": {
+        "bracket_material": "stainless steel"
+      },
+      "key_facts": [
+        "The document provides installation instructions for the SME-TR(D) Transmitter housing bracket.",
+        "The document was last modified on Friday, September 18, 2020, at 12:59 PM.",
+        "The transmitter bracket can be ordered from Rheonics.",
+        "The bracket is used for mounting the transmitter housing to a pipe.",
+        "The bracket is made of stainless steel.",
+        "Rheonics can be contacted via phone at +1 713 234 0863."
+      ],
+      "diagram_labels": [
+        "Bracket photo:",
+        "Mounted transmitter with bracket:"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 395,
+        "cost_usd": 0.0011273000000000001
+      },
+      "source_file": "033_SME-TR(D)_Transmitter_housing_bracket_installation_instructions.pdf"
+    },
+    {
+      "page_summary": "This page displays two CAD renderings illustrating the mounting configurations of an industrial sensor, showing it attached to a horizontal pipe and a vertical pole.",
+      "document_type": "drawing",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [
+        "The device shown can be mounted on a horizontal pipe or tube.",
+        "The device can also be mounted on a vertical pole or pipe.",
+        "The mounting system utilizes a bracket and a U-bolt type fastener.",
+        "The sensor unit has a main body with an orange/bronze color and a grey top section.",
+        "Visible ports on the side of the sensor unit appear to contain a green internal element."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 195,
+        "cost_usd": 0.0006272999999999999
+      },
+      "source_file": "033_SME-TR(D)_Transmitter_housing_bracket_installation_instructions.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

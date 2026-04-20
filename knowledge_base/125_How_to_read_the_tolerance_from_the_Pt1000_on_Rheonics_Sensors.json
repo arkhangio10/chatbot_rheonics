@@ -1,0 +1,84 @@
+{
+  "source_file": "125_How_to_read_the_tolerance_from_the_Pt1000_on_Rheonics_Sensors.pdf",
+  "total_pages": 2,
+  "chunks": [
+    {
+      "page_summary": "This page explains how to interpret the tolerance for Pt1000 RTD sensors used in Rheonics products, detailing what a Pt1000 is, its benefits, standard configurations based on DIN EN 60751, and how to understand and achieve different tolerance classes.",
+      "document_type": "notes",
+      "product_names": [
+        "Pt1000",
+        "Rheonics Sensors",
+        "Rheonics SRV inline viscometer"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nHow to read the tolerance from the Pt1000 on Rheonics Sensors?\n\nModified on: Fri, 30 Sep, 2022 at 11:20 PM\n\n1. What is a Pt1000?\n\nSensors such as the Pt1000 belong to a class of sensors called RTDs, or Resistance Temperature Detectors. These sensors have a strong temperature-dependent electrical resistance. By measuring the resistance of the Pt1000, one can then calculate the temperature of the RTD.\n\nThe first part of the Pt1000, 'Pt', indicates that the sensor is Platinum-based. At 0°C, the second part, 1000, shows the nominal resistance of the sensor. As in this case, 1000Ω.\n\n2. Benefits of using a Pt1000\n\n1. Temperature-resistance relationship is almost linear\n2. Non-degradable electrical resistance over time\n3. Excellent stability\n4. Very good chemical passivity\n5. High resistance to contamination\n\n3. Standard sensor configuration\n\nThe standard configuration for all Rheonics sensors are based on the standard DIN EN 60751 for tolerance. The tolerance for different classes of RTD is as in the table below:\n\nTolerance Class | Tolerance Value*\nAA | ±(0.1 + 0.0017|t|)\nA | ±(0.15 + 0.002|t|)\nB | ±(0.3 + 0.005|t|)\nC | ±(0.6 + 0.01|t|)\n\nTable 1. Tolerance class table for DIN EN 60751\n\n*abs(t)= absolute value of temperature in °C without regard to sign.\n\n4. What does this tolerance mean for Rheonics sensor?\n\nRheonics sensors by default use tolerance class B.\n\nThe tolerance table can be used to estimate the tolerance from sensor measurement based on the temperature that it is reading.\n\nHere is an example:\nIf the temperature is -10°C, then the accuracy is 0.3+(0.005*10) = 0.35, it will be same at 10°C i.e., the accuracy at 10°C, or at -10°C is within ±0.35°C.\n\n5. Ok, but now I want readings with a better tolerance than the one that you off\n\nRheonics sensor are also delivered with Class A and Class AA tolerances.\n\nThese need to be ordered as an additional service and have an additional calibration surcharge.\n\nThe DIN EN 60751 tolerance table (Table 1) is used and the procedure shown above is used to calculate the accuracy.\n\nReferences\n\nRheonics SRV inline viscometer with inbuilt temperature sensor: https://rheonics.com/products/inline-viscometer-srv/",
+      "specifications": {
+        "Nominal Resistance (Pt1000 at 0°C)": "1000 Ω",
+        "Tolerance Class AA": "±(0.1 + 0.0017|t|) °C",
+        "Tolerance Class A": "±(0.15 + 0.002|t|) °C",
+        "Tolerance Class B": "±(0.3 + 0.005|t|) °C",
+        "Tolerance Class C": "±(0.6 + 0.01|t|) °C",
+        "Accuracy at -10°C (Class B)": "±0.35 °C",
+        "Accuracy at 10°C (Class B)": "±0.35 °C"
+      },
+      "key_facts": [
+        "Pt1000 sensors are Resistance Temperature Detectors (RTDs) that use Platinum and have a nominal resistance of 1000Ω at 0°C.",
+        "Benefits of using a Pt1000 include a nearly linear temperature-resistance relationship, non-degradable electrical resistance over time, excellent stability, very good chemical passivity, and high resistance to contamination.",
+        "All Rheonics sensors' standard configuration for tolerance is based on the DIN EN 60751 standard.",
+        "Rheonics sensors are supplied by default with tolerance class B.",
+        "Rheonics sensors can also be delivered with Class A and Class AA tolerances upon request.",
+        "The DIN EN 60751 tolerance table is used to calculate accuracy for Rheonics sensors."
+      ],
+      "diagram_labels": [
+        "Tolerance Class",
+        "Tolerance Value*",
+        "AA",
+        "A",
+        "B",
+        "C",
+        "Table 1. Tolerance class table for DIN EN 60751"
+      ],
+      "warnings_notes": [
+        "*abs(t)= absolute value of temperature in °C without regard to sign.",
+        "Class A and Class AA tolerances need to be ordered as an additional service and have an additional calibration surcharge."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1326,
+        "cost_usd": 0.0034547999999999996
+      },
+      "source_file": "125_How_to_read_the_tolerance_from_the_Pt1000_on_Rheonics_Sensors.pdf"
+    },
+    {
+      "page_summary": "This page lists three Rheonics inline density and viscosity sensors, highlighting their features and providing direct links to their respective product pages.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics SRD inline density meter",
+        "Rheonics DVP probe style inline density and viscosity sensor",
+        "Rheonics HPHT inline viscosity and density sensor DVM"
+      ],
+      "extracted_text": "Rheonics SRD inline density meter with viscosity and temperature output: https://rheonics.com/products/inline-density-meter-srd/ (https://rheonics.com/products/inline-density-meter-srd/)\n\nRheonics DVP probe style inline density and viscosity sensor for HPHT conditions: https://rheonics.com/products/inline-gas-lng-density-meter-dvp/\n\nRheonics HPHT inline viscosity and density sensor DVM with 3-in-1 measurements at HPHT conditions, all simultaneously: https://rheonics.com/products/hpht-pvt-density-meter-viscometer-dvm/ (https://rheonics.com/products/hpht-pvt-density-meter-viscometer-dvm)",
+      "specifications": {},
+      "key_facts": [
+        "The Rheonics SRD inline density meter provides viscosity and temperature output.",
+        "The Rheonics DVP is a probe-style inline density and viscosity sensor designed for HPHT (High Pressure High Temperature) conditions.",
+        "The Rheonics HPHT inline viscosity and density sensor DVM performs 3-in-1 measurements (likely viscosity, density, and temperature/pressure) simultaneously under HPHT conditions."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 407,
+        "cost_usd": 0.0011573000000000002
+      },
+      "source_file": "125_How_to_read_the_tolerance_from_the_Pt1000_on_Rheonics_Sensors.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

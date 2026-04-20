@@ -1,0 +1,268 @@
+{
+  "source_file": "181_Installation_for_Slurry_Applications.pdf",
+  "total_pages": 5,
+  "chunks": [
+    {
+      "page_summary": "This page provides an installation guide and considerations for Rheonics SRV inline viscosity meters and SRD inline density and viscosity meters specifically for slurry applications.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "SRV - Inline Viscosity Meter",
+        "SRD - Inline Density and Viscosity Meter",
+        "SRV",
+        "SRD"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nInstallation for Slurry Applications\nModified on: Sat, 13 Apr, 2024 at 12:24 AM\n\nWhat is the purpose of this article?\nReview the installation criteria, recommendation and examples for Slurry applications using Rheonics inline viscometers and density meters to enable control and monitoring of the\n\nWhat products are involved?\nSRV - Inline Viscosity Meter (https://rheonics.com/products/inline-viscometer-srv/)\nSRD - Inline Density and Viscosity Meter (https://rheonics.com/products/inline-viscometer-srd/)\n\nContent:\n1. Installation principles for SRV and SRD\n2. Installation Considerations for Slurries\n3. Cleaning Requirements for Slurries\n4. Installation Examples for Slurry Applications and Considerations\n5. Sensor Calibration for Slurries\n\n1. Installation principles for SRV and SRD\nFor extensive detail in installation recommendations for Rheonics sensors visit the next pages: for SRV (https://support.rheonics.com/support/solutions/folders/81000297658) and SRD (https://support.rheonics.com/support/solutions/folders/81000297659).\nKey installation principles are specified in the next figure.\n* The user should be familiar with the sensing zones of the SRV and SRD sensors and ensure these are immersed in flowing fluid.\n* Static and moving states of fluid will show differences in viscosity. This is due to the non-Newtonian behavior of the fluid.\n* Density values for the SRD can vary throughout the process with time as the slurry ages or is mixed.\n\nFigure 1: Rheonics SRV and SRD installation requirements.\n[Diagrams of SRV and SRD sensors]\n\n2. Installation Considerations for Slurries\nAs described in this article Managing slurry weight and rheology using inline process density meter and viscometer (https://support.rheonics.com/en/support/solutions/articles/81000412075), slurries can have a fluid- or solid-like behavior and important rheology parameters such as viscosity and density can be monitored and controlled using the SRV and SRD sensors from Rheonics.\n\nMatching VISCOSITY with offline tools: Most traditional methods to measure the viscosity of slurry are done offline. The SRV and SRD sensors are not intended to match offline readings, these sensors are built for inline operation.\nThe user can still compare the SR readings and the traditional readings, plot graphs, and create a correlation table as on-site references for operators.",
+      "specifications": {
+        "SRV Sensing Element Length": "50 mm [1.96\"]",
+        "SRV Sensing Element Diameter": "Ø16 mm [0.63\"]",
+        "SRV Tip Clearance to Obstruction": "5 mm [0.2\"]",
+        "SRD Sensing Element Length": "50 mm [1.96\"]",
+        "SRD Sensing Zone Immersion Depth": "34 mm [1.4\"]",
+        "SRD Sensing Element Diameter": "Ø35 mm [1.4\"]",
+        "SRD Tip Clearance to Obstruction": "12 mm [0.5\"]"
+      },
+      "key_facts": [
+        "Rheonics inline viscometers and density meters are used for control and monitoring in slurry applications.",
+        "For detailed installation recommendations, users should refer to specific support pages for SRV and SRD sensors.",
+        "The sensing zones of SRV and SRD sensors must be immersed in flowing fluid.",
+        "Static and moving fluid states will show different viscosity readings due to the non-Newtonian behavior of the fluid.",
+        "Density values for the SRD sensor can vary throughout the process with time as the slurry ages or is mixed.",
+        "Slurries can exhibit fluid- or solid-like behavior.",
+        "SRV and SRD sensors are built for inline operation and are not intended to directly match offline viscosity readings.",
+        "Users can compare inline SR readings with traditional offline readings, plot graphs, and create correlation tables for on-site operator reference."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "50 mm [1.96\"]",
+        "Ø16 mm [0.63\"]",
+        "SRV tip's clearance to any obstruction",
+        "5 mm [0.2\"]",
+        "34 mm [1.4\"]",
+        "Ø35 mm [1.4\"]",
+        "SRD tip's clearance to any obstruction",
+        "12 mm [0.5\"]",
+        "Avoid stagnation zones in the sensing zones (red areas)",
+        "Ensure sensing element is in contact with fluid",
+        "Figure 1: Rheonics SRV and SRD installation requirements."
+      ],
+      "warnings_notes": [
+        "The user should be familiar with the sensing zones of the SRV and SRD sensors and ensure these are immersed in flowing fluid.",
+        "Avoid stagnation zones in the sensing zones (red areas).",
+        "Ensure sensing element is in contact with fluid.",
+        "SRV and SRD sensors are not intended to match offline readings, as they are built for inline operation."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1317,
+        "cost_usd": 0.0034323
+      },
+      "source_file": "181_Installation_for_Slurry_Applications.pdf"
+    },
+    {
+      "page_num": 2,
+      "page_summary": "Extraction failed",
+      "document_type": "unknown",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "extraction_failed": true,
+      "source_file": "181_Installation_for_Slurry_Applications.pdf"
+    },
+    {
+      "page_summary": "This page details various installation options for Rheonics Type-SR sensors in tanks and pipes, including suitable accessories and considerations for different pipe sizes and sensor types.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Type-SR sensor",
+        "SRV sensors",
+        "SRD sensors",
+        "SRV-X5",
+        "SRD-X5",
+        "FET-15T",
+        "FTP-15T",
+        "Varinline Connection",
+        "IFV-25N",
+        "HPT-12G"
+      ],
+      "extracted_text": "Figure 3: Rheonics Type-SR sensor various installation options in tank.\nLong insertion probes are useful to avoid deposits on walls.\nFigure 4: Rheonics Type-SR long insertion probes (-X5) installation.\n\n4.2 Installation in Pipes\nCommon installations for slurries in pipes are in recirculation lines. Due to the sensing zones of the SRV and SRD sensors, a perpendicular installation inline would require a pipe with an ID of approximately 60mm (i.e. 2.5\" pipes or ANSI 2\" pipes). Installation in 2.5\" or bigger lines should be straightforward.\nFor installations in 2\" (ID<55mm) or 1.5\" pipes Rheonics accessories come in handy to ensure the installation criterias (Figure 1). Some of these accessories are: FET-15T (https://rheonics.com/product-accessories/fet-15t-t/), FTP-15T (https://rheonics.com/wp-content/uploads/2023/07/Rheonics_FTP-15T-XXX.pdf), Varinline Connection (https://support.rheonics.com/en/support/solutions/articles/81000412012-inline-process-viscometer-srv-with-varinline-flange-options-and-installation), etc.\nAccessories for installation in 1\" (DN25) pipes are the IFV-25N (for SRV and SRD) or HPT-12G (only for SRV). For installation of the SRD in pipelines, follow this article for correct orientation of the sensor tip (https://support.rheonics.com/en/support/solutions/articles/81000408815).\n\nDeciding between installation in tank or line? Visit this article (https://support.rheonics.com/en/support/solutions/articles/81000412034) for advantages and disadvantages of each case.\n\nTable 1: Accessories for Installation in Pipe\nInstallation in Pipe\nParallel Installation\nPart/Accessory Code\nRheonics FET-15T (https://rheonics.com/product-accessories/fet-15t-t/)\nDescription\nUsed for installation at 90° elbows. Short sensors can be installed against the fluid in an axial installation with enough immersion. Suitable for long insertion probes (SRV-X5 and SRD-X5). Version with 2\" size (-20T) also available.\nDrawing\nFET-15T-15T (https://rheonics.com/wp-content/uploads/2023/04/SR-Sensor_TC-1.5in_FET-15T-15T.pdf)",
+      "specifications": {
+        "Minimum pipe ID for perpendicular inline installation": "60mm",
+        "Equivalent pipe size for perpendicular inline installation": "2.5 inches",
+        "Equivalent ANSI pipe size for perpendicular inline installation": "2 inches",
+        "Pipe ID for accessory use": "<55mm",
+        "Pipe size for accessory use": "2 inches",
+        "Alternative pipe size for accessory use": "1.5 inches",
+        "Pipe size for IFV-25N and HPT-12G accessories": "1 inch (DN25)",
+        "FET-15T installation angle": "90 degrees",
+        "FET-15T available version size": "2 inches (-20T)"
+      },
+      "key_facts": [
+        "Long insertion probes are useful for Rheonics Type-SR sensors to avoid deposits on walls in tanks.",
+        "Common installations for slurries in pipes are in recirculation lines.",
+        "A perpendicular inline installation of SRV and SRD sensors requires a pipe with an ID of approximately 60mm (2.5 inches or ANSI 2 inches pipes).",
+        "Installation in 2.5 inches or bigger lines for SRV and SRD sensors should be straightforward.",
+        "For installations in 2 inches (ID<55mm) or 1.5 inches pipes, Rheonics provides accessories like FET-15T, FTP-15T, and Varinline Connection to ensure installation criteria.",
+        "Accessories for 1 inch (DN25) pipes include the IFV-25N (for SRV and SRD) and HPT-12G (only for SRV).",
+        "The Rheonics FET-15T accessory is designed for installation at 90-degree elbows.",
+        "Short sensors can be installed against the fluid in an axial installation with enough immersion using the FET-15T.",
+        "The FET-15T accessory is suitable for long insertion probes, specifically SRV-X5 and SRD-X5.",
+        "A 2-inch size (-20T) version of the FET-15T is also available."
+      ],
+      "diagram_labels": [
+        "Top Long Insertion Flange",
+        "Flush Insertion",
+        "Side Long Insertion",
+        "Side Short Insertion",
+        "Bottom Long Insertion",
+        "non movement zone",
+        "e.g. deposits",
+        "Measurement zone",
+        "A: Insertion length",
+        "Stand pipe"
+      ],
+      "warnings_notes": [
+        "For installation of the SRD in pipelines, follow the provided article for correct orientation of the sensor tip."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1384,
+        "cost_usd": 0.0035998
+      },
+      "source_file": "181_Installation_for_Slurry_Applications.pdf"
+    },
+    {
+      "page_summary": "This page details various installation methods and corresponding accessories for Rheonics inline viscometers and density sensors, with a specific focus on applications involving slurries and high-viscosity fluids.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics HPT-12G",
+        "SRV",
+        "SRD",
+        "Rheonics FTP-15T-XXX",
+        "Varinline Housings",
+        "SRV-X4-VN Varinline Housing DN50",
+        "SRD-X4-VF IFC-V25 Housing DN25",
+        "Rheonics IFC-V25-PLG",
+        "WOL-34NL weldolet",
+        "WFT-15T Tri-Clamp ferrule",
+        "SRD-X5-A180-B1N25_Elbow-4inch"
+      ],
+      "extracted_text": "Rheonics HPT-12G (https://rheonics.com/product-accessories/hpt-q12/)\nDescription: Only available for SRV. Flow cell with G 1/2\" threaded ports. Avoid deposits or solids in fluid.\nDrawing: HPT-12G (https://rheonics.com/wp-content/uploads/2023/03/rheonics_hpt-12g.pdf)\n\nPerpendicular Installation\n\nPart/Accessory Code: Rheonics FTP-15T-XXX\nDescription: Spool tee piece for perpendicular installation with a shortened port for enough immersion of sensor probe. Available from 2\" size up.\nDrawing: FTP-15T-XXX (https://rheonics.com/wp-content/uploads/2023/07/Rheonics_FTP-15T-XXX.pdf)\n\nPart/Accessory Code: Varinline Housings\nDescription: By using Varinline Housings, Rheonics sensors can be installed in 1\", 1.5\", 2\" and bigger lines with perpendicular installation.\nDrawing: SRV-X4-VN Varinline Housing DN50 (https://rheonics.com/wp-content/uploads/2023/08/SRV_X4-BVN_DN50.pdf)\nDrawing: SRD-X4-VF IFC-V25 Housing DN25 (https://rheonics.com/wp-content/uploads/2023/10/SRD-X4-BVF_IFC-V25_DN25.pdf)\n\nPart/Accessory Code: Rheonics IFC-V25-PLG\nDescription: Plug piece required for installation in 1\" and 1.5\" Varinline Housings.\n\nFor slurries however, experience has shown that small pipes or narrow places are not ideal to install the sensors and measure viscosity and/or density since most slurries are prone to buildups around the sensing element which affects the readings. The SRD is especially affected by near obstructions due to its bigger sensing zone.\n\nCommon good installations in pipes for slurries are shown in Figure 5. We can review each case:\n\nFigure 5: Rheonics Type-SR sensor installation examples in line.\n\n1. Perpendicular installation. For the SRV and SRD short sensors, perpendicular installations in 2.5\" pipes or bigger, as in Figure 5, has shown good results for slurries. Periodic cleaning is required to remove buildups, if they are created, which tend to affect readings by increasing values. Example uses threaded connection 3/4\" NPT with WOL-34NL weldolet (https://rheonics.com/product-accessories/wol-34nl/) from Rheonics.\n\n2. Tri-Clamp connection. Common installation for batter slurry, but useful in all cases for easy disassembly for inspection and cleaning. Example in Figure 5 uses the WFT-15T Tri-Clamp ferrule (https://rheonics.com/wp-content/uploads/2023/05/wft-15t.pdf) weld-on from Rheonics.\n\n3. Elbow installation. This requires the long insertion (-X5) SRV and/or SRD probes to immerse the sensing element in the straight section of the pipe with the fluid against the probe (recommended flow orientation). An elbow installation is ideal for most applications with Rheonics sensors in high-viscosity fluids. Also, a long immersion enables the use of the SRD in higher temperature applications (higher than ambient temperature). Example in Figure 5 uses an NPT 1.25\" connection. See a closer view in Figure 6, review the drawing here (https://rheonics.com/wp-content/uploads/2023/09/SRD-X5-A180-B1N25_Elbow-4inch.pdf).",
+      "specifications": {
+        "HPT-12G port type": "G 1/2\" threaded ports",
+        "FTP-15T-XXX available pipe size": "from 2\" size up",
+        "Varinline Housings compatible line sizes": "1\", 1.5\", 2\" and bigger lines",
+        "IFC-V25-PLG compatible Varinline Housings": "1\" and 1.5\"",
+        "SRV/SRD short sensors perpendicular installation pipe size": "2.5\" pipes or bigger",
+        "WOL-34NL weldolet connection type": "3/4\" NPT threaded connection",
+        "Elbow installation connection type (example)": "NPT 1.25\" connection"
+      },
+      "key_facts": [
+        "The Rheonics HPT-12G is a flow cell accessory exclusively for SRV sensors, featuring G 1/2\" threaded ports.",
+        "The Rheonics FTP-15T-XXX is a spool tee piece designed for perpendicular sensor installation with a shortened port, suitable for pipes 2 inches and larger.",
+        "Varinline Housings facilitate perpendicular installation of Rheonics sensors in lines of 1\", 1.5\", 2\", and larger diameters.",
+        "The Rheonics IFC-V25-PLG is a plug piece necessary for installing sensors in 1\" and 1.5\" Varinline Housings.",
+        "Small pipes or narrow installation points are not recommended for slurry applications due to potential buildup around the sensing element affecting readings.",
+        "The SRD sensor is particularly sensitive to obstructions because of its larger sensing zone.",
+        "Perpendicular installation in 2.5\" pipes or larger has proven effective for SRV and SRD short sensors in slurry applications, though periodic cleaning is required to prevent buildup.",
+        "Tri-Clamp connections are ideal for applications like batter slurries, offering easy disassembly for inspection and cleaning.",
+        "Elbow installation, which uses long insertion (-X5) SRV and/or SRD probes, is optimal for high-viscosity fluids and higher temperature applications, ensuring the sensing element is fully immersed in the fluid flow.",
+        "Long immersion in elbow installations allows SRD sensors to be used in higher temperature environments."
+      ],
+      "diagram_labels": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "warnings_notes": [
+        "Avoid deposits or solids in fluid when using Rheonics HPT-12G.",
+        "Small pipes or narrow places are not ideal to install sensors for slurries, as they are prone to buildups around the sensing element which affects readings.",
+        "The SRD sensor is especially affected by near obstructions due to its bigger sensing zone.",
+        "Periodic cleaning is required for perpendicular installations in slurry applications to remove buildups, which can increase readings.",
+        "For elbow installation, recommended flow orientation is with the fluid flowing against the probe."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1774,
+        "cost_usd": 0.0045747999999999995
+      },
+      "source_file": "181_Installation_for_Slurry_Applications.pdf"
+    },
+    {
+      "page_summary": "This page provides guidance on installing Rheonics viscometers and density sensors in small pipes, outlines sensor calibration procedures for slurries, and includes a dimensional drawing of an SRD-X5-A180-B1N25 parallel elbow installation.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics FET-15T",
+        "viscometer SRV",
+        "density meter and viscometer SRD",
+        "SRD-X5-A180-B1N25",
+        "Varinline Housings",
+        "Varinline DN25",
+        "IFC-V25-PLG",
+        "Rheonics Calibrator",
+        "SlurryTrack Inline Viscosity Monitoring and Control System"
+      ],
+      "extracted_text": "Unit mm [inch]\nFigure 6: SRD-X5-A180-B1N25 parallel installation in elbow\n\n4. For small pipes. For pipes of size 2″ and 1.5″, elbow installation is possible with Rheonics FET-15T (https://rheonics.com/product-accessories/fet-15t-15t/) or other flow cells for the viscometer SRV (https://support.rheonics.com/en/support/solutions/articles/81000411659-srv-flow-through-cells) and density meter and viscometer SRD (https://support.rheonics.com/en/support/solutions/articles/81000411678-srd-flow-through-cells). Perpendicular installation in these sizes may not allow for enough space for the sensing elements (Figure 1). Varinline Housings can be used for those cases.\nVarinline DN25 and IFC-V25-PLG can be used for 1″ or DN25 pipes for the SRV and SRD installation.\n\nIn small pipes, care should be taken to:\n*   Maintain minimum clearance required around sensing elements (Figure 1).\n*   Avoid deposits with proper cleaning and inspection.\n*   Avoid slurries with solids.\n\n5. Sensor Calibration for Slurries\n\nRheonics sensors do not need recalibration due to absence of long term drift.. However, as part of Quality control Procedures clients need to verify calibrations after certain time of operation.\nCalibration checks can be performed with following methods:\n*   **Air check:** Remove the probe from the line, clean it and leave it in air. Sensor should output zero for viscosity and density (for SRD). If that is the case, the calibration still holds true. This is the simplest way to check if calibration of the sensor have been affected. However, this is more an easy and quick check rather than an actual calibration verification required by customer's Quality Control\n*   **Calibration fluid:** Remove the sensor from the line and test it with a calibrated fluid. Rheonics recommends NIST traceable Cannon fluids, which are used for factory calibrations. Review more information here: Calibration verification procedure for inline viscometer and density meter (https://support.rheonics.com/en/support/solutions/articles/81000390161-calibrating-srv-in-field-verification-and-re-calibration). Readings from the Rheonics sensors can then be compared with the infosheet of the calibration reference fluid that should specify the Viscosity (Kinematic and/or Dynamic), Density and Temperature.\n*   **Rheonics Calibrator:** Rheonics calibrator allows easy calibration check of Rheonics sensors. It requires the use of calibration fluids. It comes with a software for configuration and easy export of results.\n\nReferences\n[1]: Foundry 4.0 – Shell Room Experience with SlurryTrack Inline Viscosity Monitoring and Control System (https://rheonics.com/wp-content/uploads/2023/10/SlurryTrack-operations-in-shell-room-practice_EN.pdf)\n[2]: Rheonics Accessories List (https://rheonics.com/product-accessories/)",
+      "specifications": {
+        "Pipe size for elbow installation": "2 inch",
+        "Pipe size for elbow installation (alternative)": "1.5 inch",
+        "Pipe size for Varinline housings": "1 inch",
+        "Pipe size for Varinline housings (alternative)": "DN25",
+        "Overall length": "247.6 mm [9.75 inch]",
+        "Height from pipe center to top": "35.5 mm [1.40 inch]",
+        "Projection A": "180 mm [7.09 inch]",
+        "Sensing element outer diameter": "30 mm [1.18 inch]",
+        "Pipe outer diameter": "101.6 mm [4.00 inch]",
+        "Bend radius R": "152.5 mm [6.00 inch]",
+        "Thread type": "NPT 1 1/4\" - 11.5"
+      },
+      "key_facts": [
+        "Elbow installation is a viable option for pipes of size 2\" and 1.5\" using Rheonics FET-15T or other SRV and SRD flow cells.",
+        "Varinline DN25 and IFC-V25-PLG housings are suitable for 1\" or DN25 pipes for SRV and SRD sensor installation.",
+        "Rheonics sensors are designed not to require recalibration due to the absence of long-term drift.",
+        "Clients are advised to verify calibrations after a certain period of operation as part of Quality Control Procedures.",
+        "An 'Air check' is a simple and quick method to determine if a sensor's calibration has been affected by verifying a zero output for viscosity and density when the probe is clean and in air.",
+        "For formal calibration, Rheonics recommends using NIST traceable Cannon fluids, which are also employed for factory calibrations.",
+        "The Rheonics Calibrator facilitates easy calibration checks for Rheonics sensors, requiring calibration fluids and providing software for configuration and result export."
+      ],
+      "diagram_labels": [
+        "Sensing area",
+        "Unit mm [inch]",
+        "247.6 [9.75]",
+        "35.5 [1.40]",
+        "180 [7.09] A",
+        "30 [1.18] φ",
+        "101.6 [4.00] φ",
+        "152.5 [6.00] R",
+        "NPT 1 1/4\" – 11.5"
+      ],
+      "warnings_notes": [
+        "Perpendicular installation in 2\" and 1.5\" pipe sizes may not provide sufficient space for the sensing elements (as shown in Figure 1, which is not included on this page).",
+        "When installing in small pipes, it is critical to maintain minimum required clearance around the sensing elements (Figure 1).",
+        "To ensure proper operation in small pipes, avoid deposits by implementing proper cleaning and inspection.",
+        "Slurries containing solids should be avoided in small pipe installations.",
+        "The 'Air check' calibration method is considered an easy and quick check rather than a formal calibration verification required by a customer's Quality Control."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1654,
+        "cost_usd": 0.0042748
+      },
+      "source_file": "181_Installation_for_Slurry_Applications.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": [
+      2
+    ]
+  }
+}

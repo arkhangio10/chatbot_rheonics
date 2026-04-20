@@ -1,0 +1,410 @@
+{
+  "source_file": "215_Explosion-Proof_display_for_showing_measurement_data_from_Rheonics_density_meter_and_viscometer_in_Ex_areas.pdf",
+  "total_pages": 6,
+  "chunks": [
+    {
+      "page_summary": "This page describes how Rheonics inline process viscometers (SRV) and density meters (SRD) can be integrated with explosion-proof displays from suppliers like Precision Digital for safe data monitoring in hazardous Ex areas.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics inline process viscometer (SRV)",
+        "Rheonics inline process density meter (SRD)",
+        "Explosion-Proof displays",
+        "Rheonics Type-SR sensors",
+        "EX-approved explosion-proof Modbus display/scanner"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nExplosion-Proof display for showing measurement data from Rheonics density meter and viscometer in Ex areas\nModified on: Wed, 25 Sep, 2024 at 5:12 PM\nWhat products are involved?\nThis article’s goal is to showcase how measurements from Rheonics inline process viscometer (SRV) and inline process density meter (SRD) can be displayed with Explosion-Proof displays in an EX area.\nWhat is an explosion-proof display?\nEx enclosures with explosion-proof displays are used in industries like oil and gas, chemical processing, and mining, where hazardous environments are prevalent. These enclosures provide secure, explosion-proof housing for equipment.\nThe explosion-proof display equipped with Modbus communication, allows operators to safely monitor equipment status, process variables, and other critical data directly from the enclosure without the need to open it.\n1. Key suppliers of Explosion-Proof displays and how to integrate Rheonics Type-SR sensors\n1.1. Precision Digital\nPrecision Digital Corporation produces an EX-approved explosion-proof Modbus display/scanner, designed for industrial processes.",
+      "specifications": {},
+      "key_facts": [
+        "This article showcases how measurements from Rheonics inline process viscometer (SRV) and inline process density meter (SRD) can be displayed with Explosion-Proof displays in an EX area.",
+        "Ex enclosures with explosion-proof displays are utilized in industries such as oil and gas, chemical processing, and mining, which are characterized by hazardous environments.",
+        "These explosion-proof enclosures are designed to provide secure housing for equipment.",
+        "Explosion-proof displays, equipped with Modbus communication, enable operators to safely monitor equipment status, process variables, and other critical data directly from the enclosure, eliminating the need to open it.",
+        "Precision Digital Corporation manufactures EX-approved explosion-proof Modbus display/scanners for industrial processes."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 591,
+        "cost_usd": 0.0016173000000000001
+      },
+      "source_file": "215_Explosion-Proof_display_for_showing_measurement_data_from_Rheonics_density_meter_and_viscometer_in_Ex_areas.pdf"
+    },
+    {
+      "page_summary": "This page describes the features and capabilities of an explosion-proof Modbus scanner (ProtEX-MS2 / PD6830X Smart display) in Master mode, detailing its ability to poll multiple devices and visualize process variables from several sensors.",
+      "document_type": "manual",
+      "product_names": [
+        "ProtEX-MS2",
+        "PD6830X",
+        "PRECISION DIGITAL"
+      ],
+      "extracted_text": "MENU SCAN\n6830.8\nTANK 1\nPREV NEXT\nPRECISION DIGITAL ®\n\nFigure 1. ProtEX-MS2- Explosion proof Modbus scanner[1]\n\n1.1.1. Modbus scanner-Master mode\nIn Master mode, the scanner can poll up to 16 Modbus registers from 16 different devices, acting as the network master to retrieve process variables (PVs) from Modbus slave devices for display or use in mathematical functions.\nConfigured as a master, the PD6830X (Smart display) enables visualization of viscosity, density, and temperature from one to four sensors. The schematic below shows 4 sensors in 4 separate tanks, whose measurements are displayed on a single display placed in the EX area.",
+      "specifications": {
+        "max_modbus_registers_polled": "16",
+        "max_modbus_devices_polled": "16",
+        "sensor_support_range": "1 to 4 sensors",
+        "max_tanks_monitored": "4 tanks"
+      },
+      "key_facts": [
+        "The ProtEX-MS2 is an explosion-proof Modbus scanner.",
+        "The Modbus scanner operates in Master mode.",
+        "In Master mode, the scanner can poll up to 16 Modbus registers from 16 different devices.",
+        "The scanner acts as the network master to retrieve process variables (PVs) from Modbus slave devices.",
+        "Retrieved process variables are used for display or in mathematical functions.",
+        "The PD6830X, referred to as a Smart display, enables visualization of viscosity, density, and temperature.",
+        "The PD6830X can visualize data from one to four sensors.",
+        "Measurements from four sensors in four separate tanks can be displayed on a single display.",
+        "The display is designed to be placed in an EX (hazardous) area."
+      ],
+      "diagram_labels": [
+        "MENU",
+        "SCAN",
+        "PREV",
+        "NEXT",
+        "PRECISION DIGITAL ®",
+        "6830.8",
+        "TANK 1"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 627,
+        "cost_usd": 0.0017073
+      },
+      "source_file": "215_Explosion-Proof_display_for_showing_measurement_data_from_Rheonics_density_meter_and_viscometer_in_Ex_areas.pdf"
+    },
+    {
+      "page_summary": "This page illustrates a system setup with Rheonics Ex sensors for tank indication, distinguishing between safe and hazardous zones, and details Modbus communication features for data acquisition and variable mapping.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Ex sensors",
+        "Modbus scanner",
+        "PD6830X",
+        "Scanview Ex software"
+      ],
+      "extracted_text": "Safe Zone\nHazardous Zone\nFigure 2. Tank indicator for 4 Rheonics Ex sensors.\n1.1.2. Modbus Scanner-Snooper mode\nWhen the Modbus scanner is set to Snooper mode the display monitors Modbus traffic and identifies specific registers being polled by a Master device from a designated Slave device. It processes the data retrieved, supporting up to 16 process variables (PVs) from as many as 16 devices. If a Master device polls multiple registers with a single command, only the first returned value will be processed.\n1.1.3. How to map the Modbus variables in PD6830X?\nMapping variables can be done from the Scanview Ex software “mode/PV setup” page, the display processes and displays data read from Modbus RTU slave devices. Up to 16 process variables (PVs) from up to 16 slave devices. Each PV is programmed individually.",
+      "specifications": {
+        "number_of_rheonics_ex_sensors_in_diagram": "4",
+        "max_process_variables_snooper_mode": "16 PVs",
+        "max_devices_snooper_mode": "16 devices",
+        "max_process_variables_modbus_rtu_slave_devices": "16 PVs",
+        "max_modbus_rtu_slave_devices": "16 devices"
+      },
+      "key_facts": [
+        "The Modbus scanner, when in Snooper mode, monitors Modbus traffic and identifies specific registers polled by a Master device from a designated Slave device.",
+        "The system processes retrieved data, supporting up to 16 process variables (PVs) from up to 16 devices in Snooper mode.",
+        "If a Master device polls multiple registers with a single command, only the first returned value will be processed.",
+        "Modbus variables in the PD6830X can be mapped using the Scanview Ex software's 'mode/PV setup' page.",
+        "The display processes and shows data read from Modbus RTU slave devices.",
+        "Each process variable (PV) is programmed individually.",
+        "The depicted system includes a tank indicator connected to four Rheonics Ex sensors, with components separated into 'Safe Zone' and 'Hazardous Zone'."
+      ],
+      "diagram_labels": [
+        "Safe Zone",
+        "Hazardous Zone",
+        "6830.8",
+        "TANK 1",
+        "rheonics",
+        "Figure 2. Tank indicator for 4 Rheonics Ex sensors."
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 701,
+        "cost_usd": 0.0018923000000000002
+      },
+      "source_file": "215_Explosion-Proof_display_for_showing_measurement_data_from_Rheonics_density_meter_and_viscometer_in_Ex_areas.pdf"
+    },
+    {
+      "page_summary": "This page displays a screenshot of the ScanView EX software interface, demonstrating the configuration of operational modes and process variable (PV) parameters for a PD6830X device, along with a description of its intuitive user interface.",
+      "document_type": "manual",
+      "product_names": [
+        "ScanView EX",
+        "PD6830X",
+        "PD6830"
+      ],
+      "extracted_text": "ScanView EX\nload save print apply\nconnect disconnect\nUp to 16 parameters\ndisplay rate/totalizer outputs data logging advanced system\nmode\n  master\n    poll time 5.0 sec\n    timeout 0.5 sec\n    number of retries 3\n  slave\n    timeout sec\n  snooper\n    response timeout sec\nPV setup\n  PV setup\n    Enable\n    PV 1 • settings\n    PV 2 • settings\n    PV 3 • settings\n    PV 4 • settings\n    PV 5 O settings\n    PV 6 O settings\n    PV 7 O settings\n    PV 8 O settings\n    PV 9 O settings\n    PV 10 O settings\n    PV 11 O settings\n    PV 12 O settings\n    PV 13 O settings\n    PV 14 O settings\n    PV 15 O settings\n    PV 16 O settings\nPRECISION DIGITAL\nConfiguration C:\\PDC\\ScanView EX 1.2\\Meter Data\\_MeterDefault_Dec.mve\nFigure 3. Modbus mapping on PD6830X.\nThe PD6830 UI is intuitive and parameters can be configured easily. Figure 4 below shows how to set the proper address on the 16 parameters available for monitoring.",
+      "specifications": {
+        "master_poll_time": "5.0 sec",
+        "master_timeout": "0.5 sec",
+        "master_number_of_retries": "3"
+      },
+      "key_facts": [
+        "The ScanView EX software allows configuration of up to 16 parameters.",
+        "The software supports master, slave, and snooper operational modes.",
+        "The PD6830 user interface is intuitive for easy parameter configuration.",
+        "The page illustrates Modbus mapping on the PD6830X.",
+        "The software version shown is ScanView EX 1.2.",
+        "Process variables PV 1 through PV 4 are enabled, while PV 5 through PV 16 are disabled by default in the screenshot.",
+        "There is a discrepancy where the image caption refers to 'Figure 3', but the accompanying text refers to 'Figure 4' when describing the setup for 16 parameters."
+      ],
+      "diagram_labels": [
+        "load",
+        "save",
+        "print",
+        "apply",
+        "connect",
+        "disconnect",
+        "Up to 16 parameters",
+        "display",
+        "rate/totalizer",
+        "outputs",
+        "data logging",
+        "advanced",
+        "system",
+        "mode",
+        "master",
+        "poll time",
+        "timeout",
+        "number of retries",
+        "slave",
+        "snooper",
+        "response timeout",
+        "PV setup",
+        "Enable",
+        "PV 1",
+        "PV 2",
+        "PV 3",
+        "PV 4",
+        "PV 5",
+        "PV 6",
+        "PV 7",
+        "PV 8",
+        "PV 9",
+        "PV 10",
+        "PV 11",
+        "PV 12",
+        "PV 13",
+        "PV 14",
+        "PV 15",
+        "PV 16",
+        "settings",
+        "PRECISION DIGITAL",
+        "Configuration"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 949,
+        "cost_usd": 0.0025123
+      },
+      "source_file": "215_Explosion-Proof_display_for_showing_measurement_data_from_Rheonics_density_meter_and_viscometer_in_Ex_areas.pdf"
+    },
+    {
+      "page_summary": "This page illustrates the ScanView EX software interface for configuring Process Variables (PVs) based on SME registers, specifically detailing the setup for viscosity input and mentioning the software's capability to monitor viscosity, density, and temperature.",
+      "document_type": "manual",
+      "product_names": [
+        "ScanView EX",
+        "PRECISION DIGITAL"
+      ],
+      "extracted_text": {
+        "header_bar": [
+          "ScanView EX",
+          "load",
+          "save",
+          "print",
+          "apply",
+          "connect",
+          "disconnect"
+        ],
+        "main_navigation": [
+          "monitor",
+          "mode/PV setup",
+          "data logging",
+          "advanced",
+          "system"
+        ],
+        "mode_settings_section": {
+          "mode_title": "mode",
+          "master_settings": {
+            "title": "master",
+            "poll_time": "5.0 sec",
+            "timeout": "0.5 sec",
+            "number_of_retries": "3"
+          },
+          "slave_settings": {
+            "title": "slave",
+            "timeout": "sec"
+          },
+          "snooper_settings": {
+            "title": "snooper",
+            "response_timeout": "sec"
+          }
+        },
+        "pv1_setup_dialog": {
+          "dialog_title": "PV 1 setup",
+          "slave_id": "1",
+          "function_code": "4",
+          "slave_register": "40",
+          "offset": "300000",
+          "offset_option": "6 digit",
+          "data_type": "float",
+          "data_type_options": [
+            "binary",
+            "BCD"
+          ],
+          "signed_unsigned_options": [
+            "signed",
+            "unsigned"
+          ],
+          "byte_format": "1234",
+          "actions": [
+            "save",
+            "cancel"
+          ]
+        },
+        "process_variables_list_partial": [
+          "PV 11 settings",
+          "PV 12 settings",
+          "PV 13 settings",
+          "PV 14 settings",
+          "PV 15 settings",
+          "PV 16 settings"
+        ],
+        "footer_bar": [
+          "PRECISION DIGITAL",
+          "Configuration C:\\PDC\\ScanView EX 1.2\\Meter Data\\_MeterDefault_Dec.mve"
+        ],
+        "overlay_text": "Viscosity input register for parameter 300041",
+        "captions_and_explanatory_text": [
+          "Figure 4. Parameter setting based on the SME registers.",
+          "Variables can be monitored on the main screen and units edited as needed. Figure 5 below shows how we can add the viscosity, density, and temperature that can be read online with the ScanView software."
+        ]
+      },
+      "specifications": {
+        "poll_time": "5.0 sec",
+        "timeout_master": "0.5 sec",
+        "number_of_retries": "3",
+        "slave_ID": "1",
+        "function_code": "4",
+        "slave_register": "40",
+        "offset": "300000",
+        "parameter_for_viscosity_input": "300041"
+      },
+      "key_facts": [
+        "The ScanView EX software is used for setting up and monitoring process variables (PVs).",
+        "Parameter settings are based on SME registers within the ScanView EX software.",
+        "The software supports configuring communication in master, slave, and snooper modes, including poll time and timeout durations.",
+        "The 'PV 1 setup' dialog allows detailed configuration of a process variable, including slave ID, function code, slave register, offset, data type (e.g., float), and byte format.",
+        "A specific configuration example shows that viscosity input is associated with parameter 300041, which is derived from slave register 40 with an offset of 300000.",
+        "The ScanView software enables online monitoring of variables such as viscosity, density, and temperature, with editable units."
+      ],
+      "diagram_labels": [
+        "monitor",
+        "mode/PV setup",
+        "data logging",
+        "advanced",
+        "system",
+        "mode",
+        "master",
+        "slave",
+        "snooper",
+        "PVSetup",
+        "PV 1 setup",
+        "slave ID",
+        "function code",
+        "slave register",
+        "Offset",
+        "6 digit",
+        "data type",
+        "binary",
+        "BCD",
+        "signed",
+        "unsigned",
+        "byte format",
+        "save",
+        "cancel",
+        "PV 11",
+        "PV 12",
+        "PV 13",
+        "PV 14",
+        "PV 15",
+        "PV 16",
+        "settings",
+        "Viscosity input register for parameter 300041",
+        "Figure 4. Parameter setting based on the SME registers."
+      ],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1253,
+        "cost_usd": 0.0032722999999999997
+      },
+      "source_file": "215_Explosion-Proof_display_for_showing_measurement_data_from_Rheonics_density_meter_and_viscometer_in_Ex_areas.pdf"
+    },
+    {
+      "page_summary": "This page displays the 'Monitor editor' interface of the ScanView EX software, showing real-time process variables such as viscosity, density, and temperature, along with various control and status functions.",
+      "document_type": "manual",
+      "product_names": [
+        "ScanView EX",
+        "PD6830X",
+        "PRECISION DIGITAL"
+      ],
+      "extracted_text": "ScanView EX\nload, save, print, apply, connect, disconnect\nmonitor, mode/PV setup, display, rate/totalizer, outputs, data logging, advanced, system\nmonitor (header), configure\nPVs\nViscosity -------- cP\nDensity -------- g/cc\nTemperature -------- °C\nmath / pulse\nPRECISION DIGITAL\nscan status\nrate 30 sec\ndata logging off\nOC status 1 2\nFigure 5. PD6830X Monitor editor.\n2. References:\n[1] https://www.predig.com/pd6830x (https://www.predig.com/pd6830x)",
+      "specifications": {
+        "scan_rate": "30 sec",
+        "viscosity_unit": "cP",
+        "density_unit": "g/cc",
+        "temperature_unit": "°C"
+      },
+      "key_facts": [
+        "The software shown is named ScanView EX.",
+        "The Monitor editor displays Process Variables (PVs) including Viscosity, Density, and Temperature.",
+        "The software provides functionality for loading, saving, printing, applying settings, connecting, disconnecting, monitoring, mode/PV setup, display configuration, rate/totalizer functions, outputs control, data logging, advanced settings, and system management.",
+        "The monitor editor features a configurable scan rate, currently set to 30 seconds.",
+        "The document refers to a product or system designated PD6830X.",
+        "Data logging status is indicated as 'off'.",
+        "An 'OC status' with indicators '1' and '2' is present."
+      ],
+      "diagram_labels": [
+        "load",
+        "save",
+        "print",
+        "apply",
+        "connect",
+        "disconnect",
+        "monitor",
+        "mode/PV setup",
+        "display",
+        "rate/totalizer",
+        "outputs",
+        "data logging",
+        "advanced",
+        "system",
+        "configure",
+        "PVs",
+        "Viscosity",
+        "Density",
+        "Temperature",
+        "math / pulse",
+        "scan status",
+        "rate",
+        "sec",
+        "data logging",
+        "off",
+        "OC status",
+        "1",
+        "2"
+      ],
+      "warnings_notes": [],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 665,
+        "cost_usd": 0.0018023
+      },
+      "source_file": "215_Explosion-Proof_display_for_showing_measurement_data_from_Rheonics_density_meter_and_viscometer_in_Ex_areas.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

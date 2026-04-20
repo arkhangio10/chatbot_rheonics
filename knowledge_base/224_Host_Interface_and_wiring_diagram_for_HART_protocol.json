@@ -1,0 +1,148 @@
+{
+  "source_file": "224_Host_Interface_and_wiring_diagram_for_HART_protocol.pdf",
+  "total_pages": 3,
+  "chunks": [
+    {
+      "page_summary": "This page provides a guide for the host interface and wiring diagram specifically for HART protocol communication, detailing the 4-20mA analog output from the SME and its electrical connections.",
+      "document_type": "manual",
+      "product_names": [
+        "SME"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nHost Interface and wiring diagram for HART protocol\nModified on: Mon, 30 Oct, 2023 at 10:43 PM\n\nThe SME can produce HART-compatible signals for any HART communicator, this is accomplished with the 4-20mA analog signal that is on channel 1 from the SME. For the connection of the modem or communicator with the HART board, a resistor of the value ~250Ω is needed.\n\n1. Analog Output 1: 4-20mA\n\nThe HART Communication is supported on an active two-wire 4-to-20mA current loop.\n\nFigure 1. Electrical wiring.\n\nNote: SME 4-20mA outputs are self-powered from SME, so no external power is required to power the 4-20mA channels on the SME.\n\n2. Wiring Diagram",
+      "specifications": {
+        "Resistor value": "~250Ω",
+        "Analog output current": "4-20mA",
+        "Supply voltage": "24V"
+      },
+      "key_facts": [
+        "The SME is capable of producing HART-compatible signals for any HART communicator.",
+        "HART compatibility is achieved using the 4-20mA analog signal available on channel 1 of the SME.",
+        "A resistor with a value of approximately 250Ω is required for connecting a modem or communicator to the HART board.",
+        "HART Communication operates on an active two-wire 4-to-20mA current loop.",
+        "SME 4-20mA outputs are self-powered directly from the SME.",
+        "No external power source is needed for the 4-20mA channels on the SME."
+      ],
+      "diagram_labels": [
+        "24V",
+        "V+",
+        "Loop+",
+        "Ch1",
+        "V-",
+        "mA",
+        "+",
+        "-",
+        "Ω"
+      ],
+      "warnings_notes": [
+        "Note: SME 4-20mA outputs are self-powered from SME, so no external power is required to power the 4-20mA channels on the SME."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 613,
+        "cost_usd": 0.0016723
+      },
+      "source_file": "224_Host_Interface_and_wiring_diagram_for_HART_protocol.pdf"
+    },
+    {
+      "page_summary": "This page provides a diagram illustrating the network connection of a Rheonics SME device to a PLC and a HART communicator, and details how to establish analog limits for sensor measurements using the RCP application.",
+      "document_type": "manual",
+      "product_names": [
+        "SME",
+        "RCP",
+        "Rheonics sensors",
+        "HART communicator"
+      ],
+      "extracted_text": "SME\nRheonics\nSME\n24V DC\nGND\nModbus RS485 A\nModbus RS485 B\nModbus TCP/IP\nSensor connection\nLoop +\nGND -\nCH1 +\nCH2 +\nCH3 +\n80\n70\n60\n50\n40\n30\n20\n10\n00\nPLC\n250Ω\nHART communicator\n\nFigure 2. Connection over the network.\n\n3. Establishing the analog limits with the RCP\n\nRCP is one of our main applications, it is primarily used for monitoring and recording the sensor measurements: Viscosity, density, temperature, and pressure. It is also used to configure the sensor electronics, and the various communication protocols available on the Rheonics sensors.\n\nChannel 1 is set to density in SME with a 4-20mA range set to 0 – 1.5g/cc. These limits can be edited but be aware that it sets the primary variable range as well. The primary variable always tracks what is in channel 1.",
+      "specifications": {
+        "Resistance": "250 Ω",
+        "Analog output current range": "4-20 mA",
+        "Density measurement range (Channel 1)": "0 – 1.5 g/cc"
+      },
+      "key_facts": [
+        "RCP is a primary Rheonics application used for monitoring and recording sensor measurements including viscosity, density, temperature, and pressure.",
+        "The RCP application also facilitates the configuration of sensor electronics and various communication protocols on Rheonics sensors.",
+        "Channel 1 on the SME device is designated for density measurement.",
+        "The primary variable's range is intrinsically linked to the range set for Channel 1.",
+        "The connection diagram illustrates the Rheonics SME device interfacing with a PLC and a HART communicator via a 250Ω resistor."
+      ],
+      "diagram_labels": [
+        "SME",
+        "Rheonics",
+        "24V DC",
+        "GND",
+        "Modbus RS485 A",
+        "Modbus RS485 B",
+        "Modbus TCP/IP",
+        "Sensor connection",
+        "Loop +",
+        "GND -",
+        "CH1 +",
+        "CH2 +",
+        "CH3 +",
+        "80",
+        "70",
+        "60",
+        "50",
+        "40",
+        "30",
+        "20",
+        "10",
+        "00",
+        "PLC",
+        "250Ω",
+        "HART communicator",
+        "Figure 2. Connection over the network."
+      ],
+      "warnings_notes": [
+        "Users should be aware that editing the 4-20mA range limits for Channel 1 (e.g., density 0 – 1.5g/cc) will also set the primary variable range."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 805,
+        "cost_usd": 0.0021523
+      },
+      "source_file": "224_Host_Interface_and_wiring_diagram_for_HART_protocol.pdf"
+    },
+    {
+      "page_summary": "This page displays an interface for configuring the 4-20 mA output settings for density, viscosity, and temperature channels within an SME system.",
+      "document_type": "manual",
+      "product_names": [
+        "SME"
+      ],
+      "extracted_text": "4-20 mA Settings\nChannel 1\nDensity\n4 mA 0.00 g/cc\n20 mA 1.50 g/cc\nUpdate\nChannel 2\nViscosity\n4 mA 0.000 cP\n20 mA 3000.000 cP\nUpdate\nChannel 3\nTemperature\n4 mA -20.00 °C\n20 mA 150.00 °C\nUpdate\nFigure 3. Density parameters in SME.",
+      "specifications": {
+        "Channel 1 - Density 4 mA output": "0.00 g/cc",
+        "Channel 1 - Density 20 mA output": "1.50 g/cc",
+        "Channel 2 - Viscosity 4 mA output": "0.000 cP",
+        "Channel 2 - Viscosity 20 mA output": "3000.000 cP",
+        "Channel 3 - Temperature 4 mA output": "-20.00 °C",
+        "Channel 3 - Temperature 20 mA output": "150.00 °C"
+      },
+      "key_facts": [
+        "The interface allows configuration of 4-20 mA output ranges for density, viscosity, and temperature channels.",
+        "Each channel (Density, Viscosity, Temperature) has independent settings for 4 mA and 20 mA values.",
+        "Settings can be updated by clicking the 'Update' button corresponding to each channel.",
+        "These parameters are configured within an SME system."
+      ],
+      "diagram_labels": [
+        "Figure 3. Density parameters in SME."
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 475,
+        "cost_usd": 0.0013273
+      },
+      "source_file": "224_Host_Interface_and_wiring_diagram_for_HART_protocol.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

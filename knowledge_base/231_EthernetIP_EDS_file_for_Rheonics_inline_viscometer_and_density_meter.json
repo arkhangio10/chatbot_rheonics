@@ -1,0 +1,43 @@
+{
+  "source_file": "231_EthernetIP_EDS_file_for_Rheonics_inline_viscometer_and_density_meter.pdf",
+  "total_pages": 1,
+  "chunks": [
+    {
+      "page_summary": "This page provides information and download links for the EthernetIP EDS file for Rheonics inline viscometers and density meters, including specific instructions for OMRON PLC users and references to related documentation.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics inline viscometer",
+        "Rheonics density meter",
+        "Rheonics sensors",
+        "RheonicsSRV2"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nEthernetIP EDS file for Rheonics inline viscometer and density meter\n\nModified on: Fri, 13 Jun, 2025 at 9:58 PM\n\nDownload EDS file for Rheonics sensors.\n\nThe\nEDS file for all rheonics devices is available as a download from this page.\n\nOMRON PLC uses exclusively the RheonicsSRV2 eds file.\n\nReferences\n\nParameter list accessible over EthernetIP\n(https://support.rheonics.com/en/support/solutions/articles/81000393235)\n\nUnit table accessible over EthernetIP (https://support.rheonics.com/en/support/solutions/articles/81000393237)",
+      "specifications": {},
+      "key_facts": [
+        "The page is dedicated to providing the EthernetIP EDS file for Rheonics inline viscometers and density meters.",
+        "The document was last modified on Friday, June 13, 2025, at 9:58 PM.",
+        "The EDS file for all Rheonics devices is available for download directly from this page.",
+        "OMRON PLCs require the exclusive use of the RheonicsSRV2 EDS file.",
+        "A parameter list accessible over EthernetIP is available at `https://support.rheonics.com/en/support/solutions/articles/81000393235`.",
+        "A unit table accessible over EthernetIP is available at `https://support.rheonics.com/en/support/solutions/articles/81000393237`."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "OMRON PLC users must exclusively use the RheonicsSRV2 EDS file."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 555,
+        "cost_usd": 0.0015273
+      },
+      "source_file": "231_EthernetIP_EDS_file_for_Rheonics_inline_viscometer_and_density_meter.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

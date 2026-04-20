@@ -1,0 +1,87 @@
+{
+  "source_file": "084_HART_Troubleshooting.pdf",
+  "total_pages": 2,
+  "chunks": [
+    {
+      "page_summary": "This page provides troubleshooting steps for HART communication, erratic readings, and power issues, and explains the HART LED indicator on the SME-TRD device's LCD display.",
+      "document_type": "manual",
+      "product_names": [
+        "SME-TRD"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nHART Troubleshooting\nModified on: Sun, 18 Sep, 2022 at 7:02 AM\n\nCommunication Issues\n\nNo device found\n\n1. Verify all connections open circuits, shorts, or bad wiring.\n2. Determine if the loop resistance is at least 250 or higher (max 720)\n3. Check the polling address and duplicate address.\n\nErratic readings\n\n1. Verify SME is properly grounded.\n2. Check external electrical interferences\n\nPower issues\n\n1. Verify correct power levels are applied to the transmitter.\n2. Verify wiring.\n3. Verify voltage drop.\n\nLCD Display\nThe SME-TRD device has the capability to blink the HART led to indicate that it is working correctly. HART LED is in the top right corner of the display.\n\n[Image of Rheonics SME-TRD display]\n\nFigure 1. SME-TRD HART led.",
+      "specifications": {
+        "loop_resistance_min": "250 ohm",
+        "loop_resistance_max": "720 ohm",
+        "viscosity": "0.01 mPas",
+        "density": "1234.56 g/cc",
+        "temperature": "50.00 °C"
+      },
+      "key_facts": [
+        "HART troubleshooting steps are provided for communication issues, erratic readings, and power issues.",
+        "For 'No device found' communication issues, verify connections, ensure loop resistance is between 250 and 720 ohms, and check polling/duplicate addresses.",
+        "For 'Erratic readings', ensure the SME device is properly grounded and check for external electrical interferences.",
+        "For 'Power issues', verify correct power levels to the transmitter, check wiring, and verify voltage drop.",
+        "The SME-TRD device indicates correct HART operation by blinking its HART LED, located in the top right corner of the display."
+      ],
+      "diagram_labels": [
+        "Power",
+        "Sensor",
+        "Modbus",
+        "HART",
+        "Process",
+        "Bluetooth",
+        "SENSOR",
+        "RUNNING",
+        "PROCESS",
+        "WITHIN LIMITS",
+        "VISC:",
+        "DENS:",
+        "TEMP:",
+        "605-0151 SWV1021 0043 E00",
+        "rheonics",
+        "Pull out to rotate and access communication ports",
+        "Figure 1. SME-TRD HART led."
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 709,
+        "cost_usd": 0.0019123
+      },
+      "source_file": "084_HART_Troubleshooting.pdf"
+    },
+    {
+      "page_summary": "This page details the meanings of HART LED display states and provides references for troubleshooting and connecting 4-20mA current outputs.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "HART LED ON DISPLAY | Meaning\nAlways OFF | HART disabled\nAlways GREEN | HART enabled, idle state\nBlinking GREEN | Bytes received; command not completed yet\nBlinking RED | Bytes received; data corrupted\nAlways RED | Loop is open, no HART communication possible\n\nReferences\nWhat can go wrong with 4 - 20mA loops ?\n(https://support.rheonics.com/en/support/solutions/articles/81000397120)\nConnecting 4-20 mA outputs\n(https://support.rheonics.com/en/support/solutions/articles/81000297457)",
+      "specifications": {},
+      "key_facts": [
+        "The HART LED indicates the status of HART communication.",
+        "An 'Always OFF' HART LED signifies that HART is disabled.",
+        "An 'Always GREEN' HART LED indicates that HART is enabled and in an idle state.",
+        "A 'Blinking GREEN' HART LED means that bytes are being received, but the command process is not yet complete.",
+        "A 'Blinking RED' HART LED warns that bytes were received, but the data is corrupted.",
+        "An 'Always RED' HART LED indicates an open loop, which prevents any HART communication.",
+        "Reference material is available to troubleshoot potential issues with 4-20mA loops.",
+        "Guidance is provided for connecting 4-20mA outputs."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 415,
+        "cost_usd": 0.0011773
+      },
+      "source_file": "084_HART_Troubleshooting.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

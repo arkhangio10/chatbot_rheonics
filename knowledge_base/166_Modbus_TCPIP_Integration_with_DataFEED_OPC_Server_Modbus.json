@@ -1,0 +1,593 @@
+{
+  "source_file": "166_Modbus_TCPIP_Integration_with_DataFEED_OPC_Server_Modbus.pdf",
+  "total_pages": 9,
+  "chunks": [
+    {
+      "page_summary": "This page provides a guide for integrating Rheonics Smart Module Electronics (SME) sensors, specifically SRV and SRD models, with DataFEED OPC Server Modbus using Modbus TCP/IP protocol, including prerequisites, a communication diagram, and initial configuration steps.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SME (Smart Module Electronics)",
+        "SRV (inline viscometer-srv)",
+        "SRD (inline density-meter-srd)",
+        "DataFEED OPC Server Modbus",
+        "RCP software",
+        "SME-DRM"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nModbus TCP/IP Integration with DataFEED OPC Server Modbus\n\nModified on: Sun, 15 Feb, 2026 at 12:51 AM\n\nWhich Rheonics products are related to this Article?\nThis Article is based on the use of the SME (Smart Module Electronics) from SRV (https://rheonics.com/products/inline-viscometer-srv/), SRD (https://rheonics.com/products/inline-density-meter-srd/)...\n\nWhat is this Article helpful for?\nThis article helps to guide the user on how to correctly receive data from the SME into the DataFEED OPC Software via Modbus TCP Protocol.\n\nDataFEED OPC Server Modbus (https://industrial.softing.com/products/opc-opc-ua-software-platform/opc-server-middleware/datafeed-opc-suite-base.html)\nThis software solution enables communication between OPC devices and the cloud. It provides access to the most commonly used PLCs in the industry. The software collects data from a variety of sources, such as OPC UA servers, PLCs, classic servers or SQL databases. As soon as the data is collected, users can decide where it should be sent.\n\nThis software uses the terms Data Source and Data Destination to identify who defines and uses data items. This doesn't define the communication direction, which is bidirectional.\n\nPrerequisites:\n* DataFEED software installed\n* Rheonics Sensor Electronics (SME) with Ethernet and Modbus TCP enabled\n* Ethernet on SME should be set to a Static IP through RCP\n* IP address of the Rheonics SME - this can be read out from the SME using RCP software\n\nEthernet Connection\n\nFigure 1: Communication diagram for Rheonics sensor-PLC and PC.\n\nConfiguration steps to receive SME data through DataFEED OPC Server Modbus\n\n1. Open DataFEED software, the software window should look like this:",
+      "specifications": {
+        "Power Supply Input": "24V dc+",
+        "Ethernet Connection Type": "RJ45",
+        "Serial Communication Standard": "RS485"
+      },
+      "key_facts": [
+        "The article describes the Modbus TCP/IP integration of Rheonics Smart Module Electronics (SME) with DataFEED OPC Server Modbus.",
+        "Rheonics products like SRV (inline viscometer) and SRD (inline density meter) utilize the SME.",
+        "The DataFEED OPC Server Modbus software facilitates communication between OPC devices/PLCs and the cloud, gathering data from various sources.",
+        "DataFEED software employs 'Data Source' and 'Data Destination' for data items, supporting bidirectional communication.",
+        "Key prerequisites include DataFEED software installation, Ethernet and Modbus TCP enablement on the Rheonics SME, setting a Static IP for SME Ethernet via RCP, and knowing the SME's IP address.",
+        "A communication diagram illustrates the connection between Rheonics sensor (SME-DRM), an Ethernet switch, and MODBUS clients/servers (PC, PLC)."
+      ],
+      "diagram_labels": [
+        "MODBUS Server TCP/IP",
+        "24V dc+",
+        "Gnd-",
+        "A Modbu",
+        "B RS485",
+        "Ethernet RJ45",
+        "USB",
+        "Display",
+        "Loop",
+        "Gnd-",
+        "Gnd-",
+        "Ch1+",
+        "Ch2+",
+        "Ch3+",
+        "SME-DRM",
+        "MODBUS Client TCP/IP",
+        "MODBUS Client 2 TCP/IP",
+        "MODBUS Server 2 TCP/IP",
+        "Figure 1: Communication diagram for Rheonics sensor-PLC and PC."
+      ],
+      "warnings_notes": [
+        "For proper integration, DataFEED software must be installed.",
+        "Rheonics Sensor Electronics (SME) must have Ethernet and Modbus TCP enabled.",
+        "The Ethernet on the SME should be configured with a Static IP address using RCP software.",
+        "The IP address of the Rheonics SME needs to be known and can be retrieved using RCP software.",
+        "The document was last modified on Sun, 15 Feb, 2026 at 12:51 AM.",
+        "Contact phone number for Rheonics is +1 713 234 0863."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1179,
+        "cost_usd": 0.0030872999999999994
+      },
+      "source_file": "166_Modbus_TCPIP_Integration_with_DataFEED_OPC_Server_Modbus.pdf"
+    },
+    {
+      "page_summary": "This page provides a step-by-step guide on configuring Modbus data sources within the Softing dataFEED OPC Suite software, illustrating the selection process and parameter setup.",
+      "document_type": "manual",
+      "product_names": [
+        "Softing dataFEED OPC Suite",
+        "SME device"
+      ],
+      "extracted_text": {
+        "figure_2_context": {
+          "screenshot_details": {
+            "window_title": "Configuration1 - Softing dataFEED OPC Suite - Running (Demo Mode)",
+            "menu_bar": [
+              "Configuration",
+              "View",
+              "Local Application",
+              "Help"
+            ],
+            "application_name": "dataFEED®",
+            "main_panel_header": "Data Source - Siemens",
+            "left_navigator": {
+              "heading": "Data Source",
+              "items": [
+                "Siemens",
+                "Rockwell",
+                "Modbus",
+                "B&R",
+                "Mitsubishi",
+                "OPC UA Server",
+                "OPC Server"
+              ],
+              "other_sections": [
+                "Data Processing",
+                "Data Destination",
+                "Settings"
+              ]
+            },
+            "content_area": {
+              "section_heading": "Controllers and Devices",
+              "description": "Create and modify connections to controllers and devices.",
+              "table_headers": [
+                "Name",
+                "Type",
+                "Address",
+                "Parameters"
+              ],
+              "table_rows": []
+            },
+            "status_bar": "Data Source - Siemens."
+          },
+          "caption": "Figure 2: Data Source selection tree.",
+          "instruction_point_2": "2. On the left side, you will find a navigator with possible data sources, select “Modbus”."
+        },
+        "figure_3_context": {
+          "screenshot_details": {
+            "window_title": "Configuration1 - Softing dataFEED OPC Suite - Running (Demo Mode)",
+            "menu_bar": [
+              "Configuration",
+              "View",
+              "Local Application",
+              "Help"
+            ],
+            "application_name": "dataFEED®",
+            "main_panel_header": "Data Source - Modbus",
+            "left_navigator": {
+              "heading": "Data Source",
+              "items": [
+                "Siemens",
+                "Rockwell",
+                "Modbus",
+                "B&R",
+                "Mitsubishi",
+                "OPC UA Server",
+                "OPC Server"
+              ],
+              "other_sections": [
+                "Data Processing",
+                "Data Destination",
+                "Settings"
+              ]
+            },
+            "content_area": {
+              "section_heading": "Controllers and Devices",
+              "description": "Create and modify connections to controllers and devices.",
+              "table_headers": [
+                "Name",
+                "Type",
+                "Address",
+                "Parameters"
+              ],
+              "table_rows": [
+                {
+                  "Name": "Modbus_2",
+                  "Type": "Modbus",
+                  "Address": "192.168.8.20",
+                  "Parameters": "Port Read 502; TCP; 1000 ms"
+                }
+              ]
+            },
+            "status_bar": "Data Source - Modbus."
+          },
+          "caption": "Figure 3: Modbus communication parameters for SME device.",
+          "explanatory_text": "Data sources from external devices will appear in the Controllers and Devices section. A unique name is assigned to each communication method in the Name Column. Listed in the second and third columns are the Type (Modbus) and Address (IPv4, hostname, or IPv6). The Parameters column displays connection attributes.",
+          "instruction_point_3": "3. If there aren’t any previous configurations, it will be blank like the following image. To create a new data source, press “Add a new data source” (Ctrl+A)."
+        }
+      },
+      "specifications": {
+        "Modbus Port": "502",
+        "Modbus Protocol": "TCP",
+        "Modbus Read Timeout": "1000 ms",
+        "Modbus Address Format": "IPv4, hostname, or IPv6"
+      },
+      "key_facts": [
+        "The Softing dataFEED OPC Suite software facilitates the configuration of various data sources, including Siemens, Rockwell, Modbus, B&R, Mitsubishi, OPC UA Server, and OPC Server.",
+        "The 'Controllers and Devices' section within the software is used for creating and modifying connections to external devices.",
+        "Each communication method in the 'Controllers and Devices' section is assigned a unique name.",
+        "Data source configurations display the Type (e.g., Modbus) and Address (IPv4, hostname, or IPv6).",
+        "The 'Parameters' column provides connection attributes such as Port, Protocol, and Read Timeout.",
+        "If no previous configurations exist, the 'Controllers and Devices' section will be blank.",
+        "To create a new data source, users can press “Add a new data source” (Ctrl+A)."
+      ],
+      "diagram_labels": [
+        "Figure 2: Data Source selection tree.",
+        "Figure 3: Modbus communication parameters for SME device.",
+        "1"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1260,
+        "cost_usd": 0.0032898
+      },
+      "source_file": "166_Modbus_TCPIP_Integration_with_DataFEED_OPC_Server_Modbus.pdf"
+    },
+    {
+      "page_summary": "This document provides a step-by-step guide for configuring a Modbus TCP data source connection within the Softing dataFEED OPC Suite software, detailing how to set connection name, activate the connection, and specify communication parameters like IP address and port.",
+      "document_type": "manual",
+      "product_names": [
+        "Softing dataFEED OPC Suite",
+        "dataFEED",
+        "Rheonics",
+        "Modbus TCP",
+        "OPC UA Server",
+        "OPC Server",
+        "RCP software"
+      ],
+      "extracted_text": "Configuration1 - Softing dataFEED OPC Suite - Running (Demo Mode)\nConfiguration View Local Application Help\ndataFEED®\nData Source - Modbus\n\nData Source\n  Siemens\n  Rockwell\n  Modbus\n  B&R\n  Mitsubishi\n  OPC UA Server\n  OPC Server\nData Processing\nData Destination\nSettings\nData Source - Modbus.\n\nControllers and Devices\nCreate and modify connections to controllers and devices.\nName Type Address Parameters\n\nFigure 4: Create a data source configuration.\n\n4. When click-in on the “Add a new data source” button, the Controller/Device Connection Wizard will appear. The connection name can be assigned in this page. Set the connection as “Active” with the flag up, and deactivate the simulation option, click next.\n\nController / Device Connection Wizard\n\nConnection Settings\nOn this wizard page the Connection Settings of the actual data source connection to a Modbus device are configured.\nConnection: Modbus_1.\nConnection Name\nSpecify the name of the actual connection. This name is also always the name of the root node of the name space and must therefore unique throughout the whole configuration.\nConnection name: Rheonics_1\nConnection Settings\nSpecify if the connection shall be active or shall be in simulation mode.\nConnection Active: [checked]\nSimulation: [unchecked]\nApplication Protocol\nSelect the type of the protocol which shall be used at application layer.\nModbus TCP [selected]\n\nNext > Cancel Help\n\nFigure 5: Connection settings.\n\n5. In the next window the SME IP Address must be entered. This IP address can be viewed or configured using the RCP software. The address format and advanced options can be left as shown. Then click the Next button.\n\nController / Device Connection Wizard\n\nCommunication Settings\nOn this wizard page the parameters for the current data source connection are configured.\nConnection: Rheonics_1 - Protocol: Modbus TCP.\nCommunication Settings\nSpecify the address of the current TCP/IP connection.\nThe address can be specified as an IP address V4, V6 or a hostname.\nUse the Modify button for more advanced configuration options.\nDestination Address: 10.5.33.84\nAddress format: Valid IPv4 address detected.\nAdvanced:\nWrite Allowed Yes\nRead/Write Port 502\nType Client(Active)\nProtocol TCP\nModify\n\n< Back Next > Finish Cancel Help\n\nFigure 6: Communication settings.",
+      "specifications": {
+        "Connection Name": "Rheonics_1",
+        "Connection Active": "True",
+        "Simulation Mode": "False",
+        "Application Protocol": "Modbus TCP",
+        "Destination Address": "10.5.33.84",
+        "Address Format": "IPv4",
+        "Write Allowed": "Yes",
+        "Read/Write Port": "502",
+        "Connection Type": "Client(Active)",
+        "Protocol (Advanced)": "TCP"
+      },
+      "key_facts": [
+        "The Softing dataFEED OPC Suite allows users to create and modify connections to various controllers and devices.",
+        "A \"Controller/Device Connection Wizard\" guides the user through the configuration process for new data sources.",
+        "Each connection must be assigned a unique name, which acts as the root node of the name space.",
+        "Connections can be set to \"Active\" mode, and a \"Simulation\" mode option can be deactivated.",
+        "The Modbus TCP protocol is used for the application layer of the connection.",
+        "Communication settings involve specifying the destination IP address (IPv4, IPv6, or hostname) for the TCP/IP connection.",
+        "Advanced communication options include write permissions, a Read/Write Port (default 502), and the connection type (Client/Active).",
+        "The SME IP Address (Destination Address) can be viewed or configured using the RCP software."
+      ],
+      "diagram_labels": [
+        "(2)",
+        "(3)",
+        "(4)",
+        "(5)",
+        "(6)"
+      ],
+      "warnings_notes": [
+        "The connection name must be unique throughout the whole configuration.",
+        "The address format and advanced options for the IP address can be left as shown in Figure 6.",
+        "The destination IP address can be specified as an IP address V4, V6, or a hostname.",
+        "The 'Modify' button is available for more advanced configuration options regarding communication settings."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1173,
+        "cost_usd": 0.0030723
+      },
+      "source_file": "166_Modbus_TCPIP_Integration_with_DataFEED_OPC_Server_Modbus.pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions for configuring PLC Protocol and Extended Settings, including a connection test, within the Rheonics Controller / Device Connection Wizard.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics",
+        "Rheonics_1"
+      ],
+      "extracted_text": "6. The next window shows the PLC Protocol Settings. Rheonics' factory default slave address for the sensor is 255 and must be set accordingly. The start address is 0. Check the boxes for Use Word Swap and Use Item Unit ID. The first one enables 32-bit double words, and the second allows the slave address to be specified via item syntax (seen later).\n\nController / Device Connection Wizard\n  PLC Protocol Settings\n    On this wizard page the PLC specific parameters for the current data source connection can be configured.\n    Connection: Rheonics_1 - Protocol: Modbus TCP.\n\n  Modbus protocol settings\n    Specify special parameters for the actual Modbus connection.\n\n    Slave Address: 255 (7)\n    (•) Start Address 0\n    ( ) Start Address 1\n\n    [ ] Use Byte Swap\n    [✓] Use Word Swap (8)\n    [✓] Use Item Unit ID\n    [ ] Use Write Single Coil (05)\n    [ ] Use Write Single Register (06)\n    [ ] IO Address is Octal\n\n  Navigation:\n    Connection Settings\n    Communication Settings\n    PLC Protocol Settings\n    Extended Settings\n    Address Space Definition\n\n  Buttons:\n    < Back\n    Next > (9)\n    Finish\n    Cancel\n    Help\n\nFigure 7: Modbus protocol settings.\n\n7. In the next wizard window, left settings as default. Check the availability of the device by clicking the check icon on the right.\n\nController / Device Connection Wizard\n  Extended Settings\n    On this wizard page the extended settings for the current data source connection can be configured.\n    Connection: Rheonics_1 - Protocol: Modbus TCP.\n\n  Extended Read Settings\n    Activate read optimization and specify the gap between the block areas in bytes.\n    [✓] Read Optimisation\n      Bytes gap: 252\n\n    Activate cycle read and specify the time interval at which the server send read requests to the PLC.\n    [✓] Cyclic Read\n      Read Interval: 1000 ms (up/down arrows)\n\n    Handle read requests always before write requests\n    [ ] Prioritize Read Requests\n\n  Connection Test\n    Use the button on the right side in order to test connectivity to the corresponding PLC.\n    (10) [✓] Execute co...\n\n  Navigation:\n    Connection Settings\n    Communication Settings\n    PLC Protocol Settings\n    Extended Settings (selected)\n    Address Space Definition\n\n  Buttons:\n    < Back\n    Next >\n    Finish\n    Cancel\n    Help\n\nFigure 8: Extended settings.\n\n8. Upon successful connection, a pop-out window will appear. Click Ok to continue.\n\nController / Device Connection Wizard\n  Extended Settings\n    On this wizard page the extended settings for the current data source connection can be configured.\n    Connection: Rheonics_1 - Protocol: Modbus TCP.\n\n  Connection Test\n    Connecting to PLC: Rheonics_1\n    Application Protocol: Modbus TCP\n    Destination Address: 10.5.33.84\n    Read/write port: 502\n    Protocol: TCP\n    Connection test successful!\n\n  Pop-out Window:\n    [ OK ] (11)\n\n  Navigation:\n    Connection Settings\n    Communication Settings\n    PLC Protocol Settings\n    Extended Settings (selected)\n    Address Space Definition\n\n  Buttons:\n    < Back\n    Next >\n    Finish\n    Cancel\n    Help\n\nFigure 9: Connection test.",
+      "specifications": {
+        "Slave Address": "255",
+        "Start Address": "0",
+        "Bytes gap": "252 bytes",
+        "Read Interval": "1000 ms",
+        "Destination Address": "10.5.33.84",
+        "Read/write port": "502"
+      },
+      "key_facts": [
+        "Rheonics' factory default slave address for the sensor is 255.",
+        "The PLC Protocol Settings require the start address to be 0.",
+        "Checking 'Use Word Swap' enables 32-bit double words.",
+        "Checking 'Use Item Unit ID' allows the slave address to be specified via item syntax.",
+        "The connection protocol used is Modbus TCP.",
+        "Read optimization is activated with a bytes gap of 252 bytes.",
+        "Cyclic read is activated with a read interval of 1000 ms for server send read requests to the PLC.",
+        "A successful connection test confirms communication with 'Rheonics_1' via Modbus TCP at destination address 10.5.33.84, using read/write port 502."
+      ],
+      "diagram_labels": [
+        "Controller / Device Connection Wizard",
+        "PLC Protocol Settings",
+        "Modbus protocol settings",
+        "Slave Address",
+        "Start Address 0",
+        "Start Address 1",
+        "Use Byte Swap",
+        "Use Word Swap",
+        "Use Item Unit ID",
+        "Use Write Single Coil (05)",
+        "Use Write Single Register (06)",
+        "IO Address is Octal",
+        "Connection Settings",
+        "Communication Settings",
+        "PLC Protocol Settings",
+        "Extended Settings",
+        "Address Space Definition",
+        "< Back",
+        "Next >",
+        "Finish",
+        "Cancel",
+        "Help",
+        "Figure 7: Modbus protocol settings.",
+        "Extended Read Settings",
+        "Read Optimisation",
+        "Bytes gap",
+        "Cyclic Read",
+        "Read Interval",
+        "Prioritize Read Requests",
+        "Connection Test",
+        "Execute co...",
+        "Figure 8: Extended settings.",
+        "Connecting to PLC: Rheonics_1",
+        "Application Protocol: Modbus TCP",
+        "Destination Address: 10.5.33.84",
+        "Read/write port: 502",
+        "Protocol: TCP",
+        "Connection test successful!",
+        "OK",
+        "Figure 9: Connection test."
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1554,
+        "cost_usd": 0.0040248
+      },
+      "source_file": "166_Modbus_TCPIP_Integration_with_DataFEED_OPC_Server_Modbus.pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions for defining and configuring data items in an 'Address Space Definition' wizard, showing how to add new items and set their types and properties for a connection using Modbus TCP.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics_1",
+        "Controller / Device Connection Wizard"
+      ],
+      "extracted_text": "9. The Address Space Definition window displays the connection's data items in a tree view. Create items by pressing the “Add a new Item” button (Ctrl+A).\n\nController / Device Connection Wizard\nAddress Space Definition\nOn this wizard page the address space for the actual connection can be defined.\nConnection: Rheonics_1 - Protocol: Modbus TCP.\n\nPLC Items\nAdd the items you want to introduce in the namespace of the local application. The items can be defined manually, imported from a Wago project or imported from an external file.\n\nRheonics_1\n[Icon] Rheonics_1\n[Button labeled 12] Add a new item\n[Other icons: wrench, folder with arrow, up arrow, down arrow, trash can]\n\nConnection Settings\nCommunication Settings\nPLC Protocol Settings\nExtended Settings\nAddress Space Definition (highlighted)\n\n< Back\nFinish\nCancel\nHelp\n\nFigure 10: Items tree for the data source.\n\nThere are three categories for variable type when a new item is added: root, node, and tag. Root (in the example: Rheonics_1) has the connection name and can’t be modified.\n\n10. Choose Node as the Type, then rename it if necessary and click Ok.\n\nController / Device Connection Wizard\nPLC Item Properties\nItem Data\n\nType\nSpecify the basic type for the actual PLC data item. Type Node can have any type of children, class Tag can not have any children.\n[Dropdown labeled 13] Type: Node\n\nData Item\nSpecify the name and the Syntax of the actual Item.\nName: Test1\nID: Rheonics_1.Test1\nSyntax:\nAccess Rights: Read\nData Type:\n\n[Button labeled 15] OK\nCancel\nHelp\n\nConnection Settings\nCommunication Settings\nPLC Protocol Settings\nExtended Settings\nAddress Space Definition (highlighted)\n\n< Back\nFinish\nCancel\nHelp\n\nFigure 11: Create a new Node item.\n\n11. Then, create a Tag type Item and name it. The Tag Syntax needs to be specified. For this example, set the Syntax to ERR40. Click Ok, note that the Data Type is updated after clicking ok.",
+      "specifications": {},
+      "key_facts": [
+        "The Address Space Definition window displays a connection's data items in a tree view.",
+        "New items can be created by pressing the 'Add a new Item' button (Ctrl+A).",
+        "The connection 'Rheonics_1' uses the Modbus TCP protocol.",
+        "PLC items can be defined manually or imported from a Wago project or an external file.",
+        "Variable types for new items include root, node, and tag.",
+        "The root item (e.g., Rheonics_1) uses the connection name and cannot be modified.",
+        "A Node type item can have any type of children.",
+        "A Tag type item cannot have any children.",
+        "The Tag Syntax needs to be specified when creating a Tag type item, for example, setting it to ERR40 updates the Data Type."
+      ],
+      "diagram_labels": [
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "warnings_notes": [
+        "Type Node can have any type of children, class Tag can not have any children.",
+        "Root (in the example: Rheonics_1) has the connection name and can’t be modified."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 924,
+        "cost_usd": 0.0024498
+      },
+      "source_file": "166_Modbus_TCPIP_Integration_with_DataFEED_OPC_Server_Modbus.pdf"
+    },
+    {
+      "page_summary": "This page provides detailed instructions and syntax definitions for configuring Modbus items within a 'Controller / Device Connection Wizard' interface, focusing on data types and addressing for Rheonics devices.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SME"
+      ],
+      "extracted_text": "Controller / Device Connection Wizard\nAdd PLC Item Properties\nOn this Item Data\nConnec\nType\nSpecify the basic type for the actual PLC data item. Type Node can have\nany type of children, class Tag can not have any children.\nRhet\n16 Type: Tag\nData Item\nConnection Settings\nSpecify the item and the Syntax of the actual Item.\nName: Viscosity\nID: Rheonics_1.Test1.Viscosity\n17\nCommunication Settings\nSyntax: ERR40\n18\nPLC Protocol Settings\nAccess Rights: Read and Write\nExtended Settings\nData Type: ANY (Any)\nAddress Space\nDefinition\n19 OK\nCancel\nHelp\n< Back\nFinish\nFigure 12: Create a new Tag item.\nThe Modbus Item syntax has the following order:\n[UnitID.][Group.]<Area><Data type><Start address>.<Bit number>[.Array size][Suffix]\nLegend: < > Mandatory [ ] Optional\nFigure 13: Modbus item syntax (dataFEED User Manual).\n• <Area> defines where the data is received from with an Abbreviation. These are the following:\nTable 1: Area definition for data syntax.\nSyntax Abbreviation | Abbreviation Number | Orientation | Access right\nDiscrete Inputs | I, E, DI or DE | 1xxxxx | Bit | Read\nDiscrete Outputs | A, O, Q, DA, DO or DQ | 0xxxxx | Bit | Read/Write\nInput Register | ER or IR | 3xxxxx | Word | Read\nRegister | R | 4xxxxx | Word | Read/Write\nHolding Register | HR | 4xxxxx | Word | Read/Write\n• <Data type> defines the variable type with the following syntax.\nTable 2: Data Type definition for data syntax.\nBit | Int | Word | DInt | DWord | Real | Double | String\nX | I | W | D, DI | DW | R | RD | S\n• Start address specifies the starting address at which the read or write will start. For Rheonics SME the measurement values start at address 40.\n• Bit number must be specified when the data type is bool.\nIn this case, the syntax ERR40 means: Parameters come from an Input Register, are Real (Float) type and start from address 40.\n12. The hierarchy tree should look like the figure below. With this, we have created one tag that points to address 40 from the Input Register, which is Viscosity Median. Some of the Registers, Parameters and its address can be found in Rheonics Support Page (https://support.rheonics.com/support/solutions/articles/81000297664-modbus-tcp-input-registers).",
+      "specifications": {
+        "Modbus_Start_Address_Rheonics_SME_Measurement_Values": "40",
+        "Modbus_Start_Address_Parameters": "40",
+        "Modbus_Data_Type_Parameters": "Real (Float)",
+        "Modbus_Register_Type_Parameters": "Input Register",
+        "Modbus_Address_Viscosity_Median": "40"
+      },
+      "key_facts": [
+        "The page illustrates the creation of a new Tag item in a 'PLC Item Properties' dialog, specifically setting its Name to 'Viscosity' and Syntax to 'ERR40'.",
+        "Modbus Item syntax follows the order: `[UnitID.][Group.]<Area><Data type><Start address>.<Bit number>[.Array size][Suffix]`, where '< >' denotes mandatory components and '[ ]' optional ones.",
+        "The '<Area>' component of the Modbus syntax defines the data source, with categories like Discrete Inputs (Read, Bit), Discrete Outputs (Read/Write, Bit), Input Register (Read, Word), Register (Read/Write, Word), and Holding Register (Read/Write, Word).",
+        "The '<Data type>' component defines the variable type, offering options such as Bit (X), Int (I), Word (W), DInt (D, DI), DWord (DW), Real (R), Double (RD), and String (S).",
+        "For Rheonics SME devices, measurement values, including Viscosity Median, are found in the Input Register and start at Modbus address 40.",
+        "The syntax 'ERR40' implies that parameters are sourced from an Input Register, are of Real (Float) type, and commence at address 40.",
+        "A dedicated Rheonics Support Page provides further details on Modbus TCP Input Registers."
+      ],
+      "diagram_labels": [
+        "Controller / Device Connection Wizard",
+        "PLC Item Properties",
+        "Item Data",
+        "Type",
+        "Tag",
+        "Data Item",
+        "Name",
+        "Viscosity",
+        "ID",
+        "Rheonics_1.Test1.Viscosity",
+        "Syntax",
+        "ERR40",
+        "Access Rights",
+        "Read and Write",
+        "Data Type",
+        "ANY (Any)",
+        "Connection Settings",
+        "Communication Settings",
+        "PLC Protocol Settings",
+        "Extended Settings",
+        "Address Space Definition",
+        "OK",
+        "Cancel",
+        "Help",
+        "< Back",
+        "Finish",
+        "16",
+        "17",
+        "18",
+        "19"
+      ],
+      "warnings_notes": [],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1325,
+        "cost_usd": 0.0034522999999999997
+      },
+      "source_file": "166_Modbus_TCPIP_Integration_with_DataFEED_OPC_Server_Modbus.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions for configuring the address space for a Rheonics device connection using the Softing dataFEED OPC Suite, including defining tags, restarting the application, and importing tag configurations.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics_1",
+        "Softing dataFEED OPC Suite"
+      ],
+      "extracted_text": "Controller / Device Connection Wizard\nAddress Space Definition\nOn this wizard page the address space for the actual connection can be defined.\nConnection: Rheonics_1 - Protocol: Modbus TCP.\n\nPLC Items\nAdd the items you want to introduce in the namespace of the local application. The items can be defined manually, imported from a Wago project or imported from an external file.\n\nRheonics_1\n  Test1\n  Viscosity\n\nConnection Settings\nCommunication Settings\nPLC Protocol Settings\nExtended Settings\nAddress Space Definition\n\n< Back\nFinish\nCancel\nHelp\n\nFigure 14: Project Tree View with Tag.\n\n13. Restart the application and save changes.\n\nConfiguration1 - Softing dataFEED OPC Suite* - Running (Demo Mode)\nConfiguration\nView\nLocal Application\nHelp\nRestart\nStop\nShow Web Pages\nFeature Selection\nRun Mode\n\nData Source\nSiemens\nRockwell\n\nName\nType\nRheonics_1\nModbus\n\n...and modify connections to controllers\n\nFigure 15: Restart and save the configuration.\n\nImporting Configuration Files\nInstead of creating tags one by one, it is possible to import the configuration of the tag with an external Text File (.txt), including their name and syntax. Follow the next steps to do that.\n\n1. In the Address Space Definition, click Import (Ctrl+I).\n\nFigure 16: Import tags configuration.",
+      "specifications": {},
+      "key_facts": [
+        "The Controller / Device Connection Wizard allows for defining the address space for a connection.",
+        "The connection 'Rheonics_1' uses the Modbus TCP protocol.",
+        "PLC items (tags) can be added manually, imported from a Wago project, or imported from an external file.",
+        "The application needs to be restarted (e.g., 'Softing dataFEED OPC Suite') to apply and save changes to the configuration.",
+        "Tag configurations, including name and syntax, can be imported from an external Text File (.txt) to streamline the setup process."
+      ],
+      "diagram_labels": [
+        "Controller / Device Connection Wizard",
+        "Address Space Definition",
+        "Connection: Rheonics_1 - Protocol: Modbus TCP",
+        "PLC Items",
+        "Rheonics_1",
+        "Test1",
+        "Viscosity",
+        "Connection Settings",
+        "Communication Settings",
+        "PLC Protocol Settings",
+        "Extended Settings",
+        "Address Space Definition",
+        "< Back",
+        "Finish",
+        "Cancel",
+        "Help",
+        "Figure 14: Project Tree View with Tag.",
+        "Configuration1 - Softing dataFEED OPC Suite* - Running (Demo Mode)",
+        "Configuration",
+        "View",
+        "Local Application",
+        "Help",
+        "Restart",
+        "Stop",
+        "Show Web Pages",
+        "Feature Selection",
+        "Run Mode",
+        "data",
+        "Data Source",
+        "Siemens",
+        "Rockwell",
+        "Name",
+        "Type",
+        "Modbus",
+        "Figure 15: Restart and save the configuration.",
+        "Importing Configuration Files",
+        "Import",
+        "Figure 16: Import tags configuration.",
+        "20"
+      ],
+      "warnings_notes": [],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 890,
+        "cost_usd": 0.0023648
+      },
+      "source_file": "166_Modbus_TCPIP_Integration_with_DataFEED_OPC_Server_Modbus.pdf"
+    },
+    {
+      "page_summary": "This page illustrates the step-by-step process of importing an alias file containing sensor data into a PLC system using the PLC Alias File Import Wizard.",
+      "document_type": "manual",
+      "product_names": [
+        "PLC Alias File Import Wizard"
+      ],
+      "extracted_text": "2. Select the Text file to import. The “Import directly to root node” box can be selected.\n\nPLC Alias File Import Wizard\nItems Import Wizard\nImport items from an external alias file to the “Test1” node (currently selected) of the current connection address space. A detailed description of the corresponding file format can be found in the online help.\nImport File\nSelect the file name and the storage location of the local items data file to be imported.\nFile:\nDelete existing address space - the address space can not be overwritten because it is using at least once as data destination or data processing item.\nImport directly on the connection root node\nNext >\nCancel\nHelp\nFigure 17: Import configuration file.\n\nThe Text file can have the following content, find the file attached below.\nP1_Viscosity_median5=ERR40\nP2_Density_median5=ERR48\nP3_Temperature_median=ERR56\nP6_Viscosity_raw=ERR80\nP7_Density_raw=ERR88\nP8_Temperature_raw=ERR96\n_sensor_status=id255.300039\n\n3. Click Finish to finalize the import.\n\nPLC Alias File Import Wizard\nImport Results\n7 Plc items imported.\nImport successfully completed.\nFinish\nHelp\nFigure 18: Import results.\n\n4. The imported data should be shown as in the following figure. Finish the configuration.",
+      "specifications": {
+        "P1_Viscosity_median5": "ERR40",
+        "P2_Density_median5": "ERR48",
+        "P3_Temperature_median": "ERR56",
+        "P6_Viscosity_raw": "ERR80",
+        "P7_Density_raw": "ERR88",
+        "P8_Temperature_raw": "ERR96",
+        "_sensor_status": "id255.300039"
+      },
+      "key_facts": [
+        "A text file containing alias items for a PLC system is imported using the PLC Alias File Import Wizard.",
+        "The import process involves selecting a file and ensuring the 'Import directly on the connection root node' option is checked.",
+        "The example text file content includes median and raw values for viscosity, density, temperature, and a sensor status.",
+        "The import wizard confirms the successful import of 7 PLC items.",
+        "The final step in the import process is clicking the 'Finish' button."
+      ],
+      "diagram_labels": [
+        "2 (File selection browse button)",
+        "3 (Import directly on the connection root node checkbox)",
+        "4 (Next > button)",
+        "5 (Finish button)",
+        "PLC Alias File Import Wizard",
+        "Items Import Wizard",
+        "Import File",
+        "Select the file name and the storage location of the local items data file to be imported.",
+        "File:",
+        "Delete existing address space - the address space can not be overwritten because it is using at least once as data destination or data processing item.",
+        "Next >",
+        "Cancel",
+        "Help",
+        "Import Results",
+        "7 Plc items imported.",
+        "Import successfully completed.",
+        "Finish"
+      ],
+      "warnings_notes": [
+        "The address space cannot be overwritten if it is currently being used as a data destination or for data processing."
+      ],
+      "page_num": 8,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 875,
+        "cost_usd": 0.0023273
+      },
+      "source_file": "166_Modbus_TCPIP_Integration_with_DataFEED_OPC_Server_Modbus.pdf"
+    },
+    {
+      "page_summary": "This page illustrates the configuration of a Rheonics device's address space within the Softing dataFEED OPC Suite, detailing the Modbus TCP connection and process data hierarchy, followed by instructions to restart the application.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics",
+        "Softing dataFEED OPC Suite",
+        "Modbus TCP",
+        "OPC UA"
+      ],
+      "extracted_text": "Controller / Device Connection Wizard\nAddress Space Definition\nOn this wizard page the address space for the actual connection can be defined.\nConnection: Rheonics_1 - Protocol: Modbus TCP.\n\nPLC Items\nAdd the items you want to introduce in the namespace of the local application. The items can be defined manually, imported from a Wago project or imported from an external file.\n\nRheonics_1\n  Text1\n    _sensor_status\n    P1_Viscosity_median5\n    P2_Density_median5\n    P3_Temperature_median\n    P6_Viscosity_raw\n    P7_Density_raw\n    P8_Temperature_raw\n    Viscosity\n\nConnection Settings\nCommunication Settings\nPLC Protocol Settings\nExtended Settings\nAddress Space Definition\n\n< Back\nFinish\nCancel\nHelp\n\nFigure 19: Final data hierarchy.\n\n5. Restart the application and save changes.\n\nConfiguration1 - Softing dataFEED OPC Suite* - Running (Demo Mode)\nConfiguration View Local Application Help\n  Restart\n  Stop\n  Show Web Pages\n  Feature Selection\n  Run Mode\n\nData Source\nData\n\nServers and Devices\nand modify connections to controllers and devices.\nName       Type    Address\nRheonics_1 Modbus  10.5.33.84\nSiemens\n\nFigure 20: Restart and save the configuration.\n\nReferences\n[1] https://www.modbus.org/docs/Modbus_Messaging_Implementation_Guide_V1_0b.pdf\n[2] https://industrial.softing.com/uploads/softing_downloads/dataFEEDOPCSuite_en.pdf\n[3] https://industrial.softing.com/products/opc-opc-ua-software-platform/opc-server-middleware/datafeed-opc-suite-base.html\n\nConfiguration File Example:",
+      "specifications": {},
+      "key_facts": [
+        "The page describes how to define the address space for a Rheonics device connection using Modbus TCP protocol.",
+        "The address space includes various sensor data points such as viscosity (median5, raw), density (median5, raw), temperature (median, raw), and sensor status.",
+        "The configuration is performed within the 'Softing dataFEED OPC Suite' application.",
+        "The Rheonics device, identified as 'Rheonics_1', is configured to connect via Modbus to the IP address 10.5.33.84.",
+        "After making configuration changes, the application must be restarted to save them."
+      ],
+      "diagram_labels": [
+        "6",
+        "7"
+      ],
+      "warnings_notes": [],
+      "page_num": 9,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 768,
+        "cost_usd": 0.0020598
+      },
+      "source_file": "166_Modbus_TCPIP_Integration_with_DataFEED_OPC_Server_Modbus.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

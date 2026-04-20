@@ -1,0 +1,525 @@
+{
+  "source_file": "178_Configuring_LoRaWAN_Gateway_for_Remote_Data_Visualization_of_Rheonics_Sensors.pdf",
+  "total_pages": 7,
+  "chunks": [
+    {
+      "page_summary": "This page details the configuration process for a SenseCAP M2 LoRaWAN gateway to enable remote data visualization of Rheonics sensors using The Things Stack.",
+      "document_type": "technical note",
+      "product_names": [
+        "SenseCAP M2 LoRaWAN gateway",
+        "Rheonics Sensors"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nConfiguring LoRaWAN Gateway for Remote Data Visualization of Rheonics Sensors\n\nModified on: Fri, 14 Nov, 2025 at 11:32 PM\n\nWhat products are involved?\nThis article is based on using the SenseCAP M2 LoRaWAN gateway.\n\nWhat is the purpose of this article?\nThis article walks through the process of configuring the SenseCAP M2 gateway to transmit data wirelessly and access it via The Things Network (TTN), which is a LoRaWAN ecosystem.\n\nTABLE OF CONTENTS\n\n1. Overview\n2. Gateway Configuration on The Things Stack (TTS)\n3. SenseCAP M2 Multi-Platform Gateway Web Server Configuration\n    3.1. Connection of SenseCAP M2 Multi-Platform to the Internet\n    3.2. Enter SenseCAP M2 Web Server\n4. References\n\n1. Overview\n\nLoRaWAN is a long-range, low-power communication protocol designed for transmitting sensor data over wide areas. The SenseCAP M2 is a LoRaWAN gateway that provides long-range connectivity with other LoRaWAN devices, enabling them to send and receive data. Through the gateway, the data is sent to a LoRaWAN network server, where it can then be processed and visualized remotely. In this article, the SenseCAP M2 LoRaWAN gateway, which connects to the Internet (via Ethernet or Wi-Fi), allows sending data to a LoRaWAN network server such as The Things Stack (TTS). This allows the remote visualization of devices connected to the gateway.\n\nTo learn more about LoRaWAN refer to LoRaWAN Fundamentals (https://support.rheonics.com/en/support/solutions/articles/81000419798).\n\nUsing the SenseCAP M2 gateway, Rheonics sensors can transmit sensor values wirelessly and be monitored in real time from anywhere through The Things Stack server.\n\nFigure 1: Connection of SenseCAP M2 to The Things Stack\n\nThe following diagram illustrates the connection process between the SenseCAP M2 and The Things Stack.\n\nFigure 2: Flow diagram of SenseCAP M2 configuration",
+      "specifications": {},
+      "key_facts": [
+        "LoRaWAN is a long-range, low-power communication protocol for transmitting sensor data over wide areas.",
+        "The SenseCAP M2 is a LoRaWAN gateway that provides long-range connectivity to other LoRaWAN devices.",
+        "The SenseCAP M2 gateway sends data to a LoRaWAN network server (such as The Things Stack) for remote processing and visualization.",
+        "The SenseCAP M2 LoRaWAN gateway can connect to the Internet via Ethernet or Wi-Fi.",
+        "Rheonics sensors can transmit sensor values wirelessly using the SenseCAP M2 gateway and be monitored in real time from anywhere through The Things Stack server.",
+        "The Things Network (TTN) is identified as a LoRaWAN ecosystem."
+      ],
+      "diagram_labels": [
+        "THE THINGS STACK",
+        "Internet Access Point",
+        "Ethernet",
+        "SenseCAP M2",
+        "Start",
+        "Enter The Things Stack",
+        "Register Gateway with SenseCAP and generate API keys",
+        "Download API keys and check keys rights",
+        "Connect SenseCAP M2 to Internet",
+        "Enter SenseCAP M2 WebUI",
+        "Configure LoRa Network"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 883,
+        "cost_usd": 0.0023472999999999996
+      },
+      "source_file": "178_Configuring_LoRaWAN_Gateway_for_Remote_Data_Visualization_of_Rheonics_Sensors.pdf"
+    },
+    {
+      "page_summary": "This page provides a step-by-step guide on how to configure a SenseCAP M2 gateway on The Things Stack (TTS) platform for retrieving data from Rheonics Sensor Module Electronics (SME).",
+      "document_type": "manual",
+      "product_names": [
+        "SenseCAP M2 gateway",
+        "Rheonics Sensor Module Electronics (SME)",
+        "Viscosity meter1"
+      ],
+      "extracted_text": "2. Gateway Configuration on The Things Stack (TTS)\n\nThe SenseCAP M2 gateway needs to be added to The Things Stack to retrieve data from the Rheonics Sensor Module Electronics (SME).\n1. Enter The Things Network Console (https://console.cloud.thethings.network/) and select the cluster that matches the frequency plan of the SenseCAP M2 gateway. In this case, the Europe (eu1) cluster is chosen because the SenseCAP M2 EU868 version is being used.\n\nFigure 3: TTN network cluster\n\n2. After logging in, click on Register Gateway\n\nFigure 4: Register gateway Tab\n\n3. Enter the Gateway EUI found in the SenseCAP M2 device label.\n\nFigure 5: Enter SenseCAP M2 Gateway EUI\n\n4. Fill the spaces with the following information:\n*   Gateway ID: e.g. rheonicslora1\n*   Gateway name: e.g. rheonicslora1\n*   Frequency plan: LoRaWAN operates on different frequency bands because it follows certain rules depending on the geographic area. The frequency plan selected in The Things Stack should match the SenseCAP M2 version. In this case, the EU868 version is being used, so the frequency plan **EU863–870** must be selected in The Things Stack.\n*   Require authenticated correction: [checkbox checked]\n*   Generate API key for CUPS: [checkbox checked]\n*   Generate API key for LNS: [checkbox checked]",
+      "specifications": {
+        "SenseCAP M2 version": "EU868",
+        "Frequency plan for EU868 version": "EU863–870"
+      },
+      "key_facts": [
+        "The SenseCAP M2 gateway must be added to The Things Stack to retrieve data from Rheonics Sensor Module Electronics (SME).",
+        "The Things Network Console is the platform used for gateway configuration.",
+        "The chosen network cluster (e.g., Europe (eu1)) must correspond to the SenseCAP M2 gateway's frequency plan (e.g., EU868 version).",
+        "LoRaWAN operates on different frequency bands based on geographic area, requiring the frequency plan in The Things Stack to match the SenseCAP M2 version.",
+        "For a SenseCAP M2 EU868 version, the EU863–870 frequency plan must be selected in The Things Stack.",
+        "The configuration process involves logging in, clicking 'Register Gateway', entering the Gateway EUI, and providing details such as Gateway ID, Gateway name, and Frequency plan."
+      ],
+      "diagram_labels": [
+        "THE THINGS NETWORK",
+        "Choose a network cluster",
+        "Device or gateway location",
+        "Select your region",
+        "Existing clusters",
+        "Europe 1",
+        "eu1 - Dublin, Ireland",
+        "North America 1",
+        "nam1 - California, USA",
+        "Australia 1",
+        "au1 - Sydney, Australia",
+        "Terms of use",
+        "© The Things Network",
+        "Home",
+        "Applications",
+        "Gateways",
+        "Dashboard",
+        "Organizations",
+        "Notifications",
+        "User settings",
+        "Top entities",
+        "srv-test/modbus-converter",
+        "Viscosity meter1",
+        "srv",
+        "rheonics1/mccrheonics",
+        "rheonics1/4802test",
+        "rheonics1clora1",
+        "Create application",
+        "Add end device",
+        "Create organization",
+        "Add API key",
+        "Register gateway",
+        "Latest news",
+        "Documentation",
+        "Gateways > Register gateway",
+        "Register gateway (heading)",
+        "Register your gateway to enable data traffic between nearby end devices and the network.",
+        "Learn more in our guide on Adding Gateways.",
+        "Does your gateway have a LoRaWAN® Gateway Identification QR Code?",
+        "Scan it to speed up onboarding.",
+        "Scan gateway QR code",
+        "Gateway EUI",
+        "Continue without EUI",
+        "To continue, please confirm the Gateway EUI so we can determine onboarding options"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1090,
+        "cost_usd": 0.0028648
+      },
+      "source_file": "178_Configuring_LoRaWAN_Gateway_for_Remote_Data_Visualization_of_Rheonics_Sensors.pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions for registering a SenseCAP M2 Gateway within The Things Stack platform and managing its associated LoRaWAN Network Server (LNS) and Configuration and Update Server (CUPS) API keys.",
+      "document_type": "manual",
+      "product_names": [
+        "SenseCAP M2 Gateway",
+        "LoRaWAN Network Server (LNS)",
+        "Configuration and Update Server (CUPS)",
+        "LoRa Basic Station",
+        "The Things Stack",
+        "Packet Broker"
+      ],
+      "extracted_text": "Gateways > Register gateway\n\nRegister gateway\nRegister your gateway to enable data traffic between nearby end devices and the network. Learn more in our guide on ID Adding Gateways.\n\nDoes your gateway have a LoRaWAN® Gateway identification QR Code? Scan it to speed up onboarding.\n  Scan gateway QR code\n\nGATEWAY EUI\n  2C FF F3 38 62 68 62 68 Reset\n\nGateway ID *\n  rheonicslora1\n\nGateway name *\n  rheonicslora1\n\nFrequency plan *\n  Europe 863-870 MHz (SF9 for RX2 - recommended)\n  + Add frequency plan\n  Note: most gateways use a single frequency plan. Some 16 and 64 channel gateways however allow setting multiple within the same band.\n\nRequire authenticated connection\n  Choose this option eg. if your gateway is powered by LoRa Basic Station.\n\nGenerate API key for CUPS\nGenerate API key for LNS\n\nShare gateway information\n  Select which information can be seen by other network participants, including Packet Broker.\n  Share status within network\n  Share location within network\n\nFigure 6: Enter SenseCAP M2 Gateway information\n\n5. Next, make sure to download the gateway API keys (LNS and CUPS). These keys are randomly generated by The Things Stack and are used to verify the identity of the gateway.\n    * LoRaWAN Network Server (LNS): data connection between LoRa Basics and The Things Stack. Required for sending and receiving data with LoRa basics station.\n    * Configuration and Update Server (CUPS): Checks for configuration and software updates. Not required for sending and receiving LoRaWAN data.\n\nDownload gateway API keys\n  Download LNS key\n  Download CUPS key\n  Note: After closing this window, these API keys will not be accessible for download anymore. Please make sure to download and store them now.\n  I have downloaded the keys\n\nFigure 7: API keys Download\n\n6. Click on API keys in the gateway menu\n\nTHE THINGS STACK SANDBOX\n  Home | Applications | Gateways\n  Search Ctrl K\n\n  < rheonicslora1\n    Gateway overview\n    Live data\n    Location\n    Collaborators\n    API keys\n    General settings\n  Top gateways\n    +\n    rheonicslora1\n\nFigure 8: API keys\n\n7. The LNS and CUPS keys generated previously should appear.\n\nGateways > rheonicslora1 > API keys\n\nrheonicslora1\n  rheonicslora1\n  + Add key\n\nAPI keys (2)\n  KEY ID | NAME | GRANTED RIGHTS | CREATED AT\n  D2Q9FKK5SABQT58PGHNFGLPYYMAFA3ZJGGB | lns-api-key-1756154299843 | View gateway information, Link as a Gateway to a Gateway Server for traffic exchange: Ls, write uplink and read downlink | 2 minutes ago\n  ZT6NWDY21UMR6DGQLSZDVEFHUSKUS2WCWDTDF | cups-api-key-17561542998 | View gateway information, Edit basic gateway settings, Retrieve secrets associated with a gateway | 2 minutes ago\n\nFigure 9: Created LNS and CUPS keys\n\n8. Click on the lns-api-key to view its configuration. This shows the rights assigned to the key, which allow the gateway to exchange information with the LoRaWAN Network Server and view gateway information. Make sure the rights shown in the following image are selected.",
+      "specifications": {},
+      "key_facts": [
+        "Gateway API keys (LNS and CUPS) are randomly generated by The Things Stack to verify the identity of the gateway.",
+        "LoRaWAN Network Server (LNS) keys are required for data connection between LoRa Basics and The Things Stack, enabling sending and receiving LoRaWAN data with LoRa basics station.",
+        "Configuration and Update Server (CUPS) keys are used for configuration and software updates and are not required for sending and receiving LoRaWAN data.",
+        "API keys, once the download window is closed, will no longer be accessible for download and must be stored immediately after generation.",
+        "Specific rights must be assigned to the LNS API key to enable the gateway to exchange information with the LoRaWAN Network Server.",
+        "Most gateways use a single frequency plan, but some 16 and 64 channel gateways allow setting multiple within the same band."
+      ],
+      "diagram_labels": [
+        "Figure 6: Enter SenseCAP M2 Gateway information",
+        "Figure 7: API keys Download",
+        "Figure 8: API keys",
+        "Figure 9: Created LNS and CUPS keys",
+        "Gateways > Register gateway",
+        "Register gateway",
+        "Scan gateway QR code",
+        "GATEWAY EUI",
+        "Reset",
+        "Gateway ID *",
+        "Gateway name *",
+        "Frequency plan *",
+        "Europe 863-870 MHz (SF9 for RX2 - recommended)",
+        "+ Add frequency plan",
+        "Require authenticated connection",
+        "Generate API key for CUPS",
+        "Generate API key for LNS",
+        "Share gateway information",
+        "Share status within network",
+        "Share location within network",
+        "Download gateway API keys",
+        "Download LNS key",
+        "Download CUPS key",
+        "I have downloaded the keys",
+        "THE THINGS STACK SANDBOX",
+        "Home",
+        "Applications",
+        "Gateways",
+        "Search",
+        "Ctrl K",
+        "rheonicslora1",
+        "Gateway overview",
+        "Live data",
+        "Location",
+        "Collaborators",
+        "API keys",
+        "General settings",
+        "Top gateways",
+        "+ Add key",
+        "API keys (2)",
+        "KEY ID",
+        "NAME",
+        "GRANTED RIGHTS",
+        "CREATED AT",
+        "D2Q9FKK5SABQT58PGHNFGLPYYMAFA3ZJGGB",
+        "lns-api-key-1756154299843",
+        "View gateway information",
+        "Link as a Gateway to a Gateway Server for traffic exchange: Ls, write uplink and read downlink",
+        "ZT6NWDY21UMR6DGQLSZDVEFHUSKUS2WCWDTDF",
+        "cups-api-key-17561542998",
+        "Edit basic gateway settings",
+        "Retrieve secrets associated with a gateway"
+      ],
+      "warnings_notes": [
+        "Note: most gateways use a single frequency plan. Some 16 and 64 channel gateways however allow setting multiple within the same band.",
+        "Note: After closing this window, these API keys will not be accessible for download anymore. Please make sure to download and store them now.",
+        "Make sure the rights shown in the following image are selected."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1814,
+        "cost_usd": 0.0046748
+      },
+      "source_file": "178_Configuring_LoRaWAN_Gateway_for_Remote_Data_Visualization_of_Rheonics_Sensors.pdf"
+    },
+    {
+      "page_summary": "This page details the configuration of LNS and CUPS API keys for a SenseCAP M2 gateway and introduces its web server and internet connection setup.",
+      "document_type": "manual",
+      "product_names": [
+        "SenseCAP M2",
+        "SenseCAP M2 Multi-Platform Gateway"
+      ],
+      "extracted_text": "Gateways > rheonicslora1 > API keys > Edit\nrheonicslora1\nID: rheonicslora1\n+ Add label\nKey ID *\nD2QPXKSSABQT6RMHGUNPIGLZYMAFA3ZU7QJQRDI\nName\nlns-api-key-1756154299843\nExpiry date\nmm/dd/yyyy\nRights *\nGrant all current and future rights\nGrant individual rights\nSelect all\ndelete gateway\nview gateway information\nlink as Gateway to a Gateway Server for traffic exchange, i.e. write uplink and read downlink\nview gateway location\npurge gateway\nretrieve secrets associated with a gateway\nview and edit gateway API keys\nedit basic gateway settings\nview and edit gateway collaborators\nview gateway status\nwrite downlink gateway traffic\nread gateway traffic\nstore secrets for a gateway\nSave changes\nFigure 10: LNS key configuration\n9. Click on the cups-api-key to view its configuration. This shows the rights assigned to the key, which allows viewing gateway information, retrieving secrets of the gateway, and editing basic gateway settings. Make sure the rights shown in the following image are selected.\nGateways > rheonicslora1 > API keys > Edit\nrheonicslora1\nID: rheonicslora1\n+ Add label\nKey ID *\nZI6NOY2IUUM6KGOL5KZDVFHU5KUWFCDYIDF7Q\nName\ncups-api-key-1756154299498\nExpiry date\nmm/dd/yyyy\nRights *\nGrant all current and future rights\nGrant individual rights\nSelect all\ndelete gateway\nview gateway information\nlink as Gateway to a Gateway Server for traffic exchange, i.e. write uplink and read downlink\nview gateway location\npurge gateway\nretrieve secrets associated with a gateway\nview and edit gateway API keys\nedit basic gateway settings\nview and edit gateway collaborators\nview gateway status\nwrite downlink gateway traffic\nread gateway traffic\nstore secrets for a gateway\nSave changes\nFigure 11: CUPS key configuration\n3. SenseCAP M2 Multi-Platform Gateway Web Server Configuration\nThe SenseCAP M2 Gateway configuration can be done through the web server of the device.\n3.1. Connection of SenseCAP M2 Multi-Platform to the Internet\nIn this article, the SenseCAP M2 is connected using an Ethernet Cable to a Wi-Fi router to access the internet, as shown in the following diagram.",
+      "specifications": {},
+      "key_facts": [
+        "LNS API key configuration involves granting rights such as viewing gateway information and linking as a Gateway Server for traffic exchange (uplink and downlink).",
+        "CUPS API key configuration involves granting rights including viewing gateway information, retrieving secrets associated with the gateway, and editing basic gateway settings.",
+        "The SenseCAP M2 Gateway configuration is performed via the web server of the device.",
+        "The SenseCAP M2 connects to the internet using an Ethernet Cable to a Wi-Fi router."
+      ],
+      "diagram_labels": [
+        "Gateways",
+        "rheonicslora1",
+        "API keys",
+        "Edit",
+        "ID: rheonicslora1",
+        "+ Add label",
+        "Key ID",
+        "Name",
+        "Expiry date",
+        "mm/dd/yyyy",
+        "Rights",
+        "Grant all current and future rights",
+        "Grant individual rights",
+        "Select all",
+        "delete gateway",
+        "view gateway information",
+        "link as Gateway to a Gateway Server for traffic exchange, i.e. write uplink and read downlink",
+        "view gateway location",
+        "purge gateway",
+        "retrieve secrets associated with a gateway",
+        "view and edit gateway API keys",
+        "edit basic gateway settings",
+        "view and edit gateway collaborators",
+        "view gateway status",
+        "write downlink gateway traffic",
+        "read gateway traffic",
+        "store secrets for a gateway",
+        "Save changes",
+        "Figure 10: LNS key configuration",
+        "Figure 11: CUPS key configuration"
+      ],
+      "warnings_notes": [
+        "Make sure the rights shown in the following image are selected."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1095,
+        "cost_usd": 0.0028773
+      },
+      "source_file": "178_Configuring_LoRaWAN_Gateway_for_Remote_Data_Visualization_of_Rheonics_Sensors.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions for accessing the SenseCAP M2 Web server, including network connection setup, device credential details from its label, and a visual representation of its user interface with LoRa packet statistics.",
+      "document_type": "manual",
+      "product_names": [
+        "SenseCAP M2",
+        "SenseCAP M2 LoRaWAN Indoor Gateway"
+      ],
+      "extracted_text": "3.2. Enter SenseCAP M2 Web Server\n1. To access the Web server, enter the device's IP address into a web browser. To know the device's IP address, use an IP scanner. Make sure the SenseCAP M2 and the computer are connected to the same network to ensure it appears in the scan.\n2. Enter the credentials found in the device label.\n\nFigure 12: SenseCAP M2 connection to the internet\n\nFigure 13: SenseCAP M2 Device Label\nSENSECAP\nSenseCAP M2 LoRaWAN Indoor Gateway\nModel: M2-EU868\nFirmware: Multi-Platform version\nInput: 12V === 2A\nS/N: 1499298124200166\nPLEASE DO NOT SHARE THIS LABEL UNLESS REQUESTED BY SENSECAP\nEUI: [masked]\nCode: [masked]\nWi-Fi MAC: [masked]\nETH MAC: [masked]\nIP Address: [masked]\nUsername: [masked]\nPassword: [masked]\nSeeed Technology Co.,Ltd. Made in China\n\nSenseCAP Status System Network LoRa VPN Logout\nDevice Password\nChanges the administrator password for accessing the device\nPassword [input field]\nConfirmation [input field]\nSave\nPowered by LuCI / OpenWrt 21.02.0 r1-20220615 r16279-5cc0535800\n\nFigure 14: SenseCAP M2 Web server credentials\n\n3. The web server appears as shown below when the internet connection is successful and the gateway LED turns green.\n\nSenseCAP Status System Network LoRa VPN Logout\nInternet Connection\nRefreshing\n\nLoRa Packets\n[Y-axis labels]: 300, 270, 240, 210, 180, 150, 120, 90, 60, 30\n[X-axis labels]: -24h, -23h, -22h, -21h, -20h, -19h, -18h, -17h, -16h, -15h, -14h, -13h, -12h, -11h, -10h, -9h, -8h, -7h, -6h, -5h, -4h, -3h, -2h, -1h, 0h\n[Legend]: rx, tx, total\n[Data points from graph, right to left]:\n-1h: rx 122, tx 244, total 366\n-2h: rx 148, tx 150, total 298\n-3h: rx 92, tx 184, total 276\n-4h: rx 146, tx 190, total 336\n-5h: rx 294, tx 380, total 674\n\nFigure 15: SenseCAP M2 Web server",
+      "specifications": {
+        "Model": "M2-EU868",
+        "Input Power": "12V 2A",
+        "Serial Number": "1499298124200166",
+        "Firmware Version": "Multi-Platform version",
+        "Operating System": "OpenWrt 21.02.0 r1-20220615 r16279-5cc0535800 (LuCI)",
+        "LoRa Packet Data (last 5 hours)": {
+          "-5h": {
+            "rx": 294,
+            "tx": 380,
+            "total": 674
+          },
+          "-4h": {
+            "rx": 146,
+            "tx": 190,
+            "total": 336
+          },
+          "-3h": {
+            "rx": 92,
+            "tx": 184,
+            "total": 276
+          },
+          "-2h": {
+            "rx": 148,
+            "tx": 150,
+            "total": 298
+          },
+          "-1h": {
+            "rx": 122,
+            "tx": 244,
+            "total": 366
+          }
+        }
+      },
+      "key_facts": [
+        "To access the SenseCAP M2 Web server, users must enter the device's IP address into a web browser.",
+        "An IP scanner can be used to discover the device's IP address if the SenseCAP M2 and the computer are connected to the same network.",
+        "Device credentials (Username and Password) for the web server are found on the physical device label.",
+        "The web server interface allows users to change the administrator password for the device.",
+        "A successful internet connection is indicated by the web server appearing as shown in Figure 15 and the gateway LED turning green.",
+        "The SenseCAP M2 is manufactured by Seeed Technology Co.,Ltd. in China."
+      ],
+      "diagram_labels": [
+        "Internet Access Point",
+        "Ethernet",
+        "SenseCAP M2",
+        "Network Server",
+        "SenseCAP",
+        "Status",
+        "System",
+        "Network",
+        "LoRa",
+        "VPN",
+        "Logout",
+        "Device Password",
+        "Password",
+        "Confirmation",
+        "Save",
+        "Internet Connection",
+        "Refreshing",
+        "LoRa Packets",
+        "rx",
+        "tx",
+        "total",
+        "300",
+        "270",
+        "240",
+        "210",
+        "180",
+        "150",
+        "120",
+        "90",
+        "60",
+        "30",
+        "-24h",
+        "-23h",
+        "-22h",
+        "-21h",
+        "-20h",
+        "-19h",
+        "-18h",
+        "-17h",
+        "-16h",
+        "-15h",
+        "-14h",
+        "-13h",
+        "-12h",
+        "-11h",
+        "-10h",
+        "-9h",
+        "-8h",
+        "-7h",
+        "-6h",
+        "-5h",
+        "-4h",
+        "-3h",
+        "-2h",
+        "-1h",
+        "0h"
+      ],
+      "warnings_notes": [
+        "PLEASE DO NOT SHARE THIS LABEL UNLESS REQUESTED BY SENSECAP"
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1737,
+        "cost_usd": 0.0044823
+      },
+      "source_file": "178_Configuring_LoRaWAN_Gateway_for_Remote_Data_Visualization_of_Rheonics_Sensors.pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions for configuring the network settings, including LoRaWAN and Channel Plan, for a SenseCAP M2 gateway using its web interface.",
+      "document_type": "manual",
+      "product_names": [
+        "SenseCAP M2",
+        "TTN console"
+      ],
+      "extracted_text": "4. In case the gateway does not have an internet connection, verify that the Ethernet cable is securely connected between the SenseCAP M2 and the router, and ensure that the router provides internet access.\n\nFigure 16: SenseCAP M2 Web server with no internet connection\n\n5. After the internet connection is established, select LoRa -> LoRa Network from the top menu and configure with the following parameters:\n*   Mode: Basics Station\n*   Gateway EUI: found in the device label\n*   Server: CUPS server\n*   URI: for CUPS it is https://server-address:443 (https://server-address:443). In this guide, Europe 1 cluster is used from the TTN console (https://console.cloud.thethings.network/), so the URI is https://eu1.cloud.thethings.network:443\n*   Authentication Mode: TLS Server Authentication and Client Token\n*   trust: download the minimal certificate list from Root Certificates (https://www.thethingsindustries.com/docs/concepts/advanced/root-certificates/), then copy the data content of the certificate file\n*   token: Authorization: Bearer <CUPS API KEY> (downloaded previously during gateway creation on TTN)\n\nFigure 17: LoRa Network menu\n\n6. Next, go to LoRa>>Channel Plan.\n\nFigure 18: Channel Plan menu\n\n7. Select the same region configured for the gateway on The Things Stack, in this case, EU863-870.\n\nFigure 19: Channel Plan - Region configuration\n\n8. After a few minutes, the gateway should connect successfully, and the following appears on the web server, indicating that it is connected to the internet and the network server.\n\nInternal text from screenshots:\nSenseCAP Status System Network LoRa VPN Logout\nInternet Connection\nLoRaWAN Network Settings\nGateway EUI 2CF7F1106260026B\nMode Basics Station\nBasic Station Settings\nGeneral Settings Packet Filter\nGateway EUI 2CF7F1106260026B\nServer CUPS Server\nURI https://eu1.cloud.thethings.network\nFor example CUPS https://server-address:443, LNS wss://server-address:8887\nAuthentication Mode TLS Server Authentication and C\ntrust ----BEGIN CERTIFICATE----\nMIlFAzCCA1oGAgIBALAgIIRAlIzs7D5QONZRGp_gu2OCiwAwDQYJKoZIhvcNAQELBQAWWNmNoIEwMDANBgkqhkiG9w0BAQsFADBLMQswCQYDVQQGEwJVUzEZMBcGA1UEChMQTGhlIFRoaW5nc05ldHdvcmsxIDAeBgNVBAsTF1RoZSBUSGl\ntoken Authorization: Bearer NNSXS.5U7\nSave & Apply\nChannel Plan\nRegion EU863-870\nPowered by LuCI / OpenWrt 21.02.0 r1-20220615 r16279-5cc0535800",
+      "specifications": {
+        "Mode": "Basics Station",
+        "Server": "CUPS server",
+        "URI": "https://eu1.cloud.thethings.network:443",
+        "Authentication Mode": "TLS Server Authentication and Client Token",
+        "Gateway EUI (example)": "2CF7F1106260026B",
+        "Region": "EU863-870",
+        "Operating System": "OpenWrt 21.02.0 r1-20220615 r16279-5cc0535800"
+      },
+      "key_facts": [
+        "The document provides instructions for configuring the network settings of a SenseCAP M2 gateway.",
+        "The SenseCAP M2 gateway requires an internet connection to operate correctly.",
+        "Network configuration involves setting parameters for LoRaWAN, including Mode, Gateway EUI, Server, URI, Authentication Mode, trust certificates, and an authorization token.",
+        "The example configuration uses the Europe 1 cluster from The Things Network (TTN) console.",
+        "The configured Channel Plan region on the gateway must match the region configured on The Things Stack.",
+        "Successful gateway connection to the internet and network server will be indicated by changes on the web server interface."
+      ],
+      "diagram_labels": [
+        "Internet Connection",
+        "SenseCAP",
+        "Status",
+        "System",
+        "Network",
+        "LoRa",
+        "VPN",
+        "Logout",
+        "LoRaWAN Network Settings",
+        "Mode",
+        "Basics Station",
+        "Gateway EUI",
+        "Server",
+        "CUPS Server",
+        "URI",
+        "Authentication Mode",
+        "trust",
+        "token",
+        "Basic Station Settings",
+        "General Settings",
+        "Packet Filter",
+        "Save & Apply",
+        "Channel Plan",
+        "Region",
+        "LoRa Network",
+        "Channel Plan",
+        "LoRa Log"
+      ],
+      "warnings_notes": [
+        "In case the gateway does not have an internet connection, verify that the Ethernet cable is securely connected between the SenseCAP M2 and the router, and ensure that the router provides internet access.",
+        "Gateway EUI is found in the device label.",
+        "In this guide, Europe 1 cluster is used from the TTN console.",
+        "Download the minimal certificate list from Root Certificates, then copy the data content of the certificate file for the 'trust' setting.",
+        "The 'token' (Authorization: Bearer <CUPS API KEY>) should be downloaded previously during gateway creation on TTN.",
+        "Select the same region configured for the gateway on The Things Stack, in this case, EU863-870."
+      ],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1487,
+        "cost_usd": 0.0038573
+      },
+      "source_file": "178_Configuring_LoRaWAN_Gateway_for_Remote_Data_Visualization_of_Rheonics_Sensors.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions and visualizations for ensuring a SenseCAP M2 gateway's correct connection to a network server and includes references for Rheonics sensor data visualization.",
+      "document_type": "manual",
+      "product_names": [
+        "SenseCAP",
+        "SenseCAP M2",
+        "SenseCAP M2-EU868",
+        "LoRaWAN/Modbus TCP Master Converter",
+        "RS485-LN LoRaWAN Converter",
+        "Rheonics Sensors"
+      ],
+      "extracted_text": "SenseCAP Status System Network LoRa VPN Logout REFRESHING\n\nInternet Connection\n\nLoRa Packets\n300\n270\n240\n210\n180\n150\n120\n90\n60\n30\n-24h -23h -22h -21h -20h -19h -18h -17h -16h -15h -14h -13h -12h -11h -10h -9h -8h -7h -6h -5h -4h -3h -2h -1h 0h\n\nSystem\n  Hostname: SenseCAP\n  Model: M2-EU868\n  SN: 114992981242500166\n  EUI: 2CF7F1106260026B\n\nFigure 20: SenseCAP M2 correct connection to the Network Server\n\n9. Back to the gateway section on The Things Stack, the status of the gateway should appear as connected.\n\nGateways (1)\n  NAME AND ID: rheonicslora1, rheonicslora1\n  GATEWAY EUI: 2C F7 F1 10 62 60 02 6B\n  STATUS: Connected\n  CREATED AT: 42 minutes ago\n\nFigure 21: TTS Gateway Status\n\nTo use a LoRaWAN/Modbus TCP Master Converter for Remote Data Visualization of Rheonics Sensors refer to Using LoRaWAN/Modbus TCP Master Converter for Remote D.\n\nTo use a LoRaWAN/RS485 Converter for Remote Data Visualization of Rheonics Sensors refer to Using RS485-LN LoRaWAN Converter for Rheonics Sensors Remote Data V.\n\n4. References\n* LoRaWAN Fundamentals (https://support.rheonics.com/en/support/solutions/articles/81000419789)\n* The Things Network Console (https://console.cloud.thethingsnetwork.org/)\n* Root Certificates (https://www.thethingsindustries.com/docs/concepts/advanced/root-certificates/) (https://www.thethingsnetwork.org/docs/lorawan/what-is-lorawan/)\n* What are LoRa and LoRaWAN? (https://www.thethingsnetwork.org/docs/lorawan/what-is-lorawan/)\n* End Device Activation (https://www.thethingsnetwork.org/docs/lorawan/end-device-activation/) (https://wiki.seeedstudio.com/Network/SenseCAP_Network/SenseCAP_M2_Multi_Platform/Tutorial/Connect-M2-Multi-Platform-Gateway-to-The-Things-Network/)\n* Connecting to TTN (https://wiki.seeedstudio.com/Network/SenseCAP_Network/SenseCAP_M2_Multi_Platform/Tutorial/Connect-M2-Multi-Platform-Gateway-to-The-Things-Network/)\n* Regional Parameters (https://www.thethingsnetwork.org/docs/lorawan/regional-parameters/)",
+      "specifications": {
+        "Model": "M2-EU868",
+        "SN": "114992981242500166",
+        "EUI": "2CF7F1106260026B"
+      },
+      "key_facts": [
+        "The SenseCAP M2 gateway is shown to be correctly connected to the Network Server, indicated by green checkmarks in the 'Internet Connection' diagram.",
+        "A bar chart visualizes LoRa packet activity (rx, tx, and total) over the last 24 hours.",
+        "Specific LoRa packet counts observed are: 92 rx / 184 tx (4h ago), 150 rx / 300 tx (3h ago), 146 rx / 292 tx (2h ago), 122 rx / 244 tx (1h ago), and a total of 5 packets (0h ago).",
+        "The status of the 'rheonicslora1' gateway on The Things Stack is 'Connected', having been created 42 minutes prior to the screenshot.",
+        "Rheonics sensors can use a LoRaWAN/Modbus TCP Master Converter or a LoRaWAN/RS485 Converter for remote data visualization."
+      ],
+      "diagram_labels": [
+        "SenseCAP",
+        "Status",
+        "System",
+        "Network",
+        "LoRa",
+        "VPN",
+        "Logout",
+        "REFRESHING",
+        "Internet Connection",
+        "Network Server",
+        "LoRa Packets",
+        "rx",
+        "tx",
+        "total",
+        "Hostname",
+        "Model",
+        "SN",
+        "EUI",
+        "Figure 20: SenseCAP M2 correct connection to the Network Server",
+        "Gateways (1)",
+        "NAME AND ID",
+        "GATEWAY EUI",
+        "STATUS",
+        "CREATED AT",
+        "rheonicslora1",
+        "Connected",
+        "42 minutes ago",
+        "Figure 21: TTS Gateway Status"
+      ],
+      "warnings_notes": [],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1396,
+        "cost_usd": 0.0036298
+      },
+      "source_file": "178_Configuring_LoRaWAN_Gateway_for_Remote_Data_Visualization_of_Rheonics_Sensors.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

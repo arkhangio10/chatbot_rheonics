@@ -1,0 +1,284 @@
+{
+  "source_file": "127_Brix_degree_measurement_with_Rheonics_process_concentration_meter_SRD.pdf",
+  "total_pages": 5,
+  "chunks": [
+    {
+      "page_summary": "This page details the Brix degree calculation model used with Rheonics SRD inline process density meters and viscometers, outlining its purpose, applications, mathematical formulas, and the inputs required for its operation.",
+      "document_type": "notes",
+      "product_names": [
+        "SRD",
+        "SME",
+        "Brix"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nBrix degree measurement with Rheonics process concentration meter SRD\n\nModified on: Thu, 3 Jul, 2025 at 5:52 PM\n\nThis calculation model is only valid for SRD Inline process density meter and viscometer.\n\nModel Name Brix: Valid for SRD\n\n1. What it does?\n\nDetermines the pure sucrose content in water from line density and temperature\n\n2. Application\n\nSoft drinks, fruit juices, tomato concentrates – Beverage Industry - Cutting Oil – Machining/Industrial.\n\n3. Maths\n\nBelow finds the mathematical formula for Brix degree calculation.\n\n°B = ((182.4601 · SG_20/20 − 775.6821) · SG_20/20 + 1262.7794) · SG_20/20 − 669.5622\n\nwhere SG_20/20 = SG(20°C/20°C)\n\nTo obtain the correct measurements for Brix degree, the SRD and SME work together as a powerful tool for measuring density, which is an extremely significant variable. The user would need to input:\n\n1. Values dataset of densities of different products at different temperatures\n2. Input Water density at T2 (20°C – brix). Needed for Specific Gravity @20°C calculation. Compensated density is calculated with the values measured from the SME.\n\nSG = (Density of Process Fluid at Reference Temperature T1) / (Density of Water at Reference Temperature T2)\n\n3. Measure line density and line temperatures. Values are taken from SME-SRD.\n4. Convert the line density of process fluid to temperature compensated for density value at T1 (20°C –brix) – By using a dataset table from known products.\n\n4. How to load models into the SME?\n\nThe calculation tab allows configuring the SME to run mathematical models for Viscosity, Density, and Concentration.",
+      "specifications": {},
+      "key_facts": [
+        "The document describes a calculation model for Brix degree.",
+        "This model is specifically designed for Rheonics SRD Inline process density meters and viscometers.",
+        "The Brix model determines the pure sucrose content in water based on line density and temperature.",
+        "Applications include the beverage industry (soft drinks, fruit juices, tomato concentrates) and industrial uses (cutting oil, machining).",
+        "The Brix degree calculation involves a specific polynomial formula using SG_20/20, which is specific gravity at 20°C.",
+        "Accurate Brix degree measurements require the combined use of SRD and SME devices for density measurement.",
+        "Users must provide a dataset of product densities, input water density at 20°C, and measure line density and temperature.",
+        "The SME's calculation tab facilitates the configuration and running of mathematical models for Viscosity, Density, and Concentration."
+      ],
+      "diagram_labels": [
+        "°B",
+        "SG_20/20",
+        "SG(20°C/20°C)",
+        "SG",
+        "Density of Process Fluid at Reference Temperature T1",
+        "Density of Water at Reference Temperature T2"
+      ],
+      "warnings_notes": [
+        "This calculation model is only valid for SRD Inline process density meter and viscometer.",
+        "Model Name Brix: Valid for SRD."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 914,
+        "cost_usd": 0.0024248
+      },
+      "source_file": "127_Brix_degree_measurement_with_Rheonics_process_concentration_meter_SRD.pdf"
+    },
+    {
+      "page_summary": "This page details how to configure and use the 'Advanced Calculations | Thermal Compensation of Density, Viscosity' feature within the Rheonics Control Panel software, specifically for loading a Brix degree model and its associated data requirements.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel 5.4.0.0"
+      ],
+      "extracted_text": "Rheonics Control Panel 5.4.0.0\n\nMeasurement | Events | Settings | Service | Diagnostics | Communication | Scaling | Calculation | Logger | Help\n\nAdvanced Calculations | Thermal Compensation of Density, Viscosity\n\nSelect Measurement to Apply Model: Concentration\nCalculated Value: 17.4\nStatus: (green indicator)\nSelect Model from List: Brix\n\nMatrix Referral: Brix Model\n\nLoad DataSet\nWater Density at 20°C [Kg/m3]: 998.23\nUnits: °B\n\n°B = ((182.4601 • SG₂₀/₂₀ - 775.6821) • SG₂₀/₂₀ + 1262.7794) • SG₂₀/₂₀ - 669.5622\nwhere SG₂₀/₂₀ = SG(20°C/20°C)\n\nUPLOAD MODEL\n\nChange SMET Output\nLCD Display (for TRD Only) Select Line to Display: None\nLoad Configuration\nOutput on 4-20 mA channel Select channel number: None\nAccess measurement with applied model over Modbus RTU/TCP register: 208\nCalculation History\n\nFigure 1. Calculation tab for Brix degree model\n\nTo load the models into SME, follow these steps:\n1. In the Dropdown list \"Select Measurement to Apply Model\" select \"Concentration\" Model. That will modify the \"Select Model from List\" dropdown menu values.\n2. In \"Select Model from the list\", select the model you would like to use for the specific parameter. When you select the model, you will get more information about the specific equation used and the coefficients you will need to apply that model. Select \"Brix\"\n3. \"Load Dataset\" button. Using this operation is critical to obtaining the correct Brix degree measurement so that density and temperature as a result of the process are included in the table. The dataset must include at least the following instances:\n    *   Five reference temperatures (at least)\n    *   The density for each of four different product types at the five reference temperatures from the process (20 reference points in all, at least)\n    *   The base temperature (20°C), must be one of the five reference temperatures.\n    *   The inline density value is in-between the density values from the table otherwise output from SME will be NaN.\n\n5. Matrix Referral",
+      "specifications": {
+        "software_version": "5.4.0.0",
+        "calculated_value": "17.4 °B",
+        "water_density_at_20C": "998.23 Kg/m3",
+        "brix_units_selection": "°B",
+        "modbus_rtu_tcp_register_for_applied_model_access": "208",
+        "dataset_minimum_reference_temperatures": "5",
+        "dataset_minimum_product_types": "4",
+        "dataset_minimum_total_reference_points": "20",
+        "dataset_required_base_temperature": "20°C"
+      },
+      "key_facts": [
+        "The Rheonics Control Panel, version 5.4.0.0, includes an 'Advanced Calculations' feature for thermal compensation of density and viscosity.",
+        "The software interface allows users to select 'Concentration' as a measurement model, which then filters available models in the 'Select Model from List' dropdown.",
+        "Selecting the 'Brix' model provides users with details about the specific equation and coefficients used.",
+        "Loading a correct dataset via the 'Load Dataset' button is essential for accurate Brix degree measurements.",
+        "The required dataset must contain at least five reference temperatures.",
+        "The dataset must include density values for a minimum of four different product types at each of the five reference temperatures, totaling at least 20 data points.",
+        "The base temperature of 20°C must be one of the five reference temperatures included in the dataset.",
+        "If the inline density value falls outside the range of density values provided in the loaded table, the output from SME will be 'NaN' (Not a Number)."
+      ],
+      "diagram_labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "warnings_notes": [
+        "Using the 'Load Dataset' operation is critical for obtaining accurate Brix degree measurements.",
+        "The selection in 'Select Measurement to Apply Model' directly affects the options presented in the 'Select Model from List' dropdown.",
+        "The dataset must include at least five reference temperatures.",
+        "The dataset must include the density for each of four different product types at the five reference temperatures from the process (20 reference points in all, at least).",
+        "The base temperature (20°C) must be one of the five reference temperatures.",
+        "If the inline density value is not within the range of density values from the table, the output from SME will be NaN.",
+        "LCD Display functionality is designated 'for TRD Only'."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1255,
+        "cost_usd": 0.0032773
+      },
+      "source_file": "127_Brix_degree_measurement_with_Rheonics_process_concentration_meter_SRD.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions and a graphical user interface (GUI) example for managing density-temperature datasets, calculating Tk coefficients, and uploading mathematical models to an SRD monitoring system.",
+      "document_type": "manual",
+      "product_names": [
+        "SRD monitoring system"
+      ],
+      "extracted_text": "Matrix Referral\nDensity [Kg/m3]\nTemperature [°C]\n\nTable Data:\nT [°C] | P1 | P2 | P3 | P4 | P5 | P6 | P7 | P8 | P9 | P10 | P11 | P12 | P13 | P14\n60 | 1078.5 | 1088 | 1111.2 | 1130.3\n50 | 1084.5 | 1094 | 1116.6 | 1135.5\n40 | 1089.2 | 1098.9 | 1121.8 | 1114.6\n30 | 1093.2 | 1102.9 | 1126.2 | 1144.4\n20 | 1097.3 | 1108.3 | 1130 | 1150.3\n\nRef Temp [°C]: 20\nTk coefficients: ((-0.591571,0.003214),(-0.555000,0.001500),(-0.586286,0.002857),(0.999571,-0.037214))\n\n[Import] [Export Table] [Tk1, Tk2] [?] [Load Tks & Close] [Cancel]\n\nFigure 2. Sample Dataset for Brix readings.\n1. Dataset for beverage, the first column is for temperature. The rest of the columns should be each for a product \"P\", and the densities of that product at the different temperatures.\n2. Import: Select dataset from an .csv sheet\n\narchive\nclear grape juice.csv\ndatatable_20pts.csv\n\nFigure 3. Selecting dataset\n3. Export: Export the current table to .csv\n4. \"Tk1, Tk2\" button to create the coefficients that will be used on the model.\n5. Calculated Tk coefficients by internal model.\n6. \"Load Tks & Close\" button to load these coefficients into the model\n\n6. Uploading the Mathematical Model\nClick on \"Upload Model\" to load the model settings into SME. If the operation was successful, the button should turn GREEN for a couple of seconds; otherwise, it should turn RED. This action will refresh the values for the Uncompensated and Compensated indicators. Below is a sample of Brix at the beginning of a fermentation process along with a typical fermentation curve demonstrating the full capabilities of the SRD monitoring system.",
+      "specifications": {
+        "Ref Temp": "20 °C",
+        "Tk coefficients": "((-0.591571,0.003214),(-0.555000,0.001500),(-0.586286,0.002857),(0.999571,-0.037214))",
+        "Temperature range in data table": "20-60 °C",
+        "Density range in data table": "1078.5 - 1150.3 Kg/m3"
+      },
+      "key_facts": [
+        "The dataset displayed is for beverage products, where the first column represents temperature and subsequent columns represent product densities at various temperatures.",
+        "Datasets can be imported from .csv files and exported to .csv format.",
+        "The \"Tk1, Tk2\" button is used to generate coefficients for the model.",
+        "Tk coefficients are calculated by an internal model and can be loaded into the system.",
+        "Uploading a mathematical model (via an \"Upload Model\" button) loads model settings into SME.",
+        "A successful model upload is indicated by the button turning GREEN, while an unsuccessful operation turns it RED.",
+        "Uploading the model refreshes the values for Uncompensated and Compensated indicators.",
+        "The SRD monitoring system has capabilities for tracking Brix during a fermentation process."
+      ],
+      "diagram_labels": [
+        "Matrix Referral",
+        "Density [Kg/m3]",
+        "Temperature [°C]",
+        "T [°C]",
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7",
+        "P8",
+        "P9",
+        "P10",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "Ref Temp [°C]",
+        "Tk coefficients",
+        "Import",
+        "Export Table",
+        "Tk1, Tk2",
+        "?",
+        "Load Tks & Close",
+        "Cancel",
+        "Figure 2. Sample Dataset for Brix readings.",
+        "archive",
+        "clear grape juice.csv",
+        "datatable_20pts.csv",
+        "Figure 3. Selecting dataset",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1318,
+        "cost_usd": 0.0034347999999999996
+      },
+      "source_file": "127_Brix_degree_measurement_with_Rheonics_process_concentration_meter_SRD.pdf"
+    },
+    {
+      "page_summary": "This page describes the configuration of advanced calculations for Brix measurement and fermentation curve analysis within the Rheonics Control Panel software, including options for display and output settings.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel 5.4.0.0",
+        "SME",
+        "Modbus RTU/TCP"
+      ],
+      "extracted_text": "Rheonics Control Panel 5.4.0.0\nMeasurement | Events | Settings | Service | Diagnostics | Communication | Scaling | Calculation | Logger | Help\nAdvanced Calculations | Thermal Compensation of Density, Viscosity\nSelect Measurement to Apply Model: Concentration\nSelect Model from List: Brix\nCalculated Value: 26.97085\nStatus: [Green indicator]\nBrix degree at the start of a fermentation process\nTypcial Fermentation Curve\nLoad DataSet\nWater Density: 998.23\nFormula: °B = ((182.4601 · SG₂₀/₂₀ - 775.6821) · SG₂₀/₂₀ + 1262.77) where SG₂₀/₂₀ = SG(20°C/20°C)\nChange SMET Output\nLCD Display (for TRD Only) Select Line to Display: None (Dropdown options: None, Line 1, Line 2, Line 3)\nOutput on 4-20 mA channel Select channel number: None (Dropdown options: None, Ch1, Ch2, Ch3)\nAccess measurement with applied model over Modbus RTU/TCP register: 208\nLoad Configuration\nCalculation History\nFigure 4. Brix model loaded into the SME.\n6.1. Click “Load Configuration” to update the display and channel configurations in SME.\n*   LCD Display\nSelect the line to display the parameter:\nFigure 5. Selecting read line for LCD display\nChanges can be verified on the “Communication” Tab\n*   Analog outputs\nSelect analog channel to send data, this can be verified in “Service” Tab\nFigure 6. Selecting analog output channel\n*   Modbus TCP/IP register\nMeasurement can always be accessed at the register address that is displayed.",
+      "specifications": {
+        "Rheonics Control Panel Version": "5.4.0.0",
+        "Calculated Brix Value": "26.97085",
+        "Water Density": "998.23",
+        "Modbus RTU/TCP Register Address": "208",
+        "SG (specific gravity) reference temperature": "20°C/20°C"
+      },
+      "key_facts": [
+        "The Rheonics Control Panel allows advanced calculations including thermal compensation of density and viscosity.",
+        "The software can apply models like Brix for concentration measurement.",
+        "The displayed Brix value is 26.97085.",
+        "A typical fermentation curve shows Brix and Temperature over time (days).",
+        "The Brix degree at the start of a fermentation process is highlighted in the example curve.",
+        "Users must click 'Load Configuration' to update the display and channel configurations in the SME.",
+        "The LCD display functionality for selecting a line to display is for TRD Only.",
+        "Display parameters for the LCD can be set to 'None', 'Line 1', 'Line 2', or 'Line 3'.",
+        "Analog output channels (4-20 mA) can be selected as 'None', 'Ch1', 'Ch2', or 'Ch3'.",
+        "Changes to display and analog output settings can be verified on the 'Communication' Tab.",
+        "Analog output selections can be verified in the 'Service' Tab.",
+        "Measurement data with the applied model can be accessed via Modbus RTU/TCP at register address 208."
+      ],
+      "diagram_labels": [
+        "Rheonics Control Panel 5.4.0.0",
+        "Measurement",
+        "Events",
+        "Settings",
+        "Service",
+        "Diagnostics",
+        "Communication",
+        "Scaling",
+        "Calculation",
+        "Logger",
+        "Help",
+        "Advanced Calculations | Thermal Compensation of Density, Viscosity",
+        "Select Measurement to Apply Model",
+        "Concentration",
+        "Select Model from List",
+        "Brix",
+        "Calculated Value",
+        "Status",
+        "Brix degree at the start of a fermentation process",
+        "Typcial Fermentation Curve",
+        "Tine (Days)",
+        "Brix (Y-axis)",
+        "Temperature (C) (Y-axis)",
+        "Brix (Legend item)",
+        "Temperature (Legend item)",
+        "Load DataSet",
+        "Water Density",
+        "Change SMET Output",
+        "LCD Display (for TRD Only) Select Line to Display",
+        "None (LCD dropdown option)",
+        "Line 1 (LCD dropdown option)",
+        "Line 2 (LCD dropdown option)",
+        "Line 3 (LCD dropdown option)",
+        "Output on 4-20 mA channel Select channel number",
+        "None (4-20 mA dropdown option)",
+        "Ch1 (4-20 mA dropdown option)",
+        "Ch2 (4-20 mA dropdown option)",
+        "Ch3 (4-20 mA dropdown option)",
+        "Access measurement with applied model over Modbus RTU/TCP register",
+        "Load Configuration",
+        "Calculation History",
+        "Figure 4. Brix model loaded into the SME.",
+        "Figure 5. Selecting read line for LCD display",
+        "Figure 6. Selecting analog output channel"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1319,
+        "cost_usd": 0.0034373
+      },
+      "source_file": "127_Brix_degree_measurement_with_Rheonics_process_concentration_meter_SRD.pdf"
+    },
+    {
+      "page_summary": "This page describes how to access measurement data with an applied model via Modbus RTU/TCP and explains the function of the 'Calculation History' button.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Access measurement with applied model over Modbus RTU/TCP register 208\n\n• “Calculation History” button allows you to open a file where the last uploaded models and coefficients for these models are stored. This is for user reference.",
+      "specifications": {
+        "Modbus RTU/TCP register for measurement access": "208"
+      },
+      "key_facts": [
+        "Measurement data with an applied model can be accessed via Modbus RTU/TCP using register 208.",
+        "The 'Calculation History' button enables users to open a file containing the last uploaded models and their corresponding coefficients.",
+        "The stored models and coefficients in the 'Calculation History' are intended for user reference."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 252,
+        "cost_usd": 0.0007698
+      },
+      "source_file": "127_Brix_degree_measurement_with_Rheonics_process_concentration_meter_SRD.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

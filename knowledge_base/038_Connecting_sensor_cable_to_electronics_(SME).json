@@ -1,0 +1,204 @@
+{
+  "source_file": "038_Connecting_sensor_cable_to_electronics_(SME).pdf",
+  "total_pages": 5,
+  "chunks": [
+    {
+      "page_summary": "This page provides instructions and descriptions for connecting Rheonics sensor probes to Rheonics sensor electronics, detailing the connector types and terminal blocks involved.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Sensor Probes",
+        "Rheonics Sensor Electronics",
+        "SME (likely a model or series of electronics)"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nConnecting sensor cable to electronics (SME)\n\nModified on: Mon, 10 Mar, 2025 at 3:52 PM\n\nRheonics Sensor Probes\n\nAll Rheonics sensors probes (transducers) have a M12 A-coded connector.\n\nRheonics Sensor Electronics\n\nAll Rheonics sensor electronics (transmitter) have the same terminal block for connecting sensor cable.",
+      "specifications": {
+        "Phone number": "+1 713 234 0863",
+        "Sensor probe connector type": "M12 A-coded",
+        "Electronics output type": "4-20 mA"
+      },
+      "key_facts": [
+        "Rheonics sensor probes (transducers) are equipped with an M12 A-coded connector.",
+        "Rheonics sensor electronics (transmitters) feature a standardized terminal block for sensor cable connection.",
+        "The electronics unit includes connections for 4-20 mA output, power, and Ethernet.",
+        "The document was modified on Monday, March 10, 2025, at 3:52 PM."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "Batch No ZP/17/08/13/003 08",
+        "rheonics",
+        "4-20 mA output",
+        "Power",
+        "Ethernet",
+        "sensor connection",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 499,
+        "cost_usd": 0.0013873
+      },
+      "source_file": "038_Connecting_sensor_cable_to_electronics_(SME).pdf"
+    },
+    {
+      "page_summary": "This page describes the two types of sensor cables supplied by Rheonics for connecting their viscometers and density sensors to electronics, distinguishing between cables for EX certified sensors and non-EX sensors.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Sensor Cable\n\nAll cable supplied by Rheonics have 4 twisted pair (8-conductor) with a shield connected to the M12 connector shell.\nThe photo below shows the blue \"intrinsically safe\" cable that is used for connecting EX certified sensors. Generally these cables are used along with the provided M12 connector.\n\nThe photo below shows the standard sensor cable (Black) that is used for all non-EX sensors. These cables come with a molded straight M12 or Angled M12 (as ordered).\n\nProbe to Electronics connection - sensor cable",
+      "specifications": {
+        "cable_construction": "4 twisted pair (8-conductor)",
+        "shield_connection": "M12 connector shell",
+        "connector_type": "M12",
+        "intrinsically_safe_cable_color": "blue",
+        "standard_cable_color": "black",
+        "standard_cable_m12_options": "straight or angled"
+      },
+      "key_facts": [
+        "Rheonics supplies sensor cables with 4 twisted pairs (8 conductors) and a shield.",
+        "The shield of Rheonics sensor cables is connected to the M12 connector shell.",
+        "Blue sensor cables are 'intrinsically safe' and are used for connecting EX certified sensors.",
+        "Standard black sensor cables are used for all non-EX sensors.",
+        "Both types of cables are used with an M12 connector, which can be molded straight or angled for standard cables."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 435,
+        "cost_usd": 0.0012273
+      },
+      "source_file": "038_Connecting_sensor_cable_to_electronics_(SME).pdf"
+    },
+    {
+      "page_summary": "This page provides detailed wiring instructions and a color-coded table for connecting a standard (non-EX) sensor to the Rheonics SME-DRM sensor electronics.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics",
+        "SME-DRM"
+      ],
+      "extracted_text": "Follow the table below to connect the correct color wire to the corresponding terminal - this connection is used when you have a standard (non-EX) sensor. All 8 wires are connected to the terminals on the sensor electronics.\n\n[Image of Rheonics SME-DRM sensor electronics with various ports and labels]\n\nTerminal number | Wire color\n1 | white\n2 | brown\n3 | green\n4 | yellow\n5 | grey\n6 | pink\n7 | blue\n8 | red",
+      "specifications": {
+        "Power Input": "24 V dc",
+        "Communication Protocol": "RS485",
+        "Analog Output": "4-20 mA"
+      },
+      "key_facts": [
+        "The page instructs users to follow a table for connecting color-coded wires to corresponding terminals.",
+        "This wiring method is specifically designed for standard (non-EX) sensors.",
+        "All eight wires must be connected to the terminals on the sensor electronics.",
+        "The device depicted is the Rheonics SME-DRM.",
+        "The SME-DRM features connections for 24 V dc power, Modbus (RS485), Ethernet, USB, display, 4-20 mA output, and an SD-card."
+      ],
+      "diagram_labels": [
+        "24 V dc +",
+        "gnd",
+        "modbus A",
+        "(RS485) B",
+        "power",
+        "sensor",
+        "comm.",
+        "data",
+        "usb",
+        "display",
+        "4-20 mA output",
+        "loop+",
+        "gnd-",
+        "ch1-",
+        "ch1+",
+        "Rheonics",
+        "SME-DRM",
+        "ethernet",
+        "reset",
+        "SD-card",
+        "sensor connection",
+        "swiss made",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "warnings_notes": [
+        "This connection procedure is explicitly for standard (non-EX) sensors, implying a different procedure for EX (explosion-proof) sensors may be required."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 624,
+        "cost_usd": 0.0016998
+      },
+      "source_file": "038_Connecting_sensor_cable_to_electronics_(SME).pdf"
+    },
+    {
+      "page_summary": "This page provides instructions for correctly wiring EX certified sensors using safety barriers and lists relevant Rheonics documentation for further details.",
+      "document_type": "notes",
+      "product_names": [
+        "EX certified sensor",
+        "Rheonics EX-i SRV-SRD",
+        "Rheonics inline viscometer and density meter",
+        "Rheonics sensor electronics"
+      ],
+      "extracted_text": "To correctly wire a EX certified sensor over Safety Barriers, follow the instructions in the EX sensor installation manual. Remember sensor probe cannot be directly connected to the sensor electronics for EX certified sensors. You need to always connect sensor probe to the electronics through safety barriers. Refer to the Manual for Installation of ATEX/IECEx certified sensors for complete details.\n\nLink to Ex sensor installation manual >>\nRheonics_EX-i_SRV-SRD_Installation-and-Intrinsic-Safety-Manual_V2.0.pdf (https://rheonics.com/wp-content/uploads/dlm_uploads/2020/06/Rheonics_EX-i_SRV-SRD_Installation-and-Intrinsic-Safety-Manual_V2.0.pdf)\n\nReferences:\nRheonics Sensor & Solution Manuals (https://rheonics.com/resources/manuals/)\nRheonics inline viscometer and density meter (https://rheonics.com/products/)\nRheonics sensor electronics and communication options (https://rheonics.com/electronics-and-communication/)",
+      "specifications": {},
+      "key_facts": [
+        "EX certified sensors must be wired over safety barriers.",
+        "The sensor probe for EX certified sensors cannot be directly connected to the sensor electronics.",
+        "Sensor probes for EX certified sensors must always connect to the electronics through safety barriers.",
+        "Detailed installation instructions for ATEX/IECEx certified sensors are available in the relevant manual.",
+        "A specific manual, \"Rheonics_EX-i_SRV-SRD_Installation-and-Intrinsic-Safety-Manual_V2.0.pdf\", is provided for EX sensor installation."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Sensor probe cannot be directly connected to the sensor electronics for EX certified sensors.",
+        "Always connect sensor probe to the electronics through safety barriers for EX certified sensors.",
+        "Refer to the Manual for Installation of ATEX/IECEx certified sensors for complete details."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 559,
+        "cost_usd": 0.0015373000000000001
+      },
+      "source_file": "038_Connecting_sensor_cable_to_electronics_(SME).pdf"
+    },
+    {
+      "page_summary": "This page provides a direct link to the ATEX and IECEX certification documents for Rheonics' viscosity and density sensors.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics viscosity and density sensor"
+      ],
+      "extracted_text": "Rheonics viscosity and density sensor ATEX and IECEX certification documents (https://rheonics.com/atex-iecex-certification/)",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics offers ATEX and IECEX certification documents for its viscosity and density sensors.",
+        "These certification documents can be accessed at the URL: https://rheonics.com/atex-iecex-certification/"
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 191,
+        "cost_usd": 0.0006173
+      },
+      "source_file": "038_Connecting_sensor_cable_to_electronics_(SME).pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

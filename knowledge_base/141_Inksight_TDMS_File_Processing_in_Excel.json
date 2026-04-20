@@ -1,0 +1,43 @@
+{
+  "source_file": "141_Inksight_TDMS_File_Processing_in_Excel.pdf",
+  "total_pages": 1,
+  "chunks": [
+    {
+      "page_summary": "This page provides instructions and a formula for converting Inksight TDMS file timestamps from UTC seconds (since 01/01/2019) to Microsoft Excel's date/time format.",
+      "document_type": "notes",
+      "product_names": [
+        "Inksight TDMS",
+        "TDM Excel Add-in",
+        "TDM Excel Add-In for Microsoft Excel"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nInksight TDMS File Processing in Excel\n\nModified on: Thu, 29 Sep, 2022 at 1:00 AM\n\nYou can open TDMS files in Microsoft Excel using the TDM Excel Add-in TDM Excel Add-In for Microsoft Excel Download (https://www.ni.com/es-cr/support/downloads/tools-network/download.tdm-excel-add-in-for-microsoft-excel.html#378046)\n\nYou can download it and install it and it will allow you to open the files directly in Microsoft Excel.\n\n1. Time conversion from UTC to Excel time\n\nFor Inksight system, the first column represents the Absolute timestamp in UTC. This is the time in seconds, since 01/01/2019.\n\nTo convert this into excel time stamp format do as follow:\n1. Add to the TimeAbs UTC the number 3755289600 these are the seconds from 01/01/1900 to 01/01/2019\n2. Divide by 86400, which is the amount of seconds in one day.\n\nThis is:\nExcel_time = (TimeAbs UTC + 3755289600) / 86400\n\nFor example:\nIf the TimeAbs UTC value is equal to 59554408, then:\nExcel_time = (59554408 + 3755289600) / 86400 = 3814844008 / 86400 = 44153.28713\n\nThe value 44153.28713 are the days since 01/01/1900. The fractional part represents minutes, seconds etc.",
+      "specifications": {
+        "Constant seconds 01/01/1900 to 01/01/2019": "3755289600 seconds",
+        "Seconds in one day": "86400 seconds",
+        "Example TimeAbs UTC value": "59554408 seconds",
+        "Example Excel_time result": "44153.28713 days"
+      },
+      "key_facts": [
+        "TDMS files can be opened in Microsoft Excel using the TDM Excel Add-in.",
+        "The Inksight system's first column timestamp represents the Absolute timestamp in UTC, measured in seconds since 01/01/2019.",
+        "To convert the UTC timestamp to Excel time format, add 3755289600 seconds (the total seconds from 01/01/1900 to 01/01/2019) to the TimeAbs UTC value, and then divide the sum by 86400 (the number of seconds in one day).",
+        "The resulting Excel time value indicates the number of days since 01/01/1900, where the fractional part denotes minutes, seconds, and other smaller time units."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 903,
+        "cost_usd": 0.0023972999999999998
+      },
+      "source_file": "141_Inksight_TDMS_File_Processing_in_Excel.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

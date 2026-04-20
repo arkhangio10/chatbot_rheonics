@@ -1,0 +1,208 @@
+{
+  "source_file": "061_How_to_diagnose_and_fix_your_4-20mA_channel_output_data_inconsistency.pdf",
+  "total_pages": 4,
+  "chunks": [
+    {
+      "page_num": 1,
+      "page_summary": "Extraction failed",
+      "document_type": "unknown",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "extraction_failed": true,
+      "source_file": "061_How_to_diagnose_and_fix_your_4-20mA_channel_output_data_inconsistency.pdf"
+    },
+    {
+      "page_summary": "This page details the configuration and calibration of 4-20mA analog outputs for viscosity, density, and temperature using the Rheonics Control Panel (RCP) software, along with troubleshooting steps and support resources for PLC integration.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel 5.5.1.6",
+        "Micro820",
+        "SRV"
+      ],
+      "extracted_text": "Rheonics Control Panel 5.5.1.6\nMeasurement Events Settings Service Diagnostics Communication Temp. Control Logger Help\n\nSystem Info\nSensor S/N CEBW-GN-0002\nElectronics S/N \n\nSoftware Info\nInterface FW Version \nSensor FW Version \n\nUpdate Values\nRefresh\n\n4-20mA analog output\n\n4-20 mA Settings\nChannel 1 Viscosity\n4 mA 0.00 cP\n20 mA 3000.00 cP\nUpdate\n\nChannel 2 Density\n4 mA 0.000 g/cc\n20 mA 1.500 g/cc\nUpdate\n\nChannel 3 Temperature\n4 mA -20.00 °C\n20 mA 130.00 °C\nUpdate\n\n4 - 20 mA Calibration Check\nLive:\nChannel 1 4.000 mA\nChannel 2 14.667 mA\nChannel 3 6.133 mA\nChannel 1 (calibration fields): 4.000 16.000 [mA] 4 mA 16 mA Calibrate Test: 10 mA\nChannel 2 (calibration fields): 4.000 16.000 [mA] 4 mA 16 mA Calibrate Test: 10 mA\nChannel 3 (calibration fields): 4.000 16.000 [mA] 4 mA 16 mA Calibrate Test: 10 mA\n\nDensity (SRV Only)\nSet Density Constant 1.000000 g/cc\nTemp. Dependent Density Curve (T, °C)\nWrite\nDensity, g/cc 0.000000 xT^2 + 0.000000 xT + 1.000000\n\nFigure 1. Service Tab-4-20mA settings\nFix 2: It's crucial to correctly configure the 4-20mA output from the sensor in the PLC analog input. If these settings do not match, the PLC may misinterpret the sensor signal, resulting in inaccurate readings, process control errors, or missed alarms. Proper configuration ensures the PLC monitoring and control of your system. Rheonics has a few articles that describe the procedure to set the 4-20mA signals:\nAnalog signal Integration with Micro820 (https://support.rheonics.com/en/support/solutions/articles/81000398725-analog-signal-integration-with-micro820)\n\nIssue 2: Calibration Check\nRCP supports setting the 4-20mA channels to calibration modes for validation with a multimeter or a PLC.\n\nCalibration check\n\nFigure 2. Calibration Check\nFix 1: Use the calibration check mode in RCP to validate the 4-20mA signals. Follow the instructions in the support article:\nAnalog signals set up with the RCP (https://support.rheonics.com/en/support/solutions/articles/81000410123-analog-signals-setup-with-the-rcp) to confirm that the values sent by the SME are accurately received by the PLC. This step is crucial for troubleshooting and ensuring signal integrity.\n\nIssue 3: Signal Resolution",
+      "specifications": {
+        "RCP Software Version": "5.5.1.6",
+        "Sensor S/N": "CEBW-GN-0002",
+        "Channel 1 Viscosity 4 mA setpoint": "0.00 cP",
+        "Channel 1 Viscosity 20 mA setpoint": "3000.00 cP",
+        "Channel 2 Density 4 mA setpoint": "0.000 g/cc",
+        "Channel 2 Density 20 mA setpoint": "1.500 g/cc",
+        "Channel 3 Temperature 4 mA setpoint": "-20.00 °C",
+        "Channel 3 Temperature 20 mA setpoint": "130.00 °C",
+        "Live Channel 1 mA output": "4.000 mA",
+        "Live Channel 2 mA output": "14.667 mA",
+        "Live Channel 3 mA output": "6.133 mA",
+        "Density (Constant) setpoint": "1.000000 g/cc",
+        "Density quadratic coefficient (xT^2)": "0.000000",
+        "Density linear coefficient (xT)": "0.000000",
+        "Density constant term": "1.000000"
+      },
+      "key_facts": [
+        "The Rheonics Control Panel (RCP) software version 5.5.1.6 allows configuration of 4-20mA analog outputs for viscosity, density, and temperature.",
+        "The sensor serial number shown in the example is CEBW-GN-0002.",
+        "Incorrect configuration of 4-20mA outputs can lead to inaccurate readings, process control errors, or missed alarms in a PLC.",
+        "The RCP includes a 4-20mA Calibration Check mode for validating signals with a multimeter or a PLC.",
+        "Density settings can be constant or configured as a temperature-dependent quadratic curve.",
+        "Rheonics provides support articles on their website for analog signal integration and setup with the RCP and Micro820.",
+        "Using the calibration check mode is crucial for troubleshooting and ensuring signal integrity between the sensor (SME) and the PLC."
+      ],
+      "diagram_labels": [
+        "Rheonics Control Panel 5.5.1.6",
+        "Measurement",
+        "Events",
+        "Settings",
+        "Service",
+        "Diagnostics",
+        "Communication",
+        "Temp. Control",
+        "Logger",
+        "Help",
+        "System Info",
+        "Sensor S/N",
+        "Electronics S/N",
+        "Software Info",
+        "Interface FW Version",
+        "Sensor FW Version",
+        "Update Values",
+        "Refresh",
+        "4-20mA analog output",
+        "4-20 mA Settings",
+        "Channel 1",
+        "Viscosity",
+        "4 mA",
+        "20 mA",
+        "Update",
+        "Channel 2",
+        "Density",
+        "Channel 3",
+        "Temperature",
+        "4 - 20 mA Calibration Check",
+        "Live:",
+        "Channel 1",
+        "Channel 2",
+        "Channel 3",
+        "4.000",
+        "16.000",
+        "4 mA",
+        "16 mA",
+        "Calibrate",
+        "Test: 10 mA",
+        "Density (SRV Only)",
+        "Set Density",
+        "Constant",
+        "Temp. Dependent Density Curve (T, °C)",
+        "Write",
+        "Density, g/cc",
+        "Calibration check"
+      ],
+      "warnings_notes": [
+        "It's crucial to correctly configure the 4-20mA output from the sensor in the PLC analog input. If these settings do not match, the PLC may misinterpret the sensor signal, resulting in inaccurate readings, process control errors, or missed alarms. Proper configuration ensures the PLC monitoring and control of your system.",
+        "The step of using the calibration check mode is crucial for troubleshooting and ensuring signal integrity."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1881,
+        "cost_usd": 0.0048423
+      },
+      "source_file": "061_How_to_diagnose_and_fix_your_4-20mA_channel_output_data_inconsistency.pdf"
+    },
+    {
+      "page_summary": "This page illustrates the impact of 4-20mA signal scaling on resolution and accuracy, emphasizing the importance of correct scaling for reliable process control decisions and outlines an investigation into transmission issues.",
+      "document_type": "notes",
+      "product_names": [],
+      "extracted_text": "Poor signal resolution due to incorrect scaling of the 4-20mA signal can result in undetected fine changes, leading to inaccurate data and potentially incorrect process control decisions.\n\nPoorly scaled signal\n[Graph with x-axis labeled with timestamps ranging from 11:46:00 to 11:53:09]\n\nSignal with Good resolution and scaled correctly\n[Graph with x-axis labeled with timestamps ranging from 11:46:00 to 11:53:09]\n\nFigure 3. Signal scaling and resolution.\n\nFix 1: Ensure that the 4-20mA signal is scaled correctly to avoid a range that is too wide. Proper scaling improves resolution and accuracy, helping to detect fine changes and ensure reliable process control decisions.\n\nWe can summarize this investigation into 4-20 mA signal transmission issues in the following flowchart, which highlights the key steps involved in diagnosing and resolving discrepancies between sensor measurements and PLC readings.",
+      "specifications": {},
+      "key_facts": [
+        "Poor signal resolution due to incorrect scaling of the 4-20mA signal can result in undetected fine changes.",
+        "Incorrect 4-20mA signal scaling leads to inaccurate data and potentially incorrect process control decisions.",
+        "Proper scaling of the 4-20mA signal is crucial to avoid an overly wide range.",
+        "Proper signal scaling improves both resolution and accuracy.",
+        "Correct scaling helps detect fine changes and ensures reliable process control decisions.",
+        "An investigation addresses 4-20 mA signal transmission issues.",
+        "The investigation aims to diagnose and resolve discrepancies between sensor measurements and PLC readings, summarized in a flowchart."
+      ],
+      "diagram_labels": [
+        "Poorly scaled signal",
+        "Signal with Good resolution and scaled correctly",
+        "x-axis labels indicating time in HH:MM:SS format"
+      ],
+      "warnings_notes": [
+        "Fix 1: Ensure that the 4-20mA signal is scaled correctly to avoid a range that is too wide. Proper scaling improves resolution and accuracy, helping to detect fine changes and ensure reliable process control decisions."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 561,
+        "cost_usd": 0.0015423
+      },
+      "source_file": "061_How_to_diagnose_and_fix_your_4-20mA_channel_output_data_inconsistency.pdf"
+    },
+    {
+      "page_summary": "This flowchart outlines a step-by-step troubleshooting guide for resolving discrepancies between sensor digital output and PLC readings, covering checks for range consistency, calibration, signal resolution, and parameter consistency.",
+      "document_type": "manual",
+      "product_names": [
+        "Sensor",
+        "PLC",
+        "RCP Software"
+      ],
+      "extracted_text": "Start\nCompare Sensor and PLC Readings\n1. Compare digital value output from the sensor with PLC value.\n2. Maintain time sync for comparison.\nAre the values within system tolerance?\nNo:\n  Range Consistency.\n    Ensure 4-20mA range settings on sensor and PLC match.\n    Fix 1: Check settings in Service Tab (RCP Software)\n    Fix 2: Configure 4-20mA input/output correctly on the PLC.\n  Calibration check\n    Validate 4-20mA signals with multimeter or PLC.\n    Fix 1: Use RCP calibration check mode to confirm correct signals.\n  Signal resolution\n    Verify that 4-20mA scaling ensures proper resolution.\n    Fix 1: Adjust scaling to avoid overly wide ranges and improve accuracy.\n  Parameter consistency\n    Ensure the same parameter is compared in both digital and 4-20mA signals.\n    Fix 1: Cross-check parameter consistency in RCP and PLC.\nYes:\n  Signal conversion is correct\nEnd",
+      "specifications": {
+        "signal_type": "4-20mA",
+        "system_tolerance": "not specified"
+      },
+      "key_facts": [
+        "The troubleshooting process begins by comparing digital output from the sensor with PLC values and ensuring time synchronization.",
+        "If sensor and PLC readings are not within system tolerance, a series of checks are initiated, including range consistency, calibration, signal resolution, and parameter consistency.",
+        "Range consistency requires verifying that 4-20mA settings match between the sensor and PLC, with corrective actions in RCP Software or PLC configuration.",
+        "Calibration checks involve validating 4-20mA signals using a multimeter or PLC, and using RCP calibration check mode.",
+        "Signal resolution verification aims to ensure 4-20mA scaling provides proper resolution, with a recommendation to adjust scaling for improved accuracy.",
+        "Parameter consistency ensures that the same measurement parameter is compared in both digital and 4-20mA signals, requiring cross-checking in RCP and PLC."
+      ],
+      "diagram_labels": [
+        "Start",
+        "Compare Sensor and PLC Readings",
+        "1. Compare digital value output from the sensor with PLC value.",
+        "2. Maintain time sync for comparison.",
+        "Are the values within system tolerance?",
+        "Yes",
+        "No",
+        "Signal conversion is correct",
+        "End",
+        "Range Consistency.",
+        "Ensure 4-20mA range settings on sensor and PLC match.",
+        "Fix 1: Check settings in Service Tab (RCP Software)",
+        "Fix 2: Configure 4-20mA input/output correctly on the PLC",
+        "Calibration check",
+        "Validate 4-20mA signals with multimeter or PLC",
+        "Fix 1: Use RCP calibration check mode to confirm correct signals",
+        "Signal resolution",
+        "Verify that 4-20mA scaling ensures proper resolution",
+        "Fix 1: Adjust scaling to avoid overly wide ranges and improve accuracy",
+        "Parameter consistency",
+        "Ensure the same parameter is compared in both digital and 4-20mA signals",
+        "Fix 1: Cross-check parameter consistency in RCP and PLC"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 819,
+        "cost_usd": 0.0021872999999999997
+      },
+      "source_file": "061_How_to_diagnose_and_fix_your_4-20mA_channel_output_data_inconsistency.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": [
+      1
+    ]
+  }
+}

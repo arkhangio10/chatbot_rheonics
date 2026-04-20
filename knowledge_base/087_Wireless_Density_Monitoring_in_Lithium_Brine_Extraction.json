@@ -1,0 +1,132 @@
+{
+  "source_file": "087_Wireless_Density_Monitoring_in_Lithium_Brine_Extraction.pdf",
+  "total_pages": 3,
+  "chunks": [
+    {
+      "page_summary": "This document describes a wireless monitoring framework for lithium brine extraction, utilizing Rheonics SRD sensors and WirelessHART technology to automate real-time tracking of density, viscosity, and temperature for cloud integration.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "Rheonics SRV viscomete",
+        "SRD density-viscosity meter",
+        "SME-TRD",
+        "WirelessHART",
+        "Rheonics SRD sensors",
+        "Rheonics SME (transmitters)"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nWireless Density Monitoring in Lithium Brine Extraction\nModified on: Fri, 13 Feb, 2026 at 4:38 PM\n\nWhat products are involved?\nRheonics SRV viscomete (https://rheonics.com/products/inline-viscometer-srv/), SRD density-viscosity meter (https://rheonics.com/products/inline-density-meter-srd/) with SME-TRD and WirelessHART.\n\nWhat is the purpose of this article?\nThis article defines a wireless monitoring framework using SRD sensors and WirelessHART to automate density tracking in remote lithium ponds. It details the technical data path from Modbus TCP to MQTT for real-time cloud integration.\n\nTable of Contents\n1. Overview\n2. Real-Time Pond Monitoring: Rheonics SRD\n3. Adaptive Mesh Networking with WirelessHART\n4. Data Integration: From the Pond to the Cloud\n5. References\n\n1. Overview\nLithium brine extraction requires precise, continuous density monitoring across vast areas where traditional power and cabling are often non-existent. Traditional manual sampling is infrequent and labor-intensive, making it difficult to respond to process changes. This article describes a wireless density monitoring solution that uses Rheonics SRD (https://rheonics.com/products/inline-density-meter-srd/) sensors to provide the real-time data needed for effective process control.\n\n2. Real-Time Pond Monitoring: Rheonics SRD\nThis solution is built on the integration of Rheonics SRD sensors (https://rheonics.com/products/inline-density-meter-srd/) and WirelessHART (https://support.rheonics.com/en/support/solutions/articles/81000418933) technology. The Rheonics SRD is an inline density and viscosity meter installed directly into the brine. When paired with the Rheonics SME-TRD, as shown in Figure 1, the system transmits viscosity, density and temperature data wirelessly. These variables provide valuable information for the operation:\n*   Density: Tracks lithium salt concentration. This is the primary variable for monitoring the Brine Evaporation process.\n*   Viscosity: Indicates brine mobility and composition changes.\n*   Temperature: Since density is temperature-dependent, this variable is used to distinguish thermal variations from concentration changes and to calculate temperature-compensated density.\n\nFigure 1. Rheonics SME-TRD with WirelessHART\nRheonics SME (transmitters) are available in multiple configurations to support various applications. Detailed specifications for each variant c\nWireless sensors allow you to monitor remote locations without expensive and complex wiring. These units can be mounted on skids anywhere along the pond perimeter (Figure 2). Solar power is an option for independent operation, allowing continuous monitoring even kilometers away from the plant.",
+      "specifications": {
+        "Viscosity": "2.754 cP",
+        "Density": "1.120 g/cc",
+        "Temperature": "79.851 °F"
+      },
+      "key_facts": [
+        "The article defines a wireless monitoring framework using SRD sensors and WirelessHART to automate density tracking in remote lithium ponds.",
+        "The framework details the technical data path from Modbus TCP to MQTT for real-time cloud integration.",
+        "Lithium brine extraction requires precise, continuous density monitoring across vast areas.",
+        "Traditional manual sampling in lithium brine extraction is infrequent and labor-intensive.",
+        "The Rheonics SRD is an inline density and viscosity meter designed for direct installation into the brine.",
+        "When paired with the Rheonics SME-TRD, the system wirelessly transmits viscosity, density, and temperature data.",
+        "Density tracks lithium salt concentration and is the primary variable for monitoring the Brine Evaporation process.",
+        "Viscosity indicates brine mobility and composition changes.",
+        "Temperature is used to distinguish thermal variations from concentration changes and to calculate temperature-compensated density.",
+        "Wireless sensors enable monitoring of remote locations without expensive and complex wiring.",
+        "These units can be mounted on skids anywhere along the pond perimeter.",
+        "Solar power is an option for independent operation, facilitating continuous monitoring even kilometers away from the plant."
+      ],
+      "diagram_labels": [
+        "Figure 1. Rheonics SME-TRD with WirelessHART",
+        "SENSOR RUNNING",
+        "PROCESS WITHIN LIMITS",
+        "Visc:",
+        "Dens:",
+        "Temp:",
+        "S11-0103 V04.00/I 15101442",
+        "rheonics",
+        "Figure 2"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1196,
+        "cost_usd": 0.0031298
+      },
+      "source_file": "087_Wireless_Density_Monitoring_in_Lithium_Brine_Extraction.pdf"
+    },
+    {
+      "page_summary": "This page describes the deployment of Rheonics SRD and SME-TRD sensors in lithium ponds, highlighting the use of WirelessHART adaptive mesh networking for reliable data transmission and integration with cloud analytics.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "Rheonics SRD Sensor",
+        "Rheonics SME-TRD"
+      ],
+      "extracted_text": "Figure 2. Rheonics SRD in Lithium Pond\n\nFor detailed installation procedures (SRD-TT teletube variant), see the full application note: Density and Concentration Brine Pond monitoring i\n\n3. Adaptive Mesh Networking with WirelessHART\n\nThe solution uses WirelessHART technology and a self-healing mesh network (Figure 3) to ensure data reliability. In this architecture, every device acts as both a sensor and a repeater. This creates redundant communication paths so that data reaches the gateway even if an obstacle blocks a signal.\n\nFigure 3. Lithium Brine Overview: WirelessHART approach\n\nWirelessHART allows the network to scale easily as pond operations expand.\n\n4. Data Integration: From the Pond to the Cloud\n\nThe transition from raw sensor data to actionable cloud analytics involves a standardized industrial communication stack. Figure 4 illustrates how the architecture integrates WirelessHART data to provide visibility across the operation.",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics SRD sensors are deployed in lithium ponds for monitoring.",
+        "The system utilizes a Starlink Terminal for satellite antenna and solar panels for power supply.",
+        "WirelessHART technology is employed for adaptive, self-healing mesh networking to ensure data reliability.",
+        "Every device within the WirelessHART architecture functions as both a sensor and a repeater.",
+        "WirelessHART creates redundant communication paths, ensuring data reaches the gateway even if a signal is blocked.",
+        "The WirelessHART network allows for easy scalability as pond operations expand.",
+        "Data integration involves transforming raw sensor data into actionable cloud analytics using a standardized industrial communication stack."
+      ],
+      "diagram_labels": [
+        "Starlink Terminal (Satellite Antenna)",
+        "Solar Panels for power supply",
+        "Rheonics SME-TRD (with WirelessHART)",
+        "Rheonics SRD Sensor",
+        "Self-healing redundant mesh",
+        "WirelessHART Gateway Battery + Solar"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 548,
+        "cost_usd": 0.0015098
+      },
+      "source_file": "087_Wireless_Density_Monitoring_in_Lithium_Brine_Extraction.pdf"
+    },
+    {
+      "page_summary": "This page illustrates the integration of Rheonics sensors with cloud infrastructure and provides a list of four technical references.",
+      "document_type": "manual",
+      "product_names": [
+        "SRD Inline Density Meter",
+        "Rheonics Inline Viscometers",
+        "viscometer and density meter"
+      ],
+      "extracted_text": "Figure 4. Integration with the Cloud\n* WirelessHART Gateway: Collects real-time data from the mesh network and converts it into standard industrial protocols like Modbus TCP.\n* Industrial Edge Device: Manages data at the site by bringing processing logic closer to the sensors. It cleans and transforms data from Modbus TCP to MQTT for reliable transmission.\n* MQTT Protocol: Transmits data to the cloud via 4G or satellite links like Starlink. MQTT is a standard for reliable data transfer in remote or high-latency environments.\n\n5. References\n1. Rheonics, \"SRD Inline Density Meter.\" [Online]. Available: rheonics SRD » Density Meter inline online specific gravity concentration (https://rheonics.com/products/inline-density-meter-srd/). [Accessed: Feb. 2, 2026].\n2. Rheonics, \"Electronics and Communication.\" [Online]. Available: Electronics and Communication » rheonics :: viscometer and density meter (https://rheonics.com/electronics-and-communication/). [Accessed: Feb. 2, 2026].\n3. Rheonics, \"Getting started with WirelessHART communication.\" [Online]. Available: WirelessHART Setup Guide for Rheonics Inline Viscometers (https://support.rheonics.com/en/support/solutions/articles/81000418933-getting-started-with-wirelesshart-communication). [Accessed: Feb. 2, 2026].\n4. Rheonics, \"Density and concentration: Brine pond monitoring in lithium extraction process.\" [Online]. Available: Density and Concentration Brine pond monitoring in lithium extraction process » rheonics :: viscometer and density meter (https://rheonics.com/solutions-item/density-and-concentration-brine-pond-monitoring-in-lithium-extraction-process/). [Accessed: Feb. 2, 2026].",
+      "specifications": {},
+      "key_facts": [
+        "A WirelessHART Gateway collects real-time data from a mesh network and converts it into standard industrial protocols such as Modbus TCP.",
+        "An Industrial Edge Device manages data at the site by local processing, cleaning, and transforming data from Modbus TCP to MQTT for reliable transmission.",
+        "The MQTT Protocol is used for transmitting data to the cloud via 4G or satellite links like Starlink, enabling reliable data transfer in remote or high-latency environments."
+      ],
+      "diagram_labels": [
+        "On Site",
+        "WirelessHART",
+        "WirelessHART Gateway",
+        "ModbusTCP",
+        "Edge Device",
+        "MQTT",
+        "Cloud / Data Center",
+        "Server"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 701,
+        "cost_usd": 0.0018923000000000002
+      },
+      "source_file": "087_Wireless_Density_Monitoring_in_Lithium_Brine_Extraction.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

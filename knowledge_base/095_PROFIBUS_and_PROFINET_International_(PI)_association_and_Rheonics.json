@@ -1,0 +1,186 @@
+{
+  "source_file": "095_PROFIBUS_and_PROFINET_International_(PI)_association_and_Rheonics.pdf",
+  "total_pages": 5,
+  "chunks": [
+    {
+      "page_summary": "This page details the partnership between Rheonics and the PROFIBUS and PROFINET International (PI) association, highlighting Rheonics' role as a vendor of PROFINET-compatible systems and the support provided for their integration.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "PROFINET-compatible sensors"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nPROFIBUS and PROFINET International (PI)\nassociation and Rheonics\n\nModified on: Thu, 21 Dec, 2023 at 12:59 AM\n\nThe PROFIBUS and PROFINET International (PI) association is one of the largest automation organizations in the\nworld and is responsible for PROFIBUS and PROFINET, two important automation technologies.\nRheonics is a member of the PI association as a vendor of hardware, software, and PROFINET-compatible systems.\nCheck our membership at this link: Members (https://www.profibus.com/pi-organization/members?tx_solr%5Bq%5D=rheonics#tx_solr-results)\n\nRheonics provides detailed user manuals and technical support for integration. Our PROFINET-compatible sensors\ncan be easily integrated into PROFINET networks thanks to our support portal's guidelines and steps. In addition,\nour experienced engineering team can assist with installation and configuration to ensure successful integration into\nyour PROFINET network on time. Visit our Support portal for more information on PROFINET Protocol: PROFINE T (https://support.rheonics.com/en/support/solutions/folders/81000292663)\n\nViscosity\nDensity\n\nPROFIBUS • PROFINET\nFigure 1. PROFINET partnership between The PROFIBUS and PROFINET International (PI) association and\nRheonics\n\nTABLE OF CONTENTS\n\n*   1. How does this partnership benefit your process?",
+      "specifications": {},
+      "key_facts": [
+        "The PROFIBUS and PROFINET International (PI) association is one of the largest automation organizations in the world.",
+        "The PI association is responsible for PROFIBUS and PROFINET, which are two important automation technologies.",
+        "Rheonics is a member of the PI association.",
+        "Rheonics functions as a vendor of hardware, software, and PROFINET-compatible systems within the PI association.",
+        "Rheonics provides detailed user manuals and technical support to facilitate the integration of its PROFINET-compatible sensors into PROFINET networks.",
+        "Rheonics offers a support portal with guidelines for integrating sensors into PROFINET networks.",
+        "Rheonics' experienced engineering team can assist with the installation and configuration of PROFINET-compatible sensors to ensure successful integration."
+      ],
+      "diagram_labels": [
+        "Viscosity",
+        "Density",
+        "rheonics",
+        "PROFIBUS",
+        "PROFINET",
+        "PI",
+        "KEEP COVER TIGHT",
+        "Power",
+        "Status"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 726,
+        "cost_usd": 0.0019548
+      },
+      "source_file": "095_PROFIBUS_and_PROFINET_International_(PI)_association_and_Rheonics.pdf"
+    },
+    {
+      "page_summary": "This page provides an overview of the PROFINEТ protocol, detailing its benefits for industrial processes, its technical specifications as an open industrial Ethernet system, and how it functions for both time-critical and non-time-critical applications, particularly in the context of Rheonics' viscometers and density sensors.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "Rheonics process viscometer",
+        "density meters"
+      ],
+      "extracted_text": "2. What is the PROFINEТ protocol?\n3. How does the PROFINEТ protocol work?\n4. Rheonics process viscometer and density meters have native Profinet support\n5. Rheonics Expertise\n6. What is available over PROFINEТ?\n7. Resources\n8. References\n\n1. How does this partnership benefit your process?\nPROFINEТ offers these advantages for the viscosity and density monitoring:\n*   Flexibility: PROFINEТ IO accommodates the current plant setup by incorporating versatile line, ring, and star structures, thereby negating the necessity for costly bespoke alternatives. This solution relies entirely on standard Ethernet, facilitating seamless integration of wired and wireless transmission physics. Consequently, WLAN and Bluetooth communication can be seamlessly integrated into the solution, even for real-time data.\n*   Increased availability: PROFINEТ IO incorporates redundancy measures, encompassing IT-based network redundancy and seamless switchover operations for rapid control processes, as well as control system redundancy for uninterrupted process-related applications. Furthermore, a versatile diagnostics concept provides crucial information about network topology and the status of all devices, ensuring cross-vendor, location-specific diagnostics. The inclusion of mechanisms for preventive diagnostics enhances overall system availability.\n*   Uniform integration on fieldbus systems: To incorporate current device structures with fieldbuses, the modular device model of PROFINEТ IO has undergone standardization through fieldbus-specific proxy specifications. This guarantees uniform addressing, parameter assignment, and diagnostics for the underlying fieldbus network.\n*   Enabler for Industrie 4.0: The future-proof structure of PROFINEТ enables the implementation of industrial 4.0 applications today. Emerging technologies like TSN can be seamlessly integrated and employed.\n\n2. What is the PROFINEТ protocol?\nPROFINEТ is an open industrial Ethernet system based on international standards and part of IEC 61158 / IEC 61784-2, which defines what the signal looks like on the wire and what the medium accessing the wire has to do, it also uses industrial Ethernet as the physical layer (defined by IEEE802.3). It is a real-time communication protocol, meaning that devices can exchange data in real time with minimal delays. It is also a deterministic protocol, meaning that data is exchanged with predictable latency.\n\nUsing PROFINEТ, components can communicate cyclically or acyclically, and exchange diagnostics, safety functions, alarms, and additional information. As a communication medium, PROFINEТ uses Ethernet to link all of those components. PROFINEТ components can be connected within a network alongside other Ethernet protocols such as OPC UA, SNMP, MQTT, or HTTP, which can be used to complement PROFINEТ.\n\n3. How does the PROFINEТ protocol work?\nPROFINEТ can utilize TCP/IP or UDP/IP communication for tasks that are not time-critical, such as configuration and parameterization. However, due to the introduced latency and jitter associated with IP-based communication, this approach is not suitable for time-critical operations.\n\nTo address time-critical applications, PROFINEТ implements a real-time channel, ensuring the rapid and deterministic delivery of data.\nHere's how PROFINEТ real-time functions: Standard Ethernet frames include a field known as EtherType, indicating the protocol type.",
+      "specifications": {
+        "standard_ethernet_physical_layer": "IEEE802.3",
+        "industrial_ethernet_standards": "IEC 61158 / IEC 61784-2"
+      },
+      "key_facts": [
+        "PROFINEТ IO offers flexibility for viscosity and density monitoring by accommodating existing plant setups and integrating various transmission physics, including WLAN and Bluetooth for real-time data.",
+        "PROFINEТ IO enhances system availability through IT-based network redundancy, seamless switchover for rapid control processes, and comprehensive diagnostics for network topology and device status.",
+        "PROFINEТ IO ensures uniform integration on fieldbus systems via standardized modular device models and fieldbus-specific proxy specifications, guaranteeing uniform addressing, parameter assignment, and network diagnostics.",
+        "PROFINEТ's future-proof structure facilitates the implementation of Industrial 4.0 applications and supports the seamless integration of emerging technologies like TSN.",
+        "PROFINEТ is an open industrial Ethernet system based on international standards IEC 61158 and IEC 61784-2.",
+        "PROFINEТ uses industrial Ethernet as its physical layer (IEEE802.3) and operates as a real-time and deterministic communication protocol, ensuring minimal delays and predictable latency.",
+        "PROFINEТ components can communicate cyclically or acyclically, exchanging diagnostics, safety functions, alarms, and additional information.",
+        "PROFINEТ can coexist with other Ethernet protocols like OPC UA, SNMP, MQTT, or HTTP within the same network.",
+        "For non-time-critical tasks like configuration and parameterization, PROFINEТ can use TCP/IP or UDP/IP communication.",
+        "To ensure rapid and deterministic data delivery for time-critical applications, PROFINEТ implements a dedicated real-time channel.",
+        "PROFINEТ real-time functions are identified within standard Ethernet frames by a specific EtherType field."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1251,
+        "cost_usd": 0.0032673
+      },
+      "source_file": "095_PROFIBUS_and_PROFINET_International_(PI)_association_and_Rheonics.pdf"
+    },
+    {
+      "page_summary": "This page details the architecture of PROFINET real-time communication and explains how Rheonics inline viscometers and density sensors leverage native PROFINET support for enhanced industrial automation applications.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "Rheonics process viscometer",
+        "Rheonics density sensors",
+        "Rheonics sensors"
+      ],
+      "extracted_text": "PROFINET real-time communication is configured with an EtherType of 0x8892. Upon reaching the destination node, the frame is promptly directed to the PROFINET application. The data travels directly from Ethernet Layer 2 to PROFINET Layer 7, bypassing the TCP/IP layers and circumventing potential variability in processing time. Consequently, communication speed and determinism experience a significant enhancement.\n\n5-7: Session/Presentation/Application\nProfinet services (I/O, alarms, records, etc.)\n\n4 Transport layer\nUDP\nTCP\n\n3: Network layer\nIP\n\n2: Data Link Layer\nRT\nIRT\nTSN\n\n1: Physical layer\n100 Mbit/s, 1 Gbit Mbit/s\n\nFigure 2. PROFINET transportation layer.\n\n4. Rheonics process viscometer and density meters have native Profinet support\nIn diverse automation applications, PROFINET plays a pivotal role by ensuring smooth communication between an array of field devices and the central control system, with a special emphasis on its integration with PLCs.\n\nRheonics process automation sensors with PROFINET communication facilitates remote access to comprehensive device diagnostics and configurations, resulting in swift decision-making, reduced downtime, and an overall enhancement of system efficiency.\n\nHaving profinet directly on the sensor removes the need for using converters and infield programming. Now customers can drop the GDSML file directly on the PLC and start communicating over profinet with the Rheonics sensor on their industrial network.\n\n5. Rheonics Expertise\nA few typical applications where our customers are using PROFINET protocol are:\n\n*   Transmission of density (weight) of drilling mud over PROFINET.\n*   The viscosity of batter mix that is applied to various appetizer food products.\n*   Plywood glue manufacturing and application - measure and transmit viscosity and temperature of glue.\n*   Measure and transmit viscosity in the process for water-based ink.",
+      "specifications": {
+        "EtherType": "0x8892",
+        "Physical Layer Speed": "100 Mbit/s, 1 Gbit Mbit/s"
+      },
+      "key_facts": [
+        "PROFINET real-time communication is configured with an EtherType of 0x8892.",
+        "PROFINET data travels directly from Ethernet Layer 2 to PROFINET Layer 7, bypassing TCP/IP layers, which enhances communication speed and determinism.",
+        "Rheonics process viscometers and density meters have native PROFINET support.",
+        "PROFINET facilitates smooth communication between field devices and central control systems, with emphasis on PLC integration.",
+        "Rheonics sensors with PROFINET communication allow remote access to device diagnostics and configurations, leading to faster decision-making, reduced downtime, and improved system efficiency.",
+        "Native PROFINET on Rheonics sensors eliminates the need for converters and infield programming.",
+        "Customers can drop the GDSML file directly onto the PLC to communicate with Rheonics sensors over PROFINET.",
+        "Rheonics' PROFINET protocol is used for applications such as transmitting density of drilling mud, measuring viscosity of batter mix, measuring and transmitting viscosity and temperature of plywood glue, and measuring and transmitting viscosity for water-based ink."
+      ],
+      "diagram_labels": [
+        "5-7: Session/Presentation/Application",
+        "Profinet services (I/O, alarms, records, etc.)",
+        "4 Transport layer",
+        "UDP",
+        "TCP",
+        "3: Network layer",
+        "IP",
+        "2: Data Link Layer",
+        "RT",
+        "IRT",
+        "TSN",
+        "1: Physical layer",
+        "100 Mbit/s, 1 Gbit Mbit/s",
+        "Figure 2. PROFINET transportation layer."
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 983,
+        "cost_usd": 0.0025972999999999994
+      },
+      "source_file": "095_PROFIBUS_and_PROFINET_International_(PI)_association_and_Rheonics.pdf"
+    },
+    {
+      "page_summary": "This page details the applications and measurements available via PROFINET communication for Rheonics inline viscometers and density meters, providing extensive resources and references for integration.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics inline process density meter",
+        "viscosity meter",
+        "Rheonics Sensors"
+      ],
+      "extracted_text": "• Measure and transmit the density, viscosity, and temperature of ceramic slurry from the slurry drum to the PLC and SCADA system in shell rooms.\n• Monitoring and transmission of density, viscosity, and temperature to SCADA system over PROFINET in Processing plants for food production as well as in the beverage industry and dairies\n• Automation and control for water/wastewater treatment uses PLC with PROFINET communication to get sewage water density and viscosity for nitrification, polyelectrolyte, and calamity detection.\n• and many more.\n\n6. What is available over PROFINET?\nAll measurements from the Rheonics inline process density meter and viscosity meter are accessible over profinet. This includes density, viscosity, kinematic viscosity, and temperature.\n\nWe also offer advanced calculation models for compensated viscosity, compensated density, and concentration which can be transmitted over PROFINET along with the line measurements. Learn how you can get °API, °Baume, compensated viscosity, and density using the onboard MATHS engine > Measurements (https://support.rheonics.com/en/support/solutions/81000186361)\n\n7. Resources\nFor more information about how Rheonics has implemented PROFINET in all their devices visit:\n1. PROFINET Fundamentals (https://support.rheonics.com/en/support/solutions/articles/81000410678-profinet-fundamentals)\n2. Getting started with PROFINET and Rheonics devices (https://support.rheonics.com/en/support/solutions/articles/81000410679-getting-started-with-profinet-on-rheonics-devices)\n3. Taking the PROFINET road with Rheonics SME (https://support.rheonics.com/en/support/solutions/articles/81000411227-taking-the-profinet-road-with-rheonics-sme)\n4. Connecting the Profinet output (https://support.rheonics.com/en/support/solutions/articles/81000401596-connecting-the-profinet-output)\n5. Profinet connection to inline viscometer and density meter (https://support.rheonics.com/en/support/solutions/articles/81000401423-profinet-gsd-file-for-rheonics-inline-viscometer-and-density-meter)\n6. Software for Profinet integration with Rheonics Sensors (https://support.rheonics.com/en/support/solutions/articles/81000411197-software-for-profinet-integration-with-rheonics-sensors)\n\n8. References\n1. PI Organization (https://www.profibus.com/)\n2. Rheonics PROFINET user manual. (https://rheonics.com/wp-content/uploads/2022/03/Profinet-rheonics_manual_V1.0.pdf)\n3. Rheonics Integration to PLC » rheonics :: viscometer and density meter (https://rheonics.com/rheonics-integration-to-plc/)",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics devices can measure and transmit density, viscosity, and temperature of ceramic slurry from the slurry drum to PLC and SCADA systems.",
+        "PROFINET enables monitoring and transmission of density, viscosity, and temperature to SCADA systems in processing plants for food production, beverage industry, and dairies.",
+        "PROFINET communication with PLC is used for automation and control in water/wastewater treatment to obtain sewage water density and viscosity for nitrification, polyelectrolyte, and calamity detection.",
+        "All measurements from Rheonics inline process density meters and viscosity meters, including density, viscosity, kinematic viscosity, and temperature, are accessible over PROFINET.",
+        "Rheonics offers advanced calculation models for compensated viscosity, compensated density, and concentration, which can be transmitted over PROFINET.",
+        "The onboard MATHS engine allows users to obtain °API, °Baume, compensated viscosity, and density measurements.",
+        "Rheonics has implemented PROFINET in all their devices."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1057,
+        "cost_usd": 0.0027822999999999997
+      },
+      "source_file": "095_PROFIBUS_and_PROFINET_International_(PI)_association_and_Rheonics.pdf"
+    },
+    {
+      "page_summary": "This page highlights two key aspects of Rheonics' technology and partnerships: the use of EtherNet/IP as a standard industrial communication protocol for its viscometers and density meters, and a partnership with FieldComm Group regarding HART communication.",
+      "document_type": "notes",
+      "product_names": [
+        "viscometer",
+        "density meter"
+      ],
+      "extracted_text": "4. EtherNet/IP: The standard protocol for communication in industrial networks » rheonics :: viscometer and density meter (https://rheonics.com/ethernet-ip-the-standard-protocol-for-communication-in-industrial-networks/)\n5. HART partnership between FieldComm Group and Rheonics » rheonics :: viscometer and density meter (https://rheonics.com/hart-partnership-between-fieldcomm-group-and-rheonics/)",
+      "specifications": {},
+      "key_facts": [
+        "EtherNet/IP is identified as the standard protocol for communication in industrial networks.",
+        "Rheonics offers viscometers and density meters that support EtherNet/IP.",
+        "Rheonics has established a HART partnership with FieldComm Group.",
+        "Rheonics viscometers and density meters are involved in the HART partnership."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 312,
+        "cost_usd": 0.0009197999999999999
+      },
+      "source_file": "095_PROFIBUS_and_PROFINET_International_(PI)_association_and_Rheonics.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "source_file": "013_Integrating_Rheonics_Process_Sensors_with_PCS,_LIMS_and_ERP_like_SAP.pdf",
+  "total_pages": 2,
+  "chunks": [
+    {
+      "page_summary": "This article discusses the integration of Rheonics process sensors with enterprise software systems such as Process Control Systems (PCS), Laboratory Information Management Systems (LIMS), and Enterprise Resource Planning (ERP) like SAP, highlighting how real-time measurement data improves process control, validation, and traceability.",
+      "document_type": "article",
+      "product_names": [
+        "Rheonics Process Sensors",
+        "Process Density Meter",
+        "Viscometer",
+        "RPS InkSight",
+        "SlurryTrack Rheonics Slurry Solution",
+        "SlurrySense",
+        "Sand Detector Probe SDP",
+        "Rheonics DVM Density Viscosity Module HPHT"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nIntegrating Rheonics Process Sensors with PCS, LIMS and ERP like SAP\n\nModified on: Wed, 19 Nov, 2025 at 9:50 PM\n\nWhat is the purpose of this article?\nPCS, LIMS, and SAP are all enterprise software systems, but they have distinct functions. SAP is an enterprise resource planning (ERP) system for managing business processes like finance and supply chain, while LIMS (Laboratory Information Management System) is specialized software for managing laboratory workflows and data. PCS, or Process Control System, is a system for controlling industrial processes and is often integrated with both SAP and LIMS to provide comprehensive data flow.\n\nRheonics sensors and solutions are crucial because they act as the foundational source of reliable, real-time measurement data. This data is vital for:\n*   Automated PCS Control: Enabling the PCS to make instantaneous, precise adjustments to the process (e.g., maintaining slurry consistency).\n*   LIMS Validation: Providing consistent, continuous process measurements that verify the integrity of batch quality checks.\n*   SAP Traceability: Ensuring the quality data sent upstream to the SAP system for inventory, costing, and final product reporting is accurate and traceable.\n\nTABLE OF CONTENTS\n1. SAP (Enterprise Resource Planning)\n2. LIMS (Laboratory Information Management System)\n3. PCS (Process Control System)\n4. How do they work together?\n5. A common integration is between a PCS, LIMS, and SAP.\nReferences:\n\n1. SAP (Enterprise Resource Planning) (https://www.google.com/search?q=Enterprise+Resource+Planning&sourceid=chrome&ie=UTF-8&mstk=AUtExfCIUL06_JfTMGwujUyunKAsSKkEqjD6oz-78sw7TtUa-IEKYW_1CJNqkEH2O0caif-71IHPyI3aOM_aOHyHR7_MKe0yNzyq8B62FhmLyq1_R7u87wYg4JTxnqmUYqYRgCGTC2rV3MZDDSYAJKzRgxo9SCfFcFctFat4HqtsNuXjULM)\nPurpose: Manages core business operations such as billing, finance, procurement, and human resources.\nCapabilities: Can include modules for manufacturing and quality management, but lacks the specialized features needed for day-to-day laboratory work.\nImplementation: Rheonics sensor measurement data can be integrated using standard protocols supported by ERP like OPC UA, JSON, etc. Rheonics solutions like painttrack and coagutrack support integration using multiple protocols like OPC UA, JSON, etc.\nRheonics solutions: Communication connections (https://support.rheonics.com/en/support/solutions/81000100945)\n    *   Connecting the process density meter and viscometer to PLC (https://support.rheonics.com/en/support/solutions/articles/81000412005-connecting-process-density-meter-and-viscometer-to-leading-plc)\n    *   Drilling Mud Weight and Viscosity Monitoring to Optimize Well Performance (https://rheonics.com/solutions-item/drilling-mud-weight-and-viscosity-monitoring-to-optimize-well-performance/)\n    *   RPS InkSight - Rheonics Printing Solution (https://rheonics.com/products/rps-inksight-rheonics-printing-solution/)\n    *   SlurryTrack Rheonics Slurry Solution (https://rheonics.com/products/slurrytrack-rheonics-slurry-solution/)\n    *   SlurrySense (https://rheonics.com/products/slurrysense/)\n    *   Sand Detector Probe SDP (https://rheonics.com/products/sand-detector-probe-sdp/)\n\n2. LIMS (Laboratory Information Management System) (https://www.google.com/search?q=Laboratory+Information+Management+System&sourceid=chrome&ie=UTF-8&mstk=AUtExfCIUL06_JfTMGwujUyunKAsSKkEqjD6oz-78sw7TtUa-IEKYW_1CJNqkEH2O0caif-71IHPyI3aOM_aOHyHR7_MKe0yNzyq8B62FhmLyq1_R7u87wYg4JTxnqmUYqYRgCGTC2rV3MZDDSYAJKzRgxo9SCfFcFctFat4HqtsNuXjULM)\nPurpose: Specifically designed for managing laboratory processes, including sample tracking, test results, and quality control.\nCapabilities: Automates lab workflows, integrates with testing equipment, and helps ensure data integrity and compliance with regulations like ISO and FDA.\nImplementation: Through industrial standard protocols like Modbus, as well as through API available for various software platforms (LabView, Python, C, C++, C# etc)\nRheonics solutions: The myth of accuracy for inline viscosity measurements (https://support.rheonics.com/en/support/solutions/articles/81000412495-the-myth-of-accuracy-for-inline-viscosity-measurements)\n    *   Calibration verification procedure for inline viscometer and density meter (https://support.rheonics.com/en/support/solutions/articles/81000390161-calibration-verification-procedure-for-inline-viscometer-and-density-meter)\n    *   Scaling SME Parameters (https://support.rheonics.com/en/support/solutions/articles/81000391533-scaling-sme-parameters)\n    *   Real-time quality control with an inline viscometer based on lab-driven values (https://support.rheonics.com/en/support/solutions/articles/81000410167-real-time-quality-control-with-an-inline-viscometer-based-on-lab-driven-values)\n    *   Rheonics DVM Density Viscosity Module HPHT Article (https://support.rheonics.com/en/support/solutions/articles/81000417582-dvm-overview-article)",
+      "specifications": {},
+      "key_facts": [
+        "PCS, LIMS, and SAP are distinct enterprise software systems with specific functions for managing business processes, laboratory workflows, and industrial process control.",
+        "SAP (Enterprise Resource Planning) is primarily for core business operations like finance, supply chain, procurement, and human resources.",
+        "LIMS (Laboratory Information Management System) is specialized software for managing laboratory processes, including sample tracking, test results, and quality control, ensuring data integrity and compliance with ISO and FDA regulations.",
+        "PCS (Process Control System) is responsible for controlling industrial processes.",
+        "Rheonics sensors and solutions are critical as they provide reliable, real-time measurement data.",
+        "This real-time data is vital for Automated PCS Control to enable instantaneous and precise process adjustments.",
+        "LIMS Validation benefits from continuous process measurements to verify the integrity of batch quality checks.",
+        "SAP Traceability is enhanced by ensuring accurate and traceable quality data for inventory, costing, and final product reporting.",
+        "Rheonics sensor measurement data can be integrated with ERP systems using standard protocols like OPC UA and JSON.",
+        "Rheonics sensor data can be integrated with LIMS using industrial standard protocols such as Modbus and APIs for various software platforms including LabView, Python, C, C++, and C#."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1914,
+        "cost_usd": 0.004924799999999999
+      },
+      "source_file": "013_Integrating_Rheonics_Process_Sensors_with_PCS,_LIMS_and_ERP_like_SAP.pdf"
+    },
+    {
+      "page_summary": "This page provides an overview of Process Control Systems (PCS), their integration with LIMS and SAP, and highlights Rheonics' solutions for sensor integration with industrial control systems like Ignition SCADA.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "Rheonics sensors",
+        "Rheonics SME"
+      ],
+      "extracted_text": "3. PCS (Process Control System) (https://www.google.com/search?q=Process+Control+System&sourceid=chrome&ie=UTF-8&sclient=psy-ab&authuser=0&ei=D6z-78sw7TtUa-jEKYW_7I1HPyI3aoMaOHvHR7_Mke0yNzyg8B62FhmLyg1_R7u87wYg4JTxnqmUYgYRx)\nPurpose: Controls and monitors industrial processes in real-time.\nCapabilities: Manages production steps, but does not handle the full scope of laboratory analysis or business administration.\nIntegration: Comprehensive article on integration support for various PCS systems: https://rheonics.com/rheonics-integration-to-plc/\nOften integrated with both LIMS and SAP to provide a complete data chain from process control to laboratory analysis and final business reporting.\nRheonics solutions:\nHiveMQ Broker Integration with Rheonics (https://support.rheonics.com/en/support/solutions/articles/81000418688-hivemq-broker-integration-with-rheonics)\nBenefits of using Rheonics sensors with Ignition SCADA for remote monitoring (https://support.rheonics.com/en/support/solutions/articles/81000418913-benefits-of-using-rheonics-sensors-with-ignition-scada-for-remote-monitoring)\nIntegrating Multiple Rheonics SME via MQTT in Ignition SCADA (https://support.rheonics.com/en/support/solutions/articles/81000418656-integrating-multiple-rheonics-sensors-via-mqtt-in-ignition-scada)\nRheonics sensor integration with Ignition SCADA (https://support.rheonics.com/en/support/solutions/articles/81000416155-rheonics-sensor-integration-with-ignition-scada)\n\n4. How do they work together?\n* A common integration is between a PCS, LIMS, and SAP.\n* The PCS monitors and controls the physical production process.\n* The LIMS manages the samples and tests taken during the production process.\n* SAP integrates the data from both systems for business-level functions like inventory management, quality management decisions, and reporting.\n* This integration allows for a comprehensive view of operations, from raw material to final product, and helps automate tasks, reduce errors, and improve overall efficiency.\n\n5. References:\nLIMS and ERP(SAP) Integration - Engineering Services (https://blogs.infosys.com/engineering-services/industrial-iot/lims-and-erpsap-integration.html#:~:text=This%20blog%20describes%20how%20LIMS%20Terms%20used)\nSAP Help Portal | SAP Online Help (https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/21aead0c98bd4755abdacd91c99e3393/ef72be532789b44ce1000000a174cb4.html)",
+      "specifications": {},
+      "key_facts": [
+        "A PCS (Process Control System) controls and monitors industrial processes in real-time.",
+        "PCS capabilities manage production steps but do not extend to laboratory analysis or business administration.",
+        "PCS systems are often integrated with LIMS (Laboratory Information Management System) and SAP (Systems, Applications & Products in Data Processing) to form a complete data chain.",
+        "Rheonics provides integration solutions for its sensors with Ignition SCADA, including via HiveMQ Broker and MQTT for multiple Rheonics SME devices.",
+        "The integrated system of PCS, LIMS, and SAP offers a comprehensive operational view, from raw material to final product, enabling automation, error reduction, and improved overall efficiency."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1003,
+        "cost_usd": 0.0026473
+      },
+      "source_file": "013_Integrating_Rheonics_Process_Sensors_with_PCS,_LIMS_and_ERP_like_SAP.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

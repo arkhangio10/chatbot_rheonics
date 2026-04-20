@@ -1,0 +1,224 @@
+{
+  "source_file": "018_Rheonics_SRV_-_Emerson_7829_Retrofit.pdf",
+  "total_pages": 4,
+  "chunks": [
+    {
+      "page_summary": "This document provides guidelines for retrofitting an Emerson 7829 viscometer with Rheonics SRV inline viscometers or SRD density meters, highlighting the benefits and installation versatility of Rheonics sensors.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics SRV",
+        "Emerson 7829",
+        "SRV - Inline Viscosity Meter",
+        "SRD - Inline Density and Viscosity meter",
+        "Rheonics SR- sensors",
+        "SRV-X4 (Flush Tri-Clamp)",
+        "SRV-X2 (Short flanged)",
+        "SRV-X5 (Long insertion flanged)"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nRheonics SRV - Emerson 7829 Retrofit\nModified on: Fri, 1 Sep, 2023 at 11:22 PM\n\nWhat products are involved?\n(https://rheonics.com/products/inline-viscometer-srv/) SRV - Inline Viscosity Meter (https://rheonics.com/products/inline-viscometer-srv/), and SRD - Inline Density and Viscosity meter (https://rheonics.com/products/inline-density-meter-srd/).\n\nWhat is the purpose of this article?\nThis article provides guidelines on how the Rheonics SRV inline viscometer or SRD density meter can retrofit the Emerson 7829 viscometer in its different installation variants.\n\n1. Introduction\nRheonics SR- sensors measure viscosity, density and temperature inline for process control and monitoring. The SRV measures viscosity while SRD measures density and viscosity, both measure temperature and allow repeatable and reproducible readings with a high accuracy.\nThe sensor probe is compact, light, hermetically sealed, and factory calibrated. It does not need re-calibration over its operational lifetime, however verification capability is provided in software that comes with the sensor to verify calibration periodically and update if needed in field.\nRheonics sensors are based on a balanced torsional resonator (BTR), this means that the sensing element vibrates torsionally and is connected to the outside world at a node. The patented BTR technology underlying Rheonics sensors have significant advantage over competitors in the market since a balanced torsional resonator allows the SR- sensors to be compact, light-weight of reduced dimensions, mass and unaffected by external vibrations.\n\n2. Retrofit\nAt times users want to replace an existing viscometer or density meter from their pipelines due to malfunction, lack of spare parts or to try out Rheonics sensors and experience balanced torsional resonator technology.\nIn these cases, the user has an existing installation location for the former sensor and wants to install the Rheonics -SR probes in the same location/port. Rheonics -SR sensors favor retrofit installations due to the modular design of the probe. Rheonics offers flush, short and long insertion sensors with all types of process connections while ensuring consistency of performance across all these variants.\nVarying the insertion depth and process connection, Rheonics -SR sensors can be ordered to retrofit almost all existing installations. Figure 1 shows the SRV-X4 (Flush Tri-Clamp ), -X2 (Short flanged) and -X5 (Long insertion flanged), all with customizable process connection.\nRheonics favors open standards and these also provide a way for customer to order an alternative sensor when they plan to replace Rheonics ones.\n\nFigure 1: Rheonics SRV sensor - versatility in installation options.",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics SRV inline viscometers and SRD density meters can retrofit the Emerson 7829 viscometer.",
+        "Rheonics SR- sensors measure viscosity, density, and temperature inline for process control and monitoring.",
+        "The SRV measures viscosity, while the SRD measures both density and viscosity.",
+        "Both SRV and SRD sensors measure temperature and provide repeatable, reproducible readings with high accuracy.",
+        "Rheonics sensor probes are compact, light, hermetically sealed, and factory calibrated.",
+        "Rheonics sensors do not require re-calibration over their operational lifetime, but software provides verification capability.",
+        "Rheonics sensors utilize patented Balanced Torsional Resonator (BTR) technology, which makes them compact, lightweight, reduces dimensions and mass, and are unaffected by external vibrations.",
+        "Rheonics -SR sensors are suitable for retrofit installations due to their modular design and offer flush, short, and long insertion variants with various process connections.",
+        "Rheonics SR- sensors can be ordered as SRV-X4 (Flush Tri-Clamp), SRV-X2 (Short flanged), and SRV-X5 (Long insertion flanged) with customizable process connections.",
+        "Rheonics promotes open standards, allowing customers to easily order alternative sensors when replacing existing Rheonics sensors."
+      ],
+      "diagram_labels": [
+        "Figure 1: Rheonics SRV sensor - versatility in installation options."
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1125,
+        "cost_usd": 0.0029522999999999997
+      },
+      "source_file": "018_Rheonics_SRV_-_Emerson_7829_Retrofit.pdf"
+    },
+    {
+      "page_summary": "This page provides technical details and retrofit instructions for integrating Rheonics SR-sensors into Emerson 7829 Viscometers for inline viscosity and density measurements.",
+      "document_type": "datasheet",
+      "product_names": [
+        "Emerson 7829 Viscometer",
+        "Viscomaster",
+        "Rheonics SR-Sensor",
+        "Rheonics SRV-X5-A124-B15C",
+        "Rheonics SRD-X5-A124-B15C",
+        "Rheonics SRV-X5-A124-BA20B",
+        "Rheonics SRV-X5-A124-2\" ANSI 300lb RF"
+      ],
+      "extracted_text": "Note: Rheonics sensors are suitable for retrofits but care should be taken to comply with minimum installation requirements for the sensing element to ensure reproducible and repeatable readings. These can be reviewed in installation guideline articles for SRV (https://rheonics.com/products/inline-viscometer-srv/) and SRD (https://rheonics.com/products/inline-density-meter-srd/).\n\n3. Emerson 7829 Viscometer\nThis instrument, also known as Viscomaster, is used to measure viscosity, density and temperature inline. Some common installation cases are shown next, highlighting the simplicity to retrofit these units with a Rheonics sensor.\n\n3.1 Flow through chamber for in-line or bypass lines:\nEmerson 7829 viscometer is designed with a 1.5\" cone seat connection for mounting in a standard chamber as in the next figure.\nNotice how Rheonics SR-Sensor doesn't need an external temperature sensor since it has an in-built PT1000.\n\nFigure 2: Emerson 7829 viscometer installed in a Emerson provided flow through chamber [1].\n\nFor this retrofit, if we need to measure viscosity, the order code for Rheonics sensor would be: SRV-X5-A124-B15C (15C is 1.5” Compression fitting e.g. Swagelok). Code for SRD if density readings are needed is: SRD-X5-A124-B15C.\n\nX5 Retrofit Installation\nA Insertion Depth: 160 mm\nConnection: Thread\nB Type: NPT 1.25\"-11.5\n\nUnits: mm [inch]\n\nFigure 3: Rheonics SRV retrofit in chamber.\n\n3.2 Flange installation:\nA well known design of Emerson 7829 Viscometer is with flanges. Rheonics SR- sensors can be ordered with most process connection as it is in the next example for a 2” ANSI flange. User should determine whether the same insertion length (A length in drawing) is needed.\nRheonics offers a more compact and light-weight sensor with repeatable and reproducible readings. Order code in this example would be: SRV-X5-A124-BA20B (SRV-X5-A124-2” ANSI 300lb RF).",
+      "specifications": {
+        "Emerson 7829 Viscometer connection type": "1.5\" cone seat",
+        "Rheonics SR-Sensor temperature sensor type": "in-built PT1000",
+        "Rheonics sensor SRV-X5-A124-B15C fitting": "1.5\" Compression fitting (e.g. Swagelok)",
+        "Rheonics sensor SRD-X5-A124-B15C fitting": "1.5\" Compression fitting (e.g. Swagelok)",
+        "X5 Retrofit Installation - Insertion Depth (A)": "160 mm",
+        "X5 Retrofit Installation - Connection": "Thread",
+        "X5 Retrofit Installation - Type (B)": "NPT 1.25\"-11.5",
+        "Emerson 7829 Viscometer dimension 'B'": "6.10\" [155 mm]",
+        "Emerson 7829 Viscometer reference length": "8.58\" [218 mm]",
+        "Emerson 7829 Viscometer dimension 'C'": "2.17\" [55 mm]",
+        "Emerson 7829 Viscometer outlet/inlet diameter": "Ø2.36\" [60 mm]",
+        "Emerson 7829 Viscometer optional temperature port": "3/4\" - 14 NPT",
+        "Emerson 7829 Viscometer instrument connection coneseat nut": "2.25\" A/F",
+        "Rheonics SRV retrofit chamber flange diameter": "Ø152.4 [6.00 inch]",
+        "Rheonics SRV retrofit sensor insertion length": "124 [4.90 inch]",
+        "Rheonics SRV retrofit chamber diameter": "Ø60 [2.36 inch]",
+        "Rheonics SRV-X5-A124 Cone Seat size": "1.5\"",
+        "Rheonics sensor SRV-X5-A124-BA20B flange type": "2\" ANSI 300lb RF"
+      },
+      "key_facts": [
+        "Rheonics sensors are suitable for retrofitting existing systems, specifically Emerson 7829 Viscometers.",
+        "The Emerson 7829 Viscometer, also known as Viscomaster, is designed to measure viscosity, density, and temperature inline.",
+        "The Emerson 7829 viscometer features a 1.5\" cone seat connection for mounting in a standard chamber.",
+        "Rheonics SR-Sensors include an in-built PT1000, eliminating the need for an external temperature sensor.",
+        "Rheonics SR-sensors can be ordered with various process connections, including 2\" ANSI flanges.",
+        "Rheonics offers more compact and lightweight sensors that provide repeatable and reproducible readings."
+      ],
+      "diagram_labels": [
+        "'B'",
+        "6.10\" [155]",
+        "Ø D'",
+        "OUTLET",
+        "INLET",
+        "'C'",
+        "2.17\" [55] REF",
+        "Ø2.36\" [60]",
+        "8.58\" [218] REF",
+        "'A'",
+        "3/4\" - 14 NPT TEMPERATURE PORT (OPTIONAL)",
+        "NOTE FORK ORIENTATION",
+        "INSTRUMENT CONNECTION CONESEAT - NUT 2.25\" A/F",
+        "MODEL 782X INSTALLED SEE NOTE 1",
+        "152.4 Ø [6.00]",
+        "124 [4.90]",
+        "60 Ø [2.36]",
+        "Customer installation Flow through chamber",
+        "Rheonics SRV-X5-A124 1.5\" Cone Seat",
+        "Units: mm [inch]"
+      ],
+      "warnings_notes": [
+        "Care should be taken to comply with minimum installation requirements for the sensing element to ensure reproducible and repeatable readings when using Rheonics sensors for retrofits.",
+        "Installation guideline articles for SRV and SRD should be reviewed for specific requirements.",
+        "For flange installations, the user should determine whether the same insertion length (referred to as 'A length' in drawings) is needed."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1746,
+        "cost_usd": 0.0045048
+      },
+      "source_file": "018_Rheonics_SRV_-_Emerson_7829_Retrofit.pdf"
+    },
+    {
+      "page_summary": "This page details the installation advantages, retrofit capabilities, and ordering process for Rheonics SRV and SRD sensors, comparing SRV dimensions with an Emerson 7829 sensor.",
+      "document_type": "manual",
+      "product_names": [
+        "Emerson 7829",
+        "Rheonics SRV",
+        "Rheonics SRV-X5-A124 2\" ANSI 300Lb RF",
+        "Rheonics SR sensors",
+        "SRV inline viscometer",
+        "SRD viscosity and density meter"
+      ],
+      "extracted_text": "Emerson 7829\nRheonics SRV\nX5 Installation\nA Insertion Depth 123.8 mm\nConnection Flange\nNorm ANSI B16.5\nSize 2\"\nClass 300 lb\nType RF\nBolt Hole 8xφ19 mm\nRheonics SRV-X5-A124 2\" ANSI 300Lb RF\nUnit mm [inch]\nFigure 4: Side-by-side: Emerson 7829 and Rheonics SRV flange retrofit.\n\n4. New installations\nThe Rheonics SR sensors have significant advantages in installation due to its modular design and low or zero wall effects. They ensure repeatable and reproducible readings if two basic installation criteria are met:\n*   sensing element is fully immersed in fluid, and\n*   avoid stagnation or dead zones around the probe sensing element.\n\nOften this means that you can easily remove flow adapters from old sensors and install the SR sensors directly in the line or tank. It also gives you flexibility to install the sensor in tight spots where space is limited.\nVisit installation guideline articles for SRV (https://support.rheonics.com/en/support/solutions/folders/81000297659) and SRD (https://support.rheonics.com/en/support/solutions/folders/81000297660) for more information.\n\nPipe tany configuration possible\nflanged\ntri-clamp\nlong insertion probe\nNPT thread\nFigure 5: Rheonics SRV flexible installation.\n\n5. How to order a Rheonics SR- sensor for retrofit?\na. Client should find the connection type needed, specify norm/standard and size in order page. A reference drawing if available should be included.\nb. Use online RFQ pages for SRV inline viscometer (https://rheonics.com/request-for-quotation/srv/) and SRD viscosity and density meter. (https://rheonics.com/request-for-quotation/srd/)\nc. Select connection code. Rheonics offers standard connections as in next table, X2 and X5 codes are good for retrofits since these enables users to select the connection needed.",
+      "specifications": {
+        "Emerson 7829 Height (partial)": "140 mm [5.51 inch]",
+        "Emerson 7829 Height (partial, probe)": "125.4 mm [4.94 inch]",
+        "Emerson 7829 Diameter (flange)": "109 mm [4.29 inch]",
+        "Rheonics SRV Total Height": "253 mm [9.98 inch]",
+        "Rheonics SRV Body Diameter": "165.1 mm [6.50 inch]",
+        "Rheonics SRV Probe Base Diameter": "30 mm [1.18 inch]",
+        "Rheonics SRV Probe Length (A)": "124 mm [4.87 inch]",
+        "Rheonics SRV Sensing Element Diameter": "8 mm [0.31 inch]",
+        "Rheonics SRV Flange Thickness": "20.6 mm [0.81 inch]",
+        "X5 Installation Insertion Depth": "123.8 mm",
+        "X5 Installation Connection": "Flange",
+        "X5 Installation Norm": "ANSI B16.5",
+        "X5 Installation Size": "2\"",
+        "X5 Installation Class": "300 lb",
+        "X5 Installation Type": "RF",
+        "X5 Installation Bolt Hole": "8xφ19 mm"
+      },
+      "key_facts": [
+        "Rheonics SR sensors have significant advantages in installation due to their modular design and low or zero wall effects.",
+        "Repeatable and reproducible readings from Rheonics SR sensors are ensured if the sensing element is fully immersed in fluid and stagnation or dead zones around the probe sensing element are avoided.",
+        "Rheonics SR sensors offer flexibility for installation in tight spots and can be installed directly in the line or tank by removing flow adapters from old sensors.",
+        "Clients should identify the required connection type, specify the norm/standard and size, and include a reference drawing if available when ordering a Rheonics SR- sensor for retrofit.",
+        "Rheonics provides online RFQ pages for SRV inline viscometers and SRD viscosity and density meters.",
+        "Rheonics offers standard connection codes like X2 and X5 that are suitable for retrofits, enabling users to select the necessary connection."
+      ],
+      "diagram_labels": [
+        "NPT",
+        "A",
+        "Pipe",
+        "tany configuration possible",
+        "flanged",
+        "tri-clamp",
+        "long insertion probe",
+        "NPT thread"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1251,
+        "cost_usd": 0.0032673
+      },
+      "source_file": "018_Rheonics_SRV_-_Emerson_7829_Retrofit.pdf"
+    },
+    {
+      "page_summary": "This page outlines Rheonics sensor order types and connection specifications, provides contact information for support, includes a disclaimer regarding the use of illustrations, and lists downloadable resources and references for Rheonics viscometers and density sensors, including retrofit scenarios.",
+      "document_type": "technical notes",
+      "product_names": [
+        "Rheonics SRV",
+        "Rheonics SRD",
+        "Micro Motion 7829 Visconic Viscosity Meter - Emerson"
+      ],
+      "extracted_text": "Sensor order\nConnection type\nX1\nThreaded (NPT or G1/2\")\nX2\nStandard short probe with custom connection\nX3\nTri-Clamp\nX4\nFlush design probe with custom connection\nX5\nLong insertion probe with custom connection. Insertion depth (A length) and connection type (B norm, size) also required.\n\nContact the technical sales team at info@rheonics.com or Technical support team at support@rheonics.com if needed to help you get the correct retrofit.\n\nDisclaimer\nPictures, photos, and images used are for illustration purposes and do not constitute any warranty or assertions on the suitability of use and should not be construed as an explicit or implicit recommendation or endorsement. All illustrations are given proper credit from our source of access and by their use here we do not specify or establish any copyright which belongs and stays unaffected with the existing copyright holder of that material.\n\nDownloads\n*   Side-by-side: Emerson 7829 and Rheonics SRV flange retrofit (https://rheonics.com/wp-content/uploads/2023/09/Retrofit-SRV-Emerson_7829_2inchFlange300lb.pdf)\n*   Rheonics SRV retrofit in chamber (https://rheonics.com/wp-content/uploads/2023/09/SRV-X5-A124-Swagelok-1.5in-Flow-Through-Chamber.pdf)\n\nReferences\n[1]: Micro Motion 7829 Visconic Viscosity Meter - Emerson (http://instenghire.co.uk/liquid_analysis/liquid_analysis/Viscosity/7829_visconic_industrial_viscosity_transmitter_emerson_mobrey.pdf)\n[2]: Rheonics viscometer SRV (https://rheonics.com/products/inline-viscometer-srv/)\n[3]: Rheonics density and viscosity meter SRD (https://rheonics.com/products/inline-density-meter-srd/)\n[4]: Solutions (https://rheonics.com/solutions/)",
+      "specifications": {
+        "sensor_order_X1_connection_type": "Threaded (NPT or G1/2\")",
+        "sensor_order_X2_connection_type": "Standard short probe with custom connection",
+        "sensor_order_X3_connection_type": "Tri-Clamp",
+        "sensor_order_X4_connection_type": "Flush design probe with custom connection",
+        "sensor_order_X5_connection_type": "Long insertion probe with custom connection. Insertion depth (A length) and connection type (B norm, size) also required."
+      },
+      "key_facts": [
+        "Rheonics offers various sensor connection types identified by order codes X1 through X5.",
+        "Connection types include Threaded (NPT or G1/2\"), Standard short probe with custom connection, Tri-Clamp, Flush design probe with custom connection, and Long insertion probe with custom connection.",
+        "For the X5 long insertion probe, both insertion depth (A length) and connection type (B norm, size) must be specified.",
+        "Technical sales (info@rheonics.com) and technical support (support@rheonics.com) teams are available to assist with correct retrofits.",
+        "Downloadable resources include a comparison/retrofit guide for Emerson 7829 and Rheonics SRV flange, and a guide for Rheonics SRV retrofit in a chamber.",
+        "The page references external documents concerning Emerson's Micro Motion 7829 viscometer, Rheonics' SRV viscometer, and Rheonics' SRD density and viscosity meter.",
+        "All illustrations (pictures, photos, images) are for illustrative purposes only and do not constitute any warranty or endorsement.",
+        "The use of illustrations on this page does not establish new copyright and respects the rights of the existing copyright holders."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Pictures, photos, and images used are for illustration purposes and do not constitute any warranty or assertions on the suitability of use.",
+        "Illustrations should not be construed as an explicit or implicit recommendation or endorsement.",
+        "The use of illustrations here does not specify or establish any copyright, and the existing copyright holder of that material remains unaffected."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1117,
+        "cost_usd": 0.0029322999999999997
+      },
+      "source_file": "018_Rheonics_SRV_-_Emerson_7829_Retrofit.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

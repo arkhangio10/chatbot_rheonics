@@ -1,0 +1,236 @@
+{
+  "source_file": "124_Arrhenius_Model_-_Temperature_compensated_Viscosity.pdf",
+  "total_pages": 7,
+  "chunks": [
+    {
+      "page_summary": "This page provides an explanation of the Arrhenius model for achieving temperature-compensated viscosity, its importance, and its applicability to Rheonics sensors.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "RCP (Rheonics Control Panel)",
+        "SME (Smart Module Electronics)",
+        "SRV",
+        "SRD",
+        "DVM",
+        "Rheonics sensors"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nArrhenius Model - Temperature compensated Viscosity\n\nModified on: Wed, 7 Jan, 2026 at 3:36 PM\n\nWhat products are involved in this article?\nThis article is based on the use of RCP (Rheonics Control Panel) connected to the SME (Smart Module Electronics) from SRV (https://rheonics.com/products/inline-viscometer-srv/), SRD (https://rheonics.com/products/inline-gas-lng-density-meter-dvp/) and DVM (https://rheonics.com/products/hpht-pvt-density-meter-viscometer-dvm/). Hence it can be used for any of these Rheonics sensors\n\nWhat is the purpose of this article?\nExplain the process to get a temperature compensated viscosity with Arrhenius Model\n\n1. Temperature-compensated Viscosity\nViscosity, defined as the ratio of shear stress to shear rate, is an important fluid property that has an increasing presence in monitoring processes and control systems.\nViscosity is affected by temperature and pressure. For most liquids, the viscosity decreases with temperature, whereas it increases for gasses.\nIn most cases, we want to monitor the fluid viscosity at a constant reference temperature. If the process temperature isn't constant, an additional source of error to the control system is added. To avoid the temperature dependence on the fluid's viscosity and truly monitor its consistency, the temperature compensated viscosity is introduced.\nTo compensate for temperature effects, we need a mathematical model that can be based on Exponential (https://support.rheonics.com/en/support/solutions/articles/81000403545-exponential-model-temperature-compensated-viscosity/), Polynomial (https://support.rheonics.com/en/support/solutions/articles/81000409842-polynomial-model-temperature-compensated-viscosity/), or Arrhenius functions.\nThe Arrhenius model is used in nutrition, chemical, cosmetic and pharmaceutical industries, liquids viscosity parameters are essential for energy transference calculations and for hydraulic calculations of fluid transport. Also, is commonly used for pure liquids and solvents, binary Newtonian liquid mixtures.\n\n2. Math model",
+      "specifications": {},
+      "key_facts": [
+        "The article explains the process to obtain temperature-compensated viscosity using the Arrhenius Model.",
+        "The information in this article is relevant for Rheonics Control Panel (RCP) used with Smart Module Electronics (SME) from SRV, SRD, and DVM sensors.",
+        "Viscosity, defined as the ratio of shear stress to shear rate, is a critical fluid property for monitoring and control systems.",
+        "Fluid viscosity is influenced by temperature and pressure, typically decreasing with temperature for liquids and increasing for gases.",
+        "Temperature-compensated viscosity is introduced to eliminate temperature dependence and ensure consistent monitoring of fluid properties when process temperatures fluctuate.",
+        "Mathematical models such as Exponential, Polynomial, or Arrhenius functions are necessary to compensate for temperature effects on viscosity.",
+        "The Arrhenius model is widely applied in industries including nutrition, chemical, cosmetic, and pharmaceutical for energy transference and hydraulic calculations.",
+        "The Arrhenius model is commonly used for analyzing pure liquids, solvents, and binary Newtonian liquid mixtures.",
+        "The document was last modified on Wednesday, January 7, 2026, at 3:36 PM."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 895,
+        "cost_usd": 0.0023772999999999997
+      },
+      "source_file": "124_Arrhenius_Model_-_Temperature_compensated_Viscosity.pdf"
+    },
+    {
+      "page_summary": "This page details the Rheonics Viscosity Arrhenius Model (Equation 1), explaining its components, how it works with SRV and SME sensors and RCP software for temperature-compensated inline viscosity measurements, and provides an example data point.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "SME",
+        "RCP"
+      ],
+      "extracted_text": "The SRV and SME (https://rheonics.com/products/inline-viscometer-srv/) are together a powerful tool in the measurement of inline viscosity and temperature. With the use of mathematical models, temperature compensated measurements can be obtained.\n\nBelow is the mathematical formula for the viscosity Arrhenius model used in the RCP (Rheonics software).\n\nηcomp = ηL . e^(B(1/(Tref+273) - 1/(TL+273))) + A\n\nEquation 1: Viscosity Arrhenius Model.\n\nWhere:\nηcomp - Compensated viscosity, calculated by the SME.\nηL - Live viscosity, read by the SME.\nTL - Temperature, read by the SME.\nTref - Reference temperature, is the temperature around which the SME will compensate for the readings. This is defined and should be added by the user.\nA - Compensation factor.\nB - Compensation factor.\n\nAlong with the reference temperature, the reference viscosity (viscosity at Tref) is also of relevance for the calculations.\n\n3. How does this mathematical model work?\n\nThe user needs to take viscosity readings at the normal operation temperature range, and store viscosity data also at higher and lower temperatures. Once enough data is obtained next steps can be followed to obtain the A and B parameters to input in Equation 1.\n\nFor this example, 30°C is used as the typical set temperature of this process line. The additional measurements extend a bit beyond the expected temperature range.\n\n3.1. Table 1 shows the data points for this example, it includes viscosity and temperature measurements from the sensor. As mentioned before, we want to create a compensation at 30°C which is the temperature set in this process, at this temperature, the expected viscosity is 33.9 cP.\n\nTemperature [°C] | Live Viscosity [cP]\n-----------------|--------------------\n60               | 9.42",
+      "specifications": {
+        "Compensation Temperature": "30 °C",
+        "Expected Viscosity at 30°C": "33.9 cP",
+        "Example Measurement Temperature": "60 °C",
+        "Example Measurement Live Viscosity": "9.42 cP"
+      },
+      "key_facts": [
+        "The SRV and SME are powerful tools for inline viscosity and temperature measurement.",
+        "Mathematical models are utilized to achieve temperature-compensated viscosity measurements.",
+        "The Viscosity Arrhenius Model (Equation 1) is implemented in Rheonics' RCP software.",
+        "ηcomp represents the compensated viscosity, calculated by the SME.",
+        "ηL is the live viscosity, read by the SME.",
+        "TL is the temperature, read by the SME.",
+        "Tref is the user-defined reference temperature for compensation.",
+        "A and B are compensation factors.",
+        "The reference viscosity at Tref is also crucial for calculations.",
+        "Users must take viscosity readings across a temperature range (normal, higher, lower) to determine the A and B parameters for Equation 1.",
+        "For the provided example, 30°C is the typical set temperature, and the expected viscosity at this temperature is 33.9 cP."
+      ],
+      "diagram_labels": [
+        "Equation 1: Viscosity Arrhenius Model.",
+        "Temperature [°C]",
+        "Live Viscosity [cP]"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 876,
+        "cost_usd": 0.0023298
+      },
+      "source_file": "124_Arrhenius_Model_-_Temperature_compensated_Viscosity.pdf"
+    },
+    {
+      "page_summary": "This page details the analysis of inline viscosity and temperature measurement data, including plotting an exponential relationship and deriving a linearized Arrhenius model for viscosity compensation.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Table 1. Data points from inline measurements.\nTemperature | Viscosity (cP)\n------------|---------------\n50          | 13.6\n40          | 20.3\n30          | 33.9\n20          | 60.1\n10          | 116\n0           | 255\n\n3.2. Plot data points of Viscosity vs Temperature to study the behavior of the data. In this scenario, the data behavior can be represented by an exponential curve.\n\nFigure 1: Plot chart Live Viscosity vs Temperature.\n\n3.3. To obtain coefficients A and B from equation 1, we will simplify the expression by using variables T' and Y', so we get the linear equation 2.\nT' = (1 / (Tref + 273) - 1 / (TL + 273))\nY' = ln(ηcomp / ηL)\nX = ln(A)\nY' = B.T' + X\nEquation 2. Linearized Arrhenius model\n\n3.4. Calculate Y' which is the natural logarithm of the compensated viscosity divided by the real-time viscosity measured by the sensor from our data points.",
+      "specifications": {},
+      "key_facts": [
+        "Inline measurement data shows viscosity changes exponentially with temperature.",
+        "Viscosity decreases significantly as temperature increases, ranging from 255 cP at 0°C to 13.6 cP at 50°C based on the provided data points.",
+        "A linearized Arrhenius model (Equation 2) is used to determine coefficients A and B for viscosity-temperature compensation.",
+        "The model introduces T' as a variable related to the inverse of temperature values expressed in Kelvin (by adding 273 to Celsius).",
+        "Y' is defined as the natural logarithm of the ratio of compensated viscosity (ηcomp) to real-time (live) viscosity (ηL) measured by the sensor."
+      ],
+      "diagram_labels": [
+        "ηL (cP) vs T (°C)",
+        "ηL (cP)",
+        "T (°C)",
+        "T'",
+        "Tref",
+        "TL",
+        "Y'",
+        "ηcomp",
+        "ηL",
+        "X",
+        "A",
+        "B"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 618,
+        "cost_usd": 0.0016848
+      },
+      "source_file": "124_Arrhenius_Model_-_Temperature_compensated_Viscosity.pdf"
+    },
+    {
+      "page_summary": "This page outlines a procedure for calculating and analyzing viscosity and temperature-related parameters (Y' and T') through tabular data and instructions for trendline analysis.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Y'= Ln(Comp. Visco/Live Visco) @30 °C\nResults\nY'= Ln(33.9/255) -2.0178\nY'= Ln(33.9/116) -1.2302\nY'= Ln(33.9/60.1) -0.5726\nY'= Ln(33.9/33.9) 0.0000\nY'= Ln(33.9/20.3) 0.5128\nY'= Ln(33.9/13.6) 0.9133\nY'= Ln(33.9/9.42) 1.2806\n\nTable 2. Natural logarithm on the viscosity relation table.\n\n3.5. Calculate T' that relates the ref temperature and measured temperature from our data points.\n\nT' = [(1/(Tref+273))-(1/(TL+273))] @30 °C\nResults\nT' = [(1/(30+273))-(1/(0+273))] -0.000363\nT' = [(1/(30+273))-(1/(10+273))] -0.000233\nT' = [(1/(30+273))-(1/(20+273))] -0.000113\nT' = [(1/(30+273))-(1/(30+273))] 0.0000\nT' = [(1/(30+273))-(1/(40+273))] 0.000105\nT' = [(1/(30+273))-(1/(50+273))] 0.000204\nT' = [(1/(30+273))-(1/(60+273))] 0.000297\n\nTable 3. Variation of the reference temperature and measured temperature.\n\n3.6. Plot the T' vs Y' and use an exponential trendline to find A and B values or make a linear regression analysis to find the coefficients.\n\nT' = [(1/(Tref+273))-(1/(TL+273))] @30 °C\nY'= ln(V')\n-0.000363 -2.0178\n-0.000233 -1.2302\n-0.000113 -0.5726\n0.0000 0.0000\n0.000105 0.5128\n0.000204 0.9133\n0.000297 1.2806\n\nTable 4. Data points for viscosity and temperature referenced to known values\n\nA graphing tool is used to create a trendline with the points obtained, it can also show the trendline equation.",
+      "specifications": {},
+      "key_facts": [
+        "Y' is defined as the natural logarithm of the ratio of 'Comp. Visco' to 'Live Visco' at a reference temperature of 30 °C.",
+        "Table 2 provides the calculated natural logarithm values for various viscosity ratios.",
+        "T' is calculated using a formula involving a reference temperature (Tref) and a live or measured temperature (TL), both converted to an absolute scale (Celsius + 273), with the calculations referenced at 30 °C.",
+        "Table 3 presents the calculated T' values for various measured temperatures, with 30°C as the reference temperature.",
+        "Step 3.6 instructs to plot T' versus Y' to determine A and B coefficients using an exponential trendline or by performing a linear regression analysis.",
+        "Table 4 consolidates the calculated T' and Y' data points, which are referenced to known values.",
+        "A graphing tool can be used to generate a trendline from the obtained points and display its equation."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1052,
+        "cost_usd": 0.0027697999999999998
+      },
+      "source_file": "124_Arrhenius_Model_-_Temperature_compensated_Viscosity.pdf"
+    },
+    {
+      "page_summary": "This page details the derivation and application of a linear trendline model (Y' vs T') used to determine parameters A and B for temperature-compensated viscosity measurements, referencing Rheonics' SME and RCP software.",
+      "document_type": "technical notes",
+      "product_names": [
+        "SME",
+        "RCP software"
+      ],
+      "extracted_text": "Y' vs T'\nY' = LN (V')\nT'\nY' = 4989,4T' - 0,0868\n\nFigure 2: Plot chart Y' vs T'.\n\nAs you can see we applied a linear trendline and the equation obtained is:\nY' = 4989,4.T' - 0.0868\n\nEquation 3. Linear trendline\n\nAnd this is compared with Equation 2 which is above in this document. As a result of this comparison, we get the following:\nA = e^(-0.0868) = 0.917\nB = 4989.4\n\n4. What do we expect to obtain with this model?\n\nWe are looking for a constant measurement in the range of 33.9 cP which is the set parameter of viscosity. In this example, A is 0.917, and B is 4989.4, with all the input parameters set on the SME through the RCP software, the temperature compensated viscosity will look like the next graph in Figure 3.",
+      "specifications": {
+        "Viscosity parameter": "33.9 cP"
+      },
+      "key_facts": [
+        "A linear trendline is applied to the Y' vs T' data.",
+        "The equation for the linear trendline derived is Y' = 4989.4T' - 0.0868.",
+        "The parameters A and B, obtained from a comparison with Equation 2, are A = 0.917 and B = 4989.4.",
+        "The model aims to achieve a constant viscosity measurement in the range of 33.9 cP.",
+        "Input parameters for the model are set on the SME using the RCP software.",
+        "The temperature-compensated viscosity is expected to be visualized in Figure 3."
+      ],
+      "diagram_labels": [
+        "Y' vs T'",
+        "Y' = LN (V')",
+        "T'",
+        "Y' = 4989,4T' - 0,0868"
+      ],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 598,
+        "cost_usd": 0.0016348
+      },
+      "source_file": "124_Arrhenius_Model_-_Temperature_compensated_Viscosity.pdf"
+    },
+    {
+      "page_summary": "This page explains how to apply the Arrhenius model for viscosity compensation, shows expected results in a graph, and provides resources for configuring the model on Rheonics SME using RPC Software.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SME",
+        "RPC Software"
+      ],
+      "extracted_text": "ηL and ηcomp (cP) vs Temperature (°C)\nFigure 3. Expected results when applying the mathematical model.\n\nAs we can see we obtain a linear behavior (Orange line) that represents the viscosity compensated to 30 °C with the Arrhenius model.\n\n5. How to load models into the SME?\n\nHow to set the Arrhenius model on the Rheonics SME\nrheonics\nWatch on\nVideo 1. Configuration Arrhenius model in RPC Software.\n\nResources\nIt is also possible to see and use the calculated data through 4-20mA channels, Profinet, Modbus, and others. Follow this article on that: Using calculated data from SME (https://rheonics.atlassian.net/wiki/spaces/SA/pages/1469251639)",
+      "specifications": {},
+      "key_facts": [
+        "Figure 3 shows the expected results when applying a mathematical model to viscosity and temperature.",
+        "The orange line in Figure 3 displays a linear behavior, representing the viscosity compensated to 30 °C using the Arrhenius model.",
+        "The document provides instructions on how to load models into the SME.",
+        "A video tutorial titled 'How to set the Arrhenius model on the Rheonics SME' demonstrates its configuration in RPC Software.",
+        "Calculated data can be accessed and used via 4-20mA channels, Profinet, Modbus, and other interfaces.",
+        "Additional information on using calculated data from SME is available via an Atlassian Confluence link."
+      ],
+      "diagram_labels": [
+        "ηL and ηcomp (cP) vs Temperature (°C)",
+        "η (cP)",
+        "Temperature (°C)",
+        "ηL (cP)",
+        "ηcomp (cP)",
+        "How to set the Arrhenius model on the Rheonics SME",
+        "rheonics",
+        "Watch on"
+      ],
+      "warnings_notes": [],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 538,
+        "cost_usd": 0.0014847999999999999
+      },
+      "source_file": "124_Arrhenius_Model_-_Temperature_compensated_Viscosity.pdf"
+    },
+    {
+      "page_summary": "This page is essentially blank, containing only a faint horizontal line at the top.",
+      "document_type": "",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 87,
+        "cost_usd": 0.00035729999999999996
+      },
+      "source_file": "124_Arrhenius_Model_-_Temperature_compensated_Viscosity.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "source_file": "037_SDP_Mechanical_Interface_for_Custom_Design.pdf",
+  "total_pages": 4,
+  "chunks": [
+    {
+      "page_summary": "This document provides instructions and product details for the Rheonics SDP Sand Level Detection Probe, focusing on its mechanical interface for custom designs and its two main variants.",
+      "document_type": "technical article",
+      "product_names": [
+        "Rheonics SDP",
+        "SDP-X9-HPWA",
+        "Sand Level Detection Probe",
+        "HPWA-SDP",
+        "SDP-X9-CUS",
+        "SDP-X9-CUS-Axxx-Bxxx"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nSDP Mechanical Interface for Custom Design\nModified on: Mon, 16 Jun, 2025 at 9:01 PM\nWhat is the purpose of this article?\nTo provide instructions for the customer interface of flange and extension tube for the assembly and installation of Rheonics SDP-X9-HPWA\nWhat products are involved?\nRheonics SDP (https://rheonics.com/products/sand-detector-probe-sdp/) Sand Level Detection Probe\nIntroduction\nRheonics SDP is a Sand Level Detection Probe designed to sustain the most harsh and high-pressure conditions in oil and gas extraction lines, upstream, midstream, and downstream with a pressure rating possible up to 20k psi (1400 bar). Rheonics SDP is installed in desanders, pipelines, or any equipment where either sand switch detection or sand erosion measurement is needed for proper sand removal or managament automation. Rheonics offers the SDP in two variants: The SDP-X9-HPWA, which includes the probe, protecting cage and a High-Pressure (HPWA-SDP) welding adapter, and the SDP-X9-CUS, a fully assembled design that adds an extension tube or sleeve and a flange for mounting. The -HPWA variant enables clients to independently source the tube and flange, and weld them on the HP adapter, following Rheonics guidelines. Review SDP custom drawing. (https://cdn.rheonics.com/wp-content/uploads/2025/04/Rheonics-SDP-Customer.pdf)\nNote: Rheonics SDP is offered in 316L material (1.4404/1.4435).\nRheonics SDP-X9-HPWA\nSDP Probe with HP Weld Adapter (HPWA-SDP) and Protection Cage\nRheonics SDP-X9-CUS-Axxx-Bxxx\nAdds custom extension tube and flange, with optional connector cover and end, supplied by Rheonics",
+      "specifications": {
+        "pressure_rating": "up to 20k psi (1400 bar)",
+        "material": "316L (1.4404/1.4435)"
+      },
+      "key_facts": [
+        "This article provides instructions for the customer interface of flange and extension tube for the assembly and installation of Rheonics SDP-X9-HPWA.",
+        "Rheonics SDP is a Sand Level Detection Probe.",
+        "The probe is designed to withstand harsh and high-pressure conditions in oil and gas extraction lines (upstream, midstream, and downstream).",
+        "It has a pressure rating of up to 20,000 psi (1400 bar).",
+        "Rheonics SDP is installed in desanders, pipelines, or any equipment requiring sand switch detection or sand erosion measurement for removal or management automation.",
+        "Rheonics offers the SDP in two variants: SDP-X9-HPWA and SDP-X9-CUS.",
+        "The SDP-X9-HPWA variant includes the probe, a protecting cage, and a High-Pressure (HPWA-SDP) welding adapter.",
+        "The SDP-X9-CUS variant is a fully assembled design that includes an extension tube or sleeve and a flange for mounting.",
+        "The -HPWA variant allows clients to independently source the tube and flange and weld them onto the HP adapter, adhering to Rheonics guidelines.",
+        "Rheonics SDP is available in 316L material, which corresponds to grades 1.4404 and 1.4435."
+      ],
+      "diagram_labels": [
+        "Rheonics SDP-X9-HPWA: SDP Probe with HP Weld Adapter (HPWA-SDP) and Protection Cage",
+        "Rheonics SDP-X9-CUS-Axxx-Bxxx: Adds custom extension tube and flange, with optional connector cover and end, supplied by Rheonics"
+      ],
+      "warnings_notes": [
+        "Note: Rheonics SDP is offered in 316L material (1.4404/1.4435)."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1072,
+        "cost_usd": 0.0028198
+      },
+      "source_file": "037_SDP_Mechanical_Interface_for_Custom_Design.pdf"
+    },
+    {
+      "page_summary": "This page details the mechanical interfaces of the Rheonics SDP-X9-HPWA sand detector probe, illustrating its assembly components, material requirements for custom parts, and specific dimensions for the extension tube.",
+      "document_type": "manual",
+      "product_names": [
+        "SDP-X9-HPWA",
+        "Rheonics SDP",
+        "SDP probe",
+        "HP welding adapter (HPWA)",
+        "Sand Detector Probe"
+      ],
+      "extracted_text": "Mechanical Interfaces\nIn the SDP-X9-HPWA variant, Rheonics offers the SDP probe with the HP welding adapter (HPWA), as well as the cable and electronics. This is labeled as Rheonics SDP in next image. Customers source locally the extension tube and custom flange, while the connector cover is offered by Rheonics if needed.\n\nNote: Flange and extension tube must be of a material compatible with 316L for welding.\n\nThe connector cover serves as protection to a cable connector between the SDP probe and electronics, enabling an easy disconnection in place. If the connector cover is not used, it is recommended to place a cable gland for the cable exit in the flange.\n\nrheonics\nSensor Cable to electronics\nConnector Cover\nCustom Flange\nExtension Tube\nRheonics SDP\nRheonics SDP\nSand Detector Probe\nAssembly Example\nFigure 1: Rheonics SDP assembly example\n\nCustom Extension Tube\nThe extension tube defines how immersed is the SDP sensing element (sensing element has a 46 mm or 1.8\" length) in the equipment i.e. desander, tank or pipeline. Generally, is recommended to keep the sensing element in the middle of the equipment and away from walls. Consider the following:\n\n1. Extension tube material should be 316L. Its length is defined by client. It should be rated for desired pressure.\n2. Minimum inner diameter required is 16 mm for cable to go through. If the cable connector is needed to go through the tube, then this diameter should be 19 mm.\n3. The tube end outer diameter must be 31.8 mm with given tolerances. Each tube end is either inserted in the HPWA adapter or the custom flange. For correct insertion in the HPWA, 12 mm of length in this 31.8mm diameter tube end is recommended.",
+      "specifications": {
+        "SDP sensing element length": "46 mm",
+        "SDP sensing element length (imperial)": "1.8 inches",
+        "Extension tube material": "316L",
+        "Minimum inner diameter for cable": "16 mm",
+        "Minimum inner diameter for cable connector": "19 mm",
+        "Tube end outer diameter": "31.8 mm",
+        "Recommended insertion length for HPWA (31.8mm diameter tube end)": "12 mm"
+      },
+      "key_facts": [
+        "Rheonics offers the SDP probe, HP welding adapter (HPWA), cable, electronics, and connector cover for the SDP-X9-HPWA variant.",
+        "Customers are responsible for locally sourcing the extension tube and custom flange.",
+        "The connector cover provides protection for the cable connector between the SDP probe and electronics.",
+        "The extension tube determines how immersed the SDP sensing element is in the equipment (e.g., desander, tank, or pipeline).",
+        "The SDP sensing element has a length of 46 mm or 1.8 inches.",
+        "The length of the extension tube is defined by the client and should be rated for desired pressure."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "Sensor Cable to electronics",
+        "Connector Cover",
+        "Custom Flange",
+        "Extension Tube",
+        "Rheonics SDP",
+        "Rheonics SDP Sand Detector Probe Assembly Example",
+        "Figure 1: Rheonics SDP assembly example"
+      ],
+      "warnings_notes": [
+        "Note: Flange and extension tube must be of a material compatible with 316L for welding.",
+        "If the connector cover is not used, it is recommended to place a cable gland for the cable exit in the flange.",
+        "Generally, it is recommended to keep the sensing element in the middle of the equipment and away from walls."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 980,
+        "cost_usd": 0.0025897999999999997
+      },
+      "source_file": "037_SDP_Mechanical_Interface_for_Custom_Design.pdf"
+    },
+    {
+      "page_summary": "This document provides detailed interface guidelines and specifications for custom flanges, extension tubes, and connector covers used with Rheonics' sensors.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Figure 2: Extension tube interface drawing\nhttps://rheonics.com/wp-content/uploads/2025/06/Rheonics-SDP-Interface-Drawing.pdf\n\nCustom Flange\nThe flange must be rated for the desired pressure rating, material should be compatible for welding with extension tube (316L). Two interfaces are given for the flange. First one is for the welding to the previously detailed extenstion tube. Second interface is for the optional connector cover supplied by Rheonics.\nNote: Flange norm and size is selected by customer. Pressure rating should be compatible with operating condition.\n\nFlange-Tube Interface\nIn next Figure the Flange-Tube interface is the left side of the flanged, detailed in section C in drawing. Consider next guidelines:\n1. Custom flange is defined by client. It should be rated for desired pressure.\n2. Relevant dimension here is the 31.8 mm with given tolerances in order to insert and weld the extension tube. The\n3. The 52 mm diameter in the flange is a recommended clearance for welding but can vary in each assembly.\n4. A bore through hole of at least 16 mm is required for the sensor cable.\n\nFlange-Connector Cover Interface\nIn next Figure the Flange-Connector Cover interface is the right side of the flanged, detailed in section A and B in drawing. Consider next guidelines:\n1. The use of the Connector Cover is optional.\n2. An NPT 1/2” thread on the flange back side is used to place a cable gland, delivered by Rheonics if the Connector Cover is ordered. This NPT thread is recommended even if the Connector Cover is not used, as it serves for the position of the cable gland end.\n3. A total of 4 equidistant M5 8 mm length threaded holes with a pitch circle diameter (PCD) of 85.5 mm diameter are needed to fix the Connector Cover in the flange.",
+      "specifications": {
+        "extension_tube_material": "316L",
+        "drawing_dimension_length_1": "10 mm",
+        "drawing_dimension_length_1_imperial": "0.39 inch",
+        "drawing_dimension_diameter_1": "31.8 mm",
+        "drawing_dimension_diameter_1_tolerance_mm": "+0/-0.01 mm",
+        "drawing_dimension_diameter_1_imperial": "1.25 inch",
+        "drawing_dimension_diameter_1_tolerance_imperial": "+0/-0.0004 inch",
+        "drawing_dimension_length_2": "12 mm",
+        "drawing_dimension_length_2_imperial": "0.47 inch",
+        "drawing_dimension_diameter_2": "16 mm",
+        "drawing_dimension_diameter_2_imperial": "0.63 inch",
+        "drawing_dimension_diameter_3": "32 mm",
+        "drawing_dimension_diameter_3_imperial": "1.26 inch",
+        "flange_tube_interface_dimension": "31.8 mm",
+        "flange_diameter_recommended_clearance_for_welding": "52 mm",
+        "bore_through_hole_for_sensor_cable": "at least 16 mm",
+        "npt_thread_on_flange_back_side": "1/2 inch",
+        "threaded_holes_for_connector_cover_quantity": "4",
+        "threaded_holes_for_connector_cover_type": "M5",
+        "threaded_holes_for_connector_cover_length": "8 mm",
+        "threaded_holes_pitch_circle_diameter_pcd": "85.5 mm"
+      },
+      "key_facts": [
+        "The flange must be rated for the desired pressure rating.",
+        "The flange material should be compatible for welding with the 316L extension tube.",
+        "The flange norm and size are selected by the customer.",
+        "The pressure rating of the flange should be compatible with the operating conditions.",
+        "The custom flange is defined by the client.",
+        "A 31.8 mm dimension with given tolerances is relevant for inserting and welding the extension tube.",
+        "The 52 mm diameter in the flange is a recommended clearance for welding, but can vary in each assembly.",
+        "A bore through hole of at least 16 mm is required in the flange for the sensor cable.",
+        "The use of the Connector Cover is optional.",
+        "An NPT 1/2\" thread on the flange back side is used to place a cable gland.",
+        "The NPT thread is recommended even if the Connector Cover is not used, as it serves for the position of the cable gland end.",
+        "A total of 4 equidistant M5, 8 mm length threaded holes with a pitch circle diameter (PCD) of 85.5 mm are needed to fix the Connector Cover in the flange."
+      ],
+      "diagram_labels": [
+        "10",
+        "0.39",
+        "31.8",
+        "1.25",
+        "-0.01",
+        "+0",
+        "-0.004",
+        "-0.000",
+        "Custom Length",
+        "Units: mm",
+        "[inch]",
+        "12",
+        "0.47",
+        "16",
+        "0.63",
+        "32",
+        "1.26"
+      ],
+      "warnings_notes": [
+        "Note: Flange norm and size is selected by customer. Pressure rating should be compatible with operating condition."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1362,
+        "cost_usd": 0.0035448
+      },
+      "source_file": "037_SDP_Mechanical_Interface_for_Custom_Design.pdf"
+    },
+    {
+      "page_summary": "This page provides a detailed technical drawing of a custom flange interface, including dimensions in millimeters and inches, and offers links to related documentation and product information.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SDP",
+        "Sand Detector Probe"
+      ],
+      "extracted_text": "Units: mm [inch]\nFigure 3: Custom flange interface drawing\n\nDownloads\nSDP Customer Drawing (https://rheonics.com/wp-content/uploads/2025/04/Rheonics-SDP-Customer.pdf)\nSDP Interface Drawing (https://rheonics.com/wp-content/uploads/2025/06/Rheonics-SDP-Interface-Drawing.pdf)\nSDP Product Page (https://rheonics.com/products/sand-detector-probe-sdp/)",
+      "specifications": {
+        "Outer Diameter": "200 mm [7.87 inch]",
+        "Bolt Circle Diameter": "158.8 mm [6.25 inch]",
+        "Inner Diameter (Center Bore)": "85.5 mm [3.37 inch]",
+        "Hole Diameter on Bolt Circle": "16 mm [0.63 inch]",
+        "Diameter in Section A-A": "52 mm [2.05 inch]",
+        "Thread in Section A-A": "1/2-14 NPT",
+        "Overall Thickness": "24.1 mm [0.95 inch]",
+        "Recess Depth (Section C)": "15 mm [0.59 inch]",
+        "Recess Width (Section C)": "5.6 mm [0.22 inch]",
+        "Central Bore Diameter (Section C)": "31.8 +0.1/-0.0 mm [1.25 +0.004/-0.000 inch]",
+        "Dimension 1 (Section B)": "8 mm [0.31 inch]",
+        "Dimension 2 (Section B)": "11 mm [0.43 inch]",
+        "Thread (Section B)": "M5"
+      },
+      "key_facts": [
+        "A custom flange interface drawing is provided with detailed dimensions in both millimeters and inches.",
+        "The drawing includes top, cross-section (A-A), and magnified views (B and C) to show intricate details and tolerances.",
+        "Download links are available for the SDP Customer Drawing, SDP Interface Drawing, and the SDP Product Page.",
+        "The product associated with these drawings is referred to as 'SDP' (Sand Detector Probe)."
+      ],
+      "diagram_labels": [
+        "A",
+        "SECTION A-A",
+        "B",
+        "SECTION B",
+        "C",
+        "SECTION C",
+        "Units: mm [inch]",
+        "Figure 3: Custom flange interface drawing"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 690,
+        "cost_usd": 0.0018648
+      },
+      "source_file": "037_SDP_Mechanical_Interface_for_Custom_Design.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

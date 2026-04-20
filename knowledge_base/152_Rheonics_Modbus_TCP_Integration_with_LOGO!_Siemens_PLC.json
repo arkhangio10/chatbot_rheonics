@@ -1,0 +1,1202 @@
+{
+  "source_file": "152_Rheonics_Modbus_TCP_Integration_with_LOGO!_Siemens_PLC.pdf",
+  "total_pages": 17,
+  "chunks": [
+    {
+      "page_summary": "This document provides instructions for integrating Rheonics inline viscometers and density sensors, specifically their Smart Module Electronics (SME) units, with a Siemens LOGO! PLC using the Modbus TCP protocol, with a special focus on LOGO! Soft Comfort configuration.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SRV viscometer",
+        "SRD density-viscosity meter",
+        "DVP gas density-viscosity meter",
+        "DVM HPHT density viscosity meter",
+        "Rheonics Smart Module Electronics unit (SME)",
+        "Siemens LOGO! PLC",
+        "LOGO! Soft Comfort"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nRheonics Modbus TCP Integration with LOGO! Siemens PLC\nModified on: Wed, 4 Dec, 2024 at 9:34 PM\n\nWhat products are involved?\nRheonics SRV viscometer (https://rheonics.com/products/inline-viscometer-srv/), SRD density-viscosity meter (https://rheonics.com/products/inline-density-meter-srd/), DVP gas density-viscosity meter (https://rheonics.com/products/inline-gas-lng-density-meter-dvp/), and DVM HPHT density viscosity meter (https://rheonics.com/products/hpht-pvt-density-meter-viscometer-dvm/)\n\nWhat is the purpose of this article?\nThis article describes the procedure for integrating Rheonics Smart Module Electronics unit (SME) with the Modbus TCP protocol into a LOGO! Siemens.\n\n1. Overview\nRheonics viscosity and density meters bring fluid intelligence and process control to a broad range of customer applications. Each sensor is equipped with an SME (https://rheonics.com/electronics-and-communication/), which drives the sensor, evaluates its response, and enables communication through all major communication protocols\n\nThis article guides integrating an SME's digital Modbus TCP signal with a Siemens LOGO! controller, with a special emphasis on LOGO! Soft Comfort configuration.",
+      "specifications": {},
+      "key_facts": [
+        "The document provides a procedure for integrating Rheonics Smart Module Electronics (SME) units with Siemens LOGO! PLCs.",
+        "The integration described uses the Modbus TCP protocol.",
+        "The article is applicable to Rheonics SRV viscometer, SRD density-viscosity meter, DVP gas density-viscosity meter, and DVM HPHT density viscosity meter.",
+        "Rheonics viscosity and density meters are equipped with a Smart Module Electronics unit (SME) for sensor driving, response evaluation, and communication.",
+        "The guide specifically emphasizes LOGO! Soft Comfort configuration for integrating the SME's digital Modbus TCP signal with a Siemens LOGO! controller."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 683,
+        "cost_usd": 0.0018473
+      },
+      "source_file": "152_Rheonics_Modbus_TCP_Integration_with_LOGO!_Siemens_PLC.pdf"
+    },
+    {
+      "page_summary": "This page describes limitations when integrating Rheonics SME Modbus Input Registers with a Siemens LOGO! controller, specifically regarding data types and value ranges, and mentions a workaround.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics SME",
+        "LOGO! Siemens",
+        "Siemens LOGO! controller"
+      ],
+      "extracted_text": "Figure 1. LOGO! Siemens. Image sourced from Siemens website.\n\n2. LOGO! Limitations\n\nRheonics SME provides several Modbus Input Registers that customers control needs. The information can be found at Rheonics Support: (https://support.rheonics.com/en/support/solutions/articles/81000297664-modbus-tcp-input-registers) (https://support.rheonics.com/en/support/solutions/articles/81000297664-modbus-tcp-input-registers) Modbus TCP input registers (https://support.rheonics.com/en/support/solutions/articles/81000297664-modbus-tcp-input-registers) (https://support.rheonics.com/en/support/solutions/articles/81000297664-modbus-tcp-input-registers). Each of the 22 parameters is available in Float32 and SInt16, with SInt16 values scaled by 100.\n\nWhen using a Siemens LOGO! controller, there are some limitations to consider:\n\n*   No Support for Floats: LOGO! does not support floating-point numbers, so all calculations must use integer values.\n*   16-Bit Signed Range: LOGO! operates within a range of -32,768 to 32,767 (16-bit signed integers).\n\nAt first glance, it seems necessary to choose SInt16 registers; however, this would limit the maximum viscosity value to around 327 cP (since LOGO! operates in a range of -32,768 to 32,767, and SInt16 values are scaled by 100). For instance, a sensor reading of 327 cP would be represented as 32,700, which uses nearly the entire range.\n\nFortunately, LOGO! offers a workaround by providing a feature to convert 32-bit values into a 16-bit format which will be explained in later steps.\n\n3. SME's Modbus TCP",
+      "specifications": {
+        "DC Input": "12/24V INPUT 8xDC",
+        "Output": "4xRELAY/10A",
+        "MAC Address": "00-1C-06-1B-09-C7",
+        "Part Number": "6ED1 052-1MD00-0BA8",
+        "Analog Input I1, I2": "AI3, AI4 (0..10V)",
+        "Analog Input I7, I8": "AI1, AI2 (0..10V)",
+        "Modbus Parameters Availability": "Float32 and SInt16",
+        "SInt16 Scaling": "100",
+        "LOGO! Operating Range": "-32,768 to 32,767 (16-bit signed integers)",
+        "Maximum Viscosity (SInt16)": "327 cP"
+      },
+      "key_facts": [
+        "Rheonics SME provides several Modbus Input Registers for customer control needs, available on Rheonics Support.",
+        "Each of the 22 parameters from Rheonics SME is available in Float32 and SInt16 formats.",
+        "When using SInt16 values with a Siemens LOGO! controller, the values are scaled by 100.",
+        "Siemens LOGO! controllers do not support floating-point numbers, requiring calculations to use integer values.",
+        "The LOGO! controller operates within a range of -32,768 to 32,767, using 16-bit signed integers.",
+        "Using SInt16 registers with LOGO! would limit the maximum measurable viscosity to approximately 327 cP.",
+        "A sensor reading of 327 cP would be represented as 32,700, consuming nearly the entire 16-bit range of the LOGO! controller.",
+        "LOGO! offers a feature to convert 32-bit values into a 16-bit format as a workaround for these limitations."
+      ],
+      "diagram_labels": [
+        "SIEMENS",
+        "LOGO!",
+        "LAN",
+        "X10",
+        "L+ M I1 I2 I3 I4 I5 I6 I7 I8",
+        "DC 12/24V INPUT 8xDC",
+        "X50",
+        "12/24RCE",
+        "ESC",
+        "OK",
+        "X1 P1",
+        "IE (LAN)",
+        "X11",
+        "Q1 Q2 Q3 Q4",
+        "MAC ADDRESS 00-1C-06-1B-09-C7",
+        "OUTPUT 4xRELAY/10A",
+        "I1, I2 = AI3, AI4 (0..10V)",
+        "I7, I8 = AI1, AI2 (0..10V)",
+        "6ED1 052-1MD00-0BA8"
+      ],
+      "warnings_notes": [
+        "Siemens LOGO! controllers do not support floating-point numbers; all calculations must use integer values.",
+        "The LOGO! controller has a limited 16-bit signed integer range of -32,768 to 32,767."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1375,
+        "cost_usd": 0.0035772999999999994
+      },
+      "source_file": "152_Rheonics_Modbus_TCP_Integration_with_LOGO!_Siemens_PLC.pdf"
+    },
+    {
+      "page_summary": "This page describes the Modbus TCP client-server communication setup using Rheonics SME sensor electronics over Ethernet and details compatibility information for Modbus with Siemens LOGO! devices.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SME",
+        "LOGO! Siemens",
+        "LOGO! 8",
+        "LOGO! 8.1",
+        "LOGO!Soft Comfort"
+      ],
+      "extracted_text": "Rheonics SME offers Modbus TCP over an Ethernet interface. The Modbus protocol provides client/server communication between devices connected to an Ethernet network. As shown in Figure 2, an SME (Modbus Server) connected to a network with several Modbus clients is able to send process and status data upon request to multiple clients such as PLCs, HMIs, and more.\n\nFigure 2. Rheonics sensor electronics SME as Modbus TCP Server\n\n4. Modbus TCP on LOGO! Siemens\n\nModbus compatibility, especially with older versions of LOGO! can be confusing. LOGO! 8 and LOGO! 8.1 devices share the 0BA8 order number but are differentiated by firmware versions. Firmware versions FS01-FS03 are initial releases. Only units starting from LOGO! 8 FS:04 support Modbus.\n\n| Device | Order Number and FS Number | LOGO!Soft Comfort Version |\n|---|---|---|",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics SME provides Modbus TCP communication over an Ethernet interface.",
+        "The Modbus protocol facilitates client/server communication over an Ethernet network.",
+        "The Rheonics SME acts as a Modbus Server.",
+        "The SME server can send process and status data to multiple Modbus TCP clients, including PLCs and HMIs.",
+        "Modbus compatibility with older versions of Siemens LOGO! devices can be confusing.",
+        "LOGO! 8 and LOGO! 8.1 devices share the 0BA8 order number.",
+        "These LOGO! devices are differentiated by their firmware versions.",
+        "Firmware versions FS01-FS03 are considered initial releases for LOGO! 8.",
+        "Only LOGO! 8 units with firmware version FS:04 or newer support Modbus."
+      ],
+      "diagram_labels": [
+        "Modbus TCP Client 1",
+        "Modbus TCP Client 2",
+        "Modbus TCP Client 3",
+        "Modbus TCP Server",
+        "24 V dc",
+        "gnd",
+        "modbus A",
+        "modbus B",
+        "power",
+        "comm.",
+        "data",
+        "web",
+        "display",
+        "SD-card",
+        "sensor connection",
+        "rtos mode CE",
+        "rheonics sensor",
+        "ethernet tcp/ip modbus",
+        "LAN",
+        "MAC ADDRESS",
+        "OUTPUT SIMULATION",
+        "LOGO!"
+      ],
+      "warnings_notes": [
+        "Modbus compatibility, especially with older versions of LOGO! can be confusing."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 721,
+        "cost_usd": 0.0019422999999999999
+      },
+      "source_file": "152_Rheonics_Modbus_TCP_Integration_with_LOGO!_Siemens_PLC.pdf"
+    },
+    {
+      "page_summary": "This page details the network configuration process for Rheonics SME and Siemens LOGO! devices, including software version compatibility and steps for Ethernet setup.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SME",
+        "Siemens LOGO!",
+        "LOGO!Soft Comfort"
+      ],
+      "extracted_text": "6ED1052-xxxxx-0BA8 / FS01-FS03\n6ED1052-xxxxx-0BA8 / FS04-FS06\n6ED1052-xxx08-0BA0\n6ED1052-xxx08-0BA1\n6ED1052-xxx08-0BA2\nLOGO! BM\nLOGO!Soft Comfort V8.4 and later versions\nTable 1. LOGO! Versions from Order Number.\n5. Setting up the Ethernet Network\nThe first objective is to successfully connect the Siemens LOGO! and Rheonics SME on the same Ethernet network. The specific network topology will depend on the use case and customer requirements. No matter which setup is used, both the SME and the LOGO! need to be configured properly. During the configuration process, the user will need to change the PC's IP address to match the IP address range of the device being configured, this procedure is well documented in the first part of the following article: Connecting to your SME using ethernet (https://support.rheonics.com/en/support/solutions/articles/81000397449-verifying-the-network-setup-on-the-pc-where-the-rcp-software-is-installed)\n5.1 Network Configuration on Rheonics SME\nRheonics SME is configured with the RCP software, to aid the user, Rheonics Support Portal - RCP (https://support.rheonics.com/en/support/solutions/folders/81000211411) provides several articles about minimum requirements, installing the software and most importantly: How to connect the computer to the SME (https://support.rheonics.com/en/support/solutions/articles/81000297177-running-the-rcp-program); there are two options for this: USB or Ethernet communication, both of which are described on the article.\nRegardless of the communication method chosen, the network configuration remains the same. The detailed network configuration procedure can be found at: Connecting to your SME using ethernet (https://support.rheonics.com/en/support/solutions/articles/81000397449-verifying-the-network-setup-on-the-pc-where-the-rcp-software-is-installed)\n5.2 Network Configuration on LOGO! Siemens\nThe LOGO! comes with a default IP address of 192.168.000.003. If it has an in-built display, the user can navigate through the screens and configure the network address directly on the device. Figure 3 shows the Network Configuration screen.",
+      "specifications": {
+        "LOGO! BM_compatible_LOGO!Soft Comfort_version": "V8.4 and later versions",
+        "LOGO! BM_order_number_range_1": "6ED1052-xxxxx-0BA8 / FS01-FS03",
+        "LOGO! BM_order_number_range_2": "6ED1052-xxxxx-0BA8 / FS04-FS06",
+        "LOGO! BM_order_number_range_3": "6ED1052-xxx08-0BA0",
+        "LOGO! BM_order_number_range_4": "6ED1052-xxx08-0BA1",
+        "LOGO! BM_order_number_range_5": "6ED1052-xxx08-0BA2",
+        "LOGO! default_IP_address": "192.168.000.003"
+      },
+      "key_facts": [
+        "The primary goal is to connect Siemens LOGO! and Rheonics SME on the same Ethernet network.",
+        "Both SME and LOGO! devices require proper configuration, which includes changing the PC's IP address to match the device's IP address range.",
+        "Rheonics SME is configured using RCP software, with support articles available on the Rheonics Support Portal.",
+        "Communication with Rheonics SME can be established via USB or Ethernet.",
+        "The network configuration procedure for SME is consistently documented regardless of the chosen communication method.",
+        "Siemens LOGO! devices have a default IP address of 192.168.0.3.",
+        "If a LOGO! device has an in-built display, its network address can be configured directly on the device."
+      ],
+      "diagram_labels": [
+        "Table 1. LOGO! Versions from Order Number.",
+        "Figure 3 shows the Network Configuration screen."
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1156,
+        "cost_usd": 0.0030297999999999996
+      },
+      "source_file": "152_Rheonics_Modbus_TCP_Integration_with_LOGO!_Siemens_PLC.pdf"
+    },
+    {
+      "page_summary": "This page provides detailed instructions for configuring IP addresses and adding devices using LOGO! Soft Comfort software, specifically focusing on LOGO! devices and integrating the Rheonics SME as a Modbus Server.",
+      "document_type": "manual",
+      "product_names": [
+        "LOGO!",
+        "LOGO! Soft Comfort",
+        "Rheonics SME",
+        "Modbus Server",
+        "LOGO! 8.4",
+        "LOGO! 8.3",
+        "LOGO! 8.1 & 8.2 (LOGO! 8.F54)",
+        "LOGO! 8 (0BA8.Standard)",
+        "LOGO! 0BA7",
+        "S7 compatible device",
+        "Modbus compatible devices",
+        "HMI",
+        "LOGO! TDE",
+        "LOGO! TDE 6ED1055-4MH08-0BA1",
+        "LOGO! Slave",
+        "CIM Device"
+      ],
+      "extracted_text": "IP Address\n192 . 168 . 000 . 001\nSubnet Mask\n255 . 255 . 255 . 000\nGateway\n192 . 168 . 000 . 000\n\nFigure 3. LOGO! IP Address Configuration\n\nMake sure to enter the appropriate IP Address and Subnet Mask. It should be on the same subnet as the SME (same Ethernet network). An incorrect network configuration may prevent the device from communicating with others on the network.\n\nAnother option is to configure the IP address using LOGO! Soft Comfort and then upload the program. This approach requires the user to set the computer's IP address to the default range of the LOGO! at the start of the configuration process. This is described in the next section.\n\n6. LOGO! Soft Comfort\n\n6.1 New Device Configuration\n\nAfter opening LOGO! Soft Comfort, go to Network View to add a new device, and enter the LOGO! configuration.\n\n[Screenshot of LOGO! Soft Comfort application interface starts here]\n\nApplication Title: LOGO!Soft Comfort\nMenu Bar: File Edit Format View Tools Window Help\n\nTabs: Diagram Mode Network Project\n\nPanel: Tools\n\nPanel: Network Project\n  Item: 4-20testing\n  Option: Add New Device\n  Device: LOGO! 8.3_1 [LOGO! 8.3]\n  Item: Settings\n  Item: LOGO! 8.3_1 Diagram\n\nPanel: Network view\n  Buttons: Add New Device Go Online Go Offline Zoom In Zoom Out\n  Device: Local PC\n  Device: LOGO! 8.3_1\n    IP Address: 192.168.3.91\n\nPanel: Device selection\n  Folder: LOGO!\n    Item: LOGO! 8.4\n    Item: LOGO! 8.3\n    Item: LOGO! 8.1 & 8.2 (LOGO! 8.F54)\n    Item: LOGO! 8 (0BA8.Standard)\n    Item: LOGO! 0BA7\n  Folder: S7 compatible device\n    Item: S7-compatible devices\n  Folder: Modbus compatible devices\n    Item: Modbus-compatible device (selected)\n  Folder: HMI\n    Item: LOGO! TDE\n    Item: LOGO! TDE 6ED1055-4MH08-0BA1\n  Folder: LOGO! Slave\n    Item: LOGO! 8.4 Slave\n    Item: LOGO! 8.3 Slave\n    Item: LOGO! 8.1 & 8.2 (LOGO! 8.F54) Slave\n    Item: LOGO! 8 (0BA8.Standard) Slave\n    Item: LOGO! 0BA7 Slave\n  Folder: CIM Device\n\nDialog: Configuration\n  Field: Device name: LOGO! 8.4_1\n  Field: IP Address: 192.168.0.2\n  Field: Subnet Mask: 255.255.255.0\n  Field: Default gateway: 192.168.0.1\n  Heading: LOGO configuration\n  Buttons: OK Cancel Help\n\n[Screenshot of LOGO! Soft Comfort application interface ends here]\n\nFigure 4. Add a new Device: LOGO!\n\n6.2 Add a New Modbus Device\n\nNow that's a LOGO! device has been added. The user needs to add the Rheonics SME as a Modbus Server: a device that responds to Modbus requests from the clients. Select a new Device as a Modbus-compatible device, as seen in Figure 5. Make sure to enter the appropriate configuration that was set on the RCP.",
+      "specifications": {
+        "Figure 3 IP Address": "192.168.0.001",
+        "Figure 3 Subnet Mask": "255.255.255.000",
+        "Figure 3 Gateway": "192.168.0.000",
+        "Figure 4 LOGO! 8.3_1 IP Address": "192.168.3.91",
+        "Figure 4 Configuration Dialog Device Name": "LOGO! 8.4_1",
+        "Figure 4 Configuration Dialog IP Address": "192.168.0.2",
+        "Figure 4 Configuration Dialog Subnet Mask": "255.255.255.0",
+        "Figure 4 Configuration Dialog Default Gateway": "192.168.0.1"
+      },
+      "key_facts": [
+        "The IP Address and Subnet Mask must be on the same subnet as the SME for proper communication.",
+        "The IP address can be configured using LOGO! Soft Comfort, requiring the user to set the computer's IP address to the LOGO!'s default range initially.",
+        "In LOGO! Soft Comfort, new devices are added via the Network View.",
+        "After adding a LOGO! device, the Rheonics SME must be added as a Modbus Server, which is a device that responds to Modbus client requests.",
+        "The configuration for the Modbus-compatible device in LOGO! Soft Comfort should match the settings established on the RCP."
+      ],
+      "diagram_labels": [
+        "IP Address",
+        "Subnet Mask",
+        "Gateway",
+        "Figure 3. LOGO! IP Address Configuration",
+        "LOGO!Soft Comfort",
+        "File",
+        "Edit",
+        "Format",
+        "View",
+        "Tools",
+        "Window",
+        "Help",
+        "Diagram Mode",
+        "Network Project",
+        "Tools",
+        "4-20testing",
+        "Add New Device",
+        "LOGO! 8.3_1 [LOGO! 8.3]",
+        "Settings",
+        "LOGO! 8.3_1 Diagram",
+        "Network view",
+        "Go Online",
+        "Go Offline",
+        "Zoom In",
+        "Zoom Out",
+        "Local PC",
+        "192.168.3.91",
+        "Device selection",
+        "LOGO!",
+        "LOGO! 8.4",
+        "LOGO! 8.3",
+        "LOGO! 8.1 & 8.2 (LOGO! 8.F54)",
+        "LOGO! 8 (0BA8.Standard)",
+        "LOGO! 0BA7",
+        "S7 compatible device",
+        "S7-compatible devices",
+        "Modbus compatible devices",
+        "Modbus-compatible device",
+        "HMI",
+        "LOGO! TDE",
+        "LOGO! TDE 6ED1055-4MH08-0BA1",
+        "LOGO! Slave",
+        "LOGO! 8.4 Slave",
+        "LOGO! 8.3 Slave",
+        "LOGO! 8.1 & 8.2 (LOGO! 8.F54) Slave",
+        "LOGO! 8 (0BA8.Standard) Slave",
+        "LOGO! 0BA7 Slave",
+        "CIM Device",
+        "Configuration",
+        "Device name",
+        "IP Address",
+        "Subnet Mask",
+        "Default gateway",
+        "LOGO configuration",
+        "OK",
+        "Cancel",
+        "Help",
+        "Figure 4. Add a new Device: LOGO!"
+      ],
+      "warnings_notes": [
+        "An incorrect network configuration may prevent the device from communicating with others on the network.",
+        "Make sure to enter the appropriate configuration that was set on the RCP."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 2101,
+        "cost_usd": 0.0053923
+      },
+      "source_file": "152_Rheonics_Modbus_TCP_Integration_with_LOGO!_Siemens_PLC.pdf"
+    },
+    {
+      "page_summary": "This page provides a step-by-step guide on adding a new Modbus-compatible device (SME) and configuring its network and Modbus connection within a software environment.",
+      "document_type": "manual",
+      "product_names": [
+        "LOGO!",
+        "Modbus_1",
+        "SME",
+        "Soft Comfort"
+      ],
+      "extracted_text": "Figure 5. Add a new Device: SME\n\nNetwork view\nAdd New Device Go Online Go Offline Zoom In Zoom Out Hide Device Line Network Batch Download\n\nLocal PC\nLOGO! 8.3.1\n192.168.3.91\n\nDevice selection\nLOGO!\nLOGO! 8.4\nLOGO! 8.3\nLOGO! 8.1 & 8.2 (LOGO! 8.FS4)\nLOGO! 8 (0BA8.Standard)\nLOGO! 0BA7\nS7-compatible device\nS7-compatible devices\nModbus compatible devices\nModbus-compatible device\nHMI\nHMI\nLOGO! TDE\nLOGO! TDE 6ED1055-4MH08-0BA1\nLOGO! Slave\nLOGO! 8.4 Slave\nLOGO! 8.3 Slave\nLOGO! 8.1 & 8.2 (LOGO! 8.FS4) Slave\nLOGO! 8 (0BA8.Standard) Slave\nLOGO! 0BA7 Slave\nCIM Device\n\nConfiguration\nDevice name: Modbus_1\nIP Address: 192.168. 0. 2\nSubnet Mask: 255.255.255. 0\nDefault gateway: 192.168. 0. 1\nOK Cancel Help\n\nOnce the configuration is set click OK. Soft Comfort will add a new device to the project's network view.\n\nFigure 6. Create a Modbus Connection\n\nNetwork view\nAdd New Device Go Online Go Offline Zoom In Zoom Out Hide Device Line Network Batch Download\n\nLocal PC\nLOGO! 8.3.1\n192.168.3.91\nModbus_1\n192.168.0.2\n\nModbus Connections\n\nDiagram Editor\nLOGO! 8.3.1 Diagram\n\nDevice properties[Modbus_1]\nGeneral\nDevice name: SME\n\nNetwork\nIP Address: 192.168. 0. 2\nSubnet Mask: 255.255.255. 0\nDefault gateway: 192.168. 0. 1\n\nModbus address space\nAddress Type | Range | Direction | Unit\nCoil | 1 - 65535 | R/W | bit\nDiscrete Input (DI) | 1 - 65535 | R | bit\nInput Register (IR) | 1 - 65535 | R | word\nHolding Register (HR) | 1 - 65535 | R/W | word\nOK Cancel Help\n\nThe boxes marked with a red square indicate a Modbus connection. A connection must be established between the devices to communicate via Modbus. Click and hold one of the single boxes on the LOGO! device, then drag it to one of the boxes from the SME.\n\nA new Modbus connection will be created, as shown in Figure 7.\n\n6.3 Modbus Mapping\n\nWhen creating the connection, dragging from the LOGO! to the SME assigns roles differently than dragging in the opposite direction. Make sure the SME is configured as the Server, as shown in Figure 7. If it is not,",
+      "specifications": {
+        "IP Address": "192.168.0.2",
+        "Subnet Mask": "255.255.255.0",
+        "Default gateway": "192.168.0.1",
+        "Modbus Coil Range": "1-65535",
+        "Modbus Coil Direction": "R/W",
+        "Modbus Coil Unit": "bit",
+        "Modbus Discrete Input (DI) Range": "1-65535",
+        "Modbus Discrete Input (DI) Direction": "R",
+        "Modbus Discrete Input (DI) Unit": "bit",
+        "Modbus Input Register (IR) Range": "1-65535",
+        "Modbus Input Register (IR) Direction": "R",
+        "Modbus Input Register (IR) Unit": "word",
+        "Modbus Holding Register (HR) Range": "1-65535",
+        "Modbus Holding Register (HR) Direction": "R/W",
+        "Modbus Holding Register (HR) Unit": "word"
+      },
+      "key_facts": [
+        "Soft Comfort software is used to add new devices to a project's network view.",
+        "Modbus connections are visually indicated by boxes marked with a red square.",
+        "A Modbus connection must be established between devices for communication.",
+        "The direction of dragging a connection (LOGO! to SME versus opposite) affects role assignment.",
+        "The SME device must be configured as the Server."
+      ],
+      "diagram_labels": [
+        "Network view",
+        "Add New Device",
+        "Go Online",
+        "Go Offline",
+        "Zoom In",
+        "Zoom Out",
+        "Hide Device Line",
+        "Network Batch Download",
+        "Local PC",
+        "LOGO! 8.3.1",
+        "192.168.3.91",
+        "Device selection",
+        "LOGO!",
+        "LOGO! 8.4",
+        "LOGO! 8.3",
+        "LOGO! 8.1 & 8.2 (LOGO! 8.FS4)",
+        "LOGO! 8 (0BA8.Standard)",
+        "LOGO! 0BA7",
+        "S7-compatible device",
+        "S7-compatible devices",
+        "Modbus compatible devices",
+        "Modbus-compatible device",
+        "HMI",
+        "LOGO! TDE",
+        "LOGO! TDE 6ED1055-4MH08-0BA1",
+        "LOGO! Slave",
+        "LOGO! 8.4 Slave",
+        "LOGO! 8.3 Slave",
+        "LOGO! 8.1 & 8.2 (LOGO! 8.FS4) Slave",
+        "LOGO! 8 (0BA8.Standard) Slave",
+        "LOGO! 0BA7 Slave",
+        "CIM Device",
+        "Configuration",
+        "Device name",
+        "Modbus_1",
+        "IP Address",
+        "192.168. 0. 2",
+        "Subnet Mask",
+        "255.255.255. 0",
+        "Default gateway",
+        "192.168. 0. 1",
+        "OK",
+        "Cancel",
+        "Help",
+        "Modbus Connections",
+        "Diagram Editor",
+        "LOGO! 8.3.1 Diagram",
+        "Device properties[Modbus_1]",
+        "General",
+        "SME",
+        "Network",
+        "Modbus address space",
+        "Address Type",
+        "Range",
+        "Direction",
+        "Unit",
+        "Coil",
+        "Discrete Input (DI)",
+        "Input Register (IR)",
+        "Holding Register (HR)",
+        "R/W",
+        "R",
+        "bit",
+        "word"
+      ],
+      "warnings_notes": [
+        "Make sure the SME is configured as the Server, as shown in Figure 7. If it is not,"
+      ],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1886,
+        "cost_usd": 0.0048548
+      },
+      "source_file": "152_Rheonics_Modbus_TCP_Integration_with_LOGO!_Siemens_PLC.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions and configuration details for establishing a Modbus TCP connection where a Rheonics SME device acts as a server to provide viscosity data, along with relevant Modbus register mapping information.",
+      "document_type": "manual",
+      "product_names": [
+        "SME",
+        "LOGO! 8.3_1",
+        "Rheonics Viscometer"
+      ],
+      "extracted_text": "delete the connection and create it again.\n\nNetwork view\nAdd New Device Go Online Go Offline Zoom In Zoom Out Hide Device Labels Download\nModbus Connection\nDevice name: LOGO! 8.3_1\nIP Address: 192.168.3.91\nPORT: Assigned\nClient Server\n\nDevice name: SME\nIP Address: 192.168.3.33\nPORT: 502\nClient Server (Server selected)\n\nData transfer\nID | V | Start Address | Length | Direction | Coil | Start Address | Length | Unit ID\n1 | 0.0 | | | | | | | 255\n\nSynchronize interval\nEnable customized interval\nHours: 0 | Minutes: 0 | Seconds: 0 | Milliseconds: 80\n\nOK Cancel Help\n\nFigure 7. Modbus Connection - SME as Server\n\nThe Modbus Connection screen is also where the Modbus registers are mapped to LOGO! memory addresses. To illustrate how it works, let's assume the user wants to read the Viscosity value. All Modbus TCP Input Registers are available on the Rheonics Support Portal at Modbus TCP - Input Registers. (https://support.rheonics.com/en/support/solutions/articles/81000297664-modbus-tcp-input-registers)\n\nAdditionally, in-depth protocol documentation on data types, response types, testing with Modbus Poll, and troubleshooting can be found on the Rheonics Support Portal - Modbus TCP (Ethernet). (https://support.rheonics.com/en/support/solutions/folders/81000217062)\n\nFrom Rheonics documentation the information from Table 2 is known:\n\nTable 2. Viscosity Modbus Register\nAddress | Register | Length | Type | Description\n40 | 300041 | 2 | Float32 | Parameter 0 value as float (Viscosity)\n\nAdd a new field with the Input Register address, direction, and length, as shown in Figure 8. For the memory address type, several options are available. For Rheonics applications where only Input Registers are being mapped, VW is always selected.",
+      "specifications": {
+        "LOGO! IP Address": "192.168.3.91",
+        "SME IP Address": "192.168.3.33",
+        "SME Modbus Port": "502",
+        "Synchronize Interval": "80 Milliseconds",
+        "Modbus Register Address (Viscosity)": "40",
+        "Modbus Register Number (Viscosity)": "300041",
+        "Modbus Register Length (Viscosity)": "2",
+        "Modbus Register Type (Viscosity)": "Float32",
+        "Modbus Unit ID": "255"
+      },
+      "key_facts": [
+        "The Modbus Connection screen allows mapping of Modbus registers to LOGO! memory addresses.",
+        "The SME device is configured as a Modbus Server in the depicted connection.",
+        "Users can read the Viscosity value through Modbus TCP Input Registers.",
+        "Comprehensive documentation for Modbus TCP Input Registers, protocol data types, response types, and troubleshooting is available on the Rheonics Support Portal at https://support.rheonics.com/en/support/solutions/articles/81000297664-modbus-tcp-input-registers and https://support.rheonics.com/en/support/solutions/folders/81000217062.",
+        "The Modbus register 300041, located at address 40, is used to read 'Parameter 0 value as float (Viscosity)' and has a length of 2 and type Float32.",
+        "For Rheonics applications where only Input Registers are mapped, the memory address type 'VW' is always selected."
+      ],
+      "diagram_labels": [
+        "Network view",
+        "Add New Device",
+        "Go Online",
+        "Go Offline",
+        "Zoom In",
+        "Zoom Out",
+        "Hide Device Labels",
+        "Download",
+        "Modbus Connection",
+        "Local PC",
+        "LOGO! 8.3_1",
+        "IP Address: 192.168.3.91",
+        "PORT: Assigned",
+        "Client",
+        "Server",
+        "SME",
+        "IP Address: 192.168.3.33",
+        "PORT: 502",
+        "Data transfer",
+        "ID",
+        "V",
+        "Start Address",
+        "Length",
+        "Direction",
+        "Coil",
+        "Unit ID",
+        "Synchronize interval",
+        "Enable customized interval",
+        "Hours",
+        "Minutes",
+        "Seconds",
+        "Milliseconds",
+        "OK",
+        "Cancel",
+        "Help",
+        "Figure 7. Modbus Connection - SME as Server",
+        "Table 2. Viscosity Modbus Register"
+      ],
+      "warnings_notes": [
+        "delete the connection and create it again."
+      ],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1332,
+        "cost_usd": 0.0034698
+      },
+      "source_file": "152_Rheonics_Modbus_TCP_Integration_with_LOGO!_Siemens_PLC.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions and context for mapping Rheonics Input Registers to a Siemens LOGO! controller via Modbus, detailing the necessary instruction blocks and data types for reading sensor data.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics",
+        "LOGO!",
+        "SME",
+        "Modbus TCP"
+      ],
+      "extracted_text": "Client Server\nData transfer\nID Start Address Length Direction Start Address Length Unit ID\n1 VW 0 2 words <-- IR 41 2 words 255\nV\nVW\nM\nQ\nI\nAI\nAQ\nAM\n\nFigure 8. Selecting VW for new Input Register Mapping\n\nNow, the LOGO! will request Input Register 41 from the SME and store the Float32 value in two words: VW0 and VW2. Add as many Input Registers as needed, based on the project requirements, taking care to avoid overlapping words when new registers are added.\n\n6.4 Reading Modbus Data\nAs shown previously, Rheonics Input Registers are mapped to Siemens LOGO! at the specified word, allowing the user to retrieve data from the sensor for process monitoring or control. To make use of this data, LOGO! needs specific instruction blocks in the program. Two key blocks for this are:\n\n*   Analog Input Block\n*   Float/Integer Converter Block (Recommended)\n\nEach block serves a specific purpose, depending on the Input Register data type. As shown in Modbus TCP - Input Registers (https://support.rheonics.com/en/support/solutions/articles/81000297664-modbus-tcp-input-registers), there are two types: Float32 and SInt16. The Analog Input Block is more suitable for SInt16 registers, while the Float/Integer Converter Block is ideal for Float32 registers.\n\n6.4.1 Network Analog Input\nTo read a word (VW) stored in local variable memory, the Network Analog Input Block is used. This block allows the user to read a word and use it in the program. To add the block, select Network Analog Input on the left side, under Network, and click and drag the block to add it to the diagram.\nNetwork Analog Input works with SInt16 type variables, which utilize single-word data. It is suitable for reading registers shown on Modbus TCP - Input Registers (https://support.rheonics.com/en/support/solutions/articles/81000297664-modbus-tcp-input-registers); with a SInt16 type. To read a Float32 the Float/Integer Converter block is needed.",
+      "specifications": {
+        "Input Register 41": "Float32 value stored in two words (VW0 and VW2)",
+        "data types": "Float32, SInt16"
+      },
+      "key_facts": [
+        "The LOGO! controller requests Input Register 41 from the SME to store Float32 values in two words (VW0 and VW2).",
+        "Users should avoid overlapping words when adding new Input Registers.",
+        "Rheonics Input Registers are mapped to Siemens LOGO! for data retrieval for process monitoring or control.",
+        "Specific instruction blocks are required in the LOGO! program to use the data: Analog Input Block and Float/Integer Converter Block.",
+        "The Analog Input Block is suitable for SInt16 type registers.",
+        "The Float/Integer Converter Block is ideal for Float32 registers.",
+        "Network Analog Input Block is used to read a word (VW) stored in local variable memory, working with SInt16 type variables.",
+        "To read a Float32 value, the Float/Integer Converter block is needed."
+      ],
+      "diagram_labels": [
+        "Client",
+        "Server",
+        "Data transfer",
+        "ID",
+        "Start Address",
+        "Length",
+        "Direction",
+        "Unit ID",
+        "V",
+        "VW",
+        "M",
+        "Q",
+        "I",
+        "AI",
+        "AQ",
+        "AM",
+        "IR",
+        "Figure 8. Selecting VW for new Input Register Mapping"
+      ],
+      "warnings_notes": [
+        "Take care to avoid overlapping words when new registers are added."
+      ],
+      "page_num": 8,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1008,
+        "cost_usd": 0.0026598
+      },
+      "source_file": "152_Rheonics_Modbus_TCP_Integration_with_LOGO!_Siemens_PLC.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions and context for configuring an Analog Input Block and understanding the Float/Integer Converter in the LOGO! Soft Comfort programming environment, highlighting the software's native integer-only calculations.",
+      "document_type": "manual",
+      "product_names": [
+        "LOGO!",
+        "LOGO! Soft Comfort"
+      ],
+      "extracted_text": "Instructions\nInstructions\nConstants\nDigital\nInput\nCursor key\nLOGO! TD function key\nShift register bit\nStatus 0 (low)\nStatus 1 (high)\nOutput\nOpen connector\nFlag\nAnalog\nAnalog input\nAnalog output\nAnalog flag\nNetwork\nNetwork input\nNetwork analog input\nNetwork output\nNetwork analog output\nBasic functions\nAND\nAND (Edge)\nNAND\nNAND (Edge)\nOR\nNOR\nXOR\nNOT\nSpecial functions\nTimer\nCounter\nUp/Down counter\nHours Counter\n\nLOGO! 8.4_1 Diagram\nNAI1 [Network analog input]\nParameter\nComment\nRead value from\nLocal variable memory (VM)\nRemote device\nLocal variable memory (VM)\nVW address\n0\nOK\nCancel\nHelp\n\nFigure 9. Analog Input Block on LOGO! Soft Comfort\n\n6.4.2 Float/Integer Converter\n\nSince LOGO! does not natively support floating-point numbers and can only perform logic and calculations using integers, the Float/Integer Converter block is the only available option to work with a Float32 data type stored in local variable memory (2 words). To add it, select Float/Integer Converter under the Miscellaneous section on the left side. Then, click and drag the block to place it in the diagram.",
+      "specifications": {
+        "Float32 data type storage": "2 words"
+      },
+      "key_facts": [
+        "LOGO! software does not natively support floating-point numbers.",
+        "LOGO! software can only perform logic and calculations using integers.",
+        "The Float/Integer Converter block is the exclusive method for handling Float32 data types within LOGO!.",
+        "A Float32 data type requires 2 words of local variable memory.",
+        "To add a Float/Integer Converter block, users must select it from the Miscellaneous section and drag it into the diagram."
+      ],
+      "diagram_labels": [
+        "Instructions",
+        "Constants",
+        "Digital",
+        "Input",
+        "Cursor key",
+        "LOGO! TD function key",
+        "Shift register bit",
+        "Status 0 (low)",
+        "Status 1 (high)",
+        "Output",
+        "Open connector",
+        "Flag",
+        "Analog",
+        "Analog input",
+        "Analog output",
+        "Analog flag",
+        "Network",
+        "Network input",
+        "Network analog input",
+        "Network output",
+        "Network analog output",
+        "Basic functions",
+        "AND",
+        "AND (Edge)",
+        "NAND",
+        "NAND (Edge)",
+        "OR",
+        "NOR",
+        "XOR",
+        "NOT",
+        "Special functions",
+        "Timer",
+        "Counter",
+        "Up/Down counter",
+        "Hours Counter",
+        "LOGO! 8.4_1 Diagram",
+        "NAI1",
+        "AI",
+        "NAI1 [Network analog input]",
+        "Parameter",
+        "Comment",
+        "Read value from",
+        "Local variable memory (VM)",
+        "Remote device",
+        "VW address",
+        "0",
+        "OK",
+        "Cancel",
+        "Help",
+        "Figure 9. Analog Input Block on LOGO! Soft Comfort"
+      ],
+      "warnings_notes": [],
+      "page_num": 9,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 895,
+        "cost_usd": 0.0023772999999999997
+      },
+      "source_file": "152_Rheonics_Modbus_TCP_Integration_with_LOGO!_Siemens_PLC.pdf"
+    },
+    {
+      "page_summary": "This page describes the Float/Integer Converter block in LOGO! Soft Comfort software, detailing its functionality for converting floating-point values to integers based on a specified resolution, and illustrating its configuration settings.",
+      "document_type": "manual",
+      "product_names": [
+        "LOGO! Soft Comfort",
+        "Float/Integer Converter",
+        "Integer/Float Converter"
+      ],
+      "extracted_text": "Diagrams\nInstructions\nConstants\nBasic functions\nSpecial functions\nTimer\n  On-Delay\n  Off-Delay\n  On-Off-Delay\n  Retentive On-Delay\n  Wiping relay (pulse output)\n  Edge triggered wiping relay\n  Asynchronous Pulse Generator\n  Random Generator\n  Stairway lighting switch\n  Multiple function switch\n  Weekly Timer\n  Yearly Timer\n  Astronomical clock\n  Stopwatch\nCounter\nAnalog\nMiscellaneous\n  Latching Relay\n  Pulse Relay\n  Message texts\n  SoftKey\n  Shift register\n  Mathematic instruction error de\n  Float/Integer Converter\n  Integer/Float Converter\nData Log Profile\n  Data Log\nUDF\nCircuit Diagram1\nB001\nF/I\neAq: | 0 |\nType = Float\nVM = 0\nRes = 0.100\nFigure 10. Float/Integer converter block on LOGO! Soft Comfort\nThe block takes a floating-point value stored in the VM Address, divides it by a setting called “resolution”, and outputs an integer that LOGO! can use. All remaining decimals are discarded. Figure 11 shows the settings for the Float/Integer converter.\nFloat32\nPar\nB001\nF/I\nFloat32/Resolution\neAq: | 0 |\nType = Float\nVM = 0\nRes = 0.100\nB001 [Float/Integer Converter]\nParameter\nComment\nParameter\nBlock name:\nData Input\nType: Float\nVM Address: 0\nResolution\nResolution: 0.100\nOK\nCancel\nHelp\nFigure 11. Float/Integer converter block settings",
+      "specifications": {
+        "Resolution": "0.100",
+        "Data Input Type": "Float",
+        "VM Address": "0"
+      },
+      "key_facts": [
+        "The Float/Integer Converter block converts a floating-point value into an integer.",
+        "The floating-point value used for conversion is stored in the VM Address.",
+        "The block divides the floating-point value by a user-defined 'resolution' setting.",
+        "All remaining decimal values after the division are discarded during the conversion process.",
+        "The output of the block is an integer value that can be used by LOGO! systems."
+      ],
+      "diagram_labels": [
+        "Diagrams",
+        "Instructions",
+        "Constants",
+        "Basic functions",
+        "Special functions",
+        "Timer",
+        "On-Delay",
+        "Off-Delay",
+        "On-Off-Delay",
+        "Retentive On-Delay",
+        "Wiping relay (pulse output)",
+        "Edge triggered wiping relay",
+        "Asynchronous Pulse Generator",
+        "Random Generator",
+        "Stairway lighting switch",
+        "Multiple function switch",
+        "Weekly Timer",
+        "Yearly Timer",
+        "Astronomical clock",
+        "Stopwatch",
+        "Counter",
+        "Analog",
+        "Miscellaneous",
+        "Latching Relay",
+        "Pulse Relay",
+        "Message texts",
+        "SoftKey",
+        "Shift register",
+        "Mathematic instruction error de",
+        "Float/Integer Converter",
+        "Integer/Float Converter",
+        "Data Log Profile",
+        "Data Log",
+        "UDF",
+        "Circuit Diagram1",
+        "B001",
+        "F/I",
+        "eAq: | 0 |",
+        "Type = Float",
+        "VM = 0",
+        "Res = 0.100",
+        "Float32",
+        "Par",
+        "Float32/Resolution",
+        "B001 [Float/Integer Converter]",
+        "Parameter",
+        "Comment",
+        "Block name:",
+        "Data Input",
+        "Type:",
+        "VM Address:",
+        "Resolution:",
+        "OK",
+        "Cancel",
+        "Help"
+      ],
+      "warnings_notes": [
+        "All remaining decimals are discarded."
+      ],
+      "page_num": 10,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1088,
+        "cost_usd": 0.0028598
+      },
+      "source_file": "152_Rheonics_Modbus_TCP_Integration_with_LOGO!_Siemens_PLC.pdf"
+    },
+    {
+      "page_summary": "This page details the typical ranges for viscosity, density, and temperature measurements, their recommended resolutions, and their corresponding integer values when communicated via Modbus, along with crucial notes on handling decimal places.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Typical ranges for viscosity, density, and temperature in default units available on Modbus are shown in Tables 3, 4, and 5 with recommended resolutions and the resulting Integer value (LOGO! column).\n\nTable 3. Viscosity Range Based on Resolution Settings\nResolution | Viscosity Range | LOGO!\n1 | 0 - 3,000 cP | 0 - 3,000\n0.1 | 0.0 - 3,000.0 cP | 0 - 30,000*\n\n*The range 0 to 30,000 corresponds to 0 g/cc to 3,000.0 g/cc as integers. The user must account for the decimals properly in the program.\n\nFor viscosity, resolutions 1 and 0.1 are suitable for most applications. A resolution of 0.1 would allow the user to represent single-decimal values as integers (LOGO! column).\n\nTable 4. Density Range Based on Resolution Settings\nResolution | Density Range | LOGO!\n0.1 | 0.0 - 1.5 g/cc | 0 - 15*\n0.01 | 0.00 - 1.50 g/cc | 0 - 150*\n\n*The range 0 to 15 corresponds to 0 g/cc to 1.5 g/cc as integers. The user must account for the decimals properly in the program. The same applies to 0 - 150.\n\nDensity readings from Modbus TCP are represented in g/cc. For precise control, at least one decimal place should be considered (0.1 resolution).\n\nTable 5. Temperature Range Based on Resolution Settings\nResolution | Temperature Range | LOGO!\n1 | -20 °C - 150 °C | -20 - 150\n0.1 | -20.0 °C - 150.0 °C | -200 - 1,500*\n0.01 | -20.00 °C - 150.00 °C | -2,000 - 15,000*\n\n*The range -200 to 1,500 corresponds to -20.0°C to 150.0°C as integers. The user must account for the decimals properly in the program. The same applies to -2,000 to 15,000.\n\nFor the temperature, as in previous cases, the choice would depend on the decimals needed for the application.\n\nFigure 12 shows the configuration for the block chosen for this example, a Float (Viscosity) stored at VM Address 0 and a resolution of 1.",
+      "specifications": {
+        "viscosity_ranges": [
+          {
+            "resolution": "1",
+            "measurement_range": "0 - 3,000 cP",
+            "modbus_integer_range": "0 - 3,000"
+          },
+          {
+            "resolution": "0.1",
+            "measurement_range": "0.0 - 3,000.0 cP",
+            "modbus_integer_range": "0 - 30,000"
+          }
+        ],
+        "density_ranges": [
+          {
+            "resolution": "0.1",
+            "measurement_range": "0.0 - 1.5 g/cc",
+            "modbus_integer_range": "0 - 15"
+          },
+          {
+            "resolution": "0.01",
+            "measurement_range": "0.00 - 1.50 g/cc",
+            "modbus_integer_range": "0 - 150"
+          }
+        ],
+        "temperature_ranges": [
+          {
+            "resolution": "1",
+            "measurement_range": "-20 °C - 150 °C",
+            "modbus_integer_range": "-20 - 150"
+          },
+          {
+            "resolution": "0.1",
+            "measurement_range": "-20.0 °C - 150.0 °C",
+            "modbus_integer_range": "-200 - 1,500"
+          },
+          {
+            "resolution": "0.01",
+            "measurement_range": "-20.00 °C - 150.00 °C",
+            "modbus_integer_range": "-2,000 - 15,000"
+          }
+        ]
+      },
+      "key_facts": [
+        "Modbus communication represents viscosity, density, and temperature data using integer values, shown in the 'LOGO!' column.",
+        "The user is responsible for properly accounting for decimal places in their program when interpreting Modbus integer values.",
+        "For viscosity, resolutions of 1 and 0.1 are suitable for most applications, with 0.1 enabling single-decimal representation.",
+        "Density readings from Modbus TCP are specifically represented in g/cc.",
+        "For precise control of density, a 0.1 resolution (considering at least one decimal place) is recommended.",
+        "The choice of temperature resolution depends on the specific decimal precision required by the application.",
+        "Figure 12 (not shown) illustrates a configuration for a Float (Viscosity) stored at VM Address 0 with a resolution of 1."
+      ],
+      "diagram_labels": [
+        "Figure 12"
+      ],
+      "warnings_notes": [
+        "The range 0 to 30,000 (referenced from the viscosity table) is explained to correspond to 0 g/cc to 3,000.0 g/cc as integers. The user must account for the decimals properly in the program. (Note: There is a unit discrepancy in the source text, where 'g/cc' is used for a viscosity range explanation).",
+        "The range 0 to 15 (from the density table) corresponds to 0 g/cc to 1.5 g/cc as integers. The user must account for the decimals properly in the program. The same applies to the 0 - 150 range.",
+        "The range -200 to 1,500 (from the temperature table) corresponds to -20.0°C to 150.0°C as integers. The user must account for the decimals properly in the program. The same applies to the -2,000 to 15,000 range.",
+        "For precise control regarding density, at least one decimal place (0.1 resolution) should be considered."
+      ],
+      "page_num": 11,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1632,
+        "cost_usd": 0.0042198
+      },
+      "source_file": "152_Rheonics_Modbus_TCP_Integration_with_LOGO!_Siemens_PLC.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions for configuring Float/Integer Converter and Analog Flag blocks within LOGO! Soft Comfort software and details the process of uploading the completed program to a LOGO! controller.",
+      "document_type": "manual",
+      "product_names": [
+        "LOGO! Soft Comfort",
+        "LOGO!"
+      ],
+      "extracted_text": "Figure 12. Float/Integer Converter Block on LOGO! Soft Comfort\n\n6.4.3 Analog Block\nTo successfully run the program, an Analog Block is needed to complete the circuit and display the value to the user. Click Analog Flag, under Analog, and drag it to the diagram to add it to the program.\n\nFigure 13. Analog Flag Block\n\n7. Uploading the Program to LOGO!\nWith the program ready and the SME configured, the final step is to upload the program to the LOGO! by clicking the icon shown in Figure 14.",
+      "specifications": {
+        "Data Input Type": "Float",
+        "VM Address": "0",
+        "Resolution": "1.000"
+      },
+      "key_facts": [
+        "An Analog Block is necessary to complete the circuit and display values to the user within the program.",
+        "The process of adding an Analog Block involves clicking 'Analog Flag' under the 'Analog' category and dragging it to the diagram.",
+        "The final step after preparing the program and configuring the SME is to upload the program to the LOGO! controller."
+      ],
+      "diagram_labels": [
+        "LOGO! TD Function key",
+        "Shift register bit",
+        "Status 0 (low)",
+        "Status 1 (high)",
+        "Output",
+        "Open connector",
+        "Flag",
+        "Analog",
+        "Analog input",
+        "Analog output",
+        "Analog flag",
+        "Network",
+        "Network input",
+        "Network analog input",
+        "Network output",
+        "Network analog output",
+        "Basic functions",
+        "AND",
+        "AND (Edge)",
+        "NAND",
+        "NAND (Edge)",
+        "OR",
+        "NOR",
+        "XOR",
+        "NOT",
+        "Special functions",
+        "Timer",
+        "On-Delay",
+        "Off-Delay",
+        "On/Off-Delay",
+        "Retentive On-Delay",
+        "Wiping relay (pulse output)",
+        "Edge triggered wiping relay",
+        "Asynchronous Pulse Generator",
+        "Random Generator",
+        "Stairway lighting switch",
+        "Multiple function switch",
+        "Diagram Editor",
+        "LOGO! 8_3_1 Diagram.lsc",
+        "B001 [Float/Integer Converter]",
+        "Parameter",
+        "Comment",
+        "Block name",
+        "Data Input",
+        "Type",
+        "VM Address",
+        "Resolution",
+        "OK",
+        "Cancel",
+        "Help",
+        "F/I",
+        "eAq: 0",
+        "Type = Float",
+        "VM = 0",
+        "Res = 1.000",
+        "Instructions",
+        "Constants",
+        "Digital",
+        "AM1",
+        "AM"
+      ],
+      "warnings_notes": [],
+      "page_num": 12,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 779,
+        "cost_usd": 0.0020873
+      },
+      "source_file": "152_Rheonics_Modbus_TCP_Integration_with_LOGO!_Siemens_PLC.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions and screenshots for connecting a PC to a LOGO! controller using LOGO!Soft Comfort software to load a program and perform an online test, including an important note about industrial security.",
+      "document_type": "manual",
+      "product_names": [
+        "LOGO!Soft Comfort",
+        "LOGO!",
+        "Intel(R) Ethernet Connection (5) I219-LM",
+        "Modbus"
+      ],
+      "extracted_text": "LOGO!Soft Comfort\nFile Edit Format View Tools Window Help\nDiagram Mode Network Project\nTools\nDiagram Editor\nPC -> LOGO! Ctrl+D\nFigure 14. Loading the program to LOGO!\nA pop-up window will appear. If needed, enter the LOGO IP address and click OK.\nInterface\nInterface\nConnect through: Ethernet\nIntel(R) Ethernet Connection (5) I219-LM\nTarget\nTest\nTarget IP address: 192.168.3.91\nAddress book\nAccessible LOGO!\nName IP Address Subnet Mask Gateway MAC address Device Type Status\nCopy to SD card\nIn order to protect plants, systems, machines and networks against cyber threats, it is necessary to implement - and continuously maintain - a holistic, state-of-the-art industrial security concept. Siemens' products and solutions only form one element of such a concept. For more information about industrial security, please visit http://www.siemens.com/industrialsecurity.\nOK Cancel Help\nFigure 15. Connection PC - LOGO!\n8. Online Test\nFinally, for easy visualization of the process, the online test feature will display the Modbus Registers in real-time.",
+      "specifications": {
+        "Target IP address example": "192.168.3.91",
+        "Ethernet connection type": "Intel(R) Ethernet Connection (5) I219-LM"
+      },
+      "key_facts": [
+        "The LOGO!Soft Comfort software is used to load programs to the LOGO! controller.",
+        "A pop-up 'Interface' window is used to establish the connection between the PC and the LOGO! controller.",
+        "The LOGO! IP address must be entered to connect the PC to the LOGO! controller.",
+        "The online test feature is designed to display Modbus Registers in real-time for process visualization.",
+        "Implementing and continuously maintaining a holistic, state-of-the-art industrial security concept is necessary to protect plants, systems, machines, and networks against cyber threats.",
+        "Siemens' products and solutions contribute as one element of a broader industrial security concept."
+      ],
+      "diagram_labels": [
+        "LOGO!Soft Comfort",
+        "File",
+        "Edit",
+        "Format",
+        "View",
+        "Tools",
+        "Window",
+        "Help",
+        "Diagram Mode",
+        "Network Project",
+        "Diagram Editor",
+        "PC -> LOGO! (Ctrl+D)",
+        "Interface",
+        "Connect through:",
+        "Ethernet",
+        "Intel(R) Ethernet Connection (5) I219-LM",
+        "Target",
+        "Test",
+        "Target IP address:",
+        "192.168.3.91",
+        "Address book",
+        "Accessible LOGO!",
+        "Name",
+        "IP Address",
+        "Subnet Mask",
+        "Gateway",
+        "MAC address",
+        "Device Type",
+        "Status",
+        "Copy to SD card",
+        "OK",
+        "Cancel",
+        "Help"
+      ],
+      "warnings_notes": [
+        "In order to protect plants, systems, machines and networks against cyber threats, it is necessary to implement - and continuously maintain - a holistic, state-of-the-art industrial security concept. Siemens' products and solutions only form one element of such a concept. For more information about industrial security, please visit http://www.siemens.com/industrialsecurity."
+      ],
+      "page_num": 13,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 941,
+        "cost_usd": 0.0024923
+      },
+      "source_file": "152_Rheonics_Modbus_TCP_Integration_with_LOGO!_Siemens_PLC.pdf"
+    },
+    {
+      "page_summary": "This page provides an explanation of performing online tests within the LOGO! system, demonstrating how viscosity values are read from Modbus and displayed, including handling floating-point values through scaled integers and specifying decimal places for display.",
+      "document_type": "manual",
+      "product_names": [
+        "LOGO!",
+        "Modbus",
+        "Analog Amplifier"
+      ],
+      "extracted_text": "Diagram Editor\nLOGO! 8.3_1 Diagram.lsc\nOnline Test\n\nFigure 16. Online Test Button\n\nDuring the online test, the LOGO! the system successfully reads a value of 34 cP from a Modbus register, which can be used for further control actions. If a different resolution, such as 0.1, is applied, values like 341 cP or 345 cP will appear with the last digit representing a decimal place (e.g., 34.1 cP or 34.5 cP).\n\nDiagram Editor\nLOGO! 8.3_1 Diagram.lsc\nB001. F/l\neAq 34\nType = Float\nVM = 0\nRes = 1.000\nAM1. AM\n34.0 AM1\n\nFigure 17. Online Test\n\nSince LOGO! doesn't support floating-point values, we can work with scaled integers as a workaround (e.g., representing 10.5 as 105 or 20.2 as 202). However, for display purposes, it's often more appropriate to show the actual values instead of the scaled numbers. Certain blocks, like the Analog Amplifier (Figure 18), allow the user to specify the number of decimal places shown in the LOGO! Display",
+      "specifications": {
+        "viscosity_read_value_modbus": "34 cP",
+        "resolution_applied": "0.1",
+        "example_scaled_viscosity_values": "341 cP, 345 cP",
+        "example_floating_point_values_scaled": "10.5 (as 105), 20.2 (as 202)",
+        "diagram_type_setting": "Float",
+        "diagram_vm_setting": "0",
+        "diagram_res_setting": "1.000",
+        "diagram_output_display_value": "34.0"
+      },
+      "key_facts": [
+        "The LOGO! system reads viscosity values in cP from a Modbus register during an online test.",
+        "A resolution setting of 0.1 means values like 34.1 cP or 34.5 cP appear as 341 cP or 345 cP, with the last digit representing a decimal place.",
+        "LOGO! does not natively support floating-point values.",
+        "Scaled integers are used as a workaround for floating-point values (e.g., 10.5 represented as 105).",
+        "For display, it is often more appropriate to show actual values rather than scaled numbers.",
+        "Blocks like the Analog Amplifier allow users to specify the number of decimal places for display in LOGO!."
+      ],
+      "diagram_labels": [
+        "Diagram Editor",
+        "LOGO! 8.3_1 Diagram.lsc",
+        "Online Test",
+        "Figure 16. Online Test Button",
+        "B001.",
+        "F/l",
+        "eAq",
+        "34",
+        "Type = Float",
+        "VM = 0",
+        "Res = 1.000",
+        "AM1.",
+        "AM",
+        "34.0",
+        "AM1",
+        "Figure 17. Online Test"
+      ],
+      "warnings_notes": [],
+      "page_num": 14,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 918,
+        "cost_usd": 0.0024348
+      },
+      "source_file": "152_Rheonics_Modbus_TCP_Integration_with_LOGO!_Siemens_PLC.pdf"
+    },
+    {
+      "page_summary": "This page illustrates the configuration of an Analog Amplifier block (B002) in a software interface, detailing settings for sensor input range, gain, offset, and decimal places for displayed values, accompanied by a textual explanation of value processing and display.",
+      "document_type": "manual",
+      "product_names": [
+        "B002",
+        "Analog Amplifier Block",
+        "Float/Integer converter",
+        "LOGO!"
+      ],
+      "extracted_text": "B002 [Analog Amplifier]\nParameter Comment\n\nParameter\n  Block name:\n\nSensor\n  Sensor: 0 ... 10 V\n\nAnalog settings\n  Measurement Range\n    Minimum: 0\n    Maximum: 1000\n  Parameter\n    Gain: 1.00\n    Offset: 0\n\nDecimal places\n  Decimal places in the message text: 1 +1234.5\n\nOthers\n  [ ] Protection Active\n\nOK Cancel Help\n\nFigure 18. Analog Amplifier\n\nThe message text block allows the user to display both text and variable values. In Figure 19, a Float/Integer converter with a resolution of 0.100 is used, so a value of 293 is displayed as 29.3 cP. The Analog Amplifier Block (B002) is configured to show one decimal place on the message block, and in a live test, the LOGO! display correctly shows 29.3 cP.",
+      "specifications": {
+        "Sensor_Input_Range": "0 ... 10 V",
+        "Measurement_Range_Minimum": "0",
+        "Measurement_Range_Maximum": "1000",
+        "Gain": "1.00",
+        "Offset": "0",
+        "Decimal_Places_in_Message_Text": "1",
+        "Float_Integer_Converter_Resolution": "0.100",
+        "Example_Value_Input": "293",
+        "Example_Value_Displayed": "29.3 cP"
+      },
+      "key_facts": [
+        "The message text block allows the user to display both text and variable values.",
+        "A Float/Integer converter with a resolution of 0.100 is used.",
+        "A raw value of 293 is displayed as 29.3 cP when processed by the converter and configured decimal places.",
+        "The Analog Amplifier Block (B002) is configured to show one decimal place on the message block.",
+        "In a live test, the LOGO! display correctly shows 29.3 cP."
+      ],
+      "diagram_labels": [
+        "B002 [Analog Amplifier]",
+        "Parameter (tab)",
+        "Comment (tab)",
+        "Parameter (group title)",
+        "Block name:",
+        "Sensor (group title)",
+        "Sensor:",
+        "0 ... 10 V",
+        "Analog settings (group title)",
+        "Measurement Range (sub-group title)",
+        "Minimum:",
+        "Maximum:",
+        "Parameter (sub-group title for Gain/Offset)",
+        "Gain:",
+        "Offset:",
+        "Decimal places (group title)",
+        "Decimal places in the message text:",
+        "+1234.5 (example display)",
+        "Others (group title)",
+        "Protection Active",
+        "OK",
+        "Cancel",
+        "Help",
+        "Figure 18. Analog Amplifier"
+      ],
+      "warnings_notes": "",
+      "page_num": 15,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 838,
+        "cost_usd": 0.0022348
+      },
+      "source_file": "152_Rheonics_Modbus_TCP_Integration_with_LOGO!_Siemens_PLC.pdf"
+    },
+    {
+      "page_summary": "This page provides details on displaying message text and decimal numbers using a LOGO! display, alongside troubleshooting steps for network connectivity issues via the ping command, and introduces Rheonics Digital Signals.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Digital Signals"
+      ],
+      "extracted_text": "Figure 19. Message Text and showing decimal numbers\n\n9. Troubleshooting\nOne of the most common issues, especially in the early stages of configuration, is incorrect network settings.\nA helpful tool for testing connectivity is the ping command (ping <LOGO! IP address>), which can be run in the command prompt. A successful ping response indicates that the network configuration is likely correct.\n\nC:\\WINDOWS\\system32\\cmd.exe\nMicrosoft Windows [Version 5.2.3790]\n(C) Copyright 1985-2003 Microsoft Corp.\nC:\\Documents and Settings\\Administrator>ping 192.168.1.147\n\nPinging 192.168.1.147 with 32 bytes of data:\nReply from 192.168.1.147: bytes=32 time<1ms TTL=64\nReply from 192.168.1.147: bytes=32 time<1ms TTL=64\nReply from 192.168.1.147: bytes=32 time<1ms TTL=64\nReply from 192.168.1.147: bytes=32 time<1ms TTL=64\n\nPing statistics for 192.168.1.147:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 0ms, Average = 0ms\nC:\\Documents and Settings\\Administrator>\n\nFigure 20. Ping Command on Command Prompt\n\nThe two most common causes for connectivity issues are:\n1. A damaged or improperly crimped Ethernet cable.\n2. Misconfiguration, such as incorrect IP addresses or subnet masks.\n\n10. Rheonics Digital Signals",
+      "specifications": {
+        "B001_EAQ_value": "293",
+        "B001_Type": "Float",
+        "B001_VM_value": "0",
+        "B001_Offset_value": "0",
+        "B001_Res_value": "0.100",
+        "B002_input_value": "293",
+        "B002_Gain": "1.0+",
+        "B002_Offset": "0",
+        "B002_Point": "1",
+        "B003_Pri_value": "0",
+        "LOGO_display_viscosity": "29.3 cP",
+        "Ping_data_bytes": "32 bytes",
+        "Ping_time_per_reply": "<1ms",
+        "Ping_TTL": "64",
+        "Ping_packets_sent": "4",
+        "Ping_packets_received": "4",
+        "Ping_packets_lost": "0",
+        "Ping_loss_percentage": "0%",
+        "Ping_RTT_minimum": "0ms",
+        "Ping_RTT_maximum": "0ms",
+        "Ping_RTT_average": "0ms"
+      },
+      "key_facts": [
+        "Incorrect network settings are a common issue during the early stages of configuration.",
+        "The ping command is a helpful tool for testing network connectivity.",
+        "A successful ping response indicates that the network configuration is likely correct.",
+        "Common causes for connectivity issues include damaged or improperly crimped Ethernet cables.",
+        "Misconfiguration, such as incorrect IP addresses or subnet masks, can lead to connectivity problems.",
+        "A LOGO! display can be configured to show text and decimal numbers, such as 'Viscosity 29.3 cP'."
+      ],
+      "diagram_labels": [
+        "Figure 19. Message Text and showing decimal numbers",
+        "B001",
+        "F/l",
+        "EAQ",
+        "293",
+        "Type=Float",
+        "VM=0",
+        "Offset=0",
+        "Res=0.100",
+        "B002",
+        "A->",
+        "+-",
+        "293",
+        "Gain=1.0+",
+        "Offset=0",
+        "Point=1",
+        "AM1",
+        "AM",
+        "B003",
+        "X1",
+        "X",
+        "Pri=0",
+        "Quit=off",
+        "Text1: enabled",
+        "Text2: disabled",
+        "Message texts",
+        "0",
+        "LOGO! Display",
+        "Details",
+        "Viscosity",
+        "29.3",
+        "cP",
+        "Character set1",
+        "Character set2",
+        "C:\\WINDOWS\\system32\\cmd.exe",
+        "Microsoft Windows [Version 5.2.3790]",
+        "(C) Copyright 1985-2003 Microsoft Corp.",
+        "C:\\Documents and Settings\\Administrator>ping 192.168.1.147",
+        "Pinging 192.168.1.147 with 32 bytes of data:",
+        "Reply from 192.168.1.147: bytes=32 time<1ms TTL=64",
+        "Ping statistics for 192.168.1.147:",
+        "Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),",
+        "Approximate round trip times in milli-seconds:",
+        "Minimum = 0ms, Maximum = 0ms, Average = 0ms",
+        "C:\\Documents and Settings\\Administrator>",
+        "Figure 20. Ping Command on Command Prompt"
+      ],
+      "warnings_notes": [],
+      "page_num": 16,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1481,
+        "cost_usd": 0.0038422999999999994
+      },
+      "source_file": "152_Rheonics_Modbus_TCP_Integration_with_LOGO!_Siemens_PLC.pdf"
+    },
+    {
+      "page_summary": "This page discusses the advantages of digital communication protocols, specifically Modbus TCP, over traditional analog signals for industrial applications, and provides references for Rheonics' viscometers, density meters, and related communication resources.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV Inline Viscometer",
+        "SRD Inline Density Meter"
+      ],
+      "extracted_text": "Digital communication protocols like Modbus TCP have significantly improved industrial communication by addressing the limitations of traditional analog signals. While analog communication, such as 4-20 mA current loops, has been a longstanding standard due to its simplicity and low cost for basic measurements, it falls short in several critical areas.\n\n*   Multiple Data Transmission: Unlike analog signals that transmit only one piece of information per channel, digital protocols allow multiple data types to be sent over a single interface simultaneously.\n*   Resistance to Electrical Interference: Digital signals are inherently less susceptible to electrical noise, making them ideal for industrial environments with high electromagnetic interference.\n*   Scalability and Flexibility: Digital networks enable multiple devices to communicate over a single network cable or wireless connection. This scalability reduces wiring complexity and facilitates system expansion.\n\nThe choice between analog and digital communication ultimately depends on the application. However, for precise and dependable viscosity control, the use of digital communication is highly recommended. For detailed information on all available communication options for Rheonics viscosity and density meters, visit Communication: Rheonics Support Portal (https://support.rheonics.com/en/support/solutions/81000100945).\n\n11. References\n\n1.  Rheonics, \"SRV Inline Viscometer.\" [Online]. Available: Rheonics SRV » inline online Viscometer for fluid viscosity monitoring (https://rheonics.com/products/inline-viscometer-srv/). [Accessed: Nov. 26, 2024].\n2.  Rheonics, \"SRD Inline Density Meter.\" [Online]. Available: rheonics SRD » Density Meter inline online specific gravity concentration. (https://rheonics.com/products/inline-density-meter-srd/). [Accessed: Nov. 26, 2024].\n3.  Rheonics, \"Electronics and Communication.\" [Online]. Available: Electronics and Communication » rheonics:: viscometer and density meter. (https://rheonics.com/electronics-and-communication/). [Accessed: Nov. 26, 2024].\n4.  Rheonics, \"Modbus TCP Input Registers.\" [Online]. Available: Modbus TCP - Input Registers. (https://support.rheonics.com/en/support/solutions/articles/81000297664-modbus-tcp-input-registers). [Accessed: Nov. 26, 2024].\n5.  Siemens, LOGO! Soft Comfort Online Help Operating Instructions, Version 08/2024. [Embedded Manual].\n6.  Siemens, LOGO! – Modbus/TCP Communication using the Example of SENTRON PAC, Entry ID: 109779762, Version 1.0, July 2020. [Online]. Available: SIOS (https://support.industry.siemens.com/cs/start?lc=en-US). [Accessed: Nov. 26, 2024].",
+      "specifications": {
+        "Analog current loop type": "4-20 mA",
+        "Siemens LOGO! Soft Comfort Online Help Operating Instructions version": "08/2024",
+        "Siemens LOGO! – Modbus/TCP Communication document version": "1.0, July 2020"
+      },
+      "key_facts": [
+        "Digital communication protocols like Modbus TCP have significantly improved industrial communication by addressing the limitations of traditional analog signals.",
+        "Analog communication, such as 4-20 mA current loops, has been a longstanding standard due to its simplicity and low cost for basic measurements, but it falls short in several critical areas.",
+        "Digital protocols allow multiple data types to be sent over a single interface simultaneously, unlike analog signals that transmit only one piece of information per channel.",
+        "Digital signals are inherently less susceptible to electrical noise, making them ideal for industrial environments with high electromagnetic interference.",
+        "Digital networks enable multiple devices to communicate over a single network cable or wireless connection, reducing wiring complexity and facilitating system expansion.",
+        "For precise and dependable viscosity control using Rheonics viscosity and density meters, the use of digital communication is highly recommended."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 17,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1045,
+        "cost_usd": 0.0027522999999999996
+      },
+      "source_file": "152_Rheonics_Modbus_TCP_Integration_with_LOGO!_Siemens_PLC.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

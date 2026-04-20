@@ -1,0 +1,70 @@
+{
+  "source_file": "SRV_EHEDG_flush.pdf",
+  "total_pages": 1,
+  "chunks": [
+    {
+      "page_summary": "This page presents a technical drawing with dimensions and specifications for the Rheonics SRV EHEDG flush inline viscometer, including flange options and EHEDG compliance criteria.",
+      "document_type": "drawing",
+      "product_names": [
+        "SRV EHEDG flush"
+      ],
+      "extracted_text": "30\nΦ [ 1,18” ]\nA\n73,6\n[ 2,90” ]\nΦ 13,9\n[ ,55” ]\nΦ 5\n[ ,20” ]\nsensing area\n45,7\n[ 1,80” ]\n50\n[ 1,97” ]\nΦ 8\n[ ,31” ]\nA\nSchnitt A-A\n\nSpecify flange in Order.\nAvailable sizes are as follows:\n- DIN11853-1/2/3, Nominal diameter >=DN20\n- DIN11864-1/2/3, Nominal diameter >=DN20\n- DIN 11851, Nominal diameter >=DN20\n- ISO 2852 (DIN 32676 B), Nominal diameter >=DN20\n- Others; Variline®, BofControl®, etc.\n\nΦ D\nDead space\nAll wetted surfaces\nare < Ra 0.8\n19,7\n[ ,77” ]\nL\nFor EHEDG compliance\nthe criterion:\nD-5mm>L\nmust be fulfilled\n\nUnits: mm\n[inch]\n\nSRV EHEDG flush\n\nThis drawing remains property of rheonics. It may be neither copied nor informed to third persons\nor competitors without our approval. ( 2 paragraph 1 fig.7 copyright act of 9th Sept. 1965)\n\nrheonics\ninline process\ndensity and viscosity\nmonitoring\n\nProtected by US and International patents granted and pending\n\nrheonics • Switzerland • USA • www.rheonics.com • info@rheonics.com +41 52 511 32 00 +1 713 364 5427",
+      "specifications": {
+        "top_head_diameter": "30 mm [1.18 in]",
+        "top_section_height": "73.6 mm [2.90 in]",
+        "mid_body_diameter": "13.9 mm [0.55 in]",
+        "neck_diameter": "5 mm [0.20 in]",
+        "sensing_area_diameter": "8 mm [0.31 in]",
+        "total_probe_length_from_flange": "50 mm [1.97 in]",
+        "sensing_area_length": "45.7 mm [1.80 in]",
+        "bottom_tip_length_in_section_view": "19.7 mm [0.77 in]",
+        "wetted_surface_roughness": "< Ra 0.8",
+        "flange_nominal_diameter_DIN11853_1_2_3": ">=DN20",
+        "flange_nominal_diameter_DIN11864_1_2_3": ">=DN20",
+        "flange_nominal_diameter_DIN11851": ">=DN20",
+        "flange_nominal_diameter_ISO2852_DIN32676B": ">=DN20",
+        "ehedg_compliance_criterion": "D-5mm>L"
+      },
+      "key_facts": [
+        "The document provides a technical drawing with dimensions for the Rheonics SRV EHEDG flush viscometer.",
+        "Rheonics specializes in inline process density and viscosity monitoring.",
+        "The drawing specifies dimensions in both millimeters and inches.",
+        "Flange type and size must be specified when placing an order.",
+        "Available flange sizes include DIN11853-1/2/3, DIN11864-1/2/3, DIN 11851, ISO 2852 (DIN 32676 B), Variline®, and BofControl®.",
+        "All wetted surfaces of the device are required to have a roughness less than Ra 0.8.",
+        "For EHEDG compliance, the criterion D-5mm>L must be fulfilled.",
+        "The drawing is proprietary property of Rheonics and may not be copied or shared without approval.",
+        "The product is protected by US and International patents.",
+        "Rheonics operates from Switzerland and the USA, with contact information provided."
+      ],
+      "diagram_labels": [
+        "A",
+        "sensing area",
+        "Schnitt A-A",
+        "Dead space",
+        "Φ D",
+        "L"
+      ],
+      "warnings_notes": [
+        "This drawing remains property of rheonics. It may be neither copied nor informed to third persons or competitors without our approval. ( 2 paragraph 1 fig.7 copyright act of 9th Sept. 1965)",
+        "Protected by US and International patents granted and pending",
+        "Specify flange in Order.",
+        "All wetted surfaces are < Ra 0.8",
+        "For EHEDG compliance the criterion: D-5mm>L must be fulfilled"
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1283,
+        "cost_usd": 0.0033473
+      },
+      "source_file": "SRV_EHEDG_flush.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "source_file": "207_APC_-_Connector_for_adapting_viscometer_and_density_meter_probe_in_changing_process_mounting.pdf",
+  "total_pages": 3,
+  "chunks": [
+    {
+      "page_summary": "This document describes the Rheonics APC, an adjustable process connector accessory designed to adapt viscometer and density meter probes for changing process mounting, detailing its components, function, and specifications.",
+      "document_type": "datasheet",
+      "product_names": [
+        "APC",
+        "Rheonics SRV viscometer",
+        "SRD density and viscosity meter",
+        "SRx long insertion probe variant"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nAPC - Connector for adapting viscometer and density meter probe in changing process mounting\n\nModified on: Wed, 21 Jan, 2026 at 2:59 PM\n\nWhat is the purpose of this article?\nTo provide information about Rheonics APC, adjustable process connector accessory, what it is, when and why to use it with examples.\n\nWhat products are involved?\nThe APC is compatible with Rheonics SRV viscometer (https://rheonics.com/products/inline-viscometer-srv/), and SRD density and viscosity meter (https://rheonics.com/products/inline-density-meter-srd/).\n\nIntroduction\n\nThe Rheonics APC is an adjustable process connection accessory that can be used to clamp an industrial flange, connector, or adapter to the Rheonics SRV and SRD sensor probe's body without welding.\n\nThe accessory is attached to the sensor probe with a compression fitting at the back. When threaded, the compression nut (CN-APC) deforms the back ferrule (BF-APC), fixing the accessory to the sensor's probe. Depending on the material of the back ferrule, the user may be able to continuously change the position of the APC (PEEK) or have it always fixed at the same point (stainless steel). The point at which the APC is placed on the probe, defines the insertion length, which is the distance from the probe tip to the flange or adapter. The minimum insertion length with the APC is 80 mm and the maximum insertion length will be determined by the total length of the probe.\n\nReview more information on the APC accessory web page (https://rheonics.com/product-accessories/apc/).\n\nNext figure shows the APC and all parts required for the assembly.\n\nFigure 1: APC components\n\nTable 1: APC Specifications\n\nConnection to probe\nBy compression fitting\n\nConnection to process\nBy compression lock nut\n\nProcess connection\nAny with OD bigger than 3\" (DN75)\nMax. thickness of 1\" (25 mm)\n\nInsertion length\nAny\n\nMaterial\nStainless Steel (SS) 316L\nBack Ferrule - SS 316L or PTFE.\nO-Rings - FKM\n\nPressure rating\nAmbient pressure\n\nDrawing\nRheonics APC PDF drawing (https://rheonics.com/wp-content/uploads/2024/05/APC_SR-X5_Customer-Drawing.pdf)\n\nThe APC accessory should NOT be used as sealing and/or connection of probe inline for pressurized applications",
+      "specifications": {
+        "connection_to_probe": "By compression fitting",
+        "connection_to_process": "By compression lock nut",
+        "process_connection_compatibility": "Any with OD bigger than 3\" (DN75), Max. thickness of 1\" (25 mm)",
+        "insertion_length": "Any",
+        "material": "Stainless Steel (SS) 316L (body); Back Ferrule - SS 316L or PTFE; O-Rings - FKM",
+        "pressure_rating": "Ambient pressure",
+        "drawing": "Rheonics APC PDF drawing (https://rheonics.com/wp-content/uploads/2024/05/APC_SR-X5_Customer-Drawing.pdf)",
+        "min_insertion_length": "80 mm",
+        "max_thickness_process_connection": "1 inch (25 mm)",
+        "overall_height": "78 mm [3.09 in]"
+      },
+      "key_facts": [
+        "The Rheonics APC is an adjustable process connection accessory.",
+        "It can be used to clamp industrial flanges, connectors, or adapters to Rheonics SRV and SRD sensor probes without welding.",
+        "The accessory attaches to the sensor probe with a compression fitting.",
+        "The compression nut (CN-APC) deforms the back ferrule (BF-APC) to fix the accessory to the probe.",
+        "Depending on the back ferrule material, the user can continuously change the APC's position (PEEK) or have it fixed (stainless steel).",
+        "The APC defines the insertion length, which is the distance from the probe tip to the flange or adapter.",
+        "The minimum insertion length with the APC is 80 mm.",
+        "The maximum insertion length is determined by the total length of the probe.",
+        "The APC is compatible with Rheonics SRV viscometers and SRD density and viscosity meters."
+      ],
+      "diagram_labels": [
+        "BF-APC Back Ferrule",
+        "CN-APC Compression Nut",
+        "MB-APC Mandrel",
+        "TN-APC Threaded Nut",
+        "Custom flange or adapter",
+        "OR-APC φ42x2.5 O-ring",
+        "FS-APC φ30x2.5 Seal",
+        "SRx long insertion probe variant",
+        "Rheonics APC",
+        "78",
+        "[3.09]"
+      ],
+      "warnings_notes": [
+        "The APC accessory should NOT be used as sealing and/or connection of probe inline for pressurized applications."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1331,
+        "cost_usd": 0.0034672999999999995
+      },
+      "source_file": "207_APC_-_Connector_for_adapting_viscometer_and_density_meter_probe_in_changing_process_mounting.pdf"
+    },
+    {
+      "page_summary": "This page details the use cases, installation methods, compatibility, and assembly guidance for the Rheonics Adjustable Process Connector (APC) with various viscosity and density sensors.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "APC",
+        "Rheonics Viscosity and/or Density Sensors",
+        "SRV",
+        "SRD",
+        "SRV-TT (-X8) Probe",
+        "Rheonics Protective Cage",
+        "TMA-TT",
+        "SRV-X5 Long insertion probe",
+        "SRD-X5 Long insertion probe",
+        "SRV-X8 Teletube",
+        "SRD-X8 Teletube"
+      ],
+      "extracted_text": "APC use cases\nThe APC can be considered an accessory attached to the sensor probe (not welded) that can be used to clamp the probe to flanges or any external piece that may be used to install the probe to external structures.\n\nFigure 2: APC Use examples\nAPC with a Flange connection\nAPC with a Tri-Clamp connection\nAPC used to fixed the probe to an external structure\n\nAPC used with flanges\nThe process connector can be threaded, Tri-Clamp, Flange (ANSI, DIN, etc.), Varinline, etc. A compatible flange requires a diameter bigger than 43 mm, a thickness no bigger than 25 mm (1\"), and a bore-through hole of ø42.2mm. While the matching flange must have an ID bigger than 50 mm for the APC mandrel front side to fit. Examples are shown in first and second images of Figure 2. For Tri-Clamp, for example, minimum compatible size is 2.5\" (ASME).\nFlanges need the bore-through hole of approximately 42.2 mm so the APC mandrel can go through the flange. This machined flange may be delivered by Rheonics or supplied directly by end-user. Find the interface drawing here (https://cdn.rheonics.com/wp-content/uploads/2024/01/apc_interface-drawing.pdf).\nOnly use use the APC with flanges to seal and install the probe in the process line or tank, when the application has ambient pressure.\n\nAPC used to fix the probe to external structure\nFor some applications, the Rheonics Viscosity and/or Density Sensors need to be attached or installed in custom structures without a flange or process connections. In these cases, probes are usually clamped or fixed to external structures like robot arms, static or movable beams or shafts, etc. An example is shown in third picture of Figure 2.\n\nFigure 3: Rheonics viscometer using APC accessory for mounting in external structure e.g. mobile arm.\nSystem Retracted\nRheonics APC Connection Accessory\nSRV-TT (-X8) Probe Custom Length\nRheonics Protective Cage e.g. TMA-TT\nSystem Immersed\n\nFor example, for paint's viscosity measurement, often times the SRV needs to measure the fluid in multiple mixing or storage tanks or buckets that are exchanged. The sensor works here as a drop-in viscosity measurement, with enough time for readings to stabilize and correct cleaning between different paints to avoid solidification. Find an example drawing here (https://cdn.rheonics.com/wp-content/uploads/2024/05/Rheonics-SRV-Process-Viscometer-Installation-in-Mobile-Arm.pdf).\nFor open tanks like slurry drums, the SRV or SRD sensor can use the APC as a quick-release mounting system at the tank's wall.\n\nAPC Compatibility\nThe Rheonics APC is useful for long insertion probes like the following:\n*   SRV-X5 Long insertion probe (https://support.rheonics.com/support/solutions/articles/81000411102-srv-x5-long-insertion-probe)\n*   SRD-X5 Long insertion probe (https://support.rheonics.com/support/solutions/articles/81000411193-srd-x5-long-insertion-probe)\n*   SRV-X8 Teletube (https://support.rheonics.com/en/support/solutions/articles/81000412793-srv-x8-teletube-ultra-long-insertion-viscometer)\n*   SRD-X8 Teletube (https://support.rheonics.com/en/support/solutions/articles/81000412795-srd-x8-teletube-ultra-long-insertion-density-and-viscosity-meter)\n\nHow to assemble the APC?\nRefer to the Rheonics APC assembly guideline article (https://support.rheonics.com/en/support/solutions/articles/81000413923-apc-adjustable-process-connector-assembly-guideline) for instructions on assembly.",
+      "specifications": {
+        "compatible_flange_diameter": "> 43 mm",
+        "compatible_flange_thickness": "≤ 25 mm (1\")",
+        "compatible_flange_bore-through_hole": "ø42.2 mm",
+        "matching_flange_ID": "> 50 mm",
+        "tri-clamp_minimum_compatible_size": "2.5\" (ASME)"
+      },
+      "key_facts": [
+        "The APC is an accessory attached to the sensor probe, used to clamp the probe to flanges or any external structure.",
+        "The APC process connector can be threaded, Tri-Clamp, Flange (ANSI, DIN, etc.), or Varinline.",
+        "The APC is designed for use with flanges only when the application has ambient pressure.",
+        "The APC can be used to attach or install Rheonics Viscosity and/or Density Sensors in custom structures without flanges or process connections, such as robot arms or movable beams.",
+        "The APC is useful for long insertion probes.",
+        "For open tanks like slurry drums, the SRV or SRD sensor can use the APC as a quick-release mounting system at the tank's wall."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "APC with a Flange connection",
+        "APC with a Tri-Clamp connection",
+        "APC used to fixed the probe to an external structure",
+        "Figure 2: APC Use examples",
+        "Rheonics APC Connection Accessory",
+        "SRV-TT (-X8) Probe Custom Length",
+        "Rheonics Protective Cage e.g. TMA-TT",
+        "System Retracted",
+        "System Immersed",
+        "Figure 3: Rheonics viscometer using APC accessory for mounting in external structure e.g. mobile arm."
+      ],
+      "warnings_notes": [
+        "Only use the APC with flanges to seal and install the probe in the process line or tank, when the application has ambient pressure.",
+        "Correct cleaning between different paints is necessary to avoid solidification when measuring paint's viscosity with the SRV."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1605,
+        "cost_usd": 0.0041523
+      },
+      "source_file": "207_APC_-_Connector_for_adapting_viscometer_and_density_meter_probe_in_changing_process_mounting.pdf"
+    },
+    {
+      "page_summary": "This page lists two external references related to Rheonics APC accessories and assembly guidelines.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics APC"
+      ],
+      "extracted_text": "References\n1. Rheonics APC accessory web page (https://rheonics.com/product-accessories/apc/)\n2. Rheonics APC assembly guideline article (https://support.rheonics.com/en/support/solutions/articles/81000413923-apc-adjustable-process-connector-assembly-guideline)",
+      "specifications": {},
+      "key_facts": [
+        "Information about Rheonics APC accessories can be found on their product accessories web page.",
+        "Assembly guidelines for Rheonics APC are detailed in a support article titled 'APC Adjustable Process Connector Assembly Guideline'."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 226,
+        "cost_usd": 0.0007048
+      },
+      "source_file": "207_APC_-_Connector_for_adapting_viscometer_and_density_meter_probe_in_changing_process_mounting.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

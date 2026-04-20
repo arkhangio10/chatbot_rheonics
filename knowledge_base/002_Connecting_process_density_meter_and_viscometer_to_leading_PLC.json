@@ -1,0 +1,980 @@
+{
+  "source_file": "002_Connecting_process_density_meter_and_viscometer_to_leading_PLC.pdf",
+  "total_pages": 21,
+  "chunks": [
+    {
+      "page_summary": "This page details how Rheonics inline process viscometers and density meters can be integrated with various Programmable Logic Controllers (PLCs) using multiple communication protocols.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "Rheonics inline process viscometer SRV",
+        "Rheonics inline process density meter SRD",
+        "Rheonics sensors"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nConnecting process density meter and viscometer to leading PLC\n\nModified on: Mon, 11 Nov, 2024 at 6:24 PM\n\nPLC, or Programmable Logic Controller, is a key component in industrial automation and control systems. It serves as a digital computer that is designed to control and monitor different processes within manufacturing environments. PLCs are widely used across various industries to enhance efficiency, improve productivity, and ensure reliable operation. Here are five paragraphs to provide an overview of PLCs.\n\nThis article shows how Rheonics inline process viscometer SRV and inline process density meter SRD support most of the leading PLC in quick integration of viscosity, density and temperature data over various digital and analog protocols.\n\nRheonics sensors support natively a multitude of analog and digital communication protocols from 4-20mA, HART, Ethernet/IP, Modbus RTU/TCP, Profinet to CAN and soon to be available IO-Link. Check the PLC you pan to use and see examples of how Rheonics sensors have been successfully connected to them.\n\nTABLE OF CONTENTS\n* Introduction to Programmable Logic Controllers (PLC)\n* Functionality and Programming of PLC\n* Applications of PLC\n* Key providers of PLC and how to integrate Rheonics density meter and viscometers to them.\n* Siemens\n* Allen Bradley (Rockwell Automation)\n* ABB\n* B&R Automation\n* Mitsubishi Electric\n* Omron\n* Delta\n* Honeywell Process\n* Emerson\n* Schneider Electric\n* Yokogawa\n* Bosch Rexroth\n* Keyence\n* IDEC\n* Panasonic\n* Fuji Electric\n* Toshiba\n* Beckhoff\n* Wago",
+      "specifications": {
+        "Analog communication protocol": "4-20mA"
+      },
+      "key_facts": [
+        "PLC, or Programmable Logic Controller, is a key component in industrial automation and control systems.",
+        "Rheonics inline process viscometer SRV and inline process density meter SRD support most of the leading PLC in quick integration of viscosity, density and temperature data over various digital and analog protocols.",
+        "Rheonics sensors support natively a multitude of analog and digital communication protocols including 4-20mA, HART, Ethernet/IP, Modbus RTU/TCP, Profinet, CAN, and soon IO-Link."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 669,
+        "cost_usd": 0.0018123
+      },
+      "source_file": "002_Connecting_process_density_meter_and_viscometer_to_leading_PLC.pdf"
+    },
+    {
+      "page_num": 2,
+      "page_summary": "Extraction failed",
+      "document_type": "unknown",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "extraction_failed": true,
+      "source_file": "002_Connecting_process_density_meter_and_viscometer_to_leading_PLC.pdf"
+    },
+    {
+      "page_summary": "This page provides information on Rheonics sensor integration protocols and dedicated integration pages for Siemens PLCs and Allen Bradley (Rockwell Automation) PLC systems.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Sensors",
+        "Siemens PLCs",
+        "Siemens PLC S7-1200",
+        "ControlLogix",
+        "CompactLogix",
+        "Studio5000",
+        "Allen Bradley PLCs",
+        "Rockwell Automation PLCs"
+      ],
+      "extracted_text": "Rheonics sensor integration protocol: Profinet (https://support.rheonics.com/en/support/solutions/folders/81000292663), Modbus RTU over RS-485 (https://support.rheonics.com/en/support/solutions/folders/81000217005), and Profibus.\nIntegration page: Siemens PLC integration with Rheonics Sensors (https://support.rheonics.com/en/support/solutions/articles/81000401598-rheonics-sensor-integration-with-siemens-plc-s7-1200-using-tia-portal)\n\nFigure 1. Siemens PLCs.\n\nAllen Bradley (Rockwell Automation)\nAllen Bradley, a division of Rockwell Automation, provides robust PLC solutions. Their ControlLogix and CompactLogix series are widely used in industrial automation. For more information check:\nhttps://www.rockwellautomation.com/en-us.html (https://www.rockwellautomation.com/en-us.html)\nEngineering tool: Studio5000 (https://www.rockwellautomation.com/en-us/products/software/factorytalk/designsuite/studio-5000.html)\nRheonics sensor integration protocol: _ (https://us.profinet.com/) Ethernet/IP (https://support.rheonics.com/en/support/solutions/folders/81000288489) and Modbus RTU over RS-485 (https://support.rheonics.com/en/support/solutions/folders/81000217005)\nIntegration page: Allen Bradley and Rockwell PLC integration with Rheonics Sensors (https://support.rheonics.com/en/support/solutions/folders/81000293570)",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics sensors support integration with Siemens PLCs using Profinet, Modbus RTU over RS-485, and Profibus protocols.",
+        "Rheonics provides a dedicated support page for Siemens PLC S7-1200 integration using TIA Portal.",
+        "Allen Bradley, a division of Rockwell Automation, offers robust PLC solutions including the ControlLogix and CompactLogix series.",
+        "ControlLogix and CompactLogix series PLCs from Allen Bradley are widely used in industrial automation.",
+        "Studio5000 is an engineering tool associated with Allen Bradley/Rockwell Automation systems.",
+        "Rheonics sensors support integration with Allen Bradley and Rockwell PLCs using Ethernet/IP and Modbus RTU over RS-485 protocols.",
+        "Rheonics provides a dedicated integration page for Allen Bradley and Rockwell PLC integration with Rheonics sensors."
+      ],
+      "diagram_labels": [
+        "Figure 1. Siemens PLCs."
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 796,
+        "cost_usd": 0.0021298
+      },
+      "source_file": "002_Connecting_process_density_meter_and_viscometer_to_leading_PLC.pdf"
+    },
+    {
+      "page_summary": "This page provides an overview of Rockwell Automation and ABB Programmable Logic Controllers (PLCs), including information on Rheonics sensor integration protocols with ABB systems.",
+      "document_type": "manual",
+      "product_names": [
+        "AC500 series",
+        "Automation Builder",
+        "Profinet",
+        "Modbus RTU over RS-485",
+        "Allen-Bradley PLCs",
+        "CompactLogix",
+        "GuardLogix",
+        "Logix5000",
+        "AC500-S"
+      ],
+      "extracted_text": "Figure 2. Rockwell Automation PLCs.\n\nABB\nABB offers programmable logic controllers known for their high performance and scalability. Their AC500 series is popular among various industries. For more information check:\nhttps://new.abb.com/plc/programmable-logic-controllers-plcs\nEngineering tool: Automation Builder (https://new.abb.com/plc/automationbuilder)\nRheonics sensor integration protocol: Profinet (https://us.profinet.com/) and Modbus RTU over RS-485 (https://support.rheonics.com/en/support/solutions/folders/81000217005)\n\nFigure 3. ABB PLCs.\n\nB&R Automation",
+      "specifications": {},
+      "key_facts": [
+        "Rockwell Automation produces Programmable Logic Controllers (PLCs).",
+        "ABB offers programmable logic controllers (PLCs) renowned for their high performance and scalability.",
+        "The ABB AC500 series of PLCs is widely adopted across various industries.",
+        "The engineering tool for ABB PLCs is Automation Builder.",
+        "Rheonics sensors support integration via the Profinet protocol.",
+        "Rheonics sensors support integration via the Modbus RTU over RS-485 protocol."
+      ],
+      "diagram_labels": [
+        "Allen-Bradley",
+        "EtherNet/IP",
+        "CompactLogix™ 5380",
+        "GuardLogix™ 5380",
+        "Logix5000™",
+        "1756-L81EP",
+        "1756-L83X",
+        "1756-L85E",
+        "1756-L84S",
+        "2080-LC50-24QBB",
+        "2080-RTS1",
+        "2080-OW4",
+        "AC500-S",
+        "ABB"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 622,
+        "cost_usd": 0.0016948000000000002
+      },
+      "source_file": "002_Connecting_process_density_meter_and_viscometer_to_leading_PLC.pdf"
+    },
+    {
+      "page_summary": "This page provides information on integrating Rheonics sensors with B&R Automation and Mitsubishi Electric PLCs, detailing compatible engineering tools and communication protocols.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics sensors",
+        "B&R Automation X20 series PLCs",
+        "Automation Studio 4",
+        "Mitsubishi Electric MELSEC series PLCs",
+        "GX Works3",
+        "Ethernet/IP",
+        "Profinet",
+        "Modbus TCP/RTU over RS-485"
+      ],
+      "extracted_text": "B&R Automation offers a comprehensive range of PLC solutions for industrial automation. Their X20 series PLCs provide high-performance control and extensive connectivity options, making them suitable for demanding applications. For more information check: https://www.br-automation.com/en/\nEngineering tool: Automation Studio 4 (https://download.br-automation.com/BRP4440000000000000661400/AS_4.9.2_RevInfoE.pdf?px-hash=30559a464763a2380a438b2cfe61d5f2&px-time=1692801848)\nRheonics sensor integration protocol: Ethernet/IP (https://us.profinet.com/), Profinet (https://support.rheonics.com/en/support/solutions/folders/81000288489), and Modbus TCP/RTU over RS-485 (https://support.rheonics.com/en/support/solutions/folders/81000217005)\nIntegration page: https://support.rheonics.com/en/support/solutions/folders/81000286852 (https://support.rheonics.com/en/support/solutions/folders/81000286852)\nFigure 4. B&R Automation PLCs.\nMitsubishi Electric\nMitsubishi Electric's MELSEC series PLCs are known for their advanced features and flexibility. They offer a range of models suitable for various automation applications. For more information check: https://www.mitsubishielectric.com/fa/products/cnt/plc/ (https://www.mitsubishielectric.com/fa/products/cnt/plc/)\nEngineering tool: GX Works3 (https://us.mitsubishielectric.com/fa/en/support/technical-support/knowledge-base/getdocument/?docid=3E26SJWH3ZZR-38-1936)\nRheonics sensor integration protocol: Ethernet/IP (https://us.profinet.com/), Profinet (https://support.rheonics.com/en/support/solutions/folders/81000288489), and Modbus TCP/RTU over RS-485 (https://support.rheonics.com/en/support/solutions/folders/81000217005)",
+      "specifications": {},
+      "key_facts": [
+        "B&R Automation's X20 series PLCs are suitable for demanding industrial automation applications due to high-performance control and extensive connectivity.",
+        "The designated engineering tool for B&R Automation PLCs is Automation Studio 4.",
+        "Rheonics sensors integrate with B&R Automation PLCs using Ethernet/IP, Profinet, and Modbus TCP/RTU over RS-485 communication protocols.",
+        "Mitsubishi Electric's MELSEC series PLCs offer advanced features and flexibility for various automation applications.",
+        "The designated engineering tool for Mitsubishi Electric PLCs is GX Works3.",
+        "Rheonics sensors integrate with Mitsubishi Electric PLCs using Ethernet/IP, Profinet, and Modbus TCP/RTU over RS-485 communication protocols."
+      ],
+      "diagram_labels": [
+        "Figure 4. B&R Automation PLCs."
+      ],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 939,
+        "cost_usd": 0.0024872999999999996
+      },
+      "source_file": "002_Connecting_process_density_meter_and_viscometer_to_leading_PLC.pdf"
+    },
+    {
+      "page_summary": "This page provides an overview of various Programmable Logic Controller (PLC) manufacturers, specifically Mitsubishi Electric, Omron, and Delta, detailing their product lines and mentioning Rheonics sensor integration protocols for Omron PLCs.",
+      "document_type": "manual",
+      "product_names": [
+        "Mitsubishi Electric PLCs",
+        "Omron CJ series PLCs",
+        "Sysmac Studio",
+        "Rheonics sensors",
+        "Delta PLCs",
+        "Delta DVP series PLCs",
+        "SYSMAC CP1E"
+      ],
+      "extracted_text": "Figure 5. Mitsubishi Electric PLCs.\n\nOmron\nOmron provides reliable and efficient PLC solutions for automation needs. Their CJ series offers excellent performance and connectivity options. For more information check: https://www.ia.omron.com/\nEngineering tool: Sysmac Studio (https://automation.omron.com/es/mx/products/family/SYSSTDIO)\nRheonics sensor integration protocol: (https://us.profinet.com/) Modbus RTU over RS-485 (https://support.rheonics.com/en/support/solutions/folders/81000217005) and Ethernet/IP (https://support.rheonics.com/en/support/solutions/folders/81000288489).\n\nFigure 6. Omron PLCs.\n\nDelta\nDelta offers a diverse range of PLCs, including its DVP series, which is known for its compact size and cost-effectiveness. For more information check: https://www.deltaww.com/en-US/index (https://www.deltaww.com/en-US/index).",
+      "specifications": {},
+      "key_facts": [
+        "Mitsubishi Electric PLCs are depicted in Figure 5.",
+        "Omron offers reliable and efficient PLC solutions for automation needs.",
+        "The Omron CJ series provides excellent performance and connectivity options.",
+        "Sysmac Studio is the engineering tool for Omron PLCs.",
+        "Rheonics sensors integrate with Omron PLCs using Modbus RTU over RS-485 and Ethernet/IP protocols.",
+        "Omron PLCs are shown in Figure 6.",
+        "Delta provides a diverse range of PLCs.",
+        "Delta's DVP series PLCs are noted for their compact size and cost-effectiveness."
+      ],
+      "diagram_labels": [
+        "Figure 5. Mitsubishi Electric PLCs.",
+        "OMRON",
+        "SYSMAC CP1E",
+        "BATTERY",
+        "PERIPHERAL",
+        "Figure 6. Omron PLCs."
+      ],
+      "warnings_notes": [],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 631,
+        "cost_usd": 0.0017173000000000002
+      },
+      "source_file": "002_Connecting_process_density_meter_and_viscometer_to_leading_PLC.pdf"
+    },
+    {
+      "page_summary": "This page details engineering tools and Rheonics sensor integration protocols for Delta and Honeywell Process PLCs, illustrating both types of Programmable Logic Controllers.",
+      "document_type": "manual",
+      "product_names": [
+        "ISPsoft",
+        "Delta PLCs",
+        "MasterLogic PLC",
+        "ControlEdge PLCs",
+        "SoftMaster V4.72.99C",
+        "Rheonics sensors"
+      ],
+      "extracted_text": "Engineering tool: ISPsoft (https://www.deltaww.com/en-US/products/PLC-Programmable-Logic-Controllers/3598)\nRheonics sensor integration protocol: (https://us.profinet.com/) Modbus RTU over RS-485 (https://support.rheonics.com/en/support/solutions/folders/81000217005) and Ethernet/IP (https://support.rheonics.com/en/support/solutions/folders/81000288489).\n\nFigure 7. Delta PLCs.\n\nHoneywell Process\nHoneywell's PLCs are designed for process control applications. Their MasterLogic PLC and ControlEdge PLCs provide robust control solutions. For more information check:\nhttps://process.honeywell.com/us/en/products/control-and-supervisory-systems/modular-controllers/masterlogic-plc (https://process.honeywell.com/us/en/products/control-and-supervisory-systems/modular-controllers/masterlogic-plc)\nEngineering tool: SoftMaster V4.72.99C (https://process.honeywell.com/us/en/support/technical-publication?search=%2522softmaster%2520v4.72.99c%2522)\nRheonics sensor integration protocol: (https://us.profinet.com/) Modbus TCP/IP (https://support.rheonics.com/en/support/solutions/folders/81000217062).\n\nFigure 8. MasterLogic PLC from Honeywell Process\n\nEmerson",
+      "specifications": {},
+      "key_facts": [
+        "ISPsoft is an engineering tool for Delta PLCs.",
+        "Rheonics sensors can be integrated with Delta PLCs using Modbus RTU over RS-485 and Ethernet/IP protocols.",
+        "Honeywell's MasterLogic PLC and ControlEdge PLCs are designed for process control applications.",
+        "SoftMaster V4.72.99C is an engineering tool for Honeywell PLCs.",
+        "Rheonics sensors can be integrated with Honeywell PLCs using Modbus TCP/IP protocol."
+      ],
+      "diagram_labels": [
+        "Figure 7. Delta PLCs.",
+        "Figure 8. MasterLogic PLC from Honeywell Process"
+      ],
+      "warnings_notes": [],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 676,
+        "cost_usd": 0.0018298
+      },
+      "source_file": "002_Connecting_process_density_meter_and_viscometer_to_leading_PLC.pdf"
+    },
+    {
+      "page_summary": "This page details the integration capabilities of Rheonics sensors with Emerson and Schneider Electric PLCs, listing compatible models, engineering tools, and communication protocols.",
+      "document_type": "notes",
+      "product_names": [
+        "RX3i",
+        "RX7i",
+        "IC695CPE330",
+        "PACSystems RX3i CPE330 Controller",
+        "Proficy Machine Edition",
+        "Profinet",
+        "HART",
+        "Modbus TCP/IP",
+        "Modicon M340",
+        "Modicon M580",
+        "Modicon-M580-PAC-Controller",
+        "EcoStruxure Machine Expert (SoMachine)",
+        "Ethernet/IP",
+        "Modbus TCP"
+      ],
+      "extracted_text": "Emerson offers a range of PLCs for industrial automation. Their RX3i and RX7i series provide powerful control capabilities. For more information check: https://www.emerson.com/en-us/catalog/emerson-ic695cpe330-es-mx (https://www.emerson.com/en-us/catalog/emerson-ic695cpe330-es-mx)\n\nEngineering tool: Proficy Machine Edition. (https://www.ge.com/digital/applications/proficy-software-family)\n\nRheonics sensor integration protocol: Profinet (https://support.rheonics.com/en/support/solutions/folders/81000292663), HART (https://support.rheonics.com/en/support/solutions/folders/81000284399), and Modbus TCP/IP (https://support.rheonics.com/en/support/solutions/folders/81000217062).\n\nFigure 9. PACSystems RX3i CPE330 Controller-Emerson.\n\nSchneider Electric\n\nSchneider Electric's Modicon PLCs are widely used in various industries. They offer models such as the Modicon M340 and M580. For more information check: https://www.se.com/us/en/product-range/62098-modicon-m580-pac-controller/ (https://www.se.com/us/en/product-range/62098-modicon-m580-pac-controller/)\n\nEngineering tool: EcoStruxure Machine Expert (SoMachine). (https://www.se.com/us/en/product-range/2226-ecostruxure-machine-expert-software/)\n\nRheonics sensor integration protocol: Ethernet/IP (https://support.rheonics.com/en/support/solutions/folders/81000288489) and Modbus TCP (https://support.rheonics.com/en/support/solutions/folders/81000217062).",
+      "specifications": {},
+      "key_facts": [
+        "Emerson offers RX3i and RX7i series PLCs that provide powerful control capabilities for industrial automation.",
+        "The engineering tool for Emerson PLCs is Proficy Machine Edition.",
+        "Rheonics sensors can integrate with Emerson PLCs using Profinet, HART, and Modbus TCP/IP protocols.",
+        "Schneider Electric's Modicon PLCs, including models M340 and M580, are widely used in various industries.",
+        "The engineering tool for Schneider Electric PLCs is EcoStruxure Machine Expert (SoMachine).",
+        "Rheonics sensors can integrate with Schneider Electric PLCs using Ethernet/IP and Modbus TCP protocols."
+      ],
+      "diagram_labels": [
+        "Figure 9. PACSystems RX3i CPE330 Controller-Emerson."
+      ],
+      "warnings_notes": [],
+      "page_num": 8,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 913,
+        "cost_usd": 0.0024222999999999996
+      },
+      "source_file": "002_Connecting_process_density_meter_and_viscometer_to_leading_PLC.pdf"
+    },
+    {
+      "page_summary": "This page provides an overview of two industrial PLC controllers, the Schneider Electric M580 and Yokogawa FA-M3, along with details on Rheonics sensor integration protocols and relevant web links.",
+      "document_type": "manual",
+      "product_names": [
+        "M580 PLC controller",
+        "FA-M3 controllers",
+        "FA-M3 Programming Tool WideField3"
+      ],
+      "extracted_text": "Figure 10. M580 PLC controller-Schneider Electric\n\nYokogawa\n\nYokogawa provides PLC solutions for process automation. Their FA-M3 controllers are known for their reliability and safety features. For more information check:\nhttps://www.yokogawa.com/solutions/products-and-services/control/control-devices/programmable-logic-controllers-plc-pac/fa-m3/#Details (https://www.yokogawa.com/solutions/products-and-services/control/control-devices/programmable-logic-controllers-plc-pac/fa-m3/#Details)\n\nEngineering tool: FA-M3 Programming Tool WideField3 (https://web-material3.yokogawa.com/IM34M06Q16-03E.us.pdf)\n\nRheonics sensor integration protocol:_ (https://us.profinet.com/) Ethernet/IP (https://support.rheonics.com/en/support/solutions/folders/81000288489) and Modbus TCP (https://support.rheonics.com/en/support/solutions/folders/81000217062)",
+      "specifications": {},
+      "key_facts": [
+        "The Schneider Electric M580 is a PLC controller.",
+        "Yokogawa offers PLC solutions for process automation.",
+        "Yokogawa FA-M3 controllers are known for their reliability and safety features.",
+        "The FA-M3 Programming Tool WideField3 is an engineering tool for Yokogawa FA-M3 controllers.",
+        "Rheonics sensors can be integrated using Ethernet/IP and Modbus TCP protocols.",
+        "Information on Profinet is also referenced in relation to Rheonics sensor integration protocols."
+      ],
+      "diagram_labels": [
+        "OK",
+        "+",
+        "-",
+        "24V",
+        "0V",
+        "PE",
+        "N",
+        "L",
+        "Reset",
+        "Schneider Electric",
+        "M580",
+        "ETH1 SERVICE",
+        "ETH2",
+        "ETH3",
+        "ETH4",
+        "ETH5",
+        "ETHERNET 10/100",
+        "RUN",
+        "ERR",
+        "COMM",
+        "XBE",
+        "PV 01 DC DC RL 09",
+        "SN: P13200049",
+        "MAC Address 00:00:54:19:08:00",
+        "BMXMCP01",
+        "FACTORY ACE",
+        "MODE",
+        "SD CARD",
+        "USB",
+        "ETHERNET",
+        "Yokogawa",
+        "X5522-3F",
+        "X5502-3A",
+        "WG3M-43F",
+        "DISPLAY OUT",
+        "RUN",
+        "ERR",
+        "BAT"
+      ],
+      "warnings_notes": [],
+      "page_num": 9,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 823,
+        "cost_usd": 0.0021972999999999997
+      },
+      "source_file": "002_Connecting_process_density_meter_and_viscometer_to_leading_PLC.pdf"
+    },
+    {
+      "page_summary": "This page provides an overview of Bosch Rexroth and Keyence PLC solutions, detailing their offerings, engineering tools, and how Rheonics sensors can be integrated with them using specific communication protocols.",
+      "document_type": "manual",
+      "product_names": [
+        "FA-M3 Controller",
+        "ctrlX CORE series",
+        "ctrlX CORE Automation",
+        "KV series",
+        "KV STUDIO Ver. 11.62"
+      ],
+      "extracted_text": "Figure 11. FA-M3 Controller-Yokogawa.\n\nBosch Rexroth\nBosch Rexroth offers PLC solutions for motion control and automation. Their ctrlX CORE series provides precise control in industrial applications. For more information check:\nhttps://apps.boschrexroth.com/microsites/ctrlx-automation/en/portfolio/ctrlx-core/\nEngineering tool: ctrlX CORE Automation (https://apps.boschrexroth.com/microsites/ctrlx-automation/en/portfolio/ctrlx-core/)\nRheonics sensor integration protocol: (https://us.profinet.com/) Ethernet/IP\n(https://support.rheonics.com/en/support/solutions/folders/81000288489).\n\nctrlX OS\n\nrexroth ctrlX CORE\nX3\nXF02\nXF01\nXF50\nXF51\nCPU01\nU 24V\nU GND\n\nrexroth ctrlX CORE\nX3\nXF02\nXF01\nXF50\nXF51\nCPU01\nFF30\nIN XF23\nOUT XF24\nXF02\nXF01\nXF50\nXF51\nXF010\nU 24V\nU GND\nU 24V\nU GND\n\nrexroth\nX7\nctrlX CORE\nXF02\nUSB-C\nUSB-A\nXF01B\nXF01A\nSSD\nXF01C\nXF50\nXF10\nXF11\nXF51\nXF12\nXF52\nCPU01\n1000\nXF010\nU 24V\nU GND\nU 24V\nU GND\n\nFigure 12. ctrlX CORE PLC series-Bosc\n\nKeyence\nKeyence offers compact and user-friendly PLCs suitable for small-scale automation. Their KV series is known for its simplicity and ease of use. For more information check:\nhttps://www.keyence.com/products/controls/plc-building-block-type/\n(https://www.keyence.com/products/controls/plc-building-block-type/)\nEngineering tool: KV STUDIO Ver. 11.62\n(https://www.keyence.com/support/user/controls/plc/software/update/)\nRheonics sensor integration protocol: (https://us.profinet.com/) Ethernet/IP\n(https://support.rheonics.com/en/support/solutions/folders/81000288489) and Modbus/TCP.\n(https://support.rheonics.com/en/support/solutions/folders/81000217062)",
+      "specifications": {},
+      "key_facts": [
+        "Bosch Rexroth offers ctrlX CORE series PLC solutions for precise motion control and industrial automation.",
+        "The engineering tool for Bosch Rexroth's ctrlX CORE is ctrlX CORE Automation.",
+        "Rheonics sensors can be integrated with Bosch Rexroth PLCs using Ethernet/IP protocol.",
+        "Keyence provides compact and user-friendly KV series PLCs for small-scale automation.",
+        "The engineering tool for Keyence KV series PLCs is KV STUDIO Ver. 11.62.",
+        "Rheonics sensors can be integrated with Keyence PLCs using Ethernet/IP and Modbus/TCP protocols."
+      ],
+      "diagram_labels": [
+        "Figure 11. FA-M3 Controller-Yokogawa.",
+        "ctrlX OS",
+        "rexroth",
+        "ctrlX CORE",
+        "X3",
+        "XF02",
+        "XF01",
+        "XF50",
+        "XF51",
+        "CPU01",
+        "U 24V",
+        "U GND",
+        "FF30",
+        "IN XF23",
+        "OUT XF24",
+        "XF010",
+        "X7",
+        "USB-C",
+        "USB-A",
+        "SSD",
+        "XF01A",
+        "XF01B",
+        "XF01C",
+        "XF10",
+        "XF11",
+        "XF12",
+        "XF52",
+        "1000",
+        "Figure 12. ctrlX CORE PLC series-Bosc"
+      ],
+      "warnings_notes": [],
+      "page_num": 10,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1226,
+        "cost_usd": 0.0032048
+      },
+      "source_file": "002_Connecting_process_density_meter_and_viscometer_to_leading_PLC.pdf"
+    },
+    {
+      "page_summary": "This page provides an overview of Keyence KV-5000 and IDEC/Panasonic FC6A series PLCs, detailing their features, relevant engineering tools, and how Rheonics sensors integrate with them via Ethernet/IP.",
+      "document_type": "manual",
+      "product_names": [
+        "KV-5000 controller",
+        "KV-5500",
+        "FC6A series",
+        "FC6A controller",
+        "MicroSmart",
+        "Automation Organizer Software"
+      ],
+      "extracted_text": "Figure 13. KV-5000 controller-Keyence with in-built ethernet/IP port\n\nIDEC\nIDEC provides PLCs with a focus on energy efficiency and reliability. Their FC6A series is designed for small to medium-sized applications. For more information check: https://us.idec.com/Programmable-Logic-Controller/Micro-PLC/FC6A-MicroSmart-PLC/c/MicroSmart_FC6A?page=1\nEngineering tool: Automation Organizer Software (https://us.idec.com/idec-us/en/USD/Software-Downloads-Automation-Organizer)\nRheonics sensor integration protocol: Ethernet/IP (https://support.rheonics.com/en/support/solutions/folders/81000288489)\n\nFigure 14. FC6A controller-Yokogawa\nPanasonic",
+      "specifications": {},
+      "key_facts": [
+        "The Keyence KV-5000 controller includes a built-in Ethernet/IP port.",
+        "IDEC's FC6A series PLCs are engineered for small to medium-sized industrial applications.",
+        "The FC6A series PLCs are developed with an emphasis on energy efficiency and reliability.",
+        "Automation Organizer Software is the designated engineering tool for IDEC PLCs.",
+        "Rheonics sensors utilize the Ethernet/IP protocol for integration with compatible PLCs.",
+        "The FC6A controller is associated with IDEC, Yokogawa, and Panasonic brands."
+      ],
+      "diagram_labels": [
+        "KEYENCE",
+        "KV-5000",
+        "REAL TIME",
+        "NETWORK",
+        "PLC",
+        "KV-5500",
+        "MICROSMART",
+        "FC6A",
+        "TP-0001: 2000",
+        "TP-0002: 0",
+        "TP-0003: 0",
+        "TP-0004: 0",
+        "Panasonic",
+        "FP-X0"
+      ],
+      "warnings_notes": [],
+      "page_num": 11,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 630,
+        "cost_usd": 0.0017148
+      },
+      "source_file": "002_Connecting_process_density_meter_and_viscometer_to_leading_PLC.pdf"
+    },
+    {
+      "page_summary": "This page provides information on integrating Rheonics sensors with Panasonic FP series and Fuji Electric MICREX PLCs, including details on engineering tools and supported communication protocols.",
+      "document_type": "manual",
+      "product_names": [
+        "Panasonic FP series PLCs",
+        "Control FPWIN Pro",
+        "Rheonics sensors",
+        "Fuji Electric MICREX PLCs",
+        "SX-Programmer Expert"
+      ],
+      "extracted_text": "Panasonic offers PLCs that are compact and cost-effective. Their FP series provides reliable control for various automation needs. For more information check: Panasonic\n(https://na.industrial.panasonic.com/products/industrial-automation/plc-hmi-communication/lineup/programmable-logic-controllers-interface-terminal)\nEngineering tool: Control FPWIN Pro (https://www3.panasonic.biz/ac/ae/dl/software/index.jsp?series_cd=3359)\nRheonics sensor integration protocol: Ethernet/IP\n(https://support.rheonics.com/en/support/solutions/folders/81000288489), Modbus TCP\n(https://support.rheonics.com/en/support/solutions/folders/81000217062) and RTU.\n(https://support.rheonics.com/en/support/solutions/folders/81000217005)\nFigure 15. FP series controller-Panasonic.\nFuji Electric\nFuji Electric's MICREX PLCs are known for their high-speed processing and advanced features. They offer solutions for diverse industrial applications. For more information check:\nhttps://www.fujielectric.com/products/plc/product_information/computercom/\n(https://www.fujielectric.com/products/plc/product_information/computercom/)\nEngineering tool: SX-Programmer Expert\n(https://www.fujielectric.com/products/drives_inverters/plc/product_series/sph_product_information_prgrm-expert_other.html)\nRheonics sensor integration protocol: Modbus TCP/IP\n(https://support.rheonics.com/en/support/solutions/folders/81000217062) and Profibus.\n(https://support.rheonics.com/en/support/solutions/folders/81000217060)",
+      "specifications": {},
+      "key_facts": [
+        "Panasonic FP series PLCs are compact, cost-effective, and provide reliable control for various automation needs.",
+        "The recommended engineering tool for Panasonic PLCs is Control FPWIN Pro.",
+        "Rheonics sensor integration with Panasonic PLCs supports Ethernet/IP, Modbus TCP, and RTU protocols.",
+        "Fuji Electric's MICREX PLCs feature high-speed processing and advanced capabilities suitable for diverse industrial applications.",
+        "The recommended engineering tool for Fuji Electric PLCs is SX-Programmer Expert.",
+        "Rheonics sensor integration with Fuji Electric PLCs supports Modbus TCP/IP and Profibus protocols."
+      ],
+      "diagram_labels": [
+        "Figure 15. FP series controller-Panasonic.",
+        "Panasonic",
+        "FPT CPS4E",
+        "RUN",
+        "STOP",
+        "COPY",
+        "LINK",
+        "NET",
+        "EXTR-M",
+        "PROG-CH3",
+        "RS-2"
+      ],
+      "warnings_notes": [],
+      "page_num": 12,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 817,
+        "cost_usd": 0.0021823
+      },
+      "source_file": "002_Connecting_process_density_meter_and_viscometer_to_leading_PLC.pdf"
+    },
+    {
+      "page_summary": "This page describes various Programmable Logic Controller (PLC) systems from Toshiba and Beckhoff, including their features, associated tools, and the Rheonics sensor integration protocol.",
+      "document_type": "manual",
+      "product_names": [
+        "Milcrex PLC-Fuji Electric",
+        "Toshiba T3 series PLC",
+        "nV-Tool",
+        "Modbus TCP/IP",
+        "Type1 PLC-Toshiba",
+        "Beckhoff PC-based PLC solutions",
+        "Beckhoff TwinCAT system"
+      ],
+      "extracted_text": "Figure 16. Milcrex PLC-Fuji Electric.\n\nToshiba\nToshiba provides PLC solutions for various industries, including manufacturing and infrastructure. Their T3 series offers advanced control capabilities. For more information check:\nhttps://www.toshiba.com/tic/other-products/plcs/type1-light (https://www.toshiba.com/tic/other-products/plcs/type1-light)\nEngineering tool: nV-Tool (https://www.global.toshiba.ww/products-solutions/smart-manufacturing/controller/product/nv-series/nvtool.html)\nRheonics sensor integration protocol: Modbus TCP/IP\n(https://support.rheonics.com/en/support/solutions/folders/81000217062)\n\nFigure 17. Type1 PLC-Toshiba.\n\nBeckhoff\nBeckhoff offers PC-based PLC solutions known for their scalability and openness. Their TwinCAT system provides a comprehensive automation platform.",
+      "specifications": {},
+      "key_facts": [
+        "Milcrex PLC-Fuji Electric is depicted in Figure 16.",
+        "Toshiba provides PLC solutions for various industries, including manufacturing and infrastructure.",
+        "Toshiba's T3 series PLCs offer advanced control capabilities.",
+        "nV-Tool is an engineering tool for Toshiba's NV series controllers.",
+        "Rheonics sensor integration uses the Modbus TCP/IP protocol.",
+        "Type1 PLC-Toshiba is depicted in Figure 17.",
+        "Beckhoff offers PC-based PLC solutions known for their scalability and openness.",
+        "Beckhoff's TwinCAT system provides a comprehensive automation platform."
+      ],
+      "diagram_labels": [
+        "AWWARNING",
+        "Hazardous Voltage",
+        "IN",
+        "OUT",
+        "E-SXBUS0",
+        "E-SXBUS1",
+        "PULM 1",
+        "TH823",
+        "DC600",
+        "HD600",
+        "BP600"
+      ],
+      "warnings_notes": [
+        "AWWARNING Hazardous Voltage"
+      ],
+      "page_num": 13,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 637,
+        "cost_usd": 0.0017323
+      },
+      "source_file": "002_Connecting_process_density_meter_and_viscometer_to_leading_PLC.pdf"
+    },
+    {
+      "page_summary": "This page outlines engineering tools and Rheonics sensor integration protocols, featuring a Beckhoff CX8093 embedded PC and discussing Wago PLCs, particularly the PFC200 series.",
+      "document_type": "manual",
+      "product_names": [
+        "Twincat 3",
+        "CX8093",
+        "PFC200 series",
+        "CODESYS"
+      ],
+      "extracted_text": "Engineering tool: Twincat 3 (https://www.beckhoff.com/en-en/products/automation/twincat/texxxx-twincat-3-engineering/)\nRheonics sensor integration protocol: Ethernet/IP (https://support.rheonics.com/en/support/solutions/folders/81000288489), Profinet (https://support.rheonics.com/en/support/solutions/folders/81000292663), and Modbus TCP/RTU. (https://support.rheonics.com/en/support/solutions/folders/81000217005)\n\nFigure 18. CX8093 | Embedded PC with PROFINET device\n\nWago\nWago's PLCs are known for their modular design and flexibility. Their PFC200 series offers powerful control and communication options. For more information check: https://www.wago.com/global/\nEngineering tool: CODESYS (https://www.hitachi-ies.co.jp/english/products/plc/software/index.htm)\nRheonics sensor integration protocol: Ethernet/IP (https://support.rheonics.com/en/support/solutions/folders/81000288489), Profinet (https://support.rheonics.com/en/support/solutions/folders/81000292663), and Modbus TCP/RTU. (https://support.rheonics.com/en/support/solutions/folders/81000217005)",
+      "specifications": {},
+      "key_facts": [
+        "Twincat 3 is an engineering tool from Beckhoff.",
+        "Rheonics sensors support Ethernet/IP, Profinet, and Modbus TCP/RTU protocols for integration.",
+        "The Beckhoff CX8093 is identified as an embedded PC with a PROFINET device.",
+        "Wago PLCs, specifically their PFC200 series, are recognized for their modular design, flexibility, and offering powerful control and communication options.",
+        "CODESYS is an engineering tool for PLCs, with a link to Hitachi-IES."
+      ],
+      "diagram_labels": [
+        "BECKHOFF",
+        "CX8093",
+        "TC",
+        "PN",
+        "DIAG",
+        "X001",
+        "X101",
+        "X102",
+        "X0",
+        "00",
+        "24V",
+        "0V",
+        "+",
+        "-",
+        "PE",
+        "S101",
+        "ON",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "PROFINET"
+      ],
+      "warnings_notes": [],
+      "page_num": 14,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 805,
+        "cost_usd": 0.0021523
+      },
+      "source_file": "002_Connecting_process_density_meter_and_viscometer_to_leading_PLC.pdf"
+    },
+    {
+      "page_summary": "This page showcases the integration of Rheonics sensors with industrial PLCs, featuring a Wago PFC200 controller and mentioning Hitachi PLCs and their respective engineering tools and compatible communication protocols.",
+      "document_type": "manual",
+      "product_names": [
+        "Wago PFC200",
+        "Wago 750-8215",
+        "Hitachi HX series PLCs",
+        "Pro-H"
+      ],
+      "extracted_text": "Figure 19. Ethernet/IP compatible PLC PFC200 Wago\n\nHitachi\nHitachi provides PLCs for various automation needs. Their HX series offers reliable performance and extensive I/O capabilities. For more information check: https://www.hitachi-ies.co.jp/english/products/plc/eh_150/index.htm\n\nEngineering tool: Pro-H (https://www.hitachi-iesa.com/plc#software)\n\nRheonics sensor integration protocol: Ethernet/IP (https://support.rheonics.com/en/support/solutions/folders/81000288489) and Modbus TCP/RTU. (https://support.rheonics.com/en/support/solutions/folders/81000217005)\n\nDevice Labels:\nWAGO\n750-8215\nBF\nDIA\nU4\nU3\nU2\nU1\nSYS\nRUN\nI/O\nMS\nNS\nCAN\nSD\nOV\n+\n-\n(Ground symbol)\nRUN (switch position)\nSTOP (switch position)\nRESET (switch position)\nX6 USB\nX5 CAN\nX2 LINK ACT X1 LINK (repeated for two Ethernet ports)",
+      "specifications": {},
+      "key_facts": [
+        "The Wago PFC200 PLC, specifically model 750-8215, is depicted as an Ethernet/IP compatible device.",
+        "Hitachi offers HX series PLCs for various automation needs, known for their reliable performance and extensive I/O capabilities.",
+        "Pro-H is an engineering tool available for use with Hitachi PLCs.",
+        "Rheonics sensors can be integrated using Ethernet/IP and Modbus TCP/RTU communication protocols."
+      ],
+      "diagram_labels": [
+        "WAGO",
+        "750-8215",
+        "BF",
+        "DIA",
+        "U4",
+        "U3",
+        "U2",
+        "U1",
+        "SYS",
+        "RUN",
+        "I/O",
+        "MS",
+        "NS",
+        "CAN",
+        "SD",
+        "OV",
+        "+",
+        "-",
+        "Ground symbol",
+        "RUN (switch)",
+        "STOP (switch)",
+        "RESET (switch)",
+        "X6 USB",
+        "X5 CAN",
+        "X2 LINK ACT X1 LINK"
+      ],
+      "warnings_notes": [],
+      "page_num": 15,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 720,
+        "cost_usd": 0.0019398000000000002
+      },
+      "source_file": "002_Connecting_process_density_meter_and_viscometer_to_leading_PLC.pdf"
+    },
+    {
+      "page_summary": "This page provides an overview of Phoenix Contact's PLC solutions, specifically the Axioline series, and details integration protocols for Rheonics sensors within industrial automation systems.",
+      "document_type": "manual",
+      "product_names": [
+        "EHV+ Series",
+        "Hitachi",
+        "Phoenix Contact Axioline series",
+        "PLC-PC Worx",
+        "Rheonics sensor"
+      ],
+      "extracted_text": "Figure 20. EHV+ Series-Hitachi.\n\nPhoenix Contact\nPhoenix Contact offers a wide range of PLC solutions for industrial automation. Their Axioline series provides flexible and reliable control options, enabling seamless integration with other devices in the automation system. For more information check: https://www.phoenixcontact.com/en-gb/products/plcs-controllers-and-i-os/classic-control-technology-in-accordance-with-iec-61131 (https://www.phoenixcontact.com/en-gb/products/plcs-controllers-and-i-os/classic-control-technology-in-accordance-with-iec-61131)\nEngineering tool: https://www.phoenixcontact.com/en-gb/products/software-plc-pc-worx-srt-2701680 (https://www.phoenixcontact.com/en-gb/products/software-plc-pc-worx-srt-2701680)\nRheonics sensor integration protocol: Profinet (https://us.profinet.com/) and Modbus TCP/IP (https://support.rheonics.com/en/support/solutions/folders/81000217062)",
+      "specifications": {},
+      "key_facts": [
+        "The image displays EHV+ Series modules from Hitachi.",
+        "Phoenix Contact offers a wide range of PLC solutions for industrial automation.",
+        "The Axioline series from Phoenix Contact provides flexible and reliable control options.",
+        "The Axioline series enables seamless integration with other devices in an automation system.",
+        "Phoenix Contact PLC solutions adhere to IEC 61131 standards for classic control technology.",
+        "The engineering tool for Phoenix Contact products is PLC-PC Worx, with a specific product ID srt-2701680.",
+        "Rheonics sensors can be integrated using the Profinet protocol.",
+        "Rheonics sensors can be integrated using the Modbus TCP/IP protocol."
+      ],
+      "diagram_labels": [
+        "Figure 20",
+        "EHV+ Series",
+        "Hitachi",
+        "EHV+",
+        "8.8"
+      ],
+      "warnings_notes": [],
+      "page_num": 16,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 627,
+        "cost_usd": 0.0017073
+      },
+      "source_file": "002_Connecting_process_density_meter_and_viscometer_to_leading_PLC.pdf"
+    },
+    {
+      "page_summary": "This page provides an overview of Pilz safety PLC solutions, including their PSS series, and details on integrating Rheonics sensors using Modbus TCP/IP, featuring images of a Phoenix Contact controller and a Pilz PSS 4000 system.",
+      "document_type": "notes",
+      "product_names": [
+        "ILC 171 ETH 2TX",
+        "PSS series",
+        "PSS 4000",
+        "PSSu PLC",
+        "PAS4000"
+      ],
+      "extracted_text": "Figure 21. ILC 171 ETH 2TX - Controller - Phoenix Contact\n\nPilz\n\nPilz is a leading global automation technology company known for its safety PLC solutions. Their PSS series offers programmable safety systems that prioritize safety and compliance with international standards. For more information: https://www.pilz.com/en-INT/products/controllers/plc-controllers (https://www.pilz.com/en-INT/products/controllers/plc-controllers)\n\nEngineering tool: https://www.pilz.com/en-INT/products/controllers/software/pas4000 (https://www.pilz.com/en-INT/products/controllers/software/pas4000)\n\nRheonics sensor integration protocol: Modbus TCP/IP (https://support.rheonics.com/en/support/solutions/folders/81000217062)",
+      "specifications": {},
+      "key_facts": [
+        "Pilz is a leading global automation technology company.",
+        "Pilz is known for its safety PLC solutions.",
+        "The Pilz PSS series offers programmable safety systems that prioritize safety and compliance with international standards.",
+        "The ILC 171 ETH 2TX is a controller from Phoenix Contact.",
+        "The engineering tool for Pilz controllers is PAS4000.",
+        "Rheonics sensor integration uses the Modbus TCP/IP protocol."
+      ],
+      "diagram_labels": [
+        "PHOENIX CONTACT",
+        "ILC 171 ETH 2TX",
+        "MRESET",
+        "STOP",
+        "RUN/PROG",
+        "X1",
+        "RESET",
+        "PRG",
+        "LNK",
+        "ACT",
+        "X2.1",
+        "X2.2",
+        "FR",
+        "UL FF",
+        "US BF",
+        "UM SF",
+        "E",
+        "NOV FAIL",
+        "BBA PE",
+        "01 02",
+        "11 12",
+        "61 62",
+        "03 04",
+        "13 14",
+        "17 18",
+        "D2345",
+        "D2345",
+        "D2345",
+        "D2345",
+        "1.1 2.1",
+        "1.2 2.2",
+        "1.3 2.3",
+        "1.4 2.4",
+        "3.1 4.1",
+        "3.2 4.2",
+        "3.3 4.3",
+        "3.4 4.4",
+        "pilz",
+        "PSSu PLC",
+        "PSS 4000",
+        "X1",
+        "X2",
+        "01010101 L+ 111001",
+        "01010101 L+ 111001",
+        "01010101 L+ 111001"
+      ],
+      "warnings_notes": [],
+      "page_num": 17,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 893,
+        "cost_usd": 0.0023723
+      },
+      "source_file": "002_Connecting_process_density_meter_and_viscometer_to_leading_PLC.pdf"
+    },
+    {
+      "page_summary": "This page provides information on integrating Rheonics sensors with PLCs from Eaton (XC series) and Koyo Electronics (DL205 series), detailing product features, engineering tools, and the Modbus TCP/RTU integration protocol.",
+      "document_type": "manual",
+      "product_names": [
+        "PSS 4000 controller",
+        "XC series",
+        "XC-303-C32-002",
+        "DL205 series",
+        "DirectLogic-205"
+      ],
+      "extracted_text": "Figure 22. PSS 4000 controller- Pilz\n\nEaton\nEaton offers a range of PLCs for industrial automation. The XC series provides reliable control and communication options, making it suitable for various applications. For more information:\nhttps://www.eaton.com/us/en-us/catalog/machinery-controls/xc-modular-programmable-logic-controllers--plcs-.html\n(https://www.eaton.com/us/en-us/catalog/machinery-controls/xc-modular-programmable-logic-controllers--plcs-.html)\nEngineering tool: CODESYS (https://www.hitachi-ies.co.jp/english/products/plc/software/index.htm)\nRheonics sensor integration protocol: Modbus TCP/RTU\n(https://support.rheonics.com/en/support/solutions/folders/81000217005).\n\nFigure 23. XC module series-EATON\n\nKoyo Electronics\nKoyo Electronics offers a range of reliable and cost-effective PLC solutions. Their DL205 series provides flexible control options for a variety of applications. For more information:\nhttps://www.electronics.jtekt.co.jp/en/product/plc/directlogic-205/\n(https://www.electronics.jtekt.co.jp/en/product/plc/directlogic-205/)\nEngineering tool: https://www.electronics.jtekt.co.jp/en/product/plc/directsoft/\nRheonics sensor integration protocol: Modbus TCP/RTU\n(https://support.rheonics.com/en/support/solutions/folders/81000217005).",
+      "specifications": {},
+      "key_facts": [
+        "Eaton offers a range of PLCs for industrial automation, with the XC series providing reliable control and communication options.",
+        "The engineering tool for Eaton's XC series PLCs is CODESYS.",
+        "Rheonics sensors integrate with Eaton PLCs using the Modbus TCP/RTU protocol.",
+        "Koyo Electronics provides reliable and cost-effective PLC solutions, including their DL205 series which offers flexible control options.",
+        "The engineering tool for Koyo Electronics PLCs is DirectSoft.",
+        "Rheonics sensors integrate with Koyo Electronics PLCs using the Modbus TCP/RTU protocol."
+      ],
+      "diagram_labels": [
+        "SD",
+        "Micro SD",
+        "U1",
+        "USB HOST",
+        "ETH2",
+        "ETH1",
+        "ETH0",
+        "S1 ON OFF",
+        "PLC",
+        "STOP",
+        "PRG",
+        "TRSa",
+        "TRSb",
+        "TC1",
+        "TC2",
+        "X1",
+        "Xn",
+        "RS485",
+        "CAN",
+        "EATON"
+      ],
+      "warnings_notes": [],
+      "page_num": 18,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 837,
+        "cost_usd": 0.0022322999999999996
+      },
+      "source_file": "002_Connecting_process_density_meter_and_viscometer_to_leading_PLC.pdf"
+    },
+    {
+      "page_summary": "This page describes the integration of Rheonics sensors with LS Electric and Unitronics Programmable Logic Controllers (PLCs), detailing relevant products, engineering tools, and communication protocols.",
+      "document_type": "manual",
+      "product_names": [
+        "DirectLogic205",
+        "DL260 CPU",
+        "XG5000 series PLCs",
+        "XGK CPU Controller",
+        "Rheonics sensors",
+        "Unitronics integrated PLC and HMI solutions",
+        "UniLogic (software)"
+      ],
+      "extracted_text": "Figure 24. DirectLogic205-Koyo Electronics.\n\nLS Electric (LS Industrial Systems)\nLS Electric is spin-out from South Korean conglomerate LG Electronics. Their XG5000 series PLCs offer advanced control capabilities and seamless integration with other LS products.\nEngineering tool: XG5000 programming software (https://ssg.ls-electric.com/ww/en/product/document/3103)\nRheonics sensor integration protocol: Modbus TCP/RTU (https://support.rheonics.com/en/support/solutions/folders/81000217005) and Ethernet/IP (https://support.rheonics.com/en/support/solutions/folders/81000288489).\n\nFigure 25. XGK CPU Controller-LS Electric\n\nUnitronics\nUnitronics is a global provider of integrated PLC and HMI solutions. Their product range includes programmable logic controllers with built-in touchscreens, offering a user-friendly interface for easy programming and monitoring.\nEngineering tool: https://www.unitronicsplc.com/software-unilogic-for-programmable-controllers/ (https://www.unitronicsplc.com/software-unilogic-for-programmable-controllers/)\nRheonics sensor integration protocol: Ethernet/IP (https://support.rheonics.com/en/support/solutions/folders/81000288489) and Modbus TCP/RTU (https://support.rheonics.com/en/support/solutions/folders/81000217005).",
+      "specifications": {
+        "Voltage (DirectLogic205)": "110/220V~",
+        "Voltage (modules)": "24VDC",
+        "Ethernet Port Type": "10/100 BASE-T"
+      },
+      "key_facts": [
+        "LS Electric is a spin-out from South Korean conglomerate LG Electronics.",
+        "LS Electric's XG5000 series PLCs provide advanced control capabilities and seamless integration with other LS products.",
+        "Rheonics sensors integrate with LS Electric systems using Modbus TCP/RTU and Ethernet/IP protocols.",
+        "Unitronics is a global provider of integrated PLC and HMI solutions.",
+        "Unitronics' product range includes programmable logic controllers with built-in touchscreens.",
+        "Unitronics products offer a user-friendly interface for easy programming and monitoring.",
+        "Rheonics sensors integrate with Unitronics systems using Ethernet/IP and Modbus TCP/RTU protocols."
+      ],
+      "diagram_labels": [
+        "Direct 205 LOGIC",
+        "Koyo",
+        "CPU",
+        "PWR",
+        "BATT",
+        "RUN",
+        "TERM",
+        "ERR",
+        "DL260 CPU",
+        "PORTS",
+        "110/220V~",
+        "24V VDC",
+        "IN",
+        "OUT",
+        "ACT",
+        "NET",
+        "LINK",
+        "STAT",
+        "D2-16ND3-1",
+        "10/100 BASE-T ETHERNET PORT",
+        "D2-HSKO",
+        "ON",
+        "OFF",
+        "CHG",
+        "COM",
+        "IT CT",
+        "XGP",
+        "COMM",
+        "LS",
+        "XGK",
+        "STOP",
+        "MOD",
+        "13-24 VDC",
+        "A,0",
+        "B,1",
+        "C,2",
+        "D,3",
+        "D2-16TD1-2",
+        "ADRS"
+      ],
+      "warnings_notes": [],
+      "page_num": 19,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1026,
+        "cost_usd": 0.0027048
+      },
+      "source_file": "002_Connecting_process_density_meter_and_viscometer_to_leading_PLC.pdf"
+    },
+    {
+      "page_summary": "This page provides an overview of OpenPLC and AutomationX systems, detailing their functionalities, engineering tools, and supported communication protocols for integration, and features an image of a Unitronics PLC+HMI display.",
+      "document_type": "manual",
+      "product_names": [
+        "Unitronics PLC+HMI",
+        "OpenPLC",
+        "AutomationX"
+      ],
+      "extracted_text": "Figure 26. Unitronics PLC+HMI.\n\nOPEN PLC\nOpenPLC is an open-source Programmable Logic Controller (https://en.wikipedia.org/wiki/Programmable_logic_controller) that is based on an easy to use software. It is the first fully functional standardized open-source PLC, both in software and hardware. For more information: https://openplcproject.com/ (https://openplcproject.com/)\nEngineering tool: OpenPLC Editor (https://openplcproject.com/docs/installing-openplc-editor/)\nRheonics sensor integration protocol: Modbus TCP\n(https://support.rheonics.com/en/support/solutions/folders/81000217005)\nRheonics also has a few integration projects that we successfully developed in Codesys on Raspberry Pi, find below the support article where we explain how to integrate:\nhttps://support.rheonics.com/en/support/solutions/articles/81000409807-profinet-communication-through-codesys (https://support.rheonics.com/en/support/solutions/articles/81000409807-profinet-communication-through-codesys)\nhttps://support.rheonics.com/en/support/solutions/folders/81000298114 (https://support.rheonics.com/en/support/solutions/folders/81000298114)\nhttps://www.codesys.com/ (https://www.codesys.com/)\n\nAutomationX\nAutomationX is a highly scalable and modular DCS (Distributed Control System) specifically designed to support various industrial applications. Its architecture enables seamless adaptation for both small plants and complex distributed control systems, ensuring flexibility and reliability across various industries.\nEngineering tool: aXIDE-Engineering\nSupported protocols: Modbus RTU\n(https://support.rheonics.com/en/support/solutions/folders/81000217005) and Profibus.\n(https://support.rheonics.com/en/support/solutions/folders/81000292663)",
+      "specifications": {
+        "Displayed Temperature 1": "20",
+        "Displayed Temperature 2": "30 C",
+        "Displayed Humidity/Percentage": "55 %"
+      },
+      "key_facts": [
+        "OpenPLC is an open-source Programmable Logic Controller based on easy-to-use software.",
+        "OpenPLC is the first fully functional standardized open-source PLC available in both software and hardware.",
+        "The engineering tool for OpenPLC is OpenPLC Editor.",
+        "Rheonics sensors integrate with OpenPLC using the Modbus TCP protocol.",
+        "Rheonics has successfully developed integration projects in Codesys on Raspberry Pi.",
+        "AutomationX is a highly scalable and modular Distributed Control System (DCS).",
+        "AutomationX is designed to support various industrial applications and ensures flexibility and reliability.",
+        "The engineering tool for AutomationX is aXIDE-Engineering.",
+        "AutomationX supports Modbus RTU and Profibus protocols."
+      ],
+      "diagram_labels": [
+        "Figure 26. Unitronics PLC+HMI.",
+        "Unitronics logo",
+        "Apple icon",
+        "Pear icon",
+        "Tomato icon",
+        "Eggplant icon",
+        "Number 1",
+        "Number 2",
+        "Number 3",
+        "Number 4",
+        "Lights (icon)",
+        "Water (icon)",
+        "Temp (thermometer icon)",
+        "HMI"
+      ],
+      "warnings_notes": [],
+      "page_num": 20,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 948,
+        "cost_usd": 0.0025097999999999995
+      },
+      "source_file": "002_Connecting_process_density_meter_and_viscometer_to_leading_PLC.pdf"
+    },
+    {
+      "page_summary": "This page displays an image of an Advantech UNO-1372G PLC and lists four external web references related to industrial communication protocols.",
+      "document_type": "manual",
+      "product_names": [
+        "UNO-1372G PLC"
+      ],
+      "extracted_text": "Figure 27. UNO-1372G PLC\n\nREFERENCES\n\n1. https://modbus.org/ (https://modbus.org/)\n2. https://www.odva.org/technology-standards/key-technologies/ethernet-ip/ (https://www.odva.org/technology-standards/key-technologies/ethernet-ip/)\n3. https://www.profibus.com/download/fieldbus-integration-into-profinet-io-guideline (https://www.profibus.com/download/fieldbus-integration-into-profinet-io-guideline)\n4. https://support.fieldcommgroup.org/support/home (https://support.fieldcommgroup.org/support/home)",
+      "specifications": {},
+      "key_facts": [
+        "The page illustrates the Advantech UNO-1372G PLC.",
+        "References are provided for Modbus, Ethernet/IP, PROFINET IO, and FieldComm Group support."
+      ],
+      "diagram_labels": [
+        "Figure 27. UNO-1372G PLC",
+        "UNO-1372G",
+        "ADVANTECH"
+      ],
+      "warnings_notes": [],
+      "page_num": 21,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 382,
+        "cost_usd": 0.0010948
+      },
+      "source_file": "002_Connecting_process_density_meter_and_viscometer_to_leading_PLC.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": [
+      2
+    ]
+  }
+}

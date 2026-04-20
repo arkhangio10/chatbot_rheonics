@@ -1,0 +1,125 @@
+{
+  "source_file": "119_Density_units_supported_on_SRD.pdf",
+  "total_pages": 3,
+  "chunks": [
+    {
+      "page_summary": "This page provides an introduction to density units supported by Rheonics SRD sensors, including a definition of density, an image of the SME-TRD with an SRD probe, and a table of contents outlining further discussion points.",
+      "document_type": "manual",
+      "product_names": [
+        "SRD",
+        "SME-TRD"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nDensity units supported on SRD\nModified on: Tue, 28 Nov, 2023 at 3:09 PM\n\nDensity is a fundamental physical property that quantifies the mass of a substance per unit volume. Various units are used to express density, each catering to specific industries, scientific disciplines, or practical applications.\n\nFigure 1. SME-TRD with SRD probe\n\nTABLE OF CONTENTS\n• 1. How is density measured with the SRD?\n• 2. What Units are available in Rheonics SRD?\n• 3. Why is it important to measure density?\n• 4. References\n\n1. How is density measured with the SRD?",
+      "specifications": {},
+      "key_facts": [
+        "Density is a fundamental physical property that quantifies the mass of a substance per unit volume.",
+        "Various units are used to express density, catering to specific industries, scientific disciplines, or practical applications.",
+        "The document was last modified on November 28, 2023, at 3:09 PM."
+      ],
+      "diagram_labels": [
+        "Figure 1. SME-TRD with SRD probe",
+        "rheonics (on device display)",
+        "T: 123.45 (example reading)",
+        "D: 1234.56 (example reading)",
+        "V: 1234.56 (example reading)",
+        "Status (on device display)"
+      ],
+      "warnings_notes": [
+        "CE (compliance mark)",
+        "ATEX (certification for explosive atmospheres)"
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 500,
+        "cost_usd": 0.0013898
+      },
+      "source_file": "119_Density_units_supported_on_SRD.pdf"
+    },
+    {
+      "page_summary": "This page explains the working principle of Rheonics SRD viscometers and density sensors using a torsional resonator and details the various density units available for measurement.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SRD"
+      ],
+      "extracted_text": "The Rheonics SRD measures viscosity and density by means of a balanced torsional resonator, the finned end of which is immersed in the fluid under test. The sensor displaces fluid as it vibrates, the mass of this displaced fluid reduces the resonant frequency and this reduction of resonant frequency is proportional to the fluid's density. The increase in apparent mass (denser fluid) decreases the frequency. The damping increases through viscous dissipation in the fluid, the more viscous the fluid, the higher the damping of the resonator. From the damping and resonant frequency, the density and viscosity may be calculated by means of Rheonics' proprietary algorithms.\n\nFigure 2. Rheonics probe response when immersed in a fluid.\nResponse of the same resonator immersed in two fluids of different densities and viscosities.\n\n2. What Units are available in Rheonics SRD?\nThese diverse density units are crucial for ensuring accurate and standardized communication of material properties across different fields. The choice of unit depends on the specific characteristics of the substance being measured and the industry or discipline in which the measurement is applied.\n\n1. g/cc (grams per cubic centimeter):\n   1. Description: Represents the mass of a substance in grams occupying one cubic centimeter of space.\n   2. Importance: Commonly used in materials science and engineering for solids and liquids.\n2. kg/m³ (kilograms per cubic meter):\n   1. Description: Denotes the mass of a substance in kilograms within a cubic meter.\n   2. Importance: Widely used in scientific research, engineering, and industry, particularly for gases and liquids.\n3. lb/ft³ (pounds per cubic foot):\n   1. Description: Expresses the mass in pounds of a substance per cubic foot of volume.\n   2. Importance: Frequently employed in construction, architecture, and building materials.\n4. lbm/g (pound-mass per gram):\n   1. Description: Represents the mass in pounds of a substance per gram.",
+      "specifications": {},
+      "key_facts": [
+        "The Rheonics SRD measures viscosity and density using a balanced torsional resonator.",
+        "The sensor's finned end is immersed in the fluid under test.",
+        "The mass of displaced fluid reduces the resonant frequency.",
+        "The reduction of resonant frequency is proportional to the fluid's density.",
+        "An increase in apparent mass (denser fluid) decreases the frequency.",
+        "Damping increases with viscous dissipation in the fluid.",
+        "The more viscous the fluid, the higher the damping of the resonator.",
+        "Density and viscosity are calculated from damping and resonant frequency using Rheonics' proprietary algorithms.",
+        "Rheonics SRD offers diverse density units (g/cc, kg/m³, lb/ft³, lbm/g) to ensure accurate and standardized communication across different fields."
+      ],
+      "diagram_labels": [
+        "High density",
+        "High viscosity",
+        "Low density",
+        "Low viscosity",
+        "7500",
+        "7600",
+        "7700",
+        "7800",
+        "7900",
+        "8000",
+        "8100",
+        "8200",
+        "Frequency. Hz.",
+        "frequency low density",
+        "frequency high density",
+        "phase low viscosity",
+        "phase high viscosity"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 825,
+        "cost_usd": 0.0022023
+      },
+      "source_file": "119_Density_units_supported_on_SRD.pdf"
+    },
+    {
+      "page_summary": "This page defines various non-SI units of density and explains the importance of density measurement in quality control, concluding with a reference to Rheonics' inline density meter.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "Inline Density Meter SRD"
+      ],
+      "extracted_text": "2. Importance: Less common but may be used in specific applications requiring this unit.\n5. lbs/g (pounds per gram):\n    1. Description: Indicates the mass in pounds of a substance occupying one gram of space.\n    2. Importance: Relatively uncommon, but may find use in specialized contexts.\n6. ppg (pounds per gallon):\n    1. Description: Denotes the mass of a substance in pounds per gallon of volume.\n    2. Importance: Frequently used in industries such as oil and gas for expressing the density of drilling fluids.\n7. pptf (pounds per thousand cubic feet):\n    1. Description: Represents the mass in pounds of a substance per thousand cubic feet.\n    2. Importance: Commonly used in the natural gas industry for measuring gas density.\n8. slug/ft³ (slugs per cubic foot):\n    1. Description: Denotes the mass in slugs of a substance per cubic foot of volume.\n    2. Importance: Commonly used in engineering, particularly in the United States, for certain calculations involving mass and acceleration.\n\n3. Why is it important to measure density?\nMeasuring density in quality control ensures consistent material composition, adherence to standards, and detection of contamination. It is vital for optimizing production processes, minimizing waste, and troubleshooting variations in product quality. Accurate density control contributes to customer satisfaction by delivering reliable and high-quality products.\n\n4. References\n* https://rheonics.com/products/inline-density-meter-srd/",
+      "specifications": {},
+      "key_facts": [
+        "The unit lbs/g (pounds per gram) indicates the mass in pounds of a substance occupying one gram of space.",
+        "The lbs/g unit is relatively uncommon but may be used in specialized contexts or specific applications.",
+        "The unit ppg (pounds per gallon) denotes the mass of a substance in pounds per gallon of volume.",
+        "ppg is frequently used in industries like oil and gas for expressing the density of drilling fluids.",
+        "The unit pptf (pounds per thousand cubic feet) represents the mass in pounds of a substance per thousand cubic feet.",
+        "pptf is commonly used in the natural gas industry for measuring gas density.",
+        "The unit slug/ft³ (slugs per cubic foot) denotes the mass in slugs of a substance per cubic foot of volume.",
+        "slug/ft³ is commonly used in engineering, particularly in the United States, for calculations involving mass and acceleration.",
+        "Measuring density in quality control ensures consistent material composition, adherence to standards, and detection of contamination.",
+        "Density measurement is vital for optimizing production processes and minimizing waste.",
+        "Density measurement helps in troubleshooting variations in product quality.",
+        "Accurate density control contributes to customer satisfaction by delivering reliable and high-quality products."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 710,
+        "cost_usd": 0.0019148000000000001
+      },
+      "source_file": "119_Density_units_supported_on_SRD.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

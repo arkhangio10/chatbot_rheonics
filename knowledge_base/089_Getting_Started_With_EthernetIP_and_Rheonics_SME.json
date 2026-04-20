@@ -1,0 +1,239 @@
+{
+  "source_file": "089_Getting_Started_With_EthernetIP_and_Rheonics_SME.pdf",
+  "total_pages": 4,
+  "chunks": [
+    {
+      "page_summary": "This page provides guidance on ordering and implementing Ethernet/IP communication for Rheonics sensors, including details on ordering the protocol, post-shipment ordering, and cabling requirements.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics SME",
+        "C7-Ethernet/IP option",
+        "Rheonics standard viscometers",
+        "Rheonics density meters",
+        "SME electronics",
+        "Rheonics Sensors",
+        "Ethernet/IP"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nGetting Started With Ethernet/IP and Rheonics SME\nModified on: Wed, 7 Jun, 2023 at 5:26 PM\n\nThe purpose of this article is to explain which hardware and configuration are essential for a successful Ethernet/IP implementation.\n\n1. When I order the sensor, have I already purchased Ethernet/IP?\nNo, you will need to order the Ethernet/IP communication protocol prior to the shipment of the sensor. To order the Ethernet/IP communication protocol remember to check the C7-Ethernet/IP option (https://rheonics.com/request-for-quotation/srv/) in the RFQ page. Ethernet/IP is available on all Rheonics standard viscometers and density meters that use SME electronics. The video below shows the steps to be followed to add Ethernet/IP to the device configuration:\n\ngetting started with ethernetip\nrheonics\nWatch on\n\n2. Can I order Ethernet/IP after a sensor is shipped?\nYes, communication protocols like Ethernet/IP can be ordered later. Contact Rheonics sales to order.\n\n3. Cabling\nWhen Ethernet/IP protocol is enabled on Rheonics Sensors, full duplex communication at 100 Mbps is possible. Ethernet cables that comply with the Ethernet/IP protocol, such as standard ethernet cables or ruggedized ethernet cables, are valid for use in factory automation with physical layers based on 4/2/1-pair Ethernet.",
+      "specifications": {
+        "Communication speed": "100 Mbps",
+        "Ethernet physical layer": "4/2/1-pair Ethernet"
+      },
+      "key_facts": [
+        "The Ethernet/IP communication protocol must be ordered prior to the sensor's shipment by selecting the C7-Ethernet/IP option on the RFQ page.",
+        "Ethernet/IP is available on all Rheonics standard viscometers and density meters that use SME electronics.",
+        "Ethernet/IP communication protocols can be ordered after a sensor has been shipped by contacting Rheonics sales.",
+        "Rheonics Sensors with Ethernet/IP protocol enabled support full duplex communication at 100 Mbps.",
+        "Ethernet cables compliant with the Ethernet/IP protocol, including standard or ruggedized types, are valid for use in factory automation when based on 4/2/1-pair Ethernet physical layers."
+      ],
+      "diagram_labels": [
+        "getting started with ethernetip",
+        "rheonics",
+        "Watch on"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 713,
+        "cost_usd": 0.0019223
+      },
+      "source_file": "089_Getting_Started_With_EthernetIP_and_Rheonics_SME.pdf"
+    },
+    {
+      "page_summary": "This page details Ethernet cabling options and their specifications for industrial applications.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Figure 1. Ethernet/IP cabling for industrial applications.[1]\n\nCabling options:\n• Standard Ethernet cable options with Cat 5, 5e, Cat 6, 6a, or Cat 7 cables, would meet the requirements based on the achievable speed of 100Mbps in 100 meters, still, specifications must be verified by the integrator.\n\nFigure 2. Flat Ethernet cable[2]\n\nUTP Category | Data Rate | Application | Max.Length\nCAT5 | 100Mbps | FastEthernet | 100m\nCAT5e | 1Gbps | FastEthernet | 100m\nCAT6 | 10Gbps | Gigabit Ethernet | 100m\nCAT6a | 10Gbps | Gigabit Ethernet | 100m\nCAT7 | 10Gbps | Gigabit Ethernet | 100m\n\n• Industrial Ethernet cable: Ruggedized Ethernet cables, built for the factory floor.",
+      "specifications": {
+        "CAT5_data_rate": "100 Mbps",
+        "CAT5_max_length": "100 m",
+        "CAT5e_data_rate": "1 Gbps",
+        "CAT5e_max_length": "100 m",
+        "CAT6_data_rate": "10 Gbps",
+        "CAT6_max_length": "100 m",
+        "CAT6a_data_rate": "10 Gbps",
+        "CAT6a_max_length": "100 m",
+        "CAT7_data_rate": "10 Gbps",
+        "CAT7_max_length": "100 m"
+      },
+      "key_facts": [
+        "Standard Ethernet cable options (Cat 5, 5e, 6, 6a, or 7) can meet requirements for an achievable speed of 100Mbps over 100 meters.",
+        "Industrial Ethernet cables are ruggedized and designed for use on the factory floor."
+      ],
+      "diagram_labels": [
+        "Figure 1. Ethernet/IP cabling for industrial applications.[1]",
+        "Figure 2. Flat Ethernet cable[2]",
+        "CableGeeker",
+        "CAT.6 ETHERNET CABLE RoHS"
+      ],
+      "warnings_notes": [
+        "Specifications for standard Ethernet cable options must be verified by the integrator."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 621,
+        "cost_usd": 0.0016923
+      },
+      "source_file": "089_Getting_Started_With_EthernetIP_and_Rheonics_SME.pdf"
+    },
+    {
+      "page_summary": "This page describes the specifications for Ethernet cables used with Rheonics devices and provides detailed information about obtaining and using EDS (Electronic Data Sheet) files for their Ethernet/IP compatible inline viscometers and density sensors.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics inline viscometer and density meter",
+        "Rheonics SRV"
+      ],
+      "extracted_text": "Figure 3. Ruggedized ethernet cable [3]\nThe selection of the Ethernet cable is up to the integrator, but an Ethernet cable that complies with transmission speeds of 100Mbps is enough.\n\n4. EDS File\nRheonics provides an “EDS file” file that can be used with the different sensor types which are Ethernet/IP compatible. The EDS file is a text file that contains configuration data for specific device types, it describes how a device can be used on an Ethernet/IP network. An EDS file conveys the identity information needed for a network tool to recognize a device. For Ethernet/IP scanners, the EDS file contains information about the Ethernet/IP adapter and the input message produced by the Ethernet/IP adapter and the output message consumed by the adapter. Download our EDS file based on the sensor type that you have selected here: https://support.rheonics.com/en/support/solutions/articles/81000393236-ethernetip-eds-file-for-rheonics-inline-viscometer-and-density-meter\n\nFigure 4. Overview of Rheonics device.\nThe EDS file selected must always match the sensor type that is under use.",
+      "specifications": {
+        "Ethernet Transmission Speed": "100Mbps",
+        "EDS File Creation Date": "03-25-2021",
+        "EDS File Creation Time": "12:50:05",
+        "EDS File Last Modification Date": "03-25-2021",
+        "EDS File Last Modification Time": "12:53:38",
+        "EDS Revision": "2.1"
+      },
+      "key_facts": [
+        "Ethernet cables for Rheonics devices should comply with transmission speeds of 100Mbps.",
+        "Rheonics provides EDS files for its Ethernet/IP compatible sensor types.",
+        "An EDS file is a text file containing configuration data for specific device types.",
+        "EDS files describe how a device can be used on an Ethernet/IP network.",
+        "EDS files convey identity information for network tools and I/O message details for Ethernet/IP scanners.",
+        "Rheonics EDS files for inline viscometers and density meters can be downloaded from the provided support portal link.",
+        "The EDS file selected must always match the sensor type that is currently in use."
+      ],
+      "diagram_labels": [
+        "Figure 3. Ruggedized ethernet cable",
+        "Figure 4. Overview of Rheonics device.",
+        "ECS2M2.10.BDO",
+        "CAQS.3SLB",
+        "goodline.com",
+        "EDS - [RheonicsSRV.eds - Rheonics SRV]",
+        "File",
+        "Edit",
+        "EDS",
+        "View",
+        "Window",
+        "Help",
+        "Device",
+        "Device Classification(1)",
+        "Param0 - Status Sensor",
+        "Param1 - Viscosity Median RawValue Parameter",
+        "Param2 - Viscosity Median Unit Parameter 0",
+        "Param3 - Viscosity Median RawValue Parameter",
+        "Param4 - Viscosity Median Unit Parameter 1",
+        "Param5 - Viscosity Median Pro/Status Paramet",
+        "Param6 - Density Median RawValue Parameter 0",
+        "Param7 - Density Median Unit Parameter 1",
+        "Param8 - Density Median RawValue Parameter",
+        "Param9 - Density Median Unit Parameter 1",
+        "Param10 - Density Median Pro/Status Paramet",
+        "Param11 - Temperature Median RawValue Param",
+        "Param12 - Temperature Median Value Paramet",
+        "Param13 - Temperature Median Unit Paramet",
+        "Param14 - Temperature Median Status Parame",
+        "Param15 - Temperature Raw Unfiltered",
+        "Param16 - Temperature Raw Unit Unfiltere",
+        "Param17 - Kinematic Viscosity Value Paramete",
+        "Param18 - Kinematic Viscosity Unit Paramet",
+        "Param19 - Kinematic Viscosity Status Paramete",
+        "Param20 - Density Average RawValue Parameter",
+        "Param21 - Density Average Unit Parameter 0",
+        "Param22 - Density Average RawValue Paramet",
+        "Param23 - Density Average RawValue Paramet",
+        "Param24 - Density Average Unit Parameter 4",
+        "Param25 - D - density raw Pro/Status Paramete",
+        "Param26 - D - density raw Unit Parameter 6",
+        "Param27 - D - density raw RawValue Paramete",
+        "Param28 - D - density raw RawValue Paramete",
+        "Param29 - T - temperature raw RawValue Para",
+        "Param30 - T - temperature raw RawValue Para",
+        "Param31 - T - viscosity raw Unit Parameter 5",
+        "Param32 - T - viscosity raw RawValue Paramet",
+        "Param33 - D - density raw RawValue Paramete",
+        "Param34 - D - density raw Pro/Status Paramete",
+        "Param35 - D - density raw RawValue Paramete",
+        "Param36 - D - density raw Unit Parameter 6",
+        "Param37 - D - density raw RawValue Paramete",
+        "Param38 - D - density raw RawValue Paramete",
+        "Param39 - D - temperature raw RawValue Param",
+        "Param40 - T - temperature raw RawValue Param",
+        "Param41 - f - resonant frequency (Hz) Value Pa",
+        "Param42 - f - resonant frequency (Hz) Value Pa",
+        "Param43 - f - resonant frequency (Hz) StatusVal",
+        "Param44 - f - resonant frequency (Hz) Pro/Sta",
+        "Param45 - f - resonant frequency (Hz) Pro/Sta",
+        "Param46 - f - resonant frequency (Hz) Pro/Sta",
+        "Param47 - f - resonant frequency (Hz) Pro/Sta",
+        "Param48 - fc - compensated resonant frequen",
+        "Param49 - fc - compensated resonant frequen",
+        "Param50 - fc - compensated resonant frequen",
+        "File Section Comment",
+        "File Description Text",
+        "File Creation Date",
+        "File Creation Time",
+        "Last Modification Date",
+        "Last Modification Time",
+        "EDS Revision",
+        "Home URL",
+        "http://rheonics.com",
+        "Exclude",
+        "NONE",
+        "Entry Specific",
+        "Ethernet/IP",
+        "NUM"
+      ],
+      "warnings_notes": [
+        "The selection of the Ethernet cable is up to the integrator.",
+        "The EDS file selected must always match the sensor type that is under use."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1656,
+        "cost_usd": 0.004279799999999999
+      },
+      "source_file": "089_Getting_Started_With_EthernetIP_and_Rheonics_SME.pdf"
+    },
+    {
+      "page_summary": "This page details how to configure Rheonics Ethernet/IP devices for network communication, including specific settings and a list of external references for networking cables, concluding with a general disclaimer.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Ethernet/IP devices"
+      ],
+      "extracted_text": "5. Addressing Ethernet/IP networks\nEthernet/IP Devices use a combination of Media Access Control (MAC) addressing and Internet Protocol (IP) addressing for network addressing. Each device must have a unique MAC address and IP address to be identified on the network. The purpose of this combination is to enable Ethernet/IP devices to communicate with each other and the Ethernet/IP controllers.\nRheonics Ethernet/IP devices settings must be set as follows:\n\nConnection: Exclusive owner\nKeying: Disabled\nRPI: 3200ms (recommended)\n\nReferences\n1. https://www.omnicable.com/products/bel187923a/ (https://www.omnicable.com/products/bel187923a/)\n2. https://www.walmart.ca/en/ip/Cat-6-Ethernet-Cable-5ft-Flat-Internet-Network-Cord-Cat6-Ethernet-Patch-Cable-Short-Black-Computer-Cable/PRD519LHF8V3IDH (https://www.walmart.ca/en/ip/Cat-6-Ethernet-Cable-5ft-Flat-Internet-Network-Cord-Cat6-Ethernet-Patch-Cable-Short-Black-Computer-Cable/PRD519LHF8V3IDH)\n3. https://www.milestek.com/ip68-ruggedized-cat6-cable-plug-to-jack-e-nickel-finish-24awg-str-cm-cmx-fr-tpe-blk-w-dust-caps-0-5m (https://www.milestek.com/ip68-ruggedized-cat6-cable-plug-to-jack-e-nickel-finish-24awg-str-cm-cmx-fr-tpe-blk-w-dust-caps-0-5m)\n\nDISCLAIMER\nPictures, photos, and images used are for illustration purposes and do not constitute any warranty or assertions on the suitability of use and should not be construed as an explicit or implicit recommendation or endorsement. All illustrations are given proper credit from our source of access and by their use here we do not specify or establish any copyright which belongs and stays unaffected with the existing copyright holder of that material",
+      "specifications": {
+        "Connection": "Exclusive owner",
+        "Keying": "Disabled",
+        "RPI": "3200ms (recommended)"
+      },
+      "key_facts": [
+        "Ethernet/IP Devices utilize a combination of Media Access Control (MAC) and Internet Protocol (IP) addressing for network identification.",
+        "Each Ethernet/IP device must possess a unique MAC and IP address for proper network identification.",
+        "The primary goal of combining MAC and IP addressing is to facilitate communication between Ethernet/IP devices and their respective controllers.",
+        "Rheonics Ethernet/IP devices have specific network settings that must be applied: Connection as 'Exclusive owner', Keying as 'Disabled', and RPI as '3200ms (recommended)'."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Pictures, photos, and images are used solely for illustration purposes.",
+        "The use of illustrations does not constitute any warranty or assertions regarding suitability of use.",
+        "Illustrations should not be interpreted as an explicit or implicit recommendation or endorsement.",
+        "All illustrations are attributed to their source, and their use herein does not affect existing copyrights of the material holder."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 877,
+        "cost_usd": 0.0023323
+      },
+      "source_file": "089_Getting_Started_With_EthernetIP_and_Rheonics_SME.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

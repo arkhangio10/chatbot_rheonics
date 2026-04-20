@@ -1,0 +1,240 @@
+{
+  "source_file": "250_Real-time_Concentration_using_8-variable_model_by_process_density_meter_SRD.pdf",
+  "total_pages": 4,
+  "chunks": [
+    {
+      "page_summary": "This page describes how to calculate real-time concentration using an 8-variable regression model with Rheonics SRD sensors and the Rheonics Control Panel (RCP) software, detailing the mathematical model and data input methods.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "Rheonics Control Panel (RCP)",
+        "SME (Smart Monitoring Engine)",
+        "SRD"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nReal-time Concentration using 8-variable model by process density meter SRD\nModified on: Mon, 20 Nov, 2023 at 3:27 PM\n\nWhat products are involved in this article?\nThis article is based on the use of RCP (Rheonics Control Panel, https://support.rheonics.com/en/support/solutions/articles/81000297177-running-the-rcp-program) connected to the SME (Smart Monitoring Engine).\n\nWhat is the purpose of this article?\nExplain the process to get calculated concentration values with the 8-variable regression model. Generally used across multiple food and beverage applications requiring concentration.\n\n1. Math model\nShown below is the mathematical formula for 8 variable concentration model\nC = A₀ + A₁ρ + A₂ρ² + A₃ρ³ + A₄ρ⁴ + B₁T + B₂T² + B₃T³\nEquation 1. Concentration 8-variable model.\n\nThe SRD (https://rheonics.com/products/inline-density-meter-srd/) sensor can measure inline density, viscosity, and temperature, in addition, we can use multiple mathematical models to calculate the concentration of a mix. To calculate the concentration with the 8-variable model we can use Equation 1, where:\nC: Concentration\nρ: Inline density measured\nA0 to A4: Density coefficient\nB1 to B3: Temperature coefficient\nT: Inline temperature measured in °C\n\n2. Checking the data\nAll density, viscosity compensation, and concentration models can be loaded onto the sensor through the RCP software from Rheonics (https://support.rheonics.com/en/support/solutions/articles/81000297177-running-the-rcp-program), in the “Calculation” tab.\nThis Concentration 8-variable model provides two options to input data, these are “Load List Dataset” (Figure 1) and “Load Table Dataset” (Figure 2). The data in both options can be filled out manually in each cell or can be loaded with a .csv file as shown in Table 1.\nIf you already have a table of temperature-concentration-density data of the fluid you can enter it directly to the RCP. Otherwise, you can get the values by testing the sensor in the fluid by changing the temperature and concentration of the fluid.\n\nInput Data Type\nList Dataset\nTable Dataset\n\nFigure 1. List dataset RCP view\nFigure 2. Table dataset RCP view\n\nTable 1. Input data type for the specific gravity (8-variable model)",
+      "specifications": {
+        "Inline temperature measurement unit": "°C",
+        "Density measurement unit": "Kg/m3",
+        "Concentration unit": "%"
+      },
+      "key_facts": [
+        "Rheonics' 8-variable model calculates real-time concentration using process density and temperature measurements.",
+        "The model uses inline density (ρ) and inline temperature (T) as primary inputs.",
+        "The SRD sensor can measure inline density, viscosity, and temperature.",
+        "The Rheonics Control Panel (RCP) software is used to load density, viscosity compensation, and concentration models onto the sensor via the \"Calculation\" tab.",
+        "The 8-variable concentration model provides two data input options in the RCP: \"Load List Dataset\" and \"Load Table Dataset\".",
+        "Data for the model can be filled out manually in cells or loaded from a .csv file.",
+        "Users can obtain required temperature-concentration-density data by testing the sensor in the fluid while varying temperature and concentration.",
+        "The 8-variable regression model is generally used across multiple food and beverage applications requiring concentration.",
+        "The mathematical model for concentration (C) is C = A₀ + A₁ρ + A₂ρ² + A₃ρ³ + A₄ρ⁴ + B₁T + B₂T² + B₃T³, where A₀-A₄ are density coefficients and B₁-B₃ are temperature coefficients."
+      ],
+      "diagram_labels": [
+        "Input Data Type",
+        "List Dataset",
+        "Table Dataset",
+        "Figure 1. List dataset RCP view",
+        "Figure 2. Table dataset RCP view",
+        "Table 1. Input data type for the specific gravity (8-variable model)",
+        "Temperature [°C]",
+        "Concentration %",
+        "Density (Kg/m3)",
+        "Coefficients",
+        "Import",
+        "Export",
+        "Calc. Coeff.",
+        "Load & Close",
+        "Cancel",
+        "8 Variable Model Coefficients",
+        "Concentration (wt%)"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1208,
+        "cost_usd": 0.0031598
+      },
+      "source_file": "250_Real-time_Concentration_using_8-variable_model_by_process_density_meter_SRD.pdf"
+    },
+    {
+      "page_summary": "This page details the procedure for loading concentration calculation models and associated datasets into Rheonics sensor electronics using the Rheonics Control Panel software.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel 5.4.0.6"
+      ],
+      "extracted_text": "3. How to load models into the Sensor electronics?\n\nRheonics Control Panel 5.4.0.6\nMeasurement Events Settings Service Diagnostics Communication Temp. Control Scaling Calculation Logger\nAdvanced Calculations | Thermal Compensation of Density, Viscosity\nSelect Measurement to Apply Model: Concentration (1)\nCalculated Value: 954353\nStatus: (green circle icon)\nSelect Model from List: Concentration (2)\n8 var model Concentration (3)\nLoad List DataSet\nLoad Table DataSet\nC = A₀ + A₁ρ + A₂ρ² + A₃ρ³ + B₁T + B₂T² + B₃T³\nUnits: %wt\nUPLOAD MODEL (4)\nChange SMET Output\nLCD Display (for TRD Only) Select Line to Display: None\nOutput on 4-20 mA channel Select channel number: None\nAccess measurement with applied model over Modbus RTU/TCP register: 208\nLoad Configuration (5)\nCalculation History (6)\n\nFigure 3. Calculation tab for Concentration\n\nThe following steps are to load the models into sensor electronics:\n\n1. In the “Select Measurement to Apply Model” dropdown list select “Concentration”.\n2. In the “Select Model from the list” dropdown list select “Concentration”. When you select the model, you will get more information about the specific equation used and the coefficients you will need.\n3. We have to load the data to calculate the model, in this example, we are going to click the “Load List Dataset” button and the next table (Figure 4) will be shown. You can also load the data with the “Load Table Dataset” button.\n\n8 Variable Model Coefficients\nTemperature [°C] | Concentration % | Density [Kg/m3]\n0 | 1 | 1012.4\n0 | 2 | 1024.4\n0 | 4 | 1048.2\n0 | 8 | 1094.3\n0 | 12 | 1139.9\n0 | 16 | 1184.9\n0 | 20 | 1229.6\n0 | 24 | 1274.1\n0 | 28 | 1318.2\n0 | 32 | 1361.4\n0 | 36 | 1403\n0 | 40 | 1443.5\n0 | 44 | 1482.5\n0 | 48 | 1521\n0 | 50 | 1540\n15 | 1 | 1010.65\n15 | 2 | 1021.98\n15 | 4 | 1044.41\n15 | 8 | 1088.87\n15 | 12 | 1133.27\n15 | 16 | 1177.61\n15 | 20 | 1221.83\n15 | 24 | 1265.82\n15 | 28 | 1309.4\nCoefficients (c): (-874.254577636718749,2.6027204,0.003908696,-0.003000831697136,0.0000157749,... (truncated)\nImport (a2) Export (d) Calc. Coeff. (b)\nLoad & Close (e) Cancel\n\nFigure 4. Dataset List\n\na. Load data: you can do this manually or with a CSV file.\n    a1. Manual input: The user has to fill out the data manually, complete the table writing the values in each cell.\n    a2. CSV file input: If the user already has the data in a CSV file, click the “Import” button and select your file with the data for the model.\nb. Internal calculation: Click the “calc. coeff.” button to calculate the coefficients of the model.\nc. Calculated coefficient values by the internal model will be shown in this box.\nd. Export data: If you want the current data in the table can be exported in a .csv file with the \"Export\" button.\ne. Load model: Finally, click the “Load & Close” button to load the coefficients in the sensor electronics.",
+      "specifications": {
+        "Calculated Value": "954353",
+        "Concentration Units": "%wt",
+        "Temperature Units": "°C",
+        "Density Units": "Kg/m3",
+        "Modbus RTU/TCP register": "208",
+        "Coefficients": "-874.254577636718749,2.6027204,0.003908696,-0.003000831697136,0.0000157749..."
+      },
+      "key_facts": [
+        "Rheonics Control Panel 5.4.0.6 is the software used for configuring sensor electronics.",
+        "Models for concentration calculations are loaded through the 'Calculation' tab.",
+        "The concentration model uses an 8-variable equation: C = A₀ + A₁ρ + A₂ρ² + A₃ρ³ + B₁T + B₂T² + B₃T³.",
+        "Data for calculating the model can be entered manually into a table or imported from a CSV file.",
+        "The software provides an option to internally calculate the model coefficients.",
+        "Calculated model coefficients can be loaded into the sensor electronics.",
+        "Users can export the current data in the table to a .csv file.",
+        "The process involves selecting 'Concentration' for both 'Select Measurement to Apply Model' and 'Select Model from List' dropdowns."
+      ],
+      "diagram_labels": [
+        "Rheonics Control Panel 5.4.0.6",
+        "Measurement",
+        "Events",
+        "Settings",
+        "Service",
+        "Diagnostics",
+        "Communication",
+        "Temp. Control",
+        "Scaling",
+        "Calculation",
+        "Logger",
+        "Advanced Calculations | Thermal Compensation of Density, Viscosity",
+        "Select Measurement to Apply Model",
+        "Concentration (1)",
+        "Calculated Value",
+        "Status",
+        "Select Model from List",
+        "Concentration (2)",
+        "8 var model Concentration (3)",
+        "Load List DataSet",
+        "Load Table DataSet",
+        "Units",
+        "%wt",
+        "UPLOAD MODEL (4)",
+        "Change SMET Output",
+        "LCD Display (for TRD Only) Select Line to Display",
+        "None",
+        "Output on 4-20 mA channel Select channel number",
+        "Access measurement with applied model over Modbus RTU/TCP register",
+        "Load Configuration (5)",
+        "Calculation History (6)",
+        "8 Variable Model Coefficients",
+        "Temperature [°C]",
+        "Concentration %",
+        "Density [Kg/m3]",
+        "Coefficients (c)",
+        "Import (a2)",
+        "Export (d)",
+        "Calc. Coeff. (b)",
+        "Load & Close (e)",
+        "Cancel"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1844,
+        "cost_usd": 0.004749799999999999
+      },
+      "source_file": "250_Real-time_Concentration_using_8-variable_model_by_process_density_meter_SRD.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions for configuring calculation models, display outputs, and analog/Modbus outputs within the Rheonics sensor control software.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel",
+        "SME-TRD"
+      ],
+      "extracted_text": "4. Click \"Upload Model\" to load the model settings into sensor electronics. The button should turn GREEN for a couple of seconds if the action was successful or turn RED if the operation was unsuccessful. This action will refresh the \"Calculated Value\".\n\nRheonics Control Panel 5.4.0.0\nMeasurement | Events | Settings | Service | Diagnostics | Communication | Scaling | Calculation | Logger | Help\nAdvanced Calculations | Thermal Compensation of Density, Viscosity\nSelect Measurement to Apply Model: Concentration\nCalculated Value: 17.574629\nStatus: [Green circle]\nSelect Model from List: Concentration\n[Model Description]: 8 var model\nConcentration\nUnits: %wt\nEquation: C = A₀ + A₁ρ + A₂ρ² + A₃ρ³ + A₄ρ⁴ + B₁T + B₂T² + B₃T³\nLoad List DataSet | Load Table DataSet | UPLOAD MODEL | Load Configuration | Calculation History\nChange SMET Output\nLCD Display (for TRD Only)\nSelect Line to Display: None\nOutput on 4-20 mA channel\nSelect channel number: None\nAccess measurement with applied model over Modbus RTU/TCP register: 208\n\nFigure 5. Concentration calculated\n\n5. Click \"Load Configuration\" to update the display and channel configurations in sensor electronics.\n6. The \"Calculation History\" button allows you to open a file with the last uploaded models.\n\n3.1. Handling Sensor Outputs\nFor the SME-TRD, the compensated viscosity values can be shown on the display. Select the line to display the parameter:\n\nLCD Display (for TRD Only)\nSelect Line to Display: [Dropdown with None (checked), Line 1, Line 2, Line 3]\nOutput on 4-20 mA channel\nSelect channel number\n\nFigure 4. Selecting read line for LCD display.\n\nSelect the analog channel to send data, this can be verified in the \"Service\" Tab\n\nOutput on 4-20 mA channel\nSelect channel number: [Dropdown with None (checked), Ch1, Ch2, Ch3]\nModbus RTU/TCP register\n\nFigure 5. Selecting analog output channel\n\nMeasurement can always be accessed at the register address that is displayed.\n\nAccess measurement with applied model over Modbus RTU/TCP register: 208\n\nFigure 6. Modbus TCP/IP register\n\n3.2 Demonstration Video",
+      "specifications": {
+        "Calculated Value": "17.574629 %wt",
+        "Modbus RTU/TCP register address": "208"
+      },
+      "key_facts": [
+        "Clicking \"Upload Model\" loads model settings into sensor electronics.",
+        "The \"Upload Model\" action refreshes the \"Calculated Value\".",
+        "Clicking \"Load Configuration\" updates the display and channel configurations in sensor electronics.",
+        "The \"Calculation History\" button allows opening a file with the last uploaded models.",
+        "For the SME-TRD, compensated viscosity values can be shown on the display by selecting a line.",
+        "The analog channel to send data can be verified in the \"Service\" Tab.",
+        "Measurement can always be accessed at the displayed Modbus register address.",
+        "The calculation model used is C = A₀ + A₁ρ + A₂ρ² + A₃ρ³ + A₄ρ⁴ + B₁T + B₂T² + B₃T³."
+      ],
+      "diagram_labels": [
+        "Rheonics Control Panel 5.4.0.0",
+        "Measurement",
+        "Events",
+        "Settings",
+        "Service",
+        "Diagnostics",
+        "Communication",
+        "Scaling",
+        "Calculation",
+        "Logger",
+        "Help",
+        "Advanced Calculations | Thermal Compensation of Density, Viscosity",
+        "Select Measurement to Apply Model",
+        "Calculated Value",
+        "Status",
+        "Select Model from List",
+        "8 var model",
+        "Load List DataSet",
+        "Load Table DataSet",
+        "Units",
+        "UPLOAD MODEL",
+        "Load Configuration",
+        "Calculation History",
+        "Change SMET Output",
+        "LCD Display (for TRD Only)",
+        "Select Line to Display",
+        "None",
+        "Line 1",
+        "Line 2",
+        "Line 3",
+        "Output on 4-20 mA channel",
+        "Select channel number",
+        "Ch1",
+        "Ch2",
+        "Ch3",
+        "Modbus RTU/TCP register",
+        "Access measurement with applied model over Modbus RTU/TCP register"
+      ],
+      "warnings_notes": [
+        "The \"Upload Model\" button should turn GREEN for a couple of seconds if the action was successful or turn RED if the operation was unsuccessful."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1223,
+        "cost_usd": 0.0031972999999999997
+      },
+      "source_file": "250_Real-time_Concentration_using_8-variable_model_by_process_density_meter_SRD.pdf"
+    },
+    {
+      "page_summary": "This page provides a video tutorial from Rheonics demonstrating how to load and configure an 8-variable concentration model within their RPC software.",
+      "document_type": "manual",
+      "product_names": [
+        "RPC Software"
+      ],
+      "extracted_text": "How to load the concentration 8-variable model into the Sen\nrheonics\nWatch on\nSoftware.\nVideo 1. Configuration concentration 8-variable model in RPC",
+      "specifications": {},
+      "key_facts": [
+        "The page features a video tutorial titled 'How to load the concentration 8-variable model into the Sen' which is provided by Rheonics.",
+        "The video, identified as 'Video 1', details the configuration of an 8-variable concentration model in RPC Software."
+      ],
+      "diagram_labels": [
+        "How to load the concentration 8-variable model into the Sen",
+        "Watch on",
+        "Video 1. Configuration concentration 8-variable model in RPC"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 255,
+        "cost_usd": 0.0007773000000000001
+      },
+      "source_file": "250_Real-time_Concentration_using_8-variable_model_by_process_density_meter_SRD.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

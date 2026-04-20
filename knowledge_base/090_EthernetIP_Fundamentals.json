@@ -1,0 +1,210 @@
+{
+  "source_file": "090_EthernetIP_Fundamentals.pdf",
+  "total_pages": 6,
+  "chunks": [
+    {
+      "page_summary": "This document provides an overview of Ethernet/IP fundamentals, detailing its definition, characteristics, and illustrating a typical network topology with Rheonics sensors.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "SME-DRM",
+        "Rheonics Sensor"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nEthernet/IP Fundamentals\n\nModified on: Wed, 7 Jun, 2023 at 5:47 PM\n\n1. What is Ethernet/IP?\n\nEthernet/IP is an industrial network protocol that adapts the Common Industrial Protocol (CIP) to standard Ethernet. It is a best-in-class Ethernet communication network, enabling users to implement standard Ethernet technologies in industrial automation applications (IEEE 802.3 combined with TCP/IP Suite) while simultaneously enabling Internet and enterprise connectivity to data anywhere.\n\nEthernet/IP has two communication functions: implicit messaging which communicates in a fixed cycle, and explicit messaging which communicates at arbitrary timings.\n\nEthernet/IP is a member of a family of networks that implements the Common Industrial Protocol (CIP) at its upper layers. The CIP defines the object structure and specifies the method of message transfer. [1]\n\n2. What are the characteristics of Ethernet/IP?\n\n* Compatible with standard Internet protocols — e.g., HTTP, FTP, SNMP, and DHCP — and standard industrial protocols for data access and exchange such as OPC UA.\n* Physical layer: copper, fiber optics, or wireless.\n* 100 Mbps, full duplex.\n* Flexible topology (Line, star, and ring).\n* Data is transmitted in a cyclic manner (in a fixed cycle) determined by the requested packet interval (RPI).\n* Large message size.\n\nI/O Scanner\nSwitch\nSME-DRM 1\nSME-DRM 2\nSME-DRM 3\n\nFigure 1. EtherNet/IP Topology with Rheonics Sensor\n\n3. What devices do I need to set up an EtherNet/IP network?\n\n3.1. Is Ethernet/IP Half-Duplex or Full-Duplex?",
+      "specifications": {
+        "data_rate_and_duplex": "100 Mbps, full duplex"
+      },
+      "key_facts": [
+        "Ethernet/IP is an industrial network protocol that adapts the Common Industrial Protocol (CIP) to standard Ethernet.",
+        "It is a best-in-class Ethernet communication network for industrial automation, supporting IEEE 802.3 and TCP/IP Suite.",
+        "Ethernet/IP enables simultaneous Internet and enterprise connectivity to data.",
+        "It uses two communication functions: implicit messaging (fixed cycle) and explicit messaging (arbitrary timings).",
+        "Ethernet/IP implements the Common Industrial Protocol (CIP) at its upper layers, defining object structure and message transfer.",
+        "It is compatible with standard Internet protocols (e.g., HTTP, FTP, SNMP, DHCP) and industrial protocols (e.g., OPC UA).",
+        "The physical layer for Ethernet/IP can be copper, fiber optics, or wireless.",
+        "Ethernet/IP supports flexible topologies including line, star, and ring.",
+        "Data is transmitted in a cyclic manner, with the cycle determined by the requested packet interval (RPI).",
+        "Ethernet/IP supports large message sizes."
+      ],
+      "diagram_labels": [
+        "I/O Scanner",
+        "Switch",
+        "SME-DRM 1",
+        "SME-DRM 2",
+        "SME-DRM 3",
+        "Figure 1. EtherNet/IP Topology with Rheonics Sensor"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 867,
+        "cost_usd": 0.0023073
+      },
+      "source_file": "090_EthernetIP_Fundamentals.pdf"
+    },
+    {
+      "page_summary": "This page explains the data transmission capabilities of the Ethernet/IP protocol, differentiating between half-duplex and full-duplex communication, and provides recommendations for compliant Ethernet cable options.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "The Ethernet/IP protocol supports data speeds of up to 100 Mbps and cycle times of 1 to 10 ms for I/O data. Ethernet/IP allows half/full duplex communication, which means that data can be transmitted in both directions at the same time (Controllers and IO devices can both assume consumer and provider roles, leveraging the full duplex nature of Ethernet).\nHalf-Duplex transmission\nFigure 2. Half-Duplex transmission\nFull-duplex transmission:\nFigure 3. Full-Duplex transmission\n3.2. Ethernet Cable Options.\nRecommendations for Ethernet cables that will comply with the Ethernet/IP protocol are the following:\n• Standard Ethernet cable options",
+      "specifications": {
+        "data_speeds": "up to 100 Mbps",
+        "cycle_times": "1 to 10 ms"
+      },
+      "key_facts": [
+        "The Ethernet/IP protocol supports data speeds of up to 100 Mbps for I/O data.",
+        "The Ethernet/IP protocol supports cycle times of 1 to 10 ms for I/O data.",
+        "Ethernet/IP allows half-duplex and full-duplex communication.",
+        "In full-duplex communication, data can be transmitted in both directions simultaneously.",
+        "With full-duplex Ethernet/IP, controllers and I/O devices can both act as consumers and providers.",
+        "Standard Ethernet cable options are recommended for compliance with the Ethernet/IP protocol."
+      ],
+      "diagram_labels": [
+        "SEND A",
+        "RECEIVE B",
+        "A is sending, B is receiving",
+        "RECEIVE A",
+        "SEND B",
+        "B is sending, A is receiving",
+        "Figure 2. Half-Duplex transmission",
+        "Full-duplex transmission:",
+        "Figure 3. Full-Duplex transmission"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 512,
+        "cost_usd": 0.0014198
+      },
+      "source_file": "090_EthernetIP_Fundamentals.pdf"
+    },
+    {
+      "page_summary": "This page features an image of flat Ethernet cables, identified as CableGeeker CAT.6 Ethernet cables, which are ruggedized for industrial factory floor applications.",
+      "document_type": "manual",
+      "product_names": [
+        "CableGeeker Flat Ethernet cable",
+        "Industrial Ethernet cable",
+        "Ruggedized Ethernet cables"
+      ],
+      "extracted_text": "CableGeeker\nCAT.6 ETHERNET CABLE RoHS\nFigure 4. Flat Ethernet cable\n• Industrial Ethernet cable: Ruggedized Ethernet cables, built for the factory floor",
+      "specifications": {
+        "Cable Category": "CAT.6"
+      },
+      "key_facts": [
+        "The cables shown are Flat Ethernet cables.",
+        "The cables are branded CableGeeker.",
+        "The cables are CAT.6 Ethernet type.",
+        "The cables are RoHS compliant.",
+        "These are industrial Ethernet cables.",
+        "The cables are ruggedized.",
+        "The cables are built for the factory floor."
+      ],
+      "diagram_labels": [
+        "CableGeeker",
+        "CAT.6",
+        "ETHERNET",
+        "CABLE",
+        "RoHS",
+        "Figure 4. Flat Ethernet cable"
+      ],
+      "warnings_notes": [
+        "RoHS (Restriction of Hazardous Substances) compliance is indicated."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 324,
+        "cost_usd": 0.0009498
+      },
+      "source_file": "090_EthernetIP_Fundamentals.pdf"
+    },
+    {
+      "page_summary": "This page provides guidelines for Ethernet cable types and switch requirements for use with Rheonics devices, featuring images of ruggedized and standard Ethernet cables.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics devices"
+      ],
+      "extracted_text": "Figure 5. Ruggedized ethernet cable [2]\n\n*   Ethernet cables with Cat 5, 5e, Cat 6, 6a, or Cat 7 cables, would meet the requirements based on the achievable speed of 100Mbps in 100 meters but specifications must be verified by the integrator.\n\nFigure 6. Ethernet/IP CAT6A Ethernet cable [3]\n\n3.3. Switches\n\nThe switches that should be used together with Rheonics devices should meet the minimum requirements of 100 Mbps and be capable of going full duplex. When looking for a switch that is Ethernet/IP compatible, the following options are the most commonly used, it is up to the user to decide which is the best for their application:",
+      "specifications": {
+        "ethernet_cable_achievable_speed": "100 Mbps",
+        "ethernet_cable_achievable_distance": "100 meters",
+        "minimum_switch_speed": "100 Mbps",
+        "switch_capability": "full duplex"
+      },
+      "key_facts": [
+        "Ethernet cables of categories Cat 5, 5e, Cat 6, 6a, or Cat 7 are capable of meeting 100 Mbps speed over 100 meters.",
+        "Switches used with Rheonics devices must meet a minimum speed of 100 Mbps and support full duplex operation.",
+        "Commonly used Ethernet/IP compatible switches are available, and the user is responsible for selecting the best option for their specific application."
+      ],
+      "diagram_labels": [
+        "Figure 5. Ruggedized ethernet cable [2]",
+        "Figure 6. Ethernet/IP CAT6A Ethernet cable [3]"
+      ],
+      "warnings_notes": [
+        "Ethernet cable specifications must be verified by the integrator.",
+        "It is up to the user to decide which Ethernet/IP compatible switch is the best for their application."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 517,
+        "cost_usd": 0.0014323
+      },
+      "source_file": "090_EthernetIP_Fundamentals.pdf"
+    },
+    {
+      "page_summary": "This page provides an overview of Ethernet/IP network configuration, explains the role of Electronic Data Sheet (EDS) files, and details Rheonics' support for Ethernet/IP in its inline viscosity and density meters, including its affiliation with the ODVA organization.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SME sensor electronics",
+        "inline viscometer SRV",
+        "inline density meter SRD"
+      ],
+      "extracted_text": "Switch Type\nUnmanaged switches\nManaged switches\nAdvantage\n* These are inexpensive and easy to set up.\n* Great solution for those who need to connect multiple devices to the same network and don't need to configure anything.\n* Integrated diagnostics\n* They come with a built-in configuration interface, allowing you to customize your network settings to suit your needs.\n* They also offer advanced features like Quality of Service (QoS), VLANs, and port-level security.\nDisadvantage\n* No configuration interface or options\n* Requires training in how to manage an ethernet network.\n\n4. What configuration do I need?\n\n4.1. Addressing Ethernet/IP\nEthernet/IP Devices use a combination of Media Access Control (MAC) addressing and Internet Protocol (IP) addressing for network addressing. Each device must have a unique MAC address and IP address to be identified on the network. The purpose of this combination is to enable Ethernet/IP devices to communicate with each other and with the Ethernet/IP controllers.\n\n4.2. Electronic Data Sheet (EDS file)\nThe EDS file is a text file that contains configuration data for specific device types. It describes how a device can be used on an Ethernet/IP network. The document describes the device's objects, attributes, and services. The EDS is required for compliance with ODVA standards.\nAn EDS file conveys the identity information needed for a network tool to recognize a device. For Ethernet/IP scanners, the EDS file contains information about the Ethernet/IP adapter's I/O messages. It describes the input message produced by the Ethernet/IP adapter and the output message consumed by the adapter.\n\n5. Does Rheonics inline viscosity and density meter support Ethernet/IP?\nYes, all Rheonics SME sensor electronics support Ethernet/IP communication protocol. It can be ordered prior to the shipment or can be enabled remotely. To order the Ethernet/IP communication protocol on Rheonics sensors, check for the C7-Ethernet/IP option in the RFQ page for the specific device you are ordering, eg. inline viscometer SRV or inline density meter SRD. More information on how to order the Ethernet/IP communication protocol can be found in this support article: Getting Started With Ethernet/IP and Rheonics SME (https://support.rheonics.com/en/support/solutions/articles/81000411438-getting-started-with-ethernet-ip-and-rheonics-sme).\n\n6. How does Rheonics support Ethernet/IP integration and development?\nODVA is a global organization whose members are among the world's leading automation companies. ODVA's mission is to promote open, interoperable information and communication technologies in the industrial automation sector. ODVA recognizes its media-independent network protocol - the Common Industrial Protocol, or \"CIP\" - as its core technology and its primary common interest - Ethernet/IP, DeviceNet, CompoNet, and ControlNet.\nRheonics is a member of ODVA organization as a vendor of hardware, software, and Ethernet/IP-compatible systems. Check our membership at this link: https://marketplace.odva.org/organizations/2885-rheonics-gmbh",
+      "specifications": {},
+      "key_facts": [
+        "Unmanaged switches are inexpensive and easy to set up, suitable for connecting multiple devices without configuration, but lack advanced options.",
+        "Managed switches offer integrated diagnostics, customizable network settings, and advanced features like QoS, VLANs, and port-level security, but require training to manage.",
+        "Ethernet/IP Devices use unique MAC and IP addresses to enable communication between devices and controllers.",
+        "Electronic Data Sheet (EDS) files contain configuration data for specific device types, describe device objects, attributes, and services, and are required for ODVA compliance.",
+        "EDS files provide identity information for network tools and detail I/O messages for Ethernet/IP scanners.",
+        "All Rheonics SME sensor electronics support the Ethernet/IP communication protocol, which can be ordered as the C7-Ethernet/IP option or enabled remotely.",
+        "ODVA is a global organization that promotes open, interoperable information and communication technologies in industrial automation, recognizing the Common Industrial Protocol (CIP) as its core technology.",
+        "Rheonics is a member of the ODVA organization, providing hardware, software, and Ethernet/IP-compatible systems."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "The EDS (Electronic Data Sheet) is required for compliance with ODVA standards."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1112,
+        "cost_usd": 0.0029197999999999997
+      },
+      "source_file": "090_EthernetIP_Fundamentals.pdf"
+    },
+    {
+      "page_num": 6,
+      "page_summary": "Extraction failed",
+      "document_type": "unknown",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "extraction_failed": true,
+      "source_file": "090_EthernetIP_Fundamentals.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": [
+      6
+    ]
+  }
+}

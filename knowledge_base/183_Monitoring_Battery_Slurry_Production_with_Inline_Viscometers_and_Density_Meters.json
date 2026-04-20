@@ -1,0 +1,211 @@
+{
+  "source_file": "183_Monitoring_Battery_Slurry_Production_with_Inline_Viscometers_and_Density_Meters.pdf",
+  "total_pages": 7,
+  "chunks": [
+    {
+      "page_num": 1,
+      "page_summary": "Extraction failed",
+      "document_type": "unknown",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "extraction_failed": true,
+      "source_file": "183_Monitoring_Battery_Slurry_Production_with_Inline_Viscometers_and_Density_Meters.pdf"
+    },
+    {
+      "page_summary": "This page describes the typical three-stage process of battery cell production, focusing on electrode manufacturing and the role of inline viscometry and density sensing in battery slurry formulation.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "SRV Viscometer",
+        "SRD Density-Viscosity Meter"
+      ],
+      "extracted_text": "Figure 1: Typical cell production process includes electrode manufacturing (battery slurry mixing and manufacturing of battery electrode sheets), cell assembly (steps vary based on final cell type), and cell finishing (involves degassing, aging, and testing).\n\nBattery production is a three-stage process with each stage containing several unit operations:\n1. Electrode manufacturing (mixing, coating, drying calendaring, slitting, and vacuum drying),\n2. Cell assembly (separating, stacking, packing, and electrolyte filling), and\n3. Cell finishing (forming, degassing, aging, and testing).\n\nTo ensure the production of cells of the highest quality, adequate controls must be applied throughout fabrication with close attention to the electrode manufacturing stage. Battery cells are comprised of multiple individual batteries, which are themselves made up of layered electrode sheets. A battery cell is, therefore, only as strong and durable as its weakest electrode sheet.\n\nBattery slurry and electrode manufacturing:\nElectrode manufacturing begins with the formulation of battery slurry. This involves the dispersion of dry ingredients in solvents until a homogeneous slurry is obtained. The compositions vary for anode and cathode slurries but are comprised of active materials, conductive additives, solvents, and binders.",
+      "specifications": {},
+      "key_facts": [
+        "Battery production is a three-stage process: Electrode manufacturing, Cell assembly, and Cell finishing.",
+        "Electrode manufacturing involves mixing, coating, drying calendaring, slitting, and vacuum drying.",
+        "Cell assembly includes separating, stacking, packing, and electrolyte filling.",
+        "Cell finishing consists of forming, degassing, aging, and testing.",
+        "Ensuring high-quality battery cells requires adequate controls throughout fabrication, especially during the electrode manufacturing stage.",
+        "Battery cells are composed of multiple individual batteries, each made up of layered electrode sheets.",
+        "The strength and durability of a battery cell are limited by its weakest electrode sheet.",
+        "Electrode manufacturing starts with formulating battery slurry by dispersing dry ingredients in solvents to achieve homogeneity.",
+        "Battery slurry compositions differ for anode and cathode, containing active materials, conductive additives, solvents, and binders."
+      ],
+      "diagram_labels": [
+        "Mixing",
+        "Calendering and pressing",
+        "Vacuum drying",
+        "Electrolyte filling",
+        "Pressing and assembling",
+        "Degassing aging and testing",
+        "Electrode Manufacturing",
+        "Cell Assembly",
+        "Cell Finishing",
+        "Dry ingredients",
+        "Solvents",
+        "Controller",
+        "SRV Viscometer",
+        "Mixing tank",
+        "SRD Density-Viscosity Meter",
+        "Storage tank"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 680,
+        "cost_usd": 0.0018398000000000002
+      },
+      "source_file": "183_Monitoring_Battery_Slurry_Production_with_Inline_Viscometers_and_Density_Meters.pdf"
+    },
+    {
+      "page_num": 3,
+      "page_summary": "Extraction failed",
+      "document_type": "unknown",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "extraction_failed": true,
+      "source_file": "183_Monitoring_Battery_Slurry_Production_with_Inline_Viscometers_and_Density_Meters.pdf"
+    },
+    {
+      "page_summary": "This page describes Rheonics inline density and viscosity sensors (SRV and SRD), their benefits, and recommended applications in battery slurry preparation and electrode coating processes.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "Rheonics Inline Density and Viscosity sensors",
+        "Rheonics SRV",
+        "SRV",
+        "Rheonics SRD",
+        "SRD",
+        "Type-SR sensors"
+      ],
+      "extracted_text": "Rheonics Inline Density and Viscosity sensors\n\nRheonics provides inline sensors for measuring viscosity and density, enabling comprehensive automation of slurry mixing and electrode coating processes.\n\nThe Rheonics SRV (https://rheonics.com/products/inline-viscometer-srv/) sensor measures viscosity and temperature, whereas the SRD (https://rheonics.com/products/inline-density-meter-srd/) sensor measures density, viscosity, and temperature simultaneously. Both sensors are designed to operate accurately in various environments, delivering consistent and reliable results.\nThese Type-SR sensors offer users the following benefits:\n* Continuous inline monitoring of viscosity and density during slurry mixing and coating processes.\n* Zero recalibration is needed throughout the sensor's lifespan.\n* Reduce waste by removing sampling and measurement delays.\n* High precision and repeatability.\n* Enhanced potential for complete process automation.\n\nFigure 4: Rheonics SRV (left) and SRD (right) 3/4\" NPT sensor probes\n\nRecommended Rheonics sensor locations in battery production\n\nRheonics density and viscosity sensors are recommended at various points in battery slurry preparation and coating. At each of these points, the sensor provides validation, and quality control, and can be used for process automation.\n\nFigure 5: Electrode manufacturing process (left to right): Incoming raw materials, mixing, storing, coating, and slitting. [2]\n\nIncoming raw materials\nSRV or SRD is used to ensure incoming material is within specifications before entering the process. When the process involves a viscous material or a mixture, viscosity gives a great deal of information, and ensuring the material meets viscosity specifications results in high product consistency. However, SRD is used when density is known to be the key determinant of the quality of the raw material.\n\nMixing\nThe SRV can be directly installed in the mixer. This allows real-time monitoring of viscosity as it develops through mixing. It is extremely useful as it allows immediate interventions if the viscosity deviates from the setpoint. It can also be used to indicate homogeneity, slurry aging, or the presence of impurities. Measurements here can work hand-in-hand with current sampling and slurry characterization.",
+      "specifications": {
+        "NPT sensor probes": "3/4 inch"
+      },
+      "key_facts": [
+        "Rheonics provides inline sensors for measuring viscosity and density, enabling comprehensive automation of slurry mixing and electrode coating processes.",
+        "The Rheonics SRV sensor measures viscosity and temperature.",
+        "The Rheonics SRD sensor measures density, viscosity, and temperature simultaneously.",
+        "Both SRV and SRD sensors are designed to operate accurately in various environments, delivering consistent and reliable results.",
+        "Type-SR sensors offer continuous inline monitoring of viscosity and density during slurry mixing and coating processes.",
+        "Type-SR sensors require zero recalibration throughout their lifespan.",
+        "Type-SR sensors reduce waste by removing sampling and measurement delays.",
+        "Type-SR sensors offer high precision and repeatability.",
+        "Type-SR sensors provide enhanced potential for complete process automation.",
+        "Rheonics density and viscosity sensors are recommended at various points in battery slurry preparation and coating.",
+        "Sensors provide validation, quality control, and can be used for process automation at recommended points.",
+        "SRV or SRD sensors are used to ensure incoming material is within specifications before entering the process.",
+        "Viscosity provides significant information for viscous materials or mixtures, and meeting viscosity specifications results in high product consistency.",
+        "SRD is used when density is the key determinant of the quality of the raw material.",
+        "The SRV sensor can be directly installed in the mixer for real-time monitoring of viscosity as it develops through mixing.",
+        "Real-time viscosity monitoring allows for immediate interventions if viscosity deviates from the setpoint.",
+        "SRV can also indicate homogeneity, slurry aging, or the presence of impurities.",
+        "Sensor measurements can work hand-in-hand with current sampling and slurry characterization."
+      ],
+      "diagram_labels": [
+        "DRY MIXING",
+        "WET MIXING",
+        "SLURRY",
+        "CALENDERING",
+        "BACK COATING",
+        "ELECTRODES CUTTING & ELECTRODE TAB WEDDING"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1059,
+        "cost_usd": 0.0027873
+      },
+      "source_file": "183_Monitoring_Battery_Slurry_Production_with_Inline_Viscometers_and_Density_Meters.pdf"
+    },
+    {
+      "page_summary": "This page details the application of Rheonics SRV viscometers and SRD density sensors in various stages of battery manufacturing, including storage, supply, coating, and cell filling, and provides links to installation guidelines and a comparison of inline vs. lab readings.",
+      "document_type": "manual",
+      "product_names": [
+        "SRD",
+        "SRV",
+        "Type-SR Sensor"
+      ],
+      "extracted_text": "Storage tank - For storage tanks, the SRD is often installed on recirculation lines. Keeping both the cathode and anode slurries in check with real-time monitoring of density and viscosity ensures consistent slurry that will then be transferred to the supply tank.\nSupply tank - Installation of an SRD at the tank bottom can be used to monitor if sedimentation is occurring during transport.\nCoating - Ensuring a uniformly thick layer of electrode slurry is easily done using an SRV to get consistent viscosity readings. Ensuring the same thickness through tight viscosity control is perhaps the most crucial factor for achieving the same cell build across batches of electrodes, translating to optimum performance and lifetime of the fully assembled battery pack. The SRV is an award-winning solution that is revolutionizing the process of coatings such as this.\nCell filling and packaging - Rheonics SRV and SRD can be used to monitor electrolyte filling and dosing. Monitoring the viscosity and density of the electrolyte helps to obtain a homogeneous wetting process to properly activate the cell. Here the SRV and SRD are both possible solutions however, the SRV will be easier to integrate in the small lines of electrolyte filling systems.\n\nFigure 6: Cell filling/wetting with an electrolyte solution. [3]\n\nFollow these articles for installation guidelines:\n* Installation Guidelines for inline viscometer SRV and density meter SRD\n  (https://support.rheonics.com/en/support/solutions/articles/81000411886-installation-guidelines-for-inline-viscometer-srv-and-density-meter-srd)\n* Process viscometer and density meter installation in recirculation line versus in the mixing tank\n  (https://support.rheonics.com/en/support/solutions/articles/81000412034-process-viscometer-and-density-meter-installation-in-recirculation-line-versus-in-the-mixing-tank)\n* SRV and SRD Suitable Installations\n  (https://support.rheonics.com/en/support/solutions/articles/81000412310-srv-and-srd-suitable-installations)\n\nComparing inline and lab readings:\nA Type-SR Sensor operating in a non-Newtonian fluid-like battery slurry will not give the same viscosity reading as one from a lab viscometer. The two operate at very different shear rates. The SRV and SRD are predominantly process control instruments, they can give you the smallest deviations from the baseline in production, which is ideal for process monitoring and control.",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics SRD sensors are used in storage tanks on recirculation lines to monitor cathode and anode slurry density and viscosity, ensuring consistency.",
+        "An SRD sensor installed at the tank bottom can detect sedimentation in supply tanks during transport.",
+        "An SRV viscometer helps ensure a uniformly thick layer of electrode slurry during coating by providing consistent viscosity readings, which is crucial for battery cell performance and lifetime.",
+        "The SRV is an award-winning solution for coating processes.",
+        "Both Rheonics SRV and SRD sensors can monitor electrolyte filling and dosing in cell packaging to ensure homogeneous wetting and proper cell activation.",
+        "The SRV is easier to integrate into small electrolyte filling lines compared to the SRD.",
+        "A Type-SR Sensor's viscosity reading for non-Newtonian battery slurry may differ from a lab viscometer due to different shear rates.",
+        "SRV and SRD sensors are primarily process control instruments, designed to provide minimal deviations from the production baseline, making them ideal for process monitoring and control."
+      ],
+      "diagram_labels": [
+        "Cell Stack"
+      ],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 936,
+        "cost_usd": 0.0024798
+      },
+      "source_file": "183_Monitoring_Battery_Slurry_Production_with_Inline_Viscometers_and_Density_Meters.pdf"
+    },
+    {
+      "page_num": 6,
+      "page_summary": "Extraction failed",
+      "document_type": "unknown",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "extraction_failed": true,
+      "source_file": "183_Monitoring_Battery_Slurry_Production_with_Inline_Viscometers_and_Density_Meters.pdf"
+    },
+    {
+      "page_summary": "This page highlights the importance of homogeneity in density measurements and viscosity control for quality assurance in lithium-ion battery cell production and provides external references.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "SRD"
+      ],
+      "extracted_text": "The correct distribution of solids in the slurry is ensured by the homogeneity of the density measurements with an SRD in the mixer. This allows for correct solids loading on the coated foils and as solids loading is a key performance indicator for battery cells, SRD density monitoring can also be used for this aspect of quality control. The tight control of viscosity similarly allows consistency in coating layer thickness. This aids in quality control for battery power density and recharge cycling.\n\nReferences\n\n[1]. LITHIUM-ION BATTERY CELL PRODUCTION PROCESS (https://www.pem.rwth-aachen.de/global/show_document.asp?id=aaaaaaaaabdbgtk)\n[2]. Battery Materials (https://www.freemantech.co.uk/applications/battery-materials)\n[3]. Electrolyte Filling of a Lithium-Ion Cell (https://youtu.be/ceUSPNzxwls?si=6ksgM2v-ksH7vB_z)",
+      "specifications": {},
+      "key_facts": [
+        "The correct distribution of solids in a slurry is ensured by the homogeneity of density measurements using an SRD in the mixer.",
+        "Correct solids loading on coated foils is a key performance indicator for battery cells.",
+        "SRD density monitoring is useful for quality control related to solids loading in battery cells.",
+        "Tight control of viscosity ensures consistency in coating layer thickness.",
+        "Consistency in coating layer thickness aids in quality control for battery power density and recharge cycling."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 417,
+        "cost_usd": 0.0011823
+      },
+      "source_file": "183_Monitoring_Battery_Slurry_Production_with_Inline_Viscometers_and_Density_Meters.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": [
+      1,
+      3,
+      6
+    ]
+  }
+}

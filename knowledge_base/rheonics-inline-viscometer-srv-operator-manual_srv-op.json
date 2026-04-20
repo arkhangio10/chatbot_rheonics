@@ -1,0 +1,1142 @@
+{
+  "source_file": "rheonics-inline-viscometer-srv-operator-manual_srv-op.pdf",
+  "total_pages": 25,
+  "chunks": [
+    {
+      "page_summary": "This page is the cover of the Rheonics SRV Viscosity Meter Sensor Operator Manual, featuring an image of the inline viscometer system.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SRV Viscosity Meter",
+        "Rheonics SRV",
+        "Inline Process Viscometer"
+      ],
+      "extracted_text": "SRV-OP-2412\n\nRheonics SRV Operator Manual\n\nRheonics SRV Viscosity Meter\nSENSOR OPERATOR MANUAL\n\nInline Process Viscometer\nDoc. ID: SRV-OP-2412\n\n[Image of the Rheonics SRV Viscosity Meter system]\nOn the main control unit:\n  Brand text: rheonics\n  Display shows:\n    V: 1234.56 | 1234.56\n    D: 1234.56 | 1234.56\n    T: 123.45 50.00\n    C (with an associated icon)\n    HART\n    Label: Process\n    Label: Status\n  Brand text at the bottom of the main unit: rheonics\n  Warning text on the casing: KEEP COVER TIGHT WHEN CIRCUITS ARE ALIVE\nOn the sensor probe:\n  Brand text: rheonics\n\n[Rheonics company logo and text]\nrheonics",
+      "specifications": {},
+      "key_facts": [
+        "The document is an operator manual for the Rheonics SRV Viscosity Meter.",
+        "The product is identified as an Inline Process Viscometer.",
+        "The document ID is SRV-OP-2412.",
+        "The device's display shows placeholder values for Viscosity (V), Density (D), and Temperature (T).",
+        "The device supports HART communication.",
+        "The document is produced by Rheonics."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "V:",
+        "D:",
+        "T:",
+        "C",
+        "HART",
+        "Process",
+        "Status"
+      ],
+      "warnings_notes": [
+        "KEEP COVER TIGHT WHEN CIRCUITS ARE ALIVE"
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 544,
+        "cost_usd": 0.0014998000000000001
+      },
+      "source_file": "rheonics-inline-viscometer-srv-operator-manual_srv-op.pdf"
+    },
+    {
+      "page_summary": "This page provides Rheonics global support contact information, including headquarters in Europe and the US, along with copyright and trademark notices for the SRV Operator Manual.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SRV"
+      ],
+      "extracted_text": "Rheonics SRV Operator Manual\nSRV-OP-2412\n\nrheonics\n\nGLOBAL SUPPORT\n\nFor Support, visit: https://support.rheonics.com\n\nEUROPE HEADQUARTERS\nRheonics GmbH\nWinterthur, Switzerland\nTel: +41 52 511 32 00\n\nUS HEADQUARTERS\nRheonics, Inc.\nSugar Land, TX, USA\nTel: +1 713 364 5427\n\nWebsite: https://rheonics.com\nSupport Portal: https://support.rheonics.com\nSales E-Mail: info@rheonics.com\nSupport E-Mail: support@rheonics.com\n\n© COPYRIGHT RHEONICS 2024\n\nNo part of this publication may be copied or distributed, transmitted, transcribed, stored in a retrieval\nsystem, or translated into any human or computer language, in any form or by any means, electronic,\nmechanical, manual, or otherwise, or disclosed to third parties without the express written permission\nof Rheonics. The information contained in this manual is subject to change without notice.\n\nTRADEMARKS\n\nRheonics is a trademark of Rheonics, Inc. Other product and company names listed in this manual are\ntrademarks or trade names of their respective manufacturers.\n\n©Rheonics. Rheonics confidential and proprietary information.\nPage 2 of 25",
+      "specifications": {},
+      "key_facts": [
+        "This document is an Operator Manual for the Rheonics SRV with document ID SRV-OP-2412.",
+        "Global support for Rheonics products is available at https://support.rheonics.com.",
+        "Rheonics GmbH, the European headquarters, is located in Winterthur, Switzerland, and can be reached at +41 52 511 32 00.",
+        "Rheonics, Inc., the US headquarters, is located in Sugar Land, TX, USA, and can be reached at +1 713 364 5427.",
+        "The official Rheonics website is https://rheonics.com.",
+        "The support portal is https://support.rheonics.com.",
+        "Sales inquiries can be directed to info@rheonics.com.",
+        "Support inquiries can be directed to support@rheonics.com.",
+        "The document is copyrighted by Rheonics in 2024.",
+        "Rheonics is a trademark of Rheonics, Inc.",
+        "This document is confidential and proprietary information of Rheonics."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "No part of this publication may be copied or distributed, transmitted, transcribed, stored in a retrieval system, or translated into any human or computer language, in any form or by any means, electronic, mechanical, manual, or otherwise, or disclosed to third parties without the express written permission of Rheonics.",
+        "The information contained in this manual is subject to change without notice.",
+        "Other product and company names listed in this manual are trademarks or trade names of their respective manufacturers."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 803,
+        "cost_usd": 0.0021473
+      },
+      "source_file": "rheonics-inline-viscometer-srv-operator-manual_srv-op.pdf"
+    },
+    {
+      "page_summary": "This page is the Table of Contents for the Rheonics SRV Operator Manual, outlining sections on getting started, general information, technical specifications, communication protocols, software, and sensor handling.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SRV",
+        "SRV Inline Viscometer",
+        "SRV-OP-2412"
+      ],
+      "extracted_text": "Rheonics SRV Operator Manual\nSRV-OP-2412\n\nrheonics\n\nContents\n\n1 Before you begin..........................................................................5\n  1.1 About the manual .....................................................................5\n  1.2 Contact ...................................................................................5\n  1.3 Who should use this document? ................................................5\n  1.4 Warning ...................................................................................5\n  1.5 Nomenclature ..........................................................................5\n  1.6 Related Documentation .............................................................5\n2 General Information .....................................................................6\n  2.1 Scope of Delivery .....................................................................6\n  2.2 About SRV Inline Viscometer .....................................................7\n  2.3 Best practices...........................................................................8\n  2.4 Serial number, probe markings, and certifications.........................9\n3 Technical Specifications ..............................................................10\n  3.1 Sensor Specifications ..............................................................10\n  3.2 Sensor Wiring..........................................................................10\n  3.3 Power requirements .................................................................13\n  3.4 Sensor Probe Installation Requirements ....................................14\n4 Communication Protocols ............................................................17\n  4.1 General Information .................................................................17\n  4.2 4-20mA (C1 - Default) .............................................................17\n  4.3 Modbus RTU (C2 - Default) ......................................................17\n  4.4 Serial USB (C3 - Default)..........................................................18\n  4.5 Bluetooth (C5) ........................................................................18\n  4.6 Modbus TCP (C6) ...................................................................18\n  4.7 Ethernet/IP (C7) ......................................................................18\n  4.8 HART (C8) .............................................................................18\n  4.9 Profinet (C9) ..........................................................................18\n5 RCP Software ..............................................................................19\n6 Handling the sensor ....................................................................21\n  6.1 Cleaning...................................................................................21\n\n©Rheonics. Rheonics confidential and proprietary information.\nPage 3 of 25",
+      "specifications": {},
+      "key_facts": [
+        "This document is the Operator Manual for the Rheonics SRV, identified as SRV-OP-2412.",
+        "The manual is structured into six main sections: Before you begin, General Information, Technical Specifications, Communication Protocols, RCP Software, and Handling the sensor.",
+        "Key communication protocols covered include 4-20mA, Modbus RTU, Serial USB, Bluetooth, Modbus TCP, Ethernet/IP, HART, and Profinet.",
+        "The document contains sections dedicated to sensor specifications, wiring, power requirements, and installation requirements.",
+        "This document is confidential and contains proprietary information belonging to Rheonics.",
+        "The current page is page 3 of a total of 25 pages."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Warning (mentioned in section 1.4)",
+        "Rheonics confidential and proprietary information."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 869,
+        "cost_usd": 0.0023122999999999998
+      },
+      "source_file": "rheonics-inline-viscometer-srv-operator-manual_srv-op.pdf"
+    },
+    {
+      "page_summary": "This page, identified as page 4 of 25 from the Rheonics SRV Operator Manual (SRV-OP-2412), lists sections on Calibration, Notes/Errata, and Revision and Approvals with their corresponding page numbers.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SRV"
+      ],
+      "extracted_text": "Rheonics SRV Operator Manual\nSRV-OP-2412\nrheonics\n6.2 Calibration....................................................................................22\n7 Notes/Errata:..................................................................................24\n8 Revision and Approvals ................................................................25\n©Rheonics. Rheonics confidential and proprietary information.\nPage 4 of 25",
+      "specifications": {},
+      "key_facts": [
+        "The document is titled \"Rheonics SRV Operator Manual\".",
+        "The document identification number is SRV-OP-2412.",
+        "This is page 4 of a 25-page document.",
+        "The document includes sections for Calibration (page 22), Notes/Errata (page 24), and Revision and Approvals (page 25)."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Rheonics confidential and proprietary information."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 326,
+        "cost_usd": 0.0009548
+      },
+      "source_file": "rheonics-inline-viscometer-srv-operator-manual_srv-op.pdf"
+    },
+    {
+      "page_summary": "This page provides introductory information for the Rheonics SRV Operator Manual, covering its purpose, contact details, target audience, warnings, nomenclature, and a list of related documentation.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SRV viscometer sensor",
+        "Rheonics inline SRV viscometer sensor",
+        "Symmetric Resonator Viscometer (SRV)",
+        "Smart Module Electronics (SME)",
+        "Rheonics Intrinsically Safe Sensors"
+      ],
+      "extracted_text": "Rheonics SRV Operator Manual\nSRV-OP-2412\n\n1 Before you begin\n\n1.1 About the manual\nThis manual provides information for operating Rheonics SRV viscometer sensor.\nThis manual refers to external articles from Rheonics knowledge base, if any article link is not\nworking, the user should refer to the main web page or contact Rheonics Support Team.\n\n1.2 Contact\nContact the Rheonics team to help you with any inquiry.\nFor sales and delivery-related questions contact the Sales Team at info@rheonics.com\nFor installation, integration, and troubleshooting contact the Support Team at\nsupport@rheonics.com\n\n1.3 Who should use this document?\nUsers of Rheonics inline SRV viscometer sensor.\n\n1.4 Warning\nThe users should be trained in government and corporate safety standards that apply to their\ninstallation and use.\nThis installation manual is strictly for non-explosive atmospheres. If such installation is required,\nthe user must refer to the Intrinsically Safe Installation Manual “EX-IM”.\n\n1.5 Nomenclature\nAbbreviation | Full-term | Meaning\nSRV | Symmetric Resonator Viscometer | Viscosity sensor\nSME | Smart Module Electronics | Sensor electronics\nRFQ | Request for Quotation | Ordering file\n\n1.6 Related Documentation\nYou can find all product documentation on the USB storage device that was shipped with the\nsensor.\nFor more information on the sensor, refer to the following documents on Rheonics website.\nContact Rheonics Support Team if you cannot find a document online.\n\nTitle | Code | Description\nSRV Operator Manual | SRV-OP | SRV Sensor Operator Manual\nRCP Software Manual | RCP-OM | Rheonics Software Installation and User Manual\nSME Operator Manual | SME-OP | Rheonics SME Sensor Module Electronics Manual\nCommunication Protocol Manuals | Various | Modbus TCP, Modbus RTU, HART, Profinet, Ethernet/IP, etc.\nEX Installation Manual | EX-IM | Installation Manual of Rheonics Intrinsically Safe Sensors\nSRV Datasheet | SRV-DS | Rheonics SRV Datasheet\n\n©Rheonics. Rheonics confidential and proprietary information.\nPage 5 of 25",
+      "specifications": {},
+      "key_facts": [
+        "This manual provides information for operating the Rheonics SRV viscometer sensor.",
+        "Users can contact the Sales Team at info@rheonics.com for sales and delivery questions, and the Support Team at support@rheonics.com for installation, integration, and troubleshooting.",
+        "The document is intended for users of Rheonics inline SRV viscometer sensors.",
+        "All product documentation can be found on a USB storage device shipped with the sensor or on the Rheonics website.",
+        "SRV stands for Symmetric Resonator Viscometer, which functions as a viscosity sensor.",
+        "SME stands for Smart Module Electronics, which refers to sensor electronics.",
+        "RFQ stands for Request for Quotation, relating to an ordering file."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "The users should be trained in government and corporate safety standards that apply to their installation and use.",
+        "This installation manual is strictly for non-explosive atmospheres.",
+        "If intrinsically safe installation is required, the user must refer to the Intrinsically Safe Installation Manual “EX-IM”.",
+        "©Rheonics. Rheonics confidential and proprietary information."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 931,
+        "cost_usd": 0.0024672999999999995
+      },
+      "source_file": "rheonics-inline-viscometer-srv-operator-manual_srv-op.pdf"
+    },
+    {
+      "page_summary": "This page outlines the scope of delivery for the Rheonics SRV sensor, detailing the included items and important notes regarding inspection, variants, and protective sleeves.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SRV sensor",
+        "SME-TRD",
+        "RCP software tool"
+      ],
+      "extracted_text": "Rheonics SRV Operator Manual\nSRV-OP-2412\n\nrheonlcs\n\n2 General Information\n\n2.1 Scope of Delivery\n\nThe following items are delivered with the SRV sensor:\n\n*   SRV sensor probe with protective sleeve\n*   Sensor cable\n*   Sensor electronics SME (variant as ordered)\n*   RCP software tool installer\n*   Other accessories and items as ordered\n\nNotes:\n\no   The items listed may vary for your delivery and depend on the order code.\no   Customer should inspect the goods upon arrival. In case of damage or missing items,\n    contact Rheonics Sales Team at info@rheonics.com\no   The SRV sensor probe has different variants, and the protective sleeve changes accordingly.\n    The protective sleeve is meant to protect the probe’s sensing element when stored or\n    handled and should be removed for sensor operation.\no   Rheonics offers different sensor cable variants and lengths. Review all variants here.\no   The sensor electronics SME has different variants. The image below shows the SME-TRD.\n    Review all variants on the electronics and communication page, here.\n\nSensor Cable\n\nSensor Electronics\n\nSensor Probe with Protective Sleeve\n\nFigure 1: Example of delivery box.\n\n©Rheonics. Rheonics confidential and proprietary information.\n\nPage 6 of 25",
+      "specifications": {},
+      "key_facts": [
+        "The SRV sensor delivery includes the SRV sensor probe with protective sleeve, sensor cable, sensor electronics SME, RCP software tool installer, and other accessories.",
+        "The items delivered may vary based on the order code.",
+        "Customers must inspect goods upon arrival and contact Rheonics Sales Team at info@rheonics.com for damage or missing items.",
+        "The SRV sensor probe comes in different variants, with corresponding protective sleeves.",
+        "The protective sleeve's purpose is to shield the probe's sensing element during storage or handling.",
+        "The protective sleeve must be removed before operating the sensor.",
+        "Rheonics provides various sensor cable variants and lengths.",
+        "The sensor electronics SME also has different variants; the SME-TRD is shown as an example.",
+        "Further details on sensor cable variants, sensor electronics variants, and communication are available via 'here' links (though the links are not active in this text).",
+        "This document is Rheonics confidential and proprietary information."
+      ],
+      "diagram_labels": [
+        "Sensor Cable",
+        "Sensor Electronics",
+        "Sensor Probe with Protective Sleeve",
+        "Figure 1: Example of delivery box."
+      ],
+      "warnings_notes": [
+        "The protective sleeve is meant to protect the probe’s sensing element when stored or handled and should be removed for sensor operation."
+      ],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 734,
+        "cost_usd": 0.0019747999999999996
+      },
+      "source_file": "rheonics-inline-viscometer-srv-operator-manual_srv-op.pdf"
+    },
+    {
+      "page_summary": "This page introduces the Rheonics SRV inline viscometer, detailing its core functionality, components, operational characteristics, and key features, and serves as part of an operator manual.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SRV",
+        "SRV inline process viscometer",
+        "SRV sensor",
+        "Rheonics sensors"
+      ],
+      "extracted_text": "Rheonics SRV Operator Manual\nSRV-OP-2412\n\n rheonics\n\n2.2 About SRV Inline Viscometer\n\nSRV is Rheonics' wide viscosity range inline process viscometer. SRV is based on a Symmetric Torsional Resonator, which is the trademark for the patented technology underlying the sensor.\n\nThe SRV sensor measures the viscosity (product of dynamic viscosity and density of the fluid) and temperature of a fluid in real-time.\n\nRheonics SRV operates with Newtonian and non-Newtonian fluids over a wide viscosity range. When configured, the sensor can also output related parameters such as the fluid's temperature-compensated viscosity, kinematic viscosity, dynamic viscosity, etc. The SRV allows the input of a density value, which can be set as a constant value, temperature-dependent, or coming from an external density sensor. The density value by default is set to 1 g/cc.\n\nRheonics SRV sensor is composed of three main parts, as shown in Figure 2, which are the electronics (SME), sensor cable, and sensor probe.\n\nRheonics SRV Sensor\nSensor Electronics\nSME\nSensor Cable\nSensor Probe\nFigure 2: SRV Sensor Unit\n\nThe SRV sensor probe is compact and light, yet robust and ready for harsh installation conditions in the industry. The probe is hermetically sealed and has no moving parts, which avoids requirements for maintenance or re-configurations during its life of service. The probe is also easy to clean and compatible with CIP (Cleaning In Place) procedures. The SRV probe has an IP rating of IP69K, only conditioned by the sensor cable IP rating which varies depending on the type of cable delivered. Modular design is one of the main advantages of Rheonics sensors like the SRV. This allows repeatable and reproducible readings if the fluid is the same even with different SRV probe variants, which can vary in design, process connection, and length.\n\nVisit Rheonics SRV articles to learn about SRV probe variants.\nReview SRV operating principle whitepaper for more information on the sensor operation.\n\n©Rheonics. Rheonics confidential and proprietary information.\nPage 7 of 25",
+      "specifications": {
+        "default density value": "1 g/cc",
+        "SRV probe IP rating": "IP69K"
+      },
+      "key_facts": [
+        "SRV is Rheonics' wide viscosity range inline process viscometer.",
+        "SRV is based on a Symmetric Torsional Resonator, which is a patented technology.",
+        "The SRV sensor measures the viscosity (product of dynamic viscosity and density of the fluid) and temperature of a fluid in real-time.",
+        "Rheonics SRV operates with Newtonian and non-Newtonian fluids over a wide viscosity range.",
+        "The sensor can output parameters like temperature-compensated viscosity, kinematic viscosity, and dynamic viscosity.",
+        "The SRV allows input of a density value that can be constant, temperature-dependent, or from an external sensor.",
+        "The Rheonics SRV sensor is composed of three main parts: electronics (SME), sensor cable, and sensor probe.",
+        "The SRV sensor probe is compact, light, robust, and suitable for harsh installation conditions.",
+        "The probe is hermetically sealed and has no moving parts, eliminating maintenance or re-configuration requirements.",
+        "The probe is easy to clean and compatible with CIP (Cleaning In Place) procedures.",
+        "The SRV probe has an IP rating of IP69K, conditioned by the sensor cable's IP rating.",
+        "Modular design is a main advantage of Rheonics SRV sensors, enabling repeatable and reproducible readings with different probe variants."
+      ],
+      "diagram_labels": [
+        "Rheonics SRV Sensor",
+        "Sensor Electronics SME",
+        "Sensor Cable",
+        "Sensor Probe",
+        "Figure 2: SRV Sensor Unit"
+      ],
+      "warnings_notes": [
+        "©Rheonics. Rheonics confidential and proprietary information."
+      ],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1009,
+        "cost_usd": 0.0026622999999999994
+      },
+      "source_file": "rheonics-inline-viscometer-srv-operator-manual_srv-op.pdf"
+    },
+    {
+      "page_summary": "This page from the Rheonics SRV Operator Manual outlines best practices for handling, installation, use, and maintenance of the SRV Viscometer, including material compatibility, environmental considerations, and support contact information.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV Viscometer",
+        "SRV sensor",
+        "SME-TRD",
+        "SME-TR"
+      ],
+      "extracted_text": "Rheonics SRV Operator Manual\nSRV-OP-2412\nrheonics\n\n2.3 Best practices\nThe following information can help you get the most from your SRV Viscometer.\n*   Handle the meter with care.\n*   Always store and transport the meter in its original packaging. The sensor probe can be stored in air but protection of the sensing element is recommended with the protective sleeve included in delivery.\n*   Have the RCP software installed. Refer to the RCP Software Manual for installation. This software helps with the initial setup of the sensor but also for monitoring, further configuration, and troubleshooting if required.\n*   Do not use liquids incompatible with the wetted materials of the probe, i.e. highly corrosive chemicals when the wetted material is not specified for it. Follow the support article Chemical Compatibility List. Rheonics SRV standard wetted material for the probe is 316L (1.4404), alternatively, Hastelloy C22 (2.4602) can be ordered for highly corrosive applications. Prior to use, always ensure that the sensor wetted surface is compatible with your process fluid. Material certificates are available for the sensor when requested during ordering.\n*   Sensor Probe should always be used only for the pressure and temperature ratings specified for the sensor, which are often specified during the ordering process. Sensor electronics should be exposed to environmental conditions within its operational envelope to avoid performance issues.\n*   Ensure that all piping connections conform to the local and national regulations and codes of practice.\n*   Laboratory tests can be conducted before the final installation in process. For non-Newtonian fluids viscosity readings can differ between different viscosity measurement technologies. This means that a laboratory or offline instrument can give different results than the SRV inline readings of viscosity. This is expected and reasons are explained by Rheonics on web page and articles. Still, users do at times test the SRV unit in controlled environments to compare, verify, and even correlate readings.\n*   For the SME-TRD and SME-TR, after internal wiring, properly tighten the transmitter housing cover with the inner seal correctly placed, to maintain ingress protection.\n*   Protect the M12 connection between the sensor cable and sensor probe from impacts. Avoid contact with fluids unless the operation is within the cable and connector ingress protection (IP) rating class.\n*   Prevent external machinery from colliding with the SRV sensor probe.\n*   For any further questions related to the SRV sensor probe, visit Rheonics Support Portal or contact Rheonics Support Team at support@rheonics.com. Make sure to explain the issue or question, share pictures of the installation or setup, and share the sensor Serial Number (S/N).\n\nATTENTION: For intrinsically safe installations of an EX-certified SRV sensor in hazardous environment locations, the user should follow the Rheonics EX Installation and Intrinsic Safety Manual that is included with the delivery and also available online.\n\n©Rheonics. Rheonics confidential and proprietary information.\nPage 8 of 25",
+      "specifications": {
+        "Standard wetted material": "316L (1.4404)",
+        "Alternative wetted material": "Hastelloy C22 (2.4602)",
+        "Connection type": "M12"
+      },
+      "key_facts": [
+        "The SRV Viscometer should be handled with care and stored/transported in its original packaging with the sensing element protected.",
+        "The RCP software is essential for sensor setup, monitoring, configuration, and troubleshooting.",
+        "Wetted materials of the probe must be compatible with the process fluid; 316L (1.4404) is the standard, and Hastelloy C22 (2.4602) is an alternative for highly corrosive applications.",
+        "Sensor probes must be used only within their specified pressure and temperature ratings, and sensor electronics must be within their operational environmental envelope to prevent performance issues.",
+        "All piping connections must conform to local and national regulations and codes of practice.",
+        "For non-Newtonian fluids, viscosity readings from laboratory or offline instruments may differ from SRV inline readings, a phenomenon explained by Rheonics on their website and articles.",
+        "For SME-TRD and SME-TR models, the transmitter housing cover must be properly tightened with the inner seal correctly placed to maintain ingress protection after internal wiring.",
+        "The M12 connection between the sensor cable and probe must be protected from impacts, and fluid contact should be avoided unless it is within the ingress protection (IP) rating class.",
+        "External machinery must be prevented from colliding with the SRV sensor probe.",
+        "For support, users should contact Rheonics Support Team at support@rheonics.com or visit the Rheonics Support Portal, providing installation pictures and the sensor Serial Number (S/N) when reporting issues."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "ATTENTION: For intrinsically safe installations of an EX-certified SRV sensor in hazardous environment locations, the user should follow the Rheonics EX Installation and Intrinsic Safety Manual that is included with the delivery and also available online.",
+        "Rheonics confidential and proprietary information."
+      ],
+      "page_num": 8,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1244,
+        "cost_usd": 0.0032498
+      },
+      "source_file": "rheonics-inline-viscometer-srv-operator-manual_srv-op.pdf"
+    },
+    {
+      "page_summary": "This page details how to identify Rheonics SRV sensor probes and electronics using serial numbers and other markings, and lists available product certifications.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SRV",
+        "SRV sensor probe",
+        "SRV units"
+      ],
+      "extracted_text": "Rheonics SRV Operator Manual\nSRV-OP-2412\n\nrheonics\n\n2.4 Serial number, probe markings, and certifications\nThe SRV sensor probe and electronics have specific markings on their bodies that make the parts\nunique and traceable. The part’s identifier is the Serial Number (S/N), which may be requested by\nRheonics if the client contacts the Sales or Support Team about a probe or electronics.\nExamples of serial numbers are shown below, as well as images of where to find them.\nThe sensor electronics and probe are sent in the same delivery and configured to operate\ntogether. The user should not exchange the electronics or probe with other SRV units as this can\ninvalidate warranty, create erroneous calibration, and may create safety hazard. Check with\nRheonics support teams when you need to exchange probes. Replacement probes are verified to\nbe a drop-in replacement and may come with a configuration upgrade if necessary. For\ninformation contact the Support Team.\nExample of probe S/N:\nExample of electronics S/N:\n\nB09-1194\n19101399\n\nRheonics Logo\n\nSerial Number QR\nProbe Type\nSerial Number\n\nManufacturer\nName\n\nCE Logo\n\nFigure 3: Sensor probe markings.\n\nElectronics SME\nSerial Number\n\nFigure 4: Sensor electronics markings.\n\nCertifications of the sensor are marked on the probe and electronics as regulations require.\nCertifications available for the sensor are:\n• Hygienic EHEDG Certification\n• Hygienic 3-A Certification\n• ATEX, IECEx, JPEx, etc.\n• Calibration certificate\n• Material certificate\n• ISO 9001 for Rheonics\nReview all Rheonics certifications at https://rheonics.com/resources/certificates/.\n\n©Rheonics. Rheonics confidential and proprietary information.\n\nPage 9 of 25",
+      "specifications": {
+        "probe S/N example": "B09-1194",
+        "electronics S/N example": "19101399"
+      },
+      "key_facts": [
+        "The SRV sensor probe and electronics have specific markings that make them unique and traceable.",
+        "The part's identifier is the Serial Number (S/N), which can be requested by Rheonics Sales or Support Team.",
+        "The sensor electronics and probe are sent together and configured to operate as a pair.",
+        "Replacement probes are verified to be a drop-in replacement and may come with a configuration upgrade.",
+        "Certifications of the sensor are marked on the probe and electronics as required by regulations.",
+        "Available certifications include Hygienic EHEDG, Hygienic 3-A, ATEX, IECEx, JPEx, Calibration, Material, and ISO 9001 for Rheonics.",
+        "All Rheonics certifications can be reviewed at https://rheonics.com/resources/certificates/."
+      ],
+      "diagram_labels": [
+        "Rheonics Logo",
+        "Serial Number QR",
+        "Probe Type",
+        "Serial Number",
+        "Manufacturer Name",
+        "CE Logo",
+        "Electronics SME Serial Number"
+      ],
+      "warnings_notes": [
+        "The user should not exchange the electronics or probe with other SRV units as this can invalidate warranty, create erroneous calibration, and may create safety hazard.",
+        "Check with Rheonics support teams when you need to exchange probes.",
+        "Rheonics confidential and proprietary information."
+      ],
+      "page_num": 9,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 905,
+        "cost_usd": 0.0024022999999999996
+      },
+      "source_file": "rheonics-inline-viscometer-srv-operator-manual_srv-op.pdf"
+    },
+    {
+      "page_summary": "This page details the technical specifications for Rheonics SRV sensors, covering performance metrics, available materials, probe configurations, IP ratings, and certifications, along with important considerations for fluid flow and installation.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SRV",
+        "SRV"
+      ],
+      "extracted_text": "Rheonics SRV Operator Manual\nSRV-OP-2412\n\nrheonics\n\n3 Technical Specifications\n3.1 Sensor Specifications\nSpecifications of the sensor vary depending on the sensor configuration ordered through the RFQ (Request for Quotation) by the user. Confirm maximum temperature and pressure specifications for probe to avoid damage during operation.\n\nTable 1: SRV general specifications\nSpecification | Value\nViscosity range | Specified in sensor order\nViscosity accuracy Default | 5% of actual\nViscosity accuracy Available | 1% or higher\nReproducibility | Better than 0.1%\nTemperature range | Specified in sensor order\nPressure range | Specified in sensor order, may be limited by process connection\nMax. Flow velocity* | 10 - 12 m/s\nWetted material available | Stainless Steel 316L\nHastelloy C22\nSensor probe variants available | Flush\nShort\nLong\nSlimline\nReactor Probe\nProcess Connection | Specified in sensor order (e.g. Tri Clamp, NPT, G thread, Flange, Sanitary, etc.)\nSensor probe IP Rating | IP 69K\nCable IP Rating available | IP 68, IP69, IP69K\nSensor electronics IP Rating | IP40 (SME-DRM)\nIP66 (SME-TRD, SME-TR)\nCertificates available | Ex, ATEX, JPEx: Intrinsically safe\nEHEDG: Hygienic Certificate\n3-A: Hygienic Certificate\n\n*For highly viscous fluid, even low flow velocities could impose very high bending force on the sensing element that can damage or break them. Installation should take this into consideration. Generally, flow parallel to sensing element will have significantly less force on the sensing element than when the flow is perpendicular to the sensing element. Sensors are also available with reinforced sensing element which can undertake higher fluid flow induced forces. Discuss your high viscosity, high flow rate applications with the application engineering team for installation validation. Review more information here.\n\n3.2 Sensor Wiring\n\n©Rheonics. Rheonics confidential and proprietary information.\n\nPage 10 of 25",
+      "specifications": {
+        "Viscosity range": "Specified in sensor order",
+        "Viscosity accuracy (Default)": "5% of actual",
+        "Viscosity accuracy (Available)": "1% or higher",
+        "Reproducibility": "Better than 0.1%",
+        "Temperature range": "Specified in sensor order",
+        "Pressure range": "Specified in sensor order, may be limited by process connection",
+        "Max. Flow velocity": "10 - 12 m/s",
+        "Wetted material available": "Stainless Steel 316L, Hastelloy C22",
+        "Sensor probe variants available": "Flush, Short, Long, Slimline, Reactor Probe",
+        "Process Connection": "Specified in sensor order (e.g. Tri Clamp, NPT, G thread, Flange, Sanitary, etc.)",
+        "Sensor probe IP Rating": "IP 69K",
+        "Cable IP Rating available": "IP 68, IP69, IP69K",
+        "Sensor electronics IP Rating": "IP40 (SME-DRM), IP66 (SME-TRD, SME-TR)",
+        "Certificates available": "Ex, ATEX, JPEx (Intrinsically safe), EHEDG (Hygienic Certificate), 3-A (Hygienic Certificate)"
+      },
+      "key_facts": [
+        "Sensor specifications are dependent on the specific configuration ordered by the user via a Request for Quotation (RFQ).",
+        "Maximum temperature and pressure specifications for the probe must be confirmed to prevent damage during operation.",
+        "For highly viscous fluids, even low flow velocities can impose very high bending forces on the sensing element.",
+        "Flow parallel to the sensing element generally results in significantly less force than perpendicular flow.",
+        "Rheonics offers sensors with reinforced sensing elements capable of undertaking higher fluid flow induced forces.",
+        "It is recommended to discuss high viscosity, high flow rate applications with the application engineering team for installation validation."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Confirm maximum temperature and pressure specifications for the probe to avoid damage during operation.",
+        "For highly viscous fluid, even low flow velocities could impose very high bending force on the sensing element that can damage or break them. Installation should take this into consideration.",
+        "Discuss your high viscosity, high flow rate applications with the application engineering team for installation validation.",
+        "This document contains Rheonics confidential and proprietary information."
+      ],
+      "page_num": 10,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1145,
+        "cost_usd": 0.0030023
+      },
+      "source_file": "rheonics-inline-viscometer-srv-operator-manual_srv-op.pdf"
+    },
+    {
+      "page_summary": "This page from the Rheonics SRV Operator Manual details the standard wiring of the SRV sensor using SME electronics, including power requirements, communication interfaces, and a critical warning regarding intrinsically safe installations.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SRV",
+        "SME variants E1, E2, E3",
+        "SME Box (E4)",
+        "EX-certified SRV sensor"
+      ],
+      "extracted_text": "Rheonics SRV Operator Manual\nSRV-OP-2412\nrheonics\nThis section describes the wiring of the sensor using the SME variants E1, E2, and E3. For information on SME Box (E4), review the SME-OP Manual.\nError! Reference source not found. below shows the typical connection of the SRV sensor, including the SME electronics and the sensor probe. These two devices are connected using the sensor cable included in delivery, the physical connection on the probe is with an M12 8-pin female A-coded connector.\nSME sensor electronics should be powered with 24V DC. Fuses are recommended to safeguard the sensor electronics.\nFigure 5: Rheonics sensor standard wiring. (Diagram showing 24VDC Power Supply, SME electronics with Modbus RTU RS485, Modbus TCP Ethernet RJ45, USB(micro-B), SD-Card, 4-20mA outputs (Viscosity, Density, Temperature), and connection to an M12 8p female A-coded connector via a 4x2x24AWG shielded cable, with specific pin assignments and wire colors).\nSensor supports multiple analog and digital communication interfaces and protocols. Refer to the communication manuals for details on each of the protocols and use. To download wiring drawings visit the Support Article: Sensor electronics (SME) - Wiring drawing.\nATTENTION: The sensor wiring shown above is not valid for intrinsically safe installations of an EX-certified SRV sensor in hazardous environment locations. Visit the correct manual at https://rheonics.com/resources/manuals/.\n©Rheonics. Rheonics confidential and proprietary information.\nPage 11 of 25",
+      "specifications": {
+        "Power supply input": "24VDC",
+        "Recommended fuse": "500mA Slow-blow Fuse",
+        "Minimum current": "150mA",
+        "Recommended wire ferrules": "0.5mm2x 8mm",
+        "Cable type": "4x2x24AWG shielded",
+        "Probe connector type": "M12 8-pin female A-coded"
+      },
+      "key_facts": [
+        "The page describes the wiring of the Rheonics SRV sensor using SME variants E1, E2, and E3.",
+        "The SRV sensor and SME electronics are connected by a sensor cable with an M12 8-pin female A-coded connector on the probe.",
+        "SME sensor electronics require a 24V DC power supply.",
+        "The sensor supports multiple analog and digital communication interfaces and protocols, including Modbus RTU RS485, Modbus TCP Ethernet RJ45, USB(micro-B), SD-Card, and 4-20mA outputs for Viscosity, Density, and Temperature.",
+        "Additional information for SME Box (E4) is available in the SME-OP Manual.",
+        "Further communication manuals and wiring drawings are available via a support article on the Rheonics website."
+      ],
+      "diagram_labels": [
+        "Figure 5: Rheonics sensor standard wiring.",
+        "24VDC",
+        "Recommended 500mA Slow-blow Fuse",
+        ">150mA",
+        "Power Supply",
+        "Gnd-",
+        "A",
+        "B",
+        "P -Power status",
+        "S-Sensor status",
+        "C-Modbus Comm. Activitys",
+        "D-Ethernet Data Transfer Activity",
+        "USB(micro-B)",
+        "Display",
+        "Loop+ (not active)",
+        "Ch1+ Viscosity",
+        "Ch2+ Density",
+        "Ch3+ Temperature",
+        "4-20 mA",
+        "Reset",
+        "SD-Card",
+        "Modbus RTU RS485",
+        "Modbus TCP Ethernet RJ45",
+        "Recommended 0.5mm2x 8mm wire ferrules",
+        "8 red",
+        "7 blue",
+        "6 pink",
+        "5 gray",
+        "4 yellow",
+        "3 green",
+        "2 brown",
+        "1 white",
+        "0",
+        "shield to housing",
+        "4x2x24AWG shielded",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "M12 8p female A-coded connector"
+      ],
+      "warnings_notes": [
+        "Fuses are recommended to safeguard the sensor electronics.",
+        "ATTENTION: The sensor wiring shown above is not valid for intrinsically safe installations of an EX-certified SRV sensor in hazardous environment locations. Visit the correct manual at https://rheonics.com/resources/manuals/."
+      ],
+      "page_num": 11,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1216,
+        "cost_usd": 0.0031798
+      },
+      "source_file": "rheonics-inline-viscometer-srv-operator-manual_srv-op.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions for connecting and disconnecting wires to the terminal blocks on Rheonics SME electronics, including recommended wire specifications and diagrams.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SRV",
+        "SME",
+        "SME-EH"
+      ],
+      "extracted_text": "Rheonics SRV Operator Manual\nSRV-OP-2412\nrheonics\n3.2.1 Connecting and disconnecting wires to the terminal blocks on SME electronics\nSME electronics has terminal blocks for the power input, sensor cable (8 wires), 4-20mA output signals (Ch1 also used for HART 2-wire communication), and Modbus RTU. Care should be taken to avoid damage through use of excessive force while connecting and disconnecting wires to the terminal blocks.\nThe recommended wire gauge for the SME electronics is 0.5 mm² or 20 AWG. All wires connected to the SME should be crimped, 8 mm diameter crimps (white ferrules) are recommended. The sensor cable needs 8 wires with the correct ferrule for installation as shown in Figure 6.\nFigure 6: Sensor cable with crimped wires.\nTo connect wires to the SME, insert the crimped end in the correct port on the terminal block till it clicks firmly in place and cannot be pulled out when tugging on the wires (do not tug on the wires with a lot of force as that may damage the terminal block).\nTo disconnect the sensor wires, press the white tab for that specific port with a small flat screw driver as shown in the picture below where the user is removing wire connected to port 1. While pressing on the white part, pull out the cable connection with the other hand.\nSensor Cable with crimped wires\nCh3 + Ch3 - gnd + gnd - loop + loop - 4-20mA output 0 1 sensor connection display SD-card reset ethernet modbus (RS485) gnd 24 V dc\nrheonics\nSME-EH\nFigure 7: Disconnecting a wire from SME.\nReview more on this article: Cabling best practices.\n©Rheonics. Rheonics confidential and proprietary information.\nPage 12 of 25",
+      "specifications": {
+        "recommended_wire_gauge": "0.5 mm²",
+        "recommended_wire_gauge_AWG": "20 AWG",
+        "recommended_crimp_diameter": "8 mm",
+        "sensor_cable_wires": "8 wires"
+      },
+      "key_facts": [
+        "SME electronics features terminal blocks for power input, sensor cable, 4-20mA output signals, and Modbus RTU.",
+        "Ch1 is used for HART 2-wire communication.",
+        "Care must be taken to avoid damage when connecting/disconnecting wires to terminal blocks, especially by avoiding excessive force.",
+        "All wires connected to the SME should be crimped.",
+        "White ferrules are recommended for crimps.",
+        "To connect wires, insert the crimped end into the correct port until it clicks and is firmly in place.",
+        "Avoid tugging on wires forcefully after connection.",
+        "To disconnect sensor wires, press the white tab for the port with a small flat screwdriver while pulling out the cable connection."
+      ],
+      "diagram_labels": [
+        "Sensor Cable with crimped wires",
+        "Ch3 +",
+        "Ch3 -",
+        "gnd +",
+        "gnd -",
+        "loop +",
+        "loop -",
+        "4-20mA output",
+        "sensor connection",
+        "display",
+        "SD-card",
+        "usb",
+        "reset",
+        "ethernet",
+        "modbus (RS485)",
+        "gnd",
+        "24 V dc",
+        "rheonics SME-EH",
+        "Figure 6: Sensor cable with crimped wires.",
+        "Figure 7: Disconnecting a wire from SME."
+      ],
+      "warnings_notes": [
+        "Care should be taken to avoid damage through use of excessive force while connecting and disconnecting wires to the terminal blocks.",
+        "Do not tug on the wires with a lot of force as that may damage the terminal block."
+      ],
+      "page_num": 12,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 979,
+        "cost_usd": 0.0025873
+      },
+      "source_file": "rheonics-inline-viscometer-srv-operator-manual_srv-op.pdf"
+    },
+    {
+      "page_summary": "This page from the Rheonics SRV Operator Manual provides detailed instructions for connecting the SRV sensor probe to its electronics, including a color-coded wiring diagram, terminal mapping, and an important warning about wiring for intrinsically safe installations.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "SRV-OP-2412",
+        "SME-EH"
+      ],
+      "extracted_text": "Rheonics SRV Operator Manual\nSRV-OP-2412\n\n3.2.2 Connecting the sensor probe to sensor electronics\nThe sensor is connected to the transmitter electronics by a sensor cable. Follow the color code table below to connect the correct wires from the sensor cable to the sensor connection terminal strip on the transmitter. The leads are delivered with crimped ends; cable can be shortened if needed, but ferrules should be crimped onto the stripped ends.\n\nFigure 8: Sensor cable connection to the sensor electronics.\n\nTable 2: SME terminal for sensor cable wires\nWire Color | Sensor connection terminal #\nRed | 8\nBlue | 7\nPink | 6\nGrey | 5\nYellow | 4\nGreen | 3\nBrown | 2\nWhite | 1\n---not connected--- | 0\n\nATTENTION: The wiring color order shown in the table above is not valid for intrinsically safe installations of an EX-certified SRV sensor in hazardous environment locations. Visit the correct manual at https://rheonics.com/resources/manuals/.\n\n3.3 Power requirements\nThe sensor power consumption is as follows:\n\n©Rheonics. Rheonics confidential and proprietary information.\nPage 13 of 25",
+      "specifications": {
+        "SME_terminal_wiring": {
+          "Red": "8",
+          "Blue": "7",
+          "Pink": "6",
+          "Grey": "5",
+          "Yellow": "4",
+          "Green": "3",
+          "Brown": "2",
+          "White": "1",
+          "---not connected---": "0"
+        }
+      },
+      "key_facts": [
+        "The sensor is connected to the transmitter electronics by a sensor cable.",
+        "A color code table must be followed to connect wires from the sensor cable to the sensor connection terminal strip.",
+        "Sensor cable leads are delivered with crimped ends.",
+        "If the sensor cable is shortened, ferrules should be crimped onto the stripped ends.",
+        "The wiring color order shown is not valid for intrinsically safe installations of an EX-certified SRV sensor in hazardous environment locations.",
+        "For intrinsically safe installations, the correct manual should be consulted at https://rheonics.com/resources/manuals/.",
+        "The document is confidential and proprietary information of Rheonics."
+      ],
+      "diagram_labels": [
+        "display",
+        "SD-card",
+        "usb",
+        "reset",
+        "ethernet",
+        "Modbus (RS485)",
+        "gnd",
+        "24 V dc",
+        "4-20 mA output",
+        "D",
+        "C",
+        "S",
+        "P",
+        "B",
+        "A",
+        "-",
+        "+",
+        "17100964",
+        "rheonics",
+        "SME-EH"
+      ],
+      "warnings_notes": [
+        "ATTENTION: The wiring color order shown in the table above is not valid for intrinsically safe installations of an EX-certified SRV sensor in hazardous environment locations. Visit the correct manual at https://rheonics.com/resources/manuals/.",
+        "©Rheonics. Rheonics confidential and proprietary information."
+      ],
+      "page_num": 13,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 877,
+        "cost_usd": 0.0023323
+      },
+      "source_file": "rheonics-inline-viscometer-srv-operator-manual_srv-op.pdf"
+    },
+    {
+      "page_summary": "This page from the Rheonics SRV Operator Manual details the electrical power requirements for the SME unit, provides instructions on avoiding ground loops, and outlines critical installation requirements for the SRV sensor probe to ensure accurate operation.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SRV",
+        "SRV-OP-2412",
+        "SME",
+        "SME-DRM"
+      ],
+      "extracted_text": "Rheonics SRV Operator Manual\nSRV-OP-2412\n\n• Voltage required: 24 V DC\n• Voltage range acceptable: 18-36 V DC\n• Current required (min): 120 mA\n• Current recommended: 200 mA or higher\n• Power required (maximum): 3 W\n• Power recommended: at least 5 W\n• Fuse (if required) rating: >500 mA Slow-blow fuse\n\nPower input terminals are labeled with 24 V DC + and – GND.\n\nPower Input\n\nFigure 9: Power terminals in SME electronics.\n\nIt is important to avoid ground loops in the setup/plant where the SME is used. Ground loops can lead to excessive currents on the ground/return wire of the SME 24 V power supply which can damage the unit.\nIf there is a risk of ground loops in installation, it is recommended that the SME is powered by a separate 24 V power supply with galvanic separation.\nOnce the SME is powered on and connected to the sensor probe with the sensor cable, the sensor will start to measure and save data. The LEDs on the SME will start blinking indicating start up.\nReview SME wiring diagram at Sensor electronics (SME) – Wiring drawing.\n\n3.4 Sensor Probe Installation Requirements\nThe SRV sensor probe can be installed in pipes, tanks, trays, mixers, movable objects for intermittent measurements, etc. The two main requirements for installation are the following:\n\ni. Ensure the whole sensing element is in contact with the fluid of interest\nSRV sensor probe has a sensing element that is surrounded by the sensing area highlighted in red in Figure 10. SRV sensing element and sensing area must be fully in contact with the fluid of interest, partial immersion must be avoided. This sensing element is the same across all variants of SRV probes. This allows repeatable and reproducible readings of viscosity for the same fluid and operating conditions, regardless of the probe variant (flush, short, long, slimline, reactor, etc.) or installation.\n\nii. Avoid stagnation or dead zones around the sensing area\nAny possible zone prone to deposits or the presence of other fluids different from the one of interest (e.g. accumulation of deposits, bubbles, etc.) should be avoided within the\n\n©Rheonics. Rheonics confidential and proprietary information.\nPage 14 of 25",
+      "specifications": {
+        "Voltage required": "24 V DC",
+        "Voltage range acceptable": "18-36 V DC",
+        "Current required (min)": "120 mA",
+        "Current recommended": "200 mA or higher",
+        "Power required (maximum)": "3 W",
+        "Power recommended": "at least 5 W",
+        "Fuse (if required) rating": ">500 mA Slow-blow fuse"
+      },
+      "key_facts": [
+        "The power input terminals for Rheonics SME electronics are labeled '24 V DC +' and '– GND'.",
+        "Once the SME is powered on and connected to the sensor probe with the sensor cable, the sensor will start to measure and save data.",
+        "The LEDs on the SME will start blinking, indicating start up.",
+        "The SRV sensor probe can be installed in pipes, tanks, trays, mixers, and movable objects for intermittent measurements.",
+        "The SRV sensor probe has a sensing element that is surrounded by a sensing area, which is highlighted in red in Figure 10.",
+        "The sensing element is the same across all variants of SRV probes (flush, short, long, slimline, reactor), ensuring repeatable and reproducible readings of viscosity for the same fluid and operating conditions."
+      ],
+      "diagram_labels": [
+        "Power Input",
+        "24 v dc",
+        "+",
+        "gnd",
+        "-",
+        "modbus A",
+        "(RS485) B",
+        "rheonics",
+        "SME-DRM"
+      ],
+      "warnings_notes": [
+        "It is important to avoid ground loops in the setup/plant where the SME is used, as ground loops can lead to excessive currents on the ground/return wire of the SME 24 V power supply, which can damage the unit.",
+        "If there is a risk of ground loops in installation, it is recommended that the SME is powered by a separate 24 V power supply with galvanic separation.",
+        "The SRV sensing element and sensing area must be fully in contact with the fluid of interest; partial immersion must be avoided.",
+        "Any possible zone prone to deposits or the presence of other fluids different from the one of interest (e.g., accumulation of deposits, bubbles, etc.) should be avoided within the sensing area.",
+        "©Rheonics. Rheonics confidential and proprietary information."
+      ],
+      "page_num": 14,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1199,
+        "cost_usd": 0.0031373
+      },
+      "source_file": "rheonics-inline-viscometer-srv-operator-manual_srv-op.pdf"
+    },
+    {
+      "page_summary": "This page provides detailed installation and operational guidance for the Rheonics SRV sensor, focusing on the sensing area, handling various fluid conditions, and ensuring accurate measurements.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "Rheonics SRV"
+      ],
+      "extracted_text": "Rheonics SRV Operator Manual\nSRV-OP-2412\n\nsensing area. Dead zones susceptible to fluid plugging/deposit/sedimentation are common near the installation port, tank’s and pipe’s wall. User should ensure that the sensing area is not within a stagnation zone, a possible solution is immersing the probe further in the fluid with a long insertion probe variant or using a flush installation.\n\nThe sensor measures what the sensing element is in contact with. Any deposit or fluid around other parts of the sensor probe, outside the sensing area, will not affect the measurements.\n\nContact Rheonics Support Team for recommendations on installation. Share your installation proposal and a representative will contact you.\n\nSRV Sensing Area\n\n16 mm\n[0.63”]\n50 mm\n[1.96”]\nFigure 10: SRV sensing area.\n\nAdditional installation notes:\n*   The SRV can be installed in lines as small as DN20 using Rheonics accessories like flow cells. Review all accessories here.\n*   There are no requirements on the distance of the probe from external equipment or instrumentation upstream and downstream.\n*   Consider that a clearance of 5 mm is needed from the sensor probe tip to any external equipment or pipe wall.\n*   The SRV can operate in fluids with solids. Large particles can disrupt the readings (i.e., spikes in readings) when solids contact the probe. If particles are large enough to harm the sensing element, it is recommended to use filters in pipes, probe protection sleeves in vessels, or plan installation to reduce impact .\n*   For fluids that tend to create deposits or have fibers, a parallel to flow axis installation of the probe is recommended. A parallel installation allows the fluid to flow over the sensing element axially (along long axis of the sensing element) making the sensing element self-cleaning; any deposits on the sensing element are therefore removed or disintegrated by the fluid flow. A long insertion probe can be used to extend the sensing element further in the line.\n*   The SRV can operate in fluids with bubbles. It is recommended to have the bubbly or aerated fluid flowing, as static fluid can create a concentration of bubbles within the\n\n©Rheonics. Rheonics confidential and proprietary information.\nPage 15 of 25",
+      "specifications": {
+        "sensing_area_diameter": "16 mm [0.63 in]",
+        "sensing_area_length": "50 mm [1.96 in]",
+        "minimum_line_size_for_installation": "DN20",
+        "minimum_clearance_from_probe_tip": "5 mm"
+      },
+      "key_facts": [
+        "Dead zones susceptible to fluid plugging, deposit, or sedimentation are common near the installation port, tank’s, and pipe’s wall.",
+        "Users should ensure that the sensing area is not within a stagnation zone.",
+        "Possible solutions for stagnation zones include immersing the probe further with a long insertion probe or using a flush installation.",
+        "The sensor measures only what the sensing element is in direct contact with.",
+        "Deposits or fluid around other parts of the sensor probe, outside the sensing area, will not affect the measurements.",
+        "The SRV can be installed in lines as small as DN20 using Rheonics accessories like flow cells.",
+        "There are no requirements regarding the distance of the probe from external equipment or instrumentation upstream and downstream.",
+        "The SRV can operate in fluids with solids, but large particles may disrupt readings or harm the sensing element.",
+        "For fluids that tend to create deposits or have fibers, a parallel-to-flow-axis installation is recommended for self-cleaning.",
+        "A long insertion probe can be used to extend the sensing element further into the line.",
+        "The SRV can operate in fluids with bubbles; however, it is recommended to have the bubbly or aerated fluid flowing to prevent a concentration of bubbles in static fluid."
+      ],
+      "diagram_labels": [
+        "SRV Sensing Area",
+        "16 mm [0.63”]",
+        "50 mm [1.96”]",
+        "Figure 10: SRV sensing area."
+      ],
+      "warnings_notes": [
+        "User should ensure that the sensing area is not within a stagnation zone, a possible solution is immersing the probe further in the fluid with a long insertion probe variant or using a flush installation.",
+        "Contact Rheonics Support Team for recommendations on installation. Share your installation proposal and a representative will contact you.",
+        "Review all accessories here.",
+        "Consider that a clearance of 5 mm is needed from the sensor probe tip to any external equipment or pipe wall.",
+        "If particles are large enough to harm the sensing element, it is recommended to use filters in pipes, probe protection sleeves in vessels, or plan installation to reduce impact.",
+        "It is recommended to have the bubbly or aerated fluid flowing, as static fluid can create a concentration of bubbles within the",
+        "©Rheonics. Rheonics confidential and proprietary information."
+      ],
+      "page_num": 15,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1207,
+        "cost_usd": 0.0031572999999999996
+      },
+      "source_file": "rheonics-inline-viscometer-srv-operator-manual_srv-op.pdf"
+    },
+    {
+      "page_summary": "This page from the Rheonics SRV Operator Manual provides important operational considerations and recommendations for using the SRV sensor, particularly regarding fluid conditions and handling.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SRV"
+      ],
+      "extracted_text": "Rheonics SRV Operator Manual\nSRV-OP-2412\n\nrheonics\n\nsensing area, affecting the accuracy.\n\n*   The SRV will operate in static and flowing fluids. Flow rates do not influence the sensor operation, however, flow can change the apparent viscosity of non-Newtonian fluids and this should be taken into consideration when planning installs. Generally, a consistent flow rate for non-Newtonian fluids tends to give low noise, stable readings.\n*   Operation of the sensor while holding the probe by hand is not recommended as any minimum movement can affect the accuracy of the readings. Sensor probe should be fixed to take accurate readings.\n*   External vibrations do not affect the sensor's operational performance. However, in high-vibration environments, the sensor reliability and lifetime can be compromised therefore regular checks are advised.\n\n©Rheonics. Rheonics confidential and proprietary information.\n\nPage 16 of 25",
+      "specifications": {},
+      "key_facts": [
+        "The SRV sensor operates effectively in both static and flowing fluids.",
+        "Flow rates do not directly influence the sensor's operation.",
+        "Flow can alter the apparent viscosity of non-Newtonian fluids, which must be considered during installation planning.",
+        "Consistent flow rates for non-Newtonian fluids typically result in low noise and stable readings.",
+        "External vibrations do not impair the sensor's operational performance.",
+        "Rheonics information is confidential and proprietary."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Consider the effect of flow on apparent viscosity for non-Newtonian fluids when planning installations to ensure accurate readings.",
+        "Operating the sensor by holding the probe by hand is not recommended due to potential accuracy issues from minimal movement.",
+        "The sensor probe should be fixed for accurate readings.",
+        "In high-vibration environments, regular checks are advised to maintain sensor reliability and lifetime, as these can be compromised despite no impact on operational performance."
+      ],
+      "page_num": 16,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 524,
+        "cost_usd": 0.0014498000000000002
+      },
+      "source_file": "rheonics-inline-viscometer-srv-operator-manual_srv-op.pdf"
+    },
+    {
+      "page_summary": "This page details communication protocols for Rheonics SRV sensors, specifically 4-20mA (C1 - Default) and Modbus RTU (C2 - Default), including their features, usage, and available support resources.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SRV",
+        "Rheonics SME",
+        "RCP, Rheonics Software"
+      ],
+      "extracted_text": "Rheonics SRV Operator Manual\nSRV-OP-2412\nrheonics\n4 Communication Protocols\n4.1 General Information\nRheonics sensors are extremely easy to integrate into user applications or projects, since the\nsensors have several industrial communication protocols available.\nRheonics provides extensive support resources on each communication protocol to enhance\nflexibility and convenience for our customers across diverse industries. Some integration\nprotocols come with the sensor by default, while others should be requested during sensor\norder. Review all protocols at https://rheonics.com/electronics-and-communication/. For the\nlatest communication manuals on each protocol visit https://rheonics.com/resources/manuals/.\n4.2 4-20mA (C1 - Default)\nRheonics sensors have 3 channels for 4-20 mA signals, as indicated in Figure 11. The 4-20mA\nsignals are used mostly for the simplicity of using just 2 wires to transmit the sensor readings to\nan external device. However, users should be aware that these analog signals are susceptible to\nnoise and are accurate only under certain field conditions.\nBy default, the SRV outputs the viscosity, density, and temperature parameters through the 4-\n20mA ports, but these are customizable from the RCP, Rheonics Software.\nCheck these support articles: 4-20 mA for more information.\nFigure 11. 4-20mA outputs available in the SME\n4.3 Modbus RTU (C2 - Default)\nRheonics SME offers Modbus RTU over an RS485 interface. This protocol gives the user access to\nmultiple parameters read by the sensor in real time. The data over Modbus is exchanged in the\nform of registers. This interface allows interoperability between devices from different\nmanufacturers.\nModbus RTU communication is established with Rheonics sensors through two wires labeled on\nthe sensor electronics, labels are shown in Figure 11. Check these support articles for more\ninformation on the integration and registers Modbus RTU (RS-485) and review the manual\n\"MRTU-OP\" on Rheonics resources webpage.\n©Rheonics. Rheonics confidential and proprietary information.\nPage 17 of 25",
+      "specifications": {
+        "Number of 4-20mA channels": "3",
+        "Analog output range": "4-20 mA"
+      },
+      "key_facts": [
+        "Rheonics sensors are designed for easy integration into user applications due to multiple industrial communication protocols.",
+        "Some communication protocols are included by default with the sensor, while others must be requested at the time of order.",
+        "Rheonics sensors feature 3 channels for 4-20 mA signals.",
+        "The 4-20mA signals primarily utilize 2 wires for transmitting sensor readings to external devices.",
+        "By default, the SRV outputs viscosity, density, and temperature parameters via the 4-20mA ports.",
+        "The 4-20mA output parameters are customizable using the RCP Rheonics Software.",
+        "Rheonics SME provides Modbus RTU communication over an RS485 interface.",
+        "Modbus RTU allows users real-time access to multiple sensor parameters stored in registers.",
+        "The Modbus RTU interface promotes interoperability among devices from various manufacturers.",
+        "Modbus RTU communication with Rheonics sensors is established using two specific wires on the sensor electronics."
+      ],
+      "diagram_labels": [
+        "24V DC+",
+        "Gnd-",
+        "A",
+        "B",
+        "Modbus RTU RS485",
+        "Modbus TCP Ethernet RJ45",
+        "USB(micro-B)",
+        "Display",
+        "Reset",
+        "SD-Card",
+        "Loop+ (not active)",
+        "Gnd-",
+        "Gnd-",
+        "Ch1+",
+        "Ch2+",
+        "Ch3+",
+        "4-20mA signals",
+        "4-20 mA",
+        "Viscosity",
+        "Density",
+        "Temperature",
+        "Applies to all SME Versions",
+        "shielding to housing",
+        "8",
+        "7",
+        "6",
+        "5",
+        "4",
+        "3",
+        "2",
+        "1",
+        "0"
+      ],
+      "warnings_notes": [
+        "Users should be aware that analog signals (4-20mA) are susceptible to noise and are accurate only under certain field conditions.",
+        "Rheonics confidential and proprietary information."
+      ],
+      "page_num": 17,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1161,
+        "cost_usd": 0.0030422999999999995
+      },
+      "source_file": "rheonics-inline-viscometer-srv-operator-manual_srv-op.pdf"
+    },
+    {
+      "page_summary": "This page from the Rheonics SRV Operator Manual details various communication protocols supported by Rheonics SRV sensors and their SME variants, including Serial USB, Bluetooth, Modbus TCP, Ethernet/IP, HART, and Profinet.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SRV",
+        "Rheonics sensor electronics (SME)",
+        "SME-TRD device",
+        "Rheonics Sensors"
+      ],
+      "extracted_text": "Rheonics SRV Operator Manual\nSRV-OP-2412\nrheonics\n4.4 Serial USB (C3 - Default)\nAll Rheonics sensor electronics (SME) come with a standard USB port for initial configuration and data monitoring. Check these support articles for more information about communication over USB with Rheonics Sensors.\n4.5 Bluetooth (C5)\nRheonics supports Bluetooth LTE 4.0 in the SME-TRD device only. By using this technology, the sensors can transmit measured data wirelessly. Rheonics provides various software for Windows, Linux, MacOS, iOS, and Android devices to connect the sensor over BLE. Contact Rheonics or visit the Support Portal for more information.\n4.6 Modbus TCP (C6)\nThe Rheonics SME offers Modbus TCP protocol over the Ethernet interface. This protocol gives the user access to multiple registers that contain the parameters read by the sensor. Using Modbus TCP, allows the user to connect the sensor to the Ethernet TCP IP network through an Ethernet cable with Client-Server communication. Check Rheonics support articles for more information on the integration and registers Modbus TCP (Ethernet) and review the manual “MTCP-OP” on the Rheonics resources webpage.\n4.7 Ethernet/IP (C7)\nAll Rheonics SME variants can be ordered with Ethernet/IP. This communication protocol enables the fast delivery of extensive data from Rheonics SME sensors to external devices, like Allen-Bradley PLCs, through the SME Ethernet Port. Rheonics has extensive expertise with Ethernet/IP, hence comprehensive guidelines can be found on Rheonics Support Portal to ensure easy and effective integration. Check these support articles Ethernet/IP and review the user manual “ENIP-OP” on Rheonics resources webpage.\n4.8 HART (C8)\nAll Rheonics SME variants can be ordered with HART. Using the HART protocol, Rheonics sensors deliver 4 parameter readings as digital data, which are PV, SV, TV, and QV. By default, the output parameters are the following:\nTable 3: SRV HART Parameters\nSRV default configuration\nPV\tViscosity\nSV\tDensity\nTV\tTemperature\nQV\tSensor Status\nCheck these support articles on HART and review the manual “HART-OP” on Rheonics resources webpage.\n4.9 Profinet (C9)\nAll Rheonics SME variants can be ordered with Profinet. Using Profinet, Rheonics Sensors can transmit real-time data at 100 Mbps in full duplex communication through the SME ethernet port, resulting in improved operational performance, precision, and system integration. Check these support articles PROFINET and review the manual “PNET-OP” on Rheonics webpage.\n©Rheonics. Rheonics confidential and proprietary information.\nPage 18 of 25",
+      "specifications": {
+        "HART PV parameter": "Viscosity",
+        "HART SV parameter": "Density",
+        "HART TV parameter": "Temperature",
+        "HART QV parameter": "Sensor Status",
+        "Profinet data rate": "100 Mbps"
+      },
+      "key_facts": [
+        "All Rheonics sensor electronics (SME) are equipped with a standard USB port for initial configuration and data monitoring.",
+        "Rheonics supports Bluetooth LTE 4.0 exclusively in the SME-TRD device for wireless data transmission.",
+        "Rheonics provides software for connecting sensors over BLE, compatible with Windows, Linux, MacOS, iOS, and Android devices.",
+        "The Rheonics SME offers Modbus TCP protocol over its Ethernet interface, allowing access to sensor parameters via multiple registers.",
+        "Rheonics SME variants can be ordered with Ethernet/IP, facilitating fast data delivery from sensors to external devices such as Allen-Bradley PLCs.",
+        "Rheonics possesses extensive expertise in Ethernet/IP, with detailed integration guidelines available on their Support Portal.",
+        "All Rheonics SME variants can be ordered with HART, enabling sensors to deliver four digital parameter readings (PV, SV, TV, and QV).",
+        "By default, HART parameters are configured as PV (Viscosity), SV (Density), TV (Temperature), and QV (Sensor Status).",
+        "Rheonics SME variants can be ordered with Profinet, which allows for real-time data transmission at 100 Mbps in full duplex communication through the SME ethernet port.",
+        "Profinet communication enhances operational performance, precision, and system integration."
+      ],
+      "diagram_labels": [
+        "SRV default configuration",
+        "PV",
+        "Viscosity",
+        "SV",
+        "Density",
+        "TV",
+        "Temperature",
+        "QV",
+        "Sensor Status"
+      ],
+      "warnings_notes": [
+        "©Rheonics. Rheonics confidential and proprietary information."
+      ],
+      "page_num": 18,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1172,
+        "cost_usd": 0.0030698
+      },
+      "source_file": "rheonics-inline-viscometer-srv-operator-manual_srv-op.pdf"
+    },
+    {
+      "page_summary": "This page provides an overview of the Rheonics Control Panel (RCP) software, its functionality, and the initial setup steps for connecting a Rheonics SRV sensor and establishing communication with the software.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SRV sensor",
+        "Rheonics Control Panel (RCP) software",
+        "SME transmitter"
+      ],
+      "extracted_text": "Rheonics SRV Operator Manual\nSRV-OP-2412\n Rheonics\n\n5 RCP Software\n\nRheonics SRV sensor is built to be a plug-and-play instrument. This means that the operator only needs to wire the probe and the electronics using the sensor cable, following the diagram in Section 3.2, and power the sensor electronics to start measurements.\n\nRheonics Control Panel (RCP) software allows the user to get the full potential of Rheonics sensors. The software is used for sensor configuration, measurement visualization, download of historical log files, and more. The software installer is included in the USB storage device delivered with the sensor. If that is not the case, or you do not have the USB stick anymore, contact Rheonics Support Team and share the sensor serial number S/N to request the software.\n\nReview the RCP Software Manual for complete instructions on installation and use. The software is included in the USB storage device delivered with the sensor.\n\nRHEONICS SME ELECTRONICS MUST BE CONNECTED TO THE COMPUTER WITH THE USB CABLE AND POWERED UP CORRECTLY TO ESTABLISH THE FIRST COMMUNICATION WITH RCP SOFTWARE\n\nTo start using the sensor and Rheonics software, the following should be done:\n1. Connect the sensor probe to the SME transmitter\n2. Connect the power supply to the transmitter\n3. Connect the USB cable to the transmitter electronics. Connect the other end to a free USB port on the computer.\n4. Run the Rheonics Control Panel software. The software can be opened from the PC’s start menu.\n5. Go to the Settings tab and select the correct USB port to detect the sensor by clicking in the button “Apply”. Wait for the Status LED to turn green.\n6. Go to the Measurements tab to visualize the readings in real time.\n\nFind further steps on the RCP Software Manual “RCP-OM” and on Rheonics articles at RCP – Rheonics Control Panel - Articles.\nWhen the software is running, you will see a screen similar to the following:\n\n©Rheonics. Rheonics confidential and proprietary information.\nPage 19 of 25",
+      "specifications": {},
+      "key_facts": [
+        "The Rheonics SRV sensor is a plug-and-play instrument.",
+        "The Rheonics Control Panel (RCP) software unlocks the full potential of Rheonics sensors, providing features like configuration, measurement visualization, and historical data download.",
+        "The RCP software installer is provided on a USB storage device with the sensor.",
+        "Users who lose their USB stick can contact Rheonics Support with the sensor's serial number to obtain the software.",
+        "Complete instructions for RCP software installation and use are detailed in the RCP Software Manual.",
+        "For initial communication with RCP software, Rheonics SME electronics must be correctly connected via USB and powered.",
+        "The initial setup involves connecting the sensor probe, power supply, and USB cable, then running the RCP software, selecting the correct USB port, and monitoring the Status LED for a green light, followed by real-time visualization in the Measurements tab."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "RHEONICS SME ELECTRONICS MUST BE CONNECTED TO THE COMPUTER WITH THE USB CABLE AND POWERED UP CORRECTLY TO ESTABLISH THE FIRST COMMUNICATION WITH RCP SOFTWARE",
+        "Refer to Section 3.2 for the wiring diagram of the sensor probe and electronics.",
+        "If the USB stick with the software installer is lost, contact Rheonics Support Team and share the sensor serial number S/N to request the software.",
+        "Review the RCP Software Manual for complete instructions on installation and use.",
+        "©Rheonics. Rheonics confidential and proprietary information."
+      ],
+      "page_num": 19,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 928,
+        "cost_usd": 0.0024598
+      },
+      "source_file": "rheonics-inline-viscometer-srv-operator-manual_srv-op.pdf"
+    },
+    {
+      "page_summary": "This page from the Rheonics SRV Operator Manual displays the Rheonics Control Panel (RCP) Measurement tab, showing real-time sensor data and providing contact information for support.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SRV",
+        "Rheonics Control Panel (RCP)"
+      ],
+      "extracted_text": "Rheonics SRV Operator Manual\nSRV-OP-2412\nrheonics\n\n[Screenshot: Rheonics Control Panel (RCP) - Measurement tab]\nTabs: Measurement, Events, Settings, Service, Communication, Logger, Help\n\nMeasured Values:\nViscosity: 13.25 mPa.s\nDensity: 1.0000 g/cc\nTemperature: 49.68 °C\nPressure: 1.00 bar\n\nStatus:\nRunning -- E00\nLogging: Stopped\nPressure: Manual\nManual entry: 1 bar\n\nLog Measurements:\nSample Name: [empty field]\nStart Logging [button]\nAdd Event [button]\n\nSensor Information:\nSerial Number: B09-0790\nFres: 7441.13 Hz\ndf: 7.14 Hz\n\nGraph 1:\nY-axis left: Viscosity [mPa.s]\nY-axis right: Density [g/cc]\nX-axis: hh:mm:ss (ranging from 00:00:00 to 00:42:51)\n\nGraph 2:\nY-axis left: Temperature [°C]\nY-axis right: Pressure [bar]\nX-axis: hh:mm:ss (ranging from 00:00:00 to 00:42:51)\n\nFigure 12: RCP Measurement tab.\n\nFor help with Rheonics Control Panel (RCP) and its settings, user can navigate to the Help tab within the software and access manuals or contact Rheonics Support Team at support@rheonics.com.\n\n©Rheonics. Rheonics confidential and proprietary information.\nPage 20 of 25",
+      "specifications": {
+        "Viscosity": "13.25 mPa.s",
+        "Density": "1.0000 g/cc",
+        "Temperature": "49.68 °C",
+        "Pressure": "1.00 bar",
+        "Manual entry Pressure": "1 bar",
+        "Serial Number": "B09-0790",
+        "Fres": "7441.13 Hz",
+        "df": "7.14 Hz"
+      },
+      "key_facts": [
+        "This document is identified as Rheonics SRV Operator Manual, SRV-OP-2412.",
+        "The Rheonics Control Panel (RCP) includes a Measurement tab for monitoring real-time sensor data.",
+        "Current measured values displayed are 13.25 mPa.s for viscosity, 1.0000 g/cc for density, 49.68 °C for temperature, and 1.00 bar for pressure.",
+        "The sensor's status indicates 'Running' with code 'E00', and logging is 'Stopped'.",
+        "The sensor's serial number is B09-0790, with a resonant frequency (Fres) of 7441.13 Hz and a damping factor (df) of 7.14 Hz.",
+        "Users can find help, access manuals, or contact Rheonics Support Team at support@rheonics.com via the Help tab in the RCP software."
+      ],
+      "diagram_labels": [
+        "Measurement (tab)",
+        "Events (tab)",
+        "Settings (tab)",
+        "Service (tab)",
+        "Communication (tab)",
+        "Logger (tab)",
+        "Help (tab)",
+        "Measured Values (section header)",
+        "Viscosity (label)",
+        "Density (label)",
+        "Temperature (label)",
+        "Pressure (label)",
+        "Status (section header)",
+        "Running (status indicator)",
+        "E00 (status code)",
+        "Logging (status)",
+        "Stopped (logging status)",
+        "Manual (pressure mode)",
+        "Manual entry (checkbox/label)",
+        "Log Measurements (section header)",
+        "Sample Name (field label)",
+        "Start Logging (button)",
+        "Add Event (button)",
+        "Sensor Information (section header)",
+        "Serial Number (label)",
+        "Fres (label)",
+        "df (label)",
+        "Viscosity [mPa.s] (Y-axis label)",
+        "Density [g/cc] (Y-axis label)",
+        "Temperature [°C] (Y-axis label)",
+        "Pressure [bar] (Y-axis label)",
+        "hh:mm:ss (X-axis label)",
+        "00:00:00 (time point)",
+        "00:21:27 (time point)",
+        "00:42:51 (time point)"
+      ],
+      "warnings_notes": [
+        "©Rheonics. Rheonics confidential and proprietary information."
+      ],
+      "page_num": 20,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1217,
+        "cost_usd": 0.0031823
+      },
+      "source_file": "rheonics-inline-viscometer-srv-operator-manual_srv-op.pdf"
+    },
+    {
+      "page_summary": "This page from the Rheonics SRV Operator Manual details the procedures and general recommendations for cleaning the SRV sensor, emphasizing material compatibility and methods to avoid.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "SRV-OP-2412",
+        "RCP software"
+      ],
+      "extracted_text": "Rheonics SRV Operator Manual\nSRV-OP-2412\n\n6 Handling the sensor\n6.1 Cleaning\n\nThe sensor probe is CIP compatible, meaning it can be cleaned in-line with solvents and water as part of the customer's standard cleaning procedure. Solvents used for cleaning must be compatible with the sensor probe material.\n\nGeneral recommendations for cleaning are:\n* Check your sensor material and ensure only chemicals compatible with the material are used. Sometimes sensors have two materials and chemicals used must therefore be compatible with both, or appropriate safeguards should be in place to ensure that cleaning chemicals do not come in contact with incompatible materials on the sensor.\n* Inline cleaning is generally sufficient.\n* Only remove the sensor probe from the line when needed or when dismantling the line is the standard cleaning procedure. For example, manual cleaning of adherent films from pipes and probe.\n* Cleaning can be done with appropriate solvents and/or by wiping the probe with a solvent-saturated cloth or paper. Vinegar or diluted caustic soda could also be used.\n* Do not let fluid solidify on the probe. If this occurs, soak the probe in water for some hours to dissolve the solid.\n* Under no circumstances should abrasives be used to clean the resonator since these will change its geometry and destroy its calibration.\n* Never use ultrasonic cleaning methods like ultrasonic baths. They can damage the sensor.\n\nThe user can validate the SRV probe is properly cleaned using the Clean Sensor Status. This is accessible over most communication protocols or by using the RCP software. In the software, go to the Scaling tab where indicators for the cleanness of the probe and current state (in air or fluid) can be found.\n\nFigure 13: Cleaning the sensor with solvent-saturated cloth or paper.\n\nReview more information on cleaning instructions here.\n\n©Rheonics. Rheonics confidential and proprietary information.\nPage 21 of 25",
+      "specifications": {},
+      "key_facts": [
+        "The sensor probe is CIP compatible, allowing in-line cleaning with solvents and water.",
+        "Solvents used for cleaning must be compatible with the sensor probe material.",
+        "Users must verify sensor material compatibility with cleaning chemicals, especially for sensors made of multiple materials.",
+        "Inline cleaning is typically sufficient for the sensor.",
+        "Removing the sensor probe is generally only required when necessary or during line dismantling for manual cleaning of adherent films.",
+        "Cleaning can be performed by wiping the probe with a solvent-saturated cloth or paper, or by using vinegar or diluted caustic soda.",
+        "Solidified fluid on the probe should be dissolved by soaking the probe in water for several hours.",
+        "The cleanliness of the SRV probe can be validated using the Clean Sensor Status feature.",
+        "Clean Sensor Status is accessible via most communication protocols or through the RCP software.",
+        "The Scaling tab in the RCP software provides indicators for probe cleanliness and current state (in air or fluid)."
+      ],
+      "diagram_labels": [
+        "Figure 13: Cleaning the sensor with solvent-saturated cloth or paper."
+      ],
+      "warnings_notes": [
+        "Solvents used for cleaning must be compatible with the sensor probe material.",
+        "Appropriate safeguards should be in place to ensure cleaning chemicals do not contact incompatible materials on the sensor.",
+        "Do not let fluid solidify on the probe; if it does, soak it in water to dissolve.",
+        "Under no circumstances should abrasives be used to clean the resonator, as this will alter its geometry and destroy its calibration.",
+        "Never use ultrasonic cleaning methods like ultrasonic baths, as they can damage the sensor."
+      ],
+      "page_num": 21,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 886,
+        "cost_usd": 0.0023547999999999998
+      },
+      "source_file": "rheonics-inline-viscometer-srv-operator-manual_srv-op.pdf"
+    },
+    {
+      "page_summary": "This page outlines two methods for verifying the calibration of Rheonics SRV sensors: a quick \"air check\" and a more rigorous NIST traceable calibration verification procedure performed in the field.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "SME-TRD",
+        "RCP"
+      ],
+      "extracted_text": "Rheonics SRV Operator Manual\nSRV-OP-2412\n\n6.2 Calibration\n\nAll Rheonics sensors are factory calibrated and do not need recalibration for use. Customer-specific calibration that is NIST traceable can be ordered. However, clients may require calibration or verification for instruments used in their industry. This can be part of Quality Control (QC) for ensuring expected accuracy, uncertainty, and reliability on readings, and/or Compliance with regulations or standards governed by law, such as ISO 17025 or FDA, for food and pharmaceutical industries. These regulations designate a standardized verification of sensor operation to ensure safety, quality, and correct production.\n\nRheonics offers the next following verification methods:\na. Quick verification of SRV in air\n    1. Remove the SRV from process\n    2. Clean the SRV of residual fluid or dirt\n    3. Leave the SRV in the air, and verify that nothing is in contact with the sensing element\n    4. Verify the viscosity reading is zero. This can be checked through the SME-TRD display, RCP software, or any external integration system (e.g. PLC).\n\nThis “air check” is useful as a quick verification of the SRV correct operation. The sensor does not use moving parts, so if readings in the air are zero, then the sensor is both clean and within calibration. However, this is not a replacement for the formal calibration verification required by ISO 17025 or FDA guidelines.\n\nb. Calibration verification to NIST traceable viscosity reference in field\nThis method follows Rheonics factory calibration procedure by measuring with the SRV a Newtonian fluid of known certified viscosity at prescribed temperatures. Then compare the SRV readings to the expected values and verify the accuracy is within the expected range.\n\n1. Calibration setup preparation:\n    *   Clamp the sensor probe firmly on its body to avoid movement during measurement. Do not perform a calibration by holding the probe by hand or fixing the sensor at the cable.\n    *   Have enough space and fluid to surround the sensor sensing element (red zone in Figure 14). Have fluid level higher than the minimum level required.\n    *   Control the fluid temperature. To register the viscosity readings, wait for sensor to output stable temperature values.\n    *   Mixing the fluid allows for uniform temperature. However, mixing can also cause fluid swirling, make sure this doesn’t affect the immersion of the sensing element in the fluid.\n2. Use a calibration reference fluid with a known viscosity and density at given temperatures. Rheonics recommends using the same or similar NIST traceable fluid used for factory calibration that is specified in the Custom Calibration Certificate.\n3. Check the readings from the SRV, and wait for stable readings of temperature and viscosity.\n4. Compare the SRV viscosity readings with the calibration reference fluid values. Consider the density value specified for the NIST traceable fluid, as SRV’s density may be fixed to a constant value. Then calculate the error percent and verify this is within the expected range.\n\n©Rheonics. Rheonics confidential and proprietary information.\nPage 22 of 25",
+      "specifications": {},
+      "key_facts": [
+        "All Rheonics sensors are factory calibrated and do not need recalibration for use.",
+        "Customer-specific NIST traceable calibration can be ordered if required.",
+        "Calibration or verification may be required for instruments in certain industries for Quality Control (QC) or compliance with regulations like ISO 17025 or FDA.",
+        "The 'air check' is a quick verification method for SRV correct operation, confirming cleanliness and proper calibration if readings are zero.",
+        "The SRV sensor does not use moving parts.",
+        "Calibration verification to a NIST traceable viscosity reference in the field involves measuring a Newtonian fluid with known certified viscosity at prescribed temperatures using the SRV and comparing the readings to expected values.",
+        "During calibration setup, the sensor probe must be clamped firmly to prevent movement, and not held by hand or fixed at the cable.",
+        "Sufficient space and fluid must surround the sensor sensing element, with the fluid level higher than the minimum required.",
+        "Fluid temperature must be controlled, and stable temperature values awaited before registering viscosity readings.",
+        "Mixing the fluid for uniform temperature must be done carefully to avoid swirling that affects the immersion of the sensing element.",
+        "Rheonics recommends using the same or a similar NIST traceable fluid as specified in the Custom Calibration Certificate for field verification.",
+        "The error percentage between SRV viscosity readings and calibration reference fluid values should be calculated and verified to be within the expected range."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "The 'air check' is not a replacement for the formal calibration verification required by ISO 17025 or FDA guidelines.",
+        "Do not perform a calibration by holding the sensor probe by hand or fixing the sensor at the cable.",
+        "Mixing the fluid can cause swirling, so ensure this doesn’t affect the immersion of the sensing element in the fluid.",
+        "©Rheonics. Rheonics confidential and proprietary information."
+      ],
+      "page_num": 22,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1202,
+        "cost_usd": 0.0031447999999999997
+      },
+      "source_file": "rheonics-inline-viscometer-srv-operator-manual_srv-op.pdf"
+    },
+    {
+      "page_summary": "This page from the Rheonics SRV Operator Manual details the setup for SRV viscometer calibration, outlining recommended fluids, immersion requirements, and considerations for fluid mixing and temperature control, alongside information on Rheonics' calibration resources.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SRV",
+        "Calibrator device"
+      ],
+      "extracted_text": "Rheonics SRV Operator Manual\nSRV-OP-2412\nrheonics\nrheonics\nClamp the sensor\nRecommended Fluids:\n- Calibrated fluids\n- Oils\n- Alcohols\nDo not use water\nMake sure the sensing area is fully immersed\nMixing or stirring the fluid is optional. A varying fluid level in sensing area due to stirring will impact the readings\nHeater: Optional to test at different temperatures\nFigure 14: SRV calibration setup example.\nReview more information on calibration here.\nRheonics offers a Calibrator device to simplify the on-site calibration procedure. Contact Rheonics Sales Team for more information.\n©Rheonics. Rheonics confidential and proprietary information.\nPage 23 of 25",
+      "specifications": {},
+      "key_facts": [
+        "The Rheonics SRV viscometer is a product from Rheonics, identified by the manual title and sensor branding.",
+        "Calibration of the SRV viscometer should be performed using recommended fluids such as calibrated fluids, oils, or alcohols.",
+        "Water is explicitly stated as not suitable for use in the SRV viscometer calibration setup.",
+        "It is crucial that the sensing area of the SRV viscometer is fully immersed during the calibration process.",
+        "Fluid mixing or stirring is optional during calibration, but any variation in fluid level due to stirring can affect the readings.",
+        "An optional heater can be integrated into the setup to conduct tests at various temperatures.",
+        "Rheonics provides a Calibrator device specifically designed to simplify the on-site calibration procedure.",
+        "Further information on calibration is available through a specified link.",
+        "For inquiries about the Calibrator device or the calibration procedure, customers are advised to contact the Rheonics Sales Team."
+      ],
+      "diagram_labels": [
+        "rheonics (on sensor)",
+        "Clamp the sensor",
+        "Recommended Fluids: - Calibrated fluids - Oils - Alcohols",
+        "Do not use water",
+        "Make sure the sensing area is fully immersed",
+        "Mixing or stirring the fluid is optional. A varying fluid level in sensing area due to stirring will impact the readings",
+        "Heater: Optional to test at different temperatures",
+        "Figure 14: SRV calibration setup example."
+      ],
+      "warnings_notes": [
+        "Do not use water (for calibration fluids).",
+        "A varying fluid level in sensing area due to stirring will impact the readings.",
+        "©Rheonics. Rheonics confidential and proprietary information."
+      ],
+      "page_num": 23,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 676,
+        "cost_usd": 0.0018298
+      },
+      "source_file": "rheonics-inline-viscometer-srv-operator-manual_srv-op.pdf"
+    },
+    {
+      "page_summary": "This page is a section heading for 'Notes/Errata' within the Rheonics SRV Operator Manual, indicating it is a part of confidential and proprietary documentation.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV"
+      ],
+      "extracted_text": "Rheonics SRV Operator Manual\nSRV-OP-2412\n7 Notes/Errata:\n\nrheonics\n©Rheonics. Rheonics confidential and proprietary information.\nPage 24 of 25",
+      "specifications": {},
+      "key_facts": [
+        "The document is identified as the Rheonics SRV Operator Manual.",
+        "The document's internal identifier is SRV-OP-2412.",
+        "This page represents Section 7, titled \"Notes/Errata.\"",
+        "The information contained on this page is confidential and proprietary to Rheonics.",
+        "This is page 24 out of a total of 25 pages."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Rheonics confidential and proprietary information."
+      ],
+      "page_num": 24,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 274,
+        "cost_usd": 0.0008247999999999999
+      },
+      "source_file": "rheonics-inline-viscometer-srv-operator-manual_srv-op.pdf"
+    },
+    {
+      "page_summary": "This page provides the revision history and approvals for the Rheonics SRV Operator Manual, detailing document versions, changes, approving personnel, and dates.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV"
+      ],
+      "extracted_text": "Rheonics SRV Operator Manual\nSRV-OP-2412\nrheonics\n8 Revision and Approvals\n\n| Version | Nature of changes                  | Approvals   | Date       |\n|---------|------------------------------------|-------------|------------|\n| 1.0     | Original version                   | PP , CA, SK | 08.08.2024 |\n| 1.1     | Minor edits in the existing sections. | PP, SK      | 08.12.2024 |\n\n©Rheonics. Rheonics confidential and proprietary information.\nPage 25 of 25",
+      "specifications": {},
+      "key_facts": [
+        "The document is titled 'Rheonics SRV Operator Manual' with document ID 'SRV-OP-2412'.",
+        "The initial version (1.0) of the manual was an 'Original version' approved by PP, CA, SK on August 8, 2024.",
+        "Version 1.1 of the manual includes 'Minor edits in the existing sections' and was approved by PP, SK on August 12, 2024.",
+        "The document is confidential and proprietary information belonging to Rheonics.",
+        "This page is the 25th page out of a total of 25 pages."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 25,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 404,
+        "cost_usd": 0.0011498
+      },
+      "source_file": "rheonics-inline-viscometer-srv-operator-manual_srv-op.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

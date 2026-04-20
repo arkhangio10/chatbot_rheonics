@@ -1,0 +1,55 @@
+{
+  "source_file": "SRV-LongInsertion-VARINLINE.pdf",
+  "total_pages": 1,
+  "chunks": [
+    {
+      "page_summary": "This page provides a technical overview and dimensional specifications for the Rheonics SRV FPC VARINLINE® inline process density and viscosity monitoring sensor.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRV FPC",
+        "VARINLINE®"
+      ],
+      "extracted_text": "Variable dimensions:\n\nA: Insertion length\nAny length larger than 55.7 mm\n\nB: Flange/adapter:\nSpecify the norm, size, pressure rating, e.g.\nVARINLINE® Process connection F\nVARINLINE® Process connection N\nVARINLINE® Process connection G\n\nrheonics\n\nB: Customer specified flange/adapter\n\nwetted surfaces\n(Material 316L)\n\nA: Insertion Length\nmin 55.7 [2.19]\n\n55,7\n[ 2.19 ]\n\n30\nφ [ 1.18 ]\n\n8\nφ [ 0.31 ]\n\nUnits: mm\n[inch]\n\nSRV FPC\nVARINLINE®, Long customizable insertion length\n\nThis drawing remains property of rheonics. It may be neither copied nor informed to third persons\nor competitors without our approval. ( 2 § paragraph 1 fig.7 copyright act of 9th Sept. 1965)\n\nProtected by US and International patents granted and pending\n\nrheonics\ninline process\ndensity and viscosity\nmonitoring\n\nrheonics • Switzerland • USA • www.rheonics.com • info@rheonics.com +41 52 511 32 00 +1 713 364 5427",
+      "specifications": {
+        "Min Insertion length": "55.7 mm / 2.19 inch",
+        "Sensor body diameter": "30 mm / 1.18 inch",
+        "Sensor tip diameter": "8 mm / 0.31 inch",
+        "Wetted surfaces material": "316L"
+      },
+      "key_facts": [
+        "The SRV FPC VARINLINE® product offers a long, customizable insertion length.",
+        "The minimum insertion length for the sensor is 55.7 mm (2.19 inches).",
+        "Customers must specify the norm, size, and pressure rating for the flange/adapter.",
+        "Available VARINLINE® Process connections include F, N, and G.",
+        "The wetted surfaces of the sensor are constructed from Material 316L.",
+        "Rheonics specializes in inline process density and viscosity monitoring.",
+        "Contact information for Rheonics is provided, including websites and phone numbers for Switzerland and USA."
+      ],
+      "diagram_labels": [
+        "A: Insertion length",
+        "B: Flange/adapter",
+        "rheonics (on sensor body)",
+        "B: Customer specified flange/adapter",
+        "wetted surfaces (Material 316L)",
+        "A: Insertion Length min 55.7 [2.19]"
+      ],
+      "warnings_notes": [
+        "This drawing remains property of rheonics. It may be neither copied nor informed to third persons or competitors without our approval. ( 2 § paragraph 1 fig.7 copyright act of 9th Sept. 1965)",
+        "Protected by US and International patents granted and pending"
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 821,
+        "cost_usd": 0.0021923
+      },
+      "source_file": "SRV-LongInsertion-VARINLINE.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

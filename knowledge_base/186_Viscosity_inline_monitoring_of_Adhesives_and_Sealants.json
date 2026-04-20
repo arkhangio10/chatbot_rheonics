@@ -1,0 +1,277 @@
+{
+  "source_file": "186_Viscosity_inline_monitoring_of_Adhesives_and_Sealants.pdf",
+  "total_pages": 6,
+  "chunks": [
+    {
+      "page_summary": "This page provides an overview of adhesives and sealants, their historical use, modern applications, and how Rheonics inline viscosity and density sensors (SRV and SRD) are used to monitor these materials for quality control.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "SRV - Inline Viscosity Meter",
+        "SRD - Inline Density and Viscosity meter",
+        "Rheonics sensors"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nViscosity inline monitoring of Adhesives and Sealants\nModified on: Thu, 3 Oct, 2024 at 2:59 PM\n\n[Image title: Adhesives and Sealants, Subtitle: Industry overview and quality solutions with Rheonics sensors]\n\nWhat is the purpose of this article?\nReview the industry of adhesives and sealants, common types of products, their production and applications challenges and how Rheonics inline viscosity and density sensors allow high-quality end products.\n\nWhat products are involved?\nhttps://rheonics.com/products/inline-viscometer-srv/ SRV - Inline Viscosity Meter\nhttps://rheonics.com/products/inline-viscometer-srd/ SRD - Inline Density and Viscosity meter\n\nTABLE OF CONTENTS\n*   What are Adhesives and Sealants?\n*   Why are Adhesives used?\n*   Adhesive Market\n*   Types of Adhesives - Production and Applications\n    *   1. Natural Adhesives\n    *   2. Synthetic Adhesives\n*   Viscosity for Adhesives and Sealants\n*   Density for Adhesives and Sealants\n*   Viscosity and Density monitoring and control in a production process of adhesives\n*   Installation of the SRV and SRD in adhesive processes\n    *   In tanks\n    *   In pipelines\n\nWhat are Adhesives and Sealants?\nAdhesives and Sealants are two related terms when it comes to gluing and bonding two or more parts together. This joint usually requires the use of a paste or liquid that has been chemically processed to create a strong bond at the surface it is applied.\nThe actual origins of adhesives and sealants come from nature itself and have been around us since the beginning of time. Nowadays adhesives and sealants are required in all we use and see around, from home workshops to high-technology products. Some example industries are packaging, paper production, aircraft manufacturing, aerospace, construction, footwear, automotive, electronic devices, medical, etc.\nThis article explains how viscosity and density are of relevance for the production and application of adhesives, and how Rheonics SRV and SRD inline viscosity and density sensors can be used to monitor these variables.",
+      "specifications": {},
+      "key_facts": [
+        "Adhesives and Sealants are terms related to gluing and bonding multiple parts using a chemically processed paste or liquid that forms a strong surface bond.",
+        "Adhesives and sealants have natural origins and are now essential in a wide range of industries, from general workshops to high-technology sectors like aerospace and medical.",
+        "Rheonics SRV and SRD inline viscosity and density sensors are crucial for monitoring these variables in the production and application of adhesives, ensuring high-quality end products."
+      ],
+      "diagram_labels": [
+        "SRV - Inline Viscosity Meter",
+        "SRD - Inline Density and Viscosity meter",
+        "Adhesives and Sealants",
+        "Industry overview and quality solutions with Rheonics sensors"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 816,
+        "cost_usd": 0.0021798
+      },
+      "source_file": "186_Viscosity_inline_monitoring_of_Adhesives_and_Sealants.pdf"
+    },
+    {
+      "page_summary": "This page provides an overview of adhesives and sealants, detailing their applications, advantages, definitions, differences, and a market analysis, while also referencing Rheonics' inline viscometers and density sensors.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "SRV Inline Process Viscometer",
+        "SRD Inline Process Density and Viscosity Meter"
+      ],
+      "extracted_text": "rheonics\n\nFigure 1: Adhesives and Sealants types and applications\n\nLearn more on the SRV Inline Process Viscometer (https://rheonics.com/products/inline-viscometer-srv/)\nLearn more on the SRD Inline Process Density and Viscosity Meter (https://rheonics.com/products/inline-density-meter-srd/)\nMonitoring and controlling viscosity in formulation, testing, and application of adhesives and sealants (https://rheonics.com/solutions-item/sealant-and-adhesive-viscosity-rheology/)\n\nWhy are Adhesives used?\nAdhesives create a joint or bonding between two or more objects or substrates (material to be bonded). The joint is determined by the inner strength of a material (i.e., by molecules in the bulk), based on chemical bonds between molecules [1].\nMany product designs and manufacturing processes use adhesives as preferred joint methods, with alternatives being welding, soldering, brazing and fasteners like bolts.\nSome design scenarios favor the use of adhesives, while others are not suitable for them. Advantages of using adhesives over other joint methods can include:\n  * Simplicity of application\n  * Various curing methods, each suited for specific industries and uses\n  * Smoother surface compared to other joint methods. Joint lines can be invisible\n  * Creates joints without affecting the mechanical properties of the substrate (common in welding)\n  * Can reduce vibration in the assembly\n  * Good shock and impact resistance\n  * Allows the joining of different materials\n  * Easier production\n  * Can also act as sealing\n  * Generally lower cost\n\nAdhesives and Sealants - Differences and Similarities\nThese two terms are used a lot and can be thought to be very similar or even interchangeable, but there are actually differences between them in their purpose and final use. The r\nAdhesive: A substance capable of holding at least two surfaces together in a strong and permanent manner.\nSealant: A substance capable of attaching at least two surfaces, thereby filling the space between them to provide a barrier or protective coating.\nFrom the definitions, it can be said that an adhesive is used when a long-lasting and solid union is required, while a union by a sealant is mainly to avoid fluid or gas leakage, but is\nSome similarities between adhesives and sealants are the way they behave to achieve the union, for example:\nFluidity: Both substances should behave as a fluid at some point of application to make contact with the surfaces or substrates and fill any possible gap.\nSolidification: Both substances should harden to a solid or a semisolid state to transfer and sustain the variable loads the union can be exposed to.\n\nAdhesive Market\nThe adhesives and sealants market runs an estimated value of USD 76.1 billion in the global market in 2024 and is projected to achieve almost 90 billion by the year 2029 [2].\nThe growth in the market can be put in context considering that it closed the 20th century with a value around USD 10 billion [3].\nThe leading countries in the adhesive and sealant industry are China, Japan, the USA, the UK, and Germany. This multi-billion dollar industry is comprised of approximately 750 companies with the largest companies, listed below, running almost 50% of the global market for adhesives and sealants.\n  * Henkel\n  * Sika\n  * 3M\n  * H.B. Fuller\n  * Huntsman\n  * ITW Performance Polymer\n  * RPM International\n  * Avery Dennison\n  * DOW",
+      "specifications": {
+        "adhesives_sealants_market_value_2024": "USD 76.1 billion",
+        "adhesives_sealants_market_projection_2029": "USD 90 billion",
+        "adhesives_sealants_market_value_end_20th_century": "USD 10 billion",
+        "number_of_companies_in_industry": "approximately 750",
+        "market_share_largest_companies": "almost 50%"
+      },
+      "key_facts": [
+        "Adhesives create a joint or bonding between two or more objects or substrates, determined by the inner strength of a material and based on chemical bonds between molecules.",
+        "Advantages of using adhesives over other joint methods include simplicity of application, various curing methods, smoother/invisible joint lines, creating joints without affecting mechanical properties, reducing vibration, good shock and impact resistance, allowing joining of different materials, easier production, sealing capability, and generally lower cost.",
+        "An adhesive is a substance capable of holding at least two surfaces together in a strong and permanent manner.",
+        "A sealant is a substance capable of attaching at least two surfaces, thereby filling the space between them to provide a barrier or protective coating, mainly to avoid fluid or gas leakage.",
+        "Both adhesives and sealants should behave as a fluid at some point of application to make contact with surfaces or substrates and fill any possible gap.",
+        "Both adhesives and sealants should harden to a solid or a semisolid state to transfer and sustain variable loads.",
+        "The adhesives and sealants global market is estimated at USD 76.1 billion in 2024 and is projected to reach almost USD 90 billion by 2029.",
+        "The market's historical context shows a value around USD 10 billion at the close of the 20th century.",
+        "The leading countries in the adhesive and sealant industry are China, Japan, the USA, the UK, and Germany.",
+        "The multi-billion dollar adhesive and sealant industry is comprised of approximately 750 companies, with the largest companies accounting for almost 50% of the global market."
+      ],
+      "diagram_labels": [
+        "Adhesives and Sealants",
+        "Sealants",
+        "Adhesives",
+        "Medical & Healthcare",
+        "Pressure Sensitive Tape",
+        "Food & Beverage",
+        "Building & Construction",
+        "Flooring",
+        "Roofing",
+        "Glazing",
+        "Automotive Assemblies",
+        "Noise Reduction",
+        "Assembly",
+        "Interior Exterior",
+        "Packaging",
+        "Carton Board",
+        "Envelopes",
+        "Disposables",
+        "Flexible Packaging",
+        "Packaging Adhesives",
+        "Corrugated Packaging",
+        "Folding Cartons",
+        "Labelling",
+        "Paper & Packaging",
+        "Flexible Packaging",
+        "Woodworking",
+        "Construction Adhesives",
+        "Leather & Footwear",
+        "Transportation",
+        "Automotive",
+        "Aircraft & Aerospace",
+        "Figure 1: Adhesives and Sealants types and applications"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1640,
+        "cost_usd": 0.004239799999999999
+      },
+      "source_file": "186_Viscosity_inline_monitoring_of_Adhesives_and_Sealants.pdf"
+    },
+    {
+      "page_summary": "This page provides a technical overview and classification of adhesive types, distinguishing between natural and synthetic adhesives based on their origin, production methods, applications, and examples.",
+      "document_type": "whitepaper",
+      "product_names": [],
+      "extracted_text": "Current growth of the adhesives and sealants industry is based primarily on applications in building and construction, as well as on increasing demand in medical areas. The industry is closely regulated to achieve environmental standards, which encourages producers to find new technology to use resources efficiently and reduce waste.\n\nTypes of Adhesives - Production and Applications\n\nAdhesives can be generally classified by their origin, by the type of application (curing method), or by their chemical structure. The adhesive may originate from natural resources (animal, vegetable, or mineral) or synthetic materials (elastomer, thermoplastic, or thermosetting).\n\nTable 1: Adhesive Types by origin [1]\nMain Origin | Adhesive Types | Examples\nNatural | Animal | Albumin, Animal glue, Casein, Shellac, Beeswax\n| Vegetable | Natural resins, Oils and waxes, Starch and dextrin - carbohydrates, Proteins\n| Mineral | Asphalt, bitumen, silicates, mineral waxes, mineral resins\nSynthetic | Elastomer | Silicone, rubber, polyurethane, polysulfide, butyl\n| Thermoplastic | Vinyl polymers, saturated polyesters, Polyvinyl\n| Thermosetting | Epoxies, unsaturated polyesters, amino plastics\n\n1. Natural Adhesives\n\nNatural adhesives are obtained from organic sources where the bonding is achieved by natural substances like protein, starch, and cellulose. An advantage of natural adhesives is they can be considered a more eco-friendly compared to the alternatives. Some natural adhesives, like gelatin glue, can also be 100% biodegradable and recyclable, even after being processed.\n\nThe most common natural adhesives are the starch adhesives and dextrin glues mainly used in the Paper and Packaging industries. These are relatively easy to produce so they are easy to find in the market at low prices.\n\nGlue is a type of adhesive formed from many natural substances, including proteins like gelatin, starch, and cellulose [4]. Starch adhesives are based on starch, a natural carbohydrate or polymer, found normally in plants. The most common sources are Corn, Wheat, Potato, and Pea. Starch adhesives have found rapid growth in the industry due to the ability to enhance their bonding and resistance properties through chemical processes. For example, borax (sodium tetraborate decahydrate) and sodium metaborate (borax and sodium hydroxide) can be added to change starch adhesive properties including viscosity, tack, and cohesiveness [3].\n\nFigure 2: Water-based starch adhesive [4]\n\n2. Synthetic Adhesives\n\nSynthetic adhesives are based on prepolymers or polymers. The polymers used can be classified as thermoplastics or thermosets. The advances in the plastic industry allow these types of adhesives to be mass-produced with modified characteristics for each application. Synthetic adhesives are used in the construction of various objects, from furniture to airplanes.\n\nThe main examples of synthetic adhesives are epoxies, urethanes, and cyanoacrylates. Some of these adhesives are two-part adhesives, meaning that they are applied as two or more components that, when mixed, react chemically to form a cross-linked joint.\n\nSynthetic adhesives are the most common adhesive type used in the world. Despite this, it also faces many challenges due to the limited raw materials (reserve of oil) and the negative impact of synthetic compounds on human health and the environment.\n\nFigure 3: Hexane adhesive\n\nNext table shows a list of adhesive types, briefly specifying the production - how are they made? the application - how or where are they used? and use cases.\n\nTable 2: Adhesive types, production and application",
+      "specifications": {},
+      "key_facts": [
+        "The adhesives and sealants industry is growing due to applications in building, construction, and medical fields.",
+        "The industry is regulated to meet environmental standards, encouraging producers to innovate for efficient resource use and waste reduction.",
+        "Adhesives can be classified by their origin (natural or synthetic), curing method, or chemical structure.",
+        "Natural adhesives are derived from organic sources like protein, starch, and cellulose, offering eco-friendly, biodegradable, and recyclable properties.",
+        "Starch and dextrin glues are common, low-cost natural adhesives primarily used in the Paper and Packaging industries.",
+        "Starch adhesive properties, including viscosity, tack, and cohesiveness, can be enhanced or modified using chemical additives like borax and sodium metaborate.",
+        "Synthetic adhesives are based on prepolymers or polymers, which can be thermoplastics or thermosets, and are mass-produced for diverse applications like construction, furniture, and aerospace.",
+        "Key examples of synthetic adhesives include epoxies, urethanes, and cyanoacrylates.",
+        "Some synthetic adhesives are two-part, forming a cross-linked joint when their components are mixed.",
+        "Synthetic adhesives are the most common type globally but face challenges due to limited raw materials (oil reserves) and potential negative impacts on human health and the environment."
+      ],
+      "diagram_labels": [
+        "Figure 2: Water-based starch adhesive [4]",
+        "Figure 3: Hexane adhesive"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1186,
+        "cost_usd": 0.0031047999999999996
+      },
+      "source_file": "186_Viscosity_inline_monitoring_of_Adhesives_and_Sealants.pdf"
+    },
+    {
+      "page_summary": "This page provides a detailed table outlining various types of adhesives, their production methods, typical applications, and common use cases, followed by an explanation of viscosity for adhesives and sealants.",
+      "document_type": "datasheet",
+      "product_names": [],
+      "extracted_text": "Types of Adhesive | Production | Application | Use cases\nStarch adhesive | Produced from starch, cooked approx. at 90°C (200°F) in water. The solution is then modified for tack and other properties | Pressure sensitive fluid | Paper and cardboard\nDextrin | | Simply applied in the substrate, and the adhesive solidifies due to its tacky surface and light pressure application | Paper bonding, Packaging, Labeling, Pharmaceutical, Food and beverage\nVegetal adhesives | Are light straw to amber or brown in color | | \nAqueous dextrine-based glues | | |\nAnimal/Protein glues | Prepared in water by boiling animal bones and connective tissues which contain proteins | Most are applied at approx. 60°C (140°F). It can also be previously dissolved in water | Bookbinding\nWarm glue | A glue derived from skimmed milk is called casein glue | At application, the adhesive has a very high tack or viscosity but dries to a non tacky film | Boxes, Woodwork, Brewery bottles\nJelly glue | A glue derived from fish skin high in collagen is called fish glue | Not used for high temperatures or high humidity |\n(Casein glue details) | Usually amber to brown in color | Casein glue is applied at room temperature, but forms a bond with a high degree of moisture resistance. It can be dissolved in water |\nPoly vinyl acetate (PVA) adhesive | Derived from vinyl acetate monomers | Application at room temperature | Woodworking, Crafting, Packaging, Printing (binding)\nSynthetic adhesive | Water-based, white color | It is fast curing | Paper and cardboard\nResin cement | Sometimes mixed with dextrin glues to create a hybrid adhesive | Good moisture resistance. Bonding is to some degree flexible and clear with minimum impact on the aesthetic of the substrate | Construction\nHot Melt Adhesives | There are different hot melt adhesives, most are based on blending copolymers of EVA | Thermoplastic, applied at certain temperatures above ambient | Shoe, leather, Hygiene, furniture, and packaging\ni.e. Ethylene vinyl acetate EVA adhesive | Other polymers, waxes, oils, rubber, and resins can be added. Low level of volatile organic compounds (VOCs) | Setting time varies. Some hot melt adhesives set right when they are applied, while others maintain the tackiness for more time to allow a \"delayed\" adhesion. For example, silicone-coated release paper can be put to be peel off later and placed in the substrate | Medical, Electronic, Automotive\nEpoxies | Consists of two separate adhesives, one is called a base resin with usually high viscosity, the other is called a hardener or catalyst and usually has a lower viscosity | Requires the mixing of both adhesives. Most types will be set at room temperature, but some require heating to reach, improve, or accelerate the cross-linking reaction. Usually requires a cure time of about 24 hours | Glazing, Wood adhesives, Medical, Personal care, Roofing and flooring, Automotive, Aerospace\nSilicone | Is based in silica (silicon dioxide - SiO2), a common mineral present in sand, soil, granite, and rocks. The extracted sand is purified, heated and cooled resulting in a silicon powder. The process continues with the addition of methyl chloride, polymerized silicone and others | Available as one part (RTV - Room temperature vulcanizing silicone) and two parts adhesive. RTV silicone is cured at application by the reaction with ambient moisture. Two-part silicone can be used with metal, glass, and ceramic. Silicone adhesives and sealants are suited for high-temperature application, up to 260°C (500°F) | Sealants, Glazing, Wood adhesives, Gasketing materials, Electronics\nPolyurethane | Mixed with a carrier material such as solvent. Produced in different ranges of viscosity and mixing ratios. Needs good mixing to obtain great quality. Some contain isocyanates or heavy metal catalysts which require extra precaution to avoid health risks to operators | Available as one-part and two-part adhesive. Flexible but strong bonds. Can be used with rubber, plastics, metal, wool, paper, ceramic, and fabrics. Mostly limited for applications below 120°C (250°F) | Sealants, Corrugated cartons, Multiple laminations\n\nViscosity for Adhesives and Sealants\nIn simple terms, viscosity can be defined as the resistance of a fluid to flow. Adhesives and Sealants in their fluid state are classified as non-Newtonian fluids, this means that their viscosity readings are dependent on the shear rate at which they are measured. The viscosity is of great relevance during the production and application of the adhesive, and it can also give insights on changes of density, stability, solvent content, mixing rate, molecular weight, etc. The viscosity is an effective indicator of the adhesive consistency or particle size distribution.",
+      "specifications": {
+        "Starch adhesive cooking temperature": "90°C (200°F)",
+        "Animal/Protein glue application temperature": "60°C (140°F)",
+        "Epoxy cure time": "24 hours",
+        "Silicone high-temperature application": "up to 260°C (500°F)",
+        "Polyurethane maximum application temperature": "120°C (250°F)"
+      },
+      "key_facts": [
+        "Dextrin solidifies on the substrate through a tacky surface and light pressure application.",
+        "Animal/Protein glues, including casein glue, are often applied at approximately 60°C (140°F) or room temperature for casein, and can be moisture-resistant.",
+        "Poly vinyl acetate (PVA) adhesives are derived from vinyl acetate monomers and are typically used at room temperature.",
+        "Hot melt adhesives are thermoplastic, based on EVA copolymers, and are applied above ambient temperatures, with setting times that can vary to allow for delayed adhesion.",
+        "Epoxies are two-part systems requiring mixing, often cured at room temperature but may need heat, and typically have a cure time of about 24 hours.",
+        "Silicone adhesives are silica-based, available as one-part (RTV) or two-part, and can be used for high-temperature applications up to 260°C (500°F).",
+        "Polyurethane adhesives are available as one-part or two-part, provide flexible and strong bonds, and have an application limit generally below 120°C (250°F).",
+        "Viscosity, defined as a fluid's resistance to flow, is critical for adhesives and sealants, which are non-Newtonian fluids whose viscosity depends on shear rate.",
+        "Viscosity provides insights into adhesive density, stability, solvent content, mixing rate, molecular weight, consistency, and particle size distribution."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Some Polyurethane adhesives contain isocyanates or heavy metal catalysts which require extra precaution to avoid health risks to operators."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1590,
+        "cost_usd": 0.0041148
+      },
+      "source_file": "186_Viscosity_inline_monitoring_of_Adhesives_and_Sealants.pdf"
+    },
+    {
+      "page_summary": "This page details the application of Rheonics SRV viscometers and SRD density sensors for inline viscosity and density monitoring and control in adhesive and sealant production processes.",
+      "document_type": "technical article",
+      "product_names": [
+        "SRV",
+        "SRD",
+        "SRV Inline Viscometer",
+        "SRD Inline Density and Viscosity meter",
+        "Type-SR sensors",
+        "SRV-X5",
+        "SRD-X5",
+        "SRV-X1",
+        "SRV-X3"
+      ],
+      "extracted_text": "The viscosity of adhesives can vary greatly depending on the final use case (e.g. sealing, bonding, etc.). Low, medium and high viscosity adhesives can be found.\n\n*   Low viscosity adhesives: Used for encapsulation, potting, and impregnation.\n*   Medium viscosity adhesives: Mostly used for bonding and sealing applications.\n*   High viscosity adhesives: Used for non-drip or non-sagging requirements. Common for some epoxies.\n\nTraditionally the viscosity measurement technologies required manual sampling and laboratory readings. This process requires both time and man hours, and are not suited for real-time control of the process. The properties read on the laboratory are not representative of the fluid in the lines, due to the elapsed time, sedimentation, or aging of the fluid.\nThe Rheonics SRV is an inline process viscometer suited for inline readings of viscosity and temperature. The SRV reads the product of viscosity and density of the fluid and outputs the result as dynamic viscosity.\nThe SRV is suited for installations in different pipeline sizes, reactors, mixing and storage tanks, allowing full traceability of the adhesive fluid process. The SRV sensor enables a fully automated control process of adhesives, by sending viscosity readings to a controller to handle the addition of solvents or diluents to achieve the desired result. The SRV readings are also used as a real-time monitoring of the mixing ratio or consistency of the adhesive in the reactor, to take necessary actions when the mixing ratio is reached.\n\nDensity for Adhesives and Sealants\n\nThe density of a fluid is the relation of its mass per volume. The density of adhesives is used to monitor the content of compounds added in the production or the content of solids and particle sizes within the fluid before and after mixing. So density of an adhesive in a mixing process can be used as an indicator of the correct final composition. The Rheonics SRD is an inline process density and viscosity meter suited for inline readings of density, viscosity and temperature. The SRD can also output kinematic viscosity, concentration percentages, etc. Rheonics offers the SRD in different variants and sizes to suit the installation requirement.\n\nSRV Inline Viscometer (https://rheonics.com/products/inline-viscometer-srv/)\n\nSRD Inline Density and Viscosity meter (https://rheonics.com/products/inline-density-meter-srd/)\n\nViscosity and Density monitoring and control in a production process of adhesives\n\nThe production of an adhesive is usually based on the mixing or dispersion of different materials to obtain the desired chemical resistance, thermal characteristics, shock resistance, shrinkage, flexibility, serviceability, and strength in the final product.\nThe Rheonics inline viscometer SRV and inline density and viscosity meter SRD are suitable for installation in different points of the adhesives, glues, or starch production processes. The Type-SR sensors allow the inline monitoring of viscosity, density and temperature, as well as derivative parameters such as concentration and mixing ratio. Installation can be directly in mixing tank to understand the evolution of viscosity and determine when the required mixing is reached; in storage tanks to verify the fluid properties are maintained; or in pipelines, as the fluid flows between units.\n\nFigure 4: SRV and SRD installation in Adhesive Production\n\nInstallation of the SRV and SRD in adhesive processes\n\nIn tanks\n\nViscosity measurements inside a mixing tank of an adhesive fluid allows quick action on the control of the fluid's consistency. This results in more production and less waste of resources.\n\nThe SRV viscometer can be installed in a mixing tank from the top lid, wall or bottom. If installed from the top, an -X5 long insertion probe is recommended. Learn more on the SRV-X5 (https://support.rheonics.com/en/support/solutions/articles/81000411102-srv-x5-long-insertion-probe) and SRD-X5 (https://support.rheonics.com/en/support/solutions/articles/81000411193-srd-x5-long-insertion-probe). The insertion length (A) should be long enough for the sensing element to be in contact with the fluid. Installation on the tank wall and bottom can use a short probe variant like SRV-X1 (https://support.rheonics.com/en/support/solutions/articles/81000409840-srv-x1-34n-npt-3-4-) or SRV-X3 (https://support.rheonics.com/en/support/solutions/articles/81000410430-srv-x3-tri-clamp-). If existing ports are available on the tank, the client can consider reusing them for the SRV installation.",
+      "specifications": {},
+      "key_facts": [
+        "The viscosity of adhesives can vary greatly depending on their final use case, including applications such as encapsulation, potting, impregnation, bonding, sealing, non-drip, and non-sagging requirements.",
+        "Traditional viscosity measurement methods involve manual sampling and laboratory readings, which are time-consuming, labor-intensive, and often not representative of real-time fluid properties due to elapsed time, sedimentation, or aging.",
+        "The Rheonics SRV is an inline process viscometer designed for real-time readings of viscosity and temperature, outputting dynamic viscosity.",
+        "The Rheonics SRD is an inline process density and viscosity meter that provides real-time readings of density, viscosity, and temperature, and can also output kinematic viscosity and concentration percentages.",
+        "SRV sensors are suitable for installation in various process points like pipelines, reactors, mixing, and storage tanks, providing full traceability and enabling automated control by sending viscosity data to a controller.",
+        "SRD sensors are used to monitor the content of compounds, solids, and particle sizes within adhesives, serving as an indicator of the correct final composition.",
+        "Rheonics Type-SR sensors facilitate inline monitoring of viscosity, density, temperature, and derivative parameters (e.g., concentration, mixing ratio) in adhesive, glue, or starch production processes.",
+        "Installation in mixing tanks allows for understanding viscosity evolution and determining mixing completion, while installations in storage tanks and pipelines verify fluid properties."
+      ],
+      "diagram_labels": [
+        "Additives",
+        "Water",
+        "Starch Adhesives",
+        "Inline Mix",
+        "M",
+        "Mixing Dispersion",
+        "Storage Tank",
+        "Day Tank",
+        "Packaging",
+        "Figure 4: SRV and SRD installation in Adhesive Production"
+      ],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1604,
+        "cost_usd": 0.0041497999999999995
+      },
+      "source_file": "186_Viscosity_inline_monitoring_of_Adhesives_and_Sealants.pdf"
+    },
+    {
+      "page_summary": "This page provides guidelines and recommendations for installing Rheonics SRD and SRV viscometers and density sensors, particularly in pipelines with adhesive fluids, covering considerations for mixing processes, small lines, and probe cleaning.",
+      "document_type": "manual",
+      "product_names": [
+        "SRD",
+        "SRV",
+        "SRV-X5",
+        "SRD-X5",
+        "SRV-X6 Slimline probe",
+        "SRD-X6 Slimline probe",
+        "SRV flow cells",
+        "SRD flow cells",
+        "Type-SR probes"
+      ],
+      "extracted_text": "The SRD density and viscosity meter is not recommended for mixing processes as the mixing action can add too much noise to the readings. If the mixing tank has a recirculation pump line, the SRD can be installed there easily as explained in the next section.\nContact the Rheonics Support Team at support@rheonics.com for recommendation on the installation. The client should share drawings or pictures of the tank, specifying any existing available ports and the operating conditions (Temperature, Pressure, Expected Viscosity, etc.).\n\n**In pipelines**\n\nThe best possible location of the SRV and SRD in pipelines of adhesive fluids is in an elbow installation. This is an axial installation with the probe's sensing element pointing into the fluid flow. This solution usually requires a long insertion -X5 sensor. Learn more on the SRV-X5 (https://support.rheonics.com/en/support/solutions/articles/81000411102-srv-x5-long-insertion-probe) and SRD-X5 (https://support.rheonics.com/en/support/solutions/articles/81000411193-srd-x5-long-insertion-probe).\nUsing a long insertion -X5 probe allows the client to have a custom insertion length (A) and process connection, depending on the installation requirements, like the line size. The insertion length A should be enough for the sensing element of the probe (in blue zone in next Figure) to be in contact with flowing fluid, avoiding dead or stagnation zones. Placing the sensing element in the straight section of the pipe has the additional advantage of keeping the sensing element clean as the fluid flows over the streamlined design of the probe.\n\nFigure 5: SRV Installation in elbow\n\nIf the line is small (less than 1.5\") the client can consider the use of Rheonics flow cells or the Slimline -X6 probe variants with a smaller diameter. Learn more:\n*   SRV-X6 Slimline probe (https://support.rheonics.com/en/support/solutions/articles/81000412401-srv-x6-slp-slimline-viscometer)\n*   SRD-X6 Slimline probe (https://support.rheonics.com/en/support/solutions/articles/81000412461-srd-x6-slp-slimline-density-meter)\n*   SRV flow cells (https://support.rheonics.com/en/support/solutions/articles/81000411659-srv-flow-through-cells)\n*   SRD flow cells (https://support.rheonics.com/en/support/solutions/articles/81000411678-srd-flow-through-cells)\nConsider that high-viscosity adhesives can easily create deposits on the surfaces of the probe and pipe. Here, avoiding dead zones around the sensing element is key to reliable readings. If probe needs manual cleaning, review the article: How to clean the Type-SR probes? (https://support.rheonics.com/en/support/solutions/articles/81000410289-how-to-clean-your-rheonics-probe-).\n\n**References**\n[1] Handbook of Adhesives and Sealant (https://www.sciencedirect.com/handbook/handbook-of-adhesives-and-sealants)\n[2] Adhesives & Sealants Market Size, Industry Share Growth Forecast, Global Trends Report (https://www.marketsandmarkets.com/Market-Reports/adhesive-sealants-market-421.html?gclid=CjwKCAjwOCsbBhaEeIwA3hVo__A_Futuj6Pu555meM1rkldUxwVGxozpullUvFIfXIGf0ePpsb70qjhoC8C8QAvD_BwE)\n[3] \"Boring\" Boron and Adhesives | 2014-09-02 | Adhesives & Sealants Industry (https://www.adhesivesmag.com/articles/93226-boring-boron-and-adhesives)\n[4] Natural Glues for Industrial Applications (https://blog.lddavis.com/natural-glues-for-industrial-applications)\n[5] Monitoring and controlling viscosity in formulation, testing, and application of adhesives and sealants (https://rheonics.com/solutions-item/sealant-and-adhesive-viscosity-rheology/)",
+      "specifications": {
+        "NPT connection size": "1.25\"",
+        "Minimum line size for Slimline/flow cells": "1.5\""
+      },
+      "key_facts": [
+        "The SRD density and viscosity meter is not recommended for mixing processes due to potential noise from mixing action.",
+        "For mixing tanks with a recirculation pump line, the SRD can be easily installed there.",
+        "Clients should contact Rheonics Support Team (support@rheonics.com) for installation recommendations, providing drawings, pictures, existing available ports, and operating conditions (Temperature, Pressure, Expected Viscosity).",
+        "The best installation location for SRV and SRD in pipelines containing adhesive fluids is an elbow installation, with the probe's sensing element pointing axially into the fluid flow.",
+        "Elbow installations for adhesive fluids typically require a long insertion -X5 sensor.",
+        "A custom insertion length (A) for long insertion -X5 probes ensures the sensing element (blue zone in the figure) is in contact with flowing fluid.",
+        "Proper insertion length helps avoid dead or stagnation zones where fluid might accumulate.",
+        "Placing the sensing element in the straight section of the pipe helps keep it clean due to the fluid flow over the probe's streamlined design.",
+        "For small line sizes (less than 1.5 inches), Rheonics flow cells or Slimline -X6 probe variants with a smaller diameter should be considered.",
+        "High-viscosity adhesives can easily create deposits on probe and pipe surfaces.",
+        "Avoiding dead zones around the sensing element is crucial for obtaining reliable readings with high-viscosity adhesives.",
+        "If the probe requires manual cleaning, reference the article \"How to clean the Type-SR probes?\"."
+      ],
+      "diagram_labels": [
+        "NPT 1.25\"",
+        "A",
+        "Flow direction",
+        "Straight section of the pipe",
+        "Figure 5: SRV Installation in elbow"
+      ],
+      "warnings_notes": [
+        "The SRD density and viscosity meter is not recommended for mixing processes as the mixing action can add too much noise to the readings.",
+        "Consider that high-viscosity adhesives can easily create deposits on the surfaces of the probe and pipe. Here, avoiding dead zones around the sensing element is key to reliable readings."
+      ],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1719,
+        "cost_usd": 0.0044373
+      },
+      "source_file": "186_Viscosity_inline_monitoring_of_Adhesives_and_Sealants.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

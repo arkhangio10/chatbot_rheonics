@@ -1,0 +1,61 @@
+{
+  "source_file": "SRV_EHEDG_short.pdf",
+  "total_pages": 1,
+  "chunks": [
+    {
+      "page_summary": "A technical drawing detailing the dimensions, flange specifications, and EHEDG compliance criteria for the Rheonics SRV EHEDG short viscometer probe.",
+      "document_type": "drawing",
+      "product_names": [
+        "SRV EHEDG short"
+      ],
+      "extracted_text": "Units: mm [inch]\nSRV EHEDG short\n\nSpecify flange in Order.\nAvailable sizes are as follows:\nDIN11853-1/2/3, Nominal diameter >=DN40\nDIN11864-1/2/3, Nominal diameter >=DN40\nDIN 11851, Nominal diameter >=DN40\nISO 2852 (DIN 32676 B), Nominal diameter >=DN40\nOthers; Variline®, BoiControl®, etc.\n\nFor EHEDG compliance the criterion:\nD-14mm>L must be fulfilled\n\nAll wetted surfaces are < Ra 0.8\n\nSchnitt A-A\n\nThis drawing remains property of rheonics. It may be neither copied nor informed to third persons or competitors without our approval. ( 2 paragraph 1 fig.7 copyright act of 9th Sept. 1965)\n\nProtected by US and International patents granted and pending\n\nrheonics • Switzerland • USA • www.rheonics.com • info@rheonics.com +41 52 511 32 00 +1 713 364 5427\n\ninline process density and viscosity monitoring",
+      "specifications": {
+        "Height (top part)": "55.6 mm [2.19 inch]",
+        "Height (flange to lower body)": "27.4 mm [1.08 inch]",
+        "Length (sensing probe total)": "77.6 mm [3.05 inch]",
+        "Diameter (main shaft)": "13.9 mm [0.55 inch]",
+        "Diameter (mid sensing probe)": "5 mm [0.20 inch]",
+        "Diameter (tip sensing probe)": "8 mm [0.31 inch]",
+        "Width (top part)": "30 mm [1.18 inch]",
+        "Sensing area length": "45.7 mm [1.80 inch]",
+        "Sensing area tapered length": "19.7 mm [0.77 inch]",
+        "Wetted surface roughness": "< Ra 0.8"
+      },
+      "key_facts": [
+        "The SRV EHEDG short product requires specifying the flange type in the order.",
+        "Available flange sizes for DIN11853-1/2/3, DIN11864-1/2/3, DIN 11851, and ISO 2852 (DIN 32676 B) have a nominal diameter greater than or equal to DN40.",
+        "Other available flange types include Variline® and BoiControl®.",
+        "For EHEDG compliance, the criterion D-14mm > L must be fulfilled.",
+        "All wetted surfaces must have a roughness value less than Ra 0.8.",
+        "Rheonics specializes in inline process density and viscosity monitoring."
+      ],
+      "diagram_labels": [
+        "A",
+        "Dead space",
+        "Sensing area",
+        "Ø D",
+        "L",
+        "Schnitt A-A",
+        "Units: mm [inch]"
+      ],
+      "warnings_notes": [
+        "This drawing remains property of rheonics. It may be neither copied nor informed to third persons or competitors without our approval. ( 2 paragraph 1 fig.7 copyright act of 9th Sept. 1965)",
+        "Protected by US and International patents granted and pending",
+        "For EHEDG compliance the criterion: D-14mm>L must be fulfilled"
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 927,
+        "cost_usd": 0.0024573
+      },
+      "source_file": "SRV_EHEDG_short.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

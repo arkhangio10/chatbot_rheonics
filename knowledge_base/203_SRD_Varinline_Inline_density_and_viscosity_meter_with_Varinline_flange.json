@@ -1,0 +1,460 @@
+{
+  "source_file": "203_SRD_Varinline_Inline_density_and_viscosity_meter_with_Varinline_flange.pdf",
+  "total_pages": 9,
+  "chunks": [
+    {
+      "page_summary": "This page provides an overview of the Rheonics SRD Varinline inline density and viscosity meter, detailing its features, applications, and installation advantages, particularly when used with GEA Varinline connections.",
+      "document_type": "technical article",
+      "product_names": [
+        "SRD Varinline",
+        "SRD Inline density and viscosity meter",
+        "SRD sensor"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nSRD Varinline: Inline density and viscosity meter with Varinline flange\nModified on: Fri, 25 Oct, 2024 at 7:33 PM\n\nWhat products are involved in this article?\nSRD Inline density and viscosity meter. (https://es.rheonics.com/products/inline-density-meter-srd/)\n\nWhat is the purpose of this article?\nTo give an overview of the SRD inline density and viscosity meter with GEA Varinline connection, its uses, and installation options. (https://support.rheonics.com/en/support/s)\n\n1. Overview\n(https://es.rheonics.com/productos/viscos%C3%ADmetro-en-l%C3%ADn%C3%ADa-srd/)\nThe SRD is a Rheonics sensor for inline density and viscosity measurements. Read more on SRD here (https://rheonics.com/products/inline-density-meter-srd/).\n\nThe Figure 1 shows a flush variant SRD inline density and viscosity meter with a Varinline Process Connection. This design configuration can be used to make the SRD sensor probe compatible with different kinds of GEA Varinline housings (https://www.gea.com/en/products/pumps-valves-flow-components/valves-components-hygienic-liquid-processing/inline-technology/varinline-pocket-free-instruments.jsp), which are mostly used for the installation of hygienic instruments in hygienic or sanitary applications.\n\nThe SRD probe with a Varinline connection can be ordered with an EHEDG or 3-A certification. Learn more about these certifications here (https://support.rheonics.com/en/support/solutions/articles/81000412134-ehedg-and-3-a).\n\nThe advantages of using the SRD sensor with a Varinline process connection in GEA housings are that it:\n* Removes dead zones around the sensing element\n* Ensures easy cleaning and sterilization through standard CIP (Clean in place) procedure.\n* Allows perpendicular installation in small lines such as DN40 or DN50*.\n\n*Installation in DN40 or DN50 GEA Housings require the use of a machined plug from Rheonics. This machined plug has a cut that maintains the SRD sensing area unobstructed. This machined plug is hygienic but not certified with EHEDG or 3-A. See more in section 2 of this article.",
+      "specifications": {},
+      "key_facts": [
+        "The SRD is a Rheonics sensor designed for inline density and viscosity measurements.",
+        "The SRD Varinline variant features a Varinline Process Connection for compatibility with GEA Varinline housings.",
+        "This design is primarily used for installing hygienic instruments in hygienic or sanitary applications.",
+        "The SRD probe with a Varinline connection can be ordered with EHEDG or 3-A certification.",
+        "Advantages of using the SRD sensor with a Varinline process connection in GEA housings include removing dead zones, ensuring easy CIP (Clean in Place), and allowing perpendicular installation in small lines (DN40 or DN50)."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Installation in DN40 or DN50 GEA Housings requires a machined plug from Rheonics.",
+        "The Rheonics machined plug maintains the SRD sensing area unobstructed.",
+        "The Rheonics machined plug is hygienic but not certified with EHEDG or 3-A.",
+        "Further details on the machined plug are available in section 2 of this article."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 938,
+        "cost_usd": 0.0024847999999999997
+      },
+      "source_file": "203_SRD_Varinline_Inline_density_and_viscosity_meter_with_Varinline_flange.pdf"
+    },
+    {
+      "page_summary": "This page provides dimensional drawings and connection specifications for Rheonics SRD-X4 flush probes and SRD-X2 short probes, featuring various Varinline N plug configurations.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRD-X4-VNM (Flush Probe with Varinline N Machined Plug)",
+        "SRD-X4-VN (Flush Probe with Varinline N Plug)",
+        "SRD-X2-VN (Short Probe with Varinline N Plug)",
+        "SRD Varinline"
+      ],
+      "extracted_text": "rheonics\nUnits mm\n[inch]\nSRD-X4-VNM (Flush Probe with Varinline N Machined Plug)\nhttps://rheonics.com/wp-content/uploads/2024/08/SRD-X4-VNM.pdf\nFigure 1. SRD Varinline flush probe with Varinline N Machined Plug dimensions.\n\nrheonics\nUnits mm\n[inch]\nSRD-X4-VN (Flush Probe with Varinline N Plug)\nhttps://rheonics.com/wp-content/uploads/2024/05/SRD-X4-Varinline-N.pdf\nFigure 2. SRD Varinline flush probe with Varinline N Plug dimensions.\n\nrheonics\nUnits mm\n[inch]\nSRD-X2-VN (Short Probe with Varinline N Plug)\nhttps://rheonics.com/wp-content/uploads/2024/08/SRD-X2-VN.pdf\nhttps://rheonics.com/wp-content/uploads/2023/06/Rheonics_SRV-Viscometer_EHEDG-Certificate.pdf\nhttps://rheonics.com/products/inline-density-meter-srd/\nFigure 3. SRD Varinline short probe with Varinline N Plug dimensions.\n\nTable 1: SRD Varinline Specifications\nSpecification\nVarinline Connection Available\nVarinline F, NM (Machined), N and G",
+      "specifications": {
+        "SRD-X4_overall_length": "118 ±1 mm [4.64 ±0.04 inch]",
+        "SRD-X4_mid_body_length": "44 ±1 mm [1.73 ±0.04 inch]",
+        "SRD-X4_lower_body_length": "35 ±1 mm [1.38 ±0.04 inch]",
+        "SRD-X4_top_diameter": "Φ 84 mm [3.31 inch]",
+        "SRD-X4_mid_flange_diameter": "Φ 68 mm [2.68 inch]",
+        "SRD-X4_sensor_tip_diameter": "Φ 5 mm [0.20 inch]",
+        "SRD-X4_bottom_probe_base_diameter": "Φ 13 mm [0.51 inch]",
+        "SRD-X4_internal_connection_diameter": "Φ 30 mm [1.18 inch]",
+        "SRD-X2_overall_length": "118 ±1 mm [4.64 ±0.04 inch]",
+        "SRD-X2_mid_body_length": "72 ±1 mm [2.83 ±0.04 inch]",
+        "SRD-X2_top_diameter": "Φ 84 mm [3.31 inch]",
+        "SRD-X2_mid_flange_diameter": "Φ 68 mm [2.68 inch]",
+        "SRD-X2_lower_probe_diameter": "Φ 14 mm [0.55 inch]",
+        "SRD-X2_sensor_tip_diameter": "Φ 5 mm [0.20 inch]",
+        "SRD-X2_bottom_probe_base_diameter": "Φ 13 mm [0.51 inch]",
+        "SRD-X2_internal_connection_diameter": "Φ 30 mm [1.18 inch]",
+        "Varinline_Connection_Available": "Varinline F, NM (Machined), N and G"
+      },
+      "key_facts": [
+        "The document provides detailed dimensional drawings for three specific Rheonics probe models: SRD-X4-VNM, SRD-X4-VN, and SRD-X2-VN.",
+        "The SRD-X4 models are flush probes, while the SRD-X2 model is a short probe.",
+        "All dimensions are provided in both millimeters and inches, including tolerances.",
+        "The available Varinline connection types for Rheonics SRD probes include F, NM (Machined), N, and G."
+      ],
+      "diagram_labels": [
+        "118 ±1 [4.64 ±0.04]",
+        "44 ±1 [1.73 ±0.04]",
+        "35 ±1 [1.38 ±0.04]",
+        "Φ 84 [3.31]",
+        "Φ 68 [2.68]",
+        "Φ 5 [0.20]",
+        "Φ 13 [0.51]",
+        "Φ 30 [1.18]",
+        "72 ±1 [2.83 ±0.04]",
+        "Φ 14 [0.55]",
+        "Units mm [inch]"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1300,
+        "cost_usd": 0.0033897999999999997
+      },
+      "source_file": "203_SRD_Varinline_Inline_density_and_viscosity_meter_with_Varinline_flange.pdf"
+    },
+    {
+      "page_summary": "This page provides details on installing Rheonics SRD Varinline sensors, including links to technical drawings and CAD files, along with descriptions and reference images for compatible GEA Varinline housings and adapters.",
+      "document_type": "manual",
+      "product_names": [
+        "SRD Varinline sensor",
+        "SRD-X4-Varinline N",
+        "SRD-X2-Varinline N",
+        "GEA Varinline Housings",
+        "GEA Varinline Sight Glass (Type TXIA)",
+        "GEA Varinline Tank connection flange (Type P)"
+      ],
+      "extracted_text": "Drawing\nSRD-X4-Varinline N Machined drawing (https://rheonics.com/wp-content/uploads/2024/08/SRD-X4-VNM.pdf)\nSRD-X4-Varinline N drawing (https://rheonics.com/wp-content/uploads/2024/05/SRD-X4-Varinline-N.pdf)\nSRD-X2-Varinline N drawing (https://rheonics.com/wp-content/uploads/2024/08/SRD-X2-VN.pdf)\nSRD-X2-Varinline N drawing (https://rheonics.com/wp-content/uploads/2024/05/SRD-X2-VN.pdf)\n\nCAD Files\nSRD-X4-Varinline N Machined CAD Files (https://rheonics.com/wp-content/uploads/2023/09/Rheonics_SRD-X4-Varinline-N.zip)\nSRD-X4-Varinline N CAD Files (https://rheonics.com/wp-content/uploads/2023/05/Rheonics_SRD-X4-Varinline-N.zip)\nSRD-X4-Varinline N CAD Files (https://rheonics.com/wp-content/uploads/2024/08/SRD-X4-VN.zip)\nSRD-X2-Varinline N CAD Files (https://rheonics.com/wp-content/uploads/2024/08/SRD-X2-VN.zip)\n\nA Varinline connection is composed of a Plug, an O-ring seal, and a Clamp. In case the SRD Varinline sensor is used, this replaces the plug.\nThe SRD Varinline sensor probe can be installed in different GEA housings or adapters like the ones listed in the next table.\n\nTable 2: Suitable GEA housings or adapters for the SRD Varinline sensor.\n\nGEA Variant\tDescription\tReferral Image\n(https://www.gea.com/en/products/pumps-valves-flow-components/valves-components-hygienic-liquid-processing/inline-technology/varinline-pocket-free-instruments/)\nVarinline Housings\tStraight housing with constant cross-section. Allows the SRD Varinline to be installed perpendicular in-line in small pipes (DN40 minimum). GEA Varinline housing pipes can follow different norms such as ISO 11850, DIN11866, ISO1127 AME-BPE, and IPS.\tGEA Reference (https://www.gea.com/en/products/pumps-valves-flow-components/valves-components-hygienic-liquid-processing/inline-technology/varinline-pocket-free-instruments/)\nVarinline Sight Glass (Type TXIA)\tStraight housing with constant cross-section and sight glass. Allows the SRD Varinline to be installed in a Varinline housing (DN50 minimum) with a glass at the other side to see the fluid and check the probe without dismantling.\tGEA Reference (https://www.gea.com/en/products/pumps-valves-flow-components/valves-components-hygienic-liquid-processing/inline-technology/varinline-sight-glass-txia/)\nVarinline Tank connection flange (Type P)\tAdapter for tanks. Allows a flush installation of the SRD Varinline in tanks.\tGEA Reference (https://www.gea.com/en/products/pumps-valves-flow-components/valves-components-hygienic-liquid-processing/inline-technology/varinline-pocket-free-instruments/)",
+      "specifications": {
+        "minimum pipe diameter for Varinline Housings": "DN40 minimum",
+        "minimum pipe diameter for Varinline Sight Glass": "DN50 minimum",
+        "GEA Varinline housing pipe norms": "ISO 11850, DIN11866, ISO1127 AME-BPE, IPS"
+      },
+      "key_facts": [
+        "A Varinline connection is composed of a Plug, an O-ring seal, and a Clamp.",
+        "The SRD Varinline sensor replaces the plug when used in a Varinline connection.",
+        "The SRD Varinline sensor probe can be installed in various GEA housings or adapters.",
+        "Varinline Housings provide a straight, constant cross-section for perpendicular in-line installation of the SRD Varinline in small pipes.",
+        "Varinline Sight Glass (Type TXIA) housings feature a straight cross-section and a sight glass, allowing fluid observation and probe inspection without dismantling.",
+        "Varinline Tank connection flanges (Type P) are adapters for tanks, facilitating flush installation of the SRD Varinline.",
+        "GEA Varinline housing pipes comply with multiple international norms, including ISO 11850, DIN11866, ISO1127 AME-BPE, and IPS."
+      ],
+      "diagram_labels": [
+        "GEA Reference"
+      ],
+      "warnings_notes": "",
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1336,
+        "cost_usd": 0.0034798
+      },
+      "source_file": "203_SRD_Varinline_Inline_density_and_viscosity_meter_with_Varinline_flange.pdf"
+    },
+    {
+      "page_summary": "This page provides detailed installation instructions and component lists for Rheonics SRD inline viscometers and density sensors in various Varinline and GEA housings, including a flush installation drawing with dimensions.",
+      "document_type": "manual",
+      "product_names": [
+        "Varinline Housing Connection Flange (Type U and U-S)",
+        "SRD Varinline",
+        "Varinline DN40",
+        "Rheonics SRD",
+        "SRD-X4 Varinline N Machined",
+        "Varinline Housing DN40",
+        "Varinline Machined N Plug (PLG-VNM)",
+        "Varinline DN40 Clamps",
+        "O-ring Seal",
+        "Inline density and viscosity meter - SRD with Varinline N Machined Process connection",
+        "Machined N Plug",
+        "Varinline DN50 Housing",
+        "Varinline DN65 Housing"
+      ],
+      "extracted_text": "Varinline Housing Connection Flange (Type U and U-S)\nAllows installations of the SRD Varinline in Tee or elbows\n\nGEA Reference\nhttps://www.gea.com/en/products/pumps-valves-flow-components/valves-components-hygienic-liquid-processing/inline-technology/varinline-pocket-free-instruments.jsp\n\n2. Installation examples\n\n2.1 GEA Housings (Type T)\n\n2.1.1 DIN11850 DN40 - Inline flow cell DN40\nThis solution allows a perpendicular installation of the SRD sensor probe in a straight DN40 or 1.5” line. This installation requires a Varinline N machined plug provided by Rheonics (PLG-VNM) as the probe connection and the blind plug, as shown in Figure 2.\n\nThe Varinline DN40 is currently the smallest GEA Housing compatible with the Rheonics SRD. If smaller housings are required contact Rheonics Support Team.\n\nThe installation in Figure 2, requires the following components. The whole assembly can be delivered by Rheonics but the client may already have the GEA accessories or can order them separately.\n\n*   SRD-X4 Varinline N Machined from Rheonics.\n*   Varinline Housing DN40\n*   Varinline Machined N Plug (PLG-VNM) from Rheonics\n*   Varinline DN40 Clamps.\n*   O-ring Seal.\n\nTable 3: SRD-X4 in Varinline Housing DN40\nSRD - Varinline Hygienic Installation Example\nDescription\nInline density and viscosity meter - SRD with Varinline N Machined Process connection\nSupplier\nRheonics\nOrder code\nSRD-X4-VNM\nDrawing\nSRD-X4-VNM_Housing-DN40\nhttps://rheonics.com/wp-content/uploads/2024/08/SRD-X4-VNM_Housing-DN40.pdf\n\nVarinline Housing DN40*\nGEA\nTDN40\nhttps://www.gea.com/en/products/pumps-valves-flow-components/valves-components-hygienic-liquid-processing/inline-technology/varinline-pocket-free-instruments.jsp\n\nMachined N Plug\nRheonics\nPLG-VNM\n\n*Can also be the GEA Housings:\n*   ISO 1127 - 33.7\n*   ASME - BPE - OD 1.5”\n\nFigure 4. Flush installation drawing of SRD in DN40 Varinline Housing\nhttps://rheonics.com/wp-content/uploads/2024/08/SRD-X4-VNM_Housing-DN40.pdf\nUnits: mm [inch]\n\n2.1.2 DIN11850 DN50 or DN65\nThe SRD can be installed in the Varinline DN50 or DN65 Housing. For the DN50 or DN65 line, the probe still requires the Machined N Plug as a process connection, but the blind plug on the housing is not required to be machined, as shown in Figure 5.",
+      "specifications": {
+        "line_size_nominal_diameter": "DN40",
+        "line_size_imperial": "1.5 inch",
+        "ISO_housing_standard": "1127 - 33.7",
+        "ASME_BPE_housing_standard": "OD 1.5 inch",
+        "housing_dimension_1": "44 ±1 mm [1.73 ±0.04 inch]",
+        "housing_dimension_2": "12 mm [0.69 inch]",
+        "housing_diameter_1": "Φ 38 mm [1.50 inch]",
+        "housing_diameter_2": "Φ 41 mm [1.61 inch]",
+        "line_size_nominal_diameter_alternative_1": "DN50",
+        "line_size_nominal_diameter_alternative_2": "DN65"
+      },
+      "key_facts": [
+        "Varinline Housing Connection Flange (Type U and U-S) allows installations of the SRD Varinline in Tee or elbows.",
+        "The DIN11850 DN40 solution allows a perpendicular installation of the SRD sensor probe in a straight DN40 or 1.5” line.",
+        "This installation requires a Varinline N machined plug provided by Rheonics (PLG-VNM) as the probe connection and the blind plug.",
+        "The Varinline DN40 is currently the smallest GEA Housing compatible with the Rheonics SRD.",
+        "The installation for DN40 requires SRD-X4 Varinline N Machined from Rheonics, Varinline Housing DN40, Varinline Machined N Plug (PLG-VNM) from Rheonics, Varinline DN40 Clamps, and an O-ring Seal.",
+        "The whole assembly for the DIN11850 DN40 installation can be delivered by Rheonics, or the client may already have the GEA accessories or order them separately.",
+        "Varinline Housing DN40 can also refer to GEA Housings that comply with ISO 1127 - 33.7 or ASME - BPE - OD 1.5” standards.",
+        "The SRD can be installed in Varinline DN50 or DN65 Housing.",
+        "For the DN50 or DN65 line, the probe still requires the Machined N Plug as a process connection, but the blind plug on the housing is not required to be machined."
+      ],
+      "diagram_labels": [
+        "GEA Reference",
+        "Rheonics",
+        "SRD-X4-VNM Varinline N Machined",
+        "Varinline Housing DN 40",
+        "PLG-VNM Varinline N Machined",
+        "Units: mm [inch]",
+        "44 ±1 [1.73 ±0.04]",
+        "12 [0.69]",
+        "Φ 38 [1.50]",
+        "Φ 41 [1.61]"
+      ],
+      "warnings_notes": [
+        "If smaller housings are required contact Rheonics Support Team."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1705,
+        "cost_usd": 0.0044023
+      },
+      "source_file": "203_SRD_Varinline_Inline_density_and_viscosity_meter_with_Varinline_flange.pdf"
+    },
+    {
+      "page_summary": "This page provides installation details for Rheonics SRD-X4 inline viscometers and density sensors in Varinline housings DN50 and DN80, including order codes, drawing references, compatible GEA housing specifications, and specific installation notes regarding probe types and process connections.",
+      "document_type": "manual",
+      "product_names": [
+        "SRD",
+        "SRD-X4",
+        "SRD-X4-VNM",
+        "SRD-X4-VN",
+        "Varinline Housing DN50",
+        "Varinline Housing DN80",
+        "GEA Housings",
+        "SRD-X2"
+      ],
+      "extracted_text": "Table 4: SRD-X4 in Varinline Housing DN50\nSRD - Varinline Hygienic Installation Example\nDescription | Supplier | Order code | Drawing\nInline density and viscosity meter - SRD with Varinline N Machined Process connection | Rheonics | SRD-X4-VNM | SRD-X4-VNM_Housing-DN50 (https://rheonics.com/wp-content/uploads/2024/08/SRD-X4-VNM_Housing-DN50.pdf)\nVarinline Housing DN50* | GEA | TDN50 | (https://www.gea.com/en/products/pumps-valves-flow-components/valves-components-hygienic-liquid-processing/inline-technology/varinline-pocket-free-instruments.jsp)\n\n*Can also be the GEA Housings:\n* ISO 1127 - 42.4\n* ASME - BPE - OD 2\"\n* IPS - 2\"\n\nFigure 5. Flush installation drawing of SRD in DN50 Varinline Housing\nUnits: mm (inch)\n\n2.1.3 DIN11850 DN80 or bigger .\nIf a housing DIN11850 DN80 is used, the probe doesn't require the Machined N Plug anymore (nor the housing's blind plug ), it can be used with the common Varinline N plug as a process connection, see an example in Figure 6.\nWhen a bigger housing is used (e.g., DN100) the SRD short probe can be used. The SRD short (SRD-X2) would have an advantage over the flush variant (SRD-X4) because the sensing element will be closer to the middle of the pipe.\n(https://support.rheonics.com/en/support/solutions/articles/81000410685-srd-x2-custom-flange)\n(https://support.rheonics.com/en/support/solutions/articles/81000411849-srd-x4-flush-sensor-for-hygienic-and-sanitary-applications)\n\nTable 5: SRD-X4 in Varinline Housing DN80\nSRD - Varinline Hygienic Installation Example\nDescription | Supplier | Order code | Drawing\nInline density and viscosity meter - SRD | Rheonics | SRD-X4-VN | SRD-X4-VN_Housing-DN80 (https://rheonics.com/wp-content/uploads/2024/08/SRD-X4-VN_Housing-DN80.pdf)\nVarinline Housing DN80* | GEA | TDN80 | (https://www.gea.com/en/products/pumps-valves-flow-components/valves-components-hygienic-liquid-processing/inline-technology/varinline-pocket-free-instruments.jsp)\n\n*Can also be the GEA Housings:\n* ISO 1127 - 60.3\n* ASME - BPE - OD 3\"\n* IPS - 3\"",
+      "specifications": {
+        "Varinline Housing DN50 connection standard: ISO 1127": "42.4",
+        "Varinline Housing DN50 connection standard: ASME - BPE - OD": "2 inches",
+        "Varinline Housing DN50 connection standard: IPS": "2 inches",
+        "SRD-X4 in DN50 Housing: overall height from housing top": "44 ±1 mm",
+        "SRD-X4 in DN50 Housing: overall height from housing top (imperial)": "1.73 ±0.04 inches",
+        "SRD-X4 in DN50 Housing: probe insertion depth": "15 mm",
+        "SRD-X4 in DN50 Housing: probe insertion depth (imperial)": "0.59 inches",
+        "SRD-X4 in DN50 Housing: Varinline Housing DN50 inner diameter": "50 mm",
+        "SRD-X4 in DN50 Housing: Varinline Housing DN50 inner diameter (imperial)": "1.97 inches",
+        "SRD-X4 in DN50 Housing: Varinline Housing DN50 outer diameter": "53 mm",
+        "SRD-X4 in DN50 Housing: Varinline Housing DN50 outer diameter (imperial)": "2.09 inches",
+        "Varinline Housing DN80 connection standard: ISO 1127": "60.3",
+        "Varinline Housing DN80 connection standard: ASME - BPE - OD": "3 inches",
+        "Varinline Housing DN80 connection standard: IPS": "3 inches"
+      },
+      "key_facts": [
+        "Rheonics offers SRD-X4 inline density and viscosity meters with specific Varinline N Machined Process connections.",
+        "For DIN11850 DN80 housings, the SRD probe does not require a Machined N Plug or the housing's blind plug, using a common Varinline N plug instead.",
+        "The SRD-X2 short probe is advantageous over the SRD-X4 flush variant for larger housings (e.g., DN100) because its sensing element is positioned closer to the middle of the pipe.",
+        "Varinline Housings DN50 and DN80 can also be sourced from GEA, with specified ISO, ASME, and IPS compatibility standards."
+      ],
+      "diagram_labels": [
+        "SRD-X4-VNM",
+        "O-ring",
+        "Varinline Housing DN 50",
+        "Varinline N Blind Plug",
+        "Units: mm (inch)"
+      ],
+      "warnings_notes": [
+        "Varinline Housing DN50 can also use GEA Housings with ISO 1127 - 42.4, ASME - BPE - OD 2\", and IPS - 2\" standards.",
+        "If a housing DIN11850 DN80 is used, the probe doesn't require the Machined N Plug anymore (nor the housing's blind plug), it can be used with the common Varinline N plug as a process connection.",
+        "When a bigger housing is used (e.g., DN100) the SRD short probe can be used. The SRD short (SRD-X2) would have an advantage over the flush variant (SRD-X4) because the sensing element will be closer to the middle of the pipe.",
+        "Varinline Housing DN80 can also use GEA Housings with ISO 1127 - 60.3, ASME - BPE - OD 3\", and IPS - 3\" standards."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1731,
+        "cost_usd": 0.0044673
+      },
+      "source_file": "203_SRD_Varinline_Inline_density_and_viscosity_meter_with_Varinline_flange.pdf"
+    },
+    {
+      "page_summary": "This page provides technical drawings, installation examples, and product information for Rheonics SRD inline viscometer and density sensors integrated with Varinline housings and sight glasses, including options for concentric reducers.",
+      "document_type": "manual",
+      "product_names": [
+        "SRD",
+        "SRD-X4-VN",
+        "SRD-X4-VNM",
+        "Varinline N Machined Process connection",
+        "Varinline Housing DN80",
+        "Varinline Housing DN50",
+        "Varinline Sight glass",
+        "Varinline N Blind Plug",
+        "Varinline N Sight Glass",
+        "O-ring"
+      ],
+      "extracted_text": "2.1.4 Varinline Sight glass\nThe sight glass allows you to see the inside of the pipe without disassembling the sensor. This is useful when visual monitoring is desired to check if the SRD probe is clean or if it has deposits/fouling.\n\nSRD - Varinline Hygienic Installation Example\nDescription | Supplier | Order code | Drawing\nInline density and viscosity meter - SRD with Varinline N Machined Process connection | Rheonics | SRD-X4-VNM |\nVarinline Housing DN50 | GEA (https://www.gea.com/en/products/pumps-valves-flow-components/valves-components-hygienic-liquid-processing/inline-technology/varinline-pocket-free-instruments.jsp) | TDN50 | SRD-X4-VNM_Housing-DN50_SightGlass (https://rheonics.com/wp-content/uploads/2024/08/SRD-X4-VNM_Housing-DN50_SightGlass.pdf)\nVarinline Sight glass | GEA (https://www.gea.com/en/products/pumps-valves-flow-components/valves-components-hygienic-liquid-processing/inline-technology/varinline-pocket-free-instruments.jsp) | TXIAN-50 |\n\nFigure 6. Flush installation drawing of SRD in DN80 Varinline Housing\n(https://rheonics.com/wp-content/uploads/2024/08/SRD-X4-VN_Housing-DN80.pdf)\n\nFigure 7. Flush installation drawing of SRD in DN50 Varinline Housing with sight glass\n(https://rheonics.com/wp-content/uploads/2024/08/SRD-X4-VNM_Housing-DN50_SightGlass.pdf)\n\n2.1.5 Varinline Sight glass - concentric reducers\nFollowing the previous point, we can add concentric reducers to the housing ports (e.g. DN50-DN38 reducers), as in Figure 7, to mount the sensor in smaller lines. You can weld the concentric reducers to the line or use Tri-clamp ferrules for easy disassembly.",
+      "specifications": {
+        "Figure 6_sensor_immersion_depth_from_housing_top": "44 mm ±1 [1.73 inch ±0.04]",
+        "Figure 6_housing_blind_plug_depth_from_flange": "37 mm [1.45 inch]",
+        "Figure 6_housing_connection_outer_diameter_top": "81 mm [3.19 inch]",
+        "Figure 6_housing_main_body_outer_diameter": "85 mm [3.35 inch]",
+        "Figure 7_sensor_immersion_depth_from_housing_top": "44 mm ±1 [1.73 inch ±0.04]",
+        "Figure 7_sight_glass_component_length_from_flange": "15 mm [0.61 inch]",
+        "Figure 7_housing_connection_outer_diameter_top": "50 mm [1.97 inch]",
+        "Figure 7_housing_main_body_outer_diameter": "53 mm [2.09 inch]"
+      },
+      "key_facts": [
+        "The Varinline Sight glass allows visual monitoring inside the pipe without disassembling the sensor.",
+        "Visual monitoring helps check if the SRD probe is clean or if it has deposits/fouling.",
+        "Concentric reducers can be added to housing ports (e.g., DN50-DN38 reducers) to mount the sensor in smaller lines.",
+        "Concentric reducers can be welded to the line or use Tri-clamp ferrules for easy disassembly.",
+        "Rheonics supplies the SRD-X4-VNM inline density and viscosity meter with a Varinline N Machined Process connection.",
+        "GEA is a supplier for Varinline Housing DN50 (Order code TDN50) and Varinline Sight glass (Order code TXIAN-50)."
+      ],
+      "diagram_labels": [
+        "SRD-X4-VN",
+        "O-ring",
+        "Varinlinle Housing DN80",
+        "Varinline N Blind Plug",
+        "Varinline N Sight Glass",
+        "Rheonics",
+        "Units: mm [inch]"
+      ],
+      "warnings_notes": [],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1205,
+        "cost_usd": 0.0031522999999999994
+      },
+      "source_file": "203_SRD_Varinline_Inline_density_and_viscosity_meter_with_Varinline_flange.pdf"
+    },
+    {
+      "page_summary": "This page details the hygienic installation of Rheonics SRD inline density and viscosity meters using GEA Varinline tank connection flanges, providing diagrams, part lists, and supplier information for different installation scenarios.",
+      "document_type": "manual",
+      "product_names": [
+        "SRD",
+        "SRD-X4-VNM",
+        "Varinline Housing DN50",
+        "Varinline N Machined Plug",
+        "Sight Glass DN50",
+        "Concentric Reducers",
+        "GEA's Varinline tank connection flange",
+        "SRD-X4-VN",
+        "SRD-X4-B Varinline N",
+        "TPN",
+        "SRD-X4-Varinline N",
+        "O-ring N",
+        "Grooved flange",
+        "Bolt",
+        "SRD Long Insertion probe (SRD-X5)"
+      ],
+      "extracted_text": "Figure 8. Flush installation drawing of SRD in DN50 Varinline Housing with sight glass and concentric reducers\n\n2.2 GEA Tank connection flange (Type P)\nThe SRD can be installed in GEA's Varinline tank connection flange, which is welded into vessels with a wall thickness up to 20 mm to avoid dead zones in a hygienic installation.\n\nSRD - Varinline Hygienic Installation Example\nDescription | Supplier | Order code | Drawing\nInline density and viscosity meter - SRD | Rheonics | SRD-X4-VN | SRD-X4-B Varinline N in tank Drawing (https://rheonics.com/wp-content/uploads/2023/10/SRD-X4-BVN_In_Tank.pdf)\nVarinline tank connection flange | GEA (https://www.gea.com/en/products/pumps-valves-flow-components/valves-components-hygienic-liquid-processing/inline-technology/varinline-pocket-free-instruments.jsp) | TPN |\n\nFigure 9. Example of the Varinline tank connection process\n\nFigure 10. Exploded view of assembly example with Varinline tank connection flange\nSRD Varinline Tank Connection flange\nPart number | Part description\n1 | SRD-X4-Varinline N\n2 | Welded tank varinline flange\n3 | O-ring N\n4 | Grooved flange x2\n5 | Bolt x4\n\nAnother installation option for the tank connection flange is using an SRD Long Insertion probe (SRD-X5) (https://support.rheonics.com/en/support/solutions/articles/81000411193-srd-x5-long-insertion-probe), this is very useful when you need a longer immersion of the sensing element in the tank.",
+      "specifications": {
+        "Varinline Housing": "DN50",
+        "Sight Glass": "DN50",
+        "Concentric Reducers": "DN50-DN38 or less",
+        "Vessel wall thickness": "up to 20 mm",
+        "Grooved flange quantity": "x2",
+        "Bolt quantity": "x4"
+      },
+      "key_facts": [
+        "The SRD inline density and viscosity meter can be installed using GEA's Varinline tank connection flange.",
+        "The Varinline tank connection flange is designed to be welded into vessels with a wall thickness up to 20 mm.",
+        "This installation method helps prevent dead zones, crucial for hygienic applications.",
+        "An SRD Long Insertion probe (SRD-X5) provides an alternative installation option for scenarios requiring deeper immersion of the sensing element in the tank."
+      ],
+      "diagram_labels": [
+        "SRD-X4-VNM Varinline N Machined Plug",
+        "Varinline Housing DN50",
+        "Sight Glass DN50",
+        "Concentric Reducers DN50-DN38 or less",
+        "1: SRD-X4-Varinline N",
+        "2: Welded tank varinline flange",
+        "3: O-ring N",
+        "4: Grooved flange x2",
+        "5: Bolt x4"
+      ],
+      "warnings_notes": [
+        "The Varinline tank connection flange is welded into vessels to avoid dead zones in a hygienic installation."
+      ],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1014,
+        "cost_usd": 0.0026747999999999997
+      },
+      "source_file": "203_SRD_Varinline_Inline_density_and_viscosity_meter_with_Varinline_flange.pdf"
+    },
+    {
+      "page_summary": "This page details the compatibility and installation examples of Rheonics SRD Long insertion probes with various Varinline tank connection flanges and housings, including an exploded view and a dimensional drawing.",
+      "document_type": "manual",
+      "product_names": [
+        "SRD Long insertion probe",
+        "Inline density and viscosity meter - SRD Long insertion probe",
+        "SRD-X5-A141-B Varinline N",
+        "SRD-X5-A121-BVN",
+        "SRD-X5-A120-B Varinline N",
+        "Varinline tank connection flange",
+        "Welded tank varinline flange",
+        "O-ring N",
+        "Grooved flange",
+        "Varinline housings connection flanges type U",
+        "Varinline housings connection flanges type U-S",
+        "Varinline F, N, or G plug",
+        "Varinline connection flange U-S"
+      ],
+      "extracted_text": "SRD Varinline Tank Connection flange\nPart number | Part description\n1 | SRD-X5-A141-B Varinline N\n2 | Welded tank varinline flange\n3 | O-ring N\n4 | Grooved flange x2\n5 | Bolt x4\n\nFigure 11. Exploded view of assembly example with Varinline tank connection flange and SRD Long insertion probe.\n\n2.3 Other Varinline process connections\nThe SRD Long insertion probe is compatible with Varinline housings connection flanges type U and U-S with its corresponding Varinline F, N, or G plug depending on the pipe size.\nIt is useful for installation in Tee or elbow pipes.\n\nSRD - Varinline Hygienic Installation Example\nDescription | Supplier | Order code | Drawing\nInline density and viscosity meter - SRD Long insertion probe | Rheonics | SRD-X5-A121-BVN | SRD-X5-A121-B Varinline N in Tee Drawing (https://rheonics.com/wp-content/uploads/2023/10/SRD-X5-A121-BVN_In_Tee.pdf)\nVarinline connection flange U-S | GEA (https://www.gea.com/en/products/pumps-valves-flow-components/valves-components-hygienic-liquid-processing/inline-technology/varinline-pocket-free-instruments.jsp) | TU-SN |\n\nFigure 12. SRD Long insertion probe with Varinline housing connector flange U-S in tee pipe.\n\nFigure 13. SRD long insertion probe in the Varinline housing connection flange type U-S.",
+      "specifications": {
+        "Diameter (Figure 13 assembly)": "98 mm [3.86 in]",
+        "Height (Figure 13 assembly)": "121 mm [4.76 in]",
+        "Varinline Tank Connection Flange Part 1 Number": "SRD-X5-A141-B Varinline N",
+        "Rheonics Inline density and viscosity meter SRD Long insertion probe Order code": "SRD-X5-A121-BVN",
+        "GEA Varinline connection flange U-S Order code": "TU-SN"
+      },
+      "key_facts": [
+        "The SRD Long insertion probe is compatible with Varinline housings connection flanges type U and U-S.",
+        "The SRD Long insertion probe uses corresponding Varinline F, N, or G plugs depending on the pipe size.",
+        "The SRD Long insertion probe is useful for installation in Tee or elbow pipes.",
+        "Rheonics manufactures an Inline density and viscosity meter with order code SRD-X5-A121-BVN.",
+        "GEA supplies the Varinline connection flange U-S with order code TU-SN."
+      ],
+      "diagram_labels": [
+        "SRD Varinline Tank Connection flange",
+        "SRD-X5-A141-B Varinline N",
+        "Welded tank varinline flange",
+        "O-ring N",
+        "Grooved flange x2",
+        "Bolt x4",
+        "rheonics (logo)",
+        "SRD-X5-A120-B Varinline N",
+        "O-ring",
+        "Clamp",
+        "Varinline Housing connection flange U-S"
+      ],
+      "warnings_notes": [],
+      "page_num": 8,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1035,
+        "cost_usd": 0.0027272999999999993
+      },
+      "source_file": "203_SRD_Varinline_Inline_density_and_viscosity_meter_with_Varinline_flange.pdf"
+    },
+    {
+      "page_summary": "This page provides an overview of VARINLINE technology, detailing its features, benefits, applications, and compatibility with Rheonics viscometer and density sensors.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "VARINLINE",
+        "Rheonics SRV",
+        "Rheonics SRD",
+        "GEA Varinline"
+      ],
+      "extracted_text": "3. What is Varinline?\n\nVARINLINE is a trademark of GEA for a range of in-line control and measurement technology for hygienic process connections. It allows the installation of control and measuring instruments in piping systems without any dead spaces, which is important in applications where hygiene is critical, such as the food and beverage industry.\nVARINLINE housings are available for all pipe sizes and can accommodate a variety of instruments, including pressure gauges, temperature sensors, and flow meters. The housings are self-draining, which helps to prevent the build-up of contaminants. They are also CIP/SIP-able, which means that they can be cleaned and sterilized without the need to dismantle them.\nVARINLINE is a popular choice for a variety of hygienic process applications, including:\n* Food and beverage processing\n* Pharmaceutical manufacturing\n* Biotechnology\n* Cosmetics production\n* Water treatment\nIt is a reliable and cost-effective solution for the monitoring and control of process parameters in hygienic environments.\nHere are some of the benefits of using VARINLINE:\n* Hygienic design: VARINLINE housings are designed to prevent the build-up of contaminants, making them ideal for use in hygienic environments.\n* CIP/SIP-able: VARINLINE housings can be cleaned and sterilized without the need to dismantle them, which helps to ensure the safety and quality of the product.\n* Wide range of applications: VARINLINE is a versatile solution that can be used in a variety of applications, including food and beverage processing, pharmaceutical manufacturing, and biotechnology.\n* Reliable and durable: VARINLINE housings are made from high-quality materials and are designed to withstand the harsh conditions found in industrial environments.\nIf you are looking for a reliable and cost-effective solution for the monitoring and control of process parameters in hygienic environments, VARINLINE is a good option to consider.\nRheonics provides EHEDG certified inline process viscometer SRV and inline process density meter SRD with Varinline process connection to work with GEA Varinline adapters.\nThe sensors are also available with EX certifications where needed. Standard sensors are available in Stainless steel 316L and for corrosive environments in Hastelloy C22.\n\nResources\n\n[1] https://www.gea.com/en/binaries/gea-varinline-varicomp-hygienic-process-connections-and-expansion-compensators_tcm11-82365.pdf GEA Varinline Webpage\n(https://www.gea.com/en/products/pumps-valves-flow-components/valves-components-hygienic-liquid-processing/inline-technology/varinline-pocket-free-instruments.jsp).\n[2] Rheonics SRD sensor (https://rheonics.com/products/inline-density-meter-srd/). (https://www.gea.com/en/binaries/gea-varinline-varicomp-hygienic-process-connections-and-expansion-compensators_tcm11-82365.pdf).\n[3] Rheonics EHEDG certification. (https://rheonics.com/wp-content/uploads/2023/06/Rheonics_SRD-Density-and-Viscosity-Meter_EHEDG-Certificate.pdf)\n[4] Learn more about EHEDG. (https://rheonics.com/rheonics-ehedg-certified-inline-viscosity-and-density-sensors-for-food-and-pharmaceutical-applications/)\n[5] Inline process viscometer SRV with Varinline flange - options and installation (https://support.rheonics.com/en/support/solutions/articles/81000412012-inline-process-viscometer-srv-with-varinline-flange-options-and-installation)\n\nDisclaimer\n\nPictures, photos, and images used are for illustration purposes and do not constitute any warranty or assertions on the suitability of use and should not be construed as an explicit or implicit recommendation or endorsement. All illustrations are given proper credit from our source of access and by their use here we do not specify or establish any copyright which belongs and stays unaffected with the existing copyright holder of that material.",
+      "specifications": {
+        "material_standard_sensors": "Stainless steel 316L",
+        "material_corrosive_environments": "Hastelloy C22",
+        "certifications": "EHEDG certified, EX certifications"
+      },
+      "key_facts": [
+        "VARINLINE is a trademark of GEA, offering in-line control and measurement technology for hygienic process connections.",
+        "VARINLINE housings eliminate dead spaces, are self-draining, and are CIP/SIP-able for easy cleaning and sterilization.",
+        "VARINLINE is suitable for hygienic process applications, including food and beverage processing, pharmaceutical manufacturing, biotechnology, cosmetics production, and water treatment.",
+        "Rheonics provides EHEDG certified inline process viscometer SRV and inline process density meter SRD designed to work with GEA Varinline adapters.",
+        "Rheonics sensors are available with EX certifications for use in hazardous environments.",
+        "Standard Rheonics sensors are constructed from Stainless steel 316L, with Hastelloy C22 used for corrosive environments."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Pictures, photos, and images used are for illustration purposes and do not constitute any warranty or assertions on the suitability of use and should not be construed as an explicit or implicit recommendation or endorsement. All illustrations are given proper credit from our source of access and by their use here we do not specify or establish any copyright which belongs and stays unaffected with the existing copyright holder of that material."
+      ],
+      "page_num": 9,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1370,
+        "cost_usd": 0.0035647999999999995
+      },
+      "source_file": "203_SRD_Varinline_Inline_density_and_viscosity_meter_with_Varinline_flange.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

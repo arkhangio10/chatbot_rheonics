@@ -1,0 +1,186 @@
+{
+  "source_file": "226_HART_Isolator_barrier_for_Rheonics_Sensors.pdf",
+  "total_pages": 4,
+  "chunks": [
+    {
+      "page_summary": "This document explains the necessity and application of HART isolator barriers for Rheonics sensors, particularly when dealing with multiple power supplies or 4-wire transmitters, and provides a wiring diagram example.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics Sensors",
+        "Rheonics SME",
+        "RN42 (Endress + Hausser)",
+        "HIT/HIX (Moore Industries)",
+        "LB4002A2 and FB4302B2 (Pepper+Fuchs)"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nHART Isolator barrier for Rheonics Sensors\nModified on: Thu, 7 Sep, 2023 at 12:38 AM\n\n1. Why HART isolator barriers?\nThe loop condition may not always be predictable at the beginning of your application. There are instances when input cards are in an active state and others when they are passive. You can potentially connect a transmitter to a line power supply with four wires, which typically has active outputs, or to a two-wire passive power supply.\n\nTABLE OF CONTENTS\n* 1. Why HART isolator barriers?\n* 2. What happens when we power a loop with 2 different power supplies?\n* 3. Using a HART isolator barrier with Rheonics devices.\n* 4. Recommended barriers\n    * 4.1. RN42 (Endress + Hausser)\n    * 4.2. HIT/HIX (Moore Industries)\n    * 4.3. LB4002A2 and FB4302B2 (Pepper+Fuchs)\n* 5. References\n\n2. What happens when we power a loop with 2 different power supplies?\nWhen two devices, such as a 4-wire HART transmitter and a DCS, attempt to supply power to the same loop, it leads to a malfunctioning loop. This is the point at which we begin employing a HART isolator barrier.\n\n3. Using a HART isolator barrier with Rheonics devices.\nRheonics SME has self-powered 4-20mA analog outputs. This means that any connection to a controller device must be considered as a 4-wire transmitter. A 4-wire transmitter consists of two power wires and two signal wires. The two power wires supply the power to the transmitter, while the two signal wires transmit the signal back to the controller device.\n\nFigure 1. Wiring diagram with HART isolator barrier.",
+      "specifications": {
+        "phone_number": "+1 713 234 0863",
+        "analog_output": "4-20mA",
+        "power_supply_voltage": "24V"
+      },
+      "key_facts": [
+        "HART isolator barriers are used to manage unpredictable loop conditions where input cards can be active or passive.",
+        "HART isolator barriers prevent malfunctioning loops when two devices, such as a 4-wire HART transmitter and a DCS, attempt to supply power to the same loop.",
+        "Rheonics SME devices feature self-powered 4-20mA analog outputs and are considered 4-wire transmitters.",
+        "A 4-wire transmitter utilizes two power wires for power supply and two signal wires for signal transmission to the controller.",
+        "Recommended HART isolator barrier brands include Endress + Hausser (RN42), Moore Industries (HIT/HIX), and Pepper+Fuchs (LB4002A2 and FB4302B2)."
+      ],
+      "diagram_labels": [
+        "Power Supply",
+        "Rheonics SME with HART Communication",
+        "HART Signal",
+        "Isolator barrier",
+        "PLC"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 873,
+        "cost_usd": 0.0023223
+      },
+      "source_file": "226_HART_Isolator_barrier_for_Rheonics_Sensors.pdf"
+    },
+    {
+      "page_summary": "This page details recommended active and passive barriers from Endress+Hauser (RN42) and Moore Industries (HIT/HIX) for galvanic isolation and signal transmission in process instrumentation loops.",
+      "document_type": "manual",
+      "product_names": [
+        "RN42",
+        "HIX",
+        "HIT"
+      ],
+      "extracted_text": "4. Recommended barriers\n4.1. RN42 (Endress + Hauser)\nThe active barrier serves the purpose of transmitting and providing galvanic isolation for 0/4 to 20 mA/HART signals. This device features an input with both active and passive current capabilities, allowing direct connection of 2- or 4-wire transmitters. You can choose to operate the device's output in an active or passive mode. The resulting current signal can then be accessed at plug-in screw terminals or optional push-in terminals, making it available to the PLC/controller or other instrumentation.\nFigure 2. RN42 HART isolator barrier.\n4.2. HIT/HIX (Moore Industries)\nThese isolators available in a 2-wire, loop-powered version(HIX), and a 4-wire, mains-powered configuration(HIT), serve the purpose of interrupting the shared electrical (galvanic) connection between a HART transmitter and one or more receiving devices within a process instrumentation loop.",
+      "specifications": {
+        "Signal Type": "0/4 to 20 mA/HART",
+        "RN42 Transmitter Connection": "2- or 4-wire",
+        "HIX Configuration": "2-wire, loop-powered",
+        "HIT Configuration": "4-wire, mains-powered"
+      },
+      "key_facts": [
+        "The RN42 active barrier from Endress+Hauser transmits and provides galvanic isolation for 0/4 to 20 mA/HART signals.",
+        "The RN42 device features an input with both active and passive current capabilities.",
+        "The RN42 allows direct connection of 2- or 4-wire transmitters.",
+        "The RN42's output can be operated in an active or passive mode.",
+        "The current signal from the RN42 is accessible at plug-in screw terminals or optional push-in terminals for connection to a PLC/controller or other instrumentation.",
+        "The HIT/HIX isolators from Moore Industries interrupt the shared electrical (galvanic) connection between a HART transmitter and receiving devices.",
+        "HIX isolators are available in a 2-wire, loop-powered version.",
+        "HIT isolators are available in a 4-wire, mains-powered configuration."
+      ],
+      "diagram_labels": [
+        "RN42 HART isolator barrier",
+        "EH",
+        "On",
+        "Ch1",
+        "RN42",
+        "1.1",
+        "1.2",
+        "1.3",
+        "3.1",
+        "3.2",
+        "3.3",
+        "4.1",
+        "4.2",
+        "4.3"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 718,
+        "cost_usd": 0.0019348
+      },
+      "source_file": "226_HART_Isolator_barrier_for_Rheonics_Sensors.pdf"
+    },
+    {
+      "page_summary": "This page describes two types of HART isolator barriers, HIX and Pepper+Fuchs LB4002A2/FB4302B2, detailing their applications in intrinsically safe environments and zone classifications.",
+      "document_type": "manual",
+      "product_names": [
+        "HIX isolator barrier",
+        "LB4002A2 HART isolator barrier",
+        "FB4302B2 HART isolator barrier"
+      ],
+      "extracted_text": "Figure 3. HIX isolator barrier.\n\n4.3. LB4002A2 and FB4302B2 (Pepper+Fuchs)\n\nThe LB4002A2 HART isolator barrier is specially prepared to be used in Intrinsically safe applications where it is required to be installed in Zone 2 or safe zone.\n\nFigure 4. LB4002A2 Isolator barrier.\n\nThe FB4302B2 HART isolator barrier is specially prepared to be used in Intrinsically safe applications, it can be used in installations suitable for enclosures in Zone 1.",
+      "specifications": {},
+      "key_facts": [
+        "The HIX is an isolator barrier.",
+        "The LB4002A2 is a HART isolator barrier manufactured by Pepper+Fuchs.",
+        "The FB4302B2 is a HART isolator barrier manufactured by Pepper+Fuchs.",
+        "The LB4002A2 HART isolator barrier is designed for Intrinsically safe applications.",
+        "The FB4302B2 HART isolator barrier is designed for Intrinsically safe applications."
+      ],
+      "diagram_labels": [
+        "HIX",
+        "HART ISOLATOR",
+        "SPAN",
+        "ZERO",
+        "MOORE INDUSTRIES",
+        "+S",
+        "-S",
+        "IN",
+        "-IN",
+        "SIGNAL",
+        "SOURCE",
+        "LOAD",
+        "P",
+        "PEPPERL+FUCHS",
+        "LB4002A2",
+        "OUTPUT",
+        "INPUT",
+        "LOAD",
+        "SAFE AREA",
+        "HAZARDOUS AREA"
+      ],
+      "warnings_notes": [
+        "The LB4002A2 HART isolator barrier is required to be installed in Zone 2 or safe zone for Intrinsically safe applications.",
+        "The FB4302B2 HART isolator barrier can be used in installations suitable for enclosures in Zone 1 for Intrinsically safe applications."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 606,
+        "cost_usd": 0.0016547999999999999
+      },
+      "source_file": "226_HART_Isolator_barrier_for_Rheonics_Sensors.pdf"
+    },
+    {
+      "page_summary": "This page displays an image of an FB4302B2 isolator barrier and provides a list of references to datasheets and operating instructions for various HART isolator barriers.",
+      "document_type": "manual",
+      "product_names": [
+        "FB4302B2 Isolator barrier",
+        "HIT/HIX HART isolator Barrier",
+        "E+H RN42 HART isolator",
+        "LB4002A2 HART isolator barriers",
+        "FB4302B2 HART isolator barrier"
+      ],
+      "extracted_text": "Figure 5. FB4302B2 Isolator barrier.\n\n5. References\n\n*   HIT/HIX HART isolator Barrier datasheet\n    (https://www.miinet.com/images/pdf/datasheets/HIT_HIX_Datasheet_Moore_Industries.pdf)\n*   E+H RN42 HART isolator operating instructions\n    (https://bdih-prod-assetcentralapi-assetcentral-rest-srv.cfapps.eu10.hana.ondemand.com/files/DLA/005056A500261EDCBDCADB5E6E2D2FF7/BA02090KEN_0121.pdf)\n*   LB4002A2 HART isolator barriers\n    (https://www.pepperl-fuchs.com/global/en/classid_1847.htm?view=productdetails&prodid=59238#datasheetcontent)\n*   FB4302B2 HART isolator barrier\n    (https://www.pepperl-fuchs.com/global/en/classid_1859.htm?view=productdetails&prodid=49735)\n\nFrom the device image:\nFB4302B2\n1&0 HART\n(Pepperl+Fuchs logo, implied by 'P' on the device and URLs)",
+      "specifications": {},
+      "key_facts": [
+        "The page features an image of an FB4302B2 Isolator barrier.",
+        "A section titled '5. References' is included, providing links to external documentation.",
+        "References are provided for datasheets and operating instructions related to HIT/HIX HART, E+H RN42 HART, LB4002A2 HART, and FB4302B2 HART isolator barriers."
+      ],
+      "diagram_labels": [
+        "FB4302B2",
+        "1 & 0 HART",
+        "Warning/Caution symbols (triangle with exclamation mark)",
+        "Pepperl+Fuchs logo (P-shaped symbol)"
+      ],
+      "warnings_notes": [
+        "Warning/Caution symbols (triangle with exclamation mark) are visible on the FB4302B2 isolator barrier, indicating important safety or operational information not explicitly detailed on this page."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 701,
+        "cost_usd": 0.0018923000000000002
+      },
+      "source_file": "226_HART_Isolator_barrier_for_Rheonics_Sensors.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

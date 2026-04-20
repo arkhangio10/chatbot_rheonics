@@ -1,0 +1,238 @@
+{
+  "source_file": "067_Connecting_the_Modbus_TCP_outputs.pdf",
+  "total_pages": 3,
+  "chunks": [
+    {
+      "page_summary": "This page describes how to connect the Rheonics Sensor Module Electronics (SME) to a local area network using Modbus TCP over Ethernet to access sensor data, illustrating a typical LAN setup.",
+      "document_type": "manual",
+      "product_names": [
+        "Sensor Module Electronics (SME)",
+        "SME-DRM"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nConnecting the Modbus TCP outputs\n\nModified on: Fri, 12 Sep, 2025 at 4:28 PM\n\n1. Overview\n\nThe Rheonics Sensor Module Electronics (SME) (https://rheonics.com/electronics-and-communication/) offers the Modbus TCP (https://support.rheonics.com/en/support/solutions/folders/81000217062) service over the Ethernet (https://support.rheonics.com/en/support/solutions/folders/81000219061) interface. To begin using Rheonics Input Registers (https://support.rheonics.com/en/support/solutions/articles/81000297664) for accessing sensor data, the first step is to connect the SME to the local area network (LAN).\n\n2. Wiring\n\nThe SME can be connected to a network using its Ethernet RJ45 connector (https://support.rheonics.com/en/support/solutions/articles/81000300292), with intermediary devices such as routers or switches. Figure 1 illustrates a typical LAN setup, where multiple devices, including the SME, are interconnected via a switch.\n\nFigure 1. SME as part of an Ethernet Network\n\nAnother option is to directly connect the SME to an Ethernet host, as shown on Figure 2.",
+      "specifications": {
+        "Power Input": "24V dc+"
+      },
+      "key_facts": [
+        "The Rheonics Sensor Module Electronics (SME) provides Modbus TCP service over an Ethernet interface.",
+        "The initial step to access sensor data using Rheonics Input Registers is to connect the SME to a local area network (LAN).",
+        "The SME connects to a network via its Ethernet RJ45 connector.",
+        "Intermediary devices like routers or switches are used for network connection.",
+        "Figure 1 depicts a typical LAN setup where multiple devices, including the SME, are interconnected through a switch.",
+        "An alternative connection method involves directly connecting the SME to an Ethernet host (illustrated in Figure 2, not shown on this page)."
+      ],
+      "diagram_labels": [
+        "MODBUS Server TCP/IP",
+        "24V dc+",
+        "Gnd-",
+        "Modbus",
+        "A",
+        "B",
+        "RS485",
+        "Ethernet RJ45",
+        "USB",
+        "Display",
+        "Loop",
+        "Ch1+",
+        "Ch2+",
+        "Ch3+",
+        "8",
+        "7",
+        "6",
+        "5",
+        "4",
+        "3",
+        "2",
+        "1",
+        "0",
+        "SME-DRM",
+        "MODBUS Client TCP/IP",
+        "MODBUS Client 2 TCP/IP",
+        "MODBUS Server 2 TCP/IP",
+        "Figure 1. SME as part of an Ethernet Network"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 828,
+        "cost_usd": 0.0022097999999999996
+      },
+      "source_file": "067_Connecting_the_Modbus_TCP_outputs.pdf"
+    },
+    {
+      "page_summary": "This page describes the MODBUS TCP/IP connection of a Rheonics SME device to an Ethernet host, provides default network configuration parameters, and directs users to resources for detailed setup instructions.",
+      "document_type": "manual",
+      "product_names": [
+        "SME",
+        "SME-DRM"
+      ],
+      "extracted_text": "MODBUS Server TCP/IP\nMODBUS Client TCP/IP\nFigure 2. Direct connection between SME and Ethernet Host\n\n3. Configuration\nThe Rheonics SME device's Ethernet IP address, subnet mask, gateway, and DNS can be configured using the RCP software (https://support.rheonics.com/en/support/solutions/folders/81000211411). Please refer to the RCP software manual for instructions on setting these parameters and Rheonics Support Portal (https://support.rheonics.com/en/support/solutions) for SME network configuration via USB (https://support.rheonics.com/en/support/articles/81000411282).\nThe factory default values are shown on Table 1.\n\nTable 1. Default Network Settings\nConfiguration Parameter | Value\nDHCP | TRUE\nIP Address | 0.0.0.0\nMask | 0.0.0.0\nGateway | 0.0.0.0\nDNS | 0.0.0.0\nTCP Port | 502\nSlave ID | 255\n\nThe default TCP Port, and slave ID can't be modified by the user.",
+      "specifications": {
+        "DHCP": "TRUE",
+        "IP Address": "0.0.0.0",
+        "Mask": "0.0.0.0",
+        "Gateway": "0.0.0.0",
+        "DNS": "0.0.0.0",
+        "TCP Port": "502",
+        "Slave ID": "255"
+      },
+      "key_facts": [
+        "The Rheonics SME device supports MODBUS TCP/IP communication.",
+        "The SME device's Ethernet IP address, subnet mask, gateway, and DNS are configurable.",
+        "Configuration of network parameters for the SME device is performed using RCP software.",
+        "Detailed instructions for RCP software and SME network configuration via USB are available on the Rheonics Support Portal.",
+        "The factory default network settings include DHCP set to TRUE, IP Address, Mask, Gateway, and DNS all set to 0.0.0.0, TCP Port 502, and Slave ID 255.",
+        "The default TCP Port and Slave ID are not user-modifiable."
+      ],
+      "diagram_labels": [
+        "MODBUS Server TCP/IP",
+        "24V dc +",
+        "Gnd-",
+        "A",
+        "B",
+        "Modbus RS485",
+        "Ethernet RJ45",
+        "USB",
+        "Display",
+        "Loop",
+        "Gnd-",
+        "Ch1+",
+        "Ch2+",
+        "Ch3+",
+        "SME-DRM",
+        "MODBUS Client TCP/IP",
+        "8",
+        "7",
+        "6",
+        "5",
+        "4",
+        "3",
+        "2",
+        "1",
+        "0"
+      ],
+      "warnings_notes": [
+        "The default TCP Port, and slave ID can't be modified by the user."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 829,
+        "cost_usd": 0.0022123
+      },
+      "source_file": "067_Connecting_the_Modbus_TCP_outputs.pdf"
+    },
+    {
+      "page_summary": "This page provides an overview and configuration details for the 'Communication' tab within the Rheonics Control Panel (RCP) software, covering Modbus RTU, Ethernet, LCD display settings, location ID, Bluetooth, and operational history for Rheonics inline viscometers and density sensors.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel (RCP)",
+        "Sensor SME electronics",
+        "Modbus RTU (RS-485)",
+        "SME-TRD"
+      ],
+      "extracted_text": "When DHCP is enabled (set to TRUE), a DHCP server, typically the LAN router, will automatically assign an IP address to the Sensor SME electronics. The assigned IP address can be viewed in the RCP (Rheonics Control Panel) under the \"Communication\" tab in the Ethernet section.\n\n[Screenshot content follows, parsed into labels and values below.]\n\nFigure 3. RCP Communication Tab\n\nThe IP address assigned to the SME (whether static or dynamic), along with the input registers (https://support.rheonics.com/en/support/solutions/articles/81000297459), is used by the Modbus Client to access measurement data and other diagnostic values from the sensor.\n\nIf you encounter any issues with Ethernet or Modbus, please refer to our Modbus TCP/IP Troubleshooting Guide (https://support.rheonics.com/en/support/solutions/articles/81000397718) available on the Rheonics Support Portal (https://support.rheonics.com/en/support/solutions).",
+      "specifications": {
+        "Modbus Address": "1",
+        "Baud Rate": "38400",
+        "Parity": "odd",
+        "LCD Display Line 1 Parameter": "Viscosity",
+        "LCD Display Line 1 Resolution": "0.00",
+        "LCD Display Line 2 Parameter": "Density",
+        "LCD Display Line 2 Resolution": "0.00",
+        "LCD Display Line 3 Parameter": "Temperature",
+        "LCD Display Line 3 Resolution": "0.00",
+        "Ethernet MAC": "70:B3:D5:D2:00:00",
+        "DHCP": "False",
+        "IP": "192.168.3.6",
+        "Subnet": "255.255.255.0",
+        "Gateway IP": "192.168.3.1",
+        "DNS": "192.168.3.1",
+        "Terminal Port": "10001",
+        "Bluetooth LTE 4.0 MAC": "00:00:00:00:00:00",
+        "Location ID": "",
+        "Location Name": "",
+        "Latitude": "0.000000",
+        "Longitude": "0.000000",
+        "Altitude": "0",
+        "RTC Time": "08/01/25 16:47:03",
+        "Last power Reset": "07/01/25 11:45:14",
+        "Supply Voltage": "23.25 V",
+        "SME Temp": "36.00 °C",
+        "Max. Sensor Temp. Exposure": "3.28E+4 °C",
+        "Max. SME Temp. Exposure": "38.22 °C"
+      },
+      "key_facts": [
+        "When DHCP is enabled (set to TRUE), a DHCP server (typically the LAN router) will automatically assign an IP address to the Sensor SME electronics.",
+        "The assigned IP address for the Sensor SME electronics can be viewed in the Rheonics Control Panel (RCP) under the \"Communication\" tab in the Ethernet section.",
+        "The IP address of the SME (static or dynamic) and its input registers are used by a Modbus Client to access measurement and diagnostic data from the sensor.",
+        "Rheonics provides a 'Modbus TCP/IP Troubleshooting Guide' and a 'Rheonics Support Portal' for assistance with Ethernet or Modbus issues."
+      ],
+      "diagram_labels": [
+        "Measurement",
+        "Events",
+        "Settings",
+        "Service",
+        "Communication",
+        "Temp. Control",
+        "Logger",
+        "Help",
+        "Modbus RTU (RS-485)",
+        "Modbus Address",
+        "Baud Rate",
+        "Parity",
+        "LCD Display (SME-TRD Only)",
+        "Parameter",
+        "Resolution",
+        "Line 1",
+        "Viscosity",
+        "Line 2",
+        "Density",
+        "Line 3",
+        "Temperature",
+        "Write and Update",
+        "Write Config",
+        "Load Config",
+        "Ethernet",
+        "Ethernet MAC",
+        "DHCP",
+        "IP",
+        "Subnet",
+        "Gateway IP",
+        "DNS",
+        "Terminal Port",
+        "Bluetooth LTE 4.0",
+        "MAC",
+        "Location ID",
+        "Location Name",
+        "Latitude",
+        "Longitude",
+        "Altitude",
+        "Operation History",
+        "RTC Time",
+        "Last power Reset",
+        "Supply Voltage",
+        "SME Temp",
+        "Max. Sensor Temp. Exposure",
+        "Max. SME Temp. Exposure"
+      ],
+      "warnings_notes": [
+        "If you encounter any issues with Ethernet or Modbus, please refer to our Modbus TCP/IP Troubleshooting Guide available on the Rheonics Support Portal."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1329,
+        "cost_usd": 0.0034623
+      },
+      "source_file": "067_Connecting_the_Modbus_TCP_outputs.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "source_file": "246_Real-Time_Kinematic_Viscosity_from_SRV.pdf",
+  "total_pages": 5,
+  "chunks": [
+    {
+      "page_summary": "This page explains how the Rheonics SRV sensor measures and calculates real-time kinematic viscosity, providing details on the underlying principles and the formula used.",
+      "document_type": "notes",
+      "product_names": [
+        "SRV sensor",
+        "SME-TRD"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nReal-Time Kinematic Viscosity from SRV\n\nModified on: Wed, 30 Apr, 2025 at 3:48 PM\n\nThe SRV sensor measures the viscous damping caused by the fluid, this damping is directly proportional to the product of the density and dynamic viscosity of the fluid. Visit the Rheonics Operating Principle Whitepaper (https://cdn.rheonics.com/wp-content/uploads/2017/10/rheonics-vibration-sensor-whitepaper.pdf) for more information.\n\nThe kinematic viscosity of a fluid is calculated as the dynamic viscosity divided by the density at the same temperature.\n\n[Image of SME-TRD with SRV probe]\nCE Ex ATEX\nFigure 1. SME-TRD with SRV probe\n\n1. How is the kinematic viscosity calculated by Rheonics SRV?\n\nThe SRV sensor probe measures the product of viscosity and density of a fluid (SRV Viscosity), the sensor outputs the dynamic viscosity (SRV Dyn. Visc.) of the fluid dividing the previous product by the density. This density is set to a constant value of 1.0 g/cc (1000 kg/m³) by default.\n\nFluid Dynamic Viscosity = SRV Viscosity Output / Density\n\nKinematic viscosity is shown as output parameter 3 (see complete parameter list here (https://support.rheonics.com/en/support/solutions/articles/81000393235-parameter-list-access-for-field-devices) and is calculated dividing the dynamic viscosity by the density, equivalent to the SRV Viscosity divided by density squared.",
+      "specifications": {
+        "default_density": "1.0 g/cc (1000 kg/m³)"
+      },
+      "key_facts": [
+        "The SRV sensor measures viscous damping directly proportional to the product of fluid density and dynamic viscosity.",
+        "Kinematic viscosity is calculated by dividing dynamic viscosity by density at the same temperature.",
+        "The SRV sensor probe initially measures the product of viscosity and density (SRV Viscosity).",
+        "The sensor then outputs dynamic viscosity by dividing the initial product by a default density of 1.0 g/cc (1000 kg/m³).",
+        "Kinematic viscosity is displayed as output parameter 3.",
+        "Kinematic viscosity is calculated by dividing dynamic viscosity by density, which is equivalent to dividing SRV Viscosity by density squared.",
+        "More information on the Rheonics Operating Principle can be found in a linked whitepaper.",
+        "A complete parameter list for field devices is available via a support link."
+      ],
+      "diagram_labels": [
+        "CE",
+        "Ex",
+        "ATEX",
+        "Figure 1. SME-TRD with SRV probe"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 758,
+        "cost_usd": 0.0020348
+      },
+      "source_file": "246_Real-Time_Kinematic_Viscosity_from_SRV.pdf"
+    },
+    {
+      "page_summary": "This page provides a guide on how to configure the Rheonics Control Panel (RCP) software to calculate and display kinematic viscosity from an SRV sensor, including steps for unit selection, communication setup, and graph settings.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV sensor",
+        "Rheonics Control Panel (RCP)"
+      ],
+      "extracted_text": "Fluid Kinematic Viscosity = SRV Viscosity Output / Density^2\n\nIf density differs from 1.0 g/cc, the sensor supports input of a different constant value or temperature-dependent density so dynamic and kinematic viscosity values can be estimated more accurately and directly output by the sensor over digital and analog channels. Review more information here (https://support.rheonics.com/en/support/solutions/articles/81000289485-set-density-input-to-srv-inline-viscometer-for-dynamic-viscosity-and-kinematic-viscosity-outputs).\n\n2. Kinematic viscosity output from SRV\n\nThrough RCP Software\nRheonics Control Panel software (RCP) is used, but not limited, to monitoring, configuring, and logging measurements from the SRV sensor to a PC through Ethernet or USB connection.\n\nTo plot kinematic viscosity on the RCP Measurement tab, follow the steps below:\n1. Use the Settings Tab, Communication box to connect the sensor to the RCP.\n2. Select the Kin. Visc. parameter in the Graph Settings.\n3. The RCP uses cSt (centiStoke) units for Kinematic Viscosity.\n\n[Screenshot: Rheonics Control Panel 5.4.0.6]\nTabs: Measurement, Events, Settings, Service, Communication, Logger, Help\n\nOperator\nName / ID: Rheonics\nClient: [empty]\n\nCommunication (labeled with '1')\n● USB (selected)\n○ Ethernet\nPort: COM5 [Dropdown]\nAutodetect\nApply\nIP: [empty]\nPort: 10001\nDevice Manager\nStatus: [Green circle]\n\nSensor Configuration\nSensor Type: SRV\nImport\nExport\nExpert Mode\n\nUnits (labeled with '3')\nViscosity:\n○ mPa.s\n○ cP\n● cSt (selected)\nResolution: 0.00 [Dropdown]\nDensity:\n● g/cc (selected)\n○ kg/m^3\n○ lb/gal\n○ lb/ft^3\nResolution: 0.0000 [Dropdown]\nTemperature:\n● °C (selected)\n○ °K\n○ °F\nResolution: 0.00 [Dropdown]\nPressure:\n● bar (selected)\n○ kPa\n○ MPa\n○ psi\n○ torr\n○ atm\nResolution: 0.00 [Dropdown]\n\nPressure Gauge\nCommunication: [empty]\nDevice ID: [empty]\n\nGraph Settings (labeled with '2')\nKin. Visc. [Dropdown selected value: Kin. Visc.]\n● auto (selected)\n○ fix\nMin: 0 cSt\nMax: 5 cSt\nDensity:\n● auto (selected)\n○ fix\nMin: 0 g/cc\nMax: 1.5 g/cc\nTemperature Scale:\n● auto (selected)\n○ fix\nMin: 10 °C\nMax: 60 °C\nPressure Scale:\n● auto (selected)\n○ fix\nMin: 1 bar\nMax: 10 bar\nTime Scale:\n● full (selected)\n○ fix\nRange: 5 min [Dropdown]\nGraph Interval:\n● realtime (selected)\n○ same as logging\n[ ] Plot df (damping) and Fres (resonant frequency) instead of Viscosity & Density (checkbox)\n\nLog Settings\nLogging Interval: 1 sec [Dropdown]\nMeasurement Frequency (Every): 1 sec [Dropdown]\n[ ] Log and display data with error code (checkbox)\n[✓] Log debug information (checkbox selected)\n10 sec [Dropdown]\n\nFigure 2. Enable Kinematic Viscosity in RCP\n\n4. Go to the Measurement Tab. Check the Kinematic Viscosity is displayed (Kin. Visc.) as the Y-axis.\n5. Make sure the sensor LED status is green showing „Running“ and E00 (no errors).",
+      "specifications": {
+        "Kinematic Viscosity Min": "0 cSt",
+        "Kinematic Viscosity Max": "5 cSt",
+        "Density Min": "0 g/cc",
+        "Density Max": "1.5 g/cc",
+        "Temperature Scale Min": "10 °C",
+        "Temperature Scale Max": "60 °C",
+        "Pressure Scale Min": "1 bar",
+        "Pressure Scale Max": "10 bar",
+        "Logging Interval": "1 sec",
+        "Measurement Frequency": "1 sec",
+        "Log Debug Information Interval": "10 sec",
+        "Graph Time Scale Range": "5 min",
+        "Communication Port": "10001",
+        "Default Density for calculation reference": "1.0 g/cc"
+      },
+      "key_facts": [
+        "Fluid Kinematic Viscosity is calculated by dividing the SRV Viscosity Output by the square of the Density.",
+        "The SRV sensor can output dynamic and kinematic viscosity values more accurately through digital and analog channels by supporting a constant or temperature-dependent density input.",
+        "Rheonics Control Panel (RCP) software is essential for monitoring, configuring, and logging measurements from the SRV sensor.",
+        "The RCP software connects to the SRV sensor via Ethernet or USB.",
+        "The RCP software uses centiStoke (cSt) as the standard unit for Kinematic Viscosity.",
+        "Proper operation of the sensor is indicated by a green LED status showing 'Running' and 'E00' (no errors)."
+      ],
+      "diagram_labels": [
+        "Figure 2. Enable Kinematic Viscosity in RCP",
+        "Rheonics Control Panel 5.4.0.6",
+        "Measurement (tab)",
+        "Events (tab)",
+        "Settings (tab)",
+        "Service (tab)",
+        "Communication (tab)",
+        "Logger (tab)",
+        "Help (tab)",
+        "Operator",
+        "Communication (section, labeled '1' for connection type)",
+        "Sensor Configuration",
+        "Units (section, labeled '3' for viscosity unit selection)",
+        "Pressure Gauge",
+        "Resolution",
+        "Graph Settings (section, labeled '2' for Kin. Visc. parameter)",
+        "Log Settings",
+        "Status (green circle indicator)"
+      ],
+      "warnings_notes": [
+        "Make sure the sensor LED status is green showing „Running“ and E00 (no errors)."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1598,
+        "cost_usd": 0.0041348
+      },
+      "source_file": "246_Real-Time_Kinematic_Viscosity_from_SRV.pdf"
+    },
+    {
+      "page_summary": "This page details the features and configuration options of the Rheonics Control Panel (RCP) software, including real-time measurements, sensor information, 4-20 mA output settings, density configuration for SRV sensors, and instructions for fieldbus communication and SME-TRD display setup.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel (RCP)",
+        "SME-TRD display",
+        "SRV"
+      ],
+      "extracted_text": "Rheonics Control Panel 5.4.0.6\nMeasurement Events Settings Service Communication Logger Help\n\nMeasured Values\nKin. Visc. 0.72 cSt\nDensity 1.0000 g/cc\nTemperature 24.61 °C\nPressure 1.00 bar\n\nStatus\n(Green circle) Running... E00\nLogging Stopped\nPressure Manual\nManual entry (checkbox) 1 bar\n\nLog Measurements\nSample Name\nStart Logging (button) Add Event (button)\n\nSensor Information\nSerial Number p0009\nFres 7345.10 Hz df 2.57 Hz\n\nFigure 3. Kinematic Viscosity plots in RCP\n\n6. On the Service Tab, the Density can be set density as constant or a temperature-dependent value.\n\nRheonics Control Panel 5.4.0.6\nMeasurement Events Settings Service Communication Logger Help\n\nSystem Info\nSensor S/N p0009\nElectronics S/N 19101828\n\nSoftware Info\nInterface FW Version 03.30/4-g1a566e6\nSensor FW Version SWV201c\n\nUpdate Values\nRefresh (button)\n\n4-20 mA Settings\nChannel 1\nViscosity (dropdown)\n4 mA 0.00 cSt\n20 mA 50000.00 cSt\nUpdate (button)\n\nChannel 2\nDensity (dropdown)\n4 mA 0.000 g/cc\n20 mA 1.500 g/cc\nUpdate (button)\n\nChannel 3\nTemperature (dropdown)\n4 mA -20.00 °C\n20 mA 130.00 °C\nUpdate (button)\n\n4-20 mA Calibration Check\nLive: 4.000 mA Channel 1\n[value] 15.996\n4 mA (button) 16 mA (button)\nCalibrate (button)\nTest: 10 mA (button)\n\nChannel 2: 14.667 mA\n[value] 3.985 [value] 15.958\n4 mA (button) 16 mA (button)\nCalibrate (button)\nTest: 10 mA (button)\n\nChannel 3: 8.754 mA\n[value] 3.978 [value] 15.974\n4 mA (button) 16 mA (button)\nCalibrate (button)\nTest: 10 mA (button)\n\nDensity (SRV Only)\nSet Density\n(Radio button) Constant 1.000000 g/cc\n(Radio button) Temp. Dependent Density Curve (T,°C)\nDensity, g/cc 0.000000 x T^2 + 0.000000 x T + 1.000000\nWrite (button)\n\nFigure 4. Density configuration for SRV through RCP\n\nThrough Fieldbus communication protocols\nFieldbus protocols in the sensor are ordered by the user upon request. To get the kinematic viscosity through any protocol (i.e. Modbus, Profinet, Ethernet/IP, HART, etc.) review the manuals for each protocol here.\n\nThrough SME-TRD display\nTo enable the kinematic viscosity value in the SME-TRD display follow the next steps.\n1. Go to the Communication Tab, in the LCD Display box select Kinematic Visc. in any of the three lines.",
+      "specifications": {
+        "Kin. Visc.": "0.72 cSt",
+        "Density": "1.0000 g/cc",
+        "Temperature": "24.61 °C",
+        "Pressure": "1.00 bar",
+        "Fres": "7345.10 Hz",
+        "df": "2.57 Hz",
+        "Sensor S/N (System Info)": "p0009",
+        "Electronics S/N": "19101828",
+        "Interface FW Version": "03.30/4-g1a566e6",
+        "Sensor FW Version": "SWV201c",
+        "Channel 1 Viscosity (4 mA setting)": "0.00 cSt",
+        "Channel 1 Viscosity (20 mA setting)": "50000.00 cSt",
+        "Channel 2 Density (4 mA setting)": "0.000 g/cc",
+        "Channel 2 Density (20 mA setting)": "1.500 g/cc",
+        "Channel 3 Temperature (4 mA setting)": "-20.00 °C",
+        "Channel 3 Temperature (20 mA setting)": "130.00 °C",
+        "Channel 1 Live mA": "4.000 mA",
+        "Channel 1 Calibration Check Value": "15.996",
+        "Channel 2 Live mA": "14.667 mA",
+        "Channel 2 Calibration Check Value 1": "3.985",
+        "Channel 2 Calibration Check Value 2": "15.958",
+        "Channel 3 Live mA": "8.754 mA",
+        "Channel 3 Calibration Check Value 1": "3.978",
+        "Channel 3 Calibration Check Value 2": "15.974",
+        "Set Density Constant Value": "1.000000 g/cc",
+        "Temperature Dependent Density Curve (coefficients)": "0.000000 x T^2 + 0.000000 x T + 1.000000 g/cc"
+      },
+      "key_facts": [
+        "The Rheonics Control Panel (RCP) software, version 5.4.0.6, displays real-time measurements including kinematic viscosity, density, temperature, and pressure.",
+        "The RCP interface allows users to view sensor information (Serial Number, Fres, df) and manage logging measurements.",
+        "Density settings for SRV sensors can be configured in the RCP Service Tab, allowing for a constant value or a temperature-dependent curve.",
+        "The software provides comprehensive 4-20 mA output settings for viscosity, density, and temperature channels, along with calibration check functionalities.",
+        "Rheonics sensors support various fieldbus communication protocols such as Modbus, Profinet, Ethernet/IP, and HART.",
+        "Users can enable kinematic viscosity values on the SME-TRD display by selecting the option in the Communication Tab under the LCD Display box."
+      ],
+      "diagram_labels": [
+        "Rheonics Control Panel 5.4.0.6",
+        "Measurement (Tab)",
+        "Events (Tab)",
+        "Settings (Tab)",
+        "Service (Tab)",
+        "Communication (Tab)",
+        "Logger (Tab)",
+        "Help (Tab)",
+        "Measured Values (Section Header)",
+        "Kin. Visc. (Label)",
+        "Density (Label)",
+        "Temperature (Label)",
+        "Pressure (Label)",
+        "Status (Section Header)",
+        "Running... (Status Text)",
+        "E00 (Status Code)",
+        "Logging (Label)",
+        "Stopped (Status Text)",
+        "Manual entry (Checkbox Label)",
+        "Log Measurements (Section Header)",
+        "Sample Name (Label)",
+        "Start Logging (Button)",
+        "Add Event (Button)",
+        "Sensor Information (Section Header)",
+        "Serial Number (Label)",
+        "Fres (Label)",
+        "df (Label)",
+        "Kin. Visc. [cSt] (Graph Y-axis)",
+        "Density [g/cc] (Graph Y-axis)",
+        "Temperature [°C] (Graph Y-axis)",
+        "Pressure [bar] (Graph Y-axis)",
+        "hh:mm:ss (Graph X-axis)",
+        "System Info (Section Header)",
+        "Sensor S/N (Label)",
+        "Electronics S/N (Label)",
+        "Software Info (Section Header)",
+        "Interface FW Version (Label)",
+        "Sensor FW Version (Label)",
+        "Update Values (Section Header)",
+        "Refresh (Button)",
+        "4-20 mA Settings (Section Header)",
+        "Channel 1 (Label)",
+        "Viscosity (Dropdown Label)",
+        "4 mA (Label)",
+        "20 mA (Label)",
+        "Update (Button)",
+        "Channel 2 (Label)",
+        "Density (Dropdown Label)",
+        "Channel 3 (Label)",
+        "Temperature (Dropdown Label)",
+        "4-20 mA Calibration Check (Section Header)",
+        "Live (Label)",
+        "Calibrate (Button)",
+        "Test: 10 mA (Button)",
+        "Density (SRV Only) (Section Header)",
+        "Set Density (Label)",
+        "Constant (Radio Button Label)",
+        "Temp. Dependent Density Curve (T,°C) (Radio Button Label)",
+        "Density, g/cc (Label)",
+        "Write (Button)"
+      ],
+      "warnings_notes": [
+        "To get the kinematic viscosity through any protocol (i.e. Modbus, Profinet, Ethernet/IP, HART, etc.) review the manuals for each protocol here."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 2352,
+        "cost_usd": 0.0060198
+      },
+      "source_file": "246_Real-Time_Kinematic_Viscosity_from_SRV.pdf"
+    },
+    {
+      "page_num": 4,
+      "page_summary": "Extraction failed",
+      "document_type": "unknown",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "extraction_failed": true,
+      "source_file": "246_Real-Time_Kinematic_Viscosity_from_SRV.pdf"
+    },
+    {
+      "page_summary": "This page explains the importance of measuring kinematic viscosity, detailing its definition, industrial applications, and impact on system performance.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "SRV inline viscometer",
+        "inline viscometer",
+        "density meter"
+      ],
+      "extracted_text": "4. Why is it important to measure kinematic viscosity?\n\nKinematic viscosity indicates the fluid's internal resistance to flow under its gravity.\nIt is used mostly in, but not limited to, automotive, chemical, oil and gas industries. The kinematic viscosity is of relevance since it directly influences the automation quality. It can be related to the lubrication capabilities of a fluid, lubricant degradation, fuel efficiency, heat transfer rate in heat exchangers, etc.\nKinematic viscosity is also relevant for pumping systems selection, the designer should know the kinematic viscosity at the min and maximum temperature conditions. High-viscosity fluids will reduce the performance of pumps and increase the power requirements.\n\nReferences:\n[1]: Viscosity - Wikipedia (https://en.wikipedia.org/wiki/Viscosity)\n[2]: SRV Rheonics (https://rheonics.com/products/inline-viscometer-srv/)\n[3]: Set density input to SRV inline viscometer for dynamic viscosity and kinematic viscosity outputs (https://support.rheonics.com/en/support/solutions/articles/81000289485-set-density-input-to-srv-inline-viscometer-for-dynamic-viscosity-and-kinematic-viscosity-outputs)\n[4]: Calibration verification procedure for inline viscometer and density meter (https://support.rheonics.com/en/support/solutions/articles/81000390161-calibrating-srv-in-field-verification-and-re-calibration)\n[5]: Real-time engine oil condition monitoring - Rheonics (https://rheonics.com/solutions-item/real-time-engine-oil-condition-monitoring/)",
+      "specifications": {},
+      "key_facts": [
+        "Kinematic viscosity indicates a fluid's internal resistance to flow under its gravity.",
+        "Kinematic viscosity is relevant in automotive, chemical, oil, and gas industries.",
+        "The relevance of kinematic viscosity stems from its direct influence on automation quality and its relation to fluid lubrication, lubricant degradation, fuel efficiency, and heat transfer rates.",
+        "For pumping systems selection, designers must know the kinematic viscosity at minimum and maximum temperature conditions.",
+        "High-viscosity fluids decrease pump performance and increase power requirements."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 612,
+        "cost_usd": 0.0016698000000000001
+      },
+      "source_file": "246_Real-Time_Kinematic_Viscosity_from_SRV.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": [
+      4
+    ]
+  }
+}

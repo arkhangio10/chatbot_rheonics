@@ -1,0 +1,732 @@
+{
+  "source_file": "198_SRV_Varinline_Inline_viscometer_with_Varinline_flange.pdf",
+  "total_pages": 17,
+  "chunks": [
+    {
+      "page_summary": "This page provides an overview of the Rheonics SRV inline viscometer with a Varinline flange, detailing its features, applications, and certifications.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV Varinline",
+        "SRV Inline viscometer",
+        "SRV sensor probe",
+        "GEA Varinline housings"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nSRV Varinline: Inline viscometer with Varinline flange\n\nModified on: Fri, 25 Oct, 2024 at 7:10 PM\n\nWhat products are involved in this article?\nSRV Inline viscometer (https://rheonics.com/products/inline-viscometer-srv/) and Varinline installation process.\n\nWhat is the purpose of this article?\nTo give an overview of the SRV inline viscometer with Varinline connection, its uses, and installation options._(https://support.rheonics.com/en/support/solutions/articles/81000410684)\n\n1. Overview\n\nThe SRV is a Rheonics sensor for inline viscosity measurement. Read more on SRV here (https://rheonics.com/products/inline-viscometer-srv/).\n\nFigure 1 shows a flush variant SRV inline viscometer with a Varinline Process Connection. This design configuration can used to make the SRV sensor probe compatible with different kinds of GEA Varinline housings (https://www.gea.com/en/products/pumps-valves-flow-components/valves-components-hygienic-liquid-processing/inline-technology/varinline-pocket-free-instruments.jsp), which are mostly used for the installation of hygienic instruments in hygienic or sanitary applications.\n\nThe SRV probe with a Varinline connection can be ordered with an EHEDG or 3-A certification. Learn more",
+      "specifications": {},
+      "key_facts": [
+        "The SRV Varinline is an inline viscometer with a Varinline flange.",
+        "The SRV is a Rheonics sensor used for inline viscosity measurement.",
+        "The article provides an overview of the SRV inline viscometer with Varinline connection, its uses, and installation options.",
+        "A flush variant SRV inline viscometer with a Varinline Process Connection is shown in Figure 1.",
+        "The SRV sensor probe's design makes it compatible with various GEA Varinline housings.",
+        "GEA Varinline housings are primarily used for installing hygienic instruments in hygienic or sanitary applications.",
+        "The SRV probe with a Varinline connection is available with EHEDG or 3-A certification."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "Figure 1"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 675,
+        "cost_usd": 0.0018273000000000002
+      },
+      "source_file": "198_SRV_Varinline_Inline_viscometer_with_Varinline_flange.pdf"
+    },
+    {
+      "page_summary": "This page describes the advantages and provides dimensional specifications for the Rheonics SRV-X4-VNM Flush Probe with a Varinline N Machined Plug, highlighting its hygienic design and installation details.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRV sensor",
+        "SRV-X4-VNM",
+        "Flush Probe with Varinline N Machined Plug",
+        "SRV Varinline flush probe with Varinline N Machined Plug"
+      ],
+      "extracted_text": "about these certifications here (https://support.rheonics.com/en/support/solutions/articles/81000412134-ehedg-and-3-a).\n\nThe advantages of using the SRV sensor with a Varinline process connection in GEA housings are that it:\n\n*   Removes dead zones around the sensing element\n*   Ensures easy cleaning and sterilization through standard CIP (Clean in place) procedure.\n*   Allows perpendicular installation in small lines such as DN40 or DN50*.\n\n*Installation in DN40 or DN50 GEA Housings requires the use of a machined plug from Rheonics. This machined plug has a cut that maintains the SRV sensing area unobstructed. This machined plug is hygienic but not certified with EHEDG or 3-A. See more in section 2 of this article.\n\nUnits: mm [inch]\n\nSRV-X4-VNM (Flush Probe with Varinline N Machined Plug)\n\n(https://rheonics.com/wp-content/uploads/2024/10/SRV-X4-VNM.pdf)\n\nFigure 1. SRV Varinline flush probe with Varinline N Machined Plug dimensions.",
+      "specifications": {
+        "overall_height": "124 ±1 mm [4.87 ±0.04 inch]",
+        "main_body_height": "50 ±1 mm [1.97 ±0.04 inch]",
+        "probe_tip_length": "41 ±1 mm [1.60 ±0.04 inch]",
+        "top_diameter": "84 mm [3.31 inch]",
+        "flange_diameter": "68 mm [2.68 inch]",
+        "probe_base_diameter": "5 mm [0.20 inch]",
+        "probe_tip_diameter": "8 mm [0.31 inch]",
+        "inner_circle_diameter_top_view": "30 mm [1.18 inch]"
+      },
+      "key_facts": [
+        "The SRV sensor with a Varinline process connection in GEA housings removes dead zones around the sensing element.",
+        "The SRV sensor ensures easy cleaning and sterilization through standard CIP (Clean in place) procedure.",
+        "The SRV sensor allows perpendicular installation in small lines such as DN40 or DN50.",
+        "Installation in DN40 or DN50 GEA Housings requires a machined plug from Rheonics.",
+        "The Rheonics machined plug maintains the SRV sensing area unobstructed and is hygienic."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "Units: mm [inch]",
+        "84",
+        "ϕ [3.31]",
+        "68",
+        "ϕ [2.68]",
+        "5",
+        "ϕ [0.20]",
+        "8",
+        "ϕ [0.31]",
+        "30",
+        "ϕ [1.18]",
+        "124 ±1",
+        "[4.87 ±0.04]",
+        "50 ±1",
+        "[1.97 ±0.04]",
+        "41 ±1",
+        "[1.60 ±0.04]"
+      ],
+      "warnings_notes": [
+        "Installation in DN40 or DN50 GEA Housings requires the use of a machined plug from Rheonics. This machined plug has a cut that maintains the SRV sensing area unobstructed. This machined plug is hygienic but not certified with EHEDG or 3-A. See more in section 2 of this article."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 978,
+        "cost_usd": 0.0025847999999999995
+      },
+      "source_file": "198_SRV_Varinline_Inline_viscometer_with_Varinline_flange.pdf"
+    },
+    {
+      "page_summary": "This page provides dimensional drawings for two Rheonics SRV Varinline probes, SRV-X4-VN (flush) and SRV-X2-VN (short), including their associated Varinline N Plugs.",
+      "document_type": "drawing",
+      "product_names": [
+        "SRV-X4-VN",
+        "SRV-X2-VN"
+      ],
+      "extracted_text": "rheonics\nUnits: mm [inch]\nSRV-X4-VN (Flush Probe with Varinline N Plug)\n(https://rheonics.com/wp-content/uploads/2024/10/SRV-X4-VN.pdf)\nFigure 2. SRV Varinline flush probe with Varinline N Plug dimensions.\nrheonics\nUnits: mm [inch]\nSRV-X2-VN (Short Probe with Varinline N Plug)\n(https://rheonics.com/wp-content/uploads/2024/10/SRV-X2-VN.pdf)\nFigure 3. SRV Varinline short probe with Varinline N Plug dimensions.\nSpecification",
+      "specifications": {
+        "SRV-X4-VN": {
+          "Overall Height": "124 ±1 mm [4.87 ±0.04 inch]",
+          "Probe Length from Flange": "50 ±1 mm [1.97 ±0.04 inch]",
+          "Overall Top Diameter": "84 mm [Φ 3.31 inch]",
+          "Flange Diameter": "Φ 68 mm [Φ 2.68 inch]",
+          "Upper Probe Diameter": "5 mm [Φ 0.20 inch]",
+          "Lower Probe Diameter": "8 mm [Φ 0.31 inch]",
+          "Inner Connector Diameter": "30 mm [Φ 1.18 inch]"
+        },
+        "SRV-X2-VN": {
+          "Overall Height": "124 ±1 mm [4.87 ±0.04 inch]",
+          "Probe Length from Flange": "78 ±1 mm [3.06 ±0.04 inch]",
+          "Overall Top Diameter": "84 mm [Φ 3.31 inch]",
+          "Flange Diameter": "Φ 68 mm [Φ 2.68 inch]",
+          "Probe Shaft Diameter": "14 mm [Φ 0.55 inch]",
+          "Mid Probe Diameter": "5 mm [Φ 0.20 inch]",
+          "Lower Probe Diameter": "8 mm [Φ 0.31 inch]",
+          "Inner Connector Diameter": "30 mm [Φ 1.18 inch]"
+        }
+      },
+      "key_facts": [
+        "Figure 2 illustrates the dimensions for the SRV Varinline flush probe (SRV-X4-VN) with Varinline N Plug.",
+        "Figure 3 illustrates the dimensions for the SRV Varinline short probe (SRV-X2-VN) with Varinline N Plug.",
+        "Both probes have an overall height of 124 ±1 mm [4.87 ±0.04 inch] and a top diameter of 84 mm [Φ 3.31 inch].",
+        "All dimensions are provided in millimeters with corresponding inch values in brackets."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "124 ±1",
+        "[4.87 ±0.04]",
+        "50 ±1",
+        "[1.97 ±0.04]",
+        "Units: mm [inch]",
+        "84",
+        "Φ [3.31]",
+        "Φ 68",
+        "Φ [2.68]",
+        "5",
+        "Φ [0.20]",
+        "8",
+        "Φ [0.31]",
+        "Φ 30",
+        "Φ [1.18]",
+        "78 ±1",
+        "[3.06 ±0.04]",
+        "14",
+        "Φ [0.55]"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 971,
+        "cost_usd": 0.0025673
+      },
+      "source_file": "198_SRV_Varinline_Inline_viscometer_with_Varinline_flange.pdf"
+    },
+    {
+      "page_summary": "This page provides a list of available Varinline connection types and links to their corresponding technical drawings for Rheonics products.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRV-X4-Varinline N Machined",
+        "SRV-X4-Varinline N",
+        "SRV-X2-VN"
+      ],
+      "extracted_text": "Table headers: 'Varinline Connection Available' and 'Varinline F, NM (Machined), N and G'.\nRow 1, under 'Varinline F, NM (Machined), N and G': SRV-X4-Varinline N Machined drawing (https://rheonics.com/wp-content/uploads/2024/10/SRV-X4-VNM.pdf).\nRow 2, under 'Varinline Connection Available': Drawing.\nRow 2, under 'Varinline F, NM (Machined), N and G', contains several entries:\n- (https://rheonics.com/wp-content/uploads/2024/10/SRV-X4-VN.pdf)\n- (https://rheonics.com/wp-content/uploads/2024/10/SRV-X4-VN.pdf)\n- (https://rheonics.com/wp-content/uploads/2024/10/SRV-X4-VN.pdf)\n- SRV-X4-Varinline N drawing (https://rheonics.com/wp-content/uploads/2024/10/SRV-X4-VN.pdf)\n- SRV-X2-VN drawing (https://rheonics.com/wp-content/uploads/2024/10/SRV-X2-VN.pdf)\n- (https://rheonics.com/wp-content/uploads/2024/10/SRV-X4-VN.pdf)\n- (https://rheonics.com/wp-content/uploads/2024/10/SRV-X4-VN.pdf)\n- (https://rheonics.com/wp-content/uploads/2024/10/SRV-X4-VN.pdf)",
+      "specifications": {},
+      "key_facts": [
+        "Varinline F, NM (Machined), N, and G connection types are available.",
+        "Technical drawings for SRV-X4-Varinline N Machined, SRV-X4-Varinline N, and SRV-X2-VN are accessible via PDF links."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 623,
+        "cost_usd": 0.0016973
+      },
+      "source_file": "198_SRV_Varinline_Inline_viscometer_with_Varinline_flange.pdf"
+    },
+    {
+      "page_summary": "This page provides download links for CAD files for Rheonics SRV-X4 and SRV-X2 Varinline sensors and details about Varinline connection components and compatibility with GEA housings.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRV Varinline sensor",
+        "SRV-X4-Varinline-N",
+        "SRV-X4-VNM",
+        "SRV-X2-VN"
+      ],
+      "extracted_text": "CAD Files\n\n(https://rheonics.com/wp-content/uploads/2023/09/Rheonics_SRV-X4-Varinline-N.zip)\n(https://rheonics.com/wp-content/uploads/2023/09/Rheonics_SRV-X4-Varinline-N.zip)\n(https://rheonics.com/wp-content/uploads/2023/09/Rheonics_SRV-X4-Varinline-N.zip)\n(https://rheonics.com/wp-content/uploads/2024/10/SRV-X4-VNM.zip)\n(https://rheonics.com/wp-content/uploads/2024/10/SRV-X4-VNM.zip)\n(https://rheonics.com/wp-content/uploads/2023/09/Rheonics_SRV-X4-Varinline-N.zip)\n(https://rheonics.com/wp-content/uploads/2024/10/SRV-X4-VNM.zip)\nSRV-X4-Varinline N Machined CAD Files (https://rheonics.com/wp-content/uploads/2024/10/SRV-X4-VNM.zip)\nSRV-X4-Varinline N CAD Files (https://rheonics.com/wp-content/uploads/2024/10/SRV-X4-VN.zip)\nSRV-X2-VN CAD Files (https://rheonics.com/wp-content/uploads/2024/10/SRV-X2-VN.zip)\n\nA Varinline connection is composed of a Plug, an O-ring seal, and a Clamp. In case the SRV Varinline sensor is used, this replaces the plug.\n\nThe SRV Varinline sensor probe can be installed in different GEA housings or adapters like the ones listed in the next table.\n\nTable 2: Suitable GEA housings or adapters for the SRV Varinline sensor.\n\n| GEA Variant                                                                                                                                                                                               | Description | Referral Image |\n|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|----------------|\n| (https://www.gea.com/en/products/pumps-valves-flow-components/valves-components-hygienic-liquid-processing/inline-technology/varinline-pocket-free-instruments/) |             |                |",
+      "specifications": {},
+      "key_facts": [
+        "CAD files are available for Rheonics SRV-X4-Varinline-N, SRV-X4-VNM, and SRV-X2-VN sensors.",
+        "A standard Varinline connection comprises a Plug, an O-ring seal, and a Clamp.",
+        "When an SRV Varinline sensor is used, it replaces the plug in the Varinline connection.",
+        "The SRV Varinline sensor probe is compatible with various GEA housings and adapters.",
+        "GEA offers varinline-pocket-free instruments that can serve as suitable housings or adapters for the SRV Varinline sensor."
+      ],
+      "diagram_labels": [
+        "Rheonics_SRV-X4-Varinline-N.zip",
+        "SRV-X4-VNM.zip",
+        "SRV-X4-Varinline N Machined CAD Files",
+        "SRV-X4-Varinline N CAD Files",
+        "SRV-X2-VN CAD Files"
+      ],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 960,
+        "cost_usd": 0.0025398
+      },
+      "source_file": "198_SRV_Varinline_Inline_viscometer_with_Varinline_flange.pdf"
+    },
+    {
+      "page_summary": "This page describes two types of GEA Varinline housings: standard Varinline Housings and Varinline Sight Glass (Type TXIA), detailing their features and installation requirements.",
+      "document_type": "datasheet",
+      "product_names": [
+        "Varinline Housings",
+        "SRV Varinline",
+        "Varinline Sight Glass (Type TXIA)"
+      ],
+      "extracted_text": "Varinline Housings\nStraight housing with constant cross-section.\nAllows the SRV Varinline to be installed perpendicular in-line in small pipes (DN40 minimum).\nGEA Varinline housing pipes can follow different norms such as ISO 11850, DIN11866, ISO1127 AME-BPE, and IPS.\nGEA Reference\nhttps://www.gea.com/en/products/pumps-valves-flow-components/valves-components-hygienic-liquid-processing/inline-technology/varinline-pocket-free-instruments/\nhttps://www.gea.com/en/products/pumps-valves-flow-components/valves-components-hygienic-liquid-processing/inline-technology/varinline-pocket-free-instruments/\n\nVarinline Sight Glass (Type TXIA)\nStraight housing with constant cross-section and sight glass.\nAllows the SRV Varinline to be installed in a Varinline housing (DN50 minimum) with a glass at the other side to see the fluid and check the probe without dismantling.\nGEA Reference\nhttps://www.gea.com/en/products/pumps-valves-flow-components/valves-components-hygienic-liquid-processing/inline-technology/varinline-sight-glass-txia/\nhttps://www.gea.com/en/products/pumps-valves-flow-components/valves-components-hygienic-liquid-processing/inline-technology/varinline-sight-glass-txia/",
+      "specifications": {
+        "minimum_pipe_size_varinline_housings": "DN40",
+        "minimum_housing_size_varinline_sight_glass": "DN50"
+      },
+      "key_facts": [
+        "Varinline Housings feature a straight housing with a constant cross-section.",
+        "SRV Varinline can be installed perpendicularly in-line in small pipes (minimum DN40) using Varinline Housings.",
+        "GEA Varinline housing pipes comply with norms including ISO 11850, DIN11866, ISO1127 AME-BPE, and IPS.",
+        "The Varinline Sight Glass (Type TXIA) has a straight housing with a constant cross-section and an integrated sight glass.",
+        "The Varinline Sight Glass (Type TXIA) allows the SRV Varinline to be installed in a Varinline housing (minimum DN50) with a glass for fluid observation and probe inspection without dismantling."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 699,
+        "cost_usd": 0.0018873
+      },
+      "source_file": "198_SRV_Varinline_Inline_viscometer_with_Varinline_flange.pdf"
+    },
+    {
+      "page_summary": "This page details different Varinline connection flanges and their installation methods, including an example for mounting an SRV sensor probe in a DIN11850 DN40 inline flow cell.",
+      "document_type": "manual",
+      "product_names": [
+        "Varinline Tank connection flange (Type P)",
+        "SRV Varinline",
+        "Varinline Housing Connection Flange (Type U and U-S)",
+        "GEA Housings (Type T)",
+        "SRV sensor probe",
+        "Varinline N machined plug",
+        "Rheonics (PLG-VNM)",
+        "DIN11850 DN40 - Inline Flow Cell DN40"
+      ],
+      "extracted_text": "Varinline Tank connection flange (Type P)\nAdapter for tanks.\nAllows a flush installation of the SRV Varinline in tanks.\nGEA Reference\n(https://www.gea.com/en/products/pumps-valves-flow-components/valves-components-hygienic-liquid-processing/inline-technology/varinline-pocket-free-instruments/)\nGEA Reference\n(https://www.gea.com/en/products/pumps-valves-flow-components/valves-components-hygienic-liquid-processing/inline-technology/varinline-pocket-free-instruments/)\n\nVarinline Housing Connection Flange (Type U and U-S)\nAllows installations of the SRV Varinline in Tee or elbows\nGEA Reference\n(https://www.gea.com/en/products/pumps-valves-flow-components/valves-components-hygienic-liquid-processing/inline-technology/varinline-pocket-free-instruments/)\n\n2. Installation examples\n2.1 GEA Housings (Type T)\n\n2.1.1 DIN11850 DN40 - Inline Flow Cell DN40\n\nThis solution allows a perpendicular installation of the SRV sensor probe in a straight DN40 or 1.5” line. This installation requires a Varinline N machined plug provided by Rheonics (PLG-VNM) as the probe connection and the blind plug, as shown in Figure 2.",
+      "specifications": {
+        "line_size_metric": "DN40",
+        "line_size_imperial": "1.5 inches"
+      },
+      "key_facts": [
+        "The Varinline Tank connection flange (Type P) serves as an adapter for tanks, enabling a flush installation of the SRV Varinline.",
+        "The Varinline Housing Connection Flange (Type U and U-S) facilitates installations of the SRV Varinline in Tee or elbow configurations.",
+        "A perpendicular installation of the SRV sensor probe is supported in a straight DN40 or 1.5” line.",
+        "This installation requires a Varinline N machined plug, provided by Rheonics (PLG-VNM), to function as the probe connection and a blind plug."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 709,
+        "cost_usd": 0.0019123
+      },
+      "source_file": "198_SRV_Varinline_Inline_viscometer_with_Varinline_flange.pdf"
+    },
+    {
+      "page_summary": "This page details the components required for a Rheonics SRV-X4 viscometer installation in a Varinline Housing DN40, providing suppliers, order codes, and drawing references.",
+      "document_type": "manual",
+      "product_names": [
+        "Varinline DN40",
+        "Rheonics SRV",
+        "SRV-X4 Varinline N Machined",
+        "Varinline Housing DN40",
+        "Varinline Machined N Plug (PLG-VNM)",
+        "Varinline DN40 Clamps",
+        "O-ring Seal",
+        "Inline viscometer - SRV with Varinline N Machined Process connection",
+        "Varinline Housing DN654px40",
+        "Machined N Plug",
+        "SRV-X4-VNM",
+        "TDN40",
+        "PLG-VNM",
+        "GEA Housings"
+      ],
+      "extracted_text": "The Varinline DN40 is currently the smallest GEA Housing compatible with the Rheonics SRV. If smaller housings are required contact Rheonics Support Team.\n\nThe installation in Figure 2, requires the following components. The whole assembly can be delivered by Rheonics but the client may already have the GEA accessories or can order them separately.\n\n*   SRV-X4 Varinline N Machined from Rheonics.\n*   Varinline Housing DN40\n*   Varinline Machined N Plug (PLG-VNM) from Rheonics\n*   Varinline DN40 Clamps.\n*   O-ring Seal.\n\nTable 3: SRV-X4 in Varinline Housing DN40\n\nSRV - Varinline Hygienic Installation Example\n\n| Description                                            | Supplier | Order code | Drawing                                                                                                                                                                             |\n|--------------------------------------------------------|----------|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n| Inline viscometer - SRV with Varinline N Machined Process connection | Rheonics | SRV-X4-VNM | SRV-X4-VNM_Housing-DN40 (https://rheonics.com/wp-content/uploads/2024/10/SRV-X4-VNM_Housing-DN40.pdf)                                                                        |\n| Varinline Housing DN654px40*                           | GEA      | TDN40      | (https://www.gea.com/en/products/pumps-valves-flow-components/valves-components-hygienic-liquid-processing/inline-technology/varinline-pocket-free-instruments.jsp) (https://rheonics.com/wp-content/uploads/2023/08/SRV-X4-BVF_IFC-V25_DN25.pdf) |\n| Machined N Plug                                        | Rheonics | PLG-VNM    |                                                                                                                                                                                     |\n\n*Can also be the GEA Housings:\n\n*   ISO 1127 - 33.7\n*   ASME - BPE - OD 1.5”",
+      "specifications": {
+        "ISO 1127 dimension": "33.7",
+        "ASME BPE Outside Diameter": "1.5 inches"
+      },
+      "key_facts": [
+        "The Varinline DN40 is currently the smallest GEA Housing compatible with the Rheonics SRV.",
+        "The installation shown in Figure 2 requires five specific components: SRV-X4 Varinline N Machined, Varinline Housing DN40, Varinline Machined N Plug (PLG-VNM), Varinline DN40 Clamps, and an O-ring Seal.",
+        "The complete assembly for the installation can be supplied by Rheonics, or the client can acquire GEA accessories independently.",
+        "Alternative GEA Housings can comply with ISO 1127 (33.7) or ASME - BPE - OD 1.5” standards.",
+        "The inline viscometer SRV-X4-VNM is supplied by Rheonics and uses a Varinline N Machined Process connection.",
+        "The Varinline Housing DN654px40* is supplied by GEA with order code TDN40."
+      ],
+      "diagram_labels": [
+        "SRV-X4-VNM Housing-DN40"
+      ],
+      "warnings_notes": [
+        "If smaller housings than Varinline DN40 are required, contact Rheonics Support Team.",
+        "The Varinline Housing DN654px40 can also be replaced by GEA Housings with specifications ISO 1127 - 33.7 or ASME - BPE - OD 1.5\"."
+      ],
+      "page_num": 8,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1107,
+        "cost_usd": 0.0029073
+      },
+      "source_file": "198_SRV_Varinline_Inline_viscometer_with_Varinline_flange.pdf"
+    },
+    {
+      "page_summary": "This page details the flush installation of Rheonics SRV viscometers in Varinline housings, providing a dimensional drawing, installation instructions for different DN sizes, and a table with product and housing order information, including compatible standards.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRV",
+        "SRV-X4-VNM",
+        "PLG-VNM",
+        "Varinline Housing DN 40",
+        "Varinline Housing DN50",
+        "Varinline DN50",
+        "Varinline DN65",
+        "TDN50"
+      ],
+      "extracted_text": "Figure 4. Flush installation drawing of SRV in DN40 Varinline Housing\n2.1.2 DIN11850 DN50 or DN65\nThe SRV can be installed in the Varinline DN50 or DN65 Housing. For the DN50 or DN65 line, the probe still requires the Machined N Plug as a process connection, but the blind plug on the housing is not required to be machined, as shown in Figure 5.\n\nTable 4: SRV-X4 in Varinline Housing DN50\nSRV - Varinline Hygienic Installation Example\n\nDescription\nInline viscometer - SRV with Varinline N Machined Process connection\nSupplier: Rheonics\nOrder code: SRV-X4-VNM\nDrawing: SRV-X4-VNM_Housing-DN50 (https://rheonics.com/wp-content/uploads/2024/10/SRV-X4-VNM_Housing-DN50.pdf)\n\nDescription: Varinline Housing DN50*\nSupplier: GEA (https://www.gea.com/en/products/pumps-valves-flow-components/valves-components-hygienic-liquid-processing/inline-technology/varinline-pocket-free-instruments.jsp)\nOrder code: TDN50\nDrawing: (https://rheonics.com/wp-content/uploads/2023/08/SRV_X4-BVN_DN50.pdf)\n\n*Compatible with:\n*   ISO 1127 - 42.4\n*   ASME - BPE - OD 2\"\n*   IPS - 2\"",
+      "specifications": {
+        "Varinline Housing Diameter (inner)": "38 mm [1.50 inch]",
+        "Varinline Housing Diameter (outer)": "41 mm [1.61 inch]",
+        "Installation Depth": "50 ±1 mm [1.97 ±0.04 inch]",
+        "Lower Lip Height": "6 mm [0.25 inch]",
+        "Compatible with ISO Standard": "ISO 1127 - 42.4",
+        "Compatible with ASME Standard": "ASME - BPE - OD 2\"",
+        "Compatible with IPS Standard": "IPS - 2\""
+      },
+      "key_facts": [
+        "The SRV viscometer can be installed in Varinline DN50 or DN65 Housing.",
+        "For DN50 or DN65 lines, the probe requires the Machined N Plug as a process connection.",
+        "The blind plug on the housing is not required to be machined for DN50 or DN65 installations, as shown in Figure 5.",
+        "Rheonics supplies the SRV-X4-VNM inline viscometer with Varinline N Machined Process connection.",
+        "GEA supplies the Varinline Housing DN50 with order code TDN50."
+      ],
+      "diagram_labels": [
+        "Rheonics",
+        "SRV-X4-VNM Varinline N Machined",
+        "Varinline Housing DN 40",
+        "PLG-VNM Varinline N Machined",
+        "Units: mm [inch]",
+        "50 ±1 [1.97 ±0.04]",
+        "6 [0.25]",
+        "φ 38 [1.50]",
+        "φ 41 [1.61]"
+      ],
+      "warnings_notes": [
+        "Varinline Housing DN50 is compatible with ISO 1127 - 42.4, ASME - BPE - OD 2\", and IPS - 2\" standards."
+      ],
+      "page_num": 9,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1025,
+        "cost_usd": 0.0027023
+      },
+      "source_file": "198_SRV_Varinline_Inline_viscometer_with_Varinline_flange.pdf"
+    },
+    {
+      "page_summary": "This page provides installation details and compatibility information for Rheonics SRV viscometers in Varinline housings, including a dimensional drawing for DN50 flush installation and guidelines for DN80 and larger housings.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "SRV-X4-VNM",
+        "Varinline N Machined",
+        "Varinline Housing DN 50",
+        "Varinline N Blind Plug",
+        "DIN11850 DN80",
+        "SRV short probe",
+        "SRV-X2",
+        "SRV-X4",
+        "Varinline housing DN80",
+        "SRV-X4-VN",
+        "TDN80",
+        "SRV-X2-BVN_DN80"
+      ],
+      "extracted_text": "Rheonics\nSRV-X4-VNM Varinline N Machined\nVarinline Housing DN 50\nVarinline N Blind Plug\nUnits: mm [inch]\n\n(https://rheonics.com/wp-content/uploads/2024/10/SRV-X4-VNM_Housing-DN50.pdf)\nFigure 5. Flush installation drawing of SRV in DN50 Varinline Housing\n\n2.1.3 DIN11850 DN80 or bigger\n\nIf a housing DIN11850 DN80 is used, the probe doesn’t require the Machined N Plug anymore (nor the housing’s blind plug ), it can be used with the common Varinline N plug as a process connection, see an example in Figure 6.\n\nWhen a bigger housing is used (e.g., DN100) the SRV short probe can be used. The SRV short (SRV-X2 (https://support.rheonics.com/en/support/solutions/articles/81000410684-srv-x2-custom-flange )) would have an advantage over the flush variant (SRV-X4 (https://support.rheonics.com/en/support/solutions/articles/81000411682-srv-x4-flush-sensor-for-hygienic-and-sanitary-applications )) because the sensing element will be closer to the middle of the pipe.\n\nTable 5: SRV-X4 in Varinline housing DN80\nSRV - Varinline Hygienic Installation Example\nDescription | Supplier | Order code | Drawing\nInline viscometer - SRV | Rheonics | SRV-X4-VN | SRV-X4-VN Housing-DN80 (https://rheonics.com/wp-content/uploads/2024/10/SRV-X4-VN_Housing-DN80.pdf)\nVarinline Housing DN80* | GEA (https://www.gea.com/en/products/pumps-valves-flow-components/valves-components-hygienic-liquid-processing/inline-technology/varinline-pocket-free-instruments.jsp) | TDN80 | (https://rheonics.com/wp-content/uploads/2023/08/SRV-X2-BVN_DN80.pdf)\n\n*Compatible with:\n* ISO 1127 - 60.3\n* ASME - BPE - OD 3”\n* IPS - 3”",
+      "specifications": {
+        "probe_insertion_depth_from_housing_top": "50 ±1 mm [1.97 ±0.04 inch]",
+        "probe_tip_length": "9 mm [0.37 inch]",
+        "varinline_housing_dn50_inner_diameter": "50 mm [1.97 inch]",
+        "varinline_housing_dn50_outer_diameter": "53 mm [2.09 inch]",
+        "iso_compatibility_standard": "1127 - 60.3",
+        "asme_bpe_compatibility_standard": "OD 3 inch",
+        "ips_compatibility_standard": "3 inch"
+      },
+      "key_facts": [
+        "Figure 5 illustrates the flush installation of an SRV viscometer in a DN50 Varinline Housing.",
+        "For a DIN11850 DN80 housing, the probe does not require the Machined N Plug and can use a common Varinline N plug as a process connection.",
+        "When a larger housing (e.g., DN100) is used, the SRV short probe (SRV-X2) offers an advantage over the flush SRV-X4 variant by positioning the sensing element closer to the middle of the pipe.",
+        "Rheonics supplies the 'Inline viscometer - SRV' with the order code 'SRV-X4-VN' for Varinline hygienic installation.",
+        "GEA supplies 'Varinline Housing DN80*' with the order code 'TDN80'.",
+        "The system is compatible with ISO 1127 - 60.3, ASME - BPE - OD 3”, and IPS - 3” standards."
+      ],
+      "diagram_labels": [
+        "Rheonics",
+        "SRV-X4-VNM Varinline N Machined",
+        "Varinline Housing DN 50",
+        "Varinline N Blind Plug",
+        "50 ±1",
+        "[1.97 ±0.04]",
+        "9",
+        "[0.37]",
+        "φ 50",
+        "[1.97]",
+        "φ 53",
+        "[2.09]",
+        "Units: mm",
+        "[inch]"
+      ],
+      "warnings_notes": [
+        "The 'Varinline Housing DN80*' is compatible with ISO 1127 - 60.3, ASME - BPE - OD 3”, and IPS - 3” standards."
+      ],
+      "page_num": 10,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1407,
+        "cost_usd": 0.0036573
+      },
+      "source_file": "198_SRV_Varinline_Inline_viscometer_with_Varinline_flange.pdf"
+    },
+    {
+      "page_summary": "This page provides details on the flush installation of the Rheonics SRV viscometer in a DN80 Varinline Housing, describes the functionality of a Varinline Sight Glass (TXIA), and lists components for a hygienic installation example including order codes and drawing references.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV-X4-VN",
+        "Varinline N",
+        "Varinline Housing DN 80",
+        "Varinline N Blind Plug",
+        "SRV",
+        "Varinline Sight glass (TXIA)",
+        "SRV-X4-VNM",
+        "Varinline Housing DN50",
+        "TDN50",
+        "TXIAN-50"
+      ],
+      "extracted_text": "Rheonics\nSRV-X4-VN Varinline N\nVarinline Housing DN 80\nVarinline N Blind Plug\nUnits: mm [inch]\nhttps://rheonics.com/wp-content/uploads/2024/10/SRV-X4-VN_Housing-DN80.pdf\nFigure 6. Flush installation drawing of SRV in DN80 Varinline Housing\n2.1.4 Varinline Sight glass (TXIA)\nThe sight glass allows you to see the inside of the pipe without disassembling the sensor, it is useful when manual monitoring is desired to see if the SRV probe is clean or if it has deposits/fouling.\nTable 6: SRV-X4 in Varinline Housing with Sight Glass (TXIA)\nSRV - Varinline Hygienic Installation Example\nDescription\nSupplier\nOrder code\nDrawing\nInline viscometer - SRV\nRheonics\nSRV-X4-VNM\nVarinline Housing DN50\nGEA\n(https://www.gea.com/en/products/pumps-valves-flow-components/valves-components-hygienic-liquid-processing/inline-technology/varinline-pocket-free-instruments.jsp)\nTDN50\nSRV-X4-VNM_Housing-DN50_SightGlass\n(https://rheonics.com/wp-content/uploads/2024/10/SRV-X4-VNM_Housing-DN50_SightGlass.pdf)\nVarinline Sight glass\nGEA\n(https://www.gea.com/en/products/pumps-valves-flow-components/valves-components-hygienic-liquid-processing/inline-technology/varinline-pocket-free-instruments.jsp)\nTXIAN-50",
+      "specifications": {
+        "probe_insertion_depth": "50 ± 1 mm [1.97 ± 0.04 inch]",
+        "sensor_assembly_height_above_housing": "31 mm [1.22 inch]",
+        "housing_inner_diameter": "Φ 81 mm [3.19 inch]",
+        "housing_outer_diameter": "Φ 85 mm [3.35 inch]"
+      },
+      "key_facts": [
+        "Figure 6 shows a flush installation drawing of an SRV sensor in a DN80 Varinline Housing.",
+        "The Varinline Sight glass (TXIA) enables visual inspection of the pipe's interior without disassembling the sensor.",
+        "The sight glass is valuable for manual monitoring to check the cleanliness of the SRV probe and detect any deposits or fouling.",
+        "The inline viscometer SRV-X4-VNM is supplied by Rheonics.",
+        "Varinline Housing DN50 (Order code TDN50) and Varineline Sight glass (Order code TXIAN-50) components are supplied by GEA.",
+        "A specific drawing for SRV-X4-VNM_Housing-DN50_SightGlass is available via a provided URL."
+      ],
+      "diagram_labels": [
+        "Rheonics",
+        "SRV-X4-VN Varinline N",
+        "Varinline Housing DN 80",
+        "Varinline N Blind Plug",
+        "50 ± 1 [1.97 ± 0.04]",
+        "31 [1.22]",
+        "Φ 81 [3.19]",
+        "Φ 85 [3.35]",
+        "Units: mm [inch]"
+      ],
+      "warnings_notes": [],
+      "page_num": 11,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1029,
+        "cost_usd": 0.0027123
+      },
+      "source_file": "198_SRV_Varinline_Inline_viscometer_with_Varinline_flange.pdf"
+    },
+    {
+      "page_summary": "This page details the installation of the SRV-X4-VNM sensor using Varinline Housing with a sight glass, including configurations with concentric reducers and a GEA tank connection flange.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "SRV-X4-VNM",
+        "Varinline Housing",
+        "Sight Glass",
+        "Concentric Reducers",
+        "GEA Tank connection flange (Type P)",
+        "SRV-X4"
+      ],
+      "extracted_text": "Rheonics.\nSRV-X4-VNM.\nO-ring.\n1 Varinlinle Housing DN50.\n2 Varinline N Sight Glass.\nUnits: mm [inch].\n(https://rheonics.com/wp-content/uploads/2024/10/SRV-X4-VNM_Housing-DN50_SightGlass.pdf)\nFigure 7. Flush installation drawing of SRV in DN50 Varinline Housing with sight glass.\n2.1.5 Varinline Sight glass - concentric reducers.\nFollowing the previous point, we can add concentric reducers to the housing ports (e.g. DN50-DN38 reducers), as in Figure 8, to mount the sensor in smaller lines. You can weld the concentric reducers to the line or use Tri-clamp ferrules for easy disassembly.\nSRV-X4-VNM.\nVarinline Housing DN50.\nConcetric Reducers DN50-DN38 or less.\nSight Glass DN50.\n(https://rheonics.com/wp-content/uploads/2024/10/SRV-X4-VNM_Housing-DN50_SightGlass_Reducers.pdf)\nFigure 8. Flush installation drawing of SRV in DN50 Varinline Housing with sight glass and concentric reducers.\n2.2 GEA Tank connection flange (Type P).\nThe SRV can be installed in the Varinline tank connection flange which is welded into vessels with a wall thickness of up to 20 mm to avoid dead zones in a hygienic installation.\nTable 7: SRV-X4 tank connection process (TPN).",
+      "specifications": {
+        "Overall Vertical Dimension": "50 mm ±1 mm [1.97 inch ±0.04 inch]",
+        "Flange Thickness": "9 mm [0.37 inch]",
+        "Housing Inner Diameter": "50 mm [1.97 inch]",
+        "Housing Outer Diameter": "53 mm [2.09 inch]",
+        "Concentric Reducer Range": "DN50-DN38 or less",
+        "Varinline Housing Size": "DN50",
+        "Sight Glass Size": "DN50",
+        "Max Vessel Wall Thickness for SRV Installation": "20 mm"
+      },
+      "key_facts": [
+        "Concentric reducers can be added to housing ports (e.g., DN50-DN38) to mount the SRV sensor in smaller lines.",
+        "Concentric reducers can be welded to the line or attached using Tri-clamp ferrules for easy disassembly.",
+        "The SRV can be installed in a Varinline tank connection flange which is welded into vessels.",
+        "The Varinline tank connection flange installation supports vessel wall thicknesses up to 20 mm.",
+        "The GEA Tank connection flange (Type P) installation is used to avoid dead zones in a hygienic installation."
+      ],
+      "diagram_labels": [
+        "Rheonics",
+        "SRV-X4-VNM",
+        "O-ring",
+        "1 Varinlinle Housing DN50",
+        "2 Varinline N Sight Glass",
+        "Units: mm [inch]",
+        "Concetric Reducers DN50-DN38 or less",
+        "Varinline Housing DN50",
+        "Sight Glass DN50"
+      ],
+      "warnings_notes": [],
+      "page_num": 12,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 920,
+        "cost_usd": 0.0024397999999999998
+      },
+      "source_file": "198_SRV_Varinline_Inline_viscometer_with_Varinline_flange.pdf"
+    },
+    {
+      "page_summary": "This page provides an installation example for Rheonics SRV inline viscometers using Varinline hygienic connections, detailing components and an alternative long insertion probe option.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "SRV-X4-VN",
+        "SRV-X4-B Varinline N",
+        "SRV-X4-Varinline N",
+        "SRV Long Insertion probe",
+        "SRV-X5"
+      ],
+      "extracted_text": "SRV - Varinline Hygienic Installation Example\n\n| Description                      | Supplier                                                                                                                                                                             | Order code | Drawing                                                                                                  |\n|----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|----------------------------------------------------------------------------------------------------------|\n| Inline viscometer - SRV          | Rheonics                                                                                                                                                                             | SRV-X4-VN  | SRV-X4-B Varinline N in tank Drawing (https://rheonics.com/wp-content/uploads/2023/08/SRV-X4-BVN_In_Tank.pdf) |\n| Varinline tank connection flange | GEA (https://www.gea.com/en/products/pumps-valves-flow-components/valves-components-hygienic-liquid-processing/inline-technology/varinline-pocket-free-instruments.jsp) | TPN        |                                                                                                          |\n\nFigure 9. Example of the Varinline tank connection process.\n\nSRV Varinline Tank Connection flange\n\n| Part number | Part description          |\n|-------------|---------------------------|\n| 1           | SRV-X4-Varinline N        |\n| 2           | Welded tank varinline flange |\n| 3           | O-ring N                  |\n| 4           | Grooved flange x2         |\n| 5           | Bolt x4                   |\n\nFigure 10. Exploded view of assembly example with Varinline tank connection flange.\n\nAnother installation option for the tank connection flange is using an SRV Long Insertion probe (SRV-X5 (https://support.rheonics.com/en/support/solutions/articles/81000411102-srv-x5-long-insertion-probe)), this is very",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics supplies the Inline viscometer - SRV with the order code SRV-X4-VN.",
+        "GEA supplies the Varinline tank connection flange with the order code TPN.",
+        "A drawing for 'SRV-X4-B Varinline N in tank' is available from Rheonics' website.",
+        "The page illustrates the Varinline tank connection process and provides an exploded view of its assembly components.",
+        "The components for the Varinline tank connection flange assembly include an SRV-X4-Varinline N sensor, a welded tank Varinline flange, an O-ring N, two grooved flanges, and four bolts.",
+        "An alternative installation option for the tank connection flange utilizes an SRV Long Insertion probe, specifically the SRV-X5 model, with further details available on the Rheonics support page."
+      ],
+      "diagram_labels": [
+        "1: SRV-X4-Varinline N",
+        "2: Welded tank varinline flange",
+        "3: O-ring N",
+        "4: Grooved flange x2",
+        "5: Bolt x4"
+      ],
+      "warnings_notes": [],
+      "page_num": 13,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 831,
+        "cost_usd": 0.0022172999999999997
+      },
+      "source_file": "198_SRV_Varinline_Inline_viscometer_with_Varinline_flange.pdf"
+    },
+    {
+      "page_summary": "This page details the assembly and compatibility of Varinline connection components for Rheonics SRV viscometers, focusing on installations requiring longer immersion or specific pipe connections.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV Varinline Tank Connection flange",
+        "SRV-X5-A148-B Varinline N",
+        "Welded tank varinline flange",
+        "O-ring N",
+        "Grooved flange",
+        "Bolt",
+        "SRV Long insertion probe",
+        "Varinline housings connection flanges type U",
+        "Varinline housings connection flanges type U-S",
+        "Varinline F plug",
+        "Varinline N plug",
+        "Varinline G plug",
+        "SRV-X4",
+        "Inline viscometer - SRV",
+        "Varinline connection flange U-S",
+        "SRV-X5-A131-B Varinline N"
+      ],
+      "extracted_text": "useful when you need a longer immersion of the sensing element in the tank.\n\nSRV Varinline Tank Connection flange\nPart number | Part description\n1 | SRV-X5-A148-B Varinline N\n2 | Welded tank varinline flange\n3 | O-ring N\n4 | Grooved flange x2\n5 | Bolt x4\n\nFigure 11. Exploded view of assembly example with Varinline tank connection flange and SRV Long insertion probe.\n\n2.3 Other Varinline process connections\n\nThe SRV Long insertion probe is compatible with Varinline housings connection flanges type U and U-S with its corresponding Varinline F, N, or G plug depending on the pipe size. It is useful for installation in Tee or elbow pipes.\n\nTable 8: SRV-X4 in Varinline Housing with connector flange (TU-SN)\nSRV - Varinline Hygienic Installation Example\nDescription | Supplier | Order code | Drawing\nInline viscometer - SRV | Rheonics | SRV-X5-A131-B Varinline N | \nVarinline connection flange U-S | GEA (https://www.gea.com/en/products/pumps-valves-flow-components/valves-components-hygienic-liquid-processing/inline-technology/varinline-pocket-free-instruments.jsp) | TU-SN | SRV-X5-A131-B Varinline N in Tee Drawing (https://rheonics.com/wp-content/uploads/2023/08/SRV-X5-A131-BVN_In_Tee.pdf)",
+      "specifications": {
+        "Part 1 description": "SRV-X5-A148-B Varinline N",
+        "Part 2 description": "Welded tank varinline flange",
+        "Part 3 description": "O-ring N",
+        "Part 4 description": "Grooved flange x2",
+        "Part 5 description": "Bolt x4",
+        "Inline viscometer - SRV Order code": "SRV-X5-A131-B Varinline N",
+        "Varinline connection flange U-S Order code": "TU-SN"
+      },
+      "key_facts": [
+        "The document provides details for achieving a longer immersion of a sensing element in a tank.",
+        "Figure 11 illustrates an exploded view of an assembly combining a Varinline tank connection flange and an SRV Long insertion probe.",
+        "The SRV Long insertion probe is designed to be compatible with Varinline housings connection flanges of types U and U-S.",
+        "The appropriate Varinline plug (F, N, or G) for the SRV Long insertion probe depends on the specific pipe size.",
+        "The SRV Long insertion probe is recommended for installation within Tee or elbow pipes.",
+        "Rheonics offers the Inline viscometer - SRV with the order code SRV-X5-A131-B Varinline N.",
+        "GEA supplies the Varinline connection flange U-S, identified by the order code TU-SN.",
+        "A drawing for 'SRV-X5-A131-B Varinline N in Tee' is accessible via a provided PDF link from rheonics.com."
+      ],
+      "diagram_labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "warnings_notes": [],
+      "page_num": 14,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1040,
+        "cost_usd": 0.0027397999999999997
+      },
+      "source_file": "198_SRV_Varinline_Inline_viscometer_with_Varinline_flange.pdf"
+    },
+    {
+      "page_summary": "This page illustrates the installation and provides a detailed mechanical drawing with dimensions for a Rheonics SRV long insertion probe utilizing a Varinline housing connector flange in a tee pipe, followed by a conceptual question about Varinline.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV Long insertion probe",
+        "Varinline housing connector flange U-S",
+        "SRV-X5-A147-B Varinline N"
+      ],
+      "extracted_text": "Figure 12. SRV Long insertion probe with Varinline housing connector flange U-S in tee pipe.\nrheonics\nSRV-X5-A147-B Varinline N\nClamp\nO-ring\nVarinLine Housing connection flange U-S\n98 [ 3.84 ]\n131 Φ [ 5.16 ]\nFigure 13. SRV long insertion probe in the Varinline housing connection flange type U-S.\n3. What is Varinline?",
+      "specifications": {
+        "probe_insertion_depth": "98 mm [3.84 inch]",
+        "housing_connection_diameter": "131 mm [5.16 inch]"
+      },
+      "key_facts": [
+        "The Rheonics SRV long insertion probe is designed for integration into a tee pipe.",
+        "The probe connects using a Varinline housing connector flange U-S.",
+        "A specific probe model identified is SRV-X5-A147-B Varinline N.",
+        "The Varinline housing connection flange type U-S incorporates a clamp and an O-ring for sealing.",
+        "Dimensions for the housing connection include a diameter of 131 mm (5.16 inches) and an insertion depth of 98 mm (3.84 inches)."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "SRV-X5-A147-B Varinline N",
+        "Clamp",
+        "O-ring",
+        "VarinLine Housing connection flange U-S",
+        "98 [ 3.84 ]",
+        "131 Φ [ 5.16 ]"
+      ],
+      "warnings_notes": [],
+      "page_num": 15,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 531,
+        "cost_usd": 0.0014673000000000002
+      },
+      "source_file": "198_SRV_Varinline_Inline_viscometer_with_Varinline_flange.pdf"
+    },
+    {
+      "page_num": 16,
+      "page_summary": "Extraction failed",
+      "document_type": "unknown",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "extraction_failed": true,
+      "source_file": "198_SRV_Varinline_Inline_viscometer_with_Varinline_flange.pdf"
+    },
+    {
+      "page_summary": "This page provides a list of external references related to Rheonics products and certifications, followed by a general disclaimer regarding the use of illustrative materials.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics SRV sensor",
+        "SRV-Viscometer",
+        "Inline process density and viscosity meter SRD",
+        "SRD"
+      ],
+      "extracted_text": "[2] Rheonics SRV sensor (https://rheonics.com/products/inline-viscometer-srv/)\n[3] Rheonics EHEDG certification. (https://rheonics.com/wp-content/uploads/2023/06/Rheonics_SRV-Viscometer_EHEDG-Certificate.pdf)\n[4] Learn more about EHEDG. (https://rheonics.com/rheonics-ehedg-certified-inline-viscosity-and-density-sensors-for-food-and-pharmaceutical-applications/)\n[5] Inline process density and viscosity meter SRD with Varinline flange - options and installation (https://support.rheonics.com/en/support/solutions/articles/81000412204-inline-process-density-and-viscosity-meter-srd-with-varinline-flange-options-and-installation)\n\nDisclaimer\nPictures, photos, and images used are for illustration purposes and do not constitute any warranty or assertions on the suitability of use and should not be construed as an explicit or implicit recommendation or endorsement. All illustrations are given proper credit from our source of access and by their use here we do not specify or establish any copyright which belongs and stays unaffected with the existing copyright holder of that material.",
+      "specifications": {},
+      "key_facts": [
+        "This page includes references to the Rheonics SRV sensor product page and its EHEDG certification document.",
+        "Information about EHEDG-certified inline viscosity and density sensors for food and pharmaceutical applications is referenced.",
+        "A link is provided for details on the inline process density and viscosity meter SRD with Varinline flange options and installation.",
+        "The document contains a disclaimer stating that all pictures, photos, and images are for illustration purposes only.",
+        "The disclaimer clarifies that the use of images does not imply warranty, suitability, recommendation, or endorsement.",
+        "All illustrations are credited to their source, and their use does not establish or affect copyright."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Pictures, photos, and images used are for illustration purposes and do not constitute any warranty or assertions on the suitability of use and should not be construed as an explicit or implicit recommendation or endorsement.",
+        "All illustrations are given proper credit from our source of access and by their use here we do not specify or establish any copyright which belongs and stays unaffected with the existing copyright holder of that material."
+      ],
+      "page_num": 17,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 660,
+        "cost_usd": 0.0017898
+      },
+      "source_file": "198_SRV_Varinline_Inline_viscometer_with_Varinline_flange.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": [
+      16
+    ]
+  }
+}

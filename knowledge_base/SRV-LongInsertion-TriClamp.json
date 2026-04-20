@@ -1,0 +1,62 @@
+{
+  "source_file": "SRV-LongInsertion-TriClamp.pdf",
+  "total_pages": 1,
+  "chunks": [
+    {
+      "page_summary": "This page provides technical dimensions, material specifications, and connection options for the Rheonics SRV FPC inline viscometer with a TriClamp fitting.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRV FPC",
+        "TriClamp"
+      ],
+      "extracted_text": "Variable dimensions:\nA: Insertion length\nAny length larger than 55.7 mm\nB: Flange/adapter:\nSpecify the norm, size, pressure rating, e.g.\nDIN 32676, D=50.5\nDIN 32676, D=64\nDIN 32676, D=77.5\nUnits: mm [inch]\nrheonics (on device body)\nB: Customer specified flange/adapter\nwetted surfaces (Material 316L)\nA: Insertion length min 55.7 [2.19]\n55.7 [2.19]\n30 ø [1.18]\n8 ø [0.31]\nSRV FPC\nTriClamp, Long customizable insertion length\nThis drawing remains property of rheonics. It may be neither copied nor informed to third persons or competitors without our approval. ( 2 § paragraph 1 fig.7 copyright act of 9th Sept. 1965)\nProtected by US and International patents granted and pending\nrheonics • Switzerland • USA • www.rheonics.com • info@rheonics.com +41 52 511 32 00 +1 713 364 5427\nrheonics\ninline process\ndensity and viscosity\nmonitoring",
+      "specifications": {
+        "Minimum Insertion Length": "55.7 mm",
+        "Flange Standard": "DIN 32676",
+        "Flange Diameter Option 1": "50.5 mm",
+        "Flange Diameter Option 2": "64 mm",
+        "Flange Diameter Option 3": "77.5 mm",
+        "Wetted Surfaces Material": "316L",
+        "Device Body Diameter": "30 mm (1.18 inch)",
+        "Device Tip Diameter": "8 mm (0.31 inch)",
+        "Length from flange to tip": "55.7 mm (2.19 inch)"
+      },
+      "key_facts": [
+        "The Rheonics SRV FPC offers a long, customizable insertion length, with a minimum length of 55.7 mm (2.19 inches).",
+        "Customers must specify the norm, size, and pressure rating for the flange/adapter, with DIN 32676 being a common standard and example diameters of 50.5 mm, 64 mm, and 77.5 mm provided.",
+        "The wetted surfaces of the device are constructed from Material 316L.",
+        "Rheonics specializes in inline process density and viscosity monitoring.",
+        "The provided document includes an isometric view and a dimensioned orthographic view of the product, with measurements in both millimeters and inches.",
+        "Contact information for Rheonics in Switzerland and USA is provided, including website, email, and phone numbers.",
+        "The product is protected by US and International patents.",
+        "The overall body diameter is 30mm (1.18 inch) and the tip diameter is 8mm (0.31 inch)."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "B: Customer specified flange/adapter",
+        "wetted surfaces (Material 316L)",
+        "A: Insertion length min 55.7 [2.19]",
+        "55.7 [2.19]",
+        "30 ø [1.18]",
+        "8 ø [0.31]"
+      ],
+      "warnings_notes": [
+        "This drawing remains property of rheonics. It may be neither copied nor informed to third persons or competitors without our approval. ( 2 § paragraph 1 fig.7 copyright act of 9th Sept. 1965)",
+        "Protected by US and International patents granted and pending"
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 974,
+        "cost_usd": 0.0025748
+      },
+      "source_file": "SRV-LongInsertion-TriClamp.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

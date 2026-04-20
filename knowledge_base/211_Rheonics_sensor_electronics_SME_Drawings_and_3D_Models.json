@@ -1,0 +1,151 @@
+{
+  "source_file": "211_Rheonics_sensor_electronics_SME_Drawings_and_3D_Models.pdf",
+  "total_pages": 3,
+  "chunks": [
+    {
+      "page_summary": "This page provides an overview of Rheonics SME (Sensor module electronics) focusing on the DIN rail mount variant (SME-DRM), detailing its purpose, functionality, key specifications, and offering links to related technical drawings and models.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SME - Sensor module electronics",
+        "SME",
+        "Rheonics sensors",
+        "SME-DRM",
+        "SME-TR"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nRheonics sensor electronics SME Drawings and 3D Models\n\nModified on: Fri, 22 Nov, 2024 at 9:23 PM\n\nWhat products are involved?\nThe SME - Sensor module electronics (https://rheonics.com/electronics-and-communication/) that is used for all Rheonics sensors.\n\nWhat is the purpose of this article?\nTo show the SME sensor electronic enclosure (housing) configuration variants.\n\nRheonics sensor electronic (SME) operates the sensor probe to output relevant process data (https://support.rheonics.com/support/solutions/81000186361), such as inline viscosity, density and temperature. It also enables the use of mathematical models to output calculations, concentration models and compensated or scaled values, and integrates the sensor with different industrial communication protocols (https://support.rheonics.com/support/solutions/81000100945).\n\nThe SME can be configured by its housing protection or material, so its suits the installation environment as shown next.\n\nSME-DRM: DIN rail mount\n\n[Image of SME-DRM unit on a DIN rail]\n\n| | SME |\n|---|---|\n| Type | SME-DRM |\n| Weight | 0.2 kg (0.4lbs) |\n| IP-Rating | IP20 |\n| Power | 24VDC |\n| Material (casing) | SS 304 |\n\nSME-DRM Drawing (https://rheonics.com/wp-content/uploads/2022/11/Rheonics_SME-DRM_A.pdf)\nSME-DRM CAD Models (https://rheonics.com/wp-content/uploads/2023/02/Rheonics_SME-DRM.zip)\nSME Wiring (https://rheonics.com/wp-content/uploads/2022/11/Rheonics_SME-DRM-Standard_Wiring.pdf)\n  (https://rheonics.com/wp-content/uploads/2022/11/Rheonics_SME-DRM-Standard_Wiring.pdf)\n\nSME-TR: Transmitter solid housing",
+      "specifications": {
+        "Type": "SME-DRM",
+        "Weight": "0.2 kg",
+        "Weight (lbs)": "0.4 lbs",
+        "IP-Rating": "IP20",
+        "Power": "24VDC",
+        "Material (casing)": "SS 304"
+      },
+      "key_facts": [
+        "The Rheonics SME - Sensor module electronics is used for all Rheonics sensors.",
+        "The purpose of this article is to show the SME sensor electronic enclosure (housing) configuration variants.",
+        "Rheonics SME operates the sensor probe to output relevant process data such as inline viscosity, density, and temperature.",
+        "The SME enables the use of mathematical models for output calculations, concentration models, and compensated or scaled values.",
+        "The SME integrates the sensor with different industrial communication protocols.",
+        "The SME can be configured by its housing protection or material to suit the installation environment.",
+        "The SME-DRM variant is a DIN rail mount enclosure with an IP20 rating.",
+        "The SME-DRM weighs 0.2 kg (0.4 lbs) and requires 24VDC power.",
+        "The casing material for the SME-DRM is SS 304."
+      ],
+      "diagram_labels": [
+        "SME-DRM: DIN rail mount"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 988,
+        "cost_usd": 0.0026098
+      },
+      "source_file": "211_Rheonics_sensor_electronics_SME_Drawings_and_3D_Models.pdf"
+    },
+    {
+      "page_summary": "This page presents a comparison of three Rheonics SME transmitter housing variants (SME-TR, SME-TRD, and SME-TR-SSX) along with their technical specifications and links to related documentation.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SME",
+        "SME-TR",
+        "SME-TRD",
+        "SME-TR-SSX"
+      ],
+      "extracted_text": "SME\nType: SME-TR\nWeight: 1.7 kg (3.8lbs)\nIP-Rating: IP66\nPower: 24VDC\nPorts: 3x 1/2\" NPT\nMaterial enclosure: Aluminium with Sprayed Polyurethane (PUR) coating\nMaterial o-ring: FKM\nSME-TR Drawing (https://rheonics.com/wp-content/uploads/2023/05/rheonics_sme-tr.pdf)\nSME-TR CAD Models (https://rheonics.com/wp-content/uploads/2023/02/rheonics_sme-tr.zip)\nSME Wiring (https://rheonics.com/wp-content/uploads/2022/11/Rheonics_SME-DRM-Standard_Wiring.pdf)\n\nSME-TRD: Transmitter housing with display\nSME\nType: SME-TRD\nWeight: 1.7 kg (3.8lbs)\nIP-Rating: IP66\nPower: 24VDC\nPorts: 3x 1/2\" NPT\nMaterial enclosure: Aluminium with Sprayed Polyurethane (PUR) coating\nMaterial o-ring: FKM\nSME-TRD Drawing (https://rheonics.com/wp-content/uploads/2023/05/Rheonics_SME-TRD.pdf)\nSME-TRD CAD Models (https://rheonics.com/wp-content/uploads/2023/02/Rheonics_SME-TRD.zip)\nSME Wiring (https://rheonics.com/wp-content/uploads/2022/11/Rheonics_SME-DRM-Standard_Wiring.pdf)\n\nSME-TR-SSX: Stainless steel housing\nSME\nType: SME-TR-SSX\nWeight: 3.2 kg (7.0lbs)\nIP-Rating: IP66\nPower: 24VDC\nPorts: 3x 1/2\" NPT\nMaterial enclosure: Stainless steel\nMaterial o-ring: FKM",
+      "specifications": {
+        "SME-TR": {
+          "Weight": "1.7 kg (3.8lbs)",
+          "IP-Rating": "IP66",
+          "Power": "24VDC",
+          "Ports": "3x 1/2\" NPT",
+          "Material enclosure": "Aluminium with Sprayed Polyurethane (PUR) coating",
+          "Material o-ring": "FKM"
+        },
+        "SME-TRD": {
+          "Weight": "1.7 kg (3.8lbs)",
+          "IP-Rating": "IP66",
+          "Power": "24VDC",
+          "Ports": "3x 1/2\" NPT",
+          "Material enclosure": "Aluminium with Sprayed Polyurethane (PUR) coating",
+          "Material o-ring": "FKM"
+        },
+        "SME-TR-SSX": {
+          "Weight": "3.2 kg (7.0lbs)",
+          "IP-Rating": "IP66",
+          "Power": "24VDC",
+          "Ports": "3x 1/2\" NPT",
+          "Material enclosure": "Stainless steel",
+          "Material o-ring": "FKM"
+        }
+      },
+      "key_facts": [
+        "The Rheonics SME-TR and SME-TRD transmitter housings weigh 1.7 kg (3.8 lbs) and have an IP66 rating.",
+        "The Rheonics SME-TR-SSX stainless steel housing weighs 3.2 kg (7.0 lbs) and has an IP66 rating.",
+        "All three SME transmitter housing variants are powered by 24VDC and feature 3x 1/2\" NPT ports.",
+        "The SME-TR and SME-TRD enclosures are made of aluminium with a sprayed polyurethane (PUR) coating, while the SME-TR-SSX enclosure is stainless steel.",
+        "All listed models use FKM for their o-rings.",
+        "Drawings, CAD models, and wiring diagrams are available for download for each transmitter housing type through provided URLs."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "KEEP COVER TIGHT WHEN CIRCUITS ALIVE"
+      ],
+      "warnings_notes": [
+        "KEEP COVER TIGHT WHEN CIRCUITS ALIVE"
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1175,
+        "cost_usd": 0.0030773
+      },
+      "source_file": "211_Rheonics_sensor_electronics_SME_Drawings_and_3D_Models.pdf"
+    },
+    {
+      "page_summary": "This page provides technical specifications and links to various documentation (drawings, CAD models, wiring diagrams) for the Rheonics SME-TRD-SSX product, a stainless steel housing with a display.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SME-TRD-SSX",
+        "SME-TR-SSX"
+      ],
+      "extracted_text": "SME-TR-SSX Drawing (https://rheonics.com/wp-content/uploads/2023/05/SME-TR-SSX.pdf)\nSME-TR-SSX CAD Models (https://rheonics.com/wp-content/uploads/2023/05/Rheonics_SME-TR-SSX.zip)\nSME Wiring (https://rheonics.com/wp-content/uploads/2022/11/Rheonics_SME-DRM-Standard_Wiring.pdf)\n\nSME-TRD-SSX: Stainless steel housing with display\n\nSME\nType: SME-TRD-SSX\nWeight: 3.2 kg (7.0lbs)\nIP-Rating: IP66\nPower: 24VDC\nPorts: 3x 1/2\" NPT\nMaterial enclosure: Stainless steel\nMaterial o-ring: FKM\n\nSME-TRD-SSX Drawing (https://rheonics.com/wp-content/uploads/2023/05/SME-TRD-SSX.pdf)\nSME-TRD-SSX Models (https://rheonics.com/wp-content/uploads/2023/05/Rheonics_SME-TRD-SSX.zip)\nSME Wiring (https://rheonics.com/wp-content/uploads/2022/11/Rheonics_SME-DRM-Standard_Wiring.pdf)\n\nReferences:\n[1]: https://rheonics.com/electronics-and-communication/\n[2]: https://support.rheonics.com/support/solutions/81000186361\n[3]: https://support.rheonics.com/support/solutions/81000100945",
+      "specifications": {
+        "Type": "SME-TRD-SSX",
+        "Weight": "3.2 kg (7.0lbs)",
+        "IP-Rating": "IP66",
+        "Power": "24VDC",
+        "Ports": "3x 1/2\" NPT",
+        "Material enclosure": "Stainless steel",
+        "Material o-ring": "FKM"
+      },
+      "key_facts": [
+        "The SME-TRD-SSX is a product featuring a stainless steel housing and a display.",
+        "It has a weight of 3.2 kg, equivalent to 7.0 lbs.",
+        "The device carries an IP66 rating, indicating protection against dust ingress and powerful water jets.",
+        "It operates on 24VDC power.",
+        "The SME-TRD-SSX is equipped with three 1/2\" NPT ports.",
+        "The enclosure material is stainless steel, and the o-ring material is FKM."
+      ],
+      "diagram_labels": [
+        "SME-TRD-SSX: Stainless steel housing with display",
+        "rheonics"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 820,
+        "cost_usd": 0.0021897999999999996
+      },
+      "source_file": "211_Rheonics_sensor_electronics_SME_Drawings_and_3D_Models.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

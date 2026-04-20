@@ -1,0 +1,114 @@
+{
+  "source_file": "126_Temperature_units_supported_on_SRV_and_SRD.pdf",
+  "total_pages": 3,
+  "chunks": [
+    {
+      "page_summary": "This page introduces the concept of temperature and its measurement using Rheonics SRV and SRD devices, outlining the document's content regarding temperature units and measurement importance.",
+      "document_type": "Technical Note",
+      "product_names": [
+        "SRV",
+        "SRD",
+        "SME-TRD"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nTemperature units supported on SRV and SRD\nModified on: Thu, 7 Dec, 2023 at 10:34 PM\n\nTemperature is a fundamental physical property that quantifies the hotness or coldness of a body, liquid, material, gas, etc. which could be expressed in different scales as shown below.\n\nTABLE OF CONTENTS\n*   1. How is Temperature measured with the SRV and SRD?\n*   2. What Units are available in Rheonics SRV and SRD?\n*   3. Why is it important to measure temperature?\n*   References:\n\nrheonics\nKEEP COVER TIGHT WHEN CIRCUIT ALIVE",
+      "specifications": {},
+      "key_facts": [
+        "Temperature is a fundamental physical property that quantifies the hotness or coldness of a body, liquid, material, gas, etc.",
+        "Temperature can be expressed in different scales."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "V: 1234.56",
+        "D: 1234.56",
+        "T: 123.45 50.00",
+        "Figure 1. SME-TRD with SRD probe"
+      ],
+      "warnings_notes": [
+        "CE",
+        "ATEX"
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 408,
+        "cost_usd": 0.0011598000000000001
+      },
+      "source_file": "126_Temperature_units_supported_on_SRV_and_SRD.pdf"
+    },
+    {
+      "page_summary": "This page explains how Rheonics SRV and SRD sensors measure temperature using an internal PT1000 RTD, details the available tolerance classes and temperature units, and emphasizes the importance of accurate temperature measurement for quality control and product safety.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "SRV",
+        "SRD",
+        "PT1000",
+        "Rheonics sensors"
+      ],
+      "extracted_text": "1. How is Temperature measured with the SRV and SRD?\n\nThe Rheonics SRV and SRD measure temperature by an internal PT1000 sensor which belongs to a class of sensors called RTDs.\n\nThe PT1000 is located in the probe tip and so measures the temperature of the fluid exactly where the viscosity and density of the fluid are measured. All off-the-shelf Rheonics sensors including SRV and SRD are capable of measuring fluid temperatures in real-time and displaying them on integrated display (option E1), Rheonics control panel (RCP), or transmitting them through various communication protocols to PLC and IPC.\n\nThe standard configuration for all Rheonics sensors is based on the standard DIN EN 60751 for tolerance, the B class is available as the standard tolerance class for the sensor probes. Depending on customer requirements class A and AA can be calibrated. The tolerance for different classes of RTD is as in the table below:\n\nTolerance Class | Tolerance Value* | Availability\n----------------|------------------|-------------\nAA              | ±(0.1 + 0.0017|t|) | Can be ordered\nA               | ±(0.15 + 0.002|t|) | Can be ordered\nB               | ±(0.3 + 0.005|t|) | Standard\n\n*abs(t)= absolute value of temperature in °C without regard to sign.\n\nFor more information about the tolerance class and how to read it please visit the following article: How to read the tolerance from the Pt1000 on Rheonics Sensors?\n(https://support.rheonics.com/en/support/solutions/articles/81000407486-how-to-read-the-tolerance-from-the-pt1000-on-rheonics-sensors-)\n\n2. What Units are available in Rheonics SRV and SRD?\n\nDiverse temperature units allow to have a standardized scale, where units are chosen according to customer preference and the industry or discipline where the measurement is applied.\n\n°C: Represents the temperature in the Celsius scale.\nK: Represents the temperature in the Kelvin scale.\n°F: Represents the temperature in the Fahrenheit scale.\n\n3. Why is it important to measure temperature?\n\nMeasuring Temperature in quality control ensures consistent material composition and adherence to standards. Also, it is a vital component in calculating the density with the SRD sensor. Accurate temperature control contributes to customer satisfaction by delivering reliable and high-quality products otherwise, some industries like pharmaceutical or food could have problems ensuring the safety for consumption.",
+      "specifications": {
+        "RTD Tolerance Standard": "DIN EN 60751",
+        "Tolerance Class AA": "±(0.1 + 0.0017|t|) °C",
+        "Tolerance Class A": "±(0.15 + 0.002|t|) °C",
+        "Tolerance Class B": "±(0.3 + 0.005|t|) °C",
+        "Standard Tolerance Class for Sensor Probes": "B"
+      },
+      "key_facts": [
+        "Rheonics SRV and SRD sensors measure temperature using an internal PT1000 sensor, which is an RTD.",
+        "The PT1000 sensor is strategically located in the probe tip to measure fluid temperature exactly where viscosity and density are measured.",
+        "All off-the-shelf Rheonics sensors, including SRV and SRD, can measure fluid temperatures in real-time.",
+        "Temperature data can be displayed on an integrated display (option E1), Rheonics control panel (RCP), or transmitted via PLC and IPC using various communication protocols.",
+        "The standard configuration for Rheonics sensors' tolerance is based on DIN EN 60751.",
+        "Class B is the standard tolerance class for sensor probes, while Class A and AA can be calibrated based on customer requirements.",
+        "Available temperature units in Rheonics SRV and SRD include Celsius (°C), Kelvin (K), and Fahrenheit (°F).",
+        "Measuring temperature in quality control is essential for ensuring consistent material composition and adherence to standards.",
+        "Temperature is a vital factor for calculating fluid density with the SRD sensor.",
+        "Accurate temperature control improves customer satisfaction by ensuring reliable and high-quality products.",
+        "In industries like pharmaceutical and food, accurate temperature measurement is critical for ensuring product safety for consumption."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "abs(t) in tolerance formulas refers to the absolute value of temperature in °C without regard to its sign.",
+        "For more information about the tolerance class and how to read it, refer to the article: How to read the tolerance from the Pt1000 on Rheonics Sensors? (https://support.rheonics.com/en/support/solutions/articles/81000407486-how-to-read-the-tolerance-from-the-pt1000-on-rheonics-sensors-)"
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1255,
+        "cost_usd": 0.0032773
+      },
+      "source_file": "126_Temperature_units_supported_on_SRV_and_SRD.pdf"
+    },
+    {
+      "page_summary": "This page presents a list of six technical references related to the importance of temperature measurement, field devices, and Rheonics sensors.",
+      "document_type": "manual",
+      "product_names": [
+        "Pt1000",
+        "Rheonics Sensors"
+      ],
+      "extracted_text": "References:\n[1] The Importance of Measuring Temperature Accurately to Ensure your Product is Safe - URS Testings Laboratory LLC (https://urslabs.com/blog/the-importance-of-measuring-temperature-accurately-to-ensure-your-product-is-safe/#:~:text=Industries%20that%20rely%20on%20precise,product%20is%20safe%20for%20consumption.)\n[2] Why Does Temperature Measurement Matter for Oil? (https://www.petro-online.com/news/flow-level-pressure/12/breaking-news/why-does-temperature-measurement-matter-for-oil/55447)\n[3] The Importance of Temperature Measurement and Various Devices for Accurate Results | Comptus (https://www.comptus.com/importance-of-temperature-measurement-and-various-devices-used-for-it/)\n[4] Units translation table for field devices (https://support.rheonics.com/en/support/solutions/articles/81000393237-units-translation-table-for-field-devices)\n[5] How to read the tolerance from the Pt1000 on Rheonics Sensors? (https://support.rheonics.com/en/support/solutions/articles/81000407486-how-to-read-the-tolerance-from-the-pt1000-on-rheonics-sensors-)\n[6] PT1000 (https://www.fuehlersysteme.de/wiki/pt100)",
+      "specifications": {},
+      "key_facts": [
+        "Accurate temperature measurement is crucial for ensuring product safety.",
+        "Temperature measurement is significant for applications involving oil.",
+        "Various devices are employed to achieve accurate temperature measurement results.",
+        "Rheonics provides a support article for a units translation table relevant to field devices.",
+        "Rheonics offers guidance on how to interpret the tolerance specifications for Pt1000 sensors used in their products."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 579,
+        "cost_usd": 0.0015873
+      },
+      "source_file": "126_Temperature_units_supported_on_SRV_and_SRD.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

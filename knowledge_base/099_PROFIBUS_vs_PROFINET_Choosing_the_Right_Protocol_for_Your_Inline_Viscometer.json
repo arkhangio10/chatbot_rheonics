@@ -1,0 +1,129 @@
+{
+  "source_file": "099_PROFIBUS_vs_PROFINET_Choosing_the_Right_Protocol_for_Your_Inline_Viscometer.pdf",
+  "total_pages": 3,
+  "chunks": [
+    {
+      "page_summary": "This document compares PROFIBUS and PROFINET communication protocols, outlining their technical differences and guiding the choice of protocol for integrating Rheonics inline viscometers and density sensors into industrial processes.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "Rheonics SRV viscometer",
+        "SRD density-viscosity meter",
+        "DVP gas density-viscosity meter",
+        "DVM HPHT density-viscosity meter",
+        "Rheonics inline viscometers",
+        "Rheonics sensors"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nPROFIBUS vs PROFINET: Choosing the Right Protocol for Your Inline Viscometer\nModified on: Mon, 7 Apr, 2025 at 5:28 PM\n\nWhat products are involved?\nRheonics SRV viscometer (https://rheonics.com/products/inline-viscometer-srv/), SRD density-viscosity meter (https://rheonics.com/products/inline-density-meter-srd/), DVP gas density-viscosity meter (https://rheonics.com/products/inline-gas-lng-density-meter-dvp/) and DVM HPHT density-viscosity meter (https://rheonics.com/products/hpht-pvt-density-meter-viscometer-dvm/)\n\nWhat is the purpose of this article?\nThis article describes the differences between PROFIBUS (https://support.rheonics.com/en/support/solutions/articles/81000417048) and PROFINET (https://support.rheonics.com/en/support/solutions/articles/81000410678), and how Rheonics inline viscometers can be integrated into a customer's process using these protocols.\n\nTABLE OF CONTENTS\n1. Overview\n2. PROFIBUS and PROFINET Technical Comparison\n3. Why PROFINET is Ideal for Modern Inline Viscometer Applications\n    3.1 Leveraging Ethernet Technology\n    3.2 Full-Duplex Communication\n    3.3 Flexible Topologies for Scalability and Redundancy\n4. When to Choose PROFIBUS for Your Inline Viscometer\n5. References\n\n1. Overview\nRheonics inline viscometers deliver fluid intelligence and precise process control across various industrial applications. Equipped with Sensor Module Electronics (SME) (https://rheonics.com/electronics-and-communication/), Rheonics sensors support seamless communication with major industrial protocols, including PROFIBUS (https://support.rheonics.com/en/support/solutions/articles/81000417048) and PROFINET (https://support.rheonics.com/en/support/solutions/articles/81000410678). These two industrial communication protocols widely used in automation systems. Both were developed and are maintained by the same organization: PROFIBUS & PROFINET International (PI) (https://www.profibus.com/).\n\nFigure 1. PI International\n\n2. PROFIBUS and PROFINET Technical Comparison\nThe decision between PROFIBUS and PROFINET impacts not only system architecture and performance but also hardware compatibility, determining which sensors, actuators, or devices can be efficiently integrated in a process. Table 1 outlines the key technical differences between these two protocols.\n\nTable 1: PROFIBUS vs PROFINET\n\nFeature | PROFIBUS | PROFINET\nPhysical Layer | RS-485 / MBP | Ethernet\nSpeed | Up to 12 Mbit/s | 100 Mbit/s to 1 Gbit/s+\nCommunication Model | Master/Slave | Provider/Consumer (Full Duplex)\nConnectors | DB9, M12 | RJ45, M12, BFOC (fiber)\nTelegram Size | Up to 244 bytes | Up to 1440 bytes (cyclic)\nMax Devices | 127 (addressed 1–127) | Practically unlimited",
+      "specifications": {
+        "PROFIBUS_Physical_Layer": "RS-485 / MBP",
+        "PROFIBUS_Speed": "Up to 12 Mbit/s",
+        "PROFIBUS_Communication_Model": "Master/Slave",
+        "PROFIBUS_Connectors": "DB9, M12",
+        "PROFIBUS_Telegram_Size": "Up to 244 bytes",
+        "PROFIBUS_Max_Devices": "127 (addressed 1–127)",
+        "PROFINET_Physical_Layer": "Ethernet",
+        "PROFINET_Speed": "100 Mbit/s to 1 Gbit/s+",
+        "PROFINET_Communication_Model": "Provider/Consumer (Full Duplex)",
+        "PROFINET_Connectors": "RJ45, M12, BFOC (fiber)",
+        "PROFINET_Telegram_Size": "Up to 1440 bytes (cyclic)",
+        "PROFINET_Max_Devices": "Practically unlimited"
+      },
+      "key_facts": [
+        "The document was modified on Monday, April 7, 2025, at 5:28 PM.",
+        "Rheonics inline viscometers deliver fluid intelligence and precise process control across various industrial applications.",
+        "Rheonics sensors are equipped with Sensor Module Electronics (SME) for communication.",
+        "PROFIBUS and PROFINET are widely used industrial communication protocols in automation systems.",
+        "Both PROFIBUS and PROFINET were developed and are maintained by PROFIBUS & PROFINET International (PI).",
+        "The choice between PROFIBUS and PROFINET affects system architecture, performance, and hardware compatibility for integrating sensors, actuators, or devices."
+      ],
+      "diagram_labels": [
+        "Figure 1. PI International"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1381,
+        "cost_usd": 0.0035923
+      },
+      "source_file": "099_PROFIBUS_vs_PROFINET_Choosing_the_Right_Protocol_for_Your_Inline_Viscometer.pdf"
+    },
+    {
+      "page_summary": "This page explains why PROFINET is an ideal communication protocol for modern inline viscometer applications, detailing its advantages related to Ethernet technology, full-duplex communication, and flexible network topologies.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SME #1",
+        "Rheonics SME #2"
+      ],
+      "extracted_text": "Wireless | Possible* | IEEE 802.11, Bluetooth supported\nTopologies | Bus (daisy-chain), Tree | Line, Star, Tree, Ring\nAddressing | DIP switches or software | IP, MAC, Device Name\nDevice Roles | Fixed (master/slave) | Flexible (any can be provider/consumer)\n\n*Not in the specification, but there are solutions available\n\n3. Why PROFINET is Ideal for Modern Inline Viscometer Applications\n\n3.1 Leveraging Ethernet Technology\n\nPROFINET’s major advantage for inline viscometer systems lies in its foundation on standard Ethernet (https://support.rheonics.com/en/support/solutions/articles/81000300292). It continuously benefits from advancements in Ethernet technology:\n* Higher bandwidth capabilities\n* Enhanced data packet handling (up to 1440 bytes cyclically)\n* Practically unlimited connectivity for devices. Adding more devices to the network is as easy as adding an Ethernet switch\n\nFigure 2. PROFINET Network. Image Sourced from RealPars.\n\nOriginally introduced with 100 Mbit/s Ethernet, PROFINET today effortlessly supports Gigabit and even higher Ethernet speeds thanks to Ethernet\n\n3.2 Full-Duplex Communication\n\nUnlike PROFIBUS’s half-duplex master/slave approach, PROFINET’s full-duplex provider/consumer communication significantly reduces latency. This is great for processes requiring fast and reliable data transmission.\n\n3.3 Flexible Topologies for Scalability and Redundancy\n\nPROFINET supports diverse network topologies, including star, ring, and tree configurations, providing inline viscometer installations with:\n* Superior redundancy\n* Easy scalability\n* Increased adaptability to evolving industrial environments\n\nFigure 3. Rheonics SME in a Star Topology Ethernet Network",
+      "specifications": {
+        "Wireless standards supported": "IEEE 802.11, Bluetooth",
+        "Data packet handling capacity": "1440 bytes cyclically",
+        "Original PROFINET Ethernet speed": "100 Mbit/s",
+        "Current PROFINET Ethernet speed capability": "Gigabit and higher"
+      },
+      "key_facts": [
+        "PROFINET's major advantage for inline viscometer systems is its foundation on standard Ethernet.",
+        "PROFINET continuously benefits from advancements in Ethernet technology, offering higher bandwidth capabilities and enhanced data packet handling.",
+        "PROFINET allows practically unlimited connectivity for devices, making network expansion as simple as adding an Ethernet switch.",
+        "PROFINET was originally introduced with 100 Mbit/s Ethernet but now effortlessly supports Gigabit and even higher Ethernet speeds.",
+        "PROFINET utilizes full-duplex provider/consumer communication, which significantly reduces latency compared to PROFIBUS's half-duplex master/slave approach.",
+        "PROFINET's full-duplex communication is beneficial for processes requiring fast and reliable data transmission.",
+        "PROFINET supports diverse network topologies, including star, ring, and tree configurations.",
+        "Flexible PROFINET topologies provide inline viscometer installations with superior redundancy, easy scalability, and increased adaptability to evolving industrial environments.",
+        "Wireless support for PROFINET is possible, even if not explicitly in the specification, with available solutions.",
+        "PROFINET supports topologies like Line, Star, Tree, and Ring, in addition to Bus (daisy-chain) and Tree.",
+        "PROFINET addressing can be managed via IP, MAC, Device Name, or alternatively with DIP switches or software.",
+        "PROFINET device roles are flexible, allowing any device to be a provider or consumer, contrasting with fixed master/slave roles."
+      ],
+      "diagram_labels": [
+        "PROFINET",
+        "Standard Ethernet Switch",
+        "IE/PB LINK",
+        "REALPARS",
+        "Figure 2. PROFINET Network. Image Sourced from RealPars.",
+        "Ethernet Switch",
+        "Rheonics SME #1",
+        "Rheonics SME #2",
+        "Figure 3. Rheonics SME in a Star Topology Ethernet Network"
+      ],
+      "warnings_notes": [
+        "Not in the specification, but there are solutions available (referring to Wireless PROFINET).",
+        "Image Sourced from RealPars (for Figure 2)."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1079,
+        "cost_usd": 0.0028373
+      },
+      "source_file": "099_PROFIBUS_vs_PROFINET_Choosing_the_Right_Protocol_for_Your_Inline_Viscometer.pdf"
+    },
+    {
+      "page_summary": "This page explains why PROFIBUS remains relevant for integrating Rheonics inline viscometer systems into legacy PLCs via a gateway and provides references for further information on PROFIBUS and PROFINET integration.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "Rheonics inline viscometer systems",
+        "Rheonics SME",
+        "Rheonics viscometers",
+        "Rheonics sensors",
+        "Gateway (MGate 5111)",
+        "PROFIBUS Master (S7-400)"
+      ],
+      "extracted_text": "To learn more about integrating Rheonics inline viscometer systems with PROFINET, read our article: Taking the PROFINET road with Rheonics SME. (https://support.rheonics.com/en/support/solutions/articles/81000411227)\n\n4. When to Choose PROFIBUS for Your Inline Viscometer\n\nWhile PROFINET offers clear advantages for new projects, PROFIBUS remains relevant for applications that involve maintaining or integrating a device to legacy systems. Rheonics' sensors can be integrated into a PROFIBUS network using a gateway.\n\nFigure 4 shows a Rheonics SME communicating via PROFIBUS to a customer's PLC using a PROFIBUS Gateway.\n\nFigure 4. Modbus TCP - PROFIBUS Gateway\n\nContact Rheonics Support to know more on how to integrate Rheonics Inline Viscometers to your process using PROFIBUS (https://support.rheonics.com/en/support/solutions/articles/81000417048).\n\n5. References\n\n1. \"The Difference between PROFIBUS and PROFINET,\" PI North America, Jun. 10, 2020. [Online]. Available: https://us.profinet.com/the-difference-between-profibus-and-profinet/. [Accessed: Mar. 31, 2025].\n2. J. Wilson, \"What is the difference between PROFIBUS and PROFINET?,\" RealPars, Nov. 19, 2018. [Online]. Available: https://realpars.com/profibus-vs-profinet/. [Accessed: Apr. 2, 2025].\n3. \"PROFIBUS Fundamentals,\" Rheonics Support. [Online]. Available: https://support.rheonics.com/en/support/solutions/articles/81000417048-profibus-fundamentals. [Accessed: Mar. 31, 2025].\n4. \"PROFINET Fundamentals,\" Rheonics Support. [Online]. Available: https://support.rheonics.com/en/support/solutions/articles/81000410678-profinet-fundamentals. [Accessed: Mar. 31, 2025].\n5. \"PROFIBUS Integration of Rheonics Devices using TIA Portal,\" Rheonics Support. [Online]. Available: https://support.rheonics.com/en/support/solutions/articles/81000416425-profibus-integration-of-rheonics-devices-using-tia-portal. [Accessed: Mar. 31, 2025].",
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 764,
+        "cost_usd": 0.0020498
+      },
+      "source_file": "099_PROFIBUS_vs_PROFINET_Choosing_the_Right_Protocol_for_Your_Inline_Viscometer.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

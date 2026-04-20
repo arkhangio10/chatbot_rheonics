@@ -1,0 +1,71 @@
+{
+  "source_file": "SRV_NPT.pdf",
+  "total_pages": 1,
+  "chunks": [
+    {
+      "page_summary": "A technical drawing providing dimensional specifications and connectivity details for the Rheonics SRV NPT inline viscometer/density sensor.",
+      "document_type": "drawing",
+      "product_names": [
+        "SRV NPT"
+      ],
+      "extracted_text": "rheonics\npatented swiss made\nM12\n8 pin Male\nΦ30.0 [1.18\"]\n3/4\" NPT thread\nΦ16.0 [0.63\"]\nΦ5.0 [0.20\"]\nΦ8 [0.32\"]\n56,4 [ 2.22 ]\n21 [ 0.83 ]\n133,1 [ 5.24 ]\n31,9 [ 1.26 ]\n36,6 [ 1.44 ]\n45,7 [ 1.80 ]\n55,7 [ 2.19 ]\nSRV NPT\nThis drawing remains property of rheonics. It may be neither copied nor informed to third persons or competitors without our approval. ( 2 paragraph 1 fig.7 copyright act of 9th Sept. 1965)\nProtected by US and International patents granted and pending\nrheonics • Switzerland • USA • www.rheonics.com • info@rheonics.com +41 52 511 32 00 +1 713 364 5427\nrheonics\ninline process\ndensity and viscosity\nmonitoring",
+      "specifications": {
+        "Connector Type": "M12 8 pin Male",
+        "Mounting Thread": "3/4\" NPT thread",
+        "Sensor Body Diameter": "30.0 mm [1.18 in]",
+        "Hexagonal Body Width (across flats)": "31.9 mm [1.26 in]",
+        "Overall Sensor Length": "133.1 mm [5.24 in]",
+        "Probe Length (from bottom of thread)": "55.7 mm [2.19 in]",
+        "Probe Shaft Diameter (main)": "5.0 mm [0.20 in]",
+        "Probe Tip Diameter": "8.0 mm [0.32 in]",
+        "Threaded Section Outer Diameter": "16.0 mm [0.63 in]",
+        "Length of Threaded Section": "21.0 mm [0.83 in]",
+        "Length of Body Above Thread": "56.4 mm [2.22 in]",
+        "Length from Bottom of Thread to Probe Tip Taper Start": "45.7 mm [1.80 in]",
+        "Maximum Width of Top Part (top view)": "36.6 mm [1.44 in]"
+      },
+      "key_facts": [
+        "The Rheonics SRV NPT sensor is designed for inline process density and viscosity monitoring.",
+        "The sensor features an M12 8-pin male electrical connector.",
+        "It uses a 3/4\" NPT thread for mounting.",
+        "Rheonics products are patented in the US and internationally.",
+        "Rheonics operates in Switzerland and USA."
+      ],
+      "diagram_labels": [
+        "rheonics (on sensor body)",
+        "patented swiss made (on sensor body)",
+        "M12",
+        "8 pin Male",
+        "Φ30.0 [1.18\"]",
+        "3/4\" NPT thread",
+        "Φ16.0 [0.63\"]",
+        "Φ5.0 [0.20\"]",
+        "Φ8 [0.32\"]",
+        "56,4 [ 2.22 ]",
+        "21 [ 0.83 ]",
+        "133,1 [ 5.24 ]",
+        "31,9 [ 1.26 ]",
+        "36,6 [ 1.44 ]",
+        "45,7 [ 1.80 ]",
+        "55,7 [ 2.19 ]"
+      ],
+      "warnings_notes": [
+        "This drawing remains property of rheonics. It may be neither copied nor informed to third persons or competitors without our approval. ( 2 paragraph 1 fig.7 copyright act of 9th Sept. 1965)",
+        "Protected by US and International patents granted and pending"
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1050,
+        "cost_usd": 0.0027647999999999995
+      },
+      "source_file": "SRV_NPT.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

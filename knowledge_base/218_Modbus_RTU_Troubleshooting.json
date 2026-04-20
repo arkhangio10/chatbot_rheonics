@@ -1,0 +1,271 @@
+{
+  "source_file": "218_Modbus_RTU_Troubleshooting.pdf",
+  "total_pages": 4,
+  "chunks": [
+    {
+      "page_summary": "This page provides troubleshooting steps for Modbus RTU serial communication settings, detailing factory default parameters and illustrating them with a configuration screenshot.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Phone: +1 713 234 0863\n\nModbus RTU Troubleshooting\n\nModified on: Thu, 29 Feb, 2024 at 6:59 PM\n\n1.MODBUS RTU TROUBLESHOOTING\n\n1.1.Verify the Baud Rate, Stop Bits, Data Bits and Parity.\nFactory default settings of Modbus parameters:\naddress=1\nbaudrate=38400\nparity=odd\n\nModbus RTU (RS-485) Interface:\n  Modbus Address: 1\n  Baud Rate: 38400\n  Parity: ODD\n\nFigure 1. Troubleshooting serial settings",
+      "specifications": {
+        "Phone Number": "+1 713 234 0863",
+        "Last Modified Date": "Thu, 29 Feb, 2024",
+        "Last Modified Time": "6:59 PM",
+        "Modbus Address Default": "1",
+        "Modbus Baud Rate Default": "38400",
+        "Modbus Parity Default": "ODD"
+      },
+      "key_facts": [
+        "The document outlines troubleshooting steps for Modbus RTU communication.",
+        "The factory default settings for Modbus parameters are: address=1, baud rate=38400, and parity=odd.",
+        "Users should verify the Baud Rate, Stop Bits, Data Bits, and Parity settings during troubleshooting.",
+        "The document was last modified on Thursday, February 29, 2024, at 6:59 PM."
+      ],
+      "diagram_labels": [
+        "Modbus RTU (RS-485)",
+        "Modbus Address",
+        "Baud Rate",
+        "Parity",
+        "Figure 1. Troubleshooting serial settings"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 525,
+        "cost_usd": 0.0014523
+      },
+      "source_file": "218_Modbus_RTU_Troubleshooting.pdf"
+    },
+    {
+      "page_summary": "This page provides troubleshooting instructions for RS485 Modbus communication and showcases the 'Communication' tab of the Rheonics Control Panel software, detailing various configuration and operational parameters.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics",
+        "SME-TRD"
+      ],
+      "extracted_text": "1.2. Check reversed polarity on rs485 lines, swap wire A and B.\n\nFigure 2. Troubleshooting reverse polarity\n\n1.3. Slave Address: With RS485 RTU you can daisy chain up to 32 Slave devices (don't forget termination). For Modbus RTU Master, make sure that all Slave device addresses match what the master is trying to connect to. The slave address can be set in the RCP in the “Communication” Tab.\n\nRheonics Control Panel 5.3.1.6\n\nMeasurement\nEvents\nSettings\nService\nCommunication\nLogger\nHelp\n\nModbus RTU (RS-485)\nModbus Address\n1\nBaud Rate\n38400\nParity\nODD\n\nLCD Display (SME-TRD Only)\nParameter\nResolution\nLine 1\nViscosity\n0.00\nLine 2\nDensity\n0.000\nLine 3\nTemperature\n0.00\n\nWrite and Update\nWrite Config\nLoad Config\n\nEthernet\nEthernet MAC\n70:B3:D5:D2:03:92\nDHCP\nFalse\nIP\n192.168.8.20\nSubnet\n255.255.255.0\nGateway IP\n192.168.8.20\nDNS\n192.168.8.20\nTerminal Port\n10001\n\nLocation ID\nLocation ID\nLocation Name\nLatitude\n0.000000\nLongitude\n0.000000\nAltitude\n0\n\nOperation History\nRTC Time\n01/11/21 21:14:36\nSupply Voltage\n23.61 V\nLast power Reset\n27/10/21 14:28:31\nSME Temp\n9.80 °C\nMax. Sensor Temp. Exposure\n35.70 °C\nMax. SME Temp. Exposure\n40.78 °C\n\nBluetooth LTE 4.0\nMAC\n70:B3:D5:D2:03:92\n\nFigure 3. Troubleshooting slave address.",
+      "specifications": {
+        "Modbus Address": "1",
+        "Baud Rate": "38400",
+        "Parity": "ODD",
+        "LCD Display Line 1 Parameter": "Viscosity",
+        "LCD Display Line 1 Resolution": "0.00",
+        "LCD Display Line 2 Parameter": "Density",
+        "LCD Display Line 2 Resolution": "0.000",
+        "LCD Display Line 3 Parameter": "Temperature",
+        "LCD Display Line 3 Resolution": "0.00",
+        "Ethernet MAC": "70:B3:D5:D2:03:92",
+        "DHCP": "False",
+        "IP": "192.168.8.20",
+        "Subnet": "255.255.255.0",
+        "Gateway IP": "192.168.8.20",
+        "DNS": "192.168.8.20",
+        "Terminal Port": "10001",
+        "Latitude": "0.000000",
+        "Longitude": "0.000000",
+        "Altitude": "0",
+        "RTC Time": "01/11/21 21:14:36",
+        "Supply Voltage": "23.61 V",
+        "Last power Reset": "27/10/21 14:28:31",
+        "SME Temp": "9.80 °C",
+        "Max. Sensor Temp. Exposure": "35.70 °C",
+        "Max. SME Temp. Exposure": "40.78 °C",
+        "Bluetooth LTE 4.0 MAC": "70:B3:D5:D2:03:92"
+      },
+      "key_facts": [
+        "Reversed polarity on RS485 lines can be troubleshooted by swapping wires A and B.",
+        "Up to 32 Modbus RTU Slave devices can be daisy-chained on RS485 RTU, but termination is required.",
+        "For Modbus RTU Master communication, all Slave device addresses must match the master's configuration.",
+        "Slave addresses and other communication settings are configured in the 'Communication' tab of the Rheonics Control Panel (RCP) software version 5.3.1.6.",
+        "The Rheonics Control Panel allows configuration of Modbus RTU parameters, LCD display outputs (Viscosity, Density, Temperature), Ethernet network settings, and geographical location ID.",
+        "Operation History logs RTC Time, Supply Voltage, Last power Reset time, current SME Temperature, and maximum recorded Sensor and SME Temperature Exposures.",
+        "The system provides Bluetooth LTE 4.0 connectivity with a specified MAC address."
+      ],
+      "diagram_labels": [
+        "A",
+        "B",
+        "24 VDC",
+        "gnd",
+        "modbus (rs485)",
+        "usb",
+        "sd-card",
+        "4-20 mA output",
+        "display",
+        "reset",
+        "Rheonics",
+        "NK",
+        "inverter",
+        "communication",
+        "D",
+        "C",
+        "S",
+        "P",
+        "gnd",
+        "ch1",
+        "ch2",
+        "ch3",
+        "Measurement",
+        "Events",
+        "Settings",
+        "Service",
+        "Communication",
+        "Logger",
+        "Help",
+        "Modbus RTU (RS-485)",
+        "Modbus Address",
+        "Baud Rate",
+        "Parity",
+        "LCD Display (SME-TRD Only)",
+        "Parameter",
+        "Resolution",
+        "Line 1",
+        "Viscosity",
+        "Line 2",
+        "Density",
+        "Line 3",
+        "Temperature",
+        "Write and Update",
+        "Write Config",
+        "Load Config",
+        "Ethernet",
+        "Ethernet MAC",
+        "DHCP",
+        "IP",
+        "Subnet",
+        "Gateway IP",
+        "DNS",
+        "Terminal Port",
+        "Location ID",
+        "Location ID",
+        "Location Name",
+        "Latitude",
+        "Longitude",
+        "Altitude",
+        "Operation History",
+        "RTC Time",
+        "Supply Voltage",
+        "Last power Reset",
+        "SME Temp",
+        "Max. Sensor Temp. Exposure",
+        "Max. SME Temp. Exposure",
+        "Bluetooth LTE 4.0",
+        "MAC"
+      ],
+      "warnings_notes": [
+        "When daisy-chaining up to 32 RS485 RTU Slave devices, remember termination."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1815,
+        "cost_usd": 0.0046773
+      },
+      "source_file": "218_Modbus_RTU_Troubleshooting.pdf"
+    },
+    {
+      "page_summary": "This page provides troubleshooting guidance for RS485 MODBUS network setup, communication speed, cable routing, and Cyclic Redundancy Check (CRC) errors, including network topology and baud rate vs. cable length diagrams.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics transmitter"
+      ],
+      "extracted_text": "1.4. Make sure the biasing resistors and termination resistors and proper setup for the RS485 network is installed.\n\nFigure 4. Troubleshooting network topology\n\n1.5. Check that slave device is enabled for Modbus communication, this must be done by our Rheonics agent.\n(https://support.rheonics.com/support/solutions/articles/81000390438-updating-sensor-configuration)\n(https://support.rheonics.com/support/solutions/articles/81000390438-updating-sensor-configuration)\n\n1.6. Use the speed that is necessary for the application, the following picture is a good reference to select the speed, this will help in having a more efficient communication.\n\nFigure 5. Troubleshooting speed\n\n1.7. Routing cables for communication with power cables, the best option for communication wires is to use Shielded & twisted pair RS485 cable is always recommended\n\n2. CRC ERRORS\n\nIt usually means that the device is at least recognizing bit activity on the network line, however the bits probably make no sense to the device. If getting these errors check the following:\n* Check baud rate and character format.\n* Check wiring – if everything else is correct, CRC errors mean noise on the line.\n* Check for reversed polarity on RS485 lines. Reversed polarity often looks like just noise.",
+      "specifications": {
+        "RS485_bus_length_max": "1000 meters",
+        "RS485_stub_length_max": "20 meters",
+        "termination_resistor_value": "120 Ohm",
+        "biasing_resistor_value": "680 Ohm",
+        "power_supply_voltage_bias": "+5V",
+        "power_supply_voltage_master": "24V",
+        "cable_length_max": "1200 meters",
+        "baud_rate_min": "1k bps",
+        "baud_rate_max": "10M bps"
+      },
+      "key_facts": [
+        "Proper biasing and termination resistors are essential for RS485 network setup.",
+        "Slave devices require enabling for Modbus communication by a Rheonics agent.",
+        "Selecting the appropriate communication speed is crucial for efficient communication.",
+        "Shielded and twisted pair RS485 cable is the recommended option for communication wires, especially when routed with power cables.",
+        "CRC errors indicate that the device detects network activity but the data is uninterpretable.",
+        "Common causes for CRC errors include incorrect baud rate, incorrect character format, wiring issues causing noise, or reversed RS485 line polarity."
+      ],
+      "diagram_labels": [
+        "Rheonics transmitter",
+        "RS485 MODBUS",
+        "V+",
+        "V-",
+        "A+",
+        "B-",
+        "GND",
+        "Bus < 1000m",
+        "120 Ohm",
+        "Stub < 20m",
+        "MODBUS slave",
+        "+5V",
+        "680 Ohm",
+        "MODBUS master",
+        "24V",
+        "DO NOT CONNECT EARTH TO GND for marine applications",
+        "Figure 4. Troubleshooting network topology",
+        "Cable length (meters)",
+        "Baud Rate (bps)",
+        "1",
+        "10",
+        "100",
+        "1000",
+        "1200",
+        "1k",
+        "10k",
+        "100k",
+        "1M",
+        "10M",
+        "Figure 5. Troubleshooting speed"
+      ],
+      "warnings_notes": [
+        "DO NOT CONNECT EARTH TO GND for marine applications.",
+        "Shielded & twisted pair RS485 cable is always recommended.",
+        "If everything else is correct, CRC errors mean noise on the line.",
+        "Reversed polarity often looks like just noise."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1022,
+        "cost_usd": 0.0026948
+      },
+      "source_file": "218_Modbus_RTU_Troubleshooting.pdf"
+    },
+    {
+      "page_summary": "This page provides information on Modbus debugging tools, specifically introducing Modbus Poll as a master simulator and providing a download link, along with a recommendation for Pre-Delay settings.",
+      "document_type": "manual",
+      "product_names": [
+        "Modbus Poll"
+      ],
+      "extracted_text": "- Check to see that Pre-Delay is at least 50 mS.\n\n3. MODBUS DEBUGGING TOOLS\n\nModbus Poll is a Modbus master simulator designed primarily to help developers of Modbus slave devices or others that want to test and simulate the Modbus protocol.\nhttps://www.dropbox.com/sh/lv76vwm5lnpy79b/AACL7dhglydyX_QcV7GK5Ir1a?dl=0\n(https://www.dropbox.com/sh/lv76vwm5lnpy79b/AACL7dhglydyX_QcV7GK5Ir1a?dl=0)",
+      "specifications": {
+        "Pre-Delay minimum": "50 mS"
+      },
+      "key_facts": [
+        "Modbus Poll is a Modbus master simulator designed to help developers of Modbus slave devices or others test and simulate the Modbus protocol.",
+        "A download link for Modbus Poll is provided via Dropbox."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Check to see that Pre-Delay is at least 50 mS."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 351,
+        "cost_usd": 0.0010173
+      },
+      "source_file": "218_Modbus_RTU_Troubleshooting.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

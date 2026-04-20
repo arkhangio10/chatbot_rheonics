@@ -1,0 +1,115 @@
+{
+  "source_file": "216_4-20mA_Troubleshooting.pdf",
+  "total_pages": 2,
+  "chunks": [
+    {
+      "page_summary": "This document provides a troubleshooting guide for 4-20mA channels of Rheonics sensors, covering common issues and their possible solutions related to electronics, probes, communication, and data reading.",
+      "document_type": "manual",
+      "product_names": [
+        "SME (Smart Module Electronics)",
+        "SRV (inline-viscometer-srv)",
+        "SRD (inline-density-meter-srd)",
+        "DVP (inline-gas-lng-density-meter-dvp)",
+        "DVM (hpht-pvt-density-meter-viscometer-dvm)",
+        "Rheonics sensors",
+        "SME-TRD display",
+        "RCP (Rheonics Control Panel)"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\n4-20mA Troubleshooting\n\nModified on: Thu, 31 Oct, 2024 at 5:28 PM\n\nWhat products are involved in this article?\n\nThis article is based on the use of the SME (Smart Module Electronics) from SRV (https://rheonics.com/products/inline-viscometer-srv/), SRD (https://rheonics.com/products/inline-density-meter-srd/), DVP (https://rheonics.com/products/inline-gas-lng-density-meter-dvp/) and DVM (https://rheonics.com/products/hpht-pvt-density-meter-viscometer-dvm/), using its 4-20mA ports. Hence it can be used for any of these Rheonics sensors.\n\nWhat is the purpose of this article?\n\nIndicate frequent problems and possible solutions, that the user can encounter when trying to read signals through the 4-20mA channels from the SME.\n\nIssue | Possible Solution\n--- | ---\n**Electronics** | \nNo LED lights, display, or output signals are shown in the SME-TRD display. | Check the power supply and cabling.\n**Probe** | \nWrong or no values are shown on the RCP. | Verify correct cabling from sensor to SME. https://support.rheonics.com/en/support/solutions/articles/81000297454-connecting-sensor-cable-colored-wires-to-transmitter-electronics\n | Check for error texts on the RCP. https://support.rheonics.com/en/support/solutions/articles/81000393091-sensor-error-status-and-parameter-status\n**Communication** | \nAnalog Signals output is 0mA | Check correct values on RCP\n | Check wires between SME and Analog reader.\n | Ensure that 4-20mA communication was enabled before ordering.\n | Verify 4-20mA settings in the service tab on RCP\nAnalog signals are less than 2mA | The power supply is lower than the minimum required for the SME.\n**Data reading** |",
+      "specifications": {},
+      "key_facts": [
+        "This troubleshooting article is applicable to Rheonics SRV, SRD, DVP, and DVM sensors using their 4-20mA ports and the SME (Smart Module Electronics).",
+        "The article aims to provide solutions for common problems encountered when reading signals via 4-20mA channels from the SME.",
+        "Issues covered include problems with electronics (no display/output), probes (incorrect/no values on RCP), communication (0mA or less than 2mA analog output), and data reading.",
+        "Specific support articles are linked for verifying sensor cabling and checking sensor error/parameter status on the RCP.",
+        "For 0mA analog signal output, users are advised to check RCP values, wiring between SME and analog reader, 4-20mA communication enablement (before ordering), and 4-20mA settings in the RCP's service tab.",
+        "If analog signals are less than 2mA, a common cause is a power supply lower than the minimum required for the SME."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 953,
+        "cost_usd": 0.0025223
+      },
+      "source_file": "216_4-20mA_Troubleshooting.pdf"
+    },
+    {
+      "page_summary": "This page provides troubleshooting steps for common issues encountered with Rheonics sensors' readings and 4-20mA analog output, along with supplementary support resources.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Sensors",
+        "SME",
+        "RCP"
+      ],
+      "extracted_text": {
+        "troubleshooting_guide": [
+          {
+            "issue": "Not enough decimal points in my readings.",
+            "action": "Verify the resolution from the analog reader and scale range of the analog output. 4-20mA can't ensure the same amount of decimal points such other communication protocols."
+          },
+          {
+            "issue": "The measured viscosity value is different from my reference standards.",
+            "action": "Viscosity values from Rheonics Sensors should not be expected to match laboratory instruments."
+          },
+          {
+            "issue": "The measured temperature value is different from my reference standards.",
+            "action": "Temperature is measured with an internal PT1000, check resistance values with the Sensor Diagnostic Sheet."
+          },
+          {
+            "issue": "The values read are very oscillating and not stable.",
+            "action": "Ensure the analog cable from the SME to the analog reader is shielded, especially if the environment has mechanical or electrical noise. Check article: https://support.rheonics.com/en/support/solutions/articles/81000408323-best-practices-for-cabling-installation"
+          },
+          {
+            "issue": "Readings are increasing with time.",
+            "action": "Verify that the same behavior is shown in the RCP to discard problems with analog signal cables. Check if deposits are formed around the sensor probe in line."
+          },
+          {
+            "issue": "Values don't go higher than a fixed value.",
+            "action": "Check 4-20mA settings on RCP, and verify maximum value."
+          },
+          {
+            "issue": "Analog signals differ from those read by the analog reader and those shown on the RCP.",
+            "action": "Verify that the 4-20mA range set on the RCP is the same as the analog reader. Do a calibration check for the SME analog outputs on the RCP."
+          }
+        ],
+        "resources_section_title": "Resources:",
+        "resources_list": [
+          "1. What can go wrong with 4 - 20mA loops? (https://support.rheonics.com/en/support/solutions/articles/81000397120)",
+          "2. Connecting 4-20 mA outputs (https://support.rheonics.com/en/support/solutions/articles/81000297457)",
+          "3. How to diagnose and fix your 4-20mA channel output data inconsistency? (https://support.rheonics.com/en/support/solutions/articles/81000416074)"
+        ]
+      },
+      "specifications": {
+        "current_output_range": "4-20mA",
+        "temperature_sensor_type": "PT1000"
+      },
+      "key_facts": [
+        "4-20mA communication protocols may not provide the same number of decimal points as other communication protocols.",
+        "Rheonics Sensors use an internal PT1000 for temperature measurement.",
+        "The 4-20mA range configured on the RCP must match that of the analog reader for accurate signal interpretation."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Viscosity values from Rheonics Sensors should not be expected to precisely match those from laboratory instruments.",
+        "Ensure the analog cable from the SME to the analog reader is shielded, especially if the environment has mechanical or electrical noise, to prevent oscillating and unstable readings.",
+        "Deposits forming around the sensor probe in line can cause sensor readings to increase with time.",
+        "If values do not go higher than a fixed value, it is important to check 4-20mA settings on the RCP and verify the maximum value."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 941,
+        "cost_usd": 0.0024923
+      },
+      "source_file": "216_4-20mA_Troubleshooting.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

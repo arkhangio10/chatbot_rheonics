@@ -1,0 +1,189 @@
+{
+  "source_file": "003_Marking_of_Rheonics_Sensors.pdf",
+  "total_pages": 3,
+  "chunks": [
+    {
+      "page_summary": "This page provides details about the identifiable markings on Rheonics sensors and the SME transmitter, explaining their location and purpose.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics Sensors",
+        "Rheonics SME",
+        "SME-DRM"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nMarking of Rheonics Sensors\n\nModified on: Mon, 15 Apr, 2024 at 6:08 PM\n\nRheonics ensures that every sensor is labeled with identifiable markings on its housing and probes. These markings are strategically placed to assist customers in quickly locating critical information when troubleshooting or referencing any issues.\n\n1. Transmitter:\n\nThe Rheonics SME is properly labeled in each of its ports to properly indicate the Power input, RS-485 port, sensor LED status, SD card port, display port, analog output signals, Ethernet Port, Sensor connector port, Rheonics Logo and Electronics serial number.\n\n[Image of Rheonics SME transmitter with various ports and labels]\n\nFigure 1. Transmitter markings\n\nAdditionally, the transmitter will have a tag attached to one of its sides with the Sensor serial number and electronics serial number that corresponds to it.",
+      "specifications": {
+        "Power input": "24 v dc",
+        "Modbus": "RS485",
+        "Analog output": "4-20 mA",
+        "Ethernet protocol": "tcp/ip modbus tcp",
+        "Part Number": "PN:1917-BO",
+        "Serial Number": "SN:BFCM-R02-19101399"
+      },
+      "key_facts": [
+        "Rheonics labels every sensor with identifiable markings on its housing and probes.",
+        "These markings are strategically placed to assist customers in quickly locating critical information for troubleshooting or referencing.",
+        "The Rheonics SME transmitter has properly labeled ports for Power input, RS-485, sensor LED status, SD card, display, analog output, Ethernet, and sensor connection.",
+        "The transmitter also features a Rheonics Logo and an Electronics serial number.",
+        "A tag with the Sensor serial number and electronics serial number will be attached to one side of the transmitter."
+      ],
+      "diagram_labels": [
+        "Power Input",
+        "24 v dc",
+        "gnd",
+        "Modbus RTU",
+        "modbus A (RS485) B",
+        "Sensor LED Status",
+        "power",
+        "sensor",
+        "comm.",
+        "data",
+        "Reset Button",
+        "reset",
+        "USB Micro-B",
+        "usb",
+        "SD Card",
+        "SD-card",
+        "Display",
+        "display",
+        "Analog Output",
+        "loop+",
+        "gnd -",
+        "gnd -",
+        "ch1 +",
+        "ch2 +",
+        "ch3 +",
+        "rheonics",
+        "SME-DRM",
+        "Rheonics Logo",
+        "Ethernet Port",
+        "ethernet tcp/ip modbus tcp",
+        "Electronics Serial",
+        "PN:1917-BO/SN:BFCM-R02-19101399",
+        "Sensor Connector Port",
+        "sensor connection",
+        "swiss made",
+        "CE"
+      ],
+      "warnings_notes": [
+        "CE"
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 830,
+        "cost_usd": 0.0022148
+      },
+      "source_file": "003_Marking_of_Rheonics_Sensors.pdf"
+    },
+    {
+      "page_summary": "This page provides details on how to identify Rheonics viscometer and density sensor components by examining their external and internal labels, including specific model and serial numbers.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV Sensor",
+        "SME-DRM",
+        "SME-TRD"
+      ],
+      "extracted_text": "Figure 2. Transmitter label\nSRV Sensor = B09-1194\nSME-DRM = 19101399\n\n2. Sensor probe:\nThe Rheonics sensor probe has the following information marked in its body: Sensor type, Sensor serial number according to purchase order, and the Manufacturer name.\n\nFigure 3. Sensor Probe marking\n(Text visible on probe: rheonics, patented swiss made, Type: SRV, S/N: B09-1194, Rheonics GmbH, Switzerland, CE)\n\n3. SME-TRD-Internal label\nAll Rheonics SME-TRD, inside will have a label with the Sensor serial number, electronics serial number, and display serial number written on it.",
+      "specifications": {},
+      "key_facts": [
+        "The transmitter label specifies the SRV Sensor model number as B09-1194 and the SME-DRM serial number as 19101399.",
+        "Rheonics sensor probes are marked with the sensor type, sensor serial number based on the purchase order, and the manufacturer name.",
+        "An example sensor probe indicates 'Type: SRV' and 'S/N: B09-1194', manufactured by 'Rheonics GmbH Switzerland', and is 'patented swiss made'.",
+        "All Rheonics SME-TRD units contain an internal label detailing the Sensor serial number, electronics serial number, and display serial number."
+      ],
+      "diagram_labels": [
+        "Figure 2. Transmitter label",
+        "Figure 3. Sensor Probe marking",
+        "Rheonics Logo",
+        "Serial Number QR",
+        "Probe Type",
+        "Serial Number",
+        "Manufacturer Name",
+        "CE Logo"
+      ],
+      "warnings_notes": [
+        "CE Logo (indicates compliance with European standards)."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 531,
+        "cost_usd": 0.0014673000000000002
+      },
+      "source_file": "003_Marking_of_Rheonics_Sensors.pdf"
+    },
+    {
+      "page_summary": "This page displays an image of a Rheonics inline sensor enclosure, highlighting its internal electronics, various labels containing product specifications, serial numbers, and connection details.",
+      "document_type": "manual",
+      "product_names": [
+        "SME-TR(D)",
+        "SME-EM",
+        "SRV Sensor"
+      ],
+      "extracted_text": "Sensor Electronics Serial Number\nrheonics\nVISCOSITY AND DENSITY\nMONITORING AND AUTOMATION\nINPUT: 24 V DC, 0.4 A\nOUTPUT: 4-20 mA\nCOMMUNICATION:\n\tHART\n\tModbus RTU\n\tModbus TCP\n\tModbus Master (RS485)\n\tPROFIBUS\nENCLOSURE: TYPE 4X, IP66\nOPERATING TEMP: -40 to 80 °C (-40 to 176 °F)\nMATERIAL: Aluminium (Coated), Stainless Steel\nP/N: SME-TR(D)\nSN: 191016776\nREV: 1.0\nSwiss made\nCE\nch+\nch-\ngnd\nloop+\nloop-\n4-20 mA output\ndisplay\nusb\nSD-card\nreset\nethernet\nMODBUS (RS-485)\nPOWER 24 V DC\n0 1 2 3 4 5 6 7 8\nsensor connection\nrheonics\nSME-EM\nS/N: 191016776\nSRV Sensor = B09-1194\nSME-TRD = 191016776\nDisplay = S01-0908\nSensor Probe, Electronics and Display Serial Number\nFigure 4. Internal label in SME-TRD that indicates sensor information",
+      "specifications": {
+        "Input Voltage": "24 V DC",
+        "Input Current": "0.4 A",
+        "Output Signal": "4-20 mA",
+        "Enclosure Type": "TYPE 4X",
+        "Enclosure Rating": "IP66",
+        "Operating Temperature": "-40 to 80 °C",
+        "Operating Temperature (Fahrenheit)": "-40 to 176 °F",
+        "Enclosure Material": "Aluminium (Coated)",
+        "Other Material": "Stainless Steel"
+      },
+      "key_facts": [
+        "The device is designed for viscosity and density monitoring and automation.",
+        "It supports multiple communication protocols including HART, Modbus RTU, Modbus TCP, Modbus Master (RS485), and PROFIBUS.",
+        "The product is stated to be 'Swiss made'.",
+        "The SME-TRD electronics unit has a serial number of 191016776.",
+        "The SRV Sensor component has a serial number of B09-1194.",
+        "The display component has a serial number of S01-0908.",
+        "The device provides a 4-20 mA analog output.",
+        "The internal electronics board includes connectivity options such as USB, SD-card, Ethernet, and Modbus (RS-485).",
+        "The device is identified as revision 1.0."
+      ],
+      "diagram_labels": [
+        "Sensor Electronics Serial Number",
+        "Sensor Probe, Electronics and Display Serial Number",
+        "4-20 mA output",
+        "display",
+        "usb",
+        "SD-card",
+        "reset",
+        "ethernet",
+        "MODBUS (RS-485)",
+        "POWER 24 V DC",
+        "sensor connection",
+        "ch+",
+        "ch-",
+        "gnd",
+        "loop+",
+        "loop-",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 979,
+        "cost_usd": 0.0025873
+      },
+      "source_file": "003_Marking_of_Rheonics_Sensors.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

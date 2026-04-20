@@ -1,0 +1,114 @@
+{
+  "source_file": "214_Rheonics_Sensor_Electronics_(SME-TRTRD)_Exploded_View_and_Parts_List.pdf",
+  "total_pages": 2,
+  "chunks": [
+    {
+      "page_summary": "This page provides an exploded view and parts list for the Rheonics SME-TR sensor electronics module, detailing its components and purpose, and mentions the SME-TRD module.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Sensor Electronics (SME-TR/TRD)",
+        "SME-TR",
+        "SME-TRD"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nRheonics Sensor Electronics (SME-TR/TRD) Exploded View and Parts List\n\nModified on: Thu, 16 Jan, 2025 at 4:22 PM\n\nWhat is the purpose of this article?\nShow the parts that make up the electronics modules SME-TR and SME-TRD. This article should be consulted when referring to a specific part of the electronics assembly.\n\nWhat products are involved?\nSME-TR and SME-TRD (https://rheonics.com/electronics-and-communication/), electronics modules for Rheonics' sensors (https://rheonics.com/products/inline-viscometer-srv/)\n\nSME-TR - Exploded view and parts list\n\nThe SME-TR is Rheonics' enclosed electronics module for field installations. This alternative securely stores the electronics module inside an IP66-compliant housing, protecting it from the environment.\n\nTable 1: Parts list for SME-TR\nID | Description | Qty.\n---|---|---\n1 | SME-TRd Lid | 1\n2 | Lid's O-Ring | 1\n3 | Electronics Standoff | 4\n4 | Electronics Module | 1\n5 | In-housing Grounding Terminal | 1\n6 | Lid Lock Screw | 1\n7 | Cable Gland | 3\n8 | SME-TR/TRD Housing | 1\n9 | External Grounding Terminal | 1\n10 | Rating and Specification Plate | 1\n\n[Diagram of SME-TR Exploded View]\nSME-TR Parts List\n\nNo warranty is made for the correctness of the layout drawing. Dimensions are sourced from publicly available drawings. Customer should check and confirm that the retrofit sensor has the dimensions and flange specifications for a correct installation. This drawing remains property of Rheonics. It may not be copied nor informed to third persons without Rheonics written approval. All copyrights are reserved by Rheonics. Protected by US and International patents granted and pending. rheonics • Switzerland • USA • www.rheonics.com • info@rheonics.com • +41 52 511 32 00 • +1 713 364 5427. Release:2501\n\nFigure 1: SME-TR Exploded view and parts list drawing\n\nTable 2: Drawing of exploded view and parts list of SME-TR\nTitle | Description | Drawing\n---|---|---\nSME-TR Exploded View | Drawing showing the labeled parts of the SME-TR electronics module. | SME-TR Exploded View Drawing (https://rheonics.com/ET0D5)\n\nSME-TRD - Exploded view and parts list",
+      "specifications": {
+        "Protection Rating": "IP66",
+        "Drawing Release": "2501"
+      },
+      "key_facts": [
+        "The document provides an exploded view and parts list for Rheonics SME-TR and SME-TRD electronics modules.",
+        "The SME-TR is an enclosed electronics module designed for field installations.",
+        "The SME-TR module features an IP66-compliant housing for environmental protection.",
+        "Rheonics contact information is provided, including phone numbers: +1 713 234 0863, +41 52 511 32 00, +1 713 364 5427, and website www.rheonics.com.",
+        "The drawings are the property of Rheonics and are protected by US and International patents.",
+        "The document includes a parts list for the SME-TR module with descriptions and quantities for 10 components.",
+        "The document was last modified on Thursday, January 16, 2025, at 4:22 PM."
+      ],
+      "diagram_labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "SME-TR Parts List"
+      ],
+      "warnings_notes": [
+        "This article should be consulted when referring to a specific part of the electronics assembly.",
+        "No warranty is made for the correctness of the layout drawing.",
+        "Customer should check and confirm that the retrofit sensor has the dimensions and flange specifications for a correct installation.",
+        "This drawing remains property of Rheonics. It may not be copied nor informed to third persons without Rheonics written approval. All copyrights are reserved by Rheonics."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1184,
+        "cost_usd": 0.0030997999999999998
+      },
+      "source_file": "214_Rheonics_Sensor_Electronics_(SME-TRTRD)_Exploded_View_and_Parts_List.pdf"
+    },
+    {
+      "page_summary": "This page provides an overview of the SME-TRD viscometer variant, detailing its features, listing its components, and referencing an exploded view drawing of its parts.",
+      "document_type": "manual",
+      "product_names": [
+        "SME-TRD",
+        "SME-TR",
+        "Rheonics SensorView App"
+      ],
+      "extracted_text": "The SME-TRD is similar in build to the SME-TR, however, this variant includes an onboard LCD screen that can display messages about the sensor and process status. Additionally, the screen displays viscosity, density, and temperature, with the option of configuring these to your desired unit of measurement. The TRD version also enables Bluetooth connectivity, which allows users to pair their devices with the Rheonics SensorView App (https://rheonics.com/rheonics-sensorview-app-launched-on-apple-store-and-google-play/).\n\nTable 3: Parts list for SME-TRD\n\n| ID | Description                      | Qty. |\n|----|----------------------------------|------|\n| 1  | SME-TRD Lid                      | 1    |\n| 2  | SME-TRD Display                  | 1    |\n| 3  | Display Standoff                 | 4    |\n| 4  | Display Ribbon Cable             | 1    |\n| 5  | Lid's O-Ring                     | 1    |\n| 6  | Electronics Module               | 1    |\n| 7  | In-housing Grounding Terminal    | 1    |\n| 8  | Lid Lock Screw                   | 1    |\n| 9  | Cable Gland                      | 3    |\n| 10 | SME-TR/TRD Housing               | 1    |\n| 11 | External Grounding Terminal      | 1    |\n| 12 | Rating and Specification Plate   | 1    |\n\nSME-TRD Parts List\n\nNo warranty is made for the correctness of the third party drawings. Dimensions are adapted from publicly available drawings.\nCustomer should check and confirm that the rebuilt sensor has the dimensions and flange specifications for a correct installation.\nThis drawing remains property of Rheonics. It may be neither copied nor informed to third persons\nnor otherwise used without Rheonics's written permission. Infringement will give rise to legal action.\nProtected by US and International patents granted and pending.\nrheonics • Switzerland • USA • www.rheonics.com • info@rheonics.com • +41 52 511 32 00 • +1 713 384 5427       Release 2S01\n\nrheonics\ninline process\ndensity & viscosity\nmonitoring\n\nFigure 2: SME-TRD Exploded view and parts list drawing\n\nTable 4: Drawing of exploded view and parts list of SME-TRD\n\n| Title                   | Description                                                | Drawing                                                                  |\n|-------------------------|------------------------------------------------------------|--------------------------------------------------------------------------|\n| SME-TRD Exploded View   | Drawing showing the labeled parts of the SME-TRD electronics module. | SME-TRD Exploded View Drawing (https://rheonics.com/ndhup) |\n",
+      "specifications": {},
+      "key_facts": [
+        "The SME-TRD is a variant of the SME-TR and includes an onboard LCD screen.",
+        "The LCD screen on the SME-TRD can display messages about the sensor and process status, including viscosity, density, and temperature.",
+        "Users can configure the displayed units of measurement on the SME-TRD.",
+        "The SME-TRD offers Bluetooth connectivity, allowing devices to be paired with the Rheonics SensorView App.",
+        "The Rheonics SensorView App is available on Apple Store and Google Play.",
+        "The document provides a detailed parts list for the SME-TRD, comprising 12 distinct components.",
+        "An exploded view drawing illustrates the assembly of the SME-TRD electronics module components.",
+        "Rheonics manufactures inline process density and viscosity monitoring equipment."
+      ],
+      "diagram_labels": [
+        "1 SME-TRD Lid",
+        "2 SME-TRD Display",
+        "3 Display Standoff",
+        "4 Display Ribbon Cable",
+        "5 Lid's O-Ring",
+        "6 Electronics Module",
+        "7 In-housing Grounding Terminal",
+        "8 Lid Lock Screw",
+        "9 Cable Gland",
+        "10 SME-TR/TRD Housing",
+        "11 External Grounding Terminal",
+        "12 Rating and Specification Plate",
+        "SME-TRD Parts List",
+        "rheonics"
+      ],
+      "warnings_notes": [
+        "No warranty is made for the correctness of the third party drawings.",
+        "Dimensions are adapted from publicly available drawings.",
+        "Customer should check and confirm that the rebuilt sensor has the dimensions and flange specifications for a correct installation.",
+        "This drawing remains property of Rheonics.",
+        "This drawing may not be copied, informed to third persons, or otherwise used without Rheonics's written permission.",
+        "Infringement of the drawing's property will give rise to legal action.",
+        "Protected by US and International patents granted and pending."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1225,
+        "cost_usd": 0.0032023
+      },
+      "source_file": "214_Rheonics_Sensor_Electronics_(SME-TRTRD)_Exploded_View_and_Parts_List.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

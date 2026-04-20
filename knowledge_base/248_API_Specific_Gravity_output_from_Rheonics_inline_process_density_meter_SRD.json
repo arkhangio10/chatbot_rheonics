@@ -1,0 +1,201 @@
+{
+  "source_file": "248_API_Specific_Gravity_output_from_Rheonics_inline_process_density_meter_SRD.pdf",
+  "total_pages": 3,
+  "chunks": [
+    {
+      "page_summary": "This document details the calculation of API Specific Gravity output from Rheonics inline process density meters (SRD), including the mathematical model, definitions of variables, and required coefficients from API-ASTM-IP petroleum measurement tables.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics inline process density meter SRD",
+        "Rheonics Control Panel (RCP)",
+        "Smart Multi-sensor Electronics (SME)"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nAPI Specific Gravity output from Rheonics inline process density meter SRD\n\nModified on: Mon, 20 Nov, 2023 at 3:26 PM\n\nWhat products are involved in this article?\nThis article is based on the use of RCP (Rheonics Control Panel) (https://support.rheonics.com/en/support/solutions/articles/81000297177-running-the-rcp-program) connected to the SME (Smart Multi-sensor Electronics).\n\nWhat is the purpose of this article?\nExplain the process to get temperature and pressure corrections specific to the hydrocarbon group, using API density referral. Generally used to compare densities of petroleum liquids.\n\n1. Math model\n\nShown below is the mathematical formula for API Specific Gravity\n\nρcomp = ρL * e{αref*ΔT*[1+0.8*αref*ΔT]}\nαref = (K0 + K1 * ρref) / ρref^2\nSGref temp = ρcomp / ρwater\nΔT = TL - Tref\nEquation 1. API Specific Gravity\n\nThe SRD (https://rheonics.com/products/inline-density-meter-srd/) sensor can measure inline density, viscosity, and temperature, in addition, we can use multiple mathematical models to calculate the concentration of a mix. To calculate the specific gravity of a fluid we can use Equation 1, where:\n\nSGref temp: Specific gravity at the reference temperature.\nρcomp: Compensated density.\nρref: Reference density, is the density around which the sensor will compensate the readings. This is defined and should be specified by the user.\nρL: Inline density measured.\nρwater: Water density.\nK0 and K1: Coefficients, specified by the user. These coefficients can be found in the API-ASTM tables.\nTL: Inline temperature measured in °C\nTref: Reference temperature, is the temperature around which the sensor will compensate the readings. This is defined and should be specified by the user.\n\n2. Checking the data\n\nAll density, viscosity compensation, and concentration models can be loaded into the sensor through the RCP software from Rheonics (https://support.rheonics.com/support/solutions/articles/81000297177-running-the-rcp-program), in the “Calculation” tab. The API Specific Gravity model needs K1 and K0 coefficients, those values can be found in the API-ASTM-IP petroleum measurement tables, as shown below in Table 1.\n\nTable 1. API-ASTM-IP petroleum measurement table\nTemperature [°C] | Density [g/cc] | K0 | K1\nCrude Oil | 771 - 981 | 613.97226 | 0.00000\nGasolines | 654 - 779 | 346.42278 | 0.43884\nKerosines | 779 - 839 | 594.54180 | 0.00000\nFuel Oils | 839 - 1075 | 186.96960 | 0.48618\n\n3. How to load models into the Sensor electronics?",
+      "specifications": {
+        "Inline Temperature Unit": "°C",
+        "Density Measurement Unit": "g/cc"
+      },
+      "key_facts": [
+        "The article explains how to calculate API Specific Gravity output using Rheonics inline process density meters.",
+        "The purpose of this calculation is to apply temperature and pressure corrections specific to hydrocarbon groups for comparing densities of petroleum liquids.",
+        "The mathematical formula for API Specific Gravity is: `ρcomp = ρL * e{αref*ΔT*[1+0.8*αref*ΔT]}`, where `αref = (K0 + K1 * ρref) / ρref^2`, `SGref temp = ρcomp / ρwater`, and `ΔT = TL - Tref`.",
+        "Rheonics SRD sensors can measure inline density, viscosity, and temperature.",
+        "Reference density (ρref) and reference temperature (Tref) are defined by and should be specified by the user.",
+        "K0 and K1 coefficients are specified by the user and can be found in API-ASTM tables.",
+        "Density, viscosity compensation, and concentration models are loaded into the sensor through the Rheonics Control Panel (RCP) software via the 'Calculation' tab.",
+        "API-ASTM-IP petroleum measurement tables provide K0 and K1 coefficients for various petroleum products:",
+        "- Crude Oil: Density 771 - 981 g/cc, K0 = 613.97226, K1 = 0.00000.",
+        "- Gasolines: Density 654 - 779 g/cc, K0 = 346.42278, K1 = 0.43884.",
+        "- Kerosines: Density 779 - 839 g/cc, K0 = 594.54180, K1 = 0.00000.",
+        "- Fuel Oils: Density 839 - 1075 g/cc, K0 = 186.96960, K1 = 0.48618."
+      ],
+      "diagram_labels": [
+        "Equation 1. API Specific Gravity",
+        "ρcomp",
+        "ρL",
+        "αref",
+        "ΔT",
+        "K0",
+        "K1",
+        "ρref",
+        "SGref temp",
+        "ρwater",
+        "TL",
+        "Tref",
+        "Table 1. API-ASTM-IP petroleum measurement table",
+        "Temperature [°C]",
+        "Density [g/cc]"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1520,
+        "cost_usd": 0.0039398
+      },
+      "source_file": "248_API_Specific_Gravity_output_from_Rheonics_inline_process_density_meter_SRD.pdf"
+    },
+    {
+      "page_summary": "This page provides a step-by-step guide for configuring API Specific Gravity calculation within the Rheonics Control Panel software, detailing input parameters, model management, and software interface elements.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel 5.4.0.6"
+      ],
+      "extracted_text": "Rheonics Control Panel 5.4.0.6\n\nMeasurement Events Settings Service Diagnostics Communication Temp. Control Scaling Calculation Logger\n\nAdvanced Calculations | Thermal Compensation of Density, Viscosity\n\nSelect Measurement to Apply Model: Concentration\nCalculated Value: 1.06859\nStatus: [Green Status Indicator]\nSelect Model from List: API Specific Gravity\n\nASTM-API Model Specific Gravity\nOptions: Crude Oil; 771 - 981 Kg/m3\nK0: 613.97226\nK1: 0\nTref: 20 °C\nWater Ref. Density [Kg/m3]: 998.23\nUnits: SG\n\nSG_Ref Temp = ρ_comp / ρ_water\nρ_comp = ρ_L ⋅ e^{α_refΔT ⋅ [1+0.8-α_ref ΔT]}}\nα_ref = (K_0 + K_1 ⋅ ρ_ref) / ρ_ref^2\nΔT = T_L - T_ref\n\nUPLOAD MODEL\nLCD Display (for TRD Only) Select Line to Display: None\nLoad Configuration\nChange SMET Output\nOutput on 4-20 mA channel Select channel number: None\nCalculation History\nAccess measurement with applied model over Modbus RTU/TCP register: 208\n\nFigure 1. Calculation tab for API Specific gravity\n\nIn the following steps, we will show how to load the model into the sensor electronics:\n\n1. In the \"Select Measurement to Apply Model\" dropdown list select \"Concentration\".\n2. In the \"Select Model from the list\" dropdown list select \"API Specific Gravity\". When you select the model, you will get more information about the specific equation used and the coefficients you will need.\n3. The \"Options\" list shows a list of the most common K0 and K1 values for the hydrocarbon group. Also, you can choose the \"Custom\" option and input your own coefficients K0 and K1.\n4. Input \"K0\" coefficient. For this example, it has a value of 613.97.\n5. Input \"K1\" coefficient. For this example, it has a value of 0,0000.\n6. Input \"Reference temperature\" for the water density, in this example, is 20 °C.\n7. Input \"Water density\" in Kg/m3 at the reference temperature, in this example, is 998.23 Kg/m3.\n8. Click \"Upload Model\" to load the model settings into sensor electronics. The button should turn GREEN for a couple of seconds if the action was successful or turn RED if the operation was unsuccessful. This action will refresh the \"Calculated Value\".\n\nFigure 2. Specific Gravity calculated\n\n9. Click \"Load Configuration\" to update the display and channel configurations in sensor electronics.\n10. The \"Calculation History\" button allows you to open a file with the last uploaded models.\n\n3.1 Handling Sensor Outputs",
+      "specifications": {
+        "Rheonics Control Panel version": "5.4.0.6",
+        "Modbus RTU/TCP register for applied model measurement": "208"
+      },
+      "key_facts": [
+        "The Rheonics Control Panel software facilitates advanced calculations, including thermal compensation for density and viscosity.",
+        "Users can configure the API Specific Gravity calculation model by selecting 'Concentration' as the measurement type and 'API Specific Gravity' from the model list.",
+        "The API Specific Gravity model requires user input for K0 and K1 coefficients, reference temperature (Tref), and water reference density.",
+        "Example input values for the API Specific Gravity calculation are K0=613.97, K1=0.0000, Tref=20 °C, and Water Ref. Density=998.23 Kg/m3.",
+        "The displayed calculated value for Specific Gravity is 1.06859.",
+        "The software provides an 'Options' list with common K0 and K1 values for hydrocarbon groups (e.g., Crude Oil; 771 - 981 Kg/m3), alongside a 'Custom' option for manual input.",
+        "Model settings are loaded into the sensor electronics by clicking the 'Upload Model' button.",
+        "The 'Upload Model' action, if successful, is indicated by the button turning GREEN; otherwise, it turns RED, and refreshes the 'Calculated Value'.",
+        "Clicking 'Load Configuration' updates the display and channel settings in the sensor electronics.",
+        "The 'Calculation History' button allows users to access a file containing previously uploaded models."
+      ],
+      "diagram_labels": [
+        "Rheonics Control Panel 5.4.0.6",
+        "Measurement (tab)",
+        "Events (tab)",
+        "Settings (tab)",
+        "Service (tab)",
+        "Diagnostics (tab)",
+        "Communication (tab)",
+        "Temp. Control (tab)",
+        "Scaling (tab)",
+        "Calculation (tab)",
+        "Logger (tab)",
+        "Advanced Calculations | Thermal Compensation of Density, Viscosity (title)",
+        "Select Measurement to Apply Model (label)",
+        "Concentration (dropdown value)",
+        "Calculated Value (label)",
+        "1.06859 (value)",
+        "Status (label)",
+        "Select Model from List (label)",
+        "API Specific Gravity (dropdown value)",
+        "ASTM-API Model Specific Gravity (section header)",
+        "Options (label)",
+        "Crude Oil; 771 - 981 Kg/m3 (dropdown value)",
+        "K0 (label)",
+        "613.97226 (value)",
+        "K1 (label)",
+        "0 (value)",
+        "Tref (label)",
+        "20 °C (dropdown value)",
+        "Water Ref. Density [Kg/m3] (label)",
+        "998.23 (value)",
+        "Units (label)",
+        "SG (dropdown value)",
+        "SG_Ref Temp = ρ_comp / ρ_water (equation)",
+        "ρ_comp = ρ_L ⋅ e^{α_refΔT ⋅ [1+0.8-α_ref ΔT]}} (equation)",
+        "α_ref = (K_0 + K_1 ⋅ ρ_ref) / ρ_ref^2 (equation)",
+        "ΔT = T_L - T_ref (equation)",
+        "UPLOAD MODEL (button)",
+        "LCD Display (for TRD Only) Select Line to Display (label)",
+        "None (dropdown value)",
+        "Load Configuration (button)",
+        "Change SMET Output (label)",
+        "Output on 4-20 mA channel Select channel number (label)",
+        "None (dropdown value)",
+        "Calculation History (button)",
+        "Access measurement with applied model over Modbus RTU/TCP register (label)",
+        "208 (value)",
+        "Figure 1. Calculation tab for API Specific gravity (caption)",
+        "1 (annotation circle)",
+        "2 (annotation circle)",
+        "3 (annotation circle)",
+        "4 (annotation circle)",
+        "5 (annotation circle)",
+        "6 (annotation circle)",
+        "7 (annotation circle)",
+        "8 (annotation circle)",
+        "9 (annotation circle)",
+        "10 (annotation circle)",
+        "Figure 2. Specific Gravity calculated (caption)"
+      ],
+      "warnings_notes": [
+        "The 'Upload Model' button should turn GREEN for a couple of seconds if the action was successful or turn RED if the operation was unsuccessful.",
+        "The 'LCD Display' functionality is specifically for 'TRD Only' devices."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1884,
+        "cost_usd": 0.0048498
+      },
+      "source_file": "248_API_Specific_Gravity_output_from_Rheonics_inline_process_density_meter_SRD.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions for configuring the display and analog output channels for the SME-TRD viscometer, details on accessing Modbus registers, and introduces a demonstration video related to configuring API specific gravity models.",
+      "document_type": "manual",
+      "product_names": [
+        "SME-TRD"
+      ],
+      "extracted_text": "For the SME-TRD, the compensated viscosity values can be shown on the display. Select the line to display the parameter:\nLCD Display (for TRD Only) Select Line to Display\n  - None\n  - Line 1\n  - Line 2\n  - Line 3\nOutput on 4-20 mA channel Select channel number (from Figure 3 context)\nFigure 3. Selecting read line for LCD display.\nSelect the analog channel to send data, this can be verified in the “Service” Tab\nOutput on 4-20 mA channel Select channel number\n  - None\n  - Ch1\n  - Ch2\n  - Ch3\nModbus RTU/TCP register\nFigure 4. Selecting analog output channel\nMeasurement can always be accessed at the register address that is displayed.\nAccess measurement with applied model over Modbus RTU/TCP register: 208\nFigure 5. Modbus TCP/IP register\n3.2 Demonstration Video\nHow to load the API specific gravity model into the Sensor\nrheonics\nWatch on\nVideo 1. Configuration API Specific gravity model in RPC Software.",
+      "specifications": {},
+      "key_facts": [
+        "Compensated viscosity values for the SME-TRD can be configured for display on the device.",
+        "Users can select from 'None', 'Line 1', 'Line 2', or 'Line 3' to display a parameter on the LCD for TRD models.",
+        "Analog output channels (Ch1, Ch2, Ch3) can be selected for sending data, and this configuration can be verified in the 'Service' Tab.",
+        "Measurement data, including values with an applied model, are accessible via Modbus RTU/TCP register 208.",
+        "A demonstration video is available showing 'How to load the API specific gravity model into the Sensor' using RPC Software."
+      ],
+      "diagram_labels": [
+        "LCD Display (for TRD Only) Select Line to Display",
+        "None",
+        "Line 1",
+        "Line 2",
+        "Line 3",
+        "Output on 4-20 mA channel Select channel number",
+        "Modbus RTU/TCP register",
+        "Ch1",
+        "Ch2",
+        "Ch3",
+        "Access measurement with applied model over Modbus RTU/TCP register",
+        "208",
+        "How to load the API specific gravity model into the Sensor",
+        "rheonics",
+        "Watch on"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 684,
+        "cost_usd": 0.0018498000000000002
+      },
+      "source_file": "248_API_Specific_Gravity_output_from_Rheonics_inline_process_density_meter_SRD.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

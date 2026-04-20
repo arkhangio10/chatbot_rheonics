@@ -1,0 +1,60 @@
+{
+  "source_file": "SRV-SLP-A123-BH40_Jacketed-Elbow-DN40.pdf",
+  "total_pages": 1,
+  "chunks": [
+    {
+      "page_summary": "This page provides a technical drawing and installation specifications for a Rheonics SRV-SLP-A123-BH40 viscometer sensor installed in a DN40 jacketed elbow.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRV-SLP",
+        "SRV-SLP-A123-BH40",
+        "DN40 Jacketed Elbow"
+      ],
+      "extracted_text": "Installation on DN40 Jacketed Elbow\nSensor Type\nSRV-SLP\nConfiguration\nSRV-SLP-A123-BH40\nA Insertion Depth\n123 mm\nConnection\nSanitary fitting\nB Norm\nDIN 11851\nSize\nDN40\nSRV-SLP-A123-BH40\nRecommended flow direction\nJacketed Elbow\n38.4 [ 1.51 ]\n123 A [ 4.86 ]\nUnits:\nmm\n[inch]\nSRV-SLP-A123-BH40\nDN40 Jacketed Elbow\nThis drawing remains property of rheonics. It may be neither copied nor informed to third persons or competitors without our approval. ( 2 paragraph 1 fig.7 copyright act of 9th Sept. 1965)\nProtected by US and International patents granted and pending\nrheonics • Switzerland • USA • www.rheonics.com • info@rheonics.com +41 52 511 32 00 +1 713 364 5427\nRelease: 2310\nrheonics\ninline process density and viscosity monitoring",
+      "specifications": {
+        "Sensor Type": "SRV-SLP",
+        "Configuration": "SRV-SLP-A123-BH40",
+        "Insertion Depth (A)": "123 mm",
+        "Connection Type": "Sanitary fitting",
+        "Connection Norm": "DIN 11851",
+        "Connection Size": "DN40",
+        "Sensor Diameter (exposed part)": "38.4 mm [1.51 inch]",
+        "Sensor Overall Length (from flange face to tip)": "123 mm [4.86 inch]"
+      },
+      "key_facts": [
+        "The document details the installation of a Rheonics SRV-SLP sensor, specifically model SRV-SLP-A123-BH40.",
+        "The sensor is designed for installation into a DN40 jacketed elbow.",
+        "The sensor's connection type is a sanitary fitting, compliant with DIN 11851 standards.",
+        "The drawing illustrates the recommended flow direction within the jacketed elbow.",
+        "Rheonics specializes in inline process density and viscosity monitoring.",
+        "The drawing is proprietary to Rheonics and is protected by US and International patents."
+      ],
+      "diagram_labels": [
+        "SRV-SLP-A123-BH40",
+        "Recommended flow direction",
+        "Jacketed Elbow",
+        "A",
+        "B",
+        "mm",
+        "[inch]"
+      ],
+      "warnings_notes": [
+        "This drawing remains property of rheonics. It may be neither copied nor informed to third persons or competitors without our approval. ( 2 paragraph 1 fig.7 copyright act of 9th Sept. 1965)",
+        "Protected by US and International patents granted and pending"
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 844,
+        "cost_usd": 0.0022497999999999997
+      },
+      "source_file": "SRV-SLP-A123-BH40_Jacketed-Elbow-DN40.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "source_file": "005_Handling_the_SRV_Sensor.pdf",
+  "total_pages": 2,
+  "chunks": [
+    {
+      "page_summary": "This page provides guidelines for handling and cleaning the Rheonics SRV Sensor, describing its robust construction and detailing recommended maintenance procedures.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV Sensor",
+        "SRV"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nHandling the SRV Sensor\nModified on: Mon, 10 Oct, 2022 at 2:41 PM\n\nThe SRV is a stable, robust sensor system that operates over a wide range of temperatures and pressures. The sensor is made of 316L stainless steel, which resists attack by a wide variety of highly corrosive fluids.\n\nIn order to get optimum performance from the system, some simple guidelines must be followed.\n\nCleaning the sensor\n\nThe SRV is based on a resonant sensing element that operates in the range of approximately 7-8 kHz. The sensor measures viscosity in a thin layer of fluid surrounding the resonant element.\nIn any measurement scenario in which the sensor could become coated with tenacious fluids and solids, it is recommended that the sensor be removed and mechanically cleaned at appropriate intervals.\nAdherent films can be removed by using appropriate solvents and/or wiping with a solvent-saturated cloth or paper. Under no circumstances should abrasives be used to clean the resonator, as these will change the geometry and destroy its calibration.",
+      "specifications": {
+        "material": "316L stainless steel",
+        "operating_frequency_range": "7-8 kHz"
+      },
+      "key_facts": [
+        "The SRV is a stable, robust sensor system.",
+        "The SRV sensor operates over a wide range of temperatures and pressures.",
+        "The sensor is made of 316L stainless steel.",
+        "The 316L stainless steel resists attack by a wide variety of highly corrosive fluids.",
+        "The SRV is based on a resonant sensing element.",
+        "The sensor measures viscosity in a thin layer of fluid surrounding the resonant element.",
+        "For optimum performance, simple guidelines must be followed.",
+        "If the sensor becomes coated with tenacious fluids and solids, it is recommended to remove and mechanically clean it at appropriate intervals.",
+        "Adherent films can be removed using appropriate solvents and/or wiping with a solvent-saturated cloth or paper."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Under no circumstances should abrasives be used to clean the resonator, as these will change the geometry and destroy its calibration."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 578,
+        "cost_usd": 0.0015848
+      },
+      "source_file": "005_Handling_the_SRV_Sensor.pdf"
+    },
+    {
+      "page_summary": "This page provides guidelines for cleaning the SRV sensor and details its operational characteristics related to fluid properties and flow rates, specifically addressing bubble formation.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV"
+      ],
+      "extracted_text": "Cleaning the sensor with solvent-saturated cloth or paper\n\nPlease note that it is difficult to get accurate measurement with plain water stationary in the SRV measurement area. Even degassed water tends to have air dissolved in it, which eventually forms micro bubbles on the surface of the sensor, disturbing its geometry. This is not a problem at higher pressures, which tend to re-dissolve any gases present. Hydrocarbons, glycols, and other fluids with low surface tension are less prone to bubble formation.\n\nThe SRV will operate in static fluids as well as flow rates in excess of 100 l/min. Flow may be in either direction, subject to the above caution about the effects of bubbles.\n\nNote: Do not use ultrasonic cleaners",
+      "specifications": {
+        "operational_flow_rate_threshold": "100 l/min"
+      },
+      "key_facts": [
+        "It is difficult to get accurate measurement with plain water stationary in the SRV measurement area.",
+        "Even degassed water can form micro bubbles on the sensor surface, disturbing its geometry.",
+        "Higher pressures can re-dissolve gases, mitigating the bubble problem.",
+        "Hydrocarbons, glycols, and other fluids with low surface tension are less prone to bubble formation.",
+        "The SRV sensor can operate in static fluids.",
+        "The SRV sensor can operate with flow rates in excess of 100 l/min.",
+        "Flow for the SRV sensor can be in either direction."
+      ],
+      "diagram_labels": [
+        "Cleaning the sensor with solvent-saturated cloth or paper"
+      ],
+      "warnings_notes": [
+        "Do not use ultrasonic cleaners."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 447,
+        "cost_usd": 0.0012573
+      },
+      "source_file": "005_Handling_the_SRV_Sensor.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "source_file": "015_IP_rating_explained.pdf",
+  "total_pages": 4,
+  "chunks": [
+    {
+      "page_summary": "This page explains the meaning and structure of IP (Ingress Protection) ratings, detailing what each digit signifies for protection against solids and water, and how it applies to Rheonics products.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics sensors",
+        "Rheonics transmitters",
+        "Rheonics cables"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nIP rating explained\nModified on: Wed, 29 May, 2024 at 8:26 PM\n\nWhat products are involved?\nAll Rheonics sensors, transmitters and cables that have an IP rating.\n\nWhat is the purpose of this article?\nTo explain the meaning of IP ratings, its digits and the protection levels Rheonics products have.\n\n1. IP Ratings overview\n\nIP (Ingress Protection or International Protection Mark) from IEC60529 (https://webstore.iec.ch/publication/2452), rates the protection against instrusion of solids, accidental contact, dust, water and steam into mechanical housings and electrical enclosures.\nCategories are based on the use of two digits, which have specific meanings each, as follows.\n\nFirst Digit: Protection against solids.\n0: No protection\n1: Protection to active or internal parts against solids greater than Ø50mm (e.g. hand contact), not against intentional access.\n2: Protection against solids greater than Ø12mm (e.g. finger contact).\n3: Protection against solids greater than Ø2.5mm (e.g. screwdriver, tools).\n4: Protection against solids greater than 1mm (e.g. thin wires).\n5: Protection against harmful amount of dust for 2-8 hours.\n6: Total protection against dust and any solids.\n\nSecond Digit: Protection against water.\n0: No protection\n1: Protection against vertically falling drops of water. Tested for 10 minutes.\n2: Protection against vertically and up to 15° tilted falling drops of water. Tested for 10 minutes.\n3: Protection against vertically and up to 60° tilted falling drops of water (e.g. spray water) Tested for 5 minutes.\n4: Protection against water splashed from any direction.\n5: Protection against jets of water. Tested for at least 15 minutes.\n6: Protection against harmful quantity of water from heavy seas or jets of water.\n6K: Protection against harmful powerful jets of water from any direction and elevated pressure.\n7: Protection against immersion in water from 15cm to 100cm for 30 minutes.\n8: Protection against immersion in water for long periods under harsh conditions (e.g. pressure).\n9K: Protection against high pressure water or steam.\n\nExample: IP67\n\nFigure 1: IP rating digits meaning.\n\n2. What does Rheonics offer?\n\nRheonics sensors are divided in three main parts, the sensor electronics, cable and probe. Each have an specific IP rating as shown in next image.",
+      "specifications": {
+        "IP First Digit 0": "No protection",
+        "IP First Digit 1": "Protection to active or internal parts against solids greater than Ø50mm",
+        "IP First Digit 2": "Protection against solids greater than Ø12mm",
+        "IP First Digit 3": "Protection against solids greater than Ø2.5mm",
+        "IP First Digit 4": "Protection against solids greater than 1mm",
+        "IP First Digit 5": "Protection against harmful amount of dust for 2-8 hours",
+        "IP First Digit 6": "Total protection against dust and any solids",
+        "IP Second Digit 0": "No protection",
+        "IP Second Digit 1": "Protection against vertically falling drops of water. Tested for 10 minutes.",
+        "IP Second Digit 2": "Protection against vertically and up to 15° tilted falling drops of water. Tested for 10 minutes.",
+        "IP Second Digit 3": "Protection against vertically and up to 60° tilted falling drops of water (e.g. spray water) Tested for 5 minutes.",
+        "IP Second Digit 4": "Protection against water splashed from any direction.",
+        "IP Second Digit 5": "Protection against jets of water. Tested for at least 15 minutes.",
+        "IP Second Digit 6": "Protection against harmful quantity of water from heavy seas or jets of water.",
+        "IP Second Digit 6K": "Protection against harmful powerful jets of water from any direction and elevated pressure.",
+        "IP Second Digit 7": "Protection against immersion in water from 15cm to 100cm for 30 minutes.",
+        "IP Second Digit 8": "Protection against immersion in water for long periods under harsh conditions (e.g. pressure).",
+        "IP Second Digit 9K": "Protection against high pressure water or steam."
+      },
+      "key_facts": [
+        "The IP (Ingress Protection or International Protection Mark) system, derived from IEC60529, rates the protection against intrusion of solids, accidental contact, dust, water, and steam into mechanical housings and electrical enclosures.",
+        "IP rating categories are based on two digits, each having specific meanings for protection levels.",
+        "This article aims to explain IP ratings, their digits, and the protection levels Rheonics products have.",
+        "All Rheonics sensors, transmitters, and cables that have an IP rating are covered by this explanation.",
+        "Rheonics sensors are divided into three main parts: the sensor electronics, cable, and probe, each having a specific IP rating."
+      ],
+      "diagram_labels": [
+        "First Digit: Protection against solids.",
+        "Second Digit: Protection against water.",
+        "Example: IP67",
+        "Figure 1: IP rating digits meaning."
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1344,
+        "cost_usd": 0.0034997999999999995
+      },
+      "source_file": "015_IP_rating_explained.pdf"
+    },
+    {
+      "page_summary": "This page details the IP protection ratings for various Rheonics sensor electronics, cables, connectors, and probes, showcasing specific models like SRV inline viscometers and SRD inline density and viscosity probes.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SME-TR",
+        "SME-TRD",
+        "SME-DRM",
+        "SRV probe",
+        "SRD probe",
+        "Rheonics SR-sensor probes",
+        "Rheonics products",
+        "inline viscometer",
+        "inline density and viscosity probe"
+      ],
+      "extracted_text": "Sensor electronics\nIP-Rating\nSME-TR → IP 66\nSME-TRD → IP 66\nSME-DRM → IP 20\nOptions\nSME-DRM\nSME-TRD\nSME-TR\nSensor cable\nStandard cable with PUR sheath\nConnector\nM12 8-pin A-coded\nIP68 and IP69 (IP69K connectors are also available, used often in food industry)\nStraight 180° and angled 90° versions\nSRV probe\nHermetically sealed\nIP69K\nFigure 2: Rheonics sensor electronics, cable and probe IP protection rating.\nRheonics SR-sensor probes have an IP69K rating. Table 1 describes in more detail the protection ratings and Rheonics products.\nFigure 3: SRV IP69K inline viscometer - other process connection variants available.\n(https://rheonics.com/products/inline-viscometer-srv/)\nFigure 4: SRD IP69K inline density and viscosity probe - other process connection variants available.\n(https://rheonics.com/products/inline-density-meter-srd/)",
+      "specifications": {
+        "SME-TR IP-Rating": "IP 66",
+        "SME-TRD IP-Rating": "IP 66",
+        "SME-DRM IP-Rating": "IP 20",
+        "Sensor cable material": "PUR sheath",
+        "Connector type": "M12 8-pin A-coded",
+        "Connector IP-Rating (standard)": "IP68 and IP69",
+        "Connector IP-Rating (food industry option)": "IP69K",
+        "Connector versions": "Straight 180° and angled 90°",
+        "SRV probe IP-Rating": "IP69K",
+        "SRD probe IP-Rating": "IP69K"
+      },
+      "key_facts": [
+        "Rheonics sensor electronics models SME-TR and SME-TRD have an IP 66 rating.",
+        "The SME-DRM sensor electronics model has an IP 20 rating.",
+        "The sensor cable provided is a standard cable with a PUR sheath.",
+        "The M12 8-pin A-coded connector is available with IP68 and IP69 ratings, with IP69K connectors also available and frequently used in the food industry.",
+        "Connectors are offered in both straight 180° and angled 90° versions.",
+        "The SRV probe is hermetically sealed and has an IP69K rating.",
+        "Rheonics SR-sensor probes, including SRV and SRD, have an IP69K rating.",
+        "Table 1 (referenced but not included on this page) provides more detailed protection ratings and information on Rheonics products.",
+        "The SRV IP69K is an inline viscometer, and other process connection variants are available.",
+        "The SRD IP69K is an inline density and viscosity probe, and other process connection variants are available."
+      ],
+      "diagram_labels": [
+        "Sensor electronics",
+        "IP-Rating",
+        "Options",
+        "SME-DRM",
+        "SME-TRD",
+        "SME-TR",
+        "Sensor cable",
+        "Connector",
+        "SRV probe"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 962,
+        "cost_usd": 0.0025448
+      },
+      "source_file": "015_IP_rating_explained.pdf"
+    },
+    {
+      "page_summary": "This page details the IP protection ratings and descriptions for various Rheonics sensor devices, along with considerations for their installation and cabling requirements to ensure proper environmental protection.",
+      "document_type": "technical notes",
+      "product_names": [
+        "SME-DRM",
+        "SME-TR",
+        "SME-TRD",
+        "SRV",
+        "SRD",
+        "DVP",
+        "DVM",
+        "Rheonics sensor",
+        "Rheonics sensor cable"
+      ],
+      "extracted_text": "Review all Rheonics sensor process connection variants here (https://rheonics.com/process-connections-rheonics-viscometer-and-density-meter/).\n\nTable 1: Rheonics devices and IP ratings\n\nRheonics Devices: SME-DRM (https://rheonics.com/electronics-and-communication/), sensor electronics for mounting on DIN rail, used in cabinets\nIP Rating: IP40\nProtection level description: Protection against solids greater than 1 mm. No protection against water and any fluid.\nNotes/Considerations: For indoors installations or to be installed in cabinets.\n\nRheonics Devices: SME-TR (https://rheonics.com/electronics-and-communication/), sensor electronics in transmitter housing\nIP Rating: IP66\nProtection level description: Total protection against intrusion of dust and solids. Protection against temporary flooding.\nNotes/Considerations: For indoors and outdoors installations.\n\nRheonics Devices: SME-TRD (https://rheonics.com/electronics-and-communication/), sensor electronics in transmitter enclosure with display\nIP Rating: IP66\nProtection level description: Total protection against intrusion of dust and solids. Protection against temporary flooding.\nNotes/Considerations: For indoors and outdoors installations.\n\nRheonics Devices: SRV (https://rheonics.com/products/inline-viscometer-srv/), inline viscometer (all variants)\nIP Rating: IP69K\nProtection level description: Sensor probe body is hermetically sealed and offers complete protection against intrusion of dust, solids and high pressure water or steam into the internal components.\nNotes/Considerations: Sensor cable and M12 connector with IP69K rating are needed for complete protection.\n\nRheonics Devices: SRD (https://rheonics.com/products/inline-density-meter-srd/), inline density and viscosity probe\nIP Rating: IP69K\nProtection level description: Sensor probe body is hermetically sealed and offers complete protection against intrusion of dust, solids and high pressure water or steam into the internal components.\nNotes/Considerations: Sensor cable and M12 connector with IP69K rating are needed for complete protection.\n\nRheonics Devices: DVP (https://rheonics.com/products/inline-gas-lng-density-meter-dvp/), HPHT density and viscosity meter\nIP Rating: IP69K\nProtection level description: Sensor probe body is hermetically sealed and offers complete protection against intrusion of dust, solids and high pressure water or steam into the internal components.\nNotes/Considerations: Sensor cable and M12 connector with IP69K rating are needed for complete protection.\n\nRheonics Devices: DVM (https://rheonics.com/products/hpht-pvt-density-meter-viscometer-dvm/), HPHT density and viscosity module\nIP Rating: IP69K\nProtection level description: Sensor probe body is hermetically sealed and offers complete protection against intrusion of dust, solids and high pressure water or steam into the internal components.\nNotes/Considerations: Sensor cable and M12 connector with IP69K rating are needed for complete protection.\n\nSensor cables with an M12 connector are connected to the probe back end. The IP protection of the cable vary between variants (standard, Ex, High-Temperature, etc.) and will influence the protection rating of the sensor once it is installed. Standard cables have an IP rating of IP68, but IP69K cables are also offered.\n\nTo have an IP69K sensor, both the probe and cable should be rated with such protection.\n\nReview all cable variants in this article: Rheonics sensor cable and connection variants (https://support.rheonics.com/en/support/solutions/articles/81000412899-rheonics-sensor-cable-and-connection-variants).",
+      "specifications": {
+        "SME-DRM IP Rating": "IP40",
+        "SME-DRM Solids protection": "greater than 1 mm",
+        "SME-DRM Water protection": "none",
+        "SME-TR IP Rating": "IP66",
+        "SME-TRD IP Rating": "IP66",
+        "SRV IP Rating": "IP69K",
+        "SRD IP Rating": "IP69K",
+        "DVP IP Rating": "IP69K",
+        "DVM IP Rating": "IP69K",
+        "Standard sensor cable IP Rating": "IP68",
+        "M12 connector requirement for IP69K sensor": "IP69K rated"
+      },
+      "key_facts": [
+        "Rheonics SME-DRM sensor electronics are designed for DIN rail mounting in cabinets, offering IP40 protection against solids greater than 1 mm but no water protection.",
+        "Rheonics SME-TR and SME-TRD sensor electronics provide IP66 protection against total dust intrusion and temporary flooding for both indoor and outdoor installations.",
+        "Rheonics SRV, SRD, DVP, and DVM devices are inline viscometers, density probes, or meters with an IP69K rating, signifying a hermetically sealed probe body.",
+        "IP69K protection ensures complete defense against dust, solids, and high-pressure water or steam for the sensor probe body.",
+        "Sensor cables utilize M12 connectors and their IP protection rating, which varies by variant (standard, Ex, High-Temperature), directly impacts the overall sensor protection rating.",
+        "Standard Rheonics sensor cables have an IP68 rating, but higher-rated IP69K cables are also available.",
+        "For a sensor system to achieve an IP69K rating, both the sensor probe and its connecting cable must possess IP69K protection."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "SME-DRM devices are specified for indoor installations or for mounting within cabinets.",
+        "To achieve complete IP69K protection for SRV, SRD, DVP, and DVM sensors, an IP69K rated sensor cable and an M12 connector are essential.",
+        "The overall IP protection rating of an installed sensor system is influenced by and limited to the lowest IP rating of its individual components, including the cable."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1542,
+        "cost_usd": 0.0039948
+      },
+      "source_file": "015_IP_rating_explained.pdf"
+    },
+    {
+      "page_summary": "This page lists six references, including an international standard and various Rheonics product pages for inline viscometers and density sensors.",
+      "document_type": "manual",
+      "product_names": [
+        "inline-viscometer-srv",
+        "inline-density-meter-srd",
+        "inline-gas-lng-density-meter-dvp",
+        "hpht-pvt-density-meter-viscometer-dvm"
+      ],
+      "extracted_text": "References:\n[1]: IEC 60529 (https://webstore.iec.ch/publication/2452) (https://webstore.iec.ch/publication/2452) (https://webstore.iec.ch/publication/2452)\n[2]: https://rheonics.com/products/inline-viscometer-srv/ (https://rheonics.com/products/inline-viscometer-srv/)\n[3]: https://rheonics.com/products/inline-density-meter-srd/ (https://rheonics.com/products/inline-density-meter-srd/)\n[4]: https://rheonics.com/products/inline-gas-lng-density-meter-dvp/ (https://rheonics.com/products/inline-gas-lng-density-meter-dvp/)\n[5]: https://rheonics.com/products/hpht-pvt-density-meter-viscometer-dvm/ (https://rheonics.com/products/hpht-pvt-density-meter-viscometer-dvm/)\n[6]: https://rheonics.com/electronics-and-communication/ (https://rheonics.com/electronics-and-communication/)\n(https://webstore.iec.ch/publication/2452) (https://webstore.iec.ch/publication/2452)",
+      "specifications": {},
+      "key_facts": [
+        "Reference [1] points to the IEC 60529 standard, which is related to degrees of protection provided by enclosures (IP Code).",
+        "Reference [2] links to Rheonics' inline viscometer product page for the SRV model.",
+        "Reference [3] links to Rheonics' inline density meter product page for the SRD model.",
+        "Reference [4] links to Rheonics' inline gas LNG density meter product page for the DVP model.",
+        "Reference [5] links to Rheonics' HPHT PVT density meter viscometer product page for the DVM model.",
+        "Reference [6] links to Rheonics' electronics and communication product page."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "IEC 60529: Degrees of protection provided by enclosures (IP Code)"
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 656,
+        "cost_usd": 0.0017798
+      },
+      "source_file": "015_IP_rating_explained.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

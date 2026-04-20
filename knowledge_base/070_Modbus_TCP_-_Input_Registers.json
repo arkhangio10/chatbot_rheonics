@@ -1,0 +1,390 @@
+{
+  "source_file": "070_Modbus_TCP_-_Input_Registers.pdf",
+  "total_pages": 3,
+  "chunks": [
+    {
+      "page_summary": "This document outlines Modbus TCP input registers for various sensor parameters, including viscosity, density, and temperature, detailing their addresses, data types, and scaling factors.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Phone: +1 713 234 0863\n\nModbus TCP - Input Registers\nModified on: Thu, 29 Feb, 2024 at 9:58 PM\n\nFor each parameter there are four registers associated; the first two contain the value of the parameter in float data type, and the last two are the value scaled by 100 in Int16 format, and the status of the parameter in UInt16.\n\nThe table uses PDU addressing; addresses start at zero. Depending on the PLC used it might be required to add 1 to the addresses in the table below.\n\nModbus input registers\n\nAddress (Dec) | Register (Dec) | Length (Reg.) | Type | Description\n---|---|---|---|---\nParameter 0 | Viscosity median | | |\n40 | 300041 | 2 | Float32 | Parameter 0 value as float\n42 | 300043 | 1 | SInt16 | Parameter 0 value scaled by 100\nParameter 1 | Density median | | |\n48 | 300049 | 2 | Float32 | Parameter 1 value as float\n50 | 300051 | 1 | SInt16 | Parameter 1 value scaled by 100\nParameter 2 | Temperature median | | |\n56 | 300057 | 2 | Float32 | Parameter 2 value as float\n58 | 300059 | 1 | SInt16 | Parameter 2 value scaled by 100\nParameter 3 | Kinematic Viscosity | | |\n64 | 300065 | 2 | Float32 | Parameter 3 value as float\n66 | 300067 | 1 | SInt16 | Parameter 3 value scaled by 100\nParameter 4 | Density Average | | |\n72 | 300073 | 2 | Float32 | Parameter 4 value as float\n74 | 300075 | 1 | SInt16 | Parameter 4 value scaled by 100\nParameter 5 | Viscosity raw 'process measurement' | | |\n80 | 300081 | 2 | Float32 | Parameter 5 value as float\n82 | 300083 | 1 | SInt16 | Parameter 5 value scaled by 100\nParameter 6 | Density raw | | |\n88 | 300089 | 2 | Float32 | Parameter 6 value as float\n90 | 300091 | 1 | SInt16 | Parameter 6 value scaled by 100\nParameter 7 | Temperature raw | | |\n96 | 300097 | 2 | Float32 | Parameter 7 value as float\n98 | 300099 | 1 | SInt16 | Parameter 7 value scaled by 100",
+      "specifications": {
+        "Modbus Register Parameter 0 Viscosity median Float32 value": "Address (Dec) 40, Register (Dec) 300041, Length (Reg.) 2",
+        "Modbus Register Parameter 0 Viscosity median SInt16 value scaled by 100": "Address (Dec) 42, Register (Dec) 300043, Length (Reg.) 1",
+        "Modbus Register Parameter 1 Density median Float32 value": "Address (Dec) 48, Register (Dec) 300049, Length (Reg.) 2",
+        "Modbus Register Parameter 1 Density median SInt16 value scaled by 100": "Address (Dec) 50, Register (Dec) 300051, Length (Reg.) 1",
+        "Modbus Register Parameter 2 Temperature median Float32 value": "Address (Dec) 56, Register (Dec) 300057, Length (Reg.) 2",
+        "Modbus Register Parameter 2 Temperature median SInt16 value scaled by 100": "Address (Dec) 58, Register (Dec) 300059, Length (Reg.) 1",
+        "Modbus Register Parameter 3 Kinematic Viscosity Float32 value": "Address (Dec) 64, Register (Dec) 300065, Length (Reg.) 2",
+        "Modbus Register Parameter 3 Kinematic Viscosity SInt16 value scaled by 100": "Address (Dec) 66, Register (Dec) 300067, Length (Reg.) 1",
+        "Modbus Register Parameter 4 Density Average Float32 value": "Address (Dec) 72, Register (Dec) 300073, Length (Reg.) 2",
+        "Modbus Register Parameter 4 Density Average SInt16 value scaled by 100": "Address (Dec) 74, Register (Dec) 300075, Length (Reg.) 1",
+        "Modbus Register Parameter 5 Viscosity raw 'process measurement' Float32 value": "Address (Dec) 80, Register (Dec) 300081, Length (Reg.) 2",
+        "Modbus Register Parameter 5 Viscosity raw 'process measurement' SInt16 value scaled by 100": "Address (Dec) 82, Register (Dec) 300083, Length (Reg.) 1",
+        "Modbus Register Parameter 6 Density raw Float32 value": "Address (Dec) 88, Register (Dec) 300089, Length (Reg.) 2",
+        "Modbus Register Parameter 6 Density raw SInt16 value scaled by 100": "Address (Dec) 90, Register (Dec) 300091, Length (Reg.) 1",
+        "Modbus Register Parameter 7 Temperature raw Float32 value": "Address (Dec) 96, Register (Dec) 300097, Length (Reg.) 2",
+        "Modbus Register Parameter 7 Temperature raw SInt16 value scaled by 100": "Address (Dec) 98, Register (Dec) 300099, Length (Reg.) 1"
+      },
+      "key_facts": [
+        "The document was last modified on Thursday, February 29, 2024, at 9:58 PM.",
+        "For each parameter, four registers are stated to be associated.",
+        "The first two registers for a parameter are intended to contain its value in float data type.",
+        "The last two registers for a parameter are intended to contain its value scaled by 100 in Int16 format and its status in UInt16 format.",
+        "The provided Modbus input registers table uses PDU addressing, with addresses starting at zero.",
+        "The table lists Modbus registers for median viscosity, median density, median temperature, kinematic viscosity, average density, raw viscosity, raw density, and raw temperature.",
+        "For each parameter in the table, two Modbus entries are provided: one as a Float32 value (2 registers long) and one as a SInt16 value scaled by 100 (1 register long)."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Depending on the PLC used, it might be required to add 1 to the addresses listed in the Modbus input registers table."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1850,
+        "cost_usd": 0.0047648000000000005
+      },
+      "source_file": "070_Modbus_TCP_-_Input_Registers.pdf"
+    },
+    {
+      "page_summary": "This page details various operational parameters, their Modbus register addresses, data types, and scaling information for a Rheonics device.",
+      "document_type": "datasheet",
+      "product_names": [],
+      "extracted_text": [
+        {
+          "parameter_name": "Parameter 8",
+          "description": "Resonant Frequency",
+          "entries": [
+            {
+              "row_id": "104",
+              "modbus_address": "300105",
+              "word_count": 2,
+              "data_type": "Float32",
+              "value_description": "Parameter 8 value as float"
+            },
+            {
+              "row_id": "106",
+              "modbus_address": "300107",
+              "word_count": 1,
+              "data_type": "SInt16",
+              "value_description": "Parameter 8 value scaled by 100"
+            }
+          ]
+        },
+        {
+          "parameter_name": "Parameter 9",
+          "description": "Compensated Resonant Frequency",
+          "entries": [
+            {
+              "row_id": "112",
+              "modbus_address": "300113",
+              "word_count": 2,
+              "data_type": "Float32",
+              "value_description": "Parameter 9 value as float"
+            },
+            {
+              "row_id": "114",
+              "modbus_address": "300115",
+              "word_count": 1,
+              "data_type": "SInt16",
+              "value_description": "Parameter 9 value scaled by 100"
+            }
+          ]
+        },
+        {
+          "parameter_name": "Parameter 10",
+          "description": "Damping Frequency",
+          "entries": [
+            {
+              "row_id": "120",
+              "modbus_address": "300121",
+              "word_count": 2,
+              "data_type": "Float32",
+              "value_description": "Parameter 10 value as float"
+            },
+            {
+              "row_id": "122",
+              "modbus_address": "300123",
+              "word_count": 1,
+              "data_type": "SInt16",
+              "value_description": "Parameter 10 value scaled by 100"
+            }
+          ]
+        },
+        {
+          "parameter_name": "Parameter 11",
+          "description": "Coil Temperature",
+          "entries": [
+            {
+              "row_id": "128",
+              "modbus_address": "300129",
+              "word_count": 2,
+              "data_type": "Float32",
+              "value_description": "Parameter 11 value as float"
+            },
+            {
+              "row_id": "130",
+              "modbus_address": "300131",
+              "word_count": 1,
+              "data_type": "SInt16",
+              "value_description": "Parameter 11 value scaled by 100"
+            }
+          ]
+        },
+        {
+          "parameter_name": "Parameter 12",
+          "description": "Viscosity Last Good",
+          "entries": [
+            {
+              "row_id": "136",
+              "modbus_address": "300137",
+              "word_count": 2,
+              "data_type": "Float32",
+              "value_description": "Parameter 12 value as float"
+            },
+            {
+              "row_id": "138",
+              "modbus_address": "300139",
+              "word_count": 1,
+              "data_type": "SInt16",
+              "value_description": "Parameter 12 value scaled by 100"
+            }
+          ]
+        },
+        {
+          "parameter_name": "Parameter 13",
+          "description": "Density Last Good",
+          "entries": [
+            {
+              "row_id": "144",
+              "modbus_address": "300145",
+              "word_count": 2,
+              "data_type": "Float32",
+              "value_description": "Parameter 13 value as float"
+            },
+            {
+              "row_id": "146",
+              "modbus_address": "300147",
+              "word_count": 1,
+              "data_type": "SInt16",
+              "value_description": "Parameter 13 value scaled by 100"
+            }
+          ]
+        },
+        {
+          "parameter_name": "Parameter 14",
+          "description": "Displays of mapped value from Modbus register 512",
+          "entries": [
+            {
+              "row_id": "152",
+              "modbus_address": "300153",
+              "word_count": 2,
+              "data_type": "Float32",
+              "value_description": "Parameter 14 value as float"
+            },
+            {
+              "row_id": "154",
+              "modbus_address": "300155",
+              "word_count": 1,
+              "data_type": "SInt16",
+              "value_description": "Parameter 14 value scaled by 100"
+            }
+          ]
+        },
+        {
+          "parameter_name": "Parameter 15",
+          "description": "Displays of mapped value from Modbus register 514",
+          "entries": [
+            {
+              "row_id": "160",
+              "modbus_address": "300161",
+              "word_count": 2,
+              "data_type": "Float32",
+              "value_description": "Parameter 15 value as float"
+            },
+            {
+              "row_id": "162",
+              "modbus_address": "300163",
+              "word_count": 1,
+              "data_type": "SInt16",
+              "value_description": "Parameter 15 value scaled by 100"
+            }
+          ]
+        },
+        {
+          "parameter_name": "Parameter 16",
+          "description": "Displays of mapped value from Modbus register 516",
+          "entries": [
+            {
+              "row_id": "168",
+              "modbus_address": "300169",
+              "word_count": 2,
+              "data_type": "Float32",
+              "value_description": "Parameter 16 value as float"
+            },
+            {
+              "row_id": "170",
+              "modbus_address": "300171",
+              "word_count": 1,
+              "data_type": "SInt16",
+              "value_description": "Parameter 16 value scaled by 100"
+            }
+          ]
+        },
+        {
+          "parameter_name": "Parameter 17",
+          "description": "Estimated Temperature",
+          "entries": [
+            {
+              "row_id": "176",
+              "modbus_address": "300177",
+              "word_count": 2,
+              "data_type": "Float32",
+              "value_description": "Parameter 17 value as float"
+            },
+            {
+              "row_id": "178",
+              "modbus_address": "300179",
+              "word_count": 1,
+              "data_type": "SInt16",
+              "value_description": "Parameter 17 value scaled by 100"
+            }
+          ]
+        },
+        {
+          "parameter_name": "Parameter 18",
+          "description": "Temperature from PT1000 sensor",
+          "entries": [
+            {
+              "row_id": "184",
+              "modbus_address": "300185",
+              "word_count": 2,
+              "data_type": "Float32",
+              "value_description": "Parameter 18 value as float"
+            },
+            {
+              "row_id": "186",
+              "modbus_address": "300187",
+              "word_count": 1,
+              "data_type": "SInt16",
+              "value_description": "Parameter 18 value scaled by 100"
+            }
+          ]
+        },
+        {
+          "parameter_name": "Parameter 19",
+          "description": "Calculated parameter from viscosity models",
+          "entries": [
+            {
+              "row_id": "192",
+              "modbus_address": "300193",
+              "word_count": 2,
+              "data_type": "Float32",
+              "value_description": "Parameter 19 value as float"
+            },
+            {
+              "row_id": "194",
+              "modbus_address": "300195",
+              "word_count": 1,
+              "data_type": "SInt16",
+              "value_description": "Parameter 19 value scaled by 100"
+            }
+          ]
+        },
+        {
+          "parameter_name": "Parameter 20",
+          "description": "Calculated parameter from density models",
+          "entries": [
+            {
+              "row_id": "200",
+              "modbus_address": "300201",
+              "word_count": 2,
+              "data_type": "Float32",
+              "value_description": "Parameter 20 value as float"
+            }
+          ]
+        }
+      ],
+      "specifications": {
+        "Parameter 8 Resonant Frequency": "Float32 (value as float), SInt16 (value scaled by 100)",
+        "Parameter 9 Compensated Resonant Frequency": "Float32 (value as float), SInt16 (value scaled by 100)",
+        "Parameter 10 Damping Frequency": "Float32 (value as float), SInt16 (value scaled by 100)",
+        "Parameter 11 Coil Temperature": "Float32 (value as float), SInt16 (value scaled by 100)",
+        "Parameter 12 Viscosity Last Good": "Float32 (value as float), SInt16 (value scaled by 100)",
+        "Parameter 13 Density Last Good": "Float32 (value as float), SInt16 (value scaled by 100)",
+        "Parameter 14 Mapped Value (Modbus 512)": "Float32 (value as float), SInt16 (value scaled by 100)",
+        "Parameter 15 Mapped Value (Modbus 514)": "Float32 (value as float), SInt16 (value scaled by 100)",
+        "Parameter 16 Mapped Value (Modbus 516)": "Float32 (value as float), SInt16 (value scaled by 100)",
+        "Parameter 17 Estimated Temperature": "Float32 (value as float), SInt16 (value scaled by 100)",
+        "Parameter 18 Temperature from PT1000 sensor": "Float32 (value as float), SInt16 (value scaled by 100)",
+        "Parameter 19 Calculated parameter from viscosity models": "Float32 (value as float), SInt16 (value scaled by 100)",
+        "Parameter 20 Calculated parameter from density models": "Float32 (value as float)"
+      },
+      "key_facts": [
+        "The document lists operational parameters from Parameter 8 to Parameter 20, providing their Modbus register addresses and data representation details.",
+        "Most parameters offer two data representations: a 32-bit floating-point (Float32) value and a 16-bit signed integer (SInt16) value scaled by 100.",
+        "Parameter 20, 'Calculated parameter from density models', only explicitly lists a 32-bit floating-point representation on this page.",
+        "Parameters covered include physical measurements like Resonant Frequency, Damping Frequency, Coil Temperature, Estimated Temperature, and Temperature from PT1000 sensor.",
+        "The table also includes computed values such as Compensated Resonant Frequency, 'Last Good' Viscosity and Density, and parameters derived from viscosity and density models.",
+        "Modbus register addresses are provided, ranging from 300105 to 300201, typically with a word count of 2 for Float32 and 1 for SInt16 values.",
+        "Parameters 14, 15, and 16 are described as displaying values mapped from Modbus registers 512, 514, and 516 respectively."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 3216,
+        "cost_usd": 0.008179800000000001
+      },
+      "source_file": "070_Modbus_TCP_-_Input_Registers.pdf"
+    },
+    {
+      "page_summary": "This page details various sensor parameters, including their identification codes, data sizes, data types, and descriptive explanations for values such as those from concentration models, sensor cleanliness ratio, and error status.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "202 | 300203 | 1 | SInt16 | Parameter 20 value scaled by 100\nParameter 21 | Calculated parameter from concentration models | | |\n208 | 300209 | 2 | Float32 | Parameter 21 value as float\n210 | 300211 | 1 | SInt16 | Parameter 21 value scaled by 100\nParameter 22 | Sensor Cleanliness Ratio | | |\n216 | 300217 | 2 | Float32 | Parameter 22 value as float\n218 | 300219 | 1 | SInt16 | Parameter 22 value scaled by 100\nSensor Status | Sensor Error Status | | |\n39 | 300040 | 1 | |",
+      "specifications": {
+        "Parameter 202 Size": "1",
+        "Parameter 202 Data Type": "SInt16",
+        "Parameter 202 Description": "Parameter 20 value scaled by 100",
+        "Parameter 208 Size": "2",
+        "Parameter 208 Data Type": "Float32",
+        "Parameter 208 Description": "Parameter 21 value as float",
+        "Parameter 210 Size": "1",
+        "Parameter 210 Data Type": "SInt16",
+        "Parameter 210 Description": "Parameter 21 value scaled by 100",
+        "Parameter 216 Size": "2",
+        "Parameter 216 Data Type": "Float32",
+        "Parameter 216 Description": "Parameter 22 value as float",
+        "Parameter 218 Size": "1",
+        "Parameter 218 Data Type": "SInt16",
+        "Parameter 218 Description": "Parameter 22 value scaled by 100",
+        "Parameter 39 Size": "1"
+      },
+      "key_facts": [
+        "Parameter 21 is a calculated parameter derived from concentration models.",
+        "Parameter 22 represents the Sensor Cleanliness Ratio.",
+        "Sensor Status indicates the Sensor Error Status.",
+        "Parameter 20 value is provided as a SInt16, scaled by 100.",
+        "Parameter 21 value can be represented as a Float32 or as a SInt16 scaled by 100.",
+        "Parameter 22 value can be represented as a Float32 or as a SInt16 scaled by 100."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 717,
+        "cost_usd": 0.0019322999999999999
+      },
+      "source_file": "070_Modbus_TCP_-_Input_Registers.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

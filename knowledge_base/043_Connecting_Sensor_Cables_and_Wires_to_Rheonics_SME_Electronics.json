@@ -1,0 +1,183 @@
+{
+  "source_file": "043_Connecting_Sensor_Cables_and_Wires_to_Rheonics_SME_Electronics.pdf",
+  "total_pages": 3,
+  "chunks": [
+    {
+      "page_summary": "This document outlines the connection procedure for sensor cables and wires to Rheonics SME electronics, providing a guide for wire color and corresponding terminal assignments.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SME Electronics",
+        "SME-TR",
+        "SME-TRD",
+        "SME-DRM",
+        "Rheonics inline viscometers",
+        "Rheonics density meters"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nConnecting Sensor Cables and Wires to Rheonics SME Electronics\n\nModified on: Mon, 10 Nov, 2025 at 10:12 PM\n\n1. Overview\nRheonics inline viscometers and density meters are connected to the transmitter electronics (SME-TR, SME-TRD, SME-DRM) using a sensor cable.\nThis guide explains how to connect each wire to the correct terminal on the SME electronics and how to safely disconnect the cable if needed.\n\nFigure 1. Rheonics SME\n\n2. Wire Color and Terminal Assignment\nFollow the color code table below to connect each wire from the sensor cable to the correct terminal on the SME electronics.\n\nWire Color | Sensor Connection Terminal #\nRed | 8\nBlue | 7\nPink (Rose) | 6\nGrey | 5\nYellow | 4\nGreen | 3",
+      "specifications": {
+        "Red wire terminal": "8",
+        "Blue wire terminal": "7",
+        "Pink (Rose) wire terminal": "6",
+        "Grey wire terminal": "5",
+        "Yellow wire terminal": "4",
+        "Green wire terminal": "3"
+      },
+      "key_facts": [
+        "Rheonics inline viscometers and density meters connect to SME transmitter electronics.",
+        "The document serves as a guide for connecting and safely disconnecting sensor cables on SME electronics.",
+        "The connection involves matching specific wire colors to designated terminal numbers on the SME electronics."
+      ],
+      "diagram_labels": [
+        "power",
+        "sensor",
+        "data",
+        "reset",
+        "usb",
+        "display",
+        "sd-card",
+        "4-20 mA output",
+        "loop+",
+        "gnd -",
+        "ch1 +",
+        "ch2 +",
+        "ch3 +",
+        "ethernet tcp/ip",
+        "modbus tcp",
+        "PN:1917-BO/SN:BFCM-R02-19101399",
+        "Figure 1. Rheonics SME"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 649,
+        "cost_usd": 0.0017622999999999998
+      },
+      "source_file": "043_Connecting_Sensor_Cables_and_Wires_to_Rheonics_SME_Electronics.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions for preparing and connecting sensor wires to a Rheonics SME device, including wire color assignments and general cable preparation procedures.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SME"
+      ],
+      "extracted_text": "Wire Color\nBrown\nWhite\n— Not connected —\nSensor Connection Terminal #\n2\n1\n0\n3. Cable and Crimp Preparation\nThe wire ends are delivered with crimped sleeves (8 mm diameter). The cable can be shortened, if necessary, but sleeves must always be crimped on the stripped ends before connecting.\nFigure 2. Crimped Sensor Cable\nThis procedure also applies to power cables, Modbus cables, and 4-20 mA signal cables.\n4. Connecting the Wires\n1. Identify the correct port on the terminal block using the table above.\n2. Insert the crimped end of the wire into the terminal until it clicks firmly into place.\n3. Gently tug the wire to ensure a secure connection.\nDo not pull with excessive force. This may damage the terminal block.\nFigure 3. Connecting wire in Rheonics SME",
+      "specifications": {
+        "crimped_sleeves_diameter": "8 mm"
+      },
+      "key_facts": [
+        "The brown wire connects to Sensor Connection Terminal #2.",
+        "The white wire connects to Sensor Connection Terminal #1.",
+        "Unconnected wires should be assigned to Sensor Connection Terminal #0.",
+        "Wire ends are provided with crimped sleeves.",
+        "Cables can be shortened, but sleeves must always be crimped onto stripped ends before connection.",
+        "The connection procedure applies to power, Modbus, and 4-20 mA signal cables.",
+        "To connect, identify the correct terminal port, insert the crimped wire until it clicks, and gently tug to confirm a secure connection."
+      ],
+      "diagram_labels": [
+        "power",
+        "sensor",
+        "data",
+        "usb",
+        "display",
+        "SD-card",
+        "reset",
+        "ethernet tcp/ip",
+        "modbus tcp",
+        "4-20 mA output",
+        "loop+",
+        "gnd -",
+        "gnd +",
+        "ch1 +",
+        "ch1 -",
+        "ch2 +",
+        "ch2 -",
+        "ch3 +",
+        "ch3 -",
+        "sensor connection",
+        "swiss made",
+        "SN:R0219101399",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "warnings_notes": [
+        "Do not pull with excessive force. This may damage the terminal block."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 677,
+        "cost_usd": 0.0018323
+      },
+      "source_file": "043_Connecting_Sensor_Cables_and_Wires_to_Rheonics_SME_Electronics.pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions on how to safely disconnect wires from the terminal block of a Rheonics SME device, accompanied by a visual aid.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SME",
+        "SME-EH"
+      ],
+      "extracted_text": "5. Disconnecting the Wires\nTo safely remove a wire from the terminal block:\n1. Press the white tab for that specific port using a small flat screwdriver (see image below).\n2. While pressing the tab, pull the wire straight out with your other hand.\nFigure 4. Disconnecting Wire in Rheonics SME",
+      "specifications": {},
+      "key_facts": [
+        "Wires are disconnected from the terminal block by pressing a white tab with a small flat screwdriver.",
+        "The wire should be pulled straight out while the tab is pressed.",
+        "The device shown is a Rheonics SME model SME-EH."
+      ],
+      "diagram_labels": [
+        "cts +",
+        "ch +",
+        "gnd -",
+        "loop+",
+        "mA output",
+        "display",
+        "SD-card",
+        "usb",
+        "reset",
+        "ethernet",
+        "D",
+        "C",
+        "S",
+        "P",
+        "B",
+        "A",
+        "modbus (RS485)",
+        "gnd",
+        "24 V dc",
+        "rheonics",
+        "SME-EH",
+        "sensor connection",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 413,
+        "cost_usd": 0.0011723
+      },
+      "source_file": "043_Connecting_Sensor_Cables_and_Wires_to_Rheonics_SME_Electronics.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "source_file": "035_SRV_flow_through_cells.pdf",
+  "total_pages": 5,
+  "chunks": [
+    {
+      "page_summary": "This page provides an overview of Rheonics' flow-through cells available for the SRV inline viscometer, detailing their specifications, materials, and design purpose.",
+      "document_type": "technical article",
+      "product_names": [
+        "SRV",
+        "SRV - Inline Viscosity Meter",
+        "IFC-34N-SRV",
+        "SRV-X1-34N"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nSRV flow through cells\nModified on: Thu, 14 Dec, 2023 at 9:37 PM\nWhat products are involved?\nSRV - Inline Viscosity Meter (https://rheonics.com/products/inline-viscometer-srv/)\nWhat is the purpose of this article?\nThis article provides an overview of the flow through cells available for the Rheonics SRV sensor.\n1. Introduction\nRheonics inline viscometer SRV can be used with many standard off-the-shelf flow adapters. In addition, Rheonics also offers different flow-through cells custom designed for the SRV sensor probe. These cells are available with different inline/outlet and sensor process connections as detailed in next table. The cells are made of Stainless Steel 316L (1.4435) and are designed to optimize fluid volume in the flow cell, minimize pressure drop and ensure good flow around the sensing element.\nTable: Flow through cells for SRV inline viscometer\nFlow cell | Sensor connection (Code) | Process connection\nIFC-34N-SRV: 3/4” NPT Inline flow cell for SRV (https://rheonics.com/product-accessories/ifc-34n-srv/)\nRated up to 200 bar. Fluid volume: 60 ml\nDrawing (https://rheonics.com/wp-content/uploads/2023/03/IFC-34N-SRV.pdf) - CAD model (https://rheonics.com/wp-content/uploads/2021/11/Rheonics-IFC-34N-SRV_NPT_flowcell.zip)\n[Empty Cell] | SRV-X1-34N (https://support.rheonics.com/en/support/solutions/articles/81000409840-srv-x1-34n-npt-3-4-)) | 3/4” NPT",
+      "specifications": {
+        "material": "Stainless Steel 316L (1.4435)",
+        "IFC-34N-SRV_pressure_rating": "200 bar",
+        "IFC-34N-SRV_fluid_volume": "60 ml",
+        "IFC-34N-SRV_process_connection": "3/4” NPT",
+        "SRV-X1-34N_process_connection": "3/4” NPT"
+      },
+      "key_facts": [
+        "Rheonics offers custom-designed flow-through cells for the SRV sensor probe.",
+        "The flow-through cells are available with various inline/outlet and sensor process connections.",
+        "The cells are constructed from Stainless Steel 316L (material number 1.4435).",
+        "The design optimizes fluid volume, minimizes pressure drop, and ensures good flow around the sensing element.",
+        "The IFC-34N-SRV flow cell is rated for up to 200 bar pressure and has a fluid volume of 60 ml."
+      ],
+      "diagram_labels": [
+        "sensor",
+        "flow direction",
+        "rheonics"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 887,
+        "cost_usd": 0.0023572999999999997
+      },
+      "source_file": "035_SRV_flow_through_cells.pdf"
+    },
+    {
+      "page_summary": "This page details two different inline flow cells (HPT-SRV and IFC-15T-34N-SRV) for Rheonics SRV viscometers, including their specifications, connection types, and links to documentation.",
+      "document_type": "datasheet",
+      "product_names": [
+        "HPT-SRV",
+        "IFC-15T-34N-SRV",
+        "SRV-X1-34N",
+        "SRV-X3-15T"
+      ],
+      "extracted_text": "Flow through cells for SRV inline viscometer\n\nHPT-SRV: High pressure, high temperature, low sample volume flow cell for SRV\n(https://rheonics.com/product-accessories/hpt-srv/)\nRated up to 690 bar. Fluid volume: 4.3 ml\nDrawing (https://rheonics.com/wp-content/uploads/2023/06/Rheonics_HPT-SRV.pdf) - CAD model (https://rheonics.com/wp-content/uploads/2023/06/Rheonics_HPT-SRV.zip)\n\nIFC-15T-34N-SRV: 3/4” NPT Inline flow cell for SRV - Tri-Clamp\n(https://rheonics.com/product-accessories/ifc-15t-34n-srv/)\nRated up to 200 bar. Fluid volume: 60 ml\nDrawing (https://rheonics.com/v84to)- CAD model (https://rheonics.com/rheonics_ifc-15t-34n-srv-2/)\n\n3/4” NPT (SRV-X1-34N (https://support.rheonics.com/en/support/solutions/articles/81000409840-srv-x1-34n-npt-3-4-))\n1/4\" 9/16-18 UNF threaded\n\n1.5” Tri-Clamp (SRV-X3-15T (https://support.rheonics.com/en/support/solutions/articles/81000410430-srv-x3-tri-clamp))\n3/4” NPT",
+      "specifications": {
+        "HPT-SRV_pressure_rating": "690 bar",
+        "HPT-SRV_fluid_volume": "4.3 ml",
+        "HPT-SRV_connection_type_1": "3/4 NPT",
+        "HPT-SRV_connection_type_2": "1/4 9/16-18 UNF threaded",
+        "IFC-15T-34N-SRV_pressure_rating": "200 bar",
+        "IFC-15T-34N-SRV_fluid_volume": "60 ml",
+        "IFC-15T-34N-SRV_connection_type_1": "1.5 Tri-Clamp",
+        "IFC-15T-34N-SRV_connection_type_2": "3/4 NPT"
+      },
+      "key_facts": [
+        "The HPT-SRV is a high pressure, high temperature, low sample volume flow cell for SRV viscometers.",
+        "The HPT-SRV flow cell is rated up to 690 bar with a fluid volume of 4.3 ml.",
+        "The HPT-SRV flow cell features 3/4\" NPT and 1/4\" 9/16-18 UNF threaded connections.",
+        "The IFC-15T-34N-SRV is a 3/4\" NPT inline flow cell for SRV viscometers with a Tri-Clamp connection.",
+        "The IFC-15T-34N-SRV flow cell is rated up to 200 bar with a fluid volume of 60 ml.",
+        "The IFC-15T-34N-SRV flow cell features 1.5\" Tri-Clamp and 3/4\" NPT connections.",
+        "Drawings and CAD models are available for both the HPT-SRV and IFC-15T-34N-SRV flow cells."
+      ],
+      "diagram_labels": [
+        "High pressure",
+        "SRV-HPA-001",
+        "swiss-made",
+        "rheonics",
+        "FLOW DIRECTION",
+        "P/N: 2639-00"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1107,
+        "cost_usd": 0.0029073
+      },
+      "source_file": "035_SRV_flow_through_cells.pdf"
+    },
+    {
+      "page_summary": "This page details two types of flow cells for Rheonics SRV inline viscometers, providing product descriptions, specifications, sizes, and links to technical drawings and CAD models.",
+      "document_type": "datasheet",
+      "product_names": [
+        "HPT-G12: G1/2\" Hygienic flow cell",
+        "FET-XXT-XXT: Flow elbow shorten tee",
+        "SRV inline viscometer",
+        "SRV-X1-12G",
+        "SRV-X3-15T",
+        "SRV-X3-20T",
+        "SRV-X5 variant",
+        "SRD probe"
+      ],
+      "extracted_text": "Flow through cells for SRV inline viscometer\n\nHPT-G12: G1/2\" Hygienic flow cell\n(https://rheonics.com/product-accessories/hpt-12g/)\n\nRated up to 500 bar. Fluid volume: 9 ml\n\nDrawing (https://rheonics.com/wp-content/uploads/2023/03/rheonics_hpt-12g.pdf) - CAD model (https://rheonics.com/wp-content/uploads/2023/06/Rheonics_HPT-12G.zip)\n\nG 1/2\"\n(SRV-X1-12G)\n(https://support.rheonics.com/en/support/solutions/articles/81000411056-srv-x1-12g-g-1-2-)\n\nFET-XXT-XXT: Flow elbow shorten tee\n(https://rheonics.com/product-accessories/fet-15t-15t/) with Tri-Clamp connection.\n\nAvailable for 1.5\" and 2\" sizes. E.g.: FET-20T-20T.\n\nDrawing (https://rheonics.com/wp-content/uploads/2023/04/Rheonics_FET-15T-15T.pdf) - CAD Model (https://rheonics.com/wp-content/uploads/2023/10/Rheonics_FET-15T-15T.zip)\n\n1.5\" Tri-Clamp\n(SRV-X3-15T)\n(https://support.rheonics.com/en/support/solutions/articles/81000410430-srv-x3-tri-clamp)\n\n2\" Tri-Clamp\n(SRV-X3-20T)\n\nAlso suitable for the SRV-X5 variant and the SRD probe.",
+      "specifications": {
+        "HPT-G12_Rated_Pressure": "500 bar",
+        "HPT-G12_Fluid_Volume": "9 ml",
+        "HPT-G12_Connection_Type": "G 1/2\"",
+        "FET-XXT-XXT_Connection_Type": "Tri-Clamp",
+        "FET-XXT-XXT_Available_Sizes": "1.5\" and 2\""
+      },
+      "key_facts": [
+        "The page describes flow cells designed for Rheonics SRV inline viscometers.",
+        "The HPT-G12 flow cell is a G 1/2\" hygienic type rated up to 500 bar with a fluid volume of 9 ml.",
+        "The FET-XXT-XXT flow elbow shorten tee uses Tri-Clamp connections and is available in 1.5\" and 2\" sizes.",
+        "The FET-XXT-XXT flow elbow is also compatible with the SRV-X5 variant and the SRD probe.",
+        "Technical drawings and CAD models are available for both featured products, HPT-G12 and FET-XXT-XXT."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "FLOW"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 962,
+        "cost_usd": 0.0025448
+      },
+      "source_file": "035_SRV_flow_through_cells.pdf"
+    },
+    {
+      "page_summary": "This page details two types of flow cell accessories, a flow elbow shorten tee and a flow tee spool piece, including their specifications, compatible connection types, and product compatibility for Rheonics SRV inline viscometers and SRD density sensors.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRV inline viscometer",
+        "FET-XXT-XXX: Flow elbow shorten tee",
+        "FET-15T-XXX",
+        "SRV-X3-15T",
+        "SRV-X3-20T",
+        "SRV-X5 variant",
+        "SRD",
+        "FTP-15T-XXT: Flow tee spool piece",
+        "FTP-15T-30T"
+      ],
+      "extracted_text": "Flow through cells for SRV inline viscometer\n\nFET-XXT-XXX: Flow elbow shorten tee\n(https://rheonics.com/product-accessories/fet-15t-15t/)\nwith welding ports.\nAvailable for 1.5” and 2” sizes. E.g.: FET-15T-XXX\nDrawing (https://rheonics.com/wp-content/uploads/2023/06/Rheonics_FET-15T-XXX.pdf) - CAD Model\n(https://rheonics.com/wp-content/uploads/2023/06/Rheonics_FET-15T-XXX.zip)\n\nWelding\n1.5” Tri-Clamp (SRV-X3-15T)\n(https://support.rheonics.com/en/support/solutions/articles/81000410430-srv-x3-tri-clamp)\n2” Tri-Clamp (SRV-X3-20T)\nAlso suitable for the SRV-X5 variant and the SRD.\n\n(Image of a flow elbow shorten tee)\n\n(https://rheonics.com/product-accessories/ftp-15t-xxx/) FTP-15T-XXT: Flow tee spool piece\n(https://rheonics.com/product-accessories/ftp-15t-xxx/)\nwith Tri-Clamp connection.\nInlet/outlet available sizes of 2”, 3”, 4” and 6”. E.g.: FTP-15T-30T\n\n1.5” Tri-Clamp (SRV-X3-15T)\n(https://support.rheonics.com/en/support/solutions/articles/81000410430-srv-x3-tri-clamp)\nAlso suitable for the SRD.\nTri-Clamp\n\n(Image of a flow tee spool piece)",
+      "specifications": {
+        "FET-XXT-XXX available sizes": "1.5 inch, 2 inch",
+        "FET-XXT-XXX connection type": "welding ports",
+        "FTP-15T-XXT inlet/outlet available sizes": "2 inch, 3 inch, 4 inch, 6 inch",
+        "FTP-15T-XXT connection type": "Tri-Clamp connection",
+        "Tri-Clamp connection sizes": "1.5 inch, 2 inch"
+      },
+      "key_facts": [
+        "The document describes flow through cells for Rheonics SRV inline viscometers.",
+        "The FET-XXT-XXX is a flow elbow shorten tee accessory.",
+        "The FET-XXT-XXX flow elbow shorten tee is available with welding ports and in 1.5-inch and 2-inch sizes.",
+        "CAD models and drawings are available for the FET-XXT-XXX product.",
+        "The FET-XXT-XXX is suitable for use with the SRV-X5 variant and the SRD.",
+        "The FTP-15T-XXT is a flow tee spool piece accessory.",
+        "The FTP-15T-XXT flow tee spool piece has Tri-Clamp connections.",
+        "The FTP-15T-XXT flow tee spool piece is available with inlet/outlet sizes of 2, 3, 4, and 6 inches.",
+        "The FTP-15T-XXT is suitable for use with the SRD.",
+        "Rheonics offers 1.5-inch (SRV-X3-15T) and 2-inch (SRV-X3-20T) Tri-Clamp components."
+      ],
+      "diagram_labels": [
+        "Flow elbow shorten tee",
+        "Flow tee spool piece"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1086,
+        "cost_usd": 0.0028548
+      },
+      "source_file": "035_SRV_flow_through_cells.pdf"
+    },
+    {
+      "page_summary": "This page details accessories for Rheonics SRV inline viscometers, including flow tee spool pieces with welding ports and a 1.5-inch Tri-Clamp, along with product links.",
+      "document_type": "datasheet",
+      "product_names": [
+        "FTP-15T-XXX Flow tee spool piece",
+        "FTP-15T-20X",
+        "SRV inline viscometer",
+        "SRV-X3-15T (1.5\" Tri-Clamp)",
+        "SRD"
+      ],
+      "extracted_text": "Flow through cells for SRV inline viscometer\n\nFTP-15T-XXX: Flow tee spool piece\n(https://rheonics.com/product-accessories/ftp-15t-xxx/)\nwith welding ports.\nInlet/outlet available sizes of 2\", 3\", 4\" and 6\" ports. E.g.: FTP-15T-20X\n\n1.5” Tri-Clamp\n(SRV-X3-15T (https://support.rheonics.com/en/support/solutions/articles/81000410430-srv-x3-tri-clamp))\nWelding\nAlso suitable for the SRD.\n\nReferences:\n[1]: https://support.rheonics.com/en/support/solutions/folders/81000297658 (https://support.rheonics.com/en/support/solutions/folders/81000297658)\n[2]: https://rheonics.com/product-accessories/ (https://rheonics.com/product-accessories/)",
+      "specifications": {
+        "Flow tee inlet/outlet sizes": "2, 3, 4, 6 inches",
+        "Tri-Clamp size": "1.5 inches"
+      },
+      "key_facts": [
+        "The page describes flow through cells designed for SRV inline viscometers.",
+        "The FTP-15T-XXX is a flow tee spool piece that comes with welding ports.",
+        "Inlet and outlet ports for the FTP-15T-XXX flow tee spool piece are available in 2, 3, 4, and 6-inch sizes.",
+        "An example part number for the flow tee spool piece is FTP-15T-20X.",
+        "The SRV-X3-15T is a 1.5-inch Tri-Clamp accessory.",
+        "The 1.5-inch Tri-Clamp (SRV-X3-15T) is also suitable for use with the SRD product.",
+        "References are provided for Rheonics support solutions and product accessories."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 664,
+        "cost_usd": 0.0017998
+      },
+      "source_file": "035_SRV_flow_through_cells.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

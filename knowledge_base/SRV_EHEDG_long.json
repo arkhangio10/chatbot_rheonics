@@ -1,0 +1,75 @@
+{
+  "source_file": "SRV_EHEDG_long.pdf",
+  "total_pages": 1,
+  "chunks": [
+    {
+      "page_summary": "This page is a technical drawing detailing the dimensions, flange specifications, and EHEDG compliance criteria for the Rheonics SRV EHEDG long inline viscometer, including surface finish requirements and intellectual property notes.",
+      "document_type": "drawing",
+      "product_names": [
+        "SRV EHEDG long",
+        "Variline®",
+        "BoiControl®"
+      ],
+      "extracted_text": "A\nSpecify flange in Order.\nAvaliable sizes are as follows:\nDIN11853-1/2/3, Nominal diameter >=DN50\nDIN11864-1/2/3, Nominal diameter >=DN50\nDIN 11851, Nominal diameter >=DN50\nISO 2852 (DIN 32676 B), Nominal diameter >=DN50\nOthers; Variline®, BoiControl®, etc.\n30\nø [ 1,18\" ]\nB=250+k*100mm\nMin=250mm\nA\nMin length 30 mm\nMin Length 140\nD\nt\nThickness of your flange\nL\nFor EHEDG compliance\nthe criterion:\nD-30mm>L\nmust be fulfilled\nALL wetted surfaces\nare < Ra 0.8\n13,9\nø [ ,55\" ]\n5\nø [ ,20\" ]\n82,7\n[ 3,26\" ]\n45,6\n[ 1,80\" ]\n8\nø [ ,31\" ]\n19,7\n[ ,77\" ]\nSchnitt A-A\nUnits: mm [inch]\nSRV EHEDG long\nThis drawing remains property of rheonics. It may be neither copied nor informed to third persons or competitors without our approval. (2 paragraph 1 fig.7 copyright act of 9th Sept. 1965)\nrheonics\ninline process\ndensity and viscosity\nmonitoring\nProtected by US and International patents granted and pending\nrheonics • Switzerland • USA • www.rheonics.com • info@rheonics.com +41 52 511 32 00 +1 713 364 5427",
+      "specifications": {
+        "Flange nominal diameter (DIN11853-1/2/3)": ">=DN50",
+        "Flange nominal diameter (DIN11864-1/2/3)": ">=DN50",
+        "Flange nominal diameter (DIN 11851)": ">=DN50",
+        "Flange nominal diameter (ISO 2852 DIN 32676 B)": ">=DN50",
+        "Sensor housing top diameter": "30 mm [1.18 inch]",
+        "Overall length (A) calculation": "B=250+k*100 mm",
+        "Minimum overall length (A)": "250 mm",
+        "Minimum length above flange": "30 mm",
+        "Length from flange to end of sensor body": "82.7 mm [3.26 inch]",
+        "Sensor body diameter": "13.9 mm [0.55 inch]",
+        "Sensor tip length": "45.6 mm [1.80 inch]",
+        "Sensor tip diameter": "5 mm [0.20 inch]",
+        "Threaded part diameter": "8 mm [0.31 inch]",
+        "Threaded part length": "19.7 mm [0.77 inch]",
+        "Minimum insertion length below flange (cross-section)": "140 mm",
+        "Wetted surface roughness": "< Ra 0.8"
+      },
+      "key_facts": [
+        "Flange types must be specified in the order.",
+        "Available flange sizes for DIN standards (DIN11853-1/2/3, DIN11864-1/2/3, DIN 11851) and ISO 2852 (DIN 32676 B) have a nominal diameter of >=DN50.",
+        "Other flange types such as Variline® and BoiControl® are also supported.",
+        "The product is designed for EHEDG compliance, requiring that the criterion D-30mm>L be fulfilled.",
+        "All wetted surfaces of the product have a roughness less than Ra 0.8.",
+        "The document itself is a proprietary drawing of Rheonics and is protected by copyright (2 paragraph 1 fig.7 copyright act of 9th Sept. 1965).",
+        "The SRV EHEDG long product is covered by US and International patents, both granted and pending.",
+        "Rheonics provides inline process density and viscosity monitoring solutions."
+      ],
+      "diagram_labels": [
+        "A",
+        "B",
+        "D",
+        "L",
+        "t",
+        "Min length 30 mm",
+        "B=250+k*100mm",
+        "Min=250mm",
+        "Min Length 140",
+        "Thickness of your flange",
+        "Schnitt A-A"
+      ],
+      "warnings_notes": [
+        "For EHEDG compliance the criterion: D-30mm>L must be fulfilled",
+        "This drawing remains property of rheonics. It may be neither copied nor informed to third persons or competitors without our approval. (2 paragraph 1 fig.7 copyright act of 9th Sept. 1965)",
+        "Protected by US and International patents granted and pending"
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1346,
+        "cost_usd": 0.0035047999999999998
+      },
+      "source_file": "SRV_EHEDG_long.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

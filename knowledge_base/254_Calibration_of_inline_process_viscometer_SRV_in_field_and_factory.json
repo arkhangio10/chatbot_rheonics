@@ -1,0 +1,251 @@
+{
+  "source_file": "254_Calibration_of_inline_process_viscometer_SRV_in_field_and_factory.pdf",
+  "total_pages": 6,
+  "chunks": [
+    {
+      "page_summary": "This page discusses the definition, importance, and methods of calibration for Rheonics inline process viscometer SRV in both field and factory environments, highlighting its role in ensuring accuracy and regulatory compliance.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics inline viscometer SRV",
+        "SRV",
+        "Rheonics calibrator"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nCalibration of inline process viscometer SRV in field and factory\n\nModified on: Sat, 20 Jul, 2024 at 2:50 AM\n\nTopics covered in this article:\n* What is calibration?\n    * Why is calibrating measuring instruments important?\n* Rheonics inline viscometer SRV\n* How is the process viscometer SRV calibrated in factory?\n    * What calibration certificates are available for SRV from factory?\n* SRV calibration in field - options and equipment\n    * Quick verification of SRV calibration in air\n    * Calibration verification to NIST traceable viscosity reference in field\n    * Scaling SRV Readings\n    * Rheonics calibrator\n\nWhat is calibration?\nCalibration is the comparison and required adjustment of a certain result with a “pattern” or certified value known to be correct. The adjusting or tuning can be done mechanically, through electronics or software, while the “pattern” value can be extracted from a certification sheet, a previously calibrated sensor exposed to the same input, or a controlled equipment.\nWhen using a sensor, we need to know that the values obtained are accurate. This is possible by relying on calibration.\n\nWhy is calibration of measuring instruments important?\nEnsure high accuracy - Industry automation, tracking, and controlling systems rely on sensors. Then, the sensors' accuracy needs to be ensured, and this is only possible with calibration. Calibrated sensors allow users to maintain confidence in the measurements, keep correct traceability, achieve scalability, and make decisions based on the sensor's readings.\nCertification compliance - For many industries calibration is needed to ensure compliance with regulations or standards governed by law, such as ISO 17025 (https://www.iso.org/obp/ui/#iso:std:iso-iec:17025:ed-3:v1:en) or FDA (https://rheonics.com/guide-to-complying-with-fda-requirements-for-calibration-when-using-rheonics-sensors-in-fda-approved-facility/)(https://rheonics.com/guide-to-complying-with-fda-requirements-for-calibration-when-using-rheonics-sensors-in-fda-approved-facility/)(https://rheonics.com/guide-to-complying-with-fda-requirements-for-calibration-when-using-rheonics-sensors-in-fda-approved-facility/)",
+      "specifications": {},
+      "key_facts": [
+        "Calibration is the process of comparing a sensor's measurement result with a known correct \"pattern\" or certified value and making necessary adjustments.",
+        "Adjustments during calibration can be mechanical, electronic, or software-based.",
+        "The \"pattern\" value for calibration can come from a certification sheet, a previously calibrated sensor, or controlled equipment.",
+        "Accurate sensor values depend on proper calibration.",
+        "Calibration ensures high accuracy in industrial automation, tracking, and control systems.",
+        "Calibrated sensors contribute to confidence in measurements, traceability, scalability, and informed decision-making.",
+        "Calibration is frequently required to meet regulatory and legal standards, including ISO 17025 and FDA requirements."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Calibration is needed to ensure compliance with regulations or standards governed by law, such as ISO 17025.",
+        "Calibration is necessary to comply with FDA requirements for using Rheonics sensors in FDA-approved facilities."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 903,
+        "cost_usd": 0.0023972999999999998
+      },
+      "source_file": "254_Calibration_of_inline_process_viscometer_SRV_in_field_and_factory.pdf"
+    },
+    {
+      "page_summary": "This page describes the Rheonics inline viscometer SRV, detailing its capabilities and the factory calibration procedure for dynamic viscosity and temperature using NIST traceable fluids, along with temperature accuracy specifications.",
+      "document_type": "technical article",
+      "product_names": [
+        "Rheonics inline viscometer SRV",
+        "SRV"
+      ],
+      "extracted_text": "to complying with fda requirements for calibration when using rheonics sensors in fda-approved facility), for food and farmaceutical industries. These regulations look for a standardized verification of the sensor’s operation to ensure safety, quality, and correct production.\n\nRheonics inline viscometer SRV\n\nThe Rheonics SRV is an inline process viscometer that measures simultaneously the real-time viscosity and temperature of a fluid, in a wide range of applications. Review all information about the SRV in the product webpage (https://rheonics.com/products/inline-viscometer-srv/) and Rheonics Support Articles (https://support.rheonics.com/en/support/solutions/folders/81000297658).\n\nThe Rheonics SRV outputs multiple parameters, including calculated values such as kinematic viscosity, concentration, etc. based on dynamic viscosity, temperature, and an input of density. See all parameters here. Density values can be constant, temperature-dependent, or coming from an external sensor. See more in this article: Set density input to SRV inline viscometer for dynamic viscosity and kinematic viscosity output (https://support.rheonics.com/en/support/solutions/articles/81000289485-set-density-input-to-srv-inline-viscometer-for-dynamic-viscosity-and-kinematic-viscosity-outputs).\n\nFor the inline process viscometer SRV, both dynamic viscosity and temperature can be calibrated.\n\nHow is the viscometer SRV calibrated in factory?\n\nAll Rheonics sensors are factory calibrated using NIST traceable fluids. The calibration procedure is the following:\n1. The sensor probe is placed in a thermal chamber, property of Rheonics, correctly immersed in a NIST traceable reference Newtonian fluid.\n2. Temperature is closely monitored and controlled over a given operating range to review the viscosity and temperature readings of the sensor.\n3. Sensor readings are compared against the NIST traceable fluid’s certified values of dynamic viscosity and temperature.\n4. The sensor is calibrated and fine-tuned by changing coefficients in its configuration until the readings obtained are within the accepted accuracy.\n5. The process is repeated for different NIST traceable fluids of different viscosity values - low or high viscosity ranges.\n\nThe calibration process is done with a proprietary software of Rheonics that calculates the right coefficients, monitors, and ensures tight temperature control for an even distribution along the probe’s body.\nThe viscosity range, temperature range, and accepted accuracy are defined during sensor configuration by the user, these can be standard (STD) or custom (CUS) values.\n\nThe temperature accuracy is defined by the type of PT1000 used. By default the SRV sensor uses a PT1000 Class B. Its accuracy according to IEC 751 / EN 60751 is defined by ±(0,30 °C + 0,005|t|) where “t” is the measured temperature.\n\nPT1000 class A and AA for the SRV sensor are also available on request.",
+      "specifications": {
+        "Temperature Accuracy (PT1000 Class B, IEC 751 / EN 60751)": "±(0.30 °C + 0.005|t|) where “t” is the measured temperature"
+      },
+      "key_facts": [
+        "The Rheonics SRV is an inline process viscometer that simultaneously measures real-time viscosity and temperature of a fluid.",
+        "The SRV outputs multiple parameters, including kinematic viscosity, concentration, dynamic viscosity, and temperature, based on dynamic viscosity, temperature, and an input of density.",
+        "Density values can be constant, temperature-dependent, or provided by an external sensor.",
+        "For the SRV inline process viscometer, both dynamic viscosity and temperature can be calibrated.",
+        "All Rheonics sensors are factory calibrated using NIST traceable fluids.",
+        "The factory calibration procedure involves placing the sensor probe in a Rheonics thermal chamber immersed in a NIST traceable reference Newtonian fluid.",
+        "During calibration, temperature is closely monitored and controlled over an operating range.",
+        "Sensor readings are compared against the NIST traceable fluid’s certified values of dynamic viscosity and temperature.",
+        "The sensor is calibrated and fine-tuned by changing configuration coefficients until readings meet accepted accuracy.",
+        "The calibration process is repeated for different NIST traceable fluids with varying low or high viscosity ranges.",
+        "Rheonics uses proprietary software for calibration to calculate coefficients, monitor, and ensure tight temperature control along the probe’s body.",
+        "The viscosity range, temperature range, and accepted accuracy for sensor configuration can be standard (STD) or custom (CUS) values, defined by the user.",
+        "By default, the SRV sensor uses a PT1000 Class B for temperature measurement.",
+        "PT1000 class A and AA for the SRV sensor are available on request."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "The document refers to complying with FDA requirements for calibration when using Rheonics sensors in FDA-approved facilities for food and pharmaceutical industries, emphasizing standardized verification for safety, quality, and correct production."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1235,
+        "cost_usd": 0.0032273
+      },
+      "source_file": "254_Calibration_of_inline_process_viscometer_SRV_in_field_and_factory.pdf"
+    },
+    {
+      "page_summary": "This page describes the available standard and custom calibration certificate options for Rheonics SRV inline viscosity sensors, detailing what each type includes.",
+      "document_type": "notes",
+      "product_names": [
+        "SRV - Inline Viscosity Sensor",
+        "SRV"
+      ],
+      "extracted_text": "What calibration certificates are available for SRV from factory?\n\nWhile completing the RFQ form - Request for Quotation (https://rheonics.com/request-for-quotation/srv/) - of the sensor, the user defines the kind of calibration required, which can be any of the following:\n\nSTD Calibration - Standard Calibration:\nThe standard calibrations means that:\n* A standard calibration certification is included in its delivery, which doesn't specify the NIST traceable fluid used in factory.\n* Rheonics will use standard traceable fluids for calibration at default setpoints.\n* Calibrated accuracy is standard, 5% of actual readings.\n* The viscosity range is defined by the user between standard (V1), extended (V3, V4) or custom (V4) ranges.\n\nCalibration Certificate\nSRV - Inline Viscosity Sensor\nProduct serial number: XXX\n\nParameters | Accuracy\n---|---\nViscosity range – 3-3,000 cP | +/- 5 % of the measured value\n\nFigure 1: Standard calibration certificate example\n\nCUS Calibration - Custom Calibration:\nThe custom calibrations means that:\n* A sensor calibration certification is included in the delivery, which details the reference fluid and lot number used.\n* The user defines the viscosity setpoints at which the sensor should be calibrated. If these are not defined then default values are used.\n* The user defines the accepted accuracy of viscosity.\n\nThe CUS calibration is recommended when the user needs a calibration certificate that specifies the reference fluid and lot number used. This is useful for later recalibration on site to comply with regulatory norms that may apply or internal QC (Quality Control) procedures from the client.\nRheonics use Cannon Instruments NIST traceable reference fluids for sensor calibrations. The calibration certificate, included with the sensor, specifies the reference fluid and lot number. Cannon Instrument, which is manufacturer of density and viscosity references,holds ISO 17025 and ISO 17034 (manufacturer of references) certifications.\nThe certificates from Cannon Instrument are available on their website:CANNON Quality Certifications. (https://cannoninstrument.com/quality-certifications)",
+      "specifications": {
+        "Viscosity range": "3-3,000 cP",
+        "Accuracy": "+/- 5 % of the measured value"
+      },
+      "key_facts": [
+        "When completing an RFQ for the SRV sensor, the user defines the required calibration type.",
+        "A standard calibration certification is included in the delivery of the sensor.",
+        "Standard calibration certification does not specify the NIST traceable fluid used in the factory.",
+        "Rheonics uses standard traceable fluids for calibration at default setpoints for standard calibration.",
+        "The standard calibrated accuracy is 5% of actual readings.",
+        "The viscosity range for standard calibration can be user-defined between standard (V1), extended (V3, V4), or custom (V4) ranges.",
+        "A custom calibration certification is included in the delivery and details the reference fluid and lot number used.",
+        "For custom calibration, the user defines the viscosity setpoints for calibration; otherwise, default values are used.",
+        "For custom calibration, the user defines the accepted accuracy of viscosity.",
+        "Custom calibration is recommended for specific needs such as later recalibration, compliance with regulatory norms, or internal QC procedures.",
+        "Rheonics uses Cannon Instruments NIST traceable reference fluids for sensor calibrations.",
+        "Cannon Instrument is a manufacturer of density and viscosity references.",
+        "Calibration certificates from Cannon Instrument are available on their website."
+      ],
+      "diagram_labels": [
+        "Figure 1: Standard calibration certificate example"
+      ],
+      "warnings_notes": [
+        "Custom calibration is useful for later recalibration on site to comply with regulatory norms that may apply or internal QC (Quality Control) procedures from the client.",
+        "Cannon Instrument, a manufacturer of density and viscosity references, holds ISO 17025 and ISO 17034 certifications."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 950,
+        "cost_usd": 0.0025147999999999998
+      },
+      "source_file": "254_Calibration_of_inline_process_viscometer_SRV_in_field_and_factory.pdf"
+    },
+    {
+      "page_summary": "This page provides information on factory and field calibration procedures for Rheonics SRV inline viscosity sensors, including an example calibration certificate and a quick verification method.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV Inline Viscosity Sensor",
+        "SRV",
+        "SRV inline viscometer",
+        "Sensor Probe",
+        "SME Electronics",
+        "SME-TRD display"
+      ],
+      "extracted_text": "Certificate of Quality\nSRV Inline Viscosity Sensor\nProduct number: XXX\n\nSRV Calibration and Test report\n\nParameter: Temp (°C), Viscosity (Ref) cP, Density (Ref) g/cc, Viscosity Density Product (Reference), Viscosity Density Product (Measured), Error (%), Date of experiment, Operator\na100.95, 1.45, 0.8160, 1.19, 1.18, 0, 26.09.2021, XXX\na40.70, 4.96, 0.8568, 4.25, 4.12, -3, (empty), (empty)\nb101.34, 5.78, 0.8162, 4.72, 4.76, 1, 06.08.2021, (empty)\n\nCannon Viscosity Standard | Lot | Expiry date\naS6 | XXX | 30.11.2022\nbS60 | XXX | 30.04.2023\n\nFigure 2: Custom calibration certificate example\n\nFactory verification and re-calibration\nRheonics sensors can be returned to factory for a calibration verification or re-calibration. The need of a factory verification should be discussed with Rheonics Support Team through support@rheonics.com. The user may be asked to perform a local calibration verification following the steps explained in the next section. If the sensor is returned to factory for calibration verification, the following is needed:\n\n* Order the calibration verification or re-calibration by filling out the FCV (Form for Calibration Verification).\n* Request form to Rheonics Support Team at support@rheonics.com\n* Ship back the Sensor Probe\n* Ship back the SME Electronics\n\nWith the above information, Rheonics will send an offer and timeline for the request.\n\nSRV calibration in field - options and equipment\nRheonics recommends clients to use the following verification and calibration procedures with the SRV inline viscometer.\n\nQuick verification of SRV calibration in air\n\n1. Remove the SRV from the process\n2. Clean the SRV if the probe is dirty\n3. Leave the SRV in the air, and verify that nothing is in contact with the sensing element\n4. Verify the viscosity reading is zero. This can be checked through the SME-TRD display, RCP software, or any external integration system (e.g. PLC).\n\nThis “air check” is useful as a quick verification of the SRV calibration. The sensor does not use moving parts, so if readings in the air are zero, there is no way that the factory calibration has been affected, or any long-term drift has occurred.",
+      "specifications": {
+        "Temperature Parameter Unit": "°C",
+        "Viscosity Reference Parameter Unit": "cP",
+        "Density Reference Parameter Unit": "g/cc",
+        "Error Parameter Unit": "%",
+        "Cannon Viscosity Standard aS6 Expiry Date": "30.11.2022",
+        "Cannon Viscosity Standard bS60 Expiry Date": "30.04.2023"
+      },
+      "key_facts": [
+        "Rheonics sensors can be returned to the factory for a calibration verification or re-calibration.",
+        "The need for factory verification should be discussed with the Rheonics Support Team via support@rheonics.com.",
+        "Users may be asked to perform a local calibration verification following steps provided in the document.",
+        "To return a sensor for factory calibration verification, users need to order the service (using the FCV form from support@rheonics.com) and ship back the Sensor Probe and SME Electronics.",
+        "Rheonics will provide an offer and timeline after receiving the necessary information for a factory calibration request.",
+        "Rheonics recommends specific verification and calibration procedures for the SRV inline viscometer in the field.",
+        "A 'quick verification of SRV calibration in air' involves removing, cleaning, and leaving the SRV in the air to verify a zero viscosity reading.",
+        "The SRV sensor's design without moving parts means a zero viscosity reading in air indicates that factory calibration is unaffected and no long-term drift has occurred.",
+        "Viscosity readings for verification can be checked using the SME-TRD display, RCP software, or an external integration system (e.g., PLC).",
+        "The document includes a 'Certificate of Quality' and an example of a 'Custom calibration certificate'."
+      ],
+      "diagram_labels": [
+        "Figure 2: Custom calibration certificate example"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1191,
+        "cost_usd": 0.0031173
+      },
+      "source_file": "254_Calibration_of_inline_process_viscometer_SRV_in_field_and_factory.pdf"
+    },
+    {
+      "page_summary": "This page describes the procedure for in-field calibration verification of a Rheonics SRV viscometer using NIST traceable viscosity references, outlines how to scale SRV readings, and introduces the Rheonics Calibrator.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "Rheonics Calibrator",
+        "RCP Software"
+      ],
+      "extracted_text": "Calibration verification to NIST traceable viscosity reference in field\n\nThis method follows the Rheonics factory calibration procedure. The process is to measure with the SRV a Newtonian fluid with a known certified viscosity at given temperatures. Then compare the SRV readings to the expected values and verify the accuracy is within the expected range.\n\n1. Prepare setup for calibration. User should:\n   a. Clamp the sensor probe firmly on its body to avoid oscillations. It is not recommended to do a calibration by holding the probe by hand or fixing the sensor from its cable.\n   b. Have enough space and fluid to surround the sensor's sensing element (red zone in next figure). Have the fluid higher than the minimum level required.\n   c. Control the temperature. To register the viscosity readings, wait for the sensor to output stable temperature values.\n   d. Mixing allows uniform temperature of the fluid. However, mixing can also cause swirls in the fluid, make sure this doesn't affect the immersion of the sensing element in the fluid.\n\n2. Use a calibration reference fluid with known viscosity and temperature. Rheonics recommends using the same or similar NIST traceable fluid used for factory calibration and specified in the Custom Calibration Certificate.\n3. Check the readings from the SRV, and wait for stable readings of temperature and viscosity.\n4. Compare the SRV viscosity readings with the calibration reference fluid values. Calculate the error %.\n\nFigure 3: SRV calibration verification setup example\n\nScaling SRV Readings\n\nIf a systematic error is noticed during the calibration verification of the SRV with the steps explained before, the user can scale the SRV readings to correct the error.\nThe scaling function is available through the RCP Software. Review more information here: Scaling SME Parameters\n\nRheonics calibrator\n\nRheonics offers an in-field Calibrator, the Rheonics Calibrator, for calibration checks and recalibration of the SRV. This compact Calibrator device has a footprint smaller than a typical desktop coffee machine. It uses an internal heating and cooling system to control the temperature of the fluid under test and maintain a thermal equilibrium",
+      "specifications": {},
+      "key_facts": [
+        "The calibration verification method follows the Rheonics factory calibration procedure.",
+        "The process involves measuring a Newtonian fluid with known certified viscosity using the SRV and comparing readings to expected values to verify accuracy.",
+        "The user should clamp the sensor probe firmly on its body to avoid oscillations during calibration.",
+        "It is important to have enough space and fluid to surround the sensor's sensing element, with the fluid level higher than the minimum required.",
+        "Temperature must be controlled, and stable temperature values should be awaited before registering viscosity readings.",
+        "Mixing can help achieve uniform fluid temperature but must not affect the immersion of the sensing element.",
+        "A calibration reference fluid with known viscosity and temperature, ideally NIST traceable and specified in the Custom Calibration Certificate, should be used.",
+        "Users need to wait for stable readings of temperature and viscosity from the SRV.",
+        "The error percentage is calculated by comparing SRV viscosity readings with calibration reference fluid values.",
+        "Systematic errors noticed during calibration verification can be corrected by scaling the SRV readings.",
+        "The scaling function for SRV readings is available through the RCP Software.",
+        "The Rheonics Calibrator is an in-field device designed for calibration checks and recalibration of the SRV.",
+        "The Calibrator is compact, having a footprint smaller than a typical desktop coffee machine.",
+        "The Rheonics Calibrator features an internal heating and cooling system to control fluid temperature and maintain thermal equilibrium."
+      ],
+      "diagram_labels": [
+        "Clamp the sensor",
+        "Recommended Fluids: - Calibrated fluids",
+        "Recommended Fluids: - Oils",
+        "Recommended Fluids: - Alcohols",
+        "Do not use water",
+        "Make sure the sensing area is fully immersed",
+        "Mixing or stirring the fluid is optional. A varying fluid level in sensing area due to stirring will impact the readings",
+        "Heater: Optional to test at different temperatures",
+        "rheonics"
+      ],
+      "warnings_notes": [
+        "It is not recommended to do a calibration by holding the probe by hand or fixing the sensor from its cable.",
+        "Do not use water (as a recommended fluid for calibration).",
+        "A varying fluid level in sensing area due to stirring will impact the readings."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1073,
+        "cost_usd": 0.0028223
+      },
+      "source_file": "254_Calibration_of_inline_process_viscometer_SRV_in_field_and_factory.pdf"
+    },
+    {
+      "page_summary": "This page describes the use of the Rheonics Calibrator and its software for calibrating the SRV probe, displays an image of the calibration setup, and provides links to related technical articles.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SRV probe",
+        "Rheonics Calibrator Software",
+        "Rheonics Calibrator",
+        "Type-SR CALIBRATOR"
+      ],
+      "extracted_text": "along the Rheonics SRV probe.\nThe Rheonics Calibrator Software is used along with the Rheonics Calibrator to calibrate the SRV at given configurable temperature points.\nContact Rheonics Support Team at support@rheonics.com for more information.\n\nFigure 4: Rheonics In-field Calibrator Setup\n\nRelated Articles\n[1]: Introduction to Correlation Scale-up\n(https://support.rheonics.com/en/support/solutions/articles/81000410167-introduction-to-correlation-scale-up)\n[2]: Scaling: How to create correlation between lab and inline measurements?\n(https://support.rheonics.com/en/support/solutions/articles/81000397454-scaling-how-to-create-correlation-between-lab-and-inline-measurements-)\n[3]: Scaling SME Parameters\n(https://support.rheonics.com/en/support/solutions/articles/81000391533-scaling-sme-parameters)",
+      "specifications": {},
+      "key_facts": [
+        "The Rheonics Calibrator Software is used in conjunction with the Rheonics Calibrator to calibrate the SRV probe.",
+        "The calibration process allows for configurable temperature points.",
+        "For additional information, the Rheonics Support Team can be contacted at support@rheonics.com.",
+        "The document provides references to articles on correlation scale-up, establishing correlation between lab and inline measurements, and scaling SME parameters."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "Type-SR CALIBRATOR",
+        "swiss made",
+        "Figure 4: Rheonics In-field Calibrator Setup"
+      ],
+      "warnings_notes": [],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 532,
+        "cost_usd": 0.0014698
+      },
+      "source_file": "254_Calibration_of_inline_process_viscometer_SRV_in_field_and_factory.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "source_file": "189_Process_viscometer_and_density_meter_installation_in_recirculation_line_versus_in_the_mixing_tank.pdf",
+  "total_pages": 5,
+  "chunks": [
+    {
+      "page_summary": "This document compares the installation options for Rheonics viscometers and density meters in mixing processes, specifically contrasting in-tank/vessel installations with recirculation line installations.",
+      "document_type": "notes",
+      "product_names": [
+        "SRV - Inline Viscosity Meter",
+        "SRD - Inline Density and Viscosity meter",
+        "Rheonics Type-SR sensors",
+        "Rheonics sensors",
+        "SR- sensor"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nProcess viscometer and density meter installation in recirculation line versus in the mixing tank\nModified on: Thu, 25 Apr, 2024 at 11:21 PM\n\nWhat products are involved?\n(https://rheonics.com/products/inline-viscometer-srv/) SRV - Inline Viscosity Meter\n(https://rheonics.com/products/inline-viscometer-srv/) and SRD - Inline Density and Viscosity meter\n(https://rheonics.com/products/inline-density-meter-srd/)\n\nWhat is the purpose of this article?\nCompare the advantages of an in-tank or vessel and recirculation line installation for a mixing process.\n\n1. Mixing processes\nThe Rheonics Type-SR sensors are used to monitor inline density and viscosity of a fluid and enable real-time control of a process. Mixing processes are a good use-case for the sensors to track changes in the properties of the fluid, for example, as solvents are added, mixing is activated, temperature is varied and as time elapses and blending or reaction progresses. Mixing tanks may be designed with inner shafts and can have recirculation lines to, among other reasons, ensure proper mixing of the fluid.\nRheonics sensors can be ordered with different connections (visit SRV (https://support.rheonics.com/en/support/solutions/folders/81000297658), SRD (https://support.rheonics.com/en/support/solutions/folders/81000297658) and SRD articles (https://support.rheonics.com/en/support/solutions/folders/81000297659)) to be compatible with installation in tanks and pipelines. Rheonics accessories can be used as well for mounting flexibility. Deciding whether to install the SR- sensor in the tank or the recirculation line, and whether to measure the viscosity or/and density changes in a mixing fluid, will come down to details of each process. For example, mixing shafts inside the tank may leave no space for sensor installations in the wall, then installation in the line is a potential solution. On the other hand, recirculation lines may not be on during the complete mixing process so cannot provide monitoring over the complete mixing process. In the next section, an analysis of each installation position is given.\nNote: Each fluid will have specific characteristics and behaviors, visit this article for general recommendations for specific fluid types: Installation guidelines for different types of fluids (https://support.rheonics.com/en/support/solutions/articles/81000411886-installation-guidelines-for-inline-viscometer-srv-and-density-meter-srd). Processes are unique as well and often need a review of the operational, installation and targets. If needed, contact Rheonics support team for installation review of your application.\n(https://support.rheonics.com/en/support/solutions/articles/81000411886)\n\n2. Comparing viscometer and density meter installation options/positions for mixing processes\nNext image represents the versatility of installations from Rheonics sensors with some examples:",
+      "specifications": {},
+      "key_facts": [
+        "The Rheonics Type-SR sensors are utilized to monitor inline density and viscosity of a fluid, enabling real-time process control.",
+        "Mixing processes, characterized by adding solvents, activated mixing, temperature variations, blending, or reaction progression, are optimal use cases for Rheonics sensors.",
+        "Rheonics sensors are available with various connections to facilitate installation in tanks and pipelines.",
+        "The choice between installing an SR- sensor in a tank or a recirculation line depends on the specific details of each mixing process, including space availability and the need for continuous monitoring.",
+        "Mixing shafts within a tank can restrict space for sensor installations in the tank wall, making recirculation line installation a potential alternative.",
+        "Recirculation lines may not operate continuously throughout the mixing process, which would prevent complete monitoring.",
+        "Each fluid possesses unique characteristics and behaviors, necessitating specific installation guidelines.",
+        "Given that processes are unique, a review of operational, installation, and target parameters is often required.",
+        "Rheonics' support team is available for consultation to review installation plans for specific applications.",
+        "The document aims to compare the advantages of in-tank/vessel vs. recirculation line installation for mixing processes."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Note: Each fluid will have specific characteristics and behaviors, visit this article for general recommendations for specific fluid types.",
+        "Recirculation lines may not be on during the complete mixing process so cannot provide monitoring over the complete mixing process.",
+        "Processes are unique as well and often need a review of the operational, installation and targets.",
+        "If needed, contact Rheonics support team for installation review of your application."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1219,
+        "cost_usd": 0.0031872999999999997
+      },
+      "source_file": "189_Process_viscometer_and_density_meter_installation_in_recirculation_line_versus_in_the_mixing_tank.pdf"
+    },
+    {
+      "page_summary": "This page illustrates seven different sensor installation methods in a tank and a recirculation line, detailing five specific Rheonics sensor codes and their corresponding connection types for tank installations.",
+      "document_type": "manual",
+      "product_names": [
+        "SRD-X5-A370-BA20A",
+        "SRV-X4-15T",
+        "SRV-X5-A200-B20T",
+        "SRD-X1-34N",
+        "WOL-34NL",
+        "SRD-X5-A150-BH50"
+      ],
+      "extracted_text": "Figure 1: Tank and recirculation line installation examples\nTable 1: Installation examples with sensor codes\nZoom-in view\nN°\nSensor code\n\n1. Long insertion from the top\nSRD-X5-A370-BA20A\nConnection: Flange ANSI 2\" 150lb RF\n\n2. Flush installation\nSRV-X4-15T\nConnection: 1.5\" Tri-Clamp\n\n3. Long Tri-Clamp insertion on wall\nSRV-X5-A200-B20T\nConnection: 2\" Tri-Clamp\n\n4. Threaded installation on wall\nSRD-X1-34N\nConnection: NPT 3/4\"\nRecommended accessory: WOL-34NL (https://rheonics.com/product-accessories/wol-34nl/)\n\n5. Long installation from bottom\nSRD-X5-A150-BH50\nConnection: DIN11851 DN50",
+      "specifications": {
+        "Connection Type 1": "Flange ANSI 2\" 150lb RF",
+        "Connection Type 2": "1.5\" Tri-Clamp",
+        "Connection Type 3": "2\" Tri-Clamp",
+        "Connection Type 4": "NPT 3/4\"",
+        "Connection Type 5": "DIN11851 DN50"
+      },
+      "key_facts": [
+        "The document illustrates seven different sensor installation points within a processing system comprising a tank and a recirculation line.",
+        "Five distinct installation methods for sensors within a tank are detailed, including long insertion from the top, flush installation, long Tri-Clamp insertion on the wall, threaded installation on the wall, and long installation from the bottom.",
+        "Each described tank installation method is associated with a specific Rheonics sensor model and its corresponding connection type.",
+        "The accessory WOL-34NL is recommended for threaded wall installations of the SRD-X1-34N sensor.",
+        "Points 6 and 7 in the main diagram indicate sensor installations in the recirculation pipeline, but these are not further detailed in the accompanying table."
+      ],
+      "diagram_labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 737,
+        "cost_usd": 0.0019822999999999998
+      },
+      "source_file": "189_Process_viscometer_and_density_meter_installation_in_recirculation_line_versus_in_the_mixing_tank.pdf"
+    },
+    {
+      "page_summary": "This page details installation guidelines and considerations for Rheonics SRV and SRD viscometer and density sensors in both tank mixing processes and recirculation lines, highlighting advantages and important factors for each method.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "SRD",
+        "SRD-X1-12G",
+        "HAW-12G",
+        "SRV-A130-B1N25",
+        "Type-SR"
+      ],
+      "extracted_text": "6. Threaded installation in pipe\nSRD-X1-12G\nConnection: G 1/2\"\nRecommended accessory: HAW-12G\n(https://rheonics.com/product-accessories/haw-12g-xtn/)\n\n7. Long insertion threaded installation in pipe elbow\nSRV-A130-B1N25\nConnection: NPT 1.25\"\n\nInstallation in tank - process viscometer and density meter\nThe Rheonics SRV and SRD sensors can be installed in tank for mixing processes if:\n*   Shafts or rotating blades do NOT hit the sensor probe.\n*   Shafts or rotating blades do NOT interfere with the sensing elements of the probes.\n*   The sensor can be installed below the minimum fluid level in tank. This way, the sensing element of the probe will be always immersed in fluid.\n\nAdvantages of installation in tanks are:\n*   Track the complete mixing process: It is possible to track the complete process from start to finish and to trace important events (such as the addition of solvents, temperature changes, start and stop of pumps and mixers) and see how these affect the viscosity or/and density of the fluid.\n*   Versatility of installation: From the top, side wall, bottom of the tank, all installation points can be used for the Type-SR sensors. Installation of long insertion sensors have the advantage to avoid buildups or deposits around the sensing element by protruding the sensor further in the fluid.\n\nImportant consideration when installing in tank:\n*   Variable flow conditions: Fluid across the sensor is likely to not have a well defined flow behavior. Rheonics sensors don't require a specific flow rate for good readings, but constant flow rates favor stable readings. Consider that for non-Newtonian fluids, viscosity will change with flow rate due to change in apparent shear on the fluid.\n*   Higher noise: This is a possible issue with installations in tank, at least until the mixture is homogenous. However, the noise can be used as an indicator of homogeneity of the mixing.\n*   More data processing: Installation in tank may need a deeper analysis from the user to get the baseline values and filters may be needed to reduce noise and track homogeneity. The RCP software of the sensor is a useful tool for data analysis and Rheonics sensors have multiple levels of filters available to monitor and output baseline values as well as short term variations. Contact Rheonics support to learn how onboard filters can be useful for your data captures.\n*   Generally, the SRD is not recommended for mixing tanks due to the variable flow that affects the readings stability. Installation in recirculation line is preferred since the probe is exposed to a controlled flow.\n\nInstallation in recirculation line - process viscometer and density meter\nThe Rheonics SRV and SRD sensors can be installed in the recirculation or distribution lines if:\n*   Fluid is always recirculating in line during the mixing process. Idea is to avoid oscillation between an empty and full pipe.\n*   We recommend to have the fluid in motion and at nearly constant flow velocity to ensure stable, repeatable and reproducible measurements in particular when the fluid is non-Newtonian. Moving fluid ensures that there is good transfer of the fluid over the sensor and it is measuring a representative sample of the tank. Constant flow rate ensures similar shear rate for non-Newtonian fluids, ensuring apparent viscosity is measured at similar shears between samples.\n\nAdvantages of installations in recirculation lines are:",
+      "specifications": {
+        "SRD-X1-12G Connection": "G 1/2\"",
+        "SRV-A130-B1N25 Connection": "NPT 1.25\""
+      },
+      "key_facts": [
+        "Rheonics SRV and SRD sensors can be installed in tanks for mixing processes provided that shafts or rotating blades do not hit or interfere with the sensor probe, and the sensing element is always immersed in fluid.",
+        "Tank installations allow tracking the complete mixing process from start to finish, including the impact of events like solvent addition, temperature changes, and pump/mixer operations on fluid viscosity and density.",
+        "Long insertion sensors in tanks help avoid buildups or deposits around the sensing element by extending further into the fluid.",
+        "While Rheonics sensors do not require a specific flow rate for good readings, constant flow rates favor stable readings, and for non-Newtonian fluids, viscosity will change with flow rate due to changes in apparent shear.",
+        "Higher noise, a potential issue in tank installations until the mixture becomes homogeneous, can be utilized as an indicator of the mixing's homogeneity.",
+        "The RCP software and multi-level onboard filters available in Rheonics sensors are useful tools for data analysis, noise reduction, and tracking homogeneity; users are encouraged to contact Rheonics support for guidance on onboard filters.",
+        "The SRD sensor is generally not recommended for mixing tanks due to variable flow affecting reading stability; installation in a recirculation line is preferred as the probe is exposed to a controlled flow.",
+        "Rheonics SRV and SRD sensors can be installed in recirculation or distribution lines if fluid continuously recirculates in line during the mixing process, to avoid oscillation between an empty and full pipe.",
+        "In recirculation lines, it is recommended to maintain fluid motion at a nearly constant flow velocity to ensure stable, repeatable, and reproducible measurements, especially for non-Newtonian fluids to ensure apparent viscosity is measured at similar shears between samples."
+      ],
+      "diagram_labels": [
+        "6. Threaded installation in pipe",
+        "7. Long insertion threaded installation in pipe elbow"
+      ],
+      "warnings_notes": [
+        "Shafts or rotating blades do NOT hit the sensor probe.",
+        "Shafts or rotating blades do NOT interfere with the sensing elements of the probes.",
+        "The sensor must be installed below the minimum fluid level in tank to ensure the sensing element is always immersed in fluid.",
+        "Fluid across the sensor in tank installations may not have a well-defined flow behavior; constant flow rates favor stable readings, and for non-Newtonian fluids, viscosity will change with flow rate due to change in apparent shear on the fluid.",
+        "Higher noise is a possible issue with tank installations, at least until the mixture is homogenous.",
+        "Generally, the SRD is not recommended for mixing tanks due to the variable flow that affects the readings stability; installation in a recirculation line is preferred.",
+        "Fluid must always be recirculating in line during the mixing process to avoid oscillation between an empty and full pipe.",
+        "It is recommended to have the fluid in motion and at nearly constant flow velocity in recirculation lines to ensure stable, repeatable and reproducible measurements, particularly for non-Newtonian fluids."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1589,
+        "cost_usd": 0.004112299999999999
+      },
+      "source_file": "189_Process_viscometer_and_density_meter_installation_in_recirculation_line_versus_in_the_mixing_tank.pdf"
+    },
+    {
+      "page_summary": "This page provides a detailed analysis of installation considerations and options for Rheonics SRV and SRD sensors, highlighting best practices for accurate and reliable measurements.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "SRD",
+        "Rheonics SR sensors",
+        "TMA-34N Tank mount adapter"
+      ],
+      "extracted_text": "Uniform flow conditions around the sensing element, which lead to constant and clean readings for viscosity.\nLower noise: This is a result of ensuring similar flow-induced shear rate for non-Newtonian fluids.\nEnd-product detection: It is easier to ensure similarity of operating conditions (flow rate, temperature) in recirculation lines which means batch to batch comparison is done in similar conditions.\n\n3. Further analysis of installation examples\nTwo main criterias should be met for the installation of the SRV and SRD sensors:\ni. Immersed the sensing element completely in the fluid.\nii. Avoid stagnation or deposits around the sensing element.\nRheonics SR sensors allow multiple installation options as shown in Figure 1. Let's review each installation example closely.\n\nTable 2: Installation examples further considerations\n\nInstallation\n1. Long insertion from the top\nConsiderations\n* Good solution if installation on walls or bottom is not possible, but sensing element (see next image) should be immersed in the fluid.\n* For open tanks, consider the TMA-34N Tank mount adapter (https://rheonics.com/product-accessories/tma-34n/), from Rheonics as alternative solution.\n* For the SRD: Full submersion ensures thermal balance along the resonator and avoid deviations on density.\n\nInstallation\n2. Flush installation\nConsiderations\n* Consider a welded flush flange for installation.\n* All dead zones should be avoided.\n* EHEDG and 3-A compatible\n* For SRD: Density deviation may happen if there is a mismatch of ambient and fluid temperature.\n\nInstallation\n3. Long Tri-Clamp insertion on wall\nConsiderations\n* Avoids stagnation zones or deposits on tank wall.\n* Useful for thick or jacketed walls.\n* Note: Ensure the sensing element is not in contact with any moving parts.\n\nInstallation\n4. Threaded installation on wall\nConsiderations\n* Standard version of the sensor.\n* Care should be taken during installation planning to ensure there are no dead zones around the sensing element.\n\nInstallation\n5. Long installation from bottom\nConsiderations\n* Short and flush sensor installations also possible.",
+      "specifications": {
+        "Sensing element length": "50 mm [1.96\"]",
+        "Sensing element diameter (Type 1)": "Ø16 mm [0.63\"]",
+        "Sensing element diameter (Type 2)": "Ø35 mm [1.4\"]",
+        "Sensor body length above sensing element (Type 2)": "34 mm [1.4\"]"
+      },
+      "key_facts": [
+        "Uniform flow conditions around the sensing element lead to constant and clean readings for viscosity.",
+        "Lower noise is achieved by ensuring similar flow-induced shear rate for non-Newtonian fluids.",
+        "End-product detection is easier when operating conditions (flow rate, temperature) in recirculation lines are similar, allowing for accurate batch-to-batch comparison.",
+        "For SRV and SRD sensors, the sensing element must be completely immersed in the fluid.",
+        "Stagnation or deposits around the sensing element must be avoided.",
+        "Rheonics SR sensors offer multiple installation options.",
+        "For 'Long insertion from the top', the sensing element must be immersed, and it is a good solution if wall or bottom installation is not possible.",
+        "For open tanks, the TMA-34N Tank mount adapter is an alternative solution.",
+        "For SRD sensors, full submersion ensures thermal balance along the resonator and prevents density deviations.",
+        "For 'Flush installation', a welded flush flange should be considered.",
+        "Long Tri-Clamp insertion on wall avoids stagnation zones or deposits and is useful for thick or jacketed walls.",
+        "Threaded installation on wall is a standard version of the sensor.",
+        "Short and flush sensor installations are also possible from the bottom."
+      ],
+      "diagram_labels": [
+        "50 mm [1.96\"]",
+        "Ø16 mm [0.63\"]",
+        "34 mm [1.4\"]",
+        "Ø35 mm [1.4\"]"
+      ],
+      "warnings_notes": [
+        "All dead zones should be avoided during flush installation.",
+        "For SRD (flush installation): Density deviation may happen if there is a mismatch of ambient and fluid temperature.",
+        "Note: Ensure the sensing element is not in contact with any moving parts during 'Long Tri-Clamp insertion on wall'.",
+        "Care should be taken during installation planning to ensure there are no dead zones around the sensing element for 'Threaded installation on wall'.",
+        "Flush installations are EHEDG and 3-A compatible."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1162,
+        "cost_usd": 0.0030448
+      },
+      "source_file": "189_Process_viscometer_and_density_meter_installation_in_recirculation_line_versus_in_the_mixing_tank.pdf"
+    },
+    {
+      "page_summary": "This page details different threaded installation options for Rheonics viscometers/density sensors (SRV and SRD) in pipes and elbows, along with general conclusions regarding installation strategy.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "SRD"
+      ],
+      "extracted_text": "6. Threaded installation in pipe\n* Rheonics offers NPT 3/4” and G1/2” threaded connections for short the sensor probe variant.\n* Installation can be done with Rheonics weldolets.\n* For the SRV, perpendicular installation can be easily achieved with pipes from 2.5” up. For 1.5” and 2” pipes use Rheonics accessories. (https://rheonics.com/product-accessories/) Special option for 1” is also available.\n* For the SRD, perpendicular installation can be easily achieved with pipes from 2.5” up. Options for 2” pipes are available. Smaller sizes would require parallel installation with Rheonics flow cells.\n* For the SRD, installation with short sensors is recommended for ambient temparature applications only.\n\n7. Long insertion threaded installation in pipe elbow\n* Protudes the sensing element in the pipe, placing the tip axially to the fluid and good flow.\n* Ideal scenario for fluids with high viscosity.\n* For the SRD, this solution with long insertion probe installed parallel to flow is useful to maintan thermal equilibrium along the resonator and use in HT (high temperature) conditions.\n\n4. Conclusions\nBoth installation options, in tank or recirculation line, are valid and decision should be made based on the characteristics of the process and fluid.\nIt can be said that measurements directly in mixing vessel are much more valuable in long term but need more work from the process engineering on the costumer side. Installation itself requires more effort than in the recirculation line. Sensor needs a location where the best transfer of fluid can be offered, while trying to have uniform flow characteristics. Avoiding stagnation zones would be important in both cases.",
+      "specifications": {
+        "threaded_connection_type_1": "NPT 3/4\"",
+        "threaded_connection_type_2": "G1/2\"",
+        "pipe_size_minimum_SRV_SRD_perpendicular": "2.5\"",
+        "pipe_size_SRV_perpendicular_with_accessories_1": "1.5\"",
+        "pipe_size_SRV_perpendicular_with_accessories_2": "2\"",
+        "pipe_size_SRV_special_option": "1\"",
+        "pipe_size_SRD_perpendicular_option": "2\""
+      },
+      "key_facts": [
+        "Rheonics offers NPT 3/4\" and G1/2\" threaded connections for the short sensor probe variant.",
+        "Installation can be done with Rheonics weldolets.",
+        "For the SRV, perpendicular installation can be easily achieved with pipes from 2.5\" up.",
+        "For 1.5\" and 2\" pipes, Rheonics accessories are used for SRV perpendicular installation, with a special option for 1\" also available.",
+        "For the SRD, perpendicular installation can be easily achieved with pipes from 2.5\" up, with options for 2\" pipes.",
+        "Smaller pipe sizes for SRD perpendicular installation require parallel installation with Rheonics flow cells.",
+        "Long insertion threaded installation protrudes the sensing element into the pipe, placing the tip axially to the fluid for good flow.",
+        "Long insertion threaded installation is an ideal scenario for fluids with high viscosity.",
+        "For the SRD, a long insertion probe installed parallel to flow is useful to maintain thermal equilibrium along the resonator in high temperature (HT) conditions.",
+        "Both tank and recirculation line installation options are valid, with the decision based on process and fluid characteristics.",
+        "Measurements directly in a mixing vessel are valuable long-term but require more process engineering effort from the customer.",
+        "Sensor installation requires a location that offers the best transfer of fluid while maintaining uniform flow characteristics."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "For the SRD, installation with short sensors is recommended for ambient temperature applications only.",
+        "Avoiding stagnation zones would be important in both installation cases (mixing vessel and recirculation line)."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 980,
+        "cost_usd": 0.0025897999999999997
+      },
+      "source_file": "189_Process_viscometer_and_density_meter_installation_in_recirculation_line_versus_in_the_mixing_tank.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

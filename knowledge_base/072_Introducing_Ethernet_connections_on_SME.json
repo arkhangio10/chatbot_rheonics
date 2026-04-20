@@ -1,0 +1,349 @@
+{
+  "source_file": "072_Introducing_Ethernet_connections_on_SME.pdf",
+  "total_pages": 8,
+  "chunks": [
+    {
+      "page_summary": "This page introduces the Ethernet connection capabilities of Rheonics SME sensor electronics, specifically detailing the SME-DRM model's use of standard Ethernet cables and RJ45 connectors.",
+      "document_type": "manual",
+      "product_names": [
+        "SME",
+        "SME-DRM"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nIntroducing Ethernet connections on SME\nModified on: Fri, 30 Jan, 2026 at 3:21 PM\n\nAll Rheonics sensor electronics come with an ethernet port. However whether it is active depends on the communication options you selected during the order.\n\nSME-DRM Ethernet Cable Connection\nSME-DRM is the DIN rail mount version of the sensor electronics which can use any standard Cat5, Cat6, Cat6e ethernet cables. The RJ45 connector is standard.",
+      "specifications": {
+        "Power Input": "24 V DC",
+        "Analog Output": "4-20 mA",
+        "Ethernet Cable Compatibility": "Cat5, Cat6, Cat6e",
+        "Ethernet Connector Type": "RJ45"
+      },
+      "key_facts": [
+        "All Rheonics sensor electronics are equipped with an Ethernet port.",
+        "The SME-DRM is the DIN rail mount version of the Rheonics sensor electronics.",
+        "The SME-DRM is compatible with any standard Cat5, Cat6, or Cat6e Ethernet cables.",
+        "The RJ45 connector is the standard Ethernet connector for the SME-DRM.",
+        "The device depicted is Swiss-made and bears a CE compliance mark.",
+        "Rheonics contact phone number: +1 713 234 0863.",
+        "This document was last modified on Friday, January 30, 2026, at 3:21 PM."
+      ],
+      "diagram_labels": [
+        "PN: 1917-BO/SN/BFCM-R02-1",
+        "CE",
+        "swiss made",
+        "sensor connection",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "24 V DC +",
+        "gnd",
+        "power",
+        "reset",
+        "SD-card",
+        "USB",
+        "display",
+        "loop+",
+        "gnd -",
+        "ch1+",
+        "ch1-",
+        "ch2+",
+        "ch2-",
+        "4-20 mA output"
+      ],
+      "warnings_notes": [
+        "The activity of the Ethernet port on Rheonics sensor electronics depends on the communication options selected during the order."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 678,
+        "cost_usd": 0.0018348
+      },
+      "source_file": "072_Introducing_Ethernet_connections_on_SME.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions and recommendations for connecting Ethernet cables to Rheonics SME-TR and SME-TRD devices, illustrating the process with a focus on the SME-DRM electronics.",
+      "document_type": "manual",
+      "product_names": [
+        "SME-TR",
+        "SME-TRD",
+        "SME-DRM"
+      ],
+      "extracted_text": "4-20 mA output\nch3 +\nch3 -\nch2 +\nch2 -\nch1 +\nch1 -\ngnd\ngnd\nloop+\nloop-\ndisplay\nusb\nSD-card\nreset\ndata\ncontrol\nset/rem\npower\nmodbus A (RS485)\nmodbus B\ngnd\n24 V dc\nRheonics SME-DRM\nSensor connection\nSwiss made\nCE\nPN 1917-B0/SN RFCM-RZZ24F\n\nSME-TR Ethernet Cable Connection\nUse a cable gland to run the ethernet cable through and then connect the ethernet cable to the electronics as shown in the pictures above for the SME-DRM.\n\nSME-TRD Ethernet Cable Connection\nSME-TRD uses a transmitter style housing with window cover. For SME-TR, there is no issue using a standard ethernet cable. However in SME-TRD with a display and glass window cover, a standard ethernet cable is too stiff to bend underneath the display.\nFor SME-TRD with display, we recommend that you use flat ethernet cable as shown in the photos below.",
+      "specifications": {
+        "output_signal": "4-20 mA",
+        "power_supply": "24 V dc",
+        "communication_protocol": "Modbus (RS485)"
+      },
+      "key_facts": [
+        "Ethernet cable connection is demonstrated using the SME-DRM electronics.",
+        "SME-TR devices can use a standard Ethernet cable without issue.",
+        "SME-TRD devices feature a transmitter-style housing with a window cover and a display.",
+        "For SME-TRD devices with a display and glass window cover, a standard Ethernet cable is too stiff to bend underneath the display.",
+        "A flat Ethernet cable is recommended for SME-TRD devices with a display."
+      ],
+      "diagram_labels": [
+        "4-20 mA output",
+        "ch3 +",
+        "ch3 -",
+        "ch2 +",
+        "ch2 -",
+        "ch1 +",
+        "ch1 -",
+        "gnd",
+        "loop+",
+        "loop-",
+        "display",
+        "usb",
+        "SD-card",
+        "reset",
+        "data",
+        "control",
+        "set/rem",
+        "power",
+        "modbus A (RS485)",
+        "modbus B",
+        "gnd",
+        "24 V dc",
+        "Rheonics SME-DRM",
+        "Sensor connection",
+        "Swiss made",
+        "CE",
+        "PN 1917-B0/SN RFCM-RZZ24F"
+      ],
+      "warnings_notes": [
+        "For SME-TRD with a display, a standard ethernet cable is too stiff to bend underneath the display, so a flat ethernet cable is recommended."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 792,
+        "cost_usd": 0.0021198
+      },
+      "source_file": "072_Introducing_Ethernet_connections_on_SME.pdf"
+    },
+    {
+      "page_summary": "This page provides a detailed view of the internal connectivity and external cabling for a Rheonics SME-EH device, showcasing various ports, wiring, and technical specifications.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SME-EH"
+      ],
+      "extracted_text": "Rheonics\nSME-EH\n\n4-20 mA output:\nch3+\nch3-\nch2+\nch2-\nch1+\nch1-\ngnd-\ngnd+\nloop-\nloop+\n\nsensor connection:\n0\n1\n2\n3\n4\n5\n6\n7\n8\n\ndisplay\nSD-card\nusb\nreset\nethe (Ethernet)\n\nmodbus (RS485)\ngnd\n24 V dc:\n+\n-\n\nIndicator LEDs:\nD C S P B A\n\nCables:\nUTP CAT.6 FLAT CABLE\nEIA/TIA 568B.2\n\nCertifications (partial):\nIECE\nTUV 10",
+      "specifications": {
+        "current_output_range": "4-20 mA",
+        "power_supply": "24 V dc",
+        "ethernet_cable_type": "UTP CAT.6 FLAT CABLE",
+        "ethernet_standard": "EIA/TIA 568B.2"
+      },
+      "key_facts": [
+        "The Rheonics SME-EH device provides three channels for 4-20 mA analog output.",
+        "The device supports eight distinct sensor connections, numbered 0 through 8.",
+        "Available communication interfaces include Ethernet, USB, and Modbus (RS485).",
+        "The device is powered by a 24 V dc supply.",
+        "Additional ports are available for a display, an SD card, and a reset function.",
+        "Several indicator LEDs labeled D, C, S, P, B, A are present, with some currently illuminated green and one orange.",
+        "The Ethernet connection utilizes a UTP CAT.6 flat cable that conforms to the EIA/TIA 568B.2 standard.",
+        "Partial certification markings for IECE and TUV are visible on the device."
+      ],
+      "diagram_labels": [
+        "ch3+",
+        "ch3-",
+        "ch2+",
+        "ch2-",
+        "ch1+",
+        "ch1-",
+        "gnd-",
+        "gnd+",
+        "loop-",
+        "loop+",
+        "4-20 mA output",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "sensor connection",
+        "D",
+        "C",
+        "S",
+        "P",
+        "B",
+        "A",
+        "display",
+        "SD-card",
+        "usb",
+        "reset",
+        "ethe",
+        "modbus (RS485)",
+        "gnd",
+        "24 V dc",
+        "+"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 772,
+        "cost_usd": 0.0020698
+      },
+      "source_file": "072_Introducing_Ethernet_connections_on_SME.pdf"
+    },
+    {
+      "page_summary": "This page describes the method for connecting an Ethernet cable to the SME-TR/TRD transmitter using a cable gland to ensure appropriate IP protection.",
+      "document_type": "manual",
+      "product_names": [
+        "SME-TR/TRD transmitter"
+      ],
+      "extracted_text": "Ethernet cable is then run through the side ports using a cable gland.\n\nEnsuring IPXX rating on the ethernet cable connection to the SME-TR/TRD transmitter\n\nTo ensure IP protection, the ethernet cable should be run through a cable gland.\nYou have multiple options to run the ethernet cable through cable gland.",
+      "specifications": {},
+      "key_facts": [
+        "The Ethernet cable is run through the side ports of the device using a cable gland.",
+        "Running the Ethernet cable through a cable gland is essential for ensuring IP protection (IPXX rating) for the connection to the SME-TR/TRD transmitter.",
+        "Multiple options exist for routing the Ethernet cable through a cable gland."
+      ],
+      "diagram_labels": [
+        "UTP",
+        "CAT.6",
+        "FLAT",
+        "CABLE",
+        "EIA/TIA",
+        "568B.2"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 296,
+        "cost_usd": 0.0008798
+      },
+      "source_file": "072_Introducing_Ethernet_connections_on_SME.pdf"
+    },
+    {
+      "page_summary": "This page provides two options for cable glands, one using a split sealing insert for flat ribbon cables and another using an Ethernet RJ45 cable gland adapter, with references to specific products and vendors.",
+      "document_type": "notes",
+      "product_names": [
+        "cable gland",
+        "split sealing insert",
+        "ethernet RJ45 cable gland adapter",
+        "perfect-cable-gland-506xx-mfk1",
+        "Adafruit Cable Gland - Waterproof RJ-45 / Ethernet connector - RJ-45",
+        "PRODUCT ID: 827"
+      ],
+      "extracted_text": "Option 1: Use a cable gland with a split sealing insert for flat ribbon cables\nhttps://www.jacob-gmbh.de/en/products/cable-entry-systems/cable-glands/cable-glands-with-metric-thread/cable-glands-made-of-brass/perfect-cable-gland-506xx-mfk1 (https://www.jacob-gmbh.de/en/products/cable-entry-systems/cable-glands/cable-glands-with-metric-thread/cable-glands-made-of-brass/perfect-cable-gland-506xx-mfk1)\n\nOption 2: Use a ethernet RJ45 cable gland adapter.\nAn example of ethernet RJ45 cable gland connector/adapter is:\nAdafruit\nCable Gland - Waterproof RJ-45 / Ethernet connector - RJ-45\nPRODUCT ID: 827\nhttps://www.adafruit.com/product/827 (https://www.adafruit.com/product/827)",
+      "specifications": {
+        "PRODUCT ID": "827"
+      },
+      "key_facts": [
+        "Option 1 describes using a cable gland with a split sealing insert for flat ribbon cables.",
+        "Option 2 describes using an Ethernet RJ45 cable gland adapter.",
+        "A specific Jacob GmbH product, 'perfect-cable-gland-506xx-mfk1', is suggested for Option 1.",
+        "An Adafruit product, 'Cable Gland - Waterproof RJ-45 / Ethernet connector - RJ-45' with Product ID 827, is suggested for Option 2."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 567,
+        "cost_usd": 0.0015573
+      },
+      "source_file": "072_Introducing_Ethernet_connections_on_SME.pdf"
+    },
+    {
+      "page_summary": "This page displays two photographic views of a ruggedized industrial Ethernet RJ45 connector, showing both its RJ45 port and cable entry side.",
+      "document_type": "datasheet",
+      "product_names": [
+        "Ruggedized RJ45 Ethernet Connector",
+        "Industrial Ethernet Connector"
+      ],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [
+        "The page features a black, multi-part connector assembly.",
+        "The connector is designed for Ethernet connectivity, with an 8-pin RJ45 port visible on one end.",
+        "The body of the connector has prominent threading, suggesting it is intended for panel mounting or secure threaded coupling.",
+        "The design implies a ruggedized or environmentally sealed application, likely for industrial or outdoor use.",
+        "The other end of the connector assembly is configured for cable entry, appearing to include a cable gland or strain relief mechanism."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 241,
+        "cost_usd": 0.0007423
+      },
+      "source_file": "072_Introducing_Ethernet_connections_on_SME.pdf"
+    },
+    {
+      "page_summary": "This page details 'Option 3' for connecting internal and external ethernet cables using an RJ45 coupler and a cable gland, illustrating the components involved.",
+      "document_type": "manual",
+      "product_names": [
+        "Ethernet RJ45 cable gland connectors",
+        "RJ45 coupler",
+        "Belden copper-rj45-couplers"
+      ],
+      "extracted_text": "Video in attachment show the connection of the internal and external ethernet cables. Internal cable is a flat ribbon cable as mentioned above which is easy to bend underneath the display. External cable is a standard ethernet roung cable that seals using the cable gland.\n\nThere are multiple other vendors for this type of Ethernet RJ45 cable gland connectors.\n\nOption 3: Using a coupler and standard ethernet cable through a typical cable gland\n\nThis method uses a coupler to connect the flat ethernet cable to the external ethernet cable.\n\nExample: https://www.belden.com/products/connectors/copper-rj45-connectors/copper-rj45-couplers\n(https://www.belden.com/products/connectors/copper-rj45-connectors/copper-rj45-couplers)\nRun the external ethernet cable through cable gland.",
+      "specifications": {},
+      "key_facts": [
+        "A video in attachment demonstrates the connection of internal and external ethernet cables.",
+        "The internal cable is a flat ribbon cable, designed for easy bending underneath the display.",
+        "The external cable is a standard round ethernet cable that is sealed using a cable gland.",
+        "Multiple vendors offer Ethernet RJ45 cable gland connectors.",
+        "Option 3 involves using a coupler and a standard ethernet cable to pass through a typical cable gland.",
+        "This method connects the flat internal ethernet cable to the external ethernet cable via a coupler.",
+        "Belden copper RJ45 couplers are provided as an example product."
+      ],
+      "diagram_labels": [
+        "RJ45 coupler (beige)",
+        "Male RJ45 connector (grey ethernet cable)",
+        "Male RJ45 connector (blue ethernet cable)",
+        "Belden RJ45 keystone/coupler modules (silver, black, black/orange)"
+      ],
+      "warnings_notes": [],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 527,
+        "cost_usd": 0.0014573000000000001
+      },
+      "source_file": "072_Introducing_Ethernet_connections_on_SME.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions for connecting an external ethernet cable to a Rheonics SMET device using an ethernet coupler and references additional communication options.",
+      "document_type": "manual",
+      "product_names": [
+        "SMET"
+      ],
+      "extracted_text": "Connect the external ethernet cable to the internal flat ethernet cable using the ethernet coupler. Flat ethernet cable is connected to the SMET.\n\nReferences\n\nExplore rheonics sensors' electronics and communication options\nhttps://rheonics.com/electronics-and-communication/ (https://rheonics.com/electronics-and-communication/)\n\nAttachments",
+      "specifications": {},
+      "key_facts": [
+        "An external ethernet cable should be connected to the internal flat ethernet cable using an ethernet coupler.",
+        "The flat ethernet cable is connected to the SMET.",
+        "Further information on Rheonics sensors' electronics and communication options can be found at https://rheonics.com/electronics-and-communication/."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 8,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 251,
+        "cost_usd": 0.0007672999999999998
+      },
+      "source_file": "072_Introducing_Ethernet_connections_on_SME.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

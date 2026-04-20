@@ -1,0 +1,378 @@
+{
+  "source_file": "009_Hygienic_and_Sanitary_Process_Viscometer_and_Density_Meter_for_inline_installation.pdf",
+  "total_pages": 8,
+  "chunks": [
+    {
+      "page_summary": "This page provides an introduction to Rheonics' hygienic and sanitary process viscometers and density meters for inline installation, detailing their features, benefits, and the importance of hygienic design in various industries.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "Rheonics SRV",
+        "Rheonics SRD",
+        "SRV-X1-12G Viscometer",
+        "X1 - Short Threaded Sensors",
+        "X2 - Short Sensors",
+        "X3 - Short TC Sensors",
+        "X4 - Flush Sensors",
+        "X5 - Long Insertion Probe"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nHygienic and Sanitary Process Viscometer and Density Meter for inline installation\nModified on: Mon, 17 Feb, 2025 at 5:01 PM\n\nTABLE OF CONTENTS\n* Introduction to Rheonics\n* Hygienic Design in Industry\n  * International Organizations for Hygienic Designs\n  * EHEDG\n  * 3-A\n* Rheonics SRV and SRD hygienic-designed sensors\n  * Rheonics sensors ease for installation - guidelines\n  * Installation examples\n    * Installation for X1 - Short Threaded Sensors\n    * Hygienic Flow Cell for SRV-X1-12G Viscometer\n    * Installation for X2 - Short Sensors\n    * Installation for X3 - Short TC Sensors\n    * Installation for X4- Flush Sensors\n    * Installation for X5 - Long Insertion Probe\n* Conclusions\n\nIntroduction to Rheonics\nRheonics GmbH is a global supplier of automation instruments and solutions based on award winning process viscometers and density meters. Rheonics inline sensors fill the need in the industry for a robust, truly plug-and-play instrument for viscosity and density monitoring, with great flexibility in installation in addition to high repeatability and reproducibility of the readings.\n\nFigure 1: Rheonics sensors\n\nRheonics products are widely used in many industrial applications. Rheonics online process instruments are revolutionizing process monitoring and control through a combination of key factors like high stability, reliability, robustness, and ease of use.\nRheonics sensors' main characteristics are:\n* Compact form factor for simple installation\n* Real-time, stable, repeatable, and reproducible measurements in Newtonian & non-Newtonian fluids\n* Track viscosity and density changes over a wide range with the correct sensor configuration\n* Built-in fluid temperature measurement\n* Operational to high pressure and high temperature (up to and beyond 7500 psi (500 bar) and 575°F (300°C))\n* Easy to clean, zero maintenance, and no re-calibration needed.\n\nVisit EHEDG certified Rheonics process viscometer and density meter blog post (https://rheonics.com/rheonics-ehedg-certified-inline-viscosity-and-density-sensors-for-food-and-pharmaceutical-applications/)\nVisit 3-A certified Rheonics process viscometer and density meter blog post (https://rheonics.com/3-a-certified-rheonics-process-viscometer-and-density-meter/)\n\nHygienic Design in Industry\nA hygienic design can be defined as a set of principles in the industry to avoid cross-contamination and microbiological growth within the production lines and to favor industrial cleaning processes. Following a hygienic design leads to end-product safety and quality.\n\nThese are some of the industries in which hygienic design is is of great relevance:\n* Food and beverage",
+      "specifications": {
+        "pressure_rating": "7500 psi (500 bar)",
+        "temperature_rating": "575°F (300°C)"
+      },
+      "key_facts": [
+        "Rheonics GmbH is a global supplier of automation instruments and solutions.",
+        "Rheonics inline sensors offer robust, plug-and-play viscosity and density monitoring with high repeatability and reproducibility.",
+        "Rheonics online process instruments provide high stability, reliability, robustness, and ease of use.",
+        "Rheonics sensors are characterized by a compact form factor, real-time stable measurements for Newtonian & non-Newtonian fluids, wide-range viscosity and density tracking, built-in fluid temperature measurement, and require zero maintenance or re-calibration.",
+        "A hygienic design aims to prevent cross-contamination and microbiological growth, favoring industrial cleaning processes for end-product safety and quality.",
+        "Hygienic design is critical in industries such as food and beverage."
+      ],
+      "diagram_labels": [
+        "Figure 1: Rheonics sensors"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1080,
+        "cost_usd": 0.0028398
+      },
+      "source_file": "009_Hygienic_and_Sanitary_Process_Viscometer_and_Density_Meter_for_inline_installation.pdf"
+    },
+    {
+      "page_summary": "This page provides an overview of hygienic design principles, the roles of international organizations like EHEDG and 3-A in promoting hygienic standards, and introduces Rheonics' SRV and SRD hygienic-designed sensors.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "Rheonics SRV",
+        "SRV inline viscometer",
+        "Rheonics SRD",
+        "SRD inline density and viscosity meter",
+        "Rheonics viscometer SRV",
+        "Rheonics density and viscosity meter SRD"
+      ],
+      "extracted_text": "• Pharmaceutical\n• Chemicals\n\nAs a consequence, these industries need to follow hygienic practices and procedures for cleaning, production operation, maintenance, commissioning, etc.\nThe cleaning procedures depend on the particular industry, environment, and application. Some common cleaning processes are Cleaning out of place (COP), which requires the dismantling of pieces from the line, and Cleaning in place (CIP), cleaning without dismantling, and using chemical fluids at specific temperature ratings and variations to clean lines.\nUsually, CIP is preferred over COP, due to the reduction in time and reduced exposure of personnel to chemical components.\nTo favor cleaning procedures, the concept of hygienic design comes into play. A hygienic design favors correct cleaning. All components that are part of a production line, such as pumps, pipes, conveyors, instrumentation, etc. are required to follow hygienic design concepts to ensure the process cleanability is within acceptable limits.\n\nInternational Organizations for Hygienic Designs\n\nInternational organizations help manufacturers to have guarantees that adding certified equipment or devices in line will not affect their current hygienic standards.\nSome of these organizations are:\n\nEHEDG (http://www.ehedg.org/):\n\nThe European Hygienic Engineering & Design Group is a non-profit organization founded in 1989. Its main objective is to promote food safety and quality across the food and beverage industry based on 42 guidelines that deal with specific principles in the design, construction, operation, and maintenance of equipment involved in this industry. EHEDG certification requires a theoretical review of the design and a standardized cleaning test. EHEDG's guidelines are widely used, mainly in Europe, by food companies for food safety regulations, thus improving food safety performance.\n\nFigure 2: EHEDG logo\n\n3-A (https://www.3-a.org/):\n\nThis non-profit US-based organization was founded in 1978 and is focused on ensuring and improving hygienic designs in the dairy food, beverage, and pharmaceutical industries using very specific technical principles. Design features such as angles, radii, dimensions, surface smoothness, etc.\nshould match 3-A standards for certification. The objective of this organization is to protect products from contamination and ensure all equipment's surfaces in contact with the product can be mechanically cleaned and easily dismantled so it favors manual cleaning and inspection.\n\nFigure 3: 3-A logo\n\nThese two entities differ in the regulations and evaluation imposed on the design but both, EHEDG and 3-A, have the ultimate goal of improving and standardizing concepts that should be met for a hygienic design. Visit this page (https://support.rheonics.com/en/support/solutions/articles/81000412134) for a detailed view of 3-A and EHEDG organizations.\n\nRheonics SRV and SRD hygienic-designed sensors\n\nRheonics Hygienic SR-Sensors; SRV inline viscometer (https://rheonics.com/products/inline-viscometer-srv/), and SRD inline density and viscosity meter (https://rheonics.com/products/inline-density-meter-srd/), are used throughout different industries to monitor and control, in real-time, process fluids with extremely high repeatability and reproducibility in the readings.\n\nEHEDG Certification (https://rheonics.com/rheonics-ehedg-certified-inline-viscosity-and-density-sensors-for-food-and-pharmaceutical-applications/) (EL Class I) is available for Rheonics viscometer SRV and density and viscosity meter SRD.\n\n3-A Certification (https://rheonics.com/3-a-certified-rheonics-process-viscometer-and-density-meter/) is available for Rheonics viscometer SRV, density and viscosity meter SRD.\n\nThe type-SR hygienic sensors have multiple characteristics and advantages, such as:\n• Accurate and reliable measurement technology\n• Simple maintenance and long service intervals ensure very low downtime\n• A patented technology eliminates the possibility of inaccurate measurements, for example after hot cleaning (CIP).\n\nHygienic designs are available in different variants and configurations. Rheonics SRV and SRD main hygienic configuration variants are shown in Table 1.",
+      "specifications": {},
+      "key_facts": [
+        "Hygienic practices and procedures are essential in pharmaceutical and chemical industries for cleaning, production, maintenance, and commissioning.",
+        "Cleaning in Place (CIP) is preferred over Cleaning Out of Place (COP) due to reduced time and personnel exposure.",
+        "Hygienic design is critical for correct cleaning and ensuring process cleanability within acceptable limits for all production line components.",
+        "The European Hygienic Engineering & Design Group (EHEDG) is a non-profit organization promoting food safety and quality in the food and beverage industry based on 42 guidelines.",
+        "EHEDG certification involves a theoretical design review and a standardized cleaning test.",
+        "3-A is a non-profit US-based organization focused on improving hygienic designs in dairy, food, beverage, and pharmaceutical industries, with a goal to protect products from contamination.",
+        "3-A standards require equipment surfaces in contact with products to be mechanically cleaned and easily dismantled.",
+        "Both EHEDG and 3-A aim to improve and standardize hygienic design concepts.",
+        "Rheonics SRV inline viscometers and SRD inline density and viscosity meters are hygienic-designed sensors used for real-time process fluid monitoring with high repeatability and reproducibility.",
+        "Rheonics SRV and SRD sensors are available with EHEDG (EL Class I) and 3-A certifications.",
+        "Type-SR hygienic sensors feature accurate and reliable measurement, simple maintenance, long service intervals, and patented technology to prevent inaccurate measurements (e.g., after CIP)."
+      ],
+      "diagram_labels": [
+        "Figure 2: EHEDG logo",
+        "Figure 3: 3-A logo"
+      ],
+      "warnings_notes": [
+        "EHEDG Certification (EL Class I) is available for Rheonics viscometer SRV and density and viscosity meter SRD.",
+        "3-A Certification is available for Rheonics viscometer SRV, density and viscosity meter SRD."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1516,
+        "cost_usd": 0.0039298
+      },
+      "source_file": "009_Hygienic_and_Sanitary_Process_Viscometer_and_Density_Meter_for_inline_installation.pdf"
+    },
+    {
+      "page_summary": "This page details the process connection codes, probe variants, and hygienic design specifications, along with installation guidelines for Rheonics viscometers and density sensors.",
+      "document_type": "datasheet",
+      "product_names": [
+        "Rheonics Hygienic Viscometer",
+        "Density meter",
+        "HAW-12G-OTK2",
+        "Type-SR probes",
+        "SRV sensors",
+        "SRD sensors",
+        "Rheonics SR sensor"
+      ],
+      "extracted_text": "rheonics\nCERTIFIED EHEDG TYPE EL CLASS I\nFigure 4: Rheonics Hygienic Viscometer and Density meter variants.\nTable 1: Process connection codes\nSensor code\nConnection type\nX1-12G\nThreaded G1/2\" - Hygienic installation available with Rheonics adapter HAW-12G-OTK2 (https://rheonics.com/product-accessories/haw-12g-otk2/)\nX2\nStandard short probe with custom hygienic connection\nX3\nTri-Clamp\nX4\nFlush design probe with custom hygienic connection\nX5\nLong insertion probe with custom hygienic connection. Insertion depth (A length) and connection type (B norm, size) are required.\nThe differences between the sensor variants mentioned above are:\n- On size: Three different probe sizes are offered: Flush (X4), Short (X1, X2, X3), Long insertion (X5) probe.\n- On connection: Type-SR probes can be ordered with any connection type as long as the flange is big enough to be welded on the probe surface. For EHEDG compliance, the following connections are available:\n• DIN 11853-1/2/3 min DN20\n• DIN11864-1/2/3 min DN20\n• DIN 11851 min DN20 in combination with ASEPTO-STAR k-flex upgrade gaskets\n• ISO 2852, DIN 32676, BS 4825 Part 3 in combination with Tri-Clamp seals\n• ISO 2853, BS 4825 Part 4 in combination with T-seals\n• Varinline® type T and P with EPDM O-Ring in sizes B, F, N, G\nSRV and SRD EHEDG certified sensors are designed in accordance with the applicable EHEDG hygienic design criteria (HDC) in document guidelines 8 (2018), 9 (1993), 10 (2007), 16 (1997), 32 (2005), 35 (2006) and with reference to specific EHEDG Supplementary Certification Requirements.\nSome of the characteristics of the SRV and SRD hygienic-designed sensors are:\n• Sensor surface polished finish to 0.8um Ra or better in Stainless Steel alloy EN 1.4404 or EN 1.4435/AIST 316L\n• Welding done by laser with smooth and continuous welding seams.\n• Design and geometry of the sensor in compliance with applicable EHEDG guidelines.\n• Eliminate any surface imperfections that can create microbiological infestation.\nRheonics sensors ease for installation - guidelines\nIn addition to Rheonics sensors' hygienic design, installation considerations must be met to successfully ensure hygienic applications. For EHEDG installations, the Rheonics SR sensor must be mounted according to the requirements given in EHEDG Guidelines 8, 10, and 37 [1-3]. Review Rheonics EHEDG installation guidelines on its web page here (https://rheonics.com/wp-content/uploads/2023/07/EHEDG_Installation_Guideline_A.pdf).\nSome of the most noticeable requirements are the following, also applicable to hygienic installations:\n• All counterparts (i.e. adapters, weldolets, pipe) involved in the installation of Rheonics hygienic sensor must be EHEDG approved.\n• For installation with adapters, weldolets, and flowcells, mount the piece in a self-drained position or angle.\n• In tee pieces or standpipes: the ratio between upstand (L) and the diameters difference (D – d) shall be in the relation of (D – d)/L ≥ 1. See the figure below for reference. Rheonics flush, short, and long insertion probes have a fixed value for “d” as shown in Table 2.\nFigure 5: EHEDG requirement for standpipes",
+      "specifications": {
+        "Sensor code X1-12G connection type": "Threaded G1/2\"",
+        "Sensor surface finish": "0.8 um Ra",
+        "Sensor material": "Stainless Steel alloy EN 1.4404 or EN 1.4435/AIST 316L",
+        "O-Ring type": "Varinline® type T and P with EPDM",
+        "O-Ring sizes": "B, F, N, G",
+        "Standpipe ratio (D-d)/L": "≥ 1"
+      },
+      "key_facts": [
+        "Rheonics offers three different probe sizes: Flush (X4), Short (X1, X2, X3), and Long insertion (X5) probe variants.",
+        "Type-SR probes can be ordered with any connection type provided the flange is large enough for welding.",
+        "For EHEDG compliance, specific connections like DIN 11853-1/2/3 min DN20, DIN11864-1/2/3 min DN20, DIN 11851 min DN20, ISO 2852, DIN 32676, BS 4825 Part 3, ISO 2853, BS 4825 Part 4, and Varinline® type T and P with EPDM O-Ring are available.",
+        "SRV and SRD EHEDG certified sensors are designed according to EHEDG hygienic design criteria and supplementary certification requirements.",
+        "Characteristics of SRV and SRD hygienic-designed sensors include a sensor surface polished to 0.8um Ra or better, laser welding with smooth seams, and compliance with EHEDG guidelines to prevent microbiological infestation.",
+        "To ensure hygienic applications, Rheonics SR sensors must be mounted according to EHEDG Guidelines 8, 10, and 37 [1-3] for EHEDG installations.",
+        "All counterparts (e.g., adapters, weldolets, pipe) involved in the installation of a Rheonics hygienic sensor must be EHEDG approved.",
+        "For installations with adapters, weldolets, and flowcells, the component must be mounted in a self-drained position or at an angle.",
+        "In tee pieces or standpipes, the ratio between the upstand (L) and the difference in diameters (D – d) must be equal to or greater than 1."
+      ],
+      "diagram_labels": [
+        "Figure 4: Rheonics Hygienic Viscometer and Density meter variants.",
+        "Figure 5: EHEDG requirement for standpipes",
+        "D",
+        "d",
+        "L"
+      ],
+      "warnings_notes": [
+        "For EHEDG compliance, specific connections are available, implying others may not be compliant.",
+        "Installation considerations must be met to successfully ensure hygienic applications.",
+        "All counterparts (i.e. adapters, weldolets, pipe) involved in the installation of Rheonics hygienic sensor must be EHEDG approved.",
+        "For installation with adapters, weldolets, and flowcells, mount the piece in a self-drained position or angle.",
+        "In tee pieces or standpipes: the ratio between upstand (L) and the diameters difference (D – d) shall be in the relation of (D – d)/L ≥ 1."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1792,
+        "cost_usd": 0.004619799999999999
+      },
+      "source_file": "009_Hygienic_and_Sanitary_Process_Viscometer_and_Density_Meter_for_inline_installation.pdf"
+    },
+    {
+      "page_num": 4,
+      "page_summary": "Extraction failed",
+      "document_type": "unknown",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "extraction_failed": true,
+      "source_file": "009_Hygienic_and_Sanitary_Process_Viscometer_and_Density_Meter_for_inline_installation.pdf"
+    },
+    {
+      "page_summary": "This page provides detailed installation instructions and related product information, including order codes, drawings, and CAD models, for Rheonics SRV-X1-12G viscometers and HPT-12G hygienic flow cells.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV-X1-12G",
+        "HAW-12G-OTK2",
+        "HPT-12G",
+        "SRV",
+        "X2 - Short Sensors"
+      ],
+      "extracted_text": "Description | Supplier | Order code | Drawing | CAD models\nInline viscometer - SRV | Rheonics | SRV-X1-12G (https://support.rheonics.com/en/support/solutions/articles/81000411056-srv-x1-12g-g-1-2-) | SRV G1/2\" Drawing (https://cdn.rheonics.com/wp-content/uploads/2023/09/Rheonics_SRV-12G.pdf) | SRV G1/2\" CAD models (https://cdn.rheonics.com/wp-content/uploads/2023/05/Rheonics_SRV-12G.zip)\nHygienic weldolet G1/2\" for Thick walls and O-Ring seal | Rheonics | HAW-12G-OTK2 (https://rheonics.com/product-accessories/haw-12g-otk2/) | HAW-12G-OTK2 Drawing (https://cdn.rheonics.com/wp-content/uploads/2025/01/Rheonics_HAW-12G-OTK2.pdf) | HAW-12G-OTK2 CAD models (https://cdn.rheonics.com/wp-content/uploads/2025/01/Rheonics_SR-Sensor_HAW-12G-OTK2.zip)\nFigure 8: SRV-X1-12G Flush Hygienic Installation\nFor walls with bigger thicknesses (>17mm), a conical or straight cut would be needed in the wall so the HAW accessory can be used or a precise machined threaded hole is done - review this drawing (https://cdn.rheonics.com/wp-content/uploads/2023/09/SRV-X1-G12_Thick_Wall_Interface_Definition.pdf) for more information or ask Rheonics Support Team.\nHygienic Flow Cell for SRV-X1-12G Viscometer\nRheonics offers a hygienic flow cell, HPT-12G, for the SRV viscometer with a G 1/2\" connection. This HPHT flow cell requires the use of an O-ring (Ø15.1 x 1.6 mm) inside for a correct sealing connection. The inlet and outlet ports are G1/2\" male ports.\nTable 5: Rheonics Hygienic Flow Cell Installation\nDescription | Supplier | SRV-X1-12G Flow cell Hygienic Installation\n          |          | Order code                                                                                                                                                                                                                                                    | Drawing                                                                  | CAD Model\nInline viscometer - SRV | Rheonics | SRV-X1-12G (https://support.rheonics.com/en/support/solutions/articles/81000411056-srv-x1-12g-g-1-2-)                                                                                                                                           | SRV G1/2\" Drawing (https://cdn.rheonics.com/wp-content/uploads/2023/09/Rheonics_SRV-12G.pdf) | SRV G1/2\" CAD models (https://cdn.rheonics.com/wp-content/uploads/2023/05/Rheonics_SRV-12G.zip)\nHygienic Flow Cell | Rheonics | (https://support.rheonics.com/product-accessories/haw-12g-xtlk/) (https://rheonics.com/product-accessories/hpt-g12/) (https://rheonics.com/product-accessories/hpt-g12/) | HPT-12G Drawing (https://cdn.rheonics.com/wp-content/uploads/2023/03/rheonics_hpt-12g.pdf) | HPT-12G CAD models (https://cdn.rheonics.com/wp-content/uploads/2023/06/Rheonics_HPT-12G.zip) HPT-12G CAD models (https://cdn.rheonics.com/wp-content/uploads/2023/06/Rheonics_HPT-12G.zip)\nFigure 9: SRV-X1-12G Flow cell Hygienic Installation\nFigure 10: HPT-12G Flow cell drawing\nInstallation for X2 - Short Sensors",
+      "specifications": {
+        "wall_thickness_threshold": ">17 mm",
+        "o_ring_diameter": "15.1 mm",
+        "o_ring_thickness": "1.6 mm",
+        "viscometer_connection_type": "G 1/2\"",
+        "flow_cell_inlet_outlet_ports_type": "G1/2\" male",
+        "hpt_12g_flow_cell_total_length": "87 mm [3.43 in]",
+        "hpt_12g_flow_cell_threaded_length": "63 mm [2.48 in]",
+        "hpt_12g_flow_cell_thread_type": "G1/2\"",
+        "hpt_12g_flow_cell_shaft_diameter": "9.5 mm [0.37 in]",
+        "hpt_12g_flow_cell_body_diameter": "15 mm [0.59 in]",
+        "hpt_12g_flow_cell_end_section_diameter": "28.5 mm [1.12 in]",
+        "hpt_12g_flow_cell_pipe_internal_diameter": "30 mm [1.18 in]",
+        "hpt_12g_flow_cell_angle_fitting": "60.5°",
+        "hpt_12g_flow_cell_pipe_bend_angle": "90°"
+      },
+      "key_facts": [
+        "Rheonics provides SRV-X1-12G inline viscometers.",
+        "The HAW-12G-OTK2 is a hygienic weldolet designed for G1/2\" connections in thick walls and uses an O-Ring seal.",
+        "For wall thicknesses greater than 17mm, a conical or straight cut or a precise machined threaded hole is necessary for the HAW accessory installation.",
+        "Rheonics offers the HPT-12G hygienic flow cell for the SRV viscometer, featuring a G 1/2\" connection.",
+        "The HPHT flow cell requires an O-ring (Ø15.1 x 1.6 mm) for proper sealing.",
+        "The HPT-12G flow cell has G1/2\" male inlet and outlet ports."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "SRV with G1/2\" thread",
+        "O-ring Ø15.1x1.6mm",
+        "87",
+        "[3.43]",
+        "63",
+        "[2.48]",
+        "60.5°",
+        "30",
+        "[1.18]",
+        "90",
+        "G1/2\"",
+        "Ø",
+        "9.5",
+        "[0.37]",
+        "15",
+        "[0.59]",
+        "28.5",
+        "[1.12]"
+      ],
+      "warnings_notes": [
+        "For walls with bigger thicknesses (>17mm), a conical or straight cut would be needed in the wall so the HAW accessory can be used or a precise machined threaded hole is done - review this drawing (https://cdn.rheonics.com/wp-content/uploads/2023/09/SRV-X1-G12_Thick_Wall_Interface_Definition.pdf) for more information or ask Rheonics Support Team.",
+        "This HPHT flow cell requires the use of an O-ring (Ø15.1 x 1.6 mm) inside for a correct sealing connection."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 2013,
+        "cost_usd": 0.0051723
+      },
+      "source_file": "009_Hygienic_and_Sanitary_Process_Viscometer_and_Density_Meter_for_inline_installation.pdf"
+    },
+    {
+      "page_summary": "This page provides installation guidelines and component lists for Rheonics SRV and SRD sensors using DIN11851 and Tri-Clamp hygienic connections, including specific dimensions and order codes.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "SRD",
+        "SRV-X2-DIN 11851 DN50",
+        "SRV-HS-X2-H50",
+        "SRV-X3-15T",
+        "BBS-07-ZT.Z40.64-A.025.35.0",
+        "N.NAC-S38/38"
+      ],
+      "extracted_text": "The process connection code -X2 stands for any hygienic connection requested by the user that is not covered by other connection codes. For example, a hygienic connection such as DIN11851 can be used on the SRV and SRD sensors, which would also be EHEDG certified.\nAn EHEDG-certified installation would need the user to closely follow the (D – d)/L ≥ 1 equation, where “d” is 23mm for short sensors as described in the Ease for installation - guidelines section.\n\nTable 6: Rheonics Hygienic short sensor in line\nSRV - X2 DIN11851 DN50 Hygienic Installation Example\n\nDescription | Supplier | Order code\n---|---|---\nInline viscometer - SRV | Rheonics | SRV-X2-DIN 11851 DN50\n | | (https://support.rheonics.com/en/support/solutions/articles/81000410684-srv-x2-custom-flange)\n\nTee | Rheonics | (https://rheonics.com/product-accessories/haw-12g-xtk/)\n | | (https://support.rheonics.com/en/support/solutions/articles/81000411056-srv-x1-12g-g-1-2/)\n | | (https://rheonics.com/product-accessories/hpt-g12/)\n\nFigure 11: SRV DIN11851 DN50 installation in pipe\n\nFigure 12: SRV DIN11851 DN50 in pipe drawing\n\nInstallation for X3 - Short TC Sensors\nThe viscometer SRV and density and viscosity meter SRD with X3 order code will have a Tri-Clamp (TC) process connection. For short sensors, the minimum TC size that can be used on the sensor is 1 1/2” (ASME BPE), which has a TC diameter of 50.5. In addition, care should be taken to select the correct matching ferrule, which should have an ID of, approximately, at least 30mm.\nThe SRV or SRD -X3 sensors can be installed in pipes or tanks. Next example shows the SRV-X3-15T (1.5” Tri-Clamp) mounted on a flush TC flange that can be supplied externally or from Rheonics.\n\nTable 7: Rheonics Hygienic short sensor in tank\nSRV-X3-15T Tri-Clamp Hygienic Installation Example\n\nDescription | Supplier | Order code\n---|---|---\nInline viscometer - SRV | Rheonics | SRV-X3-15T\n | | (https://support.rheonics.com/en/support/solutions/articles/81000410430-srv-x3-tri-clamp)\n\nFlush Tri-Clamp flange | Burkert | (https://rheonics.com/product-accessories/haw-12g-xtk/)\n | (https://www.buerkert.ch/de/produkte/733905?\nutm_source=DataSheet-\nBBS07&utm_medium=Text-\nLink&utm_campaign=Article-\nLink&utm_content=733905) | (https://rheonics.com/product-accessories/hpt-g12/)\n | Aseptconn AG | BBS-07-ZT.Z40.64-A.025.35.0\n | (https://www.aseptconn.ch/en/aseptic-\nconnections/novaseptic-tank-connections-na-\nconnect/welding-flange-na-connect-sms-3008) | N.NAC-S38/38",
+      "specifications": {
+        "short_sensor_d_value": "23 mm",
+        "minimum_tc_size": "1 1/2\" (ASME BPE)",
+        "tc_diameter": "50.5 mm",
+        "matching_ferrule_id": "30 mm",
+        "din11851_dn50_drawing_overall_dimension": "70 [2.76] mm [in]",
+        "din11851_dn50_drawing_outer_diameter": "66 [2.60] mm [in]",
+        "din11851_dn50_drawing_min_insertion_depth": "5 [0.20] mm [in]"
+      },
+      "key_facts": [
+        "The process connection code -X2 is used for hygienic connections not covered by other connection codes, such as DIN11851, for SRV and SRD sensors.",
+        "EHEDG-certified installations require following the (D – d)/L ≥ 1 equation, where 'd' is 23mm for short sensors.",
+        "SRV and SRD sensors with an X3 order code utilize a Tri-Clamp (TC) process connection.",
+        "The minimum Tri-Clamp (TC) size for short sensors is 1 1/2\" (ASME BPE) with a TC diameter of 50.5 mm.",
+        "A matching ferrule with an inner diameter of approximately 30mm must be selected for Tri-Clamp installations.",
+        "SRV or SRD -X3 sensors can be installed in pipes or tanks."
+      ],
+      "diagram_labels": [
+        "SRV-HS-X2-H50",
+        "DIN 11851 DN50 Nut",
+        "DIN 11851 DN50 Threaded Ferrule",
+        "DIN 11851 DN50 Seal"
+      ],
+      "warnings_notes": [
+        "An EHEDG-certified installation requires the user to closely follow the (D – d)/L ≥ 1 equation.",
+        "Care should be taken to select the correct matching ferrule for Tri-Clamp installations, which should have an ID of approximately 30mm."
+      ],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1588,
+        "cost_usd": 0.004109799999999999
+      },
+      "source_file": "009_Hygienic_and_Sanitary_Process_Viscometer_and_Density_Meter_for_inline_installation.pdf"
+    },
+    {
+      "page_summary": "This page provides installation details and component information for Rheonics X4 flush sensors, featuring both Tri-Clamp and Varinline hygienic process connections.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SRV (Inline viscometer)",
+        "Rheonics SRD (Density sensor)",
+        "Rheonics CoaguTrack",
+        "SRV-X3-15T",
+        "SRV-X4-TC",
+        "Varinline Housing DN40",
+        "Machined N plug"
+      ],
+      "extracted_text": "Standard\nwelded flush flange\nSRV-X3-Tri-Clamp 1.5\"\nFigure 13: SRV-X3-15T Tri-Clamp Hygienic Installation\n\nInstallation for X4- Flush Sensors\n\nThe X4 order code stands for a flush design of the sensor with a customized process connection. For example, the SRV and SRD-X4 flush sensors can be ordered with a Tri-Clamp connection.\nThe main advantage of a flush sensor is its reduced exposition to the fluid, which means that it is easier to clean and disinfect with standard procedures (e.g. Clean in Place - CIP). This design is also useful for small pipes and process connections smaller (e.g. Tri-Clamp DN 20 ISO1127) than those available with the -X3 sensors. The next example shows a flush installation using the SRV-X4 mounted on a standard off-the-shelf welded flush flange, which can also be provided by Rheonics, as in the figure below. This is a common solution for wall or bottom tank installations in some applications like Cheese Coagulation using Rheonics CoaguTrack (https://cdn.rheonics.com/wp-content/uploads/2023/05/Brochure_Rheonics_CoaguTrack_2023_A4S.pdf).\n\nTable 8: Rheonics Hygienic flush sensor in tank\nSRV-X4-TC Flush Tri-Clamp Hygienic Installation Example\nDescription\tSupplier\tOrder code\tDrawing\nInline viscometer - SRV\tRheonics\tSRV-X4-15T\t(https://support.rheonics.com/en/support/solutions/articles/81000411682-srv-x4-flush-sensor-for-hygienic-and-sanitary-applications)\nFlush Tri-Clamp flange\tBurkert\t(https://www.buerkert.ch/de/produkte/733905?utm_source=DataSheet-BBS07&utm_medium=Text-Link&utm_campaign=Article-Link&utm_content=733905)\tBBS-07-ZT.Z40.64-A.025.35.0\tSRV Flush TC 1.5\" in Flush Flange Drawing (https://support.rheonics.com/product-accessories/haw-12g-xtk/) (https://rheonics.com/en/support/solutions/articles/81000411056-srv-x1-12g-g-1-2-) (https://rheonics.com/product-accessories/hpt-g12/) (https://rheonics.com/wp-content/uploads/2023/09/SRV-X4-TC-1.5in_Flush-weld-flange.pdf)\n\tAseptconn AG\t(https://www.aseptconn.ch/en/aseptic-connections/novaseptic-tank-connections-na-connect/welding-flange-na-connect-sms-3008)\tN.NAC-S38/38\t(https://rheonics.com/en/product-accessories/hpt-g12/)\n\nStandard\nwelded flush flange\nSRV-X4-Tri-Clamp 1.5\"\nFigure 14: SRV-X4-TC Flush Tri-Clamp Hygienic Installation\n\nVARINLINE is a trademark of GEA for a line of process connectors and housings for hygienic installation. Rheonics inline viscometer and density meter are available with Varinline process connections. In the next example, an SRV flush sensor is installed in a Varinline DN40 Housing. The matching plug at the base of the housing requires a modified plug (Rheonics order code: PLG-VNM).\nAlong the same lines, bigger Varinline housings can be used and standard plugs can be used.\n\nTable 9: Rheonics hygienic sensor installation in Varinline Housing\nSRV-X4 Varinline Hygienic Installation Example\nDescription\tSupplier\tOrder code\tDrawing\nInline viscometer - SRV\tRheonics\tSRV-X4-VNM\t\nVarinline Housing DN40\tGEA\t(https://www.gea.com/en/products/pumps-valves-flow-components/valves-components-hygienic-liquid-processing/inline-technology/varinline-pocket-free-instruments_1_2.jsp)\tTDN40\tSRD-X4-VNM_Housing-DN40 (https://rheonics.com/wp-content/uploads/2024/08/SRD-X4-VNM_Housing-DN40.pdf)\nMachined N plug\tRheonics\tPLG-VNM\t",
+      "specifications": {
+        "Tri-Clamp connection size": "1.5 inch",
+        "Varinline Housing size": "DN40"
+      },
+      "key_facts": [
+        "The X4 order code for Rheonics sensors signifies a flush design with a customized process connection, such as a Tri-Clamp connection.",
+        "A primary benefit of flush sensors is their reduced exposure to the fluid, facilitating easier cleaning and disinfection using standard procedures like Clean in Place (CIP).",
+        "Flush sensors are suitable for smaller pipes and process connections, including Tri-Clamp DN 20 ISO1127, which are smaller than what is compatible with -X3 sensors.",
+        "The SRV-X4 can be installed using a standard off-the-shelf welded flush flange, suitable for wall or bottom tank installations in applications like Cheese Coagulation with Rheonics CoaguTrack.",
+        "Rheonics inline viscometers and density meters are available with Varinline process connections.",
+        "VARINLINE is a trademark of GEA, referring to a line of process connectors and housings designed for hygienic installations.",
+        "An SRV flush sensor installed in a Varinline DN40 Housing requires a modified plug, with Rheonics order code PLG-VNM."
+      ],
+      "diagram_labels": [
+        "Standard welded flush flange",
+        "SRV-X3-Tri-Clamp 1.5\"",
+        "Figure 13: SRV-X3-15T Tri-Clamp Hygienic Installation",
+        "SRV-X4-Tri-Clamp 1.5\"",
+        "Figure 14: SRV-X4-TC Flush Tri-Clamp Hygienic Installation"
+      ],
+      "warnings_notes": [],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1675,
+        "cost_usd": 0.0043273
+      },
+      "source_file": "009_Hygienic_and_Sanitary_Process_Viscometer_and_Density_Meter_for_inline_installation.pdf"
+    },
+    {
+      "page_summary": "This page provides installation guidelines for Rheonics X5 long insertion hygienic viscometers and density sensors, illustrating setups in Varinline Housing and tanks, and emphasizing hygienic design and EHEDG compliance.",
+      "document_type": "manual",
+      "product_names": [
+        "X5 - Long Insertion Probe",
+        "viscometer SRV",
+        "density meter SRD",
+        "X5 sensor",
+        "SRD-X5-A160-30T",
+        "Type-SR sensors",
+        "SRO-X4-VNM",
+        "PLG-VNM"
+      ],
+      "extracted_text": "Figure 15: Rheonics hygienic sensor installation in Varinline Housing\n\nInstallation for X5 - Long Insertion Probe\nThe long insertion sensors (FPC) version of the viscometer SRV and density meter and viscometer SRD, allows for a customizable length and process connection. This solution gives full flexibility in mounting.\nInsertion length is a configurable parameter that is specified as \"A\", a minimum of 56mm for the SRV and 100mm for the SRD.\nThe user can also select any flange or process adapter, as long as the process connection requested is 316L and is big enough to be welded in the 42mm “d” diameter of the - X5 sensor (See table 2).\nThe next installation example is a wall tank installation. For a hygienic and EHEDG installation, the (D – d)/L ≥ 1 equation, described in the Table 2, should be followed where d is 42mm for X5 variants.\n\nTable 10: Rheonics hygienic long insertion sensor installation in tank\n| Description                      | Supplier | Order code                                                                            |\n|----------------------------------|----------|---------------------------------------------------------------------------------------|\n| Inline hygienic viscometer - SRD | Rheonics | SRD-X5-A160-30T\n|                                  |          | (https://support.rheonics.com/en/support/solutions/articles/81000411193-srd-x5-long-insertion-probe) |\n\nFigure 16: SRD-X5 Hygienic Installation Example in Tank.\n\nConclusions\nRheonics offers inline viscometers and density meters with a hygienic design through its Type-SR sensors SRV and SRD. These are also built according to EHEDG guidelines to ensure strict conformance to standards.\nInstallation is key to avoid dead zones or stagnation zones that can affect the cleanability and the readings of the hygienic sensors.\nFeel free to contact Rheonics at info@rheonics.com for sales and application related questions and support@rheonics.com for information on potential installation setups.",
+      "specifications": {
+        "Insertion length (SRV minimum)": "56 mm",
+        "Insertion length (SRD minimum)": "100 mm",
+        "Process connection material": "316L",
+        "Process connection welding diameter": "42 mm",
+        "X5 sensor diameter (d)": "42 mm",
+        "Varinline Housing dimension (vertical)": "44 ±1 mm [1.73 ±0.04 inch]",
+        "Varinline N Machined dimension (thickness)": "12 mm [0.49 inch]",
+        "Varinline Housing DN 40 dimension (approx. outer diameter)": "38 mm [1.50 inch]",
+        "Varinline Housing DN 40 dimension (approx. inner diameter)": "41 mm [1.61 inch]"
+      },
+      "key_facts": [
+        "Rheonics long insertion sensors (FPC) for viscometers SRV and density meters SRD offer customizable length and process connections for flexible mounting.",
+        "The insertion length, specified as \"A\", has a minimum of 56mm for SRV and 100mm for SRD.",
+        "Process connections must be made of 316L and be large enough to be welded into the 42mm \"d\" diameter of the X5 sensor.",
+        "For hygienic and EHEDG wall tank installations, the equation (D – d)/L ≥ 1 should be followed, with 'd' being 42mm for X5 variants.",
+        "Rheonics inline viscometers and density meters (Type-SR sensors SRV and SRD) feature a hygienic design and conform to EHEDG guidelines.",
+        "Proper installation is essential to prevent dead zones or stagnation zones, which can negatively impact the cleanability and readings of hygienic sensors.",
+        "Rheonics provides contact information (info@rheonics.com and support@rheonics.com) for sales, application, and installation setup inquiries."
+      ],
+      "diagram_labels": [
+        "Rheonics",
+        "SRO-X4-VNM",
+        "Varinline Housing DN 40",
+        "Varinline N Machined",
+        "PLG-VNM",
+        "Units: mm [inch]",
+        "44 ±1 [1.73 ±0.04]",
+        "12 [0.49]",
+        "38 [1.50]",
+        "41 [1.61]"
+      ],
+      "warnings_notes": [
+        "For a hygienic and EHEDG installation, the (D – d)/L ≥ 1 equation, described in the Table 2 (not provided on this page), should be followed where d is 42mm for X5 variants.",
+        "Rheonics Type-SR sensors SRV and SRD are built according to EHEDG guidelines to ensure strict conformance to standards.",
+        "Installation is key to avoid dead zones or stagnation zones that can affect the cleanability and the readings of the hygienic sensors."
+      ],
+      "page_num": 8,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1315,
+        "cost_usd": 0.0034273
+      },
+      "source_file": "009_Hygienic_and_Sanitary_Process_Viscometer_and_Density_Meter_for_inline_installation.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": [
+      4
+    ]
+  }
+}

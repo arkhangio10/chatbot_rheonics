@@ -1,0 +1,237 @@
+{
+  "source_file": "Rheonics_Portfolio-2307_A4S.pdf",
+  "total_pages": 4,
+  "chunks": [
+    {
+      "page_summary": "This page provides an overview of Rheonics' inline process density and viscosity monitoring solutions, showcasing their sensors, key certifications, and company contact information.",
+      "document_type": "datasheet",
+      "product_names": [
+        "Rheonics Inline Viscometer",
+        "Rheonics Inline Density Sensor",
+        "Rheonics process monitoring solutions"
+      ],
+      "extracted_text": "INLINE PROCESS DENSITY AND VISCOSITY MONITORING\nrheonics\nrheonics\n1234.34\n1234.56\n123.45\n50.00\nHART\nrheonics\nKEEP COVER TIGHT WHEN CIRCUITS ARE ALIVE\nrheonics\nCERTIFIED\nEHEDG\nEUROPEAN HYGIENIC ENGINEERING & DESIGN GROUP\nTYPE EL\nCLASS I\nML 0000\nIECEx\nIEC IECEX\nEx ATEX\nISO 9001:2015\nCE\nrheonics.com\n+41 52 511 32 00\nWinterthur\ninfo@rheonics.com\n+1 713 364 5427\nHouston\nJuly 2023",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics specializes in inline process density and viscosity monitoring.",
+        "The products displayed are inline sensors designed for process measurement.",
+        "Rheonics' products carry EHEDG, IECEx, ATEX, ISO 9001:2015, and CE certifications.",
+        "The EHEDG certification is Type EL Class I (ML 0000).",
+        "Rheonics maintains contact offices in Winterthur, Switzerland, and Houston, USA.",
+        "The document was published in July 2023."
+      ],
+      "diagram_labels": [
+        "rheonics (on devices)",
+        "HART (on display)",
+        "CERTIFIED EHEDG",
+        "TYPE EL CLASS I",
+        "ML 0000",
+        "IECEx",
+        "IEC IECEX",
+        "Ex ATEX",
+        "ISO 9001:2015",
+        "CE"
+      ],
+      "warnings_notes": [
+        "KEEP COVER TIGHT WHEN CIRCUITS ARE ALIVE"
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 569,
+        "cost_usd": 0.0015623
+      },
+      "source_file": "Rheonics_Portfolio-2307_A4S.pdf"
+    },
+    {
+      "page_summary": "This page presents a comparison of the SRV and SRD inline viscometers and density sensors, detailing their specifications and applications for various industrial processes.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRV",
+        "SRD"
+      ],
+      "extracted_text": "Product Portfolio\n\nSRV\nDescription: Process viscometer for Newtonian and non-Newtonian fluids. Wide viscosity range - monitor the complete process.\n\nSRD\nDescription: Single instrument for process density, viscosity and temperature measurement.\n\nFluid Measurements\nViscosity Range\nSRV: 3 to 10,000 cP\nSRV (available): 0.5 to 50,000 cP\nSRD: 1 to 3,000 cP\nSRD (available): wider range available\n\nViscosity Accuracy\nSRV (standard): 5% of reading\nSRV (available): 1% & higher accuracy available\nSRD (standard): 5% of reading\nSRD (available): higher accuracy available\n\nDensity Range\nSRV: -\nSRD: 0.0 - 4.0 g/cc\n\nDensity Accuracy\nSRV: -\nSRD: 0.001 g/cc\n\nReproducibility\nSRV: Better than 0.1% of reading\nSRD: Better than 0.1% of reading\n\nTemperature (inbuilt)\nSRV: Pt1000 (DIN EN 60751 class B)\nSRD: Pt1000 (DIN EN 60751 class B)\n\nOperational Environment\nProcess Fluid Temperature\nSRV: -40 up to 285 °C\nSRD: -40 up to 285 °C\n\nPressure Range\nSRV: up to 10,000 psi (690 bar)\nSRD: up to 10,000 psi (690 bar)\n\nMechanical\nMaterial (Wetted parts)\nSRV: 316L Stainless Steel, Hastelloy C22\nSRD: 316L Stainless Steel, Hastelloy C22\n\nVariants\nSRV: Flush, Short and Long insertion\nSRD: Flush, Short and Long insertion\n\nProcess Connection\nSRV: Threaded, Flange, Sanitary\nSRV (option): EHEDG certified hygienic available\nSRD: Threaded, Flange, Sanitary\nSRD (option): EHEDG certified hygienic available\n\nIngress Protection\nSRV: IP69K\nSRD: IP69K\n\nElectrical Connection\nSRV: M12 (8-pin, A-coded)\nSRD: M12 (8-pin, A-coded)\n\nApplication\nGeneral: Designed for easy installation in pipelines, tanks, and process lines.\n\nSRV Specific Applications:\n• Process viscosity control of slurries, emulsions and other non-newtonian fluids\n• Polymerization monitoring\n• Coating and ink viscosity control\n• Marine fuel viscosity control\n\nSRD Specific Applications:\n• Drilling mud density and viscosity\n• Newtonian and nonnewtonian fluids\n• Pipeline and pumping - efficiency and leak detection\n• Fuel consumption monitoring\n\n†subject to change without notice",
+      "specifications": {
+        "SRV Viscosity Range": "3 to 10,000 cP",
+        "SRV Viscosity Range (available)": "0.5 to 50,000 cP",
+        "SRV Viscosity Accuracy (standard)": "5% of reading",
+        "SRV Viscosity Accuracy (higher available)": "1% & higher accuracy available",
+        "SRV Density Range": "-",
+        "SRV Density Accuracy": "-",
+        "SRV Reproducibility": "Better than 0.1% of reading",
+        "SRV Inbuilt Temperature Sensor": "Pt1000 (DIN EN 60751 class B)",
+        "SRV Process Fluid Temperature": "-40 up to 285 °C",
+        "SRV Pressure Range": "up to 10,000 psi (690 bar)",
+        "SRV Wetted Parts Material": "316L Stainless Steel, Hastelloy C22",
+        "SRV Variants": "Flush, Short and Long insertion",
+        "SRV Process Connection": "Threaded, Flange, Sanitary",
+        "SRV Process Connection (hygienic option)": "EHEDG certified hygienic available",
+        "SRV Ingress Protection": "IP69K",
+        "SRV Electrical Connection": "M12 (8-pin, A-coded)",
+        "SRD Viscosity Range": "1 to 3,000 cP",
+        "SRD Viscosity Range (wider available)": "wider range available",
+        "SRD Viscosity Accuracy (standard)": "5% of reading",
+        "SRD Viscosity Accuracy (higher available)": "higher accuracy available",
+        "SRD Density Range": "0.0 - 4.0 g/cc",
+        "SRD Density Accuracy": "0.001 g/cc",
+        "SRD Reproducibility": "Better than 0.1% of reading",
+        "SRD Inbuilt Temperature Sensor": "Pt1000 (DIN EN 60751 class B)",
+        "SRD Process Fluid Temperature": "-40 up to 285 °C",
+        "SRD Pressure Range": "up to 10,000 psi (690 bar)",
+        "SRD Wetted Parts Material": "316L Stainless Steel, Hastelloy C22",
+        "SRD Variants": "Flush, Short and Long insertion",
+        "SRD Process Connection": "Threaded, Flange, Sanitary",
+        "SRD Process Connection (hygienic option)": "EHEDG certified hygienic available",
+        "SRD Ingress Protection": "IP69K",
+        "SRD Electrical Connection": "M12 (8-pin, A-coded)"
+      },
+      "key_facts": [
+        "The SRV is a dedicated process viscometer for Newtonian and non-Newtonian fluids, offering a wide viscosity range.",
+        "The SRD is a versatile instrument capable of simultaneous process density, viscosity, and temperature measurement.",
+        "Both the SRV and SRD models achieve a high reproducibility of better than 0.1% of reading.",
+        "Both instruments feature an inbuilt Pt1000 temperature sensor, compliant with DIN EN 60751 class B.",
+        "The operational environment for both devices spans a wide process fluid temperature range of -40 to 285 °C and a pressure range up to 10,000 psi (690 bar).",
+        "Wetted parts for both SRV and SRD are constructed from 316L Stainless Steel and Hastelloy C22.",
+        "Both instruments are available with Flush, Short, and Long insertion variants and offer Threaded, Flange, or Sanitary process connections, with EHEDG certified hygienic options.",
+        "A robust IP69K ingress protection rating is provided for both the SRV and SRD.",
+        "Electrical connection for both devices is via an M12 (8-pin, A-coded) connector.",
+        "SRV applications include viscosity control for slurries, emulsions, non-Newtonian fluids, polymerization monitoring, coating/ink viscosity control, and marine fuel viscosity control.",
+        "SRD applications include drilling mud density and viscosity measurement, analysis of Newtonian and non-Newtonian fluids, pipeline and pumping efficiency/leak detection, and fuel consumption monitoring.",
+        "Both viscometers are designed for easy installation in pipelines, tanks, and general process lines."
+      ],
+      "diagram_labels": [
+        "Product Portfolio",
+        "SRV",
+        "SRD"
+      ],
+      "warnings_notes": [
+        "subject to change without notice"
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1865,
+        "cost_usd": 0.0048023
+      },
+      "source_file": "Rheonics_Portfolio-2307_A4S.pdf"
+    },
+    {
+      "page_summary": "This page provides an overview and comparison of Rheonics DVP and DVM viscometers/density sensors, along with their associated electronics and communication modules (SME-TRD, SME-DRM), detailing their specifications and applications.",
+      "document_type": "datasheet",
+      "product_names": [
+        "DVP",
+        "DVM",
+        "SME-TRD",
+        "SME-DRM"
+      ],
+      "extracted_text": "rheonics\ninline process density and viscosity monitoring\n\nDVP\nSimultaneous density, viscosity and temperature measurement at HPHT conditions.\n\nDVM\nDesigned for reservoir fluid analysis. Simultaneous density and viscosity measurement at 30,000 psi & 200 °C.\n\nElectronics & Communication\n\nSME-TRD\n\n0.2 to 300 cP\n0.1 cP below 1 cP\n5% of reading (standard)\nhigher accuracy available\n0 - 1.5 g/cc\n0.001 g/cc\nhigher accuracy available\nBetter than 1% of reading\nPt1000 (class AA)\n-40 up to 200 °C\nup to 10,000 psi\nTitanium Grade 5\n1\" NPT\nFlange & sanitary connections available\nIP68\nM12\n\n- Gas and liquid density\n- High pressure processes\n- Custody transfer - liquid, gas\n- LNG density metering\n- Not suitable for liquids with magnetic particles\n\n\n0.2 to 300 cP\nlower than 0.2 cP available\n0.1 cP below 1 cP\n5% of reading (standard)\nhigher accuracy available\n0 - 1.5 g/cc\n0.001 g/cc\nhigher accuracy available\nBetter than 1% of reading\nPt100 (Class AA)\n-40 up to 200 °C\nup to 30,000 psi\nTitanium Grade 5\n1/4\" HP (9/16-18 UNF)\nIP69\nFixed cable\n\n- HPHT fluid analysis\n- PVT viscosity & density\n- EOR density & viscosity\n- Core flow fluid measurements\n- Lubricant viscosity monitoring\n\nAnalog output\n4-20 mA (3 channel)\nDigital output\nViscosity, Density, Temp.\nModbus RTU (RS-485)\nEthernet (Ethernet/IP, Modbus TCP, Profinet)\nUSB\nHART\nWireless output\nBluetooth LE 4.0\nDisplay\nMulti-line LCD (SME-TRD)\nOperational temp.\n-20 to 65 °C\nPower supply\n24 V DC\nSME-TR(D)\nIP65/66\nSME-DRM\nIP40/50\nSoftware\nData acquisition and service\niOS and Android app\n\nSME-DRM",
+      "specifications": {
+        "DVP": {
+          "Viscosity Range": "0.2 to 300 cP",
+          "Viscosity Accuracy": "0.1 cP below 1 cP, 5% of reading (standard), higher accuracy available",
+          "Density Range": "0 - 1.5 g/cc",
+          "Density Accuracy": "0.001 g/cc, higher accuracy available",
+          "Temperature Accuracy": "Better than 1% of reading",
+          "Temperature Sensor": "Pt1000 (class AA)",
+          "Operational Temperature": "-40 to 200 °C",
+          "Operational Pressure": "up to 10,000 psi",
+          "Wetted Parts Material": "Titanium Grade 5",
+          "Process Connection": "1\" NPT (Flange & sanitary connections available)",
+          "Ingress Protection": "IP68",
+          "Electrical Connection": "M12"
+        },
+        "DVM": {
+          "Viscosity Range": "0.2 to 300 cP (lower than 0.2 cP available)",
+          "Viscosity Accuracy": "0.1 cP below 1 cP, 5% of reading (standard), higher accuracy available",
+          "Density Range": "0 - 1.5 g/cc",
+          "Density Accuracy": "0.001 g/cc, higher accuracy available",
+          "Temperature Accuracy": "Better than 1% of reading",
+          "Temperature Sensor": "Pt100 (Class AA)",
+          "Operational Temperature": "-40 to 200 °C",
+          "Operational Pressure": "up to 30,000 psi",
+          "Wetted Parts Material": "Titanium Grade 5",
+          "Process Connection": "1/4\" HP (9/16-18 UNF)",
+          "Ingress Protection": "IP69",
+          "Electrical Connection": "Fixed cable"
+        },
+        "Electronics & Communication": {
+          "Analog Output": "4-20 mA (3 channel)",
+          "Digital Output Protocols": "Viscosity, Density, Temp.; Modbus RTU (RS-485); Ethernet (Ethernet/IP, Modbus TCP, Profinet); USB; HART",
+          "Wireless Output": "Bluetooth LE 4.0",
+          "Display": "Multi-line LCD (SME-TRD)",
+          "Operational Temperature": "-20 to 65 °C",
+          "Power Supply": "24 V DC",
+          "SME-TR(D) Ingress Protection": "IP65/66",
+          "SME-DRM Ingress Protection": "IP40/50"
+        }
+      },
+      "key_facts": [
+        "Rheonics offers inline process density and viscosity monitoring solutions.",
+        "The DVP sensor is designed for simultaneous density, viscosity, and temperature measurement at HPHT conditions.",
+        "The DVM sensor is specifically designed for reservoir fluid analysis and can measure density and viscosity at up to 30,000 psi and 200 °C.",
+        "Both DVP and DVM sensors offer options for higher accuracy in viscosity and density measurements.",
+        "The DVP and DVM sensors feature wetted parts made of Titanium Grade 5.",
+        "Rheonics electronics modules (SME-TRD and SME-DRM) support various analog and digital output protocols, including wireless Bluetooth LE 4.0.",
+        "Software for data acquisition and service is available via iOS and Android apps.",
+        "DVP applications include gas and liquid density, high-pressure processes, custody transfer for liquid and gas, and LNG density metering.",
+        "DVM applications include HPHT fluid analysis, PVT viscosity & density, EOR density & viscosity, core flow fluid measurements, and lubricant viscosity monitoring."
+      ],
+      "diagram_labels": [
+        "DVP",
+        "DVM",
+        "SME-TRD",
+        "SME-DRM"
+      ],
+      "warnings_notes": [
+        "DVP: Not suitable for liquids with magnetic particles."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1693,
+        "cost_usd": 0.0043723
+      },
+      "source_file": "Rheonics_Portfolio-2307_A4S.pdf"
+    },
+    {
+      "page_summary": "This page provides an overview of Rheonics' inline process density and viscosity monitoring solutions, highlighting their Swiss origin, technological advancements over 30 years, and global presence.",
+      "document_type": "presentation",
+      "product_names": [
+        "HPHT D-V sensor",
+        "HPHT Viscosity and Density Sensor for Oil and Gas (DVM)",
+        "Inline process Density & Viscosity Sensor (DVP)",
+        "Inline process Viscometer (SRV)",
+        "Inline process Density & Viscosity Meter (SRD)"
+      ],
+      "extracted_text": "rheonics\ninline process\ndensity and viscosity\nmonitoring\n\nINVENTED, DESIGNED, AND BUILT\nWITH SWISS PRECISION\n\nInvented, designed and built by an ETH Zurich spin-off team with over 150 years\nof collective experience in resonant sensor technology. Rheonics proprietary\ntechnology is protected by a growing portfolio of US & international patents.\n\nPrecision built in Switzerland, each Rheonics fluid density and viscosity sensor is\ndesigned to match your application needs. Whether you need to measure density\nand viscosity downhole at 30,000 psi and 200 °C or monitor the viscosity of\npolymerization reactions, we have a solution for you.\n\nRheonics density and viscosity sensors are available in probe and flow through\nstyles. All Rheonics products are designed to withstand the harshest process\nenvironments including high level of shock, vibrations, abrasives & corrosives.\n\n2021 FTA TECHNICAL\nINNOVATION AWARD\nFlexography Technical Association\n\n2021 SWISS EXCELLENCE\nPRODUCT AWARD\nSwiss Excellence Foundation\n\n2021 GRAVURE AWARD FOR\nSUSTAINABLE PACKAGING\nEuropean Rotogravure Association\n\n2022 AIMCAL TECHNOLOGY\nOF THE YEAR AWARDS\nAssociation of International Metallizers\nCoaters and Laminators\n\n30 YEARS OF DEVELOPING INNOVATIVE\nFLUID DENSITY & VISCOSITY MONITORING\n\n1985\nConceptual framework at ETH Zurich\n\n1990\nFirst viscometer patented\n\n1998\nGated PLL technology patented\n\n2003\nProcess Viscometer developed\n\n2010\nDeveloped HPHT D-V sensor\n\n2012\nrheonics incorporated\n\n2013\nHPHT Viscosity and Density Sensor for Oil\nand Gas (DVM)\n\n2014\nInline process Density & Viscosity Sensor (DVP)\n\n2015\nInline process Viscometer (SRV)\n\n2016\nInline process Density & Viscosity Meter (SRD)\n\nContact Information\n\nwww.rheonics.com\ninfo@rheonics.com\n\nrheonics Inc.\n3 Sugar Creek Center Blvd, Ste 100\nSugar Land, TX 77478\nUnited States of America\n+1 713 364 5427\n\nrheonics GmbH\nKlosterstrasse 19\n8406 Winterthur\nSwitzerland\n+41 52 511 32 00\n\nRepresented by\n\nrheonics|PP23",
+      "specifications": {
+        "Pressure": "30,000 psi",
+        "Temperature": "200 °C"
+      },
+      "key_facts": [
+        "Rheonics was invented, designed, and built by an ETH Zurich spin-off team with over 150 years of collective experience in resonant sensor technology.",
+        "Rheonics' proprietary technology is protected by a growing portfolio of US & international patents.",
+        "Each Rheonics fluid density and viscosity sensor is precision built in Switzerland.",
+        "Rheonics density and viscosity sensors are available in probe and flow-through styles.",
+        "All Rheonics products are designed to withstand the harshest process environments, including high levels of shock, vibrations, abrasives, and corrosives.",
+        "Rheonics has been developing innovative fluid density and viscosity monitoring for 30 years, with its conceptual framework established at ETH Zurich in 1985.",
+        "Rheonics has received multiple awards, including the 2021 FTA Technical Innovation Award, 2021 Swiss Excellence Product Award, 2021 Gravure Award for Sustainable Packaging, and 2022 AIMCAL Technology of the Year Awards."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1076,
+        "cost_usd": 0.0028297999999999995
+      },
+      "source_file": "Rheonics_Portfolio-2307_A4S.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

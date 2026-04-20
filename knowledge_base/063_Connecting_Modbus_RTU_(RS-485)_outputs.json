@@ -1,0 +1,118 @@
+{
+  "source_file": "063_Connecting_Modbus_RTU_(RS-485)_outputs.pdf",
+  "total_pages": 2,
+  "chunks": [
+    {
+      "page_summary": "This page provides instructions and a wiring diagram for connecting Rheonics' Modbus RTU (RS-485) outputs, detailing general configuration, wiring best practices, and termination/biasing requirements.",
+      "document_type": "notes",
+      "product_names": [
+        "SME devices",
+        "Rheonics transmitter"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nConnecting Modbus RTU (RS-485) outputs\n\nModified on: Thu, 8 Jul, 2021 at 5:28 PM\n\nGeneral\nAll SME devices implement a MODBUS RTU compliant RTU slave. The default configuration of the MODBUS RTU slave is 38400 and ODD parity. Connection is by RS485-2W where the interface is not electrical isolated.\n\nWiring\nWiring is RS485-2W. The device does not have internal biasing resistors and termination resistors and proper setup of the RS485 network has to be ensured.\n\nTermination: Termination should be only at the end and beginning of the bus to avoid reflections. Requirements on termination differ not only on the baud-rate used but also on the slew-rate of device internal drivers. As a general rule, if there are devices on the RS485 bus that allow fast transmission speeds, and cable lengths exceed a few meters, then termination is required.\n\nBiasing: Biasing of the RS485 BUS is required. If biasing is omitted, communication may work unreliably or not at all. See figure below for Pull-Up/Pull-Down resistors.\n\nConnections: Connection stubs on the RS485 bus should be kept to the minimum.\n\nCommon: RS485 does allow common mode voltages of +12V / -7V. It is therefore recommended to use a common wire to ensure common mode voltage is within safe limits for all receivers. In case of problems it might be necessary to introduce RS485 isolators into the network. The common terminal for the SME device is the 0V terminal (GND) for the power supply.\n\nRS485 MODBUS",
+      "specifications": {
+        "Contact Phone Number": "+1 713 234 0863",
+        "Document Last Modified Date": "Thu, 8 Jul, 2021",
+        "Document Last Modified Time": "5:28 PM",
+        "Modbus RTU Baud Rate": "38400",
+        "Modbus RTU Parity": "ODD",
+        "Modbus Connection Type": "RS485-2W",
+        "RS485 Common Mode Voltage Range": "+12V / -7V",
+        "RS485 Termination Resistor": "120 Ohm",
+        "RS485 Biasing Pull-up Resistor": "680 Ohm",
+        "RS485 Biasing Pull-down Resistor": "680 Ohm",
+        "RS485 Biasing Shunt Resistor": "120 Ohm",
+        "RS485 Biasing Voltage": "+5V",
+        "Power Supply Voltage": "24V",
+        "Maximum Bus Length": "1000 m",
+        "Maximum Stub Length": "20 m"
+      },
+      "key_facts": [
+        "All SME devices implement a MODBUS RTU compliant RTU slave.",
+        "The default configuration for the MODBUS RTU slave is 38400 baud and ODD parity.",
+        "Rheonics' RS485-2W interface is not electrically isolated.",
+        "Rheonics devices do not have internal biasing or termination resistors, requiring external network setup.",
+        "Termination should only occur at the ends and beginning of the bus to prevent reflections.",
+        "Biasing of the RS485 BUS is required for reliable communication.",
+        "Connection stubs on the RS485 bus should be kept to a minimum.",
+        "RS485 allows common mode voltages between +12V and -7V.",
+        "A common wire is recommended to ensure common mode voltage remains within safe limits.",
+        "RS485 isolators might be necessary if common mode voltage problems arise.",
+        "The 0V terminal (GND) for the power supply also serves as the common terminal for SME devices."
+      ],
+      "diagram_labels": [
+        "Rheonics transmitter",
+        "V+",
+        "V-",
+        "B+",
+        "A-",
+        "Bus < 1000m",
+        "120 Ohm",
+        "+5V",
+        "680 Ohm",
+        "GND",
+        "MODBUS master",
+        "24V",
+        "Stub < 20m",
+        "MODBUS slave",
+        "DO NOT CONNECT EARTH TO GND for marine applications",
+        "RS485 MODBUS"
+      ],
+      "warnings_notes": [
+        "The RS485-2W interface is not electrical isolated.",
+        "The device does not have internal biasing resistors and termination resistors, and proper setup of the RS485 network has to be ensured.",
+        "If biasing is omitted, communication may work unreliably or not at all.",
+        "DO NOT CONNECT EARTH TO GND for marine applications."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1237,
+        "cost_usd": 0.0032323
+      },
+      "source_file": "063_Connecting_Modbus_RTU_(RS-485)_outputs.pdf"
+    },
+    {
+      "page_summary": "This page provides configuration details for the Modbus address of an SME device, including factory default settings and supported communication parameters, along with troubleshooting steps for connection issues.",
+      "document_type": "manual",
+      "product_names": [
+        "SME device",
+        "RCP software"
+      ],
+      "extracted_text": "Configuration\nThe SME device allows the configuration of the Modbus address using the RCP software. Please refer to the RCP manual for instructions.\nFactory default settings of Modbus parameters:\naddress=0 or 1\nbaudrate=38400\nparity=odd\nThe system is capable of supporting:\n* parity settings of odd, even and none\n* baudrates of 9600, 19200 and 38400\nTroubleshooting\nIn case after connection your PLC/device does not read the registers.\n1. Swap the A & B wires for RS485 connection\n2. Check you have the correct resistors\nIf it still does not connect. Contact rheonics support by raising a ticket on the support portal.",
+      "specifications": {
+        "Modbus factory default address": "0 or 1",
+        "Modbus factory default baudrate": "38400",
+        "Modbus factory default parity": "odd",
+        "Supported parity settings": "odd, even and none",
+        "Supported baudrates": "9600, 19200, 38400"
+      },
+      "key_facts": [
+        "The SME device's Modbus address can be configured via RCP software.",
+        "The factory default Modbus parameters for the SME device are address 0 or 1, baudrate 38400, and odd parity.",
+        "The system supports Modbus parity settings of odd, even, and none.",
+        "The system supports Modbus baudrates of 9600, 19200, and 38400.",
+        "If a PLC/device fails to read registers after connection, troubleshooting steps include swapping RS485 A & B wires and checking for correct resistors.",
+        "Rheonics support should be contacted via the support portal if connection problems persist."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Please refer to the RCP manual for instructions regarding Modbus address configuration.",
+        "If connection issues persist after troubleshooting, contact Rheonics support by raising a ticket on the support portal."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 563,
+        "cost_usd": 0.0015473000000000002
+      },
+      "source_file": "063_Connecting_Modbus_RTU_(RS-485)_outputs.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "source_file": "047_EMC_Standards_for_Rheonics_SME_Electronics_and_Sensor_Probes.pdf",
+  "total_pages": 2,
+  "chunks": [
+    {
+      "page_summary": "This document outlines Rheonics' Electromagnetic Compatibility (EMC) standards, compliance, and testing for their SME electronics and sensor probes, including references to relevant EN and IEC standards and a Declaration of Conformity.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "SME electronics",
+        "Sensor Probes",
+        "SME-DRM",
+        "SME-TR/D",
+        "SRV",
+        "SRD",
+        "DVP",
+        "DVM",
+        "inline viscometers",
+        "density sensors",
+        "SME-TRD",
+        "SME-TR"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nEMC Standards for Rheonics SME Electronics and Sensor Probes\nModified on: Mon, 10 Nov, 2025 at 7:11 PM\n\n1. Overview\nRheonics SME electronics (https://rheonics.com/electronics-and-communication/) (SME-DRM, SME-TR/D) and sensor probes (SRV (https://rheonics.com/products/inline-viscometer-srv/), SRD (https://rheonics.com/products/inline-density-meter-srd/), DVP (https://rheonics.com/products/inline-gas-lng-density-meter-dvp/), DVM (https://rheonics.com/products/hpht-pvt-density-meter-dvm/)) are designed and tested to meet strict Electromagnetic Compatibility (EMC) standards. These certifications ensure reliable performance in industrial environments where electrical noise and interference are common.\nRheonics inline viscometers and electronics meets multiple industry standards to make it easy for system integrators and end-users to rely on Rheonics products for mission critical applications.\nLearn more about SME electronics here: https://rheonics.com/electronics-and-communication/ (https://rheonics.com/electronics-and-communication/)\nYou can access various certificates on the products here: https://rheonics.com/resources/certificates/ (https://rheonics.com/resources/certificates/)\n\n2. EMC Compliance Standards\nRheonics Sensor transducers and electronics (transmitter) undergo EMC testing and conform to the following standards:\n* EN 61326-1:2013: Electrical equipment for measurement, control and laboratory use - EMC requirements, Part 1: General requirements IEC 61326-1:2012.\n* EN 61326-2-3:2013: Electrical equipment for measurement, control and laboratory use - EMC requirements, Part 2-3: Particular requirements — Test configuration, operational conditions and performance criteria for transducers with integrated or remote signal conditioning IEC 61326-2-3:2012.\n\n2.1 Rheonics Declaration of Conformity (DoC) for SME Electronics\nDeclaration of Conformity for SRV, SRD, DVP, DVM, SME-TRD, SME-TR & SME-DRM as per directives – Electromagnetic compatibility (EMC) Directive 2014/30/EU & Restriction\nDownload DoC (https://rheonics.com/wp-content/uploads/2019/09/rheonics_ce_coc_sme.pdf)\n\n3. EMC Testing and Validation\nRheonics Sensor transducers and electronics (transmitter) are tested in accredited EMC test labs in Switzerland and Austria. The results indicate conformity to industrial EMC requirements.\nSome of the relevant tests conducted on the sensor and electronics are:",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics SME electronics and sensor probes (SME-DRM, SME-TR/D, SRV, SRD, DVP, DVM) are designed and tested to meet strict Electromagnetic Compatibility (EMC) standards.",
+        "These certifications ensure reliable performance of Rheonics products in industrial environments with electrical noise and interference.",
+        "Rheonics inline viscometers and electronics comply with multiple industry standards for mission-critical applications.",
+        "Rheonics Sensor transducers and electronics (transmitter) conform to EN 61326-1:2013 and EN 61326-2-3:2013 EMC standards.",
+        "A Declaration of Conformity (DoC) is available for SRV, SRD, DVP, DVM, SME-TRD, SME-TR & SME-DRM, aligning with the EMC Directive 2014/30/EU.",
+        "Rheonics Sensor transducers and electronics (transmitter) are tested in accredited EMC test labs located in Switzerland and Austria.",
+        "The test results confirm conformity to industrial EMC requirements."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Compliance Note: Rheonics products are designed and tested to meet strict Electromagnetic Compatibility (EMC) standards to ensure reliable performance in industrial environments.",
+        "Compliance Note: Rheonics Sensor transducers and electronics conform to EN 61326-1:2013 (IEC 61326-1:2012) and EN 61326-2-3:2013 (IEC 61326-2-3:2012) standards for electrical equipment.",
+        "Compliance Note: A Declaration of Conformity (DoC) is provided for various products, indicating adherence to the Electromagnetic compatibility (EMC) Directive 2014/30/EU."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1256,
+        "cost_usd": 0.0032798
+      },
+      "source_file": "047_EMC_Standards_for_Rheonics_SME_Electronics_and_Sensor_Probes.pdf"
+    },
+    {
+      "page_summary": "This page details the electromagnetic immunity test requirements for equipment intended for use in an industrial electromagnetic environment, referencing various IEC and EN standards related to EMC compliance.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Table 2 – Immunity test requirements for equipment intended to be used in an industrial electromagnetic environment\n\nPort\tPhenomenon\tBasic standard\tTest value\tPerformance criterion\nEnclosure\n\tElectrostatic discharge (ESD)\tIEC 61000-4-2\t4 kV contact discharge\tB\n\t\t\t8 kV air discharge\tB\n\tElectromagnetic field\tIEC 61000-4-3\t10 V/m (80 MHz to 1 GHz)\tA\n\t\t\t3 V/m (1,4 GHz to 2 GHz)\tA\n\t\t\t1 V/m (2,0 GHz to 2,7 GHz)\tA\n\tPower frequency magnetic field\tIEC 61000-4-8\t30 A/m (50 Hz, 60 Hz)ᵃ\tA\nAC power\n(including protective earth)\n\tVoltage dip\tIEC 61000-4-11\t0 % during 1 cycle\tB\n\t\t\t40 % during 10/12ᵍ cycles\tC\n\t\t\t70 % during 25/30ᵍ cycles\tC\n\tShort interruptions\tIEC 61000-4-11\t0 % during 250/300ᵍ cycles\tC\n\tBurst\tIEC 61000-4-4\t2 kV (5/50 ns, 5 kHz)\tB\n\tSurge\tIEC 61000-4-5\t1 kVᵉ/2 kVᵉ\tB\n\tConducted RF\tIEC 61000-4-6\t3 V (150 kHz to 80 MHz)\tA\nDC powerᵃ\n(including protective earth)\n\tBurst\tIEC 61000-4-4\t2 kV (5/50 ns, 5 kHz)\tB\n\tSurge\tIEC 61000-4-5\t1 kVᵉ/2 kVᵉ\tB\n\tConducted RF\tIEC 61000-4-6\t3 V (150 kHz to 80 MHz)\tA\nI/O signal/ control\n(including functional earth)\n\tBurst\tIEC 61000-4-4\t1 kV (5/50 ns, 5 kHz)ᵈ\tB\n\tSurge\tIEC 61000-4-5\t1 kVᶜ\tB\n\tConducted RF\tIEC 61000-4-6\t3 Vᵃ,ᶠ (150 kHz to 80 MHz)\tA\nI/O signal/ control\nconnected directly\nto mains supply\n\tBurst\tIEC 61000-4-4\t2 kV (5/50 ns, 5 kHz)\tB\n\tSurge\tIEC 61000-4-5\t1 kVᵉ/2 kVᵉ\tB\n\tConducted RF\tIEC 61000-4-6\t3 V (150 kHz to 80 MHz)\tA\n\nᵃ Line to line.\n\n4. Relation to EN 61000-6\nEN61000-6 and EN61326 are all norms from the Directive 2014/30/EU of European Parliament; all relating to Electromagnetic compatibility a.k.a. Electromagnetic compatibility (EMC) Directive 2014/30/EU.\n61326-1 includes the 61000 standards.",
+      "specifications": {
+        "Enclosure - ESD - Contact discharge": "4 kV",
+        "Enclosure - ESD - Air discharge": "8 kV",
+        "Enclosure - Electromagnetic field - 80 MHz to 1 GHz": "10 V/m",
+        "Enclosure - Electromagnetic field - 1.4 GHz to 2 GHz": "3 V/m",
+        "Enclosure - Electromagnetic field - 2.0 GHz to 2.7 GHz": "1 V/m",
+        "Enclosure - Power frequency magnetic field - 50 Hz, 60 Hz (line to line)": "30 A/m",
+        "AC power - Voltage dip - 0%": "1 cycle",
+        "AC power - Voltage dip - 40%": "10/12 cycles",
+        "AC power - Voltage dip - 70%": "25/30 cycles",
+        "AC power - Short interruptions - 0%": "250/300 cycles",
+        "AC power - Burst (5/50 ns, 5 kHz)": "2 kV",
+        "AC power - Surge": "1 kV/2 kV",
+        "AC power - Conducted RF (150 kHz to 80 MHz)": "3 V",
+        "DC power (line to line) - Burst (5/50 ns, 5 kHz)": "2 kV",
+        "DC power (line to line) - Surge": "1 kV/2 kV",
+        "DC power (line to line) - Conducted RF (150 kHz to 80 MHz)": "3 V",
+        "I/O signal/ control (functional earth) - Burst (5/50 ns, 5 kHz)": "1 kV",
+        "I/O signal/ control (functional earth) - Surge": "1 kV",
+        "I/O signal/ control (functional earth) - Conducted RF (line to line, 150 kHz to 80 MHz)": "3 V",
+        "I/O signal/ control (mains supply) - Burst (5/50 ns, 5 kHz)": "2 kV",
+        "I/O signal/ control (mains supply) - Surge": "1 kV/2 kV",
+        "I/O signal/ control (mains supply) - Conducted RF (150 kHz to 80 MHz)": "3 V"
+      },
+      "key_facts": [
+        "The document outlines immunity test requirements for equipment in industrial electromagnetic environments.",
+        "Performance criteria (A, B, C) are assigned to each test.",
+        "EN61000-6 and EN61326 are Electromagnetic Compatibility (EMC) norms derived from Directive 2014/30/EU of the European Parliament.",
+        "Standard 61326-1 incorporates the 61000 standards."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "The equipment is intended to be used in an industrial electromagnetic environment.",
+        "The footnote 'ᵃ Line to line.' clarifies specific test conditions for certain phenomena.",
+        "Superscript characters (ᵍ, ᵈ, ᶜ, ᶠ, ᵉ) in the 'Test value' column indicate additional conditions or footnotes that are not fully detailed on this specific page."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1746,
+        "cost_usd": 0.0045048
+      },
+      "source_file": "047_EMC_Standards_for_Rheonics_SME_Electronics_and_Sensor_Probes.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

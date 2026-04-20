@@ -1,0 +1,279 @@
+{
+  "source_file": "256_Doing_air_check_in_Rheonics_sensors.pdf",
+  "total_pages": 5,
+  "chunks": [
+    {
+      "page_summary": "This page details how to perform an air check for Rheonics SRV viscometers and SRD density-viscosity meters, explaining the underlying sensor technology, calibration verification, and reasons for an air check.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SRV viscometer",
+        "SRD density-viscosity meter",
+        "Rheonics sensors"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nDoing air check in Rheonics sensors\n\nModified on: Tue, 10 Feb, 2026 at 8:15 PM\n\nTABLE OF CONTENTS\n\n1. What products are involved?\n2. How do we know if our Rheonics sensor needs calibration?\n3. Rheonics vibrational sensor technology\n4. What are the df and fres?\n5. Quick verification of SRV calibration in air\n6. Quick verification of SRD calibration in air\n7. Accepted fres and df air values for the SRV and SRD\n8. What to do if the air values are non-zero?\n9. Always check the infosheet\n10. References\n\n1. What products are involved?\n\nRheonics SRV viscometer (https://rheonics.com/products/inline-viscometer-srv/) and SRD density-viscosity meter (https://rheonics.com/products/inline-density-meter-srd/).\n\n2. How do we know if our Rheonics sensor needs calibration?\n\nRheonics sensors are factory-calibrated and do not require re-calibration in the field. However, periodic verification or re-calibration may be necessary to meet regulatory requirements (e.g., ISO, FDA).\n\nNote: Performing a periodic air check is a simple method to determine if the sensor requires calibration.\n\n3. Rheonics vibrational sensor technology\n\nThe SRV and SRD are based on a balanced torsional resonator (BTR), unaffected by external vibrations. Fluid properties sensors based on vibrating resonators fall into two categories: density and viscosity measurement.\n\nMore information about the operation principle can be found here Rheonics vibrational sensor technology: demystified (https://cdn.rheonics.com/wp-content/uploads/2017/10/rheonics-vibration-sensor-whitepaper.pdf)\n\n(https://rheonics.com/whitepapers/) This “air check” is useful for quickly verifying the SRV and SRD calibration and baseline. The sensor does not use moving parts, so if readings in air are zero, there is no way that the factory calibration has been affected, or any long-term drift has occurred.",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics SRV viscometers and SRD density-viscosity meters are the products involved in the air check procedure.",
+        "Rheonics sensors are factory-calibrated and generally do not require field re-calibration.",
+        "Periodic verification or re-calibration may be necessary to comply with regulatory requirements such as ISO and FDA.",
+        "An air check is a simple method to determine if a sensor requires calibration.",
+        "The SRV and SRD sensors utilize balanced torsional resonator (BTR) technology, making them immune to external vibrations.",
+        "Sensors based on vibrating resonators measure fluid properties like density and viscosity.",
+        "The 'air check' procedure quickly verifies the calibration and baseline of SRV and SRD sensors.",
+        "Rheonics sensors are designed without moving parts.",
+        "If air readings are zero, it indicates that the factory calibration is unaffected and no long-term drift has occurred."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Note: Performing a periodic air check is a simple method to determine if the sensor requires calibration."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 880,
+        "cost_usd": 0.0023398
+      },
+      "source_file": "256_Doing_air_check_in_Rheonics_sensors.pdf"
+    },
+    {
+      "page_summary": "This page provides a step-by-step procedure for quick verification of SRV viscometer calibration in air.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "SME-TRD",
+        "SRD",
+        "RCP software"
+      ],
+      "extracted_text": "4. Quick verification of SRV calibration in air\nFigure 1. SME-TRD with SRV probe\n1. Remove the SRV from the process\n2. Clean the SRV if the probe is dirty\n3. Leave the SRV in the air, and verify that nothing is in contact with the sensing element\n4. Verify the viscosity reading is zero. This can be checked through the SME-TRD display, RCP software, or any external integration system (e.g. PLC).\n5. Quick verification of SRD calibration in air",
+      "specifications": {},
+      "key_facts": [
+        "The page outlines a four-step process for verifying SRV calibration.",
+        "The SRV probe must be removed from the process before calibration verification.",
+        "Cleaning the SRV probe is recommended if it is dirty.",
+        "During air calibration verification, the SRV sensing element must not be in contact with any object.",
+        "The expected viscosity reading during air calibration verification is zero.",
+        "Verification of the viscosity reading can be done using the SME-TRD display, RCP software, or an external integration system like a PLC.",
+        "A subsequent section will cover quick verification of SRD calibration in air."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "CE",
+        "ATEX",
+        "Power",
+        "Program",
+        "Network",
+        "Output",
+        "Status"
+      ],
+      "warnings_notes": [
+        "Verify that nothing is in contact with the sensing element during the air calibration procedure.",
+        "Ensure the viscosity reading is zero for successful calibration verification in air."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 466,
+        "cost_usd": 0.0013048
+      },
+      "source_file": "256_Doing_air_check_in_Rheonics_sensors.pdf"
+    },
+    {
+      "page_summary": "This page provides troubleshooting steps for addressing non-zero air readings on Rheonics SME-TRD viscometers with SRD probes, including cleaning instructions and software-based offset correction using the Rheonics Control Panel.",
+      "document_type": "manual",
+      "product_names": [
+        "SME-TRD",
+        "SRD probe",
+        "Rheonics Control Panel",
+        "RCP software"
+      ],
+      "extracted_text": "CE\nATEX\nFigure 3. SME-TRD with SRD probe\n\n1. Remove the SRD from the process\n2. Clean the SRD if the probe is dirty\n3. Leave the SRD in the air, and verify that nothing is in contact with the sensing element\n4. Verify the viscosity and density readings are zero. This can be checked through the SME-TRD display, RCP\nsoftware, or any external integration system (e.g. PLC).\n\n7. What to do if the air values are non-zero?\n\nIf the values are non-zero, the next step is to use the scaling tab to baseline the 0 cP. Deposits on the probe could\ncause drift, so it's important to clean the probe. If the value reads zero after cleaning, the issue is resolved.\nIf it remains non-zero, the scaling tab can correct the drift. open the RCP software and go to the \"Scaling tab\" in\nexpert mode.\n\n7.1. This offset can be observed in the “Measurement tab” where viscosity is a non-zero value.\n\nRheonics Control Panel 5.5.2.3\nMeasurement | Events | Settings\n\nMeasured Values\nViscosity              0.11 mPa.s\nDensity                1.0000 g/cc\nTemperature            32.31 °C\nPressure               200.00 bar\n\nFigure 4. Viscosity reading with offset.",
+      "specifications": {
+        "Viscosity": "0.11 mPa.s",
+        "Density": "1.0000 g/cc",
+        "Temperature": "32.31 °C",
+        "Pressure": "200.00 bar"
+      },
+      "key_facts": [
+        "The document describes troubleshooting for non-zero air values measured by a Rheonics SME-TRD with an SRD probe.",
+        "Initial troubleshooting steps include removing the SRD from the process, cleaning it if dirty, and ensuring nothing contacts the sensing element while in the air.",
+        "Viscosity and density readings should ideally be zero when the SRD is in the air.",
+        "Non-zero air values can be checked on the SME-TRD display, RCP software, or an external integration system (e.g., PLC).",
+        "Deposits on the probe can cause drift, leading to non-zero readings.",
+        "If cleaning doesn't resolve non-zero air values, the 'Scaling tab' in the Rheonics Control Panel (RCP) software, accessible in expert mode, can be used to baseline the value to 0 cP.",
+        "An offset in viscosity is visible in the 'Measurement tab' of the Rheonics Control Panel when the value is non-zero."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "CE",
+        "ATEX",
+        "SME-TRD with SRD probe",
+        "Rheonics Control Panel 5.5.2.3",
+        "Measurement",
+        "Events",
+        "Settings",
+        "Measured Values",
+        "Viscosity",
+        "Density",
+        "Temperature",
+        "Pressure",
+        "0.11 mPa.s",
+        "1.0000 g/cc",
+        "32.31 °C",
+        "200.00 bar",
+        "Viscosity reading with offset"
+      ],
+      "warnings_notes": [
+        "CE (Conformité Européenne) mark indicates compliance with European health, safety, and environmental protection standards.",
+        "ATEX mark indicates compliance with EU directives for equipment intended for use in potentially explosive atmospheres.",
+        "Deposits on the probe could cause drift."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 971,
+        "cost_usd": 0.0025673
+      },
+      "source_file": "256_Doing_air_check_in_Rheonics_sensors.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions on using the 'Scaling tab' within the Rheonics Control Panel software to correct viscosity offset and perform in-field calibration.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel 5.5.2.3"
+      ],
+      "extracted_text": "7.2. Using the \"Scaling tab\" to fix the viscosity offset.\n\nCheck this support article for more information: Scaling: How to create correlation between lab and inline measurements? (https://support.rheonics.com/en/support/solutions/articles/81000397454-scaling-how-to-create-correlation-between-lab-and-inline-measurements-)\n\n[Screenshot of Rheonics Control Panel 5.5.2.3]\nWindow Title: Rheonics Control Panel 5.5.2.3\nTabs: Measurement, Events, Settings, Service, Communication, Scaling, Calculation, Logger, Help\nSection Title: Scale Output - Lab Correlations - In-field Calibration Correction\n\nMain Panel Controls:\n  Select Measurement: Viscosity (dropdown selection)\n  Unscaled/Uncalibrated: 0.098691 mPa.s\n  Scaled/Calibrated: 0.098691 mPa.s\n\n  Scaling Options:\n    Select -> Single Point Scaling (button)\n    Two Point Scaling (button)\n\n  Sensor Read Out:\n    Read (button) [Value] 0.099238 mPa.s Set (button)\n    [Input field] 1 mPa.s Set (button)\n\n  Expected Value:\n    Enter -> [Value] 0 mPa.s Write (button)\n    Enter -> [Value] 1 mPa.s Write (button)\n\n  Scaling Coefficients:\n    Read Scaling Coefficients (button)\n    C0: Current 0.000000, User (estimated) 0.000000, Factory 0.000000\n    C1: Current 1.000000, User (estimated) 1.000000, Factory 1.000000\n\n  SCALE (button)\n\n  Switch:\n    User (button)\n    Factory (button)\n\nRight Panel Controls:\n  Refresh (button)\n  Load Sensor State (button)\n\n  Sensor Status:\n    Air Check (status indicator)\n    Liquid (status indicator)\n    Sensor Clean: Clean (button)\n\n  Scaling Menu:\n    Save Scaling Record (button)\n    Load Scaling Profile (button)\n    Scaling History (button)\n    Help (button)\n    Field Calib. with STCM (button)\n    Tutorial (button)\n\nFigure 5. Scaling tab, setting correct viscosity\n\n7.3. Once properly scaled the viscosity output goes down to zero.",
+      "specifications": {
+        "Unscaled/Uncalibrated Viscosity": "0.098691 mPa.s",
+        "Scaled/Calibrated Viscosity": "0.098691 mPa.s",
+        "Sensor Read Out Viscosity": "0.099238 mPa.s",
+        "Expected Value (air)": "0 mPa.s",
+        "Scaling Coefficient C0 (Current)": "0.000000",
+        "Scaling Coefficient C0 (User estimated)": "0.000000",
+        "Scaling Coefficient C0 (Factory)": "0.000000",
+        "Scaling Coefficient C1 (Current)": "1.000000",
+        "Scaling Coefficient C1 (User estimated)": "1.000000",
+        "Scaling Coefficient C1 (Factory)": "1.000000"
+      },
+      "key_facts": [
+        "The \"Scaling tab\" is used to fix the viscosity offset.",
+        "A support article provides further information on creating correlation between lab and inline measurements.",
+        "Once properly scaled, the viscosity output goes down to zero."
+      ],
+      "diagram_labels": [
+        "Rheonics Control Panel 5.5.2.3",
+        "Measurement",
+        "Events",
+        "Settings",
+        "Service",
+        "Communication",
+        "Scaling",
+        "Calculation",
+        "Logger",
+        "Help",
+        "Scale Output - Lab Correlations - In-field Calibration Correction",
+        "Select Measurement",
+        "Viscosity",
+        "Unscaled/Uncalibrated",
+        "Scaled/Calibrated",
+        "Single Point Scaling",
+        "Two Point Scaling",
+        "Select ->",
+        "Sensor Read Out",
+        "Read",
+        "Set",
+        "Expected Value",
+        "Enter ->",
+        "Write",
+        "Scaling Coefficients",
+        "Read Scaling Coefficients",
+        "C0",
+        "C1",
+        "Current",
+        "User (estimated)",
+        "Factory",
+        "SCALE",
+        "Switch",
+        "User",
+        "Factory",
+        "Refresh",
+        "Load Sensor State",
+        "Sensor Status",
+        "Air Check",
+        "Liquid",
+        "Clean",
+        "Scaling Menu",
+        "Save Scaling Record",
+        "Load Scaling Profile",
+        "Scaling History",
+        "Help (Scaling Menu)",
+        "Field Calib. with STCM",
+        "Tutorial",
+        "1. Offset value",
+        "2. Expected value when in air",
+        "Figure 5. Scaling tab, setting correct viscosity"
+      ],
+      "warnings_notes": [
+        "Check this support article for more information: Scaling: How to create correlation between lab and inline measurements? (https://support.rheonics.com/en/support/solutions/articles/81000397454-scaling-how-to-create-correlation-between-lab-and-inline-measurements-)"
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1410,
+        "cost_usd": 0.0036647999999999997
+      },
+      "source_file": "256_Doing_air_check_in_Rheonics_sensors.pdf"
+    },
+    {
+      "page_summary": "This page displays the 'Scale Output - In-field Calibration Correction' interface of the Rheonics Control Panel, detailing viscosity scaling parameters, sensor status, and providing links to related support documentation.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel",
+        "Rheonics probe",
+        "inline process viscometer SRV",
+        "Type-SR sensors"
+      ],
+      "extracted_text": "Rheonics Control Panel 5.5.2.3\nMeasurement | Events | Settings | Service | Communication | Scaling | Calculation | Logger | Help\n\nScale Output - Lab Correlations - In-field Calibration Correction\n\nSelect Measurement: Viscosity\nUnscaled/Uncalibrated: 0.098419 mPa.s\nScaled/Calibrated: 0 mPa.s\n\nSelect ->\nSingle Point Scaling [Button]\nTwo Point Scaling [Button]\n\nSensor Read Out: Read [Button] 0.099238 mPa.s Set [Button]\n\nExpected Value: Enter -> 0 mPa.s Write [Button]\n\nScaling Coefficients\nRead Scaling Coefficients [Button]\n  C0: Current -0.099238, User (estimated) -0.099238, Factory 0.000000\n  C1: Current 1.000000, User (estimated) 1.000000, Factory 1.000000\n\nSCALE [Button]\nSwitch: User [Button, green], Factory [Button]\n\nRefresh [Button]\nLoad Sensor State [Button]\n\nSensor Status:\nAir Check\nLiquid\nSensor Clean [Button] Clean\n\nScaling Menu:\nSave Scaling Record [Button]\nLoad Scaling Profile [Button]\nScaling History [Button]\nHelp [Button]\nField Calib. with STCM [Button]\nTutorial [Button]\n\nFigure 6. Scaled viscosity output when non-zero viscosity reading\n\n8. References\n1. How to clean your Rheonics probe? (https://support.rheonics.com/en/support/solutions/articles/81000410289)\n2. Calibration of inline process viscometer SRV in field and factory. (https://support.rheonics.com/en/support/solutions/articles/81000414589)\n3. Calibration for the Type-SR sensors in field, verification and re-calibration. (https://support.rheonics.com/en/support/solutions/articles/81000390161)",
+      "specifications": {
+        "Unscaled/Uncalibrated viscosity": "0.098419 mPa.s",
+        "Scaled/Calibrated viscosity": "0 mPa.s",
+        "Sensor Read Out viscosity": "0.099238 mPa.s",
+        "Expected Value viscosity": "0 mPa.s",
+        "Scaling Coefficient C0 (Current)": "-0.099238",
+        "Scaling Coefficient C0 (User estimated)": "-0.099238",
+        "Scaling Coefficient C0 (Factory)": "0.000000",
+        "Scaling Coefficient C1 (Current)": "1.000000",
+        "Scaling Coefficient C1 (User estimated)": "1.000000",
+        "Scaling Coefficient C1 (Factory)": "1.000000"
+      },
+      "key_facts": [
+        "The Rheonics Control Panel software version is 5.5.2.3.",
+        "The page illustrates the process for in-field calibration correction, including the concept of a fixed viscosity offset.",
+        "The control panel allows selection of measurement type, with 'Viscosity' currently selected.",
+        "Users can perform single-point or two-point scaling.",
+        "The interface displays unscaled/uncalibrated, scaled/calibrated, and current sensor read out viscosity values.",
+        "Scaling coefficients C0 and C1 are shown for Current, User (estimated), and Factory settings.",
+        "The system provides options to switch between User and Factory scaling modes.",
+        "The Sensor Status panel includes indicators for 'Air Check' and 'Liquid', and a 'Clean' button for sensor maintenance.",
+        "The Scaling Menu offers functionalities like saving/loading scaling records and profiles, viewing scaling history, and accessing help and tutorials.",
+        "References are provided for cleaning Rheonics probes, calibrating inline process viscometer SRV, and calibrating Type-SR sensors in the field."
+      ],
+      "diagram_labels": [
+        "1. Fixed viscosity offset."
+      ],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1119,
+        "cost_usd": 0.0029373
+      },
+      "source_file": "256_Doing_air_check_in_Rheonics_sensors.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

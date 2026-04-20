@@ -1,0 +1,275 @@
+{
+  "source_file": "054_Topology_wiring_for_Ex_sensors.pdf",
+  "total_pages": 6,
+  "chunks": [
+    {
+      "page_summary": "This page outlines the topology wiring for Rheonics Ex-certified sensors, providing an overview of relevant products and their intrinsically safe installation principles.",
+      "document_type": "technical article",
+      "product_names": [
+        "SRV",
+        "SRD",
+        "DVM",
+        "DVP",
+        "SME-DRM",
+        "TR/TRD",
+        "Intrinsically Safe Viscometer",
+        "inline fluid viscometer",
+        "density meter"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nTopology wiring for Ex sensors\n\nModified on: Fri, 30 May, 2025 at 9:29 PM\n\nWhich products are involved?\n\nSRV (https://rheonics.com/products/inline-viscometer-srv/), SRD (https://rheonics.com/products/inline-density-meter-srd/), DVM (https://rheonics.com/products/hpht-pvt-density-meter-viscometer-dvm/), DVP (https://rheonics.com/products/inline-gas-lng-density-meter-dvp/), SME-DRM (https://rheonics.com/electronics-and-communication/)\nTR/TRD. (https://rheonics.com/electronics-and-communication/)\n\nFor SME-DRM (DIN rail mount) transmitter. Visit our product page to learn more about the full features.\n\nVisit Rheonics product page: Products » inline fluid viscometer and density meter (https://rheonics.com/products/)\n\nThis article is to provide overview of the EX certified sensors from Rheonics portfolio. This article should not be used as guide to install the sensor in EX environment.\n\n1. Ex-sensor connection\n\nSRV (https://rheonics.com/products/inline-viscometer-srv/) and SRD (https://rheonics.com/products/inline-density-meter-srd/) sensors can also be delivered in a version that is intrinsically safe.\n\nIt means that, as long as the sensors are installed and operated as specified in the EX manual, they are incapable of igniting the explosive atmospheres in which they operate. EX installation manual (https://rheonics.com/wp-content/uploads/2023/02/Rheonics_EX-i_SRV-SRD_Installation-and-Intrinsic-Safety-Manual_V3.1.pdf).\n\nElectronics must be always in the safe zone. Sensor probe can be in all zones as long as the Zener Barriers are present between the sensor probe and sensor electronics\n\nFigure 1. Intrinsically safe installation of Rheonics inline viscometer SRV.",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics offers EX certified sensors in its portfolio.",
+        "SRV and SRD sensors are available in intrinsically safe versions.",
+        "Intrinsically safe sensors are designed to be incapable of igniting explosive atmospheres when installed and operated according to the EX manual.",
+        "Electronics for EX sensor systems must always be located in the safe zone.",
+        "Sensor probes can be installed in hazardous Zone 0, Zone 1, or Zone 2, provided Zener Barriers are correctly placed between the sensor probe and the sensor electronics.",
+        "SME-DRM is a DIN rail mount transmitter.",
+        "An EX installation manual is available for SRV and SRD sensors (Rheonics_EX-i_SRV-SRD_Installation-and-Intrinsic-Safety-Manual_V3.1.pdf)."
+      ],
+      "diagram_labels": [
+        "EX",
+        "IECEx",
+        "Intrinsically Safe Viscometer",
+        "rheonics",
+        "Zener Barriers (can be in Zone 2 or Safe)",
+        "Electronics (only in Safe)",
+        "SRV Viscometer (can be in Zone 0,1,2 or Safe)",
+        "Zone 0",
+        "Zone 1",
+        "Zone 2",
+        "Safe Zone",
+        "Figure 1. Intrinsically safe installation of Rheonics inline viscometer SRV."
+      ],
+      "warnings_notes": [
+        "This article is to provide overview of the EX certified sensors from Rheonics portfolio. This article should not be used as guide to install the sensor in EX environment."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1023,
+        "cost_usd": 0.0026972999999999997
+      },
+      "source_file": "054_Topology_wiring_for_Ex_sensors.pdf"
+    },
+    {
+      "page_summary": "This page explains intrinsically safe hazardous area classifications for Rheonics inline density and viscosity meters, detailing Zone and Division models and protection levels.",
+      "document_type": "manual",
+      "product_names": [
+        "SRD Density & Viscosity Meter"
+      ],
+      "extracted_text": "Intrinsically Safe Density & Viscosity Meter\nrheoncs\nEx IECEx\nFigure 2. Intrinsically safe installation of Rheonics inline density meter SRD with simultaneous density, viscosity, and temperature measurement.\n\n2. What is an intrinsically safe zone?\nA method of analyzing and classifying a potentially hazardous area is necessary in order to protect installations from a potential explosion.\nThis is to ensure the correct equipment is selected and installed, preventing any safety issues.\nAn installation can be classified in two ways, depending on where it is located.\nIn countries that have adopted the IEC (International Electrotechnical Commission) philosophy, this is called “zoning”. The second classification is done by classes, divisions, and groups to determine the level of safety that is required based on NEC 501.\nRheonics sensors fall in the category with level protection EX ia, as they have one of the highest level of protection possible on any EX-certified device by being Intrinsically safe and with energy levels below the lowest requirement. EX certificates for sensors are available on Rheonics and IECEX website to download (https://rheonics.com/resources/).\n\nFigure 3. Intrinsically safe zones categories.\n\nZone | Description | Level of protection | Class and division\n---|---|---|---\nZone 0 | In which an explosive gas-air mixture is continuously present or present for long periods | Ex ia | Class I Div 1\nZone 1 | In which an explosive gas-air mixture is likely to occur in normal operation | Ex ib | \nZone 2 | In which an explosive gas-air mixture is not likely to occur in normal operation, and if it occurs it will exist only for a short time | Ex ic | Class I Div 2\n\nFor intrinsically safe electrical equipment, a clear compatibility is observed between Zone 0/Division 1 and Zone 2/Division 2. Notably, Zone 1 does not align with any specific Division classification. However, if the equipment is certified for Zone 1 intrinsically safe areas, it can be safely used within a Division 2 location. These guidelines are provided in the National Electrical Code (NEC), Article 500, and are confirmed by relevant safety standards like IEC/UL 60079-11.\n\n3. Ex protection – The difference between the Zone and Division model\n“The product is suitable for use in Zone 1, as well as for use in Class 1, Div 1.” This statement is heard or read often in descriptions of products for use in hazardous areas. But what is the difference between Zone 1 and Class 1, Div 1? Let’s compare the Zone model with the Division model.",
+      "specifications": {},
+      "key_facts": [
+        "Hazardous area classification is necessary to protect installations from potential explosions and ensure correct equipment selection and installation.",
+        "Installations can be classified by location using the IEC \"zoning\" philosophy (Zones) or by classes, divisions, and groups based on NEC 501.",
+        "Rheonics sensors have an EX ia level of protection, which is one of the highest possible for EX-certified devices due to intrinsic safety and low energy levels.",
+        "EX certificates for Rheonics sensors are available on the Rheonics and IECEx websites.",
+        "In Zone 0, an explosive gas-air mixture is continuously present or present for long periods, with a protection level of Ex ia and classification of Class I Div 1.",
+        "In Zone 1, an explosive gas-air mixture is likely to occur in normal operation, with a protection level of Ex ib.",
+        "In Zone 2, an explosive gas-air mixture is not likely to occur in normal operation, and if it occurs, it will exist only for a short time, with a protection level of Ex ic and classification of Class I Div 2.",
+        "A clear compatibility is observed between Zone 0/Division 1 and Zone 2/Division 2 for intrinsically safe electrical equipment.",
+        "Zone 1 does not align with any specific Division classification.",
+        "Equipment certified for Zone 1 intrinsically safe areas can be safely used within a Division 2 location.",
+        "Guidelines for hazardous area classifications are provided in the National Electrical Code (NEC), Article 500, and confirmed by safety standards like IEC/UL 60079-11."
+      ],
+      "diagram_labels": [
+        "Zener Barriers (can be in Zone 2 or Safe)",
+        "Electronics (only in Safe)",
+        "SRD Density & Viscosity Meter (can be in Zone 0,1,2 or Safe)",
+        "Safe Zone",
+        "Zone 0",
+        "Zone 1",
+        "Zone 2"
+      ],
+      "warnings_notes": [
+        "For intrinsically safe electrical equipment, a clear compatibility is observed between Zone 0/Division 1 and Zone 2/Division 2. Notably, Zone 1 does not align with any specific Division classification. However, if the equipment is certified for Zone 1 intrinsically safe areas, it can be safely used within a Division 2 location. These guidelines are provided in the National Electrical Code (NEC), Article 500, and are confirmed by relevant safety standards like IEC/UL 60079-11."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1224,
+        "cost_usd": 0.0031998
+      },
+      "source_file": "054_Topology_wiring_for_Ex_sensors.pdf"
+    },
+    {
+      "page_summary": "This page details international and national standards for explosion protection and hazardous area classification, including how Rheonics sensors comply with ATEX and IECEx certifications.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "Rheonics' ATEX certified Intrinsically Safe sensors",
+        "Rheonics' ATEX certified sensors"
+      ],
+      "extracted_text": "3.1. International view\nSensors and equipment, for example, receive explosion protection in the IEC 60079 series of standards. The ATEX series of standards, which is also the basis for EU directive 2014/34/EU (ATEX), describes, among other things, the types of ignition protection for electrical equipment as well as the evaluation or classification of hazardous areas within plants according to different categories.\n\n3.2. National particularities\nThere may be deviations from this standard in national regulations. North America, for example, uses different electrical systems for the construction and operation of its infrastructure. Regulations are outlined in the National Electrical Code (NEC) in the US and in the Canadian Electrical Code (CEC) in Canada. One of these differences is the determination and classification of hazardous areas. Below is a simplified comparison of the various designations for gas hazardous areas.\n\n[Table: Hazardous area classification with both Class, Div, and Zone methods]\nAllocation of gas hazardous areas and typical ignition protection types:\n  Class I, Division 1:\n    Explosion proof (comparable with Ex d, but more stringent requirement) Intrinsic safety (Ex ia)\n  Class I, Division 2:\n    Non-incedive All Division 1 ignition protection types\nDescription of Hazardous Areas:\n  Zone 0 (under Class I, Division 1):\n    Ex ia \"Intrinsic safety\"\n    Explosive atmosphere is present continuously or very frequently and over a long time\n  Zone 1 (under Class I, Division 1):\n    Ex d \"flameproof enclosure\"\n    Ex ib \"intrinsic safety\"\n    All Zone 0 ignition protection types\n    In normal operation, explosive atmosphere is present occasionally\n  Zone 2 (under Class I, Division 2):\n    Ex nA \"non-sparking\"\n    All Zone 0 and Zone 1 ignition protection types\n    In normal operation, explosive atmosphere is normally not present or only for short times\n\nFigure 4. Hazardous area classification with both Class, Div, and Zone methods.\nThe NEC and CEC have been updated to include more international standards so that both of them now support the Zone model for the classification of hazardous areas, and the CEC even requires it for new installations.\n\n3.3. Rheonics Sensors are available with ATEX & IECex certifications\nATEX (2014/34/EU) Certified\nRheonics' ATEX certified Intrinsically Safe sensors comply with ATEX Directive 2014/34/EU and are certified for Intrinsic Safety to Ex ia. The ATEX directive specifies minimum and essential requirements related to health and safety to protect workers employed in hazardous atmospheres. Rheonics' ATEX certified sensors are recognized for use within Europe and internationally. All ATEX certified parts are marked with \"CE\" to indicate compliance.\n\nATEX Certificate (https://cdn.rheonics.com/wp-content/uploads/2023/12/rheonics_atex_intrinsically-safe-ex-ia-srv_srd_eu-bmp_tuv-19-atex-8332_x_incl_annex_en.pdf)",
+      "specifications": {},
+      "key_facts": [
+        "Explosion protection for sensors and equipment is standardized by the IEC 60079 series and the EU directive 2014/34/EU (ATEX).",
+        "National regulations, such as the NEC in the US and CEC in Canada, may have different systems for hazardous area classification.",
+        "The NEC and CEC now support the Zone model for hazardous area classification, with the CEC requiring it for new installations.",
+        "Rheonics' ATEX certified Intrinsically Safe sensors comply with ATEX Directive 2014/34/EU and are certified for Intrinsic Safety to Ex ia.",
+        "The ATEX directive defines minimum health and safety requirements for workers in hazardous atmospheres.",
+        "Rheonics' ATEX certified sensors are recognized for use both within Europe and internationally.",
+        "All Rheonics ATEX certified parts are marked with \"CE\" to indicate compliance."
+      ],
+      "diagram_labels": [
+        "Ex",
+        "ATEX",
+        "Figure 4. Hazardous area classification with both Class, Div, and Zone methods.",
+        "Allocation of gas hazardous areas and typical ignition protection types",
+        "Description of Hazardous Areas",
+        "Class I, Division 1",
+        "Class I, Division 2",
+        "Explosion proof (comparable with Ex d, but more stringent requirement) Intrinsic safety (Ex ia)",
+        "Non-incedive All Division 1 ignition protection types",
+        "Zone 0",
+        "Ex ia \"Intrinsic safety\"",
+        "Explosive atmosphere is present continuously or very frequently and over a long time",
+        "Zone 1",
+        "Ex d \"flameproof enclosure\"",
+        "Ex ib \"intrinsic safety\"",
+        "All Zone 0 ignition protection types",
+        "In normal operation, explosive atmosphere is present occasionally",
+        "Zone 2",
+        "Ex nA \"non-sparking\"",
+        "All Zone 0 and Zone 1 ignition protection types",
+        "In normal operation, explosive atmosphere is normally not present or only for short times"
+      ],
+      "warnings_notes": [
+        "All ATEX certified parts are marked with \"CE\" to indicate compliance."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1290,
+        "cost_usd": 0.0033647999999999994
+      },
+      "source_file": "054_Topology_wiring_for_Ex_sensors.pdf"
+    },
+    {
+      "page_summary": "This page provides an overview of Rheonics' IECEx and ATEX certifications for their intrinsically safe sensors, explaining the markings and the scope of these safety compliances.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "SRD"
+      ],
+      "extracted_text": "IECEx Certified\nRheonics' intrinsically safe sensors are certified by IECEx, the International Electrotechnical Commission for certification to standards related to equipment for use in explosive atmospheres.\nThis is an international certification that ensures safety compliance for use in hazardous areas. Rheonics sensors are certified for Intrinsic Safety to Ex i.\nIECEx Certificate (https://cdn.rheonics.com/wp-content/uploads/2019/09/iecex_tur_190005x_0.pdf)\nRheonics offers intrinsically safe sensors certified by ATEX and IECEx for use in hazardous environments. These sensors comply with the essential health and safety requirements relating to the design and construction of equipment and protective systems intended for use in potentially explosive atmospheres.\nThe intrinsically safe and explosion proof certifications held by Rheonics also allows for customization of an existing sensor, allowing our customers to avoid the time and costs associated with identifying and testing an alternative. Custom sensors can be provided for applications that require one unit up to thousands of units; with lead-times of weeks versus months.\nRheonics SRV (https://rheonics.com/products/inline-viscometer-srv/) & SRD (https://rheonics.com/products/inline-density-meter-srd/) are both ATEX and IECEx certified by TÜV Rheinland. (https://www.tuv.com/germany/de/).\n4. Rheonics Ex sensor marking\nAll Rheonics Ex sensor has the marking identifying the certification for TÜV Rheinland, ATEX, IECEx.\n1: Intrinsically safe\n2: Safe for gas groups IIA, IIB and IIC\n3: Ignition temperature classes that define ambient/fluid temperature range, refer to table in EX certification\n4: Equipment protection level = very high\nFigure 5. IECEx Explosion marking description",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics' intrinsically safe sensors are certified by IECEx, an international certification for equipment in explosive atmospheres.",
+        "Rheonics sensors are certified for Intrinsic Safety to Ex i.",
+        "Rheonics offers sensors certified by ATEX and IECEx for use in hazardous environments.",
+        "Rheonics sensors comply with essential health and safety requirements for equipment and protective systems in potentially explosive atmospheres.",
+        "Rheonics' certifications allow for customization of sensors for various applications, ranging from one unit to thousands, with lead-times of weeks to months.",
+        "The Rheonics SRV viscometer and SRD density meter are both ATEX and IECEx certified by TÜV Rheinland.",
+        "All Rheonics Ex sensors bear a marking identifying their TÜV Rheinland, ATEX, and IECEx certifications.",
+        "The 'Ex ia' part of the Ex sensor marking indicates the sensor is intrinsically safe.",
+        "The 'IIC' part of the Ex sensor marking denotes safety for gas groups IIA, IIB, and IIC.",
+        "The 'Tx' part of the Ex sensor marking refers to ignition temperature classes, which define the ambient/fluid temperature range and require reference to a table in the EX certification.",
+        "The 'Ga' part of the Ex sensor marking signifies a very high equipment protection level."
+      ],
+      "diagram_labels": [
+        "IECEx",
+        "IEC",
+        "TÜVRheinland",
+        "CERTIFIED",
+        "IECEx Certificate",
+        "1",
+        "2",
+        "3",
+        "4",
+        "Ex ia IIC Tx Ga",
+        "Figure 5. IECEx Explosion marking description"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 879,
+        "cost_usd": 0.0023372999999999996
+      },
+      "source_file": "054_Topology_wiring_for_Ex_sensors.pdf"
+    },
+    {
+      "page_num": 5,
+      "page_summary": "Extraction failed",
+      "document_type": "unknown",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "extraction_failed": true,
+      "source_file": "054_Topology_wiring_for_Ex_sensors.pdf"
+    },
+    {
+      "page_summary": "This page provides a Variant 1 wiring connection diagram for a Rheonics sensor probe, likely for an intrinsically safe application involving Zener barriers and a Rheonics SME module, along with essential references and a warning about consulting product manuals.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SME",
+        "Rheonics Sensor Probe",
+        "SRV",
+        "SRD",
+        "DVP",
+        "DVM",
+        "PT1000 (sensor type mentioned in relation to SRV)"
+      ],
+      "extracted_text": "-Ex sensor cable.\n-Zener barriers.\nFigure 7. Variant 1 wiring connection.\nCheck the Zener barrier that comes with your sensor and check the user manual that comes with the sensor. You can check the latest version here: https://rheonics.com/resources/manuals/\nReferences:\n1. Pepperl+Fuchs Zener Barriers (https://www.pepperl-fuchs.com/global/en/classid_265.htm)\n2. Stahl Zener Barriers (https://r-stahl.com/en/global/products/automation-interfaces-and-solutions/safety-barriers/single-channel-safety-barriers/)\n3. EX Rheonics Installation Manual (https://rheonics.com/wp-content/uploads/2023/02/Rheonics_EX-i_SRV-SRD_Installation-and-Intrinsic-Safety-Manual_V3.1.pdf)\nRecommended articles:\n1. Powering the Rheonics viscosity and density sensor - SRV, SRD, DVP, DVM, SME (https://support.rheonics.com/en/support/solutions/articles/81000297455-powering-the-sensor-input-power-to-transmitter)\n2. Is it still possible to measure viscosity without connecting the PT1000 to our SRV? (https://support.rheonics.com/en/support/solutions/articles/81000406648-is-it-still-possible-to-measure-viscosity-without-connecting-the-pt1000-to-our-srv-)\n3. Connecting the Rheonics inline viscometer SRV without temperature output (https://support.rheonics.com/en/support/solutions/articles/81000406626-srv-inline-viscometer-ex-installation-without-temperature)\n4. Rheonics passes surveillance audits for ATEX & IECEx after relocation to new facility » rheonics :: viscometer and density meter (https://rheonics.com/rheonics-passes-surveillance-audits-for-atex-iecex-after-relocation-to-new-facility/)\nDISCLAIMER\nPictures, photos, and images used are for illustration purposes and do not constitute any warranty or assertions on the suitability of use and should not be construed as an explicit or implicit recommendation or endorsement. All illustrations are given proper credit from our source of access and by their use here we do not specify or establish any copyright which belongs and stays unaffected with the existing copyright holder of that material",
+      "specifications": {},
+      "key_facts": [
+        "The page illustrates a Variant 1 wiring connection for a Rheonics sensor probe using Zener barriers and a Rheonics SME module.",
+        "The connection involves an -Ex sensor cable and Zener barriers, suggesting an intrinsically safe application.",
+        "Users are advised to consult the Zener barrier and sensor user manuals for the latest version of information.",
+        "Rheonics manufactures inline viscometers and density sensors, including models SRV, SRD, DVP, DVM, and SME.",
+        "Rheonics has successfully passed surveillance audits for ATEX & IECEx after relocating to a new facility."
+      ],
+      "diagram_labels": [
+        "A",
+        "B",
+        "C",
+        "Rheonics SME",
+        "RTD barrier",
+        "Coil",
+        "Rheonics Sensor Probe",
+        "M12 female connector",
+        "red",
+        "blue",
+        "pink",
+        "grey",
+        "yellow",
+        "green",
+        "brown",
+        "white",
+        "shield(black)",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "warnings_notes": [
+        "Check the Zener barrier that comes with your sensor and check the user manual that comes with the sensor. You can check the latest version here: https://rheonics.com/resources/manuals/",
+        "DISCLAIMER: Pictures, photos, and images used are for illustration purposes and do not constitute any warranty or assertions on the suitability of use and should not be construed as an explicit or implicit recommendation or endorsement. All illustrations are given proper credit from our source of access and by their use here we do not specify or establish any copyright which belongs and stays unaffected with the existing copyright holder of that material"
+      ],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1169,
+        "cost_usd": 0.0030622999999999996
+      },
+      "source_file": "054_Topology_wiring_for_Ex_sensors.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": [
+      5
+    ]
+  }
+}

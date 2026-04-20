@@ -1,0 +1,168 @@
+{
+  "source_file": "131_OIML_Concentration_with_Rheonics_online_process_density_meter_SRD.pdf",
+  "total_pages": 3,
+  "chunks": [
+    {
+      "page_summary": "This article explains the mathematical model and data considerations for calculating OIML concentration, specifically alcoholic strength of ethanol-water mixtures, using Rheonics inline density meters and the Rheonics Control Panel software.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics Control Panel (RCP)",
+        "SRD (inline process density meter)",
+        "DVM (inline gas-liquid density meter)",
+        "Rheonics sensors"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nOIML Concentration with Rheonics online process density meter SRD\nModified on: Mon, 20 Nov, 2023 at 3:24 PM\n\nWhat products are involved in this article?\nThis article is based on the use of RCP (Rheonics Control Panel) (https://support.rheonics.com/en/support/solutions/articles/81000297177-running-the-rcp-program)) connected to the SME (Smart Module Electronics) operating SRD (https://rheonics.com/products/inline-density-meter-srd/), DVP (https://rheonics.com/products/inline-gas-lng-density-meter-dvp/), and DVM (https://rheonics.com/products/hpht-pvt-density-meter-viscometer-dvm/). Hence it can be used for any of these Rheonics sensors.\n\nWhat is the purpose of this article?\nExplain the process to get a computed %w or %v (alcoholic strength by mass or volume) for ethanol-water from line density and temperature, using an iterative technique. Usual ap.\n\n1. Math model\n\nShown below is the mathematical formula for OIML Concentration.\n\nρ = A₁ + ∑ᵢ Aᵢpⁱ⁻¹ + ∑ⱼ Bⱼ(t – 20)ʲ + ∑ₘ ∑ₙ Cₘ,ₙpⁿ(t – 20)ᵐ\nEquation 1. OIML Concentration\n\nThe SRD (https://rheonics.com/products/inline-density-meter-srd/) sensor can measure inline density, viscosity, and temperature, in addition, we can use multiple mathematical models to calculate the concentration of a mix. To calculate the OIML Concentration we can use Equation 1, where:\n\nρ: Density of ethanol/water mixture in Kg/m3.\np: Ethanol concentration by weight.\nT: Temperature °C.\nA, B, C: Coefficients.\ni: 2 to 12.\nj: 1 to 6.\nm: 1 to 5.\nn: 1 to 11.\n\n2. Checking the data\n\nAll density, viscosity compensation, and concentration models can be loaded onto the sensor through the RCP software from Rheonics (https://support.rheonics.com/support/solutions/articles/81000297177-running-the-rcp-program), in the “Calculation” tab. In this particular case, the model only applies to mixtures between alcohol and water, and all the values that you need to run the model are pre-loaded into the RCP Software. There are two ways to establish the concentration: by the Weight (%w) or through the Volume (%v).\n\nIn the chemical field, concentrations are often reported in %weight/weight (%w) or %mass/mass, (%m) some examples are Cetyl alcohol (C16H33OH), Isopropyl alcohol(C3H8O), and Benzyl alcohol (C3H8O).\n\nMeanwhile, in the industry, the standard is %volume/volume (%v). The most common is the alcoholic beverage industry. Some example fluids are Wine, Beer, Rum, and Whiskey.\n\nIt should be noted that the type of concentration depends on each application and the standards that the user defines.\n\n3. How to load models into the Sensor electronics?",
+      "specifications": {
+        "temperature_unit": "°C",
+        "density_unit": "Kg/m3"
+      },
+      "key_facts": [
+        "The article is about calculating OIML Concentration, specifically alcoholic strength (%w or %v) for ethanol-water mixtures, from line density and temperature using an iterative technique.",
+        "The OIML Concentration is calculated using a complex mathematical formula involving density, ethanol concentration by weight, temperature, and multiple coefficients.",
+        "Rheonics SRD sensors can measure inline density, viscosity, and temperature, and support multiple mathematical models for concentration calculation.",
+        "Density, viscosity compensation, and concentration models are loaded onto the sensor via the \"Calculation\" tab in the Rheonics Control Panel (RCP) software.",
+        "The OIML concentration model discussed specifically applies to alcohol-water mixtures.",
+        "Concentration can be expressed either by Weight (%w or %mass/%m) or by Volume (%v).",
+        "Chemical field typically reports concentrations in %weight or %mass, while the alcoholic beverage industry standard is %volume.",
+        "Examples of chemicals reported by weight/mass include Cetyl alcohol, Isopropyl alcohol, and Benzyl alcohol.",
+        "Examples of alcoholic beverages reported by volume include Wine, Beer, Rum, and Whiskey."
+      ],
+      "diagram_labels": [
+        "Equation 1. OIML Concentration"
+      ],
+      "warnings_notes": [
+        "The type of concentration (%w or %v) depends on each application and the standards that the user defines."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1252,
+        "cost_usd": 0.0032698
+      },
+      "source_file": "131_OIML_Concentration_with_Rheonics_online_process_density_meter_SRD.pdf"
+    },
+    {
+      "page_summary": "This page provides a step-by-step guide on how to load OIML Concentration models, understand calculated values, and configure sensor outputs within the Rheonics Control Panel software.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel 5.4.0.6",
+        "SME-TRD"
+      ],
+      "extracted_text": "Rheonics Control Panel 5.4.0.6\nMeasurement Events Settings Service Diagnostics Communication Temp. Control Scaling Calculation Logger\nAdvanced Calculations | Thermal Compensation of Density, Viscosity\nSelect Measurement to Apply Model: Concentration\nCalculated Value (1)\nStatus (red circle) (1)\nSelect Model from List: OIML Concentration (2)\nOIML Concentration (3)\nUnits: %v\nUse this model only for ethanol water mixtures\nUPLOAD MODEL (4)\nLCD Display (for TRD Only) Select Line to Display: Line 1\nLoad Configuration (5)\nChange SMET Output\nOutput on 4-20 mA channel Select channel number: Ch2\nAccess measurement with applied model over Modbus RTU/TCP register: 208\nCalculation History (6)\nFigure 1. Calculation tab for OIML Concentration\n\nIn the following steps, we will show how to load the model into the sensor electronics:\n1. In the “Select Measurement to Apply Model” dropdown list select “Concentration”.\n2. In the “Select Model from the list” dropdown list select “OIML Concentration”. When you select the model, you will get more information about the specific equation used and the coefficients you will need.\n3. The “Units” allow you to calculate concentrations based on mass (%w) or volume (%v).\n4. Click “Upload Model” to load the model settings into sensor electronics. The button should turn GREEN for a couple of seconds if the action was successful or turn RED if the operation was unsuccessful. This action will refresh the “Calculated Value”.\n\nRheonics Control Panel 5.4.0.6\nAdvanced Calculations | Thermal Compensation of Density, Viscosity\nSelect Measurement to Apply Model: Concentration\nCalculated Value: 0.193849\nStatus (green circle)\nSelect Model from List: OIML Concentration\nOIML Concentration\nUnits: %w\nUse this model only for ethanol water mixtures\nUPLOAD MODEL\nLCD Display (for TRD Only) Select Line to Display: None\nLoad Configuration\nChange SMET Output\nOutput on 4-20 mA channel Select channel number: None\nAccess measurement with applied model over Modbus RTU/TCP register: 208\nCalculation History\nFigure 2. Specific Gravity calculated\n\n5. Click “Load Configuration” to update the display and channel configurations in sensor electronics.\n6. The “Calculation History” button allows you to open a file with the last uploaded models.\n\n3.1. Handling Sensor Outputs\nFor the SME-TRD, the compensated viscosity values can be shown on the display. Select the line to display the parameter:\nLCD Display (for TRD Only) Select Line to Display: None, Line 1, Line 2, Line 3\nOutput on 4-20 mA channel Select channel number\nFigure 4. Selecting read line for LCD display.\n\nSelect the analog channel to send data, this can be verified in the “Service” Tab",
+      "specifications": {
+        "Modbus RTU/TCP register": "208",
+        "Analog output channel": "4-20 mA"
+      },
+      "key_facts": [
+        "The Rheonics Control Panel 5.4.0.6 is used for advanced calculations including Thermal Compensation of Density and Viscosity.",
+        "Users can select 'Concentration' as the measurement to apply a model and 'OIML Concentration' from the model list.",
+        "Selecting a model provides information about the specific equation and coefficients required.",
+        "Concentration units can be specified as mass (%w) or volume (%v).",
+        "The 'Upload Model' button loads model settings into sensor electronics, indicated by turning GREEN on success or RED on failure.",
+        "A successful model upload refreshes the 'Calculated Value' display.",
+        "The 'Load Configuration' button updates display and channel configurations within the sensor electronics.",
+        "The 'Calculation History' button allows access to a file containing previously uploaded models.",
+        "For the SME-TRD, compensated viscosity values can be configured for display on specific LCD lines.",
+        "Analog output channels (4-20 mA) can be selected for data transmission, with verification available in the 'Service' tab."
+      ],
+      "diagram_labels": [
+        "Rheonics Control Panel 5.4.0.6",
+        "Measurement",
+        "Events",
+        "Settings",
+        "Service",
+        "Diagnostics",
+        "Communication",
+        "Temp. Control",
+        "Scaling",
+        "Calculation",
+        "Logger",
+        "Advanced Calculations | Thermal Compensation of Density, Viscosity",
+        "Select Measurement to Apply Model",
+        "Concentration",
+        "Calculated Value",
+        "Status",
+        "Select Model from List",
+        "OIML Concentration",
+        "Units",
+        "%v",
+        "%w",
+        "Use this model only for ethanol water mixtures",
+        "UPLOAD MODEL",
+        "LCD Display (for TRD Only) Select Line to Display",
+        "Line 1",
+        "None",
+        "Line 2",
+        "Line 3",
+        "Load Configuration",
+        "Change SMET Output",
+        "Output on 4-20 mA channel Select channel number",
+        "Ch2",
+        "Access measurement with applied model over Modbus RTU/TCP register",
+        "208",
+        "Calculation History",
+        "Figure 1. Calculation tab for OIML Concentration",
+        "Figure 2. Specific Gravity calculated",
+        "Figure 4. Selecting read line for LCD display."
+      ],
+      "warnings_notes": [
+        "The OIML Concentration model should only be used for ethanol water mixtures.",
+        "The 'Upload Model' button turns GREEN for a couple of seconds if the action was successful or RED if the operation was unsuccessful."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1441,
+        "cost_usd": 0.0037422999999999996
+      },
+      "source_file": "131_OIML_Concentration_with_Rheonics_online_process_density_meter_SRD.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions for selecting analog output channels and configuring Modbus RTU/TCP registers for measurement access, along with a reference to a demonstration video on loading an OIML concentration model into Rheonics software.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics",
+        "RPC Software"
+      ],
+      "extracted_text": "Figure 5. Selecting analog output channel\nMeasurement can always be accessed at the register address that is displayed.\nOutput on 4-20 mA channel\nSelect channel number\n  None\n  Ch1\n  Ch2\n  Ch3\nModbus RTU/TCP register\nAccess measurement with applied model over Modbus RTU/TCP register: 208\nFigure 6. Modbus TCP/IP register\n3.2 Demonstration Video\nHow to load the OIML concentration model into the Rheonic\nrheonics\nWatch on\nVideo 1. Configuration OIML Concentration model in RPC Software",
+      "specifications": {
+        "Analog Output Current Range": "4-20 mA",
+        "Modbus RTU/TCP Register for Applied Model Measurement": "208"
+      },
+      "key_facts": [
+        "Measurements are always accessible at the displayed register address.",
+        "The system allows selection of analog output channels (Ch1, Ch2, Ch3) for 4-20 mA output.",
+        "Modbus RTU/TCP register 208 is used to access measurement data with an applied model.",
+        "A demonstration video is available on how to load an OIML concentration model into Rheonics RPC Software."
+      ],
+      "diagram_labels": [
+        "Output on 4-20 mA channel",
+        "Select channel number",
+        "None",
+        "Ch1",
+        "Ch2",
+        "Ch3",
+        "Modbus RTU/TCP register",
+        "Access measurement with applied model over Modbus RTU/TCP register",
+        "How to load the OIML concentration model into the Rheonic",
+        "rheonics",
+        "Watch on",
+        "Video 1. Configuration OIML Concentration model in RPC Software"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 528,
+        "cost_usd": 0.0014598
+      },
+      "source_file": "131_OIML_Concentration_with_Rheonics_online_process_density_meter_SRD.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

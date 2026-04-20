@@ -1,0 +1,715 @@
+{
+  "source_file": "055_Wire_preparation_for_Rheonics_Ex_Sensor.pdf",
+  "total_pages": 17,
+  "chunks": [
+    {
+      "page_summary": "This document provides guidance and best practices for preparing wiring for Rheonics Ex intrinsically safe sensors, covering cable crimping and terminal connections for various viscometers and density meters, particularly when custom-length cables are supplied without pre-assembled connectors.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Ex Sensor",
+        "SRV",
+        "SRD",
+        "DVM",
+        "DVP",
+        "SME-DRM",
+        "SME-TR/TRD",
+        "Intrinsically Safe Viscometer"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nWire preparation for Rheonics Ex Sensor\n\nModified on: Thu, 17 Oct, 2024 at 7:15 PM\n\nWhat products are involved?\nSRV (https://rheonics.com/products/inline-viscometer-srv/), SRD (https://rheonics.com/products/inline-density-meter-srd/), DVM (https://rheonics.com/products/hpht-pvt-density-meter-viscometer-dvm/), DVP (https://rheonics.com/products/inline-gas-lng-density-meter-dvp/), SME-DRM (https://rheonics.com/electronics-and-communication/), SME-TR/TRD. (https://rheonics.com/electronics-and-communication/)\nFor SME-DRM (DIN rail mount) transmitter. Visit our product page to learn more about the full features.\nVisit Rheonics product page: Products » inline fluid viscometer and density meter (https://rheonics.com/products/)\n\nWhat is the purpose of this article?\nTo give guidance and good practices when preparing Rheonics EX intrinsically safe sensor cable with a crimp of length 8mm and terminal diameter 1mm. The terminals of the SME are rated for wires of 0.2 - 1.5 mm2 i.e. AWG 24 - 16.\nNormally, Rheonics provides the Ex cables completely assembled and ready for installation, so the user can omit the next sections and only focus on the proper wiring. For cases where the Ex cables are not delivered assembled with the M12 connector and pin ferrules (i.e. when Rheonics delivers a roll of cable for many custom lengths), follow the next sections.\n\nIntrinsically Safe Viscometer\nrheonics\n\nFigure 1. Intrinsically Safe Viscometer\n\n1. Required tools\nTools",
+      "specifications": {
+        "crimp_length": "8 mm",
+        "terminal_diameter": "1 mm",
+        "wire_cross_section_SME_terminals": "0.2 - 1.5 mm²",
+        "wire_gauge_SME_terminals": "AWG 24 - 16"
+      },
+      "key_facts": [
+        "The document provides guidance and good practices for preparing Rheonics EX intrinsically safe sensor cables.",
+        "Rheonics normally provides Ex cables completely assembled and ready for installation, which may allow users to omit subsequent sections if not performing custom cable assembly.",
+        "This guide is specifically for instances where Ex cables are not delivered pre-assembled with M12 connectors and pin ferrules, such as when supplied as a roll of cable for custom lengths.",
+        "The terminals of the SME are rated for wires with a cross-section of 0.2 - 1.5 mm² (AWG 24 - 16).",
+        "The SRV Viscometer can be installed in Zone 0, Zone 1, Zone 2, or a Safe Zone.",
+        "Zener Barriers can be placed in Zone 2 or a Safe Zone.",
+        "Electronics must be located only in a Safe Zone."
+      ],
+      "diagram_labels": [
+        "Ex",
+        "IECEx",
+        "Intrinsically Safe Viscometer",
+        "rheonics",
+        "Zener Barriers (can be in Zone 2 or Safe)",
+        "Electronics (only in Safe)",
+        "Safe Zone",
+        "SRV Viscometer (can be in Zone 0,1,2 or Safe)",
+        "Zone 0",
+        "Zone 1",
+        "Zone 2",
+        "Figure 1. Intrinsically Safe Viscometer"
+      ],
+      "warnings_notes": [
+        "The document pertains to \"Rheonics EX intrinsically safe sensor cable\" and features \"Ex\" and \"IECEx\" logos, indicating compliance with intrinsic safety standards for use in hazardous areas.",
+        "Critical safety placement guidelines are provided for components: Zener Barriers are restricted to Zone 2 or Safe Zone; Electronics must exclusively be in a Safe Zone; the SRV Viscometer is certified for placement in Zone 0, 1, 2, or Safe Zone."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1129,
+        "cost_usd": 0.0029622999999999997
+      },
+      "source_file": "055_Wire_preparation_for_Rheonics_Ex_Sensor.pdf"
+    },
+    {
+      "page_summary": "This page describes various hand tools, including a crimping tool, a precision micro wire cutter, a measuring tape, and a stripping tool, outlining their functions and common applications.",
+      "document_type": "manual",
+      "product_names": [
+        "Crimping Tool",
+        "Precision Micro Wire Cutter",
+        "Measuring Tape",
+        "Stripping tool"
+      ],
+      "extracted_text": "• Crimping Tool\nCrimping tools are used to deform materials and create connections. To connect wires together or to other connectors, crimping is commonly used in electrical work.\n\nFigure 2. Crimping Tool - 24-10 AWG [1]\n\n• Precision Micro Wire Cutter\nA wire cutter or cable cutter is a tool that cut wires and cables in a safe manner without damaging the insulation or conductors.\n\nFigure 3. Precision Micro Wire Cutter. [2]\n\n• Measuring Tape\nA Measure Tape is a tool used to measure length.\n\nFigure 4. Measuring Tape [3]\n\n• Stripping tool\nWire strippers are portable handheld tools used by workers, especially electricians, to remove the protective coating of electric wires for replacement or repair.",
+      "specifications": {
+        "Crimping Tool AWG range": "24-10 AWG"
+      },
+      "key_facts": [
+        "Crimping tools are used to deform materials and create connections, commonly in electrical work to connect wires.",
+        "A wire cutter or cable cutter is a tool for safely cutting wires and cables without damaging insulation or conductors.",
+        "A Measure Tape is a tool used to measure length.",
+        "Wire strippers are portable handheld tools used by electricians to remove the protective coating of electric wires for replacement or repair."
+      ],
+      "diagram_labels": [
+        "Figure 2. Crimping Tool - 24-10 AWG [1]",
+        "Figure 3. Precision Micro Wire Cutter. [2]",
+        "Figure 4. Measuring Tape [3]"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 476,
+        "cost_usd": 0.0013298000000000001
+      },
+      "source_file": "055_Wire_preparation_for_Rheonics_Ex_Sensor.pdf"
+    },
+    {
+      "page_summary": "This page details various tools used for electronics work, including a stripping tool, a knife, soldering equipment, and a hot air gun, with specific emphasis on the components and functions of a soldering station.",
+      "document_type": "manual",
+      "product_names": [
+        "Stripping tool",
+        "Knife",
+        "Soldering Equipment",
+        "Hot air gun"
+      ],
+      "extracted_text": "Figure 5. Stripping tool [4]\n\n• Knife\nA tool used to cut wires or cables.\n\nFigure 6. Knife [5]\n\n• Soldering Equipment\nA durable, permanent connection can be created by joining conductive metal elements with solder. Soldering machines are essential tools for building, modifying, and repairing electronics.\n\nFigure 7. Soldering Equipment [6]\n\n• Hot air gun\nHeat guns are devices that emit a jet of compressed air toward a particular point or surface.",
+      "specifications": {
+        "Soldering iron temperature display": "300 °C"
+      },
+      "key_facts": [
+        "A knife is a tool used to cut wires or cables.",
+        "Soldering equipment creates a durable, permanent connection by joining conductive metal elements with solder.",
+        "Soldering machines are essential tools for building, modifying, and repairing electronics.",
+        "Heat guns (hot air guns) are devices that emit a jet of compressed air toward a particular point or surface."
+      ],
+      "diagram_labels": [
+        "Stripping tool",
+        "Knife",
+        "Soldering Equipment",
+        "Iron handle",
+        "Iron temperature display",
+        "Soldering iron temperature adjustment knob",
+        "Iron fever indicator",
+        "Iron seat",
+        "High temperature cleaning sponge",
+        "Iron temperature adjustable knob"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 432,
+        "cost_usd": 0.0012198
+      },
+      "source_file": "055_Wire_preparation_for_Rheonics_Ex_Sensor.pdf"
+    },
+    {
+      "page_summary": "This page presents a Bill of Materials (BoM) listing various components including a ferrule, solder wire, heat shrink tube, Ex sensor cable, and an M12 connector, along with an image of a hot air gun.",
+      "document_type": "manual",
+      "product_names": [
+        "Hot air gun",
+        "Ferrule",
+        "Solder wire",
+        "Heat Shrink tube",
+        "Ex Sensor cable",
+        "M12 Connector",
+        "SACC-M12FS-8QO-0,5 SH"
+      ],
+      "extracted_text": "Figure 8. Hot air gun [7]\n\nBoM list\n\nItem name: Ferrule\nManufacturer name: RND\nManufacturer Part number: RND 465-00566\nVendor Part number: 301-10-345\nReference: https://www.distrelec.ch/ (https://www.distrelec.ch/)\n\nItem name: Solder wire\nManufacturer name: RS PRO\nManufacturer Part number: 800-7661\nVendor Part number: 800-7661\nReference: Industrial Solutions | RS formerly known as RS Components (https://uk.rs-online.com/web/)\n\nItem name: Heat Shrink tube\nManufacturer name: HellermannTyton\nManufacturer Part number: 380-03005\nVendor Part number: 711-4783\nReference: Industrial Solutions | RS formerly known as RS Components (https://uk.rs-online.com/web/)\n\nItem name: Ex Sensor cable\nManufacturer name: Helu Kabel type\nManufacturer Part number: 14079\nVendor Part number: 14079\nReference: Productdetails | HELU KABEL (https://www.helukabel.com/my/products/ob-bl-paar-cy-opc-STD_14077.html)\n\nItem name: M12 Connector\nManufacturer name: Phoenix Contact\nManufacturer Part number: SACC-M12FS-8QO-0,5 SH\nVendor Part number: 1414611\nReference: SACC-M12FS-8QO-0,5 SH - Connector - 1414611 | Phoenix Contact (https://www.phoenixcontact.com/en-pc/products/connector-sacc-fs-8qo-05-sh-sco-1414611)",
+      "specifications": {},
+      "key_facts": [
+        "The document presents a Bill of Materials (BoM) which lists components needed for an assembly or project.",
+        "A hot air gun is illustrated and identified as Figure 8.",
+        "The BoM includes specific components: Ferrule (RND 465-00566), Solder wire (RS PRO 800-7661), Heat Shrink tube (HellermannTyton 380-03005), Ex Sensor cable (Helu Kabel type 14079), and M12 Connector (Phoenix Contact SACC-M12FS-8QO-0,5 SH).",
+        "Each component entry in the BoM provides the item name, manufacturer name, manufacturer part number, vendor part number, and a reference link."
+      ],
+      "diagram_labels": [
+        "Figure 8. Hot air gun",
+        "RS PRO (on hot air gun)",
+        "0 (on hot air gun switch)",
+        "1 (on hot air gun switch)",
+        "2 (on hot air gun switch)"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 882,
+        "cost_usd": 0.0023447999999999997
+      },
+      "source_file": "055_Wire_preparation_for_Rheonics_Ex_Sensor.pdf"
+    },
+    {
+      "page_summary": "This page provides details on common electrical installation components including metal tape, ferrules, solder wire, and heat shrink tubing, along with their specifications and typical usage within Rheonics' practices.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Item name\nManufacturer name\nManufacturer Part number\nVendor Part number\nReference\nMetal tape\n3M\n4312555\n302-03-552\nhttps://www.distrelec.ch/en/aluminium-foil-tape-431-25mm-55m-silver-3m-4312555/p/30203552\n(https://www.distrelec.ch/en/aluminium-foil-tape-431-25mm-55m-silver-3m-4312555/p/30203552)\nFerrule\nCorrect ferrule size must be selected based on the gauge of the wire, as a standard Rheonics uses ferrule with a pin length of 8mm and diameter of 1mm (cross-section 0.5mm2).\nFigure 9. 22 AWG (8mm Pin) Insulated Ferrules [8]\nSolder wire\nSolder wires are wires with a low melting point, used to create joints using a soldering iron.\nFigure 10. Solder wire [9]\nHeat shrink tube\nHeat shrink tubing is a common element in most electrical installations that protects wires from moisture, dust, abrasion, and sharp objects that might otherwise damage them.",
+      "specifications": {
+        "Metal tape manufacturer": "3M",
+        "Metal tape manufacturer part number": "4312555",
+        "Metal tape vendor part number": "302-03-552",
+        "Ferrule pin length": "8 mm",
+        "Ferrule diameter": "1 mm",
+        "Ferrule cross-section": "0.5 mm2",
+        "Ferrule wire gauge": "22 AWG",
+        "Solder wire composition": "Sn60/Pb40",
+        "Solder wire diameter": "0.028 inch (0.71 mm)",
+        "Solder wire weight": "0.25 kg",
+        "Solder wire flux type": "NC/NoFlux",
+        "Solder wire flux content": "1.1 % Flux"
+      },
+      "key_facts": [
+        "Correct ferrule size must be selected based on the gauge of the wire.",
+        "Rheonics standard practice is to use ferrules with a pin length of 8mm and a diameter of 1mm (cross-section 0.5mm2).",
+        "Solder wires are characterized by a low melting point and are used for creating electrical joints with a soldering iron.",
+        "Heat shrink tubing is used in electrical installations to protect wires from environmental factors like moisture, dust, abrasion, and physical damage from sharp objects."
+      ],
+      "diagram_labels": [
+        "Figure 9. 22 AWG (8mm Pin) Insulated Ferrules [8]",
+        "Figure 10. Solder wire [9]"
+      ],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 767,
+        "cost_usd": 0.0020572999999999998
+      },
+      "source_file": "055_Wire_preparation_for_Rheonics_Ex_Sensor.pdf"
+    },
+    {
+      "page_summary": "This page details the specifications and types of cables, connectors, and sealing methods used with Rheonics SRV/SRD sensors, including components for potentially hazardous (Ex) environments.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV/SRD sensor",
+        "HELUKABEL® OB-BL-PAAR-CY"
+      ],
+      "extracted_text": "Figure 11. Hear shrink tube [10]\n\nEx Sensor Cable\n\nThe SRV/SRD sensor is connected to its associated Zener diode barriers by means of a cable that has an 8-pole M12 connector on the sensor end.\n\nThe cable and connector selected must be rated for at least the highest ambient temperature at which the sensor will be used.\n\nHELUKABEL® OB-BL-PAAR-CY 4x2x0.5 QMM / 14079 900 V CE\n\nFigure 12. Ex sensor cable[11]\n\nM12 connector of the sensor cable\n\nConnector, Universal, 8-position, halogen-free, shielded, Socket straight M12, A-coded, Insulation displacement connection, knurl material: Zinc die-cast, nickel-plated, external cable diameter 5 mm ... 9.7 mm\n\nFigure 13. M12 connector [12]\n\nMetal tape\n\nThis tape is commonly used to secure duct seams, connections, and joints. Additionally, it has excellent waterproof properties.",
+      "specifications": {
+        "connector_type": "M12",
+        "connector_poles": "8-pole",
+        "connector_coding": "A-coded",
+        "connector_material_knurl": "Zinc die-cast, nickel-plated",
+        "cable_conductor_configuration": "4x2x0.5 QMM",
+        "cable_voltage_rating": "900 V",
+        "external_cable_diameter": "5 mm ... 9.7 mm"
+      },
+      "key_facts": [
+        "The SRV/SRD sensor connects to Zener diode barriers using an 8-pole M12 connector on the sensor end.",
+        "The cable and connector must be rated for the highest ambient temperature at which the sensor will be used.",
+        "The M12 connector is universal, 8-position, halogen-free, shielded, straight, A-coded, with an insulation displacement connection.",
+        "The M12 connector's knurl material is zinc die-cast and nickel-plated.",
+        "Metal tape is commonly used to secure duct seams, connections, and joints, and has excellent waterproof properties."
+      ],
+      "diagram_labels": [
+        "Figure 11. Hear shrink tube [10]",
+        "Figure 12. Ex sensor cable[11]",
+        "Figure 13. M12 connector [12]",
+        "HELUKABEL® OB-BL-PAAR-CY 4x2x0.5 QMM / 14079 900 V CE"
+      ],
+      "warnings_notes": [
+        "The cable and connector selected must be rated for at least the highest ambient temperature at which the sensor will be used."
+      ],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 760,
+        "cost_usd": 0.0020398
+      },
+      "source_file": "055_Wire_preparation_for_Rheonics_Ex_Sensor.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions and lists required tools for preparing an Ex sensor cable for an M12 connector, illustrating the final assembly and key components.",
+      "document_type": "manual",
+      "product_names": [
+        "Ex sensor cable",
+        "M12 connector",
+        "SACC QUICKON",
+        "SME-DRM"
+      ],
+      "extracted_text": "Figure 14. Metal tape\nEnd result\nOnce all the steps are completed we are going to obtain our Ex sensor cable with the following three sections.\nFigure 15. Ex Sensor cable built by Rheonics\n2. Probe side - Sensor cable preparation for M12 connector\nRequired tools:\n1. Knife\n2. Measurement tape\n3. M12 Connector\n4. Metal tape\nThere is a video available from supplier showing the connection of the M12 connector in the cable, see: Circular connectors for data and signals – SACC QUICKON (https://www.youtube.com/watch?v=gJ1BZqPtza4).\n• Take the cable and cut the required length for your application. We recommend stripping out the cable sheath at 80mm from the end as a suitable length to prepare the cables for the M12 connector.",
+      "specifications": {
+        "cable sheath stripping length": "80mm"
+      },
+      "key_facts": [
+        "The page illustrates the end result of preparing an Ex sensor cable, showing three sections.",
+        "Figure 15 depicts an Ex Sensor cable built by Rheonics.",
+        "The preparation involves the 'Probe side - Sensor cable preparation for M12 connector'.",
+        "Required tools for this preparation include a knife, measurement tape, M12 Connector, and metal tape.",
+        "A video from a supplier demonstrates the connection of the M12 connector in the cable, titled 'Circular connectors for data and signals – SACC QUICKON'.",
+        "It is recommended to strip the cable sheath at 80mm from the end to prepare the cables for the M12 connector."
+      ],
+      "diagram_labels": [
+        "Figure 14. Metal tape",
+        "M12 connector of the sensor",
+        "Crimped end for SME-DRM",
+        "Ex sensor cable",
+        "Figure 15. Ex Sensor cable built by Rheonics"
+      ],
+      "warnings_notes": [],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 551,
+        "cost_usd": 0.0015172999999999999
+      },
+      "source_file": "055_Wire_preparation_for_Rheonics_Ex_Sensor.pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions for preparing a sensor cable, including stripping the sheath, fixing the shield with metal tape, and connecting individual wires to a color-coded connector.",
+      "document_type": "manual",
+      "product_names": [
+        "sensor cable",
+        "sensor connector",
+        "connection body"
+      ],
+      "extracted_text": "Figure 16. The sensor cable after the cable sheath is stripped away on the first 80mm\n\n*   Since the sensor cable has an outer diameter of about 8.5 mm, the cable's shield must be fixed with the provided metal tape as shown in the instructions for cable with a diameter over 6 mm.\n\nFigure 17. Sensor cable fixed with metal tape\n\n*   After the cable shield has been fixed, the rest of the shield can be cut at the edge of the tape. Then pass all 8 wires of the cable through the connection body. Take care not to damage the insulation of the wires. Push the cable completely into the sensor connector to ensure proper contact with the cable shield.\n*   The connector body has 8 color marked slits in the front. Pull each wire into the slit marked with its color as shown in Figure 18.\n\nFigure 18: The connector body is shown from the front. It has 8 slits which are color marked according to wire color.\n\n*   Cut the remnant of each wire, so each wire is fixed in the available space.",
+      "specifications": {
+        "cable_sheath_stripped_length": "80 mm",
+        "sensor_cable_outer_diameter": "8.5 mm",
+        "min_cable_diameter_for_metal_tape": "6 mm",
+        "number_of_wires_in_cable": "8",
+        "number_of_slits_in_connector_body": "8"
+      },
+      "key_facts": [
+        "The sensor cable sheath should be stripped by 80mm.",
+        "The sensor cable shield, having an outer diameter of 8.5 mm, must be secured with metal tape, as required for cables exceeding 6 mm in diameter.",
+        "After securing the cable shield, the remaining shield material should be trimmed at the tape's edge.",
+        "All 8 wires of the cable must be passed through the connection body.",
+        "The cable should be pushed completely into the sensor connector to ensure proper contact between the cable shield and the connector.",
+        "The connector body has 8 color-marked slits in the front, and each wire should be pulled into the slit corresponding to its color.",
+        "After insertion, the remnant of each wire should be cut to fix it securely in place.",
+        "The connector body has 8 slits which are color marked according to wire color."
+      ],
+      "diagram_labels": [
+        "Figure 16. The sensor cable after the cable sheath is stripped away on the first 80mm",
+        "Figure 17. Sensor cable fixed with metal tape",
+        "Figure 18: The connector body is shown from the front. It has 8 slits which are color marked according to wire color."
+      ],
+      "warnings_notes": [
+        "Take care not to damage the insulation of the wires.",
+        "Push the cable completely into the sensor connector to ensure proper contact with the cable shield."
+      ],
+      "page_num": 8,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 772,
+        "cost_usd": 0.0020698
+      },
+      "source_file": "055_Wire_preparation_for_Rheonics_Ex_Sensor.pdf"
+    },
+    {
+      "page_summary": "This page provides visual and textual instructions for preparing and connecting a sensor cable to a sensor probe, specifically for SME electronics and EX zener barriers.",
+      "document_type": "manual",
+      "product_names": [
+        "SME electronics",
+        "EX zener barriers",
+        "sensor probe"
+      ],
+      "extracted_text": "Figure 19. The connector body in front view after the wires have been shortened.\n\n*   Close the sensor connector.\n\nFigure 20. The sensor connector when it is closed.\n\n*   After the sensor connector has been mounted on the blue sensor cable, it can be connected to the M12 male port of the sensor probe.\n\n3. SME electronics side - Sensor cable preparation for EX zener barriers\n\nRequirements:",
+      "specifications": {},
+      "key_facts": [
+        "The document illustrates the appearance of a connector body with shortened wires (Figure 19).",
+        "Instructions include closing the sensor connector.",
+        "The document shows the closed sensor connector (Figure 20).",
+        "The sensor connector, after being mounted on the blue sensor cable, is designed to connect to the M12 male port of the sensor probe.",
+        "The section focuses on sensor cable preparation for the SME electronics side, specifically mentioning requirements for EX zener barriers."
+      ],
+      "diagram_labels": [
+        "Figure 19. The connector body in front view after the wires have been shortened.",
+        "Figure 20. The sensor connector when it is closed."
+      ],
+      "warnings_notes": [],
+      "page_num": 9,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 376,
+        "cost_usd": 0.0010798
+      },
+      "source_file": "055_Wire_preparation_for_Rheonics_Ex_Sensor.pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions and required tools for preparing a sensor cable, including stripping the sheath, twisting the shield, removing internal covers, and preparing the grounding cable for connection to Zener barriers.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "1. Knife\n2. Cutter\n• Strip the blue outer cable sheath on a length of 100 mm (4 in.).\nFigure 21: Preparation of the sensor cable to connect it to the Zener barriers.\n• After the stripping of the cable sheath, carefully loosen and then twist the cable shield.\nFigure 22. Twisted cable shield.\n• Remove the plastic cover from the colored wires.\nFigure 23. Removing the plastic cover from the wires.\n3.1. Preparing grounding cable\nRequirements:\n1. Soldering machine\n2. Solder wire\n3. Heat Shrink tube\n4. Hot air gun\n• Take the twisted cable shield and cover it fully with a heat shrink.",
+      "specifications": {
+        "Stripping Length": "100 mm (4 in.)"
+      },
+      "key_facts": [
+        "The blue outer cable sheath must be stripped for a length of 100 mm (4 in.).",
+        "After stripping the cable sheath, the cable shield needs to be carefully loosened and twisted.",
+        "The plastic cover must be removed from the colored wires inside the cable.",
+        "Preparation of the grounding cable requires a soldering machine, solder wire, heat shrink tube, and a hot air gun.",
+        "The twisted cable shield should be fully covered with a heat shrink."
+      ],
+      "diagram_labels": [
+        "Figure 21: Preparation of the sensor cable to connect it to the Zener barriers.",
+        "Figure 22. Twisted cable shield.",
+        "Figure 23. Removing the plastic cover from the wires."
+      ],
+      "warnings_notes": [],
+      "page_num": 10,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 458,
+        "cost_usd": 0.0012848
+      },
+      "source_file": "055_Wire_preparation_for_Rheonics_Ex_Sensor.pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions for preparing cable shields and ground cables with heat shrink and ferrules, and details the process for installing crimpers on sensor wires, including tool usage and handling of unused wires.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "- Take the twisted cable shield and cover it fully with a heat shrink.\nFigure 24. Metal shield twisted with heat shrink.\n- Crimp a ferrule to the ground cable end.\nFigure 25. Ferrule crimped to the ground cable\n\n3.2. Installing crimpers in each sensor wire\n\nRequirement:\n1. Crimping tool\nYour crimping tool should have a nest for inserting the terminal. After inserting in the correct slot, squeeze the crimp tool firmly and release it to get a long-lasting, tight fuse.\nUnused wires should be neither stripped nor crimped. We recommend protecting the ends with a shrink tube to avoid the ends making any electrical contacts.\nWe recommend crimping the ferrules on 4 sides for the connection with the Zener barriers.\n- Twist the wire and Crimp them (Crimpers) using the Crimping Tool.",
+      "specifications": {},
+      "key_facts": [
+        "The twisted cable shield should be fully covered with a heat shrink.",
+        "A ferrule must be crimped to the ground cable end.",
+        "A crimping tool should have a nest for inserting the terminal.",
+        "The crimp tool should be squeezed firmly to achieve a long-lasting, tight fuse.",
+        "Ferrules should be crimped on 4 sides for the connection with Zener barriers.",
+        "Wires should be twisted and then crimped using the Crimping Tool."
+      ],
+      "diagram_labels": [
+        "Figure 24. Metal shield twisted with heat shrink.",
+        "Figure 25. Ferrule crimped to the ground cable"
+      ],
+      "warnings_notes": [
+        "Unused wires should be neither stripped nor crimped. We recommend protecting the ends with a shrink tube to avoid the ends making any electrical contacts."
+      ],
+      "page_num": 11,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 484,
+        "cost_usd": 0.0013498
+      },
+      "source_file": "055_Wire_preparation_for_Rheonics_Ex_Sensor.pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions for preparing sensor cable wire ends, including stripping, crimping ferrules, and connecting them to Zener barriers and an SME-DRM sensor, specifically for an installation in a hazardous area.",
+      "document_type": "manual",
+      "product_names": [
+        "SME-DRM",
+        "Zener barriers",
+        "sensor"
+      ],
+      "extracted_text": "Figure 26. Crimping the wire end.\n\n• The green and yellow wires are not used to operate the sensor. They have to be connected to the ground together with the shield of the cable. This means that they should be connected to the ground terminals of the Zener barriers.\n\nFigure 27. Strip all eight wires on a length of 10 mm and put bootlace ferrules on the ends.\n\n• Strip all eight wires on a length of 10 mm and put bootlace ferrules on the ends.\n\nFigure 28. Wire ends stripped with crimped ferrules.\n\n4. Ex zener barriers to SME connection\n\nNext is the connection of the Zener barriers with the SME-DRM, the blue end is used to connect to the sensor that is installed in the hazardous area.",
+      "specifications": {
+        "wire_strip_length": "10 mm"
+      },
+      "key_facts": [
+        "The green and yellow wires are not used for sensor operation but must be connected to ground with the cable shield.",
+        "The green and yellow wires and cable shield should be connected to the ground terminals of the Zener barriers.",
+        "All eight wires must be stripped to a length of 10 mm.",
+        "Bootlace ferrules must be applied to the ends of all eight stripped wires.",
+        "The connection involves Zener barriers and the SME-DRM.",
+        "The blue end of the SME-DRM cable connects to the sensor installed in a hazardous area."
+      ],
+      "diagram_labels": [
+        "Figure 26. Crimping the wire end.",
+        "Figure 27. Strip all eight wires on a length of 10 mm and put bootlace ferrules on the ends.",
+        "Figure 28. Wire ends stripped with crimped ferrules."
+      ],
+      "warnings_notes": [
+        "The sensor is installed in a hazardous area, implying specific safety and intrinsic safety considerations related to 'Ex zener barriers'."
+      ],
+      "page_num": 12,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 568,
+        "cost_usd": 0.0015598
+      },
+      "source_file": "055_Wire_preparation_for_Rheonics_Ex_Sensor.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions for connecting and grounding Zener barriers and an SME-DRM unit on a DIN-rail.",
+      "document_type": "manual",
+      "product_names": [
+        "Zener barriers Z041x2",
+        "Zener barriers Z757",
+        "SME-DRM"
+      ],
+      "extracted_text": "Figure 29. The connection between Zener barriers and SME-DRM\n\nRequirement:\n1. Various wires with crimped ends.\n2. Zener barriers Z041x2 and Z757.\n3. SME-DRM\n\n• Install the SME-DRM and the Zener barriers in a DIN-rail and prepare short wires to be used.\n\nFigure 30. Short wires.\n\n• Next is to have a proper grounding, which could be either the DIN-rail or the ground available in the Zener barriers.\n\nFigure 31. Zener barrier grounding.\n\n• The wiring should be done the same as the wiring diagram shown in Figure 28 Part A. The end result should be as follow.",
+      "specifications": {},
+      "key_facts": [
+        "The connection involves Zener barriers and an SME-DRM unit.",
+        "Requirements include various wires with crimped ends, Zener barriers (models Z041x2 and Z757), and an SME-DRM unit.",
+        "The SME-DRM and Zener barriers must be installed on a DIN-rail.",
+        "Short wires need to be prepared for the connections.",
+        "Proper grounding is required and can be achieved via the DIN-rail or the ground available in the Zener barriers.",
+        "The wiring should follow the diagram provided in Figure 28 Part A."
+      ],
+      "diagram_labels": [
+        "Ground cable",
+        "Zener barrier ground",
+        "Din rail"
+      ],
+      "warnings_notes": [],
+      "page_num": 13,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 463,
+        "cost_usd": 0.0012973
+      },
+      "source_file": "055_Wire_preparation_for_Rheonics_Ex_Sensor.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions and a detailed wiring diagram for connecting an Ex sensor to Zener barriers and a Rheonics SMET sensor terminal block.",
+      "document_type": "manual",
+      "product_names": [
+        "Ex Sensor",
+        "Zener barrier Z041",
+        "Zener barrier Z757",
+        "SME-DRM",
+        "SMET Sensor Terminal Block",
+        "Pt1000",
+        "HeluKabel type OB-BL-PAAR-CY",
+        "M12 8p female A-coded connector"
+      ],
+      "extracted_text": "5. Ex sensor to zener barrier\nRequirement:\n1. Ex Sensor cable with crimped ends.\n2. Zener barrier Z041 x 2 and Z757\n3. SME-DRM\n\n• This step starts with the wiring of each ferrule end with the connection of the Zener barrier, we need to connect each wire to the corresponding terminal in the Zener barrier based on this wiring diagram where the Part B represents the ferrule ends prepared.\n\n• The final result should look like this.",
+      "specifications": {
+        "recommended_cable_type": "HeluKabel type OB-BL-PAAR-CY 4x2x0.5mm"
+      },
+      "key_facts": [
+        "The wiring process involves connecting ferrule ends to the Zener barrier terminals.",
+        "The wiring diagram (Figure 33) illustrates the connection of an Ex sensor with a Pt1000 using a 4-wire connection.",
+        "Part B in the wiring diagram represents the ferrule ends of the cable."
+      ],
+      "diagram_labels": [
+        "Figure 32. Zener Barrier wired with SME-DRM.",
+        "Figure 33. Wiring diagram with Pt1000 installed, 4-wire Pt1000 connection",
+        "A (Zone)",
+        "B (Zone)",
+        "C (Zone)",
+        "SMET Sensor Terminal Block",
+        "24V DC +",
+        "Gnd -",
+        "A (Modbus RTU RS485)",
+        "B (Modbus RTU RS485)",
+        "Modbus RTU RS485",
+        "Modbus TCP Ethernet RJ45",
+        "USB (micro-B)",
+        "Reset",
+        "Display",
+        "SD-Card",
+        "Loop+ (not active)",
+        "Ch1+ (Viscosity)",
+        "Ch2+ (Density)",
+        "Ch3+ (Temperature)",
+        "4-20 mA",
+        "Z041",
+        "Z757",
+        "red",
+        "blue",
+        "pink",
+        "grey",
+        "green",
+        "brown",
+        "white",
+        "yellow",
+        "orange",
+        "violet",
+        "shield(black)",
+        "Recommended HeluKabel type OB-BL-PAAR-CY 4x2x0.5mm",
+        "M12 8p female A-coded connector",
+        "1 M12 cable connector female, rear view",
+        "2 Sensor-M12 connector male, front view",
+        "3 Ground tab (optional)",
+        "A Safe Zone",
+        "B Intrinsically safe cable",
+        "C Hazardous Zone"
+      ],
+      "warnings_notes": [
+        "The wiring diagram delineates different zones: A (Safe Zone), B (Intrinsically safe cable), and C (Hazardous Zone), implying intrinsic safety considerations for the connection."
+      ],
+      "page_num": 14,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 855,
+        "cost_usd": 0.0022773
+      },
+      "source_file": "055_Wire_preparation_for_Rheonics_Ex_Sensor.pdf"
+    },
+    {
+      "page_summary": "This page illustrates the wiring and mounting options for Rheonics SME-DRM, Zener Barriers, and Ex Sensors, including alternative enclosure configurations.",
+      "document_type": "manual",
+      "product_names": [
+        "SME-DRM",
+        "Zener Barriers",
+        "Ex Sensor",
+        "SME-TR",
+        "SME-TRD"
+      ],
+      "extracted_text": "Figure 34. Full wiring of the SME-DRM+Zener Barriers+Ex Sensor cable.\nNote:\nTypically SME-DRM is used for connection with EX barriers so both can be mounted inside a cabinet with DIN rails\nFigure 35. SME-DRM\nHowever, it is also possible to put the EX barriers in another enclosure and connect to the SME-TR or SME-TRD using cable glands.\nThe barrier can also be used in an enclosure and a cable can be connected between barrier and the SME-TR/TRD through cable glands.",
+      "specifications": {
+        "power_input": "24 V dc",
+        "modbus_interface": "RS 485",
+        "analog_output": "4-20 mA"
+      },
+      "key_facts": [
+        "SME-DRM is typically used with EX barriers and both can be mounted in a cabinet on DIN rails.",
+        "EX barriers can be placed in a separate enclosure and connected to SME-TR or SME-TRD using cable glands.",
+        "A cable can connect a barrier in an enclosure to SME-TR/TRD through cable glands."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "SME-DRM",
+        "24 V dc",
+        "gnd",
+        "modbus A (RS 485) B",
+        "power",
+        "sensor",
+        "comm.",
+        "data",
+        "usb",
+        "reset",
+        "display",
+        "loop+",
+        "ch1+",
+        "ch2+",
+        "ch3+",
+        "sd-card",
+        "ethernet",
+        "swiss made",
+        "sensor connection",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "4-20 mA output"
+      ],
+      "warnings_notes": [
+        "Note: Typically SME-DRM is used for connection with EX barriers so both can be mounted inside a cabinet with DIN rails"
+      ],
+      "page_num": 15,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 601,
+        "cost_usd": 0.0016423
+      },
+      "source_file": "055_Wire_preparation_for_Rheonics_Ex_Sensor.pdf"
+    },
+    {
+      "page_summary": "This page illustrates the setup of Zener barriers within an outdoor enclosure for a Rheonics SME-TRD and Ex probe system, providing a comprehensive list of references for tools, materials, and related articles for installation and troubleshooting.",
+      "document_type": "manual",
+      "product_names": [
+        "SME-TRD",
+        "Rheonics Ex probe",
+        "Z041 (Zener barrier)",
+        "Z757 (Zener barrier)",
+        "Crimping Pliers for Wire Ferrules",
+        "Precision Micro Wire Cutter",
+        "FD2810WS Wire Cutting and Stripping Tool",
+        "Uline Steel Knife",
+        "SCHOFIC 936D Plus Rework Soldering Station SMD Desoldering Solder Iron Handle ESD Soldering Kit Soldering Machine Soldering Iron Kit Soldering Stand",
+        "RS PRO EOT0202 Corded Heat Gun",
+        "Bootlace ferrule 5mm white 14mm",
+        "RS PRO Wire, Lead solder",
+        "HellermannTyton Heat Shrink Tubing",
+        "HELUKABEL (product line)",
+        "SACC-M12FS-8QO-0,5 SH Connector (Phoenix Contact)"
+      ],
+      "extracted_text": "SME-TRD\nOutdoor enclosure\nZ041\nZ041\nZ757\nRheonics Ex probe\nFigure 37. Zener barriers are used in an outdoor enclosure when using the SME-TRD(Temporary image)\nReferences:\n[1] Crimping Pliers for Wire Ferrules (https://www.knipex-tools.com/products/crimping-pliers/ferrules/crimping-pliers-wire-ferrules/9762145A)\n[2] Precision Micro Wire Cutter - Cutting Range: 28-14 AWG (https://www.ferrulesdirect.com/products/fd3101)\n[3] How To Read Measure Tape | Reading A Tape Measure | Measuring Tape Reading (https://civiconcepts.com/blog/how-to-read-measure-tape)\n[4] FD2810WS - Wire Cutting and Stripping Tool - 28AWG to 10AWG (https://www.ferrulesdirect.com/products/fd2810ws)\n[5] Uline Steel Knife in Stock - ULINE (https://www.uline.com/BL_1158/Uline-Steel-Utility-Knife)\n[6] SCHOFIC 936D Plus Rework Soldering Station SMD Desoldering Solder Iron Handle ESD Soldering Kit Soldering Machine Soldering Iron Kit Soldering Stand (https://schofic.com/product/schofic-937-rework-soldering-station-smd-desoldering-solder-iron-handle-esd-soldering-kit-soldering-machine-soldering-iron-kit-soldering-stand-937/)\n[7] RS PRO EOT0202 500°C max Corded Heat Gun, Type C - EuroPlug (https://uk.rs-online.com/web/p/heat-guns/1245159)\n[8] (https://www.distrelec.ch/en/bootlace-ferrule-5mm-white-14mm-pack-of-100-pieces-rnd-connect-rnd-465-00566/p/30110345 (https://www.distrelec.ch/en/bootlace-ferrule-5mm-white-14mm-pack-of-100-pieces-rnd-connect-rnd-465-00566/p/30110345)\n[9] RS PRO Wire, 0.71mm Lead solder, 183°C Melting Point (https://uk.rs-online.com/web/p/solder/8007661)\n[10] HellermannTyton Heat Shrink Tubing, Black, Blue, Green/Yellow, Red, White 3mm Sleeve Dia. x 35mm Length 3:1 Ratio (https://uk.rs-online.com/web/p/heat-shrink-tubing/7114783)\n[11] Productdetails | HELUKABEL (https://www.helukabel.com/my/products/ob-bl-paar-cy-opc-STD_14077.html)\n[12] SACC-M12FS-8QO-0,5 SH - Connector - 1414611 | Phoenix Contact (https://www.phoenixcontact.com/en-pc/products/connector-sacc-fs-8qo-05-sh-sco-1414611)\nRecommended articles:\nBest Practices for Cable Installation (https://support.rheonics.com/en/support/solutions/articles/81000408323-best-practices-for-cabling-installation)\nNothing is happening when I plug in the USB cable! (https://support.rheonics.com/en/support/solutions/articles/81000406853-nothing-is-happening-when-i-plug-in-the-usb-cable-)\nWhat can go wrong with 4 - 20mA loops ? (https://support.rheonics.com/en/support/solutions/articles/81000397120-what-can-go-wrong-with-4-20ma-loops-)\nDISCLAIMER",
+      "specifications": {
+        "Wire Cutter Cutting Range": "28-14 AWG",
+        "Wire Stripping Tool Range": "28AWG to 10AWG",
+        "Heat Gun Max Temperature": "500°C",
+        "Bootlace Ferrule Width": "5mm",
+        "Bootlace Ferrule Length": "14mm",
+        "Lead Solder Wire Diameter": "0.71mm",
+        "Lead Solder Melting Point": "183°C",
+        "Heat Shrink Tubing Sleeve Diameter": "3mm",
+        "Heat Shrink Tubing Length": "35mm",
+        "Heat Shrink Tubing Shrink Ratio": "3:1"
+      },
+      "key_facts": [
+        "Zener barriers are used in an outdoor enclosure when the SME-TRD is installed.",
+        "The displayed image is a temporary representation of the SME-TRD setup.",
+        "A comprehensive list of tools and materials for installation, including various wire tools, soldering equipment, heat guns, ferrules, solder, heat shrink tubing, and connectors, is provided through external references.",
+        "Recommended articles cover best practices for cable installation and troubleshooting issues related to USB connections and 4-20mA loops."
+      ],
+      "diagram_labels": [
+        "SME-TRD",
+        "Outdoor enclosure",
+        "Z041",
+        "Z757",
+        "Rheonics Ex probe"
+      ],
+      "warnings_notes": [
+        "DISCLAIMER (content not provided)"
+      ],
+      "page_num": 16,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1679,
+        "cost_usd": 0.0043373
+      },
+      "source_file": "055_Wire_preparation_for_Rheonics_Ex_Sensor.pdf"
+    },
+    {
+      "page_summary": "This page contains a legal disclaimer regarding the use of pictures, photos, and images for illustration purposes and clarifies that their inclusion does not constitute a warranty, endorsement, or affect existing copyrights.",
+      "document_type": "notes",
+      "product_names": [],
+      "extracted_text": "Pictures, photos, and images used are for illustration purposes and do not constitute any warranty or assertions on the suitability of use and should not be construed as an explicit or implicit recommendation or endorsement. All illustrations are given proper credit from our source of access and by their use here we do not specify or establish any copyright which belongs and stays unaffected with the existing copyright holder of that material",
+      "specifications": {},
+      "key_facts": [
+        "Pictures, photos, and images are used solely for illustration purposes.",
+        "The use of these visual materials does not imply any warranty or assertion regarding suitability of use.",
+        "Visual materials should not be interpreted as explicit or implicit recommendations or endorsements.",
+        "All illustrations are properly credited from their source of access.",
+        "The document's use of illustrations does not create or establish new copyright and does not affect the existing copyright held by the original material's owner."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Pictures, photos, and images used are for illustration purposes and do not constitute any warranty or assertions on the suitability of use and should not be construed as an explicit or implicit recommendation or endorsement.",
+        "All illustrations are given proper credit from our source of access and by their use here we do not specify or establish any copyright which belongs and stays unaffected with the existing copyright holder of that material."
+      ],
+      "page_num": 17,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 375,
+        "cost_usd": 0.0010773
+      },
+      "source_file": "055_Wire_preparation_for_Rheonics_Ex_Sensor.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

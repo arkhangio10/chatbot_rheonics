@@ -1,0 +1,96 @@
+{
+  "source_file": "Rheonics_SME-DRM_A.pdf",
+  "total_pages": 1,
+  "chunks": [
+    {
+      "page_summary": "This page provides a technical drawing with dimensions, connection details, and key specifications for the Rheonics SME-DRM DIN rail mount sensor electronics module.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SME-DRM",
+        "SME"
+      ],
+      "extracted_text": "Units: mm [inch]\n\nSME-DRM\nDIN rail mount sensor electronics\n\n4-20 mA output: dig +, dig -, gnd -, loop +\ndisplay\nusb\ncomms: data, gnd, sensor, power\nmodbus (RS485): A, B\n24 V dc: +, -\nSD-card\nreset\nethernet tcp/ip modbus tcp\nsensor connection 1 2 3 4 5 6 7 8\nswiss made\nCE\nrheonics SME-DRM\n\nSME\nType\nWeight\nIP-Rating\nPower\nMaterial (casing)\n\nSME-DRM\n0.2 kg [0.4lbs]\nIP20\n24VDC\nSS 304\n\nThis drawing remains property of rheonics. It may be neither copied nor informed to third persons or competitors without our approval. ( 2 paragraph 1 fig.7 copyright act of 9th Sept. 1965)\nProtected by US and International patents granted and pending\n\nrheonics\ninline process\ndensity and viscosity\nmonitoring\nrheonics • Switzerland • USA • www.rheonics.com • info@rheonics.com • +41 52 511 32 00 • +1 713 364 5427",
+      "specifications": {
+        "width": "85 mm [3.35 inch]",
+        "height": "44.6 mm [1.76 inch]",
+        "depth_overall": "86 mm [3.39 inch]",
+        "depth_main_body": "78 mm [3.07 inch]",
+        "projection_from_main_body": "8 mm [0.31 inch]",
+        "extended_part_height": "20 mm [0.79 inch]",
+        "lower_extended_part_height": "12.3 mm [0.48 inch]",
+        "mounting_feature_width": "20.4 mm [0.80 inch]",
+        "type": "SME-DRM",
+        "weight": "0.2 kg [0.4 lbs]",
+        "ip_rating": "IP20",
+        "power": "24 VDC",
+        "casing_material": "SS 304"
+      },
+      "key_facts": [
+        "The product featured is the SME-DRM DIN rail mount sensor electronics.",
+        "The device provides 4-20 mA analog output and supports USB, Modbus (RS485), and Ethernet TCP/IP Modbus TCP communication.",
+        "It has an SD-card slot and a reset button.",
+        "The product is 'swiss made' and carries a 'CE' mark.",
+        "Rheonics specializes in inline process density and viscosity monitoring.",
+        "Contact information for Rheonics in Switzerland and USA is provided, including website, email, and phone numbers."
+      ],
+      "diagram_labels": [
+        "4-20 mA output",
+        "dig +",
+        "dig -",
+        "gnd -",
+        "loop +",
+        "display",
+        "usb",
+        "comms",
+        "data",
+        "gnd",
+        "sensor",
+        "power",
+        "modbus (RS485)",
+        "A",
+        "B",
+        "24 V dc",
+        "+",
+        "-",
+        "SD-card",
+        "reset",
+        "ethernet tcp/ip modbus tcp",
+        "sensor connection",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "swiss made",
+        "CE",
+        "rheonics SME-DRM",
+        "SME",
+        "Type",
+        "Weight",
+        "IP-Rating",
+        "Power",
+        "Material (casing)"
+      ],
+      "warnings_notes": [
+        "This drawing remains property of rheonics. It may be neither copied nor informed to third persons or competitors without our approval. ( 2 paragraph 1 fig.7 copyright act of 9th Sept. 1965)",
+        "Protected by US and International patents granted and pending"
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1116,
+        "cost_usd": 0.0029297999999999998
+      },
+      "source_file": "Rheonics_SME-DRM_A.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "source_file": "208_APC_Adjustable_Process_Connector_-_Assembly_Guideline.pdf",
+  "total_pages": 6,
+  "chunks": [
+    {
+      "page_summary": "This document provides assembly guidelines and a detailed description of the Rheonics APC Adjustable Process Connector, an accessory designed for flexible sensor probe connection and installation.",
+      "document_type": "manual",
+      "product_names": [
+        "APC Adjustable Process Connector",
+        "Rheonics SRV",
+        "Rheonics SRD",
+        "BF-APC",
+        "OR-APC",
+        "FS-APC"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nAPC Adjustable Process Connector - Assembly Guideline\n\nModified on: Thu, 30 May, 2024 at 9:31 PM\n\nRheonics APC - Adjustable Process Connector\n\nThe Rheonics APC is a flexible process connection system that can be used to clamp an industrial flange, connector, or adapter to the Rheonics SRV and SRD sensor probe's body without welding. The APC allows a flexible insertion length (if PTFE back ferrule is used), easy exchange of process connections, and easy assembly and disassembly of the sensor probe from the process.\n\nThis accessory is used for flanges and any other process connections that meet the APC use requirement. It can also be used as an accessory to clamp the probe to external structure.\n\nReview more on the Rheonics APC web page (https://rheonics.com/product-accessories/apc/).\n\nNotes for assembly\n\n*   The APC is designed for ambient pressure applications.\n*   The flange or adapter is either supplied by Rheonics or the final user.\n*   The back ferrule BF-APC should be ordered of PEEK (-PT) material when the process connection needs to be moved. Metal back ferrule (-SS) can be ordered when location of the process connection is desired to be fixed.\n*   O-rings used in the assembly (OR-APC and FS-APC) are of FKM. Consider compatibility of fluid with this material.",
+      "specifications": {},
+      "key_facts": [
+        "The Rheonics APC is a flexible process connection system.",
+        "It can clamp an industrial flange, connector, or adapter to Rheonics SRV and SRD sensor probes without welding.",
+        "The APC enables a flexible insertion length when a PTFE back ferrule is utilized.",
+        "It facilitates easy exchange of process connections and simple assembly and disassembly of the sensor probe from the process.",
+        "The accessory is suitable for flanges and other process connections meeting APC requirements.",
+        "It can also function as an accessory to clamp the probe to an external structure.",
+        "The APC is designed for ambient pressure applications.",
+        "The flange or adapter can be supplied by Rheonics or the end-user.",
+        "A PEEK (-PT) back ferrule (BF-APC) should be ordered for movable process connections.",
+        "A metal (-SS) back ferrule can be ordered for fixed process connection locations.",
+        "O-rings (OR-APC and FS-APC) used in the assembly are made of FKM material."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Consider compatibility of fluid with FKM material used for O-rings (OR-APC and FS-APC)."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 734,
+        "cost_usd": 0.0019747999999999996
+      },
+      "source_file": "208_APC_Adjustable_Process_Connector_-_Assembly_Guideline.pdf"
+    },
+    {
+      "page_summary": "This page provides an exploded view and a detailed parts list for the Rheonics APC accessory, outlining its components, their descriptions, and a critical warning regarding its use in pressurized applications.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics APC",
+        "Viscometer SRV",
+        "Density meters",
+        "Rheonics APC Adapter",
+        "SRV-X5",
+        "SRD-X5",
+        "Long Insertion Probe"
+      ],
+      "extracted_text": "The APC accessory should NOT be used for sealing and/or connection of probe inline for pressurized applications.\n\nRheonics APC - Exploded View\n\nFigure 1: Rheonics APC on Viscometer SRV - Exploded parts view\n\nAPC Accessory - Parts list\n\nThe next table details all parts used in the assembly and use of the Adaptable Process Connection.\n\nTable 1: APC Assembly Parts List\n\nPart\nDescription\nImage\n\nCN-APC\nCompresion Nut\nThread: Female BSPP G 1 1/4\nCN-APC\n\nBF-APC-PT\nBack Ferrule PTFE\n\nBF-APC-SS\nBack Ferrule Stainless Steel\nPTFE is used for variable insertion.\nSS is used to fix the position of APC on the probe.\nBF-APC-PT | BF-APC-SS",
+      "specifications": {
+        "Thread (CN-APC)": "Female BSPP G 1 1/4"
+      },
+      "key_facts": [
+        "The provided table details all parts used in the assembly and use of the Adaptable Process Connection.",
+        "PTFE back ferrules (BF-APC-PT) are used for variable insertion of the probe.",
+        "Stainless Steel back ferrules (BF-APC-SS) are used to fix the position of the APC on the probe."
+      ],
+      "diagram_labels": [
+        "CN-APC Compression Nut",
+        "BF-APC Back Ferrule",
+        "TN-APC Threaded Nut",
+        "Custom Process Connection",
+        "OR-APC O-Ring",
+        "MB-APC Mandrel",
+        "FS-APC Front Seal",
+        "Inline Process Viscometers and Density meters",
+        "Rheonics APC Adapter",
+        "SRV-X5 / SRD-X5 Long Insertion Probe",
+        "CN-APC",
+        "BF-APC-PT | BF-APC-SS"
+      ],
+      "warnings_notes": [
+        "The APC accessory should NOT be used for sealing and/or connection of probe inline for pressurized applications."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 627,
+        "cost_usd": 0.0017073
+      },
+      "source_file": "208_APC_Adjustable_Process_Connector_-_Assembly_Guideline.pdf"
+    },
+    {
+      "page_summary": "This page provides a table detailing various parts for APC assembly, including their descriptions and images, along with specific dimensions and notes on optional connections and where to find interface drawings, leading into a section on assembly instructions.",
+      "document_type": "manual",
+      "product_names": [
+        "TN-APC",
+        "OR-APC",
+        "MB-APC",
+        "FS-APC",
+        "APC"
+      ],
+      "extracted_text": "Part\nDescription\nImage\n\nTN-APC\nWedge Lock Nut\nThread: Female BSPP G 1 1/4\nHex Size: SW 55 mm\nTN-APC\n\nOR-APC\nO-Ring Ø42x2.5 mm\nOR-APC\n\nMB-APC\nAPC Mandrel Body\nMB-APC\n\nFS-APC\nFront Seal O-Ring Ø30x2.5 mm\nFS-APC\n\nOptional: Process Connection or Flange with machined hole.\nReview webpage for interface drawing of flanges or adapters to be used with APC.\n\nAssembly Instructions\nTable 2: APC Assembly Instructions",
+      "specifications": {
+        "Thread (TN-APC)": "Female BSPP G 1 1/4",
+        "Hex Size (TN-APC)": "55 mm",
+        "O-Ring (OR-APC) Diameter": "42 mm",
+        "O-Ring (OR-APC) Thickness": "2.5 mm",
+        "Front Seal O-Ring (FS-APC) Diameter": "30 mm",
+        "Front Seal O-Ring (FS-APC) Thickness": "2.5 mm"
+      },
+      "key_facts": [
+        "The TN-APC is a Wedge Lock Nut.",
+        "The TN-APC has a Female BSPP G 1 1/4 thread.",
+        "The TN-APC has a hex size of SW 55 mm.",
+        "The OR-APC is an O-Ring with dimensions Ø42x2.5 mm.",
+        "The MB-APC is an APC Mandrel Body.",
+        "The FS-APC is a Front Seal O-Ring with dimensions Ø30x2.5 mm.",
+        "Process Connection or Flange with a machined hole is an optional component for APC assembly.",
+        "Interface drawings of flanges or adapters for use with APC are available on a webpage."
+      ],
+      "diagram_labels": [
+        "TN-APC",
+        "OR-APC",
+        "MB-APC",
+        "FS-APC"
+      ],
+      "warnings_notes": [
+        "Optional: Process Connection or Flange with machined hole.",
+        "Review webpage for interface drawing of flanges or adapters to be used with APC."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 656,
+        "cost_usd": 0.0017798
+      },
+      "source_file": "208_APC_Adjustable_Process_Connector_-_Assembly_Guideline.pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions with accompanying illustrations for assembling components of a Rheonics sensor, including seals, mandrels, O-rings, and process connections.",
+      "document_type": "manual",
+      "product_names": [
+        "APC seal (FS-APC)",
+        "APC mandrel (MB-APC)",
+        "O-ring (OR-APC)",
+        "Process Connection (flange)"
+      ],
+      "extracted_text": "N°\tInstruction\tPicture\n1\tPlace the APC seal (FS-APC) in the inner groove of the APC mandrel (MB-APC).\n2\tInsert APC mandrel (MB-APC) on the sensor probe body and place the O-ring (OR-APC) right behind the conical section of the mandrel.\n3\tInsert the Process Connection (flange) or any adapter required.\n\nText found within diagrams:\nMB-APC\nFS-APC\nOR-APC\nFlange - Process Connection with machined hole Φ 42.2\nSee interface drawing\nrheonics (logo)",
+      "specifications": {
+        "machined hole diameter": "42.2 mm"
+      },
+      "key_facts": [
+        "The APC seal (FS-APC) must be placed in the inner groove of the APC mandrel (MB-APC).",
+        "The APC mandrel (MB-APC) needs to be inserted onto the sensor probe body.",
+        "The O-ring (OR-APC) should be placed right behind the conical section of the APC mandrel.",
+        "The Process Connection (flange) or any required adapter is to be inserted.",
+        "The Process Connection flange has a machined hole with a diameter of 42.2 mm."
+      ],
+      "diagram_labels": [
+        "MB-APC",
+        "FS-APC",
+        "OR-APC",
+        "Flange - Process Connection",
+        "machined hole Φ 42.2"
+      ],
+      "warnings_notes": [
+        "See interface drawing"
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 482,
+        "cost_usd": 0.0013448
+      },
+      "source_file": "208_APC_Adjustable_Process_Connector_-_Assembly_Guideline.pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step assembly and disassembly instructions for components of an APC system, detailing the use of threaded hex nuts, back ferrules, and compression nuts with corresponding visual aids.",
+      "document_type": "manual",
+      "product_names": [
+        "APC",
+        "TN-APC",
+        "MB-APC",
+        "OR-APC",
+        "BF-APC-PT",
+        "BF-APC-SS",
+        "CN-APC"
+      ],
+      "extracted_text": "N° Instruction Picture\n4 Thread hand tight the threaded hex nut (TN-APC) to clamp the flange against the mandrel (MB-APC) and O-ring (OR-APC).\nSW 55mm\n5 Place the conical back ferrule (BF-APC-PT or -SS) behind the APC mandrel (MB-APC).\n6 Thread hand tight the compression nut (CN-APC) to fix the APC mandrel (MB-APC) on the sensor probe body.\nTo disassemble and change the position of the APC (for BF-APC-PT), unthread the compression nut (CN-APC).\nSW 50mm\nResources\nAPC Accessory Page https://rheonics.com/product-accessories/apc/",
+      "specifications": {
+        "Wrench Size for TN-APC": "55mm",
+        "Wrench Size for CN-APC": "50mm"
+      },
+      "key_facts": [
+        "The threaded hex nut (TN-APC) is used to clamp the flange against the mandrel (MB-APC) and O-ring (OR-APC).",
+        "The conical back ferrule (BF-APC-PT or -SS) should be placed behind the APC mandrel (MB-APC).",
+        "The compression nut (CN-APC) fixes the APC mandrel (MB-APC) on the sensor probe body.",
+        "To disassemble or change the position of the APC (for BF-APC-PT), the compression nut (CN-APC) must be unthreaded."
+      ],
+      "diagram_labels": [
+        "TN-APC",
+        "BF-APC-PT",
+        "BF-APC-SS",
+        "CN-APC"
+      ],
+      "warnings_notes": [
+        "Components should be threaded hand tight during assembly to prevent over-tightening or damage."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 547,
+        "cost_usd": 0.0015072999999999998
+      },
+      "source_file": "208_APC_Adjustable_Process_Connector_-_Assembly_Guideline.pdf"
+    },
+    {
+      "page_summary": "This page provides links to support documents, including an article and an assembly guideline, for Rheonics' APC accessory which relates to viscometer and density meter probes.",
+      "document_type": "notes",
+      "product_names": [
+        "APC Accessory",
+        "APC connector",
+        "viscometer",
+        "density meter"
+      ],
+      "extracted_text": "APC Accessory Support Article (https://support.rheonics.com/en/support/solutions/articles/81000413998-apc-connector-for-adapting-viscometer-and-density-meter-probe-in-changing-process-mounting)\nAPC Assembly Guideline - PDF version (https://cdn.rheonics.com/wp-content/uploads/2024/05/Rheonics-APC-Assembly-Guide.pdf)",
+      "specifications": {},
+      "key_facts": [
+        "A support article for the APC Accessory is available online.",
+        "The support article details the APC connector for adapting viscometer and density meter probes for changing process mounting.",
+        "An assembly guideline for the APC is available as a PDF document."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 298,
+        "cost_usd": 0.0008848
+      },
+      "source_file": "208_APC_Adjustable_Process_Connector_-_Assembly_Guideline.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

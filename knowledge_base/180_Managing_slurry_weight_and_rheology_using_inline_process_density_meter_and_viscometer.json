@@ -1,0 +1,125 @@
+{
+  "source_file": "180_Managing_slurry_weight_and_rheology_using_inline_process_density_meter_and_viscometer.pdf",
+  "total_pages": 4,
+  "chunks": [
+    {
+      "page_num": 1,
+      "page_summary": "Extraction failed",
+      "document_type": "unknown",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "extraction_failed": true,
+      "source_file": "180_Managing_slurry_weight_and_rheology_using_inline_process_density_meter_and_viscometer.pdf"
+    },
+    {
+      "page_summary": "This page highlights Rheonics' inline viscometer and density sensor solutions for monitoring slurry quality in semiconductor chemical mechanical polishing (CMP) and investment casting processes.",
+      "document_type": "notes",
+      "product_names": [
+        "SRV sensor",
+        "SRD sensor",
+        "inline viscometers",
+        "density sensors"
+      ],
+      "extracted_text": "Density has an impact on the uniformity of the slurry and helps as an indicator of the slurry components and blend properties.\n\nRheonics solution:\nRheonics offers inline viscosity readings with the SRV sensor and inline density and viscosity readings with the SRD. These solutions enable an automated in-line viscosity measurement and control, crucial to control the viscosity during CMP processes and ensure critical characteristics are in full compliance with requirements across multiple batches, without having to rely on offline measurement methods and sample-taking techniques.\n\nMore information: Semiconductor CMP (chemical mechanical polishing) slurry quality control through density and viscosity monitoring. (https://rheonics.com/solutions-item/semiconductor-cmp-chemical-mechanical-polishing-slurry-quality-control-through-density-and-viscosity-monitoring/)\n\nInvestment casting slurry\n\nDescription: Also known as ceramic slurry, it is used in the investment casting manufacturing process. A wax pattern is coated with the slurry, that once hardened, creates a mold with an internal geometry after the wax melts. Then molten metal is poured into the cavity and it solidifies. Finally, the mold is broken out resulting in a metal piece with specific geometry.\n\nChallenges:\n*   Investment shells must comply with process specifications.\n*   The viscosity of the slurry will highly impact the surface finish, consistency, thermal conductivity, strength and other relevant characteristics of the shell.\n*   External factors like temperature, shear rate and others, affect viscosity.\n*   Offline measurement techniques are time-consuming and cost-ineffective.\n*   Traditional Zhan cups instruments for viscosity measurement are inaccurate, inconsistent and non-repeatable.\n\nRheonics solution:\nRheonics offers automated inline sensors for viscosity and density for control and monitoring process variables. The inline SRV sensor is used to measure a wide viscosity range detecting minimal changes in viscosity. If density is of relevance, the inline SRD is the best solution to monitor a wide range of density and viscosity simultaneously during slurry production.\n\nMore information: Monitoring and controlling viscosity of ceramic slurries in investment casting (https://rheonics.com/solutions-item/monitoring-and-controlling-viscosity-of-ceramic-slurries-in-investment-casting/)",
+      "specifications": {},
+      "key_facts": [
+        "Density influences slurry uniformity and serves as an indicator of slurry components and blend properties.",
+        "Rheonics provides inline viscosity readings using the SRV sensor.",
+        "Rheonics offers inline density and viscosity readings through the SRD sensor.",
+        "These Rheonics solutions enable automated in-line viscosity measurement and control, which is vital for CMP processes.",
+        "Rheonics solutions ensure critical characteristics meet requirements across multiple batches without relying on offline methods for CMP processes.",
+        "Investment casting slurry, also known as ceramic slurry, creates molds from a wax pattern for molten metal.",
+        "Investment shells must meet specific process specifications.",
+        "Slurry viscosity significantly affects the surface finish, consistency, thermal conductivity, and strength of the investment shell.",
+        "External factors such as temperature and shear rate influence viscosity.",
+        "Offline viscosity measurement techniques are time-consuming and cost-ineffective.",
+        "Traditional Zhan cups for viscosity measurement are inaccurate, inconsistent, and non-repeatable.",
+        "Rheonics provides automated inline sensors for viscosity and density to control and monitor process variables in investment casting.",
+        "The inline SRV sensor measures a wide viscosity range and detects minimal viscosity changes.",
+        "The inline SRD sensor is the optimal solution for simultaneously monitoring a wide range of density and viscosity during slurry production when density is relevant."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 890,
+        "cost_usd": 0.0023648
+      },
+      "source_file": "180_Managing_slurry_weight_and_rheology_using_inline_process_density_meter_and_viscometer.pdf"
+    },
+    {
+      "page_summary": "This page provides an overview of the challenges and Rheonics' solutions for monitoring drilling mud slurry in oil and gas and battery electrode slurry in lithium-ion battery production, focusing on real-time density and viscosity measurements.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "Rheonics SRD sensor"
+      ],
+      "extracted_text": "Drilling mud slurry\n\nDescription: Drilling fluids or muds are key to a successful drilling process often used in oil and natural gas wells. The drilling fluid is necessary when the drilling occurs and when it stops. During drilling, the fluid or mud reduces working stresses, working as lubrication and cooling of the drill. When the drilling stops, the fluid avoids the well's cuttings from refilling the wellhole applying the required pressure on the well's walls.\n\nChallenges:\n\n*   Properties such as the density and viscosity of the drilling fluid or mud must be within the designed specifications.\n*   Density is key to determine the mud weight, related to the pressure applied on the walls of the well.\n*   Viscosity varies during the process, when drilling you want a fluid-behavior mud to favor the movement, whereas when drilling stops, you require a more solid behavior to avoid cuttings from refilling the hole.\n*   Measuring viscosity and density with traditional instrumentation is slow, labor-intensive, time-consuming and prone to inaccuracies.\n\nRheonics solution:\nRheonics enables continuous, accurate, real-time mud density and viscosity data measured by the single inline Rheonics SRD sensor. This drilling fluid data offers an effective means to control mud and its costs. Drilling performance is optimized by the ability to recognize changes in the drilling fluid, analyze data trends and act upon what is causing changes in real time.\n\nMore information: Mud Weight Monitoring (https://rheonics.com/solutions-item/mud-weight-monitoring/)\n\nBattery electrode slurry\n\nDescription: This slurry is a mixture of active material, conducting material and polymeric binder with a solvent, that is scattered in a copper or aluminum film. It is involved in the production of lithium-ion batteries during the mixing and coating processes.\n\nChallenges:\n\n*   The physical properties of the slurry will define the dispersion of constituents and their states, which are key for the design and development of mixing and coating processes during the production of lithium-ion batteries.\n*   Maximum homogeneity of the slurry\n*   Uniform coating thickness with the correct layer density\n*   Precise slurry viscosity to ensure resistance to sedimentation\n*   Electrode density affects the cycle performance and capacity loss in lithium-ion batteries.",
+      "specifications": {},
+      "key_facts": [
+        "Drilling fluids or muds are crucial for successful oil and natural gas well drilling, providing lubrication, cooling, and pressure to prevent wellhole refilling.",
+        "The density and viscosity of drilling fluid must meet designed specifications, with density influencing mud weight and viscosity needing to adapt to drilling phases (fluid-like during drilling, solid-like when stopped).",
+        "Traditional methods for measuring drilling mud viscosity and density are slow, labor-intensive, time-consuming, and prone to inaccuracies.",
+        "Rheonics offers a solution for drilling mud monitoring through continuous, accurate, real-time mud density and viscosity data using a single inline Rheonics SRD sensor.",
+        "The Rheonics solution optimizes drilling performance by allowing real-time recognition and analysis of changes in drilling fluid data, aiding in cost control.",
+        "Battery electrode slurry is a composition of active material, conducting material, and polymeric binder with a solvent, applied to copper or aluminum film during lithium-ion battery production.",
+        "The physical properties of battery electrode slurry dictate the dispersion of its components, which is critical for the design and development of mixing and coating processes for lithium-ion batteries.",
+        "Key challenges in battery electrode slurry include achieving maximum homogeneity, uniform coating thickness with correct layer density, precise viscosity to prevent sedimentation, and managing electrode density to mitigate cycle performance issues and capacity loss in lithium-ion batteries."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 902,
+        "cost_usd": 0.0023948
+      },
+      "source_file": "180_Managing_slurry_weight_and_rheology_using_inline_process_density_meter_and_viscometer.pdf"
+    },
+    {
+      "page_summary": "This page describes Rheonics SRV and SRD inline sensors, highlighting their compact design, minimal pressure drop, and accurate viscosity and density measurements for monitoring and control, and provides links to related applications and product pages.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "Rheonics SRV",
+        "Rheonics SRD",
+        "Rheonics Inline Sensors",
+        "SRV: Inline Viscometer",
+        "SRD: Inline Density and Viscosity meter"
+      ],
+      "extracted_text": "Rheonics solution: Rheonics SRV and SRD have a very small and compact design for simple OEM and retrofit installation, causing an insignificant pressure drop in the line. The viscosity (SRV and SRD) and density (SRD) readings from the sensors are extremely accurate and highly repeatable useful for monitoring and control.\n\nMore information:\nBattery production - Slurry Mixing and Coating (https://rheonics.com/solutions-item/battery-production-slurry-mixing-and-coating/)\n(https://rheonics.com/solutions-item/monitoring-and-controlling-viscosity-of-ceramic-slurries-in-investment-casting/)\n\nRheonics Inline Sensors\n\nSRV: Inline Viscometer (https://rheonics.com/products/inline-viscometer-srv/)\nSRD: Inline Density and Viscosity meter (https://rheonics.com/products/inline-density-meter-srd/)",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics SRV and SRD sensors feature a very small and compact design.",
+        "The sensors are designed for simple OEM and retrofit installation.",
+        "Installation of these sensors causes an insignificant pressure drop in the line.",
+        "Viscosity readings from SRV and SRD sensors are extremely accurate and highly repeatable.",
+        "Density readings from SRD sensors are extremely accurate and highly repeatable.",
+        "The readings provided by the sensors are useful for monitoring and control.",
+        "Rheonics offers inline viscometers (SRV) and inline density and viscosity meters (SRD)."
+      ],
+      "diagram_labels": [
+        "rheonics"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 515,
+        "cost_usd": 0.0014273
+      },
+      "source_file": "180_Managing_slurry_weight_and_rheology_using_inline_process_density_meter_and_viscometer.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": [
+      1
+    ]
+  }
+}

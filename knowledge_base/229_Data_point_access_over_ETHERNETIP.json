@@ -1,0 +1,126 @@
+{
+  "source_file": "229_Data_point_access_over_ETHERNETIP.pdf",
+  "total_pages": 2,
+  "chunks": [
+    {
+      "page_summary": "This page details data point access over ETHERNET/IP for Rheonics sensors, outlining output measurement parameters and IO connections available in the EDS file.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics sensors"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nData point access over ETHERNET/IP\n\nModified on: Thu, 8 Sep, 2022 at 11:34 PM\n\n1. Rheonics sensors can be used for data reading. These start at index 0. The basic output measurement for each parameter is shown in the list below.\n\n| Index | Parameter | Type | AB Type | Bytes |\n|---|---|---|---|---|\n| 0 | Sensor Status | Word | INT | 2 |\n| 2 | Viscosity Median | Real | REAL | 4 |\n| 6 | Viscosity Median Raw | Real | REAL | 4 |\n| 10 | Ignore | Word | INT | 2 |\n| 12 | Ignore | Word | INT | 2 |\n| 14 | Ignore | Byte | SINT | 1 |\n| 15 | Density Median | Real | REAL | 4 |\n| 19 | Density Median Raw | Real | REAL | 4 |\n| 23 | Ignore | Word | INT | 2 |\n| 25 | Ignore | Word | INT | 2 |\n| 27 | Ignore | Byte | SINT | 1 |\n| 28 | Temperature Median | Real | REAL | 4 |\n| 32 | Temperature Median Raw | Real | REAL | 4 |\n| 36 | Ignore | Word | INT | 2 |\n| 38 | Ignore | Word | INT | 2 |\n| 40 | Ignore | Byte | SINT | 1 |\n\n2. The IO connections predefined in the EDS file, offer cyclic connections to the assemblies, which can be used to monitor several parameters of the instrument. Rheonics offers the Exclusive owner connection.\n\nThe following table list the IO connections available in the EDS file of the device:\n\n| IO Connection | Direction (from the instrument) | Assembly | Size (bytes) | Parameter | Data Type |\n|---|---|---|---|---|---|\n| Exclusive Owner | In | 1 | 373 | Device parameters | SINT |\n| Exclusive Owner | Out | 2 | 0 | Output parameters | SINT |",
+      "specifications": {
+        "Output Measurement Parameters": {
+          "0": {
+            "Parameter": "Sensor Status",
+            "Type": "Word",
+            "AB Type": "INT",
+            "Bytes": "2"
+          },
+          "2": {
+            "Parameter": "Viscosity Median",
+            "Type": "Real",
+            "AB Type": "REAL",
+            "Bytes": "4"
+          },
+          "6": {
+            "Parameter": "Viscosity Median Raw",
+            "Type": "Real",
+            "AB Type": "REAL",
+            "Bytes": "4"
+          },
+          "15": {
+            "Parameter": "Density Median",
+            "Type": "Real",
+            "AB Type": "REAL",
+            "Bytes": "4"
+          },
+          "19": {
+            "Parameter": "Density Median Raw",
+            "Type": "Real",
+            "AB Type": "REAL",
+            "Bytes": "4"
+          },
+          "28": {
+            "Parameter": "Temperature Median",
+            "Type": "Real",
+            "AB Type": "REAL",
+            "Bytes": "4"
+          },
+          "32": {
+            "Parameter": "Temperature Median Raw",
+            "Type": "Real",
+            "AB Type": "REAL",
+            "Bytes": "4"
+          }
+        },
+        "IO Connections in EDS File": {
+          "Exclusive Owner (In)": {
+            "Direction": "In",
+            "Assembly": "1",
+            "Size": "373 bytes",
+            "Parameter": "Device parameters",
+            "Data Type": "SINT"
+          },
+          "Exclusive Owner (Out)": {
+            "Direction": "Out",
+            "Assembly": "2",
+            "Size": "0 bytes",
+            "Parameter": "Output parameters",
+            "Data Type": "SINT"
+          }
+        }
+      },
+      "key_facts": [
+        "Rheonics sensors can be used for data reading, with data points starting at index 0.",
+        "The basic output measurements for Rheonics sensors include Sensor Status, Viscosity Median, Viscosity Median Raw, Density Median, Density Median Raw, Temperature Median, and Temperature Median Raw.",
+        "IO connections, predefined in the EDS file, enable cyclic connections to assemblies for monitoring instrument parameters.",
+        "Rheonics offers an 'Exclusive owner connection' for IO.",
+        "The document was last modified on Thursday, September 8, 2022, at 11:34 PM."
+      ],
+      "diagram_labels": [
+        "Index",
+        "Parameter",
+        "Type",
+        "AB Type",
+        "Bytes",
+        "IO Connection",
+        "Direction (from the instrument)",
+        "Assembly",
+        "Size (bytes)",
+        "Data Type"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1139,
+        "cost_usd": 0.0029873
+      },
+      "source_file": "229_Data_point_access_over_ETHERNETIP.pdf"
+    },
+    {
+      "page_summary": "This page is almost entirely blank, displaying only faint horizontal lines across the top and bottom, suggesting a document template without content.",
+      "document_type": "",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 96,
+        "cost_usd": 0.0003798
+      },
+      "source_file": "229_Data_point_access_over_ETHERNETIP.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

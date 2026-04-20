@@ -1,0 +1,128 @@
+{
+  "source_file": "011_Estimating_effective_shear_rate_of_inline_process_viscometer_SRV_and_density_meter_SRD.pdf",
+  "total_pages": 3,
+  "chunks": [
+    {
+      "page_num": 1,
+      "page_summary": "Extraction failed",
+      "document_type": "unknown",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "extraction_failed": true,
+      "source_file": "011_Estimating_effective_shear_rate_of_inline_process_viscometer_SRV_and_density_meter_SRD.pdf"
+    },
+    {
+      "page_summary": "This page provides a detailed technical explanation of shear rate estimation for oscillatory process viscometers, outlining the key equations and parameters related to shear stress, velocity amplitude, and boundary layer thickness for Rheonics SRV and SRD sensors.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "SRV",
+        "SRD"
+      ],
+      "extracted_text": "Laboratory viscometers often allow users to change the shear rate or rotational speed at which viscosity is measured. Rheonics SRV and SRD have a shear rate usually much higher than those for lab instruments and users cannot change it.\nIt is possible to have a qualitative idea about the range of shear expected for the SRV viscosity sensors and calculations are shown in this article. This helps qualify (and to some extent quantify) conditions at which viscosity is being measured and correlate readings with other instruments.\nHowever, actual correlations between shear of Type-SR viscosity measurements and other lab instruments are mostly empirical and may not meet the qualitative estimation. Consider that Rheonics sensors are process control devices more than just a viscosity sensor with emphasis on extremely high repeatability, and reproducibility of measurements with an unmatched resolution (often 10-100X higher than lab instruments).\nThe difference between viscosity readings is exacerbated by the fact, that the SRV and SRD measure at a constant shear rate amplitude, whereas lab-instrument a shear rate that\n\n3. Shear Rate estimation of oscillatory process viscometer\n\nThere are two parameters that are the most important for the shear estimation which are velocity amplitude and the boundary layer thickness. It is necessary to calculate the following parameters.\n\nThe shear stress is given by:\n\nτ = η · ∂v/∂x\nEquation 1: Shear Stress.\n\nFor a Newtonian fluid, η is a material constant characteristic of the fluid, ∂v/∂x is the shear rate in the fluid Applying the Navier-Stokes equations, solving under periodic, uniaxial conditions, the solution for the velocity amplitude is:\n\nv̂(x) = V(R) · exp (-x / (δ(1+i)))\nEquation 2: Velocity Amplitude\n\n*   x: distance from the sensor wall\n*   V: velocity amplitude at the sensor surface, R is radius of the tip\n*   δ: is the boundary layer thickness\n*   i: is square root of -1\n\nThe boundary layer thickness can be found with the equation:\n\nδ = √(2η / (ρw))\nEquation 3: Boundary Layer Thickness\n\n*   η: dynamic viscosity\n*   ω: angular frequency\n*   ρ: fluid density\n\nBy considering that at x=2δ the velocity drops to 13 % of the value at the sensor surface. The shear rate γ=∂v(0)/∂x at the surface of the sensor (x=0) follows:\n\nγ = ∂v(0)/∂x = V(R)/δ = Velocity amplitude / Boundary layer thickness\nEquation 4: Shear Rate\n\nWhere the velocity amplitude V(R) (5) is given by:\n\nV(R) = R · ∂φ(t)/∂t = R · φ₀ω\nEquation 5: Velocity Amplitude\n\n*   R: Distance from vibrational axis to sensor surface\n*   φ: Angular vibration amplitude.\n\nThe tip from the SRV performs a sinusoidal rotational vibration φ about its axis of symmetry.\n\nφ(t) = φ₀ · sin (ωt)\nEquation 6: Sinusoidal Rotational Vibration\n\nFor the SRV, the velocity V(R) is approximately 50 mm/s and Frequency is 7500 Hz → ω=2π x 7500",
+      "specifications": {
+        "SRV velocity V(R)": "50 mm/s",
+        "SRV frequency": "7500 Hz",
+        "SRV angular frequency (ω)": "2π x 7500 rad/s"
+      },
+      "key_facts": [
+        "Rheonics SRV and SRD viscometers operate at a fixed shear rate that cannot be changed by the user, unlike many lab instruments.",
+        "Rheonics sensors are emphasized as process control devices, offering extremely high repeatability, reproducibility, and an unmatched resolution (often 10-100X higher than lab instruments).",
+        "The SRV and SRD measure at a constant shear rate amplitude.",
+        "Velocity amplitude and boundary layer thickness are the two most crucial parameters for shear estimation in oscillatory process viscometers.",
+        "The tip of the SRV performs a sinusoidal rotational vibration."
+      ],
+      "diagram_labels": [
+        "Equation 1: Shear Stress.",
+        "Equation 2: Velocity Amplitude",
+        "x: distance from the sensor wall",
+        "V: velocity amplitude at the sensor surface, R is radius of the tip",
+        "δ: is the boundary layer thickness",
+        "i: is square root of -1",
+        "Equation 3: Boundary Layer Thickness",
+        "η: dynamic viscosity",
+        "ω: angular frequency",
+        "ρ: fluid density",
+        "Equation 4: Shear Rate",
+        "Velocity amplitude",
+        "Boundary layer thickness",
+        "Equation 5: Velocity Amplitude",
+        "R: Distance from vibrational axis to sensor surface",
+        "φ: Angular vibration amplitude.",
+        "Equation 6: Sinusoidal Rotational Vibration"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1242,
+        "cost_usd": 0.0032448
+      },
+      "source_file": "011_Estimating_effective_shear_rate_of_inline_process_viscometer_SRV_and_density_meter_SRD.pdf"
+    },
+    {
+      "page_summary": "This page explains the relationship between shear rate, viscosity, and density for Rheonics Type-SR sensors, discusses the applications of process viscometers in industrial settings, and provides examples of non-Newtonian fluids measured by Rheonics sensors.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "Type-SR sensor",
+        "SRV",
+        "SRD"
+      ],
+      "extracted_text": "The parameter V(R) is independent of viscosity, but the boundary layer thickness of the fluid δ increases. The following graph demonstrates the shear rate vs viscosity behavior and shows shear rate variation with both viscosity and density of the fluid under investigation.\n\nFigure 3. Shear rate vs viscosity for Type-SR sensor\n\nApplications of shear rate estimates of process viscometer in Industrial processes\n\nThe effective shear rate of an oscillatory viscometer is the shear rate that the fluid experiences during measurement. It is important to estimate the effective shear rate of an oscillatory viscometer to compare the results obtained from different viscometers and to design industrial processes involving non-Newtonian fluids.\n\nProcesses like mixing, coating, spraying impose high shear on the fluid. To understand the behavior of fluid under these processes and control consistency of production, sensors like SRV and SRD enable process engineers to monitor viscosity of fluid at shear rates that their fluid undergoes during operation giving them direct data to optimize process parameters. This is not possible using lab viscometers which often measure at low shear that is not representative of the actual operational conditions.\n\nVibrational process viscometers like the SRV and SRD are widely used to measure inline real-time viscosity of non-Newtonian fluids in a variety of industries, including food processing, cosmetics, and pharmaceuticals.\n\nHere are some examples of non-Newtonian fluids that are commonly measured using vibrational process viscometers:\n\nFigure 4. Common Non-Newtonian Fluids measured by Rheonics sensors\n\nReferences\n\n[1]: Shear Rate Estimation: A Detailed Review /https://www.researchgate.net/publication/300076727_Shear_Rate_Estimation_A_Detailed_Review)",
+      "specifications": {
+        "Density 1": "0.75 g/cc",
+        "Density 2": "1 g/cc",
+        "Density 3": "1.25 g/cc",
+        "Shear rate range": "10^2 to 10^4 1/s",
+        "Viscosity range": "10^-3 to 10^1 Pa s"
+      },
+      "key_facts": [
+        "The parameter V(R) is independent of viscosity, but the boundary layer thickness of the fluid δ increases.",
+        "The graph demonstrates shear rate vs viscosity behavior and shows shear rate variation with both viscosity and density of the fluid.",
+        "It is important to estimate the effective shear rate of an oscillatory viscometer for comparing results and designing industrial processes involving non-Newtonian fluids.",
+        "Processes such as mixing, coating, and spraying impose high shear on fluids.",
+        "Rheonics SRV and SRD sensors enable process engineers to monitor fluid viscosity at operational shear rates to optimize process parameters.",
+        "Lab viscometers often measure at low shear rates which may not be representative of actual operational conditions.",
+        "Vibrational process viscometers like SRV and SRD are widely used for inline real-time viscosity measurement of non-Newtonian fluids in industries including food processing, cosmetics, and pharmaceuticals."
+      ],
+      "diagram_labels": [
+        "ρ = 0.75 g/cc",
+        "ρ = 1 g/cc",
+        "ρ = 1.25 g/cc",
+        "γ (1/s)",
+        "η (Pa s)",
+        "Ketchup",
+        "Mayonnaise",
+        "Toothpaste",
+        "Paint",
+        "Shampoo",
+        "Blood",
+        "Polymers",
+        "Slurries",
+        "Suspensions",
+        "Emulsions",
+        "Foams",
+        "Gel"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 938,
+        "cost_usd": 0.0024847999999999997
+      },
+      "source_file": "011_Estimating_effective_shear_rate_of_inline_process_viscometer_SRV_and_density_meter_SRD.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": [
+      1
+    ]
+  }
+}

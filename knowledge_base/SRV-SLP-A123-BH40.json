@@ -1,0 +1,71 @@
+{
+  "source_file": "SRV-SLP-A123-BH40.pdf",
+  "total_pages": 1,
+  "chunks": [
+    {
+      "page_summary": "This page displays a technical drawing with key specifications for the Rheonics SRV-SLP-A123-BH40 inline viscometer and density sensor, including its dimensions, connection type, and compliance.",
+      "document_type": "drawing",
+      "product_names": [
+        "SRV-SLP-A123-BH40"
+      ],
+      "extracted_text": "SLP\nSRV-SLP-A123-BH40\nA\nInsertion Depth\n123 mm\nConnection\nSanitary fitting\nB\nNorm\nDIN 11851\nSize\nDN40\n\nrheonics (on device body)\n\nUnits:\nmm\n[inch]\n\nSRV-SLP-A123-BH40\nDIN 11851 DN40\n\nThis drawing remains property of rheonics. It may be neither copied nor informed to third persons\nor competitors without our approval. ( 2 paragraph 1 fig.7 copyright act of 9th Sept. 1965)\n\nProtected by US and International patents granted and pending\n\nrheonics • Switzerland • USA • www.rheonics.com • info@rheonics.com +41 52 511 32 00 +1 713 364 5427\nRelease: 2310\n\nrheonics\ninline process\ndensity and viscosity\nmonitoring",
+      "specifications": {
+        "Insertion Depth": "123 mm",
+        "Connection Type": "Sanitary fitting",
+        "Connection Norm": "DIN 11851",
+        "Connection Size": "DN40",
+        "Overall Length": "160 mm (6.32 inch)",
+        "Active Insertion Length (A)": "123 mm (4.86 inch)",
+        "Maximum Outer Diameter (Front View)": "56 mm (2.20 inch)",
+        "Main Body Diameter": "19 mm (0.75 inch)",
+        "Mid-shaft Diameter": "14 mm (0.55 inch)",
+        "Smallest Tip Diameter": "5 mm (0.20 inch)",
+        "Larger Tip Diameter": "8 mm (0.31 inch)"
+      },
+      "key_facts": [
+        "The document provides detailed dimensional specifications for the Rheonics SRV-SLP-A123-BH40.",
+        "The SRV-SLP-A123-BH40 features a sanitary fitting connection compliant with DIN 11851 and is DN40 in size.",
+        "The sensor has an insertion depth of 123 mm.",
+        "Rheonics specializes in inline process density and viscosity monitoring.",
+        "The product is protected by US and International patents.",
+        "The drawing is proprietary to Rheonics and requires approval for copying or informing third parties.",
+        "The release version of this document is 2310."
+      ],
+      "diagram_labels": [
+        "SLP",
+        "SRV-SLP-A123-BH40",
+        "A",
+        "B",
+        "19 φ [0.75]",
+        "14 φ [0.55]",
+        "5 φ [0.20]",
+        "8 φ [0.31]",
+        "123",
+        "A: [4.86]",
+        "160",
+        "[6.32]",
+        "56 φ [2.20]",
+        "mm",
+        "[inch]",
+        "rheonics (on device)"
+      ],
+      "warnings_notes": [
+        "This drawing remains property of rheonics. It may be neither copied nor informed to third persons or competitors without our approval. ( 2 paragraph 1 fig.7 copyright act of 9th Sept. 1965)",
+        "Protected by US and International patents granted and pending"
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 949,
+        "cost_usd": 0.0025123
+      },
+      "source_file": "SRV-SLP-A123-BH40.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

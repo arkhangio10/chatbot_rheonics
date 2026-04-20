@@ -1,0 +1,100 @@
+{
+  "source_file": "014_IP_and_NEMA_rating_comparison.pdf",
+  "total_pages": 2,
+  "chunks": [
+    {
+      "page_summary": "This page provides a comparison between IP (Ingress Protection) and NEMA (National Electronic Manufacturers Association) protection ratings, explaining their differences and equivalences relevant to Rheonics' products.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics sensors",
+        "transmitters",
+        "cables"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nIP and NEMA rating comparison\n\nModified on: Wed, 11 Jan, 2023 at 6:03 PM\n\nWhat products are involved?\nAll Rheonics sensors, transmitters and cables that have an IP rating.\n\nWhat is the purpose of this article?\nTo correlate the most similar IP and NEMA protection ratings on mechanical and electronic enclosures, considering there are still differences.\n\n1. Overview\n\nIP stands for Ingress Protection or International Protection Mark, it rates the protection mechanical and electrical enclosures have against solids and water. Based on the IEC 60529 (https://webstore.iec.ch/publication/2452), it is used globally and consists in the use of two digits, each one having a meaning. Follow IP Rating explained (https://support.rheonics.com/en/support/solutions/articles/81000408814-ip-rating-explained) article for more details.\n\nNEMA (National Electronic Manufacturers Association) ratings also certifies the protection of mechanical and electrical enclosures, not only against solids and water, but also against corrosion and can give construction details. This rating is mostly used in the U.S.\n\n2. IP and NEMA comparison\n\nSince both standards can be used in different countries at the same time, it is worth verifying the equivalents ratings. However, these are just approximations since they use different tests for rating. It can be said that a NEMA rating can match the same requirements or go beyond a specific IP rating, but an IP class can't do the same for NEMA. IP class also covers higher levels of ingress protection from water like IP69K with no direct equivalence in NEMA.\n\nTo select the right NEMA or IP classification, analyze the levels against your requirements.\n\nNEMA Rating | Description | ≈ IP Rating | Description\n------------|-------------|-------------|------------\nNEMA 1      | Protection against intrusion of large objects (e.g. hand contact). No protection against dust or water. | IP 10       | Protection against objects greater than Ø50mm. No protection against water.\nNEMA 2      | Protection against limited dripping water and dust in indoor use. | IP 11       | Protection against objects greater than Ø50mm. Protection against vertically falling water drops.\nNEMA 3      | Some degree of protection against rain, sleet and windblown dust. Not waterproof. | IP 54       | Protected against dust in harmful amounts. Protected against water splashed from any direction.\nNEMA 3S     | Covers NEMA 3 and also considers protection on external mechanisms. |             |            \nNEMA 13     | Protection against oil and dust in some level. |             |            \nNEMA 3R     | Some degree of protection against rain, and sleet. | IP 14       | Protection against objects greater than Ø50mm. Protected against water splashed from any direction.\nNEMA 4      | Protection against water, dust, sleet in the device and ice on surface. |             |            \nNEMA 4X     | Covers NEMA 4 and also provides additional protection against corrosion | IP 66       | Protection against dust and any solids. Protection against harmful quantity of water.",
+      "specifications": {
+        "Modified_date": "Wed, 11 Jan, 2023 at 6:03 PM",
+        "Phone_number": "+1 713 234 0863",
+        "IP_rating_standard": "IEC 60529",
+        "NEMA_1_protection_description": "Protection against intrusion of large objects (e.g. hand contact); No protection against dust or water",
+        "IP_10_protection_description": "Protection against objects greater than Ø50mm; No protection against water",
+        "NEMA_2_protection_description": "Protection against limited dripping water and dust in indoor use",
+        "IP_11_protection_description": "Protection against objects greater than Ø50mm; Protection against vertically falling water drops",
+        "NEMA_3_protection_description": "Some degree of protection against rain, sleet and windblown dust; Not waterproof",
+        "IP_54_protection_description": "Protected against dust in harmful amounts; Protected against water splashed from any direction",
+        "NEMA_3S_protection_description": "Covers NEMA 3 and also considers protection on external mechanisms",
+        "NEMA_13_protection_description": "Protection against oil and dust in some level",
+        "NEMA_3R_protection_description": "Some degree of protection against rain, and sleet",
+        "IP_14_protection_description": "Protection against objects greater than Ø50mm; Protected against water splashed from any direction",
+        "NEMA_4_protection_description": "Protection against water, dust, sleet in the device and ice on surface",
+        "NEMA_4X_protection_description": "Covers NEMA 4 and also provides additional protection against corrosion",
+        "IP_66_protection_description": "Protection against dust and any solids; Protection against harmful quantity of water",
+        "Object_size_specification": "Ø50mm"
+      },
+      "key_facts": [
+        "The article aims to correlate the most similar IP and NEMA protection ratings on mechanical and electronic enclosures.",
+        "IP stands for Ingress Protection or International Protection Mark, rating protection against solids and water, based on IEC 60529, and is used globally.",
+        "NEMA (National Electronic Manufacturers Association) ratings certify protection of enclosures against solids, water, and corrosion, can provide construction details, and are mostly used in the U.S.",
+        "IP and NEMA rating equivalences are approximations due to different testing methods.",
+        "A NEMA rating can sometimes match or exceed the requirements of an IP rating.",
+        "An IP class cannot fully cover all aspects of a NEMA rating.",
+        "IP classes include higher levels of water ingress protection, such as IP69K, which has no direct NEMA equivalence."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "To select the right NEMA or IP classification, analyze the levels against your requirements.",
+        "IP and NEMA rating equivalents are just approximations since they use different tests for rating."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1550,
+        "cost_usd": 0.0040148
+      },
+      "source_file": "014_IP_and_NEMA_rating_comparison.pdf"
+    },
+    {
+      "page_summary": "This page provides a comparison table of NEMA enclosure ratings with corresponding IP (Ingress Protection) ratings and lists external references for these standards.",
+      "document_type": "datasheet",
+      "product_names": [],
+      "extracted_text": "NEMA 5: Protection against dust with the use of gaskets.\nNEMA 12: Protection against dust, dripping water or light splashes.\nNEMA 12K: Covers NEMA 12 and includes surface knockouts on enclosures. ≈ IP 52: Protected against dust in harmful amounts. Protection against vertically and up to 15° tilted water drops.\nNEMA 6: Protection against limited water submersion and sleet.\nNEMA 6P: Covers NEMA 6 with an improvement on water submersion. ≈ IP 67: Protection against dust and any solids. Protection against immersion in water from 15cm to 100cm.\n\nReferences:\n[1]: IEC 60529 (https://webstore.iec.ch/publication/2452)\n(https://webstore.iec.ch/preview/info__iec60529{ed2.2}b.pdf)\n[2]: https://www.nema.org/ (https://www.nema.org/)\n[3]: (https://support.rheonics.com/en/support/solutions/articles/81000408814-ip-rating-explained)\n(https://support.rheonics.com/en/support/solutions/articles/81000408814-ip-rating-explained)\n(https://support.rheonics.com/en/support/solutions/articles/81000408814-ip-rating-explained)\n(https://support.rheonics.com/en/support/solutions/articles/81000408814-ip-rating-explained)\n(https://support.rheonics.com/en/support/solutions/articles/81000408814-ip-rating-explained)\n(https://support.rheonics.com/en/support/solutions/articles/81000408814-ip-rating-explained)\n(https://support.rheonics.com/en/support/solutions/articles/81000408814-ip-rating-explained)",
+      "specifications": {
+        "NEMA 5": "Protection against dust with the use of gaskets.",
+        "NEMA 12": "Protection against dust, dripping water or light splashes.",
+        "NEMA 12K": "Covers NEMA 12 and includes surface knockouts on enclosures.",
+        "IP 52": "Protected against dust in harmful amounts. Protection against vertically and up to 15° tilted water drops.",
+        "NEMA 6": "Protection against limited water submersion and sleet.",
+        "NEMA 6P": "Covers NEMA 6 with an improvement on water submersion.",
+        "IP 67": "Protection against dust and any solids. Protection against immersion in water from 15cm to 100cm."
+      },
+      "key_facts": [
+        "NEMA 5 enclosures offer protection against dust through the use of gaskets.",
+        "NEMA 12 enclosures protect against dust, dripping water, or light splashes.",
+        "NEMA 12K enclosures encompass NEMA 12 protection and feature surface knockouts.",
+        "IP 52 rated enclosures provide protection against harmful amounts of dust and vertically falling water drops, even when tilted up to 15°.",
+        "NEMA 6 enclosures are designed for protection against limited water submersion and sleet.",
+        "NEMA 6P enclosures provide an improvement on water submersion protection over NEMA 6.",
+        "IP 67 rated enclosures offer protection against dust and all solid ingress, as well as immersion in water from 15cm to 100cm.",
+        "NEMA 12K and NEMA 12 ratings are approximately equivalent to IP 52.",
+        "NEMA 6 and NEMA 6P ratings are approximately equivalent to IP 67.",
+        "IEC 60529 is an international standard related to ingress protection.",
+        "NEMA.org is a resource for NEMA standards.",
+        "Rheonics provides support articles explaining IP ratings."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1039,
+        "cost_usd": 0.0027373
+      },
+      "source_file": "014_IP_and_NEMA_rating_comparison.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

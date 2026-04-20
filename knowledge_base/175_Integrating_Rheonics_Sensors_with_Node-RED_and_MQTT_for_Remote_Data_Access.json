@@ -1,0 +1,370 @@
+{
+  "source_file": "175_Integrating_Rheonics_Sensors_with_Node-RED_and_MQTT_for_Remote_Data_Access.pdf",
+  "total_pages": 6,
+  "chunks": [
+    {
+      "page_summary": "This document outlines the architecture and prerequisites for integrating Rheonics sensors with Node-RED and MQTT for remote data access and visualization using platforms like Ignition SCADA.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics Sensor Module Electronics (SME)",
+        "Rheonics Sensor (SRV)",
+        "Rheonics Sensor (SRD)",
+        "Rheonics Sensor (DVP)"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nIntegrating Rheonics Sensors with Node-RED and MQTT for Remote Data Access\nModified on: Thu, 18 Sep, 2025 at 4:57 PM\n\nWhat is the purpose of this article?\nThis guide explains how to read data from a Rheonics Sensor Module Electronics (SME) via Modbus TCP with Node-RED and publish it to an MQTT broker (HiveMQ in this example). The main goal is to enable remote visualization of sensor data from any location. This is achieved by using cloud-based MQTT brokers for accessible data exchange and combining it with Node-RED, which is a flexible and user-friendly tool to read, process, and publish sensor data into an MQTT broker.\n\nTABLE OF CONTENTS\n1. Prerequisites\n2. Obtaining Data in Node-RED\n   2.1. Open Node-RED\n   2.2. Add a Modbus-Read Node\n   2.3. Add a Function Node to Decode Float\n   2.4. Add an MQTT-Out Node\n   2.5. Deployment and Final Visualization of Node-RED flow\n3. Resources\n\n1. Prerequisites\n1. Rheonics SME with Modbus TCP enabled\n   SME connects to the sensor probe and transmits the data using different industrial communication protocols. Modbus TCP protocol is used in this article. (Link: https://support.rheonics.com/en/support/solutions/folders/81000217062)\n2. Node-RED (https://nodered.org/) (Windows 10/11 or Linux)\n   A visual programming tool used to collect, process, and route data. In this case, it acts as an intermediary that allows sending sensor data to an MQTT broker.\n   node-red-contrib-modbus: A Node-RED add-on that enables communication with Modbus devices.\n3. MQTT broker (HiveMQ in this article)\n   A cloud-based MQTT message broker acts as an intermediary between clients that send (publish) and receive (subscribe) data. In this case, it transmits the sensor data received from Node-RED to Ignition for remote visualization.\n\nFollowing this architecture, data from Rheonics sensors can be sent to an MQTT broker to visualize readings in any MQTT-compatible platform such as Ignition SCADA.\n\nFigure 1: Architecture of Rheonics, Node-RED, MQTT, and Ignition integration\n\n2. Obtaining Data in Node-RED\nThe goal is to obtain sensor data via Modbus TCP in Node-RED and send it to an MQTT broker. The completed Node-RED flow is shown below, and the following steps will explain how to build it.",
+      "specifications": {
+        "phone_number": "+1 713 234 0863",
+        "modified_date": "Thu, 18 Sep, 2025 at 4:57 PM",
+        "supported_operating_systems": "Windows 10/11 or Linux"
+      },
+      "key_facts": [
+        "The article explains how to integrate Rheonics Sensor Module Electronics (SME) with Node-RED and MQTT for remote data access.",
+        "The primary goal is to enable remote visualization of Rheonics sensor data from any location.",
+        "Data from Rheonics SME is read via Modbus TCP using Node-RED.",
+        "Node-RED is a flexible and user-friendly visual programming tool for reading, processing, and publishing sensor data.",
+        "MQTT brokers, such as HiveMQ, facilitate accessible cloud-based data exchange.",
+        "The integrated system allows sensor data to be visualized on any MQTT-compatible platform, with Ignition SCADA mentioned as an example.",
+        "A Node-RED add-on, node-red-contrib-modbus, is required for communication with Modbus devices."
+      ],
+      "diagram_labels": [
+        "MQTT",
+        "Cloud MQTT Broker",
+        "Ignition!",
+        "Remote monitoring",
+        "Device with Node-RED",
+        "Ethernet Switch",
+        "Modbus TCP",
+        "Rheonics SME",
+        "Rheonics Sensor (eg. SRV, SRD, DVP, others) for density, viscosity, temperature",
+        "Figure 1: Architecture of Rheonics, Node-RED, MQTT, and Ignition integration"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1104,
+        "cost_usd": 0.0028997999999999997
+      },
+      "source_file": "175_Integrating_Rheonics_Sensors_with_Node-RED_and_MQTT_for_Remote_Data_Access.pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions on how to set up Node-RED, start it from a terminal, and add a Modbus-Read node to process sensor data via Modbus TCP for Rheonics sensors, demonstrating a flow from Modbus to MQTT.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Sensors"
+      ],
+      "extracted_text": "To learn the basic steps for setting up Node-RED and using the modules mentioned in this article, visit the Node-RED Setup and MQTT for Rheonics Sensors (https://support.rheonics.com)\n\nFigure 2: Node-RED flow for sending data from Modbus to an MQTT\n\n2.1. Open Node-RED\n1. After installing Node-RED correctly, in a terminal, paste the following command to start running Node-RED:\nnode-red\n\n2. The terminal will display the corresponding version and indicate that Node-RED is running correctly. The server URL will appear after the Server now running at, in this case, http://127.0.0.1:1880/ (http://127.0.0.1:1880/)\n\nPS C:\\Users> node-red\nWelcome to Node-RED\n===================\n30 Jul 08:42:32 - [info] Node-RED version: v4.0.9\n30 Jul 08:42:32 - [info] Node.js version: v22.17.1\n30 Jul 08:42:32 - [info] Windows_NT 10.0.26100 x64 LE\n30 Jul 08:42:33 - [info] Loading palette nodes\n30 Jul 08:42:33 - [info] Settings file : C:\\Users\\...\\.node-red\\settings.js\n30 Jul 08:42:33 - [info] Context store : 'default' [module=memory]\n30 Jul 08:42:33 - [info] User directory : \\Users\\...\\.node-red\n30 Jul 08:42:33 - [info] Flows file : \\Users\\...\\.node-red\\flows.json\n30 Jul 08:42:33 - [warn] Projects disabled : editorTheme.projects.enabled=false\n30 Jul 08:42:33 - [warn] Flows file : \\Users\\...\\.node-red\\flows.json\n30 Jul 08:42:33 - [info] Server now running at http://127.0.0.1:1880/\n30 Jul 08:42:33 - [warn]\nYour flow credentials file is encrypted using a system-generated key.\nIf the system-generated key is lost for any reason, your credentials file will not be recoverable, you will have to delete it and re-enter your credentials.\nYou should set your own key using the 'credentialSecret' option in your settings file. Node-RED will then re-encrypt your credentials file using your chosen key the next time you deploy a change.\n30 Jul 08:42:33 - [info] Starting flows\n30 Jul 08:42:33 - [info] Started flows\n\nFigure 3: Node-RED running in a terminal\n\n3. Paste the link in a browser to load the Node-RED editor.\n\nFigure 4: Node-RED editor\n\n2.2. Add a Modbus-Read Node\nTo obtain the sensors data through Modbus TCP, use the node-red-contrib-modbus module.\n1. Drag a Modbus-read node onto the flow.",
+      "specifications": {},
+      "key_facts": [
+        "Node-RED can be used to send data from Modbus to MQTT.",
+        "Rheonics Sensors data can be obtained through Modbus TCP using the `node-red-contrib-modbus` module.",
+        "Node-RED is started by typing `node-red` in the terminal.",
+        "The Node-RED server typically runs locally at `http://127.0.0.1:1880/`.",
+        "The Node-RED version shown in the terminal output is `v4.0.9`, and Node.js version is `v22.17.1`.",
+        "The operating system identified from the terminal output is `Windows_NT 10.0.26100 x64 LE`.",
+        "Node-RED flow credentials are encrypted using a system-generated key by default.",
+        "Users are advised to set their own `credentialSecret` in the Node-RED settings file to re-encrypt credentials and prevent loss if the system-generated key is lost."
+      ],
+      "diagram_labels": [
+        "Node-RED",
+        "Flow 1",
+        "Flow 2",
+        "Flow 3",
+        "Flow 4",
+        "Filter nodes",
+        "common",
+        "inject",
+        "debug",
+        "complete",
+        "catch",
+        "status",
+        "link in",
+        "link call",
+        "link out",
+        "comment",
+        "function",
+        "switch",
+        "change",
+        "range",
+        "Modbus-Read",
+        "Viscosity",
+        "FloatConverter",
+        "SRV_Viscosity",
+        "MQTT Out",
+        "debug 55",
+        "debug 57",
+        "Node-RED Help",
+        "node-red",
+        "node-red-contrib-ignition-nodes",
+        "node-red-contrib-modbus",
+        "node-red-contrib-string",
+        "Deploy"
+      ],
+      "warnings_notes": [
+        "Projects disabled : editorTheme.projects.enabled=false (from Node-RED terminal output)",
+        "Flows file : \\Users\\...\\.node-red\\flows.json (from Node-RED terminal output, indicated as a warning)",
+        "Your flow credentials file is encrypted using a system-generated key. If the system-generated key is lost for any reason, your credentials file will not be recoverable, you will have to delete it and re-enter your credentials.",
+        "You should set your own key using the 'credentialSecret' option in your settings file. Node-RED will then re-encrypt your credentials file using your chosen key the next time you deploy a change."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1521,
+        "cost_usd": 0.0039423
+      },
+      "source_file": "175_Integrating_Rheonics_Sensors_with_Node-RED_and_MQTT_for_Remote_Data_Access.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions for configuring Modbus-Read nodes and Modbus TCP clients to acquire and decode viscosity data from a Rheonics SME device.",
+      "document_type": "manual",
+      "product_names": [
+        "SME"
+      ],
+      "extracted_text": "Figure 5: Modbus-Read node\n\n2. Double-click to configure:\n  * Name: Viscosity (It is just the label of the node)\n  * Function Code: FC4 - Read Input Registers\n  * Address: 40 (viscosity register). The rest of the input parameters can be found in Modbus TCP - Input Registers\n    (https://support.rheonics.com/en/support/solutions/articles/81000297664)\n  * Quantity: 2 (float = 2 registers)\n  * Poll Rate: 3s (depends on frequency of data reading desired)\n\nFigure 6: Modbus-Read Node Configuration\n\n3. Click on the Server field and press the plus to add a new Modbus TCP client. In this case, it corresponds to the SME:\n  * Type: TCP\n  * Host: IP address of the SME.\n    (https://support.rheonics.com/en/support/solutions/articles/81000297604-connecting-the-modbus-tcp-outputs)\n  * Port: 502 (default)\n  * Unit ID: 255\n\nFigure 7: Modbus Client Configuration\n\n2.3. Add a Function Node to Decode Float\nThe Modbus-Read node returns the values of the registers, which need to be transformed to obtain the value of viscosity. Add a function node to convert the 2 16-bit registers into a float value.\n\nFigure 8: Function node\n\n1. Drag a function node onto the flow.\n2. Double-click on the node and add the following code to the On Message section. This allows to return the viscosity as a float.",
+      "specifications": {
+        "Modbus Read Node Name": "Viscosity",
+        "Modbus Read Node Function Code": "FC4 - Read Input Registers",
+        "Modbus Read Node Address": "40",
+        "Modbus Read Node Quantity": "2 registers",
+        "Modbus Read Node Poll Rate": "3 seconds",
+        "Modbus Client Type": "TCP",
+        "Modbus Client Host (example)": "192.168.100.68",
+        "Modbus Client Port": "502",
+        "Modbus Client Unit ID": "255",
+        "Modbus Client Timeout": "1000 ms",
+        "Modbus Client Reconnect Timeout": "2000 ms"
+      },
+      "key_facts": [
+        "The Modbus-Read node is configured to read input registers for viscosity data.",
+        "Viscosity values are stored across two 16-bit Modbus registers and must be converted to a float.",
+        "The poll rate of the Modbus-Read node can be adjusted based on the desired data reading frequency.",
+        "A Modbus TCP client must be added and configured to communicate with the SME device.",
+        "The default Modbus TCP port is 502.",
+        "A function node is required to transform the raw register values from the Modbus-Read node into a usable float viscosity value."
+      ],
+      "diagram_labels": [
+        "Modbus - Read",
+        "function",
+        "Properties",
+        "Settings",
+        "Optionals",
+        "Name",
+        "Topic",
+        "Unit-Id",
+        "FC",
+        "Address",
+        "Quantity",
+        "Poll Rate",
+        "second(s)",
+        "Delay to activate input",
+        "Server",
+        "SRV",
+        "Type",
+        "Host",
+        "Port",
+        "TCP Type",
+        "DEFAULT",
+        "Timeout (ms)",
+        "Reconnect on timeout",
+        "Reconnect timeout (ms)"
+      ],
+      "warnings_notes": [
+        "The 'Name' field for the Modbus-Read node (e.g., Viscosity) is solely a label for the node.",
+        "Address '40' specifically refers to the viscosity register.",
+        "A float value requires 2 Modbus registers for its representation.",
+        "The poll rate should be set according to the desired data reading frequency.",
+        "Port 502 is the default setting for Modbus TCP communication.",
+        "The values returned by the Modbus-Read node are raw registers and require transformation into a float to represent viscosity."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1081,
+        "cost_usd": 0.0028423
+      },
+      "source_file": "175_Integrating_Rheonics_Sensors_with_Node-RED_and_MQTT_for_Remote_Data_Access.pdf"
+    },
+    {
+      "page_summary": "This page details the configuration of an MQTT-out node for publishing Rheonics sensor data, specifically viscosity, to a HiveMQ broker, including a JavaScript function for float conversion.",
+      "document_type": "manual",
+      "product_names": [
+        "HiveMQ",
+        "Rheonics sensors (implied)"
+      ],
+      "extracted_text": "let buffer = Buffer.alloc(4);\n\nbuffer.writeUInt16BE(msg.payload[0], 0);\nbuffer.writeUInt16BE(msg.payload[1], 2);\n\nmsg.payload = buffer.readFloatBE(0);\n\nreturn msg;\n\nFigure 9: Function Node - Float Conversion\n\n2.4. Add an MQTT-Out Node\nAdd an MQTT-out node to publish the sensor data to the broker. In this case, HiveMQ broker.\n\nTo learn how to create and configure the HiveMQ broker refer to HiveMQ Broker Integration with Rheonics (https://support.rheonics.com/en/support/solutions/articles/8100041868)\n\nFigure 10: MQTT-out node\n\n1. Drag an MQTT-out onto the flow.\n2. Double-click on the node to configure its properties\n• Topic: srv/viscosity (name of the topic where the viscosity data will be published)\n• QoS: 1 (this allows the message to be received at least once)\n\nFigure 11: MQTT-Out Node Configuration\n\n3. Add an MQTT broker by pressing in the plus next to Server to add the HiveMQ broker.",
+      "specifications": {
+        "Buffer size": "4 bytes",
+        "MQTT Quality of Service (QoS)": "1"
+      },
+      "key_facts": [
+        "An MQTT-out node is used to publish sensor data to a broker.",
+        "The HiveMQ broker is utilized in this example for data publishing.",
+        "Rheonics sensor data, specifically viscosity, is published under the MQTT topic \"srv/viscosity\".",
+        "MQTT Quality of Service (QoS) level 1 ensures that messages are received by the broker at least once.",
+        "A JavaScript function node performs float conversion by writing two 16-bit unsigned integers (Big-Endian) from the message payload into a 4-byte buffer and then reading a 32-bit floating-point number (Big-Endian) from that buffer.",
+        "Configuration for the HiveMQ broker integration with Rheonics is available at the provided support URL."
+      ],
+      "diagram_labels": [
+        "Edit function node",
+        "Delete",
+        "Cancel",
+        "Done",
+        "Properties",
+        "Name",
+        "floatconverter",
+        "Setup",
+        "On Start",
+        "On Message",
+        "On Stop",
+        "Figure 9: Function Node - Float Conversion",
+        "mqtt out",
+        "Figure 10: MQTT-out node",
+        "Server",
+        "HiveMQ",
+        "Topic",
+        "srv/viscosity",
+        "QoS",
+        "1",
+        "Retain",
+        "User Properties",
+        "none",
+        "Response topic",
+        "Content Type",
+        "Expiry (secs)",
+        "Name",
+        "Tip: Leave topic, qos or retain blank if you want to set them via msg properties.",
+        "Figure 11: MQTT-Out Node Configuration"
+      ],
+      "warnings_notes": [
+        "Tip: Leave topic, qos or retain blank if you want to set them via msg properties."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 839,
+        "cost_usd": 0.0022373
+      },
+      "source_file": "175_Integrating_Rheonics_Sensors_with_Node-RED_and_MQTT_for_Remote_Data_Access.pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions for configuring an MQTT broker (HiveMQ) and deploying a Node-RED flow, detailing connection parameters, security settings, and the final deployment action.",
+      "document_type": "manual",
+      "product_names": [
+        "HiveMQ",
+        "Node-RED"
+      ],
+      "extracted_text": "4. Next, the properties of the MQTT broker are filled as follow:\n*   Name: Desired name for the broker\n*   Server: HiveMQ Connection URL\n*   Port: Port used by the broker\n*   Use TLS: Enable if using encrypted communication\n*   Protocol: MQTT V5\n\nFigure 12: MQTT broker addition\nTip: Leave topic, qos or retain blank if you want to set them via msg properties\n\nFigure 13: HiveMQ Broker Configuration - Connection Tab\n\n5. Go to the Security Tab on the HiveMQ Broker configuration and fill it with the credentials of the HiveMQ broker.\n\t1.  Username: username credentials in HiveMQ broker\n\t2.  Password: password credentials in HiveMQ broker\n\nFigure 14: HiveMQ Broker Configuration - SecurityTab\n\n2.5. Deployment and Final Visualization of Node-RED flow\n1.  After adding correctly and configuring the nodes, press on the Deploy button to run the flow.\n\nFigure 15: Deployment of Node-RED flow\n\n2. The final flow looks as follow.",
+      "specifications": {
+        "QoS": "1",
+        "Port": "8883",
+        "Keep Alive": "60 seconds",
+        "Protocol": "MQTT V5",
+        "Server URL": "07b0d1199eb64b86bc66197944f38036.s1.eu."
+      },
+      "key_facts": [
+        "The MQTT broker requires configuration of its name, server URL, port, TLS usage, and protocol.",
+        "HiveMQ is specified as the MQTT broker.",
+        "The connection topic for the MQTT broker is set to 'srv/viscosity'.",
+        "The MQTT broker configuration includes options for automatic connection, TLS encryption, and a keep-alive interval of 60 seconds.",
+        "Broker credentials, including username and password, are configured under the 'Security' tab of the HiveMQ Broker settings.",
+        "A Node-RED flow is executed by pressing the 'Deploy' button after all nodes are configured."
+      ],
+      "diagram_labels": [
+        "Properties",
+        "Server",
+        "HiveMQ",
+        "Topic",
+        "srv/viscosity",
+        "QoS",
+        "Retain",
+        "User Properties",
+        "Response topic",
+        "Content Type",
+        "Expiry (secs)",
+        "Name",
+        "Connection",
+        "Security",
+        "Messages",
+        "Port",
+        "Connect automatically",
+        "Use TLS",
+        "TLS configuration",
+        "Protocol",
+        "Client ID",
+        "Keep Alive",
+        "Session",
+        "Use clean start",
+        "Session Expiry (secs)",
+        "Username",
+        "Password",
+        "Broker credentials",
+        "help",
+        "Search help",
+        "json",
+        "Deploy",
+        "Figure 12: MQTT broker addition",
+        "Figure 13: HiveMQ Broker Configuration - Connection Tab",
+        "Figure 14: HiveMQ Broker Configuration - SecurityTab",
+        "Figure 15: Deployment of Node-RED flow"
+      ],
+      "warnings_notes": [
+        "Tip: Leave topic, qos or retain blank if you want to set them via msg properties"
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 880,
+        "cost_usd": 0.0023398
+      },
+      "source_file": "175_Integrating_Rheonics_Sensors_with_Node-RED_and_MQTT_for_Remote_Data_Access.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions for setting up a Node-RED flow to integrate Rheonics sensors via Modbus to MQTT and lists various resources for sensor integration with Ignition SCADA.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics sensors",
+        "SME"
+      ],
+      "extracted_text": "Figure 16: Complete Node-RED Flow for Modbus to MQTT\n\n3. Repeat the same procedure to obtain other parameters of the SME by modifying the address and topic. (https://support.rheonics.com/en/support/solutions/articles/81000418655)\n\nTo learn how to integrate Ignition SCADA with Rheonics sensors via MQTT refer to Using Ignition SCADA to Visualize Rheonics Sensor Data via MQTT (https://support.rheonics.com/en/support/solutions/articles/81000418655)\n\n3. Resources\n\n*   Modbus TCP (Ethernet) (https://support.rheonics.com/en/support/solutions/folders/81000217062)\n*   Node-RED (https://nodered.org/)\n*   Node-RED Setup and MQTT for Rheonics Sensors (https://support.rheonics.com/en/support/solutions/articles/81000418666)\n*   Modbus TCP - Input Registers (https://support.rheonics.com/en/support/solutions/articles/81000297664) us TCP outputs\n*   Connecting the Modb (https://support.rheonics.com/en/support/solutions/articles/81000297604)\n*   HiveMQ Broker Integration with Rheonics (https://support.rheonics.com/en/support/solutions/articles/81000418688)\n*   Using Ignition SCADA to Visualize Rheonics Sensor Data via MQTT (https://support.rheonics.com/en/support/solutions/articles/81000418655)",
+      "specifications": {
+        "InputRegister active time": "5 sec",
+        "debug 4 output": "16211",
+        "debug 5 output": "21381",
+        "srvViscosity debug 6 output": "0.8254931569099426"
+      },
+      "key_facts": [
+        "The document illustrates a complete Node-RED flow for Modbus to MQTT conversion.",
+        "Users can obtain additional parameters from the SME by adjusting the Modbus address and topic.",
+        "Integration of Rheonics sensors with Ignition SCADA using MQTT is a key topic addressed with a specific resource link.",
+        "A section titled 'Resources' provides links to support articles and general information regarding Modbus TCP, Node-RED, MQTT, and HiveMQ integration with Rheonics sensors."
+      ],
+      "diagram_labels": [
+        "InputRegister",
+        "active (5 sec.)",
+        "Floatconverter",
+        "debug 4",
+        "16211",
+        "debug 5",
+        "21381",
+        "srvViscosity",
+        "connected",
+        "debug 6",
+        "0.8254931569099426"
+      ],
+      "warnings_notes": [],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 797,
+        "cost_usd": 0.0021322999999999997
+      },
+      "source_file": "175_Integrating_Rheonics_Sensors_with_Node-RED_and_MQTT_for_Remote_Data_Access.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

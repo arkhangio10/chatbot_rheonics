@@ -1,0 +1,782 @@
+{
+  "source_file": "185_Real-time_quality_control_of_paint,_ink,_coating_manufacturing_using_process_viscometer_and_density_meter.pdf",
+  "total_pages": 16,
+  "chunks": [
+    {
+      "page_summary": "This page provides guidelines on using Rheonics SRV and SRD meters for real-time quality control in paint, ink, and coating manufacturing, including descriptions of these materials.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "SRV inline viscometer",
+        "SRD density and viscosity meter",
+        "VAF ViscoSense line",
+        "SRV - Inline Viscosity Meter",
+        "SRD - Inline Density and Viscosity meter"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nReal-time quality control of paint, ink, coating manufacturing using process viscometer and density meter\n\nModified on: Wed, 2 Oct, 2024 at 3:41 PM\n\nWhat is the purpose of this article?\nTo provide guidelines on how the Rheonics SRV inline viscometer or SRD density and viscosity meter can retrofit the VAF ViscoSense line of viscosity and density sensors.\n\nWhat products are involved?\n(https://rheonics.com/products/inline-viscometer-srv/) SRV - Inline Viscosity Meter (https://rheonics.com/products/inline-viscometer-srv/) and SRD - Inline Density and Viscosity meter (https://rheonics.com/products/inline-density-meter-srd/)\n\n1. Description\nThe terms paint, ink, and coating share in common some of their raw materials and their production processes but differ in their specific properties, composition, and final applications. Let's briefly review each in detail.\n\nPaint\nIs a homogeneous fluid mixture intended to solidify once it is applied to a surface. It can be used to color, protect, or add texture to the surface where it is applied. It can be found in different colors and with specific characteristics, such as high adhesive level, waterproof, etc. planned for different final applications. Paint is composed of pigments, solvents, resins, and other additives.\nSome market leader companies in paint are [4]:\n*   PPG Industries\n*   Sherwin-Williams\n*   Akzo Paint\n*   Nippon Paint\n\nInk\nIs a liquid or paste solution that is used primarily for printing, drawing, writing, or decorative color additions to a surface. Ink is made mainly of pigments and binders, called “vehicles”, which carry the pigments. Solvents, resins, waxes, dyes, and other additive materials can be used as well, to define the ink’s thickness, viscosity, drying time, and appearance when dry.\nSome leading companies in ink are:\n*   Siegwerk\n*   Toyo Ink",
+      "specifications": {},
+      "key_facts": [
+        "The article provides guidelines on how Rheonics SRV inline viscometer or SRD density and viscosity meter can be used for real-time quality control in paint, ink, and coating manufacturing.",
+        "Rheonics SRV inline viscometer or SRD density and viscosity meter can retrofit the VAF ViscoSense line of viscosity and density sensors.",
+        "Paint is a homogeneous fluid mixture of pigments, solvents, resins, and other additives, used to color, protect, or add texture to a surface.",
+        "Ink is a liquid or paste solution primarily used for printing, drawing, writing, or decorative color additions, composed of pigments, binders (\"vehicles\"), solvents, resins, waxes, dyes, and other additives that define its properties."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 801,
+        "cost_usd": 0.0021422999999999998
+      },
+      "source_file": "185_Real-time_quality_control_of_paint,_ink,_coating_manufacturing_using_process_viscometer_and_density_meter.pdf"
+    },
+    {
+      "page_summary": "This page provides a definition of coatings, categorizes various types of paints, inks, and coatings by industry, and explains the general composition and manufacturing principles of these fluids.",
+      "document_type": "whitepaper",
+      "product_names": [],
+      "extracted_text": "Sun Chemical\nFlint Group\n\nCoating\nCoatings, in this context, refer to any fluid used to cover a surface, either by brushing, spraying, dipping, or rolling. The term may be similar to paints but encompasses many more types, like emulsions, enamels, lacquers, etc. Its properties also change accordingly for the final application intended.\n\nPaint, ink, and coating in different industries\nPaints, inks, and coatings are used in multiple industries as detailed in the next table.\n\nTable 1: Paint, ink, and coating in different industries\n| Industry          | Paint                                                                | Ink                                                                               | Coating                               |\n|-------------------|----------------------------------------------------------------------|-----------------------------------------------------------------------------------|---------------------------------------|\n| Automotive        | Solid paint, Urethane enamel, Alkyd enamel, Automotive clearcoat or transparent polyethylene paint, Metallic paint | Pad printing ink, UV-Curable inkjet inks, Screen printing inks, Digital printing inks | Acrylic lacquer, Mineral spirits coatings, Acetone and MEK |\n| Food and Beverage | Epoxies                                                              | Food-grade inks                                                                   | -                                     |\n| Biomedical        | -                                                                    | Conductive inks, Biosensing inks                                                  | Biocompatible coatings, Sugar coating, Film coating |\n| Packaging         | -                                                                    | Gravure inks, Flexographic inks                                                   | Mineral spirits coatings              |\n\nVisit Rheonics application notes in different industry areas: Printing and Coating Archives\n(https://rheonics.com/solutions-category/printing-and-coating/)\n\n2. How paint, ink, and coatings are made?\nPaints, inks, and coatings share similar raw materials for their production. These materials can be pigments, solvents, resins, colorants, binders, etc. In general terms, the pigments provide the color, solvents facilitate their application, resins define the drying properties, and additives modify the unique characteristics of each product.\nFor example, paints or coatings for the automotive industry vary completely for those used in seaship's manufacturing processes, due to the working conditions and surface materials the paint will be exposed or applied to.\nThere are two types of bases for these fluids, which are water and solvent. These have a great impact on the final properties of the fluid and the environmental impact of the product.",
+      "specifications": {},
+      "key_facts": [
+        "Coatings are fluids applied to a surface by methods such as brushing, spraying, dipping, or rolling, encompassing types like paints, emulsions, enamels, and lacquers.",
+        "The properties of a coating change depending on its intended final application.",
+        "Paints, inks, and coatings are utilized across various industries, including Automotive, Food and Beverage, Biomedical, and Packaging.",
+        "Common raw materials for paints, inks, and coatings include pigments, solvents, resins, colorants, and binders.",
+        "Pigments are responsible for color, solvents aid in application, resins dictate drying properties, and additives modify specific product characteristics.",
+        "Paints and coatings used in different industries, such as automotive versus seaship manufacturing, vary significantly due to diverse working conditions and surface materials.",
+        "Paint, ink, and coating fluids are based on either water or solvents, which significantly influence their final properties and environmental impact.",
+        "Rheonics provides application notes for printing and coating industries."
+      ],
+      "diagram_labels": [
+        "Table 1: Paint, ink, and coating in different industries",
+        "Industry",
+        "Paint",
+        "Ink",
+        "Coating",
+        "Automotive",
+        "Food and Beverage",
+        "Biomedical",
+        "Packaging"
+      ],
+      "warnings_notes": [
+        "Visit Rheonics application notes in different industry areas: Printing and Coating Archives (https://rheonics.com/solutions-category/printing-and-coating/)"
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 925,
+        "cost_usd": 0.0024523
+      },
+      "source_file": "185_Real-time_quality_control_of_paint,_ink,_coating_manufacturing_using_process_viscometer_and_density_meter.pdf"
+    },
+    {
+      "page_summary": "This page describes the characteristics of water-based and solvent-based fluids, the types of pigments used in paints, inks, and coatings, and outlines their general manufacturing process.",
+      "document_type": "whitepaper",
+      "product_names": [],
+      "extracted_text": "Water-based fluids: Water-based (waterborne acrylics, and acrylic latex paints) fluids are relatively new solutions. They have the main advantage of being eco-friendly and not showing a health risk due to inhalation during application since they have a low VOC degree (Volatile Organic Compounds). They do need a longer time to dry once applied but coated surfaces are also easier to clean later.\n\nSolvent-based fluids: Solvents-based fluids (known as alkyd or oil-based) were the only option known for some time in the past. They contain volatile organic compounds (VOC) to a high degree so they show some environmental and health risks when used. The layers obtained have a higher resistance to the environment, then these types of paints are used for harsh conditions when needed.\n\nPigments\nPigments are color solids used to define the color (pigment process), bulk, and other chemical and physical characteristics of the paint, inks, and coatings. The most common pigment types are:\n* Organic pigments\n* Inorganic pigments\n* Functional pigments\n* Special effect pigments\n\nEach has certain behaviors while mixing. For example, organic pigments can easily create agglomerates or lumps of solid in the mix, while inorganic pigments are easier to disperse.\n\nFigure 1: Pigments for paints, inks, and coatings.\n\nThe manufacturing process for these products can be similar in a broad production flowchart view as follows.\n1. The process starts with a mixing of the primary materials. For example pigment (which is mostly delivered in partially fine grain powder), resin, solvents, and other additives for paints and coatings. While for ink, the mixture is mainly composed of binders and pigments.\n2. The mixture then needs to be dispersed, a process which is often referred to as grinding but involves more steps like wetting and stabilization. The intention here is to break any possible lump or agglomeration of solids and obtain the finest fluid possible. The type of machinery and grinding process change between products and are described in more detail in following sections.\n3. Quality controls and more materials can be added and mixed for specific characteristics of the final product.\n4. Packaging and distribution.",
+      "specifications": {},
+      "key_facts": [
+        "Water-based fluids (waterborne acrylics, acrylic latex paints) are eco-friendly, have a low VOC degree, and do not pose an inhalation health risk.",
+        "Water-based fluids require a longer drying time, but their coated surfaces are easier to clean.",
+        "Solvent-based fluids (alkyd or oil-based) contain a high degree of VOCs, posing environmental and health risks.",
+        "Solvent-based fluids yield layers with higher resistance to the environment and are used for harsh conditions.",
+        "Pigments are color solids that define the color, bulk, and other chemical and physical characteristics of paints, inks, and coatings.",
+        "The most common pigment types are organic, inorganic, functional, and special effect pigments.",
+        "Organic pigments tend to create agglomerates or lumps during mixing, while inorganic pigments are easier to disperse.",
+        "The manufacturing process for paints, inks, and coatings generally involves mixing primary materials, dispersion (grinding), quality controls, and packaging/distribution."
+      ],
+      "diagram_labels": [
+        "Figure 1: Pigments for paints, inks, and coatings."
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 802,
+        "cost_usd": 0.0021447999999999997
+      },
+      "source_file": "185_Real-time_quality_control_of_paint,_ink,_coating_manufacturing_using_process_viscometer_and_density_meter.pdf"
+    },
+    {
+      "page_summary": "This page details the importance of viscosity and density in paint, ink, and coating production processes, outlining key fluid properties they define and the benefits of using real-time inline monitoring systems for improved control and automation.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "Rheonics integrated system",
+        "InkSight"
+      ],
+      "extracted_text": "Solvents Resins Binders\nPigments\nMixing\nM\nHigh Speed Dispersion Tank\nBead Mill\nM\nM\nGrinding and\nDispersion\nSolvents Resins\nQuality Control\nFinal Additives\nand Control Quality\nPaint, Ink, Solvents\nBuckets\nFilling and\nPackaging\nFigure 2: Paint, ink, and coating production process flow chart\n\n3. Viscosity and Density relevance in Paint, Ink and Coating Production Processes\n\nThroughout the complete process of paint, inks, and coatings, during production, packaging, and application, the viscosity and density of the fluid are of great relevance.\n\nProperties of paint, ink, and coating, related to viscosity and density\n\nThe viscosity and density are important properties of paint, ink, and coating because they define key properties like:\n\n* Surface finish\n* Layer and final thickness\n* Adhesion\n* Paint transfer efficiency\n* Coating deposition\n* Environmental and workplace safety\n* Specific gravity\n* Solid concentration\n* Fluid thickness\n\nReal-time monitoring and management of the viscosity and density of paint, ink, and coating inline, allows users to:\n\n* Avoid manual sampling: Offline instruments and measuring methods are mostly messy, time-consuming, with low accuracy, and not suitable for historical review throughout the process. Leave the offline tools for quality control procedures only but allow complete automation with a real-time inline process viscometer to enable complete automation of the process.\n* Reduce errors: Complete monitoring of the fluid's viscosity allows the detection of all variations that can cause significant changes in fluid properties. Early detection leads to early actions to reduce errors.\n* Tighter control: Real-time monitoring of viscosity allows the user to improve the control systems. Inline readings mean no delays or changes in fluid conditions when measured (variations in temperature, pressure, and flow affect the viscosity of a non-Newtonian fluid) which are common limitations with offline viscometers. Rheonics integrated system for control also allows incredible tight control by the addition of small quantities of solvents calculated by the systems. Review more on InkSight",
+      "specifications": {},
+      "key_facts": [
+        "Viscosity and density of the fluid are of great relevance throughout the complete process of paint, inks, and coatings, during production, packaging, and application.",
+        "The viscosity and density are important properties of paint, ink, and coating because they define key properties such as surface finish, layer and final thickness, adhesion, paint transfer efficiency, coating deposition, environmental and workplace safety, specific gravity, solid concentration, and fluid thickness.",
+        "Real-time monitoring and management of the viscosity and density of paint, ink, and coating inline allows users to avoid manual sampling, reduce errors, and achieve tighter control.",
+        "Offline instruments and measuring methods for viscosity are mostly messy, time-consuming, with low accuracy, and not suitable for historical review throughout the process.",
+        "A real-time inline process viscometer can enable complete automation of the paint, ink, and coating production process.",
+        "Complete monitoring of a fluid's viscosity facilitates the detection of variations that could cause significant changes in fluid properties, leading to early actions to reduce errors.",
+        "Real-time monitoring of viscosity improves control systems by providing inline readings without delays or changes in fluid conditions.",
+        "Variations in temperature, pressure, and flow are common limitations with offline viscometers for non-Newtonian fluids.",
+        "The Rheonics integrated system allows for incredibly tight control, including the calculated addition of small quantities of solvents."
+      ],
+      "diagram_labels": [
+        "Solvents Resins Binders",
+        "Pigments",
+        "Mixing",
+        "M",
+        "High Speed Dispersion Tank",
+        "Bead Mill",
+        "Grinding and Dispersion",
+        "Quality Control",
+        "Final Additives and Control Quality",
+        "Paint, Ink, Solvents Buckets",
+        "Filling and Packaging",
+        "Figure 2: Paint, ink, and coating production process flow chart"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1002,
+        "cost_usd": 0.0026448
+      },
+      "source_file": "185_Real-time_quality_control_of_paint,_ink,_coating_manufacturing_using_process_viscometer_and_density_meter.pdf"
+    },
+    {
+      "page_summary": "This page introduces Rheonics inline viscosity and density sensors (SRV and SRD), highlights their benefits for quality improvement and process automation, and outlines their application in paint, ink, and coating processes.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SRV",
+        "Rheonics SRD",
+        "Rheonics Type-SR",
+        "PaintTrack",
+        "RPS InkSight"
+      ],
+      "extracted_text": "(https://rheonics.com/products/rps-inksight-rheonics-printing-solution/) and PaintTrack (https://cdn.rheonics.com/wp-content/uploads/2023/12/Brochure_Rheonics_PaintTrack_2312.pdf) systems.\n• Improve quality: The user can comply with the product specifications and properties required based on tight monitoring of viscosity, and easy comparison between previous jobs, enabling higher quality in the final product.\n\n4. Rheonics Inline Density and Viscometer sensors\n\nRheonics offers inline sensors for viscosity and density to monitor and control all processes required for paint, ink, and coating, allowing the full automation of the process.\nThe Rheonics SRV measures viscosity and temperature, while the SRD measures density, viscosity, and temperature inline. These robust sensors are built to sustain different environments while maintaining high accuracy, and repeatable and reproducible readings.\n\nLearn more on the viscosity SRV here (https://rheonics.com/products/inline-viscometer-srv/)\nLearn more on the density and viscosity meter SRD here (https://rheonics.com/products/inline-density-meter-srd).\n\nThese sensors allow users to:\n• Take continuous inline measurements of viscosity and density during the paint, ink, and coating processes.\n• Avoid the need for recalibration during the sensor lifetime.\n• Avoid delays from sampling and measuring, output viscosity, and density of the fluid under real process conditions.\n• Obtain high accuracy and repeatability of readings.\n• Lead efforts to complete process automation.\n\nFigure 3: Rheonics SRV and SRD 3/4\" NPT sensor probes\n\n5. Installation of Rheonics sensors in Paint, ink, and coating processes\n\nThe Rheonics Type-SR sensors are used at multiple points throughout the production processes and final applications of paint, inks, and coatings. The SRV and SRD sensor probe have the next basic requirements for installation:",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics offers inline sensors for viscosity and density to monitor and control processes in paint, ink, and coating, enabling full automation.",
+        "The Rheonics SRV measures viscosity and temperature inline.",
+        "The Rheonics SRD measures density, viscosity, and temperature inline.",
+        "These robust sensors are designed to sustain different environments while maintaining high accuracy, and repeatable and reproducible readings.",
+        "Rheonics sensors allow continuous inline measurements of viscosity and density during paint, ink, and coating processes.",
+        "Rheonics sensors eliminate the need for recalibration during their lifetime.",
+        "Rheonics sensors help avoid delays from sampling and measuring, providing real-time viscosity and density data under actual process conditions.",
+        "The sensors enable users to obtain high accuracy and repeatability of readings.",
+        "Rheonics sensors support efforts to achieve complete process automation.",
+        "The user can improve product quality by complying with specifications through tight monitoring of viscosity and easy comparison between jobs.",
+        "Rheonics Type-SR sensors are used at multiple points throughout production processes and final applications for paint, inks, and coatings."
+      ],
+      "diagram_labels": [
+        "Figure 3: Rheonics SRV and SRD 3/4\" NPT sensor probes"
+      ],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 846,
+        "cost_usd": 0.0022547999999999995
+      },
+      "source_file": "185_Real-time_quality_control_of_paint,_ink,_coating_manufacturing_using_process_viscometer_and_density_meter.pdf"
+    },
+    {
+      "page_summary": "This page provides basic installation considerations and guidelines for Rheonics SRV viscometers and SRD density and viscosity meters in both pipelines and tanks/vessels, including diagrams of their sensing areas and critical clearances.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SRV Viscometer",
+        "Rheonics SRD Density and Viscosity Meter",
+        "SRV",
+        "SRD"
+      ],
+      "extracted_text": "Rheonics SRV Viscometer\n50 mm [1.96\"]\nØ16 mm [0.63\"]\nSRV tip's clearance to any obstruction 5 mm [0.2\"]\n\nRheonics SRD Density and Viscosity Meter\n50 mm [1.96\"]\nØ35 mm [1.4\"]\n35 mm [1.4\"]\nSRD tip's clearance to any obstruction 12 mm [0.5\"]\n\nAvoid stagnation zones in the sensing zones (red areas)\nEnsure sensing element in red is in contact with fluid\n\nFigure 4: Rheonics SRV and SRD sensing areas\n\nBasic considerations for installation in pipelines:\n\nThe SRV and SRD can be installed in lines even with diaphragm pumps that may not ensure a continuous flow.\n\n* What is always important to consider is that the sensing area of the sensor probe should not be obstructed, and should be surrounded only by the fluid of interest.\n* The SRD sensor probe has a requirement related to the sensing tip orientation relative to the flow line. This is relevant for perpendicular installations in pipelines. See more here: SRD fluid end orientation installation (https://support.rheonics.com/en/support/solutions/articles/81000408815-srd-fluid-end-orientation)\n* For fluids with temperatures 15°C higher or lower than the ambient temperature, the SRD should have an insertion of 100mm to ensure high accuracy in density readings. See more here: Ensure thermal balance in SRD resonator for density accuracy (https://support.rheonics.com/en/support/solutions/articles/81000412500-maintaining-the-srd-s-temperature-balance-for-high-density-accuracy)\n* Paint, layers, and coatings tend to create layers, in that case, the probe should be inspected and cleaned periodically. The SRV sensor is capable of detecting when cleaning is needed.\n\nBasic considerations for installation in tanks or vessels:\n\nFor installation in tanks or vessels, most of the time the space available is enough to ensure the sensing areas (Figure 4) are not obstructed. Sensor probes should be distanced enough from walls, mixer shafts, etc. What is important here, is to place the sensing element below the minimum fluid level to not miss any data throughout the process. The installation in tanks can be from the tank's top, wall, or bottom.\n\nSome considerations are:\n\n* The SRD, density and viscosity meter, is not recommended for mixing tanks as the process can add too much noise to the readings. The SRD can be installed in a storage tank (static fluid) or a recirculation line for mixing processes.\n* Identify existing ports to reuse for installation of the probes.\n* Keep the sensor probe away from a potential collision.\n* Paint, layers, and coatings tend to create layers, in that case, the probe should be inspected and cleaned periodically. The SRV sensor is capable of detecting when cleaning is needed.",
+      "specifications": {
+        "SRV sensing area length": "50 mm [1.96\"]",
+        "SRV sensing area diameter": "16 mm [0.63\"]",
+        "SRV tip clearance to any obstruction": "5 mm [0.2\"]",
+        "SRD sensing area top length": "50 mm [1.96\"]",
+        "SRD sensing area diameter": "35 mm [1.4\"]",
+        "SRD sensing area bottom length": "35 mm [1.4\"]",
+        "SRD tip clearance to any obstruction": "12 mm [0.5\"]",
+        "SRD recommended insertion depth for fluids with temperature difference of +/-15°C from ambient": "100 mm"
+      },
+      "key_facts": [
+        "The SRV and SRD can be installed in lines even with diaphragm pumps that may not ensure a continuous flow.",
+        "The sensing area of the sensor probe should not be obstructed and must be surrounded only by the fluid of interest.",
+        "The SRD sensor probe has a specific requirement related to the sensing tip orientation relative to the flow line, which is relevant for perpendicular installations in pipelines.",
+        "For fluids with temperatures 15°C higher or lower than the ambient temperature, the SRD should have an insertion of 100mm to ensure high accuracy in density readings.",
+        "Paint, layers, and coatings tend to create layers on the probe, necessitating periodic inspection and cleaning.",
+        "The SRV sensor is capable of detecting when cleaning is needed.",
+        "For installation in tanks or vessels, the space available should be enough to ensure the sensing areas are not obstructed.",
+        "Sensor probes in tanks or vessels should be distanced enough from walls, mixer shafts, and similar obstructions.",
+        "It is important to place the sensing element below the minimum fluid level in tanks to prevent missing data throughout the process.",
+        "Installation in tanks can be performed from the tank's top, wall, or bottom.",
+        "The SRD density and viscosity meter is not recommended for mixing tanks as the process can add too much noise to the readings.",
+        "The SRD can be installed in a storage tank (static fluid) or a recirculation line for mixing processes.",
+        "Existing ports should be identified and reused for the installation of the probes.",
+        "The sensor probe should be kept away from a potential collision."
+      ],
+      "diagram_labels": [
+        "Rheonics SRV Viscometer",
+        "50 mm [1.96\"]",
+        "Ø16 mm [0.63\"]",
+        "SRV tip's clearance to any obstruction 5 mm [0.2\"]",
+        "Rheonics SRD Density and Viscosity Meter",
+        "50 mm [1.96\"]",
+        "Ø35 mm [1.4\"]",
+        "35 mm [1.4\"]",
+        "SRD tip's clearance to any obstruction 12 mm [0.5\"]",
+        "Figure 4: Rheonics SRV and SRD sensing areas"
+      ],
+      "warnings_notes": [
+        "Avoid stagnation zones in the sensing zones (red areas).",
+        "Ensure sensing element in red is in contact with fluid.",
+        "The sensing area of the sensor probe should not be obstructed, and should be surrounded only by the fluid of interest.",
+        "Paint, layers, and coatings tend to create layers; in that case, the probe should be inspected and cleaned periodically.",
+        "The SRD, density and viscosity meter, is not recommended for mixing tanks as the process can add too much noise to the readings.",
+        "Keep the sensor probe away from a potential collision."
+      ],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1625,
+        "cost_usd": 0.0042023
+      },
+      "source_file": "185_Real-time_quality_control_of_paint,_ink,_coating_manufacturing_using_process_viscometer_and_density_meter.pdf"
+    },
+    {
+      "page_summary": "This page provides guidelines for installing Rheonics viscometers, specifically long-insertion probes, in tanks for various industrial applications, including the mixing process, detailing best practices and relevant accessories.",
+      "document_type": "manual",
+      "product_names": [
+        "TMA-34N",
+        "APC",
+        "SR-X5",
+        "SR-X8 Teletube",
+        "SRV"
+      ],
+      "extracted_text": "- Place the sensing element below the minimum fluid level. This can be done with a wall or bottom installation in a port lower than the minimum fluid level or from the top by varying the insertion length of a long insertion probe.\n- In some applications, viscosity readings are needed in tanks or vessels that are continuously changed once they are filled up. In those cases, the sensor probe is installed and fixed on an external object so they can be immersed in different tanks one by one. Care should be taken to not hit the sensing element and to clean the probe if needed between immersions. The TMA-34N accessory (https://rheonics.com/product-accessories/tma-34n/) is a good proven solution in these cases.\n- The APC adaptable process connection (https://rheonics.com/wp-content/uploads/2024/01/APC_Interface-Drawing.pdf) allows to have a variable insertion length for long probes. It can be used for ambient pressure conditions to determine the better insertion length, especially during early tests.\n- Fluid in tanks may not have a properly defined flow, this can add noise to the readings. The baseline readings can still be obtained by using some filters in the sensor.\n\na. Mixing process\n\nThe mixing process is the starting point of the fabrication of paint, inks, and coatings. The mix uses a water or solvent-based fluid as a primary component, which is then mixed with additives such as pigments, binders, etc. Initial mixing of paint, ink, and coating is usually done in tanks or vessels. These tanks have considerable space inside, with small mixers to prevent fluid from sedimenting. Space is enough to mount the sensor from the top, wall, or bottom.\nA common solution is to install the probe from the top or in the lid of an open tank. Installation can be done with a TMA-34N (https://rheonics.com/product-accessories/tma-34n/), an SR-X5 long insertion (https://support.rheonics.com/en/support/solutions/articles/81000411102-srv-x5-long-insertion-probe), or an SR-X8 Teletube (https://support.rheonics.com/en/support/solutions/articles/81000412793-type-sr-x8-teletube-ultra-long-insertion-probe) for longer insertions.\n\nFigure 5: SRV long insertion viscometer with sensing element below the fluid level",
+      "specifications": {},
+      "key_facts": [
+        "The sensing element of the viscometer should always be placed below the minimum fluid level.",
+        "Installation of long insertion probes can be achieved from the wall, bottom, or top of a tank by adjusting the insertion length.",
+        "For applications requiring viscosity readings in continuously changed tanks, the sensor probe can be installed externally and immersed into different tanks one by one.",
+        "The TMA-34N accessory is a proven solution for applications requiring probes to be moved and cleaned between immersions.",
+        "The APC adaptable process connection provides variable insertion length for long probes, suitable for determining optimal insertion during early tests under ambient pressure.",
+        "Noise in readings from undefined fluid flow in tanks can be mitigated by using filters in the sensor.",
+        "Rheonics viscometers are applicable for measuring viscosity during the mixing process of paint, inks, and coatings.",
+        "Probes like the SR-X5 long insertion or SR-X8 Teletube ultra-long insertion are recommended for top or lid installation in open tanks for longer insertions."
+      ],
+      "diagram_labels": [
+        "Figure 5: SRV long insertion viscometer with sensing element below the fluid level"
+      ],
+      "warnings_notes": [
+        "Care should be taken to not hit the sensing element when immersing the sensor probe.",
+        "The sensor probe should be cleaned if needed between immersions in different tanks.",
+        "Undefined fluid flow in tanks can add noise to the readings; using filters in the sensor can help obtain baseline readings."
+      ],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1009,
+        "cost_usd": 0.0026622999999999994
+      },
+      "source_file": "185_Real-time_quality_control_of_paint,_ink,_coating_manufacturing_using_process_viscometer_and_density_meter.pdf"
+    },
+    {
+      "page_summary": "This page details the installation of Rheonics viscometers in mixing tanks and provides an in-depth explanation of the dispersion process for paints, inks, and coatings, covering wetting, grinding, and stabilization stages.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV-X8",
+        "SRV-X1-34N",
+        "TMA-34N",
+        "SRV-X5"
+      ],
+      "extracted_text": "Mixer Tank\nSensor variants\nFigure 6: Installation in mixing tank\nb. Dispersion process\nMost of the dispersion process for these fluids involves, the wetting, grinding, and stabilization (all almost at the same time) of pigments in the fluid mixed. This process is used to break any kind of possible lump or agglomeration of solids and make the mixture as thin and homogeneous as possible, which results in higher quality, color, intensity, and gloss.\nWetting the mixture means replacing any entrapped air or solid in the fluid with liquid. This fluid will need a low surface tension to favor the deagglomeration or grinding. The characteristics of the dispersing fluid depend on the pigment type used.\nGrinding is used to separate or disperse the fluid mixed. Here, fluid needs to be exposed to forces higher than the attractive forces of the agglomerations to be able to break them. This is done with mechanical energy, by either shearing apart the fluid or by collisions of solid particles with the fluid.\nAfter grinding, stabilization of the fluid is sometimes needed to avoid sedimentation, color shift, or flocculation (the adhesion of solids in the liquid) that leads to agglomeration again.\nFigure 7: Dispersion process for paint, ink, and coating production\nThere are different methods and machinery that can be used in this process.\n1. For some paints, industries can use high-speed dispersion tanks, with single or multi-shaft dissolvers to break down the mixture. These mixers are designed to dissolve fluids even with very high viscosity and benefit from multiple shafts or disks rotating at high speed to obtain high shearing forces.",
+      "specifications": {
+        "Tri-Clamp Connection": "2 inches"
+      },
+      "key_facts": [
+        "The dispersion process for fluids involves wetting, grinding, and stabilization of pigments, often occurring simultaneously.",
+        "This process aims to break down solid lumps or agglomerations to achieve a thin, homogeneous mixture, enhancing quality, color, intensity, and gloss.",
+        "Wetting involves replacing entrapped air or solids in the fluid with liquid, requiring low surface tension to aid deagglomeration or grinding.",
+        "Grinding disperses fluid by applying mechanical energy (shearing or particle collisions) to overcome attractive forces within agglomerations.",
+        "Stabilization is performed after grinding to prevent issues like sedimentation, color shift, or flocculation, which can lead to re-agglomeration.",
+        "High-speed dispersion tanks, featuring single or multi-shaft dissolvers, are used in industries to process high-viscosity fluids by generating high shearing forces."
+      ],
+      "diagram_labels": [
+        "Mixer Tank",
+        "Sensor variants",
+        "SRV-X8 Teletube probe",
+        "2\" Tri-Clamp Connection",
+        "Customer specified insertion depth",
+        "Sensing element below the paint, ink or coating level",
+        "SRV-X1-34N",
+        "TMA-34N",
+        "SRV-X5",
+        "Pigment",
+        "Wetting",
+        "Grinding",
+        "Stabilization",
+        "Mixed fluid with air and solids present",
+        "Air and solids replaced by wetting agent",
+        "Particles dispersed tend to reagglomerate",
+        "Fluid with pigment particles stabilized"
+      ],
+      "warnings_notes": [],
+      "page_num": 8,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 846,
+        "cost_usd": 0.0022547999999999995
+      },
+      "source_file": "185_Real-time_quality_control_of_paint,_ink,_coating_manufacturing_using_process_viscometer_and_density_meter.pdf"
+    },
+    {
+      "page_summary": "This page describes installation considerations for Rheonics viscometers in high-speed dispersion tanks and discusses the operation of bead or pearl mills for paints and inks.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "SRD"
+      ],
+      "extracted_text": "Figure 8: Dispersion tanks [1]\nThere is limited space inside high-speed dispersion tanks due to scrapers, jacketed walls, etc. and a careful review should be made to find enough space for the installation of the SRV (SRD is not recommended for these tanks, instead install the SRD in a recirculation line). Usually, installation of the SRV is possible from the top with a long insertion variant or from the bottom if there is enough space and deposits can be avoided.\nHigh Speed Mixer\nGrinding Tank\nSRV Inline Viscometer\nPaint, Ink or Coating Level\nPossible space below scraper\nFigure 9: Installation in high-speed mixer dissolver\n2. Some other paints and inks can use bead or pearl mills. These machines use vertical or horizontal rotating blades, discs, or similars, inside a drum or chamber with small particles or pearls free to move. In operation, the rotation creates collisions of the pearls against each other and with the fluid. As a result, agglomerates are smashed by the impacts, resulting in a homogeneous thinner fluid.",
+      "specifications": {},
+      "key_facts": [
+        "Installation space is limited in high-speed dispersion tanks due to internal components like scrapers and jacketed walls.",
+        "A careful review is necessary to ensure adequate space for SRV installation in dispersion tanks.",
+        "The SRD viscometer is not recommended for installation directly in high-speed dispersion tanks; it should be installed in a recirculation line instead.",
+        "The SRV can typically be installed from the top using a long insertion variant or from the bottom, provided there's sufficient space and deposits can be prevented.",
+        "Bead or pearl mills are used for some paints and inks.",
+        "Bead or pearl mills operate with vertical or horizontal rotating blades, discs, or similar components within a drum or chamber containing small free-moving particles or pearls.",
+        "The rotation in bead or pearl mills causes collisions between the pearls and with the fluid, smashing agglomerates and producing a homogeneous, thinner fluid."
+      ],
+      "diagram_labels": [
+        "Figure 8: Dispersion tanks",
+        "High Speed Mixer",
+        "Grinding Tank",
+        "SRV Inline Viscometer",
+        "Paint, Ink or Coating Level",
+        "Possible space below scraper",
+        "Figure 9: Installation in high-speed mixer dissolver"
+      ],
+      "warnings_notes": [
+        "SRD is not recommended for these tanks, instead install the SRD in a recirculation line.",
+        "Installation of the SRV from the bottom is possible if there is enough space and deposits can be avoided."
+      ],
+      "page_num": 9,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 664,
+        "cost_usd": 0.0017998
+      },
+      "source_file": "185_Real-time_quality_control_of_paint,_ink,_coating_manufacturing_using_process_viscometer_and_density_meter.pdf"
+    },
+    {
+      "page_summary": "This page describes the use of Rheonics viscometers and density sensors with various flow cells and housings for inline viscosity and density measurement in paint, ink, and coating production processes, particularly after a bead mill.",
+      "document_type": "manual",
+      "product_names": [
+        "IFC-34N Flow Cell",
+        "SRV",
+        "SRD",
+        "FET-15T-15T",
+        "Varinline Housings",
+        "Rheonics process viscometers"
+      ],
+      "extracted_text": "Figure 10: Bead mill for dispersion of paint, ink, and coatings [6]\nThe viscosity and density of the paint can be measured after the bead mill process to verify the expected values have been reached. This would require an installation in line. Common examples for paint, ink, and coating are:\n*   IFC-34N Flow Cell (https://rheonics.com/product-accessories/ifc-34n-srv/): This is a common flow cell used for the SRV and SRD in lines of 3/4” (DN20) during the production of paint, inks, and coatings. The probe is installed parallel to the flow and is recommended to have the fluid going against the sensor probe tip.\n\nFigure 11: Rheonics SRV viscometer mounted on IFC-34N flow cell in 3/4” line\n*   FET-15T-15T (https://rheonics.com/product-accessories/fet-15t-15t/): This flow cell is based on a shortened 1.5” (DN38) tee piece. The sensor probe is placed parallel to the flow.\n*   Varinline Housings (https://rheonics.com/wp-content/uploads/2024/03/SRV-X4-VN_Varinline-DN40-Housing.pdf): These hygienic flow cells are provided by GEA. These housings can be used with Rheonics process viscometers for small lines (DN 25 and DN40) where parallel installation is not possible, aka. elbows can’t be used. Modified plugs may be needed to ensure the sensing areas are not obstructed.",
+      "specifications": {
+        "IFC-34N line size": "3/4 inch (DN20)",
+        "FET-15T-15T tee piece size": "1.5 inch (DN38)",
+        "Varinline housing line sizes": "DN 25 and DN40"
+      },
+      "key_facts": [
+        "Viscosity and density of paint, ink, and coatings can be measured inline after a bead mill process using Rheonics sensors.",
+        "The IFC-34N Flow Cell is a common accessory for Rheonics SRV and SRD sensors in 3/4” (DN20) lines for paint, ink, and coating production.",
+        "The IFC-34N flow cell requires the sensor probe to be installed parallel to the flow, with fluid flowing against the sensor probe tip.",
+        "The FET-15T-15T flow cell is a shortened 1.5” (DN38) tee piece designed for parallel sensor probe placement.",
+        "Varinline Housings, supplied by GEA, are hygienic flow cells for Rheonics process viscometers in small lines (DN 25 and DN40) where parallel sensor installation is challenging.",
+        "Varinline Housings prevent the need for elbows in installations where parallel placement is not possible."
+      ],
+      "diagram_labels": [
+        "Figure 10: Bead mill for dispersion of paint, ink, and coatings",
+        "Figure 11: Rheonics SRV viscometer mounted on IFC-34N flow cell in 3/4” line"
+      ],
+      "warnings_notes": [
+        "Modified plugs may be needed to ensure the sensing areas are not obstructed when using Varinline Housings."
+      ],
+      "page_num": 10,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 895,
+        "cost_usd": 0.0023772999999999997
+      },
+      "source_file": "185_Real-time_quality_control_of_paint,_ink,_coating_manufacturing_using_process_viscometer_and_density_meter.pdf"
+    },
+    {
+      "page_summary": "This page provides details on installation options and accessories for Rheonics SRV viscometers in various pipeline sizes, including specific weldolet and flow cell configurations, and introduces the concept of a three-roller mill for fluid processing.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SRV viscometer",
+        "Varinline Housing",
+        "FET-XXT",
+        "FTP-XXT-15T",
+        "WOL-34NL",
+        "HAW-12G",
+        "HAW-12G-OTN",
+        "three-roller mill"
+      ],
+      "extracted_text": "Figure 12: Rheonics SRV viscometer mounted on Varinline Housing for DN25 line\nFor installations in lines of DN50 or bigger, some other Rheonics accessories can be used, but installation is easier since there is enough space for the sensing areas to be surrounded by fluid.\n*   FET-XXT (https://rheonics.com/product-accessories/fet-15t-15t/): Flow cell of 2\", 2.5\", 3\", or bigger with a shortened port for the sensor probe.\n*   FTP-XXT-15T (https://rheonics.com/product-accessories/ftp-15t-xxx/): Spool piece of 2\", 2.5\", 3\", or bigger with a 1.5\" Tri-Clamp port for the sensor probe.\n*   WOL-34NL (https://rheonics.com/product-accessories/wol-34nl/): 3/4\" NPT weldolet for lines equal or bigger than 2.5\".\n*   HAW-12G (https://rheonics.com/product-accessories/haw-12g-xtn/): G 1/2 weldolet for lines of 2\" or bigger. It allows a flush installation of the sensor probe.\n\nFigure 13: Rheonics SRV installed with HAW-12G-OTN weldolet.\n\n3. In some other cases, a three-roller mill is used. This consists of three large steel rollers rotating in different directions. The mill is fed with the fluid and sheares apart the agglomerates or lumps as the fluid passes through the rollers.",
+      "specifications": {
+        "Varinline Housing compatibility": "DN25 line",
+        "Line size for easier accessory installation": "DN50 or bigger",
+        "FET-XXT Flow cell sizes": "2\", 2.5\", 3\" or bigger",
+        "FTP-XXT-15T Spool piece sizes": "2\", 2.5\", 3\" or bigger",
+        "FTP-XXT-15T Tri-Clamp port size": "1.5\"",
+        "WOL-34NL weldolet type": "3/4\" NPT",
+        "WOL-34NL line size compatibility": "equal or bigger than 2.5\"",
+        "HAW-12G weldolet type": "G 1/2",
+        "HAW-12G line size compatibility": "2\" or bigger"
+      },
+      "key_facts": [
+        "Rheonics SRV viscometers can be mounted on Varinline Housing for DN25 lines.",
+        "For installations in lines of DN50 or bigger, Rheonics accessories facilitate easier installation by providing ample space for sensing areas to be surrounded by fluid.",
+        "The FET-XXT is a flow cell accessory designed for 2\", 2.5\", 3\", or larger lines, featuring a shortened port for the sensor probe.",
+        "The FTP-XXT-15T is a spool piece accessory available for 2\", 2.5\", 3\", or larger lines, equipped with a 1.5\" Tri-Clamp port for the sensor probe.",
+        "The WOL-34NL is a 3/4\" NPT weldolet suitable for lines equal to or bigger than 2.5\".",
+        "The HAW-12G is a G 1/2 weldolet designed for lines of 2\" or bigger, enabling flush installation of the sensor probe.",
+        "A three-roller mill consists of three large steel rollers rotating in different directions, used to shear apart agglomerates or lumps in fluid."
+      ],
+      "diagram_labels": [
+        "Figure 12: Rheonics SRV viscometer mounted on Varinline Housing for DN25 line",
+        "Figure 13: Rheonics SRV installed with HAW-12G-OTN weldolet."
+      ],
+      "warnings_notes": [],
+      "page_num": 11,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1072,
+        "cost_usd": 0.0028198
+      },
+      "source_file": "185_Real-time_quality_control_of_paint,_ink,_coating_manufacturing_using_process_viscometer_and_density_meter.pdf"
+    },
+    {
+      "page_summary": "This page describes the installation of Rheonics SRV and SRD sensors in various mixing and grinding applications, including roller mills and inline homogenizers, and provides guidance on correlating inline and offline viscosity readings.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "SRD",
+        "Rheonics-SR sensors"
+      ],
+      "extracted_text": "Figure 14: Three roller mills for dispersion of paint, ink, and coatings [3]\nThe resulting fluid is stored in a tank, the SRV and SRD sensors can be installed in them as in a standard mixing tank from the top or wall.\n4. Inline homogenizers are used for mixing and grinding fluids like coatings, they may be complemented with another grinding equipment or may be enough for some coatings.\n\nFigure 15: Inline homogenizer for coatings\nThe SRV and SRD sensors can be installed either upstream or downstream of an inline mixing pump. Follow the installation inline previously described.\n\n6. Correlations of inline and offline readings\nWhile it is clear that the Rheonics-SR sensors are mainly designed for inline readings to achieve process control, clients can compare the values with offline instruments and traditional measurements for some of the following reasons:\n*   Quality control\n*   Reuse previous data - The user is familiar with a viscosity value and they expect to maintain the same number if a new sensor is used. This is a common mistake.\n\nViscosity and density correlations should be treated separately. For viscosity, the user should consider the following:\n*   The viscosity value for a Newtonian fluid should be the same regardless of the sensor or measuring technology or method. Rheonics uses Newtonian NIST traceable fluids for factory calibration of sensors",
+      "specifications": {},
+      "key_facts": [
+        "SRV and SRD sensors can be installed in tanks (from the top or wall) for fluids resulting from three roller mills.",
+        "Inline homogenizers are employed for mixing and grinding fluids like coatings.",
+        "Inline homogenizers can be used alone or complemented with other grinding equipment for coatings.",
+        "SRV and SRD sensors can be installed upstream or downstream of an inline mixing pump.",
+        "Rheonics-SR sensors are primarily designed for inline readings to enable process control.",
+        "Clients compare inline readings with offline instruments for quality control and to leverage existing viscosity data.",
+        "Viscosity and density correlations should be analyzed independently.",
+        "For Newtonian fluids, the viscosity value should remain consistent irrespective of the sensor or measurement technique used.",
+        "Rheonics utilizes Newtonian NIST traceable fluids for the factory calibration of its sensors."
+      ],
+      "diagram_labels": [
+        "Figure 14: Three roller mills for dispersion of paint, ink, and coatings",
+        "Figure 15: Inline homogenizer for coatings"
+      ],
+      "warnings_notes": [
+        "It is a common mistake for users to expect to maintain the same viscosity number when a new sensor is used, even if they are familiar with a previous viscosity value."
+      ],
+      "page_num": 12,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 675,
+        "cost_usd": 0.0018273000000000002
+      },
+      "source_file": "185_Real-time_quality_control_of_paint,_ink,_coating_manufacturing_using_process_viscometer_and_density_meter.pdf"
+    },
+    {
+      "page_summary": "This page discusses the complexities of measuring viscosity, particularly for non-Newtonian fluids, compares Rheonics' inline viscometers and density sensors with traditional offline methods, and outlines the pros and cons of each.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "SRV",
+        "SRD",
+        "Rheonics scaling tools"
+      ],
+      "extracted_text": "and these same fluids are recommended if clients want to test the calibration of sensors.\nViscosity for a Non-Newtonian fluid (https://rheonics.com/measurement-of-viscosity-of-non-newtonian-fluids-with-rheonics-srv-sensors/), such as paints, inks, and coatings, can't be associated with a single value. Different technologies or viscosity measuring methods will output different values since the viscosity of a fluid is dependent on the conditions at which it is measured (e.g. flow rate, shear rate, temperature, etc.). This means that rotational viscometers or Zahn cups have different viscosity values for paint, ink, and coatings when compared to the SRV or SRD viscosity readings.\nClients are capable of plotting the SRV or SRD viscosity measurements against the traditional methods and use Rheonics scaling tools (https://support.rheonics.com/en/support/solutions/articles/81000397454-scaling-how-to-create-correlation-between-lab-and-inline-measurements-) to obtain a correlated value (https://support.rheonics.com/en/support/solutions/articles/81000410167-introduction-to-correlation-scale-up) in addition to the SR- viscosity value. For paint, ink, and coatings, clients have been able to find a linear correlation between the SRV and SRD viscosity and Zahn cups traditionally used, keeping in mind a correlation works only for the same fluid.\nOffline instruments can complement the inline readings of the SRV and SRD sensors.\nRead more on this note: The myth of accuracy for inline viscosity measurements (https://support.rheonics.com/en/support/solutions/articles/81000412495-the-myth-of-accuracy-for-inline-viscosity-measurements)\nRegarding density readings from the SRD, the user should consider the following:\nDensity is a general or absolute value and should be the same regardless of the measuring technology and fluid type (Newtonian and Non-Newtonian fluids).\nDensity can change between states of the fluid, static or moving, if the fluid is not correctly mixed or if the fluid starts to sediment after some time.\n7. Alternative online process density meters and viscometers\nMeasuring density and viscosity inline offers advantages against other common measuring methods for coating manufacturing.\nTable 2: Inline viscometer and alternative offline tools comparison\n\n| | Inline Viscometer | Efflux cup i.e. Zahn cup | Rotational viscometers |\n|---|---|---|---|\n| Pros |\n| | High accuracy and repeatability of viscosity values |\n| | Tracks consistency of fluid |\n| | Measures the complete process |\n| | Measures the fluid under real conditions |\n| | Keystone for effective process control |\n| | Common method |\n| | Relatively simple |\n| | Low cost |\n| | Most common solution |\n| | It has become a \"standard\" for Quality Control |\n| | Rotational speed can be changed |\n| Cons |\n| | Needs cleaning if deposits or layers of paint are created - Probes are easy to clean. |\n| | Very low accuracy and repeatability |\n| | Prone to human errors |\n| | Messy procedures |\n| | Time-consuming |\n| | Not suitable for control purposes |\n| | Complex procedure |\n| | Common high error percentage of 20% |",
+      "specifications": {
+        "rotational_viscometers_error_percentage": "20%"
+      },
+      "key_facts": [
+        "Fluids used for sensor calibration are recommended for clients testing sensor calibration.",
+        "Viscosity for non-Newtonian fluids (e.g., paints, inks, coatings) cannot be associated with a single value, as it depends on measurement conditions like flow rate, shear rate, and temperature.",
+        "Different viscosity measuring technologies, such as rotational viscometers, Zahn cups, and Rheonics SRV/SRD sensors, will yield different viscosity values for non-Newtonian fluids.",
+        "Clients can use Rheonics scaling tools to plot and correlate SRV/SRD viscosity measurements with traditional methods.",
+        "A linear correlation between SRV/SRD viscosity and traditional Zahn cup measurements can be found for paint, ink, and coatings, but this correlation is specific to a single fluid.",
+        "Offline instruments can supplement the inline readings provided by SRV and SRD sensors.",
+        "Density is a general and absolute value, which should remain consistent regardless of the measuring technology or fluid type (Newtonian or Non-Newtonian).",
+        "Density readings can change if the fluid transitions between static and moving states, is not properly mixed, or begins to sediment over time.",
+        "Inline measurement of density and viscosity offers significant advantages over other common methods, particularly in coating manufacturing.",
+        "Inline viscometers provide high accuracy and repeatability of viscosity values.",
+        "Inline viscometers track fluid consistency, measure the complete process, and operate under real conditions, serving as a keystone for effective process control.",
+        "Inline viscometers require cleaning if deposits or paint layers accumulate, but their probes are designed for easy cleaning.",
+        "Efflux cups (Zahn cups) are a common, relatively simple, and low-cost measurement method.",
+        "Efflux cups suffer from very low accuracy and repeatability, are susceptible to human errors, and involve messy procedures.",
+        "Rotational viscometers are a common solution and a standard for Quality Control, allowing for changes in rotational speed.",
+        "Rotational viscometers are time-consuming, not suitable for control purposes, involve complex procedures, and have a common high error percentage of 20%."
+      ],
+      "diagram_labels": [
+        "Table 2: Inline viscometer and alternative offline tools comparison",
+        "Inline Viscometer",
+        "Efflux cup i.e. Zahn cup",
+        "Rotational viscometers",
+        "Pros",
+        "Cons"
+      ],
+      "warnings_notes": [
+        "Viscosity for a Non-Newtonian fluid, such as paints, inks, and coatings, can't be associated with a single value.",
+        "A correlation between SRV/SRD viscosity and traditional methods works only for the same fluid.",
+        "Regarding density readings from the SRD, the user should consider that density can change between states of the fluid (static or moving), if the fluid is not correctly mixed, or if the fluid starts to sediment after some time.",
+        "Inline Viscometers need cleaning if deposits or layers of paint are created, but probes are easy to clean."
+      ],
+      "page_num": 13,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1557,
+        "cost_usd": 0.0040323
+      },
+      "source_file": "185_Real-time_quality_control_of_paint,_ink,_coating_manufacturing_using_process_viscometer_and_density_meter.pdf"
+    },
+    {
+      "page_summary": "This page provides a detailed comparison of various real-time monitoring instruments and density meter technologies, emphasizing the advantages of Rheonics' balanced torsional resonator sensors.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "Rheonics sensors",
+        "Balanced Torsional Resonator",
+        "Tuning Fork Viscometer",
+        "Coriolis Density meter",
+        "Vibrating Tubes",
+        "Ultrasonic",
+        "Microwave",
+        "Radiation"
+      ],
+      "extracted_text": "8. Comparison of real-time monitoring instruments\nRheonics sensors are based on a balanced torsional resonator, see the measuring principle here: Whitepaper\nThis technology has multiple advantages against other inline instruments in the market, like Tuning Fork Viscometer, Coriolis Density meter, Vibrating Tubes, etc.\nTable 3: Comparison of various density meters based on different technologies.\n\nMeasuring Technologies\n\nCharacteristics | Balanced Torsional Resonator | Turning Fork | Vibrating Tubes | Ultrasonic | Microwave | Radiation\n---|---|---|---|---|---|---\nDensity range | 0-4 g/cc | 0-3 g/cc | 0-3 g/cc | Measures sound speed in fluid 0-4 g/cc | Measures total solids 1%-50%TS 0-2 g/cc | 0-1 g/cc\nDensity accuracy | 0.001 g/cc (0.0001 g/cc and better demonstrated) | 0.001 g/cc or better under defined conditions | 0.001 g/cc or better at best conditions | 0.005 g/cc | 0.005 g/cc | 0.01 g/cc\nViscosity rating and influence | Up to 10,000 cP Simultaneously measures fluid dynamic viscosity | Up to 50 cP Error increases (0.004 g/cc) at high viscosity fluids (200 cP) | Needs calibration for each viscosity fluid | Not measured | Not measured | Not measured\nPressure rating and influence | 0 to 15,000 psi (1000 bar) Fully compensated. No need for calibration. | 0 to 3000 psi (200 bar) Significant effect, not compensated. | 0 to 750 psi (50 bar) | 0 to 1500 psi (100 bar) | 0 to 1500 psi (100 bar) | 0 to 3000 psi (200 bar)\nTemperature rating and influence | -40 to 300 °C 0.1°C stability. Small mass of sensor. Isothermal conditions enable excellent density accuracy. No difference in factory vs. field conditions. | -50 to 200 °C No inbuilt temperature sensor. Less than 1°C stability. Huge mass of sensor. Needs external temperature measurement. | Max. 150°C 0.1°C stability. Sensor tubes wrapped in insulation with controlled heaters. Fast changing temperatures lead to high errors in measurement. | 0 to 150 °C | 0 to 150 °C | 0 to 400 °C",
+      "specifications": {
+        "Balanced Torsional Resonator": {
+          "Density range": "0-4 g/cc",
+          "Density accuracy": "0.001 g/cc (0.0001 g/cc and better demonstrated)",
+          "Viscosity rating and influence": "Up to 10,000 cP; Simultaneously measures fluid dynamic viscosity",
+          "Pressure rating and influence": "0 to 15,000 psi (1000 bar); Fully compensated. No need for calibration.",
+          "Temperature rating and influence": "-40 to 300 °C; 0.1°C stability. Small mass of sensor. Isothermal conditions enable excellent density accuracy. No difference in factory vs. field conditions."
+        },
+        "Turning Fork": {
+          "Density range": "0-3 g/cc",
+          "Density accuracy": "0.001 g/cc or better under defined conditions",
+          "Viscosity rating and influence": "Up to 50 cP; Error increases (0.004 g/cc) at high viscosity fluids (200 cP)",
+          "Pressure rating and influence": "0 to 3000 psi (200 bar); Significant effect, not compensated.",
+          "Temperature rating and influence": "-50 to 200 °C; No inbuilt temperature sensor. Less than 1°C stability. Huge mass of sensor. Needs external temperature measurement."
+        },
+        "Vibrating Tubes": {
+          "Density range": "0-3 g/cc",
+          "Density accuracy": "0.001 g/cc or better at best conditions",
+          "Viscosity rating and influence": "Needs calibration for each viscosity fluid",
+          "Pressure rating and influence": "0 to 750 psi (50 bar)",
+          "Temperature rating and influence": "Max. 150°C; 0.1°C stability. Sensor tubes wrapped in insulation with controlled heaters. Fast changing temperatures lead to high errors in measurement."
+        },
+        "Ultrasonic": {
+          "Density range": "Measures sound speed in fluid 0-4 g/cc",
+          "Density accuracy": "0.005 g/cc",
+          "Viscosity rating and influence": "Not measured",
+          "Pressure rating and influence": "0 to 1500 psi (100 bar)",
+          "Temperature rating and influence": "0 to 150 °C"
+        },
+        "Microwave": {
+          "Density range": "Measures total solids 1%-50%TS 0-2 g/cc",
+          "Density accuracy": "0.005 g/cc",
+          "Viscosity rating and influence": "Not measured",
+          "Pressure rating and influence": "0 to 1500 psi (100 bar)",
+          "Temperature rating and influence": "0 to 150 °C"
+        },
+        "Radiation": {
+          "Density range": "0-1 g/cc",
+          "Density accuracy": "0.01 g/cc",
+          "Viscosity rating and influence": "Not measured",
+          "Pressure rating and influence": "0 to 3000 psi (200 bar)",
+          "Temperature rating and influence": "0 to 400 °C"
+        }
+      },
+      "key_facts": [
+        "Rheonics sensors are based on a balanced torsional resonator principle.",
+        "The balanced torsional resonator technology offers multiple advantages over other inline instruments in the market.",
+        "Other inline instruments include Tuning Fork Viscometer, Coriolis Density meter, and Vibrating Tubes.",
+        "Balanced Torsional Resonators can simultaneously measure fluid dynamic viscosity up to 10,000 cP.",
+        "Balanced Torsional Resonators offer a pressure rating of 0 to 15,000 psi (1000 bar) that is fully compensated, requiring no calibration.",
+        "The balanced torsional resonator provides excellent density accuracy due to a small sensor mass, isothermal conditions, and 0.1°C temperature stability, ensuring no difference between factory and field conditions.",
+        "Turning Fork instruments experience an increase in error (0.004 g/cc) when measuring high viscosity fluids (200 cP).",
+        "Turning Fork instruments have a significant and uncompensated effect from pressure.",
+        "Vibrating Tube instruments require calibration for each specific viscosity fluid.",
+        "Fast-changing temperatures can lead to high errors in measurement for Vibrating Tube instruments.",
+        "Ultrasonic, Microwave, and Radiation technologies do not measure viscosity.",
+        "Radiation technology has the widest temperature range among the compared technologies, from 0 to 400 °C.",
+        "Radiation technology has the narrowest density range (0-1 g/cc) and the highest density accuracy error (0.01 g/cc) among the compared technologies."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 14,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1869,
+        "cost_usd": 0.004812299999999999
+      },
+      "source_file": "185_Real-time_quality_control_of_paint,_ink,_coating_manufacturing_using_process_viscometer_and_density_meter.pdf"
+    },
+    {
+      "page_summary": "This page provides a comparative analysis of different sensor technologies based on criteria such as flow conditions, installation, variants, unit costs, and installation effort.",
+      "document_type": "datasheet",
+      "product_names": [
+        "Smallest Inline Process Density Sensor",
+        "Flow Regime Dependent Sensor",
+        "Flow Rate Compensated Sensor (Large System)",
+        "Single Phase Fluid Sensor (External & Intrusive)",
+        "Impurity Tolerant External Sensor",
+        "Multi-Phase/Impurity Tolerant Radiation Sensor"
+      ],
+      "extracted_text": {
+        "categories": [
+          "Flow conditions",
+          "Installation",
+          "Tank Installation",
+          "Variants",
+          "Unit costs",
+          "Installation effort"
+        ],
+        "sensor_types_comparison": [
+          {
+            "sensor_type": "Smallest Inline Process Density Sensor",
+            "Flow conditions": "Static or flowing. No influence of flow rate.",
+            "Installation": "Smallest inline process density sensor in market (1\" x 2.5\"). Multiple process connections offered.",
+            "Tank Installation": "Compatible",
+            "Variants": "Customizable in length (flush, short and long) and design (Ø30 mm standard body and Ø19 mm variant)",
+            "Unit costs": "$",
+            "Installation effort": "0 to Low. Zero maintenance. No field calibration. Self cleaning design."
+          },
+          {
+            "sensor_type": "Flow Regime Dependent Sensor",
+            "Flow conditions": "Needs well defined flow regime. Needs a large adapter for each pipe diameter.",
+            "Installation": "Needs a large adapter for each pipe diameter. Large sensor (2\" x 10\")",
+            "Tank Installation": "Compatible",
+            "Variants": "Customizable in length",
+            "Unit costs": "$$ Needs frequent cleaning due to plugging and re-calibration",
+            "Installation effort": "High frequently plugged, needs cleaning. Needs re-calibration in periodic interval."
+          },
+          {
+            "sensor_type": "Flow Rate Compensated Sensor (Large System)",
+            "Flow conditions": "Static or flowing. Needs flow rate compensation.",
+            "Installation": "Not suitable for large pipe diameters. Large sensor system (10\"x20\")",
+            "Tank Installation": "Not compatible",
+            "Variants": "None",
+            "Unit costs": "$$$",
+            "Installation effort": "Medium. Needs commissioning calibration."
+          },
+          {
+            "sensor_type": "Single Phase Fluid Sensor (External & Intrusive)",
+            "Flow conditions": "Single phase fluids. Affected by presence of bubbles, solids or other impurities.",
+            "Installation": "External and intrusive variants. Big, heavy sensor. Requires unique housing for small lines.",
+            "Tank Installation": "Compatible styles but suffer from deposits problem.",
+            "Variants": "None",
+            "Unit costs": "$$ Calibration with fluids to define the baseline",
+            "Installation effort": "Medium. Needs commissioning calibration."
+          },
+          {
+            "sensor_type": "Impurity Tolerant External Sensor",
+            "Flow conditions": "Static or flowing. No influence of flow rate. Tolerant to impurities in fluid.",
+            "Installation": "External. Big, heavy sensor and housing. For 2\" pipes or above.",
+            "Tank Installation": "Not compatible",
+            "Variants": "None",
+            "Unit costs": "$$ Baseline calibrations required",
+            "Installation effort": "Medium. Needs commissioning calibration."
+          },
+          {
+            "sensor_type": "Multi-Phase/Impurity Tolerant Radiation Sensor",
+            "Flow conditions": "Single or muli phase flows. Not affected by impurities.",
+            "Installation": "External. For small pipes emitter and transmitter need to be placed further away. Calibration required.",
+            "Tank Installation": "Not compatible",
+            "Variants": "Adapts to straight pipes and bends.",
+            "Unit costs": "$$$ Baseline calibration. Radiation source control regulations.",
+            "Installation effort": "High."
+          }
+        ]
+      },
+      "specifications": {
+        "Smallest Inline Process Density Sensor market size": "1\" x 2.5\"",
+        "Smallest Inline Process Density Sensor standard body diameter": "30 mm",
+        "Smallest Inline Process Density Sensor variant diameter": "19 mm",
+        "Flow Regime Dependent Sensor size": "2\" x 10\"",
+        "Flow Rate Compensated Sensor system size": "10\" x 20\"",
+        "Impurity Tolerant External Sensor minimum pipe size": "2\""
+      },
+      "key_facts": [
+        "The 'Smallest Inline Process Density Sensor' is the smallest inline process density sensor on the market, with dimensions of 1\" x 2.5\", and offers multiple process connections.",
+        "This inline sensor is designed for zero maintenance, requires no field calibration, and features a self-cleaning design.",
+        "Variants of the 'Smallest Inline Process Density Sensor' are customizable in length (flush, short, and long) and design, including Ø30 mm standard body and Ø19 mm variant.",
+        "Sensors categorized as 'Flow Regime Dependent' require a well-defined flow regime and a large adapter for each pipe diameter, with sensor sizes up to 2\" x 10\".",
+        "The 'Flow Regime Dependent Sensor' has a high installation effort due to frequent plugging, cleaning requirements, and the necessity for periodic re-calibration.",
+        "The 'Flow Rate Compensated Sensor (Large System)' is not suitable for large pipe diameters and features a large sensor system with dimensions of 10\" x 20\".",
+        "'Single Phase Fluid Sensors' are susceptible to issues caused by the presence of bubbles, solids, or other impurities.",
+        "External and intrusive sensor variants are typically big, heavy, and require unique housing for small lines.",
+        "The 'Impurity Tolerant External Sensor' operates reliably in static or flowing conditions, is unaffected by flow rate, and tolerates impurities in the fluid, being suitable for pipes 2\" or above.",
+        "'Multi-Phase/Impurity Tolerant Radiation Sensors' are capable of handling single or multi-phase flows without being affected by impurities.",
+        "'Multi-Phase/Impurity Tolerant Radiation Sensors' can adapt to straight pipes and bends, but require external components and are subject to radiation source control regulations.",
+        "Many sensor types, excluding the 'Smallest Inline Process Density Sensor', require significant calibration efforts such as baseline, commissioning, or periodic recalibration."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "The 'Flow Regime Dependent Sensor' needs frequent cleaning due to plugging and re-calibration, leading to a high installation effort.",
+        "Certain compatible tank installation styles, specifically for the 'Single Phase Fluid Sensor (External & Intrusive)', suffer from deposits problems.",
+        "The 'Multi-Phase/Impurity Tolerant Radiation Sensor' involves radiation sources and requires adherence to radiation source control regulations.",
+        "For the 'Multi-Phase/Impurity Tolerant Radiation Sensor' in small pipes, the emitter and transmitter need to be placed further away, and calibration is required."
+      ],
+      "page_num": 15,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1606,
+        "cost_usd": 0.0041548
+      },
+      "source_file": "185_Real-time_quality_control_of_paint,_ink,_coating_manufacturing_using_process_viscometer_and_density_meter.pdf"
+    },
+    {
+      "page_summary": "This page presents a comparative analysis table for different systems based on maintenance requirements, lifetime cost, and inherent weaknesses, followed by a list of eleven references related to pigments, coatings, and viscometer/density meter technology.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "ADV-TS Triple Shaft",
+        "Three Roll Mill",
+        "Bead Mill",
+        "viscometer and density meter"
+      ],
+      "extracted_text": "Table:\n  Row Header: Maintenance\n    Column 1: None if no deposition on the sensing element\n    Column 2: Coating failure and deposits on sensor.\n    Column 3: Frequent calibration\n    Column 4: Frequent calibration\n    Column 5: Frequent calibration\n    Column 6: Frequent calibration\n  Row Header: Lifetime cost to customer\n    Column 1: $\n    Column 2: $$$\n    Column 3: $$$$$\n    Column 4: $$\n    Column 5: $\n    Column 6: $$\n  Row Header: Weakness\n    Column 1: None\n    Column 2: Huge wall effect, requires special adapters for each flow condition.\n    Column 3: Bulky installation. Recalibration needed.\n    Column 4: Too sensitive to flow conditions\n    Column 5: Low accuracy\n    Column 6: Last one in accuracy\n\nReferences:\n[1] Kreis Dissolvers: ADV-TS Triple Shaft (https://www.fullbrooksystems.co.uk/advts-triple-shaft-dissolver-mixer.html)\n[2] The Basics of Dispersion and Stabilization of Pigments and Fillers (https://www.ulprospector.com/knowledge/10225/pc-the-basics-of-dispersion-and-stabilization-of-pigments-and-fillers/)\n[3] Three Roll Mill - Franli Machine (https://www.franli.com/threerollmill/)\n[4] Global paints and coatings market share by company 2021 | Statista (https://www.statista.com/statistics/725921/paints-and-coatings-global-market-share-by-company/#:~:text=In%202021%2C%20Sherwin%2DWilliams%20and,share%20of%20approximately%2011.2%20percent.)\n[5] Pigment for Paints, Coatings & Inks: Definition, Types and Properties (https://coatings.specialchem.com/selection-guide/pigments)\n[6] Bead Mill (https://www.ele-mix.com/bead-mill/bead-mills.html)\n[7] Four Steps to Effective Pigment Dispersions - LANSCO COLORS (https://www.pigments.com/wp-content/uploads/four-steps-to-effective-pigment-dispersions-jadel-baptista-dcc-lansco.pdf)\n[8] Printing and Coating Archives » Rheonics :: viscometer and density meter (https://rheonics.com/solutions-category/printing-and-coating/)\n[9] Product Technology Competitive Analysis » Rheonics :: viscometer and density meter (https://rheonics.com/viscometer-density-meter-comparison/)\n[10] Whitepapers » Rheonics :: viscometer and density meter (https://rheonics.com/whitepapers/)\n[11] Solution » Rheonics :: viscometer and density meter (https://support.rheonics.com/en/support/solutions)",
+      "specifications": {
+        "System 1 Lifetime cost": "$ (qualitative cost level)",
+        "System 2 Lifetime cost": "$$$ (qualitative cost level)",
+        "System 3 Lifetime cost": "$$$$$ (qualitative cost level)",
+        "System 4 Lifetime cost": "$$ (qualitative cost level)",
+        "System 5 Lifetime cost": "$ (qualitative cost level)",
+        "System 6 Lifetime cost": "$$ (qualitative cost level)"
+      },
+      "key_facts": [
+        "One system (System 1) stands out with 'None' for both maintenance (if no deposition on the sensing element) and weakness, and is associated with the lowest qualitative lifetime cost ($).",
+        "Other systems generally exhibit various drawbacks including coating failure, frequent calibration requirements, bulky installation, sensitivity to flow conditions, or low accuracy.",
+        "Lifetime costs vary significantly across the systems presented in the table, ranging from a low of '$' to a high of '$$$$$' (qualitative levels).",
+        "Rheonics provides solutions related to viscometer and density meter applications, as indicated by multiple references citing Rheonics' resources."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 16,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1112,
+        "cost_usd": 0.0029197999999999997
+      },
+      "source_file": "185_Real-time_quality_control_of_paint,_ink,_coating_manufacturing_using_process_viscometer_and_density_meter.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

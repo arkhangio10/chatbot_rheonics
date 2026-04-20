@@ -1,0 +1,269 @@
+{
+  "source_file": "147_Analog_Signal_Integration_with_Siemens_6ES7134-6GD01-0BA1_Module.pdf",
+  "total_pages": 4,
+  "chunks": [
+    {
+      "page_summary": "This page provides an overview of integrating Rheonics Smart Module Electronics (SME) 4-20mA output channels with Siemens 6ES7134 Analog Input Modules, detailing the related Rheonics products and default measurement parameters for SRV and SRD sensors.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics",
+        "SME (Smart Module Electronics)",
+        "SRV",
+        "SRD",
+        "DVP",
+        "DVM",
+        "Siemens 6ES7134-6GD01-0BA1 Module",
+        "Siemens 6ES7134 Analog Input Module"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nAnalog Signal Integration with Siemens 6ES7134-6GD01-0BA1 Module\n\nModified on: Fri, 11 Aug, 2023 at 10:28 PM\n\nWhich Rheonics products are related to this Article?\nThis Article is based on the use of the SME (Smart Module Electronics) from SRV (https://rheonics.com/products/inline-viscometer-srv/), SRD (https://rheonics.com/products/inline-gas-lng-density-meter-dvp/) and DVM (https://rheonics.com/products/hpht-pvt-density-meter-viscometer-dvm/). Hence it can be used for any of these Rheonics sensors.\n\nWhat is this Article helpful for?\nThis article helps with the correct wiring to use SME's 4-20mA Channels and read them correctly with the Siemens 6ES7134 Analog Input Module and similars.\n\n1. SME 4-20mA Channels Overview\nRheonics SME (Smart Module Electronics) has 3 in-built Output Channels for 4-20mA measurements. These are labeled in the SME housing as CH1, CH2 and CH3.\n\nFigure 1: SME Analog Output Channels.\n\nBy default, these 3 Channels send the following Parameters for the SRV and SRD sensors.\n\nTable 1: Default Measurements for SRV.\nChannel | Default Measurement SRV | Parameter\n1 | Viscosity Median and Last Good | 12\n2 | Density Median and Last Good | 13\n3 | Temperature Median | 2\n\nChannel | Default Measurement SRD | Parameter (Table content cut off)",
+      "specifications": {
+        "Output_Current_Range": "4-20mA",
+        "SME_Output_Channels": "3",
+        "SRV_Channel_1_Parameter_ID": "12",
+        "SRV_Channel_1_Measurement": "Viscosity Median and Last Good",
+        "SRV_Channel_2_Parameter_ID": "13",
+        "SRV_Channel_2_Measurement": "Density Median and Last Good",
+        "SRV_Channel_3_Parameter_ID": "2",
+        "SRV_Channel_3_Measurement": "Temperature Median",
+        "Document_Modified_Date": "Fri, 11 Aug, 2023",
+        "Document_Modified_Time": "10:28 PM"
+      },
+      "key_facts": [
+        "The article provides guidance on integrating Rheonics SME 4-20mA output channels with Siemens 6ES7134 Analog Input Modules.",
+        "Rheonics SME (Smart Module Electronics) includes three built-in 4-20mA output channels labeled CH1, CH2, and CH3.",
+        "The SME is compatible with Rheonics SRV, SRD, DVP, and DVM sensors.",
+        "For SRV sensors, Channel 1 by default sends Viscosity Median and Last Good (Parameter 12), Channel 2 sends Density Median and Last Good (Parameter 13), and Channel 3 sends Temperature Median (Parameter 2)."
+      ],
+      "diagram_labels": [
+        "4-20 mA output",
+        "ch3 +",
+        "ch2 +",
+        "ch1 +",
+        "gnd -",
+        "loop +",
+        "display",
+        "usb",
+        "SD-card",
+        "reset",
+        "data",
+        "comm.",
+        "sensor",
+        "power",
+        "modbus A",
+        "modbus B",
+        "(RS485)",
+        "gnd",
+        "24 V dc +"
+      ],
+      "warnings_notes": [
+        "This Article is based on the use of the SME (Smart Module Electronics) from SRV (https://rheonics.com/products/inline-viscometer-srv/), SRD (https://rheonics.com/products/inline-gas-lng-density-meter-dvp/) and DVM (https://rheonics.com/products/hpht-pvt-density-meter-viscometer-dvm/). Hence it can be used for any of these Rheonics sensors.",
+        "This article helps with the correct wiring to use SME's 4-20mA Channels and read them correctly with the Siemens 6ES7134 Analog Input Module and similars."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1225,
+        "cost_usd": 0.0032023
+      },
+      "source_file": "147_Analog_Signal_Integration_with_Siemens_6ES7134-6GD01-0BA1_Module.pdf"
+    },
+    {
+      "page_summary": "This page provides wiring diagrams and descriptions for connecting Rheonics SME viscometers/density sensors as 4-wire transmitters to measuring devices and discusses the features of a Siemens AI module for analog input.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SME",
+        "Siemens AI Module 6ES7134-6GD01-0BA1",
+        "ET 200SP"
+      ],
+      "extracted_text": "1 Density Median and Last Good 13\n2 Viscosity Median and Last Good 12\n3 Temperature Median 2\nTable 2: Default Measurements for SRD.\n\nFollow the Analog signals setup with the RCP (https://support.rheonics.com/support/solutions/articles/8100040347-analog-signals-setup-with-the-rcp) article to change the Channel-Parameter relations and parameterize the 4-20mA Outputs.\nThe SME should be considered as a 4-wire transmitter. By definition, a 4-wire transmitter needs 2 wires connected to a power supply and 2 signal wires are used by a reading Instrument (e.g. a PLC, Multimeter, Ammeter). From these two last wires, one is the Analog Signal and the other is the reference wire to close the Circuit, as shown in the Figure below.\n\n4 Wire Transmitter\nPower Supply\nV +\nGND\nIout\nCOM\ni = 4-20mA\nMeasuring Device\n4.58 mA\n15.22 °C\n\nFigure 2: 4-wire Transmitter Example Diagram.\n\nThe SME has 3 non-isolated Current Outputs, which means they share the same reference. To operate, the SME requires an external Voltage Supply (24V DC) through 2 wires. To read through the 4-20mA Channels, each of the three Analog Signals has a unique port (CH1, CH2, CH3) and two other ports are used as references (gnd-). The Figure below shows a possible wiring connection to read the SME’s Analog Channels.\n\nRheonics SME\nPower Supply\nO24V dc\nOgnd-\nch1+\nch2+\nch3+\ngnd-\ngnd-\n4-20mA\n4-20mA\n4-20mA\nMeasuring Devices\n4.58 mA\n20.85 cP\n6.58 mA\n3.52 g/cc\n16.29 mA\n85.22 °C\n\nFigure 3: SME Analog Channels Example Diagram.\n\nNotice how two Measuring Devices are connected externally, but internally all three shared the same “gnd-”. It is always important to understand the wiring diagram of the Measuring Device (especially of PLCs reading Modules) to assure a good reading.\n\n2. Siemens AI Module 6ES7134-6GD01-0BA1\n\nThis is an Analog Input Module for the ET 200SP from Siemens. It has 4 input channels that can be configured for 2- and 4-wire transmitters.\nThe AI Module’s Diagram is presented below. It shows examples for a 2- and 4-wire connection labeled as 1 and 2, respectively.",
+      "specifications": {
+        "Density Median and Last Good ID": "13",
+        "Viscosity Median and Last Good ID": "12",
+        "Temperature Median ID": "2",
+        "Analog Output Range": "4-20mA",
+        "SME External Voltage Supply": "24V DC",
+        "Siemens AI Module Input Channels": "4"
+      },
+      "key_facts": [
+        "The SME should be considered a 4-wire transmitter.",
+        "A 4-wire transmitter requires 2 wires for power supply and 2 signal wires (one analog signal, one reference) for the reading instrument.",
+        "The SME has 3 non-isolated Current Outputs, sharing the same reference.",
+        "The SME requires an external 24V DC voltage supply.",
+        "Each of the three SME Analog Signals (CH1, CH2, CH3) has a unique port, with two additional ports for references (gnd-).",
+        "Measuring devices, though connected externally, internally share the same 'gnd-' reference with the Rheonics SME.",
+        "The Siemens AI Module 6ES7134-6GD01-0BA1 is an Analog Input Module for the ET 200SP from Siemens.",
+        "The Siemens AI module has 4 input channels configurable for both 2- and 4-wire transmitters."
+      ],
+      "diagram_labels": [
+        "4 Wire Transmitter",
+        "Power Supply",
+        "V +",
+        "GND",
+        "Iout",
+        "COM",
+        "i = 4-20mA",
+        "Measuring Device",
+        "4.58 mA",
+        "15.22 °C",
+        "Rheonics SME",
+        "O24V dc",
+        "Ognd-",
+        "ch1+",
+        "ch2+",
+        "ch3+",
+        "gnd-",
+        "gnd-",
+        "4-20mA",
+        "Measuring Devices",
+        "20.85 cP",
+        "6.58 mA",
+        "3.52 g/cc",
+        "16.29 mA",
+        "85.22 °C"
+      ],
+      "warnings_notes": [
+        "It is always important to understand the wiring diagram of the Measuring Device (especially of PLCs reading Modules) to assure a good reading."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1332,
+        "cost_usd": 0.0034698
+      },
+      "source_file": "147_Analog_Signal_Integration_with_Siemens_6ES7134-6GD01-0BA1_Module.pdf"
+    },
+    {
+      "page_summary": "This page provides detailed wiring diagrams and instructions for connecting a Rheonics SME module to a Siemens AI Module (6ES7134-6GD01-0BA1), including internal module diagrams and external sensor integration details.",
+      "document_type": "manual",
+      "product_names": [
+        "AI Module 6ES7134-6GD01-0BA1",
+        "SME",
+        "SME-DRM"
+      ],
+      "extracted_text": "3. SME Wiring Connection to Siemens 6ES7134-6GD01-0BAI Module\n\nA possible connection between this Siemens AI Module and SME is represented in the wiring diagram below.\n\nFigure 4: AI Module 6ES7134-6GD01-0BA1 Internal Diagram [1].\n\nFigure 5: SME and AI Module Wiring Diagram.\n\nIn this example, CH1 is connected to I1 from the AI Module, CH2 is connected to I2 and CH3 to I0. Notice how the reference pin for the measurement in I2- can be bridged with the one from I0-, since both signals in I2+ and I0+ are coming from the same transmitter (SME).\n\nFollow Rheonics Sensor Integration with TIA portal (https://support.rheonics.com/support/solutions/articles/81000401598-rheonics-sensor-integration-with-tia-portal) and Diagnostics and Parameter Readings with Profinet (https://support.rheonics.com/support/solutions/articles/81000401909-diagnostics-and-parameter-readings-with-profinet).\n\nArticles on how to read Parameters through TIA Portal.",
+      "specifications": {
+        "Fuse Rating": "3 A",
+        "Power Supply": "24V DC+"
+      },
+      "key_facts": [
+        "The document details the wiring connection between a Rheonics SME module and a Siemens AI Module 6ES7134-6GD01-0BA1.",
+        "CH1 of the SME module is connected to I1 on the AI Module, CH2 to I2, and CH3 to I0.",
+        "The reference pins I2- and I0- on the AI Module can be bridged because the I2+ and I0+ signals originate from the same SME transmitter.",
+        "Rheonics provides support articles for Sensor Integration with TIA portal and Diagnostics and Parameter Readings with Profinet.",
+        "The articles provide guidance on how to read parameters through TIA Portal."
+      ],
+      "diagram_labels": [
+        "DIAG",
+        "AI0",
+        "AI1",
+        "AI2",
+        "AI3",
+        "PWR",
+        "3 A",
+        "CC03",
+        "CH0",
+        "CH1",
+        "U_ext",
+        "1I_0+",
+        "1I_2+",
+        "1I_0-",
+        "1I_2-",
+        "U_v0",
+        "U_v2",
+        "2I_0+",
+        "2I_2+",
+        "1I_1+",
+        "1I_3+",
+        "1I_1-",
+        "1I_3-",
+        "U_v1",
+        "U_v3",
+        "2I_1+",
+        "2I_3+",
+        "DC24V L+",
+        "P1",
+        "P2",
+        "AUX",
+        "M",
+        "1 (circled)",
+        "2 (circled)",
+        "3 (circled)",
+        "4 (circled)",
+        "5 (circled)",
+        "6 (circled)",
+        "7 (circled)",
+        "8 (circled)",
+        "9 (circled)",
+        "A (current meter symbol)",
+        "Gnd -",
+        "Modbus RTU RS485",
+        "A (Modbus)",
+        "B (Modbus)",
+        "Modbus TCP Ethernet RJ45",
+        "P - Power status",
+        "S - Sensor status",
+        "C - Modbus RTU status",
+        "D - Ethernet status",
+        "USB (micro-B)",
+        "Display",
+        "Reset",
+        "SD-Card",
+        "Loop+ (not active)",
+        "Ch1+",
+        "Ch2+",
+        "Ch3+",
+        "SME-DRM",
+        "8 (pin number)",
+        "7 (pin number)",
+        "6 (pin number)",
+        "5 (pin number)",
+        "4 (pin number)",
+        "3 (pin number)",
+        "2 (pin number)",
+        "1 (pin number)",
+        "0 (pin number)"
+      ],
+      "warnings_notes": [
+        "Notice how the reference pin for the measurement in I2- can be bridged with the one from I0-, since both signals in I2+ and I0+ are coming from the same transmitter (SME)."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1188,
+        "cost_usd": 0.0031098
+      },
+      "source_file": "147_Analog_Signal_Integration_with_Siemens_6ES7134-6GD01-0BA1_Module.pdf"
+    },
+    {
+      "page_summary": "This page provides a technical note on 4-20mA channel considerations and lists a reference to a Siemens product manual.",
+      "document_type": "notes",
+      "product_names": [
+        "et200sp_ai_4xi_2_4_wire_st"
+      ],
+      "extracted_text": "Note: When using 4-20mA Channels take in consideration factors that can affect the readings:\n(https://support.rheonics.com/support/solutions/articles/81000397120-what-can-go-wrong-with-4-20ma-loops-What can go wrong with 4-20mA Loops? (https://support.rheonics.com/support/solutions/articles/81000397120-what-can-go-wrong-with-4-20ma-loops_)\n\nReferences:\n[1] https://cache.industry.siemens.com/dl/files/161/59768161/att_109158/v1/et200sp_ai_4xi_2_4_wire_st_manual_en-US_en-US.pdf (https://cache.industry.siemens.com/dl/files/161/59768161/att_109158/v1/et200sp_ai_4xi_2_4_wire_st_manual_en-US_en-US.pdf)",
+      "specifications": {},
+      "key_facts": [
+        "Users should consider factors that can affect readings when implementing 4-20mA channels.",
+        "Rheonics offers a support article titled 'What can go wrong with 4-20mA Loops?' regarding potential issues with 4-20mA loops.",
+        "A Siemens manual for the ET 200SP AI 4XI 2/4-wire ST module is provided as a reference."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Note: When using 4-20mA Channels take in consideration factors that can affect the readings."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 521,
+        "cost_usd": 0.0014422999999999999
+      },
+      "source_file": "147_Analog_Signal_Integration_with_Siemens_6ES7134-6GD01-0BA1_Module.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "source_file": "Specific gravity using 8-variable model from process density meter SRD _ Rheonics Support.pdf",
+  "total_pages": 3,
+  "chunks": [
+    {
+      "page_summary": "This document describes how to calculate specific gravity using an 8-variable regression model with Rheonics' process density meter SRD and Rheonics Control Panel (RCP) software, including the mathematical model, data input methods, and steps to load the model into sensor electronics.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics Control Panel (RCP)",
+        "SRD (process density meter)",
+        "SME (Smart Module Electronics)"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nSpecific gravity using 8-variable model from process density meter SRD\nModified on: Mon, 20 Nov, 2023 at 3:27 PM\n\nWhat products are involved in this article?\nThis article is based on the use of RCP (Rheonics Control Panel) connected to the SME (Smart Module Electronics) operating SRD (inline density meter).\n\nWhat is the purpose of this article?\nExplain the process to get calculated Specific Gravity or Relative Density with the 8-variable regression model.\n\n1. Math model\n\nShown below is the mathematical formula for the specific gravity (8-variable model)\n\nSG = (Density of Process Fluid Reference Temperature T1) / (Density of water at Reference Temperature T2)\n\nEquation 1. Specific Gravity (Concentration 8-variable model temperature compensation)\nThe SRD sensor can measure inline density, viscosity, and temperature; in addition, we can use multiple mathematical models to calculate the concentration of a mix. To calculate the specific gravity of a fluid we can use Equation 1, where:\nT1: Inline temperature measured in °C\nT2: Reference temperature of the water.\nSG: Specific gravity\n\n2. Checking the data\n\nAll density, viscosity compensation, and concentration models can be loaded onto the sensor through the RCP software from Rheonics, in the \"Calculation\" tab.\nThis Concentration Specific Gravity model provides two options to input data, these are \"Load List Dataset\" (Figure 1) and \"Load Dataset\" (Figure 2). The data in both options can be filled out manually in each cell or can be loaded with a .csv file as shown in Table 1.\nIf you already have a table of temperature-concentration-density data of the fluid you can enter it directly to the RCP. Otherwise, you can get the values by testing the sensor in the fluid by changing the temperature and concentration of the fluid.\n\nInput Data Type\n\nFigure 1. List dataset RCP view\n\nTable 1. Input data type for the specific gravity (8-variable model)\n\nFigure 2. Table dataset RCP view\n\n3. How to load models into the Sensor electronics?\n\nThe following steps are to load the models into sensor electronics:\n1. In the \"Select Measurement to Apply Model\" dropdown list select \"Concentration\".\n2. In the \"Select Model from the list\" dropdown list select \"8 var model Specific Gravity\". When you select the model, you will get more information about the specific equation used and the coefficients you will need.\n3. We have to load the data to calculate the model, in this example, we are going to click the \"Load Dataset\" button and the next table (Figure 4) will be shown. You can also load the data with the \"Load List Dataset\" button.\n\nFigure 3. Calculation tab for Specific gravity (Concentration 8-variable model)",
+      "specifications": {
+        "Water Density at ref temp": "998 kg/m3",
+        "Reference Temp": "20 °C",
+        "Units for Specific Gravity": "SG",
+        "Modbus RTU/TCP register": "208",
+        "Example Calculated Value": "1.07967"
+      },
+      "key_facts": [
+        "The article explains how to obtain calculated Specific Gravity or Relative Density using an 8-variable regression model.",
+        "The Rheonics Control Panel (RCP) software is used to load density, viscosity compensation, and concentration models onto the sensor.",
+        "The SRD sensor is capable of measuring inline density, viscosity, and temperature.",
+        "The specific gravity (SG) is defined as the ratio of the density of the process fluid at a reference temperature T1 to the density of water at a reference temperature T2.",
+        "Data for the Concentration Specific Gravity model can be input manually into cells or loaded from a .csv file.",
+        "Loading models into sensor electronics requires selecting 'Concentration' as the measurement and '8 var model Specific Gravity' from dropdown lists within the RCP's 'Calculation' tab, followed by loading the dataset."
+      ],
+      "diagram_labels": [
+        "List Dataset",
+        "Temperature [°C]",
+        "Concentration %",
+        "Density (kg/m^3)",
+        "Input Data Type",
+        "Table Dataset",
+        "Coefficients",
+        "Import",
+        "Export",
+        "Calc. Coeff",
+        "Load & Close",
+        "Cancel",
+        "Rheonics Control Panel 5.4.0.6",
+        "Measurement",
+        "Events",
+        "Settings",
+        "Service",
+        "Diagnostics",
+        "Communication",
+        "Temp. Control",
+        "Scaling",
+        "Calculation",
+        "Logger",
+        "Advanced Calculations | Thermal Compensation of Density, Viscosity",
+        "Select Measurement to Apply Model",
+        "Calculated Value",
+        "Status",
+        "Select Model from List",
+        "8 var model Specific Gravity",
+        "Load List DataSet",
+        "Load DataSet",
+        "Water Density at ref temp [kg/m3]",
+        "Reference Temp [°C]",
+        "Units",
+        "UPLOAD MODEL",
+        "LCD Display (for TRD Only)",
+        "Select Line to Display",
+        "Change SMET Output",
+        "Output on 4-20 mA channel",
+        "Select channel number",
+        "Load Configuration",
+        "Access measurement with applied model over Modbus RTU/TCP register",
+        "Calculation History"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1402,
+        "cost_usd": 0.0036448
+      },
+      "source_file": "Specific gravity using 8-variable model from process density meter SRD _ Rheonics Support.pdf"
+    },
+    {
+      "page_summary": "This page provides detailed instructions for setting up and configuring Rheonics viscometers and density sensors, covering data input, model coefficient calculation, specific gravity calculation, and output handling via LCD, analog channels, and Modbus.",
+      "document_type": "manual",
+      "product_names": [
+        "SME-TRD"
+      ],
+      "extracted_text": "8 Variable Model Coefficients\nConcentration [wt%]\nTemperature [°C]\n\nDataset Table:\nRows (Temperature [°C]): 0, 15, 20, 40, 60, 80, 100\nColumns (Concentration [wt%]): 1, 2, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 50\nExample Data (row 0, values from 1% to 50%): 1012.4, 1024.4, 1048.2, 1094.3, 1135.9, 1164.9, 1229.6, 1274.1, 1318.2, 1361.4, 1403, 1443.5, 1482.5, 1521, 1540\n\nCoefficients: [-874.262084960937499, 2.600538492202759, -0.00299455052588, 0.000001572540327, -0.00000000306125, 0.046779181808233, 0.000129998574266]\n\nFigure 4. Dataset Table\n\na. Load data: you can do this manually or with a CSV file.\na1. Manual input: The user has to fill out the data manually, complete the table writing the values in each cell\na2. CSV file input: If the user already has the data in a CSV file, click the “Import” button and select your file with the data for the model.\nb. Internal calculation: Click the “calc. coeff.” button to calculate the coefficients of the model.\nc. Calculated coefficient values by the internal model will be shown in this box.\nd. Export data: If you want the current data in the table can be exported in a .csv file with the “Export” button.\ne. Load model: Finally, click the “Load & Close” button to load the coefficients in the sensor electronics.\n\n4. Input “Water density” in Kg/m3 at the reference temperature, in this example, is 998 Kg/m3.\n5. Input “Reference temperature” for the water density, in this example, is 20 °C.\n6. Click “Upload Model” to load the model settings into sensor electronics. The button should turn GREEN for a couple of seconds if the action was successful or turn RED if the operation was unsuccessful. This action will refresh the “Calculated Value”.\n\nRheonitics Control Panel 5.4.0.6\nTabs: Measurement, Events, Settings, Service, Diagnostics, Communication, Temp. Control, Scaling, Calculation, Logger\nAdvanced Calculations | Thermal Compensation of Density, Viscosity\nSelect Measurement to Apply Model: Concentration\nSelect Model from List: 8 var model\nCalculated Value: 1.407944\nStatus: (Green circle)\n\nSpecific Gravity Section:\n8 var model\nSpecific Gravity\nWater Density at ref temp [Kg/m3]: 998\nReference Temp [°C]: 20\nUnits: SG\nFormula: SG = Density of Process Fluid at Reference Temperature T1 / Density of Water at Reference Temperature T2\n\nLCD Display (for TRD Only) Select Line to Display options: None, Line 1, Line 2, Line 3\nOutput on 4-20 mA channel Select channel number options: None, Ch1, Ch2, Ch3\nAccess measurement with applied model over Modbus RTU/TCP register: 208\n\nFigure 5. Specific Gravity calculated\n\n7. Click “Load Configuration” to update the display and channel configurations in sensor electronics.\n8. The “Calculation History” button allows you to open a file with the last uploaded model.\n\n3.1. Handling Sensor Outputs\nFor the SME-TRD, the compensated viscosity values can be shown on the display. Select the line to display the parameter:\n\nFigure 4. Selecting read line for LCD display. (Note: This is a duplicate figure number, referring to the LCD display configuration)\n\nSelect the analog channel to send data, this can be verified in the “Service” Tab\n\nFigure 5. Selecting analog output channel. (Note: This is a duplicate figure number, referring to the analog output configuration)\n\nMeasurement can always be accessed at the register address that is displayed.\n\nFigure 6. Modbus TCP/IP register\n\n3.2 Demonstration Video",
+      "specifications": {},
+      "key_facts": [
+        "Model coefficients can be entered manually, imported from a CSV file, or calculated internally.",
+        "Calculated model coefficients are displayed in a dedicated box and can be exported to a CSV file.",
+        "Model coefficients are loaded into the sensor electronics by clicking the 'Load & Close' button.",
+        "Specific gravity calculation requires inputting water density at a reference temperature (e.g., 998 Kg/m3 at 20 °C).",
+        "The 'Upload Model' button provides visual feedback (GREEN for success, RED for failure) and refreshes the 'Calculated Value'.",
+        "Sensor display and channel configurations are updated by clicking 'Load Configuration'.",
+        "The 'Calculation History' button provides access to a file containing the last uploaded model.",
+        "Compensated viscosity values for the SME-TRD can be shown on its LCD display, configurable to specific lines (Line 1, Line 2, Line 3).",
+        "Measurement data can be sent via 4-20 mA analog output channels (Ch1, Ch2, Ch3).",
+        "Measurement data with an applied model is accessible over Modbus RTU/TCP at a specified register address (e.g., 208)."
+      ],
+      "diagram_labels": [
+        "8 Variable Model Coefficients",
+        "Concentration [wt%]",
+        "Temperature [°C]",
+        "Coefficients",
+        "Import",
+        "Export",
+        "Calc. Coeff.",
+        "Load & Close",
+        "Cancel",
+        "Rheonitics Control Panel 5.4.0.6",
+        "Measurement",
+        "Events",
+        "Settings",
+        "Service",
+        "Diagnostics",
+        "Communication",
+        "Temp. Control",
+        "Scaling",
+        "Calculation",
+        "Logger",
+        "Advanced Calculations | Thermal Compensation of Density, Viscosity",
+        "Select Measurement to Apply Model",
+        "Concentration",
+        "Select Model from List",
+        "8 var model",
+        "Calculated Value",
+        "Status",
+        "Specific Gravity",
+        "Load List DataSet",
+        "Load DataSet",
+        "Water Density at ref temp [Kg/m3]",
+        "Reference Temp [°C]",
+        "Units",
+        "SG",
+        "UPLOAD MODEL",
+        "SG = Density of Process Fluid at Reference Temperature T1 / Density of Water at Reference Temperature T2",
+        "Calculation History",
+        "LCD Display (for TRD Only) Select Line to Display",
+        "None",
+        "Line 1",
+        "Line 2",
+        "Line 3",
+        "Output on 4-20 mA channel Select channel number",
+        "Ch1",
+        "Ch2",
+        "Ch3",
+        "Access measurement with applied model over Modbus RTU/TCP register",
+        "208"
+      ],
+      "warnings_notes": [
+        "The 'Upload Model' button should turn GREEN for a couple of seconds if the action was successful or turn RED if the operation was unsuccessful. This action will refresh the 'Calculated Value'.",
+        "The 'LCD Display' feature is specified 'for TRD Only'."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1984,
+        "cost_usd": 0.0050998
+      },
+      "source_file": "Specific gravity using 8-variable model from process density meter SRD _ Rheonics Support.pdf"
+    },
+    {
+      "page_summary": "This page provides a video tutorial on how to load an 8-variable model into a sensor's electronic system using Rheonics' RPC Software.",
+      "document_type": "manual",
+      "product_names": [
+        "Sensor electronic",
+        "RPC Software"
+      ],
+      "extracted_text": "How to load the 8-variable model into the Sensor electronic\nrheonics\nWatch on\nVideo 1. Configuration Specific gravity (8-variable model) in RPC Software.",
+      "specifications": {},
+      "key_facts": [
+        "A video tutorial explains how to load an 8-variable model into the Sensor electronic.",
+        "The tutorial demonstrates configuration of specific gravity using the 8-variable model in RPC Software.",
+        "The content is provided by Rheonics."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 201,
+        "cost_usd": 0.0006422999999999999
+      },
+      "source_file": "Specific gravity using 8-variable model from process density meter SRD _ Rheonics Support.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

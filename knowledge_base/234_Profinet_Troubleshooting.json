@@ -1,0 +1,63 @@
+{
+  "source_file": "234_Profinet_Troubleshooting.pdf",
+  "total_pages": 2,
+  "chunks": [
+    {
+      "page_summary": "This page provides a troubleshooting guide for Profinet communication and data issues related to Rheonics viscometers and density sensors.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "RCP software",
+        "SME",
+        "PLC",
+        "Profinet"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nProfinet Troubleshooting\nModified on: Mon, 5 Jun, 2023 at 10:46 PM\n\nElectronics Issues\n  No LED lights, display, or output signals\n    1. Check power supply and cabling\n  Viscosity is not stable\n    1. SRV viscosity output is compared against only the dynamic viscosity of the calibration fluids.\n    2. The sensor is not fully in fluid.\n\nProbe Issues\n  NaN values are displayed on the RCP software or PLC\n    1. Check wiring from the probe to SME is correct.\n    2. Measure the internal resistance from the probe\n\nCommunication Issues\n  No data is visible\n    1. Try to reset the SME and/or restart your master.\n    2. Check all settings are correct with RCP and controller side.\n    3. Verify there is no duplicated address in the network.\n    4. Try to use the ping command to get a response from either the PLC or SME.\n    5. Verify that the latest version of the GSD file is installed.\n    6. Verify that the station name is unique over the network.\n\nData Issues\n  The measured value is different from my reference standards\n    1. SRV viscosity output is compared against only dynamic viscosity of the calibration fluids\n  Wrong Unit from the data stream\n    1. Unit is received as HEX representation, convert to decimal\n  Wrong readings for each parameter\n    1. Verify each parameter is correctly mapped, some bytes are swapped",
+      "specifications": {},
+      "key_facts": [
+        "The document provides troubleshooting guidance for Profinet systems connected to Rheonics sensors.",
+        "If LED lights, display, or output signals are absent, the power supply and cabling should be checked.",
+        "Unstable viscosity readings from an SRV sensor might be due to comparing against static viscosity or the sensor not being fully immersed.",
+        "NaN values in RCP software or PLC suggest incorrect wiring between the probe and SME, or an issue with the probe's internal resistance.",
+        "Communication issues leading to no visible data require checking SME/master reset, RCP/controller settings, network address uniqueness, ping responses, GSD file version, and unique station names.",
+        "If measured values differ from reference standards, ensure SRV viscosity output is compared only to dynamic viscosity of the calibration fluids.",
+        "To correct wrong units from the data stream, convert the HEX representation to decimal.",
+        "Incorrect parameter readings can result from incorrect mapping or swapped bytes."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 690,
+        "cost_usd": 0.0018648
+      },
+      "source_file": "234_Profinet_Troubleshooting.pdf"
+    },
+    {
+      "page_summary": "This page provides a troubleshooting entry, explaining that if sensor status bits do not match the status table, the sensor status byte may be swapped.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Sensor Status does not match any bit from the sensor status table\n1. Sensor status byte is swapped",
+      "specifications": {},
+      "key_facts": [
+        "If the reported Sensor Status does not correspond to any bit defined in the sensor status table, a possible reason is that the sensor status byte is swapped."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 159,
+        "cost_usd": 0.0005372999999999999
+      },
+      "source_file": "234_Profinet_Troubleshooting.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

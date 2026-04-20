@@ -1,0 +1,163 @@
+{
+  "source_file": "080_Getting_started_with_HART_communication.pdf",
+  "total_pages": 3,
+  "chunks": [
+    {
+      "page_summary": "This document serves as a 'Getting Started' guide for implementing HART communication with Rheonics inline viscometers and density sensors, detailing ordering procedures, cabling requirements, and compatible communication devices.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Sensors",
+        "Rheonics inline process density meter",
+        "process viscometers",
+        "Rheonics viscosity and density meters",
+        "Rheonics SME"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nGetting started with HART communication\nModified on: Tue, 31 Oct, 2023 at 12:30 AM\n\nThe purpose of this article is to explain which hardware and configuration are essential for a successful HART implementation using Rheonics Sensors. Rheonics inline process density meter and process viscometers come with native support for HART.\n\nTABLE OF CONTENTS\n1. When I order the sensor, Have I already purchased HART?\n2. Can I order HART after a sensor is shipped?\n3. Cabling\n4. HART Communication devices.\n    4.1. PLC\n    4.2. DCS\n    4.3. Field Communicator\n5. Which variables are offered by Rheonics for the HART protocol?\n6. References\n\n1. When I order the sensor, Have I already purchased HART?\nNo, HART is not enabled by default on Rheonics Sensors. You will need to select the HART communication protocol during ordering. To order the HART communication protocol remember to check the C8-HART option (https://rheonics.com/request-for-quotation/srv/) on the RFQ page (https://rheonics.com/request-for-quotation/). HART is available on all Rheonics viscosity and density meters. The video below shows the steps to be followed to add HART to the device configuration:\n\n[Video Placeholder with YouTube logo]\nHow to order HART in Rheonics sensor?\nrheonics\nWatch on\n\n2. Can I order HART after a sensor is shipped?\nYes, communication protocols like HART can be ordered later. It incurs an additional remote service fee. Contact Rheonics sales to order giving your sensor serial number.\n\n3. Cabling\nIn this article, we are explaining which hardware and configuration are essential for a successful HART implementation. Rheonics Sensors with HART protocol enabled will allow communication through 2-wire using the same channel as the 4-20mA signal. The HART protocol requires a minimum of 250Ω resistance on the data channel to ensure reliable communication. This is an essential requirement for successful HART configuration and should be taken into consideration when designing the wiring for the device. It is recommended to use cable 16AWG or 18 AWG for wiring the analog outputs from channel 1 from the Rheonics SME.\n\n[Diagram: Figure 1. HART Topology with Rheonics Sensor]\n\n4. HART Communication devices.\n4.1. PLC\nA Programmable Logic Controller (PLC) is a digital computer that uses inputs and outputs to automate industrial processes. HART communication requires special hardware, which is not available in every analog card used in PLCs. Therefore, it is important to select the right analog card when the application requires HART communication.",
+      "specifications": {
+        "HART protocol data channel resistance": "250Ω minimum",
+        "Recommended cable gauge for analog outputs": "16AWG or 18 AWG"
+      },
+      "key_facts": [
+        "HART communication is not enabled by default on Rheonics Sensors and must be selected during the ordering process using the C8-HART option on the RFQ page.",
+        "HART communication is available on all Rheonics viscosity and density meters.",
+        "HART communication protocols can be ordered after a sensor has been shipped, but this will incur an additional remote service fee.",
+        "Rheonics Sensors with HART protocol enabled allow communication through a 2-wire setup using the same channel as the 4-20mA signal.",
+        "A minimum resistance of 250Ω is required on the data channel for reliable HART protocol communication.",
+        "HART communication for Programmable Logic Controllers (PLCs) requires special hardware, specifically the right analog card, which may not be available in every analog card used in PLCs."
+      ],
+      "diagram_labels": [
+        "SME",
+        "PLC",
+        "24V DC",
+        "GND",
+        "Modbus RS-485 A",
+        "Modbus RS-485 B",
+        "Modbus TCP/IP",
+        "Loop+",
+        "Loop-",
+        "Sensor connection",
+        "CH1+",
+        "CH1-",
+        "CH2+",
+        "CH2-",
+        "CH3+",
+        "CH3-",
+        "250Ω",
+        "HART communicator",
+        "Figure 1. HART Topology with Rheonics Sensor"
+      ],
+      "warnings_notes": [
+        "Ordering HART communication protocols after a sensor has been shipped incurs an additional remote service fee.",
+        "A minimum of 250Ω resistance on the data channel is an essential requirement for successful HART configuration and should be considered during wiring design.",
+        "It is important to select the correct analog card for PLCs when HART communication is required, as special hardware is needed and not all analog cards support it."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1226,
+        "cost_usd": 0.0032048
+      },
+      "source_file": "080_Getting_started_with_HART_communication.pdf"
+    },
+    {
+      "page_summary": "This page details the use of Distributed Control Systems (DCS) and Field Communicators for HART devices, outlining their benefits and providing specific variables offered by Rheonics for the HART protocol for its SRV and SRD product lines.",
+      "document_type": "manual",
+      "product_names": [
+        "ControlLogix HART I/O Modules",
+        "DCS Honeywell C300",
+        "Yokogawa YHC5150X Portable Hart Communicator",
+        "Emerson AMS Trex Device Communicator",
+        "Rheonics SRV",
+        "Rheonics SRD"
+      ],
+      "extracted_text": "4.2. DCS\nOne of the key advantages of using DCS for HART devices is the ability to access detailed information about the devices. DCS can read and interpret the digital data transmitted by HART devices, providing valuable insights into their health, status, and diagnostics. This information can be used for predictive maintenance, troubleshooting, and optimizing process performance.\n\nFigure 2. ControlLogix HART I/O Modules[1]\n\nFigure 3. DCS Honeywell C300[2]\n\n4.3. Field Communicator\nThe HART communicator is ideal for monitoring or calibrating multiple instruments or for monitoring instruments in hazardous areas. The HART communicator does not require physical contact with the instrument, so it can be used in places where physical access is limited or hazardous. It also provides the ability to monitor or calibrate multiple instruments, which can be especially helpful in industrial or hazardous environments.\n\nFigure 4. Yokogawa YHC5150X Portable Hart Communicator(Left)[3] and Emerson AMS Trex Device Communicator (Right) [4]\n\n5. Which variables are offered by Rheonics for the HART protocol?\nFor HART communication, Rheonics provides the following variables (PV, SV, TV, and QV) over Channel 1 analog output 4-20mA.\n\nSRV Default configuration\nPV: Viscosity\nSV: Density\nTV: Temperature\nQV: Sensor Status\n\nSRD Default configuration\nPV: Density",
+      "specifications": {
+        "Channel 1 analog output": "4-20mA"
+      },
+      "key_facts": [
+        "Distributed Control Systems (DCS) for HART devices allow access to detailed information, health, status, and diagnostics of the devices.",
+        "Information from HART devices via DCS can be utilized for predictive maintenance, troubleshooting, and optimizing process performance.",
+        "HART communicators are suitable for monitoring or calibrating multiple instruments.",
+        "HART communicators are ideal for use in hazardous areas or locations with limited physical access, as they do not require physical contact with the instrument.",
+        "Rheonics provides PV (Primary Variable), SV (Secondary Variable), TV (Tertiary Variable), and QV (Quaternary Variable) for HART communication.",
+        "The HART variables are transmitted over Channel 1 analog output 4-20mA.",
+        "For SRV (viscometer) default configuration, Rheonics offers Viscosity as PV, Density as SV, Temperature as TV, and Sensor Status as QV.",
+        "For SRD (density sensor) default configuration, Rheonics offers Density as PV."
+      ],
+      "diagram_labels": [
+        "HART (on ControlLogix modules)",
+        "I/O Termination Assembly",
+        "FTE Address Switches",
+        "Battery Connection for RAM retention",
+        "Private Redundancy Communication Path",
+        "Redundant FTE Connectors",
+        "Redundant I/O Link #1",
+        "C300 Controller Module",
+        "Redundant I/O Link #2",
+        "Honeywell",
+        "SERIES C300 I.O. ASSY NO. 51307218-100 REV D",
+        "CHINA",
+        "MEMORY BACK-UP",
+        "GPS",
+        "DATE CODE",
+        "BAR CODE",
+        "POWER",
+        "STATUS",
+        "CONTROLLER",
+        "FTE A/B",
+        "YOKOGAWA",
+        "EMERSON",
+        "Pressure (on Emerson device screen)",
+        "Analog Output (on Emerson device screen)"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 966,
+        "cost_usd": 0.0025548
+      },
+      "source_file": "080_Getting_started_with_HART_communication.pdf"
+    },
+    {
+      "page_summary": "This page defines the sensor output variables, lists external references for compatible hardware and communicators, and includes a disclaimer regarding the illustrative nature of images.",
+      "document_type": "manual",
+      "product_names": [
+        "1756 HART card",
+        "Series C I/O Modules",
+        "YHC5150X",
+        "AMS Trex Device Communicator",
+        "Rockwell",
+        "Honeywell",
+        "Yokogawa",
+        "Emerson"
+      ],
+      "extracted_text": "SV: Viscosity\nTV: Temperature\nQV: Sensor Status\n\nIt is possible to configure the variables to output other measurements including derived values like ° API, ASTM compensated density, temperature-compensated viscosity, etc. You can advise your sales contact to pre-configure or work with the support team to configure in the field.\n\n6. References:\nRockwell 1756 HART card (https://literature.rockwellautomation.com/idc/groups/literature/documents/pp/1756-pp016_-en-p.pdf) [1]\nSeries C I/O Modules | Honeywell (https://process.honeywell.com/us/en/products/control-and-supervisory-systems/distributed-control-systems/experion-pks/i-o-modules/series-c-i-o-modules#overview) [2]\nHART Communicator YHC5150X | (https://www.yokogawa.com/solutions/products-and-services/measurement/field-instruments-products/device-smart-communicators/hart-communicator-yhc5150x/) [3]\nAMS Trex Device Communicator | Emerson US (https://www.emerson.com/en-us/automation/asset-performance-management/field-device-management/field-communicators/ams-trex-device-communicator) [4]\n\nDisclaimer\nPictures, photos, and images used are for illustration purposes and do not constitute any warranty or assertions on suitability of use and should not be construed as an explicit or in",
+      "specifications": {},
+      "key_facts": [
+        "The sensor's primary output variables are Viscosity (SV), Temperature (TV), and Sensor Status (QV).",
+        "The device can be configured to output additional measurements and derived values such as °API, ASTM compensated density, and temperature-compensated viscosity.",
+        "Configuration of output variables requires consultation with a sales contact or the support team.",
+        "External references are provided for the Rockwell 1756 HART card, Honeywell Series C I/O Modules, Yokogawa HART Communicator YHC5150X, and Emerson AMS Trex Device Communicator.",
+        "All visual content (pictures, photos, images) is for illustration purposes only and does not imply any warranty or assertion of suitability of use."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Disclaimer: Pictures, photos, and images used are for illustration purposes and do not constitute any warranty or assertions on suitability of use and should not be construed as an explicit or in"
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 723,
+        "cost_usd": 0.0019473000000000001
+      },
+      "source_file": "080_Getting_started_with_HART_communication.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

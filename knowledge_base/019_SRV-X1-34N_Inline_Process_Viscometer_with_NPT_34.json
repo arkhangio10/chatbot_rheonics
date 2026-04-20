@@ -1,0 +1,519 @@
+{
+  "source_file": "019_SRV-X1-34N_Inline_Process_Viscometer_with_NPT_34.pdf",
+  "total_pages": 12,
+  "chunks": [
+    {
+      "page_summary": "This page provides an introduction and table of contents for documentation regarding the Rheonics SRV NPT 3/4\" inline process viscometer, detailing its purpose, product involvement, and initial installation considerations.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV-X1-34N: Inline Process Viscometer with NPT 3/4\"",
+        "SRV - Inline Viscosity Meter"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nSRV-X1-34N: Inline Process Viscometer with NPT 3/4\"\n\nModified on: Thu, 15 Jan, 2026 at 4:18 PM\n\nWhat products are involved?\nSRV - Inline Viscosity Meter (https://rheonics.com/products/inline-viscometer-srv/)\n\nWhat is the purpose of this article?\nTo give an overview of the SRV NPT 3/4\" variant, installation guidelines, instructions, special considerations and available accessories.\n\nTABLE OF CONTENTS\n\n* 1. Introduction\n* 2. General installation guidelines\n  * 2.1 Submersion (Proper insertion length)\n  * 2.2 Stagnation and dead zones\n* 3. Additional considerations for the installation point\n  * 3.1 Flow rate\n  * 3.2 Fluid type\n\n1. Introduction\n\nSRV is Rheonics sensor for inline viscosity measurement (viscometer). Read more on SRV here (https://rheonics.com/products/inline-viscometer-srv/).\n\nThe NPT 3/4\"-14 connection is Rheonics most commonly used design for SRV. In most cases, it is the most price-efficient option with the shortest lead time and the largest selection of accessories.\n\nNPT threaded connections are very common in industrial applications. It is used both in low and high-pressure environments, up to 500 bar / 7500 psi. This type of connection allows for an easy process integration using some of",
+      "specifications": {
+        "NPT connection size": "3/4\"-14",
+        "Pressure rating for NPT connections": "500 bar / 7500 psi"
+      },
+      "key_facts": [
+        "This document provides an overview of the SRV NPT 3/4\" variant, including installation guidelines, instructions, special considerations, and available accessories.",
+        "The SRV is a Rheonics sensor designed for inline viscosity measurement.",
+        "The NPT 3/4\"-14 connection is Rheonics' most commonly used design for SRV, offering a price-efficient option, the shortest lead time, and the largest selection of accessories.",
+        "NPT threaded connections are frequently used in industrial applications for both low and high-pressure environments, supporting pressures up to 500 bar / 7500 psi."
+      ],
+      "diagram_labels": [
+        "Rheonics logo (on sensor body)",
+        "rheonics (text on sensor body)"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 747,
+        "cost_usd": 0.0020073
+      },
+      "source_file": "019_SRV-X1-34N_Inline_Process_Viscometer_with_NPT_34.pdf"
+    },
+    {
+      "page_summary": "This page details the dimensions and technical specifications of the Rheonics SRV NPT sensor, including installation requirements and a critical warning regarding the use of a Teflon band for proper sealing.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SRV",
+        "SRV NPT",
+        "SRV-X1-34N",
+        "SRV-HD-X1-34N"
+      ],
+      "extracted_text": "Rheonics accessories or a thread in a pipe or vessel.\n\nThis threaded connection requires the use of a Teflon band. This helps to ensure a sealed connection and avoids cold welds (the process connection adaptor may get stuck with the sensor, leading to severe damage).\n\nMax. available Pressure-Rating: 500 bar (7500 psi)\nMaterial: 316L\nProcess connection: 3/4\" - 14 NPT\nOrder Code: SRV-HD-X1-34N\n\nFigure 1: SRV NPT dimensions.\n\nSpecifications\nSensor: Rheonics SRV (https://rheonics.com/products/inline-viscometer-srv/)\nOrder code: SRV-X1-34N\nConnection type: NPT\nThread size: 3/4\"\nThreads per inch (TPI): 14\nWrench for installation: 32mm (1-1/4\")\nDrawing and CAD file:\nSRV 3/4\" NPT Drawing (https://rheonics.com/wp-content/uploads/2025/11/SRV-HD-X1-34N.pdf)\nSRV 3/4\" NPT CAD files (https://rheonics.com/wp-content/uploads/2025/11/SRV-HD-X1-34N.zip)\n(https://rheonics.com/wp-content/uploads/2021/04/SRV_NPT.pdf)\n\n2. General installation guidelines",
+      "specifications": {
+        "Max. available Pressure-Rating": "500 bar (7500 psi)",
+        "Material": "316L",
+        "Process connection": "3/4\" - 14 NPT",
+        "Order Code": "SRV-X1-34N (also SRV-HD-X1-34N)",
+        "Connection type": "NPT",
+        "Thread size": "3/4\"",
+        "Threads per inch (TPI)": "14",
+        "Wrench for installation": "32 mm (1-1/4\")",
+        "Total Length": "124 ±1 mm [4.88 ±0.04 in]",
+        "Length to hex nut bottom": "78 ±1 mm [3.08 ±0.04 in]",
+        "Probe tip length": "46 ±1 mm [1.81 ±0.04 in]",
+        "Thread diameter": "Ø 14 mm [0.55 in]",
+        "Main body diameter (at hex nut)": "Ø 36 mm [1.42 in]",
+        "Hex nut width across flats": "32 mm [1.26 in]",
+        "Connector body diameter": "Ø 30 mm [1.18 in]",
+        "Probe shaft diameter": "Ø 5 mm [0.20 in]",
+        "Probe tip diameter": "Ø 8 mm [0.31 in]"
+      },
+      "key_facts": [
+        "The Rheonics SRV NPT sensor is designed for installation as an accessory or in a threaded pipe or vessel.",
+        "The sensor's maximum available pressure rating is 500 bar (7500 psi).",
+        "The sensor is constructed from 316L material.",
+        "The process connection is a 3/4\" - 14 NPT thread.",
+        "The wrench size required for installation is 32mm (1-1/4\").",
+        "Drawing and CAD files for the SRV 3/4\" NPT are available via provided URLs."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "3/4\" - 14 NPT",
+        "124 ±1 [4.88 ±0.04]",
+        "78 ±1 [3.08 ±0.04]",
+        "46 ±1 [1.81 ±0.04]",
+        "Ø 14 [0.55]",
+        "Ø 5 [0.20]",
+        "Ø 8 [0.31]",
+        "Ø 36 [1.42]",
+        "Ø 30 [1.18]",
+        "32 [1.26]",
+        "Figure 1: SRV NPT dimensions."
+      ],
+      "warnings_notes": [
+        "This threaded connection requires the use of a Teflon band. This helps to ensure a sealed connection and avoids cold welds (the process connection adaptor may get stuck with the sensor, leading to severe damage)."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1203,
+        "cost_usd": 0.0031473
+      },
+      "source_file": "019_SRV-X1-34N_Inline_Process_Viscometer_with_NPT_34.pdf"
+    },
+    {
+      "page_summary": "This page outlines the mechanical installation considerations for Rheonics SRV viscometers, focusing on proper submersion, sensing area requirements, and recommended accessories for different installation orientations.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV-3/4 NPT",
+        "SRV",
+        "SRV-X1-34N",
+        "WOL-34NS",
+        "WOL-34NL",
+        "IFC-34N-SRV"
+      ],
+      "extracted_text": "Before talking about the mechanical installation considerations of the SRV-3/4 NPT, it is important to mention some key points to consider. The SRV has the same resonator across all its variants, with installation requirements related to the sensing area of the probes (shadowed red area, Figure 2), which are:\n* This area should be free of deposits or obstructions\n* This area should be completely filled with the fluid of interest\n\nTo achieve the installation requirement, the following considerations must be taken into accccount:\n\n2.1 Submersion (Proper insertion length)\nAs mentioned, the sensing area of the sensor should always be fully submerged in the fluid since SRV measures what is in contact with its sensing element. This can be a problem when in a process, the flow rate is low, and the pipe isn't usually completely filled, or when the sensor is installed too far out of the center of the pipe (usually for long standpipes on tees), where fluid gets stagnant and is not flowing properly, almost static. Notice also that a clearance of at least 5 mm is required between the sensor tip and a pipe wall or any other obstruction; this is usually considered for small diameter pipelines.\n\n(https://rheonics.com/product-accessories/wol-34ns/) (https://rheonics.com/product-accessories/wol-34nl/)\n(https://rheonics.com/product-accessories/ifc-34n-srv/) Generally, to ensure proper immersion in perpendicular orientation with the fluid, the SRV-X1-34N is installed with the WOL-34NS (https://rheonics.com/product-accessories/wol-34ns/) or WOL-34NL (https://rheonics.com/product-accessories/wol-34nl/). For parallel (elbow installations), the flow cell IFC-34N-SRV (https://rheonics.com/product-accessories/ifc-34n-srv/) is recommended.\n\nFigure 2: SRV sensing zone.",
+      "specifications": {
+        "Sensing zone length": "50 mm [1.96 inches]",
+        "Sensing zone diameter": "16 mm [0.63 inches]",
+        "Minimum clearance from sensor tip to pipe wall": "5 mm"
+      },
+      "key_facts": [
+        "The SRV-3/4 NPT viscometer requires specific mechanical installation considerations.",
+        "All SRV variants share the same resonator and related installation requirements for their sensing area.",
+        "The sensing area must be free of deposits or obstructions.",
+        "The sensing area must be completely filled with the fluid of interest.",
+        "The sensor's sensing area should always be fully submerged in the fluid to ensure accurate measurements.",
+        "Potential issues arise when flow rates are low, pipes are not completely filled, or the sensor is installed too far from the center of the pipe, leading to stagnant fluid.",
+        "A minimum clearance of 5 mm is required between the sensor tip and any pipe wall or other obstruction, especially for small diameter pipelines.",
+        "For proper immersion in a perpendicular orientation, the SRV-X1-34N is installed with WOL-34NS or WOL-34NL accessories.",
+        "For parallel (elbow) installations, the IFC-34N-SRV flow cell is recommended."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "50 mm [1.96\"]",
+        "Ø 16mm [0.63\"]",
+        "Figure 2: SRV sensing zone."
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 947,
+        "cost_usd": 0.0025073
+      },
+      "source_file": "019_SRV-X1-34N_Inline_Process_Viscometer_with_NPT_34.pdf"
+    },
+    {
+      "page_summary": "This page provides technical guidelines for installing Rheonics viscometers, focusing on avoiding stagnation and dead zones, managing flow rate for accurate measurements of different fluid types, and ensuring proper sensor submersion.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV"
+      ],
+      "extracted_text": "2.2 Stagnation and dead zones\nFor accurate measurements, stagnations and dead zones must be avoided. These are defined as any space inside the sensing area (red zone), where the fluid is stagnant or not flowing. Stagnations inside the sensing area can cause measurement issues for non-Newtonian fluids, promote the formation of deposits, and have a slow response time due to the lack of fluid exchange. Avoiding stagnation in the sensing area is crucial for a stable, reliable, and fast measurement, especially for complex fluids.\nSRV can also quantify deposits around it and alarm the user when the probe requires cleaning using a Cleaning Status parameter\n\n3. Additional considerations for the installation point\n\n3.1 Flow rate\nFor Newtonian fluids, the flow rate that induces shear rate does not affect the viscosity in static or any moving states of the fluid. However, for non-Newtonian fluids (the most common fluids used in industry), viscosity is shear-dependent and varies with the flow rate; therefore, viscosity readings will differ between static and different flowing conditions. For processes with non-constant flow rates, the recommendation is to install the SRV in a section of the pipeline with the most consistent flow rate to have a steady viscosity value.\n\nFigure X: Viscosity behaviour by induced shear rate\n\nFlow rate is also relevant to ensure the full submersion of the SRV sensing element into the fluid. The sensor should be placed in a section where the pipe is usually full of fluid (i.e., after a pump). However, if the pipe has a constant low flow rate, the pipe may not be full of fluid at all points.\nInstalling the sensor upwards can solve this issue, but it should not be considered for fluids with solids or characteristics that can create deposits around the sensing element. An angled or side of the pipe installation could also help.",
+      "specifications": {},
+      "key_facts": [
+        "Stagnations and dead zones must be avoided in the sensing area for accurate and reliable measurements, especially for non-Newtonian and complex fluids.",
+        "The SRV viscometer can quantify deposits and alert the user when the probe needs cleaning via a Cleaning Status parameter.",
+        "For non-Newtonian fluids, viscosity is shear-dependent and varies with flow rate, causing viscosity readings to differ under various flowing conditions.",
+        "For processes with non-constant flow rates, the SRV should be installed in a pipeline section with the most consistent flow rate to achieve a steady viscosity value.",
+        "Flow rate is crucial for ensuring the full submersion of the SRV sensing element.",
+        "The sensor should be placed in a section of the pipe that is typically full of fluid, such as after a pump.",
+        "Installing the sensor upwards can help ensure full submersion.",
+        "Angled or side-of-the-pipe installations can also help with sensor submersion."
+      ],
+      "diagram_labels": [
+        "Newtonian Fluid",
+        "Dilatant Fluid (Shear Thickening)",
+        "Pseudoplastic Fluid (Shear Thinning)",
+        "Bingham Plastic",
+        "Shear Rate (s⁻¹)",
+        "Shear Stress (τ)",
+        "Figure X: Viscosity behaviour by induced shear rate"
+      ],
+      "warnings_notes": [
+        "Stagnations and dead zones inside the sensing area (red zone) must be avoided as they can cause measurement issues for non-Newtonian fluids, promote the formation of deposits, and result in slow response times.",
+        "Installing the sensor upwards should not be considered for fluids with solids or characteristics that can create deposits around the sensing element."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 865,
+        "cost_usd": 0.0023022999999999997
+      },
+      "source_file": "019_SRV-X1-34N_Inline_Process_Viscometer_with_NPT_34.pdf"
+    },
+    {
+      "page_summary": "This page provides guidance on correct installation practices for Rheonics SRV viscometers regarding fluid submersion, pipe fullness, and suitable fluid types, including flow conditions and velocity limits.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "SRD",
+        "Rheonics inline process density meter SRD",
+        "viscometer SRV"
+      ],
+      "extracted_text": "Figure 4: Pipe not fully filled with fluid\n\nIn all cases, the SRV's sensing element should be submerged in the fluid. It's best to avoid installations with long standpipes (i.e., using a long weldolet or tee), since that may lead to not good fluid transfer resulting in measurements that do not reflect the true state of fluid or worse, high noise measurements.\n\nFigure 5: Flow conditions in installation.\n\n3.2 Fluid type\nThe SRV, in general, works well with almost all fluids as long as the installation is correct. Some common fluid types and scenarios are mentioned next:\n*   Static Newtonian fluids.\n*   Moving Newtonian fluids regardless of flow rate changes (for non-Newtonian fluids, viscosity changes with flow rate, but SRV ensures reproducibility at constant flow rates).\n*   Bubbly fluids under moving conditions. Static bubbly fluids will work, but the risk of bubble concentration deviating from the readings after some time should be considered.\n*   SRV works for flow velocities up to 12 m/s, depending on the probe orientation. Read more here: Rheonics inline process density meter SRD and viscometer SRV for high flow rate and high viscosity applications\n    (https://support.rheonics.com/en/support/solutions/articles/81000416567)",
+      "specifications": {
+        "flow velocities": "up to 12 m/s"
+      },
+      "key_facts": [
+        "The SRV's sensing element must always be submerged in the fluid for accurate measurements.",
+        "Installations with long standpipes (e.g., using a long weldolet or tee) should be avoided to prevent poor fluid transfer and high noise measurements.",
+        "The SRV generally works well with most fluids, provided the installation is correct.",
+        "The SRV is suitable for static Newtonian fluids.",
+        "The SRV is suitable for moving Newtonian fluids, and for non-Newtonian fluids, it ensures reproducibility at constant flow rates despite viscosity changes with flow rate.",
+        "The SRV can work with bubbly fluids under moving conditions; however, for static bubbly fluids, the risk of bubble concentration deviating from readings over time should be considered.",
+        "The SRV operates effectively for flow velocities up to 12 m/s, with performance dependent on the probe orientation.",
+        "Rheonics offers an inline process density meter SRD and a viscometer SRV for high flow rate and high viscosity applications."
+      ],
+      "diagram_labels": [
+        "Fluid's height",
+        "No recommended for fluids with solids or that can create deposits",
+        "Pipe is full of fluid",
+        "rheonics"
+      ],
+      "warnings_notes": [
+        "It is not recommended for fluids with solids or that can create deposits.",
+        "It's best to avoid installations with long standpipes (i.e., using a long weldolet or tee), since that may lead to not good fluid transfer resulting in measurements that do not reflect the true state of fluid or worse, high noise measurements.",
+        "For static bubbly fluids, the risk of bubble concentration deviating from the readings after some time should be considered."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 824,
+        "cost_usd": 0.0021997999999999996
+      },
+      "source_file": "019_SRV-X1-34N_Inline_Process_Viscometer_with_NPT_34.pdf"
+    },
+    {
+      "page_summary": "This page discusses common installation issues for Rheonics SRV viscometers, specifically highlighting problems associated with using standard NPT Tee connections that can lead to inaccurate readings.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "SRV-X1-34N"
+      ],
+      "extracted_text": "(https://support.rheonics.com/en/support/solutions/articles/81000411886-theorical-aspects-of-installation) Important installation considerations are given in this article\n(https://support.rheonics.com/en/support/solutions/articles/8100041186-theorical-aspects-of-installation) for these and other specific fluid types.\n\n4. Installation common issues\nAs explained above, for accurate, repeatable, and reproducible readings of the SRV, it is important to maintain the considerations for proper installation of the sensing element. Below are some examples listed where these concepts are not achieved, leading to potential issues in the readings:\n\n4.1 Potential issues- NPT Tee connection\nPotential issue explanation: A common mistake with installations of the SRV-X1-34N is using any off-the-shelf NPT Tee (Figure 5). An installation with the SRV, vertical or horizontally, mounted in such a Tee port, can be prone to stagnant and dead zones. Also, the SRV tip may pass through the tee and can be exposed to uneven inner walls that can create changes in the fluid’s flow lines (increasing turbulence), as in Figure 6.\n\nFigure 5: Standard NPT Tee [6]\n\nrheonics\nStandard NPT tee with adapter\nNot recommended\nStagnant zones can affect sensor readings\nFigure 6: Installation in standard NPT Tee with potential issues",
+      "specifications": {},
+      "key_facts": [
+        "Important installation considerations for Rheonics SRV sensors are detailed in linked support articles.",
+        "Proper installation of the SRV sensing element is crucial for achieving accurate, repeatable, and reproducible readings.",
+        "A common installation mistake for the SRV-X1-34N is using an off-the-shelf NPT Tee.",
+        "Installing an SRV sensor (vertically or horizontally) in a standard NPT Tee can lead to stagnant and dead zones.",
+        "The SRV sensor tip, if it passes through a standard NPT Tee, can be exposed to uneven inner walls, causing changes in fluid flow lines and increasing turbulence.",
+        "Stagnant zones resulting from improper installation can negatively affect sensor readings."
+      ],
+      "diagram_labels": [
+        "Figure 5: Standard NPT Tee [6]",
+        "rheonics",
+        "Standard NPT tee with adapter",
+        "Not recommended",
+        "Stagnant zones can affect sensor readings",
+        "Figure 6: Installation in standard NPT Tee with potential issues"
+      ],
+      "warnings_notes": [
+        "Using a standard NPT tee with an adapter for SRV installation is not recommended.",
+        "Stagnant zones can adversely affect sensor readings.",
+        "Installations with off-the-shelf NPT Tees can lead to stagnant zones, dead zones, and increased turbulence, which can compromise sensor accuracy."
+      ],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 750,
+        "cost_usd": 0.0020147999999999998
+      },
+      "source_file": "019_SRV-X1-34N_Inline_Process_Viscometer_with_NPT_34.pdf"
+    },
+    {
+      "page_summary": "This page provides installation recommendations for Rheonics viscometers, highlighting potential issues with NPT connection adapters and suggesting direct inline mounting to ensure accurate measurements.",
+      "document_type": "manual",
+      "product_names": [
+        "IFC-34N-SRV",
+        "SRV-X1",
+        "SRV-X3",
+        "SRV-X2"
+      ],
+      "extracted_text": "Recommendation: In these cases, the Rheonics IFC-34N-SRV (https://rheonics.com/product-accessories/ifc-34n-srv/) is recommended to ensure the flow surrounds the sensing element properly, and stagnant zones are removed as in Figure 7.\n\nFigure 7: Correct installation in Rheonics NPT flow cell\n\n4.2 Potential issues - NPT connection adapter\n\nPotential issue explanation: At times, users may want to adapt the 3/4\" NPT connection of the SRV-X1 to a different flange, like Tri-Clamp. They would use an adapter similar to the one shown in Figure 8. These adapters can lead to both incomplete immersion and stagnation zones prone to fouling or deposits at the base of the sensing element which will affect the measurements (see Figure 9). This scenario may not affect applications for low-viscosity fluids like ink but could be a significant problem for high-viscosity fluids like dough, adhesives, glue, and others.\n\nFigure 8: Standard NPT to Tri-Clamp adapter [7]\n\nRecommendation: The client should order the SRV with the required process connection to directly mount it inline without the need for additional adapters (Figure 9, installation to the right). If Tri-Clamp is required visit the SRV-X3 (https://support.rheonics.com/en/support/solutions/articles/81000410430-srv-x3-tri-clamp). If custom flanges are required visit the SRV-X2 (https://support.rheonics.com/en/support/solutions/articles/81000410684-srv-x2-custom-flange).",
+      "specifications": {
+        "NPT connection": "3/4 inch"
+      },
+      "key_facts": [
+        "The Rheonics IFC-34N-SRV is designed for installations where the flow should properly surround the sensing element and stagnant zones need to be removed.",
+        "Users may adapt the 3/4\" NPT connection of the SRV-X1 to other flanges, such as Tri-Clamp, using an adapter.",
+        "Such adapters can lead to incomplete immersion and create stagnation zones prone to fouling or deposits at the base of the sensing element.",
+        "These issues with adapters can affect measurement accuracy.",
+        "The problems caused by adapters are significantly more pronounced for high-viscosity fluids (e.g., dough, adhesives, glue) than for low-viscosity fluids (e.g., ink).",
+        "Rheonics offers SRV models, such as SRV-X3 for Tri-Clamp and SRV-X2 for custom flanges, that provide direct process connections to avoid the need for additional adapters."
+      ],
+      "diagram_labels": [
+        "Removed stagnant zone",
+        "rheonics",
+        "Rheonics IFC-34N-SRV Recommended",
+        "Cell ensures good flow around sensing element"
+      ],
+      "warnings_notes": [
+        "For correct installation, it is recommended to use the Rheonics IFC-34N-SRV to ensure proper flow around the sensing element and eliminate stagnant zones.",
+        "The use of NPT connection adapters can cause incomplete immersion and create stagnation zones, which are susceptible to fouling and deposits, thereby affecting measurement accuracy.",
+        "Clients should order the SRV with the required process connection to enable direct inline mounting and avoid the potential problems associated with additional adapters."
+      ],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 884,
+        "cost_usd": 0.0023498
+      },
+      "source_file": "019_SRV-X1-34N_Inline_Process_Viscometer_with_NPT_34.pdf"
+    },
+    {
+      "page_summary": "This page provides installation recommendations and detailed instructions for Rheonics sensors, particularly focusing on NPT process connections and different mounting scenarios.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV-X1-34N",
+        "SRV-X3-15T",
+        "Rheonics TMA-34N accessory",
+        "NPT SR-sensors",
+        "SRV NPT sensor",
+        "FPC-type (long insertion) sensor"
+      ],
+      "extracted_text": "Not recommended\nRecommended\nRheonics\nSRV-X1-34N\n3/4\" NPT-1.5\" TC Adapter\n1.5\" Tri-Clamp ferrule\nStagnant zones\nDeposits in sensing area\nFlow direction\nRheonics\nSRV-X3-15T\n1.5\" Tri-Clamp ferrule\nCorrect immersion of\nsensing area\nFigure 9: Installation recommendation with NPT adapters\n4. Process connection installation instructions\n4.1 Connection steps\ni. Wrap a sealing compound (e.g. Teflon tape) around the sensor NPT thread 1.5 to 3 times in a clockwise direction, to ensure a leak-free seal.\nii. Place the sensor in the female threaded accessory.\niii. Turn by hand the sensor NPT thread until hand tightened.\niv. Use a wrench (32mm size or 1-1/4\") to give the sensor from 1 up to 3 more full turns.\nIn total, according to ASME Standards (https://www.asme.org/), at least 3.5 and at maximum 6 full turns need to be ensured for a correct NPT installation. The sensor shouldn't be completely tightened.\n3.2 Specific Process Connection installation instructions\n\n*   In line: Ensure the sensing element is exposed to fluid, and avoid stagnation and dead zones. Consider placing the sensor upwards or parallel to the fluid for small flow rates that can't fully surround the sensing element.\n*   In tank: Place the sensor at the bottom, wall or lid of the tank as long as the sensing element can be fully submerged in the fluid and dead zones are avoided. Usually, it is useful if the sensor is placed at a tank's height that has always fluid. Rheonics TMA-34N accessory is a tank mount adapter used for NPT SR-sensors, that should be considered in tank installations. This is detailed sections below.\n*   Others - Thread flange: SRV NPT sensor can be mounted on a flange thread of the same size (3/4\"-14). The flange needs to have an inner diameter larger than 26mm on the process side, the material should be either 304 or 316L and the height can't exceed 25mm. If the flange has a bigger height, an FPC-type (long insertion) sensor",
+      "specifications": {
+        "NPT thread sealing compound turns": "1.5 to 3 times",
+        "Wrench size": "32mm or 1-1/4\"",
+        "Wrench turns (additional)": "1 to 3 full turns",
+        "Total NPT installation turns (ASME Standards)": "3.5 to 6 full turns",
+        "Flange thread size": "3/4\"-14",
+        "Flange inner diameter": "> 26mm",
+        "Flange material": "304 or 316L",
+        "Flange height": "<= 25mm"
+      },
+      "key_facts": [
+        "Figure 9 illustrates installation recommendations for Rheonics sensors with NPT adapters, distinguishing between 'Not recommended' and 'Recommended' setups.",
+        "The 'Not recommended' installation shows stagnant zones and deposits in the sensing area, which can occur when using an NPT-TC adapter like the 3/4\" NPT-1.5\" TC Adapter with SRV-X1-34N.",
+        "The 'Recommended' installation for SRV-X3-15T ensures correct immersion of the sensing area, avoiding issues like stagnation.",
+        "To ensure a leak-free NPT seal, a sealing compound (e.g., Teflon tape) should be wrapped around the sensor NPT thread 1.5 to 3 times in a clockwise direction.",
+        "After hand-tightening the sensor NPT thread, a wrench (32mm or 1-1/4\") should be used to add 1 to 3 more full turns.",
+        "According to ASME Standards, a correct NPT installation requires a total of at least 3.5 and a maximum of 6 full turns.",
+        "For 'In line' installations, the sensing element must be fully exposed to fluid, and stagnation or dead zones should be avoided; consider placing the sensor upwards or parallel for small flow rates.",
+        "For 'In tank' installations, the sensor should be placed at the bottom, wall, or lid ensuring the sensing element is fully submerged and dead zones are avoided, ideally at a tank's constant fluid height.",
+        "The Rheonics TMA-34N accessory is a tank mount adapter suitable for NPT SR-sensors in tank installations.",
+        "For 'Thread flange' mounting, an SRV NPT sensor can be used with a 3/4\"-14 flange thread, provided the flange has an inner diameter greater than 26mm on the process side, is made of 304 or 316L material, and its height does not exceed 25mm.",
+        "If the flange height exceeds 25mm, an FPC-type (long insertion) sensor is required."
+      ],
+      "diagram_labels": [
+        "Not recommended",
+        "Recommended",
+        "Rheonics",
+        "SRV-X1-34N",
+        "3/4\" NPT-1.5\" TC Adapter",
+        "1.5\" Tri-Clamp ferrule",
+        "Stagnant zones Deposits in sensing area",
+        "Flow direction",
+        "SRV-X3-15T",
+        "Correct immersion of sensing area"
+      ],
+      "warnings_notes": [
+        "The sensor shouldn't be completely tightened during NPT installation.",
+        "Ensure the sensing element is exposed to fluid, and avoid stagnation and dead zones for 'In line' installations.",
+        "Ensure the sensing element can be fully submerged in the fluid and dead zones are avoided for 'In tank' installations.",
+        "For 'Thread flange' mounting, the flange height can't exceed 25mm.",
+        "If the flange has a bigger height (>25mm), an FPC-type (long insertion) sensor should be used."
+      ],
+      "page_num": 8,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1526,
+        "cost_usd": 0.0039548
+      },
+      "source_file": "019_SRV-X1-34N_Inline_Process_Viscometer_with_NPT_34.pdf"
+    },
+    {
+      "page_summary": "This page details correct threaded flange sensor installation, emphasizing the avoidance of stagnation zones and proper standpipe height, and introduces the WOL-34NS and WOL-34NL weldolet accessories for different pipe sizes and applications.",
+      "document_type": "manual",
+      "product_names": [
+        "FPC sensor",
+        "WOL-34NS",
+        "SRD NPT",
+        "WOL-34NL"
+      ],
+      "extracted_text": "is needed.\nOnce again, in these and any installation cases, stagnation zones around the sensing element should be avoided.\nFor thread flanges, the height of the standpipe of the connection is relevant as shown in the next figures.\n\nFor most cases, an FPC sensor would be better to use here.\n\nFigure 10: Threaded flange.\n\n5. Accessories available\n\n5.1 Weldolets\n\na. WOL-34NS\nWeldolet for 2\" pipes that ensures maximum exposition of the sensing element to the fluid. Also suitable for SRD NPT 3/4\"-14. Refer to the WOL-34NS page (https://rheonics.com/product-accessories/wol-34ns/) for more information.\n\nFigure 11: WOL-34NS.\n\nb. WOL-34NL\nWeldolet for 2.5\" and larger pipes, also suitable for tank installations, that ensures maximum exposition of the sensing element to the fluid. Also suitable for SRD NPT 3/4\"-14. Refer to the WOL-34NL page (https://rheonics.com/product-accessories/wol-34nl-accessory-page/) for more information.",
+      "specifications": {
+        "WOL-34NS_pipe_size": "2 inches",
+        "WOL-34NS_thread_type_size": "SRD NPT 3/4 inch -14",
+        "WOL-34NL_pipe_size": "2.5 inches and larger",
+        "WOL-34NL_thread_type_size": "SRD NPT 3/4 inch -14"
+      },
+      "key_facts": [
+        "Stagnation zones around the sensing element should be avoided in all installation cases.",
+        "The height of the standpipe for threaded flange connections is relevant for proper installation.",
+        "For most threaded flange installations, an FPC sensor is recommended for better performance.",
+        "The WOL-34NS weldolet is designed for 2\" pipes and SRD NPT 3/4\"-14 connections, ensuring maximum exposure of the sensing element to the fluid.",
+        "The WOL-34NL weldolet is suitable for 2.5\" and larger pipes, including tank installations, and SRD NPT 3/4\"-14 connections, ensuring maximum exposure of the sensing element to the fluid."
+      ],
+      "diagram_labels": [
+        "For most cases, an FPC sensor would be better to use here.",
+        "Figure 10: Threaded flange.",
+        "Figure 11: WOL-34NS."
+      ],
+      "warnings_notes": [
+        "Stagnation zones around the sensing element should be avoided.",
+        "For most threaded flange installations, an FPC sensor would be better to use."
+      ],
+      "page_num": 9,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 783,
+        "cost_usd": 0.0020973
+      },
+      "source_file": "019_SRV-X1-34N_Inline_Process_Viscometer_with_NPT_34.pdf"
+    },
+    {
+      "page_summary": "This page describes two types of flow cell accessories, HPT-SRV and IFC-34N-SRV, for Rheonics SRV NPT 3/4\"-14 sensors, detailing their suitable applications, specifications, and installation recommendations.",
+      "document_type": "manual",
+      "product_names": [
+        "WOL-34NL",
+        "HPT-SRV",
+        "IFC-34N-SRV",
+        "SRV (sensor type)"
+      ],
+      "extracted_text": "Figure 12: WOL-34NL.\n\n5.2 Flow cells\na. HPT-SRV\nSuitable only for SRV NPT 3/4\"-14 and recommended for lines with a small nominal diameter (around DN3 or 1/8\") and high pressures (up to 500 bar, 7500 PSI). Connecting threads for this accessory are 9/16-18 UNF.\nRead more about this on its accessory page (https://rheonics.com/product-accessories/hpt-srv/).\n\nFigure 13: Flow cell HPT-SRV.\n(Text on image: rheonics, High pressure SRV adapter, S/N HPSA-001, Swiss made)\n\nb. IFC-34N-SRV\nSuitable only for SRV NPT 3/4\"-14 and recommended for inline installation with nominal diameters of DN5 to DN25.\nConnecting threads for this accessory are NPT 3/4\" -14.\nFor a diameter larger than DN25 (1\"), we recommend using a bypass. Then, the flow cell can be connected via flexible hoses or fixed piping. Installing the sensor in a bypass is a common solution for process lines that require intense cleaning through means of pigging.\nRead more about this on its accessory page (https://rheonics.com/product-accessories/ifc-34n-srv/)",
+      "specifications": {
+        "HPT-SRV_compatible_sensor_threads": "NPT 3/4\"-14",
+        "HPT-SRV_recommended_line_diameter": "DN3 or 1/8\"",
+        "HPT-SRV_max_pressure": "500 bar (7500 PSI)",
+        "HPT-SRV_connecting_threads": "9/16-18 UNF",
+        "IFC-34N-SRV_compatible_sensor_threads": "NPT 3/4\"-14",
+        "IFC-34N-SRV_inline_installation_diameter_range": "DN5 to DN25",
+        "IFC-34N-SRV_connecting_threads": "NPT 3/4\" -14",
+        "IFC-34N-SRV_bypass_installation_recommended_diameter": "larger than DN25 (1\")"
+      },
+      "key_facts": [
+        "The HPT-SRV flow cell is designed for SRV NPT 3/4\"-14 sensors in small diameter lines and high-pressure environments.",
+        "The IFC-34N-SRV flow cell is designed for SRV NPT 3/4\"-14 sensors and is recommended for inline installation with nominal diameters from DN5 to DN25.",
+        "For line diameters larger than DN25 (1\"), a bypass installation is recommended for the IFC-34N-SRV, allowing connection via flexible hoses or fixed piping.",
+        "Bypass installation of the sensor is a common practice for process lines that necessitate intense cleaning, such as through pigging."
+      ],
+      "diagram_labels": [
+        "WOL-34NL",
+        "Flow cell HPT-SRV",
+        "rheonics",
+        "High pressure SRV adapter",
+        "S/N HPSA-001",
+        "Swiss made"
+      ],
+      "warnings_notes": [
+        "HPT-SRV is suitable only for SRV NPT 3/4\"-14.",
+        "IFC-34N-SRV is suitable only for SRV NPT 3/4\"-14.",
+        "For IFC-34N-SRV with diameters larger than DN25 (1\"), a bypass installation is recommended."
+      ],
+      "page_num": 10,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1005,
+        "cost_usd": 0.0026523
+      },
+      "source_file": "019_SRV-X1-34N_Inline_Process_Viscometer_with_NPT_34.pdf"
+    },
+    {
+      "page_summary": "This page details the Rheonics TMA-34N tank mount adapter, its compatibility and application, and includes images of an inline flow cell (IFC-34N-SRV) and the adapter itself, along with a list of external references.",
+      "document_type": "manual",
+      "product_names": [
+        "IFC-34N-SRV",
+        "TMA-34N",
+        "SRV",
+        "SRD",
+        "WOL-34NS",
+        "WOL-34NL"
+      ],
+      "extracted_text": "Figure 14: IFC-34N-SRV.\n5.3 Tank mount adapter - TMA-34N\nSuitable for SRV and SRD only in its NPT 3/4\"-14 variant, this accessory is recommended for open vessels or tanks with a lid. It is composed of a small cell, wherein the sensor is installed, and a 3/4\" pipe fixed at the top and with a variable length so the sensor can go as far as needed.\nRead more about this on its accessory page (https://rheonics.com/product-accessories/tma-34n/) or its support article here (https://support.rheonics.com/en/support/solutions/articles/81000385151-installing-density-viscosity-sensor-in-tank-with-rheonics-tank-mount-adapter).\nFigure 15: TMA-34N.\nReferences\n[1]: https://rheonics.com/products/inline-viscometer-srv/ (https://rheonics.com/products/inline-viscometer-srv/)\n[2]: https://rheonics.com/product-accessories/ (https://rheonics.com/product-accessories/)\n[3]: https://rheonics.com/product-accessories/wol-34ns/ (https://rheonics.com/product-accessories/wol-34ns/)\n[4]: https://rheonics.com/product-accessories/wol-34nl-accessory-page/ (https://rheonics.com/product-accessories/wol-34nl-accessory-page/)\n[5]: https://www.asme.org/codes-standards/find-codes-standards/b1-20-1-pipe-threads-general-purpose-inch (https://www.asme.org/codes-standards/find-codes-standards/b1-20-1-pipe-threads-general-purpose-inch)\n[6]: https://www.mcmaster.com/products/tees/low-pressure-stainless-steel-threaded-pipe-fittings-9/ (https://www.mcmaster.com/products/tees/low-pressure-stainless-steel-threaded-pipe-fittings-9/)",
+      "specifications": {
+        "NPT thread": "3/4\"-14",
+        "pipe diameter": "3/4\""
+      },
+      "key_facts": [
+        "The TMA-34N tank mount adapter is suitable for Rheonics SRV and SRD sensors.",
+        "The TMA-34N is specifically for the NPT 3/4\"-14 variant of SRV and SRD sensors.",
+        "This accessory is recommended for use in open vessels or tanks with a lid.",
+        "The TMA-34N consists of a small cell for sensor installation and a 3/4\" pipe.",
+        "The 3/4\" pipe of the TMA-34N is fixed at the top and has a variable length, allowing the sensor to reach desired depths."
+      ],
+      "diagram_labels": [
+        "sensor",
+        "flow direction",
+        "rheonics",
+        "patented"
+      ],
+      "warnings_notes": [
+        "The TMA-34N tank mount adapter is suitable for SRV and SRD sensors only in its NPT 3/4\"-14 variant."
+      ],
+      "page_num": 11,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 928,
+        "cost_usd": 0.0024598
+      },
+      "source_file": "019_SRV-X1-34N_Inline_Process_Viscometer_with_NPT_34.pdf"
+    },
+    {
+      "page_summary": "This page contains a single URL referencing a sanitary female threaded pipe fitting to tri-clamp product on dernord.com.",
+      "document_type": "notes",
+      "product_names": [
+        "sanitary-female-threaded-pipe-fitting-to-tri-clamp"
+      ],
+      "extracted_text": "[7]: https://www.dernord.com/products/sanitary-female-threaded-pipe-fitting-to-tri-clamp?variant=27282774949952 (https://www.dernord.com/products/sanitary-female-threaded-pipe-fitting-to-tri-clamp?variant=27282774949952)",
+      "specifications": {},
+      "key_facts": [
+        "The document includes a reference to a product page on dernord.com.",
+        "The referenced product is a sanitary female threaded pipe fitting to tri-clamp.",
+        "The specific variant ID for the product is 27282774949952."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 12,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 278,
+        "cost_usd": 0.0008347999999999999
+      },
+      "source_file": "019_SRV-X1-34N_Inline_Process_Viscometer_with_NPT_34.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

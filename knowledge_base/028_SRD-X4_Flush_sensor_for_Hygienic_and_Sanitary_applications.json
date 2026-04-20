@@ -1,0 +1,418 @@
+{
+  "source_file": "028_SRD-X4_Flush_sensor_for_Hygienic_and_Sanitary_applications.pdf",
+  "total_pages": 8,
+  "chunks": [
+    {
+      "page_summary": "This page provides an overview of the Rheonics SRD-X4 flush sensor for hygienic and sanitary applications, detailing its features, benefits, and available process connection norms.",
+      "document_type": "notes",
+      "product_names": [
+        "SRD-X4",
+        "SRD Inline density and viscosity meter",
+        "SRD-X4-15T"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nSRD-X4: Flush sensor for Hygienic and Sanitary applications\n\nModified on: Mon, 18 Nov, 2024 at 10:00 PM\n\nWhat Products are Involved?\nSRD Inline density and viscosity meter (https://rheonics.com/products/inline-density-meter-srd/)\n\nWhat is the purpose of this article?\nTo give an overview of the flush version of the SRD sensor (SRD-X4) uses and installation options for hygienic and sanitary applications.\n\n1. Overview\nSRD is Rheonics sensor for inline density and viscosity measurement. Read more on SRD here (https://rheonics.com/products/inline-density-meter-srd/).\nThe flush version of the SRD inline density and viscosity meter, shown in Figure 1 and 2 with a Tri-Clamp connection, is used to mount the density meter in a flush installation. His is a dead-zone free mount in the process. The main advantages of this flush sensor probe are its hygienic design and certification that, along with a dead-zone free installation, means that it is easier to clean and disinfect with standard procedures (e.g. Clean in Place - CIP). This design is also useful for small pipes and process connections smaller (e.g. Tri-Clamp DN 20) than those available with the standard short or long SRD. Review these other variants here (https://support.rheonics.com/en/support/solutions/folders/8100029769).\nFollowing the specified hygienic considerations, a flush installation can considerably reduce or eliminate the possibility of plugging, deposits, and dead zones that can cause systematic errors in the density and viscosity readings of the SRD.\n\nRheonics SRD flush probe is available with different process connections, some suitable norms are:\n*   DIN 11853-1/2/3 min DN20\n*   DIN11864-1/2/3 min DN20\n*   DIN 11851 min DN20\n*   ISO 2852, DIN 32676, BS 4825 Part 3 in combination with Tri-Clamp seals\n*   ISO 2853, BS 4825 Part 4 in combination with T-seals\n*   Varinline® type T and P with EPDM O-Ring in size B,F,N,G\n\nAll process connections mentioned above can be ordered with a hygienic certification, EHEDG and/or 3-A. Contact Rheonics Support Team for more information.\n\nFigure 1: SRD-X4-15T Flush Density Meter and Viscometer",
+      "specifications": {
+        "Process Connection Norm DIN 11853": "min DN20",
+        "Process Connection Norm DIN 11864": "min DN20",
+        "Process Connection Norm DIN 11851": "min DN20",
+        "Process Connection Norm ISO 2852 / DIN 32676 / BS 4825": "Part 3 (Tri-Clamp seals)",
+        "Process Connection Norm ISO 2853 / BS 4825": "Part 4 (T-seals)",
+        "Process Connection Type Varinline®": "Type T and P with EPDM O-Ring (sizes B,F,N,G)"
+      },
+      "key_facts": [
+        "The SRD-X4 is a flush sensor designed for hygienic and sanitary applications.",
+        "It offers a dead-zone free mount in the process, which is easier to clean and disinfect.",
+        "The main advantages of the flush sensor probe include its hygienic design and certification.",
+        "The sensor's design is beneficial for small pipes and process connections, such as Tri-Clamp DN 20.",
+        "A flush installation can significantly reduce or eliminate plugging, deposits, and dead zones.",
+        "Reducing plugging, deposits, and dead zones helps prevent systematic errors in density and viscosity readings.",
+        "All process connections can be ordered with hygienic certification, including EHEDG and/or 3-A."
+      ],
+      "diagram_labels": [
+        "Figure 1: SRD-X4-15T Flush Density Meter and Viscometer"
+      ],
+      "warnings_notes": [
+        "All process connections can be ordered with a hygienic certification, EHEDG and/or 3-A."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1141,
+        "cost_usd": 0.0029923
+      },
+      "source_file": "028_SRD-X4_Flush_sensor_for_Hygienic_and_Sanitary_applications.pdf"
+    },
+    {
+      "page_summary": "This page details the dimensions, specifications, order codes, and available hygienic certifications for the Rheonics SRD-X4 flush probe, providing links to technical drawings and CAD files.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRD-X4",
+        "SRD-HS-X4",
+        "SRD inline density and viscosity meter",
+        "Rheonics Flush SRD",
+        "Rheonics Type-SR Tri-Clamp"
+      ],
+      "extracted_text": "rheonics\n127 ±1 [5.01 ±0.04]\nCustom flange\n44 ±1 [1.74 ±0.04]\nφ 14 [0.55]\nφ 5 [0.20]\nφ 13 [0.51]\nφ 30 [1.18]\nUnits: mm [inch]\nFigure 2: SRD-X4 Flush probe dimensions\n\nSpecification\nSensor\nSRD inline density and viscosity meter\n(https://rheonics.com/products/inline-density-meter-srd/)\nOrder code standard probe\nSRD-X4\nOrder code hygienic certified probe\nSRD-HS-X4\nConnection type\nCustomizable\nSizes available\nCustomizable\nHygienic certifications available\n(https://rheonics.com/resources/certificates/)\n3-A and EHEDG\n(https://rheonics.com/resources/certificates/)\nDrawing and CAD file (e.g. Tri-Clamp 1.5\")\nDrawing (https://rheonics.com/wp-content/uploads/2023/07/rheonics_srd-x4-15t.pdf)\nSRD-X4-Tri-Clamp 1.5\" (https://rheonics.com/wp-content/uploads/2023/05/rheonics_srd-x4-15t.zip)\nDrawing and CAD file (e.g. Tri-Clamp D34\")\nDrawing (https://rheonics.com/wp-content/uploads/2023/07/rheonics_srd-x4-05t.pdf)\nSRD-X4-Tri-Clamp D34 (https://rheonics.com/wp-content/uploads/2023/05/rheonics_srd-x4-05t.zip)\nOther sizes\nContact support team at support@rheonics.com\n\nFor the latest CAD models visit Rheonics Type-SR Tri-Clamp page (https://rheonics.com/cad-type-sr-triclamp/).\n\n2. Hygienic certifications for Rheonics Flush SRD\nSRD EHEDG documentation",
+      "specifications": {
+        "Total Height": "127 ±1 mm (5.01 ±0.04 inch)",
+        "Probe Length": "44 ±1 mm (1.74 ±0.04 inch)",
+        "Probe Shaft Diameter (upper)": "14 mm (0.55 inch)",
+        "Probe Shaft Diameter (middle)": "5 mm (0.20 inch)",
+        "Probe Shaft Diameter (lower)": "13 mm (0.51 inch)",
+        "Top View Diameter": "30 mm (1.18 inch)",
+        "Order code standard probe": "SRD-X4",
+        "Order code hygienic certified probe": "SRD-HS-X4",
+        "Connection type": "Customizable",
+        "Sizes available": "Customizable",
+        "Hygienic certifications available": "3-A and EHEDG"
+      },
+      "key_facts": [
+        "The Rheonics SRD-X4 flush probe dimensions are provided in both millimeters and inches in the diagram.",
+        "The standard order code for the probe is SRD-X4.",
+        "The hygienic certified probe order code is SRD-HS-X4.",
+        "The connection type and available sizes for the SRD inline density and viscosity meter are customizable.",
+        "Hygienic certifications available for the SRD-X4 include 3-A and EHEDG, with links to certificate resources.",
+        "Technical drawings and CAD files are available for specific Tri-Clamp sizes, such as 1.5\" and D34\".",
+        "For other sizes, customers are advised to contact the Rheonics support team at support@rheonics.com.",
+        "Additional CAD models can be found on the Rheonics Type-SR Tri-Clamp page.",
+        "Further documentation regarding SRD EHEDG hygienic certification is available."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "Custom flange",
+        "Units: mm [inch]",
+        "Figure 2: SRD-X4 Flush probe dimensions",
+        "127 ±1",
+        "[5.01 ±0.04]",
+        "44 ±1",
+        "[1.74 ±0.04]",
+        "φ 14",
+        "[0.55]",
+        "φ 5",
+        "[0.20]",
+        "φ 13",
+        "[0.51]",
+        "φ 30",
+        "[1.18]"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1246,
+        "cost_usd": 0.0032547999999999995
+      },
+      "source_file": "028_SRD-X4_Flush_sensor_for_Hygienic_and_Sanitary_applications.pdf"
+    },
+    {
+      "page_summary": "This page provides details on the EHEDG and 3-A sanitary certifications for Rheonics SRD density and viscosity sensors, along with essential guidelines for their correct installation to ensure optimal performance and hygienic operation.",
+      "document_type": "manual",
+      "product_names": [
+        "SRD",
+        "Rheonics Density & Viscosity Meters",
+        "Series SR-HS sensors",
+        "SRD-CTN",
+        "SR-HS/MR",
+        "HAW-OR-EPD",
+        "Series SR-HS Viscometer Density Meter"
+      ],
+      "extracted_text": "CERTIFICATE OF COMPLIANCE\nEHEDG\nEL Class I\nDate of issue: 16 May 2023\nValid until: 31 December 2024\nEHEDG hereby declares that the product\ndensity and viscosity sensor, type SRD\nfrom\nRheonics GmbH, 19 Klosterstrasse, 8400 Winterthur, Switzerland\nhas/have been evaluated for compliance and meet/meets the current criteria for\nHygienic Equipment Design of the EHEDG\nCertificate No. EHEDG-C2300031\nSigned Hein Timmerman President EHEDG\nSigned Karijof Faber EHEDG Certification Officer\nEHEDG\nKoopmansstraat 8\n1101 CJ Amsterdam\nThe Netherlands\nEHEDG\nEHEDG Certificate for SRD (https://rheonics.com/wp-content/uploads/2023/06/Rheonics_SRD-Density-and-Viscosity-Meter_EHEDG-Certificate.pdf)\n\nInstallation Guideline\nSKTHEDGNG-202303 Rev-A\nRheonics Density & Viscosity Meters\nINSTALLATION GUIDELINE\nInstallation of EHEDG Approved Products\nrheonics\ninline process\ndensity & viscosity\nmonitoring\nEHEDG Installation guideline (https://rheonics.com/wp-content/uploads/2023/07/EHEDG_Installation_Guideline_A.pdf)\n\nSRD 3-A certification\nISSUE DATE: February 01, 2024\nCERTIFICATE AUTHORIZATION NUMBER: 3986\n3-A\nTHIS IS TO CERTIFY THAT\nRheonics GmbH\nKlosterstrasse 19, Winterthur 8406, Switzerland\nis hereby authorized to continue to apply the\n3-A Symbol to its models of equipment conforming to 3-A Sanitary Standards for:\n74-07 (Sensors and Sensor Fittings and Connections)\nNot listed below:\nCIP Models: Series SR-HS sensors.\nAlso includes Models: SRD-CTN and SR-HS/MR and HAW-OR-EPD in conjunction with gaskets HAM-OR-FXM and HAW-OR-EPD.\nVALID THROUGH: December 31, 2029\nThis authorization to apply the 3-A Symbol is based upon the sworn statement by the applicant for it, that the equipment listed above complies fully with the 3-A Sanitary Standards for the designated category and that the applicant is authorized to use the 3-A Symbol. The current 3-A Sanitary Standards, Inc., does not warrant that the holder of an authorization to use the 3-A Symbol will produce products conforming to the 3-A Sanitary Standards or that the products so produced will be properly installed.\nNEXT TPY INSPECTION/REPORT DUE: January 2029\n(https://cdn.rheonics.com/wp-content/uploads/2024/02/Rheonics-3-A_certificate_3986_Series-SR-HS_Viscometer_Density_Meter-74-07_Issue01.pdf)\n3-A Certificate for SRD (https://cdn.rheonics.com/wp-content/uploads/2024/02/Rheonics-3-A_certificate_3986_Series-SR-HS_Viscometer_Density_Meter-74-07_Issue01.pdf)\n\n3. Installation considerations\nKey recommendations and concepts about the installation of the SRD sensor are detailed in other articles (https://support.rheonics.com/en/support/solutions/folders/81000297659) and these apply to the flush sensors. It is important to verify that the sensing area, shown in Figure 3, is always immersed in fluid and any stagnant zones should be avoided. These are defined as any space, inside the sensing area, where fluid transport is insufficient leading to immobile fluid, as well as possible accumulation of solids and deposits, or unwanted material like air.\nThe installation main considerations are labeled in the next drawing. Flush sensors have the sensing element right after the connection, so dead zones must be avoided at all cost (i.e. long standpipes are clearly ruled out).",
+      "specifications": {
+        "EHEDG Certificate No": "EHEDG-C2300031",
+        "EHEDG Date of issue": "16 May 2023",
+        "EHEDG Valid until": "31 December 2024",
+        "3-A ISSUE DATE": "February 01, 2024",
+        "3-A CERTIFICATE AUTHORIZATION NUMBER": "3986",
+        "3-A Standard": "74-07 (Sensors and Sensor Fittings and Connections)",
+        "3-A VALID THROUGH": "December 31, 2029",
+        "3-A NEXT TPY INSPECTION/REPORT DUE": "January 2029"
+      },
+      "key_facts": [
+        "The Rheonics density and viscosity sensor, type SRD, is EHEDG EL Class I certified for hygienic equipment design.",
+        "The EHEDG certificate for SRD is valid until December 31, 2024.",
+        "Rheonics GmbH is authorized to apply the 3-A Symbol to its Series SR-HS sensors, SRD-CTN, SR-HS/MR, and HAW-OR-EPD models, conforming to 3-A Sanitary Standards 74-07 for Sensors and Sensor Fittings and Connections.",
+        "The 3-A certification for SRD is valid through December 31, 2029.",
+        "For proper installation, the sensing area of the SRD sensor must always be completely immersed in fluid.",
+        "Stagnant zones within the sensing area, where fluid transport is insufficient, must be avoided to prevent immobile fluid, accumulation of solids, deposits, or air.",
+        "Flush sensors require the sensing element to be located immediately after the connection, and long standpipes are explicitly prohibited to prevent dead zones."
+      ],
+      "diagram_labels": [
+        "EHEDG",
+        "EL Class I",
+        "President EHEDG",
+        "EHEDG Certification Officer",
+        "Rheonics Density & Viscosity Meters",
+        "INSTALLATION GUIDELINE",
+        "rheonics",
+        "inline process density & viscosity monitoring",
+        "3-A",
+        "THIS IS TO CERTIFY THAT",
+        "74-07 (Sensors and Sensor Fittings and Connections)",
+        "Not listed below:",
+        "CIP Models: Series SR-HS sensors.",
+        "Figure 3"
+      ],
+      "warnings_notes": [
+        "The current 3-A Sanitary Standards, Inc., does not warrant that the holder of an authorization to use the 3-A Symbol will produce products conforming to the 3-A Sanitary Standards or that the products so produced will be properly installed.",
+        "It is important to verify that the sensing area, shown in Figure 3, is always immersed in fluid and any stagnant zones should be avoided.",
+        "Stagnant zones are defined as any space, inside the sensing area, where fluid transport is insufficient leading to immobile fluid, as well as possible accumulation of solids and deposits, or unwanted material like air.",
+        "Dead zones must be avoided at all cost (i.e. long standpipes are clearly ruled out)."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1856,
+        "cost_usd": 0.0047798
+      },
+      "source_file": "028_SRD-X4_Flush_sensor_for_Hygienic_and_Sanitary_applications.pdf"
+    },
+    {
+      "page_summary": "This page outlines the installation principles for Rheonics SRD-Flush sensors, including dimensional requirements and best practices, and details various HAW weldolet accessories for achieving flush and hygienic installations of SRD-X1-12G and SRV sensors in different wall thicknesses and with various sealing types.",
+      "document_type": "manual",
+      "product_names": [
+        "SRD-Flush",
+        "SRD-X1-12G",
+        "SRV",
+        "HAW",
+        "HAW-12G-OTN",
+        "HAW-12G-MTN",
+        "HAW-12G-OTK",
+        "HAW-12G-MTK"
+      ],
+      "extracted_text": "SRD-Flush\nRheonics\nUnits: mm [inch]\nClearance from SRD tip to any obstruction: 12mm\n1. Sensing area (in rectangle) always in fluid\n2. No stagnation zones in sensing area\n3. Verify clearance at the sensor's tip\nFigure 3: SRD-Flush installation principles\n\n4. Installation examples\nSome suitable adapters for the SRD flush sensor are mentioned in section 1. Installation will depend on the type of adapter used. Rheonics offers a collection of accessories for installation with flush sensors. These accessories and some other well-known installation cases are shown below.\n\n4.1 Rheonics adapters\n\na. HAW Accessories\nThe HAW line of Rheonics weldolets enable the installation of the SRD-X1-12G in tanks and pipes (also suitable for the SRV). This sensor is not configured as flush (X4) but with the HAW accessories a flush installation can be ensured. These weldolets have two versions, for thin walls (around 1.5mm) and thick walls (max. 10mm), and each one has two further variants for Ø16.1x1.6 mm O-ring seal and metal-metal seal. These accessories are suitable for flush hygienic installations.\n\n*   Fig a. HAW-12G-OTN (https://rheonics.com/product-accessories/haw-12g-xtn/): Weldolet with a Ø16.1x1.6 mm O-ring seal for thin walls\n*   Fig b. HAW-12G-MTN (https://rheonics.com/product-accessories/haw-12g-xtn/): Weldolet with metal-metal seal for thin walls\n*   Fig c. HAW-12G-OTK (https://rheonics.com/product-accessories/haw-12g-xtk/): Weldolet with a Ø16.1x1.6 mm O-ring seal for thick walls\n*   Fig d. HAW-12G-MTK (https://rheonics.com/product-accessories/haw-12g-xtk/): Weldolet with metal-metal seal for thick walls\n\nHAW Accessories\nFig a. HAW-12G-OTN\nFig b. HAW-12G-MTN",
+      "specifications": {
+        "Clearance from SRD tip to any obstruction": "12 mm",
+        "Submerged sensor height": "50 mm [1.97 inch]",
+        "Submerged sensor diameter": "32 mm [1.26 inch]",
+        "Thin wall thickness": "around 1.5 mm",
+        "Thick wall thickness": "max. 10 mm",
+        "O-ring seal dimension": "Ø16.1x1.6 mm"
+      },
+      "key_facts": [
+        "The sensing area of the SRD-Flush sensor must always be in fluid.",
+        "No stagnation zones should exist in the sensing area during SRD-Flush installation.",
+        "Clearance at the SRD-Flush sensor's tip must be verified during installation.",
+        "Rheonics HAW weldolets enable the installation of SRD-X1-12G sensors in tanks and pipes.",
+        "The HAW weldolets are also suitable for SRV sensors.",
+        "HAW accessories ensure a flush installation for SRD-X1-12G sensors, which are not configured as flush (X4) by default.",
+        "HAW weldolets are available in two versions: for thin walls (around 1.5mm) and for thick walls (max. 10mm).",
+        "Each weldolet version has two variants: for Ø16.1x1.6 mm O-ring seal and for metal-metal seal.",
+        "HAW accessories are suitable for flush hygienic installations."
+      ],
+      "diagram_labels": [
+        "SRD-Flush",
+        "Units: mm [inch]",
+        "Clearance from SRD tip to any obstruction: 12mm",
+        "Sensing area (in rectangle) always in fluid",
+        "No stagnation zones in sensing area",
+        "Verify clearance at the sensor's tip",
+        "Figure 3: SRD-Flush installation principles",
+        "HAW Accessories",
+        "Fig a. HAW-12G-OTN",
+        "Fig b. HAW-12G-MTN"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1229,
+        "cost_usd": 0.0032123
+      },
+      "source_file": "028_SRD-X4_Flush_sensor_for_Hygienic_and_Sanitary_applications.pdf"
+    },
+    {
+      "page_summary": "This page details flush hygienic installation options for Rheonics SRD inline density and viscosity meters, including G1/2\" weldolets and Tri-Clamp adapters, complete with product order codes, suppliers, and installation considerations.",
+      "document_type": "manual",
+      "product_names": [
+        "SRD",
+        "HAW-12G-OTK",
+        "HAW-12G-MTK",
+        "SRD-X1-12G",
+        "SRV-X1-12G",
+        "SRD-X4-TC-1.5\"",
+        "BBS-07-ZT.Z40.64- A.025.35.0 N.NAC-S38/38",
+        "Nova Aseptic Tank Connections"
+      ],
+      "extracted_text": "Fig c. HAW-12G-OTK\nFig d. HAW-12G-MTK\n\nSRD - G1/2” Flush Hygienic Installation\nDescription                           | Supplier   | Order code\n--------------------------------------|------------|----------------------------------------------------------------------------------------------------------------------------------\nInline density and viscosity meter - SRD| Rheonics   | SRD-X1-12G\n                                      |            | (https://support.rheonics.com/support/solutions/articles/81000411423-srd-x1-12g-g1-2-)\nHygienic weldolet G1/2”               | Rheonics   | HAW-12G-OTK\n                                      |            | (https://rheonics.com/product-accessories/haw-12g-otk/)\n\nHAW-12G-OTK\nSRV-X1-12G\nFigure 4: Flush installation example with HAW accessory\n\nb. Flush Tri-Clamp adapter\nThis Tri-Clamp connection is a common solution for wall or bottom tank installations. It uses a flush weld-on adapter that Rheonics can provide.\nFlush SR-sensors need special attention at installation to ensure good performance. It's short insertion depth is beneficial for small spaces but a good exposure to fluid is needed.\n\nSRD - Tri-Clamp Flush Hygienic Installation\nDescription                           | Supplier     | Order code\n--------------------------------------|--------------|----------------------------------------------------------------------------------------------------------------------------------\nInline density and viscosity meter - SRD| Rheonics     | SRD-X4-TC-1.5”\nFlush Tri-Clamp flange                | Burkert      | BBS-07-ZT.Z40.64- A.025.35.0 N.NAC-S38/38\n                                      |              | (https://www.buerkert.ch/de/produkte/733905?utm_source=Datasheet-BBS07&utm_medium=Text-Link&utm_campaign=Article-Link&utm_content=733905)\n                                      | Aseptconn AG | (https://www.aseptconn.ch/en/aseptic-connections/novaseptic-tank-connections-na-connect/welding-flange-na-connect-sms-3008)\n\nOrder codes from third parties in table above are indicated for the Rheonics SRD 1.5” Tri-Clamp as examples for next image. Other flush flanges can be used, varying in length and size if sensor Tri-Clamp size changes.",
+      "specifications": {
+        "weldolet_size": "G1/2\"",
+        "tri_clamp_size": "1.5\"",
+        "burkert_flange_size_reference": "S38/38"
+      },
+      "key_facts": [
+        "Rheonics provides flush weld-on adapters for Tri-Clamp connections.",
+        "Flush SR-sensors require special attention during installation to ensure good performance.",
+        "The short insertion depth of flush SR-sensors is beneficial for installations in small spaces.",
+        "A good exposure to fluid is needed for flush SR-sensors to function optimally.",
+        "Third-party order codes in the table serve as examples for the Rheonics SRD 1.5” Tri-Clamp.",
+        "Other flush flanges can be used, with varying lengths and sizes, depending on the sensor's Tri-Clamp size."
+      ],
+      "diagram_labels": [
+        "Fig c. HAW-12G-OTK",
+        "Fig d. HAW-12G-MTK",
+        "HAW-12G-OTK",
+        "SRV-X1-12G",
+        "Figure 4: Flush installation example with HAW accessory"
+      ],
+      "warnings_notes": [
+        "Flush SR-sensors need special attention at installation to ensure good performance. It's short insertion depth is beneficial for small spaces but a good exposure to fluid is needed.",
+        "Order codes from third parties in table above are indicated for the Rheonics SRD 1.5” Tri-Clamp as examples for next image. Other flush flanges can be used, varying in length and size if sensor Tri-Clamp size changes."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1201,
+        "cost_usd": 0.0031422999999999998
+      },
+      "source_file": "028_SRD-X4_Flush_sensor_for_Hygienic_and_Sanitary_applications.pdf"
+    },
+    {
+      "page_summary": "This page illustrates standard flush and inline installation methods for Rheonics SRD and SRV viscometer/density sensors, detailing required components and their suppliers.",
+      "document_type": "manual",
+      "product_names": [
+        "SRD-X4-Tri-Clamp 1.5\"",
+        "SRD sensor probe",
+        "SRV",
+        "SRD-X4-VNM",
+        "IFC-V40",
+        "PLG-VNM",
+        "Varinline N machined plug",
+        "Varinline DN40"
+      ],
+      "extracted_text": "Standard\nwelded flush flange\n\nSRD-X4-Tri-Clamp 1.5\"\n\nFigure 5. Flush installation example with standard TC flush flange\n\nSRD Flush Hygienic Installation\nPart number | Part description\n---|---\n1 | SRD-X4-TC-1.5\"\n2 | Welded flush flange\n3 | Tri-Clamp seal\n4 | Grooved flange x2\n5 | Bolt x4\n6 | Hygienic bolts x4\n\nFigure 6. Exploded view of assembly example with TC flush flange\n\nc. IFC-V40 - Inline flow cell DN40.\nThis solution allows a perpendicular installation of the SRD sensor probe in a straight DN40 or 1.5\" line. This installation requires a Varinline N machined plug provided by Rheonics (PLG-VNM) as the probe connection and the blind plug, as shown in Figure 7.\n\nThe Varinline DN40 is currently the smallest GEA Housing compatible with the Rheonics SRD. If smaller housings are required contact Rheonics Support Team.\n\nSRV - Varinline Hygienic Installation Example\nDescription | Supplier | Order code\n---|---|---\nInline viscometer - SRV | Rheonics | [https://support.rheonics.com/en/support/solutions/articles/81000411056-srv-x1-12g-g-1-2-SRD-X4-VNM](https://support.rheonics.com/en/support/solutions/articles/81000411056-srv-x1-12g-g-1-2-SRD-X4-VNM)\n| | [https://support.rheonics.com/en/support/solutions/articles/81000412204-srd-varinline-inline-density-and-viscosity-meter-with-varinline-flange](https://support.rheonics.com/en/support/solutions/articles/81000412204-srd-varinline-inline-density-and-viscosity-meter-with-varinline-flange)\nVarinline Housing DN40 | [https://www.gea.com/en/products/pumps-valves-flow-components/valves-components-hygienic-liquid-processing/inline-technology/varinline-pocket-free-instruments.jsp](https://www.gea.com/en/products/pumps-valves-flow-components/valves-components-hygienic-liquid-processing/inline-technology/varinline-pocket-free-instruments.jsp) Rheonics | IFC-V40\nMachined N plug | Rheonics | PLG-VNM",
+      "specifications": {
+        "Tri-Clamp size": "1.5 inches",
+        "Line size (DN)": "40",
+        "Line size (inches)": "1.5 inches",
+        "Grooved flange quantity": "2",
+        "Bolt quantity": "4",
+        "Hygienic bolts quantity": "4"
+      },
+      "key_facts": [
+        "The page illustrates a flush installation example using a standard TC flush flange for an SRD-X4-Tri-Clamp 1.5\" sensor.",
+        "Figure 6 provides an exploded view of the assembly with a TC flush flange, listing components such as the SRD-X4-TC-1.5\" sensor, welded flush flange, Tri-Clamp seal, grooved flanges, bolts, and hygienic bolts.",
+        "The IFC-V40 is an inline flow cell designed for perpendicular installation of an SRD sensor probe in a straight DN40 or 1.5\" line.",
+        "The IFC-V40 installation requires a Varinline N machined plug (PLG-VNM) supplied by Rheonics for both probe connection and as a blind plug, as depicted in Figure 7 (not shown on this page).",
+        "The Varinline DN40 is currently the smallest GEA Housing compatible with Rheonics SRD sensors.",
+        "Rheonics supplies the Inline viscometer - SRV (Order code SRD-X4-VNM) and the Machined N plug (PLG-VNM).",
+        "The Varinline Housing DN40 is provided by GEA, with Rheonics listing its order code as IFC-V40."
+      ],
+      "diagram_labels": [
+        "Standard welded flush flange",
+        "SRD-X4-Tri-Clamp 1.5\"",
+        "1 (SRD-X4-TC-1.5\")",
+        "2 (Welded flush flange)",
+        "3 (Tri-Clamp seal)",
+        "4 (Grooved flange)",
+        "5 (Bolt)",
+        "6 (Hygienic bolts)"
+      ],
+      "warnings_notes": [
+        "If smaller housings are required contact Rheonics Support Team."
+      ],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1293,
+        "cost_usd": 0.0033723
+      },
+      "source_file": "028_SRD-X4_Flush_sensor_for_Hygienic_and_Sanitary_applications.pdf"
+    },
+    {
+      "page_summary": "This page details installation options for Rheonics SRD inline viscometers and density sensors, specifically focusing on flush installation within DN40 and DN50 Varinline housings, and lists associated product codes and suppliers.",
+      "document_type": "manual",
+      "product_names": [
+        "SRD",
+        "SRD-X4-VNM",
+        "PLG-VNM",
+        "SRD-X4-Varinline N"
+      ],
+      "extracted_text": "Figure 7: Flush installation drawing of SRD in DN40 Varinline Housing\n\n4.2 Other installation options\na. Varinline:\nThe SRD can be installed in a Varinline housing equal to or bigger than DN50.\nThe design of the Varinline housing ensures no dead zones around the sensor, leading to good flow surrounding the sensing element.\n\nSRD - Varinline Hygienic Installation\nDescription | Supplier | Order code\nInline density and viscosity meter - SRD | Rheonics | SRD-X4-Varinline N\nVarinline housing DN 50 | GEA\n(https://www.gea.com/en/products/pumps-valves-flow-components/valves-components-hygienic-liquid-processing/inline-technology/varinline-pocket-free-instruments.jsp) | TDN50\n\nFigure 8: Flush installation drawing of SRD in DN50 Varinline Housing\n\nNote\nThe SRD has a flush, short and long insertion variants. All have a compatible hygienic design and are EHEDG certified. In this article, focus is on the flush version even if an example has been given in Figure 4 with the short variant. The long insertion pobe design has a unique article here (https://support.rheonics.com/en/support/solutions/articles/81000411193-srd-x5-long-insertion-probe).",
+      "specifications": {
+        "SRD in DN40 Varinline Housing - Total Length": "44 ±1 mm [1.73 ±0.04 in]",
+        "SRD in DN40 Varinline Housing - Housing edge to sensor tip": "12 mm [0.49 in]",
+        "DN40 Varinline Housing - Inner Diameter": "Φ 38 mm [1.50 in]",
+        "DN40 Varinline Housing - Outer Diameter": "Φ 41 mm [1.61 in]",
+        "DN50 Varinline Housing - Inner Diameter": "Φ 50 mm [1.97 in]",
+        "SRD in DN50 Varinline Housing - Minimum sensor clearance": "12 mm"
+      },
+      "key_facts": [
+        "The SRD can be installed in a Varinline housing equal to or bigger than DN50.",
+        "The Varinline housing design ensures no dead zones around the sensor, promoting good flow around the sensing element.",
+        "The Inline density and viscosity meter SRD from Rheonics has an order code of SRD-X4-Varinline N.",
+        "Varinline housing DN 50 can be sourced from GEA with an order code of TDN50.",
+        "The SRD is available in flush, short, and long insertion variants.",
+        "All SRD variants possess a compatible hygienic design and are EHEDG certified.",
+        "This document's primary focus is on the flush version of the SRD.",
+        "Details for the long insertion probe design are available in a separate article on the Rheonics support website."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "SRD-X4-VNM Varinline N Machined",
+        "Varinline Housing DN 40",
+        "PLG-VNM Varinline N Machined",
+        "44 ±1",
+        "[1.73 ±0.04]",
+        "12",
+        "[0.49]",
+        "Φ 38",
+        "[1.50]",
+        "Φ 41",
+        "[1.61]",
+        "SRD-X4-Varinline N",
+        "O-ring",
+        "Varinline Housing DN 50",
+        "Minimum 12mm",
+        "Φ 50",
+        "[1.97]"
+      ],
+      "warnings_notes": [
+        "The SRD has flush, short, and long insertion variants. All have a compatible hygienic design and are EHEDG certified.",
+        "In this article, focus is on the flush version even if an example has been given in Figure 4 with the short variant.",
+        "The long insertion pobe design has a unique article here (https://support.rheonics.com/en/support/solutions/articles/81000411193-srd-x5-long-insertion-probe)."
+      ],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1123,
+        "cost_usd": 0.0029473
+      },
+      "source_file": "028_SRD-X4_Flush_sensor_for_Hygienic_and_Sanitary_applications.pdf"
+    },
+    {
+      "page_summary": "This page contains a disclaimer regarding the use of images and a list of four external references, including one to Rheonics' own certificate resources.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Disclaimer\nPictures, photos, and images used are for illustration purposes and do not constitute any warranty or assertions on the suitability of use and should not be construed as an explicit or implicit recommendation or endorsement. All illustrations are given proper credit from our source of access and by their use here we do not specify or establish any copyright which belongs and stays unaffected with the existing copyright holder of that material.\n\nReferences\n[1]: https://rheonics.com/resources/certificates/ (https://rheonics.com/resources/certificates/)\n[2]: https://www.buerkert.ch/de/produkte/733905?utm_source=DataSheet-BBS07&utm_medium=Text-Link&utm_campaign=Article-Link&utm_content=733905 (https://www.buerkert.ch/de/produkte/733905?utm_source=DataSheet-BBS07&utm_medium=Text-Link&utm_campaign=Article-Link&utm_content=733905)\n[3]: https://www.aseptconn.ch/en/aseptic-connections/novaseptic-tank-connections-na-connect/welding-flange-na-connect-sms-3008 (https://www.aseptconn.ch/en/aseptic-connections/novaseptic-tank-connections-na-connect/welding-flange-na-connect-sms-3008)\n[4]: https://www.gea.com/en/products/pumps-valves-flow-components/valves-components-hygienic-liquid-processing/inline-technology/varinline-pocket-free-instruments.jsp (https://www.gea.com/en/products/pumps-valves-flow-components/valves-components-hygienic-liquid-processing/inline-technology/varinline-pocket-free-instruments.jsp)",
+      "specifications": {},
+      "key_facts": [
+        "Images within this document are used solely for illustration and do not guarantee suitability of use.",
+        "The document's content should not be interpreted as an explicit or implicit recommendation or endorsement.",
+        "Proper credit is given to the source of all illustrations.",
+        "The document does not claim or establish copyright for any images; copyright remains with the original holder.",
+        "Reference [1] points to Rheonics' own resources for certificates.",
+        "Reference [2] points to a Bürkert product page related to datasheets.",
+        "Reference [3] points to an Aseptconn page concerning aseptic connections, novaseptic tank connections, and welding flanges (SMS-3008).",
+        "Reference [4] points to a GEA page detailing pumps, valves, flow components, and hygienic liquid processing instruments, specifically varinline pocket-free instruments."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Pictures, photos, and images used are for illustration purposes and do not constitute any warranty or assertions on the suitability of use and should not be construed as an explicit or implicit recommendation or endorsement.",
+        "All illustrations are given proper credit from our source of access and by their use here we do not specify or establish any copyright which belongs and stays unaffected with the existing copyright holder of that material."
+      ],
+      "page_num": 8,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 809,
+        "cost_usd": 0.0021623
+      },
+      "source_file": "028_SRD-X4_Flush_sensor_for_Hygienic_and_Sanitary_applications.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

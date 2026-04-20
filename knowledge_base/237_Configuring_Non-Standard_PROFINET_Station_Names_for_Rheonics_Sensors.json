@@ -1,0 +1,103 @@
+{
+  "source_file": "237_Configuring_Non-Standard_PROFINET_Station_Names_for_Rheonics_Sensors.pdf",
+  "total_pages": 2,
+  "chunks": [
+    {
+      "page_summary": "This document provides instructions on configuring non-standard PROFINET station names for Rheonics inline viscometers and density sensors within the Siemens TIA Portal, leveraging its automatic name conversion feature to ensure compliance with IEC 61158-6-10 naming requirements.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV viscometer",
+        "SRD density-viscosity meter",
+        "DVP gas density-viscosity meter",
+        "DVM HPHT density-viscosity meter",
+        "Rheonics inline viscometer",
+        "Rheonics inline density meter",
+        "Rheonics SMET"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nConfiguring Non-Standard PROFINET Station Names for Rheonics Sensors\n\nModified on: Thu, 14 Aug, 2025 at 2:19 AM\n\nWhat products are involved?\nRheonics SRV viscomete (https://rheonics.com/products/inline-viscometer-srv/), SRD density-viscosity meter (https://rheonics.com/products/inline-gas-lng-density-meter-srd/), DVP gas density-viscosity meter (https://rheonics.com/products/hpht-pvt-density-meter-viscometer-dvm/) and DVM HPHT density-viscosity meter (https://rheonics.com/products/hpht-pvt-density-meter-viscometer-dvm/)\n\nWhat is the purpose of this article?\nThis article explains one way to configure non-standard PROFINET station names\n\n1. Overview\nWhen integrating a Rheonics inline viscometer or inline density meter into a PROFINET (https://support.rheonics.com/en/support/solutions/articles/81000410679) network, assigning a valid station name is one of the first steps for establishing communication. The station name must comply with the IEC 61158-6-10 naming requirements. This article explains an approach if, for some reason, a non-standard name is required.\n\n2. Using Non-Standard Station Names\nIf your setup requires a non-standard station name, check if your programming environment supports a station name converter feature, as Siemens TIA Portal does:\n\n\"The TIA Portal supports PROFINET device names that do not conform with the DNS name conventions. A \"converted name\" is generated from the non-conform PROFINET device name. This is the device name that is actually loaded to the device. The PROFINET device name is converted only when it does not conform to the IEC 61158-6-10 rules. The PROFINET device name and the converted name are displayed for the properties of the PN interface. You cannot change the converted name; it is generated automatically.\" (Siemens, TIA Portal Documentation)\n\nUsing this feature allows users to keep their preferred non-standard names (e.g., names with uppercase letters or underscores) in the engineering environment for easy identification and documentation. Internally, however, the sensor sees and operates with the standard-compliant converted name.\n\n3. PROFINET Station name on TIA Portal\nAfter adding a Rheonics device in Device & Networks, you can set the device name. Figure 1 shows an SRV with a non-standard PROFINET station name: Tank4_SRV.\nTank4_SRV is a non-standard name as it has uppercase letters and an underscore.\n\nFigure 1. Non-standard PROFINET station name.\n\nOn Properties > Ethernet Addresses (see Figure 2), enabling \"Generate PROFINET device name automatically\" uses the name set earlier as the station name.\n\n[Figure 2. TIA Portal Properties Pane]\nGeneral | IO tags | System constants | Texts\nPROFINET Interface [X1]\nGeneral\nEthernet addresses\nAdvanced options\nInterface options\nReal-time settings\nX1 P1 [X1 P1]\nIdentification & Maintenance\n\nPROFINET\nIP address is set directly at the device\n[Checkbox] Generate PROFINET device name automatically\nPROFINET device name: tank4_srv\nConverted name: tank4-s-rv-8554\nDevice number: 1",
+      "specifications": {},
+      "key_facts": [
+        "Assigning a valid PROFINET station name is a critical first step for establishing communication when integrating Rheonics inline viscometers or density meters.",
+        "PROFINET station names must adhere to the IEC 61158-6-10 naming requirements.",
+        "Siemens TIA Portal offers a station name converter feature that automatically generates a standard-compliant 'converted name' from a user-defined non-standard PROFINET device name.",
+        "The 'converted name' is the actual device name loaded onto the sensor, ensuring internal operation is always with a standard-compliant name, while users can retain preferred non-standard names for easier identification in the engineering environment.",
+        "Non-standard PROFINET names, such as 'Tank4_SRV', can contain uppercase letters and underscores, which typically do not conform to standard naming rules.",
+        "Enabling 'Generate PROFINET device name automatically' within the TIA Portal's Ethernet Addresses properties section activates the name conversion process."
+      ],
+      "diagram_labels": [
+        "station_name_profinet",
+        "Devices & networks",
+        "PLC_1",
+        "CPU 1211C",
+        "Tank4_SRV",
+        "Rheonics SMET",
+        "DP-NORM",
+        "General",
+        "IO tags",
+        "System constants",
+        "Texts",
+        "PROFINET Interface [X1]",
+        "Ethernet addresses",
+        "Advanced options",
+        "Interface options",
+        "Real-time settings",
+        "X1 P1 [X1 P1]",
+        "Identification & Maintenance",
+        "PROFINET",
+        "IP address is set directly at the device",
+        "Generate PROFINET device name automatically",
+        "PROFINET device name",
+        "Converted name",
+        "Device number"
+      ],
+      "warnings_notes": [
+        "The station name must comply with the IEC 61158-6-10 naming requirements.",
+        "The TIA Portal supports PROFINET device names that do not conform with the DNS name conventions. A \"converted name\" is generated from the non-conform PROFINET device name. This is the device name that is actually loaded to the device. The PROFINET device name is converted only when it does not conform to the IEC 61158-6-10 rules. The PROFINET device name and the converted name are displayed for the properties of the PN interface. You cannot change the converted name; it is generated automatically. (Siemens, TIA Portal Documentation)",
+        "Tank4_SRV is a non-standard name as it has uppercase letters and an underscore."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1620,
+        "cost_usd": 0.0041898
+      },
+      "source_file": "237_Configuring_Non-Standard_PROFINET_Station_Names_for_Rheonics_Sensors.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions for configuring PROFINET station names on Rheonics Viscometers, specifically for FW3 sensors, and lists several related technical references from Rheonics Support and Siemens.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Viscometers",
+        "FW3 sensors",
+        "Rheonics devices",
+        "inline viscometer",
+        "density meter"
+      ],
+      "extracted_text": "Figure 2. PROFINET station converted name\nThe automatically converted name tank4xbsrv5554 is IEC 61158-6-10 compliant and can be configured on the SRV.\n\n4. Configuring Station name on Rheonics Viscometers\nFor FW3 sensors, PROFINET station name cannot be modified by the user. Contact Rheonics Support and provide the desired station name.\nA configuration file will then be provided, which can be uploaded to the SME using the RCP software.\nFor more information on using the RCP software, see Running the RCP Program (https://support.rheonics.com/en/support/solutions/articles/81000297177\n\n5. References\n*   Siemens AG, \"Device settings on the PROFINET IO,\" SIMOTION SCOUT TIA Device configuration (V20), Apr. 2024. [Online]. Available: Device settings on the PROFINET IO,\" SIMOTION SCOUT TIA Device configuration (V20) (https://docs.tia.siemens.cloud/r/it-it/v20/simotion-scout-tia-device-configuration/configuring-communication/profinet-io/device-settings-on-the-profinet-io). [Accessed: 18-Jul-2025].\n*   Rheonics, Getting started with PROFINET on Rheonics devices, Rheonics Support, [Online]. Available: Getting started with PROFINET and Rheonics devices (https://support.rheonics.com/en/support/solutions/articles/81000410679-getting-started-with-profinet-on-rheonics-devices) . [Accessed: 18-Jul-2025].\n*   Rheonics, PROFINET Fundamentals, Rheonics Support, [Online]. Available: PROFINET Fundamentals (https://support.rheonics.com/en/support/solutions/articles/81000410678-profinet-fundamentals) . [Accessed: 18-Jul-2025].\n*   Rheonics, PROFINET connection to inline viscometer and density meter: PROFINET GSD file for Rheonics inline viscometer and density meter, Rheonics Support, [Online]. Available: PROFINET connection to inline viscometer and density meter (https://support.rheonics.com/en/support/solutions/articles/81000401423-profinet-gsd-file-for-rheonics-inline-viscometer-and-density-meter) . [Accessed: 18-Jul-2025].",
+      "specifications": {},
+      "key_facts": [
+        "The automatically converted PROFINET station name (e.g., 'tank4xbsrv5554') is compliant with IEC 61158-6-10 and can be configured on the SRV.",
+        "For Rheonics FW3 sensors, the PROFINET station name cannot be modified directly by the user.",
+        "Users must contact Rheonics Support to provide their desired PROFINET station name for FW3 sensors.",
+        "Rheonics Support provides a configuration file for PROFINET station name changes, which can be uploaded to the SME using the RCP software."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "For FW3 sensors, PROFINET station name cannot be modified by the user; contact Rheonics Support for modifications."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 918,
+        "cost_usd": 0.0024348
+      },
+      "source_file": "237_Configuring_Non-Standard_PROFINET_Station_Names_for_Rheonics_Sensors.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

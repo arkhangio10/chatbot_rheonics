@@ -1,0 +1,259 @@
+{
+  "source_file": "040_Sizing_circuit_breakers_for_Rheonics_SME.pdf",
+  "total_pages": 5,
+  "chunks": [
+    {
+      "page_summary": "This document provides guidance on how to size and select appropriate circuit breakers for the Rheonics SME device, including a definition of circuit breakers and recommendations for specific models.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SME",
+        "ABB S200",
+        "Schneider Electric C60",
+        "Eaton FAZ-B1/2",
+        "Eaton FAZ-B6/1N"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nSizing circuit breakers for Rheonics SME\n\nModified on: Mon, 2 Oct, 2023 at 6:59 PM\n\nWhat is a circuit breaker?\nCircuit breakers interrupt the current of an overloaded electric circuit, ground fault, or short circuit when they sense an overload. As soon as a fault is detected, circuit breakers trip, shutting off current flow. In most cases, circuit breakers do not need to be replaced because they are not damaged.\n\nFigure 1. Eaton FAZ-B6/1N circuit breaker.\n\nTABLE OF CONTENTS\n*   What is a circuit breaker?\n*   1. How to size a circuit breaker to protect the Rheonics SME?\n*   2. Recommended circuit breakers\n    *   2.1. ABB S200\n    *   2.2. Schneider Electric C60\n    *   2.3. Eaton FAZ-B1/2\n*   3. Sizing cable wire that goes from the circuit breaker to the power supply.\n    *   3.1. Power load of Rheonics SME\n*   4. Resources\n\n1. How to size a circuit breaker to protect the Rheonics SME?\nIt is important to select a circuit breaker for a device based on the maximum current it will draw. The Rheonics SME operates and draws a current of 120mA.\nWhen selecting a circuit breaker for Rheonics SME, here are some recommendations:",
+      "specifications": {
+        "Rheonics SME Current Draw": "120mA",
+        "Eaton FAZ-B6/1N Rated Current (In)": "6A",
+        "Eaton FAZ-B6/1N Voltage Rating": "~240V - ~254V"
+      },
+      "key_facts": [
+        "Circuit breakers interrupt the current of an overloaded electric circuit, ground fault, or short circuit when they sense an overload.",
+        "As soon as a fault is detected, circuit breakers trip, shutting off current flow.",
+        "In most cases, circuit breakers do not need to be replaced because they are not damaged.",
+        "It is important to select a circuit breaker for a device based on the maximum current it will draw.",
+        "The Rheonics SME operates and draws a current of 120mA."
+      ],
+      "diagram_labels": [
+        "EATON",
+        "xEffect",
+        "FAZ-B6/1N",
+        "IEC/EN 60947-2",
+        "In = 6A",
+        "~240V",
+        "~254V",
+        "1",
+        "2",
+        "N"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 769,
+        "cost_usd": 0.0020623
+      },
+      "source_file": "040_Sizing_circuit_breakers_for_Rheonics_SME.pdf"
+    },
+    {
+      "page_summary": "This page provides guidance on selecting an appropriate circuit breaker for Rheonics SME electronics, detailing the current requirements and referencing a technical datasheet for a specific circuit breaker model.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics SME",
+        "FAZ-B1/2"
+      ],
+      "extracted_text": "1. Determine the maximum current load of the circuit. Rheonics SME draws 120mA current, so selecting a circuit breaker with a recommended rated operational current that is 33% above this value is good enough.\n2. Select a breaker with a current rating equal to or greater than the maximum current load of the circuit. To properly select a circuit breaker we need to check its datasheet.\n\nTechnical data ETIM 8.0\nCircuit breakers and fuses (EG000020) / Miniature circuit breaker (MCB) (EC000042)\nElectric engineering, automation, process control engineering / Electrical installation, device / Miniature circuit breaker system (MCB) / Miniature circuit breaker (MCB)\n(ecl@ss10.0.1-27-14-19-01 [AAB905014])\n\nBuilt-in depth\nRelease characteristic\nNumber of poles (total)\nNumber of protected poles\nRated current\nRated voltage\nRated insulation voltage Ui\nRated impulse withstand voltage Uimp\nRated short-circuit breaking capacity Icn according to EN 60898 at 230 V\nVoltage type\nRated short-circuit breaking capacity Icn according to EN 60898 at 400 V\nRated short-circuit breaking capacity Icu according to IEC 60947-2 at 230 V\nRated short-circuit breaking capacity Icu according to IEC 60947-2 at 400 V\nFrequency\nCurrent limiting class\nFlush-mounted installation\nConcurrently switching neutral conductor\nOver voltage category\nPollution degree\nAdditional equipment possible\nWidth in number of modular spacings\nDegree of protection (IP)\nAmbient temperature during operating\nConnectable conductor cross section multi-wired\nConnectable conductor cross section solid-core\nExplosion-proof\n\nmm\n\n70.5\nB\n2\n2\nA\n1\nV\n400\nV\n440\nkV\n4\nkA\n10\nAC\nkA\n10\nkA\n15\nkA\n15\nHz\n50 - 60\n3\nNo\nNo\n3\n2\nYes\n2\nIP20\n°C\n-25 - 75\nmm²\n1 - 25\nmm²\n1 - 25\nNo\n\nFigure 2. Datasheet from circuit breaker FAZ-B1/2[1]\n\nObserve that with a 1A-rated current, this circuit breaker can sustain the 120mA current required by our electronics.\nThe circuit breaker should also be capable of operating at the rated voltage of the power supply, our SME operates at 24V DC.",
+      "specifications": {
+        "Built-in depth": "70.5 mm",
+        "Release characteristic": "B",
+        "Number of poles (total)": "2",
+        "Number of protected poles": "2",
+        "Rated current": "1 A",
+        "Rated voltage": "400 V",
+        "Rated insulation voltage Ui": "440 V",
+        "Rated impulse withstand voltage Uimp": "4 kV",
+        "Rated short-circuit breaking capacity Icn according to EN 60898 at 230 V": "10 kA",
+        "Voltage type": "AC",
+        "Rated short-circuit breaking capacity Icn according to EN 60898 at 400 V": "10 kA",
+        "Rated short-circuit breaking capacity Icu according to IEC 60947-2 at 230 V": "15 kA",
+        "Rated short-circuit breaking capacity Icu according to IEC 60947-2 at 400 V": "15 kA",
+        "Frequency": "50 - 60 Hz",
+        "Current limiting class": "3",
+        "Flush-mounted installation": "No",
+        "Concurrently switching neutral conductor": "No",
+        "Over voltage category": "3",
+        "Pollution degree": "2",
+        "Additional equipment possible": "Yes",
+        "Width in number of modular spacings": "2",
+        "Degree of protection (IP)": "IP20",
+        "Ambient temperature during operating": "-25 - 75 °C",
+        "Connectable conductor cross section multi-wired": "1 - 25 mm²",
+        "Connectable conductor cross section solid-core": "1 - 25 mm²",
+        "Explosion-proof": "No"
+      },
+      "key_facts": [
+        "Rheonics SME draws 120mA current.",
+        "A recommended rated operational current for a circuit breaker should be 33% above 120mA.",
+        "The selected circuit breaker must have a current rating equal to or greater than the maximum current load.",
+        "A 1A-rated current circuit breaker can sustain the 120mA current required by Rheonics electronics.",
+        "The circuit breaker should be capable of operating at the rated voltage of the power supply.",
+        "Rheonics SME operates at 24V DC."
+      ],
+      "diagram_labels": [
+        "Rated current",
+        "Figure 2. Datasheet from circuit breaker FAZ-B1/2[1]"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1366,
+        "cost_usd": 0.0035548
+      },
+      "source_file": "040_Sizing_circuit_breakers_for_Rheonics_SME.pdf"
+    },
+    {
+      "page_summary": "This page details the wiring diagram for the Rheonics SME device, provides recommendations for compatible circuit breakers (ABB S200, Schneider Electric C60), and emphasizes the importance of proper breaker selection for the electrical system.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SME",
+        "SME-DRM",
+        "ABB S200",
+        "ABB Circuit Breaker M201-1A",
+        "Schneider Electric C60"
+      ],
+      "extracted_text": "Figure 3. Rheonics SME wiring diagram.\n\n3. Select a breaker that is compatible with the electrical system and the power supply. It may be necessary to consult with an electrician or electrical engineer or to look at the manufacturer's specifications for the breaker and the electrical system.\n\n2. Recommended circuit breakers\n\n2.1. ABB S200\nThe S200 series is designed to protect installations from overloads and short circuits, ensuring reliability and safety under all operating conditions. Miniature circuit breakers (MCBs) are designed to be modular, meaning they can be easily snapped into standard DIN rail-mounted enclosures or distribution boards.\n\nFigure 4. ABB Circuit Breaker M201-1A[2]\n\n2.2. Schneider Electric C60",
+      "specifications": {
+        "Power Supply Voltage": "24 VDC",
+        "Power Supply Current (Minimum)": "150 mA",
+        "Recommended Fuse": "500 mA slow-blow",
+        "Output Current Range": "4-20 mA",
+        "Wire Ferrule Size (Recommended)": "0.05 mm2 x 8 mm",
+        "Wiring Cable Type": "4x2x24AWG shielded",
+        "Connector Type": "M12 8p female A-coded",
+        "ABB Circuit Breaker Rated Current (In)": "1 A",
+        "ABB Circuit Breaker Magnetic Tripping Current (Im)": "14 A",
+        "ABB Circuit Breaker Ultimate Short-Circuit Breaking Capacity (Icu)": "25 kA",
+        "ABB Circuit Breaker Rated Voltage (Un)": "400 V~",
+        "ABB Circuit Breaker Standard": "IEC 60947-2"
+      },
+      "key_facts": [
+        "Circuit breaker selection must be compatible with the electrical system and the power supply.",
+        "The ABB S200 series Miniature Circuit Breakers (MCBs) are designed for protection against overloads and short circuits.",
+        "ABB S200 MCBs are modular and can be easily snapped into standard DIN rail-mounted enclosures or distribution boards."
+      ],
+      "diagram_labels": [
+        "Circuit breaker",
+        "24VDC",
+        ">=150mA",
+        "Power Supply",
+        "Recommended 500mA Slow-blow Fuse",
+        "24V DC +",
+        "Gnd-",
+        "A",
+        "B",
+        "Modbus RTU RS485",
+        "Modbus TCP Ethernet RJ45",
+        "P -Power status",
+        "S-Sensor status",
+        "C-Modbus Comm. Activitys",
+        "D-Ethernet Data Transfer Activity",
+        "USB(micro-B)",
+        "Reset",
+        "Display",
+        "SD-Card",
+        "Loop+ (not active)",
+        "Ch1+",
+        "Viscosity",
+        "Ch2+",
+        "Density",
+        "Ch3+",
+        "Temperature",
+        "4-20 mA",
+        "SME-DRM",
+        "4x2x24AWG shielded",
+        "shield to housing",
+        "Recommended 0.5mm2x 8mm wire ferrules",
+        "M12 8p female A-coded connector",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "red",
+        "blue",
+        "pink",
+        "gray",
+        "yellow",
+        "green",
+        "brown",
+        "white",
+        "ABB",
+        "M 202",
+        "In 1 A",
+        "Im 14 A",
+        "Icu 25 kA",
+        "Un 400V~",
+        "IEC 60947-2",
+        "0 OFF"
+      ],
+      "warnings_notes": [
+        "It may be necessary to consult with an electrician or electrical engineer or to look at the manufacturer's specifications for the breaker and the electrical system."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1096,
+        "cost_usd": 0.0028797999999999996
+      },
+      "source_file": "040_Sizing_circuit_breakers_for_Rheonics_SME.pdf"
+    },
+    {
+      "page_num": 4,
+      "page_summary": "Extraction failed",
+      "document_type": "unknown",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "extraction_failed": true,
+      "source_file": "040_Sizing_circuit_breakers_for_Rheonics_SME.pdf"
+    },
+    {
+      "page_summary": "This page provides an ABYC ampacity rating table for various wire gauges at 30°C and lists several external resources related to circuit breakers, cable sizing, and wire preparation.",
+      "document_type": "manual",
+      "product_names": [
+        "EATON Circuit breaker - FAZ-B1/2",
+        "ABB Circuit breaker - M200 range",
+        "Multi9 Schneider Electric Circuit breaker",
+        "SME-TR/TRD (Outdoor Mount)"
+      ],
+      "extracted_text": "Based on our selection a 1A Circuit breaker can be used with cable caliber 16AWG or 18 AWG based on the table from below.\n\nWire gauge | Ampacity\n---|---\n12 AWG | 20 Amps\n14 AWG | 15 Amps\n16 AWG | 13 Amps\n18 AWG | 10 Amps\n\nTable 1. ABYC Ampacity Rating Table at 30°C[6]\n\n4. Resources\nEATON Circuit breaker - (https://datasheet.eaton.com/datasheet.php?model=278642&locale=en_GB) FAZ-B1/2 [1]\nABB Circuit breaker - M200 range (https://new.abb.com/products/2CDA282799R0011/m202-1a) [2]\nMulti9 Schneider Electric Circuit breaker (https://www.se.com/us/en/download/document/LVCATM9OEM_EN/) [3]\nElectrical Cable Size Calculator and BS7671 Wire Sizing Chart (https://www.insulatedcables.co.in/electrical-cable-size-calculator.html#:~:text=To%20calculate%20the%20cable%20sizing,of%205%20which%20is%20required.) [4]\nEncore Wire Corporation (https://www.encorewire.com/products/tools-and-resources/calculators/wire-size-table.html) [5]\nAllowable Amperage in Conductors - Wire Sizing Chart - Blue Sea Systems (https://www.bluesea.com/support/reference/529/Allowable_Amperage_in_Conductors_-_Wire_Sizing_Chart) [6]\nWire preparation for SME-TR/TRD (Outdoor Mount) (https://support.rheonics.com/en/support/solutions/articles/81000410179-wire-preparation-for-sme-tr-trd-outdoor-mount-) [7]\nABB Selectivity among fuses or between fuses and circuit breakers (https://new.abb.com/low-voltage/solutions/selectivity/focus-on/selectivity-with-fuses) [8]",
+      "specifications": {
+        "12 AWG_ampacity": "20 Amps",
+        "14 AWG_ampacity": "15 Amps",
+        "16 AWG_ampacity": "13 Amps",
+        "18 AWG_ampacity": "10 Amps"
+      },
+      "key_facts": [
+        "A 1A circuit breaker can be used with 16AWG or 18AWG cable.",
+        "The provided ampacity ratings are based on ABYC standards at 30°C."
+      ],
+      "diagram_labels": [
+        "Table 1. ABYC Ampacity Rating Table at 30°C"
+      ],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 852,
+        "cost_usd": 0.0022697999999999998
+      },
+      "source_file": "040_Sizing_circuit_breakers_for_Rheonics_SME.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": [
+      4
+    ]
+  }
+}

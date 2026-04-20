@@ -1,0 +1,74 @@
+{
+  "source_file": "077_Nothing_is_happening_when_I_plug_in_the_USB_cable!.pdf",
+  "total_pages": 2,
+  "chunks": [
+    {
+      "page_summary": "This page provides troubleshooting information regarding USB cable connectivity issues, specifically explaining how 'power-only' USB Mini cables can prevent device detection and how to identify them for use with Rheonics Electronics.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics Electronics"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nNothing is happening when I plug in the USB cable!\n\nModified on: Sun, 15 Feb, 2026 at 12:45 AM\n\nUSB Mini cables are notorious for being charge only. Many of the devices that use that type of cable do not need data transfer, so they leave off two of the USB contacts, providing only power and ground. If we connect a only power USB cable, the electronics won't be detected by the device manager from the PC.\n\n1. How do I identify if my USB cable is for power only?\n\nOnly 2 pins available at the USB port\n\nFigure 1. Power only USB cable (1)\n\n2. Proper USB cables to be used with Rheonics Electronics",
+      "specifications": {},
+      "key_facts": [
+        "USB Mini cables are commonly designed for charge-only purposes, lacking data transfer capabilities.",
+        "Power-only USB cables provide only power and ground, omitting two of the USB data contacts.",
+        "If a power-only USB cable is used, the connected electronics will not be detected by the PC's device manager.",
+        "A power-only USB cable can be identified by observing only 2 pins available at the USB port.",
+        "Proper USB cables are required for use with Rheonics Electronics for device detection and functionality."
+      ],
+      "diagram_labels": [
+        "Only 2 pins available at the USB port",
+        "Figure 1. Power only USB cable (1)"
+      ],
+      "warnings_notes": [
+        "If a power-only USB cable is connected, the electronics won't be detected by the device manager from the PC."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 488,
+        "cost_usd": 0.0013598
+      },
+      "source_file": "077_Nothing_is_happening_when_I_plug_in_the_USB_cable!.pdf"
+    },
+    {
+      "page_summary": "This page illustrates the pinout for a standard USB data and power cable, provides notes on Rheonics sensor compatibility and power requirements, and includes external references and a disclaimer.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics sensors"
+      ],
+      "extracted_text": "Figure 2. Data+power USB port\n(2)\n\nNote:\nAll Rheonics sensors that have been ordered with an USB port are provided with an USB cable that is fully compatible with our electronics (SME should always operate with a power supply)\n\nReferences:\n1. https://dtresources.co.uk/products/5v-usb-power-cable (https://dtresources.co.uk/products/5v-usb-power-cable)\n2. _(https://dtresources.co.uk/products/5v-usb-power-cable) https://www.electroschematics.com/usb-how-things-work/ (https://www.electroschematics.com/usb-how-things-work/)\n\nDISCLAIMER\nPictures, photos and images used are for illustration purposes and do not constitute any warranty or assertions on suitability of use and should not be construed as an explicit or implicit recommendation or endorsement. All illustrations are given proper credit from our source of access and by their use here we do not specify or establish any copyright which belongs and stays unaffected with the existing copyright holder of that material.",
+      "specifications": {},
+      "key_facts": [
+        "All Rheonics sensors ordered with a USB port are provided with a fully compatible USB cable.",
+        "Rheonics electronics (SME) should always operate with a power supply."
+      ],
+      "diagram_labels": [
+        "pin 1 | red | +5V",
+        "pin 2 | white | DATA-",
+        "pin 3 | green | DATA +",
+        "pin 4 | black | GND",
+        "shielding",
+        "Figure 2. Data+power USB port"
+      ],
+      "warnings_notes": [
+        "Note: All Rheonics sensors that have been ordered with an USB port are provided with an USB cable that is fully compatible with our electronics (SME should always operate with a power supply)",
+        "DISCLAIMER: Pictures, photos and images used are for illustration purposes and do not constitute any warranty or assertions on suitability of use and should not be construed as an explicit or implicit recommendation or endorsement. All illustrations are given proper credit from our source of access and by their use here we do not specify or establish any copyright which belongs and stays unaffected with the existing copyright holder of that material."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 599,
+        "cost_usd": 0.0016373000000000002
+      },
+      "source_file": "077_Nothing_is_happening_when_I_plug_in_the_USB_cable!.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

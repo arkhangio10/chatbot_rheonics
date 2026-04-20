@@ -1,0 +1,106 @@
+{
+  "source_file": "066_Modbus_RTU_Command_and_Response_Examples.pdf",
+  "total_pages": 2,
+  "chunks": [
+    {
+      "page_summary": "This page provides examples of Modbus RTU commands and responses for Rheonics parameters, specifically demonstrating how to read temperature and viscosity median values from a device.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics",
+        "SMET"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nModbus RTU Command and Response Examples\nModified on: Thu, 29 Feb, 2024 at 6:58 PM\n\nThis section helps with the syntax for Modbus RTU Commands and Responses for the mostly used Rheonics parameters.\n\nReading the parameter 2, Temperature median, in float data type, from the SMET\nDevice Address= 01 = 0x01 (byte).\nAddress 40057-40001=56 = 0x0038 (word) (Address in Hex of the first register)\nFunctional code= 04=0x0004 (word)-Read input registers\nNumber of registers = 02=0x0002 (word)\nCRC = CRC16 (Word) (Little Endian)\n\nCommand Structure:\n| Device Address | Functional Code | Address of the first register (Hi byte) | Address of the first register (Lo Byte) | Number of registers (Hi byte) | Number of registers (Lo byte) | CRC (Lo Byte) | CRC (Hi Byte) |\n|---|---|---|---|---|---|---|---|\n| 01 | 04 | 00 | 38 | 00 | 02 | F0 | 06 |\n\nCommand Response:\n| Device Address | Functional Code | Number of Bytes | Value of the first register (Hi Byte) | Value of the first register (Lo Byte) | Value of the second register (Hi Byte) | Value of the second register (Lo Byte) | CRC (Lo Byte) | CRC (Hi Byte) |\n|---|---|---|---|---|---|---|---|---|\n| 01 | 04 | 04 | 41 | B1 | 5C | 29 | 47 | 41 |\n\nData = 0x41B15C29 = 22.17 (Float)\nTemperature median = 22.17 °C (default unit)\n\nReading the Parameter 1, Viscosity median, status\nDevice Address= 01 = 0x01 (byte).\nAddress 40044-40001=43 = 0x002B (word) (Address in Hex of the first register)\nFunctional code= 04=0x0004 (word)-Read input registers\nNumber of registers = 01=0x0001 (word)\nCRC = CRC16 (Word) (Little Endian)\n\nCommand Structure:",
+      "specifications": {
+        "phone_number": "+1 713 234 0863",
+        "modified_date": "Thu, 29 Feb, 2024",
+        "modified_time": "6:58 PM",
+        "device_address": "01 (0x01 byte)",
+        "functional_code": "04 (0x0004 word)",
+        "crc_type": "CRC16 (Word) (Little Endian)",
+        "temperature_median_register_address": "40057-40001 (0x0038 word)",
+        "temperature_median_number_of_registers": "02 (0x0002 word)",
+        "temperature_median_data_hex": "0x41B15C29",
+        "temperature_median_value": "22.17 °C",
+        "viscosity_median_register_address": "40044-40001 (0x002B word)",
+        "viscosity_median_number_of_registers": "01 (0x0001 word)"
+      },
+      "key_facts": [
+        "The document provides syntax and examples for Modbus RTU Commands and Responses used with Rheonics parameters.",
+        "The first example demonstrates reading 'Parameter 2, Temperature median' as a float data type from the SMET device.",
+        "The Modbus RTU command for temperature median uses Device Address 01, Functional Code 04, Register Address 0x0038, and requests 02 registers.",
+        "A Modbus RTU response for temperature median includes the data 0x41B15C29, which translates to a float value of 22.17.",
+        "The temperature median measured is 22.17 °C.",
+        "The second example partially details reading 'Parameter 1, Viscosity median, status' using Modbus RTU.",
+        "The Modbus RTU command for viscosity median uses Device Address 01, Functional Code 04, Register Address 0x002B, and requests 01 register."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1212,
+        "cost_usd": 0.0031697999999999995
+      },
+      "source_file": "066_Modbus_RTU_Command_and_Response_Examples.pdf"
+    },
+    {
+      "page_summary": "This page provides examples of Modbus communication, detailing command structures and responses for checking device status (errors) and reading raw temperature values.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Command Structure (Error Check):\nDevice Address: 01, Functional Code: 04, Address of the first register (Hi byte): 00, Address of the first register (Lo Byte): 2B, Number of registers (Hi byte): 00, Number of registers (Lo byte): 01, CRC (Lo Byte): 41, CRC (Hi Byte): C2\nCommand Response (Error Check):\nDevice Address: 01, Functional Code: 04, Number of Bytes: 02, Value of the first register (Hi Byte): 00, Value of the first register (Lo Byte): 01, CRC (Lo Byte): 78, CRC (Hi Byte): F0\nData = 0x0001 = 1 (Uint16) Referring to the parameter status, this value means a general error occurred.\n\nReading the Parameter 8, Temperature raw, Int16 value\nDevice Address= 01 = 0x01 (byte).\nAddress 40099-40001=98 = 0x0062 (word) (Address in Hex of the first register)\nFunctional code= 04=0x0004 (word)-Read input registers\nNumber of registers = 01=0x0001 (word)\nCRC = CRC16 (Word) (Little Endian)\nCommand Structure (Temperature Reading):\nDevice Address: 01, Functional Code: 04, Address of the first register (Hi byte): 00, Address of the first register (Lo Byte): 62, Number of registers (Hi byte): 00, Number of registers (Lo byte): 01, CRC (Lo Byte): 90, CRC (Hi Byte): 14\nCommand Response (Temperature Reading):\nDevice Address: 01, Functional Code: 04, Number of Bytes: 02, Value of the first register (Hi Byte): 08, Value of the first register (Lo Byte): 9E, CRC (Lo Byte): 3F, CRC (Hi Byte): 58\nData = 0x089E = 2206 (Int16)\nSince the register value is the temperature scaled by 100. The actual raw temperature value is 22.06 °C.\nThis register is useful for devices in which single point conversion requires too much computation.",
+      "specifications": {
+        "Device Address": "01 (byte)",
+        "Functional Code": "04 (Read input registers)",
+        "Address of the first register (Hi byte)": "00",
+        "Number of registers (Hi byte)": "00",
+        "Number of registers (Lo byte)": "01",
+        "Number of Bytes in Response": "02",
+        "CRC Type": "CRC16 (Word) (Little Endian)",
+        "Error Check Command Address (Lo Byte)": "2B",
+        "Error Check Command CRC (Lo Byte)": "41",
+        "Error Check Command CRC (Hi Byte)": "C2",
+        "Error Check Response Value (Hi Byte)": "00",
+        "Error Check Response Value (Lo Byte)": "01",
+        "Error Check Response CRC (Lo Byte)": "78",
+        "Error Check Response CRC (Hi Byte)": "F0",
+        "Temperature Command Address (Lo Byte)": "62 (0x0062 word)",
+        "Temperature Command CRC (Lo Byte)": "90",
+        "Temperature Command CRC (Hi Byte)": "14",
+        "Temperature Response Value (Hi Byte)": "08",
+        "Temperature Response Value (Lo Byte)": "9E",
+        "Temperature Response CRC (Lo Byte)": "3F",
+        "Temperature Response CRC (Hi Byte)": "58",
+        "Error Status Data Value (Hex)": "0x0001",
+        "Error Status Data Value (Decimal)": "1 (Uint16)",
+        "Raw Temperature Data Value (Hex)": "0x089E",
+        "Raw Temperature Data Value (Decimal)": "2206 (Int16)",
+        "Actual Raw Temperature": "22.06 °C",
+        "Temperature Scaling Factor": "100"
+      },
+      "key_facts": [
+        "A data value of 0x0001 (1 Uint16) received in response to a status parameter read indicates that a general error occurred.",
+        "The Modbus functional code 04 is used to read input registers.",
+        "The raw temperature register value is scaled by 100.",
+        "The actual raw temperature value is obtained by dividing the received register value by 100 (e.g., 2206 / 100 = 22.06 °C).",
+        "The temperature register described is particularly useful for devices where single-point conversion would require too much computation."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "This register is useful for devices in which single point conversion requires too much computation."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1245,
+        "cost_usd": 0.0032522999999999996
+      },
+      "source_file": "066_Modbus_RTU_Command_and_Response_Examples.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

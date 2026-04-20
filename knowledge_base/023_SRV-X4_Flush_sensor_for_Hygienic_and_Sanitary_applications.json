@@ -1,0 +1,318 @@
+{
+  "source_file": "023_SRV-X4_Flush_sensor_for_Hygienic_and_Sanitary_applications.pdf",
+  "total_pages": 7,
+  "chunks": [
+    {
+      "page_summary": "This page describes the SRV-X4 flush sensor, its design for hygienic and sanitary applications, its benefits in reducing dead zones and improving cleaning, and lists compatible process connections.",
+      "document_type": "technical article",
+      "product_names": [
+        "SRV-X4",
+        "SRV - Inline Viscosity Meter",
+        "CoaguTrack"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nSRV-X4: Flush sensor for Hygienic and Sanitary applications\n\nModified on: Mon, 17 Feb, 2025 at 3:57 PM\n\nWhat products are involved?\nSRV - Inline Viscosity Meter (https://rheonics.com/products/inline-viscometer-srv/)\n\nWhat is the purpose of this article?\nTo give an overview of the flush version of the SRV sensor (SRV-X4), uses and installation options for hygienic and sanitary applications.\n\n1. Introduction\nSRV is Rheonics sensor for inline viscosity measurement (viscometer). Read more on SRV here (https://rheonics.com/products/inline-viscometer-srv/).\n\nThe flush version of the SRV inline viscometer, shown in Figure 1 and 2 with a Tri-Clamp connection, is used to mount the viscometer in a flush installation. Flush means that the dead zones are partially or completely removed, depending on the type of installation or accessory used for installation. The probe's hygienic design and possible hygienic certification, along with the removal of dead zones, make the probe easier to clean and disinfect with standard procedures (e.g. Clean in Place - CIP). This design is also useful for small pipes and process connections smaller (e.g. Tri-Clamp DN 20) than those available with the standard short or long SRV. Review these other variants here (https://support.rheonics.com/en/support/solutions/folders/81000297658).\n\nFollowing the specified hygienic considerations, a flush installation can considerably reduce or eliminate the possibility of plugging, deposits and dead zones that can cause systematic errors in the viscosity readings of the SRV.\n\nUsing an SRV-X4 variant is common for specific Rheonics integrated solutions like CoaguTrack for cheese coagulation (https://cdn.rheonics.com/wp-content/uploads/2023/05/Brochure_Rheonics_CoaguTrack_2023_A4S.pdf).\n\n1.1 Compatible process connections\nRheonics SRV flush probe is available with different process connections, some suitable norms are:\n* DIN 11853-1/2/3 min DN20\n* DIN11864-1/2/3 min DN20\n* DIN 11851 min DN20\n* ISO 2852, DIN 32676, BS 4825 Part 3 in combination with Tri-Clamp seals\n* ISO 2853, BS 4825 Part 4 in combination with T-seals\n* Varinline® type T and P with EPDM O-Ring in sizes B,F,N,G\n\nAll process connections mentioned above can be ordered with a hygienic certification, EHEDG and/or 3-A. Contact Rheonics Support Team for more information.",
+      "specifications": {
+        "Compatible Process Connections": [
+          "DIN 11853-1/2/3 min DN20",
+          "DIN 11864-1/2/3 min DN20",
+          "DIN 11851 min DN20",
+          "ISO 2852, DIN 32676, BS 4825 Part 3 (in combination with Tri-Clamp seals)",
+          "ISO 2853, BS 4825 Part 4 (in combination with T-seals)",
+          "Varinline® type T and P with EPDM O-Ring in sizes B,F,N,G"
+        ],
+        "Tri-Clamp Connection Size": "DN 20"
+      },
+      "key_facts": [
+        "The SRV-X4 is a flush sensor designed for hygienic and sanitary applications.",
+        "The flush version of the SRV inline viscometer utilizes a Tri-Clamp connection for flush installation.",
+        "Flush installation means that dead zones are partially or completely removed, depending on the installation type or accessory.",
+        "The probe's hygienic design, along with dead zone removal, simplifies cleaning and disinfection through standard procedures like Clean in Place (CIP).",
+        "The flush design is beneficial for small pipes and process connections, including Tri-Clamp DN 20.",
+        "Following hygienic considerations, a flush installation significantly reduces or eliminates plugging, deposits, and dead zones that can cause systematic errors in viscosity readings.",
+        "The SRV-X4 variant is commonly used in specific Rheonics integrated solutions, such as CoaguTrack for cheese coagulation.",
+        "All compatible process connections can be ordered with a hygienic certification, EHEDG and/or 3-A."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1202,
+        "cost_usd": 0.0031447999999999997
+      },
+      "source_file": "023_SRV-X4_Flush_sensor_for_Hygienic_and_Sanitary_applications.pdf"
+    },
+    {
+      "page_summary": "This page provides a visual overview, detailed dimensions, and key specifications for Rheonics SRV-X4 series inline viscometers, including ordering information and hygienic certifications.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRV-X4-15T Flush Viscometer",
+        "SRV-X4",
+        "SRV-HS-X4",
+        "SRV Inline Viscometer"
+      ],
+      "extracted_text": "Figure 1: SRV-X4-15T Flush Viscometer\n\nUnits: mm [inch]\n\nFigure 2: SRV-X4 Flush probe dimensions\n\nSpecification\nSensor: SRV Inline Viscometer\nOrder code standard probe: SRV-X4\nOrder code hygienic certified probe: SRV-HS-X4\nConnection type: Customizable\nSizes available: Customizable\nHygienic certifications available: 3-A and EHEDG\n(https://rheonics.com/resources/certificates/)\nDrawing and CAD file (e.g. Tri-Clamp 1.5”)\nDrawing (https://rheonics.com/wp-content/uploads/2023/07/rheonics_srv-x4-15t.pdf)\nSRV-X4-Tri-Clamp 1.5” (https://rheonics.com/wp-content/uploads/2023/05/SRV-X4-TC1.5in.zip)\n(https://rheonics.com/wp-content/uploads/2023/05/Rheonics_SRV-X4-TC-1.5in.zip)",
+      "specifications": {
+        "Sensor Type": "SRV Inline Viscometer",
+        "Order code (standard probe)": "SRV-X4",
+        "Order code (hygienic certified probe)": "SRV-HS-X4",
+        "Connection type": "Customizable",
+        "Sizes available": "Customizable",
+        "Hygienic certifications": "3-A and EHEDG",
+        "Overall Length": "133 ± 1 mm [5.24 ± 0.04 inch]",
+        "Probe Length (from flange)": "50 ± 1 mm [1.97 ± 0.04 inch]",
+        "Probe Diameter (mid-section)": "14 mm [0.54 inch]",
+        "Probe Diameter (tip)": "5 mm [0.20 inch]",
+        "Probe Diameter (lower shaft)": "8 mm [0.31 inch]",
+        "Connector Diameter": "30 mm [1.18 inch]"
+      },
+      "key_facts": [
+        "The document describes Rheonics SRV-X4 series inline viscometers, which are available in both standard and hygienic certified probe versions.",
+        "The hygienic certified probe, designated SRV-HS-X4, complies with 3-A and EHEDG standards, with certificates accessible online.",
+        "Both the connection type and available sizes for the viscometer are customizable to meet specific application requirements.",
+        "Technical drawings and CAD files for configurations such as the SRV-X4-15T and SRV-X4-Tri-Clamp 1.5\" are provided through direct download links.",
+        "The SRV-X4 probe has an overall length of 133 ± 1 mm (5.24 ± 0.04 inches) and a probe length of 50 ± 1 mm (1.97 ± 0.04 inches) from its custom flange."
+      ],
+      "diagram_labels": [
+        "Rheonics",
+        "Figure 1: SRV-X4-15T Flush Viscometer",
+        "Units: mm [inch]",
+        "Figure 2: SRV-X4 Flush probe dimensions",
+        "Custom flange",
+        "133 ± 1",
+        "5.24 ± 0.04",
+        "50 ± 1",
+        "1.97 ± 0.04",
+        "14",
+        "Ø [0.54]",
+        "5",
+        "Ø [0.20]",
+        "8",
+        "Ø [0.31]",
+        "30",
+        "Ø [1.18]"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1034,
+        "cost_usd": 0.0027248
+      },
+      "source_file": "023_SRV-X4_Flush_sensor_for_Hygienic_and_Sanitary_applications.pdf"
+    },
+    {
+      "page_summary": "This page provides access to technical drawings, CAD files, and hygienic certifications (EHEDG and 3-A) for Rheonics SRV-X4 and SRV series viscometers and density meters.",
+      "document_type": "technical document",
+      "product_names": [
+        "SRV-X4",
+        "SRV",
+        "Rheonics Type-SR Tri-Clamp",
+        "Rheonics SRV-HS sensors"
+      ],
+      "extracted_text": "Drawing and CAD file (e.g. Tri-Clamp D34)\n  (https://rheonics.com/wp-content/uploads/2023/07/srv-x4-05t.pdf)\n  (https://rheonics.com/wp-content/uploads/2023/07/srv-x4-05t.pdf)\n  Drawing (https://rheonics.com/wp-content/uploads/2023/07/srv-x4-05t.pdf)\n  SRV-X4 Tri-Clamp D34 (https://rheonics.com/wp-content/uploads/2023/05/rheonics_srv-x4-05t.zip)\n  (https://rheonics.com/wp-content/uploads/2023/05/rheonics_srv-x4-05t.zip)\n  (https://rheonics.com/wp-content/uploads/2023/05/rheonics_srv-x4-05t.zip)\nOther sizes\n  Contact support team at support@rheonics.com\n\nFor the latest CAD models visit Rheonics Type-SR Tri-Clamp page (https://rheonics.com/cad-type-sr-triclamp/).\n\n2. Hygienic certifications for Rheonics SRV-X4\n\nSRV EHEDG documentation\n  [Image of EHEDG Certificate of Compliance]\n  EHEDG Certificate for SRV (https://rheonics.com/wp-content/uploads/2023/06/Rheonics_SRV-Viscometer_EHEDG-Certificate.pdf)\n\n  [Image of Rheonics Density & Viscosity Meters INSTALLATION GUIDELINE cover]\n  EHEDG Installation guideline (https://rheonics.com/wp-content/uploads/2023/07/EHEDG_Installation_Guideline_A.pdf)\n\nSRV 3-A certification\n  [Image of SRV 3-A Certificate]\n  (https://cdn.rheonics.com/wp-content/uploads/2024/02/Rheonics-3-A_certificate_3986_Series-SR-HS_Viscometer_Density_Meter-74-07_Issue01.pdf)",
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 667,
+        "cost_usd": 0.0018073
+      },
+      "source_file": "023_SRV-X4_Flush_sensor_for_Hygienic_and_Sanitary_applications.pdf"
+    },
+    {
+      "page_summary": "This page provides installation considerations and examples for Rheonics SRV flush sensors, emphasizing proper fluid immersion and avoidance of stagnant zones, and includes links to sensor certifications.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "SR-HS Viscometer",
+        "Density Meter",
+        "SRV-Flush",
+        "Flush SR-sensors"
+      ],
+      "extracted_text": "3-A Certificate for SRV (https://cdn.rheonics.com/wp-content/uploads/2024/02/Rheonics-3-A_certificate_3986_Series-SR-HS_Viscometer_Density_Meter-74-07_Issue01.pdf)\n\nFor the latest sensor certifications visit Rheonics Certificates Page (https://rheonics.com/resources/certificates/).\n\n3. Installation considerations\nKey recommendations and concepts about the installation of the SRV sensor are detailed in other articles and apply for the Flush sensors. It is important to verify that the sensing area, shown in Figure 3, is always immersed in fluid and any stagnant zones should be avoided. Stagnant zones are defined as any space, inside the sensing area, where fluid transport is insufficient leading to immobile fluid, as well as possible accumulation of solids and deposits, or unwanted material like air. The installation main considerations are labeled in the next drawing. Flush sensors have the sensing element right after the connection, so dead zones must be avoided at all cost (i.e. long standpipes are clearly ruled out).\n\nSRV-Flush\nRheonics logo\nUnits: mm [inch]\n\nClearance from SRV tip – to any obstruction: 5mm\n\n1. Sensing area (in rectangle) always in fluid\n2. No stagnation zones in sensing area\n3. Verify clearance at the sensor’s tip\nFigure 3: SRV-Flush installation principles.\n\n4. Installation examples\nSome suitable process connections for the SRV flush sensor are mentioned in section 1. Installation will depend on the type of adapter used. Rheonics offers a collection of accessories for installation with flush sensors. These accessories and some other well-known installation cases are shown below.\n\n4.1 Rheonics adapters\n\na. Flush Tri-Clamp adapter\nThis Tri-Clamp connection is a common solution for wall or bottom tank installations. It uses a flush weld-on adapter that Rheonics can provide.\nFlush SR-sensors need special attention at installation to ensure good performance. It’s short insertion depth is beneficial for small spaces but a good exposure to fluid is needed.\n\nSRV - Tri-Clamp Flush Hygienic Installation Example\nDescription | Supplier | Order code",
+      "specifications": {
+        "Sensing element length": "50 mm [1.97 inch]",
+        "Sensing element diameter": "16 mm [0.63 inch]",
+        "Minimum obstruction clearance from SRV tip": "5 mm"
+      },
+      "key_facts": [
+        "The sensing area of the SRV sensor must always be immersed in fluid.",
+        "Stagnant zones, defined as areas with insufficient fluid transport, accumulation of solids/deposits, or unwanted material like air, must be avoided within the sensing area.",
+        "Flush sensors have their sensing element immediately after the connection, making it crucial to avoid dead zones.",
+        "Long standpipes are explicitly ruled out for flush sensor installations.",
+        "Special attention is required during the installation of Flush SR-sensors to ensure good performance.",
+        "The short insertion depth of Flush SR-sensors is advantageous for small spaces.",
+        "Good exposure to fluid is essential for Flush SR-sensors.",
+        "Tri-Clamp connections are a common solution for wall or bottom tank installations, utilizing a flush weld-on adapter provided by Rheonics."
+      ],
+      "diagram_labels": [
+        "SRV-Flush",
+        "Rheonics",
+        "Units: mm [inch]",
+        "50 [ 1.97 ]",
+        "16 Φ [ 0.63 ]",
+        "Clearance from SRV tip – to any obstruction: 5mm",
+        "1. Sensing area (in rectangle) always in fluid",
+        "2. No stagnation zones in sensing area",
+        "3. Verify clearance at the sensor’s tip",
+        "Figure 3: SRV-Flush installation principles."
+      ],
+      "warnings_notes": [
+        "Dead zones must be avoided at all cost (i.e. long standpipes are clearly ruled out).",
+        "Flush SR-sensors need special attention at installation to ensure good performance.",
+        "The document refers to a \"3-A Certificate for SRV\" which implies compliance with 3-A Sanitary Standards for hygienic applications."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1085,
+        "cost_usd": 0.0028523
+      },
+      "source_file": "023_SRV-X4_Flush_sensor_for_Hygienic_and_Sanitary_applications.pdf"
+    },
+    {
+      "page_summary": "This page details various installation options and compatible third-party components for Rheonics SRV viscometers, including Tri-Clamp flush installations and an IFC-V40 inline flow cell, with associated part numbers and links.",
+      "document_type": "manual",
+      "product_names": [
+        "Inline viscometer - SRV",
+        "Rheonics SRV 1.5\" Tri-Clamp",
+        "SRV-X4-TC 1.5\"",
+        "IFC-V40 - Inline flow cell DN40",
+        "Varinline N machined plug (PLG-VNM)"
+      ],
+      "extracted_text": "Inline viscometer - SRV\tRheonics\t(https://support.rheonics.com/en/support/solutions/articles/81000411056-srv-x1-12g-g-1-2-1) SRV-X4-TC 1.5\"\nFlush Tri-Clamp flange\tBurkert\thttps://www.buerkert.ch/de/produkte/733905?utm_source=DataSheet-BBS07&utm_medium=Text-Link&utm_campaign=Article-Link&utm_content=733905\n\t\tBBS-07-ZT.Z40.64- A.025.35.0 N.NAC-S38/38\n\tAseptconn AG\thttps://www.aseptconn.ch/en/aseptic-connections/novaseptic-tank-connections-na-connect/welding-flange-na-connect-sms-3008)\n\nOrder codes from third parties in table above are indicated for the Rheonics SRV 1.5\" Tri-Clamp as examples for next image. Other flush flanges can be used, varying in length and size if sensor Tri-Clamp size changes.\n\nStandard welded flush flange\nSRV-X4-Tri-Clamp 1.5\"\nFigure 4. Flush installation example with standard TC flush flange\n\nSRV Flush Hygienic Installation\nPart number\tPart description\n1\tSRV-X4-TC-1.5\"\n2\tWelded flush flange\n3\tTri-Clamp seal\n4\tGrooved flange x2\n5\tBolt x4\n6\tHygienic bolts x4\nFigure 5. Exploded view of assembly example with TC flush flange\n\nb. IFC-V40 - Inline flow cell DN40.\nThis solution allows a perpendicular installation of the SRV sensor probe in a straight DN40 or 1.5\" line. This installation requires a Varinline N machined plug provided by Rheonics (PLG-VNM) as the probe connection and the blind plug, as shown in Figure 6.\n\nThe Varinline DN40 is currently the smallest GEA Housing compatible with the Rheonics SRV. If smaller housings are required contact Rheonics Support Team.\n\nSRV - Varinline Hygienic Installation Example\nDescription\tSupplier\tOrder code",
+      "specifications": {
+        "Rheonics SRV Tri-Clamp size": "1.5\"",
+        "Burkert order code": "BBS-07-ZT.Z40.64- A.025.35.0 N.NAC-S38/38",
+        "Aseptconn welding flange SMS series": "3008",
+        "Inline flow cell diameter": "DN40",
+        "Line size for perpendicular SRV installation": "1.5\"",
+        "Rheonics Varinline N machined plug model": "PLG-VNM",
+        "Grooved flanges required for SRV Flush Hygienic Installation": "2",
+        "Bolts required for SRV Flush Hygienic Installation": "4",
+        "Hygienic bolts required for SRV Flush Hygienic Installation": "4"
+      },
+      "key_facts": [
+        "Third-party order codes provided are examples for the Rheonics SRV 1.5\" Tri-Clamp.",
+        "Other flush flanges can be used, with varying length and size depending on sensor Tri-Clamp size changes.",
+        "The IFC-V40 inline flow cell facilitates a perpendicular installation of the SRV sensor probe in a straight DN40 or 1.5\" line.",
+        "Installation with IFC-V40 requires a Rheonics Varinline N machined plug (PLG-VNM) for both the probe connection and the blind plug.",
+        "The Varinline DN40 is currently the smallest GEA Housing compatible with the Rheonics SRV."
+      ],
+      "diagram_labels": [
+        "Standard welded flush flange",
+        "SRV-X4-Tri-Clamp 1.5\"",
+        "1: SRV-X4-TC-1.5\"",
+        "2: Welded flush flange",
+        "3: Tri-Clamp seal",
+        "4: Grooved flange x2",
+        "5: Bolt x4",
+        "6: Hygienic bolts x4"
+      ],
+      "warnings_notes": [
+        "If smaller GEA housings are required, contact the Rheonics Support Team."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1211,
+        "cost_usd": 0.0031673
+      },
+      "source_file": "023_SRV-X4_Flush_sensor_for_Hygienic_and_Sanitary_applications.pdf"
+    },
+    {
+      "page_summary": "This page provides an overview of installation options for Rheonics SRV inline viscometers, including detailed specifications, product codes, and a flush installation drawing for DN40 Varinline housing, along with information for DN50 housings.",
+      "document_type": "manual",
+      "product_names": [
+        "Inline viscometer - SRV",
+        "SRV-X4-VNM",
+        "Varinline Housing DN40",
+        "IFC-V40",
+        "Machined N plug",
+        "PLG-VNM",
+        "SRV-X4-TC 1.5\"",
+        "Varinline housing DN50",
+        "TDN50"
+      ],
+      "extracted_text": "| Description            | Supplier  | Order code/Link                                                                                                                                                                                                                                    |\n|------------------------|-----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n| Inline viscometer - SRV | Rheonics  | https://support.rheonicas.com/en/support/solutions/articles/81000411056-srv-x1-12g-g-1-2- SRV-X4-VNM                                                                                                                                                   |\n|                        |           | https://support.rheonicas.com/en/support/solutions/articles/81000412012-inline-process-viscometer-srv-with-varinline-flange-options-and-installation                                                                                                   |\n| Varinline Housing DN40 | GEA       | IFC-V40                                                                                                                                                                                                                                            |\n|                        | Rheonics  | https://www.gea.com/en/products/pumps-valves-flow-components/valves-components-hygienic-liquid-processing/inline-technology/varinline-pocket-free-instruments.jsp                                                                                   |\n| Machined N plug        | Rheonics  | PLG-VNM                                                                                                                                                                                                                                            |\n|                        |           | https://www.buerkert.ch/de/produkte/733905?utm_source=Datasheet-BBS07&utm_medium=Text-Link&utm_campaign=Article-Link&utm_content=733905                                                                                                            |\n\nFigure 6: Flush installation drawing of SRV in DN40 Varinline Housing\n\n4.2 Other installation options\n\na. Varinline DN50 or bigger\nThe SRV can be installed in a Varinline housing equal or bigger than DN50 with standard plugs. The design of the Varinline housing ensures no dead zones around the sensor, leading to good flow around the sensing element.\n\nSRV - Varinline Hygienic Installation Example\n\n| Description            | Supplier  | Order code                                                                                                                                                                                                                                          |\n|------------------------|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n| Inline viscometer - SRV | Rheonics  | https://support.rheonicas.com/en/support/solutions/articles/81000411056-srv-x1-12g-g-1-2- SRV-X4-TC 1.5\"                                                                                                                                               |\n| Varinline housing DN50 | GEA       | TDN50                                                                                                                                                                                                                                               |\n|                        |           | https://www.gea.com/en/products/pumps-valves-flow-components/valves-components-hygienic-liquid-processing/inline-technology/varinline-pocket-free-instruments.jsp                                                                                   |",
+      "specifications": {
+        "Varinline Housing Size": "DN40",
+        "Overall Height (SRV in Housing)": "50 ± 1 mm [1.97 ± 0.04 inches]",
+        "Plug Thickness": "6 mm [0.25 inches]",
+        "Internal Diameter": "38 mm [1.50 inches]",
+        "External Diameter": "41 mm [1.61 inches]",
+        "Varinline Housing Size (Other Option)": "DN50",
+        "SRV-X4-TC Connection Size": "1.5 inches"
+      },
+      "key_facts": [
+        "The Rheonics SRV inline viscometer can be installed in Varinline housings of DN50 or bigger with standard plugs.",
+        "The design of the Varinline housing eliminates dead zones around the sensor.",
+        "The Varinline housing design promotes good flow around the sensing element, which is crucial for accurate measurements."
+      ],
+      "diagram_labels": [
+        "Rheonicas",
+        "SRV-X4-VNM Varinline N Machined",
+        "Varinline Housing DN 40",
+        "PLG-VNM Varinline N Machined"
+      ],
+      "warnings_notes": [],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1148,
+        "cost_usd": 0.0030097999999999995
+      },
+      "source_file": "023_SRV-X4_Flush_sensor_for_Hygienic_and_Sanitary_applications.pdf"
+    },
+    {
+      "page_summary": "This page provides an installation drawing for the Rheonics SRV viscometer in a DN50 Varinline Housing, details its hygienic design variants and certifications, and includes a disclaimer and external references.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "SRV-X4-Varinline N",
+        "SRV-X1-12G",
+        "HAW-12G-OTK2"
+      ],
+      "extracted_text": "Figure 7: Flush installation drawing of SRV in DN50 Varinline Housing\n\nNote\nThe SRV has a flush, short and long insertion variants. All have a compatible hygienic design and are EHEDG certified. In this article, focus is on the flush version, but additional hygienic installations are possible with short probe variants, like the SRV-X1-12G (https://support.rheonics.com/en/support/solutions/articles/81000411056-srv-x1-12g-inline-process-viscometer-with-g-1-2) mounted on the HAW-12G-OTK2 (https://rheonics.com/product-accessories/haw-12g-otk2/) adapter, and other options. The long insertion probe design has a unique article here (https://support.rheonics.com/en/support/solutions/articles/81000411102-srv-x5-long-insertion-probe).\n\nDisclaimer\nPictures, photos, and images used are for illustration purposes and do not constitute any warranty or assertions on the suitability of use and should not be construed as an explicit or implicit recommendation or endorsement. All illustrations are given proper credit from our source of access and by their use here we do not specify or establish any copyright which belongs and stays unaffected with the existing copyright holder of that material.\n\nReferences\n[1]: https://rheonics.com/resources/certificates/ (https://rheonics.com/resources/certificates/)\n[2]: https://www.buerkert.ch/de/produkte/733905?utm_source=DataSheet-BBS07&utm_medium=Text-Link&utm_campaign=Article-Link&utm_content=733905 (https://www.buerkert.ch/de/produkte/733905)\n[3]: https://www.aseptconn.ch/en/aseptic-connections/novaseptic-tank-connections-na-connect/welding-flange-na-connect-sms-3008 (https://www.aseptconn.ch/en/aseptic-connections/novaseptic-tank-connections-na-connect/welding-flange-na-connect-sms-3008)\n[4]: https://www.gea.com/en/products/pumps-valves-flow-components/valves-components-hygienic-liquid-processing/inline-technology/varinline-pocket-free-instruments.jsp (https://www.gea.com/en/products/pumps-valves-flow-components/valves-components-hygienic-liquid-processing/inline-technology/varinline-pocket-free-instruments.jsp)",
+      "specifications": {
+        "Housing Nominal Diameter": "50",
+        "Pipe Inner Diameter": "50 mm",
+        "Pipe Inner Diameter (imperial)": "1.97 in",
+        "Minimum Probe Immersion": "5 mm"
+      },
+      "key_facts": [
+        "The SRV viscometer is available in flush, short, and long insertion variants.",
+        "All SRV variants feature a compatible hygienic design and are EHEDG certified.",
+        "This document's focus is on the flush version of the SRV.",
+        "Additional hygienic installations for SRV are possible with short probe variants, such as the SRV-X1-12G mounted on a HAW-12G-OTK2 adapter.",
+        "The long insertion probe design of the SRV has a dedicated article for further information."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "SRV-X4-Varinline N",
+        "Clamp",
+        "O-ring",
+        "Varinline Housing DN 50",
+        "Minimum 5mm",
+        "Varinline Plug N",
+        "ø 50 [1.97]"
+      ],
+      "warnings_notes": [
+        "Pictures, photos, and images used are for illustration purposes and do not constitute any warranty or assertions on the suitability of use and should not be construed as an explicit or implicit recommendation or endorsement. All illustrations are given proper credit from our source of access and by their use here we do not specify or establish any copyright which belongs and stays unaffected with the existing copyright holder of that material."
+      ],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1129,
+        "cost_usd": 0.0029622999999999997
+      },
+      "source_file": "023_SRV-X4_Flush_sensor_for_Hygienic_and_Sanitary_applications.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

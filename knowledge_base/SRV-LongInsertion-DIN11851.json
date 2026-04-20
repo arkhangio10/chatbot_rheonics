@@ -1,0 +1,54 @@
+{
+  "source_file": "SRV-LongInsertion-DIN11851.pdf",
+  "total_pages": 1,
+  "chunks": [
+    {
+      "page_summary": "This page details the variable dimensions, flange options, and material specifications for the Rheonics SRV FPC inline viscometer and density sensor, including a technical drawing with key measurements.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRV FPC"
+      ],
+      "extracted_text": "Variable dimensions:\nA: Insertion length\nAny length larger than 55.7 mm\nB: Flange/adapter:\nSpecify the norm, size, pressure rating, e.g.\nDIN 11851, DN32\nDIN 11851, DN40\nDIN 11851, DN50\n\nUnits: mm\n[inch]\n\nSRV FPC\nDIN 11851, Long customizable insertion length\n\nProtected by US and International patents granted and pending\n\nrheonics • Switzerland • USA • www.rheonics.com • info@rheonics.com • +41 52 511 32 00 • +1 713 364 5427\n\nrheonics\ninline process\ndensity and viscosity\nmonitoring\n\nThis drawing remains property of rheonics. It may be neither copied nor informed to third persons or competitors without our approval. ( 2 § paragraph 1 fig.7 copyright act of 9th Sept. 1965)",
+      "specifications": {
+        "Minimum insertion length": "55.7 mm [2.19 inch]",
+        "Sensor body diameter": "30 mm [1.18 inch]",
+        "Sensor tip diameter": "8 mm [0.31 inch]",
+        "Wetted surfaces material": "316L",
+        "Flange/adapter options": "DIN 11851 (DN32, DN40, DN50)"
+      },
+      "key_facts": [
+        "The SRV FPC sensor offers a customizable insertion length, which must be greater than 55.7 mm.",
+        "Flange and adapter specifications, including norm, size, and pressure rating, are customer-specified.",
+        "Common flange options include DIN 11851 in DN32, DN40, and DN50 sizes.",
+        "The wetted surfaces of the sensor are constructed from Material 316L.",
+        "Rheonics provides inline process solutions for density and viscosity monitoring.",
+        "The product is safeguarded by both US and International patents that are granted and pending."
+      ],
+      "diagram_labels": [
+        "A: Insertion Length min 55.7 [2.19]",
+        "B: Customer specified flange/adapter",
+        "wetted surfaces (Material 316L)",
+        "55,7 [ 2.19 ]",
+        "30 Ø [ 1.18 ]",
+        "8 Ø [ 0.31 ]"
+      ],
+      "warnings_notes": [
+        "This drawing remains property of rheonics. It may be neither copied nor informed to third persons or competitors without our approval. ( 2 § paragraph 1 fig.7 copyright act of 9th Sept. 1965)",
+        "Protected by US and International patents granted and pending"
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 770,
+        "cost_usd": 0.0020648
+      },
+      "source_file": "SRV-LongInsertion-DIN11851.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

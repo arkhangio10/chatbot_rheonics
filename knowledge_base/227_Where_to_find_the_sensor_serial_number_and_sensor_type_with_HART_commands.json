@@ -1,0 +1,97 @@
+{
+  "source_file": "227_Where_to_find_the_sensor_serial_number_and_sensor_type_with_HART_commands.pdf",
+  "total_pages": 2,
+  "chunks": [
+    {
+      "page_summary": "This page details how to retrieve a sensor's serial number and type using HART protocol command 20, outlining the command structure, response data bytes, and specific response codes.",
+      "document_type": "notes",
+      "product_names": [],
+      "extracted_text": "Phone: +1 713 234 0863\n\nWhere to find the sensor serial number and sensor type with HART commands?\n\nModified on: Thu, 3 Oct, 2024 at 4:37 PM\n\nThe “Description” message showcases the sensor serial number and sensor type, this is achieved through command 20 from HART protocol.\n\nCommand 20 Read Long Tag This command returns the sensor serial number and type.\n\nRequest Data bytes\nIndex: None\nType: \nDescription: \n\nResponse Data bytes\nIndex: 0-31\nType: Packed\nDescription: Device Tag (6 Byte as 8 characters Packed ASCII)Latin-1 Long Tag (32 Byte - Latin-1)\n\nCommand specific response codes\nCode: 0, Class: Success, Description: No Command-Specific Error\nCode: 16, Class: Error, Description: Access Restricted\nCode: 32, Class: Error, Description: Busy",
+      "specifications": {
+        "Device Tag size": "6 Byte",
+        "Device Tag characters": "8 characters",
+        "Long Tag size": "32 Byte"
+      },
+      "key_facts": [
+        "The sensor serial number and sensor type are found in the \"Description\" message.",
+        "This information is retrieved using HART protocol command 20.",
+        "Command 20 is named \"Read Long Tag\".",
+        "Command 20 does not require any request data bytes.",
+        "The response data for Command 20 includes a Device Tag (6 Byte, 8 characters Packed ASCII) and a Latin-1 Long Tag (32 Byte).",
+        "A command response code of 0 indicates Success (No Command-Specific Error).",
+        "A command response code of 16 indicates an Error (Access Restricted).",
+        "A command response code of 32 indicates an Error (Busy)."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 542,
+        "cost_usd": 0.0014948
+      },
+      "source_file": "227_Where_to_find_the_sensor_serial_number_and_sensor_type_with_HART_commands.pdf"
+    },
+    {
+      "page_summary": "This page displays a screenshot of the 'Hart Mass Production Tool' software, detailing sensor identification information, configuration settings, and the process of sending and receiving commands, particularly highlighting the sensor's serial number in both human-readable and hexadecimal ASCII formats.",
+      "document_type": "manual",
+      "product_names": [
+        "DSD203A1",
+        "RH ABC-123 SRV",
+        "Hart Mass Production Tool"
+      ],
+      "extracted_text": "Hart Mass Production Tool\nFile(F) View(V) Device(D) Window(W) Setting(S) Help(H)\n\nSilicon Labs CP21\nDSD203A1@\n\nInfo Config CurrentAdj Device Scan\n\nTransmitter Information\nPolling: 0\nMessage:\nDescription: RH ABC-123 SRV\nTag: DSD203A1\nDate: 1970 / 1 / 1\nAssembly: 000000\nAlarm: Low\nWritable: Disable\nVendor ID: 615D\n\nIdentification\nManufacturer: Undefined\nUniversal: Undefined\nDevice ID: D2 03 A1\nUnique ID: 25 FF D2 03 A1\n\nRevision\nUniversal: 7\nDevice: 1\nHardware: 0\nSoftware: 0.1\n\nSend Command\nPolling: 0\nCommand: 20\nData will be sent\nSend Clean Cancel\nRespond Code: 00 04\n\nReceived data\n52 48 20 41 42 43 2D 31 32 33 20 53 52\n56 20 00 00 00 00 00 00 00 00 00 00 00\n00 00 00 00 00 00 00\n\nReady NUM\n\nFigure 1. Sensor serial number and sensor Typeal number and sensor Type",
+      "specifications": {
+        "Polling_Config_Value": "0",
+        "Command_Value": "20",
+        "Respond_Code": "00 04",
+        "Description": "RH ABC-123 SRV",
+        "Tag": "DSD203A1",
+        "Date_Configuration": "1970/1/1",
+        "Assembly_Number": "000000",
+        "Alarm_Setting": "Low",
+        "Writable_Status": "Disable",
+        "Vendor_ID": "615D",
+        "Manufacturer_Identification": "Undefined",
+        "Universal_Identification": "Undefined",
+        "Device_ID": "D2 03 A1",
+        "Unique_ID": "25 FF D2 03 A1",
+        "Universal_Revision": "7",
+        "Device_Revision": "1",
+        "Hardware_Revision": "0",
+        "Software_Revision": "0.1",
+        "Received_Data_Hex": "52 48 20 41 42 43 2D 31 32 33 20 53 52 56 20 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"
+      },
+      "key_facts": [
+        "The software interface shown is named 'Hart Mass Production Tool' and is used for device configuration and communication.",
+        "The tool displays detailed 'Transmitter Information' and 'Identification' for a connected HART device.",
+        "The device identified in the tree view is 'DSD203A1@', connected via 'Silicon Labs CP21'.",
+        "The sensor's description (which serves as its serial number) is 'RH ABC-123 SRV' and its tag is 'DSD203A1'.",
+        "Key revision information for the device includes Universal (7), Device (1), Hardware (0), and Software (0.1) versions.",
+        "The 'Send Command' section allows users to send commands to the device, displaying a default command of '20' and a 'Respond Code' of '00 04'.",
+        "The 'Received data' section displays data in hexadecimal format, which corresponds to the ASCII representation of the serial number 'RH ABC-123 SRV' (52 48 20 41 42 43 2D 31 32 33 20 53 52 56 20)."
+      ],
+      "diagram_labels": [
+        "Serial number",
+        "Serial number in ASCII"
+      ],
+      "warnings_notes": [
+        "The 'Manufacturer' and 'Universal' identification fields are currently marked as 'Undefined', indicating potentially unconfigured or unknown values.",
+        "There is a likely typographical error in the figure caption, where 'Typeal number' appears instead of 'Type number'."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1237,
+        "cost_usd": 0.0032323
+      },
+      "source_file": "227_Where_to_find_the_sensor_serial_number_and_sensor_type_with_HART_commands.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

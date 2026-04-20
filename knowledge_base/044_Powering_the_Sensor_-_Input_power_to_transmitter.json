@@ -1,0 +1,249 @@
+{
+  "source_file": "044_Powering_the_Sensor_-_Input_power_to_transmitter.pdf",
+  "total_pages": 4,
+  "chunks": [
+    {
+      "page_summary": "This page provides detailed specifications, recommendations, and installation guidelines for powering Rheonics sensors, including general and Ex sensor configurations.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics sensors",
+        "Ex sensor",
+        "SME (Rheonics sensor electronics)"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nPowering the Sensor - Input power to transmitter\nModified on: Thu, 5 Feb, 2026 at 3:49 PM\n\n1. Sensor Power Consumption\n* Voltage required: 24V DC\n* Voltage range acceptable: 18-36V DC\n* Current required (min): 120 mA\n* Power required (maximum): 3W\n* Recommended DC supply power rating: at least 5W\n* Fuse (if required) rating: >500 mA Slow-blow fuse\n\nFor multiple sensors, multiply by the number of sensors to be powered to properly specify the power supply.\nRheonics sensors can be configured over USB but the sensor will NOT make any measurements over USB supplied power. For operation (factory floor or in lab), it is recommended to power the sensor using a galvanically separated, certified power supply from a reliable source. Check power supply to ensure you get the required voltage and current without significant noise.\n\n2. Power Supply Specification\nWhen selecting a power supply to power the Rheonics sensors, select one with the following ratings:\n* Voltage output: 24V DC\n* Power rating: 5W or higher\n* Current rating: 200 mA or higher\n\nOften power supply are available that meet the local regulatory approvals and can take all of the following inputs: DC, AC, Single-phase, 2-phase, 3-Phase.\n\n3. Maximum input voltage allowed on Power Supplies for Ex sensor configurations\nPower supplies for EX sensors should comply with the following characteristics:\n* Voltage output: 24V DC\n* Power rating: 5W or higher\n* Current rating: 200 mA or higher\n* Input: 240V Maximum AC Single Phase, this is exclusive for Ex sensor configuration and would be the best to protect the zener barriers used in the configuration, only single phase power supplies should be used.\n\n4. Glossary\nDC : Direct Current\nV : Volt\nW : Watts\nSME : Rheonics sensor electronics\nGND : Ground\n\n5. Installation\n* Connect a 24V DC supply to the power input terminals on the sensor electronics (SME).\n* Power input terminals on sensor electronics (SME) are labeled with 24 V DC + and – GND.\n\nIt is important to avoid ground loops in the setup / plant where the SME is used. Ground loops can lead to excessive currents on the ground / return wire of the SME 24V power supply which can damage the unit.\nTo prevent this, we strongly recommend that the SME is powered by a separate 24V power supply with galvanic separation. Otherwise, the SME might be permanently damaged.\nIt is also fine to power the sensor from the 24V DC outputs available on PLC and IPC.",
+      "specifications": {
+        "Voltage required": "24 V DC",
+        "Voltage range acceptable": "18-36 V DC",
+        "Current required (min)": "120 mA",
+        "Power required (maximum)": "3 W",
+        "Recommended DC supply power rating": ">= 5 W",
+        "Fuse (if required) rating": "> 500 mA Slow-blow",
+        "Recommended Power Supply Voltage output": "24 V DC",
+        "Recommended Power Supply Power rating": ">= 5 W",
+        "Recommended Power Supply Current rating": ">= 200 mA",
+        "Maximum AC Single Phase input for Ex sensor power supply": "240 V"
+      },
+      "key_facts": [
+        "Rheonics sensors cannot make measurements when powered via USB.",
+        "For operation in factory or lab environments, it is recommended to power the sensor using a galvanically separated, certified power supply from a reliable source.",
+        "The power supply should provide the required voltage and current without significant noise.",
+        "When powering multiple sensors, the power supply specification should be calculated by multiplying the requirements by the number of sensors.",
+        "Power supplies for Ex sensor configurations should use single-phase AC input (maximum 240V) to protect zener barriers.",
+        "Ground loops in the setup/plant where the Rheonics sensor electronics (SME) are used can lead to excessive currents and damage the unit.",
+        "Powering the SME with a separate 24V power supply with galvanic separation is strongly recommended to prevent ground loops and potential damage.",
+        "Sensors can also be powered from 24V DC outputs available on PLCs and IPCs.",
+        "Power input terminals on Rheonics sensor electronics (SME) are labeled with 24 V DC + and – GND."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Rheonics sensors can be configured over USB but the sensor will NOT make any measurements over USB supplied power.",
+        "For operation (factory floor or in lab), it is recommended to power the sensor using a galvanically separated, certified power supply from a reliable source. Check power supply to ensure you get the required voltage and current without significant noise.",
+        "It is important to avoid ground loops in the setup / plant where the SME is used. Ground loops can lead to excessive currents on the ground / return wire of the SME 24V power supply which can damage the unit.",
+        "To prevent this, we strongly recommend that the SME is powered by a separate 24V power supply with galvanic separation. Otherwise, the SME might be permanently damaged."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1330,
+        "cost_usd": 0.0034647999999999997
+      },
+      "source_file": "044_Powering_the_Sensor_-_Input_power_to_transmitter.pdf"
+    },
+    {
+      "page_summary": "This page provides examples and clarifications regarding the selection and use of industrial power supplies for a sensor, including recommendations for DIN rail mount units and fuse requirements.",
+      "document_type": "manual",
+      "product_names": [
+        "sensor"
+      ],
+      "extracted_text": "6. Examples and Clarifications\nWe show below some examples of industrial power supplies that can be used with the sensor.\nThis is by no means an endorsement of any specific brand. Any adequately rated power supply from reputable manufacturers will give you stable, noise free and safe power supply for your sensor operation.\nIt is customer's responsibility to ensure that the power supply that is sourced meets the local and national requirements for their installation.\nWe do not sell power supply due to the varying global connector and power ratings. However, the power supplies mentioned below are quite universally available or have suitable similar alternatives.\nA fuse is not necessary from the DC converter but if you plan to use one then a 200 mA 24V fuse is sufficient. The device has a maximum power input requirement of under 5W.\n\n7. Industrial Power Supply\n* Used in enclosures/cabinets\n* Used for powering sensor in the plant (Industrial power supplies provide a higher level of reliability in connection compared to power adapter connected to power strip)\n* Single, 2- or 3-phase power supply can be used which has a DC output of 24V DC\n\nThese typically tend to be DIN rail mount units as shown below:\n\nFigure above shows various types of DIN rail mounted power supply from a supplier (SIEMENS). These are typically mounted on DIN rails as shown below:\n\nOther types used inside equipment are Switching Power Supply (SPS):",
+      "specifications": {
+        "recommended_fuse": "200 mA 24V",
+        "maximum_power_input": "under 5W",
+        "dc_output_voltage": "24V DC",
+        "mean_well_output": "24V 1.7A",
+        "mean_well_input": "100-240VAC 1.1A 50-60Hz"
+      },
+      "key_facts": [
+        "Industrial power supplies provide higher reliability for powering sensors in a plant compared to power adapters connected to power strips.",
+        "The sensor can use a single, 2- or 3-phase power supply with a 24V DC output.",
+        "Rheonics does not sell power supplies due to varying global connectors and power ratings, but mentioned options are universally available.",
+        "It is the customer's responsibility to ensure the sourced power supply meets local and national installation requirements.",
+        "DIN rail mount units are a common type of industrial power supply.",
+        "Switching Power Supplies (SPS) are another type used inside equipment."
+      ],
+      "diagram_labels": [
+        "INPUT AC 100-240V",
+        "OUTPUT DC 24V/0.6A",
+        "SIEMENS",
+        "LOGO! Power",
+        "0.K",
+        "INPUT AC 100-240V",
+        "OUTPUT DC 24V/1.3A",
+        "INPUT AC 100-240V",
+        "OUTPUT DC 24V/2.5A",
+        "INPUT AC 100-240V",
+        "OUTPUT DC 24V/4.0A",
+        "+V +V -V -V o",
+        "24V === 1.7A RY1",
+        "DC OK CE",
+        "+ -",
+        "-V ADJ",
+        "UL us",
+        "LISTED",
+        "I.T.E.",
+        "POWER SUPPLY",
+        "MEAN WELL",
+        "MADE IN TAIWAN",
+        "MDR-40-24",
+        "INPUT:",
+        "100-240VAC 1.1A",
+        "50-60Hz",
+        "N L"
+      ],
+      "warnings_notes": [
+        "A fuse is not necessary from the DC converter but if you plan to use one then a 200 mA 24V fuse is sufficient.",
+        "The device has a maximum power input requirement of under 5W.",
+        "This is by no means an endorsement of any specific brand. Any adequately rated power supply from reputable manufacturers will give you stable, noise free and safe power supply for your sensor operation.",
+        "It is customer's responsibility to ensure that the power supply that is sourced meets the local and national requirements for their installation."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1063,
+        "cost_usd": 0.0027972999999999995
+      },
+      "source_file": "044_Powering_the_Sensor_-_Input_power_to_transmitter.pdf"
+    },
+    {
+      "page_summary": "This page outlines different 24V DC power supply options for Rheonics' Smart Monitoring Electronics (SME), including laboratory benchtop power supplies and wall-mount power adapters.",
+      "document_type": "manual",
+      "product_names": [
+        "LRS-100-24 (Benchtop Power Supply)",
+        "24V DC power adapters",
+        "Laboratory Power Supply",
+        "Benchtop Power Supply",
+        "Power Adapters (Wall mount style)",
+        "SME electronics"
+      ],
+      "extracted_text": "Laboratory Power Supply\n\n*   Used for benchtop tests\n*   Used in Labs\n\nThese typically tend to be power adapters connected directly to the wall outlet or benchtop power supplies.\n\nPower Adapters (Wall mount style)\n\nThese can be directly mounted on the wall outlet. They will need an adapter to connect from the plug on the adapter to the SME. Alternatively the jack can be removed and the wire ends can be directly used (recommended to use a crimped connection on the ends).\n\nThe photo above shows 24V DC power adapters with European plug. Similar types are available with US, Australian, UK, Japanese, and other plugs.\n\nWhen searching your local supplier for these adapters, the English keywords are \"24V DC power adapter\".\n\nBenchtop Power Supply\n\nThese are versatile and often have selection of power outputs. It is important that the power output is set to 24V DC. A lower voltage may not be sufficient for the sensor to operate and a higher voltage can damage the SME electronics.",
+      "specifications": {
+        "Output Voltage": "24 V DC",
+        "Benchtop Power Supply Model": "LRS-100-24"
+      },
+      "key_facts": [
+        "Laboratory power supplies are suitable for benchtop tests and general lab use.",
+        "Wall-mount power adapters require an adapter to connect to the SME or can have their jacks removed for direct wire connection.",
+        "24V DC power adapters are available with various regional plug types, including European, US, Australian, UK, and Japanese.",
+        "Benchtop power supplies offer versatile power output selections but must be set to 24V DC for SME operation.",
+        "Operating the SME with insufficient voltage may hinder sensor operation, while higher voltage can cause damage."
+      ],
+      "diagram_labels": [
+        "MEAN WELL",
+        "LRS-100-24",
+        "AC INPUT",
+        "DC OUTPUT",
+        "L",
+        "N",
+        "FG",
+        "+V",
+        "-V"
+      ],
+      "warnings_notes": [
+        "It is recommended to use a crimped connection on the wire ends if the jack is removed from a power adapter.",
+        "When searching for power adapters, use the English keywords \"24V DC power adapter\".",
+        "The power output of a benchtop power supply must be set to 24V DC.",
+        "A lower voltage may not be sufficient for the sensor to operate.",
+        "A higher voltage than 24V DC can damage the SME electronics."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 727,
+        "cost_usd": 0.0019573
+      },
+      "source_file": "044_Powering_the_Sensor_-_Input_power_to_transmitter.pdf"
+    },
+    {
+      "page_summary": "This page provides examples and links for various types of power supplies, including a benchtop model, a wall adapter, and a DIN rail mount option, with a note that these are illustrative examples for customer selection.",
+      "document_type": "notes",
+      "product_names": [
+        "HMC 8043 POWER SUPPLY (Rohde & Schwarz)",
+        "GE12I24-P1J (Mean Well USA Inc.)",
+        "Siemens LOGO!POWER",
+        "6EP3331-6SB00-0AY0 (Siemens)",
+        "Keysight e3640-series bench power supply"
+      ],
+      "extracted_text": "OFF Loc U: 100% 0W VCP Trig\nCH1: OFF\n32.000 V\n1.000 A\n32W\nCH2: OFF\n16.000 V\n2.000 A\n32W\nCH3: OFF\n10.000 V\n3.000 A\n30W\nPOWER\nROHDE & SCHWARZ\nHMC 8043 POWER SUPPLY\nESC\nSAVE RECALL\nENTER\nHELP\nPUSH LONG FOR SAFE-MODE\nCH1 ON/OFF\nCH2 ON/OFF\nCH3 ON/OFF\nARB\nADV\nMEAS\nMASTER ON/OFF\nTRACK\nTRIG\nSHIFT\nMAX 250 VDC\n0-32 V / 0-3 A / 33 W max.\nPhoto above shows a typical benchtop power supply from supplier (Rohde & Schwarz), there are a lot of other suppliers of these benchtop power supply. Often these are programmable with ability to select the voltage and current.\nBelow we provide a few links to order pages for power supplies as an example, these are only used here as examples and the customer should select one that is easily available and they trust.\nWall adapter with global plug options: https://www.digikey.com/en/products/detail/mean-well-usa-inc/GE12I24-P1J/7703284\nDIN rail mount power supply: https://mall.industry.siemens.com/mall/en/WW/Catalog/Product/6EP3331-6SB00-0AY0 [ Siemens LOGO!POWER 24 V / 1.3 A Stabilized power supply input: 100-240 V AC output: DC 24 V / 1.3 A ]\nBenchtop power supply: https://www.keysight.com/us/en/products/dc-power-supplies/bench-power-supplies/e3640-series-bench-power-supply-30-100w.html",
+      "specifications": {
+        "HMC 8043 CH1 Displayed Voltage": "32.000 V",
+        "HMC 8043 CH1 Displayed Current": "1.000 A",
+        "HMC 8043 CH1 Displayed Power": "32 W",
+        "HMC 8043 CH2 Displayed Voltage": "16.000 V",
+        "HMC 8043 CH2 Displayed Current": "2.000 A",
+        "HMC 8043 CH2 Displayed Power": "32 W",
+        "HMC 8043 CH3 Displayed Voltage": "10.000 V",
+        "HMC 8043 CH3 Displayed Current": "3.000 A",
+        "HMC 8043 CH3 Displayed Power": "30 W",
+        "HMC 8043 Output Isolation Voltage Max": "250 VDC",
+        "HMC 8043 Per Channel Max Output Voltage": "32 V",
+        "HMC 8043 Per Channel Max Output Current": "3 A",
+        "HMC 8043 Per Channel Max Output Power": "33 W",
+        "Siemens LOGO!POWER Output Voltage": "24 V",
+        "Siemens LOGO!POWER Output Current": "1.3 A",
+        "Siemens LOGO!POWER Input Voltage": "100-240 V AC",
+        "Keysight e3640 Series Power Range": "30-100 W"
+      },
+      "key_facts": [
+        "The benchtop power supply shown is from Rohde & Schwarz and is programmable, allowing selection of voltage and current.",
+        "The provided links for power supplies are examples, and customers should choose a power supply that is readily available and trusted.",
+        "The Siemens LOGO!POWER is a stabilized power supply with an output of DC 24 V / 1.3 A and an input range of 100-240 V AC."
+      ],
+      "diagram_labels": [
+        "OFF Loc U: 100% 0W VCP Trig",
+        "CH1: OFF",
+        "CH2: OFF",
+        "CH3: OFF",
+        "POWER",
+        "ROHDE & SCHWARZ",
+        "HMC 8043 POWER SUPPLY",
+        "7",
+        "8",
+        "9",
+        "CH1 ON/OFF",
+        "CH2 ON/OFF",
+        "CH3 ON/OFF",
+        "ARB",
+        "ADV",
+        "MEAS",
+        "0",
+        "MASTER ON/OFF",
+        "TRACK",
+        "TRIG",
+        "SHIFT",
+        "ESC",
+        "SAVE RECALL",
+        "ENTER",
+        "HELP",
+        "PUSH LONG FOR SAFE-MODE",
+        "MAX 250 VDC",
+        "0-32 V / 0-3 A / 33 W max."
+      ],
+      "warnings_notes": [
+        "The power supply links provided are examples only, and customers should select one that is easily available and trusted."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1432,
+        "cost_usd": 0.0037197999999999997
+      },
+      "source_file": "044_Powering_the_Sensor_-_Input_power_to_transmitter.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

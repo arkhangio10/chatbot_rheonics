@@ -1,0 +1,60 @@
+{
+  "source_file": "120_Effect_of_flow_rate_on_the_viscosity_measurement.pdf",
+  "total_pages": 2,
+  "chunks": [
+    {
+      "page_summary": "This page discusses the effect of flow rate on viscosity measurements, particularly for non-Newtonian fluids, and provides guidance on how to use Rheonics SRV sensors to achieve accurate results by controlling flow rate and temperature.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "SRV",
+        "inline viscometer",
+        "inline density and viscosity sensor",
+        "Rheonics SRV sensors",
+        "inline viscometer SRV",
+        "inline density meter SRD"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nEffect of flow rate on the viscosity measurement\n\nModified on: Mon, 24 Mar, 2025 at 10:11 PM\n\nIs viscosity measurement affected by flow rate?\nIs there a recommended flow rate for measurement?\nSRV is not affected by flow rate, it can measure at static or dynamic conditions so there is no recommended flow rate for any material from the sensor's perspective.\nHowever, most fluids are non-Newtonian and hence are shear sensitive. Whether these fluids are flowing fast or slow (pumped) will lead to difference in apparent viscosity which is measured by the SRV and the sensor will show a difference in viscosity depending on the flow rate.\n\nSo what to do?\nYou want to start with a low flow rate and gradually ramp up the flow rate. You will see viscosity will change. However keep an eye that whether the temperature is changing as well? You want the temperature to stay constant and only flow rate to change. Either ensure constant temperature of operation or use temperature compensation for viscosity.\nAs you ramp up the flow rate you will see that the change in viscosity (slope of the viscosity vs flow rate curve) will start flattening, that is, beyond a certain flow rate there is little influence of the flow rate on the fluid shear thinning or thickening.\nYou want to operate the pump/flow rate in this almost flat (low slope) part of the curve.\n\nReferences\nRead the article from the science desk at rheonics on demystifying non-Newtonian fluid measurements (https://rheonics.com/measurement-of-viscosity-of-non-Newtonian-fluids-with-rheonics-srv-sensors/)\nLearn more about the inline viscometer (https://rheonics.com/products/inline-viscometer-srv/)\nLearn more about inline density and viscosity sensor (https://rheonics.com/products/inline-density-meter-srd/)",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics SRV sensors can measure viscosity under static or dynamic flow conditions and are not affected by flow rate from the sensor's perspective.",
+        "Most fluids are non-Newtonian and shear-sensitive, meaning their apparent viscosity, as measured by the SRV sensor, will vary with the flow rate.",
+        "When measuring viscosity for non-Newtonian fluids, it is recommended to start with a low flow rate and gradually increase it.",
+        "It is crucial to keep the temperature constant or apply temperature compensation for viscosity measurements to isolate the effect of flow rate.",
+        "As flow rate increases for non-Newtonian fluids, the change in viscosity (slope of the viscosity vs. flow rate curve) will eventually flatten out, indicating minimal influence of further flow rate changes on shear thinning or thickening.",
+        "Optimal operation involves setting the pump/flow rate in the 'almost flat' (low slope) region of the viscosity vs. flow rate curve."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 810,
+        "cost_usd": 0.0021647999999999997
+      },
+      "source_file": "120_Effect_of_flow_rate_on_the_viscosity_measurement.pdf"
+    },
+    {
+      "page_summary": "This page is blank and contains no discernible information.",
+      "document_type": "notes",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 83,
+        "cost_usd": 0.0003473
+      },
+      "source_file": "120_Effect_of_flow_rate_on_the_viscosity_measurement.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

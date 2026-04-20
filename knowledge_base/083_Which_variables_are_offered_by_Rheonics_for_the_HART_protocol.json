@@ -1,0 +1,240 @@
+{
+  "source_file": "083_Which_variables_are_offered_by_Rheonics_for_the_HART_protocol.pdf",
+  "total_pages": 5,
+  "chunks": [
+    {
+      "page_summary": "This page details the variables offered by Rheonics for HART communication, including their descriptions and units, and clarifies how the primary variable is defined.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Phone: +1 713 234 0863\nWhich variables are offered by Rheonics for the HART protocol?\nModified on: Thu, 19 Mar, 2026 at 3:24 PM\n\nFor HART communication, Rheonics provides the following variables (PV, SV, TV, and QV) over Channel 1 analog output 4-20mA.\n\nTable 1. HART variables.\n| Variable                | Description   | Units |\n|-------------------------|---------------|-------|\n| Primary Variable (PV)   | Density       | g/cc  |\n| Secondary Variable (SV) | Viscosity     | cP    |\n| Tertiary Variable (TV)  | Temperature   | °C    |\n| Quaternary Variable (QV)| Sensor Status |       |\n\n1. Primary Variable\nThe primary Variable is always defined by what is currently set in Channel 1 with the RCP software",
+      "specifications": {
+        "HART_variables_provided": "PV, SV, TV, QV",
+        "Analog_output_channel": "1",
+        "Analog_output_range": "4-20mA",
+        "Primary_Variable_description": "Density",
+        "Primary_Variable_unit": "g/cc",
+        "Secondary_Variable_description": "Viscosity",
+        "Secondary_Variable_unit": "cP",
+        "Tertiary_Variable_description": "Temperature",
+        "Tertiary_Variable_unit": "°C",
+        "Quaternary_Variable_description": "Sensor Status"
+      },
+      "key_facts": [
+        "Rheonics offers Primary Variable (PV), Secondary Variable (SV), Tertiary Variable (TV), and Quaternary Variable (QV) for HART communication.",
+        "These variables are transmitted over Channel 1 analog output as 4-20mA.",
+        "The Primary Variable (PV) represents Density with units of g/cc.",
+        "The Secondary Variable (SV) represents Viscosity with units of cP.",
+        "The Tertiary Variable (TV) represents Temperature with units of °C.",
+        "The Quaternary Variable (QV) represents Sensor Status.",
+        "The Primary Variable is always defined by the current setting in Channel 1 via the RCP software."
+      ],
+      "diagram_labels": [
+        "Table 1. HART variables."
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 611,
+        "cost_usd": 0.0016673
+      },
+      "source_file": "083_Which_variables_are_offered_by_Rheonics_for_the_HART_protocol.pdf"
+    },
+    {
+      "page_summary": "This page illustrates the configuration interface for 4-20 mA output settings of a sensor, detailing how to set ranges for various parameters and listing available variables.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "4-20 mA Settings\nChannel 1\nViscosity\nViscosity\nDensity\nTemperature\nKinematic Visc.\nCalc. Viscosity\nCalc. Density\nConcentration\n4 mA 0.00 cP\n20 mA 3000.00 cP\nUpdate\nDensity\n4 mA 0.000 g/cc\n20 mA 1.500 g/cc\nUpdate\nChannel 3\nTemperature\n4 mA -20.00 °C\n20 mA 130.00 °C\nUpdate\n\n2. Secondary Variable and Tertiary Variable\nThose variables have to be ordered and configured before delivering the sensor, the following table contains the available parameters to be set as Secondary Variable and Tertiary Variable.\n\nParameter\nViscosity\nCompensated Viscosity\nDensity\nCompensated Density\nConcentration\nTemperature",
+      "specifications": {
+        "Channel 1 4 mA output": "0.00 cP",
+        "Channel 1 20 mA output": "3000.00 cP",
+        "Channel 2 4 mA output": "0.000 g/cc",
+        "Channel 2 20 mA output": "1.500 g/cc",
+        "Channel 3 4 mA output": "-20.00 °C",
+        "Channel 3 20 mA output": "130.00 °C"
+      },
+      "key_facts": [
+        "The 4-20 mA output settings for a sensor can be configured for multiple channels.",
+        "Channel 1 is configured for Viscosity output, with a range of 0.00 cP to 3000.00 cP corresponding to 4 mA to 20 mA.",
+        "A second, unlabeled channel is configured for Density output, with a range of 0.000 g/cc to 1.500 g/cc corresponding to 4 mA to 20 mA.",
+        "Channel 3 is configured for Temperature output, with a range of -20.00 °C to 130.00 °C corresponding to 4 mA to 20 mA.",
+        "Available parameters for 4-20 mA output include Viscosity, Density, Temperature, Kinematic Viscosity, Calculated Viscosity, Calculated Density, and Concentration.",
+        "Secondary and Tertiary variables for the sensor must be ordered and configured before the sensor is delivered.",
+        "Available parameters that can be set as Secondary and Tertiary variables are Viscosity, Compensated Viscosity, Density, Compensated Density, Concentration, and Temperature."
+      ],
+      "diagram_labels": [
+        "4-20 mA Settings",
+        "?",
+        "Channel 1",
+        "Viscosity",
+        "Density",
+        "Temperature",
+        "Kinematic Visc.",
+        "Calc. Viscosity",
+        "Calc. Density",
+        "Concentration",
+        "4 mA",
+        "cP",
+        "20 mA",
+        "Update",
+        "g/cc",
+        "°C"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 815,
+        "cost_usd": 0.0021772999999999996
+      },
+      "source_file": "083_Which_variables_are_offered_by_Rheonics_for_the_HART_protocol.pdf"
+    },
+    {
+      "page_summary": "This page details the quaternary variable (sensor status) for Rheonics sensors, including a list of error codes and their descriptions, how to interpret sensor status, and the default configuration for SRV sensors.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "SRD",
+        "DVP",
+        "DVM",
+        "Rheonics sensors"
+      ],
+      "extracted_text": "Table 2. Parameter Table\n\n3. Quaternary Variable - Sensor Status\n\nAll Rheonics sensors (SRV, SRD, DVP, DVM) for inline viscosity and density monitoring have inbuilt status. Sensor status is always available as the fourth variable.\n\nThe sensor status can take any of the following values:\n\nTable 3. Sensor error status bit code and description.\nBit | Hex | Name | Comment\nBit 0 | 0x0001 | PLL frequency mismatch | The PLL frequency does not match the sensor frequency. Derived from the ASB string (E10)\nBit 1 | 0x0002 | PLL not locked | The PLL is not locked. Derived from the ASB string (E01)\nBit 2 | 0x0004 | PLL lock incorrect | The PLL has locked on a wrong frequency. Derived from the ASB string (E02)\nBit 3 | 0x0008 | ASB communication error | Issues with sensor electronics\nBit 4 | 0x0010 | Temperature sensor failed | The temperature sensor has failed. Derived from the ASB string if the temperature is -273.0\nBit 5 | 0x0020 | Sensor too hot | If the temperature is above the hardcoded physical temperature limit.\nBit 6 | 0x0040 | ASB communication error | Communication issue between two electronics board in the SME\nBit 7 | 0x0080 | Serial Changed\nBit 8 | 0x0100 | Status not clean | Sensor is not clean (only SRV)\nBit 9 | 0x0200 | Status in Air | Determines if sensor is in air\nBit 10-15 | Unused\n\nHow to read sensor status?\n\nSensor status is a WORD data type, these status bits can be used over digital communication channels to understand when the sensor is operating correctly and when there is an issue.\n\nQV 512.000000 none\n\nSensor error status is the combination of any bit, in this scenario Error 512 is the combination (OR) of the error bits also this decimal value should be converted to its hexadecimal representation, which is \"200\". A sensor error status with code 200 means that the sensor is in air.\n\n4. Default configuration for Rheonics Sensor\n\nSRV Default configuration\nPV | Viscosity\nSV | Density\nTV | Temperature\nQV | Sensor Status",
+      "specifications": {
+        "Failed Temperature Sensor Value": "-273.0 C",
+        "Sensor Status Data Type": "WORD",
+        "Error 512 (Decimal)": "0x200 (Hexadecimal)"
+      },
+      "key_facts": [
+        "All Rheonics sensors (SRV, SRD, DVP, DVM) for inline viscosity and density monitoring have inbuilt status.",
+        "Sensor status is always available as the fourth variable.",
+        "The PLL frequency mismatch error (Bit 0, 0x0001) is derived from the ASB string (E10).",
+        "The PLL not locked error (Bit 1, 0x0002) is derived from the ASB string (E01).",
+        "The PLL lock incorrect error (Bit 2, 0x0004) indicates the PLL has locked on a wrong frequency, derived from the ASB string (E02).",
+        "ASB communication errors (Bit 3, 0x0008 and Bit 6, 0x0040) relate to sensor electronics or communication between electronics boards in the SME.",
+        "A temperature sensor failed error (Bit 4, 0x0010) is indicated if the temperature is -273.0.",
+        "The sensor too hot error (Bit 5, 0x0020) occurs if the temperature exceeds a hardcoded physical limit.",
+        "Status not clean error (Bit 8, 0x0100) applies only to SRV sensors.",
+        "Status in Air error (Bit 9, 0x0200) determines if the sensor is in air.",
+        "Sensor status is a WORD data type, used over digital communication channels.",
+        "Error 512 is a combination (OR) of error bits, which converts to a hexadecimal representation of \"200\".",
+        "A sensor error status with code 200 means that the sensor is in air.",
+        "The default configuration for SRV sensors assigns Viscosity to PV, Density to SV, Temperature to TV, and Sensor Status to QV."
+      ],
+      "diagram_labels": [
+        "QV",
+        "512.000000",
+        "none"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1223,
+        "cost_usd": 0.0031972999999999997
+      },
+      "source_file": "083_Which_variables_are_offered_by_Rheonics_for_the_HART_protocol.pdf"
+    },
+    {
+      "page_summary": "This page provides details on the SRD default configuration variables, a wiring diagram for HART communication, and explains the importance of a HART modem connection for Rheonics sensors.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics sensor"
+      ],
+      "extracted_text": "SRD Default configuration\nPV: Density\nSV: Viscosity\nTV: Temperature\nQV: Sensor Status\n\n5. Wiring diagram\n\nThe HART Communication is supported on an active two-wire 4-to-20mA current loop.\n\n[Wiring diagram shows connection from 24V source to V+/V- terminals, with Loop+ and Ch1 also indicated, and a connection to a mA meter/load.]\n\n5. HART modem connection\n\nConnecting a Rheonics sensor to a HART modem is important because it allows you to access not only the basic 4–20 mA signal, but also all the internal digital variables of the device. The HART modem acts as the interface between the sensor and a computer or configuration tool, enabling communication over the same current loop.",
+      "specifications": {
+        "Power Supply": "24V",
+        "Current Loop Type": "4-to-20mA"
+      },
+      "key_facts": [
+        "The SRD default configuration includes PV (Density), SV (Viscosity), TV (Temperature), and QV (Sensor Status).",
+        "HART Communication is supported on an active two-wire 4-to-20mA current loop.",
+        "Connecting a Rheonics sensor to a HART modem enables access to both the basic 4–20 mA signal and the internal digital variables of the device.",
+        "The HART modem functions as an interface between the sensor and a computer or configuration tool.",
+        "Communication via the HART modem occurs over the same current loop as the 4-20 mA signal."
+      ],
+      "diagram_labels": [
+        "24V",
+        "V+",
+        "Loop+",
+        "Ch1",
+        "V-",
+        "mA",
+        "+",
+        "-"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 496,
+        "cost_usd": 0.0013798
+      },
+      "source_file": "083_Which_variables_are_offered_by_Rheonics_for_the_HART_protocol.pdf"
+    },
+    {
+      "page_summary": "This page illustrates a wiring diagram showing the connection of a Rheonics SME device to a PLC and a HART communicator, including power, communication, and signal lines.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SME"
+      ],
+      "extracted_text": "SME\n24VDC\nGND\nModbus RS485 A\nModbus RS485 B\nRheonics\nSME\nModbus TCP/IP\n\nSensor\nconnection\n8\n7\n6\n5\n4\n3\n2\n1\n0\n0\n\nLoop +\nGND -\nGND +\nCH1 +\nCH2 +\nCH3 +\n\nPLC\n\n250Ω\n\nHART communicator",
+      "specifications": {
+        "Resistor": "250Ω",
+        "Power_Input_Option": "24VDC"
+      },
+      "key_facts": [
+        "The Rheonics SME device supports 24VDC power input.",
+        "The Rheonics SME device has options for Modbus RS485 (A and B) and Modbus TCP/IP communication.",
+        "The SME device provides sensor connection points labeled 0 through 8.",
+        "Specific terminals on the SME device include 'Loop +', 'GND -', 'GND +', 'CH1 +', 'CH2 +', and 'CH3 +'.",
+        "A PLC is connected to the 'Loop +' and 'GND -' terminals of the SME device.",
+        "A 250Ω resistor is placed in series with the 'Loop +' line between the PLC and the SME device.",
+        "A HART communicator is connected in parallel across the 250Ω resistor and the ground line for communication with the loop.",
+        "The diagram depicts a standard setup for integrating a smart field device (SME) into a control system (PLC) with HART communication capability."
+      ],
+      "diagram_labels": [
+        "SME",
+        "24VDC",
+        "GND",
+        "Modbus RS485 A",
+        "Modbus RS485 B",
+        "Rheonics",
+        "Modbus TCP/IP",
+        "Sensor connection",
+        "8",
+        "7",
+        "6",
+        "5",
+        "4",
+        "3",
+        "2",
+        "1",
+        "0",
+        "Loop +",
+        "GND -",
+        "GND +",
+        "CH1 +",
+        "CH2 +",
+        "CH3 +",
+        "PLC",
+        "250Ω",
+        "HART communicator"
+      ],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 661,
+        "cost_usd": 0.0017923000000000001
+      },
+      "source_file": "083_Which_variables_are_offered_by_Rheonics_for_the_HART_protocol.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

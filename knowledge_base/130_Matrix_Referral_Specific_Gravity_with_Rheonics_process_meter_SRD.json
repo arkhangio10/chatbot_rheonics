@@ -1,0 +1,333 @@
+{
+  "source_file": "130_Matrix_Referral_Specific_Gravity_with_Rheonics_process_meter_SRD.pdf",
+  "total_pages": 5,
+  "chunks": [
+    {
+      "page_summary": "This page describes the Matrix Referral Specific Gravity calculation method used with Rheonics process meters, detailing its function, application, and mathematical basis.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "Rheonics process meter SRD",
+        "SRD"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nMatrix Referral Specific Gravity with Rheonics process meter SRD\n\nModified on: Thu, 3 Jul, 2025 at 5:54 PM\n\nModel Name Matrix Referral Specific Gravity: Valid for SRD\n\n1. What it does?\nUses regression to compute TCD and SG using input product-density datasets\n\n2. Application\nPetroleum/Petrochemicals Industry.\n\n3. Maths\nSpecific gravity is calculated by a Process of interpolation and extrapolation between a matrix of known density and temperature reference points.\n\nTemp\tPr1\tPr2\tPr3\tPr4\n40\t755.05\t806.27\t857.36\t908.32\n35\t759.06\t810.04\t860.90\t911.67\n30\t763.06\t813.79\t864.44\t915.01\n25\t767.05\t817.54\t867.97\t918.35\n20\t771.03\t821.27\t871.49\t921.68\n15\t775.00\t825.00\t875.00\t925.00\n\nFigure 1. Matrix of known density and temperature.\n\nThis to determine the liquid density at a specified base temperature different to the inline temperature. Temperature-density data is converted into coefficients for calculation of temperature compensated density at a reference temperature.",
+      "specifications": {},
+      "key_facts": [
+        "The document describes the Matrix Referral Specific Gravity calculation method.",
+        "This method is used with the Rheonics process meter SRD.",
+        "The calculation uses regression to compute Temperature Compensated Density (TCD) and Specific Gravity (SG).",
+        "The computation of TCD and SG relies on input product-density datasets.",
+        "The primary application for this method is in the Petroleum/Petrochemicals Industry.",
+        "Specific gravity is calculated through a process of interpolation and extrapolation.",
+        "The interpolation and extrapolation are based on a matrix of known density and temperature reference points.",
+        "The method aims to determine liquid density at a specified base temperature, different from the inline temperature.",
+        "Temperature-density data is converted into coefficients for calculating temperature compensated density at a reference temperature."
+      ],
+      "diagram_labels": [
+        "Temp",
+        "Pr1",
+        "Pr2",
+        "Pr3",
+        "Pr4",
+        "Figure 1. Matrix of known density and temperature."
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 772,
+        "cost_usd": 0.0020698
+      },
+      "source_file": "130_Matrix_Referral_Specific_Gravity_with_Rheonics_process_meter_SRD.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions on how to load mathematical models, particularly for specific gravity calculation and temperature-density compensation, into the Rheonics SME using the Rheonics Control Panel software.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel 5.4.0.0",
+        "SME"
+      ],
+      "extracted_text": "4. How to load models into the SME?\n\nCalculation tab allows to configure the SME to run mathematical models for Viscosity, Density and Concentration.\n\nFigure 2. Temperature-Density to compensate density\n\nRheonics Control Panel 5.4.0.0\nMeasurement | Events | Settings | Service | Diagnostics | Communication | Scaling | Calculation | Logger | Help\nAdvanced Calculations | Thermal Compensation of Density, Viscosity\nSelect Measurement to Apply Model: Concentration\nCalculated Value: 1.7053 (1)\nStatus: (green dot)\nSelect Model from List: Matrix Referral Specific Gravity (2)\nMatrix Referral Specific Gravity\nT1 [°C]: 20\nWater Density at T2 [Kg/m3]: 998.23\nLoad DataSet\nUnits: SG (4)\nOptions (3):\n  SG20/20\n  ✓ SG20/20\n  SG20/4\n  SG60/60\n  Custom\nSG = Density of Process Fluid at Reference Temperature T1 / Density of Water at Reference Temperature T2\nUPLOAD MODEL (5)\nLCD Display (for TRD Only) Select Line to Display: None\nLoad Configuration (6)\nOutput on 4-20 mA channel Select channel number: None\nCalculation History (7)\nAccess measurement with applied model over Modbus RTU/TCP register: 208\n\nFigure 3. Calculation tab for Specific Gravity model\n\nThe following steps are to load the models into SME:\n1. In the Dropdown list “Select Measurement to Apply Model” select. That will modify the “Select Model from List” dropdown menu values. Select Measurement application (Concentration)\n2. In “Select Model from list” select the model you would like to use for the specific parameter. When you select the model, you will get more information about the specific equation used and the coefficients you will need to apply that model. Select “Matrix Referral Specific Gravity”.\n3. Select Specific gravity reference temperature and density from the dropdown list. Four (4) options available: SG20/20(Water density at 20°C), SG20/4(Water density at 4°C), and SG60/60(Water density at",
+      "specifications": {
+        "Calculated Value": "1.7053 SG",
+        "Reference Temperature T1": "20 °C",
+        "Water Density at T2": "998.23 Kg/m3",
+        "Modbus RTU/TCP register": "208"
+      },
+      "key_facts": [
+        "The Calculation tab allows configuration of the SME to run mathematical models for viscosity, density, and concentration.",
+        "The 'Select Measurement to Apply Model' selection influences the available options in the 'Select Model from List' dropdown menu.",
+        "Selecting a model like 'Matrix Referral Specific Gravity' provides details on the specific equation and coefficients required.",
+        "Specific gravity can be referenced against water density at different temperatures, with options including SG20/20 (water density at 20°C), SG20/4 (water density at 4°C), and SG60/60 (water density at an unspecified temperature, likely 60°C or 60°F).",
+        "The formula for Specific Gravity is the ratio of the Density of Process Fluid at Reference Temperature T1 to the Density of Water at Reference Temperature T2.",
+        "Access to measurements with the applied model is available over Modbus RTU/TCP register 208."
+      ],
+      "diagram_labels": [
+        "Temperature",
+        "Density",
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5",
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "Line Density ρ (measured)",
+        "Line Temperature (measured)",
+        "Base (Referred) Density ρB (calculated)",
+        "Calculated Value (1)",
+        "Select Model from List (2)",
+        "Options (3)",
+        "Units (4)",
+        "UPLOAD MODEL (5)",
+        "Load Configuration (6)",
+        "Calculation History (7)"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1079,
+        "cost_usd": 0.0028373
+      },
+      "source_file": "130_Matrix_Referral_Specific_Gravity_with_Rheonics_process_meter_SRD.pdf"
+    },
+    {
+      "page_summary": "This page details the process of loading temperature and density datasets, calculating Tk coefficients, and uploading mathematical models within Rheonics Control Panel Software for accurate specific gravity measurements.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel Software",
+        "SME"
+      ],
+      "extracted_text": "60°F). Red square box parameter cannot be modified unless Custom model is selected.\n4. “Load Dataset” button, this operation is crucial to get correct measurement for Specific Gravity measurement so as density and temperature to be measurement from the process mut be within this table. Dataset table must cover at least the following instances:\n  1. Five reference temperatures (at least)\n  2. The density for each of four product types at the five reference temperatures\n  3. The base temperature, which must be one of the five reference temperature\nMatrix Referral\nDensity [Kg/m3]\nT [°C] | P1 | P2 | P3 | P4 | P5 | P6 | P7 | P8 | P9 | P10 | P11 | P12 | P13 | P14\n40 | 755.05 | 806.27 | 857.36 | 984.32\n35 | 759.06 | 810.04 | 860.90 | 987.67\n30 | 763.60 | 813.79 | 864.44 | 990.01\n25 | 767.05 | 817.54 | 867.97 | 994.35\n20 | 771.03 | 821.27 | 871.49 | 997.68\nTemperature [°C]\nRef Temp [°C]\n20\nTk coefficients\n{(-0.864714,0.003286),(-0.754571,0.000229),(-0.709457,-0.000143),(-0.556000,-0.005600),}\nImport | Export Table | Tk1, Tk2 | Load Tks & Close | Cancel\nFigure 4. 20 datapoint set.\n4.4. Dataset for a generic 20 datapoint set, first column is for temperature. The rest of the columns should be each for a product \"P\", and the densities of that product at the different temperatures.\n4.5. Import: Select dataset from an .csv sheet\narchive\nclear grape juice.csv\nCrudeoil_1.csv\ndatatable_20pts.csv\nFerric Chlorine.csv\nFigure 5. Selecting dataset\n4.5. Export: Export current table to .csv\n4.6. \"Tk1, Tk2\" button to create the coefficients that will be used on the model.\n4.7. Calculated Tk coefficients by internal model.\n4.8. \"Load Tks & Close\" button to load these coefficients into the model\n5. Uploading the Mathematical Model\nClick \"Upload Model\" to load the model settings into SME. The button should turn GREEN for a couple of seconds if the action was successful or turn RED if the operation was Rheonics Control Panel Software unsuccessful. This action will refresh the values for the Uncompensated and Compensated indicators. Here you can verify if the model is calculating the expected values. If not, you can correct and repeat the process.",
+      "specifications": {
+        "Reference Temperatures": [
+          "40 °C",
+          "35 °C",
+          "30 °C",
+          "25 °C",
+          "20 °C"
+        ],
+        "Density P1 at 40°C": "755.05 Kg/m3",
+        "Density P1 at 35°C": "759.06 Kg/m3",
+        "Density P1 at 30°C": "763.60 Kg/m3",
+        "Density P1 at 25°C": "767.05 Kg/m3",
+        "Density P1 at 20°C": "771.03 Kg/m3",
+        "Density P2 at 40°C": "806.27 Kg/m3",
+        "Density P2 at 35°C": "810.04 Kg/m3",
+        "Density P2 at 30°C": "813.79 Kg/m3",
+        "Density P2 at 25°C": "817.54 Kg/m3",
+        "Density P2 at 20°C": "821.27 Kg/m3",
+        "Density P3 at 40°C": "857.36 Kg/m3",
+        "Density P3 at 35°C": "860.90 Kg/m3",
+        "Density P3 at 30°C": "864.44 Kg/m3",
+        "Density P3 at 25°C": "867.97 Kg/m3",
+        "Density P3 at 20°C": "871.49 Kg/m3",
+        "Density P4 at 40°C": "984.32 Kg/m3",
+        "Density P4 at 35°C": "987.67 Kg/m3",
+        "Density P4 at 30°C": "990.01 Kg/m3",
+        "Density P4 at 25°C": "994.35 Kg/m3",
+        "Density P4 at 20°C": "997.68 Kg/m3",
+        "Reference Temperature Value": "20 °C",
+        "Tk Coefficients": "(-0.864714, 0.003286), (-0.754571, 0.000229), (-0.709457, -0.000143), (-0.556000, -0.005600)"
+      },
+      "key_facts": [
+        "The 'Load Dataset' operation is crucial for obtaining correct Specific Gravity measurements.",
+        "The dataset table must cover at least five reference temperatures.",
+        "The dataset table must include density data for each of four product types at the five reference temperatures.",
+        "The base temperature for specific gravity measurement must be one of the five reference temperatures.",
+        "The 'Tk1, Tk2' button creates coefficients for the model.",
+        "The 'Load Tks & Close' button loads the calculated Tk coefficients into the model.",
+        "Clicking 'Upload Model' loads model settings into SME.",
+        "The 'Upload Model' button indicates successful operation by turning GREEN and unsuccessful operation by turning RED.",
+        "Uploading the model refreshes values for Uncompensated and Compensated indicators."
+      ],
+      "diagram_labels": [
+        "Matrix Referral",
+        "Density [Kg/m3]",
+        "T [°C]",
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7",
+        "P8",
+        "P9",
+        "P10",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "Temperature [°C]",
+        "Ref Temp [°C]",
+        "Tk coefficients",
+        "Import",
+        "Export Table",
+        "Tk1, Tk2",
+        "Load Tks & Close",
+        "Cancel",
+        "archive",
+        "clear grape juice.csv",
+        "Crudeoil_1.csv",
+        "datatable_20pts.csv",
+        "Ferric Chlorine.csv",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "warnings_notes": [
+        "The red square box parameter cannot be modified unless the Custom model is selected.",
+        "The \"Load Dataset\" operation is crucial to get correct measurement for Specific Gravity measurement.",
+        "If the \"Upload Model\" operation is unsuccessful, the button will turn RED.",
+        "If the model is not calculating the expected values after upload, the user should correct and repeat the process."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 2036,
+        "cost_usd": 0.0052298
+      },
+      "source_file": "130_Matrix_Referral_Specific_Gravity_with_Rheonics_process_meter_SRD.pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions on configuring advanced calculations, LCD display settings, and analog outputs using the Rheonics Control Panel software.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel 5.4.0.0",
+        "TRD",
+        "SME-TRD"
+      ],
+      "extracted_text": "Rheonics Control Panel 5.4.0.0\nMeasurement | Events | Settings | Service | Diagnostics | Communication | Scaling | Calculation | Logger | Help\nAdvanced Calculations | Thermal Compensation of Density, Viscosity\nSelect Measurement to Apply Model: Concentration\nCalculated Value: 0.895509\nStatus: (green indicator)\nSelect Model from List: Matrix Referral Specific Gravity\nMatrix Referral Specific Gravity\nOptions: SG20/20\nT₁ [°C]: 20\nWater Density at T₂ [Kg/m³]: 998.23\nLoad DataSet\nUnits: SG\nSG = Density of Process Fluid at Reference Temperature T₁ / Density of Water at Reference Temperature T₂\nUPLOAD MODEL\nLCD Display (for TRD Only) Select Line to Display: None\nLoad Configuration\nChange SMET Output\nOutput on 4-20 mA channel Select channel number: None\nAccess measurement with applied model over Modbus RTU/TCP register: 208\nCalculation History\n5.1. Click “Load Configuration” to update the display and channel configurations in SME.\n5.2. LCD Display\nSelect the line to display the parameter:\nLCD Display (for TRD Only)\nSelect Line to Display\n✓ None\nLine 1\nLine 2\nLine 3\nFigure 6. Selecting read line for LCD display\n5.3. Changes can be verified in “Communication” Tab\nLCD Display (SME-TRD Only)\nParameter | Resolution\nLine 1: Viscosity | 0.000\nLine 2: Density | 0.000\nLine 3: Concentration | 0.00\nFigure 7. Communication tab has loaded concentration parameter\n5.4. Analog outputs\nSelect analog channel to send data, this can be verified in “Service” Tab",
+      "specifications": {
+        "calculated_value": "0.895509 SG",
+        "reference_temperature_T1": "20 °C",
+        "water_density_at_T2": "998.23 Kg/m³",
+        "modbus_rtu_tcp_register": "208",
+        "lcd_display_resolution_viscosity": "0.000",
+        "lcd_display_resolution_density": "0.000",
+        "lcd_display_resolution_concentration": "0.00"
+      },
+      "key_facts": [
+        "The Rheonics Control Panel software version 5.4.0.0 provides functionality for advanced calculations, including thermal compensation for density and viscosity.",
+        "Specific Gravity (SG) can be calculated using the density of the process fluid at a reference temperature T₁ and the density of water at a reference temperature T₂.",
+        "The 'Load Configuration' button updates display and channel configurations in the SME (SME-TRD) system.",
+        "Users can select parameters (Viscosity, Density, Concentration) to be displayed on specific lines of the LCD display (TRD Only / SME-TRD Only).",
+        "Analog output channels can be configured to send data, with verification possible in the 'Service' tab."
+      ],
+      "diagram_labels": [
+        "Rheonics Control Panel 5.4.0.0",
+        "Measurement",
+        "Events",
+        "Settings",
+        "Service",
+        "Diagnostics",
+        "Communication",
+        "Scaling",
+        "Calculation",
+        "Logger",
+        "Help",
+        "Advanced Calculations | Thermal Compensation of Density, Viscosity",
+        "Select Measurement to Apply Model",
+        "Concentration",
+        "Calculated Value",
+        "0.895509",
+        "Status",
+        "Select Model from List",
+        "Matrix Referral Specific Gravity",
+        "Options",
+        "SG20/20",
+        "T₁ [°C]",
+        "20",
+        "Water Density at T₂ [Kg/m³]",
+        "998.23",
+        "Load DataSet",
+        "Units",
+        "SG",
+        "Density of Process Fluid at Reference Temperature T₁",
+        "Density of Water at Reference Temperature T₂",
+        "UPLOAD MODEL",
+        "LCD Display (for TRD Only) Select Line to Display",
+        "None",
+        "Load Configuration",
+        "Change SMET Output",
+        "Output on 4-20 mA channel Select channel number",
+        "Access measurement with applied model over Modbus RTU/TCP register",
+        "208",
+        "Calculation History",
+        "Figure 6. Selecting read line for LCD display",
+        "✓ None",
+        "Line 1",
+        "Line 2",
+        "Line 3",
+        "LCD Display (SME-TRD Only)",
+        "Parameter",
+        "Resolution",
+        "Viscosity",
+        "0.000",
+        "Density",
+        "0.000",
+        "Concentration",
+        "0.00",
+        "Figure 7. Communication tab has loaded concentration parameter"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1296,
+        "cost_usd": 0.0033798
+      },
+      "source_file": "130_Matrix_Referral_Specific_Gravity_with_Rheonics_process_meter_SRD.pdf"
+    },
+    {
+      "page_summary": "This page describes the configuration of analog output channels and Modbus TCP/IP registers for accessing measurement data and calculation history.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Figure 8. Selecting analog output channel\n\n5.5. Modbus TCP/IP register\nMeasurement can always be accessed at the register address that is displayed.\n\n[UI Elements from Figure 8]\nOutput on 4-20 mA channel\nSelect channel number\nModbus RTU/TCP register\nNone\nCh1\nCh2\nCh3\nAccess measurement with applied model over Modbus RTU/TCP register [Value: 208]\n\n5.6. \"Calculation History\" button allows you to open a file where the last uploaded models and coefficients for these models are stored. This is for user reference.",
+      "specifications": {
+        "Output current range": "4-20 mA",
+        "Modbus RTU/TCP register address for applied model measurement": "208"
+      },
+      "key_facts": [
+        "Measurements can be accessed via Modbus TCP/IP registers.",
+        "The Modbus RTU/TCP register address for accessing measurement with an applied model is 208.",
+        "The 'Calculation History' button provides access to a file storing the last uploaded models and their coefficients.",
+        "Analog output channels can be configured as None, Ch1, Ch2, or Ch3."
+      ],
+      "diagram_labels": [
+        "Output on 4-20 mA channel",
+        "Select channel number",
+        "Modbus RTU/TCP register",
+        "None",
+        "Ch1",
+        "Ch2",
+        "Ch3",
+        "Access measurement with applied model over Modbus RTU/TCP register",
+        "208",
+        "Figure 8. Selecting analog output channel"
+      ],
+      "warnings_notes": [
+        "This is for user reference."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 475,
+        "cost_usd": 0.0013273
+      },
+      "source_file": "130_Matrix_Referral_Specific_Gravity_with_Rheonics_process_meter_SRD.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

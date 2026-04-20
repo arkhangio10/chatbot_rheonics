@@ -1,0 +1,47 @@
+{
+  "source_file": "135_Introduction_to_Correlation_scale-up.pdf",
+  "total_pages": 2,
+  "chunks": [
+    {
+      "page_num": 1,
+      "page_summary": "Extraction failed",
+      "document_type": "unknown",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "extraction_failed": true,
+      "source_file": "135_Introduction_to_Correlation_scale-up.pdf"
+    },
+    {
+      "page_summary": "This page is entirely blank and contains no discernible information.",
+      "document_type": "unknown",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [
+        "The page is completely blank.",
+        "No information, text, or images are visible on this page."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 112,
+        "cost_usd": 0.00041979999999999996
+      },
+      "source_file": "135_Introduction_to_Correlation_scale-up.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": [
+      1
+    ]
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "source_file": "094_Getting_started_with_PROFINET_on_Rheonics_devices.pdf",
+  "total_pages": 3,
+  "chunks": [
+    {
+      "page_summary": "This page provides a guide for getting started with PROFINET on Rheonics devices, covering how to order the PROFINET protocol, options for post-shipment ordering, and detailed information on cabling types and specifications for successful implementation.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics devices",
+        "Rheonics standard viscosity and density meters",
+        "Rheonics Sensors"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nGetting started with PROFINET on Rheonics devices\nModified on: Tue, 6 Jun, 2023 at 11:50 PM\n\n1. When I order the sensor, Have I already purchased PROFINET?\nNo, you will need to order the PROFINET communication protocol prior to the shipment of the sensor. To order the PROFINET communication protocol remember to check the C9-PROFINET option (https://rheonics.com/request-for-quotation/srv/) on the RFQ page (https://rheonics.com/request-for-quotation/). PROFINET is available on all Rheonics standard viscosity and density meters. The video below shows the steps to be followed to add PROFINET to the device configuration:\nHow to order PROFINET communication protocol?\nrheonics\nWatch on\n\n2. Can I order PROFINET after a sensor is shipped?\nYes, communication protocols like Profinet can be ordered later. Contact Rheonics sales to order.\n\n3. Cabling\nIn this article, we are explaining which hardware and configuration are essential for a successful PROFINET implementation. Rheonics Sensors with PROFINET protocol enabled will allow 100 Mbps, full duplex communication.\nThe physical layers for PROFINET ethernet cables in factory automation application areas are based on 4/2/1-pair Ethernet infrastructure but also other ethernet cables that will comply with the PROFINET protocol could be used like standard ethernet cables or ruggedized ethernet cables.[1]\n\nSingle pair ethernet 10MBit/s up to 1GBit/s\nFast ethernet 100MBit/s\nGBit ethernet 1GBit/s up to 10GBit/s\n\nFigure 1. Different PROFINET cabling for industrial application.\n\nCabling options:\n*   Standard Ethernet cable options with cat 5, 5e, Cat 6, 6a, or Cat 7 cables, would meet the requirements based on the achievable speed of 100Mbps in 100 meters, still, specifications must be verified by the integrator.",
+      "specifications": {
+        "Contact Phone Number": "+1 713 234 0863",
+        "PROFINET Communication Speed": "100 Mbps",
+        "PROFINET Communication Duplex": "full duplex",
+        "Ethernet Cabling Infrastructure": "4/2/1-pair Ethernet",
+        "Supported Standard Ethernet Cable Categories": "Cat 5, Cat 5e, Cat 6, Cat 6a, Cat 7",
+        "Single Pair Ethernet Speed Range": "10 MBit/s to 1 GBit/s",
+        "Fast Ethernet Speed": "100 MBit/s",
+        "GBit Ethernet Speed Range": "1 GBit/s to 10 GBit/s",
+        "Maximum Cable Length for 100Mbps": "100 meters"
+      },
+      "key_facts": [
+        "The PROFINET communication protocol must be ordered prior to the shipment of the sensor.",
+        "The C9-PROFINET option should be checked on the Rheonics RFQ page for ordering.",
+        "PROFINET is available on all Rheonics standard viscosity and density meters.",
+        "PROFINET communication protocols can be ordered after a sensor has been shipped by contacting Rheonics sales.",
+        "Rheonics Sensors with PROFINET protocol enabled support 100 Mbps, full duplex communication.",
+        "PROFINET ethernet cables for factory automation applications are based on a 4/2/1-pair Ethernet infrastructure.",
+        "Standard ethernet cables or ruggedized ethernet cables that comply with the PROFINET protocol can be used.",
+        "Standard Ethernet cable options (Cat 5, 5e, 6, 6a, or 7) can meet the requirements for 100Mbps in 100 meters."
+      ],
+      "diagram_labels": [
+        "Single pair ethernet 10MBit/s up to 1GBit/s",
+        "Fast ethernet 100MBit/s",
+        "GBit ethernet 1GBit/s up to 10GBit/s",
+        "Figure 1. Different PROFINET cabling for industrial application."
+      ],
+      "warnings_notes": [
+        "Specifications for cabling must be verified by the integrator.",
+        "A reference '[1]' is present but the corresponding footnote content is missing from the provided page."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1143,
+        "cost_usd": 0.0029972999999999996
+      },
+      "source_file": "094_Getting_started_with_PROFINET_on_Rheonics_devices.pdf"
+    },
+    {
+      "page_summary": "This page provides an overview and specifications for various types of Ethernet cables, including flat, ruggedized, and PROFINET versions.",
+      "document_type": "technical document",
+      "product_names": [
+        "CableGeeker CAT.6 ETHERNET CABLE",
+        "Industrial Ethernet cable",
+        "PROFINET ethernet cables",
+        "Flat Ethernet cable",
+        "Ruggedized ethernet cable"
+      ],
+      "extracted_text": "Figure 2. Flat Ethernet cable\nUTP Category Data Rate Application Max.Length\nCAT5 100Mbps FastEthernet 100m\nCAT5e 1Gbps FastEthernet 100m\nCAT6 10Gbps Gigabit Ethernet 100m\nCAT6a 10Gbps Gigabit Ethernet 100m\nCAT7 10Gbps Gigabit Ethernet 100m\nIndustrial Ethernet cable: Ruggedized Ethernet cables, built for the factory floor.\nFigure 3. Ruggedized ethernet cable [2]\nPROFINET ethernet cables: Industrial Ethernet cables that often come with a green jacket, and comply with ruggedized specifications that have been standardized by PI.\nFigure 4. PROFINET ethernet cable[3]\nAdditional text from image: CableGeeker CAT.6 ETHERNET CABLE RoHS",
+      "specifications": {
+        "CAT5_Data_Rate": "100 Mbps",
+        "CAT5_Application": "FastEthernet",
+        "CAT5_Max_Length": "100 m",
+        "CAT5e_Data_Rate": "1 Gbps",
+        "CAT5e_Application": "FastEthernet",
+        "CAT5e_Max_Length": "100 m",
+        "CAT6_Data_Rate": "10 Gbps",
+        "CAT6_Application": "Gigabit Ethernet",
+        "CAT6_Max_Length": "100 m",
+        "CAT6a_Data_Rate": "10 Gbps",
+        "CAT6a_Application": "Gigabit Ethernet",
+        "CAT6a_Max_Length": "100 m",
+        "CAT7_Data_Rate": "10 Gbps",
+        "CAT7_Application": "Gigabit Ethernet",
+        "CAT7_Max_Length": "100 m"
+      },
+      "key_facts": [
+        "Flat Ethernet cables, such as the CableGeeker CAT.6, are RoHS compliant.",
+        "Ethernet cables are categorized by UTP category, which determines their data rate and application.",
+        "CAT5 and CAT5e cables are suitable for FastEthernet applications.",
+        "CAT6, CAT6a, and CAT7 cables support Gigabit Ethernet applications.",
+        "All listed UTP categories (CAT5 through CAT7) have a maximum recommended length of 100 meters.",
+        "Industrial Ethernet cables are ruggedized for use in challenging environments like factory floors.",
+        "PROFINET ethernet cables are a specific type of industrial Ethernet cable, typically green, designed to comply with ruggedized specifications standardized by PI."
+      ],
+      "diagram_labels": [
+        "Figure 2. Flat Ethernet cable",
+        "Figure 3. Ruggedized ethernet cable [2]",
+        "Figure 4. PROFINET ethernet cable[3]"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 780,
+        "cost_usd": 0.0020897999999999997
+      },
+      "source_file": "094_Getting_started_with_PROFINET_on_Rheonics_devices.pdf"
+    },
+    {
+      "page_num": 3,
+      "page_summary": "Extraction failed",
+      "document_type": "unknown",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "extraction_failed": true,
+      "source_file": "094_Getting_started_with_PROFINET_on_Rheonics_devices.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": [
+      3
+    ]
+  }
+}

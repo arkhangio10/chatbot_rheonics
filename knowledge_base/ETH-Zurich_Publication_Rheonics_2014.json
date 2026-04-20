@@ -1,0 +1,84 @@
+{
+  "source_file": "ETH-Zurich_Publication_Rheonics_2014.pdf",
+  "total_pages": 3,
+  "chunks": [
+    {
+      "page_num": 1,
+      "page_summary": "Extraction failed",
+      "document_type": "unknown",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "extraction_failed": true,
+      "source_file": "ETH-Zurich_Publication_Rheonics_2014.pdf"
+    },
+    {
+      "page_summary": "This page provides an overview of Prof. Jürg Dual's research in mechanics and dynamics at ETH Zurich, highlighting his achievements, ongoing projects, and future research goals in areas such as fluid resonating sensors, ultrasonic particle manipulation, and crack detection.",
+      "document_type": "whitepaper",
+      "product_names": [],
+      "extracted_text": "Prof. Jürg Dual\nLaboratory for Mechanics and\nExperimental Dynamics\nInstitute of Mechanical Systems\n\nPhone: +41 44 632 22 43\ndual@imes.mavt.ethz.ch\nwww.imes.ethz.ch\n\nmultiphysics to obtain the acoustic field. The system's poten-\ntial landscape can then be computed from the field using\nGorkov's potential. Varying frequencies produce time-varying\npotentials so that patterns of particles in the cavity, such as\nlines or dots, can be observed. Particles can also be rotated\nby manipulating the fluid's acoustic radiation torque or viscous\ntorque (Fig. 3). Modeling efforts are underway to determine\nforces in nonstandard conditions, including systems that\ninvolve viscous effects or the effects of nearby boundaries.\n\nFurther topics\nWe investigate time reversal in structural wave propagation\nto find multiple cracks in structures. Further topics include\nthe experiments and modeling of vibrations in water turbines\n(Fig. 5) and ultrasonics in the GHz regime using an optical\npump probe setup for probing nanostructures and thin films.\nIn collaboration with the Swiss Avalanche Institute, modeling\nof avalanche release systems is also under way.\n\nHighlights and achievements\n> In the area of fluid resonating sensors, we founded a\nspin-off to develop a sensor for downhole applications\nfor the oil and gas industry. Industry was very enthusiastic\nof our work and fully supported the project financially.\n> Our research contributed to the development of a micro-\nscopic viscosity sensor capable of detecting changes in\nwater viscosity of better than 1 %. This research has\napplications in the area of biomedical analysis.\n> In the area of ultrasonic particle manipulation, and in\ncollaboration with our colleagues from USWNNet, we\ncontributed to the publication of a series of 23 papers\n[2]* in the highly-selective Lab on a Chip Journal. We\nalso developed software that allows the computation of\nacoustic radiation forces and torques for arbitrarily\nshaped particles. We recently received funding for\nlatest-generation PLD and DRIE systems that will further\nimprove our capabilities in designing ultrasonic particle\nmanipulation systems.\n> Using a combination of time reversal and suitable pulse\nshapes, we were able to detect multiple cracks with high\nprecision in beams by using the dispersive nature of\nbending waves.\n> We are proud that, in teaching basic mechanics, we\nhave kept a high level of teaching quality despite a small\nnumber of contributing faculty.\n\nJürg Dual (1957) studied mechanical engineering\nfirst at ETH Zurich, then with a Fulbright grant at\nthe University of California in Berkeley under Prof. W.\nGoldsmith. He received his Dr.sc.techn. degree at\nETH Zurich with Prof. M. Sayir in Mechanics. In 1989,\nhe was awarded the Latsis Prize at ETH Zurich for\nhis dissertation. After one year as Visiting Assistant\nProfessor at Cornell University in Ithaca, NY, he\nreturned to ETH Zurich as Assistant Professor. Since\n1998 he serves as Full Professor of Mechanics and\nExperimental Dynamics in the Center of Mechanics\nat ETH. He is a Fellow of the ASME, a member of\nthe Swiss Academy of Technical Sciences, Honorary\nMember of the German Association for Materials\nResearch and Testing, and a Swiss delegate within\nInternational Union of Theoretical and Applied\nMechanics. In 2012-2013 he was CEO of the startup\nViscoteers GmbH.\nHe was President of the Planning Commission\n(2000–2004) and of the University Assembly\n(2008–2012) at ETH and is President of the Swiss-\nAmerican Society of Zurich.\n\nGoals and future priorities\nGoing forward, we will remain focused on resonating sensors\nand ultrasonic particle manipulation. These topics both have\na strong component of fluid structure interaction, thereby\nfostering each other.\nMost of the fluids that need to be characterized are\nNonnewtonian. Therefore viscoelastic properties will\nbe determined using multifrequency control of resonating\nsensors. We will also investigate the behavior of non-\nhomogeneous fluids (suspensions).\nWe will continue our modeling efforts in the area of\nparticle manipulation. Gorkov's potential is only valid for\nideal compressible fluids, spherical particles and infinite\nspace. We are currently using a newly-acquired high-speed\ncamera and optical trap to investigate methods for calibrat-\ning force fields, and are comparing our findings with available\ntheories. We will also pursue quantitative predictions of\nacoustic streaming. As we take further steps towards appli-\ncations for our research in the biomedical field, we will\nexpand collaboration with industry and within academia.\n\n* reference to Key publications\n\n25",
+      "specifications": {
+        "phone_number": "+41 44 632 22 43",
+        "prof_jurg_dual_birth_year": "1957",
+        "microscopic_viscosity_sensor_accuracy_water": "better than 1 %",
+        "lab_on_a_chip_journal_papers_contributed": "23"
+      },
+      "key_facts": [
+        "Prof. Jürg Dual is affiliated with the Laboratory for Mechanics and Experimental Dynamics and the Institute of Mechanical Systems at ETH Zurich.",
+        "His research utilizes multiphysics to generate acoustic fields, compute potential landscapes, and manipulate particles using acoustic radiation torque or viscous torque.",
+        "Current research topics include time reversal in structural wave propagation for crack detection, experiments and modeling of vibrations in water turbines, and ultrasonics in the GHz regime for nanostructures and thin films.",
+        "In the area of fluid resonating sensors, a spin-off was founded to develop downhole sensors for the oil and gas industry with financial support.",
+        "A microscopic viscosity sensor capable of detecting changes in water viscosity better than 1% was developed, with applications in biomedical analysis.",
+        "Collaboration with USWNNet led to the publication of 23 papers in the Lab on a Chip Journal on ultrasonic particle manipulation.",
+        "Software for computing acoustic radiation forces and torques for arbitrarily shaped particles was developed, and funding was received for PLD and DRIE systems to improve ultrasonic particle manipulation.",
+        "Prof. Jürg Dual's group successfully detected multiple cracks in beams using time reversal and pulse shapes, leveraging the dispersive nature of bending waves.",
+        "Prof. Jürg Dual studied mechanical engineering at ETH Zurich and the University of California, Berkeley, and received his Dr.sc.techn. degree from ETH Zurich.",
+        "He was awarded the Latsis Prize in 1989 for his dissertation.",
+        "He served as a Visiting Assistant Professor at Cornell University and has been a Full Professor of Mechanics and Experimental Dynamics at ETH since 1998.",
+        "Prof. Jürg Dual was CEO of the startup Viscoteers GmbH from 2012-2013.",
+        "Future priorities include focusing on resonating sensors and ultrasonic particle manipulation, especially concerning fluid-structure interaction.",
+        "Viscoelastic properties of Nonnewtonian fluids will be determined using multifrequency control of resonating sensors, and the behavior of non-homogeneous fluids (suspensions) will be investigated.",
+        "Modeling efforts for particle manipulation will continue, focusing on Gorkov's potential for ideal compressible fluids, spherical particles, and infinite space.",
+        "Research will involve using a high-speed camera and optical trap to calibrate force fields and compare findings with theoretical models, and pursuing quantitative predictions of acoustic streaming.",
+        "Future applications for the research are aimed at the biomedical field, with plans to expand collaboration with industry and academia.",
+        "Prof. Jürg Dual was President of the Planning Commission (2000–2004) and of the University Assembly (2008–2012) at ETH and is President of the Swiss-American Society of Zurich."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "* reference to Key publications"
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1915,
+        "cost_usd": 0.0049273
+      },
+      "source_file": "ETH-Zurich_Publication_Rheonics_2014.pdf"
+    },
+    {
+      "page_num": 3,
+      "page_summary": "Extraction failed",
+      "document_type": "unknown",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "extraction_failed": true,
+      "source_file": "ETH-Zurich_Publication_Rheonics_2014.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": [
+      1,
+      3
+    ]
+  }
+}

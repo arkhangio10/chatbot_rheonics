@@ -1,0 +1,42 @@
+{
+  "source_file": "088_Taking_the_EthernetIP_road_with_Rheonics_SME.pdf",
+  "total_pages": 1,
+  "chunks": [
+    {
+      "page_summary": "This document is a technical guide outlining the steps and resources required to set up Ethernet/IP communication with Rheonics SME sensors and other inline viscometers and density sensors.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SME",
+        "Rheonics sensors",
+        "C9-Ethernet/IP",
+        "Rheonics inline viscometer and density meter"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nTaking the Ethernet/IP road with Rheonics SME\n\nModified on: Mon, 10 Mar, 2025 at 8:43 PM\n\nThe integration of Rheonics sensors with Ethernet/IP protocol offers users a more secure and reliable data exchange between devices. The protocol provides higher levels of security to protect data from external threats, as well as improved reliability to ensure that the data is accurately transmitted.\n\n1. How to set the Ethernet/IP communication on Rheonics Sensor?\n\n    1. It is necessary to have a Rheonics SME with Ethernet/IP communication enabled, for this you will need to order the Ethernet/IP communication protocol prior to the shipment of the sensor or order later. To order the Ethernet/IP communication protocol remember to check the C9-Ethernet/IP option on the RFQ page (https://rheonics.com/request-for-quotation/srv/) (https://rheonics.com/request-for-quotation/).\n    2. Establishing network settings: Network Setup through USB communication for Rheonics SME (https://support.rheonics.com/en/support/solutions/articles/81000411282).\n    3. Download the EDS file from this link: EthernetIP EDS file for Rheonics inline viscometer and density meter (https://support.rheonics.com/en/support/solutions/articles/81000393236) (https://support.rheonics.com/en/support/solutions/articles/81000393236).\n    4. Connecting the Ethernet cable: (https://support.rheonics.com/en/support/solutions/articles/81000300292-introducing-ethernet-connections-on-sme) Introducing Ethernet connections on SME (https://support.rheonics.com/en/support/solutions/articles/81000300292).\n    5. Verify with one of the tools shown in this support article that the Rheonics Sensor can be detected on your Ethernet/IP network: (https://support.rheonics.com/en/support/solutions/articles/81000411923-software-for-ethernet-ip-integration-with-rheonics-sensors) Software for Ethernet/IP integration with Rheonics Sensors (https://support.rheonics.com/en/support/solutions/articles/81000411923).\n    6. Rheonics has several examples of how to integrate the SME into an Ethernet/IP network: (https://support.rheonics.com/en/support/solutions/articles/81000411919-which-plcs-are-compatible-with-ethernet-ip) Which PLCs are compatible with Ethernet/IP? (https://support.rheonics.com/en/support/solutions/articles/81000411919).\n    7. With all the setup prepared, the next step is to integrate our sensor with the Ethernet/IP network: Rheonics integration articles (https://support.rheonics.com/en/support/solutions/articles/81000195693).\n    8. The Rheonics sensor parameters available for Ethernet/IP: Parameter List access for field devices (https://support.rheonics.com/en/support/solutions/articles/81000393235-parameter-list-access-for-field-devices).\n    9. Check the user manual for information about the Ethernet/IP protocol on Rheonics SME: Rheonics User Manual Ethernet/IP (https://cdn.rheonics.com/wp-content/uploads/2022/06/Rheonics-EthernetIP-v2.1.pdf).",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics sensors can be integrated using the Ethernet/IP protocol for secure and reliable data exchange.",
+        "The Ethernet/IP protocol provides enhanced security to protect data from external threats and improves data transmission reliability.",
+        "To enable Ethernet/IP communication on a Rheonics SME, the protocol must be ordered prior to or separately from the sensor shipment, checking the C9-Ethernet/IP option on the RFQ page.",
+        "Network settings for Rheonics SME can be established via USB communication.",
+        "An Ethernet/IP EDS file is available for Rheonics inline viscometer and density meters.",
+        "Rheonics offers resources, including support articles and a user manual, to guide users through Ethernet/IP integration and parameter access for field devices.",
+        "The document was last modified on Mon, 10 Mar, 2025 at 8:43 PM."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1206,
+        "cost_usd": 0.0031548
+      },
+      "source_file": "088_Taking_the_EthernetIP_road_with_Rheonics_SME.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

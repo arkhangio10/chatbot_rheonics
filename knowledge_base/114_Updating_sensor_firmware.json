@@ -1,0 +1,402 @@
+{
+  "source_file": "114_Updating_sensor_firmware.pdf",
+  "total_pages": 7,
+  "chunks": [
+    {
+      "page_summary": "This document outlines the requirements and process for updating Rheonics sensor firmware.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics sensor",
+        "Rheonics Control Panel (RCP)"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nUpdating sensor firmware\n\nModified on: Wed, 27 Aug, 2025 at 6:32 PM\n\nRheonics sensor development team is constantly working to improve the sensor performance, add new communication and other functionalities. To roll out these additional feature updates, the sensors support in-field firmware update.\n\nFirmware update requirements\n\n*   Sensor should be running firmware version 3.00 or higher. This can be seen in the RCP (Rheonics Control Panel) or Display screen. See screenshots below.\n\n    Screenshot 1: Rheonics Control Panel 5.3.0.0 Interface\n    Tabs: Measurement, Events, Settings, Service, Diagnostics, Communication, Temp. Control, Logger, Help\n    System Info:\n        Sensor S/N: B05-0330\n        Electronics S/N: 1710029\n    Software Info:\n        Interface FW Version: 03.10/11-g8321578\n        Sensor FW Version: SWV201c\n    Update Values:\n        Refresh button\n\n    Screenshot 2: Sensor Display Screen\n    Status: SENSOR RUNNING, PROCESS WITHIN LIMITS\n    Measurements:\n        Visc: 0.01 mPa-s\n        Dens: 0.800 g/cc\n        Temp: 23.84 °C\n    Sensor Identifier with Firmware: B05-0330 V03.10/11 1710029\n\n*   Firmware update is currently only possible using RCP software connected over USB or Ethernet.\n*   RCP version 5.0 or higher (RCP shows version on the top bar).",
+      "specifications": {
+        "Minimum Sensor Firmware Version": "3.00",
+        "Minimum RCP Software Version": "5.0",
+        "Example RCP Software Version": "5.3.0.0",
+        "Example Sensor S/N": "B05-0330",
+        "Example Electronics S/N": "1710029",
+        "Example Interface FW Version": "03.10/11-g8321578",
+        "Example Sensor FW Version (RCP display)": "SWV201c",
+        "Example Sensor FW Version (Sensor display)": "V03.10/11",
+        "Example Viscosity Reading": "0.01 mPa-s",
+        "Example Density Reading": "0.800 g/cc",
+        "Example Temperature Reading": "23.84 °C"
+      },
+      "key_facts": [
+        "Rheonics sensors support in-field firmware updates to improve performance, add new communication, and other functionalities.",
+        "A sensor must be running firmware version 3.00 or higher for firmware updates.",
+        "Firmware updates are currently only possible using RCP software.",
+        "The RCP software must be connected to the sensor over USB or Ethernet for updates.",
+        "The RCP software version must be 5.0 or higher."
+      ],
+      "diagram_labels": [
+        "Rheonics Control Panel 5.3.0.0",
+        "Measurement",
+        "Events",
+        "Settings",
+        "Service",
+        "Diagnostics",
+        "Communication",
+        "Temp. Control",
+        "Logger",
+        "Help",
+        "System Info",
+        "Sensor S/N",
+        "Electronics S/N",
+        "B05-0330",
+        "1710029",
+        "Software Info",
+        "Interface FW Version",
+        "Sensor FW Version",
+        "03.10/11-g8321578",
+        "SWV201c",
+        "Update Values",
+        "Refresh",
+        "SENSOR",
+        "RUNNING",
+        "PROCESS WITHIN LIMITS",
+        "Visc",
+        "0.01 mPa-s",
+        "Dens",
+        "0.800 g/cc",
+        "Temp",
+        "23.84 °C",
+        "B05-0330 V03.10/11 1710029"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1104,
+        "cost_usd": 0.0028997999999999997
+      },
+      "source_file": "114_Updating_sensor_firmware.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions and important notes for updating the firmware of a Rheonics sensor using the Rheonics Control Panel software.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel 5.3.0.0",
+        "RCP",
+        "SME"
+      ],
+      "extracted_text": "Rheonics Control Panel 5.3.0.0\nMeasurement | Events | Settings | Service | Diagnostics | Communication | Temp. Control | Logger | Help\nMeasured Values\nViscosity\t0.0110 mPa.s\nDensity\t0.8000 g/cc\nTemperature\t23.49 °C\nPressure\t1.00 bar\nStatus\nRunning...\tE00\nViscosity [mPa.s]\nDensity [g/cc]\nWhat you will need:\n* Updated firmware file\n* Updated configuration file\nThe new firmware file and configuration file will be sent by support. Contact support for getting these files.\nBefore Starting\nIf you had custom configurations for communications, display, and 4-20 mA channels, that are not the defaults provided by rheonics when you received the sensor, please take note of these settings since it's possible that these get erased after firmware update, and will have to be reconfigured by you once the process is over.\nFirmware update procedure\n1. Ensure sensor is powered by 24V DC supply and connected to RCP over USB or ethernet\nConnection between SME and RCP\n(https://support.rheonics.com/a/solutions/articles/81000297177)\n2. In RCP Software, go to \"Logger\" tab.",
+      "specifications": {
+        "Viscosity": "0.0110 mPa.s",
+        "Density": "0.8000 g/cc",
+        "Temperature": "23.49 °C",
+        "Pressure": "1.00 bar",
+        "Power Supply": "24V DC"
+      },
+      "key_facts": [
+        "The Rheonics Control Panel software version shown is 5.3.0.0.",
+        "The page outlines the steps for a firmware update procedure for a Rheonics sensor.",
+        "Users need an updated firmware file and an updated configuration file, which must be obtained from Rheonics support.",
+        "During a firmware update, custom configurations for communications, display, and 4-20 mA channels may be erased and will require manual reconfiguration.",
+        "The sensor must be powered by a 24V DC supply and connected to the Rheonics Control Panel (RCP) via USB or Ethernet for the update.",
+        "The first step of the firmware update procedure in the RCP Software is to go to the \"Logger\" tab."
+      ],
+      "diagram_labels": [
+        "Rheonics Control Panel 5.3.0.0",
+        "Measurement",
+        "Events",
+        "Settings",
+        "Service",
+        "Diagnostics",
+        "Communication",
+        "Temp. Control",
+        "Logger",
+        "Help",
+        "Measured Values",
+        "Viscosity",
+        "Density",
+        "Temperature",
+        "Pressure",
+        "Status",
+        "Running...",
+        "E00",
+        "Viscosity [mPa.s]",
+        "Density [g/cc]"
+      ],
+      "warnings_notes": [
+        "If you had custom configurations for communications, display, and 4-20 mA channels, that are not the defaults provided by rheonics when you received the sensor, please take note of these settings since it's possible that these get erased after firmware update, and will have to be reconfigured by you once the process is over."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 872,
+        "cost_usd": 0.0023198
+      },
+      "source_file": "114_Updating_sensor_firmware.pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions for updating sensor firmware using the Rheonics Control Panel software, showcasing the Logger tab's 'Firmware Update' section and the file selection process.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel"
+      ],
+      "extracted_text": "Rheonics Control Panel 5.3.0.0\nMeasurement\nEvents\nSettings\nService\nDiagnostics\nCommunication\nTemp. Control\nLogger\nHelp\nLogger: In- Built Historian\nMeasurement Logs\nSensor Logs\nCalibration Logs\nSMET Diagnostic Logs\nPrev\nNext\nDownload\nPrev\nNext\nDownload\nPrev\nNext\nDownload\nPrev\nNext\nDownload\nFirmware Update\nCurrent Firmware Version\n03.10/11-g8321578\nAuto Check Update\nUpload Manually\nLatest Firmware Version Available\nBack Up Sensor\nUpdate Sensor\n3. Click the \"Update Sensor\" button from the \"Firmware Update\" section\n4. Select the binary file provided by rheonics support \"Image.bin\" and click \"Ok\"\nRheonics Control Panel 5.3.0.0\nMeasurement\nEvents\nSettings\nService\nDiagnostics\nCommunication\nTemp. Control\nLogger\nHelp\nLogger: In- Built Historian\nChoose or Enter Path of File\n« ElBox_4 > PROD-SME > FW > 3.10 > 3.10_11_8321\nOrganize\nNew folder\nName\nDate modified\nimage.bin\n7/03/2021 08:01\nimage-Release-8321_V03.10_11_2021-03...\n7/03/2021 07:07\nNo preview available.\nFile name: image.bin\nCustom Pattern (*.bin)\nOK\nCancel\nUpdate Sensor",
+      "specifications": {
+        "Current Firmware Version": "03.10/11-g8321578"
+      },
+      "key_facts": [
+        "The Rheonics Control Panel software, version 5.3.0.0, includes a 'Logger' tab with an 'In-Built Historian' for viewing various logs.",
+        "The 'Firmware Update' section within the Logger tab allows users to manage and update the sensor's firmware.",
+        "The current firmware version displayed in the software is 03.10/11-g8321578.",
+        "To update the sensor firmware, users must click the 'Update Sensor' button in the 'Firmware Update' section.",
+        "Users are instructed to select a binary file, specifically 'image.bin', provided by Rheonics support for the firmware update.",
+        "The file selection dialog shows a file path indicating a firmware version '3.10' and a specific build '3.10_11_8321'."
+      ],
+      "diagram_labels": [
+        "Rheonics Control Panel 5.3.0.0",
+        "Measurement",
+        "Events",
+        "Settings",
+        "Service",
+        "Diagnostics",
+        "Communication",
+        "Temp. Control",
+        "Logger",
+        "Help",
+        "Logger: In- Built Historian",
+        "Measurement Logs",
+        "Sensor Logs",
+        "Calibration Logs",
+        "SMET Diagnostic Logs",
+        "Prev",
+        "Next",
+        "Download",
+        "Firmware Update",
+        "Current Firmware Version",
+        "Latest Firmware Version Available",
+        "Auto Check Update",
+        "Upload Manually",
+        "Back Up Sensor",
+        "Update Sensor",
+        "Choose or Enter Path of File",
+        "ElBox_4",
+        "PROD-SME",
+        "FW",
+        "3.10",
+        "3.10_11_8321",
+        "Organize",
+        "New folder",
+        "Name",
+        "Date modified",
+        "image.bin",
+        "image-Release-8321_V03.10_11_2021-03...",
+        "No preview available.",
+        "File name",
+        "Custom Pattern (*.bin)",
+        "OK",
+        "Cancel",
+        "Quick access",
+        "Desktop",
+        "Downloads",
+        "Documents",
+        "Pictures",
+        "Google Drive",
+        "RCP Software",
+        "Data",
+        "Rheonics Control Panel",
+        "Main Projects",
+        "INT-Support"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1131,
+        "cost_usd": 0.0029673
+      },
+      "source_file": "114_Updating_sensor_firmware.pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions for a firmware upload process, including monitoring progress, restarting the device, and verifying the update status and configuration.",
+      "document_type": "manual",
+      "product_names": [
+        "SME"
+      ],
+      "extracted_text": "5. A progress bar will display the file upload process.\n   Sending File\n   % Completed\n   packet # 0\n   retry # 0\n   Success\n6. Once the process is over, a window will prompt you to restart the SME. Click yes to accept. The restart process may take a couple of minutes or more. This is because the new firmware is being loaded into the system\n   Would you like to restart the SMET?\n   Yes No\n7. Once the process is over, you may click “Refresh” button in “Settings” tab to check that version was updated properly. If the configurations of your SME were erased during the firmware update, you’ll see that the sensor serial number will show as empty, or “No sn”. To reload the configurations in",
+      "specifications": {},
+      "key_facts": [
+        "A progress bar displays the file upload process status.",
+        "The 'Sending File' window shows progress for packets, retries, and overall success.",
+        "After firmware upload, a prompt will appear to restart the SME.",
+        "Restarting the SME involves loading new firmware into the system.",
+        "The restart process may take a couple of minutes or more.",
+        "To verify the update, click the 'Refresh' button in the 'Settings' tab.",
+        "If SME configurations were erased during the firmware update, the sensor serial number will display as empty or 'No sn'."
+      ],
+      "diagram_labels": [
+        "Sending File",
+        "% Completed",
+        "packet #",
+        "retry #",
+        "Success",
+        "Would you like to restart the SMET?",
+        "Yes",
+        "No"
+      ],
+      "warnings_notes": [
+        "The restart process may take a couple of minutes or more because the new firmware is being loaded into the system.",
+        "If the configurations of your SME were erased during the firmware update, the sensor serial number will show as empty, or 'No sn'.",
+        "Further steps are implied for reloading configurations if they were erased."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 531,
+        "cost_usd": 0.0014673000000000002
+      },
+      "source_file": "114_Updating_sensor_firmware.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions for enabling 'Expert Mode' in RCP Software, outlining the steps and a warning message regarding the advanced functionality.",
+      "document_type": "manual",
+      "product_names": [
+        "RCP Software",
+        "RCP manual"
+      ],
+      "extracted_text": "the SME follow the steps below. Otherwise, the update process is finalized at this point.\n\n8. In RCP Software. Go to \"Settings\" tab\n9. Click the button \"Enable Expert Mode\"\n10. In the pop up window input the support password: Jdc7bpPt and click \"Yes\"\n\nWarning\nAdvanced functionality enabled in RCP allows users to make changes to the sensor that can change the measurement outputs.\n\nIf you are trained and experienced to perform these changes, switch on the expert mode. Otherwise, contact your local support or Rheonics global support at support.rheonics.com to get help implementing the advanced functionality needed.\n\nPassword can be found in the RCP manual\n\nAccess Password **********\n\nCancel Yes",
+      "specifications": {},
+      "key_facts": [
+        "The SME must follow the outlined steps; otherwise, the update process is finalized.",
+        "To enable Expert Mode in RCP Software, navigate to the 'Settings' tab.",
+        "Click the 'Enable Expert Mode' button to proceed.",
+        "The support password 'Jdc7bpPt' is required to enable Expert Mode.",
+        "Advanced functionality in RCP allows users to modify sensor settings and measurement outputs.",
+        "Expert Mode should only be engaged by trained and experienced personnel.",
+        "For assistance with advanced functionality, users should contact their local support or Rheonics global support at support.rheonics.com.",
+        "The required password can also be found in the RCP manual."
+      ],
+      "diagram_labels": [
+        "Warning",
+        "Access Password",
+        "Cancel",
+        "Yes"
+      ],
+      "warnings_notes": [
+        "Advanced functionality enabled in RCP allows users to make changes to the sensor that can change the measurement outputs.",
+        "If you are trained and experienced to perform these changes, switch on the expert mode. Otherwise, contact your local support or Rheonics global support at support.rheonics.com to get help implementing the advanced functionality needed."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 529,
+        "cost_usd": 0.0014623
+      },
+      "source_file": "114_Updating_sensor_firmware.pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions for importing sensor configuration files using the Rheonics Control Panel software, followed by an explanation of the subsequent export process.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel",
+        "SRV"
+      ],
+      "extracted_text": "11. This action will enable the \"Import\" button. Click on it to import the configuration file provided by rheonics support team.\n\nRheonics Control Panel 5.3.0.0\n  Tabs: Measurement, Events, Settings, Servi\n  Operator:\n    Name / ID: Rheonics\n    Client: Rheonics GmbH\n  Sensor Configuration:\n    Sensor Type: SRV\n    Buttons: Import, Export, Disable Expert Mode, Factory Reset, Power Reset\n\n12. Select the configuration file that belongs to the sensor serial number that you would like to configure, and click \"Ok\"\n\nChoose or Enter Path of File\n  Navigation Path: << 22_04_21_... > B09-0484\n  Toolbar Options: Organize, New folder, Search B09-0484\n  Quick access items: Desktop, Download, Document, Pictures, Google Drive, RCP Softw, Data, Rheonics, Main Proj, INT-Supp\n  File List:\n    Name: B09-0484N_Prog_Config_210422094120_c... (Date modified: 22/04/2021 09:41)\n    Name: B09-0484N_Prog_ConfigIO_210422094120... (Date modified: 22/04/2021 09:41)\n  Preview Area: Select a file to preview.\n  File Selection:\n    File name: [empty input field]\n    File type: Custom Pattern (*.txt)\n  Dialog Buttons: OK, Cancel\n\n13. If the upload process is correct. The import button will turn green, and the configurations will be exported as a file. Select the path to save this new file generated by the software, so",
+      "specifications": {},
+      "key_facts": [
+        "The 'Import' button must be enabled and clicked to import a configuration file.",
+        "Configuration files are typically supplied by the Rheonics support team.",
+        "Users need to select the configuration file corresponding to the specific sensor serial number.",
+        "A successful upload will cause the 'Import' button to turn green.",
+        "Upon correct upload, the software will generate and export the configurations as a new file, requiring the user to select a save path."
+      ],
+      "diagram_labels": [
+        "Rheonics Control Panel 5.3.0.0",
+        "Measurement",
+        "Events",
+        "Settings",
+        "Servi",
+        "Operator",
+        "Name / ID",
+        "Rheonics",
+        "Client",
+        "Rheonics GmbH",
+        "Sensor Configuration",
+        "Sensor Type",
+        "SRV",
+        "Import",
+        "Export",
+        "Disable Expert Mode",
+        "Factory Reset",
+        "Power Reset",
+        "Choose or Enter Path of File",
+        "22_04_21_...",
+        "B09-0484",
+        "Search B09-0484",
+        "Organize",
+        "New folder",
+        "Quick access",
+        "Desktop",
+        "Download",
+        "Document",
+        "Pictures",
+        "Google Drive",
+        "RCP Softw",
+        "Data",
+        "Rheonics",
+        "Main Proj",
+        "INT-Supp",
+        "Name",
+        "Date modified",
+        "B09-0484N_Prog_Config_210422094120_c...",
+        "B09-0484N_Prog_ConfigIO_210422094120...",
+        "Select a file to preview.",
+        "File name:",
+        "Custom Pattern (*.txt)",
+        "OK",
+        "Cancel"
+      ],
+      "warnings_notes": [],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 997,
+        "cost_usd": 0.0026322999999999997
+      },
+      "source_file": "114_Updating_sensor_firmware.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions for updating firmware configurations, guidance on reconfiguring custom settings after an update, and a list of references to relevant Rheonics support articles and manuals.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel Software",
+        "rheonics :: viscometer and density meter",
+        "SME",
+        "RCP"
+      ],
+      "extracted_text": "you can send it to rheonics support.\n14. Repeat the \"import\" process for all the files provided to you. Usually for firmware update,\n    two files should be provided. Which means you will have to follow this process twice.\n\nFor more detailed information about loading configurations go to:\nUpdating Sensor Configuration (https://support.rheonics.com/a/solutions/articles/81000390438)\n\nIf you had custom settings after the update for communications, 4-20 mA, or display, that were not\nthe defaults provided by rheonics, you have to reconfigure now, according to the RCP manual.\nDownload Request - Manual: Rheonics Control Panel Software » rheonics :: viscometer and\ndensity meter (https://rheonics.com/resources/download-request-manual-rheonics-control-panel-\nsoftware/)\n\nReferences:\nConnection between SME and RCP (https://support.rheonics.com/a/solutions/articles/81000297177)\n(https://support.rheonics.com/a/solutions/articles/81000390438)Updating Sensor Configuration\n(https://support.rheonics.com/a/solutions/articles/81000390438)\nDownload Request - Manual: Rheonics Control Panel Software » rheonics :: viscometer and density meter\n(https://rheonics.com/resources/download-request-manual-rheonics-control-panel-software/)\n(https://rheonics.com/resources/download-request-manual-rheonics-control-panel-software/)\n(https://rheonics.com/resources/download-request-manual-rheonics-control-panel-software/)",
+      "specifications": {
+        "communication_output": "4-20 mA"
+      },
+      "key_facts": [
+        "To complete a firmware update, the \"import\" process usually needs to be repeated twice for two provided files.",
+        "Detailed information on loading configurations can be found in the 'Updating Sensor Configuration' support article.",
+        "If custom settings (for communications, 4-20 mA, or display) were modified from Rheonics defaults before an update, they must be reconfigured according to the RCP manual.",
+        "A manual for 'Rheonics Control Panel Software » rheonics :: viscometer and density meter' is available for download.",
+        "References include articles on 'Connection between SME and RCP' and 'Updating Sensor Configuration'."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "If you had custom settings after the update for communications, 4-20 mA, or display, that were not the defaults provided by rheonics, you have to reconfigure now, according to the RCP manual."
+      ],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 746,
+        "cost_usd": 0.0020048
+      },
+      "source_file": "114_Updating_sensor_firmware.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

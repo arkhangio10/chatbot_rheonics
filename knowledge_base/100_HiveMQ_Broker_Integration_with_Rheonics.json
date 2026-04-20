@@ -1,0 +1,217 @@
+{
+  "source_file": "100_HiveMQ_Broker_Integration_with_Rheonics.pdf",
+  "total_pages": 4,
+  "chunks": [
+    {
+      "page_summary": "This document describes the integration of a HiveMQ Cloud-based MQTT Broker with Rheonics Sensor Module Electronics (SME) for remote monitoring, detailing HiveMQ Cloud features and initial account setup.",
+      "document_type": "manual",
+      "product_names": [
+        "HiveMQ",
+        "HiveMQ Cloud",
+        "HiveMQ Cloud – Serverless",
+        "Rheonics Sensor Module Electronics (SME)",
+        "Node-RED",
+        "MQTT",
+        "Modbus TCP"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nHiveMQ Broker Integration with Rheonics\n\nModified on: Fri, 5 Sep, 2025 at 4:03 PM\n\nWhat is the purpose of this article?\nThis guide explains how to set up a HiveMQ Cloud-based MQTT Broker with the goal of enabling remote monitoring of Rheonics sensor data via MQTT. The account setup and broker (\n\nTABLE OF CONTENTS\n* 1. What is HiveMQ?\n* 2. Setting up a HiveMQ MQTT Broker\n  * 2.1. Creating a HiveMQ Cloud Account\n  * 2.2. Cluster management\n  * 2.3. Setting User Credentials\n* 3. HiveMQ MQTT Broker Information for Node-RED\n* 4. Resources\n\n1. What is HiveMQ?\nHiveMQ is a data streaming platform based on the MQTT publish-subscribe architecture. The product used from HiveMQ in this article is the HiveMQ Cloud, which offers different payment plans depending on the application. However, the version used in this article is HiveMQ Cloud – Serverless, which provides a free, cloud-hosted MQTT broker with the following features:\n\n| Plan          | Serverless                   |\n|---------------|------------------------------|\n| Type          | Shared Broker                |\n| Pricing       | Free                         |\n| Connections   | 100 max                      |\n| Traffic Limit | 10 GB data traffic per month |\n\nWith this broker, users can publish and subscribe to topics over the internet, making it ideal for testing and remote monitoring of Rheonics Sensor Module Electronics (SME) with Node-RED.\n\nFigure 1: Diagram of HiveMQ Broker implementation for remote monitoring\n\n2. Setting up a HiveMQ MQTT Broker\n\n2.1. Creating a HiveMQ Cloud Account\n1. Go to Get Started with HiveMQ (https://www.hivemq.com/company/get-hivemq/).\n2. Choose the HiveMQ Cloud option",
+      "specifications": {
+        "Connections": "100 max",
+        "Traffic Limit": "10 GB data traffic per month"
+      },
+      "key_facts": [
+        "The document aims to explain how to set up a HiveMQ Cloud-based MQTT Broker for remote monitoring of Rheonics sensor data.",
+        "HiveMQ is a data streaming platform based on the MQTT publish-subscribe architecture.",
+        "The article specifically uses HiveMQ Cloud – Serverless, which provides a free, cloud-hosted MQTT broker.",
+        "The HiveMQ Cloud Serverless plan offers a shared broker type, free pricing, a maximum of 100 connections, and a traffic limit of 10 GB data traffic per month.",
+        "The broker allows users to publish and subscribe to topics over the internet.",
+        "The integration is ideal for testing and remote monitoring of Rheonics Sensor Module Electronics (SME) using Node-RED."
+      ],
+      "diagram_labels": [
+        "HiveMQ Cloud",
+        "Cloud MQTT Broker",
+        "Remote monitoring",
+        "Device with Node-RED",
+        "Ethernet Switch",
+        "Modbus TCP",
+        "Rheonics SME",
+        "Figure 1: Diagram of HiveMQ Broker implementation for remote monitoring"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 888,
+        "cost_usd": 0.0023598
+      },
+      "source_file": "100_HiveMQ_Broker_Integration_with_Rheonics.pdf"
+    },
+    {
+      "page_summary": "This page provides a guide on how to register for HiveMQ Cloud, select a product, and manage an MQTT broker cluster, detailing the steps for account creation and viewing cluster connection information.",
+      "document_type": "manual",
+      "product_names": [
+        "HiveMQ",
+        "HiveMQ Cloud",
+        "HiveMQ Platform",
+        "HiveMQ for Docker or Kubernetes"
+      ],
+      "extracted_text": "What's your UNS maturity level? Get a custom report: Take the UNS Maturity Assessment\nHIVE MQ Products Solutions MQTT Learn Company Pricing Login Start Free Contact Us Ask AI\nFigure 2: HiveMQ product selection\nHIVEMQ CLOUD\nHiveMQ Cloud\nFree Cloud MQTT Broker that enables you to connect up to 100 devices.\nSign Up FREE Now\n(No credit card required)\nHIVEMQ\nHiveMQ Platform\nGet the full-feature HiveMQ platform and run it on any operating system.\nStart for Free\nHIVEMQ\nHiveMQ for Docker or Kubernetes\nWith just a simple command you will be up and running in minutes.\nDownload HiveMQ\n3. Create an account and log in.\nHIVEMQ CLOUD\nUnleash the Potential of IoT with HiveMQ Cloud.\nHiveMQ Cloud is a fully-managed service designed for your IoT messaging needs.\n✓ Start for Free: Kickstart your IoT journey by connecting up to 100 devices for free.\n✓ Unrestrained Integration: Boost your use cases with seamless data integration with third-party services.\n✓ Scalability with Ease: Upgrade as needed. HiveMQ Cloud offers reliability and security, irrespective of scale.\n✓ Total MQTT Support: Leverage our complete support for the MQTT specification for adaptable and efficient IoT solutions.\nWelcome\nLog in to HiveMQ Cloud to continue to HiveMQ Cloud Portal.\nContinue with GitHub\nContinue with Google\nContinue with LinkedIn\nor\nEmail address*\nContinue\nDon't have an account? Sign up\nTerms of service and privacy policy.\nFigure 3: HiveMQ Cloud Sign-up Page\n2.2. Cluster management\nAn MQTT broker cluster in HiveMQ acts as a single broker and is based on multiple nodes that makes the system reliable and available.\n1. After logging into the HiveMQ account, click on Manage Cluster.\nYour Clusters\nServerless\nFREE\nURL: 07b0d1199eb64bb6bc66197944f38036.s1.eu.hivemq.cloud\nPort (TLS)\n8883\nManage Cluster\nStarted: 2023-07-21T17:16:04Z\nCreate New Cluster Quick Start Running\nFigure 4: Clusters view\n2. The information of the cluster is gonna be displayed.\nFree #1\nOverview Access Management Integrations Web Client Getting Started\nConnection Details\nComprehensive details and statistics for your cluster\nURL\n07b0d1199eb64bb6bc66197944f38036.s1.eu.hivemq.cloud\nPort\n8883\nWebsocket Port\n8884\nTLS MQTT URL\n07b0d1199eb64bb6bc66197944f38036.s1.eu.hivemq.cloud:8883\nTLS Websocket URL\n07b0d1199eb64bb6bc66197944f38036.s1.eu.hivemq.cloud:8884/mqtt",
+      "specifications": {
+        "Free Cloud MQTT Broker devices limit": "100 devices",
+        "Port (TLS)": "8883",
+        "Websocket Port": "8884"
+      },
+      "key_facts": [
+        "HiveMQ Cloud is a free Cloud MQTT Broker that allows connection for up to 100 devices.",
+        "HiveMQ Cloud is a fully-managed service designed for IoT messaging needs, offering reliability and security.",
+        "Users can start their IoT journey for free with HiveMQ Cloud without needing a credit card.",
+        "HiveMQ Cloud supports seamless data integration with third-party services.",
+        "HiveMQ Cloud provides complete support for the MQTT specification for adaptable and efficient IoT solutions.",
+        "An MQTT broker cluster in HiveMQ acts as a single broker and is based on multiple nodes to ensure system reliability and availability.",
+        "The document provides specific URLs and port numbers for cluster connections, including TLS MQTT and TLS Websocket URLs."
+      ],
+      "diagram_labels": [
+        "Figure 2: HiveMQ product selection",
+        "Figure 3: HiveMQ Cloud Sign-up Page",
+        "Figure 4: Clusters view"
+      ],
+      "warnings_notes": [
+        "(No credit card required)"
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1133,
+        "cost_usd": 0.0029722999999999998
+      },
+      "source_file": "100_HiveMQ_Broker_Integration_with_Rheonics.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions for setting up user credentials in HiveMQ Access Management and configuring the HiveMQ MQTT broker for Node-RED, detailing necessary connection parameters.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics",
+        "HiveMQ",
+        "Node-RED",
+        "HiveMQ Cloud"
+      ],
+      "extracted_text": "Figure 5: Clusters information\n\n2.3. Setting User Credentials\n\n1. Press on Access Management in the menu at the top inside your cluster.\n\nFigure 6: Access Management\n\n2. Create credentials to access the broker\n\n*   Username\n*   Password\n*   Permission: Publish and Subscribe\n\nFigure 7: Creating Credentials in HiveMQ Access Management\n\n3. After creating a credential, the username and the permission are shown.\n\nFigure 8: Created Credentials in HiveMQ successfully\n\n3. HiveMQ MQTT Broker information for Node-RED\n\nTo add a new MQTT broker in Node-RED (https://support.rheonics.com/en/support/solutions/articles/81000418666), you need the broker's connection details. In the case of the HiveMQ broker, this information can be easily found in the Cluster Management section on the HiveMQ Cloud website, as shown earlier.\n\n1. On the MQTT broker configuration in Node-RED, fill the spaces with the broker information.\n\n*   Server: URL of the broker\n*   Port: Port used by the broker\n*   Use TLS: Enable this option because HiveMQ uses encrypted communication",
+      "specifications": {},
+      "key_facts": [
+        "User credentials for HiveMQ are configured by pressing 'Access Management' within the cluster menu.",
+        "Credentials creation for accessing the broker requires a Username, Password, and 'Publish and Subscribe' permission.",
+        "After successful credential creation, the username and assigned permission are displayed.",
+        "To add a new MQTT broker in Node-RED, connection details for the HiveMQ broker are required.",
+        "HiveMQ broker connection details can be found in the 'Cluster Management' section of the HiveMQ Cloud website.",
+        "MQTT broker configuration in Node-RED involves filling in the Server URL, Port, and enabling TLS.",
+        "TLS must be enabled for HiveMQ communication because it uses encrypted communication."
+      ],
+      "diagram_labels": [
+        "Free #1",
+        "Overview",
+        "Access Management",
+        "Integrations",
+        "Web Client",
+        "Getting Started",
+        "Authentication",
+        "Credentials",
+        "Active",
+        "Currently you have not created any credentials. Fill out the following form to create an access credentials pair and limit access to your HiveMQ Cloud MQTT instance. To learn more check out our Security Fundamentals guide.",
+        "Username *",
+        "Enter name",
+        "Permission *",
+        "Select...",
+        "Password *",
+        "Enter password",
+        "Confirm Password *",
+        "Confirm password",
+        "Save",
+        "Cancel",
+        "NAME",
+        "PERMISSION",
+        "ACTIONS",
+        "rheonics",
+        "PUBLISH, SUBSCRIBE",
+        "Add new credential",
+        "Hide"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 768,
+        "cost_usd": 0.0020598
+      },
+      "source_file": "100_HiveMQ_Broker_Integration_with_Rheonics.pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions and resources for configuring an MQTT broker in Node-RED to send and visualize Rheonics sensor data, focusing on HiveMQ and Ignition SCADA integration.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics sensor data",
+        "Rheonics SME",
+        "Node-RED",
+        "HiveMQ",
+        "Ignition SCADA"
+      ],
+      "extracted_text": "Edit mqtt in node > Add new mqtt-broker config node\n\nCancel Add\n\nProperties\nName Name\nConnection Security Messages\nServer e.g. localhost Port Port\nConnect automatically\nUse TLS\nProtocol MQTT V5\nClient ID Leave blank for auto generated\nKeep Alive 60\nSession Use clean start\nSession Expiry (secs)\nUser Properties none\n\nFigure 9: MQTT broker configuration\n\n2. On the Security Tab, in the same MQTT broker configuration in Node-RED, add the same credentials of the broker created on HiveMQ.\n\nProperties\nName\nConnection Security Messages\nUsername\nPassword\n\nFigure 10: Configuring broker credentials\n\n3. Press the Add button to correctly add the broker.\n\nTo learn how to use this broker to send Rheonics sensor data to an MQTT broker using Node-RED refer to Integrating Rheonics SME with Node-RED and MQTT for Remote D\nTo learn how to connect Ignition SCADA to HiveMQ broker to visualize Rheonics sensor data refer to Usi (https://support.rheonics.com/en/support/solutions/articles/81000418655)ng\n\n4. Resources\n  * Get Started with HiveMQ (https://www.hivemq.com/company/get-hivemq/)\n  * About HiveMQ (https://www.hivemq.com/company/)\n  * HiveMQ Pricing (https://www.hivemq.com/pricing/self-service/)",
+      "specifications": {
+        "Protocol": "MQTT V5",
+        "Keep Alive": "60 seconds"
+      },
+      "key_facts": [
+        "This document guides users through configuring an MQTT broker in Node-RED.",
+        "The configuration process involves setting up connection properties like server address, port, protocol (MQTT V5), client ID, Keep Alive interval, and session management.",
+        "Security credentials, including username and password, need to be entered under the 'Security' tab of the MQTT broker configuration.",
+        "The broker configuration is finalized by pressing the 'Add' button.",
+        "Rheonics sensor data can be sent to an MQTT broker using Node-RED.",
+        "Ignition SCADA can be connected to a HiveMQ broker for visualizing Rheonics sensor data."
+      ],
+      "diagram_labels": [
+        "Edit mqtt in node",
+        "Add new mqtt-broker config node",
+        "Cancel",
+        "Add",
+        "Properties",
+        "Name",
+        "Connection",
+        "Security",
+        "Messages",
+        "Server",
+        "e.g. localhost",
+        "Port",
+        "Connect automatically",
+        "Use TLS",
+        "Protocol",
+        "MQTT V5",
+        "Client ID",
+        "Leave blank for auto generated",
+        "Keep Alive",
+        "60",
+        "Session",
+        "Use clean start",
+        "Session Expiry (secs)",
+        "User Properties",
+        "none",
+        "Username",
+        "Password",
+        "Figure 9: MQTT broker configuration",
+        "Figure 10: Configuring broker credentials"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 856,
+        "cost_usd": 0.0022798
+      },
+      "source_file": "100_HiveMQ_Broker_Integration_with_Rheonics.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

@@ -1,0 +1,588 @@
+{
+  "source_file": "176_Node-RED_Setup_and_MQTT_for_Rheonics_Sensors.pdf",
+  "total_pages": 10,
+  "chunks": [
+    {
+      "page_summary": "This document outlines the setup process for Node-RED and MQTT for Rheonics sensors, covering installation on various operating systems like Windows, Linux, and Raspberry Pi, as well as module configuration for remote monitoring and SCADA integration.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Sensors",
+        "Rheonics SME",
+        "Node-RED",
+        "Node.js",
+        "MQTT"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nNode-RED Setup and MQTT for Rheonics Sensors\n\nModified on: Thu, 18 Sep, 2025 at 4:49 PM\n\nWhat is the purpose of this article? This article outlines the steps to set up Node-RED, from installation using Windows/Linux or Raspberry Pi, to module configuration. It explains how to use basic modules for integrating\n\nTABLE OF CONTENTS\n1. What is Node-RED\n   1.1. Devices That Can Run Node-RED\n2. Installing Node-RED\n   2.1. Windows\n   2.2. Linux\n   2.3. Raspberry Pi\n3. Running Node-RED\n4. Node-RED Modules\n   4.1. Installing New Modules\n   4.2. MQTT nodes\n   4.3. Modbus Module\n5. Resources\n\n1. What is Node-RED\nNode-RED is a programming tool based on NodeJS that uses flows for easy implementation of different applications. It is user-friendly and ideal for sending Rheonics sensor data to MQTT brokers for remote monitoring or SCADA integration.\n\nFigure 1: Diagram of Rheonics SME, Node-RED, and MQTT for remote monitoring\n\n1.1. Devices That Can Run Node-RED\nNode-RED can run on many types of hardware, as long as the device supports Node.js and meets the operating system requirements, such as:\n* PCs, or Industrial PCs (IPC) with Windows or Linux OS\n* Single-board computers such as Raspberry Pi (Linux) or BeagleBone Black (Linux)\n\nIf a device, such as PLCs or IoT gateways, already has built-in MQTT functionality, it can connect directly to the MQTT broker without Node-RED. In these cases, Node-RED is optional.\n\n2. Installing Node-RED\nNode-RED can run on different operating systems. In this guide, the installation of Node-RED on Windows, Linux, and Raspberry Pi OS will be explained.\n\n2.1. Windows\n\n2.1.1. Prerequisites\n* OS: Windows 10 or 11 (Windows 7 and Windows Server may work, but they lack support)\n\n2.1.2. Install NodeJS\n1. To install NodeJS, go to the following link: Node.js — Run JavaScript Everywhere (https://nodejs.org/es)\n* Minimum recommended Node.js version: 18\n2. To verify installation, copy the following commands:\n* Powershell: node --version; npm --version\n* cmd: node --version && npm --version",
+      "specifications": {
+        "Minimum recommended Node.js version": "18",
+        "Supported OS for Node-RED on Windows": "Windows 10 or 11"
+      },
+      "key_facts": [
+        "Node-RED is a programming tool based on NodeJS that uses flows for easy implementation of different applications.",
+        "Node-RED is user-friendly and ideal for sending Rheonics sensor data to MQTT brokers for remote monitoring or SCADA integration.",
+        "Node-RED can run on various hardware types, including PCs, Industrial PCs (IPC) with Windows or Linux OS, and single-board computers like Raspberry Pi (Linux) or BeagleBone Black (Linux), provided they support Node.js and meet OS requirements.",
+        "For devices like PLCs or IoT gateways with built-in MQTT functionality, Node-RED is optional as they can connect directly to the MQTT broker.",
+        "The installation guide covers Node-RED setup on Windows, Linux, and Raspberry Pi OS."
+      ],
+      "diagram_labels": [
+        "Cloud MQTT Broker",
+        "MQTT",
+        "Device with Node-RED",
+        "Ethernet Switch",
+        "Modbus TCP",
+        "Rheonics SME",
+        "Figure 1: Diagram of Rheonics SME, Node-RED, and MQTT for remote monitoring"
+      ],
+      "warnings_notes": [
+        "Windows 7 and Windows Server may work for Node-RED installation but lack support."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1056,
+        "cost_usd": 0.0027798
+      },
+      "source_file": "176_Node-RED_Setup_and_MQTT_for_Rheonics_Sensors.pdf"
+    },
+    {
+      "page_summary": "This page provides detailed installation instructions for Node-RED, Node.js, and npm across Windows, Linux, and Raspberry Pi operating systems, along with steps to verify installation and run Node-RED.",
+      "document_type": "manual",
+      "product_names": [
+        "Node-RED",
+        "Node.js",
+        "npm",
+        "Raspberry Pi",
+        "Bullseye"
+      ],
+      "extracted_text": "PS C:\\Users\\ > node --version; npm --version\nv22.17.1\n10.9.2\nFigure 2: Verifying Node.js and npm installation\n\n2.1.3. Install Node-RED\n1. Run PowerShell as administrator\n2. Copy the following to a terminal to install node-RED\nnpm install -g --unsafe-perm node-red\n3. In a terminal, paste the following command to start running Node-RED.\nnode-red\n4. In the HOMEPATH, a new folder called .node-red should appear.\n\nFigure 3: .node-red Folder created successfully\n\n2.2. Linux\n2.2.1. Install NodeJS\n1. To install NodeJS, go to the following link: Node.js — Run JavaScript Everywhere (https://nodejs.org/es)\n  * Minimum recommended Node.js version: 18\n2. To verify installation, copy the following commands in the terminal:\n  * node --version\n  * npm --version\n\n2.2.2. Install Node-RED\n1. Copy the following to a terminal to install node-RED as a global module along with its dependencies.\nsudo npm install -g --unsafe-perm node-red\n2. If the command succeeded, a similar message should appear:\n+ node-red@x.x.x added 332 packages from 341 contributors in 18.494s found 0 vulnerabilities\n3. In a terminal, paste the following command to start running Node-RED.\nnode-red\n\n2.3. Raspberry Pi\n2.3.1. Prerequisites\n  * In Raspberry Pi OS, Bullseye is the currently supported version.\n\n2.3.1. Install NodeJS and Node-RED\nFor Raspberry Pi, there is a script that allows installing NodeJS, npm, and Node-RED at the same time.\n  * Open a terminal and paste the following:\nbash <(curl -sL https://github.com/node-red/linux-installers/releases/latest/download/update-nodejs-and-nodered-deb)\n\n3. Running Node-RED\n1. In a terminal, paste the following command to start running Node-RED.\nnode-red\n2. The terminal will display the corresponding version of Node-RED and indicate that Node-RED is running correctly. The server URL will appear after the Server now running at, in this case, http://127.0.0.1:1880/",
+      "specifications": {
+        "Node.js_version_observed": "v22.17.1",
+        "npm_version_observed": "10.9.2",
+        "Minimum_recommended_Node.js_version": "18",
+        "Supported_Raspberry_Pi_OS": "Bullseye",
+        "Node-RED_default_server_URL": "http://127.0.0.1:1880/"
+      },
+      "key_facts": [
+        "Node-RED can be installed on Windows, Linux, and Raspberry Pi operating systems.",
+        "Node.js and npm are essential prerequisites for Node-RED installation.",
+        "The Node-RED installation command for Windows and Linux uses `npm install -g --unsafe-perm node-red`.",
+        "After successful installation on Windows, a `.node-red` folder is created in the user's HOMEPATH.",
+        "On Linux, a successful Node-RED installation might report 'found 0 vulnerabilities'.",
+        "A shell script is available for Raspberry Pi to install Node.js, npm, and Node-RED simultaneously.",
+        "Node-RED can be started by executing the `node-red` command in a terminal.",
+        "When Node-RED starts, it indicates 'Server now running at' followed by its local server URL, typically `http://127.0.0.1:1880/`."
+      ],
+      "diagram_labels": [
+        "Figure 2: Verifying Node.js and npm installation",
+        "Figure 3: .node-red Folder created successfully",
+        ".node-red (folder highlighted in Figure 3)"
+      ],
+      "warnings_notes": [
+        "The installation command `npm install -g --unsafe-perm node-red` includes `--unsafe-perm`, which may indicate specific permission handling is required.",
+        "A successful installation message on Linux indicates 'found 0 vulnerabilities'."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1148,
+        "cost_usd": 0.0030097999999999995
+      },
+      "source_file": "176_Node-RED_Setup_and_MQTT_for_Rheonics_Sensors.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions for running Node-RED, accessing its editor via a browser link, and describes Node-RED modules (nodes) as visual building blocks for specific functions.",
+      "document_type": "manual",
+      "product_names": [
+        "Node-RED",
+        "Node.js"
+      ],
+      "extracted_text": "PS C:\\Users> node-red\n30 Jul 08:42:32 - [info]\nWelcome to Node-RED\n===================\n30 Jul 08:42:32 - [info] Node-RED version: v4.0.9\n30 Jul 08:42:32 - [info] Node.js version: v22.17.1\n30 Jul 08:42:32 - [info] Windows_NT 10.0.26100 x64 LE\n30 Jul 08:42:33 - [info] Loading palette nodes\n30 Jul 08:42:33 - [info] Settings file : C:\\Users\\...\\.node-red\\settings.js\n30 Jul 08:42:33 - [info] Context store : 'default' [module=memory]\n30 Jul 08:42:33 - [info] User directory : \\Users\\...\\.node-red\n30 Jul 08:42:33 - [warn] Projects disabled : editorTheme.projects.enabled=false\n30 Jul 08:42:33 - [info] Flows file : \\Users\\...\\.node-red\\flows.json\n30 Jul 08:42:33 - [info] Server now running at http://127.0.0.1:1880/\n30 Jul 08:42:33 - [warn]\nYour flow credentials file is encrypted using a system-generated key.\nIf the system-generated key is lost for any reason, your credentials file will not be recoverable, you will have to delete it and re-enter your credentials.\nYou should set your own key using the 'credentialSecret' option in your settings file. Node-RED will then re-encrypt your credentials file using your chosen key the next time you deploy a change.\n------------------------------------------------------------\n30 Jul 08:42:33 - [info] Starting flows\n30 Jul 08:42:33 - [info] Started flows\n\nFigure 4: Node-RED running in a terminal\n\n3. Finally, paste the link in a browser to load Node-RED editor.\n\nFigure 5: Node-RED editor\n\n4. Node-RED Modules\n\nNode-RED modules are visual building blocks, also called nodes, which can perform a specific function. They can be found in the left panel of the Node-RED editor, as shown in the figure below.",
+      "specifications": {
+        "Node-RED version": "v4.0.9",
+        "Node.js version": "v22.17.1",
+        "Operating System": "Windows_NT 10.0.26100 x64 LE",
+        "Server Address": "http://127.0.0.1:1880/"
+      },
+      "key_facts": [
+        "Node-RED flow credentials files are encrypted using a system-generated key.",
+        "If the system-generated key for Node-RED is lost, the credentials file will not be recoverable, requiring deletion and re-entry of credentials.",
+        "Users are advised to set their own 'credentialSecret' key in the settings file, which will cause Node-RED to re-encrypt credentials upon the next deployment.",
+        "Node-RED modules, also known as nodes, are visual building blocks designed to perform specific functions.",
+        "Node-RED modules can be found in the left panel of the Node-RED editor.",
+        "To access the Node-RED editor, the provided server link (e.g., http://127.0.0.1:1880/) must be pasted into a browser."
+      ],
+      "diagram_labels": [
+        "Figure 4: Node-RED running in a terminal",
+        "Figure 5: Node-RED editor",
+        "common",
+        "inject",
+        "debug",
+        "complete",
+        "catch",
+        "status",
+        "link in",
+        "link out",
+        "comment",
+        "function",
+        "switch",
+        "change",
+        "range",
+        "template",
+        "delay",
+        "trigger",
+        "rbe",
+        "filter",
+        "Node-RED",
+        "Node Help",
+        "node-red-contrib-ignition-nodes",
+        "node-red-contrib-modbus",
+        "Flow 1",
+        "help",
+        "Deploy"
+      ],
+      "warnings_notes": [
+        "Projects disabled : editorTheme.projects.enabled=false",
+        "Your flow credentials file is encrypted using a system-generated key. If the system-generated key is lost for any reason, your credentials file will not be recoverable, you will have to delete it and re-enter your credentials.",
+        "You should set your own key using the 'credentialSecret' option in your settings file. Node-RED will then re-encrypt your credentials file using your chosen key the next time you deploy a change."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1278,
+        "cost_usd": 0.0033347999999999997
+      },
+      "source_file": "176_Node-RED_Setup_and_MQTT_for_Rheonics_Sensors.pdf"
+    },
+    {
+      "page_summary": "This page details the process of installing new modules within the Node-RED editor, illustrating various Node-RED nodes and the steps to access the 'Manage palette' option.",
+      "document_type": "manual",
+      "product_names": [
+        "Node-RED"
+      ],
+      "extracted_text": "4.1. Installing New Modules\nThere are two ways of installing new modules.\n\n4.1.1. From Node-RED editor\n1. Click the ≡ menu located in the right corner of the editor and select Manage palette.\n\nFigure 6: Node-RED nodes\nNode-RED\nfilter nodes\ncommon\n  inject\n  debug\n  complete\n  catch\n  status\n  link in\n  link call\n  link out\n  comment\nfunction\n  function\n  switch\n  change\n  range\n  template\n  delay\n  trigger\n\nFigure 7: Manage palette on Node-RED editor\nDeploy\nMenu:\n  Edit\n  View\n  Arrange\n  Import ctrl-i\n  Export ctrl-e\n  Search flows ctrl-f\n  Configuration nodes ctrl-g c\n  Flows\n  Subflows\n  Groups\n  Manage palette alt-⇧p\n  Settings ctrl-,\n  Keyboard shortcuts ?\n  Node-RED website\n  v4.0.9",
+      "specifications": {},
+      "key_facts": [
+        "New modules can be installed in Node-RED using two different methods.",
+        "One method for installing Node-RED modules is initiated by clicking the ≡ menu in the editor's top-right corner.",
+        "The 'Manage palette' option, accessible from the Node-RED editor's main menu, is used for module management.",
+        "The displayed Node-RED editor version is v4.0.9."
+      ],
+      "diagram_labels": [
+        "Node-RED",
+        "filter nodes",
+        "common",
+        "inject",
+        "debug",
+        "complete",
+        "catch",
+        "status",
+        "link in",
+        "link call",
+        "link out",
+        "comment",
+        "function",
+        "switch",
+        "change",
+        "range",
+        "template",
+        "delay",
+        "trigger",
+        "Deploy",
+        "1",
+        "Edit",
+        "View",
+        "Arrange",
+        "Import",
+        "ctrl-i",
+        "Export",
+        "ctrl-e",
+        "Search flows",
+        "ctrl-f",
+        "Configuration nodes",
+        "ctrl-g c",
+        "Flows",
+        "Subflows",
+        "Groups",
+        "Manage palette",
+        "2",
+        "alt-⇧p",
+        "Settings",
+        "ctrl-,",
+        "Keyboard shortcuts",
+        "?",
+        "Node-RED website",
+        "v4.0.9"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 724,
+        "cost_usd": 0.0019498
+      },
+      "source_file": "176_Node-RED_Setup_and_MQTT_for_Rheonics_Sensors.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions on how to install modules in Node-RED, both through the user interface and via the terminal, and defines MQTT.",
+      "document_type": "manual",
+      "product_names": [
+        "Node-RED",
+        "npm",
+        "MQTT",
+        "Modbus"
+      ],
+      "extracted_text": "2. Press the Install tab and then search for the desired module in the search bar.\nFigure 8: Install Tab and Search bar\n3. Press Install on the desired module.\nFigure 9: Module installation\n4. The installed module will then appear on the Nodes Tab.\nFigure 10: Installed modules on the Nodes Tab\n4.1.2. From the Terminal\n1. Open a terminal.\n2. Go to the following directory: $HOMEPATH/.node-red\n3. Paste the following command with the name of the module to install.\nnpm install <npm-module-name>\nFigure 11: Installing Node-RED modules via the Terminal\n4. Restart Node-RED to visualize the installed module on the Node-RED editor.\n4.2. MQTT nodes\n4.2.1. What is MQTT?\nMQTT (Message Queuing Telemetry Transport) is a lightweight communication protocol used for publishing and subscribing to data over the internet. It is commonly used to enable data exchange between devices, especially in Internet of Things (IoT) applications.",
+      "specifications": {},
+      "key_facts": [
+        "MQTT (Message Queuing Telemetry Transport) is a lightweight communication protocol for publishing and subscribing to data over the internet.",
+        "MQTT is commonly used to enable data exchange between devices, especially in Internet of Things (IoT) applications.",
+        "Node-RED modules can be installed through the User Settings interface by searching and clicking 'install'.",
+        "Node-RED modules can be installed via the terminal using the command 'npm install <npm-module-name>' in the $HOMEPATH/.node-red directory.",
+        "Restarting Node-RED is required to visualize newly installed modules in the editor."
+      ],
+      "diagram_labels": [
+        "User Settings",
+        "View",
+        "Nodes",
+        "Install",
+        "Close",
+        "Palette",
+        "Keyboard",
+        "Environment",
+        "search modules",
+        "Node-RED Community catalogue",
+        "sort",
+        "5496 modules available",
+        "node-red-contrib-modbus",
+        "node-red-contrib-modbus-api",
+        "node-red-contrib-flex-server",
+        "node-red-contrib-modbus-rtu-xhoobin",
+        "install",
+        "filter nodes",
+        "node-red",
+        "node-red-contrib-ignition-nodes",
+        "node-red-contrib-string",
+        "in use",
+        "remove",
+        "disable all",
+        "PS C:\\Users\\...\\.node-red>",
+        "npm install <npm-module-name>",
+        "Figure 8: Install Tab and Search bar",
+        "Figure 9: Module installation",
+        "Figure 10: Installed modules on the Nodes Tab",
+        "Figure 11: Installing Node-RED modules via the Terminal"
+      ],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 769,
+        "cost_usd": 0.0020623
+      },
+      "source_file": "176_Node-RED_Setup_and_MQTT_for_Rheonics_Sensors.pdf"
+    },
+    {
+      "page_summary": "This page explains the basic elements of MQTT communication, details the functionality of MQTT-out and MQTT-in nodes within Node-RED, and illustrates their configuration settings.",
+      "document_type": "manual",
+      "product_names": [
+        "Node-RED"
+      ],
+      "extracted_text": "Basic Elements:\n* MQTT Broker: Also known as the server, receives messages from publishing clients and forwards them to the subscribing clients. It acts as an intermediary, using topics to determine where each message should go.\n* MQTT Client: A client can either publish messages to the broker or subscribe to specific topics to receive messages. Devices, applications, or services that use MQTT act as clients.\n* Topics: Identifiers used to organize and route messages. When a client publishes a message, it sends it to a specific topic, which other clients can subscribe to and receive the message.\nThe MQTT nodes are usually installed by default when installing Node-RED. You can visualize the nodes in the left panel under the network category.\n\nFigure 12: MQTT nodes\n\n4.2.2. MQTT-out Node\nThe MQTT-out node is used to connect to a broker and publish messages.\n\nFigure 13: MQTT-out node\n\nBy double-clicking on the node, the properties are displayed.\n* Server: MQTT broker\n* Topic: Name of the topic where data will be published\n* QoS: Quality of service is the level of guarantee for message delivery between the publisher and the broker\n  * 0: fire and forget, at most once\n  * 1: message delivered at least once\n  * 2: message delivered only once\n\nFigure 14: MQTT-out node configuration\n\n4.2.3. MQTT-in node\nThe MQTT-in node connects to a broker and subscribes to messages to receive data.\n\nFigure 15: MQTT-in node\n\nBy double-clicking on the node, we will see the properties.",
+      "specifications": {
+        "QoS Level 0": "fire and forget, at most once",
+        "QoS Level 1": "message delivered at least once",
+        "QoS Level 2": "message delivered only once"
+      },
+      "key_facts": [
+        "An MQTT Broker acts as an intermediary server, forwarding messages from publishing clients to subscribing clients based on defined topics.",
+        "An MQTT Client is any device, application, or service that publishes messages to or subscribes to topics from an MQTT broker.",
+        "Topics are identifiers used to organize and route messages within the MQTT protocol.",
+        "MQTT nodes are typically installed by default when installing Node-RED and are categorized under 'network' in the left panel.",
+        "The MQTT-out node in Node-RED is used to connect to a broker and publish messages.",
+        "The MQTT-in node in Node-RED connects to a broker and subscribes to receive data messages.",
+        "Quality of Service (QoS) defines the level of guarantee for message delivery between a publisher and a broker, with levels 0, 1, and 2.",
+        "Properties for MQTT nodes are displayed by double-clicking the node."
+      ],
+      "diagram_labels": [
+        "network",
+        "mqtt in",
+        "mqtt out",
+        "http in",
+        "http response",
+        "http request",
+        "websocket in",
+        "websocket out",
+        "tcp in",
+        "tcp out",
+        "tcp request",
+        "udp in",
+        "udp out",
+        "Figure 12: MQTT nodes",
+        "Figure 13: MQTT-out node",
+        "Edit mqtt out node",
+        "Delete",
+        "Cancel",
+        "Done",
+        "Properties",
+        "Server",
+        "none",
+        "Topic",
+        "QoS",
+        "Retain",
+        "Name",
+        "Figure 14: MQTT-out node configuration",
+        "Figure 15: MQTT-in node"
+      ],
+      "warnings_notes": [
+        "Tip: Leave topic, qos or retain blank if you want to set them via msg properties."
+      ],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 951,
+        "cost_usd": 0.0025173
+      },
+      "source_file": "176_Node-RED_Setup_and_MQTT_for_Rheonics_Sensors.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions and diagrams for configuring MQTT-in nodes and adding new MQTT brokers, detailing connection settings, quality of service, and security credentials.",
+      "document_type": "manual",
+      "product_names": [
+        "MQTT-in node",
+        "MQTT-out node"
+      ],
+      "extracted_text": "Server: MQTT broker\nTopic: Name of the topic to subscribe to obtain the data\nQoS: Quality of service is the level of guarantee for message delivery between the publisher and the broker\n  0: fire and forget\n  1: message delivered at least once\n  2: message delivered only once\nOutput: Choose how the data is formatted.\n\n4.2.4. Adding a new MQTT broker\n1. To add a new MQTT broker, click on the plus button next to the Server option found in the MQTT-out or MQTT-in node.\n\nName: Desired name for the broker\nServer: URL of the broker\nPort: Port used by the broker\nUse TLS: Enable if using encrypted communication\n\n2. On the Security Tab, you can add the credentials of the broker in case they are needed.",
+      "specifications": {
+        "QoS_level_0": "fire and forget",
+        "QoS_level_1": "message delivered at least once",
+        "QoS_level_2": "message delivered only once",
+        "Keep_Alive": "60 seconds",
+        "Protocol": "MQTT V5"
+      },
+      "key_facts": [
+        "MQTT-in node configuration involves setting properties for Server (MQTT broker), Topic, Quality of Service (QoS), and Output data format.",
+        "QoS levels define message delivery guarantees: 0 for fire and forget, 1 for delivered at least once, and 2 for delivered only once.",
+        "New MQTT brokers are added by selecting the plus button next to the Server option in either the MQTT-out or MQTT-in node.",
+        "Configuration for a new MQTT broker includes specifying its name, server URL (e.g., localhost), port, and enabling TLS for encrypted communication.",
+        "The Security Tab allows for the entry of username and password credentials for the MQTT broker if required."
+      ],
+      "diagram_labels": [
+        "Figure 16: MQTT-in node configuration",
+        "Edit mqtt in node",
+        "Delete",
+        "Cancel",
+        "Done",
+        "Properties",
+        "Server",
+        "none",
+        "Action",
+        "Subscribe to single topic",
+        "Topic",
+        "QoS",
+        "2",
+        "Output",
+        "auto-detect (parsed JSON object, string or buff)",
+        "Name",
+        "Figure 17: Adding a new MQTT broker",
+        "Add new mqtt-broker config node",
+        "Figure 18: Connection Tab properties",
+        "Edit mqtt in node > Add new mqtt-broker config node",
+        "Add",
+        "Connection",
+        "Security",
+        "Messages",
+        "e.g. localhost",
+        "Port",
+        "Connect automatically",
+        "Use TLS",
+        "Protocol",
+        "MQTT V5",
+        "Client ID",
+        "Leave blank for auto generated",
+        "Keep Alive",
+        "60",
+        "Session",
+        "Use clean start",
+        "Session Expiry (secs)",
+        "User Properties",
+        "Figure 19: Security Tab properties",
+        "Username",
+        "Password"
+      ],
+      "warnings_notes": [],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 822,
+        "cost_usd": 0.0021948
+      },
+      "source_file": "176_Node-RED_Setup_and_MQTT_for_Rheonics_Sensors.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions and details for configuring Modbus modules and nodes within Node-RED to access data from Rheonics SME sensors.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics sensors",
+        "Rheonics SME",
+        "Modbus TCP",
+        "Node-RED",
+        "MQTT",
+        "node-red-contrib-modbus"
+      ],
+      "extracted_text": "3. Press the Add button to correctly add the broker.\n\nTo learn how to send Rheonics sensor data to an MQTT broker using Node-RED refer to Integrating Rheonics Sensors with Node-RED and MQTT for Remote Data Access. (https://support.rheonics.com/en/support/solutions/articles/61000297664)\n\n4.3. Modbus Module\n\nThe module used for accessing data from the Rheonics SME via Modbus TCP (https://support.rheonics.com/en/support/solutions/folders/81000217062) is called node-red-contrib-modbus\n\n1. Install it through the Node-RED editor or the terminal.\n2. The nodes should appear in the nodes list in the left panel called modbus.\n\nFigure 20: Modbus nodes\n\n4.3.1. Modbus-Read Node\n\nThis node allows connecting to a Modbus TCP or serial device to read registers/coils values.\n\nFigure 21: Modbus-Read node\n\nBy double-clicking on the node, the properties are displayed.\n\n*   Name: Name of the node\n*   Unit-Id: 255\n*   FC: 4 (to read input registers)\n*   Address: Starting register address of the input parameter. Input registers can be found in Modbus TCP - Input Registers (https://support.rheonics.com/en/support/solutions/articles/61000297664).\n*   Quantity: 2\n*   Poll Rate: 3 s",
+      "specifications": {
+        "Unit-Id": "255",
+        "FC": "4",
+        "Quantity": "2",
+        "Poll Rate": "3 s"
+      },
+      "key_facts": [
+        "The 'Add' button is used to correctly add the broker.",
+        "Rheonics sensor data can be sent to an MQTT broker using Node-RED.",
+        "The node-red-contrib-modbus module is used for accessing data from Rheonics SME via Modbus TCP.",
+        "The node-red-contrib-modbus module can be installed via the Node-RED editor or the terminal.",
+        "Modbus nodes appear in the 'modbus' list in the Node-RED left panel.",
+        "The Modbus-Read node enables connection to a Modbus TCP or serial device to read registers/coils values.",
+        "Double-clicking on a Modbus node displays its configurable properties.",
+        "FC 4 is used to read input registers in Modbus communication.",
+        "The starting register address for input parameters can be found in the 'Modbus TCP - Input Registers' documentation."
+      ],
+      "diagram_labels": [
+        "modbus",
+        "Modbus - Response",
+        "Modbus - Read",
+        "Modbus - Getter",
+        "Modbus - Flex - Getter",
+        "Modbus - Write",
+        "Modbus - Flex - Write",
+        "Modbus - Server",
+        "Modbus - Queue - Info",
+        "Modbus - Flex - Connector",
+        "Modbus - Response - Filter",
+        "Modbus - Flex - Sequencer",
+        "Modbus - Flex - FC",
+        "Figure 20: Modbus nodes",
+        "Figure 21: Modbus-Read node"
+      ],
+      "warnings_notes": [],
+      "page_num": 8,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 906,
+        "cost_usd": 0.0024048
+      },
+      "source_file": "176_Node-RED_Setup_and_MQTT_for_Rheonics_Sensors.pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions for configuring a Modbus client in Node-RED to connect and read data from a Rheonics SME acting as a Modbus server, including user interface screenshots and configuration details.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics",
+        "Rheonics SME",
+        "Node-RED",
+        "Modbus client",
+        "Modbus server",
+        "Modbus-Read node",
+        "Modbus-client config node"
+      ],
+      "extracted_text": "Edit Modbus-Read node\nDelete\nCancel\nDone\nProperties\nSettings\nOptionals\nName\nTopic\nUnit-Id\nFC\nAddress: 0:65535\nQuantity: 1-65535\nPoll Rate: 1-65535\nDelay to activate input\nServer: none\nFigure 22: Modbus-Read node properties\n\n4.3.2 . Adding a New Modbus Client\nIn Node-RED, a Modbus client needs to be created to read data from the Modbus server, which in this case is the Rheonics SME. This is shown in the diagram below.\n\nModbus Server\nRheonics SME\nModbus Client\nNode-RED\nFigure 23: Modbus Client-Server Diagram\n\n1. To add a new Modbus client, click on the plus button next to the Server option found in the Modbus-read node.\nServer: none\nAdd new modbus-client config node\nFigure 24: Adding a new Modbus Client\n\n2. Fill in the properties of the Modbus client as follows:\n  * Name: Name of the client\n  * For TCP:\n    * Host: IP address of the SME\n    * Port: 502 (default)\n  * Unit ID:\n    * TCP: 255\n\nEdit Modbus-Read node > Add new modbus-client config node\nCancel\nAdd\nProperties\nSettings\nQueues\nOptionals\nName\nType: TCP\nHost: 0\nPort: 0\nTCP Type: DEFAULT\nUnit-Id: 1\nTimeout (ms): 1000\nReconnect on timeout: [checked]\nReconnect timeout (ms): 2000\nFigure 25: Modbus client TCP",
+      "specifications": {
+        "Address range": "0-65535",
+        "Quantity range": "1-65535",
+        "Poll Rate range": "1-65535",
+        "Port (default for Modbus TCP)": "502",
+        "Unit-Id (Modbus TCP, as per instruction)": "255",
+        "Unit-Id (Modbus client TCP UI default)": "1",
+        "Timeout": "1000 ms",
+        "Reconnect timeout": "2000 ms"
+      },
+      "key_facts": [
+        "A Modbus client in Node-RED is required to read data from a Modbus server.",
+        "The Rheonics SME is identified as the Modbus server in this context.",
+        "To add a new Modbus client, users must click the plus button adjacent to the 'Server' option within the Modbus-read node.",
+        "The default Modbus TCP port for client configuration is 502.",
+        "The Unit ID for Modbus TCP is instructed to be 255, while the Modbus client TCP UI displays a default of 1.",
+        "The Modbus client can be configured to reconnect automatically on timeout.",
+        "The default reconnect timeout period is 2000 milliseconds.",
+        "The Modbus-Read node allows configuration of various properties including Name, Topic, Unit-Id, Function Code (FC), Address, Quantity, and Poll Rate."
+      ],
+      "diagram_labels": [
+        "Edit Modbus-Read node",
+        "Delete",
+        "Cancel",
+        "Done",
+        "Properties",
+        "Settings",
+        "Optionals",
+        "Name",
+        "Topic",
+        "Unit-Id",
+        "FC",
+        "Address",
+        "Quantity",
+        "Poll Rate",
+        "Delay to activate input",
+        "Server",
+        "none",
+        "Modbus Server",
+        "Rheonics SME",
+        "Modbus Client",
+        "Node-RED",
+        "Add new modbus-client config node",
+        "Queues",
+        "Add",
+        "Type",
+        "TCP",
+        "Host",
+        "Port",
+        "TCP Type",
+        "DEFAULT",
+        "Timeout (ms)",
+        "Reconnect on timeout",
+        "Reconnect timeout (ms)"
+      ],
+      "warnings_notes": [],
+      "page_num": 9,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1137,
+        "cost_usd": 0.0029823
+      },
+      "source_file": "176_Node-RED_Setup_and_MQTT_for_Rheonics_Sensors.pdf"
+    },
+    {
+      "page_summary": "This page lists technical resources for integrating Rheonics sensors with various software platforms and communication protocols like Node.js, Modbus TCP, Node-RED, and MQTT.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Sensors"
+      ],
+      "extracted_text": "5. Resources\n* Node.js — Run JavaScript Everywhere (https://nodejs.org/es)\n* Modbus TCP (https://support.rheonics.com/en/support/solutions/folders/81000217062)\n* Modbus TCP - Input Registers (https://support.rheonics.com/en/support/solutions/articles/81000297664)\n* Running on Windows : Node-RED (https://nodered.org/docs/getting-started/windows)\n* Running Node-RED locally (https://nodered.org/docs/getting-started/local)\n* Running on Raspberry Pi : Node-RED (https://nodered.org/docs/getting-started/raspberrypi)\n* Adding nodes to the palette : Node-RED (https://nodered.org/docs/user-guide/runtime/adding-nodes)\n* Integrating Rheonics Sensors with Node-RED and MQTT for Remote Data Access (https://support.rheonics.com/en/support/solutions/articles/81000418653)",
+      "specifications": {},
+      "key_facts": [
+        "Node.js is a runtime environment for running JavaScript everywhere, with its website located at https://nodejs.org/es.",
+        "Information on Modbus TCP is available through Rheonics support at https://support.rheonics.com/en/support/solutions/folders/81000217062.",
+        "Details regarding Modbus TCP - Input Registers can be found on Rheonics support at https://support.rheonics.com/en/support/solutions/articles/81000297664.",
+        "Guidance on running Node-RED on Windows is provided at https://nodered.org/docs/getting-started/windows.",
+        "Instructions for running Node-RED locally are available at https://nodered.org/docs/getting-started/local.",
+        "Information about running Node-RED on Raspberry Pi can be accessed at https://nodered.org/docs/getting-started/raspberrypi.",
+        "A user guide for adding nodes to the Node-RED palette is available at https://nodered.org/docs/user-guide/runtime/adding-nodes.",
+        "Rheonics sensors can be integrated with Node-RED and MQTT for remote data access, with a relevant support article at https://support.rheonics.com/en/support/solutions/articles/81000418653."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 10,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 662,
+        "cost_usd": 0.0017948000000000003
+      },
+      "source_file": "176_Node-RED_Setup_and_MQTT_for_Rheonics_Sensors.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

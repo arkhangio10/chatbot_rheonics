@@ -1,0 +1,99 @@
+{
+  "source_file": "053_Is_it_still_possible_to_measure_viscosity_without_connecting_the_PT1000_to_our_SRV.pdf",
+  "total_pages": 2,
+  "chunks": [
+    {
+      "page_summary": "This page explains how Rheonics SRV viscometers can measure viscosity using an estimated temperature when a PT1000 sensor is not connected, detailing the behavior of temperature and viscosity parameters in the sensor's data string.",
+      "document_type": "notes",
+      "product_names": [
+        "PT1000",
+        "SRV",
+        "SME",
+        "RCP software"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nIs it still possible to measure viscosity without connecting the PT1000 to our SRV?\n\nModified on: Sun, 15 Feb, 2026 at 12:49 AM\n\nIf we want to monitor the process with an external temperature sensor, do not want Zener barriers on the PT1000, or only need the viscosity parameter, we can still measure viscosity.\n\nRheonics has developed an algorithm that uses the frequency characteristics of the sensor to estimate the temperature. Because this temperature is highly inaccurate, it cannot be used as a control for any process. This estimated temperature will replace the PT1000 temperature measurement. If this is the intended use for the sensor, the sales team must be notified before ordering.\n\nWhen temperature estimation is enabled, how does the SRV behave?\n\n1. In standard configuration the Temperature that displays is the parameter “T”, if we go to the Event Tab from the RCP software we will notice two parameters for temperature; “Tp” (Temperature from PT1000) and “Te”(estimated temperature).\n\nLast Received String From SME\nB0-0001 03.30/3-gebde8a3 19101383 T 72.08799 f 7391.381836 df 2.238281 Fv 563 ph 34 V 0.302629 D 1.000000 P 1.000000 fc 7391.381836 l- 1 l+ 2 Q 1.465308 fr 7391.698730 df- 7390.293945 df+ 7392.698730 Tc nan Tp 72.08799 Te 79.381836 E 10 A 2\n\nFigure 1. Data string when PT1000 is installed in the SME\n\n2. If we decide to remove the PT1000 wiring from the sensor, we are going to notice that the “Tp” parameter has the value of -273(This indicates that there is no PT1000 wired into the SME) and that “Te” is now also on the “T” parameter.\n\nLast Received String From SME\nB0-0001 03.30/3-gebde8a3 19101383 T 81.641212 f 7387.432129 df 2.187500 Fv 563 ph 24 V 0.496653 D 1.000000 P 1.000000 fc 7387.432129 l- 1 l+ 2 Q 0.974555 fr 7387.402344 df- 7386.315918 df+ 7388.467285 Tc nan Tp -273.000000 Te 81.641212 E 04 A 4\n\nFigure 2. Estimated temperature is replaced as the T parameter on the data string.\n\n3. We can also notice from the Data String that the parameter “V” viscosity is always giving a reading from the sensor.\n\nLast Received String From SME\nB0-0001 03.30/3-gebde8a3 19101383 T 75.162598 f 7399.145020 df 2.355469 Fv 563 ph 24 V 0.642585 D 1.000000 P 1.000000 fc 7399.154297 df- 7398.005859 df+ 7400.313477 Tc nan Tp -273.000000 Te 74.986816 E 04 A 2\n\nFigure 3. Viscosity parameter on the data string.",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics offers the capability to measure viscosity with an SRV viscometer even without a connected PT1000 temperature sensor.",
+        "Rheonics has developed an algorithm that uses the frequency characteristics of the sensor to estimate temperature.",
+        "The estimated temperature is highly inaccurate and is not suitable for process control.",
+        "If estimated temperature functionality is desired for the sensor, the Rheonics sales team must be notified before ordering.",
+        "In standard configuration, the 'T' parameter displays the temperature, and the RCP software's Event Tab shows 'Tp' (Temperature from PT1000) and 'Te' (estimated temperature).",
+        "If the PT1000 wiring is removed from the sensor, the 'Tp' parameter will display -273 (indicating no PT1000 connection), and the 'Te' (estimated temperature) will replace the 'T' parameter in the main data string.",
+        "The 'V' (viscosity) parameter consistently provides a reading from the sensor, regardless of whether temperature is measured by PT1000 or estimated."
+      ],
+      "diagram_labels": [
+        "Figure 1. Data string when PT1000 is installed in the SME",
+        "Figure 2. Estimated temperature is replaced as the T parameter on the data string.",
+        "Figure 3. Viscosity parameter on the data string."
+      ],
+      "warnings_notes": [
+        "Because this (estimated) temperature is highly inaccurate, it cannot be used as a control for any process.",
+        "If using estimated temperature is the intended use for the sensor, the sales team must be notified before ordering."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1519,
+        "cost_usd": 0.0039372999999999995
+      },
+      "source_file": "053_Is_it_still_possible_to_measure_viscosity_without_connecting_the_PT1000_to_our_SRV.pdf"
+    },
+    {
+      "page_summary": "This page explains and illustrates the E04 error code displayed by the device's user interface when a PT1000 temperature sensor is not connected to its electronics.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "4. As an alert to the user, the error string will display a code “E04”, indicating that the PT1000 is not connected.\n\nMeasured Values\nViscosity\n0.6557 mPa.s\nDensity\n1.0000 g/cc\nTemperature\n73.796 °C\nPressure\n1.00 bar\n\nStatus\nError\nE04\nLogging\nStopped\nPressure\nManual\nManual entry\n1 bar\n\nFigure 4. E04 error displayed when no PT1000 has been wired to the electronics.",
+      "specifications": {
+        "Viscosity": "0.6557 mPa.s",
+        "Density": "1.0000 g/cc",
+        "Temperature": "73.796 °C",
+        "Pressure": "1.00 bar",
+        "Manual_entry_pressure": "1 bar"
+      },
+      "key_facts": [
+        "An E04 error code is displayed when a PT1000 sensor is not connected to the electronics.",
+        "When the E04 error occurs, the system's logging status is 'Stopped'.",
+        "The device interface shows 'Measured Values' including Viscosity, Density, Temperature, and Pressure.",
+        "The device interface also shows a 'Status' section indicating 'Error' and 'E04' when the PT1000 is disconnected.",
+        "Pressure can be manually entered or displayed, with an example value of 1 bar."
+      ],
+      "diagram_labels": [
+        "Measured Values",
+        "Viscosity",
+        "Density",
+        "Temperature",
+        "Pressure",
+        "Status",
+        "Error",
+        "E04",
+        "Logging",
+        "Stopped",
+        "Manual",
+        "Manual entry",
+        "0.6557 mPa.s",
+        "1.0000 g/cc",
+        "73.796 °C",
+        "1.00 bar",
+        "1 bar"
+      ],
+      "warnings_notes": [
+        "As an alert to the user, the error string will display a code “E04”, indicating that the PT1000 is not connected.",
+        "E04 error displayed when no PT1000 has been wired to the electronics."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 643,
+        "cost_usd": 0.0017473
+      },
+      "source_file": "053_Is_it_still_possible_to_measure_viscosity_without_connecting_the_PT1000_to_our_SRV.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

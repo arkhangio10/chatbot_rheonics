@@ -1,0 +1,42 @@
+{
+  "source_file": "236_Profinet_GSD_file_for_Rheonics_inline_viscometer_and_density_meter.pdf",
+  "total_pages": 1,
+  "chunks": [
+    {
+      "page_summary": "This page provides information and download links for Profinet GSD files and related documentation for Rheonics inline viscometers and density meters.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics inline viscometer",
+        "density meter",
+        "Rheonics devices",
+        "SMET"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nProfinet GSD file for Rheonics inline viscometer and density meter\n\nModified on: Fri, 15 Dec, 2023 at 9:39 PM\n\nProfinet Support on Rheonics Products\n\n*   GSD files for all rheonics devices are available for download from this page.\n*   TwinCAT-compatible gsdml can be downloaded from this page under the name of GSDML-V2.4-Rheonics-SMET-TwinCAT-20220321\n*   For S7-300, download the gsdml file named GSDML-V2.4-Rheonics-SMET-Legacy-20220321\n\nAdditionally, the Diagnosis and Parameter tables can be downloaded from this page as excel files and can be imported into Siemens TIA PORTAL software.\n\nReferences\n\n1.  Diagnostics and Parameter Readings with Profinet\n    (https://support.rheonics.com/support/solutions/articles/81000401909-diagnostics-and-parameter-readings-with-profinet)\n2.  Rheonics Sensor Integration with TIA portal\n    (https://support.rheonics.com/support/solutions/articles/81000401598-rheonics-sensor-integration-with-tia-portal)\n\nDownloads",
+      "specifications": {},
+      "key_facts": [
+        "Profinet GSD files for Rheonics inline viscometers and density meters are available for download.",
+        "GSD files for all Rheonics devices are available for download from this page.",
+        "A TwinCAT-compatible GSDML file is available for download named GSDML-V2.4-Rheonics-SMET-TwinCAT-20220321.",
+        "For S7-300 systems, a GSDML file named GSDML-V2.4-Rheonics-SMET-Legacy-20220321 is available for download.",
+        "Diagnosis and Parameter tables for Rheonics products can be downloaded as Excel files.",
+        "The downloaded Excel files containing Diagnosis and Parameter tables can be imported into Siemens TIA PORTAL software.",
+        "Reference articles include 'Diagnostics and Parameter Readings with Profinet' and 'Rheonics Sensor Integration with TIA portal'."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 682,
+        "cost_usd": 0.0018448
+      },
+      "source_file": "236_Profinet_GSD_file_for_Rheonics_inline_viscometer_and_density_meter.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

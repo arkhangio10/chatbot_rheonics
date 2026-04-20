@@ -1,0 +1,152 @@
+{
+  "source_file": "233_Which_PLCs_are_compatible_with_PROFINET.pdf",
+  "total_pages": 3,
+  "chunks": [
+    {
+      "page_summary": "This page details the compatibility of Rheonics SRV in-line viscometers and SRD in-line density meters with various PROFINET-compatible PLCs and engineering tools, specifically highlighting integration with Siemens TIA Portal and Wago Codesys.",
+      "document_type": "notes",
+      "product_names": [
+        "SRV in-line viscometer",
+        "SRD in-line density meter",
+        "PROFINET protocol",
+        "TIA Portal",
+        "S7-1500",
+        "PFC200 PLCs",
+        "750-8212 PLCs",
+        "Codesys"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nWhich PLCs are compatible with PROFINET?\n\nModified on: Tue, 1 Aug, 2023 at 11:24 PM\n\nPROFINET protocol is widely used in industrial automation systems, and it offers a high-speed data transfer capability, real-time performance, and flexible networking capabilities. PROFINET supports a number of automation applications because of its compatibility with a wide range of controllers and engineering tools. SRV in-line viscometer and SRD in-line density meter from Rheonics with PROFINET protocol enabled are also compatible with controllers and engineering tools for their configuration.\n\nPROFINET-compatible controllers and engineering tools are available from Siemens, Schneider Electric, Phoenix Contact, Turck, Wago, B&R Automation, Beckhoff Automation, and many others. It means users can choose the brand that best suits their needs regarding performance, features, and budget when selecting the right automation devices for their applications. Some of the most common brands that provide engineering tools that are PROFINET compatible to be used to monitor or control SRV in-line viscometer and SRD in-line density meter from Rheonics are the following:\n\n1. Siemens\n\nSiemens provides a range of engineering tools for PROFINET, including the TIA Portal, an integrated engineering framework that supports a variety of PLCs, HMIs, and other automation devices. Integration with TIA Portal: https://support.rheonics.com/en/support/solutions/folders/81000292767 PROFINET integration of Rheonics devices using TIA portal. (https://support.rheonics.com/en/support/solutions/folders/81000292767)\n\nFigure 1. TIA Portal software(Left) and PLC programmer(S7-1500) [1]\n\n2. Wago\n\nWago provides engineering tools for their PFC200 and 750-8212 PLCs, which are PLCs fully compatible with the PROFINET protocol. Integration with Codesys: https://support.rheonics.com/en/support/solutions/folders/81000297648) (https://support.rheonics.com/en/support/solutions/articles/81000409807 PROFINET integration of Rheonics devices using Codesys. (https://support.rheonics.com/en/support/solutions/folders/81000297648)",
+      "specifications": {},
+      "key_facts": [
+        "The PROFINET protocol is widely adopted in industrial automation, offering high-speed data transfer, real-time performance, and flexible networking capabilities.",
+        "Rheonics SRV in-line viscometers and SRD in-line density meters, when PROFINET protocol enabled, are compatible with various controllers and engineering tools for configuration.",
+        "PROFINET-compatible controllers and engineering tools are available from multiple brands including Siemens, Schneider Electric, Phoenix Contact, Turck, Wago, B&R Automation, and Beckhoff Automation.",
+        "Siemens provides engineering tools for PROFINET, such as the TIA Portal, an integrated framework that supports PLCs, HMIs, and other automation devices.",
+        "Wago offers engineering tools for their PFC200 and 750-8212 PLCs, which are fully compatible with the PROFINET protocol, facilitating integration of Rheonics devices using Codesys."
+      ],
+      "diagram_labels": [
+        "Figure 1. TIA Portal software(Left) and PLC programmer(S7-1500) [1]"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1016,
+        "cost_usd": 0.0026797999999999995
+      },
+      "source_file": "233_Which_PLCs_are_compatible_with_PROFINET.pdf"
+    },
+    {
+      "page_summary": "This page illustrates a Wago PFC200 PROFINET-compatible PLC and details the integration of Rheonics sensors with Beckhoff PROFINET controllers, specifically the CX8093, using TwinCAT 3 as the engineering tool.",
+      "document_type": "manual",
+      "product_names": [
+        "Wago 750-8215",
+        "Wago PFC200",
+        "Beckhoff CX series",
+        "Beckhoff CX8093",
+        "Rheonics Sensor",
+        "TwinCAT 3"
+      ],
+      "extracted_text": "Figure 2. PROFINET compatible PLC PFC200 Wago[2]\n\n3. Beckhoff Automation\n\nBeckhoff Automation provides a range of PROFINET-compatible controllers, including their CX series like the CX8093 (control system with PROFINET RT device interface). The engineering tool is TwinCAT 3 and it is specially designed to set the operation with Rheonics Sensor.\nhttps://support.rheonics.com/en/support/solutions/folders/81000297916\nPROFINET integration of Rheonics devices using TwinCAT (https://support.rheonics.com/en/support/solutions/folders/81000297916)\nhttps://support.rheonics.com/en/support/solutions/folders/81000297916\nhttps://support.rheonics.com/en/support/solutions/folders/81000297916\nhttps://support.rheonics.com/en/support/solutions/folders/81000297916",
+      "specifications": {},
+      "key_facts": [
+        "The Wago PFC200 is identified as a PROFINET-compatible PLC.",
+        "Beckhoff Automation provides various PROFINET-compatible controllers, including their CX series.",
+        "The Beckhoff CX8093 is a control system featuring a PROFINET RT device interface.",
+        "TwinCAT 3 is the engineering tool utilized with Beckhoff controllers.",
+        "TwinCAT 3 is specifically designed for configuring and operating Rheonics Sensors.",
+        "Rheonics offers support and solutions for PROFINET integration of its devices using TwinCAT."
+      ],
+      "diagram_labels": [
+        "WAGO",
+        "750-8215",
+        "SYS",
+        "RST",
+        "BF",
+        "DIA",
+        "U4",
+        "U3",
+        "U2",
+        "U1",
+        "RUN",
+        "I/O",
+        "MS",
+        "NS",
+        "CAN",
+        "OV",
+        "SD",
+        "+",
+        "-",
+        "Ground symbol",
+        "RUN STOP RESET",
+        "X8 USB",
+        "X8 CAN",
+        "ACT X2 LINK",
+        "X1 ACT X1 LINK",
+        "ACT X12 LINK",
+        "X11 ACT X11 LINK"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 736,
+        "cost_usd": 0.0019798
+      },
+      "source_file": "233_Which_PLCs_are_compatible_with_PROFINET.pdf"
+    },
+    {
+      "page_summary": "This page displays an image of a Beckhoff CX8093 embedded PC with PROFINET, accompanied by a list of external resources and a general disclaimer.",
+      "document_type": "notes",
+      "product_names": [
+        "CX8093",
+        "PROFINET",
+        "TIA Portal",
+        "controller-pfc200/p/750-8215",
+        "cx8000-arm9"
+      ],
+      "extracted_text": "BECKHOFF\nCX8093\nTC\nPN\nDIAG\nX001\nX101\nX102\nS101\nON 1 2 3 4 5 6 7 8 9 10\nPROFINET\nX0 00\n24V 0V\nPE PE\n\nFigure 3. CX8093 | Embedded PC with PROFINET device[3]\n\nResources:\n1. https://www.siemens.com/global/en/products/automation/industry-software/automation-software/tia-portal.html\n2. https://www.wago.com/global/plcs-%E2%80%8E2%80%8F%E2%80%8E80%93controllers/controller-pfc200/p/750-8215\n3. https://www.beckhoff.com/en-en/products/ipc/embedded-pcs/cx8000-arm9/cx8093.html\n\nDISCLAIMER\nPictures, photos, and images used are for illustration purposes and do not constitute any warranty or assertions on the suitability of use and should not be construed as an explicit or implicit recommendation or endorsement. All illustrations are given proper credit from our source of access and by their use here we do not specify or establish any copyright which belongs and stays unaffected with the existing copyright holder of that material",
+      "specifications": {},
+      "key_facts": [
+        "The image displays a Beckhoff CX8093 embedded PC configured as a PROFINET device.",
+        "The document provides external resources from Siemens, Wago, and Beckhoff.",
+        "The images used are solely for illustration and do not constitute warranties, assertions of suitability, recommendations, or endorsements.",
+        "Copyright for all illustrative material remains with its original holder and is unaffected by its use in this document."
+      ],
+      "diagram_labels": [
+        "BECKHOFF",
+        "CX8093",
+        "TC",
+        "PN",
+        "DIAG",
+        "X001",
+        "X101",
+        "X102",
+        "S101",
+        "ON 1 2 3 4 5 6 7 8 9 10",
+        "PROFINET",
+        "X0 00",
+        "24V 0V",
+        "PE PE",
+        "Figure 3. CX8093 | Embedded PC with PROFINET device[3]"
+      ],
+      "warnings_notes": [
+        "Pictures, photos, and images used are for illustration purposes and do not constitute any warranty or assertions on the suitability of use and should not be construed as an explicit or implicit recommendation or endorsement.",
+        "All illustrations are given proper credit from our source of access and by their use here we do not specify or establish any copyright which belongs and stays unaffected with the existing copyright holder of that material"
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 836,
+        "cost_usd": 0.0022298
+      },
+      "source_file": "233_Which_PLCs_are_compatible_with_PROFINET.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

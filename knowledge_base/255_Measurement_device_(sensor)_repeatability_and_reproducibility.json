@@ -1,0 +1,286 @@
+{
+  "source_file": "255_Measurement_device_(sensor)_repeatability_and_reproducibility.pdf",
+  "total_pages": 6,
+  "chunks": [
+    {
+      "page_summary": "This page explains the fundamental concepts of measurement device accuracy and precision, defining each term and illustrating accuracy with a target diagram.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Phone: +1 713 234 0863\n\nMeasurement device (sensor) repeatability and reproducibility\n\nModified on: Thu, 7 Dec, 2023 at 11:41 PM\n\n1. Fundamentals\n\n1.1. What is accuracy?\nAccuracy is generally defined by the deviation of the measured value vs. the true value of the property being measured.\nSensor accuracy can be affected by various factors such as calibration, environmental conditions, and the sensor. It shows how closely the sensor's measurement matches the true value of the property being measured.\nIn Figure 1, we can understand accuracy as always hitting the target close to the center but at different zones.\nHigh accuracy, Not precise\n\nFigure 1. What is accuracy?\n\n1.2. What is precision?\nThe variation that exists between multiple measurements of the same parameter of the same characteristic. A highly precise measurement indicates that the measurements are very close to each other and have minimal variation.\nIn Figure 2, we are hitting the target around the same area but far from the center.",
+      "specifications": {},
+      "key_facts": [
+        "Accuracy is defined by the deviation of the measured value versus the true value of the property being measured.",
+        "Sensor accuracy indicates how closely the sensor's measurement matches the true value of the property being measured.",
+        "Sensor accuracy can be influenced by factors such as calibration, environmental conditions, and the sensor itself.",
+        "High accuracy implies hitting the target close to the center, even if the individual hits are scattered.",
+        "Precision refers to the variation between multiple measurements of the same parameter.",
+        "A highly precise measurement means that multiple measurements are very close to each other and exhibit minimal variation."
+      ],
+      "diagram_labels": [
+        "High accuracy, Not precise",
+        "Target Viscosity",
+        "Figure 1. What is accuracy?"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 503,
+        "cost_usd": 0.0013973
+      },
+      "source_file": "255_Measurement_device_(sensor)_repeatability_and_reproducibility.pdf"
+    },
+    {
+      "page_summary": "This page explains the concepts of precision, accuracy, and reproducibility using illustrative target diagrams and an example of a repeatability test involving multiple operators.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "High precision, not accurate\nFigure 2. What is precision?\n1.3. What is reproducibility?\nReproducibility is when different operators produce the same measurement result with the same instrument multiple times under different conditions. Well-planned setups with controls enhance consistency and detailed protocols aid replication.\nNeither accurate nor reproducible\nReproducible but not accurate\nBoth reproducible and accurate\nFigure 3. What is reproducibility?\nExample:\nOperators 1, 2, and 3 measure the same fluid 4 times with the same sensor.\nFigure 4. Example of a good repeatability test\nOperator 1\nOperator 2\nOperator 3\nThe variation in average measurements between Operators 1 and 2 is much less than the variation between Operators 1 and 3. Therefore, the gage's reproducibility is too low.",
+      "specifications": {},
+      "key_facts": [
+        "Precision can exist without accuracy, as shown by consistent measurements that miss the target.",
+        "Reproducibility is defined as different operators producing the same measurement result with the same instrument multiple times under different conditions.",
+        "Well-planned setups with controls and detailed protocols can enhance consistency and aid replication in reproducibility testing.",
+        "A measurement system can be neither accurate nor reproducible.",
+        "A measurement system can be reproducible but not accurate.",
+        "A measurement system can be both reproducible and accurate.",
+        "In the example provided, Operators 1, 2, and 3 measure the same fluid four times with the same sensor.",
+        "The variation in average measurements between Operators 1 and 2 is significantly less than the variation between Operators 1 and 3.",
+        "The gage's reproducibility is considered too low based on the high variation between Operators 1 and 3."
+      ],
+      "diagram_labels": [
+        "High precision, not accurate",
+        "Target Viscosity",
+        "Figure 2. What is precision?",
+        "Neither accurate nor reproducible",
+        "Reproducible but not accurate",
+        "Both reproducible and accurate",
+        "Figure 3. What is reproducibility?",
+        "Figure 4. Example of a good repeatability test",
+        "Operator 1",
+        "Operator 2",
+        "Operator 3"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 572,
+        "cost_usd": 0.0015698
+      },
+      "source_file": "255_Measurement_device_(sensor)_repeatability_and_reproducibility.pdf"
+    },
+    {
+      "page_summary": "This page explains the concept of repeatability, emphasizes the importance of accurate measuring devices, and outlines the advantages of Rheonics inline viscometers and density meters for robust process control.",
+      "document_type": "manual",
+      "product_names": [
+        "inline viscometers",
+        "density sensors",
+        "SRV viscosity meter",
+        "SRV",
+        "SRD",
+        "density meters"
+      ],
+      "extracted_text": "14. What is repeatability?\nThe repeatability of a sensor refers to its ability to produce the same measurement results under the same conditions multiple times. Therefore, if the same measurement is taken several times with the same sensor, the results should be consistent.\nFigure 5. What is repeatability?\n\n2. What is the relevance of measuring devices?\nAccurate and precise measurements with good repeatability and reproducibility are essential for ensuring reliable data and outcomes in various fields. They form the basis for informed decision-making, quality control, innovation, and scientific progress. Efforts to improve measurement systems, reduce errors, and enhance the consistency of measurements contribute to advancements across manufacturing, engineering, and scientific domains.\n\n3. Advantages of Rheonics inline viscometers and density meters to ensure tight process control.\n*   Rheonics builds truly inline process instruments, to achieve that we ensure that the reproducibility and repeatability of measurements are exceptional - generally better than 0.1-1% for the SRV viscosity meter.\n*   Rheonics runs calibration standards with NIST traceable viscosity and density standards at different times under similar conditions, ensuring each probe is evaluated for reliable and accurate measurements.\n*   Consistency of results is essential to the success of customers' quality control programs, as it ensures that all measurements are reliable and accurate. The repeatability of measurement also allows for the easy comparison of results across different batches.\n*   Furthermore, the repeatability of measurement allows for quick and easy troubleshooting when a process fails to meet expectations.\n*   Based on Rheonics' proven gated phase-locked loop technology, the electronics unit offers stable, repeatable, and high-accuracy readings over the full range of specified temperatures and fluid properties.\n*   SRV and SRD are operator-independent and measured in real-time.\n*   Temperature effects can be compensated in real-time.\n\n4. SRV and SRD expectations on Repeatability and Reproducibility",
+      "specifications": {
+        "SRV viscosity meter repeatability": "better than 0.1-1%"
+      },
+      "key_facts": [
+        "Repeatability of a sensor is its ability to produce consistent measurement results under the same conditions multiple times.",
+        "Accurate and precise measurements with good repeatability and reproducibility are crucial for reliable data, informed decision-making, quality control, innovation, and scientific progress.",
+        "Rheonics inline process instruments demonstrate exceptional reproducibility and repeatability of measurements.",
+        "Rheonics' SRV viscosity meter generally offers repeatability better than 0.1-1%.",
+        "Rheonics calibrates its instruments using NIST traceable viscosity and density standards to ensure reliable and accurate measurements.",
+        "The consistency and repeatability of Rheonics measurements are vital for customer quality control programs and easy comparison of results across batches.",
+        "Rheonics' measurement repeatability aids in quick and easy troubleshooting when process expectations are not met.",
+        "Rheonics' proven gated phase-locked loop technology provides stable, repeatable, and high-accuracy readings across the full range of specified temperatures and fluid properties.",
+        "Rheonics SRV and SRD devices are operator-independent and provide real-time measurements.",
+        "Rheonics instruments can compensate for temperature effects in real-time."
+      ],
+      "diagram_labels": [
+        "Poor accuracy, Poor repeatability",
+        "Poor accuracy, Good repeatability",
+        "Good accuracy, poor repeatability",
+        "Good accuracy, Good repeatability",
+        "Target Viscosity",
+        "Figure 5. What is repeatability?"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 863,
+        "cost_usd": 0.0022973
+      },
+      "source_file": "255_Measurement_device_(sensor)_repeatability_and_reproducibility.pdf"
+    },
+    {
+      "page_summary": "This page details the R&R (Repeatability & Reproducibility) test setups and results for Rheonics SRV inline process viscometer probes, showing measurement stability and agreement between sensors.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV inline process viscometer Probe",
+        "SRV sensor",
+        "SRD Probe"
+      ],
+      "extracted_text": "4.1. SRV inline process viscometer Probe R&R test setup\n\nFigure 6. Repeatability test done in the SRV sensor.\n  Test 1-Sensor A:\n    Time:10:00AM\n    Viscosity: 40.20 cP\n    Temperature: 29.01 °C\n  Test 2-Sensor A:\n    Time:10:30AM\n    Viscosity: 40.50 cP\n    Temperature: 29.04 °C\n\nSame sensor, same fluid, agreement of measurements at two different times. Related to measurement stability\n\nFigure 7. Reproducibility test done in the SRV sensor.\n  Test 1-Sensor A:\n    Time:10:00AM\n    Viscosity: 40.20 cP\n    Temperature: 29.01 °C\n  Test 2-Sensor B:\n    Time:10:30AM\n    Viscosity: 40.32 cP\n    Temperature: 29.06 °C\n\nAgreement between two sensors, different locations, different times, same fluid.\n\n4.2. SRD Probe R&R test setup",
+      "specifications": {
+        "SRV_Repeatability_Test": {
+          "Test_1_Sensor_A_1000AM": {
+            "Time": "10:00 AM",
+            "Viscosity": "40.20 cP",
+            "Temperature": "29.01 °C"
+          },
+          "Test_2_Sensor_A_1030AM": {
+            "Time": "10:30 AM",
+            "Viscosity": "40.50 cP",
+            "Temperature": "29.04 °C"
+          }
+        },
+        "SRV_Reproducibility_Test": {
+          "Test_1_Sensor_A_1000AM": {
+            "Time": "10:00 AM",
+            "Viscosity": "40.20 cP",
+            "Temperature": "29.01 °C"
+          },
+          "Test_2_Sensor_B_1030AM": {
+            "Time": "10:30 AM",
+            "Viscosity": "40.32 cP",
+            "Temperature": "29.06 °C"
+          }
+        }
+      },
+      "key_facts": [
+        "Section 4.1 describes the R&R (Repeatability & Reproducibility) test setup for the SRV inline process viscometer probe.",
+        "A repeatability test was performed on an SRV sensor, taking measurements at 10:00 AM and 10:30 AM from the same sensor (Sensor A) and fluid, showing measurement stability.",
+        "For the repeatability test, Sensor A measured 40.20 cP viscosity and 29.01 °C temperature at 10:00 AM, and 40.50 cP viscosity and 29.04 °C temperature at 10:30 AM.",
+        "A reproducibility test was performed on SRV sensors, comparing measurements between two different sensors (Sensor A and Sensor B) at different locations and times (10:00 AM for Sensor A, 10:30 AM for Sensor B) with the same fluid.",
+        "For the reproducibility test, Sensor A measured 40.20 cP viscosity and 29.01 °C temperature at 10:00 AM, while Sensor B measured 40.32 cP viscosity and 29.06 °C temperature at 10:30 AM.",
+        "The page also introduces section 4.2 for SRD Probe R&R test setup, though no details are provided."
+      ],
+      "diagram_labels": [
+        "Sensor A",
+        "40.20 cP",
+        "29.01 degC",
+        "rheonics",
+        "10:00 AM line 1",
+        "10:30 AM line 1",
+        "40.50 cP",
+        "29.04 degC",
+        "Sensor B",
+        "40.32 cP",
+        "29.06 degC",
+        "3:45 PM line 2"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1152,
+        "cost_usd": 0.0030198
+      },
+      "source_file": "255_Measurement_device_(sensor)_repeatability_and_reproducibility.pdf"
+    },
+    {
+      "page_summary": "This page details the repeatability and reproducibility test results for Rheonics SRD sensors measuring viscosity, density, and temperature, and provides resources for further information on inline viscosity measurement accuracy.",
+      "document_type": "technical report",
+      "product_names": [
+        "SRD sensor"
+      ],
+      "extracted_text": "Figure 8. Repeatability test is done in the SRD sensor.\nTest 1-Sensor A:\nTime:10:00AM\nViscosity: 154.01 cP\nDensity: 0.8271 g/cc\nTemperature: 40.09 °C\nTest 2-Sensor A:\nTime:10:30AM\nViscosity: 154.32 cP\nDensity: 0.8273 g/cc\nTemperature: 40.08 °C\nSame sensor, same fluid, agreement of measurements at two different times. Related to measurement stability\n\nFigure 9. Reproducibility test done in the SRD sensor.\nTest 1-Sensor A:\nTime:10:00AM\nViscosity: 154.01 cP\nDensity: 0.8271 g/cc\nTemperature: 40.08 °C\nTest 2-Sensor B:\nTime:3:45PM\nViscosity: 154.60 cP\nDensity: 0.8278 g/cc\nTemperature: 40.05 °C\nAgreement between two sensors, different locations, different times, same fluid.\n\nDo you want to know more about accuracy and viscosity? Check this support article:\n(https://rheonics.atlassian.net/l/cp/637gQVUR)\n(https://support.rheonics.com/en/support/solutions/articles/81000412495-the-myth-of-accuracy-for-inline-viscosity-measurements)\nThe myth of accuracy for inline viscosity measurements\n(https://support.rheonics.com/en/support/solutions/articles/81000412495-the-myth-of-accuracy-for-inline-viscosity-measurements)\n\nReferences",
+      "specifications": {
+        "Repeatability Test - Test 1 Sensor A": {
+          "Time": "10:00 AM",
+          "Viscosity": "154.01 cP",
+          "Density": "0.8271 g/cc",
+          "Temperature": "40.09 °C"
+        },
+        "Repeatability Test - Test 2 Sensor A": {
+          "Time": "10:30 AM",
+          "Viscosity": "154.32 cP",
+          "Density": "0.8273 g/cc",
+          "Temperature": "40.08 °C"
+        },
+        "Reproducibility Test - Test 1 Sensor A": {
+          "Time": "10:00 AM",
+          "Viscosity": "154.01 cP",
+          "Density": "0.8271 g/cc",
+          "Temperature": "40.08 °C"
+        },
+        "Reproducibility Test - Test 2 Sensor B": {
+          "Time": "3:45 PM",
+          "Viscosity": "154.60 cP",
+          "Density": "0.8278 g/cc",
+          "Temperature": "40.05 °C"
+        }
+      },
+      "key_facts": [
+        "A repeatability test on the SRD sensor demonstrates consistent measurements of viscosity, density, and temperature from the same sensor at different times (10:00 AM vs 10:30 AM) using the same fluid.",
+        "A reproducibility test on SRD sensors shows agreement in measurements of viscosity, density, and temperature between two different sensors (Sensor A and Sensor B) at different locations and times (10:00 AM vs 3:45 PM) using the same fluid.",
+        "Rheonics offers a support article titled 'The myth of accuracy for inline viscosity measurements' for users interested in learning more about accuracy and viscosity."
+      ],
+      "diagram_labels": [
+        "Sensor A",
+        "154.01 cP",
+        ".8271 g/cc",
+        "40.09 degC",
+        "rheonics",
+        "patented swiss made",
+        "10:00 AM line 1",
+        "Sensor A",
+        "154.32 cP",
+        ".8273 g/cc",
+        "40.08 degC",
+        "10:30 am line 1",
+        "Figure 8. Repeatability test is done in the SRD sensor.",
+        "Sensor A",
+        "154.01 cP",
+        ".8271 g/cc",
+        "40.08 degC",
+        "10:00 AM line 1",
+        "Sensor B",
+        "154.60 cP",
+        ".8278 g/cc",
+        "40.05 degC",
+        "3:45 PM line 2",
+        "Figure 9. Reproducibility test done in the SRD sensor."
+      ],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1279,
+        "cost_usd": 0.0033372999999999996
+      },
+      "source_file": "255_Measurement_device_(sensor)_repeatability_and_reproducibility.pdf"
+    },
+    {
+      "page_summary": "This page provides a list of external references and resources related to Gage Repeatability and Reproducibility (GR&R) studies.",
+      "document_type": "notes",
+      "product_names": [],
+      "extracted_text": "- GR&R - Gage Repeatability and Reproducibility | ASQ (https://asq.org/quality-resources/gage-repeatability#:~:text=Gage%20repeatability%20and%20reproducibility%20(GR%26R)%20is%20defined%20as%20the%20process,measurements%20are%20repeatable%20and%20reproducible.) [1]\n- Mastering Gage R&R: Key Steps for a Successful Study (https://www.isixsigma.com/dictionary/gage-rr/) [2]\n- Gage R&R | Gage Repeatability & Reproducibility | Quality-One (https://quality-one.com/grr/) [3]\n- D2 Values Used in Gage Repeatability and Reproducibility Studies (https://andrewmilivojevich.com/d2-values-used-in-gage-repeatability-and-reproducibility-studies/#:~:text=The%20d2%20values%20are%20a,the%20range%20of%20process%20variation.) [4]\n- GRR Study | Gauge R&R | Explained with Excel Template (https://www.nikunjbhoraniya.com/2018/12/grr-study.html) [5]\n- What is a gage repeatability and reproducibility (R&R) study? (https://support.minitab.com/en-us/minitab/21/help-and-how-to/quality-and-process-improvement/measurement-system-analysis/supporting-topics/gage-r-r-analyses/what-is-a-gage-r-r-study/) [6]",
+      "specifications": {},
+      "key_facts": [
+        "The page lists resources for understanding Gage Repeatability and Reproducibility (GR&R) studies.",
+        "GR&R is defined as the process measurement being repeatable and reproducible.",
+        "One resource explains key steps for a successful Gage R&R study.",
+        "Another resource discusses D2 values used in Gage Repeatability and Reproducibility studies, which relate to the range of process variation.",
+        "An Excel template for GRR studies is mentioned.",
+        "Minitab provides information on what a gage repeatability and reproducibility (R&R) study is."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 625,
+        "cost_usd": 0.0017023000000000001
+      },
+      "source_file": "255_Measurement_device_(sensor)_repeatability_and_reproducibility.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

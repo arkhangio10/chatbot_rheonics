@@ -1,0 +1,336 @@
+{
+  "source_file": "200_SRD-X6_SLP_Slimline_Process_Density_meter.pdf",
+  "total_pages": 7,
+  "chunks": [
+    {
+      "page_summary": "This page provides an overview of the Rheonics SRD-X6 SLP Slimline Process Density meter, detailing its design, dimensions, suitable applications, connection types, and differentiating it from the standard SRD-X5 model.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRD-X6: SLP Slimline Process Density meter",
+        "Slimline Probe - SLP (-X6)",
+        "Rheonics Inline Density and Viscosity Meter SRD",
+        "SRD sensor",
+        "standard long insertion sensor (-X5)",
+        "SRD-SLP (-X6)"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nSRD-X6: SLP Slimline Process Density meter\n\nModified on: Mon, 30 Dec, 2024 at 6:23 PM\n\nWhat products are involved?\nRheonics Inline Density and Viscosity Meter SRD (https://rheonics.com/products/inline-density-meter-srd/)\n\nWhat is the purpose of this article?\nTo give an overview of the Slimline Probe - SLP (-X6) version of the SRD sensor and installation information.\n\n1. Overview\nThe slimline probe (SLP) design for the SRD sensor is a long insertion probe with a body diameter of 19mm, which is the main difference from a standard long insertion sensor (-X5) (https://support.rheonics.com/en/support/solutions/articles/8100041193-srd-x5-long-insertion-probe) that has a 30mm diameter. Its order code is -X6.\nThis 19mm diameter body opens up the possibility of using more process connections of smaller sizes. This is well suited for installations in small lines, tanks or vessels, and bioreactors or reactors where available connections are small and the standard long insertion probe does not fit (due to the 30 mm diameter). The slim design also creates small pressure drops in smaller ID lines.\nSome connections suitable for the SRD-X6 are 1\" NPT, 3/4\" NPT, Ingold, Tri-Clamp, and others.\nThe SRD-SLP (-X6) is a long insertion probe so the insertion length A and process connection B should be defined by user upon order.",
+      "specifications": {
+        "SRD-X6 SLP body diameter": "19 mm",
+        "SRD-X5 standard body diameter": "30 mm",
+        "Suitable process connections": "1\" NPT, 3/4\" NPT, Ingold, Tri-Clamp"
+      },
+      "key_facts": [
+        "The SRD-X6 is a Slimline Process Density meter, which is a version of the SRD sensor, with an order code of -X6.",
+        "The SRD-X6 (SLP) features a slimline probe design with a body diameter of 19mm.",
+        "This 19mm diameter is a key differentiator from the standard SRD-X5 long insertion sensor, which has a 30mm diameter.",
+        "The smaller 19mm diameter of the SRD-X6 allows for compatibility with more process connections of smaller sizes.",
+        "The SRD-X6 is well-suited for installations in small lines, tanks, vessels, bioreactors, or reactors where space for connections is limited or the larger 30mm diameter of the standard probe is unsuitable.",
+        "The slim design of the SRD-X6 contributes to small pressure drops in smaller internal diameter (ID) lines.",
+        "The insertion length A and process connection B for the SRD-SLP (-X6) are custom-defined by the user at the time of order."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "insertion length A",
+        "process connection B"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 920,
+        "cost_usd": 0.0024397999999999998
+      },
+      "source_file": "200_SRD-X6_SLP_Slimline_Process_Density_meter.pdf"
+    },
+    {
+      "page_summary": "This page provides a dimensional drawing, specifications, and installation advantages for the Rheonics Slimline SRD-X6 probe, which is compatible with their Density and Viscosity Meter SRD.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRD-X6",
+        "SRD-X7 Reactor Probe",
+        "Slimline Probe",
+        "Density and Viscosity Meter SRD"
+      ],
+      "extracted_text": "rheonics\nA: Insertion Length\n40\n[1.58]\nB: Custom Flange\nUnits:\nmm\n[inch]\n19\n[0.75]\n14\n[0.55]\n5\n[0.20]\n13\n[0.50]\nFigure 1: Slimline SRD-X6 dimensions\n\nSpecifications\nSensor compatibility: Density and Viscosity Meter SRD (https://rheonics.com/products/inline-viscometer-srv/)\nOrder code: SRD-X6-Axxx-Byyy\nInsertion length A - xxx: Customizable (min. 100mm)\nProcess Connection B - zzz: Customizable (min. OD 22mm)\nDrawings: SR-SLP Configuration Drawing (https://rheonics.com/wp-content/uploads/2023/10/Rheonics_SR-SLP_Slimline-Probe.pdf)\n\nRheonics offers the slimline design with compression fittings for flexible insertion length and without a process connection too. Visit the SRD-X7 Reactor Probe for more information.\n\nWith the Slimline Probe there are many installation advantages. Some installation scenarios of this sensor variant are:\n*   Installation in small pipelines (e.g. 3/4\", 1\", 1.25\" ID pipes)\n*   Installation with small process connections: Ingold DN25, 1\" NPT, 3/4\" NPT.\n*   Installation in reactors and bioreactors\n*   Installation in pipe with less effect on the cross section reduction inside the pipe (compared to -X5 sensors as shown in next figure) -> low/no pressure drop",
+      "specifications": {
+        "Insertion Length (A)": "customizable (min. 100 mm)",
+        "Maximum illustrated insertion length": "40 mm [1.58 inch]",
+        "Process Connection (B)": "customizable (min. OD 22 mm)",
+        "Largest probe diameter": "19 mm [0.75 inch]",
+        "Second largest probe diameter": "14 mm [0.55 inch]",
+        "Third largest probe diameter": "5 mm [0.20 inch]",
+        "Smallest probe diameter (tip)": "13 mm [0.50 inch]"
+      },
+      "key_facts": [
+        "The Rheonics Slimline SRD-X6 probe dimensions are provided in millimeters and inches.",
+        "The SRD-X6 probe is compatible with the Rheonics Density and Viscosity Meter SRD.",
+        "Both the insertion length (A) and process connection (B) of the SRD-X6 probe are customizable, with minimums of 100mm and 22mm OD respectively.",
+        "Rheonics offers a slimline design that can use compression fittings for flexible insertion length, even without a traditional process connection.",
+        "The Slimline Probe offers several installation advantages, including suitability for small pipelines (e.g., 3/4\", 1\", 1.25\" ID pipes), small process connections (e.g., Ingold DN25, 1\" NPT, 3/4\" NPT), reactors, and bioreactors.",
+        "The Slimline Probe causes less cross-section reduction in pipes compared to -X5 sensors, leading to low or no pressure drop.",
+        "Further information on reactor applications is available for the SRD-X7 Reactor Probe.",
+        "A configuration drawing for the SR-SLP Slimline Probe is available via a provided URL."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "A: Insertion Length",
+        "B: Custom Flange",
+        "Units: mm [inch]",
+        "Figure 1: Slimline SRD-X6 dimensions"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1001,
+        "cost_usd": 0.0026422999999999998
+      },
+      "source_file": "200_SRD-X6_SLP_Slimline_Process_Density_meter.pdf"
+    },
+    {
+      "page_summary": "This page provides an overview of Rheonics SRD-X6 Slimline Probe, comparing its dimensions with SRD-X5, detailing installation principles and sensing area specifications, and mentioning configuration options.",
+      "document_type": "manual",
+      "product_names": [
+        "SRD-X5",
+        "SRD-X6 Slimline Probe",
+        "Rheonics density and viscosity meter SRD-X6",
+        "SRD sensors",
+        "Rheonics SRD",
+        "SRD-RP"
+      ],
+      "extracted_text": "Figure 2: SRD Slimline Probe comparison with SRD-X5 mm [in.]\n\n2. Installation principles\n\nThe Rheonics density and viscosity meter SRD-X6 is based on the same resonator used for other SRD variants. So the installation requirements are the same for all SRD sensors. Next image shows the basic installation criteria.\n\nEnsure sensing element in red is in contact with fluid\nAvoid dead or stagnation zones in the sensing (red) area\nSRD-RP tip needs a clearance of 12 mm [0.5\"] to any obstruction\n\nFigure 3: SRD-X6 Slimline sensing area\n\nAn additional recommendation for the Rheonics SRD, is to have the tip aligned with the flow. This is only relevant for perpendicular installation in pipes. Explore what it means here (https://support.rheonics.com/en/support/solutions/articles/81000408815-srd-fluid-end-orientation).\n\n3. Configuration examples\n\nThe SRD-X6 Slimline probe can be configured with customizable insertion length and process connection. Some configuration examples are listed below.",
+      "specifications": {
+        "SRD-X5 probe body diameter": "30 mm (1.18 in)",
+        "SRD-X6 Slimline Probe body diameter": "19 mm (0.75 in)",
+        "SRD-X6 Slimline sensing area total length": "50 mm (1.96 in)",
+        "SRD-X6 Slimline sensing area diameter": "35 mm (1.4 in)",
+        "SRD-X6 Slimline sensing element length": "35 mm (1.4 in)",
+        "SRD-RP tip obstruction clearance": "12 mm (0.5 in)"
+      },
+      "key_facts": [
+        "The Rheonics density and viscosity meter SRD-X6 utilizes the same resonator as other SRD variants.",
+        "Installation requirements for the SRD-X6 Slimline Probe are consistent with all other SRD sensors.",
+        "The sensing element, indicated in red, must be in full contact with the fluid for proper operation.",
+        "It is crucial to prevent dead or stagnation zones within the red-highlighted sensing area.",
+        "A minimum clearance of 12 mm (0.5 inches) from any obstruction is required for the SRD-RP tip.",
+        "For perpendicular installations in pipes, aligning the probe tip with the fluid flow is an additional recommendation.",
+        "The SRD-X6 Slimline probe offers flexibility in configuration, allowing for customizable insertion lengths and process connections."
+      ],
+      "diagram_labels": [
+        "SRD-X5",
+        "SRD-X6 Slimline Probe",
+        "30 Ø [1.18]",
+        "19 Ø [0.75]",
+        "50 mm [1.96\"]",
+        "Ø35 mm [1.4\"]",
+        "35 mm [1.4\"]",
+        "rheonics"
+      ],
+      "warnings_notes": [
+        "Ensure sensing element in red is in contact with fluid.",
+        "Avoid dead or stagnation zones in the sensing (red) area.",
+        "SRD-RP tip needs a clearance of 12 mm [0.5\"] to any obstruction.",
+        "An additional recommendation for the Rheonics SRD, is to have the tip aligned with the flow. This is only relevant for perpendicular installation in pipes. Explore what it means here (https://support.rheonics.com/en/support/solutions/articles/81000408815-srd-fluid-end-orientation)."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 976,
+        "cost_usd": 0.0025797999999999997
+      },
+      "source_file": "200_SRD-X6_SLP_Slimline_Process_Density_meter.pdf"
+    },
+    {
+      "page_summary": "This page details two different process connection options (3/4\" NPT Thread and Ingold DN25) for Rheonics Slimline SRD-X6 density and viscosity meters, including dimensional drawings and associated order codes.",
+      "document_type": "manual",
+      "product_names": [
+        "SRD-X1-34N",
+        "SRD Slimline Density and Viscosity Meter",
+        "Slimline SRD-X6"
+      ],
+      "extracted_text": "- 3/4\" NPT Thread: Common NPT thread also available in short variant SRD-X1-34N (https://support.rheonics.com/en/support/solutions/articles/81000409841-srd-x1-34n-npt-3-4-). Rheonics offers 3/4\" NPT weldolet (https://rheonics.com/product-accessories/wol-34nl/) for installation. Connection code is -B34N. Smaller threads are available as long as they can be welded on the 19mm OD body.\n\nFigure 4: Slimline SRD-X6 3/4\" NPT mm [in.]\n\nSRD SLP A: 100mm B: 3/4\" NPT\nPart\t\t\t\t\t\t\t\tOrder Code\nSRD Slimline Density and Viscosity Meter\t\tSRD-X6-A100-B34N\n\n- Ingold DN25: It is mostly used in reactor applications. Process connection code is -BI25. Review more about this configuration here (https://support.rheonics.com/en/support/solutions/articles/81000412279-inline-process-density-and-viscosity-meter-srd-with-ingold-connection-options-and-installation).\n\nFigure 5: Slimline SRD-X6 Ingold DN25 mm [in.]\n\nSRD SLP A: 100mm B: Ingold DN25\nPart\t\t\t\t\t\t\t\tOrder Code\nSRD Slimline Density and Viscosity Meter\t\tSRD-X6-A117-BI25",
+      "specifications": {
+        "NPT Thread Size": "3/4\"",
+        "NPT Weldolet Size": "3/4\"",
+        "NPT Connection Code": "-B34N",
+        "Body OD": "19 mm",
+        "Slimline SRD-X6 3/4\" NPT Dimension A": "100 mm (3.95 in)",
+        "SRD-X6-A100-B34N Part": "SRD Slimline Density and Viscosity Meter",
+        "Ingold Connection Size": "DN25",
+        "Ingold Process Connection Code": "-BI25",
+        "Slimline SRD-X6 Ingold DN25 Dimension A": "117 mm (4.61 in)",
+        "SRD-X6-A117-BI25 Part": "SRD Slimline Density and Viscosity Meter"
+      },
+      "key_facts": [
+        "Rheonics offers 3/4\" NPT thread connections for its Slimline SRD-X6 density and viscosity meters.",
+        "A short variant of the NPT thread, SRD-X1-34N, is available.",
+        "Smaller NPT threads can be used if they can be welded onto a 19mm OD body.",
+        "The 3/4\" NPT connection has a total insertion length (Dimension A) of 100 mm (3.95 inches).",
+        "The Ingold DN25 connection is primarily used in reactor applications.",
+        "The Ingold DN25 connection has a total insertion length (Dimension A) of 117 mm (4.61 inches).",
+        "Detailed configuration and installation information for both connection types is available via provided Rheonics support URLs."
+      ],
+      "diagram_labels": [
+        "A: [ 3.95 ]",
+        "B: 3/4\" NPT Thread",
+        "A: [ 4.61 ]",
+        "B: DN25 Ingold"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1033,
+        "cost_usd": 0.0027223
+      },
+      "source_file": "200_SRD-X6_SLP_Slimline_Process_Density_meter.pdf"
+    },
+    {
+      "page_summary": "This page details different process connection types (Tri-Clamp D34 and DIN 11851 Sanitary DN 40) with corresponding order codes and dimensions for Rheonics SRD-X6 Slimline Density and Viscosity Meters, and provides an example of installation in an elbow pipe.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRD-X6",
+        "SRD Slimline Density and Viscosity Meter",
+        "SR-SLP"
+      ],
+      "extracted_text": "Tri-Clamp D34: Tri Clamp is used in hygienic installations for food, pharmaceutical and other industries.\nThe SRD-X6 can be ordered with Tri Clamp sizes from Ø34 mm (equivalent to ISO 1127 DN20) up.\nProcess connection code for D34 is: -B34T.\n\nFigure 6: Slimline SRD-X6 TC D34 mm [in.]\n\nSRD SLP A: 104 mm B: Tri-Clamp D34\nPart: SRD Slimline Density and Viscosity Meter\nOrder Code: SRD-X6-A114-B34T\n\nDIN 11851 Sanitary DN 40: This connection is mostly used for hygienic applications and easy disassembly. Common in food and beverage industries. Process connection code is: -BH40.\n\nFigure 7: Slimline SRD-X6 Hygienic DIN 11851 DN40 mm [in.]\n\nSRD SLP A: 200 mm B: DIN 11851 DN40\nPart: SRD Slimline Density and Viscosity Meter\nOrder Code: SRD-X6-A200-BH40\n\n4. Installation examples\nInstallation in Elbow Pipe: An installation in an elbow with the fluid flowing past the sensing element axially is often a recommended scenario. The SR-SLP variants are well suited for this installation since their Ø19mm diameter allows a minimum pressure drop in line.",
+      "specifications": {
+        "Tri-Clamp D34 size": "Ø34 mm",
+        "Tri-Clamp D34 equivalent standard": "ISO 1127 DN20",
+        "Process connection code (Tri-Clamp D34)": "-B34T",
+        "SRD SLP A length (Tri-Clamp D34)": "104 mm",
+        "Diagram A dimension (Tri-Clamp D34)": "104 mm [4.10 in.]",
+        "Order Code (Tri-Clamp D34 variant)": "SRD-X6-A114-B34T",
+        "Process connection code (DIN 11851 DN40)": "-BH40",
+        "SRD SLP A length (DIN 11851 DN40)": "200 mm",
+        "Diagram A dimension (DIN 11851 DN40)": "200 mm [7.87 in.]",
+        "Order Code (DIN 11851 DN40 variant)": "SRD-X6-A200-BH40",
+        "SR-SLP sensing element diameter": "Ø19 mm"
+      },
+      "key_facts": [
+        "Tri-Clamp D34 is used for hygienic installations in food, pharmaceutical, and other industries.",
+        "The SRD-X6 product can be ordered with Tri-Clamp sizes from Ø34 mm (equivalent to ISO 1127 DN20) upwards.",
+        "The process connection code for the Tri-Clamp D34 configuration is -B34T.",
+        "The DIN 11851 Sanitary DN 40 connection is commonly used in food and beverage industries for its hygienic applications and ease of disassembly.",
+        "The process connection code for the DIN 11851 Sanitary DN 40 configuration is -BH40.",
+        "Installation of the SR-SLP sensing element axially in an elbow pipe is a recommended scenario.",
+        "SR-SLP variants are well-suited for elbow pipe installations due to their Ø19mm diameter, which allows for minimum pressure drop."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "104",
+        "A: [4.10]",
+        "B: Tri-Clamp D34 - DN20",
+        "Figure 6: Slimline SRD-X6 TC D34 mm [in.]",
+        "200",
+        "A: [7.87]",
+        "B: DIN 11851 DN40",
+        "Figure 7: Slimline SRD-X6 Hygienic DIN 11851 DN40 mm [in.]"
+      ],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1132,
+        "cost_usd": 0.0029698
+      },
+      "source_file": "200_SRD-X6_SLP_Slimline_Process_Density_meter.pdf"
+    },
+    {
+      "page_summary": "This page provides installation examples, product codes, and operational guidelines for Rheonics SRD-X6 Slimline density and viscosity meters in various reactor and inline configurations.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRD-X6",
+        "SRD Slimline Density and Viscosity Meter",
+        "SRD_SLP probes",
+        "Rheonics Slimline Probe",
+        "SRD-X6-A110-BH40",
+        "SRD-X6-A200-BH40",
+        "SRD-X6-A168-BI25"
+      ],
+      "extracted_text": "Figure 8: Slimline SRD-X6 double jacketed elbow installation mm [in.]\n\nSRD SLP A: 200 mm B: DIN 11851 DN40\n\n| Part | Order Code |\n| :---------------------------------- | :------------- |\n| SRD Slimline Density and Viscosity Meter | SRD-X6-A200-BH40 |\n\nInstallation in small reactor: Small metal or glass reactors can have limited space and requires the use of small process connections. The SRD-X6 can be used in these conditions to measure density, viscosity and temperature inline as in the next example, using an Ingold DN25 connection for installation on the lid. We do not recommend use or SRD_SLP probes when bubbles and inhomogeneity is expected in the fluid due to the mixing stator or fluid conditions. Seek advise from Rheonics Application Engineering team on your fluid and application if you expect to use the sensors where fluid or operational conditions can cause bubbles in flow or inhomogeneity due to movement of fluid.\n\nFigure 9: Slimline SRD-X6 glass bioreactor installation example\n\n5. How to order the Rheonics Slimline Probe?",
+      "specifications": {
+        "diameter_1": "56 mm [2.20 in.]",
+        "diameter_2": "38 mm [1.51 in.]",
+        "length_a": "110 mm [4.33 in.]",
+        "SRD_SLP_A_length": "200 mm",
+        "SRD_SLP_B_connection": "DIN 11851 DN40"
+      },
+      "key_facts": [
+        "The SRD-X6 can be installed in a double-jacketed elbow.",
+        "The SRD-X6 can be used in small metal or glass reactors with limited space and small process connections.",
+        "The SRD-X6 measures density, viscosity, and temperature.",
+        "An Ingold DN25 connection can be used for installing the SRD-X6 on a reactor lid.",
+        "Rheonics Application Engineering team should be consulted if bubbles or inhomogeneity are expected in the fluid.",
+        "The page introduces the question of how to order the Rheonics Slimline Probe."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "Recommended flow direction",
+        "SRD-X6-A110-BH40",
+        "SRD-X6-A168-BI25",
+        "Ingold Nut",
+        "Ingold welded adapter DN25",
+        "Glass Reactor"
+      ],
+      "warnings_notes": [
+        "We do not recommend use of SRD-X6 or SRD_SLP probes when bubbles and inhomogeneity is expected in the fluid due to the mixing stator or fluid conditions.",
+        "Seek advise from Rheonics Application Engineering team on your fluid and application if you expect to use the sensors where fluid or operational conditions can cause bubbles in flow or inhomogeneity due to movement of fluid."
+      ],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 864,
+        "cost_usd": 0.0022998
+      },
+      "source_file": "200_SRD-X6_SLP_Slimline_Process_Density_meter.pdf"
+    },
+    {
+      "page_summary": "This page details how to order Rheonics long insertion density and viscosity meters using a structured product code, outlining options for sensor type, probe configuration, insertion depth, and process connections, and provides relevant external references.",
+      "document_type": "datasheet",
+      "product_names": [
+        "Rheonics long insertion density and viscosity meter",
+        "SRD (Inline Density and Viscosity meter)",
+        "SRV (Inline Viscometer)"
+      ],
+      "extracted_text": "How to Order Rheonics long insertion density and viscosity meter\n\nCode Form: SR_ - X6 - A__ - B__\nExample: SRD - X6 - A140 - B34N\n\n1 Rheonics SR-Type sensor\nSRD: Inline Density and Viscosity meter\nSRV: Inline Viscometer\n\n3 Insertion Depth - \"A\"\nDefined by client. Distance from sensor connection to sensor tip. Probe wetted zone.\n\n2 Process Connection Configuration\n\n4 Process Connection \"B\"\nDefined by client. Common connections are: 3/4\" NPT, 1\" NPT, Tri Clamp DN34, 1.5\", G 1\". Ask Rheonics Sales Team for availability of connections. Some codes defined by Rheonics:\n\nX6: Slimline Probe Variant - SLP. Probe variant with Ø19 mm body.\n\nB34N: 3/4\" NPT\nB11N: 1\" NPT\nB15T: 1.5\" Tri Clamp\n\nThe appropriate RFQ page for SRD density and viscosity meter (https://rheonics.com/request-for-quotation/srd/) should be used to configure other options of the sensor, like viscosity range, calibration accuracy, pressure rating, etc.\n\nReferences:\n[1]: Ingold Process Analytics (https://www.mt.com/ph/en/home/products/Process-Analytics/ingold-process-analytics.html)\n[2]: Rheonics SRD » Density Meter inline online specific gravity concentration (https://rheonics.com/products/inline-density-meter-srd/)\n[3]: SRD Density Meter Installation (https://support.rheonics.com/en/support/solutions/folders/81000297659)\n[4]: Rheonics whitepapers: Viscometer and density meter (https://rheonics.com/whitepapers/)",
+      "specifications": {
+        "Probe body diameter": "Ø19 mm",
+        "Common process connection options": "3/4\" NPT, 1\" NPT, Tri Clamp DN34, 1.5\", G 1\"",
+        "Process connection code B34N": "3/4\" NPT",
+        "Process connection code B11N": "1\" NPT",
+        "Process connection code B15T": "1.5\" Tri Clamp"
+      },
+      "key_facts": [
+        "Rheonics offers SRD for inline density and viscosity measurement, and SRV for inline viscometry.",
+        "The X6 code specifies a Slimline Probe Variant (SLP) with a 19 mm body diameter.",
+        "Insertion Depth ('A') is client-defined, referring to the distance from the sensor connection to the sensor tip, which is the probe wetted zone.",
+        "Process Connection ('B') is client-defined, with common options including 3/4\" NPT, 1\" NPT, Tri Clamp DN34, 1.5\", and G 1\".",
+        "Additional sensor options, such as viscosity range, calibration accuracy, and pressure rating, are configured via the SRD density and viscosity meter RFQ page."
+      ],
+      "diagram_labels": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "warnings_notes": [
+        "Ask Rheonics Sales Team for availability of connections.",
+        "The appropriate RFQ page for SRD density and viscosity meter (https://rheonics.com/request-for-quotation/srd/) should be used to configure other options of the sensor, like viscosity range, calibration accuracy, pressure rating, etc."
+      ],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 970,
+        "cost_usd": 0.0025648
+      },
+      "source_file": "200_SRD-X6_SLP_Slimline_Process_Density_meter.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

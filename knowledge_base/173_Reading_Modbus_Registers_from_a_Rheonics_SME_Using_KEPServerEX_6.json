@@ -1,0 +1,758 @@
+{
+  "source_file": "173_Reading_Modbus_Registers_from_a_Rheonics_SME_Using_KEPServerEX_6.pdf",
+  "total_pages": 15,
+  "chunks": [
+    {
+      "page_summary": "This page provides an overview and initial steps for reading Modbus registers from Rheonics Smart Module Electronics (SME) using the KEPServerEX 6 industrial connectivity platform.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SME",
+        "KEPServerEX 6",
+        "Rheonics viscosity and density sensors",
+        "Modbus",
+        "Modbus TCP"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nReading Modbus Registers from a Rheonics SME Using KEPserverEX 6\n\nModified on: Thu, 2 Jan, 2025 at 8:51 PM\n\n1. Overview\nKEPServerEX is an industrial connectivity platform that bridges industrial devices with control systems. For Rheonics viscosity and density sensors, the included Smart Module Electronics (SME) (https://rheonics.com/electronics-and-communication/) enables communication across major protocols, including Modbus, facilitating the integration with customer hardware and needs. This article will walk through setting up KEPServerEX 6 to read Modbus input registers from Rheonics sensors.\nKEPSeverEX 6 can be downloaded from its official website (https://www.kepserverexopc.com/) as a 100% functional demo.\n\nFigure 1. KEPServer Diagram. Image Sourced from Kepware Website\n\n2. Rheonics SME: Modbus TCP\nThe Rheonics SME offers Modbus TCP over an Ethernet interface. The Modbus protocol provides client/server communication between devices connected on an Ethernet network. As shown in Figure 2, an SME (Modbus Server) connected to a network with several Modbus clients is able to send process and",
+      "specifications": {},
+      "key_facts": [
+        "KEPServerEX is an industrial connectivity platform designed to bridge industrial devices with control systems.",
+        "Rheonics viscosity and density sensors utilize Smart Module Electronics (SME) for communication across major protocols, including Modbus.",
+        "The document aims to guide users through setting up KEPServerEX 6 to read Modbus input registers from Rheonics sensors.",
+        "A 100% functional demo of KEPServerEX 6 is available for download from its official website (https://www.kepserverexopc.com/).",
+        "Rheonics SME supports Modbus TCP communication via an Ethernet interface.",
+        "The Modbus protocol enables client/server communication for devices on an Ethernet network.",
+        "An SME configured as a Modbus Server can transmit process data to multiple Modbus clients."
+      ],
+      "diagram_labels": [
+        "Figure 1. KEPServer Diagram.",
+        "ex"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 634,
+        "cost_usd": 0.0017248
+      },
+      "source_file": "173_Reading_Modbus_Registers_from_a_Rheonics_SME_Using_KEPServerEX_6.pdf"
+    },
+    {
+      "page_summary": "This page details the setup of Modbus TCP communication for Rheonics SME devices, including a network diagram and instructions for configuring the device and network using RCP software via USB or Ethernet.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SME",
+        "KEPServerEx",
+        "KEPServer",
+        "RCP software",
+        "rheonics sme-004"
+      ],
+      "extracted_text": "status data upon request to multiple clients such as PLCs, HMIs, and more.\n\nFigure 2. Modbus TCP Communication illustrates a network setup where a Rheonics SME-004 device, acting as a Modbus TCP Server, is connected via an Ethernet switch to two Modbus TCP Clients. Client 1 is depicted as a generic laptop, and Client 2 is a server rack running KEPserverEx. The Rheonics SME-004 device itself has labels for power inputs (24 V dc +, gnd -), Modbus (RS485), status indicators (power, sensor, comm. C, data, display, SD-card, reset), and output/input terminals (ch-1 out-put, loop-t, gnd, ch-1 in+, ch-2 in+, dts +, dts -).\n\nKEPServer can be a viable solution for building a centralized data management system, as well as providing protocol conversion from Modbus to OPC, MQTT, or other industry-standard protocols.\n\n3. Setting up the Ethernet Network\n\nThe first step is to successfully connect the Rheonics SME to the KEPserver Ethernet network. This involves not only creating a physical connection but also ensuring proper communication by configuring both devices on the same subnet. The exact network topology will depend on the use case and customer requirements.\n\n3.1 Network Configuration on Rheonics SME\n\nThe Rheonics SME can be configured with the RCP software; to aid the user, Rheonics Support Portal - RCP (https://support.rheonics.com/en/support/solutions/folders/81000211411) provides several articles about minimum requirements, installing the software and most importantly: Running the RCP Program (https://support.rheonics.com/en/support/solutions/articles/81000297177-running-the-rcp-program); there are two options for this: USB or Ethernet communication, both of which are described on the article.\n\nRegardless of the communication method used, the network configuration remains the same. The detailed configuration procedure can be found at: Connecting to your SME using ethernet (https://support.rheonics.com/en/support/solutions/articles/81000397449-verifying-the-network-setup-on-the-pc-where-the-rcp-software-is-installed)",
+      "specifications": {},
+      "key_facts": [
+        "KEPServer provides centralized data management and protocol conversion from Modbus to OPC, MQTT, or other industry-standard protocols.",
+        "Successful connection of the Rheonics SME to the KEPserver Ethernet network requires both a physical connection and proper configuration of devices on the same subnet.",
+        "The network topology for Rheonics SME will vary based on specific use case and customer requirements.",
+        "The Rheonics SME is configurable using the RCP software.",
+        "The Rheonics Support Portal - RCP offers resources including minimum requirements, software installation, and instructions for running the RCP Program.",
+        "Configuration of the Rheonics SME can be done via USB or Ethernet communication.",
+        "The network configuration remains consistent regardless of the chosen communication method (USB or Ethernet).",
+        "A detailed procedure for connecting to the SME via Ethernet and verifying network setup is available on the Rheonics support portal."
+      ],
+      "diagram_labels": [
+        "Modbus TCP Server",
+        "rheonics sme-004",
+        "24 V dc +",
+        "gnd -",
+        "modbus A (RS485) b",
+        "power",
+        "sensor",
+        "comm. C",
+        "data",
+        "display",
+        "SD-card",
+        "reset",
+        "ch-1 out-put",
+        "loop-t",
+        "gnd",
+        "ch-1 in+",
+        "ch-2 in+",
+        "dts +",
+        "dts -",
+        "Modbus TCP Client 1",
+        "Modbus TCP Client 2 KEPserverEx",
+        "Figure 2. Modbus TCP Communication"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1030,
+        "cost_usd": 0.0027148
+      },
+      "source_file": "173_Reading_Modbus_Registers_from_a_Rheonics_SME_Using_KEPServerEX_6.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions for configuring network settings and creating a Modbus TCP/IP Ethernet channel within KEPServerEX software for connection with an SME (Smart Manufacturing Environment) device.",
+      "document_type": "manual",
+      "product_names": [
+        "KEPServer",
+        "KEPServerEX",
+        "SME"
+      ],
+      "extracted_text": "3.2 Network Configuration on KEPServer\n\nThe KEPServer must be on the same local network as the SME. This procedure is well documented on the first part of the following article: Connecting to your SME using ethernet (https://support.rheonics.com/en/support/solutions/articles/81000397449-verifying-the-network-setup-on-the-pc-where-the-rcp-software-is-installed)\n\n4. KEPServerEX Settings\n\nIn KEPServerEX, setting up a Modbus connection involves several steps. It begins by creating a communication channel that defines the data path. Next, a Modbus device is added to this channel with the appropriate network settings. Finally, tags are configured to read specific Input Registers from the SME which then can be used for data logging, monitoring, or integrating with other applications.\n\nUsually, the default settings in KEPServerEX are correct; the general recommendation is that if the user is not sure about any parameters or settings, it's best to leave them at their default values. If needed, the settings can be modified later.\n\n4.1 Creating a Modbus Channel\n\nCreate a New KEPServerEX project or open an existing one. Start by creating a Modbus Channel, see Figure 3. Select the option Modbus TCP/IP Ethernet.",
+      "specifications": {},
+      "key_facts": [
+        "The KEPServer must be on the same local network as the SME.",
+        "Setting up a Modbus connection in KEPServerEX involves creating a communication channel, adding a Modbus device, and configuring tags.",
+        "Tags are configured to read specific Input Registers from the SME.",
+        "Configured tags can be used for data logging, monitoring, or integrating with other applications.",
+        "Default settings in KEPServerEX are generally correct, and it is recommended to leave them at their default values if unsure.",
+        "KEPServerEX settings can be modified later if needed.",
+        "To create a Modbus Channel, one must create a new KEPServerEX project or open an existing one.",
+        "The 'Modbus TCP/IP Ethernet' option must be selected when creating a channel."
+      ],
+      "diagram_labels": [
+        "[Connected to Runtime] - KEPServerEX 6 Configuration",
+        "File",
+        "Edit",
+        "View",
+        "Tools",
+        "Runtime",
+        "Help",
+        "Project",
+        "Connectivity",
+        "Click to add a channel.",
+        "Aliases",
+        "Advanced Tags",
+        "Alarms & Events",
+        "Add Area...",
+        "Data Logger",
+        "Add Log Group...",
+        "EFM Exporter",
+        "Add Poll Group...",
+        "IDF for Splunk",
+        "Add Splunk Connection...",
+        "IoT Gateway",
+        "Add Agent...",
+        "Local Historian",
+        "Add Datastore...",
+        "Profile Library",
+        "Add Profile...",
+        "Scheduler",
+        "Add Schedule...",
+        "SNMP Agent",
+        "Add Agent...",
+        "Channel Name",
+        "Driver",
+        "Connection",
+        "Sharing",
+        "Click to add a channel.",
+        "Add Channel Wizard",
+        "Select the type of channel to be created:",
+        "Modbus TCP/IP Ethernet",
+        "Next",
+        "Cancel"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 880,
+        "cost_usd": 0.0023398
+      },
+      "source_file": "173_Reading_Modbus_Registers_from_a_Rheonics_SME_Using_KEPServerEX_6.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions for configuring a Modbus Channel, specifically demonstrating the selection of a network adapter within a software wizard and providing further setup instructions.",
+      "document_type": "manual",
+      "product_names": [
+        "KEPServer",
+        "ASIX AX88179 USB 3.0 to Gigabit Ethernet Adapter"
+      ],
+      "extracted_text": "Figure 3. Creating a Modbus Channel\nMake sure to select the correct Network Adapter for the Ethernet Network.\n\nAdd Channel Wizard\nSpecify the name of a network adapter to bind or allow the OS to select the default.\nNetwork Adapter:\nASIX AX88179 USB 3.0 to Gigabit Ethernet Adapter\nNext\nCancel\n\nFigure 4. Network Adapter Selection\nAccept all the default values suggested by KEPServer. Press Finish to add the Modbus Channel",
+      "specifications": {},
+      "key_facts": [
+        "The page details the process of creating a Modbus Channel.",
+        "It emphasizes the importance of selecting the correct Network Adapter for the Ethernet Network.",
+        "A wizard interface named 'Add Channel Wizard' is used for the configuration.",
+        "The example network adapter shown is 'ASIX AX88179 USB 3.0 to Gigabit Ethernet Adapter'.",
+        "Default values suggested by 'KEPServer' should be accepted for the Modbus Channel setup.",
+        "The Modbus Channel is added by pressing 'Finish' after accepting default values."
+      ],
+      "diagram_labels": [
+        "Figure 3. Creating a Modbus Channel",
+        "Add Channel Wizard",
+        "Specify the name of a network adapter to bind or allow the OS to select the default.",
+        "Network Adapter:",
+        "ASIX AX88179 USB 3.0 to Gigabit Ethernet Adapter",
+        "Next",
+        "Cancel",
+        "Figure 4. Network Adapter Selection"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 452,
+        "cost_usd": 0.0012698
+      },
+      "source_file": "173_Reading_Modbus_Registers_from_a_Rheonics_SME_Using_KEPServerEX_6.pdf"
+    },
+    {
+      "page_summary": "This page displays the configuration settings of an 'Add Channel Wizard' and provides instructions on how to add multiple Rheonics sensors to a single channel and how to name new devices.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics sensors",
+        "SME"
+      ],
+      "extracted_text": "Add Channel Wizard\n\nIdentification\nName: ModbusChannel\nDescription:\nDriver: Modbus TCP/IP Ethernet\nDiagnostics\nDiagnostics Capture: Disable\nTag Counts\nStatic Tags: 0\nEthernet Settings\nNetwork Adapter: ASIX AX88179 USB 3.0 to Gigabit Ethernet\nWrite Optimizations\nOptimization Method: Write Only Latest Value for All Tags\nDuty Cycle: 10\nNon-Normalized Float Handling\nFloating-Point Values: Replace with Zero\nChannel-Level Settings\nVirtual Network: None\nTransactions per Cycle: 1\nGlobal Settings\nNetwork Mode: Load Balanced\nSocket Usage\nSocket Utilization: One or More Sockets per Device\nFinish Cancel\n\nFigure 5. End of Channel Configuration\n\nCreate as many channels as needed but take into account that multiple devices can also be added to a single channel. If the user needs to retrieve data from several Rheonics sensors, they can all be added to the same channel if they share compatible communication settings.\n\n4.2 Adding a New Device: SME\n\nAdd a new device, which in this example will be named \"SME.\" Choose a device name that makes sense, such as the sensor's serial number, especially if multiple devices will be added.",
+      "specifications": {
+        "Name": "ModbusChannel",
+        "Driver": "Modbus TCP/IP Ethernet",
+        "Diagnostics Capture": "Disable",
+        "Static Tags": "0",
+        "Network Adapter": "ASIX AX88179 USB 3.0 to Gigabit Ethernet",
+        "Optimization Method": "Write Only Latest Value for All Tags",
+        "Duty Cycle": "10",
+        "Floating-Point Values": "Replace with Zero",
+        "Virtual Network": "None",
+        "Transactions per Cycle": "1",
+        "Network Mode": "Load Balanced",
+        "Socket Utilization": "One or More Sockets per Device"
+      },
+      "key_facts": [
+        "Users can create multiple channels as needed for data retrieval.",
+        "Multiple devices can be added to a single channel.",
+        "Several Rheonics sensors can be added to the same channel if they share compatible communication settings.",
+        "When adding a new device, it is recommended to choose a device name that makes sense, such as the sensor's serial number.",
+        "The example name for a new device is \"SME\"."
+      ],
+      "diagram_labels": [
+        "Add Channel Wizard",
+        "Identification",
+        "Diagnostics",
+        "Tag Counts",
+        "Ethernet Settings",
+        "Write Optimizations",
+        "Non-Normalized Float Handling",
+        "Channel-Level Settings",
+        "Global Settings",
+        "Socket Usage",
+        "Finish",
+        "Cancel",
+        "Figure 5. End of Channel Configuration"
+      ],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 753,
+        "cost_usd": 0.0020223
+      },
+      "source_file": "173_Reading_Modbus_Registers_from_a_Rheonics_SME_Using_KEPServerEX_6.pdf"
+    },
+    {
+      "page_summary": "This page details the process of adding a new Modbus device using the KEPServerEX 6 Configuration software, illustrating the steps to name the device and select 'Modbus' as its communication model.",
+      "document_type": "manual",
+      "product_names": [
+        "KEPServerEX 6 Configuration"
+      ],
+      "extracted_text": "[Connected to Runtime] - KEPServerEX 6 Configuration\nFile Edit View Tools Runtime Help\n\nProject\n  Connectivity\n    ModbusChannel\n      Click to add a device.\n  Aliases\n  Advanced Tags\n  Alarms & Events\n  Add Area...\n  Data Logger\n  Add Log Group...\n  EFM Exporter\n  Add Poll Group...\n  IDF for Splunk\n  Add Splunk Connection...\n  IoT Gateway\n  Add Agent...\n  Local Historian\n  Add Datastore...\n  Profile Library\n  Add Profile...\n  Scheduler\n  Add Schedule...\n  SNMP Agent\n  Add Agent...\n\nDevice Name / Model / ID\nClick to add a device.\n\nAdd Device Wizard\nSpecify the identity of this object.\nName: SME\nNext Cancel\n\nFigure 6. Adding a New Device\n\nSelect \"Modbus\" model option for general Modbus-compatible devices.\n\nAdd Device Wizard\nSelect the specific type of device associated with this ID. Options depend on the type of communications in use.\nModel: Modbus\nNext Cancel\n\nFigure 7. Modbus as Type of Device",
+      "specifications": {},
+      "key_facts": [
+        "The KEPServerEX 6 Configuration software is used to manage and add devices.",
+        "New devices are added under a 'ModbusChannel' in the 'Connectivity' section.",
+        "An 'Add Device Wizard' guides the user through the device addition process.",
+        "Users must specify a name for the new device (e.g., 'SME').",
+        "The 'Modbus' model option should be selected for general Modbus-compatible devices.",
+        "The type of communication chosen dictates the available options for the device model."
+      ],
+      "diagram_labels": [
+        "Device Name",
+        "Model",
+        "ID",
+        "Add Device Wizard",
+        "Specify the identity of this object.",
+        "Name:",
+        "SME",
+        "Next",
+        "Cancel",
+        "Figure 6. Adding a New Device",
+        "Select the specific type of device associated with this ID. Options depend on the type of communications in use.",
+        "Model:",
+        "Modbus",
+        "Figure 7. Modbus as Type of Device",
+        "Project",
+        "Connectivity",
+        "ModbusChannel",
+        "Click to add a device.",
+        "Aliases",
+        "Advanced Tags",
+        "Alarms & Events",
+        "Add Area...",
+        "Data Logger",
+        "Add Log Group...",
+        "EFM Exporter",
+        "Add Poll Group...",
+        "IDF for Splunk",
+        "Add Splunk Connection...",
+        "IoT Gateway",
+        "Add Agent...",
+        "Local Historian",
+        "Add Datastore...",
+        "Profile Library",
+        "Add Profile...",
+        "Scheduler",
+        "Add Schedule...",
+        "SNMP Agent",
+        "Add Agent..."
+      ],
+      "warnings_notes": [],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 798,
+        "cost_usd": 0.0021347999999999996
+      },
+      "source_file": "173_Reading_Modbus_Registers_from_a_Rheonics_SME_Using_KEPServerEX_6.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions and critical information regarding the configuration of Modbus Device IDs and Modbus Port settings for Rheonics SME devices.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SME",
+        "KEPserver"
+      ],
+      "extracted_text": "Device IDs are specified as <HOST>.XXX. For this case HOST is the SME's IP address. XXX is the Modbus Bridge Index, a number from 0 to 255. Since KEPserver and the SME are directly connected via Ethernet, the Modbus Bridge Index should be set to 0.\n\n[Add Device Wizard UI]\nAdd Device Wizard\nSpecify the device's driver-specific station or node.\nID:\n<192.168.3.6>.0\nNext\nCancel\n\nFigure 8. Device Modbus ID\n\nFor Rheonics SME, the Modbus Port is 502. It cannot be changed by the user. If a different port is needed, contact Rheonics Support.",
+      "specifications": {
+        "Modbus Bridge Index range": "0 to 255",
+        "Modbus Bridge Index (direct Ethernet)": "0",
+        "Rheonics SME Modbus Port": "502"
+      },
+      "key_facts": [
+        "Device IDs are specified as <HOST>.XXX, where HOST is the SME's IP address and XXX is the Modbus Bridge Index.",
+        "The Modbus Bridge Index is a number that can range from 0 to 255.",
+        "If KEPserver and the SME are directly connected via Ethernet, the Modbus Bridge Index must be set to 0.",
+        "The Modbus Port for Rheonics SME is fixed at 502.",
+        "The Modbus Port cannot be changed by the user."
+      ],
+      "diagram_labels": [
+        "Add Device Wizard",
+        "Specify the device's driver-specific station or node.",
+        "ID:",
+        "<192.168.3.6>.0",
+        "Next",
+        "Cancel",
+        "Figure 8. Device Modbus ID"
+      ],
+      "warnings_notes": [
+        "For Rheonics SME, the Modbus Port is 502. It cannot be changed by the user.",
+        "If a different port is needed, contact Rheonics Support."
+      ],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 565,
+        "cost_usd": 0.0015523
+      },
+      "source_file": "173_Reading_Modbus_Registers_from_a_Rheonics_SME_Using_KEPServerEX_6.pdf"
+    },
+    {
+      "page_summary": "This page displays a step in an 'Add Device Wizard' for configuring Modbus communication settings, including port number, IP protocol, and socket timeout behavior, specifically noting defaults for Rheonics Sensors.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Sensors"
+      ],
+      "extracted_text": "Add Device Wizard\nSpecify the port number that the remote device is configured to use for solicited requests. The Modbus Ethernet driver uses this port number when making solicited requests to a device.\nPort:\n502\nIndicate whether the driver should use User Datagram Protocol (UDP) or Transfer Control Protocol (TCP). The Modbus client and server settings must match.\nIP Protocol:\nTCP/IP\nEnable the driver to close a TCP socket connection if a device does not respond within the timeout. If disabled, the same socket is used until an error occurs, the physical device closes the socket, or the driver shuts down.\nClose Socket on Timeout:\nEnable\nNext\nCancel\nFigure 9. Default Port 502 for Modbus\nThe Modbus Data Access and Data Encoding Settings configurations define how data is accessed and encoded for communication with Modbus devices. These settings define address conventions, bit-level access, supported Modbus functions, and byte order. The options for Figure 10 and Figure 11 are the default values and will work for Rheonics Sensors.",
+      "specifications": {
+        "Port": "502",
+        "IP Protocol": "TCP/IP",
+        "Close Socket on Timeout": "Enable"
+      },
+      "key_facts": [
+        "The Modbus Ethernet driver uses a specified port number for solicited requests to a device.",
+        "The Modbus client and server settings for IP Protocol (UDP or TCP) must match.",
+        "The driver can be configured to close a TCP socket connection if a device does not respond within a timeout.",
+        "Modbus Data Access and Data Encoding Settings define how data is accessed and encoded for communication with Modbus devices.",
+        "These settings cover address conventions, bit-level access, supported Modbus functions, and byte order.",
+        "The depicted options (and those for Figures 10 and 11, though not shown) are default values and are compatible with Rheonics Sensors."
+      ],
+      "diagram_labels": [
+        "Add Device Wizard",
+        "Port",
+        "IP Protocol",
+        "Close Socket on Timeout",
+        "Next",
+        "Cancel",
+        "Figure 9. Default Port 502 for Modbus"
+      ],
+      "warnings_notes": [
+        "The Modbus client and server settings for IP Protocol must match.",
+        "If 'Close Socket on Timeout' is disabled, the same socket is used until an error occurs, the physical device closes the socket, or the driver shuts down."
+      ],
+      "page_num": 8,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 637,
+        "cost_usd": 0.0017323
+      },
+      "source_file": "173_Reading_Modbus_Registers_from_a_Rheonics_SME_Using_KEPServerEX_6.pdf"
+    },
+    {
+      "page_summary": "This page from an 'Add Device Wizard' allows users to configure Modbus data access settings, including addressing conventions and specific Modbus function support for a connected device.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Add Device Wizard\n\nSpecify if the address numbering convention for the device starts at zero or one. Addresses have one subtracted when frames are constructed to communicate with a Modbus device. If the device doesn't follow this convention, choose Disable.\nZero-Based Addressing:\nEnable\n\nSpecify if the first bit in a register address begins at zero or one for memory types that allow bits within words to be referenced as a Boolean.\nZero-Based Bit Addressing:\nEnable\n\nEnable if the device supports holding register bit access to manipulate only the bit of interest in a single command (as opposed to performing a Read/Modify/Write operation to manipulate a single bit).\nHolding Register Bit Writes:\nEnable\n\nEnable if the device can use Modbus functions 06 and 16 for single register writes. If the device only supports Modbus function 16, disable.\nModbus Function 06:\nEnable\n\nEnable if the device can use Modbus functions 05 and 15 for single coil writes. If the device only supports Modbus function 15, disable.\nModbus Function 05:\nEnable\n\nNext\nCancel\n\nFigure 10. Data Access Settings",
+      "specifications": {},
+      "key_facts": [
+        "Zero-Based Addressing determines if a device's address numbering convention starts at zero or one, affecting how Modbus frames are constructed.",
+        "If a Modbus device does not adhere to the zero-based addressing convention, the 'Zero-Based Addressing' setting should be disabled.",
+        "Zero-Based Bit Addressing specifies whether the first bit in a register address starts at zero or one for memory types that support Boolean bit referencing.",
+        "The 'Holding Register Bit Writes' setting should be enabled if the device allows manipulating individual bits within a holding register via a single Modbus command.",
+        "Modbus Function 06 should be enabled if the device supports both Modbus functions 06 and 16 for single register writes.",
+        "If the Modbus device exclusively supports Modbus function 16 for single register writes, Modbus Function 06 should be disabled.",
+        "Modbus Function 05 should be enabled if the device supports both Modbus functions 05 and 15 for single coil writes.",
+        "If the Modbus device exclusively supports Modbus function 15 for single coil writes, Modbus Function 05 should be disabled."
+      ],
+      "diagram_labels": [
+        "Figure 10. Data Access Settings"
+      ],
+      "warnings_notes": [
+        "If the device doesn't follow the zero-based addressing convention, choose Disable.",
+        "If the device only supports Modbus function 16 for single register writes, disable Modbus Function 06.",
+        "If the device only supports Modbus function 15 for single coil writes, disable Modbus Function 05."
+      ],
+      "page_num": 9,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 721,
+        "cost_usd": 0.0019422999999999999
+      },
+      "source_file": "173_Reading_Modbus_Registers_from_a_Rheonics_SME_Using_KEPServerEX_6.pdf"
+    },
+    {
+      "page_summary": "This page displays a software wizard interface for configuring data encoding settings for a new device, including Modbus byte order, data type conventions, and bit order.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "<- Add Device Wizard\n\nSelect Enable to use Modbus byte ordering for Modbus-compatible devices or Disable to use Intel byte ordering.\nModbus Byte Order: Enable [dropdown arrow] [question mark icon]\n\nIndicate if 32-bit data types use the convention of first word low, as in Modicon Modsoft programming software. If disabled, the first word is assumed high.\nFirst Word Low: Enable [dropdown arrow] [question mark icon]\n\nIndicate if 64-bit data types use the convention of first DWord low. If disabled, the first DWord is assumed high.\nFirst DWord Low: Enable [dropdown arrow] [question mark icon]\n\nIndicate if the bit order should be reversed on register reads and writes to follow Modicon Modsoft programming software convention. If enabled, the lowest bit becomes the Most Significant Bit (MSB).\nModicon Bit Order: Disable [dropdown arrow] [question mark icon]\n\nEncode/decode Long and DWORD data types as double-precision 64-bit unsigned decimal values. For values read above the specified range, behavior is undefined.\nTreat Longs as Decimals: Disable [dropdown arrow] [question mark icon]\n\n[Next button] [Cancel button]\n\nFigure 11. Data Encoding Settings\n\nClick Finish to end the New Device configuration.",
+      "specifications": {},
+      "key_facts": [
+        "The page is part of an 'Add Device Wizard' used for configuring a new device.",
+        "It allows users to select Modbus byte ordering for Modbus-compatible devices or Intel byte ordering.",
+        "Users can define the convention for 32-bit data types, specifically if the first word is low (Modicon Modsoft) or high.",
+        "Users can define the convention for 64-bit data types, specifically if the first DWord is low or high.",
+        "An option exists to reverse the bit order on register reads and writes to comply with Modicon Modsoft programming software, making the lowest bit the Most Significant Bit (MSB).",
+        "Long and DWORD data types are encoded/decoded as double-precision 64-bit unsigned decimal values.",
+        "The process concludes by clicking 'Finish' to complete the new device configuration."
+      ],
+      "diagram_labels": [
+        "Figure 11. Data Encoding Settings"
+      ],
+      "warnings_notes": [
+        "For values read above the specified range when treating Longs as Decimals, behavior is undefined."
+      ],
+      "page_num": 10,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 631,
+        "cost_usd": 0.0017173000000000002
+      },
+      "source_file": "173_Reading_Modbus_Registers_from_a_Rheonics_SME_Using_KEPServerEX_6.pdf"
+    },
+    {
+      "page_summary": "This page details the conclusion of a device configuration wizard for a Modbus TCP/IP Ethernet device, including communication and tag generation settings, and introduces how to create data tags using information from the Rheonics Support Portal.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "← Add Device Wizard\nX\n\n[Table/Form]\nIdentification\n  Name: SME\n  Description: \n  Driver: Modbus TCP/IP Ethernet\n  Model: Modbus\n  Channel Assignment: ModbusChannel\n  ID: <192.168.3.6>:0\nOperating Mode\n  Data Collection: Enable\n  Simulated: No\nTag Counts\n  Static Tags: 0\nScan Mode\n  Scan Mode: Respect Client-Specified Scan Rate\n  Initial Updates from Cache: Disable\nCommunication Timeouts\n  Connect Timeout (s): 3\n  Request Timeout (ms): 1000\n  Attempts Before Timeout: 3\nTiming\n  Inter-Request Delay (ms): 0\nAuto-Demotion\n  Demote on Failure: Disable\nTag Generation\n  On Device Startup: Do Not Generate on Startup\n  On Duplicate Tag: Delete on Create\n  Parent Group: All Automatically Generated Subitems...\n\nFinish Cancel\n\nFigure 12. End of New Device Configuration\n\n4.3 Creating Data Tags\n\nOnce the device has been added, the user can create as many tags as Input Registers needed. The Input Registers available are shown on Rheonics Support Portal: Modbus TCP - Input Registers (https://support.rheonics.com/en/support/solutions/articles/81000297664-modbus-tcp-input-registers). For this example, Median Viscosity (Float32) will be selected.",
+      "specifications": {
+        "Connect Timeout": "3 s",
+        "Request Timeout": "1000 ms",
+        "Attempts Before Timeout": "3",
+        "Inter-Request Delay": "0 ms",
+        "Static Tags": "0"
+      },
+      "key_facts": [
+        "The page displays the final steps of configuring a device using an 'Add Device Wizard'.",
+        "The device is configured to use 'Modbus TCP/IP Ethernet' as its driver.",
+        "Communication timeouts are set to 3 seconds for connection, 1000 milliseconds for requests, with 3 attempts before timeout.",
+        "Data collection is enabled, and the device is not simulated.",
+        "Tag generation on device startup is configured to 'Do Not Generate on Startup', and on duplicate tag to 'Delete on Create'.",
+        "Users can create data tags from 'Input Registers' found on the Rheonics Support Portal.",
+        "An example of a selected data tag is 'Median Viscosity (Float32)'."
+      ],
+      "diagram_labels": [
+        "Add Device Wizard",
+        "Identification",
+        "Operating Mode",
+        "Tag Counts",
+        "Scan Mode",
+        "Communication Timeouts",
+        "Timing",
+        "Auto-Demotion",
+        "Tag Generation",
+        "Finish",
+        "Cancel"
+      ],
+      "warnings_notes": [],
+      "page_num": 11,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 762,
+        "cost_usd": 0.0020448
+      },
+      "source_file": "173_Reading_Modbus_Registers_from_a_Rheonics_SME_Using_KEPServerEX_6.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions on configuring data tags for viscosity measurements within a software interface, detailing data type selection, address assignment, and tag management through import/export functions.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics viscometers",
+        "Rheonics density sensors"
+      ],
+      "extracted_text": "Figure 13. Data Tags Creation\n\n[Software UI - Left Navigation Tree]\nProject\n  Connectivity\n    ChannelModbus\n      SME\n  Aliases\n  Advanced Tags\n  Alarms & Events\n    Add Area...\n  Data Logger\n    Add Log Group...\n  EFM Exporter\n    Add Poll Group...\n  IDF\n  IDF for Splunk\n    Add Splunk Connection...\n  IoT Gateway\n    Add Agent...\n  Local Historian\n    Add Datastore...\n  Profile Library\n    Add Profile...\n  Scheduler\n    Add Schedule...\n  SNMP Agent\n    Add Agent...\n\n[Software UI - Right Panel]\nTag Name\tAddress\tData Type\nClick to add a static tag. Tags are not required, but are browsable by OPC clients.\n\nMake sure to set the correct address and select the appropriate data type for Viscosity, as shown in Figure 14. Rheonics input registers use two data types: Float32 and SInt16. For Float32, choose \"Float\" as the data type; for SInt16, select \"Word.\"\n\nFigure 14. New Data Tag Configuration\n\n[Software UI - Property Editor Window: ChannelModbus.SME]\n\nProperty Groups:\n  General\n  Scaling\n\nIdentification:\n  Name: Viscosity\n  Description: \n\nData Properties:\n  Address: 300040\n  Data Type: Float\n  Client Access: Read Only\n  Scan Rate (ms): 100\n\n[Buttons at bottom]\nDefaults\tOK\tCancel\tHelp\n\nIt's possible to import and export CSV files to manage predefined tags. By pressing Export, users can save the currently created tags as a backup. Pressing Import allows users to add new tags from the imported file.",
+      "specifications": {
+        "Address": "300040",
+        "Data Type (for Float32)": "Float",
+        "Data Type (for SInt16)": "Word",
+        "Client Access": "Read Only",
+        "Scan Rate": "100 ms"
+      },
+      "key_facts": [
+        "Data tags are not strictly required but make data browsable by OPC clients.",
+        "Rheonics input registers primarily use two data types: Float32 and SInt16.",
+        "When configuring a Float32 data type, 'Float' should be selected in the software.",
+        "When configuring an SInt16 data type, 'Word' should be selected in the software.",
+        "The example configuration for Viscosity uses Address 300040, Float data type, Read Only client access, and a 100 ms scan rate.",
+        "The software allows for importing and exporting CSV files to manage predefined tags.",
+        "Exporting tags provides a backup mechanism for existing tag configurations.",
+        "Importing tags enables users to add new tag definitions from a file."
+      ],
+      "diagram_labels": [
+        "Project",
+        "Connectivity",
+        "ChannelModbus",
+        "SME",
+        "Aliases",
+        "Advanced Tags",
+        "Alarms & Events",
+        "Add Area...",
+        "Data Logger",
+        "Add Log Group...",
+        "EFM Exporter",
+        "Add Poll Group...",
+        "IDF",
+        "IDF for Splunk",
+        "Add Splunk Connection...",
+        "IoT Gateway",
+        "Add Agent...",
+        "Local Historian",
+        "Add Datastore...",
+        "Profile Library",
+        "Add Profile...",
+        "Scheduler",
+        "Add Schedule...",
+        "SNMP Agent",
+        "Add Agent...",
+        "Tag Name",
+        "Address",
+        "Data Type",
+        "Scan Rate",
+        "Click to add a static tag",
+        "Property Editor - ChannelModbus.SME",
+        "Property Groups",
+        "General",
+        "Scaling",
+        "Identification",
+        "Name",
+        "Viscosity",
+        "Description",
+        "Data Properties",
+        "Client Access",
+        "Read Only",
+        "Scan Rate (ms)",
+        "Defaults",
+        "OK",
+        "Cancel",
+        "Help",
+        "Float"
+      ],
+      "warnings_notes": [
+        "Tags are not required, but are browsable by OPC clients."
+      ],
+      "page_num": 12,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1117,
+        "cost_usd": 0.0029322999999999997
+      },
+      "source_file": "173_Reading_Modbus_Registers_from_a_Rheonics_SME_Using_KEPServerEX_6.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions and visual aids for configuring data tags for Rheonics' viscosity, temperature, and density parameters within the KEPServerEX software environment, utilizing CSV file import.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics",
+        "KEPServer"
+      ],
+      "extracted_text": "File Edit View Tools Runtime Help\n\nProject\n  Connectivity\n    ChannelModbus\n      SME\n        New Tag Group\n        New Tag\n        Import CSV...\n        Export CSV...\n        Cut Ctrl+X\n        Copy Ctrl+C\n        Delete Del\n        Diagnostics\n        Launch Quick Client Here\n        Properties...\n  Aliases\n  Advanced Tags\n  Alarms & Events\n    Add Area...\n  Data Logger\n    Add Log Group...\n  EFM Exporter\n    Add Poll Group...\n  IDF for Splunk\n    Add Splunk Connection...\n  IoT Gateway\n    Add Agent...\n  Local Historian\n    Add Datastore...\n  Profile Library\n    Add Profile...\n  Scheduler\n    Add Schedule...\n  SNMP Agent\n    Add Agent...\n\nTag Name | Address | Data Type | Scan Rate | Scaling | Description\nClick to add a static tag. Tags are not required, but are browsable by OPC clients.\n\nFigure 15. Importing Tags from CSV File\n\nFigure 16 shows the tags for viscosity, temperature, and density, created for both Float and Int16 data types by importing a CSV file (SME.csv). This CSV file contains predefined configurations for the three main Rheonics parameters and will work with KEPServer's default configuration settings or if the article's guidelines are followed.\n\nTag Name | Address | Data Type | Scan Rate | Scaling | Description\nDensity_Median_Float | 300048 | Float | 100 | None | Parameter 1 Float\nDensity_Median_Scaled_Int16 | 300051 | Word | 100 | None | Parameter 1 Scaled\nTemperature_Median_Float | 300056 | Float | 100 | None | Parameter 2 Float\nTemperature_Median_Scaled_Int16 | 300059 | Word | 100 | None | Parameter 2 Scaled\nViscosity_Median_Float | 300040 | Float | 100 | None | Parameter 0 Float\nViscosity_Median_Scaled_Int16 | 300043 | Word | 100 | None | Parameter 0 Scaled\n\nFigure 16. Tags Created on KEPServer",
+      "specifications": {
+        "Scan Rate": "100 [polling rate]"
+      },
+      "key_facts": [
+        "KEPServerEX is used to manage data tags for Rheonics parameters.",
+        "The data tags include viscosity, temperature, and density measurements.",
+        "Tags are configured for both Float and Int16 data types.",
+        "Tag configurations can be imported from an SME.csv file.",
+        "The SME.csv file contains predefined configurations for Rheonics parameters.",
+        "Configured tags are accessible and browsable by OPC clients.",
+        "The system can operate with KEPServer's default settings if specific guidelines are met."
+      ],
+      "diagram_labels": [
+        "File",
+        "Edit",
+        "View",
+        "Tools",
+        "Runtime",
+        "Help",
+        "Project",
+        "Connectivity",
+        "ChannelModbus",
+        "SME",
+        "Aliases",
+        "Advanced Tags",
+        "Alarms & Events",
+        "Add Area...",
+        "Data Logger",
+        "Add Log Group...",
+        "EFM Exporter",
+        "Add Poll Group...",
+        "IDF for Splunk",
+        "Add Splunk Connection...",
+        "IoT Gateway",
+        "Add Agent...",
+        "Local Historian",
+        "Add Datastore...",
+        "Profile Library",
+        "Add Profile...",
+        "Scheduler",
+        "Add Schedule...",
+        "SNMP Agent",
+        "Add Agent...",
+        "New Tag Group",
+        "New Tag",
+        "Import CSV...",
+        "Export CSV...",
+        "Cut",
+        "Copy",
+        "Delete",
+        "Diagnostics",
+        "Launch Quick Client Here",
+        "Properties...",
+        "Tag Name",
+        "Address",
+        "Data Type",
+        "Scan Rate",
+        "Scaling",
+        "Description",
+        "Density_Median_Float",
+        "Density_Median_Scaled_Int16",
+        "Temperature_Median_Float",
+        "Temperature_Median_Scaled_Int16",
+        "Viscosity_Median_Float",
+        "Viscosity_Median_Scaled_Int16",
+        "Parameter 1 Float",
+        "Parameter 1 Scaled",
+        "Parameter 2 Float",
+        "Parameter 2 Scaled",
+        "Parameter 0 Float",
+        "Parameter 0 Scaled"
+      ],
+      "warnings_notes": [
+        "Tags are not required, but are browsable by OPC clients.",
+        "The configuration will work with KEPServer's default configuration settings or if the article's guidelines are followed (implying potential issues if guidelines are not followed)."
+      ],
+      "page_num": 13,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1253,
+        "cost_usd": 0.0032722999999999997
+      },
+      "source_file": "173_Reading_Modbus_Registers_from_a_Rheonics_SME_Using_KEPServerEX_6.pdf"
+    },
+    {
+      "page_summary": "This page describes how to use KEPserverEX Quick Client for verifying sensor tag configurations and provides a troubleshooting guide for Rheonics sensors' common electronics, probe, and communication issues.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics",
+        "KEPserverEX",
+        "Rheonics Sensors",
+        "RCP software",
+        "SME"
+      ],
+      "extracted_text": "4.4 QuickClient\n\nThe Quick Client in KEPserverEX is a tool used to test and monitor the tags that the user has configured. It allows users to verify if the setup process was successful. To access it, select the Quick Client option from the navigation bar. A new window will open with several options.\n\nWhen clicking <Channel Name>.<Device>, the tags that were created will be displayed. If live data for the configured registers appears and is continuously updating, it indicates that the configuration is correct and that the data type and input registers are properly set up.\n\nKEPserverEX Interface Elements:\n- Project (tree view)\n  - Connectivity\n    - ChannelModbus\n      - SME\n  - Aliases\n  - Advanced Tags\n  - Alarms & Events\n  - Add Area...\n  - Data Logger\n    - Add Log Group...\n    - Add Poll Group...\n  - IDF for Splunk\n    - Add Splunk Connection...\n  - IoT Gateway\n    - Add Agent...\n    - Local Historian\n    - Add Datastore...\n    - Profile Library\n    - Add Profile...\n  - Scheduler\n    - Add Schedule...\n  - SNMP Agent\n    - Add Agent...\n\nKEPserverEX Tag Configuration Table:\n| Tag Name                        | Address | Data Type | Scan Rate | Scaling | Description      |\n|---------------------------------|---------|-----------|-----------|---------|------------------|\n| Density_Median_Float            | 300048  | Float     | 100       | None    | Parameter 1 Float|\n| Density_Median_Scaled_Int16     | 300051  | Word      | 100       | None    | Parameter 1 Scaled|\n| Temperature_Median_Float        | 300056  | Float     | 100       | None    | Parameter 2 Float|\n| Temperature_Median_Scaled_Int16 | 300059  | Word      | 100       | None    | Parameter 2 Scaled|\n| Viscosity_Median_Float          | 300040  | Float     | 100       | None    | Parameter 0 Float|\n| Viscosity_Median_Scaled_Int16   | 300043  | Word      | 100       | None    | Parameter 0 Scaled|\n\nOPC Quick Client - Untitled* Live Data Table:\n| Item ID                                   | Data Type | Value      | Timestamp    | Quality |\n|-------------------------------------------|-----------|------------|--------------|---------|\n| ChannelModbus.SME.Density_Median_Float    | Float     | 1          | 09:15:25.532 | Good    |\n| ChannelModbus.SME.Density_Median_Scaled_Int16| Word      | 100        | 09:15:25.532 | Good    |\n| ChannelModbus.SME.Temperature_Median_Float| Float     | 20         | 09:15:25.532 | Good    |\n| ChannelModbus.SME.Temperature_Median_Scaled_Int16| Word      | 2000       | 09:15:25.532 | Good    |\n| ChannelModbus.SME.Viscosity_Median_Float  | Float     | 0.996109   | 09:15:25.532 | Good    |\n| ChannelModbus.SME.Viscosity_Median_Scaled_Int16| Word      | 99         | 09:15:25.532 | Good    |\n\nLog/Event Viewer (Example Entry - Left):\n| Date       | Time       | Source          |\n|------------|------------|-----------------|\n| 11/13/2024 | 8:30:19 AM | KEPserverEX.Runtime|\n\nLog/Event Viewer (Example Entries - Right):\n| Date       | Time       | Event             |\n|------------|------------|-------------------|\n| 11/13/2024 | 9:15:25 AM | Added group 'Dat...|\n| 11/13/2024 | 9:15:25 AM | Added 4 items to...|\n| 11/13/2024 | 9:15:25 AM | Added group 'Sys...|\n| 11/13/2024 | 9:15:25 AM | Added 26 items to...|\n| 11/13/2024 | 9:15:25 AM | Added group 'Thi...|\n| 11/13/2024 | 9:15:25 AM | Added 13 items to...|\n| 11/13/2024 | 9:15:25 AM | Added group 'Cha...|\n| 11/13/2024 | 9:15:25 AM | Added 8 items to...|\n\nFigure 17. Tags Created on KEPserver\n\n5. Troubleshooting\n\nThis section addresses common issues with input registers, connectivity, and Modbus configuration. Users can follow these steps to identify and resolve typical Ethernet/Modbus communication issues with Rheonics Sensors.\n\nTroubleshooting Guide:\nElectronics Issues:\n  - Problem: No LED lights, display, or output signals\n    - Solution: 1. Check power supply and cabling\n  - Problem: Viscosity is not stable\n    - Solution: 2. The sensor is not fully submerged in the liquid\n\nProbe Issues:\n  - Problem: NaN values are displayed on the RCP software\n    - Solution: 1. Check wiring from the probe to SME is correct.\n              2. Measure the internal resistance of the probe. Contact Rheonics support team for detailed instructions.\n\nCommunication Issues:\n  - (No specific issues or solutions listed under this category on the page)\n",
+      "specifications": {},
+      "key_facts": [
+        "The Quick Client in KEPserverEX is a tool for testing and monitoring configured tags to verify successful setup.",
+        "Live and continuously updating data in KEPserverEX Quick Client indicates a correct configuration of data types and input registers.",
+        "The troubleshooting section helps resolve common Ethernet/Modbus communication issues with Rheonics Sensors.",
+        "An unstable viscosity reading can be caused by the sensor not being fully submerged in the liquid.",
+        "NaN values displayed on the RCP software for Rheonics sensors may be due to incorrect probe-to-SME wiring or issues with the probe's internal resistance."
+      ],
+      "diagram_labels": [
+        "1",
+        "2",
+        "Figure 17. Tags Created on KEPserver"
+      ],
+      "warnings_notes": [],
+      "page_num": 14,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1722,
+        "cost_usd": 0.0044448
+      },
+      "source_file": "173_Reading_Modbus_Registers_from_a_Rheonics_SME_Using_KEPServerEX_6.pdf"
+    },
+    {
+      "page_summary": "This page provides troubleshooting guidance for common issues encountered with Rheonics viscometers and density sensors, followed by a list of external references for further information.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV Inline Viscometer",
+        "SRD Inline Density Meter",
+        "KEPServer",
+        "RCP"
+      ],
+      "extracted_text": "No data is visible\n  1. Try to reset the SME and/or restart the devices\n  2. Try to use the ping command to get a response from either the KEPServer or SME.\n  3. Verify there is no duplicated address in the network\n  4. Check all settings are correct with the RCP\n  5. Check that communication settings (protocol, port 502, network adapter, and device IP) are correct on KEPServer side\n  6. Look for hardware malfunction, broken cable or bad Ethernet Port\n\nData issues\n\nThe measured value is different from my reference standards\n  1. If the fluid is non-Newtonian, the viscosity readings may vary due to the fluid's characteristics (shear rate). For more information: Non-Newtonian fluid viscosity measurement with inline viscometer SRV (https://rheonics.com/measurement-of-viscosity-of-non-newtonian-fluids-with-rheonics-srv-sensors/)\n\nWrong parameter reading\n  1. Verify Modbus register address. It might be off due to 0/1 indexing.\n  2. Verify the data type matches the expected configuration.\n\nSensor Status does not match any bit from the sensor status table\n  1. Sensor status byte is swapped.\n\nDensity value displayed is always constant\n  1. The density value on the SRV is constant value set with the RCP software.\n\n6. References\n\n1. Rheonics, \"SRV Inline Viscometer.\" [Online]. Available: Rheonics SRV » inline online Viscometer for fluid viscosity monitoring (https://rheonics.com/products/inline-viscometer-srv/). [Accessed: Nov. 27, 2024].\n\n2. Rheonics, \"SRD Inline Density Meter.\" [Online]. Available: Rheonics SRD » Density Meter inline online specific gravity concentration. (https://rheonics.com/products/inline-density-meter-srd/). [Accessed: Nov. 27, 2024].\n\n3. Rheonics, \"Electronics and Communication.\" [Online]. Available: Electronics and Communication » rheonics :: viscometer and density meter (https://rheonics.com/electronics-and-communication/). [Accessed: Nov. 27, 2024].\n\n4. Rheonics, \"Modbus TCP Input Registers.\" [Online]. Available: Modbus TCP - Input Registers (https://support.rheonics.com/en/support/solutions/articles/81000297664-modbus-tcp-input-registers). [Accessed: Nov. 27, 2024].",
+      "specifications": {},
+      "key_facts": [
+        "Troubleshooting for \"No data is visible\" involves resetting SME, using ping, verifying network addresses, checking RCP settings, checking communication settings (protocol, port 502, network adapter, device IP) on KEPServer, and inspecting hardware for malfunctions.",
+        "If measured viscosity differs from reference standards, consider if the fluid is non-Newtonian, as readings may vary due to shear rate.",
+        "Wrong parameter readings might be due to an incorrect Modbus register address (0/1 indexing) or mismatched data types.",
+        "If the sensor status does not match the sensor status table, the sensor status byte might be swapped.",
+        "A constant density value displayed on the SRV indicates it is a constant value set with the RCP software.",
+        "Rheonics provides online documentation for SRV inline viscometers, SRD inline density meters, electronics and communication, and Modbus TCP input registers.",
+        "All listed online resources were accessed on November 27, 2024."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "When no data is visible, troubleshoot by: resetting SME/restarting devices, pinging KEPServer/SME, verifying no duplicated network addresses, checking RCP settings, confirming KEPServer communication settings (protocol, port 502, network adapter, device IP), and looking for hardware malfunctions (broken cable, bad Ethernet Port).",
+        "If measured values differ from reference standards for non-Newtonian fluids, understand that viscosity readings may vary due to shear rate; consult Rheonics' guide on Non-Newtonian fluid viscosity measurement with inline viscometer SRV.",
+        "For wrong parameter readings, verify the Modbus register address (check 0/1 indexing) and ensure the data type matches the expected configuration.",
+        "If the sensor status does not match the sensor status table, check if the sensor status byte is swapped.",
+        "If the density value on the SRV is always constant, note that this value is set with the RCP software."
+      ],
+      "page_num": 15,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1165,
+        "cost_usd": 0.0030523
+      },
+      "source_file": "173_Reading_Modbus_Registers_from_a_Rheonics_SME_Using_KEPServerEX_6.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

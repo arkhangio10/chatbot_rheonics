@@ -1,0 +1,202 @@
+{
+  "source_file": "073_How_connect_ethernet_cables_to_the_SME-TRD.pdf",
+  "total_pages": 5,
+  "chunks": [
+    {
+      "page_summary": "This page provides guidance on recommended ethernet cables for connecting to Rheonics SME-TR and SME-TRD devices, highlighting issues with standard cables for the SME-TRD and suggesting flat or ultra-slim alternatives.",
+      "document_type": "notes",
+      "product_names": [
+        "SME-TRD",
+        "SME-TR",
+        "SME-DRM",
+        "SME"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nHow connect ethernet cables to the SME-TRD?\n\nModified on: Sun, 15 Feb, 2026 at 12:46 AM\n\nSME-TRD uses a transmitter-style housing with a window cover. For SME-TR, there is no issue using a standard ethernet cable. However, in SME-TRD with a display and glass window cover, a standard ethernet cable is too stiff to bend underneath the display.\n\nWhen SME-DRM is used, ethernet cables can be directly connected to the electronics as shown in the article: Introducing Ethernet connections on SME (https://support.rheonics.com/en/support/solutions/articles/81000300292)\n\n1. Which ethernet cables are recommended for connecting to SME-TR or SME-TRD?\n\n1.1. Flat ethernet cables\n\n1.2. Ultra Slim ethernet cable",
+      "specifications": {
+        "Cable Type": "CAT.6 ETHERNET CABLE"
+      },
+      "key_facts": [
+        "SME-TRD uses a transmitter-style housing with a window cover.",
+        "Standard ethernet cables are suitable for SME-TR.",
+        "In SME-TRD with a display and glass window cover, a standard ethernet cable is too stiff to bend underneath the display.",
+        "When SME-DRM is used, ethernet cables can be directly connected to the electronics.",
+        "Flat ethernet cables are recommended for connecting to SME-TR or SME-TRD.",
+        "Ultra Slim ethernet cables are recommended for connecting to SME-TR or SME-TRD.",
+        "Further details on Ethernet connections for SME-DRM are available in the article 'Introducing Ethernet connections on SME' at https://support.rheonics.com/en/support/solutions/articles/81000300292."
+      ],
+      "diagram_labels": [
+        "CableGeeker",
+        "CAT.6",
+        "ETHERNET",
+        "CABLE",
+        "RoHS",
+        "Flat ethernet cables",
+        "Ultra Slim ethernet cable"
+      ],
+      "warnings_notes": [
+        "A standard ethernet cable is too stiff to bend underneath the display in SME-TRD when it has a display and glass window cover, implying it should not be used in this configuration.",
+        "The cables shown are RoHS compliant."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 681,
+        "cost_usd": 0.0018423
+      },
+      "source_file": "073_How_connect_ethernet_cables_to_the_SME-TRD.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions and considerations for selecting and adapting Ethernet cables and RJ45 connectors for Rheonics sensor electronics, specifically focusing on fitting within the SME-TR(D) transmitter enclosure.",
+      "document_type": "manual",
+      "product_names": [
+        "SME-TR",
+        "SME-TRD",
+        "Rheonics sensor electronics",
+        "Siemens 6GK1901-1BB20-2AA0",
+        "Siemens 6GK1901-1BB10-2AA0"
+      ],
+      "extracted_text": "1.3. Flat ribbon cable\n\nWhen selecting these cables, it is important to ensure that the RJ45 connector is short or flexible enough to go in between the display and the SME. The gap between the display and the SME housing is around 15mm.\n\n2. Adapting the SME-TR(D) to any kind of Ethernet connection\n\nTypical connectors for Ethernet like Profinet, Ethernet/IP, Modbus TCP are those of Siemens (6GK1901-1BB20-2AA0 and 6GK1901-1BB10-2AA0), these kinds of RJ45 connector requires special accessories to fulfill the requirements when Rheonics sensor electronics is in transmitter enclosure (SME-TR or SME-TRD). What do I need to complete my installation? Below you find the diagram of connection:",
+      "specifications": {
+        "Gap between display and SME housing": "15mm"
+      },
+      "key_facts": [
+        "The RJ45 connector selected for cables must be short or flexible enough to fit within a 15mm gap between the display and the SME housing.",
+        "Rheonics sensor electronics are housed in transmitter enclosures, such as SME-TR or SME-TRD.",
+        "Special accessories are required for certain RJ45 connectors to meet installation requirements with Rheonics sensor electronics in SME-TR or SME-TRD enclosures.",
+        "Common Ethernet protocols for which connectors are discussed include Profinet, Ethernet/IP, and Modbus TCP.",
+        "Siemens part numbers 6GK1901-1BB20-2AA0 and 6GK1901-1BB10-2AA0 are identified as typical Ethernet connectors."
+      ],
+      "diagram_labels": [
+        "1.3. Flat ribbon cable"
+      ],
+      "warnings_notes": [
+        "When selecting these cables, it is important to ensure that the RJ45 connector is short or flexible enough to go in between the display and the SME.",
+        "The gap between the display and the SME housing is around 15mm."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 617,
+        "cost_usd": 0.0016823
+      },
+      "source_file": "073_How_connect_ethernet_cables_to_the_SME-TRD.pdf"
+    },
+    {
+      "page_summary": "This page illustrates the internal and external Ethernet connections for a Rheonics sensor system, detailing the use of a short, slim ethernet cable for display connectivity and specifying the gap between the display module and the SME.",
+      "document_type": "manual",
+      "product_names": [
+        "EJC-025",
+        "SMET Sensor Terminal Block",
+        "SME",
+        "SME7-EA"
+      ],
+      "extracted_text": "SMET Sensor Terminal Block\nModbus TCP Ethernet RJ45\nShort slim ethernet cable EJC-025\nRJ45 UNION\nEthernet standard 5E/6A\nRJ45\n\n2.1. Blue wire: Short Slim/flat ethernet cable EJC-025 (This can be supplied by rheonics), this is excellent as it can bend with the display connected.\n\nFlat ethernet cable with the display connected - gap between the display module and SME is around 15mm.\n\ndisplay\nusb\nSD-card\nreset\nUTP CA",
+      "specifications": {
+        "gap_between_display_module_and_SME": "15mm"
+      },
+      "key_facts": [
+        "The EJC-025 is a short slim/flat ethernet cable that can be supplied by Rheonics.",
+        "The EJC-025 cable is designed to bend well, facilitating connection with the display.",
+        "The system uses Modbus TCP Ethernet via RJ45 connectors.",
+        "External Ethernet connection should conform to Ethernet standard 5E/6A.",
+        "There is approximately a 15mm gap between the display module and the SME."
+      ],
+      "diagram_labels": [
+        "RJ45 UNION",
+        "SMET Sensor Terminal Block",
+        "Short slim ethernet cable EJC-025",
+        "Modbus TCP Ethernet RJ45",
+        "Ethernet standard 5E/6A",
+        "RJ45",
+        "D",
+        "C",
+        "S",
+        "P",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "display",
+        "usb",
+        "SD-card",
+        "reset",
+        "UTP CA"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 579,
+        "cost_usd": 0.0015873
+      },
+      "source_file": "073_How_connect_ethernet_cables_to_the_SME-TRD.pdf"
+    },
+    {
+      "page_summary": "This page details the use of RJ45 unions and ethernet cable glands for connecting flat and standard ethernet cables to the SME-TRD enclosure, emphasizing compliance with Profibus standards for 100 Mbps communication.",
+      "document_type": "manual",
+      "product_names": [
+        "SME-TRD",
+        "SME"
+      ],
+      "extracted_text": "Flat ethernet cable with no display connected\n\n2.2. RJ45 union or ethernet cable gland: We can connect between the flat wire(Blue) and the green wire(Ethernet Standard cable) with an ethernet cable gland or RJ45 union, this way we can get access to connections outside of the SME-TRD enclosure and use the standard RJ45 connectors for Profinet.\n\nCable gland with an ethernet port\n\nRJ45 union or junction\n\n2.3. Green wire: All cables and connectors should be fully compliant with Profibus standards and they support the 100 Mbps speed requirement that Profibus specifies.\n\nReferences\n\nIntroducing Ethernet connections on SME\n(https://support.rheonics.com/en/support/solutions/articles/81000300292)",
+      "specifications": {
+        "Profibus speed requirement": "100 Mbps"
+      },
+      "key_facts": [
+        "RJ45 unions or ethernet cable glands facilitate connection between flat (Blue) and standard (Green) ethernet wires.",
+        "This connection method allows external access to connections outside the SME-TRD enclosure.",
+        "Standard RJ45 connectors are to be used for Profinet communication.",
+        "All cables and connectors used must be fully compliant with Profibus standards.",
+        "The cables and connectors must support the 100 Mbps speed requirement specified by Profibus."
+      ],
+      "diagram_labels": [
+        "Cable gland with an ethernet port",
+        "RJ45 union or junction"
+      ],
+      "warnings_notes": [
+        "All cables and connectors should be fully compliant with Profibus standards and they support the 100 Mbps speed requirement that Profibus specifies."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 490,
+        "cost_usd": 0.0013648
+      },
+      "source_file": "073_How_connect_ethernet_cables_to_the_SME-TRD.pdf"
+    },
+    {
+      "page_summary": "This page lists links to support articles on connecting Profinet, Ethernet/IP, and Modbus TCP outputs for Rheonics devices.",
+      "document_type": "notes",
+      "product_names": [],
+      "extracted_text": "(https://support.rheonics.com/en/support/solutions/articles/81000297635) Connecting the Profinet output\n(https://support.rheonics.com/en/support/solutions/articles/81000401596)\nConnecting the Ethernet/IP output (https://support.rheonics.com/en/support/solutions/articles/81000402805)\nConnecting the Modbus TCP outputs (https://support.rheonics.com/en/support/solutions/articles/81000297604)",
+      "specifications": {},
+      "key_facts": [
+        "The page provides links to support articles on connecting various output types.",
+        "There is a support article on connecting the Profinet output, with the URL https://support.rheonics.com/en/support/solutions/articles/81000297635.",
+        "There is an untitiled support article linked at https://support.rheonics.com/en/support/solutions/articles/81000401596.",
+        "There is a support article on connecting the Ethernet/IP output, with the URL https://support.rheonics.com/en/support/solutions/articles/81000402805.",
+        "There is a support article on connecting the Modbus TCP outputs, with the URL https://support.rheonics.com/en/support/solutions/articles/81000297604."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 443,
+        "cost_usd": 0.0012473
+      },
+      "source_file": "073_How_connect_ethernet_cables_to_the_SME-TRD.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

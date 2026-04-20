@@ -1,0 +1,505 @@
+{
+  "source_file": "rheonics-teletube-assembly-guide.pdf",
+  "total_pages": 12,
+  "chunks": [
+    {
+      "page_summary": "This page is the cover of a Rheonics document providing a parts list and assembly guide for the Teletube Type-SR Sensor Probe, displaying two images of the sensor and document version information.",
+      "document_type": "manual",
+      "product_names": [
+        "Teletube Type-SR Sensor Probe"
+      ],
+      "extracted_text": "rheonics\nTeletube Type-SR Sensor Probe\nParts List and Assembly Guide\nSR-TT-AG-2412\nV1.3",
+      "specifications": {},
+      "key_facts": [
+        "This document is an assembly guide and parts list for the Teletube Type-SR Sensor Probe.",
+        "The document identifier is SR-TT-AG-2412.",
+        "The document version is V1.3."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 220,
+        "cost_usd": 0.0006898
+      },
+      "source_file": "rheonics-teletube-assembly-guide.pdf"
+    },
+    {
+      "page_summary": "This page provides global support contact information for Rheonics, including European and US headquarters, website, support portal, and email addresses, along with copyright and trademark notices for the SR-Teletube Assembly Guide.",
+      "document_type": "manual",
+      "product_names": [
+        "SR-Teletube"
+      ],
+      "extracted_text": "SR-Teletube Assembly Guide\nSR-TT-AG-2412\n\nGLOBAL SUPPORT\n\nFor Support, visit: https://support.rheonics.com\n\nEUROPE HEADQUARTERS\nRheonics GmbH\nKlosterstrasse. 19\n8406 Winterthur Switzerland\nTel: +41 52 511 32 00\n\nUS HEADQUARTERS\nRheonics, Inc.\n3 Sugar Creek Center Blvd, Ste 100\nSugar Land, TX 77478\nUnited States of America\nTel: +1 713 364 5427\n\nWebsite: https://rheonics.com\nSupport Portal: https://support.rheonics.com\nSales E-Mail: info@rheonics.com\nSupport E-Mail: support@rheonics.com\n\n© COPYRIGHT RHEONICS 2024\n\nNo part of this publication may be copied or distributed, transmitted, transcribed, stored in a retrieval system, or translated into any human or computer language, in any form or by any means, electronic, mechanical, manual, or otherwise, or disclosed to third parties without the express written permission of Rheonics. The information contained in this manual is subject to change without notice.\n\nTRADEMARKS\n\nRheonics is a trademark of Rheonics, Inc. Other product and company names listed in this manual are trademarks or trade names of their respective manufacturers.\n\n1",
+      "specifications": {},
+      "key_facts": [
+        "The document is titled \"SR-Teletube Assembly Guide\" with document ID \"SR-TT-AG-2412\".",
+        "Rheonics offers global support, accessible via https://support.rheonics.com.",
+        "Rheonics GmbH's European Headquarters are located at Klosterstrasse. 19, 8406 Winterthur, Switzerland, with telephone number +41 52 511 32 00.",
+        "Rheonics, Inc.'s US Headquarters are located at 3 Sugar Creek Center Blvd, Ste 100, Sugar Land, TX 77478, United States of America, with telephone number +1 713 364 5427.",
+        "The official Rheonics website is https://rheonics.com.",
+        "Sales inquiries can be directed to info@rheonics.com.",
+        "Support inquiries can be directed to support@rheonics.com.",
+        "This publication is copyrighted by Rheonics in 2024.",
+        "Rheonics is a trademark of Rheonics, Inc.",
+        "The information in this manual is subject to change without notice."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "No part of this publication may be copied or distributed, transmitted, transcribed, stored in a retrieval system, or translated into any human or computer language, in any form or by any means, electronic, mechanical, manual, or otherwise, or disclosed to third parties without the express written permission of Rheonics.",
+        "The information contained in this manual is subject to change without notice."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 820,
+        "cost_usd": 0.0021897999999999996
+      },
+      "source_file": "rheonics-teletube-assembly-guide.pdf"
+    },
+    {
+      "page_summary": "This page is the table of contents for the Rheonics SR-Teletube Assembly Guide, outlining sections on Teletube sensors, sensor probe parts, assembly tools, and assembly instructions.",
+      "document_type": "manual",
+      "product_names": [
+        "SR-Teletube",
+        "Rheonics Teletube Sensors",
+        "Rheonics Teletube Sensor Probe"
+      ],
+      "extracted_text": "SR-Teletube Assembly Guide\nSR-TT-AG-2412\nrheonics\n\nTable of Contents\n\nAbout Rheonics Teletube Sensors .................................................................... 3\nRheonics Teletube Sensor Probe - Parts List..................................................... 4\nAssembly Tools Included ................................................................................ 5\nAssembly Instructions ..................................................................................... 6\n\n2",
+      "specifications": {},
+      "key_facts": [
+        "This document is an assembly guide for Rheonics SR-Teletube products.",
+        "The document reference number is SR-TT-AG-2412.",
+        "The guide includes sections on Teletube sensors, a parts list for the Teletube sensor probe, assembly tools, and assembly instructions.",
+        "The current page is page 2 of the document.",
+        "The section 'About Rheonics Teletube Sensors' starts on page 3.",
+        "The section 'Rheonics Teletube Sensor Probe - Parts List' starts on page 4.",
+        "The section 'Assembly Tools Included' starts on page 5.",
+        "The section 'Assembly Instructions' starts on page 6."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 403,
+        "cost_usd": 0.0011473
+      },
+      "source_file": "rheonics-teletube-assembly-guide.pdf"
+    },
+    {
+      "page_summary": "This page provides an assembly guide and overview of Rheonics Teletube Sensors, detailing their modular design for long insertion length installations and various components.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Teletube Sensors",
+        "SRV sensors",
+        "SRD sensors",
+        "SR-TT probes",
+        "SME-TR(D) mounting adapter",
+        "AT-TT",
+        "SRx-TT-TR",
+        "SRx-TT-L",
+        "EXT-TT",
+        "OR-TT",
+        "SRx-TT",
+        "CG-TT",
+        "SRx-TT-LAB",
+        "AB-TT"
+      ],
+      "extracted_text": "SR-Teletube Assembly Guide\nSR-TT-AG-2412\n\nrheonics\n\nAbout Rheonics Teletube Sensors\n\nFor installations where the insertion length required for the Rheonics SRV or SRD sensors is ultra-\nlong (above 600mm), Rheonics offers the Teletube sensor variants. This variant allows the unit\nto be delivered in smaller parts that are assembled by the user prior to final installation on site.\nAssembly is straightforward and simplified based on G-threaded joints. Sensor probes used for\nthis assembly are called Teletube probes (SR-TT), these probes have a ¾” G male thread at the\nback. This variant simplifies the delivery and assembly, as well as reduces the costs of using a long\ninsertion standard probe.\n\nFor the Type SR-TT probes, the user should define the process connection, total length (if not\ndefined, the smallest possible is used), insertion length (distance from probe's tip to flange), and\nthe back-end variant. The back-end variant can be -TR for SME-TR(D) mounting adapter or -CAB\nfor a metal Cable Gland.\n\nSME-TR or -TR\n\nAT-TT\n\nSRx-TT-TR\n\nSRx-TT-L\n\nEXT-TT\n\nOR-TT\n\nSRx-TT\n\nSRx-TT-LAB\n\nCG-TT\nCable gland\n\nOR-TT\n\nAB-TT\n\nFigure 1: Rheonics Teletube Sensor Components\n\nNote: The Type SR-TT probes can also be ordered alone without extension tubes or process\nconnection flanges. In this case, the client needs to create a custom pipe to thread at the\nprobe's back end. Using the AT-TT on the probe back end, the custom pipe requires a standard\n1” NPT female port for mounting.\n\nContact Rheonics Support Team for more information at support@rheonics.com.\n\n3",
+      "specifications": {
+        "insertion_length_threshold": "600mm",
+        "sensor_probe_thread_type": "¾” G male thread",
+        "custom_pipe_port_type": "1” NPT female port"
+      },
+      "key_facts": [
+        "Rheonics Teletube sensor variants are designed for installations requiring ultra-long insertion lengths (above 600mm).",
+        "Teletube sensors are delivered in smaller, user-assembled parts to simplify delivery and assembly and reduce costs.",
+        "Assembly of Teletube sensors is straightforward and uses G-threaded joints.",
+        "Teletube probes (SR-TT) have a ¾” G male thread at the back.",
+        "Users must define the process connection, total length, insertion length, and back-end variant for SR-TT probes.",
+        "The back-end variant can be -TR for SME-TR(D) mounting adapter or -CAB for a metal Cable Gland.",
+        "SR-TT probes can be ordered without extension tubes or process connection flanges.",
+        "When using an AT-TT on the probe back end for a custom pipe, the pipe needs a standard 1” NPT female port for mounting."
+      ],
+      "diagram_labels": [
+        "SME-TR or -TR",
+        "AT-TT",
+        "SRx-TT-TR",
+        "SRx-TT-L",
+        "EXT-TT",
+        "OR-TT",
+        "SRx-TT",
+        "SRx-TT-LAB",
+        "CG-TT",
+        "Cable gland",
+        "AB-TT"
+      ],
+      "warnings_notes": [
+        "Note: The Type SR-TT probes can also be ordered alone without extension tubes or process connection flanges. In this case, the client needs to create a custom pipe to thread at the probe's back end. Using the AT-TT on the probe back end, the custom pipe requires a standard 1” NPT female port for mounting."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1128,
+        "cost_usd": 0.0029598000000000003
+      },
+      "source_file": "rheonics-teletube-assembly-guide.pdf"
+    },
+    {
+      "page_summary": "This page from the Rheonics SR-Teletube Assembly Guide provides a parts list for the Teletube Sensor Probe, detailing each component's quantity, description, and an associated image.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Teletube Sensor Probe",
+        "SRV-TT",
+        "SRD-TT",
+        "OR-TT",
+        "EXT-TT",
+        "AB-TT",
+        "CG-TT",
+        "AT-TT"
+      ],
+      "extracted_text": "SR-Teletube Assembly Guide\nSR-TT-AG-2412\nrheonics\nRheonics Teletube Sensor Probe - Parts List\nThe next table details all parts that can be used for the assembly, depending on the sensor configuration some parts may not be included and quantities can vary.\n\nPart | Quantity | Comment | Images\nSRV-TT or SRD-TT | 1 | Sensor Probe\nOR-TT | 1 for Probe\n1 for Back-end connector\n1 for each extension tube | Ø27X1.5 O-ring. Select the right material for your process fluid and operational temperature compatibility.\nEXT-TT | Defined by insertion length | Extension tubes: May be one or many. These parts are numbered from 1 to X. The part with the process connection flange is generally the last one.\nAB-TT | 1 | End back adapter Female G3/4\" - Female NPT 1/2\". Only for -TT-CAB option.\nCG-TT | 1 | Only for -TT-CAB option (Cable gland for sensor cable)\nAT-TT | 1 | End back adapter Female G3/4\" - Male NPT 1/2”. Only for -TT-TR option (Transmitter mount adapter).\n4",
+      "specifications": {
+        "O-ring size": "Ø27X1.5",
+        "AB-TT adapter thread 1": "Female G3/4 inch",
+        "AB-TT adapter thread 2": "Female NPT 1/2 inch",
+        "AT-TT adapter thread 1": "Female G3/4 inch",
+        "AT-TT adapter thread 2": "Male NPT 1/2 inch"
+      },
+      "key_facts": [
+        "The document is part of the SR-Teletube Assembly Guide.",
+        "The table lists all parts that can be used for the Rheonics Teletube Sensor Probe assembly.",
+        "SRV-TT or SRD-TT refers to the Sensor Probe itself, typically supplied as 1 unit.",
+        "OR-TT O-rings are used for the probe, back-end connector, and each extension tube.",
+        "EXT-TT refers to extension tubes, whose quantity is defined by the required insertion length.",
+        "AB-TT is an end back adapter with Female G3/4\" and Female NPT 1/2\" threads, used exclusively with the -TT-CAB option.",
+        "CG-TT is a cable gland for the sensor cable, specifically for the -TT-CAB option.",
+        "AT-TT is an end back adapter with Female G3/4\" and Male NPT 1/2\" threads, used exclusively as a transmitter mount adapter for the -TT-TR option."
+      ],
+      "diagram_labels": [
+        "SRV-TT or SRD-TT",
+        "OR-TT",
+        "EXT-TT",
+        "AB-TT",
+        "CG-TT",
+        "AT-TT"
+      ],
+      "warnings_notes": [
+        "Depending on the sensor configuration, some parts may not be included and quantities can vary.",
+        "For OR-TT O-rings, select the right material for your process fluid and operational temperature compatibility."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 875,
+        "cost_usd": 0.0023273
+      },
+      "source_file": "rheonics-teletube-assembly-guide.pdf"
+    },
+    {
+      "page_summary": "This page provides essential information for the assembly of Rheonics Teletube sensors, focusing on O-ring selection, temperature considerations, and the use of included assembly tools like a torque wrench and thread locker glue.",
+      "document_type": "manual",
+      "product_names": [
+        "SR-Teletube Assembly Guide",
+        "OR-TT",
+        "Teletube assembly",
+        "TOW-M12",
+        "TLG",
+        "LOCTITE 242",
+        "LOCTITE 2422 HI TEMP TL MS 30G"
+      ],
+      "extracted_text": "SR-Teletube Assembly Guide\nSR-TT-AG-2412\nrheonics\n\nNote: The OR-TT is a standard O-Ring that is used for sealing all the G threaded in the Teletube assembly. This is available in various materials from Rheonics and third-party O-ring suppliers. Order the correct O-ring material that is compatible with your process fluid and operational temperature.\n\nFollow the specified temperature for your probes as components are only rated for the temperature that was ordered. The use of probes outside of their specified operational range will result in irreversible damage.\n\nAssembly Tools Included\n\n| Tools   | Quantity | Comment                                        | Images       |\n| :------ | :------- | :--------------------------------------------- | :----------- |\n| TOW-M12 | 1        | Torque Wrench for M12 connector                | [Image]      |\n| TLG     | 1        | Thread Locker Glue\n           Standard: LOCTITE 242\n           For High Temperatures: LOCTITE 2422 HI TEMP TL MS 30G | [Image]      |\n\nNote: It is recommended to use TLG (Thread Locker Glue) to avoid the threads coming loose. However, when the sensor needs to be disassembled, then you can assemble the Teletube sensor without the TLG and only apply TLG when the permanent configuration is fixed. TLG is reworkable in some cases - check the TLG is appropriate for your use case and process fluid.\n\nFor sensor rentals the TLG is not included as the installation is intended to be disassembled later.\n\n5",
+      "specifications": {},
+      "key_facts": [
+        "The OR-TT is a standard O-Ring designed for sealing G-threaded connections in the Teletube assembly.",
+        "OR-TT O-rings are available in various materials from Rheonics and third-party suppliers.",
+        "It is crucial to order the correct O-ring material that is compatible with the specific process fluid and operational temperature.",
+        "Probes are rated for a specific temperature, and operating them outside this range will cause irreversible damage.",
+        "Assembly tools included are a TOW-M12 Torque Wrench for M12 connectors and TLG (Thread Locker Glue).",
+        "The standard Thread Locker Glue is LOCTITE 242, with LOCTITE 2422 HI TEMP TL MS 30G available for high temperatures.",
+        "Using TLG is recommended to prevent threads from coming loose, but it may be omitted if the sensor needs future disassembly.",
+        "If the configuration is not permanent, TLG should only be applied once the final setup is fixed.",
+        "TLG is reworkable in some cases, but its suitability for a specific use case and process fluid should be verified.",
+        "TLG is not provided with sensor rentals because rental installations are designed for temporary use and later disassembly."
+      ],
+      "diagram_labels": [
+        "TOW-M12",
+        "TLG"
+      ],
+      "warnings_notes": [
+        "Order the correct O-ring material that is compatible with your process fluid and operational temperature.",
+        "The use of probes outside of their specified operational range will result in irreversible damage.",
+        "It is recommended to use TLG (Thread Locker Glue) to avoid the threads coming loose.",
+        "When the sensor needs to be disassembled, then you can assemble the Teletube sensor without the TLG and only apply TLG when the permanent configuration is fixed.",
+        "TLG is reworkable in some cases - check the TLG is appropriate for your use case and process fluid.",
+        "For sensor rentals the TLG is not included as the installation is intended to be disassembled later."
+      ],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 988,
+        "cost_usd": 0.0026098
+      },
+      "source_file": "rheonics-teletube-assembly-guide.pdf"
+    },
+    {
+      "page_summary": "This page provides assembly instructions for Rheonics SR-Teletube extension tubes, detailing steps for preparing and connecting the tubes.",
+      "document_type": "manual",
+      "product_names": [
+        "SR-Teletube",
+        "EXT-TT",
+        "O-Ring OR-TT",
+        "APC adapter",
+        "TLG paste"
+      ],
+      "extracted_text": "SR-Teletube Assembly Guide\nSR-TT-AG-2412\nAssembly Instructions\n\nN | Instruction | Drawings | Pictures\n\nVerify all parts for assembly and tools to be used.\n\nI. Prepare extension Tubes: If only one extension tube EXT-TT is delivered, no preparation is required, go to step 5. If multiple EXT-TT parts are delivered, follow next steps.\n\n1 | Identify female and male G3/4\" thread port of the EXT-TT part.\n  | Identify the EXT-TT with flange, this will be the last tube to assemble - not applicable if APC adapter is used.\n\n2 | Place an O-Ring OR-TT at the male thread port base.\n\n3 | Apply some of the TLG paste in the male G3/4\" threads for secure thread lock.\n  | Not applicable for rentals.\n\n6",
+      "specifications": {
+        "thread_port_size": "G3/4\""
+      },
+      "key_facts": [
+        "This document is an assembly guide for SR-Teletube extension tubes.",
+        "The document identifier is SR-TT-AG-2412.",
+        "Preparation of extension tubes depends on the number of EXT-TT parts delivered: single tubes require no preparation (go to step 5), while multiple tubes follow detailed steps.",
+        "Assembly involves identifying male and female G3/4\" thread ports on EXT-TT parts.",
+        "An O-Ring (OR-TT) must be placed at the male thread port base.",
+        "TLG paste is used on male G3/4\" threads for secure thread locking.",
+        "The EXT-TT part with a flange is the last tube to be assembled, unless an APC adapter is used."
+      ],
+      "diagram_labels": [
+        "Female Nut G3/4''",
+        "Male Nut G3/4''",
+        "EXT-TT",
+        "OR-TT",
+        "Threadlocker"
+      ],
+      "warnings_notes": [
+        "Identify the EXT-TT with flange, this will be the last tube to assemble - not applicable if APC adapter is used.",
+        "Applying TLG paste for thread lock is not applicable for rentals."
+      ],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 621,
+        "cost_usd": 0.0016923
+      },
+      "source_file": "rheonics-teletube-assembly-guide.pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions for assembling components of the SR-Teletube system, including threading male and female G3/4\" ports, placing O-rings, applying paste, and handling specific connections for the -TT-CAB variant.",
+      "document_type": "manual",
+      "product_names": [
+        "SR-Teletube",
+        "EXT-TT",
+        "OR-TT",
+        "AB-TT",
+        "-TT-CAB"
+      ],
+      "extracted_text": "SR-Teletube Assembly Guide\nSR-TT-AG-2412\nrheonics\n4\nThread in the G3/4\" male and female port until faces get in contact and O-Ring is compressed. Hand tightening is enough.\nRepeat the process (step 2 to 4) for all EXT-TT delivered in the assigned order.\nIf there is a tube with a process connection, this one will be the last in the assembly.\n5\nPlace an OR-TT on the G3/4\" male port base of the last EXT-TT. Piece may look different depending on the process connection you ordered.\n6\nApply some TLG paste in the male G3/4\" threads.\nNot applicable for rentals.\n7A\nA. For -TT-CAB only\nThread in the AB-TT G3/4\" female port to the last EXT-TT G3/4\" male port.\n7",
+      "specifications": {
+        "Port size": "G3/4\""
+      },
+      "key_facts": [
+        "Components should be hand-tightened until male and female port faces get in contact and the O-Ring is compressed.",
+        "The assembly process (steps 2 to 4) should be repeated for all EXT-TT components delivered in the assigned order.",
+        "If a tube with a process connection is part of the assembly, it will be the last component.",
+        "An OR-TT should be placed on the G3/4\" male port base of the last EXT-TT.",
+        "TLG paste should be applied to the male G3/4\" threads.",
+        "For -TT-CAB only, the AB-TT G3/4\" female port should be threaded into the last EXT-TT G3/4\" male port."
+      ],
+      "diagram_labels": [
+        "EXT-TT",
+        "OR-TT",
+        "Process connection",
+        "Threadlocker",
+        "AB-TT"
+      ],
+      "warnings_notes": [
+        "Hand tightening is enough.",
+        "This step (applying TLG paste) is not applicable for rentals.",
+        "The piece may look different depending on the process connection ordered.",
+        "Step 7A is applicable only for -TT-CAB."
+      ],
+      "page_num": 8,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 651,
+        "cost_usd": 0.0017673
+      },
+      "source_file": "rheonics-teletube-assembly-guide.pdf"
+    },
+    {
+      "page_summary": "This page details assembly steps for the SR-Teletube, including threading extension tubes, routing sensor cables, and placing an O-ring on the sensor probe.",
+      "document_type": "manual",
+      "product_names": [
+        "SR-Teletube",
+        "SRV-TT",
+        "SRD-TT",
+        "AT-TT",
+        "EXT-TT",
+        "AB-TT",
+        "OR-TT"
+      ],
+      "extracted_text": "SR-Teletube Assembly Guide\nSR-TT-AG-2412\nrheonics\nB. For -TT-TR only\n7B\nThread in the AT-TT G3/4” female port to the last EXT-TT G3/4” male port\nII. Sensor probe and cable\n8\nInsert the sensor cable through the assembled extension tube.\nNOTE: If you used the AT-TT part the back-end will look different.\n9\nPlace an OR-TT at the base of the G3/4\" thread port of the sensor probe SRV-TT or SRD-TT.\n8",
+      "specifications": {
+        "AT-TT port thread": "G3/4” female",
+        "EXT-TT port thread": "G3/4” male",
+        "Sensor probe thread": "G3/4\""
+      },
+      "key_facts": [
+        "The AT-TT G3/4” female port should be threaded to the last EXT-TT G3/4” male port.",
+        "The sensor cable must be inserted through the assembled extension tube.",
+        "An OR-TT should be placed at the base of the G3/4\" thread port of the SRV-TT or SRD-TT sensor probe."
+      ],
+      "diagram_labels": [
+        "EXT-TT",
+        "AT-TT",
+        "AB-TT",
+        "Cable + M12- Connector",
+        "Process Connection",
+        "SRV-TT",
+        "SRD-TT",
+        "OR-TT"
+      ],
+      "warnings_notes": [
+        "NOTE: If you used the AT-TT part the back-end will look different."
+      ],
+      "page_num": 9,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 531,
+        "cost_usd": 0.0014673000000000002
+      },
+      "source_file": "rheonics-teletube-assembly-guide.pdf"
+    },
+    {
+      "page_summary": "This page from an assembly guide illustrates three steps (10-12) for connecting a sensor cable and an extension tube to a Rheonics viscometer/density sensor probe.",
+      "document_type": "manual",
+      "product_names": [
+        "SR-Teletube",
+        "SRV-TT",
+        "SRD-TT",
+        "TOW-M12",
+        "EXT-TT"
+      ],
+      "extracted_text": "SR-Teletube Assembly Guide\nSR-TT-AG-2412\n\n10\nThread in the sensor\ncable M12 connector to\nthe M12 port at the\nsensor probe back end.\nUse the TOW-M12 tool\nfor a secure connection\n\n11\nApply some TLG paste in\nthe male G3/4\" threads\nof the sensor probe.\nNot applicable for\nrentals.\n\n12\nThread in the sensor\nprobe G3/4\" port into\nthe extension tube\nassembly.\n\n9",
+      "specifications": {
+        "M12 connector": "M12",
+        "M12 port": "M12",
+        "G3/4\" threads": "G3/4\"",
+        "G3/4\" port": "G3/4\""
+      },
+      "key_facts": [
+        "Step 10 involves threading the M12 connector of the sensor cable into the M12 port at the sensor probe's back end.",
+        "The TOW-M12 tool should be used for a secure connection in Step 10.",
+        "Step 11 instructs applying TLG paste to the male G3/4\" threads of the sensor probe.",
+        "The instruction to apply TLG paste is not applicable for rental units.",
+        "Step 12 requires threading the sensor probe's G3/4\" port into the extension tube assembly."
+      ],
+      "diagram_labels": [
+        "M12 - Port",
+        "SRV-TT",
+        "SRD-TT",
+        "M12 - Connector",
+        "TOW-M12",
+        "Threadlocker",
+        "G3/4\" Port",
+        "EXT-TT"
+      ],
+      "warnings_notes": [
+        "Not applicable for rentals."
+      ],
+      "page_num": 10,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 570,
+        "cost_usd": 0.0015648
+      },
+      "source_file": "rheonics-teletube-assembly-guide.pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step assembly instructions and diagrams for installing the SR-Teletube sensor probe with both -TT-CAB and -TT-TR electronics configurations, including critical wiring guidelines.",
+      "document_type": "manual",
+      "product_names": [
+        "SR-Teletube",
+        "SR-Teletube Assembly Guide",
+        "-TT-CAB",
+        "Probe",
+        "SME-XXX",
+        "Transmitter",
+        "-TT-TR",
+        "SME-TRD",
+        "SME-TR"
+      ],
+      "extracted_text": "SR-Teletube Assembly Guide\nSR-TT-AG-2412\nrheonics\n\nA. For -TT-CAB\n  Pass the cable through the CG-TT Cable Gland, add PTFE tape to the thread, and thread it in the AB-TT NPT 1/2\" port. Your probe is now ready.\n  Once assembly is installed, connect the sensor cable to the appropriate electronics unit (SME-XXX). Refer to the SME wiring guidelines to connect the sensor cable wires to the appropriate terminal block in the Transmitter.\n\n13\nB. For -TT-TR\n  Wire the sensor cable in the SME-TRD or -TR electronics, add PTFE tape to the 1/2\" NPT thread, and thread the sensor probe to the SME.\n  Refer to the SME wiring guidelines to connect the sensor cable wires to the appropriate terminal block in the Transmitter.\n\n10",
+      "specifications": {
+        "thread_size": "1/2\" NPT"
+      },
+      "key_facts": [
+        "The SR-Teletube assembly guide is identified as SR-TT-AG-2412.",
+        "For -TT-CAB assembly, the cable is passed through a CG-TT Cable Gland, PTFE tape is added, and it's threaded into an AB-TT NPT 1/2\" port.",
+        "After installation, the sensor cable must be connected to the appropriate electronics unit (SME-XXX) and its terminal block in the Transmitter.",
+        "For -TT-TR assembly, the sensor cable is wired into SME-TRD or -TR electronics, PTFE tape is added to a 1/2\" NPT thread, and the sensor probe is threaded to the SME.",
+        "Proper wiring requires adherence to SME wiring guidelines to connect sensor cable wires to the Transmitter's terminal block."
+      ],
+      "diagram_labels": [
+        "Add PTFE tape",
+        "EXT-TT",
+        "CG-TT",
+        "AB-TT",
+        "SME-TR",
+        "SME-TRD",
+        "AT-TT"
+      ],
+      "warnings_notes": [
+        "Refer to the SME wiring guidelines to connect the sensor cable wires to the appropriate terminal block in the Transmitter."
+      ],
+      "page_num": 11,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 672,
+        "cost_usd": 0.0018197999999999999
+      },
+      "source_file": "rheonics-teletube-assembly-guide.pdf"
+    },
+    {
+      "page_summary": "This page provides contact information for Rheonics' European and US headquarters, various support channels, and copyright details for an SR-Teletube Assembly Guide.",
+      "document_type": "manual",
+      "product_names": [
+        "SR-Teletube"
+      ],
+      "extracted_text": "SR-Teletube Assembly Guide\nSR-TT-AG-2412\n\nEUROPE HEADQUARTERS\nRheonics GmbH\nWinterthur, Switzerland\nTel: +41 52 511 32 00\n\nUS HEADQUARTERS\nRheonics, Inc.\nSugar Land, TX, USA\nTel: +1 713 364 5427\n\nWebsite: https://rheonics.com\nSupport Portal: https://support.rheonics.com\nSupport E-Mail: support@rheonics.com\nSales E-Mail: info@rheonics.com\n\n©2024 Rheonics, Inc. All rights reserved.\nThe Rheonics logo is a trademark and service mark of Rheonics Inc. Photographs, excerpts, trademarks, and logos are not endorsements and are used only for representation under fair use copyright laws. All rights stay with the respective owners.\n\n11",
+      "specifications": {},
+      "key_facts": [
+        "The document is an 'SR-Teletube Assembly Guide' with document number SR-TT-AG-2412.",
+        "Rheonics has European Headquarters in Winterthur, Switzerland with telephone number +41 52 511 32 00.",
+        "Rheonics has US Headquarters in Sugar Land, TX, USA with telephone number +1 713 364 5427.",
+        "The official website is https://rheonics.com and the support portal is https://support.rheonics.com.",
+        "Support can be reached via email at support@rheonics.com and sales at info@rheonics.com.",
+        "All rights are reserved by Rheonics, Inc. for 2024.",
+        "The Rheonics logo is a trademark and service mark of Rheonics Inc.",
+        "Photographs, excerpts, trademarks, and logos are used only for representation under fair use copyright laws and are not endorsements.",
+        "All rights stay with the respective owners."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "©2024 Rheonics, Inc. All rights reserved.",
+        "The Rheonics logo is a trademark and service mark of Rheonics Inc. Photographs, excerpts, trademarks, and logos are not endorsements and are used only for representation under fair use copyright laws. All rights stay with the respective owners."
+      ],
+      "page_num": 12,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 637,
+        "cost_usd": 0.0017323
+      },
+      "source_file": "rheonics-teletube-assembly-guide.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

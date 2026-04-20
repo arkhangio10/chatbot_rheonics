@@ -1,0 +1,254 @@
+{
+  "source_file": "020_SRV-X1-12G_Inline_Process_Viscometer_with_G_12.pdf",
+  "total_pages": 5,
+  "chunks": [
+    {
+      "page_summary": "This page provides an introduction, installation guidance, and detailed dimensional specifications for the Rheonics SRV-X1-12G inline process viscometer with a G 1/2\" thread connection.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV-X1-12G",
+        "SRV - Inline Viscosity Meter",
+        "Rheonics SRV"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nSRV-X1-12G: Inline Process Viscometer with G 1/2\"\nModified on: Fri, 9 May, 2025 at 8:40 PM\nWhat products are involved?\nSRV - Inline Viscosity Meter (https://rheonics.com/products/inline-viscometer-srv/)\nWhat is the purpose of this article?\nTo give guidance on the installation of a G1/2\" SRV sensor (SRV-X1-12G).\n1. Introduction\nSRV is Rheonics sensor for inline viscosity measurement (viscometer). Read more on SRV here (https://rheonics.com/products/inline-viscometer-srv/).\nThe industrial G connection is a cylindrical thread connection that follows the norm ISO 228 (https://www.iso.org/obp/ui/#iso:std:iso:228:-1:en). It is also referred to as BSPP (British Standard Pipe Parallel).\nRheonics SRV with G1/2\" thread connection has the order code SRV-X1-12G. It is categorized as a small probe and it is designed with a groove for an O-Ring of Ø22x1.5 mm. This O-Ring is required for certain installations, but not all, as explained in this article. This sensor probe variant has different accessories available such as a flow-through cell and weldolets (useful for flush hygienic installations). Rheonics offers the O-Ring in FKM as standard material.\nNote: The original version of the SRV-X1-12G did not have the groove for the O-Ring. Aside from this feature, all other specifications are the same.\nUnits: mm [inch]\nFigure 1: SRV G1/2\" dimensions",
+      "specifications": {
+        "Thread connection type": "G 1/2\"",
+        "O-Ring groove diameter": "Ø22 mm",
+        "O-Ring groove thickness": "1.5 mm",
+        "O-Ring standard material": "FKM",
+        "Overall length": "124 ±1 mm [4.88 ±0.04 inch]",
+        "Length (top segment)": "26 mm [1.04 inch]",
+        "Length (middle segment above thread)": "14 mm [0.56 inch]",
+        "Length (main probe shaft)": "68 ±1 mm [2.68 ±0.04 inch]",
+        "Length (bottom probe tip)": "46 ±1 mm [1.81 ±0.04 inch]",
+        "Diameter (top housing)": "30 mm [1.18 inch]",
+        "Diameter (smallest probe shaft)": "5 mm [0.20 inch]",
+        "Diameter (bottom probe tip)": "8 mm [0.31 inch]",
+        "Wrench size": "SW24"
+      },
+      "key_facts": [
+        "The document's purpose is to provide guidance on the installation of the G1/2\" SRV-X1-12G sensor.",
+        "The SRV is a Rheonics sensor designed for inline viscosity measurement.",
+        "The industrial G connection is a cylindrical thread, also known as BSPP, conforming to ISO 228.",
+        "The SRV-X1-12G is a small probe featuring a groove for an O-Ring with dimensions Ø22x1.5 mm.",
+        "The O-Ring is crucial for certain installations and is offered in FKM as standard material by Rheonics.",
+        "Accessories like flow-through cells and weldolets are available for the sensor, useful for flush hygienic installations."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "SW24",
+        "G 1/2\"",
+        "Groove for Ø22x1.5 mm O-Ring",
+        "30 [ 1.18 ]",
+        "5 [ 0.20 ]",
+        "8 [ 0.31 ]",
+        "124 ±1 [ 4.88 ±0.04 ]",
+        "68 ±1 [ 2.68 ±0.04 ]",
+        "46 ±1 [ 1.81 ±0.04 ]",
+        "14 [ 0.56 ]",
+        "26 [ 1.04 ]",
+        "Units: mm [inch]",
+        "Figure 1: SRV G1/2\" dimensions"
+      ],
+      "warnings_notes": [
+        "Note: The original version of the SRV-X1-12G did not have the groove for the O-Ring. Aside from this feature, all other specifications are the same."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1224,
+        "cost_usd": 0.0031998
+      },
+      "source_file": "020_SRV-X1-12G_Inline_Process_Viscometer_with_G_12.pdf"
+    },
+    {
+      "page_summary": "This page provides technical specifications and general installation guidelines for Rheonics SRV viscometers, focusing on sensor identification, dimensions, submersion requirements, and avoiding stagnation zones.",
+      "document_type": "datasheet",
+      "product_names": [
+        "Rheonics SRV",
+        "SRV-X1-12G",
+        "SRV-G1/2\""
+      ],
+      "extracted_text": "Specifications\nSensor\n(https://rheonics.com/products/inline-viscometer-srv/)Rheonics SRV\n(https://rheonics.com/products/inline-viscometer-srv/)\nOrder code\nSRV-X1-12G\nConnection type\nG 1/2”\nDrawing file\nSRV-X1-12G Drawing (https://rheonics.com/wp-content/uploads/2023/09/Rheonics_SRV-12G.pdf)\nZIP CAD file\n(https://rheonics.com/srv-npt/)SRV-G1/2” CAD file\n(https://rheonics.com/wp-content/uploads/2023/05/Rheonics_SRV-12G.zip)\n\n2. General installation guidelines\nSR-sensors can be placed at any point in a process and at any orientation as long as the next considerations are followed to ensure stable, accurate, low-noise measurements.\n\n2.1 Submersion\nThe SRV has a sensing element shown inside the red section (sensing area) in Figure 2. This section of the sensor should always be fully submerged in the fluid since SRV measures what is in contact with its sensing element. Ensure this area is unobstructed by external objects.\n\nFigure 2: SRV-X1-12G sensing area\n\n2.2 Stagnation/dead zone\nAvoid dead or stagnant zones around the sensing area (Figure 2). Dead zones are defined as any space, inside the red zone, where fluid transport is insufficient leading to immobile/static fluid, as well as possible accumulation of solids and deposits, or unwanted material like air. These all have negative effects on the measurement. A clearance of at least 5mm is recommended between the SRV sensor tip and a pipe wall or any other obstruction.\n\n2.3 Orientation independence",
+      "specifications": {
+        "Sensor": "Rheonics SRV",
+        "Order code": "SRV-X1-12G",
+        "Connection type": "G 1/2\"",
+        "Drawing file name": "SRV-X1-12G Drawing",
+        "Drawing file URL": "https://rheonics.com/wp-content/uploads/2023/09/Rheonics_SRV-12G.pdf",
+        "ZIP CAD file name": "SRV-G1/2” CAD file",
+        "ZIP CAD file URL": "https://rheonics.com/wp-content/uploads/2023/05/Rheonics_SRV-12G.zip",
+        "Sensing area length": "50 mm [1.96\"]",
+        "Sensing area diameter": "16 mm [0.63\"]"
+      },
+      "key_facts": [
+        "SR-sensors can be placed at any point in a process and at any orientation to ensure stable, accurate, low-noise measurements.",
+        "The SRV sensing element, located in the red section, must always be fully submerged in the fluid.",
+        "SRV sensors measure what is in contact with their sensing element.",
+        "Dead zones are spaces with insufficient fluid transport, leading to immobile/static fluid, accumulation of solids/deposits, or air.",
+        "Dead zones around the sensing area have negative effects on measurement accuracy.",
+        "A clearance of at least 5mm is recommended between the SRV sensor tip and any obstruction (e.g., pipe wall)."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "50 mm [1.96\"]",
+        "Ø16 mm [0.63\"]",
+        "Figure 2: SRV-X1-12G sensing area"
+      ],
+      "warnings_notes": [
+        "Ensure the sensing area is unobstructed by external objects.",
+        "Avoid dead or stagnant zones around the sensing area.",
+        "Inadequate fluid transport, accumulation of solids/deposits, or air in dead zones can negatively affect measurement accuracy.",
+        "Maintain a clearance of at least 5mm between the SRV sensor tip and any pipe wall or obstruction to prevent stagnation."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1055,
+        "cost_usd": 0.0027773
+      },
+      "source_file": "020_SRV-X1-12G_Inline_Process_Viscometer_with_G_12.pdf"
+    },
+    {
+      "page_summary": "This page describes the flow characteristics of Rheonics SRV sensors, detailing how they interact with Newtonian and non-Newtonian fluids, and provides best practices for sensor installation to ensure full immersion and accurate measurements.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "SRV-X1-12G"
+      ],
+      "extracted_text": "SRV has a symmetrical tip, making it possible to face a flowing fluid in any direction. Its shape enables the fluid to be in contact with the tip without creating recirculation zones.\n\nFlow lines\n\nFigure 3: SRV sensing tip.\n\n2.4 Flow\nFor Newtonian fluids flow rate does not affect the viscosity, so SRV should measure the same values in static and moving states of a fluid. For non-Newtonian fluids, the flow rate does matter and viscosity readings may differ between static and moving conditions. For processes with non-constant flow rates, the recommendation is to install the SRV in a section in the pipeline with the most consistent flow rate to have a steady viscosity value.\n\nNote: Rheonics SRV operates with static and flowing fluids. If the fluid is non-Newtonian, a viscosity difference will likely be observed between states and if fluid speed varies, however this is totally dependent on the fluid’s properties. Check this article to verify the fluid velocity limit for the SRV: SR probes for highly viscous fluids and high fluid speeds. (https://support.rheonics.com/en/support/solutions/articles/81000416567).\n\nFlow rate is also relevant to ensure the full submersion of the SRV sensing element into the fluid. For a process with a low flow rate, pipes may not be full of fluid at all points, so SRV should then be placed in a section where the pipe is usually full of fluid (i.e. after a pump). Installing the sensor upwards can solve the issue of non-full pipes but should not be considered for fluids with solids or characteristics that can create deposits around the sensing element.\n\nIn all cases, the SRV’s sensing element should be submerged in the fluid in motion. It’s best to avoid installations with long standpipes (i.e. using a long weldolet or tee), since that may lead to not good fluid transfer resulting in measurements that do not reflect the true state of fluid or worse high noise measurements.\n\nRheonics X\nFluid's height\nPipe is not full, sensing element is not fully submerged\n\nRheonics X\nPipe is full of fluid\nPipe is full but sensing element is in long standpipe\n\nRheonics V\nFluid's height\nNot recommended for fluids with solids or that can create deposits\n\nRheonics V\nPipe is full of fluid\nSensing element is correctly submerged in moving fluid.\n\nFigure 4: SRV-X1-12G installation indications",
+      "specifications": {},
+      "key_facts": [
+        "The SRV sensing tip is symmetrical, allowing it to face flowing fluid in any direction without creating recirculation zones.",
+        "For Newtonian fluids, the flow rate does not affect viscosity readings, meaning the SRV measures consistent values in static and moving states.",
+        "For non-Newtonian fluids, flow rate influences viscosity readings, and differences may be observed between static and moving conditions.",
+        "When dealing with non-constant flow rates for non-Newtonian fluids, it is recommended to install the SRV in a pipeline section with the most consistent flow rate.",
+        "The SRV can operate with both static and flowing fluids.",
+        "Full submersion of the SRV sensing element into the fluid is crucial for accurate measurements.",
+        "In processes with low flow rates where pipes may not be full, the SRV should be placed where the pipe is consistently full, such as after a pump.",
+        "Installing the sensor upwards can help with non-full pipes, but this is not advised for fluids that tend to create deposits around the sensing element.",
+        "Long standpipes (weldolets or tees) should be avoided as they can lead to poor fluid transfer and inaccurate, noisy measurements."
+      ],
+      "diagram_labels": [
+        "Flow lines",
+        "Fluid's height",
+        "Pipe is not full, sensing element is not fully submerged",
+        "Pipe is full of fluid",
+        "Pipe is full but sensing element is in long standpipe",
+        "Not recommended for fluids with solids or that can create deposits",
+        "Sensing element is correctly submerged in moving fluid."
+      ],
+      "warnings_notes": [
+        "Note: Rheonics SRV operates with static and flowing fluids. If the fluid is non-Newtonian, a viscosity difference will likely be observed between states and if fluid speed varies, however this is totally dependent on the fluid’s properties. Check this article to verify the fluid velocity limit for the SRV: SR probes for highly viscous fluids and high fluid speeds. (https://support.rheonics.com/en/support/solutions/articles/81000416567).",
+        "Installing the sensor upwards... should not be considered for fluids with solids or characteristics that can create deposits around the sensing element.",
+        "It’s best to avoid installations with long standpipes (i.e. using a long weldolet or tee), since that may lead to not good fluid transfer resulting in measurements that do not reflect the true state of fluid or worse high noise measurements."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1226,
+        "cost_usd": 0.0032048
+      },
+      "source_file": "020_SRV-X1-12G_Inline_Process_Viscometer_with_G_12.pdf"
+    },
+    {
+      "page_summary": "This page details various installation options for Rheonics SRV-X1-12G and SRV-12G sensors, including weldolets, threaded ports with different O-ring placements, and flow-through cells.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV-X1-12G",
+        "SRV-12G",
+        "SRD Density and Viscosity Sensor",
+        "HAW-12G-MTK",
+        "HAW-12G-OTK",
+        "SR X1-12G",
+        "HPT-12G",
+        "SRV G1/2\""
+      ],
+      "extracted_text": "3. Installation options\nAs explained in this section, the use of an O-Ring for the SRV-X1-12G is not always required. When the O-Ring is used, its size will vary depending on where it is placed.\n\n3.1. G1/2\" Weldolets - HAW accessories\nThe HAW line of Rheonics weldolets enable the installation of the SRV-12G in tanks and pipes (also suitable for the SRD Density and Viscosity Sensor). These weldolets have two versions, one with metal-metal sealing (no O-Ring required) and another with an O-Ring Ø15.1×1.6 mm sealing for hygienic installations. For the latter, follow the accessory page instructions of installation for details on O-Ring placement. Hygienic certification for the -OTK adapter is currently available with 3-A, while EHEDG certification is planned. (https://rheonics.com/resources/certificates/)\n\n- HAW-12G-MTK (https://rheonics.com/product-accessories/haw-12g-mtk/): Weldolet with metal-metal seal\n- HAW-12G-OTK (https://rheonics.com/product-accessories/haw-12g-otk2/): Weldolet with a Ø15.1×1.6 mm O-ring seal\n\nFigure 5: HAW-12G-MTK\nFigure 6: HAW-12G-OTK\n\n3.2. Threaded port on pipe or tank wall\nSensor probe installation is also possible by creating a threaded hole in the pipe or tank.\n\nO-Ring at conical surface\nPlacing an O-Ring at the conical surface of the probe ensures that not even in case of a thread sealing failure, can the process fluids come in contact with the threads of the probe. This is especially required for hygienic application. The O-Ring size is Ø15.1×1.6 mm. Correct machining of the sealing interface is key, so user should follow Rheonics instructions as detailed here: Compression sealing using SR X1-12G interface (https://support.rheonics.com/en/support/solutions/articles/81000416566).\n\nO-Ring at probe's groove\nThis installation requires a Ø22×1.5 mm O-Ring to be placed in the probe's groove above the G1/2\" thread. For this installation client can create a bore through G1/2\" thread in the installation point or use a conical sealing following instructions here: Compression sealing using SR X1-12G interface (https://support.rheonics.com/en/support/solutions/articles/81000416566).\n\n3.3 Flow-through cell HPT-12G\nRheonics accessory HPT-12G (https://rheonics.com/product-accessories/hpt-g12/) is recommended for an inline installation of the SRV G1/2\" in high pressure applications, especially in small line pipes. Visit its accessory page here (https://rheonics.com/product-accessories/hpt-g12/).",
+      "specifications": {
+        "HAW-12G-OTK_O-Ring_size": "Ø15.1×1.6 mm",
+        "conical_surface_O-Ring_size": "Ø15.1×1.6 mm",
+        "probe's_groove_O-Ring_size": "Ø22×1.5 mm",
+        "probe's_groove_thread_size": "G1/2\""
+      },
+      "key_facts": [
+        "The use of an O-Ring for the SRV-X1-12G sensor is not always required, and its size varies depending on placement.",
+        "Rheonics HAW weldolets enable the installation of SRV-12G sensors in tanks and pipes, also suitable for SRD Density and Viscosity Sensors.",
+        "HAW weldolets come in two versions: HAW-12G-MTK with a metal-metal seal (no O-Ring) and HAW-12G-OTK with a Ø15.1×1.6 mm O-Ring for hygienic installations.",
+        "Hygienic certification for the HAW-12G-OTK adapter is currently 3-A, with EHEDG certification planned.",
+        "Sensor probe installation is also possible by creating a threaded hole in the pipe or tank.",
+        "Placing an O-Ring at the conical surface of the probe prevents process fluids from contacting the probe threads, which is essential for hygienic applications.",
+        "Correct machining of the sealing interface is crucial when placing an O-Ring at the conical surface.",
+        "Installation using the probe's groove requires a Ø22×1.5 mm O-Ring to be placed above the G1/2\" thread.",
+        "The HPT-12G flow-through cell is recommended for inline installation of the SRV G1/2\" in high-pressure applications, particularly in small line pipes."
+      ],
+      "diagram_labels": [
+        "Figure 5: HAW-12G-MTK",
+        "Figure 6: HAW-12G-OTK"
+      ],
+      "warnings_notes": [
+        "For hygienic installations using HAW-12G-OTK, follow the accessory page instructions for O-Ring placement details.",
+        "For O-Ring placement at the conical surface, correct machining of the sealing interface is key, and users should follow Rheonics instructions for 'Compression sealing using SR X1-12G interface'.",
+        "For O-Ring placement at the probe's groove, users should follow Rheonics instructions for 'Compression sealing using SR X1-12G interface'."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1516,
+        "cost_usd": 0.0039298
+      },
+      "source_file": "020_SRV-X1-12G_Inline_Process_Viscometer_with_G_12.pdf"
+    },
+    {
+      "page_summary": "This page provides installation instructions and specifications for an SRV sensor within an HPT-12G flow cell, including O-ring dimensions, pressure ratings, port sizes, and recommended torque.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "HPT-12G flow cell",
+        "HF/60-SWOS-12-DN12",
+        "SRV-X1-12G",
+        "inline-viscometer-srv",
+        "SRV-12G",
+        "hpt-g12"
+      ],
+      "extracted_text": "This accessory requires the use of a different O-ring, also supplied by Rheonics, with a dimension of Ø15.1 x 1.6 mm. This flow cell withstands high-pressure conditions (up to 500 bar) and ensures no dead zones around the sensor. Due to its G1/2\" inlet and outlet ports, it can be used for small lines (e.g. DN20).\n\nSteps for flow-cell installation:\ni. Pleace the Ø15.1 x 1.6 mm O-ring in the notch of the flow cell, right after the conical section.\nii. Place the sensor in the flow cell and thread it in completely.\niii. Connect the flow cell to the line, possible connectors adaptors are HF/60-SWOS-12-DN12.\n\nFigure 7: SRV in HPT-12G flow cell.\n\nNote: Recommended torque for threading is 18 N.m. However, installation of the SRV-X1-12G can generally be done by hand, as manual tight is enough to ensure a correct sealing.\n\nReferences\n(https://www.iso.org/obp/ui/#iso:std:iso:228:-1:en\nhttps://rheonics.com/products/inline-viscometer-srv/)\n(https://rheonics.com/products/inline-viscometer-srv/)\n(/wp-content/uploads/2023/05/Rheonics_SRV-12G.zip\nhttps://rheonics.com/product-accessories/hpt-g12/)\n(https://www.iso.org/obp/ui/#iso:std:iso:228:-1:en)",
+      "specifications": {
+        "O-ring_dimension": "Ø15.1 x 1.6 mm",
+        "Maximum_pressure_rating": "500 bar",
+        "Inlet_outlet_port_size": "G1/2\"",
+        "Compatible_line_size_example": "DN20",
+        "Recommended_threading_torque": "18 N.m"
+      },
+      "key_facts": [
+        "The accessory requires a specific O-ring with dimensions Ø15.1 x 1.6 mm, supplied by Rheonics.",
+        "The flow cell is designed to withstand high-pressure conditions up to 500 bar.",
+        "The flow cell ensures no dead zones around the sensor.",
+        "With G1/2\" inlet and outlet ports, the flow cell can be used for small lines (e.g., DN20).",
+        "Flow cell installation involves placing the O-ring, inserting and fully threading the sensor, and connecting the flow cell to the process line.",
+        "Possible connector adaptors for the flow cell include HF/60-SWOS-12-DN12.",
+        "Despite a recommended torque of 18 N.m, installation of the SRV-X1-12G can often be done by hand to achieve a correct sealing."
+      ],
+      "diagram_labels": [
+        "O-ring Ø15.1 x 1.6 mm",
+        "rheonics",
+        "Figure 7: SRV in HPT-12G flow cell."
+      ],
+      "warnings_notes": [
+        "Note: Recommended torque for threading is 18 N.m. However, installation of the SRV-X1-12G can generally be done by hand, as manual tight is enough to ensure a correct sealing."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 979,
+        "cost_usd": 0.0025873
+      },
+      "source_file": "020_SRV-X1-12G_Inline_Process_Viscometer_with_G_12.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

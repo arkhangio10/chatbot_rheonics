@@ -1,0 +1,220 @@
+{
+  "source_file": "049_Cable_protection_on_Rheonics_Sensor.pdf",
+  "total_pages": 7,
+  "chunks": [
+    {
+      "page_summary": "This page provides a technical overview of cable protection methods and accessories for Rheonics sensors, emphasizing their importance for safety, equipment longevity, and proper functioning.",
+      "document_type": "notes",
+      "product_names": [
+        "SRV",
+        "SRD",
+        "DVM",
+        "DVP",
+        "Rheonics Sensor"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nCable protection on Rheonics Sensor\n\nModified on: Tue, 13 Feb, 2024 at 9:43 PM\n\nWhat products are involved?\nSRV (https://rheonics.com/products/inline-viscometer-srv/), SRD (https://rheonics.com/products/inline-density-meter-srd/), DVM (https://rheonics.com/products/hpht-pvt-density-meter-viscometer-dvm/), DVP (https://rheonics.com/products/)\nVisit Rheonics product page: https://rheonics.com/products/\n\nProtecting conductors and cables from damage is essential whenever you work with them. To prevent unnecessary strain on them, either inside or outside of an enclosure, ensure that they are not over-bent, pulled, or tugged.\n\nCables and wires can be tensioned in a variety of ways. One of the most effective methods is electrical strain relief fittings, or \"bushing\". These are designed to provide protection and reduce tension on cables. A bushing can be made from a variety of materials including stainless steel, plastic, and rubber.\n\nDepending on your application, some bushings may have threaded ends while others may have open ends, which allow for cable slack. The design of the bushing and the material used to make it will depend on the protection needs and the type of cable being used.\n\nCables can be completely protected with protective sheaths. Their unique properties include extreme flexibility, corrosion resistance, and self-extinguishing abilities. In addition to providing protection against dirt and humidity, protective sheaths may have to withstand high temperatures in some applications.\n\nFigure 1. Protection sleeves[1]\n\nWhen using a Rheonics Sensor, be sure to select a bushing that will fit the cable properly and provide protection from pulling tension. Using a high-quality bushing can help ensure that your cables remain safe and secure for many years to come. Proper protection is essential when it comes to keeping your electronics functioning at their best.\n\n1. Cable protection: What do you need to know?\n\nUsing cable protection prevents accidents such as electrocution, tripping, and entanglement from occurring. Moreover, it also helps to protect the cables from damage and wear, thereby extending the life span of the cables. Good protection of electrical conductors is essential from both a human and equipment safety perspective!\n\nFor cable protection, there are a variety of cable accessories available, such as:\n\nCable glands - straight/brass\n\nThe spiral construction of conduits allows their ends to be sharp enough to cut through conductor insulation. Electrical shorts can be prevented by using internal wire strain relief. This fits around the conductors and slides into the flexible conduit. Next, the conduit is inserted into a connector attached to a conduit junction box or electric cable enclosure.",
+      "specifications": {},
+      "key_facts": [
+        "Protecting conductors and cables from damage is essential to prevent unnecessary strain.",
+        "Electrical strain relief fittings, or \"bushings,\" are an effective method to provide protection and reduce tension on cables.",
+        "Bushings can be made from materials such as stainless steel, plastic, and rubber.",
+        "The design and material of a bushing depend on the application's protection needs and the type of cable.",
+        "Protective sheaths offer extreme flexibility, corrosion resistance, self-extinguishing abilities, and protection against dirt, humidity, and high temperatures.",
+        "Selecting a properly fitting, high-quality bushing is crucial for Rheonics Sensors to protect against pulling tension and ensure long-term cable safety.",
+        "Proper cable protection prevents accidents like electrocution, tripping, and entanglement.",
+        "Cable protection helps protect cables from damage and wear, extending their lifespan.",
+        "Good protection of electrical conductors is essential for both human safety and equipment longevity."
+      ],
+      "diagram_labels": [
+        "Figure 1. Protection sleeves[1]"
+      ],
+      "warnings_notes": [
+        "To prevent unnecessary strain on conductors and cables, ensure they are not over-bent, pulled, or tugged.",
+        "The spiral construction of conduits can have ends sharp enough to cut through conductor insulation, which can cause electrical shorts; this risk can be prevented by using internal wire strain relief."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1052,
+        "cost_usd": 0.0027697999999999998
+      },
+      "source_file": "049_Cable_protection_on_Rheonics_Sensor.pdf"
+    },
+    {
+      "page_summary": "This page provides an overview of cable management techniques and components, including cable glands, strain reliefs, and conduits, to ensure cable protection and proper installation.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Figure 2. Cable gland [2]\n\nInstead, it is recommended to use either a metal alloy or plastic cable strain relief grip based on the environment. You can choose between straight or angled strain relief grips for electrical cables. Pulling force is not always protected by cable strain reliefs. In contrast, they allow cable passage through holes in furniture, enclosures, and other surfaces without damaging cables or devices.\n\nFigure 3. Cable relief. [3]\n\nCable conduits\n\nCables are enclosed, supported, and protected by conduit. For cables, you can get rigid conduits or flexible plastic conduits.\n\nConduit is often made from flexible sheaths reinforced by rigid materials such as metal. The grounding and bonding properties of this type of cable conduit minimize electromagnetic interference and block emissions from the power cables it houses. Some options give you flexibility when choosing a conduit with a metal base. This type of conduit is usually used for general factory wiring and machine connections.",
+      "specifications": {},
+      "key_facts": [
+        "It is recommended to use either a metal alloy or plastic cable strain relief grip, selected based on the environment.",
+        "Straight or angled strain relief grips are available for electrical cables.",
+        "Cable strain reliefs facilitate cable passage through holes in furniture, enclosures, and other surfaces without damaging cables or devices.",
+        "Cable strain reliefs do not always protect against pulling force.",
+        "Cables are enclosed, supported, and protected by conduit.",
+        "Both rigid and flexible plastic conduits are available for cables.",
+        "Conduits made from flexible sheaths reinforced by rigid materials, such as metal, offer grounding and bonding properties that minimize electromagnetic interference and block emissions.",
+        "Metal-based conduits are typically used for general factory wiring and machine connections."
+      ],
+      "diagram_labels": [
+        "Cable gland [2]",
+        "Cable relief. [3]"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 488,
+        "cost_usd": 0.0013598
+      },
+      "source_file": "049_Cable_protection_on_Rheonics_Sensor.pdf"
+    },
+    {
+      "page_summary": "This page illustrates and describes two types of protective conduits for cables: a metal cable protection sleeve and a liquid-tight metal conduit, detailing their material properties and applications.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Figure 4. Metal cable protection sleeve [4]\n\nProtective metal conduits are used for cable protection, they can be used in several applications, and depending on the specifications they are designed weatherproof, watertight, widely resistant to seawater, acids, and oil but also very flexible.\n\nFigure 5. Protective metal conduit liquid-tight[5]\n\nSynthetic protective conduit can also be found, some examples use polyurethane jackets which are extremely flexible airtight, and liquid-proof with high tenacity and abrasion resistance.",
+      "specifications": {},
+      "key_facts": [
+        "Protective metal conduits are used for cable protection.",
+        "Metal conduits can be used in several applications.",
+        "Metal conduits are designed to be weatherproof and watertight.",
+        "Metal conduits are widely resistant to seawater, acids, and oil.",
+        "Metal conduits are very flexible.",
+        "Synthetic protective conduits are available, with some examples using polyurethane jackets.",
+        "Polyurethane-jacketed conduits are extremely flexible, airtight, and liquid-proof.",
+        "Polyurethane-jacketed conduits offer high tenacity and abrasion resistance."
+      ],
+      "diagram_labels": [
+        "Figure 4. Metal cable protection sleeve [4]",
+        "Figure 5. Protective metal conduit liquid-tight[5]"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 364,
+        "cost_usd": 0.0010498
+      },
+      "source_file": "049_Cable_protection_on_Rheonics_Sensor.pdf"
+    },
+    {
+      "page_summary": "This page describes different types of cable protection solutions, including synthetic and PVC conduits for liquid-tight and protective applications, and cable wraps for organizing and protecting cables.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Figure 6. Synthetic protective conduit liquid-tight[5]\n\nPlastic cable conduit is an alternative. For electrical cables, PVC conduit is highly flexible, accommodating bends as needed. As a result of its high impact strength, it can be quickly recovered if crushed.\n\nFigure 7. Cable conduit-Seal against liquids [5]\n\nCable wraps\n\nBundling cables with cable wrap and cable sleeves keeps them organized and protected. They differ in materials and the ease with which cables can be accessed.",
+      "specifications": {},
+      "key_facts": [
+        "Plastic cable conduit is an alternative for electrical cables.",
+        "PVC conduit is highly flexible, accommodating bends as needed.",
+        "PVC conduit has high impact strength and can be quickly recovered if crushed.",
+        "Cable wrap and cable sleeves keep bundled cables organized and protected.",
+        "Cable wraps and sleeves differ in materials and the ease of cable access."
+      ],
+      "diagram_labels": [
+        "Figure 6. Synthetic protective conduit liquid-tight[5]",
+        "Figure 7. Cable conduit-Seal against liquids [5]"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 323,
+        "cost_usd": 0.0009472999999999999
+      },
+      "source_file": "049_Cable_protection_on_Rheonics_Sensor.pdf"
+    },
+    {
+      "page_summary": "This page provides an explanation of spiral cable wrap and illustrates installation examples for inline density meters and viscometers, highlighting the use of flexible plastic and metallic conduits with cable glands for sensor cable protection.",
+      "document_type": "manual",
+      "product_names": [
+        "inline density meter",
+        "viscometer"
+      ],
+      "extracted_text": "Spiral wrap is a type of cable wrap that is made of a flexible material that can be cut along its length. This allows you to wrap the cable bundle in a continuous spiral, which can be easily customized to fit your specific needs. The spiral wrap is secured with a fastener or adhesive, and it provides a neat and secure way to bundle and organize cables.\nFigure 8. Cable wraps[6]\n2. Installation examples\nFigure 9. Installation of inline density meter and viscometer - The cable is protected by a flexible plastic conduit and cable gland\nFigure 10. Installation of inline density meter and viscometer - Sensor cable protected behind metallic conduit and metal cable gland.",
+      "specifications": {},
+      "key_facts": [
+        "Spiral wrap is a flexible material used for bundling and organizing cables.",
+        "Spiral wrap can be cut to length and customized to specific needs.",
+        "Spiral wrap is secured with a fastener or adhesive for a neat and secure bundle.",
+        "Flexible plastic conduit with a cable gland can be used for cable protection during the installation of an inline density meter and viscometer.",
+        "Metallic conduit and a metal cable gland can be used to protect the sensor cable going to the process for inline density meter and viscometer installations."
+      ],
+      "diagram_labels": [
+        "Flexible conduit with cable gland used for protection",
+        "Metallic conduit and metal cable gland used to protect sensor cable going to the process."
+      ],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 408,
+        "cost_usd": 0.0011598000000000001
+      },
+      "source_file": "049_Cable_protection_on_Rheonics_Sensor.pdf"
+    },
+    {
+      "page_summary": "This page details methods for protecting Rheonics inline density meters and viscometers from environmental factors, specifically through the use of metallic conduits and sealed drains, and provides references to external components and internal support articles.",
+      "document_type": "manual",
+      "product_names": [
+        "SME-TRD",
+        "SRV",
+        "SRD",
+        "DVP",
+        "DVM",
+        "SME",
+        "Rheonics viscosity and density sensor"
+      ],
+      "extracted_text": "Figure 11. Installation of inline density meter and viscometer - SME-TRD with Zener barriers,sensor cable is protected with Metallic conduit.\nFigure 12. Installation of inline density meter and viscometer - Cable is protected by a metallic conduit, but it is also added sealed drain in case of water or vapor condensation inside of the electronics.\nReferences:\n[1] Protection sleeve by Brevetti Stendalto | DirectIndustry (https://www.directindustry.com/prod/brevetti-stendalto/product-16146-1948767.html)\n[2] Brass cable gland, reduced sealing insert (https://eshop.wuerth-industrie.com/Product-categories/Cable-gland-metric-MS-reduced-sealing-insert/15435504070412.cyd/en/US/EUR/)\n[3] A guide to cable strain relief (https://www.essentracomponents.com/en-gb/news/solutions/wire-cable/guide-to-cable-strain-relief-and-protection)\n[4] Sommer cable Shop | Metal cable protection sleeve, with trumpet inlet and PG outlet for PG Thread, grey (https://shop.sommercable.com/fr/Connectors/Accessories/Kabel-Metallschutzschlauch-mit-Trompeteneingang-und-PG-Ausgang-KMS13.html)\n[5] Protective metal and synthetic conduits (https://www.agro.ch/en_CH/products/industrial-products/protective-cable-conduits/protective-metal-and-synthetic-conduits/)\n[6] Cable Conduit - 494608 (https://www.essentracomponents.com/en-gb/p/cable-conduit/494608)\n[7] Cable Wraps - Spiral (https://www.essentracomponents.com/en-gb/p/cable-wraps-spiral)\nRecommended articles:\n1. Powering the Rheonics viscosity and density sensor - SRV, SRD, DVP, DVM, SME (https://support.rheonics.com/en/support/solutions/articles/81000297455-powering-the-sensor-input-power-to-transmitter)\n2. Handling the SRV Sensor (https://support.rheonics.com/en/support/solutions/articles/81000297531-handling-the-srv-sensor)\n3. SRV Installation and Operation Manual (https://support.rheonics.com/en/support/solutions/articles/81000297871-srv-sensor-from-box-to-operation)\n4. SME-TR(D) Transmitter housing bracket installation instructions (https://support.rheonics.com/en/support/solutions/articles/81000359191-sme-tr-d-transmitter-housing-bracket-installation-instructions)\nDISCLAIMER\nPictures, photos, and images used are for illustration purposes and do not constitute any warranty or assertions on the suitability of use and should not be construed as an explicit or implicit recommendation or endorsement. All illustrations are given proper credit from our source of access and by their use here we do not specify or establish any copyright which belongs and stays unaffected with the existing copyright holder of that material.",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics inline density meters and viscometers (SME-TRD) are installed with Zener barriers.",
+        "Sensor cables for Rheonics instruments are protected using metallic conduits.",
+        "A sealed drain can be incorporated into cable protection to prevent water or vapor condensation inside the electronics of inline density meters and viscometers.",
+        "Various components for cable protection include protection sleeves, brass cable glands with reduced sealing inserts, cable strain reliefs, metal cable protection sleeves with specific inlets/outlets, protective metal and synthetic conduits, cable conduits, and cable wraps.",
+        "Rheonics provides support articles on powering viscosity and density sensors (SRV, SRD, DVP, DVM, SME), handling the SRV sensor, SRV installation and operation, and SME-TR(D) transmitter housing bracket installation."
+      ],
+      "diagram_labels": [
+        "Metallic conduit used to protect cables going to zener barriers.",
+        "Cable protection using drain seal to avoid water or vapor condensation",
+        "Rheonics",
+        "NO. 2 ASPH",
+        "LINE TEM"
+      ],
+      "warnings_notes": [
+        "Pictures, photos, and images are for illustration purposes only and do not constitute any warranty or assertions on suitability of use, nor should they be construed as an explicit or implicit recommendation or endorsement.",
+        "All illustrations are properly credited, and their use does not establish or affect copyright ownership."
+      ],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1222,
+        "cost_usd": 0.0031948
+      },
+      "source_file": "049_Cable_protection_on_Rheonics_Sensor.pdf"
+    },
+    {
+      "page_summary": "This page is almost entirely blank, featuring only a faint, thin horizontal line near the top.",
+      "document_type": "",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 85,
+        "cost_usd": 0.0003523
+      },
+      "source_file": "049_Cable_protection_on_Rheonics_Sensor.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

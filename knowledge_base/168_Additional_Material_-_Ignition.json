@@ -1,0 +1,38 @@
+{
+  "source_file": "168_Additional_Material_-_Ignition.pdf",
+  "total_pages": 1,
+  "chunks": [
+    {
+      "page_summary": "This page provides additional material, specifically a Modbus configuration file, for integrating Rheonics sensors with Ignition software.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics Sensors",
+        "Ignition software"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nAdditional Material - Ignition\nModified on: Fri, 4 Oct, 2024 at 6:23 PM\n\nThe following files are to be used together with Ignition software for integration with Rheonics Sensors.\n1. Modbus-config.csv: Contains basic configuration for Rheonics Sensors when using modbus communication.",
+      "specifications": {},
+      "key_facts": [
+        "This document provides additional material for integrating Rheonics Sensors with Ignition software.",
+        "The document was last modified on Friday, October 4, 2024, at 6:23 PM.",
+        "The Modbus-config.csv file is available for basic configuration of Rheonics Sensors.",
+        "The configuration file is intended for use when Rheonics Sensors utilize Modbus communication.",
+        "A phone number for support or inquiries is +1 713 234 0863."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 320,
+        "cost_usd": 0.0009398
+      },
+      "source_file": "168_Additional_Material_-_Ignition.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

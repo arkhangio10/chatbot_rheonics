@@ -1,0 +1,169 @@
+{
+  "source_file": "Rheonics_SR-SLP_Slimline-Probe.pdf",
+  "total_pages": 3,
+  "chunks": [
+    {
+      "page_summary": "This page provides an engineering drawing of the Rheonics SRV-SLP Slimline Probe SRV, detailing its dimensions, key specifications, and company contact information.",
+      "document_type": "datasheet",
+      "product_names": [
+        "Rheonics SRV-SLP",
+        "SRV-SLP Slimline Probe SRV"
+      ],
+      "extracted_text": "Rheonics SRV-SLP\nMax. Pressure 500 bar (7500 psi)\nMaterial 316L\nOrder Code SRV-SLP-Ayyy-Bzzz\n\nA: Insertion Length min. 80 [ 3.15 ]\nB: Customer specified flange min. OD 22mm\n19 Ø [ 0.75 ]\n14 Ø [ 0.55 ]\n5 Ø [ 0.20 ]\n8 Ø [ 0.31 ]\n46 [ 1.81 ]\n\nUnits: mm [inch]\n\nSRV-SLP\nSlimline Probe SRV\n\nThis drawing remains property of rheonics. It may be neither copied nor informed to third persons or competitors without our approval. (2 paragraph 1 fig.7 copyright act of 9th Sept. 1965)\nProtected by US and International patents granted and pending\n\nrheonics\ninline process\ndensity and viscosity\nmonitoring\nrheonics • Switzerland • USA • www.rheonics.com • info@rheonics.com +41 52 511 32 00 +1 713 364 5427\nRelease: 2310 Preliminary release - only for guidance",
+      "specifications": {
+        "Max. Pressure": "500 bar (7500 psi)",
+        "Material": "316L",
+        "Order Code Format": "SRV-SLP-Ayyy-Bzzz",
+        "Minimum Insertion Length": "80 mm (3.15 inch)",
+        "Minimum Customer Flange Outer Diameter": "22 mm",
+        "Probe Diameter (Upper Section)": "19 mm (0.75 inch)",
+        "Probe Diameter (Middle Section)": "14 mm (0.55 inch)",
+        "Probe Diameter (Lower Thin Section)": "5 mm (0.20 inch)",
+        "Probe Diameter (Tip Section)": "8 mm (0.31 inch)",
+        "Lower Probe Segment Length": "46 mm (1.81 inch)"
+      },
+      "key_facts": [
+        "The document features a technical drawing of the Rheonics SRV-SLP Slimline Probe SRV.",
+        "The SRV-SLP probe has a maximum pressure rating of 500 bar (7500 psi).",
+        "The material used for the SRV-SLP probe is 316L.",
+        "The minimum insertion length for the probe is 80 mm (3.15 inches).",
+        "A customer-specified flange with a minimum outer diameter of 22 mm is required.",
+        "Rheonics specializes in inline process density and viscosity monitoring.",
+        "The document is a preliminary release (2310) and is intended for guidance only.",
+        "Rheonics holds US and International patents for its products."
+      ],
+      "diagram_labels": [
+        "A: Insertion Length min. 80 [ 3.15 ]",
+        "B: Customer specified flange min. OD 22mm",
+        "19 Ø [ 0.75 ]",
+        "14 Ø [ 0.55 ]",
+        "5 Ø [ 0.20 ]",
+        "8 Ø [ 0.31 ]",
+        "46 [ 1.81 ]",
+        "Units: mm [inch]"
+      ],
+      "warnings_notes": [
+        "This drawing remains property of rheonics. It may be neither copied nor informed to third persons or competitors without our approval. (2 paragraph 1 fig.7 copyright act of 9th Sept. 1965)",
+        "Protected by US and International patents granted and pending",
+        "Release: 2310 Preliminary release - only for guidance"
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1001,
+        "cost_usd": 0.0026422999999999998
+      },
+      "source_file": "Rheonics_SR-SLP_Slimline-Probe.pdf"
+    },
+    {
+      "page_summary": "This page provides a technical drawing and specifications for the Rheonics SRD-SLP Slimline Probe SRD, including its dimensions, material, maximum pressure, and ordering information.",
+      "document_type": "datasheet",
+      "product_names": [
+        "Rheonics SRD-SLP",
+        "SRD-SLP Slimline Probe SRD",
+        "SRD-SLP"
+      ],
+      "extracted_text": "Rheonics SRD-SLP\nMax. Pressure\n500 bar (7500 psi)\nMaterial\n316L\nOrder Code\nSRD-SLP-Ayyy-Bzzz\nB: Customer specified flange —\nmin. OD 22mm\n19\nΦ [ 0.75 ]\nA: Insertion Length\nmin. 80 [ 3.15 ]\n14\nΦ [ 0.55 ]\n40\n[ 1.58 ]\n5\nΦ [ 0.20 ]\n13\n[ 0.50 ]\nUnits: mm [inch]\nSRD-SLP\nSlimline Probe SRD\nThis drawing remains property of rheonics. It may be neither copied nor informed to third persons or competitors without our approval. ( 2 paragraph 1 fig.7 copyright act of 9th Sept. 1965)\nProtected by US and International patents granted and pending\nrheonics • Switzerland • USA • www.rheonics.com • info@rheonics.com +41 52 511 32 00 +1 713 364 5427\nRelease: 2310 Preliminary release - only for guidance\nrheonics\ninline process\ndensity and viscosity\nmonitoring",
+      "specifications": {
+        "Max. Pressure": "500 bar (7500 psi)",
+        "Material": "316L",
+        "Order Code": "SRD-SLP-Ayyy-Bzzz",
+        "Minimum Insertion Length (A)": "80 mm (3.15 inch)",
+        "Minimum Customer Flange Outer Diameter (B)": "22 mm",
+        "Probe Diameter 1": "19 mm (0.75 inch)",
+        "Probe Diameter 2": "14 mm (0.55 inch)",
+        "Probe Diameter 3": "5 mm (0.20 inch)",
+        "Probe Segment Length (upper narrow part)": "40 mm (1.58 inch)",
+        "Probe Tip Length (end section)": "13 mm (0.50 inch)"
+      },
+      "key_facts": [
+        "Rheonics manufactures inline process density and viscosity monitoring solutions.",
+        "The SRD-SLP Slimline Probe SRD is made of 316L material.",
+        "The product has a maximum pressure rating of 500 bar (7500 psi).",
+        "The product is protected by US and International patents."
+      ],
+      "diagram_labels": [
+        "B: Customer specified flange — min. OD 22mm",
+        "Φ [ 0.75 ]",
+        "A: Insertion Length min. 80 [ 3.15 ]",
+        "Φ [ 0.55 ]",
+        "Φ [ 0.20 ]",
+        "[ 0.50 ]",
+        "[ 1.58 ]",
+        "Units: mm [inch]"
+      ],
+      "warnings_notes": [
+        "This drawing remains property of rheonics. It may be neither copied nor informed to third persons or competitors without our approval. ( 2 paragraph 1 fig.7 copyright act of 9th Sept. 1965)",
+        "Protected by US and International patents granted and pending",
+        "Release: 2310 Preliminary release - only for guidance"
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 925,
+        "cost_usd": 0.0024523
+      },
+      "source_file": "Rheonics_SR-SLP_Slimline-Probe.pdf"
+    },
+    {
+      "page_summary": "This page details the order codes, configuration options, and dimensional drawings for Rheonics' Slimline Probe (SLP) sensors, including viscometer and density meter variants.",
+      "document_type": "drawing",
+      "product_names": [
+        "Slimline Probe (SLP)",
+        "Rheonics SRV viscometer",
+        "Rheonics SRD density meter and viscometer",
+        "SR-Sensor SLP",
+        "SRV-SLP-A83-B34N",
+        "SRD-SLP-A110-B10T"
+      ],
+      "extracted_text": "Slimline Probe (SLP) Order Code\nRheonics SRx-SLP-Ayyy-Bzzz\nClient should specify sensor type, length variant and process connection required\nx: Sensor Type | Selected by customer | Rheonics SRV viscometer\n              |                      | Rheonics SRD density meter and viscometer\nyyy: Insertion Length | Defined by customer | Min. 80mm [3.15]\nzzz: Connection Type | Defined by customer | Welded flange with min. OD 22mm\n\nUnits: mm [inch]\n\nSRV-SLP-A83-B34N\n3/4\"-14 NPT thread\n\nSRD-SLP-A110-B10T\nDN20 Tri-Clamp\n\nSR-Sensor SLP Configuration options\n\nThis drawing remains property of rheonics. It may be neither copied nor informed to third persons or competitors without our approval. ( 2 paragraph 1 fig.7 copyright act of 9th Sept. 1965)\n\nProtected by US and International patents granted and pending\nrheonics • Switzerland • USA • www.rheonics.com • info@rheonics.com +41 52 511 32 00 +1 713 364 5427\nRelease: 2310 Preliminary release - only for guidance\n\nrheonics\ninline process\ndensity and viscosity\nmonitoring",
+      "specifications": {
+        "Minimum Insertion Length": "80 mm [3.15 inch]",
+        "Minimum Welded Flange OD": "22 mm",
+        "SRV-SLP-A83-B34N Overall Length": "83 mm [3.27 inch]",
+        "SRV-SLP-A83-B34N Probe Tip Length": "46 mm [1.81 inch]",
+        "SRV-SLP-A83-B34N Connection Type": "3/4\"-14 NPT thread",
+        "SRD-SLP-A110-B10T Overall Length": "110 mm [4.33 inch]",
+        "SRD-SLP-A110-B10T Probe Tip Length": "40 mm [1.58 inch]",
+        "SRD-SLP-A110-B10T Connection Type": "DN20 Tri-Clamp"
+      },
+      "key_facts": [
+        "The Slimline Probe (SLP) order code follows the format Rheonics SRx-SLP-Ayyy-Bzzz.",
+        "Customers must specify the sensor type, insertion length, and process connection required for their SLP probe.",
+        "Available sensor types for the Slimline Probe are Rheonics SRV viscometer and Rheonics SRD density meter and viscometer.",
+        "The minimum insertion length for the SLP probes is 80mm (3.15 inches).",
+        "If a welded flange connection is chosen, it must have a minimum outer diameter of 22mm.",
+        "The document includes dimensional drawings for two specific configurations: SRV-SLP-A83-B34N with a 3/4\"-14 NPT thread, and SRD-SLP-A110-B10T with a DN20 Tri-Clamp.",
+        "The document is a preliminary release and is intended only for guidance."
+      ],
+      "diagram_labels": [
+        "A: [ 3.27 ]",
+        "[ 1.81 ]",
+        "B: 34N - 3/4\" NPT Thread",
+        "A: [ 4.33 ]",
+        "[ 1.58 ]",
+        "B: 10T - Tri-Clamp DN20",
+        "rheonics"
+      ],
+      "warnings_notes": [
+        "Client should specify sensor type, length variant and process connection required",
+        "This drawing remains property of rheonics. It may be neither copied nor informed to third persons or competitors without our approval. ( 2 paragraph 1 fig.7 copyright act of 9th Sept. 1965)",
+        "Protected by US and International patents granted and pending",
+        "Release: 2310 Preliminary release - only for guidance"
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1165,
+        "cost_usd": 0.0030523
+      },
+      "source_file": "Rheonics_SR-SLP_Slimline-Probe.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

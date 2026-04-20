@@ -1,0 +1,198 @@
+{
+  "source_file": "253_Importance_of_inline_process_control.pdf",
+  "total_pages": 6,
+  "chunks": [
+    {
+      "page_num": 1,
+      "page_summary": "Extraction failed",
+      "document_type": "unknown",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "extraction_failed": true,
+      "source_file": "253_Importance_of_inline_process_control.pdf"
+    },
+    {
+      "page_summary": "This page compares three methods for viscosity and density measurement and control, highlighting the benefits and drawbacks of offline, manual inline, and automatic inline systems, with the latter being the recommended approach for optimal process control.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics process meter SRD"
+      ],
+      "extracted_text": "Density: 1.0039 lb/ft³\nViscosity: 230.03 mPa.s\nTemp: 150 °K\nDevice: B01-0001\nDensity Viscosity Temperature\nBack\nFigure 2. depicts real-time data logging, providing a means to observe the smooth operation of the sample and the overall process.\n1. Monitoring and Controlling Techniques\nMethod 1: Offline Viscosity and Density Measurement\n*   Benefits: Cost-effective; simple to implement\n*   Drawbacks: Unreliable; slow in responding to changes; manual intervention\n*   Applicability: Can be used in low-precision requirements, smaller system sizes, or infrequent concentration changes.\nThis technique involves taking periodic measurements of the process fluid using an offline viscosity/density meter. This viscosity/density meter is separate from the process stream and requires manual intervention. This method can be cost-effective and relatively simple to implement; however, it can be quite slow and unreliable in response to concentration changes.\nMethod 2: Inline Viscosity and Density Measurement and Manual Feed Rate Adjustment\n*   Benefits: Quicker viscosity/density measurements; greater accuracy than Method 1\n*   Drawbacks: Slow adjustment of feed rates; manual intervention; risks of human error\n*   Applicability: Could be useful in cases where the product concentration doesn't change frequently, and the manpower is available for manual adjustments.\nHere, an inline viscosity and density meter like the Rheonics process meter SRD continuously measures the fluid parameters. This meter provides real-time monitoring of the process stream, making it quicker and more accurate than offline measurements. However, feed rate adjustments are still handled manually, which can result in slower reaction times and potential human error, like over-diluting or under-diluting the solution.\nMethod 3: Automatic Inline Monitoring and Control (Recommended)\n*   Benefits: Real-time accurate measurements; fast control adjustments; low human intervention; consistent quality\n*   Drawbacks: Higher initial installation cost\n*   Applicability: Ideal for larger systems, frequent concentration changes, or high-precision requirements.\nThis method employs an inline process density meter like the Rheonics process meter SRD to monitor product density in real-time, combined with a simple controller to adjust the feed rates automatically. This setup provides accurate density measurements and allows the controller to make fast adjustments in response to concentration changes, maintaining product quality and achieving tight control. While this method comes with a higher initial installation cost, the benefits of consistent quality, performance, and reduced manpower involvement make it the recommended choice.",
+      "specifications": {
+        "Current Density": "1.0039 lb/ft³",
+        "Current Viscosity": "230.03 mPa.s",
+        "Current Temperature": "150 °K",
+        "Device ID": "B01-0001",
+        "Logged Density (10:32am)": "1.0249 g/cc",
+        "Logged Viscosity (10:32am)": "240.33 cP",
+        "Logged Temperature (10:32am)": "162 °C"
+      },
+      "key_facts": [
+        "Figure 2 depicts real-time data logging to observe the smooth operation of the sample and the overall process.",
+        "Method 1, Offline Viscosity and Density Measurement, is cost-effective and simple to implement but is unreliable, slow, and requires manual intervention.",
+        "Method 1 is suitable for low-precision requirements, smaller system sizes, or infrequent concentration changes.",
+        "Method 2, Inline Viscosity and Density Measurement with Manual Feed Rate Adjustment, provides quicker and more accurate viscosity/density measurements than Method 1.",
+        "Drawbacks of Method 2 include slow adjustment of feed rates, manual intervention, and risks of human error.",
+        "Method 2 is useful when product concentration does not change frequently and manpower is available for manual adjustments.",
+        "The Rheonics process meter SRD continuously measures fluid parameters for real-time monitoring, offering quicker and more accurate data than offline methods.",
+        "Manual feed rate adjustments in Method 2 can lead to slower reaction times and potential human errors like over-dilution or under-dilution.",
+        "Method 3, Automatic Inline Monitoring and Control, is the recommended approach.",
+        "Method 3 provides real-time accurate measurements, fast control adjustments, low human intervention, and consistent quality.",
+        "The main drawback of Method 3 is its higher initial installation cost.",
+        "Method 3 is ideal for larger systems, frequent concentration changes, or high-precision requirements.",
+        "Automatic inline monitoring combines a Rheonics process meter SRD with a simple controller to automatically adjust feed rates.",
+        "This automatic setup ensures accurate density measurements, fast adjustments to concentration changes, product quality maintenance, and tight control.",
+        "The benefits of consistent quality, performance, and reduced manpower make Method 3 the recommended choice despite its higher initial cost."
+      ],
+      "diagram_labels": [
+        "Density",
+        "Viscosity",
+        "Temp",
+        "Device",
+        "Density (tab)",
+        "Viscosity (tab)",
+        "Temperature (tab)",
+        "Back",
+        "1.5000",
+        "1.1500",
+        "1.10",
+        "150",
+        "100",
+        "50",
+        "-20",
+        "09:00am",
+        "10:00am",
+        "11:00am",
+        "1:00pm",
+        "2:00pm",
+        "3:00pm",
+        "10.32am"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1379,
+        "cost_usd": 0.0035873
+      },
+      "source_file": "253_Importance_of_inline_process_control.pdf"
+    },
+    {
+      "page_summary": "This page showcases the application of Rheonics sensors for process control, specifically detailing cheese coagulation and the use of an inline density and viscosity meter for concentration mass control.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "SRD Density and Viscosity Meter",
+        "CoaguTrack"
+      ],
+      "extracted_text": "Figure 3. Inline process viscosity and density meter SRD control milk of lime slurry concentration mass\n\n2. Some examples of applications and industries using Rheonics sensors for process control\n\n2.1. Cheese coagulation\n\nUtilizing data collected and processed by Rheonics CoaguTrack (https://cdn.rheonics.com/wp-content/uploads/2023/05/Brochure_Rheonics_CoaguTrack_2023_A4S.pdf) can significantly decrease variations, resulting in improved solid retention and ultimately higher yields. Live tracking of firmness and milk curding are presented in real-time to cheesemakers, enabling quick analysis, prompt reactions, and eventual automation of cheese cutting. https://rheonics.com/solutions-item/cheese-coagulation-monitoring-and-cutting-automation-with-inline-viscosity-measurements/ (https://rheonics.com/solutions-item/cheese-coagulation-monitoring-and-cutting-automation-with-inline-viscosity-measurements/)\n\nFigure 4. Cheese coagulation",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics provides sensors for process control in various applications and industries.",
+        "Cheese coagulation is presented as a specific application benefiting from Rheonics sensors.",
+        "The Rheonics CoaguTrack system processes data to significantly decrease variations in production.",
+        "Utilizing CoaguTrack leads to improved solid retention and higher yields in cheese manufacturing.",
+        "The system offers real-time tracking of firmness and milk curdling for cheesemakers.",
+        "Real-time data from Rheonics sensors enables quick analysis, prompt reactions, and eventual automation of cheese cutting.",
+        "An SRD (Density and Viscosity Meter) is used for inline control of milk of lime slurry concentration mass.",
+        "Rheonics offers a solution for cheese coagulation monitoring and cutting automation with inline viscosity measurements.",
+        "A brochure for Rheonics CoaguTrack from 2023 is available at https://cdn.rheonics.com/wp-content/uploads/2023/05/Brochure_Rheonics_CoaguTrack_2023_A4S.pdf.",
+        "Further information on cheese coagulation monitoring and cutting automation with inline viscosity measurements is available at https://rheonics.com/solutions-item/cheese-coagulation-monitoring-and-cutting-automation-with-inline-viscosity-measurements/."
+      ],
+      "diagram_labels": [
+        "Water",
+        "Controller",
+        "SRD Density and Viscosity Meter",
+        "Lime Slurry Tank",
+        "Lime",
+        "To Dryer"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 695,
+        "cost_usd": 0.0018773
+      },
+      "source_file": "253_Importance_of_inline_process_control.pdf"
+    },
+    {
+      "page_summary": "This page details the critical role of viscosity measurement in milk powder manufacturing and asphalt applications, showcasing how Rheonics SRV viscometers improve process control and product quality.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "SRV process viscometer"
+      ],
+      "extracted_text": "2.2. Milk powder\nThe viscosity of the milk during the atomization step plays a crucial role in determining the characteristics of the resulting milk powder. By incorporating the SRV process viscometer at the pre-atomizer stage, superior control over the atomization process is achieved. This results in reduced wastage, lower energy consumption, and enhanced control over product texture, bulk density, and moisture content.\nhttps://rheonics.com/solutions-item/inline-viscometers-boost-efficiencies-of-spray-drying-processes-in-milk-powder-manufacturing/\nFigure 5. Milk Powder control process\n2.3. Asphalt\nViscosity plays a pivotal role in asphalt applications due to its multifaceted impact on various aspects of the asphalt or bitumen. Maintaining the right viscosity is essential for ensuring the workability of asphalt during mixing and construction, facilitating proper compaction and bonding between layers. Process viscometer SRV is used for blending control, terminal loading and quality assurance of asphalt binder, asphalt rubber, and derivative products.\nhttps://rheonics.com/solutions-item/meeting-rigorous-quality-control-of-asphalt-for-every-load-at-the-terminal-with-real-time-viscosity-measurements/",
+      "specifications": {},
+      "key_facts": [
+        "The viscosity of milk during the atomization step is crucial for determining the characteristics of the resulting milk powder.",
+        "Using the SRV process viscometer at the pre-atomizer stage improves control over atomization, leading to reduced wastage, lower energy consumption, and enhanced control over product texture, bulk density, and moisture content in milk powder manufacturing.",
+        "Viscosity is pivotal in asphalt applications, impacting workability during mixing and construction, and facilitating proper compaction and bonding between layers.",
+        "The SRV process viscometer is utilized for blending control, terminal loading, and quality assurance of asphalt binder, asphalt rubber, and derivative products."
+      ],
+      "diagram_labels": [
+        "Figure 5. Milk Powder control process"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 527,
+        "cost_usd": 0.0014573000000000001
+      },
+      "source_file": "253_Importance_of_inline_process_control.pdf"
+    },
+    {
+      "page_summary": "This page highlights the asphalt industry and discusses the growth and environmental benefits of the LNG market, emphasizing the critical role of Rheonics' SRD-LNG density meter for accurate measurements in LNG trading, shipping, and transport.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "Rheonics LNG density meter SRD-LNG"
+      ],
+      "extracted_text": "Figure 6. Asphalt industry\n\n2.4. LNG\nGlobally, the LNG market has expanded at a significant rate in the last decade, and LNG has considerable environmental benefits as a transport fuel. Traders trade LNG based on energy transferred, which is based on volume, density, and gross calorific value. High-speed, accurate density measurements from Rheonics LNG density meter SRD-LNG, therefore, are playing an important role in trading, shipping, and transporting LNG.\nhttps://rheonics.com/solutions-item/inline-density-monitoring-is-crucial-for-lng-shipping-and-transport/\n(https://rheonics.com/solutions-item/inline-density-monitoring-is-crucial-for-inline-density-monitoring-is-crucial-for-lng-shipping-and-transport/)\n\nFigure 7. LNG Transportation Pipelines",
+      "specifications": {},
+      "key_facts": [
+        "The LNG market has expanded significantly over the last decade.",
+        "LNG offers considerable environmental benefits as a transport fuel.",
+        "LNG is traded based on energy transferred, which is determined by volume, density, and gross calorific value.",
+        "High-speed, accurate density measurements from Rheonics LNG density meter SRD-LNG are crucial for trading, shipping, and transporting LNG."
+      ],
+      "diagram_labels": [
+        "Figure 6. Asphalt industry",
+        "Figure 7. LNG Transportation Pipelines"
+      ],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 437,
+        "cost_usd": 0.0012323
+      },
+      "source_file": "253_Importance_of_inline_process_control.pdf"
+    },
+    {
+      "page_num": 6,
+      "page_summary": "Extraction failed",
+      "document_type": "unknown",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "extraction_failed": true,
+      "source_file": "253_Importance_of_inline_process_control.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": [
+      1,
+      6
+    ]
+  }
+}

@@ -1,0 +1,265 @@
+{
+  "source_file": "132_Calibration_for_the_Type-SR_sensors_in_field,_verification_and_re-calibration.pdf",
+  "total_pages": 6,
+  "chunks": [
+    {
+      "page_summary": "This page provides an overview and initial preparation steps for field calibration, verification, and re-calibration of Rheonics Type-SR inline viscometers, including guidance on selecting reference standards and proper handling.",
+      "document_type": "manual",
+      "product_names": [
+        "Type-SR sensors",
+        "Rheonics SRV Inline Viscometer",
+        "SRV Sensor",
+        "SRD Sensor",
+        "Rheonics Process Viscometer and Density Meter"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nCalibration for the Type-SR sensors in field, verification and re-calibration\nModified on: Tue, 7 Oct, 2025 at 5:46 PM\n\nTABLE OF CONTENTS\n1. Overview\n2. Preparations for Viscometer Calibration\n3. Reference Calibration Fluids and Standards\n4. Rheonics SRV Viscometer: Calibration Overview\n5. Calibration/Verification Procedure for SRV Sensor\n6. Calibration/Verification Procedure for SRD Sensor\n7. Troubleshooting\n8. ISO 17025 Certification Compliance\n9. References\n\n1. Overview\nRheonics sensors are shipped factory calibrated. They do not need re-calibration in field, however for various regulatory (ISO, FDA, others) fulfillment of requirements, it may be necessary to verify or calibrate the sensors periodically.\nRheonics inline viscometer: SRV (https://rheonics.com/products/inline-viscometer-srv/) measures a product of dynamic viscosity and density, called kinematic viscosity (https://support.rheonics.com/en/support/solutions/articles/81000413004). To compare the measured values against reference viscosity values from viscosity standard, you can follow the procedure from this article.\n\nFigure 1. Rheonics SRV Inline Viscometer\n\nThis article mentions various third-party companies and organizations, their use here is by no means an endorsement of any product or company mentioned.\nUsers are responsible for making their own decisions regarding the selection and should review information from the respective suppliers to assess suitability.\n\n2. Preparations for Viscometer Calibration\n2.1 Choosing the Right Reference Viscosity Standard for Calibration\nFor obtaining suitable reference viscosity standards, we recommend the following companies and standard bodies that provide traceable viscosity standards:\n*   Cannon Instruments (https://cannoninstrument.com/) is the supplier of NIST traceable viscosity standards, widely available in USA, Europe, Australia, Asia.\n*   Nippon Grease standards, generally available in Japan\n*   PTB (Physikalisch-Technische Bundesanstalt) is the national metrological body in Germany. Newtonian calibration liquids for viscosity are supplied by calibration laboratories accredited by Deutsche Akkreditierungsstelle GmbH (DAkkS). These liquids are traceable to the National Standard of Viscosity according to DIN EN ISO/IEC 17025.\n\n2.2 Proper Handling and Preparation for Accurate Viscometer Calibration\nTo calibrate or verify the inline viscometer calibration, it is important to ensure the operator follows proper procedure for handling the sensor and calibration fluids while ensuring appropriate operational conditions.\n*   Sensor should be fixed ideally using a clamp or sensor holder\n*   Fluid should be poured in a calibration cylinder around the viscometer or in a beaker in which the sensor is dipped. For minimizing calibration fluid volume, Rheonics recommends using calibration stands and cylinders. Take a look at our article: Using Rheonics Process Viscometer and Density Meter as Tabletop Instruments (https://support.rheonics.com/en/support/solutions/articles/81000412598).\n*   Calibration fluid should not have bubbles.\n*   Let the temperature stabilize to ensure accurate measurements.",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics sensors are shipped factory calibrated and do not typically require field re-calibration, but periodic verification or calibration may be necessary for regulatory compliance (e.g., ISO, FDA).",
+        "The Rheonics SRV inline viscometer measures dynamic viscosity and density to determine kinematic viscosity.",
+        "For calibration, users can compare measured values against reference viscosity values from viscosity standards.",
+        "Recommended suppliers for traceable viscosity standards include Cannon Instruments, Nippon Grease, and PTB (Physikalisch-Technische Bundesanstalt).",
+        "PTB supplies Newtonian calibration liquids traceable to the National Standard of Viscosity according to DIN EN ISO/IEC 17025.",
+        "Proper handling of the sensor and calibration fluids is crucial for accurate calibration and verification.",
+        "The sensor should be fixed, ideally with a clamp or holder.",
+        "Calibration fluid should be poured around the viscometer in a calibration cylinder or beaker, with Rheonics recommending calibration stands and cylinders to minimize fluid volume.",
+        "Calibration fluid must not contain bubbles.",
+        "Allow temperature to stabilize for accurate measurements during calibration."
+      ],
+      "diagram_labels": [
+        "Figure 1. Rheonics SRV Inline Viscometer"
+      ],
+      "warnings_notes": [
+        "This article mentions various third-party companies and organizations; their use here is by no means an endorsement of any product or company mentioned.",
+        "Users are responsible for making their own decisions regarding the selection and should review information from the respective suppliers to assess suitability."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1192,
+        "cost_usd": 0.0031198
+      },
+      "source_file": "132_Calibration_for_the_Type-SR_sensors_in_field,_verification_and_re-calibration.pdf"
+    },
+    {
+      "page_summary": "This page provides guidelines for calibrating Rheonics SRV viscometers and SRD viscosity-density sensors, detailing sensor setup, recommended calibration fluids, and an analysis of the limitations of silicone oils.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "SRV",
+        "SRD",
+        "Rheonics Viscometer",
+        "Rheonics Viscosity-density sensor",
+        "DVP"
+      ],
+      "extracted_text": "This method only uses a beaker, which is fine for normal temperature calibration. For different temperature setpoints, Rheonics recommends the S\nThe following images illustrates the main considerations for SRV and SRD calibration.\n\nFigure 2. Considerations for Rheonics Viscometer: SRV\n\nFigure 3. Considerations for Rheonics Viscosity-density sensor: SRD\n\n*If the process fluid temperature differs by more than 15 °C from the ambient temperature, then thermal equilibrium along the probe should be considered, i.e. an oven or a long insertion probe for deeper immersion is recommended.\n\nLearn more about SRD's thermal equilibrium in this article: Maintaining the SRD's temperature balance for high density accuracy (https://support.rheonics.com/en/support/solutions/articles/81000412500).\n\n3. Reference Calibration Fluids and Standards\nCalibration fluids are essential for accurate viscometer and density meter calibration. These are generally provided with measured data by the calibration labs which follow ASTM, ISO, DIN, EN standards. However, there is a wide variety of calibration fluids available in the market. Below is a short analysis of the various available fluids and our recommendations.\n\n3.1 Rotation Viscometer Calibration Fluids (Silicones)\n\nOverview\nSilicone oils are typically provided with a single kinematic value at a single temperature.\n\nLimitations\n* Like the rotation viscometers (e.g. Brookfield), these are very inaccurate test fluids and useless for any calibration since the fluid and rotational viscometers have both quite high inaccuracy\n* Viscoelastic nature causes viscosity to vary depending on the frequency of oscillation.\n* Results differ significantly when measured with vibrational instruments like the SRV, SRD, or DVP.\n\nRecommendation\nAvoid using silicone oils for calibration due to their inherent inaccuracies and inconsistencies.\n\n3.2 Mineral Oils\n\nOverview",
+      "specifications": {
+        "temperature_difference_threshold": "15 °C"
+      },
+      "key_facts": [
+        "A beaker method is suitable for normal temperature calibration.",
+        "The sensing area of both SRV and SRD sensors must be fully immersed during calibration.",
+        "Mixing or stirring the fluid during calibration is optional, but a varying fluid level can impact readings.",
+        "Heaters are optional for testing at different temperatures for SRV and near ambient temperatures for SRD.",
+        "Thermal equilibrium should be considered for SRD calibration if the process fluid temperature differs by more than 15 °C from the ambient temperature.",
+        "Calibration fluids are critical for accurate viscometer and density meter calibration, with measured data typically provided by labs following ASTM, ISO, DIN, EN standards.",
+        "Silicone oils are generally provided with a single kinematic value at a single temperature.",
+        "Silicone oils are considered inaccurate test fluids for calibration due to inherent inaccuracies when used with rotational viscometers.",
+        "The viscoelastic nature of silicone oils causes their viscosity to vary with the frequency of oscillation.",
+        "Measurement results with silicone oils differ significantly when using vibrational instruments like SRV, SRD, or DVP.",
+        "Rheonics recommends avoiding silicone oils for calibration due to their inherent inaccuracies and inconsistencies."
+      ],
+      "diagram_labels": [
+        "Clamp the sensor",
+        "Recommended Fluids:",
+        "- Calibrated fluids",
+        "- Oils",
+        "- Alcohols",
+        "Do not use water",
+        "Make sure the sensing area is fully immersed",
+        "Mixing or stirring the fluid is optional.",
+        "A varying fluid level in sensing area due to stirring will impact the readings",
+        "Heater: Optional to test at different temperatures",
+        "Heater: Optional to test at near ambient temperature*"
+      ],
+      "warnings_notes": [
+        "Do not use water as a recommended fluid for calibration.",
+        "A varying fluid level in the sensing area due to stirring will impact the readings.",
+        "If the process fluid temperature differs by more than 15 °C from the ambient temperature, thermal equilibrium along the probe should be considered; an oven or a long insertion probe for deeper immersion is recommended.",
+        "Silicone oils are very inaccurate test fluids and useless for any calibration.",
+        "Avoid using silicone oils for calibration due to their inherent inaccuracies and inconsistencies."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1072,
+        "cost_usd": 0.0028198
+      },
+      "source_file": "132_Calibration_for_the_Type-SR_sensors_in_field,_verification_and_re-calibration.pdf"
+    },
+    {
+      "page_summary": "This page provides Rheonics' recommendations for using NIST traceable viscosity reference standards from Cannon Instruments for viscometer calibration, including key considerations, features, and an example Certificate of Analysis.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "CANNON® Certified Viscosity Reference Standard",
+        "Viscosity Standard: S20",
+        "General Purpose Viscosity Standards"
+      ],
+      "extracted_text": "Newtonian fluids, ideal for viscometer calibration.\n\nKey Considerations\n*   Often provided with single measurements at specific conditions.\n*   For proper calibration or verification, obtain oils with both density and viscosity values measured at various temperatures.\n*   Both density and dynamic viscosity of the oil are necessary to perform an accurate calibration check on the SRV.\n\n3.3 Rheonics Recommendation: NIST Traceable Viscosity References\n\nOverview\nThese viscosity references can be sourced from Cannon Instruments in the USA and worldwide. Other suppliers may also provide similar references. In this article, we primarily refer to calibration fluids sourced from Cannon Instruments.\n\nKey Features\n*   NIST Traceable Standards: These viscosity references adhere to national standards, ensuring high accuracy and consistency.\n*   Wide Applicability: Suitable for calibration across various viscosity ranges.\n\nAdditional Resources\n*   NIST Traceable Viscosity Standards (https://cannoninstrument.com/viscosity-flash-point-standards/general-purpose-viscosity-standards.html): Available directly from Cannon Instruments.\n*   Viscosity Reference Selection (https://cannoninstrument.com/general-dynamic-viscosity-table): Based on the specific target range of your application.\n\nCANNON INSTRUMENT COMPANY\n2139 High Tech Road\nState College, PA 16803\n814-353-8000 • 800-676-6232 • Fax 814-353-8007\ncannon@cannoninstrument.com\nwww.cannoninstrument.com\n\nCERTIFICATE OF ANALYSIS\nCANNON® CERTIFIED VISCOSITY REFERENCE STANDARD\nViscosity Standard: S20\nLot Number: 11301\nCertification Date: 9/27/2011\nExpiry Date: 9/30/2013\nTested and certified in the U.S.A.\nThis Certificate of Analysis shall not be reproduced, except in full, without the written approval of CANNON Instrument Company.",
+      "specifications": {
+        "Viscosity Standard": "S20",
+        "Lot Number": "11301",
+        "Certification Date": "9/27/2011",
+        "Expiry Date": "9/30/2013",
+        "Temperature Range": "20.00 °C to 150.00 °C (68.00 °F to 302.00 °F)",
+        "Kinematic Viscosity Range": "1.800 to 43.58 mm²/s (cSt)",
+        "Dynamic Viscosity Range": "1.395 to 37.41 mPa·s (cP)",
+        "Density Range": "0.7751 to 0.8584 g/cm³ (g/mL)",
+        "Saybolt Viscosity at 25°C": "96.3 SUS"
+      },
+      "key_facts": [
+        "Newtonian fluids are ideal for viscometer calibration.",
+        "Viscosity references are often provided with single measurements at specific conditions.",
+        "Proper calibration or verification requires oils with both density and viscosity values measured at various temperatures.",
+        "Both density and dynamic viscosity of the oil are necessary to perform an accurate calibration check on the SRV.",
+        "Rheonics recommends NIST traceable viscosity references, primarily sourced from Cannon Instruments.",
+        "NIST traceable viscosity standards adhere to national standards, ensuring high accuracy and consistency.",
+        "These standards are suitable for calibration across various viscosity ranges."
+      ],
+      "diagram_labels": [
+        "Figure 4. CANON General Purpose Viscosity Standards",
+        "Figure 5. CANON Certificate of Analysis"
+      ],
+      "warnings_notes": [
+        "This Certificate of Analysis shall not be reproduced, except in full, without the written approval of CANNON Instrument Company.",
+        "Tested and certified in the U.S.A."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1026,
+        "cost_usd": 0.0027048
+      },
+      "source_file": "132_Calibration_for_the_Type-SR_sensors_in_field,_verification_and_re-calibration.pdf"
+    },
+    {
+      "page_summary": "This page outlines the calibration overview and step-by-step procedure for the Rheonics SRV Viscometer, including fluid handling, temperature stabilization, data recording, and accuracy calculation.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SRV Viscometer",
+        "SRV sensor",
+        "Rheonics Sensor Holders",
+        "Rheonics Calibration Cylinders",
+        "Temperature Control System (STCM)",
+        "Rheonics calibration cylinder",
+        "Viscdisk",
+        "Cannon Instruments"
+      ],
+      "extracted_text": "4. Rheonics SRV Viscometer: Calibration Overview\n\n*   Measurement Principle\n    *   The SRV sensor measures the product of dynamic viscosity and density.\n\n*   Default Density Setting\n    *   The SRV sensor has a default density value of 1.000.\n\n*   Recommended Calibration Fluids\n    *   For typical viscosity ranges: Use any two of the following:\n        *   S20, S60, S200, S600\n    *   For higher viscosity ranges:\n        *   N4000\n\n*   Handling High Viscosity Fluids\n    *   Pour fluids like S200, S600, N4000 carefully into the measurement container to avoid air entrapment.\n    *   To remove bubbles, heat the fluid to 80°C, then cool it to the target temperature before calibration.\n\n*   Required Accessories\n    *   Sensor Holders & Calibration Cylinders: Rheonics provides tools specifically designed for secure and precise calibration setups. Review our Accessories Product Page (https://rheonics.com/product-accessories/) more information.\n    *   Temperature Control System (STCM): For performing multi-point temperature ramps, ideal for both calibration and testing. Learn more at STCM (https://rheonics.com/product-accessories/rheonics-stcm-line/) page.\n\n5. Calibration/Verification Procedure for SRV Sensor\n\n5.1 Prepare the Calibration Setup\n*   Get the appropriate viscosity reference fluid.\n*   Use a beaker to hold the fluid and secure the sensor in a clamp or Rheonics sensor holder. Avoid holding the sensor by hand.\n*   Ensure the sensor is not touching the side or bottom of the beaker. If using a Rheonics calibration cylinder (https://rheonics.com/product-accessories/scc-srx/), insert it fully with an O-ring at the bottom.\n\n5.2 Fill the Calibration Fluid\n*   Pour the fluid into the beaker, ensuring minimal bubble formation. Getting rid of bubbles is critical to achieve a good calibration.\n\n5.3 Stabilize Temperature\n*   Allow the sensor and fluid to stabilize until the temperature variation is less than 0.1°C (sensor output). This may take between 30–60 minutes unless an oven or STCM is being used.\n\n5.4 Verify the Density Setting\n*   Check that the SRV density is set to 1.0 (default setting).\n\n5.5 Record and Compare Data\n*   Record five viscosity readings from the SRV sensor. Ensure that the variance between these readings is less than 1%.\n*   Compare the SRV readings to the reference fluid value. Usually, for precise viscosity values at specific temperatures, a software such as Viscdisk from Cannon Instruments needs to be used. For other suppliers, contact them directly.\n\n5.6 Calculate Calibration Accuracy\n*   Use the formula to calculate accuracy:\n    Calibration Accuracy (%) = Measured Viscosity (SRV) / (Dynamic Viscosity * Density)\n\n5.7 Adjust for Non-Default Density\n*   If the density is set to a different value, input the correct density from the calibration reference data into the SRV.\n*   The SRV will now output dynamic viscosity, which can then be compared against the reference fluid's dynamic viscosity.",
+      "specifications": {
+        "default_density_value": "1.000",
+        "fluid_heating_temperature_for_bubble_removal": "80°C",
+        "temperature_stabilization_variation": "< 0.1°C",
+        "temperature_stabilization_time_range": "30-60 minutes",
+        "viscosity_reading_variance_threshold": "< 1%",
+        "default_SRV_density_setting": "1.0"
+      },
+      "key_facts": [
+        "The SRV sensor measures the product of dynamic viscosity and density.",
+        "The SRV sensor has a default density value of 1.000.",
+        "Rheonics provides sensor holders and calibration cylinders designed for secure and precise calibration setups.",
+        "The Temperature Control System (STCM) is ideal for performing multi-point temperature ramps for calibration and testing.",
+        "Getting rid of bubbles during fluid filling is critical to achieve a good calibration.",
+        "The sensor and fluid should stabilize until the temperature variation is less than 0.1°C (sensor output) before calibration.",
+        "The temperature stabilization process may take between 30 to 60 minutes unless an oven or STCM is used.",
+        "The variance between five viscosity readings from the SRV sensor should be less than 1%.",
+        "For precise viscosity values at specific temperatures, software like Viscdisk from Cannon Instruments may be required.",
+        "Calibration Accuracy (%) is calculated by dividing the Measured Viscosity (SRV) by the product of Dynamic Viscosity and Density.",
+        "If the density is set to a non-default value, the correct density from the calibration reference data must be input into the SRV to obtain dynamic viscosity output."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Pour high viscosity fluids like S200, S600, N4000 carefully into the measurement container to avoid air entrapment.",
+        "To remove bubbles from high viscosity fluids, heat the fluid to 80°C, then cool it to the target temperature before calibration.",
+        "Avoid holding the sensor by hand when securing it in a clamp or Rheonics sensor holder.",
+        "Ensure the sensor is not touching the side or bottom of the beaker during calibration setup.",
+        "Ensure minimal bubble formation when pouring the calibration fluid into the beaker, as getting rid of bubbles is critical for a good calibration."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1442,
+        "cost_usd": 0.0037447999999999995
+      },
+      "source_file": "132_Calibration_for_the_Type-SR_sensors_in_field,_verification_and_re-calibration.pdf"
+    },
+    {
+      "page_summary": "This page details procedures for rechecking calibration accuracy, calibration and verification for SRD sensors, troubleshooting common issues, compliance with ISO 17025 certification, and references for viscosity standards.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "SRD sensor"
+      ],
+      "extracted_text": "5.8 Recheck Calibration Accuracy\n*   Compare the measured viscosity by SRV with the product of dynamic viscosity and density from the calibration fluid bottle. If the product is not used, the measured viscosity will appear much lower than expected.\n\n6. Calibration/Verification Procedure for SRD Sensor\nThe calibration procedure for the SRD sensor follows the same steps as outlined for the SRV, with the following additional points:\n\n1.  The SRD sensor measures both kinematic viscosity and dynamic viscosity, so the measurements must be compared to the corresponding reference values on the fluid bottle.\n2.  Once the sensor readings have stabilized:\n    *   Take five readings of viscosity and density, ensuring variance between readings is less than 1%.\n    *   Compare the values to the reference fluid data.\n3.  Estimate calibration accuracy using these formulas:\n\nDynamic Viscosity Accuracy (%) = Measured Viscosity (SRD) / (Reference Viscosity × 100)\n\nDensity Accuracy (%) = Measured Density (SRD) / (Reference Density × 100)\n\n7. Troubleshooting\n\n7.1 Inaccurate Readings\n*   Issue: The sensor’s sensing element is not completely submerged, leading to inaccurate readings.\n*   Solution: Make sure sensor sensing element is completely submerged in the fluid. The picture below shows a potential issue since the sensing element is not completely in the fluid.\n\n7.2 Unstable Viscosity Readings\n*   Issue: The viscosity values are inconsistent because the fluid and sensor temperatures have not stabilized.\n*   Solution: Wait long enough to stabilize temperature or use an oven or STCM.\n\n7.3 SRV Viscosity doesn’t match with Calibration Fluid\n*   Issue: The SRV viscosity output is only being compared to the dynamic viscosity of the calibration fluids, ignoring the density value.\n*   Solution: Compare SRV viscosity output to the product of dynamic viscosity and density if the calibration fluid density has not been entered in the SRV electronics.\n\nIf the default density output of 1.000 g/cc is shown, ensure dynamic viscosity is multiplied by density for accurate comparison. (Refer to the R\n\n8. ISO 17025 Certification Compliance\n\nFor factory calibration and calibration verification Rheonics uses NIST traceable viscosity and density reference fluids from Cannon Instruments. Cannon Instrument holds ISO 17025 and 17034 certifications for calibration and production of references. These certificates can be accessed from Cannon Instrument website.\n\nWhen a calibration certificate is required, ensure it is ordered prior to shipment. CUS option in the calibration is required for the calibration certificate that contains information on the Reference fluid and Lot number.\n\n9. References\n\n1. Cannon Instruments NIST Newtonian Viscosity Standards\n    *   View Brochure (https://www.cannoninstrument.com/media/assets/product/documents/standards.brochure.pdf)\n    *   Also available as an attachment.\n2. PTB Newtonian Calibration Liquids for Viscosity",
+      "specifications": {
+        "Viscosity reading variance": "less than 1%",
+        "Default density output": "1.000 g/cc"
+      },
+      "key_facts": [
+        "The measured viscosity by SRV should be compared with the product of dynamic viscosity and density from the calibration fluid bottle; otherwise, the measured viscosity will appear much lower than expected.",
+        "The SRD sensor measures both kinematic and dynamic viscosity.",
+        "For SRD sensor calibration, five readings of viscosity and density should be taken once stabilized, ensuring variance between readings is less than 1%.",
+        "Readings must be compared to reference fluid data.",
+        "Inaccurate readings can be caused by the sensor’s sensing element not being completely submerged.",
+        "Unstable viscosity readings indicate that fluid and sensor temperatures have not stabilized.",
+        "If SRV viscosity output is only compared to dynamic viscosity, it may not match calibration fluid; density must also be considered.",
+        "Rheonics utilizes NIST traceable viscosity and density reference fluids from Cannon Instruments for factory calibration and verification.",
+        "Cannon Instrument holds ISO 17025 and 17034 certifications.",
+        "A calibration certificate requires a CUS option in calibration and must be ordered prior to shipment."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "If the sensor's sensing element is not completely submerged, it leads to inaccurate readings.",
+        "Inconsistent viscosity values indicate unstabilized fluid and sensor temperatures.",
+        "If the default density output of 1.000 g/cc is shown, dynamic viscosity must be multiplied by density for accurate comparison."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1124,
+        "cost_usd": 0.0029498
+      },
+      "source_file": "132_Calibration_for_the_Type-SR_sensors_in_field,_verification_and_re-calibration.pdf"
+    },
+    {
+      "page_summary": "This page provides links to external documents and certifications related to viscosity calibration fluids and Cannon Instrument's ISO 17025 and ISO 17034 certificates.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "View Document (https://www.ptb.de/cms/fileadmin/internet/fachabteilungen/abteilung_3/3.3/3.32/E_Kalibrierfluessigkeiten_Viskositaet.pdf)\nAlso available as an attachment.\n3. Cannon Instrument ISO 17025 and ISO 17034 Certificates\nView Quality Certifications (https://cannoninstrument.com/quality-certifications)\nView A2LA Certificate Page (https://customer.a2la.org/index.cfm?event=directory_detail&labPID=0A19685E-B3F8-4F0F-BAF2-A8AD2E3DE1D4)\nCertificates also available as PDFs in the attachment.",
+      "specifications": {},
+      "key_facts": [
+        "A document regarding viscosity calibration fluids from PTB is available for viewing online.",
+        "The viscosity calibration fluid document is also available as an attachment.",
+        "Cannon Instrument holds ISO 17025 and ISO 17034 certificates.",
+        "Cannon Instrument's quality certifications can be viewed on their website.",
+        "Cannon Instrument's A2LA certificate page is accessible online.",
+        "Cannon Instrument's certificates are additionally available as PDFs in an attachment."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 394,
+        "cost_usd": 0.0011248
+      },
+      "source_file": "132_Calibration_for_the_Type-SR_sensors_in_field,_verification_and_re-calibration.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

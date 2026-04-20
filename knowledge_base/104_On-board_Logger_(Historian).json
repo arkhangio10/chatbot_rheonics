@@ -1,0 +1,192 @@
+{
+  "source_file": "104_On-board_Logger_(Historian).pdf",
+  "total_pages": 4,
+  "chunks": [
+    {
+      "page_summary": "This document describes the Rheonics on-board logger (Historian) functionality, outlining its data storage capabilities, system requirements, and the procedure for downloading log files and updating firmware using RCP software.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SME (Electronics)",
+        "On-board Logger (Historian)",
+        "RCP software"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nOn-board Logger (Historian)\n\nModified on: Thu, 5 Feb, 2026 at 3:45 PM\n\nThe Rheonics SME (Electronics) comes with the ability to store measurement data on an internal logger.\n\nMeasurement and diagnostics data is stored on the card giving access to the last 1 year of data. The onboard data logger can be configured to store data for even longer periods and at adjustable duty cycle.\n\nLog files can be downloaded from the internal logger using ftp client or through RCP software.\n\nRequirements\n\n1. Sensor electronics\n2. RCP installed and operational on the PC\n3. RCP connected to the Sensor electronics to see the logfiles and download them\n4. Microsoft Excel installed on the PC to use the EXPORT functionality from RCP\n\nDownloading LOG files using RCP software\n\nStart RCP software.\nGo to LOGGER tab on the software.\n\nThis tab allows you to transfer from the SME, the different type of log files that are kept in memory. Also, you can use the “Update Sensor” function to upgrade the SME firmware.",
+      "specifications": {
+        "data_retention_default": "1 year",
+        "data_retention_configurable": "longer periods"
+      },
+      "key_facts": [
+        "The Rheonics SME (Electronics) includes an internal logger for storing measurement data.",
+        "Measurement and diagnostics data are stored on a card within the internal logger.",
+        "The logger provides access to the last 1 year of data by default.",
+        "The onboard data logger can be configured for longer data storage periods.",
+        "The onboard data logger's duty cycle is adjustable.",
+        "Log files can be downloaded from the internal logger using an FTP client or RCP software.",
+        "To download log files, Sensor electronics must be present.",
+        "RCP software must be installed and operational on the PC.",
+        "RCP software must be connected to the Sensor electronics to view and download log files.",
+        "Microsoft Excel is required on the PC to utilize the EXPORT functionality from RCP.",
+        "To download log files, start RCP software and navigate to the LOGGER tab.",
+        "The LOGGER tab in RCP software enables the transfer of log files from the SME.",
+        "The LOGGER tab also provides an 'Update Sensor' function for upgrading the SME firmware."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 669,
+        "cost_usd": 0.0018123
+      },
+      "source_file": "104_On-board_Logger_(Historian).pdf"
+    },
+    {
+      "page_summary": "This page provides instructions on how to use the Logger's In-Built Historian feature in the Rheonics Control Panel software to manage and download various types of log files, as well as how to perform firmware updates.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel",
+        "SME"
+      ],
+      "extracted_text": "Rheonics Control Panel 5.0.0.8\nMeasurement | Events | Settings | Service | Diagnostics | Communication | Logger | Help\nLogger: In-Built Historian\nMeasurement Logs\nSensor Logs\nCalibration Logs\nSMET Diagnostic Logs\nPrev | Next | Download (for each log type)\nFirmware Update\nCurrent Firmware Version: 03.00/0-f3c435c\nLatest Firmware Version Available:\nAuto Check Update | Upload Manually | Back Up Sensor | Update Sensor\nLogger: In-Built Historian:\nClick the “Refresh” button to populate the different file names according to it’s type. The name format corresponds with the date the file was created. This is, every day a set of new files is created.\n1. Measurement logs; contains the measurement processed by the SME in a csv format.\n2. Sensor logs; contains the sensor measurements ASCII string with relevant sensor information.\n3. Calibration Logs; These files store the calibration information, as parameters calibrated and coefficients.\n4. Diagnostics Logs: Relevant sensor and electronics diagnostics information for rheonics support.\nAfter refreshing, check the files you wish to download. You can navigate to older files using “Next” button, and return to most recent using “Prev” Button.\nClick “Download” to start downloading the seleceted files. You will be prompted to select the target folder where the files will be stored and get a notification after successful or unsuccessful transfer. When RCP is connected over USB, you also see a status bar showing the progress of the download. When RCP is connected over Ethernet, you do not see a progress bar but will get a notification window at the completion (and a message whether the transfer was successful or failed).\nClick the “Clear All” button to uncheck ALL the selected files.\nClick “Open Folder” to open the target folder that contains the downloaded logfiles.",
+      "specifications": {
+        "Rheonics Control Panel Version": "5.0.0.8",
+        "Current Firmware Version": "03.00/0-f3c435c"
+      },
+      "key_facts": [
+        "The Rheonics Control Panel software includes an In-Built Historian feature for managing and downloading various types of log files.",
+        "The software also provides a Firmware Update section, displaying the current version and offering options for updates.",
+        "Log files are generated daily, and their names correspond to the date of creation.",
+        "The four types of log files available are Measurement logs (SME processed data in CSV), Sensor logs (raw sensor ASCII string data), Calibration logs (calibration parameters and coefficients), and Diagnostics logs (sensor and electronics information for Rheonics support).",
+        "Users can refresh the log list, select specific files for download, and navigate through older files using 'Next' and 'Prev' buttons.",
+        "Downloading selected files prompts for a destination folder and provides a notification about the transfer's success or failure.",
+        "When the Rheonics Control Panel (RCP) is connected via USB, a download progress bar is visible; over Ethernet, only a completion notification is displayed.",
+        "The 'Clear All' button allows users to deselect all checked log files.",
+        "The 'Open Folder' button provides quick access to the directory where downloaded log files are stored."
+      ],
+      "diagram_labels": [
+        "Rheonics Control Panel 5.0.0.8",
+        "Measurement",
+        "Events",
+        "Settings",
+        "Service",
+        "Diagnostics",
+        "Communication",
+        "Logger",
+        "Help",
+        "Logger: In-Built Historian",
+        "Measurement Logs",
+        "Sensor Logs",
+        "Calibration Logs",
+        "SMET Diagnostic Logs",
+        "Prev",
+        "Next",
+        "Download",
+        "Firmware Update",
+        "Current Firmware Version",
+        "Latest Firmware Version Available",
+        "Auto Check Update",
+        "Upload Manually",
+        "Back Up Sensor",
+        "Update Sensor"
+      ],
+      "warnings_notes": [
+        "When RCP is connected over Ethernet, you do not see a progress bar but will get a notification window at the completion (and a message whether the transfer was successful or failed)."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1038,
+        "cost_usd": 0.0027348
+      },
+      "source_file": "104_On-board_Logger_(Historian).pdf"
+    },
+    {
+      "page_summary": "This page provides instructions on how to export logfiles from Rheonics devices (SME and RCP) to Excel, offers an overview of a related video tutorial, and details the structure and naming convention of logfiles.",
+      "document_type": "manual",
+      "product_names": [
+        "SME",
+        "RCP",
+        "Rheonics"
+      ],
+      "extracted_text": "Export files to Excel:\nUse this button to export the SME measurement logfiles and the RCP logfiles to Microsoft excel. By clicking this button, a file dialog will prompt you to choose a file to export. The files available will be of the -P type (corresponding to downloaded SME measurement logfiles), or of the type \"Filename_log.txt\", where \"Filename\" is the name of a RCP measurements logfile created on a previous run.\n* For -P files, the software will export on the first two columns the date and time of each data sample on UTC and local time, respectively. Other columns will display the measured values of all the measurement parameters.\n* For RCP logfiles, RCP will copy the data of the logfile and assign each csv column into an excel column with no further modifications.\nVideo Tutorial\nThe video below shows accessing the logfiles, downloading them and exporting them to excel using the inbuilt export functionality.\nNote: Ensure RCP is connected to the sensor over USB or Ethernet. You can see the files on the onboard Logger only when the RCP is connected. (Status light is green in Setting tab)\nNote: To use export function to excel, you need to have excel installed on the PC. Export function will not work otherwise.\nDownloading Logfiles from the onboard Logger on the Rheonics\nWatch on\nLOG file structure\nThe SME SD card continuously logs the sensor data and other relevant information for customers and support. These files are created daily, including the date as part of the name in the format: YYMMDD-X.txt",
+      "specifications": {
+        "SME_logfile_type": "-P type",
+        "RCP_logfile_type": "Filename_log.txt",
+        "SME_logfile_column_structure": "First two columns: Date and time (UTC and local time); Subsequent columns: Measured values of all measurement parameters",
+        "RCP_logfile_column_structure": "CSV columns assigned directly into Excel columns without modifications",
+        "Logfile_naming_convention": "YYMMDD-X.txt"
+      },
+      "key_facts": [
+        "The Excel button is used to export SME measurement logfiles and RCP logfiles to Microsoft Excel.",
+        "Clicking the export button prompts a file dialog to choose a file.",
+        "Available logfiles are of the '-P' type for SME measurements or 'Filename_log.txt' for RCP measurements.",
+        "-P files include date, UTC time, local time, and measured parameters in columns.",
+        "RCP logfiles are copied as-is, with CSV columns directly mapped to Excel columns.",
+        "A video tutorial demonstrates accessing, downloading, and exporting logfiles.",
+        "RCP must be connected to the sensor via USB or Ethernet to view onboard logfiles.",
+        "A green status light in the Setting tab indicates RCP is connected.",
+        "Microsoft Excel must be installed on the PC for the export function to work.",
+        "The SME SD card continuously logs sensor data and other relevant information.",
+        "Logfiles are created daily and follow the naming format 'YYMMDD-X.txt'."
+      ],
+      "diagram_labels": [
+        "Excel icon (implied)",
+        "Downloading Logfiles from the onboard Logger on the Rheonics",
+        "rheonics",
+        "Watch on"
+      ],
+      "warnings_notes": [
+        "Note: Ensure RCP is connected to the sensor over USB or Ethernet. You can see the files on the onboard Logger only when the RCP is connected. (Status light is green in Setting tab)",
+        "Note: To use export function to excel, you need to have excel installed on the PC. Export function will not work otherwise."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 904,
+        "cost_usd": 0.0023997999999999997
+      },
+      "source_file": "104_On-board_Logger_(Historian).pdf"
+    },
+    {
+      "page_summary": "This page defines the logfile naming convention and provides a list of reference manuals and a product portfolio for Rheonics viscometers and density sensors.",
+      "document_type": "manual",
+      "product_names": [
+        "RCP",
+        "SRV inline viscometer sensor",
+        "SRD inline viscometer sensor",
+        "DVP inline HPHT viscosity and density probe",
+        "DVM HPHT viscosity and density module",
+        "Rheonics Viscosity and Density products"
+      ],
+      "extracted_text": "Where:\nYY – Last two digit of the year.\nMM - Two-digit Month number (00-12)\nDD – Two-Digit Day of the month (00-31)\nX – File type. Can have any of these values: “P”, for measurement file, “A” for sensor file, “C” for calibration file, “O” for support file.\n\nDate is used using GMT+0, so the file will start at a different local time. Below you will see method to export the logfile with your local time.\n\nReferences\n\nRCP user manual (https://rheonics.com/wp-content/uploads/dlm_uploads/2019/09/Rheonics_RCP_Manual.pdf)\nSRV inline viscometer sensor manual (https://rheonics.com/wp-content/uploads/dlm_uploads/2019/09/Rheonics_SRV_Manual.pdf)\nSRD inline viscometer sensor manual (https://rheonics.com/wp-content/uploads/dlm_uploads/2019/09/Rheonics_SRD_Manual.pdf)\nDVP inline HPHT viscosity and density probe manual (https://rheonics.com/wp-content/uploads/dlm_uploads/2019/09/Rheonics_DVP_Manual.pdf)\nDVM HPHT viscosity and density module manual (https://rheonics.com/wp-content/uploads/dlm_uploads/2019/09/Rheonics_DVM_Manual.pdf)\nRheonics Viscosity and Density products portfolio (https://rheonics.com/wp-content/uploads/dlm_uploads/2018/06/Rheonics_Portfolio_A4S.pdf)",
+      "specifications": {},
+      "key_facts": [
+        "Logfile names are formatted using codes for year (YY), month (MM), day (DD), and file type (X).",
+        "YY represents the last two digits of the year.",
+        "MM represents a two-digit month number, ranging from 00 to 12.",
+        "DD represents a two-digit day of the month, ranging from 00 to 31.",
+        "File type 'P' designates a measurement file.",
+        "File type 'A' designates a sensor file.",
+        "File type 'C' designates a calibration file.",
+        "File type 'O' designates a support file.",
+        "Date and time for logfiles are recorded using GMT+0, which may result in a different local time.",
+        "A method to export the logfile with local time is described elsewhere in the document."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 752,
+        "cost_usd": 0.0020198
+      },
+      "source_file": "104_On-board_Logger_(Historian).pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

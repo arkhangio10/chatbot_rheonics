@@ -1,0 +1,187 @@
+{
+  "source_file": "Rheonics_SR-RP_Reactor-Probe.pdf",
+  "total_pages": 3,
+  "chunks": [
+    {
+      "page_summary": "This page provides mechanical dimensions and key specifications for the Rheonics SRV-X7-RP Reactor Probe, available in various standard lengths.",
+      "document_type": "drawing",
+      "product_names": [
+        "Rheonics SRV-X7-RP",
+        "SRV-X7-RP Reactor Probe SRV",
+        "SRV-X7-RP150",
+        "SRV-X7-RP250",
+        "SRV-X7-RP350",
+        "SRV-X7-RP450"
+      ],
+      "extracted_text": "Rheonics SRV-X7-RP\nMax. Pressure: 500 bar (7500 psi)\nMaterial: 316L\nOrder Code | Length ± 1 mm\nSRV-X7-RP150 | L = 150 mm [5.90 in]\nSRV-X7-RP250 | L = 250 mm [9.84 in]\nSRV-X7-RP350 | L = 350 mm [13.78 in]\nSRV-X7-RP450 | L = 450 mm [17.70 in]\n\nL: Choose version for length\nUnits: mm [inch]\n\nSRV-X7-RP\nReactor Probe SRV\n\nProtected by US and International patents granted and pending\n\nThis drawing remains property of rheonics. It may be neither copied nor informed to third persons or competitors without our approval. ( 2 paragraph 1 fig.7 copyright act of 9th Sept. 1965)\n\nrheonics • Switzerland • USA • www.rheonics.com • info@rheonics.com • +41 52 511 32 00 • +1 713 364 5427\nRelease: 2502\n\nrheonics\ninline process\ndensity and viscosity\nmonitoring",
+      "specifications": {
+        "Max. Pressure": "500 bar (7500 psi)",
+        "Material": "316L",
+        "Length Tolerance": "± 1 mm",
+        "SRV-X7-RP150 Length": "150 mm [5.90 in]",
+        "SRV-X7-RP250 Length": "250 mm [9.84 in]",
+        "SRV-X7-RP350 Length": "350 mm [13.78 in]",
+        "SRV-X7-RP450 Length": "450 mm [17.70 in]",
+        "Probe Head Length": "46 ±1 mm [1.80 ±0.04 in]",
+        "Probe Body Diameter": "19 mm [0.75 in]",
+        "Intermediate Section Diameter": "14 mm [0.55 in]",
+        "Sensor Tip Base Diameter": "5 mm [0.20 in]",
+        "Sensor Tip End Diameter": "8 mm [0.31 in]"
+      },
+      "key_facts": [
+        "The Rheonics SRV-X7-RP is a reactor probe designed for inline process density and viscosity monitoring.",
+        "The probe is constructed from 316L material.",
+        "It can withstand a maximum pressure of 500 bar (7500 psi).",
+        "The SRV-X7-RP is available in four standard lengths: 150mm, 250mm, 350mm, and 450mm, with a length tolerance of ±1 mm.",
+        "The product is protected by US and International patents, both granted and pending.",
+        "The document's release number is 2502.",
+        "Rheonics has contact information for Switzerland and USA, including phone numbers and email address."
+      ],
+      "diagram_labels": [
+        "rheonics (on sensor top)",
+        "L (length dimension)",
+        "46 ±1",
+        "1.80 ±0.04",
+        "⌀ 19",
+        "0.75",
+        "⌀ 14",
+        "0.55",
+        "⌀ 5",
+        "0.20",
+        "⌀ 8",
+        "0.31",
+        "Units: mm [inch]"
+      ],
+      "warnings_notes": [
+        "Protected by US and International patents granted and pending.",
+        "This drawing remains property of rheonics. It may be neither copied nor informed to third persons or competitors without our approval. ( 2 paragraph 1 fig.7 copyright act of 9th Sept. 1965)"
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1125,
+        "cost_usd": 0.0029522999999999997
+      },
+      "source_file": "Rheonics_SR-RP_Reactor-Probe.pdf"
+    },
+    {
+      "page_summary": "This page provides a technical drawing and specifications for the Rheonics SRD-X7-RP Reactor Probe, detailing its dimensions, material, pressure rating, and available lengths.",
+      "document_type": "drawing",
+      "product_names": [
+        "Rheonics SRD-X7-RP",
+        "SRD-X7-RP Reactor Probe SRD"
+      ],
+      "extracted_text": "Rheonics SRD-X7-RP\nMax. Pressure | 500 bar (7500 psi)\nMaterial | 316L\nOrder Code | Length ± 1 mm\nSRD-X7-RP150 | L = 143 mm [5.63 in]\nSRD-X7-RP250 | L = 243 mm [9.56 in]\nSRD-X7-RP350 | L = 343 mm [13.50 in]\nSRD-X7-RP450 | L = 443 mm [17.44 in]\nL: Choose version for length\nUnits: mm [inch]\nSRD-X7-RP Reactor Probe SRD\nThis drawing remains property of rheonics. It may be neither copied nor informed to third persons or competitors without our approval. ( 2 paragraph 1 fig.7 copyright act of 9th Sept. 1965)\nProtected by US and International patents granted and pending\nrheonics • Switzerland • USA • www.rheonics.com • info@rheonics.com +41 52 511 32 00 +1 713 364 5427\nRelease: 2502\nrheonics\ninline process density and viscosity monitoring",
+      "specifications": {
+        "Max. Pressure": "500 bar (7500 psi)",
+        "Material": "316L",
+        "Length Tolerance": "± 1 mm",
+        "SRD-X7-RP150 Length": "143 mm [5.63 in]",
+        "SRD-X7-RP250 Length": "243 mm [9.56 in]",
+        "SRD-X7-RP350 Length": "343 mm [13.50 in]",
+        "SRD-X7-RP450 Length": "443 mm [17.44 in]",
+        "Probe Head Section Length": "40 mm ± 1 mm [1.58 in ± 0.04 in]",
+        "Probe Body Diameter": "19 mm [0.75 in]",
+        "Intermediate Diameter": "14 mm [0.55 in]",
+        "Tip Shaft Diameter": "5 mm [0.20 in]",
+        "Tip Length": "13 mm [0.51 in]"
+      },
+      "key_facts": [
+        "Rheonics specializes in inline process density and viscosity monitoring."
+      ],
+      "diagram_labels": [
+        "Rheonics (on probe connector)",
+        "L: Choose version for length",
+        "40 ±1 [1.58 ±0.04]",
+        "19 [0.75]",
+        "14 [0.55]",
+        "5 [0.20]",
+        "13 [0.51]"
+      ],
+      "warnings_notes": [
+        "This drawing remains property of rheonics. It may be neither copied nor informed to third persons or competitors without our approval. ( 2 paragraph 1 fig.7 copyright act of 9th Sept. 1965)",
+        "Protected by US and International patents granted and pending"
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 873,
+        "cost_usd": 0.0023223
+      },
+      "source_file": "Rheonics_SR-RP_Reactor-Probe.pdf"
+    },
+    {
+      "page_summary": "This page provides ordering information and mechanical drawings with dimensions for Rheonics Type-SR -X7-RP Reactor Probe sensors, detailing configuration options for sensor type, length, and connection.",
+      "document_type": "datasheet",
+      "product_names": [
+        "Rheonics SRx-X7-RPyyy-Bzzz",
+        "Rheonics SRV viscometer",
+        "Rheonics SRD density meter and viscometer",
+        "Type-SR Sensor -X7-RP",
+        "SRV-X7-RP250-B1NOS",
+        "SRD-X7-RP250-B34NS"
+      ],
+      "extracted_text": "Reactor Probe (RP) Order Code\nRheonics SRx-X7-RPyyy-Bzzz\n\nx: Sensor Type | Selected by customer | Rheonics SRV viscometer\n                |                      | Rheonics SRD density meter and viscometer\nyyy: Length Variant | Selected by customer | Options: 150/250/350/450\nzzz: Connection Type | Defined by customer | Compression Fitting min. OD 22mm\n                     |                     | PTFE (P) or SS316L (S) material\n\nClient should specify sensor type, length variant\nand process connection required\n\n250 ±1\n[9.84 ±0.04]\n\n46 ±1\n[1.81 ±0.04]\nSRV-X7-RP250-B1NOS\n1\" NPT SS316L\ncompression fitting\n\nB: 1NOS – 1\" NPT Thread Stainless Steel Fitting\n243 ±1\n[9.57 ±0.04]\n\nrheonics (on sensor body)\n\n40 ±1\n[1.58 ±0.04]\nSRD-X7-RP250-B34NS\n3/4\" NPT SS316L\ncompression fitting\n\nB: 34NS – 3/4\" NPT Thread Stainless Steel Fitting\n\nUnits: mm\n[inch]\n\nType-SR Sensor -X7-RP\nConfiguration options\n\nProtected by US and International patents granted and pending\n\nThis drawing remains property of rheonics. It may be neither copied nor informed to third persons\nor competitors without our approval. ( 2 paragraph 1 fig.7 copyright act of 9th Sept. 1965)\n\nrheonics • Switzerland • USA • www.rheonics.com • info@rheonics.com +41 52 511 32 00 +1 713 364 5427\nRelease: 2502\n\nrheonics\ninline process\ndensity and viscosity\nmonitoring",
+      "specifications": {
+        "Length Variant Options": "150/250/350/450 mm",
+        "Compression Fitting Minimum OD": "22 mm",
+        "Connection Material Options": "PTFE (P) or SS316L (S)",
+        "Overall Sensor Length (SRV example)": "250 ±1 mm [9.84 ±0.04 inch]",
+        "SRV Sensor Tip Length (example)": "46 ±1 mm [1.81 ±0.04 inch]",
+        "SRV Probe Insertion Length (example)": "243 ±1 mm [9.57 ±0.04 inch]",
+        "SRD Sensor Tip Length (example)": "40 ±1 mm [1.58 ±0.04 inch]",
+        "SRV-X7-RP250-B1NOS Thread Type": "1\" NPT",
+        "SRV-X7-RP250-B1NOS Thread Material": "Stainless Steel",
+        "SRV-X7-RP250-B1NOS Fitting Material": "SS316L",
+        "SRD-X7-RP250-B34NS Thread Type": "3/4\" NPT",
+        "SRD-X7-RP250-B34NS Thread Material": "Stainless Steel",
+        "SRD-X7-RP250-B34NS Fitting Material": "SS316L"
+      },
+      "key_facts": [
+        "The document outlines the order code structure for Rheonics Reactor Probe (RP) sensors, specifically the Type-SR -X7-RP model series.",
+        "Customers must specify the sensor type (viscometer or combined density and viscometer), the length variant, and the process connection type when ordering.",
+        "Sensor types available for selection include the Rheonics SRV viscometer and the Rheonics SRD density meter and viscometer.",
+        "Available length variants for the sensor probe are 150 mm, 250 mm, 350 mm, and 450 mm.",
+        "Connection types are compression fittings with a minimum outer diameter of 22 mm, made from either PTFE (P) or SS316L (S) material.",
+        "Two example configurations are provided: SRV-X7-RP250-B1NOS, which features a 1\" NPT SS316L compression fitting, and SRD-X7-RP250-B34NS, which features a 3/4\" NPT SS316L compression fitting.",
+        "Rheonics sensors are protected by granted and pending US and International patents.",
+        "Rheonics contact information includes addresses for Switzerland and USA, website, email, and phone numbers.",
+        "The document's release number is 2502."
+      ],
+      "diagram_labels": [
+        "rheonics (on sensor)",
+        "Units: mm [inch]",
+        "250 ±1 [9.84 ±0.04]",
+        "46 ±1 [1.81 ±0.04]",
+        "B: 1NOS – 1\" NPT Thread Stainless Steel Fitting",
+        "243 ±1 [9.57 ±0.04]",
+        "SRV-X7-RP250-B1NOS",
+        "1\" NPT SS316L compression fitting",
+        "40 ±1 [1.58 ±0.04]",
+        "B: 34NS – 3/4\" NPT Thread Stainless Steel Fitting",
+        "SRD-X7-RP250-B34NS",
+        "3/4\" NPT SS316L compression fitting",
+        "rheonics (logo)",
+        "inline process density and viscosity monitoring"
+      ],
+      "warnings_notes": [
+        "Client should specify sensor type, length variant and process connection required.",
+        "Protected by US and International patents granted and pending.",
+        "This drawing remains property of rheonics. It may be neither copied nor informed to third persons or competitors without our approval. (2 paragraph 1 fig.7 copyright act of 9th Sept. 1965)."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1673,
+        "cost_usd": 0.0043223
+      },
+      "source_file": "Rheonics_SR-RP_Reactor-Probe.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

@@ -1,0 +1,315 @@
+{
+  "source_file": "194_SRV-X5_Inline_Process_Viscometer_long_insertion_and_custom_connection.pdf",
+  "total_pages": 7,
+  "chunks": [
+    {
+      "page_summary": "This page provides an overview of the Rheonics SRV-X5 inline process viscometer, specifically its long insertion and custom connection options, detailing its customizable features, materials, and certifications.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRV-X5",
+        "SRV",
+        "SRD",
+        "SRV-HS-X5"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nSRV-X5: Inline Process Viscometer long insertion and custom connection\n\nModified on: Mon, 30 Dec, 2024 at 6:25 PM\n\nWhat products are involved?\nSRV - Inline Viscosity Meter (https://rheonics.com/products/inline-viscometer-srv/)\n\nWhat is the purpose of this article?\nTo give an overview of the SRV-X5 long insertion probe version and the installation options.\n\n1. Introduction\n\nSRV is Rheonics sensor for inline viscosity measurement (viscometer). Read more on SRV here (https://rheonics.com/products/inline-viscometer-srv/).\nThe long insertion sensor version is available for both SRV and SRD. It is a sensor variant customizable in length and process connection, that gives full flexibility in mounting. Insertion length is a configurable parameter that is specified as \"A\" that can be requested from 80mm (for the SRV) up to any length needed by the client.\nIt is also available with any flange or process adapter, as long as the process connection requested is 316L or 304L and has an ID larger than Ø33 mm. The long insertion variant sensor has a hygienic design, and 3-A and EHEDG certifications available for sensor SRV-HS-X5 (https://rheonics.com/wp-content/uploads/2024/02/SRV-HS-X5-Flange.pdf).\nThe client should then state the \"A\" length and process connection norm, which has the letter code \"B\". The typical lead time is 6-12 weeks for these customizable probes. Lead times can change and will be confirmed by sales in the order confirmation.",
+      "specifications": {
+        "phone_number": "+1 713 234 0863",
+        "modified_date": "Mon, 30 Dec, 2024 at 6:25 PM",
+        "insertion_length_min_srv": "80 mm",
+        "process_connection_material_options": "316L, 304L",
+        "process_connection_id_min": "33 mm",
+        "customizable_probes_typical_lead_time": "6-12 weeks"
+      },
+      "key_facts": [
+        "The SRV-X5 is an Inline Process Viscometer with long insertion and custom connection capabilities.",
+        "The article provides an overview of the SRV-X5 long insertion probe version and its installation options.",
+        "The SRV is a Rheonics sensor designed for inline viscosity measurement.",
+        "The long insertion sensor version is available for both SRV and SRD models.",
+        "The sensor variant offers customizable length and process connection for flexible mounting.",
+        "Insertion length, specified as \"A\", is configurable and can be requested from 80mm (for the SRV) up to any length required by the client.",
+        "The sensor is compatible with any flange or process adapter, provided the process connection is 316L or 304L and has an inner diameter greater than Ø33 mm.",
+        "The long insertion variant sensor features a hygienic design.",
+        "SRV-HS-X5 sensor has 3-A and EHEDG certifications.",
+        "Clients must specify the \"A\" length and the process connection norm (with letter code \"B\") when ordering.",
+        "The typical lead time for customizable probes is 6-12 weeks."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "PN16 CICO"
+      ],
+      "warnings_notes": [
+        "Lead times can change and will be confirmed by sales in the order confirmation."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 961,
+        "cost_usd": 0.0025423
+      },
+      "source_file": "194_SRV-X5_Inline_Process_Viscometer_long_insertion_and_custom_connection.pdf"
+    },
+    {
+      "page_summary": "This page displays technical drawings with dimensions and specifications for the Rheonics SRV-X5 inline viscometer, showing its various configurations.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRV-X5",
+        "Rheonics SRV"
+      ],
+      "extracted_text": "rheonics\nB: Custom Flange/Adapter\n30\nΦ [ 1.18 ]\n14\nΦ [ 0.55 ]\n5\nΦ [ 0.20 ]\n8\nΦ [ 0.31 ]\nA: Insertion length min. 80 mm [3.15]\n46 ±1\n[ 1.80 ±0.04 ]\nUnits: mm\n[inch]\nFigure 1: SRV-X5 Drawing\nSRV X5 A135.7 2\" TC\n135.7\n[ 5.34 ]\nA: Insertion Length\nSRV X5 A140 1.25\" NPT\n140\n[ 5.53 ]\nA: Insertion Length\nSRV X5 A133 ANSI 150lb 2\"\n133\n[ 5.24 ]\nA: Insertion Length\nFigure 2: SRV-X5 various configurations\nSpecifications\nSensor\n(https://rheonics.com/products/inline-viscometer-srv/) Rheonics SRV\nOrder code\n(https://rheonics.com/products/inline-viscometer-srv/) SRV-X5",
+      "specifications": {
+        "Outer Diameter (top)": "30 mm [1.18 in]",
+        "Outer Diameter (mid)": "14 mm [0.55 in]",
+        "Outer Diameter (bottom large)": "5 mm [0.20 in]",
+        "Outer Diameter (bottom tip)": "8 mm [0.31 in]",
+        "Length (bottom section)": "46 ±1 mm [1.80 ±0.04 in]",
+        "Minimum Insertion Length": "80 mm [3.15 in]",
+        "SRV X5 A135.7 2\" TC Insertion Length": "135.7 mm [5.34 in]",
+        "SRV X5 A140 1.25\" NPT Insertion Length": "140 mm [5.53 in]",
+        "SRV X5 A133 ANSI 150lb 2\" Insertion Length": "133 mm [5.24 in]",
+        "Order Code": "SRV-X5"
+      },
+      "key_facts": [
+        "The document provides detailed dimensional drawings for the Rheonics SRV-X5 viscometer.",
+        "The SRV-X5 viscometer features various configurations, including 2-inch TC, 1.25-inch NPT, and ANSI 150lb 2-inch flange options.",
+        "The minimum insertion length for the SRV-X5 is 80 mm (3.15 inches).",
+        "Each specific configuration of the SRV-X5 has a defined insertion length."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "B: Custom Flange/Adapter",
+        "A: Insertion length min. 80 mm [3.15]",
+        "Units: mm [inch]",
+        "Figure 1: SRV-X5 Drawing",
+        "A: Insertion Length",
+        "SRV X5 A135.7 2\" TC",
+        "SRV X5 A140 1.25\" NPT",
+        "SRV X5 A133 ANSI 150lb 2\"",
+        "Figure 2: SRV-X5 various configurations"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 933,
+        "cost_usd": 0.0024722999999999998
+      },
+      "source_file": "194_SRV-X5_Inline_Process_Viscometer_long_insertion_and_custom_connection.pdf"
+    },
+    {
+      "page_summary": "This page provides technical details, CAD model access, hygienic variant information, installation advantages, and sensing area requirements for Rheonics SRV-X5 and SRV-HS-X5 viscometers.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV-X5",
+        "SRV-HS-X5"
+      ],
+      "extracted_text": "Insertion length A | Customizable\nConnection type B | Customizable ID>33mm\nSRV-X5 Drawing e.g. flange | https://rheonics.com/srv-npt/SRV-X5 Example Drawing (https://rheonics.com/wp-content/uploads/2024/02/SRV-X5-Flange.pdf)\nSRV-X5 STEP file e.g. flange | https://rheonics.com/srv-npt/SRV-X5 CAD files Example (https://rheonics.com/wp-content/uploads/2024/07/Rheonics_SRV-X5-Flange.zip)\nSRV-HS-X5 Drawing e.g. flange | https://rheonics.com/wp-content/uploads/2024/02/SRV-HS-X5-Flange.pdf (https://rheonics.com/srv-long-flange/SRV-HS-X5 Example Drawing (https://rheonics.com/wp-content/uploads/2024/02/SRV-HS-X5-Flange.pdf)\n\nThe SRV-HS-X5 is a hygienic variant for the viscometer with (https://support.rheonics.com/en/support/solutions/articles/81000412155-hygienic-and-sanitary-process-viscometer-and-density-meter-for-inline-installation) (https://support.rheonics.com/en/support/solutions/articles/81000412156-hygienic-and-sanitary-process-viscometer-and-density-meter-for-inline-installation) 3-A and EHEDG certifications available (https://support.rheonics.com/en/support/solutions/articles/81000412155-hygienic-and-sanitary-process-viscometer-and-density-meter-for-inline-installation) for certain process connections.\n\nContact Rheonics for a custom SRV-X5 and CAD models (drawing and step 3D file).\n\nWith a customizable insertion depth there are many installation advantages. The SRV-X5 sensor is recommended for following scenarios:\n- Installation with long standpipes.\n- Mounting in tank's lid\n- Jacketed walls in tanks or reactors.\n- Elbow and cross-pipe installations\n- Most flange installations\n- Fluids with yield stress\n\n2. Installation examples\n\nThe Rheonics SRV sensor requires next installation criteria to be followed to ensure accurate, repeatable and reproducible viscosity readings.\n\nEnsure sensing element in red is in contact with fluid\nAvoid dead or stagnation zones in the sensing (red) area\nThe SRV tip needs a clearance of 5 mm [0.2\"] to any obstruction\n\nFigure 3: SRV-X5 sensing area",
+      "specifications": {
+        "Customizable ID": ">33mm",
+        "Sensing element length": "50 mm [1.96\"]",
+        "Sensing element diameter": "Ø16 mm [0.63\"]",
+        "SRV tip clearance": "5 mm [0.2\"]"
+      },
+      "key_facts": [
+        "Insertion length A and Connection type B are customizable for the viscometer.",
+        "The customizable ID for the viscometer is greater than 33mm.",
+        "Rheonics provides access to SRV-X5 example drawings and STEP files, as well as SRV-HS-X5 example drawings.",
+        "The SRV-HS-X5 is identified as a hygienic variant of the viscometer.",
+        "3-A and EHEDG certifications are available for the SRV-HS-X5 for certain process connections.",
+        "Rheonics offers custom SRV-X5 sensors and their corresponding CAD models (drawing and step 3D file).",
+        "The SRV-X5 sensor's customizable insertion depth provides advantages for various installation scenarios.",
+        "Recommended installation scenarios for the SRV-X5 include long standpipes, mounting in tank lids, jacketed walls, elbow/cross-pipe installations, most flange installations, and fluids with yield stress.",
+        "The Rheonics SRV sensor requires specific installation criteria to be followed for accurate, repeatable, and reproducible viscosity readings."
+      ],
+      "diagram_labels": [
+        "Rheonics",
+        "50 mm [1.96\"]",
+        "Ø16 mm [0.63\"]",
+        "Figure 3: SRV-X5 sensing area"
+      ],
+      "warnings_notes": [
+        "The SRV-HS-X5 is a hygienic variant for the viscometer with 3-A and EHEDG certifications available for certain process connections.",
+        "Ensure sensing element in red is in contact with fluid.",
+        "Avoid dead or stagnation zones in the sensing (red) area.",
+        "The SRV tip needs a clearance of 5 mm [0.2\"] to any obstruction."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1257,
+        "cost_usd": 0.0032823
+      },
+      "source_file": "194_SRV-X5_Inline_Process_Viscometer_long_insertion_and_custom_connection.pdf"
+    },
+    {
+      "page_summary": "This page provides detailed installation guidelines for Rheonics SRV-X5 long insertion sensors in tee, standpipe, elbow, or cross pipe configurations, focusing on optimal sensor depth and flow direction for accurate viscosity measurements.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV-X5"
+      ],
+      "extracted_text": "2.1 Long insertion sensor in tee or long standpipe\nThis is a typical method of process installation. Also, this type of process installation allows using already existing flanges on a process line. The recommended insertion depth “A” should be such that the sensing area is fully exposed to the flow. It is good practice to also have the 14 mm neck diameter exposed to the flow, as indicated by the figure below.\n\nFigure 4: SRV-X5 Tee Installation\n\n2.2 Long insertion sensor in Elbow or Cross pipe\nThe preferred installation scenario is installing the SRV long insertion probe in a T-piece, such that the flow is parallel to the sensing element, like in an elbow.\nThis installation method is ideal for a reliable viscosity measurements with the long insertion sensor, even for highly non-Newtonian fluids and fluids with yield stress. The insertion depth “A” should be sufficiently long, that the Ø14mm section is in the straight section of the T-piece (blue rectangle).\nInserting the sensor further into the flow, won’t affect the measurement in a negative way, but may increase the pressure drop due to the reduced cross-sectional area.\nIdeally, the flow should go towards the sensor for maximal exposure, the inverse flow direction may affect the response time of the sensor. In next installation examples, the fluid flows against the sensor, hitting the sensor tip first.\n\nFigure 5: SRV-X5 on Elbow Installation",
+      "specifications": {
+        "neck_diameter": "14 mm",
+        "sensor_section_diameter": "14 mm",
+        "pipe_diameter": "30 mm"
+      },
+      "key_facts": [
+        "The recommended insertion depth 'A' for tee or long standpipe installations must ensure the sensor's sensing area is fully exposed to the flow.",
+        "For tee or long standpipe installations, it is good practice for the 14 mm neck diameter of the sensor to be exposed to the flow.",
+        "The preferred installation for long insertion sensors in an elbow or cross pipe involves installing the SRV probe in a T-piece with the flow parallel to the sensing element.",
+        "The elbow or cross pipe installation method is ideal for reliable viscosity measurements, particularly with highly non-Newtonian fluids and fluids with yield stress.",
+        "For elbow or cross pipe installations, the insertion depth 'A' should be long enough to place the Ø14mm section of the sensor within the straight section of the T-piece.",
+        "Inserting the sensor further into the flow will not negatively affect the measurement.",
+        "Ideally, flow should move towards the sensor for maximal exposure.",
+        "In some installation examples, the fluid may flow against the sensor, hitting its tip first."
+      ],
+      "diagram_labels": [
+        "A",
+        "Ø30 mm",
+        "Flow direction",
+        "ID",
+        "Straight section of the T-piece"
+      ],
+      "warnings_notes": [
+        "Inserting the sensor further into the flow may increase the pressure drop due to the reduced cross-sectional area.",
+        "An inverse flow direction (fluid flowing against the sensor tip) may affect the response time of the sensor."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 797,
+        "cost_usd": 0.0021322999999999997
+      },
+      "source_file": "194_SRV-X5_Inline_Process_Viscometer_long_insertion_and_custom_connection.pdf"
+    },
+    {
+      "page_summary": "This page illustrates two installation methods for the SRV-X5-NPT 1.25\" sensor in pipes (jacketed and elbow) and provides detailed scenarios for installing a long insertion sensor from a tank's roof.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV-X5-NPT 1.25\"",
+        "SRV long insertion probes"
+      ],
+      "extracted_text": "NPT 1.25\"\nA\nFlow direction\nJacketed pipe\nStraight section of the pipe\nFigure 6: SRV-X5-NPT 1.25\" in Jacketed Pipe\n\nNPT 1.25\"\nA\nFlow direction\nStraight section of the pipe\nFigure 7: SRV-X5-NPT 1.25\" Elbow Installation\n\n2.3 Long insertion sensor in tank's roof\nThere are cases where the client needs to install the sensor in a tank or reactor, and a wall or bottom installation is not possible due to jacketed walls, scrapper or mixing blades near the wall, etc. Then, an installation from the tank's top or lid is the best solution.\nThe SRV long insertion probes are typically used when an installation of the sensor from the top is needed. It is recommended that the entire sensing element is fully wetted at all times when a measurement is needed. The filling height may vary over the course of the reaction, and be dependent on how much of each component has been added, or if there is a constant influx of air.\nThis installation option is well-suited for next scenarios:\n*   There is no clearance between the sidewall and the blade (scrapper blade often is quite close to the wall).\n*   There is no existing port on side wall or bottom of reactor vessel and installing a new port is not possible.\n*   There are existing ports on the lid or are easier to install.\n*   Vessel is double jacketed which makes it hard to install ports.",
+      "specifications": {
+        "NPT": "1.25\""
+      },
+      "key_facts": [
+        "SRV-X5-NPT 1.25\" sensors can be installed in jacketed pipes and elbows.",
+        "Long insertion sensors are used when wall or bottom installation in tanks or reactors is not possible due to obstructions like jacketed walls, scrapper, or mixing blades.",
+        "Installation from the tank's top or lid is the best solution in scenarios where wall or bottom installation is not possible.",
+        "SRV long insertion probes are typically used for top installations.",
+        "The entire sensing element of the SRV long insertion probes should be fully wetted at all times when a measurement is needed.",
+        "Filling height in the tank may vary due to reaction course, component addition, or constant influx of air.",
+        "This installation option is well-suited when there is no clearance between the sidewall and a scrapper blade.",
+        "This installation option is well-suited when there is no existing port on the side wall or bottom of the reactor vessel and installing a new port is not possible.",
+        "This installation option is well-suited when existing ports on the lid are available or easier to install.",
+        "This installation option is well-suited for double-jacketed vessels which make it hard to install ports."
+      ],
+      "diagram_labels": [
+        "NPT 1.25\"",
+        "A",
+        "Flow direction",
+        "Jacketed pipe",
+        "Straight section of the pipe",
+        "Rheonics (logo)",
+        "Figure 6: SRV-X5-NPT 1.25\" in Jacketed Pipe",
+        "Figure 7: SRV-X5-NPT 1.25\" Elbow Installation"
+      ],
+      "warnings_notes": [
+        "It is recommended that the entire sensing element is fully wetted at all times when a measurement is needed."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 906,
+        "cost_usd": 0.0024048
+      },
+      "source_file": "194_SRV-X5_Inline_Process_Viscometer_long_insertion_and_custom_connection.pdf"
+    },
+    {
+      "page_summary": "This page details installation methods for the Rheonics SRV-X5 sensor in tanks, specifically showing roof mounting and the use of an Adjustable Process Connector (APC).",
+      "document_type": "manual",
+      "product_names": [
+        "SRV-X5",
+        "TMA-34N",
+        "APC"
+      ],
+      "extracted_text": "Ø30 mm\nIt is recommended that the minimum volume in tank still covers the sensing element\nFigure 8: SRV-X5 on Tank's roof\nAlternatively, another solution for installation in tanks is the use of the TMA-34N accessory, read more about this here (https://rheonics.com/product-accessories/tma-34n/).\n\n3. Adjustable Process Connector - APC\nRheonics SRV-X5 sensor can be installed with the APC adapter for ambient pressure. The APC is a mechanical joint of pieces that can clamp a flange or process connection on the sensor body without welding. This enables easy exchange of flanges and the immersion depth can be varied. The APC can adjust a Tri-Clamp, flange or any other connection with a maximum thickness of 1\" and an OD diameter of at least 50mm.\n\nFigure 9: Rheonics SRV-X5 with APC adapter.",
+      "specifications": {
+        "sensor_diameter": "Ø30 mm",
+        "APC_connection_maximum_thickness": "1 \"",
+        "APC_connection_OD_diameter": "at least 50 mm"
+      },
+      "key_facts": [
+        "It is recommended that the minimum volume in the tank covers the sensing element when the SRV-X5 is installed on the tank's roof.",
+        "The TMA-34N accessory provides an alternative solution for tank installation.",
+        "The Rheonics SRV-X5 sensor can be installed with the APC adapter for ambient pressure.",
+        "The APC is a mechanical joint that clamps a flange or process connection on the sensor body without welding.",
+        "The APC enables easy exchange of flanges and allows the immersion depth to be varied.",
+        "The APC can adjust various connection types, including Tri-Clamp and flanges, provided they have a maximum thickness of 1 inch and an outside diameter of at least 50mm."
+      ],
+      "diagram_labels": [
+        "Ø30 mm",
+        "It is recommended that the minimum volume in tank still covers the sensing element",
+        "Figure 8: SRV-X5 on Tank's roof",
+        "Figure 9: Rheonics SRV-X5 with APC adapter."
+      ],
+      "warnings_notes": [
+        "It is recommended that the minimum volume in tank still covers the sensing element."
+      ],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 632,
+        "cost_usd": 0.0017197999999999998
+      },
+      "source_file": "194_SRV-X5_Inline_Process_Viscometer_long_insertion_and_custom_connection.pdf"
+    },
+    {
+      "page_summary": "This page displays a technical drawing with dimensions for the Rheonics SRV-X5 sensor, specifically featuring its APC configuration.",
+      "document_type": "drawing",
+      "product_names": [
+        "Rheonics SRV-X5"
+      ],
+      "extracted_text": "Process connection of customer's choice\nMax. Thickness = 1\"\nOD > 50mm\nrheonics\n30\nMin [1.2]\n78.4\n[3.09]\n80\nA: Insertion Length Min [3.15]\nFigure 10: Rheonics SRV-X5 with APC drawing.",
+      "specifications": {
+        "Tip Length Minimum": "30 mm (1.2 in)",
+        "Mid-Section Length": "78.4 mm (3.09 in)",
+        "Insertion Length Minimum (A)": "80 mm (3.15 in)",
+        "Process Connection Maximum Thickness": "1 in",
+        "Process Connection Outside Diameter": "> 50 mm"
+      },
+      "key_facts": [
+        "The drawing illustrates the Rheonics SRV-X5 product with an APC configuration.",
+        "The process connection is to be chosen by the customer.",
+        "Specific requirements for the process connection include a maximum thickness of 1 inch and an outside diameter greater than 50 mm.",
+        "Dimensions are provided in both millimeters and inches."
+      ],
+      "diagram_labels": [
+        "Process connection of customer's choice",
+        "Max. Thickness = 1\"",
+        "OD > 50mm",
+        "rheonics",
+        "30",
+        "Min [1.2]",
+        "78.4",
+        "[3.09]",
+        "80",
+        "A: Insertion Length Min [3.15]"
+      ],
+      "warnings_notes": [],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 446,
+        "cost_usd": 0.0012548000000000001
+      },
+      "source_file": "194_SRV-X5_Inline_Process_Viscometer_long_insertion_and_custom_connection.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

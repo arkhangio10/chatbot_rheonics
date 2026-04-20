@@ -1,0 +1,99 @@
+{
+  "source_file": "139_Units_Translation_Table_for_Field_devices.pdf",
+  "total_pages": 3,
+  "chunks": [
+    {
+      "page_summary": "This page presents a units translation table mapping numerical indices to various unit displays for Rheonics field devices.",
+      "document_type": "notes",
+      "product_names": [],
+      "extracted_text": "Phone: +1 713 234 0863\nUnits Translation Table for Field devices\nModified on: Tue, 20 May, 2025 at 6:12 PM\n\nEach parameter has a unit. Use the table below to translate the number to the corresponding unit.\n\nTable 1. Units Translation Table\nUnit Index | Unit Display\n0          |\n1          | mPa.s\n2          | cP\n3          | Pa.s\n4          | Poise\n5          | Reyn\n6          | mm²/s\n7          | cSt\n8          | St\n9          | m²/s\n10         | in²/s\n11         | SUS\n12         | VI\n13         | AV\n14         | PV\n15         | YP\n16         | sec\n17         | µ\n18         | η",
+      "specifications": {},
+      "key_facts": [
+        "This document provides a units translation table for Field devices.",
+        "The table maps a 'Unit Index' from 0 to 18 to a 'Unit Display'.",
+        "The document was last modified on Tuesday, May 20, 2025, at 6:12 PM.",
+        "The contact phone number provided is +1 713 234 0863."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 411,
+        "cost_usd": 0.0011673
+      },
+      "source_file": "139_Units_Translation_Table_for_Field_devices.pdf"
+    },
+    {
+      "page_summary": "This page presents a table mapping numerical unit indices to their corresponding unit display symbols for various physical quantities.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Unit Index | Unit Display\n---|---\n19 | v\n20 | °C\n21 | °F\n22 | °K\n23 | refₓₓ°Y\n24 | g/cc\n25 | Kg/m³\n26 | lb/ft³\n27 | lbm/gal\n28 | lbs/gal\n29 | ppg\n30 | pptf\n31 | slug/ft³\n32 | SG\n33 | ρ\n34 | °API\n35 | °Baumé\n36 | °Brix\n37 | %wt/v\n38 | %v/v\n39 | %vol\n40 | Bar\n41 | psi\n42 | m³/s\n43 | sccm\n44 | gpm",
+      "specifications": {
+        "19": "v",
+        "20": "°C",
+        "21": "°F",
+        "22": "°K",
+        "23": "refₓₓ°Y",
+        "24": "g/cc",
+        "25": "Kg/m³",
+        "26": "lb/ft³",
+        "27": "lbm/gal",
+        "28": "lbs/gal",
+        "29": "ppg",
+        "30": "pptf",
+        "31": "slug/ft³",
+        "32": "SG",
+        "33": "ρ",
+        "34": "°API",
+        "35": "°Baumé",
+        "36": "°Brix",
+        "37": "%wt/v",
+        "38": "%v/v",
+        "39": "%vol",
+        "40": "Bar",
+        "41": "psi",
+        "42": "m³/s",
+        "43": "sccm",
+        "44": "gpm"
+      },
+      "key_facts": [
+        "The document provides a comprehensive list of unit indices from 19 to 44.",
+        "Each unit index corresponds to a specific unit display symbol, covering various physical measurements.",
+        "Units for temperature (°C, °F, °K), density (g/cc, Kg/m³, lb/ft³, lbm/gal, lbs/gal, ppg, pptf, slug/ft³, SG, ρ, °API, °Baumé, °Brix), concentration (%wt/v, %v/v, %vol), pressure (Bar, psi), and flow rate (m³/s, sccm, gpm) are listed."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 719,
+        "cost_usd": 0.0019373
+      },
+      "source_file": "139_Units_Translation_Table_for_Field_devices.pdf"
+    },
+    {
+      "page_summary": "This page displays a table mapping unit indices to their corresponding unit display names, covering various physical quantities and chemical concentrations.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Unit Index | Unit Display\n------------------\n45         | pH\n46         | m³\n47         | gal\n48         | STP\n49         | Tref\n50         | nD\n51         | %wt\n52         | %Vo\n53         | mol/m³\n54         | alcohol\n55         | ethanol\n56         | Hz\n57         | rhe\n58         | °P",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 213,
+        "cost_usd": 0.0006723
+      },
+      "source_file": "139_Units_Translation_Table_for_Field_devices.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

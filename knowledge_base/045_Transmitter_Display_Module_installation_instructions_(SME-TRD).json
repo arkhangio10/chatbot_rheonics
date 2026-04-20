@@ -1,0 +1,388 @@
+{
+  "source_file": "045_Transmitter_Display_Module_installation_instructions_(SME-TRD).pdf",
+  "total_pages": 6,
+  "chunks": [
+    {
+      "page_summary": "This page provides installation instructions for the Rheonics SME-TRD Transmitter Display Module, including an image of the device and a step for opening its cover.",
+      "document_type": "manual",
+      "product_names": [
+        "Transmitter Display Module",
+        "SME-TRD"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nTransmitter Display Module installation instructions (SME-TRD)\n\nModified on: Fri, 3 Jul, 2020 at 6:43 PM\n\nThe picture below shows the SME-TRD.\n\n[Image: A red Rheonics SME-TRD device with a central display. Visible labels around the display include 'Power', 'Sensor', 'Modbus', 'HART', 'Process', 'Bluetooth'. The brand name 'rheonics' is visible twice. Text around the perimeter of the red casing reads: 'KEEP COVER TIGHT WHEN CIRCUITS ALIVE'.]\n\n* Open the Red display cover by rotating it anti-clockwise.",
+      "specifications": {},
+      "key_facts": [
+        "The document provides installation instructions for the Rheonics SME-TRD Transmitter Display Module.",
+        "The document was last modified on Friday, July 3, 2020, at 6:43 PM.",
+        "Rheonics can be contacted at +1 713 234 0863.",
+        "The first step in the installation involves opening the Red display cover by rotating it anti-clockwise."
+      ],
+      "diagram_labels": [
+        "Power",
+        "Sensor",
+        "Modbus",
+        "HART",
+        "Process",
+        "Bluetooth",
+        "rheonics"
+      ],
+      "warnings_notes": [
+        "KEEP COVER TIGHT WHEN CIRCUITS ALIVE"
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 441,
+        "cost_usd": 0.0012423
+      },
+      "source_file": "045_Transmitter_Display_Module_installation_instructions_(SME-TRD).pdf"
+    },
+    {
+      "page_summary": "This page provides instructions and visual guidance for accessing the internal connections of a Rheonics transmitter by removing the display module and connecting a sensor cable.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV sensor",
+        "SRD sensor",
+        "DVP sensor",
+        "DVM sensor",
+        "transmitter"
+      ],
+      "extracted_text": "Now carefully pull out the display module as shown in the picture. Then you see the transmitter connections as below.\n\nNow connect the sensor cable as shown below. Make sure to follow the color code as below. Detailed information on connecting sensor cable to transmitter is in the respective (SRV, SRD, DVP, DVM) sensor installation and operation manual.",
+      "specifications": {
+        "Output": "4-20 mA",
+        "Power Input": "+24Vdc"
+      },
+      "key_facts": [
+        "The display module can be pulled out to rotate it and access communication ports.",
+        "Removing the display module reveals the internal transmitter connections.",
+        "Sensor cable connection requires careful attention to color coding.",
+        "Detailed sensor cable connection instructions are available in specific SRV, SRD, DVP, and DVM sensor installation and operation manuals."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "Power",
+        "Sensor",
+        "Modbus",
+        "HART",
+        "Process",
+        "Bluetooth",
+        "Pull out to rotate display and access communication ports",
+        "<ch3+",
+        "<ch3-",
+        "<ch2+",
+        "<ch2-",
+        "<ch1+",
+        "<ch1-",
+        "gnd +",
+        "gnd -",
+        "power",
+        "display",
+        "SD-card",
+        "usb",
+        "reset",
+        "ethernet",
+        "4-20 mA output",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "sensor connection",
+        "Made in TR",
+        "2P18/2017/002",
+        "P01",
+        "+24Vdc",
+        "Output Relay",
+        "Relay",
+        "S/N: 8130008"
+      ],
+      "warnings_notes": [
+        "Make sure to follow the color code when connecting the sensor cable."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 603,
+        "cost_usd": 0.0016473000000000002
+      },
+      "source_file": "045_Transmitter_Display_Module_installation_instructions_(SME-TRD).pdf"
+    },
+    {
+      "page_summary": "This page provides installation instructions and visual diagrams for connecting the 24 V DC power supply and details other available ports on a Rheonics SME-EH unit.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SME-EH"
+      ],
+      "extracted_text": "D C S P\ndisplay\nusb\nSD-card\nreset\nethernet\nB A - +\ngnd\nmodbus (RS485)\n24 V dc\nrheonics\nSME-EH\n17100984\n4-20 mA output\n0 1 2 3 4 5 6 7 8 (terminals)\nch3+ ch3- ch2+ ch2- ch1+ ch1- gnd+ gnd- loop+ loop-\nsensor connection\nBatch No ZP/16/3079/003 04\n\nNow connect the 24 V DC power supply as below. Black wire (-negative terminal) in the image below is connected to port labeled 'gnd' and red wire (+positive terminal) connected to port labeled 24 V dc.\n\nIf your unit came with USB connection then you will have the setup to connect the USB cable as below. For more details on how to connect the USB, refer to the USB Connection to",
+      "specifications": {
+        "power_input": "24 V dc",
+        "analog_output": "4-20 mA"
+      },
+      "key_facts": [
+        "The Rheonics SME-EH unit requires a 24 V DC power supply for operation.",
+        "The negative terminal of the 24 V DC power supply should be connected to the 'gnd' port.",
+        "The positive terminal of the 24 V DC power supply should be connected to the '24 V dc' port.",
+        "The SME-EH unit features multiple connection interfaces including Ethernet, USB, SD-card, Modbus (RS485), and 4-20 mA output.",
+        "Sensor connections are available for multiple channels (ch1, ch2, ch3) and loop signals.",
+        "Further detailed instructions for USB connection are available in a section referred to as 'USB Connection to'."
+      ],
+      "diagram_labels": [
+        "D C S P",
+        "display",
+        "usb",
+        "SD-card",
+        "reset",
+        "ethernet",
+        "B A - +",
+        "gnd",
+        "modbus (RS485)",
+        "24 V dc",
+        "rheonics",
+        "SME-EH",
+        "17100984",
+        "4-20 mA output",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "ch3+",
+        "ch3-",
+        "ch2+",
+        "ch2-",
+        "ch1+",
+        "ch1-",
+        "gnd+",
+        "gnd-",
+        "loop+",
+        "loop-",
+        "sensor connection",
+        "Batch No ZP/16/3079/003 04"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 756,
+        "cost_usd": 0.0020298
+      },
+      "source_file": "045_Transmitter_Display_Module_installation_instructions_(SME-TRD).pdf"
+    },
+    {
+      "page_summary": "This page provides instructions for connecting 4-20 mA output wires to a Rheonics Transmitter and details the assembly of a two-part display connector.",
+      "document_type": "manual",
+      "product_names": [
+        "the Transmitter",
+        "Rheonics SME-TH"
+      ],
+      "extracted_text": "the Transmitter (https://support.rheonics.com/en/support/solutions/articles/81000297828) article.\n\n[Image of Transmitter internals with various ports and terminal blocks]\n\nBased on your preferred output method connect the 4-20 mA output wires to the terminal block on the top right. The connection setting can be found in the datasheet and is explained in Section 5 of the respective sensor installation and operation manual.\n\nHere is the picture of the two-parts display connector.\n\n[Image of two display connector parts labeled 'Part I' and 'Part II']\n\nPart I should be inserted in the back of the display at location 0° (see image).",
+      "specifications": {
+        "Output Type": "4-20 mA",
+        "Power Input": "24V dc",
+        "Display Insertion Location": "0°"
+      },
+      "key_facts": [
+        "4-20 mA output wires should be connected to the terminal block on the top right of the Transmitter.",
+        "Connection settings for the output wires can be found in the product's datasheet.",
+        "Detailed explanations for connection settings are provided in Section 5 of the sensor installation and operation manual.",
+        "The display connector consists of two parts, labeled Part I (pin header) and Part II (socket).",
+        "Part I of the display connector must be inserted into the back of the display at the 0° location."
+      ],
+      "diagram_labels": [
+        "ch3+",
+        "ch3-",
+        "ch2+",
+        "ch2-",
+        "gnd",
+        "1000+",
+        "1000-",
+        "display",
+        "SD-card",
+        "usb",
+        "reset",
+        "ethernet",
+        "24V dc",
+        "modbus (RS485)",
+        "rheonics",
+        "SME-TH",
+        "Batch No. RP-10-307844",
+        "4-20 mA output",
+        "sensor con on",
+        "Part I",
+        "Part II"
+      ],
+      "warnings_notes": [
+        "The connection setting can be found in the datasheet and is explained in Section 5 of the respective sensor installation and operation manual."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 633,
+        "cost_usd": 0.0017223
+      },
+      "source_file": "045_Transmitter_Display_Module_installation_instructions_(SME-TRD).pdf"
+    },
+    {
+      "page_summary": "This page provides visual and textual instructions for installing the Rheonics display module into the transmitter housing, detailing the physical connection points and alignment requirements.",
+      "document_type": "manual",
+      "product_names": [
+        "rheonics display module Bluetooth LTE 4.0",
+        "SME-DISP-BT",
+        "SME-EH"
+      ],
+      "extracted_text": "rheonics display module Bluetooth LTE 4.0\nDisplay connector\n0°\n90°\n180°\n270°\nrheonics\nCE\nType: SME-DISP-BT\nSWISS MADE\nS/N: S01-0136\nS/N: S01-0159\nBack of the display module\nConnector pin inserted in the back of the display module\nAnd Part II should be inserted in the electronics at the display connector port as shown below.\nBatch No ZP/18/3079/002 04\ndisplay\nSD-card\nusb\nreset\nethernet\nch3+\nch2+\nch1+\ngnd\ngnd\nloop+\nloop-\n4-20 mA output\n0\n1\n2\n3\n4\n5\n6\nsensor connection\ngnd\n24 V dc\nmodbus (RS-485)\nrheonics\nSME-EH\n1710068\nDisplay connection port\nFour metal legs of transmitter housing\nThen very carefully place the four black legs of the display module on the four metal legs of the transmitter housing (shown below) making sure that the display connector pins are aligned with the display connection port of the transmitter housing.",
+      "specifications": {
+        "Output": "4-20 mA",
+        "Power input": "24 V dc",
+        "Communication interface": "Modbus (RS-485)"
+      },
+      "key_facts": [
+        "The page describes the back view of the Rheonics display module, model SME-DISP-BT, which includes Bluetooth LTE 4.0 capability.",
+        "The display module has a main 'Display connector' with pin configurations marked at 0°, 90°, 180°, and 270°.",
+        "The module is Swiss Made and carries a CE mark.",
+        "The display module (referred to as 'Part II' in one instruction) is to be inserted into the electronics of the transmitter housing, specifically aligning with the 'Display connection port'.",
+        "The transmitter housing's electronics, identified as SME-EH, features various ports including 4-20 mA output, sensor connections, display, SD-card, USB, reset, Ethernet, and Modbus (RS-485).",
+        "The installation process requires careful alignment of the display module's four black legs with the four metal legs of the transmitter housing and ensuring the display connector pins align with the corresponding port."
+      ],
+      "diagram_labels": [
+        "rheonics display module Bluetooth LTE 4.0",
+        "Display connector",
+        "0°",
+        "90°",
+        "180°",
+        "270°",
+        "rheonics",
+        "CE",
+        "Type: SME-DISP-BT",
+        "SWISS MADE",
+        "S/N: S01-0136",
+        "S/N: S01-0159",
+        "Back of the display module",
+        "Batch No ZP/18/3079/002 04",
+        "ch3+",
+        "ch2+",
+        "ch1+",
+        "gnd",
+        "loop+",
+        "loop-",
+        "display",
+        "SD-card",
+        "usb",
+        "reset",
+        "ethernet",
+        "gnd",
+        "24 V dc",
+        "modbus (RS-485)",
+        "SME-EH",
+        "1710068",
+        "4-20 mA output",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "sensor connection",
+        "Display connection port",
+        "Four metal legs of transmitter housing"
+      ],
+      "warnings_notes": [
+        "Connector pin inserted in the back of the display module",
+        "And Part II should be inserted in the electronics at the display connector port as shown below.",
+        "Then very carefully place the four black legs of the display module on the four metal legs of the transmitter housing (shown below) making sure that the display connector pins are aligned with the display connection port of the transmitter housing."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1125,
+        "cost_usd": 0.0029522999999999997
+      },
+      "source_file": "045_Transmitter_Display_Module_installation_instructions_(SME-TRD).pdf"
+    },
+    {
+      "page_summary": "This page displays an internal view of a Rheonics device's circuit board with various connection points and provides a step-by-step instruction for completing the installation.",
+      "document_type": "manual",
+      "product_names": [
+        "SME-EH"
+      ],
+      "extracted_text": "Batch No. ZP/17/0913/003 010\n\nch3 +\nch3 -\nch2 +\nch2 -\nch1 +\nch1 -\ngnd\ngnd\ndoo+\ndoo-\ndisplay\nSD-card\nusb\nreset\nD C S P B A\nmodbus (RS485)\ngnd\n24 V dc\n4-20 mA output\n0 1 2 3 4 5 6 7 8\nsensor connection\nethernet\n18251291\nrheonics\nSME-EH\n\nAfter the display module in place, close the red cover and your sensor and transmitter connection is complete.",
+      "specifications": {
+        "output_current_range": "4-20 mA",
+        "power_input_voltage": "24 V dc"
+      },
+      "key_facts": [
+        "The device shown is a Rheonics SME-EH unit.",
+        "The device has a batch number ZP/17/0913/003 and an internal ID 18251291.",
+        "It features multiple input/output connections, including three channels (ch1, ch2, ch3) and a 4-20 mA output.",
+        "Communication interfaces available are Modbus (RS485) and Ethernet.",
+        "The device includes ports for a display, SD-card, and USB.",
+        "Power is supplied via a 24 V DC input.",
+        "The final step of installation involves placing a display module, ensuring sensor and transmitter connections, and closing a red cover."
+      ],
+      "diagram_labels": [
+        "Batch No.",
+        "ZP/17/0913/003",
+        "010",
+        "ch3 +",
+        "ch3 -",
+        "ch2 +",
+        "ch2 -",
+        "ch1 +",
+        "ch1 -",
+        "gnd",
+        "doo+",
+        "doo-",
+        "display",
+        "SD-card",
+        "usb",
+        "reset",
+        "D",
+        "C",
+        "S",
+        "P",
+        "B",
+        "A",
+        "modbus (RS485)",
+        "24 V dc",
+        "4-20 mA output",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "sensor connection",
+        "ethernet",
+        "18251291",
+        "rheonics",
+        "SME-EH"
+      ],
+      "warnings_notes": [],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 751,
+        "cost_usd": 0.0020173
+      },
+      "source_file": "045_Transmitter_Display_Module_installation_instructions_(SME-TRD).pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

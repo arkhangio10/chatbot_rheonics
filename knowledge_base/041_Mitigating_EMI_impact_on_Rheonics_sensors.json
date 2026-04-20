@@ -1,0 +1,122 @@
+{
+  "source_file": "041_Mitigating_EMI_impact_on_Rheonics_sensors.pdf",
+  "total_pages": 3,
+  "chunks": [
+    {
+      "page_summary": "This page provides an overview of Electromagnetic Interference (EMI), its common sources, and how Rheonics sensors are designed with high immunity, offering guidance on troubleshooting EMI-related performance issues with the help of the Rheonics Control Panel software.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics sensors",
+        "Rheonics inline process density meter",
+        "Rheonics viscometer",
+        "Rheonics Control Panel (RCP) software"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nMitigating EMI impact on Rheonics sensors\nModified on: Wed, 3 Jul, 2024 at 3:30 PM\n\nWhen working with various electronic systems, Electromagnetic Interference (EMI) issues are not uncommon and can adversely affect nearby electronic devices, leading to problems such as serial communication loss, disturbances in output signals, and cross-talk.\n\nElectromagnetic Interference (EMI) is a widespread issue with diverse sources, posing potential challenges to the reliable functionality of electronic devices. Common sources of EMI include devices with switching power supplies, Variable Frequency Drives (VFDs), electric motors, and voltage converters, as well as transmitters, power lines, motors, generators, and other sources of Radio Frequency Interference (RFI). Additionally, switching devices, digital electronics with rapid voltage changes, and wireless communication devices all contribute to EMI. [1]\n\nSome of these are present in a large number of manufacturing, transformation and transport processes commonly used in industrial applications.\n\n1. How does EMI affect Rheonics sensors?\n\nRheonics sensors employ proprietary technology to achieve extremely high immunity from EMI. A properly connected Rheonics inline process density meter and viscometer can easily operate without performance degradation in high EMI environments like with large electric motors provided that the sensor probe and electronics are properly grounded following recommended procedure.\n\nThe table below gives general guidance on what symptoms a user would find when the sensor might be affected by EMI from computers and power lines - here the causes and mitigation strategies are discussed. These are items to take into consideration when doing a Root Cause Analysis (RCA) on sensor where performance degradation is taking place. Rheonics sensors employ real-time detection technology that can highlight possible measurement issues, these are shown as error codes on the sensor output. When using the Rheonics Control Panel (RCP) software, these codes are often accompanied with descriptive text that highlight possible cause and solution.\n\nSymptom\tCause\tDescription\tSolutions or checks",
+      "specifications": {},
+      "key_facts": [
+        "Electromagnetic Interference (EMI) issues are common in electronic systems and can adversely affect nearby electronic devices, causing problems like serial communication loss, disturbances in output signals, and cross-talk.",
+        "Common sources of EMI include switching power supplies, Variable Frequency Drives (VFDs), electric motors, voltage converters, transmitters, power lines, motors, generators, other sources of Radio Frequency Interference (RFI), switching devices, digital electronics with rapid voltage changes, and wireless communication devices.",
+        "Many EMI sources are common in industrial manufacturing, transformation, and transport processes.",
+        "Rheonics sensors utilize proprietary technology to achieve extremely high immunity from EMI.",
+        "Rheonics inline process density meters and viscometers can operate without performance degradation in high EMI environments, even with large electric motors, provided the sensor probe and electronics are properly grounded according to recommended procedures.",
+        "Rheonics sensors employ real-time detection technology that highlights possible measurement issues through error codes on the sensor output.",
+        "The Rheonics Control Panel (RCP) software provides descriptive text with error codes, outlining possible causes and solutions for EMI-related issues."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "A properly connected Rheonics inline process density meter and viscometer can easily operate without performance degradation in high EMI environments, provided that the sensor probe and electronics are properly grounded following recommended procedure.",
+        "When doing a Root Cause Analysis (RCA) on a sensor experiencing performance degradation, general guidance on symptoms, causes, and mitigation strategies for EMI from computers and power lines should be taken into consideration."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 914,
+        "cost_usd": 0.0024248
+      },
+      "source_file": "041_Mitigating_EMI_impact_on_Rheonics_sensors.pdf"
+    },
+    {
+      "page_summary": "This page provides troubleshooting advice for E10 and E12 errors, identifies causes of electromagnetic interference (EMI) affecting sensor performance, and offers recommendations to mitigate EMI effects.",
+      "document_type": "manual",
+      "product_names": [
+        "sensor",
+        "probe",
+        "transmitter",
+        "VFD controller",
+        "Laptop"
+      ],
+      "extracted_text": "E10 and E12 errors (Low Accuracy Error and Sensor Locked Error).\nThis can be triggered if user uses serial communication and try to control a VFD through a single Laptop.\nRunning the sensor along power lines/noisy data/motor starters.\nDue to EMI, sensor performance could be compromised and it may not provide reliable readings.\n1. It is recommended to try Ethernet communication in these scenarios.\n2. We recommend connecting the motor or VFD controller to a different Laptops that the one used for communication with the sensor electronics over USB.\n3. Avoid usage of USB communication as those are heavily affected by EMI.\n4. Verify wiring and ground loops. Do not run sensor cable along power lines.\n5. Ensure the shield of the sensor cable is grounded properly - this ensures the signal is not affected by EMI between the probe and the sensor electronics (in particular when there is a long run length of cable between the probe and electronics).\n\n2. How to reduce the EMI effects?\nTo reduce the impact of EMI we recommend the following:\n*   Ensure the proper grounding of the panel (where sensor electronics is mounted) to the equipment ground (where sensor probe is mounted).\n*   Ensure that the sensor (probe and transmitter) are properly grounded.\n*   Ensure the sensor cable shield is properly connected to ground.\n*   Connect all ground connections to a metallic common ground block.\n*   Verify that all electronic components are adequately earth-grounded.\n*   Maintain separation between power lines and sensor cable to prevent interference.\n*   In extreme cases, an EMI filter is also recommended.\n\n3. Resources",
+      "specifications": {},
+      "key_facts": [
+        "E10 and E12 errors are identified as 'Low Accuracy Error' and 'Sensor Locked Error' respectively.",
+        "Using serial communication to control a VFD via a single laptop can trigger errors.",
+        "Running sensor cables near power lines, noisy data lines, or motor starters can cause issues.",
+        "EMI can compromise sensor performance and lead to unreliable readings.",
+        "Ethernet communication is recommended over USB communication in scenarios prone to EMI.",
+        "Connecting motor or VFD controllers to a different laptop than the one used for sensor communication over USB is advised.",
+        "Proper grounding of the panel, sensor, transmitter, and sensor cable shield is crucial to reduce EMI.",
+        "All ground connections should be connected to a metallic common ground block.",
+        "Electronic components should be adequately earth-grounded.",
+        "Maintaining separation between power lines and sensor cables helps prevent interference.",
+        "An EMI filter is recommended in extreme cases of EMI.",
+        "Verifying wiring and ground loops is important, and sensor cables should not be run along power lines."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Avoid usage of USB communication as it is heavily affected by EMI.",
+        "Do not run sensor cable along power lines.",
+        "Ensure the shield of the sensor cable is grounded properly to prevent EMI affecting the signal, especially with long cable runs.",
+        "Ensure the proper grounding of the panel (where sensor electronics is mounted) to the equipment ground (where sensor probe is mounted).",
+        "Ensure that the sensor (probe and transmitter) are properly grounded.",
+        "Ensure the sensor cable shield is properly connected to ground.",
+        "Connect all ground connections to a metallic common ground block.",
+        "Verify that all electronic components are adequately earth-grounded.",
+        "Maintain separation between power lines and sensor cable to prevent interference.",
+        "In extreme cases, an EMI filter is also recommended."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 872,
+        "cost_usd": 0.0023198
+      },
+      "source_file": "041_Mitigating_EMI_impact_on_Rheonics_sensors.pdf"
+    },
+    {
+      "page_summary": "This page provides an introduction to Electromagnetic Interference (EMI) with Variable Frequency Drives (VFDs) and includes a comprehensive disclaimer about the use and interpretation of its content.",
+      "document_type": "notes",
+      "product_names": [
+        "VFDs"
+      ],
+      "extracted_text": "www\nIntroduction to Electromagnetic Interference (EMI) with VFDs\n(https://www.kebamerica.com/blog/electromagnetic-interference-vfds/)\nDISCLAIMER\nPictures, photos and images used are for illustration purposes and do not constitute any warranty or assertions on suitability of use and should not be construed as an explicit or implicit recommendation or endorsement. All illustrations are given proper credit from our source of access and by their use here we do not specify or establish any copyright which belongs and stays unaffected with the existing copyright holder of that material.",
+      "specifications": {},
+      "key_facts": [
+        "The page introduces Electromagnetic Interference (EMI) in the context of Variable Frequency Drives (VFDs).",
+        "The source URL for the content is https://www.kebamerica.com/blog/electromagnetic-interference-vfds/.",
+        "Pictures, photos, and images within the content are for illustration purposes only.",
+        "The content does not offer any warranty or make assertions regarding suitability of use.",
+        "The material should not be interpreted as an explicit or implicit recommendation or endorsement.",
+        "Proper credit is given for all illustrations from their source of access.",
+        "The use of this material does not affect or establish new copyright for the existing copyright holder."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Pictures, photos and images used are for illustration purposes and do not constitute any warranty or assertions on suitability of use and should not be construed as an explicit or implicit recommendation or endorsement.",
+        "All illustrations are given proper credit from our source of access and by their use here we do not specify or establish any copyright which belongs and stays unaffected with the existing copyright holder of that material."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 459,
+        "cost_usd": 0.0012873000000000001
+      },
+      "source_file": "041_Mitigating_EMI_impact_on_Rheonics_sensors.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

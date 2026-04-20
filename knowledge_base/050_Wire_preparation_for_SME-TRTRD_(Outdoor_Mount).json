@@ -1,0 +1,667 @@
+{
+  "source_file": "050_Wire_preparation_for_SME-TRTRD_(Outdoor_Mount).pdf",
+  "total_pages": 22,
+  "chunks": [
+    {
+      "page_summary": "This page provides guidance and good practices for preparing shielded sensor cables for Rheonics SME-TR/TRD (Outdoor Mount) transmitters and associated inline viscometers and density sensors.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "SRD",
+        "DVM",
+        "DVP",
+        "SME-TR/TRD",
+        "Rheonics"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nWire preparation for SME-TR/TRD (Outdoor Mount)\n\nModified on: Mon, 27 Feb, 2023 at 6:03 PM\n\nWhich Products are Involved?\n\nSRV (https://rheonics.com/products/inline-viscometer-srv/)\nSRD (https://rheonics.com/products/inline-density-meter-srd/)\nDVM (https://rheonics.com/products/hpht-pvt-density-meter-viscometer-dym/)\nDVP (https://rheonics.com/products/inline-gas-lng-density-meter-dvp/)\nSME-TR/TRD (https://rheonics.com/electronics-and-communication/)\n\nFor SME-TR/TRD (Outdoor Mount) transmitter. Visit our product page to learn more about the full features.\n\nVisit Rheonics product page: Products » inline fluid viscometer and density meter (https://rheonics.com/products/)\n\nWhat is the purpose of this article?\n\nTo give guidance and highlight good practices when preparing Rheonics sensor cables with a crimp of length 8mm and terminal diameter 1mm. The terminals of the SME-TR/TRD (https://rheonics.com/electronics-and-communication/) are rated for wires of 0.2 - 1.5 mm2 i.e. AWG 24 - 16.\n\nWire preparation for shielded cable\n\n1. Tools and BoM list\n2. Cable Length\n3. Cable strip\n4. Cutting cable's shield\n5. Cable gland installation\n6. Strip the wire ends\n7. Properly usage of crimpers\n8. Preparing grounding cable\n9. Hiding shield leftovers\n\n1. Tools and BoM list",
+      "specifications": {
+        "crimp_length": "8 mm",
+        "terminal_diameter": "1 mm",
+        "wire_cross_section_min": "0.2 mm²",
+        "wire_cross_section_max": "1.5 mm²",
+        "wire_gauge_min": "AWG 24",
+        "wire_gauge_max": "AWG 16"
+      },
+      "key_facts": [
+        "The document provides wire preparation guidance for Rheonics SME-TR/TRD (Outdoor Mount) transmitters.",
+        "The SME-TR/TRD terminals are designed for wires with a cross-section between 0.2 and 1.5 mm² (AWG 24 - 16).",
+        "Cable preparation involves crimps of 8mm length and terminals of 1mm diameter.",
+        "The article outlines nine steps for wire preparation for shielded cables, starting with tools and BoM list and ending with hiding shield leftovers.",
+        "Related products include SRV, SRD, DVM, and DVP sensors."
+      ],
+      "diagram_labels": [
+        "Wire preparation for shielded cable",
+        "1. Tools and BoM list",
+        "2. Cable Length",
+        "3. Cable strip",
+        "4. Cutting cable's shield",
+        "5. Cable gland installation",
+        "6. Strip the wire ends",
+        "7. Properly usage of crimpers",
+        "8. Preparing grounding cable",
+        "9. Hiding shield leftovers"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 921,
+        "cost_usd": 0.0024423
+      },
+      "source_file": "050_Wire_preparation_for_SME-TRTRD_(Outdoor_Mount).pdf"
+    },
+    {
+      "page_summary": "This page describes essential electrical tools, including a crimping tool and a precision micro wire cutter, detailing their uses and providing specifications for the depicted crimping tool.",
+      "document_type": "manual",
+      "product_names": [
+        "Crimping Tool",
+        "Precision Micro Wire Cutter",
+        "KNIPEX 97 62 145A"
+      ],
+      "extracted_text": "Tools\n• Crimping Tool\nCrimping tools are used to deform materials and create connections. To connect wires together or to other connectors, crimping is commonly used in electrical work.\n[Image of a crimping tool with 'KNIPEX', 'GERMANY', '97 62 145A', '0.25 - 2.5 mm² / AWG 23-13', and crimp sizes 0.25, 0.35, 0.50, 1.0, 1.5, 2.5 visible]\nFigure 1. Crimping Tool - 24-10 AWG.[1]\n• Precision Micro Wire Cutter\nA wire cutter or cable cutter is a tool that cut wires and cables in a safe manner without damaging the insulation or conductors.",
+      "specifications": {
+        "Crimping Tool Model Number": "97 62 145A",
+        "Crimping Tool Wire Range (tool marking)": "0.25 - 2.5 mm²",
+        "Crimping Tool AWG Range (tool marking)": "AWG 23-13",
+        "Crimping Tool AWG Range (figure caption)": "24-10 AWG"
+      },
+      "key_facts": [
+        "Crimping tools are used to deform materials and create connections.",
+        "Crimping is commonly used in electrical work to connect wires together or to other connectors.",
+        "A wire cutter or cable cutter is a tool designed to cut wires and cables in a safe manner without damaging the insulation or conductors."
+      ],
+      "diagram_labels": [
+        "Figure 1. Crimping Tool - 24-10 AWG.[1]",
+        "KNIPEX",
+        "GERMANY",
+        "97 62 145A",
+        "0.25 - 2.5 mm² / AWG 23-13",
+        "0.25 mm²",
+        "0.35 mm²",
+        "0.50 mm²",
+        "1.0 mm²",
+        "1.5 mm²",
+        "2.5 mm²"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 619,
+        "cost_usd": 0.0016872999999999999
+      },
+      "source_file": "050_Wire_preparation_for_SME-TRTRD_(Outdoor_Mount).pdf"
+    },
+    {
+      "page_summary": "This page describes three common tools: a precision micro wire cutter, a measuring tape, and a stripping tool, including their basic functions, accompanied by images for the first two.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Figure 2. Precision Micro Wire Cutter. [2]\n\n*   Measuring Tape\n\nA Measure Tape is a tool used to measure length.\n\nFigure 3. Measuring Tape.[3]\n\n*   Stripping tool\n\nWire strippers are portable handheld tools used by workers, especially electricians, to remove the protective coating of electric wires for replacement or repair.",
+      "specifications": {},
+      "key_facts": [
+        "A Measure Tape is a tool used to measure length.",
+        "Wire strippers are portable handheld tools used by workers, especially electricians, to remove the protective coating of electric wires for replacement or repair."
+      ],
+      "diagram_labels": [
+        "Figure 2. Precision Micro Wire Cutter.",
+        "Figure 3. Measuring Tape."
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 264,
+        "cost_usd": 0.0007998
+      },
+      "source_file": "050_Wire_preparation_for_SME-TRTRD_(Outdoor_Mount).pdf"
+    },
+    {
+      "page_summary": "This page displays a wire stripping tool with its specifications and a description of its function for cutting wires or cables.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Figure 4. Stripping tool.[4]\n\n• Knife\nTool used to cut wires or cables.",
+      "specifications": {
+        "wire_cross_section_range": "0.02-6 mm²",
+        "awg_gauge_range": "28-10 AWG",
+        "stripping_length_scale": "5, 10, 15, 20 mm"
+      },
+      "key_facts": [
+        "The image shows a stripping tool.",
+        "The tool is identified as a 'Knife'.",
+        "The tool is used to cut wires or cables."
+      ],
+      "diagram_labels": [
+        "0.02...6",
+        "AWG 28...10",
+        "mm",
+        "5",
+        "10",
+        "15",
+        "20"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 281,
+        "cost_usd": 0.0008423
+      },
+      "source_file": "050_Wire_preparation_for_SME-TRTRD_(Outdoor_Mount).pdf"
+    },
+    {
+      "page_summary": "This page provides a definition and purpose of soldering equipment for electronics repair and includes an image caption for a utility knife.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Figure 5. Knife. [5]\n\n*   Soldering Equipment\n\nA durable, permanent connection can be created by joining conductive metal elements with solder. Soldering machines are essential tools for building, modifying, and repairing electronics.",
+      "specifications": {},
+      "key_facts": [
+        "A durable, permanent connection can be created by joining conductive metal elements with solder.",
+        "Soldering machines are essential tools for building, modifying, and repairing electronics."
+      ],
+      "diagram_labels": [
+        "Figure 5. Knife.",
+        "ULINE"
+      ],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 205,
+        "cost_usd": 0.0006523
+      },
+      "source_file": "050_Wire_preparation_for_SME-TRTRD_(Outdoor_Mount).pdf"
+    },
+    {
+      "page_summary": "This page displays a labeled diagram of soldering equipment, including its components, and provides a definition for a hot air gun.",
+      "document_type": "manual",
+      "product_names": [
+        "937 SOLDERING STATION",
+        "V9HUA907A"
+      ],
+      "extracted_text": "Iron handle\nIron temperature display\nSoldering iron temperature adjustment knob\nIron fever indicator\nCE\nHEATING\n300 °C\nESD SAFE\n937 SOLDERING STATION\nMIN °C MAX\nIron temperature adjustable knob\nIron seat\nHigh temperature cleaning sponge\nFigure 6. Soldering Equipment.[6]\n• Hot air gun\nHeat guns are devices that emit a jet of compressed air toward a particular point or surface.",
+      "specifications": {
+        "temperature_display": "300 °C"
+      },
+      "key_facts": [
+        "Heat guns are devices that emit a jet of compressed air toward a particular point or surface."
+      ],
+      "diagram_labels": [
+        "Iron handle",
+        "Iron temperature display",
+        "Soldering iron temperature adjustment knob",
+        "Iron fever indicator",
+        "Iron temperature adjustable knob",
+        "Iron seat",
+        "High temperature cleaning sponge"
+      ],
+      "warnings_notes": [
+        "CE",
+        "ESD SAFE"
+      ],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 337,
+        "cost_usd": 0.0009823
+      },
+      "source_file": "050_Wire_preparation_for_SME-TRTRD_(Outdoor_Mount).pdf"
+    },
+    {
+      "page_summary": "This page features an image of a hot air gun and a Bill of Materials (BoM) list detailing components like ferrules and solder wire with their respective manufacturers and part numbers.",
+      "document_type": "manual",
+      "product_names": [
+        "Hot air gun",
+        "Ferrule",
+        "Solder wire"
+      ],
+      "extracted_text": "Figure 7. Hot air gun.[7]\nBoM list\nItem name | Manufacturer name | Manufacturer Part Number | Vendor Part number | Examples\nFerrule | RND | RND 465-00566 | 301-10-345 | https://ww (https://ww\nSolder wire | RS PRO | 800-7661 | 800-7661 | [RS logo] Industri ns | RS fo own as R$ nents (http online.com",
+      "specifications": {},
+      "key_facts": [
+        "The page includes an image labeled 'Figure 7. Hot air gun'.",
+        "The hot air gun shown has 'RS PRO' branding and a switch with settings '0', '1', '2'.",
+        "A Bill of Materials (BoM) list is provided for components.",
+        "The BoM lists a 'Ferrule' manufactured by RND, with manufacturer part number RND 465-00566 and vendor part number 301-10-345.",
+        "The BoM lists 'Solder wire' manufactured by RS PRO, with manufacturer part number 800-7661 and vendor part number 800-7661.",
+        "The 'Examples' column in the BoM list includes truncated URLs likely pointing to product pages for the items."
+      ],
+      "diagram_labels": [
+        "Hot air gun",
+        "RS PRO",
+        "0",
+        "1",
+        "2"
+      ],
+      "warnings_notes": [],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 470,
+        "cost_usd": 0.0013148
+      },
+      "source_file": "050_Wire_preparation_for_SME-TRTRD_(Outdoor_Mount).pdf"
+    },
+    {
+      "page_summary": "This page lists electrical components such as heat shrink tubes, eyelets, and cable glands with their manufacturers and part numbers, along with specific instructions for selecting ferrule sizes used by Rheonics.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Item name\tManufacturer name\tManufacturer Part Number\tVendor Part number\tExamples\nHeat Shrink tube\tHellermannTyton\t380-03005\t711-4783\tIndustrial | RS formerly known as RS Components (https://www.rs-online.com)\nEyelet\tVogt\t2007.68\t300-73-088\t(https://ww)\nCable gland\tJACOB® PERFECT\tBN 22155\t3692903\tBossard Fasteners, Engineering, Logic (https://www.bossard.com/en/)\n\n\n* Ferrule\n\nCorrect ferrule size must be selected based on the gauge of the wire, as a standard Rheonics uses ferrule with a pin length of 8mm and diameter of 1mm.",
+      "specifications": {
+        "Ferrule pin length": "8mm",
+        "Ferrule diameter": "1mm"
+      },
+      "key_facts": [
+        "Correct ferrule size must be selected based on the gauge of the wire.",
+        "A standard Rheonics ferrule has a pin length of 8mm and a diameter of 1mm."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 8,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 392,
+        "cost_usd": 0.0011198
+      },
+      "source_file": "050_Wire_preparation_for_SME-TRTRD_(Outdoor_Mount).pdf"
+    },
+    {
+      "page_summary": "This page provides an illustration and description of 22 AWG (8mm Pin) insulated ferrules and defines solder wire.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Figure 8. 22 AWG (8mm Pin) Insulated Ferrules. [8]\n\n• Solder wire\nSolder wires are wires with a low melting point, used to create joints using a soldering iron.",
+      "specifications": {
+        "Wire Gauge": "22 AWG",
+        "Pin Length": "8mm"
+      },
+      "key_facts": [
+        "Solder wires are wires with a low melting point, used to create joints using a soldering iron."
+      ],
+      "diagram_labels": [
+        "Figure 8. 22 AWG (8mm Pin) Insulated Ferrules."
+      ],
+      "warnings_notes": [],
+      "page_num": 9,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 226,
+        "cost_usd": 0.0007048
+      },
+      "source_file": "050_Wire_preparation_for_SME-TRTRD_(Outdoor_Mount).pdf"
+    },
+    {
+      "page_summary": "This page displays an image of solder wire with its specifications and provides a description of heat shrink tubing and its purpose.",
+      "document_type": "manual",
+      "product_names": [
+        "RS PRO Solder wire",
+        "Heat shrink tube"
+      ],
+      "extracted_text": "RS Components Ltd.\nNN17 9RS, UK\n60031, France\nwww.rs-components.com\nRS PRO\nUFI:MVDF-2A8S-GJ02-916C\nLeaded\nFluxCore\nSn60/Pb40\n0.028\" Dia\n0.71 mm\nP/N: 0.25KG\nRS800-7661\nNC Flux\n1.1% Flux\nLot#: 21040601\nSee SDS Before Use\n\nFigure 9. Solder wire.[9]\n\n* Heat shrink tube\nHeat shrink tubing is a common element in most electrical installations that protects wires from moisture, dust, abrasion, and sharp objects that might otherwise damage them.",
+      "specifications": {
+        "Solder Composition": "Sn60/Pb40",
+        "Solder Diameter": "0.028 in",
+        "Solder Diameter (metric)": "0.71 mm",
+        "Solder Weight": "0.25 KG",
+        "Flux Type": "NC Flux",
+        "Flux Percentage": "1.1 %",
+        "Part Number": "RS800-7661",
+        "Lot Number": "21040601",
+        "UFI": "MVDF-2A8S-GJ02-916C"
+      },
+      "key_facts": [
+        "The solder wire is leaded and contains flux.",
+        "The solder wire is a product of RS Components Ltd. under the RS PRO brand.",
+        "Heat shrink tubing is used in electrical installations to protect wires from moisture, dust, abrasion, and sharp objects."
+      ],
+      "diagram_labels": [
+        "Figure 9. Solder wire."
+      ],
+      "warnings_notes": [
+        "See SDS Before Use"
+      ],
+      "page_num": 10,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 534,
+        "cost_usd": 0.0014747999999999999
+      },
+      "source_file": "050_Wire_preparation_for_SME-TRTRD_(Outdoor_Mount).pdf"
+    },
+    {
+      "page_summary": "This page illustrates heat shrink tubes and cable glands, and lists a knife and measurement tape as required tools, likely for cable preparation in a technical manual.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Figure 10. Hear shrink tube[10]\n• Cable gland\nFigure 11. Cable gland.[11]\n2. Cable Lenght\nRequired tools:\n1. Knife\n2. Measurement tape",
+      "specifications": {},
+      "key_facts": [
+        "The page illustrates various heat shrink tubes.",
+        "A cable gland, including its components and a connected cable, is shown.",
+        "A knife is specified as a required tool for the task described.",
+        "Measurement tape is specified as a required tool for the task described.",
+        "The section '2. Cable Lenght' suggests this page is part of instructions related to cable preparation or installation."
+      ],
+      "diagram_labels": [
+        "Hear shrink tube",
+        "Cable gland"
+      ],
+      "warnings_notes": [],
+      "page_num": 11,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 260,
+        "cost_usd": 0.0007898
+      },
+      "source_file": "050_Wire_preparation_for_SME-TRTRD_(Outdoor_Mount).pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions for preparing cables, including cutting and stripping the sheath, for attachment to SME-TR/TRD components.",
+      "document_type": "manual",
+      "product_names": [
+        "SME-TR/TRD"
+      ],
+      "extracted_text": "- Take the cable and cut the required length for your application by measuring with tape. We recommend stripping out the cable sheath at 18 cm (7 inches) from the end as a suitable length to prepare the cables for attachment to SME-TR/TRD.\n\nFigure 12. Cutting cable to the correct length.\n\n3. Cable Strip\n\nRequirements:\n\n1. Knife\n\n- Strip out the sheath with the help of the cutter and a previous cut.\n\nFigure 13. Strip cable sheath.\n\n4. Cutting´s cable shield\n\nRequirements:\n\n1. Knife\n2. Cutter",
+      "specifications": {
+        "cable_sheath_stripping_length": "18 cm (7 inches)"
+      },
+      "key_facts": [
+        "Cables should be cut to the required length for the specific application.",
+        "The cable sheath is recommended to be stripped 18 cm (7 inches) from the end.",
+        "The stripped cable length prepares the cables for attachment to SME-TR/TRD.",
+        "A knife is required for cable stripping.",
+        "The cable sheath should be stripped using a cutter and a previous cut.",
+        "A knife and a cutter are required for cutting the cable shield."
+      ],
+      "diagram_labels": [
+        "Figure 12. Cutting cable to the correct length.",
+        "Figure 13. Strip cable sheath."
+      ],
+      "warnings_notes": [],
+      "page_num": 12,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 420,
+        "cost_usd": 0.0011898000000000002
+      },
+      "source_file": "050_Wire_preparation_for_SME-TRTRD_(Outdoor_Mount).pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions for preparing a cable by removing its metal shield and disassembling a cable gland into its three main components for subsequent installation.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "- Loosen the metal shield from the black cable cover and cut it out.\n\nFigure 14. Removing the cable shielding to get access to the internal wires.\n\n5. Cable gland installation\n\nRequirement:\n1. Cable gland\n- Take the cable gland and open it up into 3 parts as shown below – Part 1(Cap), Part 2(Cable holding part with packing), and Part 3(Body).\n\nFigure 15. Cable gland-all pieces.",
+      "specifications": {},
+      "key_facts": [
+        "The metal shield of a cable must be loosened and cut to access its internal wires.",
+        "A cable gland is to be disassembled into three distinct parts: a cap (Part 1), a cable holding part with packing (Part 2), and a body (Part 3)."
+      ],
+      "diagram_labels": [
+        "Figure 14. Removing the cable",
+        "PART -1",
+        "PART -2",
+        "PART -3",
+        "Figure 15. Cable gland-all pieces."
+      ],
+      "warnings_notes": [],
+      "page_num": 13,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 330,
+        "cost_usd": 0.0009648
+      },
+      "source_file": "050_Wire_preparation_for_SME-TRTRD_(Outdoor_Mount).pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions with illustrations for preparing a sensor cable, specifically focusing on the metal shielding and its proper grounding for the TR/TRD case.",
+      "document_type": "manual",
+      "product_names": [
+        "TR/TRD"
+      ],
+      "extracted_text": "• Pass Part 1 and Part 2 through the cable as shown.\nFigure 16. Sensor cable passing through the cable gland.\n• Open up the metal shield and cut it a bit shorter.\nFigure 17. Cleaning shield remnants.\n• Fold the metal shield back on the plastic insert(part-2) . That way the metal shield makes electrical contact with the cable gland and this is the grounding for the TR/TRD case.",
+      "specifications": {},
+      "key_facts": [
+        "The metal shield of the sensor cable must be folded back onto the plastic insert (part-2).",
+        "Folding the metal shield back establishes electrical contact with the cable gland.",
+        "The electrical contact between the metal shield and the cable gland provides grounding for the TR/TRD case."
+      ],
+      "diagram_labels": [
+        "Figure 16. Sensor cable passing through the cable gland.",
+        "Figure 17. Cleaning shield remnants."
+      ],
+      "warnings_notes": [],
+      "page_num": 14,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 312,
+        "cost_usd": 0.0009197999999999999
+      },
+      "source_file": "050_Wire_preparation_for_SME-TRTRD_(Outdoor_Mount).pdf"
+    },
+    {
+      "page_summary": "This page illustrates the proper technique for folding a cable shield into a plastic connector part and emphasizes the importance of ensuring contact between the shield and the cable gland.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Figure 18. Cable shield is folded back into the plastic part.\n\n* Make sure that the shield is in contact with the cable gland.",
+      "specifications": {},
+      "key_facts": [
+        "The cable shield should be folded back into the plastic part.",
+        "The shield must be in contact with the cable gland."
+      ],
+      "diagram_labels": [
+        "Figure 18",
+        "Cable shield",
+        "Plastic part",
+        "Cable gland"
+      ],
+      "warnings_notes": [
+        "Make sure that the shield is in contact with the cable gland."
+      ],
+      "page_num": 15,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 211,
+        "cost_usd": 0.0006673
+      },
+      "source_file": "050_Wire_preparation_for_SME-TRTRD_(Outdoor_Mount).pdf"
+    },
+    {
+      "page_summary": "This page displays a close-up image of a cable gland assembly, highlighting splayed metallic shielding wires with a red box.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [
+        "The image shows a person's hand holding a cable gland assembly.",
+        "The cable gland consists of metallic threaded components and a grey plastic or rubber strain relief mechanism.",
+        "A multi-conductor cable with identifiable colors (brown, white, red, blue, green) is visible exiting the bottom of the gland.",
+        "Numerous thin, metallic strands, likely from the cable's shield braiding, are splayed out around the threaded part of the cable gland, between the grey strain relief and the main body.",
+        "A red rectangular box specifically highlights the area where the metallic strands are splayed."
+      ],
+      "diagram_labels": [
+        "Red rectangular box highlighting splayed metallic shielding wires."
+      ],
+      "warnings_notes": [],
+      "page_num": 16,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 241,
+        "cost_usd": 0.0007423
+      },
+      "source_file": "050_Wire_preparation_for_SME-TRTRD_(Outdoor_Mount).pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions and visual guides for assembling a cable gland onto a sensor cable.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Figure 19. The cable shield is in full contact with the cable gland.\n\n*   Press Part 3 onto Part 2 and rotate it so it goes all the way to the end.\n\nFigure 20. The cable gland body is inserted through a sensor cable.\n\n*   Take Part 1 and tighten over Part 3. Part 2 is completely enclosed by Part 1 and Part 3.\n\nFigure 21. The cable gland is fully assembled.",
+      "specifications": {},
+      "key_facts": [
+        "The cable shield must be in full contact with the cable gland during assembly.",
+        "Part 3 is pressed onto Part 2 and rotated until fully seated.",
+        "The cable gland body is inserted through a sensor cable.",
+        "Part 1 is tightened over Part 3 during assembly.",
+        "After assembly, Part 2 is completely enclosed by Part 1 and Part 3.",
+        "The process describes the steps for a fully assembled cable gland."
+      ],
+      "diagram_labels": [
+        "Figure 19",
+        "Figure 20",
+        "Figure 21",
+        "Part 1",
+        "Part 2",
+        "Part 3"
+      ],
+      "warnings_notes": [],
+      "page_num": 17,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 355,
+        "cost_usd": 0.0010273
+      },
+      "source_file": "050_Wire_preparation_for_SME-TRTRD_(Outdoor_Mount).pdf"
+    },
+    {
+      "page_summary": "This page provides instructions for stripping wire ends and emphasizes the importance of proper cable shield grounding through the cable gland for sensor connections.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "It is important that the metal shield from the cable is in contact with the cable gland so the electronics housing is connected to the sensor cable shield like in figure 20.\nFigure 22. The cable shield is in contact with the cable gland[12]\n6. Stripping the wire ends\nRequirement:\n1. Cable stripper\n*   Stripping the wire at 9mm from the end with the stripping tool.",
+      "specifications": {
+        "Stripping length": "9mm"
+      },
+      "key_facts": [
+        "The metal shield from the cable must be in contact with the cable gland.",
+        "The electronics housing needs to be connected to the sensor cable shield.",
+        "Wire stripping should be performed at 9mm from the wire end using a stripping tool."
+      ],
+      "diagram_labels": [
+        "Figure 22. The cable shield is in contact with the cable gland[12]"
+      ],
+      "warnings_notes": [
+        "It is important that the metal shield from the cable is in contact with the cable gland so the electronics housing is connected to the sensor cable shield like in figure 20."
+      ],
+      "page_num": 18,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 323,
+        "cost_usd": 0.0009472999999999999
+      },
+      "source_file": "050_Wire_preparation_for_SME-TRTRD_(Outdoor_Mount).pdf"
+    },
+    {
+      "page_summary": "This page provides detailed instructions and best practices for stripping wires, using a crimping tool, and handling unused wires for electrical connections.",
+      "document_type": "manual",
+      "product_names": [
+        "Weidmuller stripax",
+        "SME"
+      ],
+      "extracted_text": "Figure 23. Stripping wire end.\n\n7. Properly usage of crimpers\n\nRequirement:\n1. Crimping tool\n\nYour crimping tool should have a nest for inserting the terminal. After inserting in the correct slot, squeeze the crimp tool firmly and release it to get a long-lasting, tight fuse.\n\nUnused wires should be neither stripped nor crimped. We recommend protecting the ends with a shrink tube to avoid the ends making any electrical contacts.\n\nWe recommend crimping the ferrules on two sides instead of 4 sides as they work better with the terminals on the SME.\n\n* Twist the wire and Crimp them (Crimpers) using the Crimping Tool.",
+      "specifications": {},
+      "key_facts": [
+        "A crimping tool should have a nest for inserting the terminal.",
+        "Squeezing the crimp tool firmly and releasing it ensures a long-lasting, tight fuse (connection).",
+        "Unused wires should not be stripped or crimped.",
+        "Unused wire ends should be protected with a shrink tube to prevent electrical contacts.",
+        "Crimping ferrules on two sides is recommended for terminals on the SME, as it works better than crimping on four sides.",
+        "Wires should be twisted before being crimped using a crimping tool."
+      ],
+      "diagram_labels": [
+        "Figure 23. Stripping wire end.",
+        "Weidmuller stripax"
+      ],
+      "warnings_notes": [
+        "Unused wires should be neither stripped nor crimped. We recommend protecting the ends with a shrink tube to avoid the ends making any electrical contacts."
+      ],
+      "page_num": 19,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 460,
+        "cost_usd": 0.0012898
+      },
+      "source_file": "050_Wire_preparation_for_SME-TRTRD_(Outdoor_Mount).pdf"
+    },
+    {
+      "page_summary": "This page illustrates the process of crimping individual wire ends from a sensor cable using a crimping tool and shows the final appearance of multiple crimped wires.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Figure 24. Crimping the wire end.\n\n*   Final results after crimping all wires from the sensor cable.\n\nFigure 25. Crimped wires.",
+      "specifications": {
+        "crimping_tool_wire_sizes": "0.25 mm², 0.50 mm², 0.75 mm², 1.0 mm², 1.5 mm², 2.5 mm²"
+      },
+      "key_facts": [
+        "The page provides instructions or illustrations for crimping wire ends.",
+        "A KNIPEX brand crimping tool is shown being used to crimp a single wire end.",
+        "The crimping process is applied to all wires from a sensor cable.",
+        "The final appearance of multiple crimped wires is depicted."
+      ],
+      "diagram_labels": [
+        "KNIPEX",
+        "GERMANY",
+        ".25",
+        ".50",
+        "1.0",
+        "1.5",
+        "2.5",
+        ".75"
+      ],
+      "warnings_notes": [],
+      "page_num": 20,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 326,
+        "cost_usd": 0.0009548
+      },
+      "source_file": "050_Wire_preparation_for_SME-TRTRD_(Outdoor_Mount).pdf"
+    },
+    {
+      "page_summary": "This page provides instructions and a visual reference for proper grounding of the Rheonics SME TR/TRD device, specifically identifying the ground lug location.",
+      "document_type": "manual",
+      "product_names": [
+        "SME TR/TRD",
+        "SME-TRD"
+      ],
+      "extracted_text": "8. Grounding of the SME TR/TRD\nThe grounding in the SME TR/TRD is achieved with the ground lug shown in figure 26.\n\nOn the device display:\n  rheonics (logo)\n  Sensor (status indicator, green/active)\n  Wireless (status indicator, green/active)\n  HART (status indicator, green/active)\n  Process\n  V: 1234.56 | 1234.56\n  D: 1234.56 | 1234.56\n  T: 123.45 | 50.00\n  rheonics (logo)\n  (Wireless icon)\n  (Bluetooth icon)\n  HART (logo)\n  (Cloud/connection icon)\n\nAround the device cover: KEEP COVER TIGHT\nOn the sensor probe: rheonics\n\nFigure 26. SME-TRD",
+      "specifications": {},
+      "key_facts": [
+        "Grounding for the Rheonics SME TR/TRD product is accomplished using a designated ground lug.",
+        "The ground lug's specific location is clearly shown in Figure 26 of the document.",
+        "The device features a digital display that shows example or real-time values for V (likely Viscosity), D (likely Density), and T (likely Temperature).",
+        "The device supports wireless and HART communication protocols.",
+        "The device cover should be kept tight to ensure proper operation or safety."
+      ],
+      "diagram_labels": [
+        "Ground lug",
+        "Figure 26. SME-TRD"
+      ],
+      "warnings_notes": [
+        "KEEP COVER TIGHT"
+      ],
+      "page_num": 21,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 489,
+        "cost_usd": 0.0013622999999999999
+      },
+      "source_file": "050_Wire_preparation_for_SME-TRTRD_(Outdoor_Mount).pdf"
+    },
+    {
+      "page_summary": "This page is entirely blank with no discernible content.",
+      "document_type": "unknown",
+      "product_names": [],
+      "extracted_text": "",
+      "specifications": {},
+      "key_facts": [],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 22,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 83,
+        "cost_usd": 0.0003473
+      },
+      "source_file": "050_Wire_preparation_for_SME-TRTRD_(Outdoor_Mount).pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

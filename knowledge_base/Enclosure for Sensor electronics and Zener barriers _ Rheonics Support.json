@@ -1,0 +1,448 @@
+{
+  "source_file": "Enclosure for Sensor electronics and Zener barriers _ Rheonics Support.pdf",
+  "total_pages": 10,
+  "chunks": [
+    {
+      "page_summary": "This document outlines the installation process for the Rheonics SME-DRM unit within a cabinet, detailing considerations for enclosure types based on protection ratings (ATEX, NEMA, IECEx), cable gland requirements, and provides a labeled diagram of the unit.",
+      "document_type": "manual",
+      "product_names": [
+        "SME-DRM",
+        "Ex SME-DRM",
+        "Rheonics"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nEnclosure for Sensor electronics and Zener barriers\n\nModified on: Wed, 21 Aug, 2024 at 9:50 PM\n\n1. TABLE OF CONTENTS\n\n*   1. How to install the SME-DRM in a cabinet?\n*   2. How to install Ex SME-DRM with Zener barriers?\n*   3. What kind of cabinets exist based on protection ratings when used in explosive atmospheres?\n    *   3.1. Europe (ATEX)\n        *   3.1.1. Increased Safety(Ex e)\n        *   3.1.2. Explosion Proof (Ex d)\n    *   3.2. US (NEMA)\n        *   3.2.1. NEMA Type 7\n        *   3.2.3. NEMA Type 9\n        *   3.2.3. NEMA Type 8 and Type 10\n    *   3.3. IECEx\n    *   3.4. Others\n*   4. What is needed in cabinets?\n    *   4.1. Cable glands in a cabinet for sensor cable\n        *   4.1.1. Size of the ex-sensor cable\n        *   4.1.2. Consider the Environment\n        *   4.1.3. Cable gland used in a cabinet for power and communication (depends on customer requirement)\n        *   4.1.4. Recommendation on the power cable\n        *   4.1.5. Recommendation on the 4-20mA output\n        *   4.1.6. Recommendation on the Ethernet port\n        *   4.1.7. Recommendation on the RS-485 port\n*   5. USB port access\n*   6. Display mounting\n*   7. Resources\n\n1. How to install the SME-DRM in a cabinet?\n\n1. The first step is to have an open slot in a DIN rail installed inside the cabinet with enough room for the SME-DRM to be installed.\n\nFigure 1. SME-DRM dimensions\n\n2. Verify that we have installed a 35mm DIN rail in the cabinet.",
+      "specifications": {
+        "Power input": "24 V DC",
+        "DIN rail size": "35 mm",
+        "Device dimension (approx. width)": "76.5 mm [3.01 in]"
+      },
+      "key_facts": [
+        "The SME-DRM unit requires an open slot on a DIN rail inside a cabinet for installation.",
+        "A 35mm DIN rail must be installed in the cabinet for mounting the SME-DRM.",
+        "Cabinet selection should consider protection ratings for explosive atmospheres, including ATEX (Increased Safety Ex e, Explosion Proof Ex d), US NEMA (Type 7, 8, 9, 10), and IECEx standards.",
+        "Cable glands are required for various connections to the SME-DRM, including sensor cable, power cable, communication, 4-20mA output, Ethernet port, and RS-485 port.",
+        "Recommendations for cable gland types depend on the specific cable (e.g., ex-sensor cable, power, 4-20mA, Ethernet, RS-485) and environmental considerations.",
+        "The SME-DRM features connections for power, MODBUS (RS-485), sensor, communication, data, USB, display, SD-card, 4-20mA output, and Ethernet.",
+        "The document was last modified on August 21, 2024, at 9:50 PM."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "SME-DRM",
+        "power 24 V DC",
+        "MODBUS A (RS-485) B",
+        "power",
+        "sensor",
+        "comm.",
+        "data",
+        "USB",
+        "reset",
+        "display",
+        "SD-card",
+        "4-20 mA output",
+        "loop+",
+        "gnd -",
+        "ch1+",
+        "ch2+",
+        "ch3+",
+        "sensor connection",
+        "ethernet",
+        "swiss made",
+        "76.5",
+        "3.01"
+      ],
+      "warnings_notes": [
+        "When used in explosive atmospheres, cabinets must meet specific protection ratings, such as ATEX (Increased Safety Ex e, Explosion Proof Ex d), US NEMA (Type 7, Type 9, Type 8 and Type 10), or IECEx standards.",
+        "The selection of cable glands must consider the environment and specific cable types to maintain the integrity of the enclosure and protection rating."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1236,
+        "cost_usd": 0.0032297999999999997
+      },
+      "source_file": "Enclosure for Sensor electronics and Zener barriers _ Rheonics Support.pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions and visual examples for installing Rheonics SME-series electronics onto a 35mm DIN rail and illustrates a hazardous zone installation example.",
+      "document_type": "manual",
+      "product_names": [
+        "SME",
+        "SME-TRD",
+        "SME-DRM"
+      ],
+      "extracted_text": "Figure 2. 35mm DIN rail\n\n3. Find the snap clip at the back of the SME, this part will be used to snap the electronics into the DIN Rail.\n\nFigure 3. SME back side.\nSME BACK SIDE\n\n4. Follow the installation procedure in Figure 4.\nStep 1\n1. Press this side against the DIN rail.\nStep 2\n2. Push up and latch the upper edge of the clip.\nStep 3\n3. Electronics is inserted in Din Rail.\n\nFigure 4. Installation in DIN Rail procedure.\n\n5. Result when installed in the cabinet.\na. SME front view\nrheonics\n24 V dc + and -\nModbus A and B\nSensor comm data\nUSB\nDisplay\n4-20mA output\nethernet\nport\nmodbus\nport connection\nsystem mode\nb. SME back view\n\nFigure 5. SME-DRM installed in a DIN RAIL.\n\n6. An Ex SME-TRD installed inside an Ex enclosure might look like this when positioned in a hazardous zone.",
+      "specifications": {
+        "DIN rail width": "35mm"
+      },
+      "key_facts": [
+        "The snap clip located at the back of the SME electronics unit is essential for its installation onto a DIN rail.",
+        "The installation process for the SME onto a DIN rail involves pressing one side against the rail, pushing up to latch the clip's upper edge, and then inserting the electronics into the DIN rail.",
+        "The SME-DRM model is designed for installation on a DIN rail.",
+        "An Ex SME-TRD unit must be installed within an Ex enclosure when deployed in a hazardous zone."
+      ],
+      "diagram_labels": [
+        "Figure 2. 35mm DIN rail",
+        "Figure 3. SME back side.",
+        "SME BACK SIDE",
+        "Step 1",
+        "1. Press this side against the DIN rail.",
+        "Step 2",
+        "2. Push up and latch the upper edge of the clip.",
+        "Step 3",
+        "3. Electronics is inserted in Din Rail.",
+        "Figure 4. Installation in DIN Rail procedure.",
+        "a. SME front view",
+        "rheonics",
+        "24 V dc + and -",
+        "Modbus A and B",
+        "Sensor comm data",
+        "USB",
+        "Display",
+        "4-20mA output",
+        "ethernet",
+        "port",
+        "modbus",
+        "port connection",
+        "system mode",
+        "b. SME back view",
+        "Figure 5. SME-DRM installed in a DIN RAIL."
+      ],
+      "warnings_notes": [
+        "An Ex SME-TRD installed inside an Ex enclosure might look like this when positioned in a hazardous zone."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 779,
+        "cost_usd": 0.0020873
+      },
+      "source_file": "Enclosure for Sensor electronics and Zener barriers _ Rheonics Support.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions for installing Ex SME-DRM devices with Zener barriers and describes types of explosion protection ratings for enclosures used in hazardous atmospheres.",
+      "document_type": "manual",
+      "product_names": [
+        "SME-DRM",
+        "Ex SME-DRM",
+        "Zener barriers"
+      ],
+      "extracted_text": "Figure 6. SME-DRM installed inside a Ex enclosure with Sight glass\n\n2. How to install Ex SME-DRM with Zener barriers?\n\nZener barriers are necessary for an intrinsically safe system for the protection of other people and instruments. Zener Barriers and Ex SME-DRM should be installed always in a Safe Zone and follow the recommendations from this support article. https://support.rheonics.com/en/support/solutions/articles/81000410265-topology-wiring-for-ex-sensors)\nThe way to install the Ex SME-DRM is the same as described in the previous section, the same process must be followed with the Zener Barriers as those also compatible with DIN Rails.\n\nZener Barriers with DIN rail support must be installed as recommended in their user manuals, for example, P+F suggests the following step to correctly snap the Barrier to the rail.\n\nCORRECT: Device snapped on from the side.\nINCORRECT: Device snapped on vertically.\n\nFigure 7. The Zener barrier snapped into a DIN Rail\n\n3. What kind of cabinets exist based on protection ratings when used in explosive atmospheres?\n\n3.1. Europe (ATEX)\n\nATEX-certified enclosures can be manufactured in stainless steel, GRP, and aluminum with various explosion protection concepts, including Increased Safety (Ex e), Flameproof (Ex d), and Intrinsic Safety (Ex i).\n\n3.1.1. Increased Safety (Ex e)\n\nIncreased Safety Ex e refers to the concept of explosion protection that is applied to electrical systems in hazardous areas to prevent excessive temperatures and sparks. This method of explosion protection excludes equipment that normally causes sparks. [4",
+      "specifications": {},
+      "key_facts": [
+        "Zener barriers are essential for an intrinsically safe system to protect personnel and instruments.",
+        "Zener Barriers and Ex SME-DRM must always be installed in a Safe Zone.",
+        "The installation process for Ex SME-DRM and Zener Barriers is compatible with DIN Rails.",
+        "ATEX-certified enclosures can be made from stainless steel, GRP, or aluminum.",
+        "ATEX explosion protection concepts include Increased Safety (Ex e), Flameproof (Ex d), and Intrinsic Safety (Ex i).",
+        "Increased Safety (Ex e) prevents excessive temperatures and sparks in electrical systems in hazardous areas.",
+        "The Increased Safety (Ex e) method excludes equipment that typically generates sparks.",
+        "Zener barriers should be snapped onto a DIN rail from the side, not vertically."
+      ],
+      "diagram_labels": [
+        "Figure 6. SME-DRM installed inside a Ex enclosure with Sight glass",
+        "CORRECT: Device snapped on from the side.",
+        "INCORRECT: Device snapped on vertically.",
+        "Figure 7. The Zener barrier snapped into a DIN Rail"
+      ],
+      "warnings_notes": [
+        "Zener barriers and Ex SME-DRM should be installed always in a Safe Zone.",
+        "Follow recommendations from the support article: https://support.rheonics.com/en/support/solutions/articles/81000410265-topology-wiring-for-ex-sensors",
+        "Zener Barriers with DIN rail support must be installed as recommended in their user manuals (e.g., P+F).",
+        "ATEX-certified enclosures are available for use in explosive atmospheres."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 868,
+        "cost_usd": 0.0023098
+      },
+      "source_file": "Enclosure for Sensor electronics and Zener barriers _ Rheonics Support.pdf"
+    },
+    {
+      "page_summary": "This page explains explosion-proof enclosure types (Ex d) and details the US National Electrical Code (NEC) hazardous location classification system, including NEMA ratings and NFPA definitions for various classes, divisions, and material groups.",
+      "document_type": "manual",
+      "product_names": [
+        "Stahl Ex e enclosure",
+        "Ex d IIB+H2 Enclosure Series EJB"
+      ],
+      "extracted_text": "3.1.2. Explosion Proof (Ex d)\n\nFigure 8. Stahl Ex e enclosure[5]\n\nDuring an internal explosion, an Ex d enclosure prevents flames, sparks, and hot gases from escaping into the atmosphere. Also, Ex d enclosures protect the fitted equipment against dirt, dust, and moisture. [6]\n\nFigure 9. Ex d IIB+H2 Enclosure Series EJB[7]\n\n3.2. US (NEMA)\n\nThe NEMA provides a rating system for electrical enclosures that explains how the enclosure will perform in certain conditions. NEMA standards benefit both the user and the manufacturer while improving safety and communication. [8]\nThe NEMA enclosure type that is truly explosion-proof is NEMA 7. NEMA 7 is “designed to contain an internal explosion without causing an external hazard.” [9]\n\nThe National Fire Protection Association (NFPA) releases the National Electric Code (NEC) 70, which establishes criteria for identifying hazardous locations using a framework of classes, divisions, and groups. These classifications are used to designate enclosures and equipment suitable for deployment in these areas. The categorization of hazardous areas takes into account the nature of substances or materials found in the area, their probability of presence, and more specific factors like ignition temperatures and explosive characteristics. [10]\n\nHazardous Material | Class | Division | Group\n--------------------|-------|----------|------\n[Implicit: Gases or vapors] | Class I | Division 1 |\n                    |       |    * Under normal operating conditions.\n                    |       |    * As a result of frequent maintenance operations, repair operations, or leakage.\n                    |       |    * As a result of equipment breakdown, faulty operation, or failure.\n                    |       |          | A: Acetylene\n                    |       |          | B: Butadiene. Ethylene oxide. Hydrogen. Propyl oxide.\n                    |       |          | C: Acetaldehyde. Cyclopropane. Diethyl Ether. Dimethyl Hydrazine.\nGases or vapors(acetylene, hydrogen, ethylene, propane) | Class I | Division 2 |\n                    |       |    * Normally confined within closed containers when handled or used.\n                    |       |    * Normally prevented by positive mechanical ventilation\n                    |       |    * Be adjacent to a Class 1, Division 1 location\n                    |       |          | D: Acetone. Ammonia. Benzene. Butane. Gasoline. Methane. Propane. Alcohols. Etc",
+      "specifications": {},
+      "key_facts": [
+        "An Ex d enclosure prevents flames, sparks, and hot gases from escaping into the atmosphere during an internal explosion.",
+        "Ex d enclosures protect the fitted equipment against dirt, dust, and moisture.",
+        "NEMA provides a rating system for electrical enclosures, benefiting users and manufacturers by improving safety and communication.",
+        "NEMA 7 is the truly explosion-proof enclosure type, designed to contain an internal explosion without causing an external hazard.",
+        "The National Electric Code (NEC) 70, released by the NFPA, establishes criteria for identifying hazardous locations.",
+        "Hazardous location classifications (classes, divisions, and groups) are used to designate suitable enclosures and equipment.",
+        "The categorization of hazardous areas considers the nature of substances, their probability of presence, ignition temperatures, and explosive characteristics.",
+        "Class I, Division 1 hazardous areas are those where ignitable concentrations of flammable gases or vapors exist under normal operating conditions, due to frequent maintenance/leakage, or from equipment breakdown/failure.",
+        "Class I, Division 2 hazardous areas are those where ignitable concentrations of flammable gases or vapors are normally confined within closed containers, are prevented by positive mechanical ventilation, or are adjacent to a Class 1, Division 1 location."
+      ],
+      "diagram_labels": [
+        "Figure 8. Stahl Ex e enclosure[5]",
+        "Figure 9. Ex d IIB+H2 Enclosure Series EJB[7]"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 991,
+        "cost_usd": 0.0026172999999999995
+      },
+      "source_file": "Enclosure for Sensor electronics and Zener barriers _ Rheonics Support.pdf"
+    },
+    {
+      "page_summary": "This page details hazardous area classifications for combustible dusts and ignitable fibers, and describes the design and intended use of NEMA Type 7, Type 8, Type 9, and Type 10 enclosures for explosion and combustion prevention.",
+      "document_type": "manual",
+      "product_names": [
+        "Appleton EDS3036",
+        "Hoffman enclosure NEMA Type 9"
+      ],
+      "extracted_text": "Division 1\n* Under normal operating conditions.\n* As a result of frequent maintenance or repair work.\n* As a result of frequent mechanical failure or abnormal operation of equipment\nE: Combustible metal dusts(aluminium. magnesium, and their commercial alloys)\nF: Combustible carbonaceous dusts(carbon black, charcoal,coal & coke)\nG: Combustible dusts not in groups E or F(flour, grain, wood, plastic & chemicals)\nCombustible Dust\nClass II\nDivision 2\n* Under abnormal conditions, such as abnormal operation/failure of equipment\n* As a result of infrequent malfunctioning of handling or processing equipment\nDivision 1\n* Handled, manufactured or used in this environment & may be present.\nIgnitable Fibers\nClass III\nNo Equivalent\nDivision 2\n* Stored of handled in this environment & may be present\nTable 1. Hazardous area classification\n3.2.1. NEMA Type 7\nIt is designed to contain an internal explosion without causing an external hazard. These enclosures are intended for indoor use in hazardous locations classified as Class I, Division I, Groups A, B, C, or D.\nFigure 10. NEMA 7 Enclosure Appleton EDS3036[12]\n3.2.3. NEMA Type 9\nIt is designed to prevent the ignition of combustible dust. Type 9 enclosures are intended for use indoors in the atmospheres defined as Class 11, Division I, and Group E, F, or G in the National Electrical Code.\nFigure 11. Hoffman enclosure NEMA Type 9[14]\n3.2.3. NEMA Type 8 and Type 10\nThere are two additional types of enclosures engineered to avert ignition and safely confine explosions, and these cater to more specialized applications, namely NEMA Type 8 and Type 10.\nNEMA Type 8 enclosures are designed to prevent combustion through the use of oil-immersed equipment. Type 8 enclosures are intended for use indoors, in the atmospheres and locations defined as Class 1, Division I and Group A, B, C or D in the National Electrical Code.",
+      "specifications": {
+        "NEMA Type 7 application": "Indoor use in hazardous locations Class I, Division I, Groups A, B, C, or D",
+        "NEMA Type 9 application": "Indoor use in atmospheres Class II, Division I, Groups E, F, or G (per National Electrical Code)",
+        "NEMA Type 8 application": "Indoor use in atmospheres and locations Class I, Division I, Groups A, B, C or D (per National Electrical Code)",
+        "Combustible Dust Class": "II",
+        "Combustible Dust Division 1 conditions": "Normal operating conditions; frequent maintenance/repair; frequent mechanical failure/abnormal equipment operation",
+        "Combustible Dust Division 2 conditions": "Abnormal conditions/equipment failure; infrequent malfunctioning of handling/processing equipment",
+        "Combustible Dust Group E": "Combustible metal dusts (aluminium, magnesium, commercial alloys)",
+        "Combustible Dust Group F": "Combustible carbonaceous dusts (carbon black, charcoal, coal & coke)",
+        "Combustible Dust Group G": "Combustible dusts not in groups E or F (flour, grain, wood, plastic & chemicals)",
+        "Ignitable Fibers Class": "III",
+        "Ignitable Fibers Division 1 conditions": "Handled, manufactured or used in this environment & may be present",
+        "Ignitable Fibers Division 2 conditions": "Stored or handled in this environment & may be present"
+      },
+      "key_facts": [
+        "NEMA Type 7 enclosures are designed to contain an internal explosion without causing an external hazard.",
+        "NEMA Type 7 enclosures are intended for indoor use in hazardous locations classified as Class I, Division I, Groups A, B, C, or D.",
+        "NEMA Type 9 enclosures are designed to prevent the ignition of combustible dust.",
+        "NEMA Type 9 enclosures are intended for use indoors in atmospheres defined as Class II, Division I, and Group E, F, or G in the National Electrical Code.",
+        "NEMA Type 8 and Type 10 are additional enclosure types engineered to avert ignition and safely confine explosions, catering to more specialized applications.",
+        "NEMA Type 8 enclosures are designed to prevent combustion through the use of oil-immersed equipment.",
+        "NEMA Type 8 enclosures are intended for use indoors, in atmospheres and locations defined as Class I, Division I and Group A, B, C or D in the National Electrical Code."
+      ],
+      "diagram_labels": [
+        "Figure 10. NEMA 7 Enclosure Appleton EDS3036[12]",
+        "Figure 11. Hoffman enclosure NEMA Type 9[14]"
+      ],
+      "warnings_notes": [
+        "Hazardous area classifications and enclosure applications are defined by the National Electrical Code."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1223,
+        "cost_usd": 0.0031972999999999997
+      },
+      "source_file": "Enclosure for Sensor electronics and Zener barriers _ Rheonics Support.pdf"
+    },
+    {
+      "page_summary": "This page details various international explosion-proof certifications and regulations for electrical equipment, including specific country requirements, and provides guidance on the installation of Rheonics SME-DRM sensor electronics within enclosures using cable glands.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SME-DRM"
+      ],
+      "extracted_text": "NEMA Type 10 enclosures are designed to contain an internal explosion without causing an external hazard. Enclosures constructed to meet the requirements of the Mine Safety and Health Administration, 30 CFR, Part 18\n\n3.3 IECEx\n\nThe IECEx System is based on the use of International Standards, such as IEC Standards and ISO Standards. These Standards are dedicated to the highly specialized fields associated with the use of equipment, termed Ex equipment, and installations in areas where there potential may exist of fire or explosion.[20]\n\n3.4 Others\n\nIn Russia, the EAC Certification(Eurasian Conformity Certification) of Explosion-proof equipment is available. The EAC EX certificate for explosion-proof equipment may only be issued by a notified body accredited by the Federal Office for Technical Regulation and Metrology (Rosstandart).[13]\n\nIn China, China's central authority CNCA (Certification and Accreditation Administration) organizes and supervises CCC certification in conjunction with SAMR (State Administration for Market Regulation). A major authority for CCC-Ex certification is SITIAS (Shanghai Inspection and Testing Institute of Instruments and Automation Systems) – sometimes referred to as NEPSI (National Supervision and Inspection Center for Explosion Protection and Safety of Instrumentation).[15]\n\nIn Brazil, the local ordinance, Portaria INMETRO 115:2022, establishes the requirements for selling hazardous locations products in Brazil. In hazardous locations, electrical and electronic equipment must comply with this regulation.[16]\n\nIn India, PESO certification is India's equivalent of ATEX or IECEx certification. Strictly speaking, one of the two certificates for explosion-proof products is required for successful PESO certification.[17]\n\nIn Japan, Electrical equipment made available on the Japanese market or installed in hazardous locations is subject to JPEX certification.[18]\nIn Korea, the Korea Occupational Safety and Health Agency (KOSHA) provides the KCs Ex certification of explosion-proof electrical components.[19]\n\n4. What is needed in cabinets?\n\nRheonics SME-DRM is ready to be installed inside enclosures alongside Zener barriers if necessary and the procedure for the installation is easy and intuitive.\n\nEnclosure for Rheonics Sensor electronics and Zener barrie\nrheonlcs\n\nWatch on\n\n4.1. Cable glands in a cabinet for sensor cable\n\nThe cable gland is a connector used to secure cables to plugs, terminals, enclosures, or electrical equipment. It can be used to protect sensitive electrical wiring against moisture, contamination, corrosion, and even flames. Figures 13 and 14 showcase cable glands that are used to pass the sensor, communication, and power cables from outside to the inside of the cabinet which contains the sensor electronics and EX barriers.",
+      "specifications": {},
+      "key_facts": [
+        "NEMA Type 10 enclosures are designed to contain internal explosions without external hazards and meet Mine Safety and Health Administration requirements (30 CFR, Part 18).",
+        "The IECEx System is based on International and ISO Standards for Ex equipment and installations in fire or explosion-prone areas.",
+        "In Russia, the EAC Certification (Eurasian Conformity Certification) of explosion-proof equipment is issued by a body accredited by the Federal Office for Technical Regulation and Metrology (Rosstandart).",
+        "China's CNCA (Certification and Accreditation Administration) oversees CCC certification, with SITIAS (NEPSI) being a major authority for CCC-Ex certification.",
+        "Brazil's Portaria INMETRO 115:2022 mandates compliance for electrical and electronic equipment in hazardous locations.",
+        "PESO certification is India's equivalent of ATEX or IECEx certification for explosion-proof products.",
+        "Electrical equipment in Japan's hazardous locations requires JPEX certification.",
+        "The Korea Occupational Safety and Health Agency (KOSHA) issues KCs Ex certification for explosion-proof electrical components in Korea.",
+        "Rheonics SME-DRM is designed for easy installation inside enclosures with Zener barriers.",
+        "Cable glands are connectors used to secure and protect cables entering enclosures from moisture, contamination, corrosion, and flames.",
+        "Cable glands pass sensor, communication, and power cables into the cabinet containing sensor electronics and EX barriers."
+      ],
+      "diagram_labels": [
+        "Enclosure for Rheonics Sensor electronics and Zener barrie",
+        "rheonlcs",
+        "Watch on",
+        "share icon",
+        "history/replay icon"
+      ],
+      "warnings_notes": [
+        "NEMA Type 10 enclosures are constructed to meet the requirements of the Mine Safety and Health Administration, 30 CFR, Part 18.",
+        "In hazardous locations in Brazil, electrical and electronic equipment must comply with Portaria INMETRO 115:2022.",
+        "For successful PESO certification in India, either an ATEX or IECEx certificate for explosion-proof products is required."
+      ],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1183,
+        "cost_usd": 0.0030973
+      },
+      "source_file": "Enclosure for Sensor electronics and Zener barriers _ Rheonics Support.pdf"
+    },
+    {
+      "page_summary": "This page displays two schematic diagrams illustrating the installation of an SME-DRM module within an ATEX cabinet, connecting to either an SRV or SRD sensor, and includes a recommendation for cable gland testing in hazardous locations.",
+      "document_type": "manual",
+      "product_names": [
+        "SME-DRM",
+        "SRV sensor",
+        "SRD sensor",
+        "ATEX cabinet"
+      ],
+      "extracted_text": "Figure 12. Schematic showing SME-DRM installed in an ATEX cabinet with sensor cable coming through a cable gland and connected to an SRV sensor.\nFigure 13. Schematic showing SME-DRM installed in an ATEX cabinet with sensor cable coming through a cable gland and connected to an SRD sensor.\nIt is recommended that cable glands must be tested using samples of the proposed cable type(s) before they can be approved for use in the intended hazardous location. The parts of the cable glands can be found below:",
+      "specifications": {},
+      "key_facts": [
+        "SME-DRM can be installed in an ATEX cabinet.",
+        "The SME-DRM connects to an SRV sensor via a cable gland and sensor cable.",
+        "The SME-DRM connects to an SRD sensor via a cable gland and sensor cable.",
+        "Cable glands must be tested with samples of the proposed cable type(s) before being approved for use in hazardous locations."
+      ],
+      "diagram_labels": [
+        "ATEX cabinet",
+        "SME-DRM (installed inside cabinet)",
+        "Sensor cable",
+        "Cable gland",
+        "SRV sensor",
+        "SRD sensor"
+      ],
+      "warnings_notes": [
+        "It is recommended that cable glands must be tested using samples of the proposed cable type(s) before they can be approved for use in the intended hazardous location."
+      ],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 435,
+        "cost_usd": 0.0012273
+      },
+      "source_file": "Enclosure for Sensor electronics and Zener barriers _ Rheonics Support.pdf"
+    },
+    {
+      "page_summary": "This page provides guidance on selecting cable glands and describes the connection of Rheonics SRV/SRD sensors using Ex sensor cables, detailing their components, selection criteria, and specifications.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV/SRD sensor",
+        "Rheonics Ex sensor cables",
+        "HEILUKABEL® OB-BL-P4AR-CY"
+      ],
+      "extracted_text": "Figure 14. Cable gland parts [21]\nWe need to select the cable gland based on the following criteria:\n\n4.1.1. Size of the ex-sensor cable\nTo select the right cable gland, you must determine the cable's size and type. A cable gland's diameter will be determined by its cable size.\n\nFigure 15. Cable gland parts [21]\n\nThe SRV/SRD sensor is connected to its associated Zener diode barriers via a cable with an 8-pole M12 connector.\n\nFigure 16. Ex Sensor cable built by Rheonics.\n\nThe end that connects to the Zener diode barrier must be provided with crimped conductor-end sleeves, which are held by screw clamps on the Zener diode barriers. The cable and connector selected must be rated for at least the highest ambient temperature at which the sensor will be used.\nRheonics Ex sensor cables can be provided up to a maximum length of 500m (1500 ft).",
+      "specifications": {
+        "Max. cable length": "500 m (1500 ft)",
+        "Cable conductor cross-section": "4x2x0.5 QMM",
+        "Cable voltage rating": "900 V",
+        "Connector type": "8-pole M12"
+      },
+      "key_facts": [
+        "Cable gland selection is based on the cable's size and type, which determines the gland's diameter.",
+        "The SRV/SRD sensor connects to Zener diode barriers using an 8-pole M12 connector.",
+        "The cable end connecting to the Zener diode barrier must have crimped conductor-end sleeves secured by screw clamps.",
+        "The selected cable and connector must be rated for the highest ambient temperature at which the sensor will be used.",
+        "Rheonics Ex sensor cables are available in lengths up to a maximum of 500m (1500 ft)."
+      ],
+      "diagram_labels": [
+        "1 Inner Seal Assembly",
+        "2 Armor Cone",
+        "3 AnyWay™ Clamping Ring",
+        "4 Outer Seal Nut Assembly",
+        "5 Deluge Seal",
+        "Cable Gland Body",
+        "Clear Identification Marking",
+        "M12 connector of the sensor",
+        "Crimped end for SME-DRM",
+        "Ex sensor cable"
+      ],
+      "warnings_notes": [
+        "The cable and connector selected must be rated for at least the highest ambient temperature at which the sensor will be used.",
+        "CE mark (from cable marking)"
+      ],
+      "page_num": 8,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 709,
+        "cost_usd": 0.0019123
+      },
+      "source_file": "Enclosure for Sensor electronics and Zener barriers _ Rheonics Support.pdf"
+    },
+    {
+      "page_summary": "This page provides guidelines and recommendations for selecting and installing cable glands and cables for Rheonics sensors, particularly in hazardous environments and for managing power and communication lines, including specific power cable and 4-20mA output considerations.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics sensor",
+        "PXSS2K",
+        "M20",
+        "Atex Gland"
+      ],
+      "extracted_text": "Figure 17. EX sensor cable used for Intrinsically safe application with the Rheonics sensor.\n\n4.1.2. Consider the Environment\n\nFor cable glands to be approved for use in hazardous locations, they must be tested using samples of the proposed cable type(s). Each hazardous location (Division 1 or Division 2) has its own specific cable gland requirements, including the type of features and whether the cable gland must be sealed. Under NEC & CEC wiring practices, explosion-proof cable glands must incorporate an integral barrier seal[23].\n\n4.1.3. Cable gland used in a cabinet for power and communication (depends on customer requirement)\n\nWhen selecting cable glands for a cabinet that will house both power and communication cables, you need to ensure that the chosen cable glands provide proper protection, organization, and separation for both types of cables. A few cable glands that can be used in the Hazardous zone are the following:\n\nFigure 18. Explosive Atmosphere Barrier Cable Gland PXSS2K [23]\n\nFigure 19. M20, Atex Gland, Nickel Plated Brass[24]\n\nHere are some recommendations specifically for using cable glands in a cabinet for power and communication cables:\n\n1. Consider using separate cable glands within the cabinet for power and communication cables. This helps prevent interference between the two types of signals and reduces the risk of electromagnetic interference (EMI).\n2. Choose cable glands with an appropriate IP rating to prevent dust, dirt, and moisture from entering the cabinet. The IP rating should match the environmental conditions where the cabinet will be installed.\n3. Select cable glands made from suitable materials, such as stainless steel or nickel-plated brass, to ensure durability and protection against environmental factors.\n4. Ensure that you have proper grounding for both power and communication cables. Grounding cables should be properly managed and may require separate grounding points.\n5. Plan the entry points for the cables in a way that minimizes the risk of tangling or stress on the cables. Cable glands with proper strain relief mechanisms can help achieve this.\n6. Use cable glands that allow for easy separation and organization of power and communication cables. Cable management accessories like grommets, cable ties, and cable organizers can be helpful.\n7. Ensure that the cable glands can accommodate the different sizes of power and communication cables you plan to use in the cabinet.\n8. For communication cables, consider cable glands that offer electromagnetic interference (EMI) and radio-frequency interference (RFI) shielding to minimize signal interference.\n9. Plan for potential future cable additions. Choose cable glands that can accommodate additional cables if needed.\n10. Cable glands with sealing features (compression seals, O-rings, etc.) protect against dust, moisture, and other environmental factors that could compromise cable integrity.\n\nAlways refer to the specific requirements of your project and consult with experts in cable management, electrical engineering, and cabinet design to ensure that the selected cable glands meet your needs and comply with relevant industry standards and regulations. Visit our support article: https://support.rheonics.com/en/support/solutions/articles/81000410060-cable-protection-on-rheonics-sensor\n\n4.1.4 Recommendation on the power cable\n\nTo power the electronics of 3W, your power cable should be able to provide 24V DC, 120mA as a minimum requirement. It is important to select a cable with the voltage drop in mind and select the cable gauge to ensure the voltage supply at the electronics' end meets the requirement. Voltage drop becomes significant over longer cable lengths, potentially impacting the voltage received by the electronics but in general, a cable of 16 to 20 AWG could be used with our electronics.\n\n4.1.5. Recommendation on the 4-20mA output\n\nWhen using the 4-20 mA output from the sensor, check our support article: https://support.rheonics.com/en/support/solutions/articles/81000397120-what-can-go-wrong-with-4-20ma-loops-",
+      "specifications": {
+        "electronics_power_requirement": "3W",
+        "minimum_power_supply": "24V DC",
+        "minimum_current_supply": "120mA",
+        "recommended_cable_gauge": "16 to 20 AWG"
+      },
+      "key_facts": [
+        "Cable glands for hazardous locations must be tested using samples of the proposed cable type(s) before approval.",
+        "Each hazardous location (Division 1 or Division 2) has specific cable gland requirements, including features and whether the cable gland must be sealed.",
+        "Under NEC & CEC wiring practices, explosion-proof cable glands must incorporate an integral barrier seal.",
+        "When selecting cable glands for a cabinet housing both power and communication cables, ensure they provide proper protection, organization, and separation for both types of cables.",
+        "The power cable for the electronics of 3W should provide a minimum of 24V DC and 120mA.",
+        "Selecting the correct cable gauge is important to account for voltage drop, especially over longer cable lengths, to ensure the electronics receive adequate voltage.",
+        "A cable of 16 to 20 AWG is generally recommended for Rheonics electronics."
+      ],
+      "diagram_labels": [
+        "Figure 17. EX sensor cable used for Intrinsically safe application with the Rheonics sensor.",
+        "Figure 18. Explosive Atmosphere Barrier Cable Gland PXSS2K [23]",
+        "Figure 19. M20, Atex Gland, Nickel Plated Brass[24]"
+      ],
+      "warnings_notes": [
+        "For cable glands to be approved for use in hazardous locations, they must be tested using samples of the proposed cable type(s).",
+        "Each hazardous location (Division 1 or Division 2) has its own specific cable gland requirements, including the type of features and whether the cable gland must be sealed. Under NEC & CEC wiring practices, explosion-proof cable glands must incorporate an integral barrier seal[23].",
+        "Consider using separate cable glands within the cabinet for power and communication cables to prevent interference between the two types of signals and reduce the risk of electromagnetic interference (EMI).",
+        "Choose cable glands with an appropriate IP rating to prevent dust, dirt, and moisture from entering the cabinet; the IP rating should match the environmental conditions where the cabinet will be installed.",
+        "Select cable glands made from suitable materials (e.g., stainless steel or nickel-plated brass) to ensure durability and protection against environmental factors.",
+        "Ensure proper grounding for both power and communication cables, as grounding cables should be properly managed and may require separate grounding points.",
+        "Plan cable entry points to minimize tangling or stress on cables; cable glands with proper strain relief mechanisms are important.",
+        "For communication cables, consider cable glands that offer electromagnetic interference (EMI) and radio-frequency interference (RFI) shielding to minimize signal interference.",
+        "Cable glands with sealing features (e.g., compression seals, O-rings) protect against dust, moisture, and other environmental factors that could compromise cable integrity.",
+        "Always refer to the specific requirements of your project and consult with experts in cable management, electrical engineering, and cabinet design to ensure that selected cable glands meet needs and comply with relevant industry standards and regulations.",
+        "Voltage drop becomes significant over longer cable lengths, potentially impacting the voltage received by the electronics."
+      ],
+      "page_num": 9,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1773,
+        "cost_usd": 0.0045723
+      },
+      "source_file": "Enclosure for Sensor electronics and Zener barriers _ Rheonics Support.pdf"
+    },
+    {
+      "page_summary": "This page provides recommendations for connecting Rheonics sensors via Ethernet, RS-485, and USB, along with instructions for display module mounting, and lists 24 external resources related to hazardous area certifications, enclosures, and cable glands.",
+      "document_type": "manual",
+      "product_names": [
+        "sensor",
+        "transmitter",
+        "display module"
+      ],
+      "extracted_text": "4.1.6. Recommendation on the Ethernet port\nWhen using the Ethernet port from the sensor, check our support article: https://support.rheonics.com/en/support/solutions/articles/81000300292-introducing-ethernet-connections-on-smet\n\n4.1.7. Recommendation on the RS-485 port\nWhen using the RS-485 port from the sensor, check our support article: https://support.rheonics.com/en/support/solutions/articles/81000297458-connecting-modbus-rtu-rs-485-outputs\n\n5. USB port access\nhttps://support.rheonics.com/en/support/solutions/articles/81000297828-usb-connection-to-the-transmitter\n\n6. Display mounting\nhttps://support.rheonics.com/en/support/solutions/articles/81000297827-transmitter-display-module-installation-instructions-sme-trd-\n\n7. Resources\n1. https://www.ferrulesdirect.com/products/th3575t\n2. https://files.pepperl-fuchs.com/webcat/navi/productInfo/doct/tdoct0185j_eng.pdf?v=20230511084829\n3. https://www.heatingandprocess.com/product-category/atex-enclosures-2/\n4. https://www.heatingandprocess.com/product-category/ex-e-increased-safety/\n5. https://r-stahl.com/fr/fr/produits/boites-de-derivation-et-boites-de-jonction/boites-de-jonction-ex-e-acier-inoxydable/\n6. https://www.extronics.com/blog/what-is-an-ex-d-enclosure/#:~:text=An%20Ex%20d%20enclosure%20is,dirt%2C%20dust%2C%20or%20water.\n7. https://www.rose-systemtechnik.com/en/rose-products/40103010/\n8. https://www.ascopower.com/us/en/resources/articles/what-is-nema.jsp\n9. https://intrinsicallysafestore.com/blog/what-nema-rating-is-explosion-proof-what-is-nema/#:~:text=For%20successful%20explosion%2Dproof%2C%20protection,classifications%20aside%20from%20Ex%20Resistance.\n10. https://www.nemaenclosures.com/media/pdf/NE-NEMA-vs-UL-012314.pdf\n11. https://iscsales.com/blog/hazardous-location-enclosures-the-definitive-guide/\n12. https://www.mc-mc.com/Product/appleton-eds3036?option=EGSMEDS3036\n13. https://schmidt-export.com/eac-certification/eac-certification-explosion-proof-equipment\n14. https://hoffman.nvent.com/products/enca12d106\n15. https://www.cnex-global.com/en/page_chinese-ex-product-certification_118.aspx\n16. https://www.ul.com/services/inmetro-hazardous-areas-certification-brazil\n17. https://www.era-certification.com/en/peso-certification/#:~:text=For%20successful%20PESO%20certification%20is%20India%27s%20equivalent,required%20for%20successful%20PESO%20certification.\n18. https://www.intertek.com/hazardous-locations/atex-and-iecex-certification/\n19. https://www.korea-certification.com/en/kcs-ex-certification-for-explosion-proof-components/\n20. https://www.iecex.com/publications/standards/\n21. https://metalmecheng.com/product-item/e1fpm-double-compression-cable-gland-manufacturer/\n22. https://www.cmp-products.com/glands/products/explosive-atmosphere/a2f100-ex-e-ex-d-ex-nr-ex-ta-explosive-atmosphere-cable-gland/\n23. https://www.cmp-products.com/cable-glands/technical/americas-specific-nec-and-cec-cable-glands-permitted-under-nec-cec-wiring-rules/\n24. https://www.mencom.com/m20-atex-gland-nickel-plated-brass-0-234-0-468.html",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics recommends checking their support article for Ethernet port connections on their sensors.",
+        "Rheonics recommends checking their support article for RS-485 port connections (Modbus RTU) on their sensors.",
+        "Rheonics provides a support article for establishing a USB connection to their transmitter.",
+        "Rheonics provides installation instructions for their transmitter display module.",
+        "The document lists 24 external resources covering topics such as hazardous area certifications (ATEX, IECEx, NEMA, PESO, KCS, UL Inmetro), explosion-proof equipment, enclosures (Ex d, Ex e), and cable glands."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 10,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1455,
+        "cost_usd": 0.0037772999999999995
+      },
+      "source_file": "Enclosure for Sensor electronics and Zener barriers _ Rheonics Support.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

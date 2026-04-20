@@ -1,0 +1,349 @@
+{
+  "source_file": "012_Process_Connections_Rheonics_Viscometer_and_Density_meter.pdf",
+  "total_pages": 8,
+  "chunks": [
+    {
+      "page_summary": "This page details the process connection options available for Rheonics SRV and SRD inline viscometers and density sensors, including threaded, clamp, and flange types, and provides a table of sensor codes for various probe variants.",
+      "document_type": "datasheet",
+      "product_names": [
+        "Rheonics viscometer",
+        "SRV",
+        "density and viscosity meter",
+        "SRD",
+        "type-SR sensors"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nProcess Connections Rheonics Viscometer and Density meter\n\nModified on: Tue, 19 Nov, 2024 at 6:10 PM\n\nRheonics viscometer, SRV, and density and viscosity meter, SRD, are inline sensors for monitoring and controlling industrial processes.\n\nThe type-SR sensors are used in various applications, requiring different process connections and designs to suit each working condition. This article lists below common process connections but does not limit the compatibility of the sensors with other industrial connections.\n\nProcess Connections\n* Threaded Connections\n    * 1/2\" G\n    * 3/4\" NPT\n    * 1-1/4\" NPT\n    * Others Threads\n* Tri-Clamp\n    * DN10/15/20 - 0.5\" - Smallest TC\n    * 1.5\" TC for standard size\n    * 2\" TC for large size\n* Flanges\n* API Hubs and Grayloc\n* DIN 11851 Hygienic\n* Ingold\n* Varinline\n\nThese connections can be ordered for Rheonics SRV and SRD variants. The Type-SR sensor variants are listed in the next table.\n\nTable 1: Process connection codes\n| Sensor Code | Description |\n|---|---|\n| X1 | Threaded (e.g. NPT, G, M, PC, etc.) |\n| X2 | Custom connection for short probe |\n| X3 | Tri-Clamp |\n| X4 | Flush probe variant |\n| X5 | Long insertion probe variant with custom connection |\n| X6 | Slimline probe variant with custom connection |\n| X7 | Reactor probe variant with compressed connection |\n| X8 | Teletube probe variant, ultra-long probe |\n\nVisit the Rheonics support portal for more information on each SRV and SRD codes:",
+      "specifications": {
+        "Threaded Connection G": "1/2 inch",
+        "Threaded Connection NPT 1": "3/4 inch",
+        "Threaded Connection NPT 2": "1-1/4 inch",
+        "Tri-Clamp Smallest Size": "DN10/15/20 - 0.5 inch",
+        "Tri-Clamp Standard Size": "1.5 inch",
+        "Tri-Clamp Large Size": "2 inch"
+      },
+      "key_facts": [
+        "Rheonics viscometer, SRV, and density and viscosity meter, SRD, are inline sensors for monitoring and controlling industrial processes.",
+        "Type-SR sensors are used in various applications, requiring different process connections and designs to suit each working condition.",
+        "Common process connections are listed, but this does not limit the compatibility of the sensors with other industrial connections.",
+        "The listed connections can be ordered for Rheonics SRV and SRD variants.",
+        "Sensor variant codes X1 through X8 describe various probe types including threaded, custom short, Tri-Clamp, flush, long insertion, slimline, reactor, and teletube ultra-long probes."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "This article lists common process connections but does not limit the compatibility of the sensors with other industrial connections.",
+        "Visit the Rheonics support portal for more information on each SRV and SRD codes."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 918,
+        "cost_usd": 0.0024348
+      },
+      "source_file": "012_Process_Connections_Rheonics_Viscometer_and_Density_meter.pdf"
+    },
+    {
+      "page_summary": "This page details the sensing area dimensions and installation requirements for Rheonics SRV viscometer and SRD density and viscosity meter probes, along with information on available 1/2\" G threaded process connections and accessories.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRV Viscometer",
+        "SRD Density and Viscosity Meter",
+        "SRV",
+        "SRD",
+        "SRV G1/2”",
+        "SRV-X1-12G",
+        "SRD G1/2”",
+        "SRD-X1-12G",
+        "HAW-12G (weldolets)",
+        "HPT-12G (flow cells)"
+      ],
+      "extracted_text": "- SRV Viscometer Variants (https://support.rheonics.com/en/support/solutions/folders/81000297658)\n- SRD Density and Viscosity Meter Variants (https://support.rheonics.com/en/support/solutions/folders/81000297659)\nRegardless of the process connection, the SRV and SRD have each some installation requirements related to the sensing area of the probes. These are areas that should be free of deposits or obstructions and only filled by the fluid of interest.\n[Diagrams of SRV and SRD probes with dimensions]\nSRV tip's clearance to any obstruction\n5 mm [0.2\"]\nSRD tip's clearance to any obstruction\n12 mm [0.5\"]\nAvoid stagnation zones in the sensing zones (red areas)\nEnsure sensing element in red is in contact with fluid\nFigure 1: SRV and SRD sensing areas\nNext, some process connections available for the SRV and SRD probes are shown.\nThreaded Connections\n1/2” G\nThe G or BSPP standard (British Standard Pipe Parallel) is used for cylindrical parallel threads following norm ISO 228 (https://www.iso.org/obp/ui/#iso:std:iso:228:-1:en). Rheonics offers the SRV and SRD short probes with the G 1/2” size and offers accessories such as weldolets (HAW-12G for thick (https://rheonics.com/product-accessories/haw-12g-xtn/) and thin (https://rheonics.com/product-accessories/haw-12g/) walls) and flow cells (HPT-12G (https://rheonics.com/product-accessories/hpt-g12/) only for SRV).\nLearn more:\n- Visit the SRV G1/2”: SRV-X1-12G (https://support.rheonics.com/en/support/solutions/articles/81000411056-srv-x1-12g-g1-2-)\n- Visit the SRD G1/2”: SRD-X1-12G (https://support.rheonics.com/en/support/solutions/articles/81000411423-srd-x1-12g-g1-2-)",
+      "specifications": {
+        "SRV sensing area length": "50 mm [1.96\"]",
+        "SRV tip diameter": "Ø16 mm [0.63\"]",
+        "SRV tip's clearance to any obstruction": "5 mm [0.2\"]",
+        "SRD sensing area length": "50 mm [1.96\"]",
+        "SRD sensing area width (top section)": "34 mm [1.4\"]",
+        "SRD tip diameter (bottom section)": "Ø35 mm [1.4\"]",
+        "SRD tip's clearance to any obstruction": "12 mm [0.5\"]",
+        "Threaded connection size": "G 1/2\""
+      },
+      "key_facts": [
+        "The G or BSPP standard, following norm ISO 228, is used for cylindrical parallel threads in Rheonics probes.",
+        "Rheonics offers SRV and SRD short probes with the G 1/2” size.",
+        "Accessories such as weldolets (HAW-12G) for thick and thin walls, and flow cells (HPT-12G only for SRV) are available for G 1/2\" connections."
+      ],
+      "diagram_labels": [
+        "50 mm [1.96\"]",
+        "Ø16 mm [0.63\"]",
+        "34 mm [1.4\"]",
+        "Ø35 mm [1.4\"]",
+        "SRV tip's clearance to any obstruction",
+        "SRD tip's clearance to any obstruction",
+        "Avoid stagnation zones in the sensing zones (red areas)",
+        "Ensure sensing element in red is in contact with fluid",
+        "Figure 1: SRV and SRD sensing areas"
+      ],
+      "warnings_notes": [
+        "Sensing areas of the probes should be free of deposits or obstructions and only filled by the fluid of interest.",
+        "Avoid stagnation zones in the sensing zones (red areas).",
+        "Ensure the sensing element, indicated in red, is in full contact with the fluid."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1234,
+        "cost_usd": 0.0032248
+      },
+      "source_file": "012_Process_Connections_Rheonics_Viscometer_and_Density_meter.pdf"
+    },
+    {
+      "page_summary": "This page provides an overview of different NPT and G1/2 thread connection options for Rheonics SRV viscometers and SRD density/viscosity sensors, including specific product models and associated images.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "SRD",
+        "SRV-X1-34N",
+        "SRD-X1-34N",
+        "SRV-X5",
+        "SRD-X5"
+      ],
+      "extracted_text": "Figure 2: SRV and SRD G1/2 probes\n\n3/4” NPT\n\nNPT stands for National Pipe Thread, a standard from North America used for tapered threads. Rheonics offers the SRV and SRD probes with 3/4” NPT connection and these are the most common probe designs offered.\n\nLearn more:\n\n*   Viscometer SRV 3/4” NPT: SRV-X1-34N (https://support.rheonics.com/en/support/solutions/articles/81000409840-srv-x1-34n-npt-3-4-)\n*   Density and Viscosity SRD 3/4” NPT: SRD-X1-34N (https://support.rheonics.com/en/support/solutions/articles/81000409841-srd-x1-34n-npt-3-4-)\n\nFigure 3: SRV and SRD NPT 3/4” probes\n\n1-1/4” NPT\n\n1.25” or 1-1/4” NPT thread is a variant Rheonics keeps in stock too. It can be used in the short or long insertion probes (as shown below).\n\nLearn more:\n\n*   Viscometer SRV Long Insertion: SRV-X5 (https://support.rheonics.com/en/support/solutions/articles/81000411102-srv-x5-long-insertion-probe)\n*   Density and Viscosity SRD Long Insertion: SRD-X5 (https://support.rheonics.com/en/support/solutions/articles/81000411193-srd-x5-long-insertion-probe)\n\nFigure 4: SRV and SRD Long Insertion NPT 1.25”",
+      "specifications": {
+        "NPT connection": "3/4 inch",
+        "Thread type": "G1/2",
+        "NPT connection (short/long insertion)": "1-1/4 inch",
+        "NPT connection (decimal, short/long insertion)": "1.25 inch"
+      },
+      "key_facts": [
+        "NPT stands for National Pipe Thread.",
+        "National Pipe Thread (NPT) is a standard from North America used for tapered threads.",
+        "Rheonics offers SRV (Viscometer) and SRD (Density and Viscosity) probes with 3/4\" NPT connections.",
+        "3/4\" NPT probes are the most common probe designs offered by Rheonics.",
+        "Rheonics also keeps 1.25\" or 1-1/4\" NPT thread variants in stock.",
+        "The 1.25\" or 1-1/4\" NPT thread can be used in short or long insertion probes."
+      ],
+      "diagram_labels": [
+        "Figure 2: SRV and SRD G1/2 probes",
+        "Figure 3: SRV and SRD NPT 3/4” probes",
+        "Figure 4: SRV and SRD Long Insertion NPT 1.25”"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 907,
+        "cost_usd": 0.0024073
+      },
+      "source_file": "012_Process_Connections_Rheonics_Viscometer_and_Density_meter.pdf"
+    },
+    {
+      "page_summary": "This page details various thread and Tri-Clamp connection options available for Rheonics inline viscometers and density sensors, including custom thread requests, specific Tri-Clamp sizes, and compatible accessories.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "SRD",
+        "SRV-X6",
+        "SRD-X6",
+        "IFC-15T-34N-SRV",
+        "IFC-15T-34N-SRD",
+        "FET-15T",
+        "FTP-15T"
+      ],
+      "extracted_text": "Other Threads\nOther sizes for NPT and G (BSPP), such as 1” or 0.5” NPT, and other thread standards, like M, and PG threads, can be requested as long as they don’t interfere with the operation of the sensor probes. Contact the Rheonics Sales Team for these custom requests.\n\nTri-Clamp\nTri-Clamp connections are used mostly in hygienic applications for the food and beverage, and pharmaceutical industries. Its simple installation and disassembly favor its use in other industries as well. Rheonics can offer all Tri-Clamp sizes from 0.5” (D34) up, by varying the probe design to avoid affecting the operation of the sensor. Visit this article to review the Tri-Clamp sizes available for the SRV and SRD (https://support.rheonics.com/en/support/solutions/articles/81000411921-tri-clamp-sizes-compatible-with-rheonics-sr-sensors).\nRheonics SRV and SRD Tri-Clamp probes are certified by EHEDG and 3A.\n\nDN10/15/20 - 0.5” - Smallest TC\nThese Tri-Clamp sizes have the same TC or ferrule outer diameter of 34 mm (1.338”). It is available for the flush (-X4) and slimline (-X6) probes. The small size flange shouldn’t affect the sensing areas required for the SRV and SRD sensing element, as shown in Figure 1.\n\nFigure 5: SRV and SRD Slimline Tri-Clamp DN 20\n\nVisit the SRV Slimline suitable for the smallest Tri-Clamp: SRV-X6\n(https://support.rheonics.com/en/support/solutions/articles/81000412401-srv-x6-slp-slimline-viscometer)\nVisit the SRD Slimline suitable for the smallest Tri-Clamp: SRD-X6\n(https://support.rheonics.com/en/support/solutions/articles/81000412461-srd-x6-slp-slimline-density-meter)\n\n1.5” TC for standard size\nThis Tri-Clamp connection is the same used for 1” TC ferrules. It is available for all SRV and SRD variants. Rheonics offers flow cell accessories for the 1.5” size, such as the IFC-15T-34N-SRV (https://rheonics.com/product-accessories/ifc-15t-34n-srv/), IFC-15T-34N-SRD (https://rheonics.com/product-accessories/ifc-15t-34n-srd/), FET-15T (https://rheonics.com/product-accessories/fet-15t-15t/), and FTP-15T (https://rheonics.com/product-accessories/ftp-15t-xxx/).",
+      "specifications": {
+        "NPT thread sizes": "1\", 0.5\"",
+        "Other thread standards": "G (BSPP), M, PG",
+        "Tri-Clamp sizes": "0.5\" (D34) up",
+        "Smallest Tri-Clamp ferrule outer diameter": "34 mm (1.338\")",
+        "Smallest Tri-Clamp compatible probes": "Flush (-X4), Slimline (-X6)",
+        "Standard Tri-Clamp connection size": "1.5\" (same as 1\" TC ferrules)"
+      },
+      "key_facts": [
+        "Rheonics offers custom thread sizes for NPT, G (BSPP), M, and PG threads, which can be requested provided they do not interfere with sensor operation.",
+        "Tri-Clamp connections are primarily used in hygienic applications for food, beverage, and pharmaceutical industries due to their simple installation and disassembly.",
+        "Rheonics offers Tri-Clamp sizes from 0.5\" (D34) upwards, with probe design variations to prevent operational interference.",
+        "Rheonics SRV and SRD Tri-Clamp probes are certified by EHEDG and 3A.",
+        "The smallest Tri-Clamp sizes (DN10/15/20 - 0.5\") have a ferrule outer diameter of 34 mm (1.338\").",
+        "The small flange size of the DN10/15/20 - 0.5\" Tri-Clamp should not affect the sensing areas required for SRV and SRD sensing elements for flush (-X4) and slimline (-X6) probes.",
+        "The 1.5\" TC connection is available for all SRV and SRD variants.",
+        "Rheonics provides flow cell accessories for the 1.5\" size, including IFC-15T-34N-SRV, IFC-15T-34N-SRD, FET-15T, and FTP-15T."
+      ],
+      "diagram_labels": [
+        "Figure 5: SRV and SRD Slimline Tri-Clamp DN 20"
+      ],
+      "warnings_notes": [
+        "Custom thread requests are subject to not interfering with the operation of the sensor probes.",
+        "The small size flange of DN10/15/20 - 0.5\" Tri-Clamp shouldn't affect the sensing areas required for the SRV and SRD sensing element."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1407,
+        "cost_usd": 0.0036573
+      },
+      "source_file": "012_Process_Connections_Rheonics_Viscometer_and_Density_meter.pdf"
+    },
+    {
+      "page_summary": "This page details the Tri-Clamp and Flange connection options for Rheonics SRV viscometers and SRD density sensors, including available sizes, relevant standards, and accessories.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRV",
+        "SRD",
+        "SRV-X3",
+        "SRD-X3",
+        "FET-20"
+      ],
+      "extracted_text": "Learn more:\n\n* Visit the SRV Tri-Clamp: SRV-X3 (https://support.rheonics.com/en/support/solutions/articles/81000410430-srv-x3-tri-clamp)\n* Visit the SRD Tri-Clamp: SRD-X3 (https://support.rheonics.com/en/support/solutions/articles/81000410551-srd-x3-tri-clamp)\n\n2” TC for large size\n\nThis Tri-Clamp size is available for all SRV and SRD variants. Rheonics offers the FET-20 (https://rheonics.com/product-accessories/fet-15t-15t/) as a flow cell with this connection size.\n\nFlanges\n\nFlanges are used for non-hygienic process connections of pipes and peripheral instruments in the industry usually with high-pressure conditions. The connection requires two matching flanges, bolts, and, in most cases, a seal. There are different norms or standards for flanges that are classified mainly by size, pressure rating, and face type. Some standards are listed below.\n\n* ANSI Flanges: North American standard for flanges. ANSI/ASME B16.5 standard defines flanges by pipe size, pressure rating (lbf) and type, raised face (RF), flat face (FF), or ring-type joint (RTJ).\n* DIN Flanges: German standard for flanges. DIN 2527 standard defines the sizes available in DN (Nominal Diameter) and PN (Nominal Pressure) while flange type can be flat or raised face.\n* JIS Flanges: Japanese Industrial Standards. JIS B2220 standard defines nominal sizes from 10 A to 1500 A and nominal pressure from 5K to 63K.\n* BS/EN Flanges: British Standard. BS/EN 1092 standard is used to categorize flanges by dimensions (DN) and nominal pressure (PN).\n\nThese and additional flange standards can be ordered for the SRV and SRD. For big flanges, a long insertion probe will be needed to ensure the sensing element is immersed in the fluid.\n\nVisit this article to review the Flange norms and sizes compatible with the SRV and SRD (https://support.rheonics.com/en/support/solutions/articles/81000413589-flanged-process-density-meter-and-viscometer-norms-rating-and-sizes).",
+      "specifications": {
+        "Tri-Clamp size": "2 inches",
+        "JIS Flanges Nominal Size Range": "10 A to 1500 A",
+        "JIS Flanges Nominal Pressure Range": "5K to 63K",
+        "ANSI Flanges Pressure Rating Unit": "lbf"
+      },
+      "key_facts": [
+        "SRV and SRD Tri-Clamp probes are available.",
+        "The SRV-X3 is a specific SRV Tri-Clamp variant.",
+        "The SRD-X3 is a specific SRD Tri-Clamp variant.",
+        "A 2-inch Tri-Clamp connection size is available for all SRV and SRD variants.",
+        "Rheonics offers the FET-20 flow cell with a 2-inch Tri-Clamp connection size.",
+        "Flanges are used for non-hygienic process connections in pipes and peripheral instruments, typically in high-pressure conditions.",
+        "Flange connections require two matching flanges, bolts, and usually a seal.",
+        "Flanges are classified by size, pressure rating, and face type based on different norms and standards.",
+        "ANSI/ASME B16.5 is a North American standard for flanges.",
+        "DIN 2527 is a German standard for flanges.",
+        "JIS B2220 is a Japanese Industrial Standard for flanges.",
+        "BS/EN 1092 is a British Standard for flanges.",
+        "Additional flange standards can be ordered for SRV and SRD products.",
+        "For big flanges, a long insertion probe is required to ensure the sensing element is immersed in the fluid."
+      ],
+      "diagram_labels": [
+        "Figure 6: SRV and SRD Tri-Clamp probes",
+        "Figure 7: SRV and SRD Long Insertion Hygienic Tri-Clamp 2”"
+      ],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1119,
+        "cost_usd": 0.0029373
+      },
+      "source_file": "012_Process_Connections_Rheonics_Viscometer_and_Density_meter.pdf"
+    },
+    {
+      "page_summary": "This page illustrates various custom flange configurations and introduces API Hub/Grayloc connections for Rheonics SRV and SRD inline viscometer and density sensors.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "SRD",
+        "SRV-X2",
+        "SRD-X2",
+        "SRV-X5",
+        "SRD-X5",
+        "HPHT variant"
+      ],
+      "extracted_text": "Figure 8: SRV and SRD Short Custom Flange\n\nFigure 9: SRV and SRD Long (-X5) Custom Flange\n\nLearn more:\n\n*   Visit the SRV Custom Flanges: SRV-X2 (https://support.rheonics.com/en/support/solutions/articles/81000410684-srv-x2-custom-flange)\n*   Visit the SRD Tri-Clamp: SRD-X2 (https://support.rheonics.com/en/support/solutions/articles/81000410685-srd-x2-custom-flange)\n*   Visit the SRV Long insertion probe: SRV-X5 (https://support.rheonics.com/en/support/solutions/articles/81000411102-srv-x5-long-insertion-probe)\n*   Visit the SRD Long insertion probe: SRD-X5 (https://support.rheonics.com/en/support/solutions/articles/81000411193-srd-x5-long-insertion-probe)\n\nAPI Hubs and Grayloc\n\nAPI Hubs or Grayloc connections can be used as a lighter, smaller, and easier-to-install alternative to flanges used in the petroleum industry, according to API standards (American Petroleum Institute). Rheonics offers the API hubs in a special HPHT (High pressure and temperature) variant for the SRV and SRD probes. Users can define the insertion length and hub size, also available for any other compatible flange.",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics offers SRV and SRD probes with Short Custom Flanges.",
+        "Rheonics offers SRV and SRD probes with Long (-X5) Custom Flanges for extended insertion.",
+        "API Hubs or Grayloc connections provide a lighter, smaller, and easier-to-install alternative to traditional flanges, compliant with API standards.",
+        "Rheonics offers an HPHT (High pressure and temperature) variant of API hubs specifically for SRV and SRD probes.",
+        "Users can customize the insertion length and hub size for API hubs and other compatible flanges."
+      ],
+      "diagram_labels": [
+        "Figure 8: SRV and SRD Short Custom Flange",
+        "Figure 9: SRV and SRD Long (-X5) Custom Flange"
+      ],
+      "warnings_notes": [],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 698,
+        "cost_usd": 0.0018848
+      },
+      "source_file": "012_Process_Connections_Rheonics_Viscometer_and_Density_meter.pdf"
+    },
+    {
+      "page_summary": "This page describes various connection types for Rheonics viscometers and density sensors, including HPHT API, DIN 11851 Hygienic, and Ingold connections, and identifies the compatible product models.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRD-HPT-API",
+        "HPHT API SRD",
+        "SRV",
+        "SRD",
+        "Slimline Probes (-X6 variants)"
+      ],
+      "extracted_text": "Figure 10: HPHT API SRD\nLearn more: SRD-HPT-API (https://support.rheonics.com/en/support/solutions/articles/81000412569-srd-hpt-high-pressure-api-flange-density-meter)\n\nDIN 11851 Hygienic\nThe DIN 11851 is a German specification for a hygienic connection, planned for the food and beverage industry, and also used in dairy and pharmaceutical applications. It may also be referred to as Dairy Union and is very similar to the SMS hygienic connection. This connection requires a female port threaded on the outside, a seal, and a threaded nut to compress the male connection against the port.\n\nFigure 11: SRV and SRD DIN 11851\n\nIngold\nAn ingold connection relies on a threaded connection with a seal. It is property of Mettler Toledo (https://www.mt.com/ph/en/home/products/Process-Analytics/ingold-process-analytics.html) and is suitable for installation in reactor vessels. The connection can vary in DN size and length, Rheonics offers the DN25 Ingold connection for the Slimline Probes (-X6) variants.\n\nFigure 12: SRV and SRD Slimline Ingold Connection",
+      "specifications": {
+        "Ingold connection size": "DN25"
+      },
+      "key_facts": [
+        "The DIN 11851 is a German specification for hygienic connections.",
+        "DIN 11851 connections are suitable for the food and beverage, dairy, and pharmaceutical industries.",
+        "The DIN 11851 connection may also be called a Dairy Union.",
+        "A DIN 11851 connection requires a female port threaded on the outside, a seal, and a threaded nut to compress the male connection.",
+        "An Ingold connection utilizes a threaded connection with a seal.",
+        "Ingold connections are a property of Mettler Toledo.",
+        "Ingold connections are suitable for installation in reactor vessels.",
+        "Rheonics offers the DN25 Ingold connection specifically for its Slimline Probes (-X6 variants).",
+        "The DN size and length of the Ingold connection can vary."
+      ],
+      "diagram_labels": [
+        "Figure 10: HPHT API SRD",
+        "Figure 11: SRV and SRD DIN 11851",
+        "Figure 12: SRV and SRD Slimline Ingold Connection"
+      ],
+      "warnings_notes": [],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 727,
+        "cost_usd": 0.0019573
+      },
+      "source_file": "012_Process_Connections_Rheonics_Viscometer_and_Density_meter.pdf"
+    },
+    {
+      "page_summary": "This page describes Rheonics' Varinline connection solution for SRV viscometers and SRD density and viscosity meters, highlighting its hygienic design and applications in the food and beverage industry.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "SRD",
+        "SRV-X6-BI25",
+        "SRD-X6-BI25",
+        "SRV-X4",
+        "SRD-X4",
+        "Varinline"
+      ],
+      "extracted_text": "Learn more:\n*   Viscometer SRV Ingold Connection: SRV-X6-BI25\n    (https://support.rheonics.com/en/support/solutions/articles/81000412234-inline-process-viscometer-srv-with-ingold-connection-options-and-installation)\n*   Density and Viscosity Meter SRD Ingold Connection: SRD-X6-BI25\n    (https://support.rheonics.com/en/support/solutions/articles/81000412279-inline-process-density-and-viscosity-meter-srd-with-ingold-connection-options-and-installation)\n\nVarinline\n\nThis is a hygienic connection that requires a clamp and an O-ring for the correct seal. It is mostly used in the food and beverage industry, in lines for breweries, dairies, and similar. It was created by GEA company as a solution for deposit-free and easy-to-clean connections.\n\nRheonics offers the SRV and SRD probes in sizes DN25 (varinline connection type F) and above (varinline connection type N). Varinline Housings are especially useful for installations in small pipes, like a 1\" line, since the housing has a bigger space around the sensing element, the small line doesn't affect the readings.\n\n[Image of two metallic sensors/probes]\n\nFigure 13: SRV and SRD Flush Varinline\n\nLearn more:\n*   Viscometer SRV variants with Varinline connection: SRV-X4\n    (https://support.rheonics.com/en/support/solutions/articles/81000412012-inline-process-viscometer-srv-with-varinline-flange-options-and-installation)\n*   Density and Viscosity Meter SRD variants with Varinline connection: SRD-X4\n    (https://support.rheonics.com/en/support/solutions/articles/81000412204-inline-process-density-and-viscosity-meter-srd-with-varinline-flange-options-and-installation)",
+      "specifications": {
+        "Varinline connection sizes": "DN25 (type F) and above (type N)",
+        "Pipe line size for installations": "1 inch"
+      },
+      "key_facts": [
+        "Varinline is a hygienic connection designed for deposit-free and easy-to-clean installations.",
+        "It requires a clamp and an O-ring for proper sealing.",
+        "Varinline connections are primarily used in the food and beverage industry, including breweries and dairies.",
+        "The Varinline connection was originally created by the GEA company.",
+        "Rheonics offers SRV viscometer and SRD density and viscosity meter probes with Varinline connections in DN25 (type F) and larger (type N) sizes.",
+        "Varinline Housings are particularly beneficial for installations in small pipes, such as 1-inch lines, as their design ensures the small pipe diameter does not interfere with sensor readings."
+      ],
+      "diagram_labels": [
+        "Figure 13: SRV and SRD Flush Varinline"
+      ],
+      "warnings_notes": [],
+      "page_num": 8,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 899,
+        "cost_usd": 0.0023872999999999998
+      },
+      "source_file": "012_Process_Connections_Rheonics_Viscometer_and_Density_meter.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

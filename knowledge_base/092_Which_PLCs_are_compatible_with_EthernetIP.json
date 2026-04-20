@@ -1,0 +1,176 @@
+{
+  "source_file": "092_Which_PLCs_are_compatible_with_EthernetIP.pdf",
+  "total_pages": 3,
+  "chunks": [
+    {
+      "page_summary": "This page provides information on which PLCs and engineering tools are compatible with Rheonics' SRV in-line viscometers and SRD in-line density meters using Ethernet/IP protocol.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics SRV in-line viscometer",
+        "Rheonics SRD in-line density meter",
+        "Rockwell Automation Studio 5000 Workbench",
+        "Rockwell Automation Connected Component Workbench",
+        "Allen Bradley PLC",
+        "Control Logix",
+        "Wago PFC200 PLC",
+        "Wago 750-8212 PLC",
+        "Codesys"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nWhich PLCs are compatible with Ethernet/IP?\nModified on: Wed, 16 Aug, 2023 at 8:30 PM\n\nMany companies offer Ethernet/IP-compatible controllers and engineering tools, such as Rockwell Automation, Omron, Wago, Schneider Electric, and B&R Automation.\n\nRheonics' SRV in-line viscometer and SRD in-line density meter can be monitored or controlled using Ethernet/IP compatible engineering tools from the following brands:\n\n1. Rockwell Automation - Rockwell Automation provides a range of engineering tools for Ethernet/IP, including the Studio 5000 Workbench, (https://www.rockwellautomation.com/en-us/products/software/factorytalk/designsuite/studio-5000.html) and Connected Component Workbench, (https://www.rockwellautomation.com/en-us/capabilities/industrial-automation-control/design-and-configuration-software.html) an integrated engineering framework that supports a variety of PLCs, HMIs, and other automation devices. Integration with Studio 5000: Ethernet/IP integration with Allen Bradly PLC using STUDIO 5000 (https://support.rheonics.com/en/support/solutions/folders/81000293570)\n\n[Image of Rockwell Software Studio 5000 interface and Allen-Bradley PLC hardware]\nFigure 1. Studio 5000(Left) and PLC programmer(Control Logix) [1]\n\n2. Wago - Wago provides engineering tools for their PFC200 and 750-8212 PLCs, which are PLCs fully compatible with the Ethernet/IP protocol. For integration with Codesys check our support article: Ethernet/IP integration of Rheonics devices using Codesys. (https://rheonics.atlassian.net/wiki/spaces/SA/pages/1718583297)",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics' SRV in-line viscometer and SRD in-line density meter are compatible with Ethernet/IP engineering tools.",
+        "Ethernet/IP-compatible controllers and engineering tools are offered by companies like Rockwell Automation, Omron, Wago, Schneider Electric, and B&R Automation.",
+        "Rockwell Automation provides Studio 5000 Workbench and Connected Component Workbench as engineering tools for Ethernet/IP integration.",
+        "Studio 5000 is an integrated engineering framework supporting PLCs, HMIs, and other automation devices.",
+        "A support article is available for Ethernet/IP integration with Allen Bradley PLC using STUDIO 5000.",
+        "Wago offers PFC200 and 750-8212 PLCs that are fully compatible with the Ethernet/IP protocol.",
+        "A support article is available for Ethernet/IP integration of Rheonics devices using Codesys for Wago PLCs."
+      ],
+      "diagram_labels": [
+        "Rockwell Software",
+        "Studio 5000",
+        "Create",
+        "Open",
+        "Explore",
+        "New Project",
+        "From Import",
+        "From Sample Project",
+        "Existing Project",
+        "Sample Project",
+        "From Upload",
+        "Help",
+        "About",
+        "Recent Projects",
+        "SCADA Example",
+        "Pump_Control_Station",
+        "Academy_Challenge",
+        "Industrial_Gate_Ope...",
+        "Climb_the_Ladder...",
+        "Logix_Emulate",
+        "October_2019_MSG...",
+        "Figure 1. Studio 5000(Left) and PLC programmer(Control Logix) [1]",
+        "Allen-Bradley"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1059,
+        "cost_usd": 0.0027873
+      },
+      "source_file": "092_Which_PLCs_are_compatible_with_EthernetIP.pdf"
+    },
+    {
+      "page_summary": "This page displays an Ethernet/IP compatible Wago PLC (PFC200, model 750-8215) and describes its integration with Schneider Electric's EcoStruxure Machine Expert Software and Modicon M262 controllers.",
+      "document_type": "manual",
+      "product_names": [
+        "Wago 750-8215",
+        "PLC PFC200 Wago",
+        "EcoStruxure Machine Expert Software",
+        "Modicon M262"
+      ],
+      "extracted_text": "WAGO\n750-8215\nSYS\nRST\nRUN\nI/O\nBF\nDIA\nU4\nU3\nU2\nU1\nMS\nNS\nCAN\nSD\nOV\nRUN STOP RESET\nX2 LINK ACT\nX1 LINK ACT\nX6 USB\nX4 CAN\n\nFigure 2. Ethernet/IP compatible PLC PFC200 Wago[2]\n\n3. Schneider Electric - SE provides the EcoStruxure Machine Expert Software for setting the controller and the sensors. EcoStruxure Machine Expert offers a seamless and easy-to-use platform to develop and set up machines and industrial systems. Visit the following support article for integration: Ethernet/IP integration with Modicon M262\n(https://support.rheonics.com/en/support/solutions/articles/81000404848-ethernet-ip-integration-with-modicon-m262)",
+      "specifications": {},
+      "key_facts": [
+        "The image presents a Wago PFC200 PLC, specifically model 750-8215, which supports Ethernet/IP compatibility.",
+        "Schneider Electric's EcoStruxure Machine Expert Software is used for configuring the controller and associated sensors.",
+        "EcoStruxure Machine Expert provides a seamless and user-friendly platform for developing and configuring industrial machines and systems.",
+        "A Rheonics support article details the integration of Ethernet/IP with the Modicon M262 controller."
+      ],
+      "diagram_labels": [
+        "WAGO",
+        "750-8215",
+        "SYS",
+        "RST",
+        "RUN",
+        "I/O",
+        "BF",
+        "DIA",
+        "U4",
+        "U3",
+        "U2",
+        "U1",
+        "MS",
+        "NS",
+        "CAN",
+        "SD",
+        "OV",
+        "RUN STOP RESET",
+        "X2 LINK ACT",
+        "X1 LINK ACT",
+        "X6 USB",
+        "X4 CAN"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 663,
+        "cost_usd": 0.0017973
+      },
+      "source_file": "092_Which_PLCs_are_compatible_with_EthernetIP.pdf"
+    },
+    {
+      "page_summary": "This page provides an image of a Modicon M262 Embedded PC, lists external resources for related industrial control systems, and includes a disclaimer regarding the use of images.",
+      "document_type": "manual",
+      "product_names": [
+        "Modicon M262",
+        "TM262L10MESE8T",
+        "ControlLogix Control Systems",
+        "PFC200 Controller"
+      ],
+      "extracted_text": "Figure 3. Modicon M262| Embedded PC with Ethernet/IP device[3]\n\nResources:\n1. ControlLogix Control Systems | Allen-Bradley (https://www.rockwellautomation.com/en-us/products/hardware/allen-bradley/programmable-controllers/large-controllers/controllogix.html)\n2. PLC – PFC200 Controller | WAGO (https://www.wago.com/global/automation-technology/discover-plcs/pfc200)\n3. Modicon M262 (https://www.se.com/us/en/product/TM262L10MESE8T/logic-controller-modicon-m262-5ns-per-instruction-ethernet/)\n\nDISCLAIMER\nPictures, photos, and images used are for illustration purposes and do not constitute any warranty or assertions on the suitability of use and should not be construed as an explicit or implicit recommendation or endorsement. All illustrations are given proper credit from our source of access and by their use here we do not specify or establish any copyright which belongs and stays unaffected with the existing copyright holder of that material.",
+      "specifications": {},
+      "key_facts": [
+        "The page features a Modicon M262 Embedded PC with Ethernet/IP device.",
+        "The document lists resources for ControlLogix Control Systems by Allen-Bradley, PLC – PFC200 Controller by WAGO, and Modicon M262.",
+        "All pictures, photos, and images are for illustration purposes only.",
+        "The illustrations do not constitute any warranty or assertions on suitability of use.",
+        "Images should not be construed as an explicit or implicit recommendation or endorsement.",
+        "All illustrations are given proper credit from their source of access.",
+        "The use of illustrations does not specify or establish new copyright, and existing copyright remains unaffected."
+      ],
+      "diagram_labels": [
+        "PWR",
+        "RUN",
+        "ERR",
+        "I/O",
+        "ETH 1",
+        "ETH 2",
+        "Ethernet 1",
+        "Ethernet 2",
+        "M262",
+        "TM262L10MESE8T",
+        "RUN (button)",
+        "STOP (button)",
+        "Serial",
+        "AL1",
+        "AL2",
+        "24V",
+        "0V",
+        "GND",
+        "+RC",
+        "-RC",
+        "Schneider Electric"
+      ],
+      "warnings_notes": [
+        "Pictures, photos, and images used are for illustration purposes and do not constitute any warranty or assertions on the suitability of use and should not be construed as an explicit or implicit recommendation or endorsement.",
+        "All illustrations are given proper credit from our source of access and by their use here we do not specify or establish any copyright which belongs and stays unaffected with the existing copyright holder of that material."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 787,
+        "cost_usd": 0.0021073
+      },
+      "source_file": "092_Which_PLCs_are_compatible_with_EthernetIP.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

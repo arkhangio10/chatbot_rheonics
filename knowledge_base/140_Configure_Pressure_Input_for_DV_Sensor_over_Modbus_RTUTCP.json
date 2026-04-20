@@ -1,0 +1,171 @@
+{
+  "source_file": "140_Configure_Pressure_Input_for_DV_Sensor_over_Modbus_RTUTCP.pdf",
+  "total_pages": 3,
+  "chunks": [
+    {
+      "page_summary": "This page provides a guide on configuring pressure input for Rheonics DV sensors using Modbus RTU/TCP, detailing Modbus registers, data types, and access procedures for pressure compensation.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Type-DV sensors",
+        "Rheonics Type-SR sensors",
+        "Modbus",
+        "ModbusPoll"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nConfigure Pressure Input for DV Sensor over Modbus RTU/TCP\nModified on: Fri, 17 Jan, 2025 at 7:15 PM\n\n1. What is Pressure?\nPressure is the force exerted per unit area critical in various applications. It ensures efficient industrial processes, regulates fluid flow, and maintains safety in systems like pipelines and tanks. Rheonics Type-DV sensors have the versatility to write over Modbus (either RTU or TCP) a set of registers associated with the pressure input on DV sensors.\n\nWriting Pressure back to the Rheonics Type-SR sensors is possible, but is only relevant to high-pressure systems\n\n2. Modbus registers\nThere are holding registers associated with pressure compensation value. The two holding registers of each coefficient should form a float 32 data type in Big Endian format.\nThe registers are password-protected. You should input the user password in the holding register 0 to write to the coefficients.\nYou can use the software of your preference to write to the holding register. The Write function to write to multiple registers is 16 and to read the holding registers the function 03 shall be used.\n\n| Register            | Holding register Address            | Data Type |\n|---------------------|-------------------------------------|-----------|\n| Password            | Address=0; User password=0x5312     | Uint16    |\n| Pressure compensation | Address=1260 and Address=1261       | Float32   |\n\nBelow is an example using ModbusPoll software to get constant density:\na. Write the password into the holding register 0.",
+      "specifications": {
+        "phone": "+1 713 234 0863",
+        "last_modified_date": "Fri, 17 Jan, 2025",
+        "last_modified_time": "7:15 PM",
+        "modbus_write_function_code": "16",
+        "modbus_read_function_code": "03",
+        "password_register_address": "0",
+        "user_password_value": "0x5312",
+        "password_data_type": "Uint16",
+        "pressure_compensation_register_address_start": "1260",
+        "pressure_compensation_register_address_end": "1261",
+        "pressure_compensation_data_type": "Float32",
+        "data_type_format": "Big Endian"
+      },
+      "key_facts": [
+        "Pressure is the force exerted per unit area, critical for industrial processes, fluid flow regulation, and system safety.",
+        "Rheonics Type-DV sensors allow writing to pressure input registers via Modbus (RTU or TCP).",
+        "Pressure compensation values are stored across two holding registers and form a float32 data type in Big Endian format.",
+        "Modbus registers for configuration are password-protected.",
+        "The user password (0x5312) must be written to holding register 0 to enable writing to coefficients.",
+        "The Modbus function code for writing to multiple registers is 16.",
+        "The Modbus function code for reading holding registers is 03."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Writing Pressure back to the Rheonics Type-SR sensors is possible, but is only relevant to high-pressure systems."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 912,
+        "cost_usd": 0.0024197999999999997
+      },
+      "source_file": "140_Configure_Pressure_Input_for_DV_Sensor_over_Modbus_RTUTCP.pdf"
+    },
+    {
+      "page_summary": "This page details how to input a password, write a pressure compensation value, and verify the pressure reading using the Rheonics Control Panel software.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics",
+        "Rheonics Control Panel 5.5.2.3",
+        "GN-0001"
+      ],
+      "extracted_text": "Write Single Register\nSlave ID: 255\nAddress: 0\nValue (HEX): 5312\nResult: N/A\nClose dialog on \"Response ok\"\nUse Function\n06: Write single register\n16: Write multiple registers\nFigure 1. Input password on register 0\nb. Write a constant value for the pressure compensation value. This is useful when we have a real-time pressure value from a pressure gauge that can transmit data to the Rheonics register using a PLC.\n1259 --\n1260 Pressure Comp 200\n1261 --\nFigure 2. Pressure compensation value\nc. To confirm that Pressure is correctly written we can go to the Rheonics Control Panel and verify.\nRheonics Control Panel 5.5.2.3\nMeasurement (tab)\nEvents (tab)\nSettings (tab)\nService (tab)\nCommunication (tab)\nLogger (tab)\nHelp (tab)\nMeasured Values\nViscosity: 0.11 mPa.s\nDensity: 1.0000 g/cc\nTemperature: 26.75 °C\nPressure: 200.00 bar\nStatus\nRunning... E00\nLogging: Stopped\nPressure: Manual\nManual entry (checked): 200 bar\nLog Measurements\nSample Name:\nStart Logging (button)\nAdd Event (button)\nSensor Information\nSerial Number: GN-0001\nFres: 7503.84 Hz\ndf: 1.69 Hz\nFigure 3. Pressure value as seen on the RCP software",
+      "specifications": {
+        "Slave ID": "255",
+        "Address": "0",
+        "Value (HEX)": "5312",
+        "Pressure Compensation Value Register": "1260",
+        "Pressure Compensation Value": "200",
+        "Viscosity": "0.11 mPa.s",
+        "Density": "1.0000 g/cc",
+        "Temperature": "26.75 °C",
+        "Pressure": "200.00 bar",
+        "Sensor Serial Number": "GN-0001",
+        "Fres": "7503.84 Hz",
+        "df": "1.69 Hz"
+      },
+      "key_facts": [
+        "A password can be input on register 0 using the 'Write Single Register' dialog, with a hexadecimal value of 5312.",
+        "A constant value for pressure compensation can be written to the Rheonics register, which is useful when receiving real-time pressure data from a pressure gauge via a PLC.",
+        "The pressure compensation value is associated with register 1260 and is shown as 200.",
+        "The Rheonics Control Panel (RCP) software (version 5.5.2.3) allows for verification of the written pressure value.",
+        "The RCP software displays measured values for viscosity, density, temperature, and pressure.",
+        "The RCP software shows the system status, including 'Running' and 'E00', and indicates that logging is 'Stopped'.",
+        "Pressure can be manually entered as '200 bar' in the RCP software.",
+        "Sensor information, including Serial Number (GN-0001), Fres (7503.84 Hz), and df (1.69 Hz), is available in the RCP software.",
+        "The RCP software provides graphical representations of viscosity, density, temperature, and pressure over time."
+      ],
+      "diagram_labels": [
+        "Write Single Register",
+        "Slave ID",
+        "Address",
+        "Value (HEX)",
+        "Result",
+        "Close dialog on \"Response ok\"",
+        "Use Function",
+        "06: Write single register",
+        "16: Write multiple registers",
+        "Send",
+        "Cancel",
+        "Pressure Comp",
+        "Rheonics Control Panel 5.5.2.3",
+        "Measurement",
+        "Events",
+        "Settings",
+        "Service",
+        "Communication",
+        "Logger",
+        "Help",
+        "Measured Values",
+        "Viscosity",
+        "Density",
+        "Temperature",
+        "Pressure",
+        "Status",
+        "Running...",
+        "E00",
+        "Logging",
+        "Stopped",
+        "Manual",
+        "Manual entry",
+        "Log Measurements",
+        "Sample Name",
+        "Start Logging",
+        "Add Event",
+        "Sensor Information",
+        "Serial Number",
+        "Fres",
+        "df",
+        "Viscosity [mPa.s]",
+        "Density [g/cc]",
+        "Temperature [°C]",
+        "Pressure [bar]",
+        "hh:mm:ss",
+        "Pressure value"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1242,
+        "cost_usd": 0.0032448
+      },
+      "source_file": "140_Configure_Pressure_Input_for_DV_Sensor_over_Modbus_RTUTCP.pdf"
+    },
+    {
+      "page_summary": "This page lists two technical references related to an external pressure sensor and its interaction with a library and RCP software.",
+      "document_type": "manual",
+      "product_names": [
+        "external-pressure-sensor",
+        "rcp-software"
+      ],
+      "extracted_text": "3. References:\n1. https://support.rheonics.com/en/support/solutions/articles/81000406159-external-pressure-sensor-how-the-library-should-be-designed-\n2. https://support.rheonics.com/en/support/solutions/articles/81000406158-external-pressure-sensor-how-does-it-work-with-the-rcp-software-",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics provides support documentation regarding the design of the library for an external pressure sensor, accessible via article 81000406159.",
+        "Rheonics provides support documentation detailing how the external pressure sensor integrates and works with the RCP software, accessible via article 81000406158."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 302,
+        "cost_usd": 0.0008948000000000001
+      },
+      "source_file": "140_Configure_Pressure_Input_for_DV_Sensor_over_Modbus_RTUTCP.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

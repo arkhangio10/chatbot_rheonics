@@ -1,0 +1,236 @@
+{
+  "source_file": "220_Modbus_TCP_Command_and_Response_Examples.pdf",
+  "total_pages": 3,
+  "chunks": [
+    {
+      "page_summary": "This page provides examples of Modbus TCP command and response structures for reading temperature and viscosity parameters from Rheonics devices.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Phone: +1 713 234 0863\n\nModbus TCP Command and Response Examples\n\nModified on: Fri, 3 Jul, 2020 at 3:30 PM\n\nReading the parameter 3; Temperature median, in float32 data type.\nAddress =56 = 0x0038 (word) (Address in Hex of the first register)\nFunctional code= 04=0x0004 (word)-Read input registers\nNumber of registers = 02=0x0002 (word)\nUnit ID = 255 = 0xFF\n\nCommand Structure:\nTrans. ID (Hi Byte) | Trans. ID (Lo Byte) | Protocol ID (Hi Byte) | Protocol ID (Lo Byte) | Length (Hi byte) | Length (Lo byte) | Unit ID | Function Code | Address 1st reg. (Hi Byte) | Address 1st reg. (Lo Byte) | # of registers (Hi Byte) | # of registers (Lo Byte)\n00 | 00 | 00 | 00 | 00 | 06 | FF | 04 | 00 | 38 | 00 | 02\n\nCommand Response:\nFunctional Code | Number of Bytes | Value of the first register (Hi Byte) | Value of the first register (Lo Byte) | Value of the second register (Hi Byte) | Value of the second register (Lo Byte)\n04 | 04 | 41 | B1 | 5C | 29\n\n040441B15C29\nData = 0x41B15C29 = 22.17 (float32)\n\nReading the Parameter 1; Viscosity median, status\nAddress =43 = 0x002B (word) (Address in Hex of the first register)\nFunctional code= 04=0x0004 (word)-Read input registers\nNumber of registers = 01=0x0001 (word)\nUnit ID = 255 = 0xFF\n\nCommand Structure:",
+      "specifications": {},
+      "key_facts": [
+        "The document provides Modbus TCP command and response examples.",
+        "The document was last modified on Fri, 3 Jul, 2020 at 3:30 PM.",
+        "Parameter 3, 'Temperature median', is read using a float32 data type.",
+        "The Modbus address for Temperature median (Parameter 3) is 56 (0x0038).",
+        "Functional code 04 (0x0004) is used for 'Read input registers'.",
+        "Reading Temperature median requires 2 registers (0x0002 words).",
+        "The Unit ID used in the examples is 255 (0xFF).",
+        "An example Modbus TCP command for Temperature median has a length of 06 bytes.",
+        "The response for Temperature median includes the functional code 04, 04 bytes of data, and the values 41, B1, 5C, 29 for the two registers.",
+        "The hex data 0x41B15C29 corresponds to a float32 value of 22.17.",
+        "Parameter 1, 'Viscosity median, status', is read from Modbus address 43 (0x002B).",
+        "Reading Viscosity median requires 1 register (0x0001 word)."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 909,
+        "cost_usd": 0.0024122999999999996
+      },
+      "source_file": "220_Modbus_TCP_Command_and_Response_Examples.pdf"
+    },
+    {
+      "page_summary": "This page details Modbus-like command structures and responses for reading an error status and the raw temperature (Int16) from a device, including its conversion to actual temperature.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": [
+        {
+          "section_title": "Error Status Read Example",
+          "content": [
+            {
+              "type": "table",
+              "title": "Command Structure",
+              "headers": [
+                "Trans. ID (Hi Byte)",
+                "Trans. ID (Lo Byte)",
+                "Protocol ID (Hi Byte)",
+                "Protocol ID (Lo Byte)",
+                "Length (Hi byte)",
+                "Length (Lo byte)",
+                "Unit ID",
+                "Function Code",
+                "Address 1st reg. (Hi byte)",
+                "Address 1st reg. (Lo Byte)",
+                "# of registers (Hi Byte)",
+                "# of registers (Lo Byte)"
+              ],
+              "rows": [
+                [
+                  "00",
+                  "00",
+                  "00",
+                  "00",
+                  "00",
+                  "06",
+                  "FF",
+                  "04",
+                  "00",
+                  "2B",
+                  "00",
+                  "01"
+                ]
+              ]
+            },
+            {
+              "type": "table",
+              "title": "Command Response",
+              "headers": [
+                "Functional Code",
+                "Number of Bytes",
+                "Value of the first register (Hi Byte)",
+                "Value of the first register (Lo Byte)"
+              ],
+              "rows": [
+                [
+                  "04",
+                  "02",
+                  "00",
+                  "01"
+                ]
+              ]
+            },
+            "04020001",
+            "Data = 0x0001 = 1 (Uint16)",
+            "Referring to the parameter status, this value means a general error occurred."
+          ]
+        },
+        {
+          "section_title": "Reading the Parameter 8; Temperature raw, Int16 value.",
+          "content": [
+            "Address =98 = 0x0062 (word) (Address in Hex of the first register)",
+            "Functional code= 04=0x0004 (word)-Read input registers",
+            "Number of registers = 01=0x0001 (word)",
+            "Unit ID = 255 = 0xFF",
+            {
+              "type": "table",
+              "title": "Command Structure",
+              "headers": [
+                "Trans. ID (Hi Byte)",
+                "Trans. ID (Lo Byte)",
+                "Protocol ID (Hi Byte)",
+                "Protocol ID (Lo Byte)",
+                "Length (Hi byte)",
+                "Length (Lo byte)",
+                "Unit ID",
+                "Function Code",
+                "Address 1st reg. (Hi byte)",
+                "Address 1st reg. (Lo Byte)",
+                "# of registers (Hi Byte)",
+                "# of registers (Lo Byte)"
+              ],
+              "rows": [
+                [
+                  "00",
+                  "00",
+                  "00",
+                  "00",
+                  "00",
+                  "06",
+                  "FF",
+                  "04",
+                  "00",
+                  "62",
+                  "00",
+                  "01"
+                ]
+              ]
+            },
+            {
+              "type": "table",
+              "title": "Command Response",
+              "headers": [
+                "Functional Code",
+                "Number of Bytes",
+                "Value of the first register (Hi Byte)",
+                "Value of the first register (Lo Byte)"
+              ],
+              "rows": [
+                [
+                  "04",
+                  "02",
+                  "08",
+                  "9E"
+                ]
+              ]
+            },
+            "0402089E",
+            "Data = 0x089E = 2206 (Int16)",
+            "Since the register value is the temperature scaled by 100. The actual temperature value is 22.06 °C.",
+            "This register is useful for devices in which single point conversion requires too much computation."
+          ]
+        }
+      ],
+      "specifications": {
+        "Actual Temperature": "22.06 °C"
+      },
+      "key_facts": [
+        "A command response data of 0x0001 (1, Uint16) indicates a general error occurred.",
+        "Parameter 8 is identified as \"Temperature raw, Int16 value\".",
+        "The address for reading Parameter 8 (Temperature raw) is 0x0062 (decimal 98), which is the address in Hex of the first register.",
+        "The functional code used for reading input registers is 0x04 (0x0004 word).",
+        "The number of registers to read for temperature is 0x0001 (1 word).",
+        "The Unit ID for the device is 0xFF (decimal 255).",
+        "The raw temperature register value 0x089E (decimal 2206, Int16) represents the temperature scaled by 100.",
+        "The actual temperature value calculated from the raw register value is 22.06 °C.",
+        "This raw temperature register is useful for devices where single point conversion requires too much computation."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Referring to the parameter status, a data value of 0x0001 means a general error occurred.",
+        "The raw temperature register is useful for devices in which single point conversion requires too much computation."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1297,
+        "cost_usd": 0.0033822999999999995
+      },
+      "source_file": "220_Modbus_TCP_Command_and_Response_Examples.pdf"
+    },
+    {
+      "page_summary": "This page details the Modbus command structure and response for reading multiple parameters, specifically the viscosity average value (float32 and UInt16) and its status.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Reading Multiple parameters; Viscosity Average value in float, Uint and status.\n\nAddress =64 = 0x0040 (word) (Address in Hex of the first register)\nFunctional code= 04=0x0004 (word)-Read input registers\nNumber of registers = 04=0x0004 (word)\nUnit ID = 255 = 0xFF\n\nCommand Structure:\n| Trans. ID (Hi Byte) | Trans. ID (Lo Byte) | Protocol ID (Hi Byte) | Protocol ID (Lo Byte) | Length (Hi byte) | Length (Lo byte) | Unit ID | Function Code | Address 1st reg. (Hi byte) | Address 1st reg. (Lo Byte) | # of registers (Hi Byte) | # of registers (Lo Byte) |\n| 00 | 00 | 00 | 00 | 00 | 06 | FF | 04 | 00 | 40 | 00 | 04 |\n\nCommand Response\n| Functional Code | Number of Bytes | 1th reg. (Hi Byte) | 1th reg. (Lo Byte) | 2th reg. (Hi Byte) | 2th reg. (Lo Byte) | 3th reg. (Hi Byte) | 3th reg. (Lo Byte) | 4th reg. (Hi Byte) | 4th reg. (Lo Byte) |\n| 04 | 08 | 41 | F4 | 51 | EC | 0B | EE | 00 | 00 |\n\n040841F451EC0BEE0000\nViscosity Average (float32) = 30.54 cP\nViscosity Average (UInt16) = 3054 cP\nViscosity Average Status (UInt16) = 0",
+      "specifications": {
+        "Address": "0x0040",
+        "Functional code": "0x0004",
+        "Number of registers": "0x0004",
+        "Unit ID": "0xFF",
+        "Viscosity Average (float32)": "30.54 cP",
+        "Viscosity Average (UInt16)": "3054 cP",
+        "Viscosity Average Status (UInt16)": "0"
+      },
+      "key_facts": [
+        "The document provides details for reading multiple parameters, including viscosity average and its status, using a Modbus-like protocol.",
+        "The Modbus address for the first register is 0x0040 (decimal 64).",
+        "The functional code used for reading input registers is 0x0004 (decimal 4).",
+        "A total of 4 registers are requested in the command.",
+        "The Modbus Unit ID is 0xFF (decimal 255).",
+        "The command response includes 8 bytes of data for the registers.",
+        "An example command response value of 040841F451EC0BEE0000 is shown.",
+        "The example response translates to a float32 viscosity average of 30.54 cP.",
+        "The example response translates to an unsigned 16-bit integer viscosity average of 3054 cP.",
+        "The example response shows an unsigned 16-bit integer viscosity average status of 0."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 895,
+        "cost_usd": 0.0023772999999999997
+      },
+      "source_file": "220_Modbus_TCP_Command_and_Response_Examples.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

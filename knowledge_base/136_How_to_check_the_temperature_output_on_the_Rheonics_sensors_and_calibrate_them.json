@@ -1,0 +1,387 @@
+{
+  "source_file": "136_How_to_check_the_temperature_output_on_the_Rheonics_sensors_and_calibrate_them.pdf",
+  "total_pages": 9,
+  "chunks": [
+    {
+      "page_summary": "This page explains how Rheonics sensors measure temperature, lists the specifications of their in-built temperature sensors across various product models, and defines temperature calibration.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics sensors",
+        "SRV Inline Viscometer",
+        "SRD Inline Density and Viscosity meter",
+        "DVP Density and Viscosity Probe",
+        "DVM Density and Viscosity Module"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nHow to check the temperature output on the Rheonics sensors and calibrate them?\n\nModified on: Wed, 8 May, 2024 at 10:28 PM\n\n1. What is the temperature measurement on Rheonics Sensors?\nA temperature sensor is an instrument used to measure the process temperature. It works by detecting changes in the temperature of its environment and transmitting this information back to the sensor electronics. Temperature sensors are used in many industries and applications, ranging from food processing and manufacturing to aerospace and power generation.\nRheonics viscosity and density meters SRV, SRD, DVP, and DVM provide accurate and reliable readings of various materials, including liquids, slurries, and solids. To ensure the accuracy of a Rheonics meter, all Rheonics sensors are factory calibrated to ensure that the viscosity, density, and temperature readings are as precise as possible within configured range.\nRheonics sensors have in-built temperature sensors as listed in table 1.\n\nTable 1: In-built temperature sensors for Rheonics sensors\nRheonics Sensor | In-built Temperature Sensor | Process Fluid Temperature Range\nSRV Inline Viscometer (https://rheonics.com/products/inline-viscometer-srv/) | Pt1000 (DIN EN 60751) Class B Higher class available | -40 up to 300 °C (575°F)\nSRD Inline Density and Viscosity meter (https://rheonics.com/products/inline-density-meter-srd/) | Pt1000 (DIN EN 60751) Class B Higher class available | -40 up to 300 °C (575°F)\nDVP Density and Viscosity Probe (https://rheonics.com/products/lng-gas-lng-density-meter-dvp/) | Pt1000 (DIN EN 60751) Class AA. | -40 up to 300 °C (575°F)\nDVM Density and Viscosity Module (https://rheonics.com/products/hpht-pvt-density-meter-viscometer-dvm/) | Pt100 (DIN EN 60751) Class AA. | -40 up to 300 °C (575°F)\n\n2. What is temperature calibration?\nCalibrating a temperature sensor is a way of ensuring that temperature readings from the sensor are accurate and trustworthy. Temperature sensors are typically calibrated in a water bath at a known temperature. After that, you adjust the calibration values on the sensor until it accurately matches the temperature reading from the water bath or dry wells.",
+      "specifications": {
+        "SRV Inline Viscometer In-built Temperature Sensor": "Pt1000 (DIN EN 60751) Class B (Higher class available)",
+        "SRV Inline Viscometer Process Fluid Temperature Range": "-40 up to 300 °C (575°F)",
+        "SRD Inline Density and Viscosity meter In-built Temperature Sensor": "Pt1000 (DIN EN 60751) Class B (Higher class available)",
+        "SRD Inline Density and Viscosity meter Process Fluid Temperature Range": "-40 up to 300 °C (575°F)",
+        "DVP Density and Viscosity Probe In-built Temperature Sensor": "Pt1000 (DIN EN 60751) Class AA.",
+        "DVP Density and Viscosity Probe Process Fluid Temperature Range": "-40 up to 300 °C (575°F)",
+        "DVM Density and Viscosity Module In-built Temperature Sensor": "Pt100 (DIN EN 60751) Class AA.",
+        "DVM Density and Viscosity Module Process Fluid Temperature Range": "-40 up to 300 °C (575°F)"
+      },
+      "key_facts": [
+        "Rheonics sensors are equipped with in-built temperature sensors to provide accurate and reliable readings for viscosity, density, and temperature.",
+        "Rheonics viscosity and density meters (SRV, SRD, DVP, and DVM) are factory calibrated.",
+        "Temperature sensors are used in various industries, including food processing, manufacturing, aerospace, and power generation.",
+        "Temperature calibration is the process of adjusting sensor values to ensure accurate and trustworthy temperature readings, typically performed using a water bath or dry wells at a known temperature.",
+        "The SRV Inline Viscometer and SRD Inline Density and Viscosity meter utilize Pt1000 (DIN EN 60751) Class B temperature sensors, with higher classes available.",
+        "The DVP Density and Viscosity Probe uses a Pt1000 (DIN EN 60751) Class AA temperature sensor.",
+        "The DVM Density and Viscosity Module uses a Pt100 (DIN EN 60751) Class AA temperature sensor.",
+        "All listed Rheonics sensors (SRV, SRD, DVP, DVM) operate within a process fluid temperature range of -40 up to 300 °C (575°F)."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1313,
+        "cost_usd": 0.0034222999999999996
+      },
+      "source_file": "136_How_to_check_the_temperature_output_on_the_Rheonics_sensors_and_calibrate_them.pdf"
+    },
+    {
+      "page_summary": "This page describes calibration reference standards and methods for temperature calibration, specifically focusing on calibrating Rheonics sensors using a water bath.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics sensor",
+        "Rheonics STCM",
+        "DVM",
+        "DTCM",
+        "Fluke 1502 Micro-Bath"
+      ],
+      "extracted_text": "3. Calibration reference standard\nA reference standard is a physical object that represents the quantity of interest in such a way that it can be used as a unit of measurement. In this support article, the measurement parameter is temperature. Examples of these instruments that could be used as a reference standard could be a water bath, dry wells, temperature simulators, or another calibrated instrument.\n\n4. Temperature calibration methods\n4.1. Calibrating with a water bath\nThe temperature calibration bath is a calibrator that is enclosed by a uniform fluid and is capable of adjusting the temperature for the test points. Temperature sensors of different sizes and shapes can be calibrated with their large volume and flexibility.\nThis method involves calibrating the Rheonics sensor against the temperature set in the water bath or dry well. It is imperative to wait for the sensor to stabilize, this is when the sensor's temperature output starts to vary by less than 0.1°C, this can take between 30 and 60 minutes unless you use an oven or Rheonics STCM (https://rheonics.com/product-accessories/sr-stcm-srv-and-srd-smart-thermal-control-module/). (Stabilization time is often quite long for high viscosity fluids or low thermal conductivity fluids).\nFor the DVM (https://rheonics.com/products/hpht-pvt-density-meter-viscometer-dvm/), Rheonics recommends the DTCM (https://rheonics.com/product-accessories/dtcm-dvm-thermal-control-module/).\n\nFigure 1. Calibration water bath [1]\n\nTests are performed against a reference gauge to calibrate a probe under test. The following steps are the most commonly used in calibration.\n\n*   The Rheonics sensor must be handled carefully\nRheonics sensors are robust and are unlikely to fail under normal circumstances, but always start with a visual inspection of the probe. It should be handled with caution to ensure accuracy and reliability as they are high-precision devices.\n\n*   Prepare the water bath",
+      "specifications": {
+        "temperature stabilization tolerance": "0.1°C",
+        "stabilization time": "30-60 minutes",
+        "Micro-Bath temperature range": "30 to 200°C"
+      },
+      "key_facts": [
+        "A reference standard is a physical object representing a quantity of interest, used as a unit of measurement.",
+        "For temperature measurement, reference standards can include water baths, dry wells, temperature simulators, or other calibrated instruments.",
+        "Temperature calibration baths are calibrators enclosed by a uniform fluid, capable of adjusting temperature for test points.",
+        "Rheonics sensors are calibrated against the temperature set in a water bath or dry well.",
+        "Sensor stabilization is crucial and occurs when temperature output varies by less than 0.1°C, typically taking 30-60 minutes.",
+        "Stabilization time can be longer for high viscosity or low thermal conductivity fluids.",
+        "Rheonics recommends specific thermal control modules (STCM, DTCM) for certain products like the DVM.",
+        "Calibration tests are performed against a reference gauge.",
+        "Rheonics sensors are robust but are high-precision devices that require careful handling to ensure accuracy and reliability."
+      ],
+      "diagram_labels": [
+        "Figure 1. Calibration water bath [1]",
+        "FLUKE 1502 MICRO-BATH 30 to 200°C",
+        "124.96C",
+        "SET",
+        "DOWN",
+        "UP",
+        "EXIT"
+      ],
+      "warnings_notes": [
+        "The Rheonics sensor must be handled carefully",
+        "Rheonics sensors are robust and are unlikely to fail under normal circumstances, but always start with a visual inspection of the probe. It should be handled with caution to ensure accuracy and reliability as they are high-precision devices."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 974,
+        "cost_usd": 0.0025748
+      },
+      "source_file": "136_How_to_check_the_temperature_output_on_the_Rheonics_sensors_and_calibrate_them.pdf"
+    },
+    {
+      "page_summary": "This page provides a step-by-step procedure for preparing a water bath, measuring temperature from a Rheonics sensor using RCP software, verifying analog output, and guidelines for sensor immersion depth to ensure accurate readings.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics sensor",
+        "RCP software",
+        "SRV"
+      ],
+      "extracted_text": "1. Ensure that instrument is clean and suitable for use.\n2. Ensure that the bath is powered off and that the water bath is up to the allowed mark.\n3. Power on the system.\n4. Set the desired temperature of the water bath. In general, it is better to start at the highest temperature and proceed down to the lowest temperature when calibrating over a wide temperature range.\n5. After heating the water, be careful.\n6. Power off the instrument when finished\n\n*   **Prepare the reference temperature**\n\n1.  The technician can use the internal thermometer for calibration, for this follow the recommendation of section 5. It is best if the reference thermometer is an externally calibrated probe.\n\n*   **Measuring the temperature from Rheonics sensor output signal**\n\nOpen the RCP software (https://support.rheonics.com/en/support/solutions/folders/81000211411) and check the temperature that is shown in the measurement tab. To check temperature outputs over 4-20mA channels, go to the service tab and verify that the output from channel 3-Temperature matches the expected value based on the temperature and the scaling limits.\n\n[Screenshot of Rheonics Control Panel 5.4.0.4]\n\nFigure 2. RCP software-verification of the analog output.\n\n*   **Insert the Rheonics sensor in the water bath**\n\nInsert the Rheonics sensor inside the water bath, the immersion depth is going to affect the accuracy of the readings. Technicians often recommend following these rules [5]:\n\n1.  1% accuracy - immerse 5 diameters + length of the sensing element",
+      "specifications": {
+        "sensor_serial_number": "809-0000",
+        "interface_firmware_version": "03.30/11-g9903d91",
+        "software_version": "SWV201c",
+        "channel_1_viscosity_4mA_setting": "0.00 mPa.s",
+        "channel_1_viscosity_20mA_setting": "3000.00 mPa.s",
+        "channel_2_density_4mA_setting": "0.000 g/cc",
+        "channel_2_density_20mA_setting": "1.500 g/cc",
+        "channel_3_temperature_4mA_setting": "0.00 °C",
+        "channel_3_temperature_20mA_setting": "210.00 °C",
+        "density_constant_setting": "1.000000 g/cc",
+        "channel_1_live_mA": "7.947 mA",
+        "channel_1_calibration_point_1": "4.030",
+        "channel_1_calibration_point_2": "15.975",
+        "channel_2_live_mA": "14.667 mA",
+        "channel_2_calibration_point_1": "4.010",
+        "channel_2_calibration_point_2": "16.100",
+        "channel_3_live_mA": "4.000 mA",
+        "channel_3_calibration_point_1": "5.645",
+        "channel_3_calibration_point_2": "15.913",
+        "density_polynomial_coefficient_xT^2": "0.000000",
+        "density_polynomial_coefficient_xT": "0.000000",
+        "density_polynomial_constant": "1.000000"
+      },
+      "key_facts": [
+        "It is recommended to start calibration at the highest desired temperature and proceed downwards when calibrating over a wide temperature range.",
+        "An externally calibrated probe is best for measuring the reference temperature.",
+        "The RCP software (Rheonics Control Panel) is used to verify the temperature shown in the measurement tab and to check 4-20mA temperature outputs.",
+        "The analog signal output from channel 3 (Temperature) must match the expected value based on temperature and scaling limits.",
+        "The immersion depth of the Rheonics sensor in the water bath affects the accuracy of readings.",
+        "For 1% accuracy, the sensor should be immersed 5 diameters plus the length of the sensing element."
+      ],
+      "diagram_labels": [
+        "Rheonics Control Panel 5.4.0.4",
+        "Measurement",
+        "Events",
+        "Settings",
+        "Service",
+        "Communication",
+        "Temp. Control",
+        "Scaling",
+        "Calculation",
+        "Logger",
+        "Help",
+        "System Info",
+        "Sensor S/N",
+        "Electronics S/N",
+        "Software Info",
+        "Interface FW Version",
+        "SWV201c",
+        "Update Values",
+        "Refresh",
+        "4-20 mA Settings",
+        "Channel 1",
+        "Viscosity",
+        "4 mA",
+        "20 mA",
+        "mPa.s",
+        "Update",
+        "Channel 2",
+        "Density",
+        "g/cc",
+        "Channel 3",
+        "Temperature",
+        "°C",
+        "4-20 mA Calibration Check",
+        "Live",
+        "mA",
+        "Calibrate",
+        "Test: 10 mA",
+        "Density (SRV Only)",
+        "Set Density",
+        "Constant",
+        "Temp. Dependent Density Curve (T,°C)",
+        "Density, g/cc",
+        "xT^2",
+        "xT",
+        "Write",
+        "Figure 2. RCP software-verification of the analog output.",
+        "Verify that the analog signal output from the temperature reading match the expected value by using an external calibrator or multimeter"
+      ],
+      "warnings_notes": [
+        "After heating the water, be careful.",
+        "Verify that the analog signal output from the temperature reading matches the expected value by using an external calibrator or multimeter.",
+        "The immersion depth of the Rheonics sensor inside the water bath is going to affect the accuracy of the readings."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1563,
+        "cost_usd": 0.004047299999999999
+      },
+      "source_file": "136_How_to_check_the_temperature_output_on_the_Rheonics_sensors_and_calibrate_them.pdf"
+    },
+    {
+      "page_summary": "This page outlines calibration procedures and recommendations for Rheonics SRV and SRD probes, including accuracy specifications, stabilization requirements, and proper probe placement for external calibration using a reference standard.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV probes",
+        "SRD probes",
+        "Rheonics sensor",
+        "5615 Secondary Reference Temperature Standard Probe"
+      ],
+      "extracted_text": "2. 0.01% accuracy - immerse 10 diameters + length of the sensing element\n3. 0.0001% accuracy - immerse 15 diameters + length of the sensing element\n\nThe sensing element of the SRV and SRD probes are the ø5mm part of the probes, including the tip. See more information here: for the SRV (https://support.rheonics.com/en/support/solutions/articles/81000409840-srv-x1-34n-npt-3-4-) and for the SRD (https://support.rheonics.com/en/support/solutions/articles/81000409841-srd-x1-34n-npt-3-4-).\n\n* Wait for stabilization\n\nWait for the sensor to stabilize, this is when the sensor's temperature output starts to vary by less than 0.1°C, this can take between 30 and 60 minutes.\n\n* Calibration points\n\nIn order to verify that the sensor is linear, you need to pick enough calibration points. It is usually sufficient to calibrate three to five points throughout the range. Remember to always calibrate in the temperature range that the Rheonics sensor was ordered for.\n\n4.2. External calibration probe\n\nTo calibrate using an external calibration probe instead of the internal probe from the water bath, it is important to verify that the reference probe has a traceable certificate (NIST traceable certificate or equivalent). The steps for calibration are the same as above but at the moment of inserting the Rheonics sensor in the water bath follow these recommendations:\n\n1. The reference probe should be placed in the working area of the bath.\n2. Place the probe to be calibrated as close to the reference probe as possible, without touching the bath tank surfaces.\n\nFigure 3. 5615 Secondary Reference Temperature Standard Probe [7]\n\nRecommendations:\n\n* Allow sufficient time for the probes to settle and for the bath temperature to stabilize after inserting the probes to be calibrated.\n* It is important to insert the probes at the same depth in the bath liquid. It is recommended for immersion depth to reduce the stem effect to a minimum: 20 x the diameter of the unit under test + the sensor length.",
+      "specifications": {
+        "accuracy_0.01%_immersion_depth": "10 diameters + length of the sensing element",
+        "accuracy_0.0001%_immersion_depth": "15 diameters + length of the sensing element",
+        "sensing_element_diameter": "5 mm",
+        "stabilization_temperature_variation_threshold": "< 0.1 °C",
+        "stabilization_time_range": "30 to 60 minutes",
+        "recommended_calibration_points": "3 to 5 points",
+        "minimum_immersion_depth_for_stem_effect_reduction": "20 x the diameter of the unit under test + the sensor length"
+      },
+      "key_facts": [
+        "The sensing element of the SRV and SRD probes is ø5mm, including the tip.",
+        "Sensor stabilization is achieved when the temperature output varies by less than 0.1°C.",
+        "Sensor stabilization can take between 30 and 60 minutes.",
+        "To verify sensor linearity, it is usually sufficient to calibrate at three to five points throughout the range.",
+        "Always calibrate the Rheonics sensor in the temperature range it was ordered for.",
+        "When using an external calibration probe, the reference probe must have a traceable certificate (NIST traceable or equivalent).",
+        "The reference probe should be placed in the working area of the bath.",
+        "The probe being calibrated should be placed as close to the reference probe as possible, without touching the bath tank surfaces.",
+        "Sufficient time must be allowed for probes to settle and bath temperature to stabilize after insertion.",
+        "Probes must be inserted at the same depth in the bath liquid to minimize the stem effect."
+      ],
+      "diagram_labels": [
+        "Figure 3. 5615 Secondary Reference Temperature Standard Probe [7]"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1061,
+        "cost_usd": 0.0027923
+      },
+      "source_file": "136_How_to_check_the_temperature_output_on_the_Rheonics_sensors_and_calibrate_them.pdf"
+    },
+    {
+      "page_summary": "This page provides guidance and recommendations for minimizing temperature differences during the calibration of Rheonics sensors, particularly regarding the use of reference probes and calibration baths, and includes a diagram illustrating the proper sensor placement.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics sensor cable",
+        "Rheonics sensor"
+      ],
+      "extracted_text": "It is not recommended to submerge probe handles or Rheonics sensor cable (M12 connector) in water.\nReference probes and calibrators need to be themselves calibrated and should have a calibration certificate.\n\n5. What can cause the difference between the calibration bath, reference probe, and a Rheonics sensor?\n\n* Ensure that the temperature reading is uniform between the external probe and the Rheonics sensor. Reaching this uniformity can take 30 minutes to 1 hour (even more with high-viscosity fluid).\n* In order to use an external reference sensor, you need to insert it into a suitable hole. By inserting the external reference sensor, it can measure the same temperature as the calibrated sensors more precisely.\n* It would be ideal if the reference sensor shared the same thermal characteristics as the calibration sensors (the same size and thermal conductance). The external reference sensor and the sensor to be calibrated will more accurately follow temperature changes as the insert temperature changes.\n* During the calibration, you should ensure that your reference sensor is inserted to the same depth as the sensor(s) to be calibrated. If you know the lengths and the locations of the sensing elements, try to align the centers horizontally. In Figure 4, the first picture shows the best calibration results when both sensors reach the bottom of the insert.",
+      "specifications": {
+        "temperature uniformity stabilization time": "30 minutes to 1 hour"
+      },
+      "key_facts": [
+        "Reference probes and calibrators must be calibrated and should possess a calibration certificate.",
+        "Achieving temperature uniformity between an external probe and a Rheonics sensor in a calibration bath can take 30 minutes to 1 hour, with longer times required for high-viscosity fluids.",
+        "To use an external reference sensor effectively, it should be inserted into a suitable hole to measure the same temperature as the calibrated sensors more precisely.",
+        "For optimal temperature tracking, it is ideal for the external reference sensor to share similar thermal characteristics (size and thermal conductance) with the calibration sensors.",
+        "During calibration, the reference sensor must be inserted to the same depth as the sensor(s) to be calibrated, and their sensing elements should be horizontally aligned for the best calibration results, as illustrated in Figure 4."
+      ],
+      "diagram_labels": [
+        "Temperature Block",
+        "Insert",
+        "External reference sensor",
+        "Sensor to be calibrated"
+      ],
+      "warnings_notes": [
+        "It is not recommended to submerge probe handles or Rheonics sensor cable (M12 connector) in water."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 653,
+        "cost_usd": 0.0017723
+      },
+      "source_file": "136_How_to_check_the_temperature_output_on_the_Rheonics_sensors_and_calibrate_them.pdf"
+    },
+    {
+      "page_summary": "This page explains the concepts of axial and radial temperature homogeneity (uniformity) within a temperature calibration block, illustrating potential temperature differences along the length of borings and between adjacent borings.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Figure 4. Sensor and external reference at same depths. [2]\n\n*   Procure **axial temperature homogeneity**, The difference in temperature along the vertical length of the boring in the insert is known as axial homogeneity (or axial uniformity). There may be a slight temperature difference at the bottom of the boring compared to the temperature at the top of the boring.\n\n    Usually, if the block's temperature is very different from the ambient temperature, then the temperature will be different at the very top of the insert.\n\nFigure 5. Axial temperature homogeneity[2]\n\n*   **Radial uniformity**, \"Radial uniformity\" refers to the temperature difference between each boring (hole) in the insert. There can still be a small difference between two borings, especially if the opposite boring is made of metal compounds and has good thermal conductivity.",
+      "specifications": {},
+      "key_facts": [
+        "Axial temperature homogeneity (or axial uniformity) is defined as the difference in temperature along the vertical length of the boring in an insert.",
+        "A slight temperature difference may exist between the bottom and top of a boring.",
+        "If the block's temperature significantly differs from the ambient temperature, the temperature at the very top of the insert will also be different.",
+        "Radial uniformity refers to the temperature difference between individual borings (holes) in an insert.",
+        "A small radial temperature difference can occur between two borings, particularly if an opposing boring is constructed from metal compounds with good thermal conductivity."
+      ],
+      "diagram_labels": [
+        "Axial temperature homogeneity"
+      ],
+      "warnings_notes": [],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 431,
+        "cost_usd": 0.0012173000000000002
+      },
+      "source_file": "136_How_to_check_the_temperature_output_on_the_Rheonics_sensors_and_calibrate_them.pdf"
+    },
+    {
+      "page_summary": "This page illustrates and explains the concept of temperature leakage and its influencing factors in a block with inserted sensors.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Figure 6. The temperature difference between the borings. [2]\n\n• Influence of loading, When the block's temperature differs from the ambient temperature, some heat is conducted through the sensors to the environment (stem conductance).\n\nIn the case of multiple sensors installed in the insert, more temperature will be \"leaked\" to the environment.\nTemperature leakage will also increase with thicker sensors.\n\nThe greater the temperature difference between the insert and the environment, the greater the leakage.",
+      "specifications": {},
+      "key_facts": [
+        "When a block's temperature differs from the ambient temperature, heat is conducted through the sensors to the environment, a phenomenon called stem conductance.",
+        "If multiple sensors are installed in an insert, more temperature will leak to the environment.",
+        "Temperature leakage increases with thicker sensors.",
+        "The magnitude of temperature leakage is directly proportional to the temperature difference between the insert and the environment."
+      ],
+      "diagram_labels": [
+        "Temperature difference between borings"
+      ],
+      "warnings_notes": [],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 296,
+        "cost_usd": 0.0008798
+      },
+      "source_file": "136_How_to_check_the_temperature_output_on_the_Rheonics_sensors_and_calibrate_them.pdf"
+    },
+    {
+      "page_summary": "This page explains the influence of thermal load on temperature measurements, the time required for system temperature stabilization, and the process of calibrating and scaling temperature and other parameters for Rheonics sensors using Rheonics RCP software.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics sensors",
+        "Rheonics software RCP",
+        "Fluke Calibration 6102/7102/7103 Micro-Bath"
+      ],
+      "extracted_text": "Figure 7. Influence of the load.[2]\n\nThe temperature sensor only measures its own temperature. Consequently, it won't measure the temperature where it's installed, but it will monitor its own. As the temperature changes slowly from the surrounding to the temperature sensor itself, it takes some time for all parts of the system to stabilize to the same temperature, i.e. reach equilibrium.\n\n6. Calibrating and scaling temperature for Rheonics Sensors\n\nRheonics sensors output different parameters like viscosity, density, temperature, kinematic viscosity, concentration etc. depending on the sensor used and configuration.\nRheonics software RCP is included with the sensor purchase and allows data visualization, sensor configuration, access to sensor log files, sensor scaling, etc.\nFollow this article on how to scale Rheonics parameters, like temperature, using Rheonics RCP Software.\n(https://support.rheonics.com/en/support/solutions/articles/81000397454-scaling-how-to-create-correlation-between-lab-and-inline-measurements-)\n\nReferences:\n[1] Fluke Calibration 6102/7102/7103 Micro-Bath (https://www.fluke.com/en-us/product/calibration-tools/temperature-calibrators/fluke-calibration-6102-7102-7103)\n[2] Uncertainty components of a temperature calibration using a dry block (https://blog.beamex.com/uncertainty-components-temperature-calibration-dry-block)\n[3] 3 methods for calibrating temperature sensors: pros & cons (https://us.flukecal.com/blog/three-methods-calibrating-temperature-sensors-pros-cons#:~:text=There%20are%20three%20common%20methods,well%20with%20a%20reference%20thermometer)",
+      "specifications": {},
+      "key_facts": [
+        "A temperature sensor measures its own temperature, not necessarily the temperature of its installation environment.",
+        "When the surrounding temperature changes slowly, it takes time for all parts of a system to reach thermal equilibrium.",
+        "Rheonics sensors can output various parameters, including viscosity, density, temperature, kinematic viscosity, and concentration, depending on the sensor and its configuration.",
+        "Rheonics software RCP is bundled with the sensor purchase, providing features such as data visualization, sensor configuration, access to log files, and sensor scaling.",
+        "Rheonics parameters, including temperature, can be scaled using the Rheonics RCP Software."
+      ],
+      "diagram_labels": [
+        "Stem Conductance/Load Effect"
+      ],
+      "warnings_notes": [],
+      "page_num": 8,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 735,
+        "cost_usd": 0.0019773
+      },
+      "source_file": "136_How_to_check_the_temperature_output_on_the_Rheonics_sensors_and_calibrate_them.pdf"
+    },
+    {
+      "page_summary": "This page provides a list of external references related to temperature sensor calibration and measurement standards, followed by a general disclaimer regarding the use of images and information.",
+      "document_type": "notes",
+      "product_names": [
+        "5615 Secondary Reference Temperature Standard"
+      ],
+      "extracted_text": "[4] How to Calibrate Temperature Sensors & Electronics -3 Methods (https://us.flukecal.com/literature/on-demand-webinars/how-calibrate-temperature-sensors-and-electronics-using-three-common-m)\n[5] How to calibrate temperature sensors (https://blog.beamex.com/how-to-calibrate-temperature-sensors)\n[6] Temperature Measurement Standards - Standards Products - Standards & Publications - Products & Services (https://www.astm.org/products-services/standards-and-publications/standards/temperature-measurement-standards.html)\n[7] 5615 Secondary Reference Temperature Standards (https://us.flukecal.com/products/temperature-calibration/probes-sensors/platinum-resistance-thermometers-prts/5615-secondary?quicktabs_product_details=2)\n\nDISCLAIMER\nPictures, photos and images used are for illustration purposes and do not constitute any warranty or assertions on the suitability of use and should not be construed as an explicit or implicit recommendation or endorsement. All illustrations are given proper credit from our source of access and by their use here we do not specify or establish any copyright which belongs and stays unaffected with the existing copyright holder of that material",
+      "specifications": {},
+      "key_facts": [
+        "External resources are provided for calibrating temperature sensors and understanding temperature measurement standards.",
+        "The 5615 Secondary Reference Temperature Standard is mentioned with a link to its product page.",
+        "Images on the page are for illustration purposes only and do not imply warranty or endorsement.",
+        "All illustrations are credited to their source, and their use does not affect existing copyrights."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "DISCLAIMER: Pictures, photos and images used are for illustration purposes and do not constitute any warranty or assertions on the suitability of use and should not be construed as an explicit or implicit recommendation or endorsement.",
+        "All illustrations are given proper credit from our source of access and by their use here we do not specify or establish any copyright which belongs and stays unaffected with the existing copyright holder of that material."
+      ],
+      "page_num": 9,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 565,
+        "cost_usd": 0.0015523
+      },
+      "source_file": "136_How_to_check_the_temperature_output_on_the_Rheonics_sensors_and_calibrate_them.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

@@ -1,0 +1,535 @@
+{
+  "source_file": "240_How_to_create_log_files.pdf",
+  "total_pages": 9,
+  "chunks": [
+    {
+      "page_summary": "This page provides instructions on how to create log files using the Rheonics Control Panel software, detailing the steps and illustrating the process with a screenshot of the software interface.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel S.3.1.6"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nHow to create log files?\nModified on: Thu, 28 Apr, 2022 at 4:54 PM\n\n1. How to create log files?\nLogging data points is an useful tool in the process management, since this measure data can be used for further analysis and review.\n1.1. Go to the “Measurement” tab and to the “Log Measurements” box.\n\nRheonics Control Panel S.3.1.6\nMeasurement | Events | Settings | Service | Diagnostics | Communication | Scaling | Calculation | Logger | Help\n\nMeasured Values\nViscosity: 0.050 mPa.s\nDensity: 1.00 g/cc\nTemperature: 23.68 °C\nPressure: 1.00 bar\n\nStatus\nRunning ... E00\nLogging: Stopped\nPressure: Manual\nManual entry: 1 bar\n\nLog Measurements\nSample Name:\nStart Logging\nAdd Event\n...\n\nSensor Information\nSerial Number: BJBW-B00-0000\nFres: 7419.73 Hz\ndf: 1.49 Hz\n\nFigure 1. Log Measurement Box, in this place is created the log file",
+      "specifications": {
+        "Viscosity": "0.050 mPa.s",
+        "Density": "1.00 g/cc",
+        "Temperature": "23.68 °C",
+        "Pressure": "1.00 bar",
+        "Serial Number": "BJBW-B00-0000",
+        "Fres": "7419.73 Hz",
+        "df": "1.49 Hz"
+      },
+      "key_facts": [
+        "Logging data points is an useful tool in process management for further analysis and review.",
+        "To create log files, users should navigate to the 'Measurement' tab and then the 'Log Measurements' box in the Rheonics Control Panel software.",
+        "The document was last modified on Thursday, April 28, 2022, at 4:54 PM.",
+        "The software version depicted is Rheonics Control Panel S.3.1.6."
+      ],
+      "diagram_labels": [
+        "Rheonics Control Panel S.3.1.6",
+        "Measurement",
+        "Events",
+        "Settings",
+        "Service",
+        "Diagnostics",
+        "Communication",
+        "Scaling",
+        "Calculation",
+        "Logger",
+        "Help",
+        "Measured Values",
+        "Viscosity",
+        "Density",
+        "Temperature",
+        "Pressure",
+        "Status",
+        "Running ...",
+        "E00",
+        "Logging",
+        "Stopped",
+        "Manual",
+        "Manual entry",
+        "Log Measurements",
+        "Sample Name",
+        "Start Logging",
+        "Add Event",
+        "Sensor Information",
+        "Serial Number",
+        "Fres",
+        "df",
+        "Viscosity [mPa.s]",
+        "Density [g/cc]",
+        "Temperature [°C]",
+        "Pressure [bar]",
+        "hh:mm:ss"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 872,
+        "cost_usd": 0.0023198
+      },
+      "source_file": "240_How_to_create_log_files.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions and screenshots for using the Rheonics Control Panel software (version 5.3.1.6) to log data from inline viscometers and density sensors.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel 5.3.1.6"
+      ],
+      "extracted_text": "1.2. Before starting data logging, enter a sample name in the “Sample Name” box\nRheonics Control Panel 5.3.1.6\n\n[Tabs: Measurement, Events, Settings, Service, Diagnostics, Communication, Scaling, Calculation, Logger, Help]\n\nMeasured Values\nViscosity: 0.051 mPa.s [up/down arrows]\nDensity: 1.00 g/cc [up/down arrows]\nTemperature: 23.68 °C [up/down arrows]\nPressure: 1.00 bar [up/down arrows]\n\nStatus\n[Green dot] Running ... E00\nLogging: Stopped\nPressure: Manual\n[Checkbox] Manual entry: 1 bar\n\nLog Measurements\nSample Name: test1\nStart Logging [button]\nAdd Event [button]\n[File path box]: ...\n\nSensor Information\nSerial Number: BJBw-B00-0000\nFres: 7419.73 Hz\ndf: 1.49 Hz\n\n[Graph 1]\nY-axis Left: Viscosity [mPa.s]\nY-axis Right: Density [g/cc]\nX-axis: hh:mm:ss\nTime Range: 22:54:44 to 23:28:03\n\n[Graph 2]\nY-axis Left: Temperature [°C]\nY-axis Right: Pressure [bar]\nX-axis: hh:mm:ss\nTime Range: 22:54:44 to 23:28:03\n\nFigure 2. Log file name.\n\n1.3.When the “Start Logging” button is clicked, a file dialog pops up asking for a log file path.\nRheonics Control Panel 5.3.1.6\n\n[Tabs: Measurement, Events, Settings, Service, Diagnostics, Communication, Scaling, Calculation, Logger, Help]\n\nMeasured Values\nViscosity: 0.051 mPa.s [up/down arrows]\nDensity: 1.00 g/cc [up/down arrows]\nTemperature: 23.68 °C [up/down arrows]\nPressure: 1.00 bar [up/down arrows]\n\nStatus\n[Green dot] Running ... E00\nLogging: Stopped\nPressure: Manual\n[Checkbox] Manual entry: 1 bar\n\nLog Measurements\nSample Name: [empty input box]\nStart Logging [button, highlighted]\nAdd Event [button]\n[File path box]: ...\n\nSensor Information\nSerial Number: BJBw-B00-0000\nFres: 7419.74 Hz\ndf: 1.49 Hz\n\n[Graph 1]\nY-axis Left: Viscosity [mPa.s]\nY-axis Right: Density [g/cc]\nX-axis: hh:mm:ss\nTime Range: 22:54:40 to 23:27:59\n\n[Graph 2]\nY-axis Left: Temperature [°C]\nY-axis Right: Pressure [bar]\nX-axis: hh:mm:ss\nTime Range: 22:54:40 to 23:27:59\n\nFigure 3. Click-in “Start Logging Button”",
+      "specifications": {
+        "Viscosity": "0.051 mPa.s",
+        "Density": "1.00 g/cc",
+        "Temperature": "23.68 °C",
+        "Pressure": "1.00 bar",
+        "Fres": "7419.73 Hz",
+        "df": "1.49 Hz"
+      },
+      "key_facts": [
+        "The Rheonics Control Panel software (version 5.3.1.6) is used to control and log data from sensors.",
+        "Users must enter a sample name into the 'Sample Name' box before initiating data logging.",
+        "Clicking the 'Start Logging' button will prompt the user to specify a file path for saving the log data.",
+        "The software displays real-time measurements for viscosity, density, temperature, and pressure.",
+        "Sensor information, including serial number (BJBw-B00-0000), resonant frequency (Fres), and frequency delta (df), is displayed."
+      ],
+      "diagram_labels": [
+        "Viscosity [mPa.s]",
+        "Density [g/cc]",
+        "Temperature [°C]",
+        "Pressure [bar]",
+        "hh:mm:ss"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1197,
+        "cost_usd": 0.0031322999999999998
+      },
+      "source_file": "240_How_to_create_log_files.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions on how to save measurement data logs using the Rheonics Control Panel software, including details on the default file naming convention and a visual representation of the software interface during logging.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel 5.3.1.6"
+      ],
+      "extracted_text": "1.4. The default name is YYYYMMDDHHMMSS where the first 8 characters are a date code, and the next 6 are a time code. This can be changed to a user provided name. Click “ok” and a data log file will be created Software will start recording the measurement data in that file.\n\nFigure 4. Selecting file path to save data log.\n\nSave measurement log file as\nThis PC > Desktop > testarticle\nOrganize ▼\nNew folder\nDownloads\nDocuments\nPictures\nDropbox (Rheonics)\nchallenge\nchallenge rcp\nModbus Poll\nRheonicsControl\nDropbox (Rheonics)\nThis PC\n3D Objects\nDesktop\nSearch testarticle\nName\nDate modified\nType\nSize\nNo items match your search.\nFile name: 008230622_test1\nmeasurement file (*.txt)\nOK\nCancel\n\n1.5. The folder and the log file name is shown in the path box.\n\nFigure 5. Path file created to save the log files\n\nRheonics Control Panel 5.3.1.6\nMeasurement | Events | Settings | Service | Communication | Logger | Help\n\nMeasured Values\nViscosity: not connected\nDensity: not connected\nTemperature: not connected\nPressure: not connected\n\nStatus\nError: not connected E99\nLogging: Running\nPressure: Manual\nManual entry: 1 bar\n\nLog Measurements\nSample Name: test1\nStop Logging\nAdd Event\nC:\\Users\\...net\\008230622_test1_log.txt\n\nSensor Information\nSerial Number: - no sn -\nFres: - df -",
+      "specifications": {
+        "Viscosity_unit": "mPa.s",
+        "Density_unit": "g/cc",
+        "Temperature_unit": "°C",
+        "Pressure_unit": "bar",
+        "Time_format": "hh:mm:ss"
+      },
+      "key_facts": [
+        "The default data log file name uses the YYYYMMDDHHMMSS format, where the first 8 characters represent a date code and the next 6 represent a time code.",
+        "Users can change the default data log file name to a custom name.",
+        "Clicking 'OK' in the save dialog creates a data log file and initiates the software to record measurement data into it.",
+        "The Rheonics Control Panel software displays measured values for Viscosity, Density, Temperature, and Pressure.",
+        "The software's status panel indicates connection errors (e.g., E99) and whether logging is running.",
+        "Pressure can be set to 'Manual' with a manual entry value.",
+        "The software shows the path and name of the log file being created, for example, C:\\Users\\...net\\008230622_test1_log.txt.",
+        "Sensor information includes fields for Serial Number (sn) and Fres (df)."
+      ],
+      "diagram_labels": [
+        "Save measurement log file as",
+        "This PC",
+        "Desktop",
+        "testarticle",
+        "Organize",
+        "New folder",
+        "Downloads",
+        "Documents",
+        "Pictures",
+        "Dropbox (Rheonics)",
+        "challenge",
+        "challenge rcp",
+        "Modbus Poll",
+        "RheonicsControl",
+        "3D Objects",
+        "Search testarticle",
+        "Name",
+        "Date modified",
+        "Type",
+        "Size",
+        "No items match your search.",
+        "File name",
+        "008230622_test1",
+        "measurement file (*.txt)",
+        "OK",
+        "Cancel",
+        "Rheonics Control Panel 5.3.1.6",
+        "Measurement",
+        "Events",
+        "Settings",
+        "Service",
+        "Communication",
+        "Logger",
+        "Help",
+        "Measured Values",
+        "Viscosity",
+        "not connected",
+        "Density",
+        "Temperature",
+        "Pressure",
+        "Status",
+        "Error: not connected",
+        "E99",
+        "Logging",
+        "Running",
+        "Manual",
+        "Manual entry",
+        "1 bar",
+        "Log Measurements",
+        "Sample Name",
+        "test1",
+        "Stop Logging",
+        "Add Event",
+        "C:\\Users\\...net\\008230622_test1_log.txt",
+        "Sensor Information",
+        "Serial Number",
+        "- no sn -",
+        "Fres",
+        "-",
+        "df",
+        "Viscosity [mPa.s]",
+        "Density [g/cc]",
+        "Temperature [°C]",
+        "Pressure [bar]",
+        "hh:mm:ss",
+        "00:00:01",
+        "00:01:23"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1293,
+        "cost_usd": 0.0033723
+      },
+      "source_file": "240_How_to_create_log_files.pdf"
+    },
+    {
+      "page_summary": "This page details how to create an event and snapshot within the Rheonics Control Panel software, illustrating the process with a screenshot of the user interface and accompanying instructions.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel 5.3.1.6"
+      ],
+      "extracted_text": "2. Creating an Event and Snapshot\n2.1. At any time if need to be, events can be added to a log file - for example a change in the measurement condition or modifying the fluid under test. To create an event, click the button “Add Event”\n\nRheonics Control Panel 5.3.1.6\n\nMenu Tabs:\nMeasurement\nEvents\nSettings\nService\nDiagnostics\nCommunication\nScaling\nCalculation\nLogger\nHelp\n\nMeasured Values:\nViscosity: 0.051 mPa.s\nDensity: 1.00 g/cc\nTemperature: 23.68 °C\nPressure: 1.00 bar\n\nStatus:\nRunning ... E00\nLogging: Running\nPressure: Manual\nManual entry: 1 bar\n\nLog Measurements:\nSample Name: test1\nStop Logging (button)\nAdd Event (button)\n... (text field)\n\nSensor Information:\nSerial Number: BJBW-B00-0000\nFres: 7419.75 Hz\ndf: 1.48 Hz\n\nFigure 6. Click the “Add Event” to create an event in the log file.",
+      "specifications": {
+        "Viscosity": "0.051 mPa.s",
+        "Density": "1.00 g/cc",
+        "Temperature": "23.68 °C",
+        "Pressure": "1.00 bar",
+        "Manual Entry Pressure": "1 bar",
+        "Fres": "7419.75 Hz",
+        "df": "1.48 Hz"
+      },
+      "key_facts": [
+        "Events can be added to a log file to mark changes in measurement conditions or fluid modifications.",
+        "To create an event, the user must click the “Add Event” button.",
+        "The software interface shows real-time measurements for viscosity, density, temperature, and pressure.",
+        "The system is currently running and logging data."
+      ],
+      "diagram_labels": [
+        "Rheonics Control Panel 5.3.1.6",
+        "Measurement",
+        "Events",
+        "Settings",
+        "Service",
+        "Diagnostics",
+        "Communication",
+        "Scaling",
+        "Calculation",
+        "Logger",
+        "Help",
+        "Measured Values",
+        "Viscosity",
+        "Density",
+        "Temperature",
+        "Pressure",
+        "Status",
+        "Running ...",
+        "E00",
+        "Logging",
+        "Manual",
+        "Manual entry",
+        "Log Measurements",
+        "Sample Name",
+        "test1",
+        "Stop Logging",
+        "Add Event",
+        "Sensor Information",
+        "Serial Number",
+        "BJBW-B00-0000",
+        "Fres",
+        "df",
+        "Viscosity [mPa.s]",
+        "Density [g/cc]",
+        "Temperature [°C]",
+        "Pressure [bar]",
+        "hh:mm:ss"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 826,
+        "cost_usd": 0.0022048
+      },
+      "source_file": "240_How_to_create_log_files.pdf"
+    },
+    {
+      "page_summary": "This page illustrates the process of adding and verifying an event tag within the Rheonics Control Panel software, displaying real-time sensor measurements and logged data.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel 5.3.1.6"
+      ],
+      "extracted_text": "2.2.Fill the box with a description that match the current state of the process.\n\nRheonics Control Panel 5.3.1.6\nMeasurement Events Settings Service Diagnostics Communication Scaling Calculation Logger Help\n\nMeasured Values\nViscosity 0.048 mPa.s\nDensity 1.00 g/cc\nTemperature 23.68 °C\nPressure 1.00 bar\n\nStatus\nRunning...\nLogging Running\nPressure Manual\nManual entry (checked)\n\nEvent Description (window title)\nTimestamp: 23:06:38\n10/8/2021\nEvent Tag: Event_1\n[Text input field with value: \"This is a test\"]\nOK (button)\n\nLog Measurements\nSample Name test1\nStop Logging (button)\nAdd Event (button)\n[...] (file path field)\n\nSensor Information\nSerial Number BJBW-B00-0000\nFres 7419.77 Hz\ndf 1.48 Hz\n\nFigure 7. Creating an event tag.\n\n2.3.Check the event has been registered in the “Events” tab.\n\nRheonics Control Panel 5.3.1.6\nMeasurement Events Settings Service Diagnostics Communication Scaling Calculation Logger Help\n\nEvents (tab content)\nDate Time Tag Description\n10/8/2021 23:06:38 Event_1 This is a test\n\nLast Received String From SME\nBJBW-B00-0000 03.20/4-g0bc7d04 19101698 T 23.676001 f 7419.766113 df 1.511719 Fv 541 ph 22 V 0.047928 D 1.000000 P 1.000000 fc 7419.766113 I- 1 I+ 1 Q_0.981189 fr 7419.750977 df- 7419.012695 df+ 7420.503906 Tc nan Tp 23.674999 Te 63.202148 E 00 A 3",
+      "specifications": {
+        "Viscosity": "0.048 mPa.s",
+        "Density": "1.00 g/cc",
+        "Temperature": "23.68 °C",
+        "Pressure": "1.00 bar",
+        "Sensor Serial Number": "BJBW-B00-0000",
+        "Sensor Fres": "7419.77 Hz",
+        "Sensor df": "1.48 Hz"
+      },
+      "key_facts": [
+        "The Rheonics Control Panel version 5.3.1.6 is used for monitoring and logging sensor data.",
+        "The system displays real-time measurements for viscosity, density, temperature, and pressure.",
+        "Users can add custom event tags with descriptions, timestamps, and dates (e.g., 10/8/2021 at 23:06:38 with tag 'Event_1' and description 'This is a test') to mark specific process states or observations.",
+        "Logged events are recorded and viewable in the 'Events' tab of the control panel, showing date, time, tag, and description.",
+        "The system provides sensor information including serial number, resonant frequency (Fres), and frequency differential (df).",
+        "Logging status indicates the system is currently 'Running', and pressure control is set to 'Manual'.",
+        "A detailed 'Last Received String From SME' provides raw sensor data including values for temperature (T), frequency (f), delta frequency (df), fluid viscosity (Fv), phase (ph), voltage (V), density (D), pressure (P), corrected frequency (fc), and other parameters."
+      ],
+      "diagram_labels": [
+        "Viscosity [mPa.s]",
+        "Density [g/cc]",
+        "Temperature [°C]",
+        "Pressure [bar]",
+        "hh:mm:ss",
+        "0.049",
+        "0.050",
+        "0.051",
+        "0.052",
+        "-0.90",
+        "-0.92",
+        "-0.94",
+        "-0.96",
+        "-0.98",
+        "-1.00",
+        "-1.02",
+        "-1.04",
+        "-1.06",
+        "-1.08",
+        "-1.10",
+        "23:28:23",
+        "23.67",
+        "23.68",
+        "23.69",
+        "23.70",
+        "23.71",
+        "23.72",
+        "23.73",
+        "23.74",
+        "23.75",
+        "23.76",
+        "23.77",
+        "22:55:04"
+      ],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1355,
+        "cost_usd": 0.0035273
+      },
+      "source_file": "240_How_to_create_log_files.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions on how to create a snapshot of logged measurement data and how to stop the logging process within a software interface, accompanied by screenshots.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Figure 8. Event tag added to “Events” tab.\n\n2.4. Sometimes in long logging runs, it is desirable to see a “snapshot” of the data collected up to a given time without interrupting the logging process. This can be done by clicking on the button to the right of the log file path box.\n\nLog Measurements\nSample Name: test1\nStop Logging\nAdd Event\n-211014122100_test1_log.txt\n\nFigure 9. Snapshot button\n\n2.5. Once the “Snapshot” button is click, the “Measurement log file copy” menu will open showing the buttons in figure 10.\n\nMeasurement log file copy\nCreated the following copy of the measurement log file:\nC:\\Users\\...ntrolPanel\\10142021_1421_ - no sn - _211014122100_test1_log.txt\nOpen File\nOpen Folder\nClose\n\nFigure 10. Log file copy after taking snapshot\n\n3. Stop Logging\n\n3.1. Clicking the “Stop Logging” button will stop the logging.",
+      "specifications": {},
+      "key_facts": [
+        "A snapshot of collected data can be obtained during long logging runs without interrupting the logging process by clicking a button next to the log file path box.",
+        "Clicking the snapshot button opens a 'Measurement log file copy' menu.",
+        "The 'Measurement log file copy' menu displays the path to the copied log file and offers 'Open File', 'Open Folder', and 'Close' options.",
+        "Clicking the 'Stop Logging' button will terminate the logging process."
+      ],
+      "diagram_labels": [
+        "Log Measurements",
+        "Sample Name",
+        "test1",
+        "Stop Logging",
+        "Add Event",
+        "-211014122100_test1_log.txt",
+        "Measurement log file copy",
+        "Created the following copy of the measurement log file:",
+        "C:\\Users\\...ntrolPanel\\10142021_1421_ - no sn - _211014122100_test1_log.txt",
+        "Open File",
+        "Open Folder",
+        "Close"
+      ],
+      "warnings_notes": [],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 631,
+        "cost_usd": 0.0017173000000000002
+      },
+      "source_file": "240_How_to_create_log_files.pdf"
+    },
+    {
+      "page_summary": "This page displays screenshots of the Rheonics Control Panel software, demonstrating real-time sensor data measurement, data logging functionality, and the resulting log files generated by the system.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel 5.3.1.6"
+      ],
+      "extracted_text": "Rheonics Control Panel 5.3.1.6\nMeasurement | Events | Settings | Service | Diagnostics | Communication | Scaling | Calculation | Logger | Help\n\nMeasured Values\nViscosity: 0.051 mPa.s\nDensity: 1.00 g/cc\nTemperature: 23.68 °C\nPressure: 1.00 bar\n\nStatus\nRunning ... E00\nLogging: Running\nPressure: Manual\nManual entry: 1 bar\n\nLog Measurements\nSample Name: test1\nStop Logging\nAdd Event\n\nSensor Information\nSerial Number: BJBw-B00-0000\nFres: 7419.73 Hz\ndf: 1.46 Hz\n\nGraph 1 (Top):\nY-axis (left): Viscosity [mPa.s] (0.046 to 0.052)\nY-axis (right): Density [g/cc] (-0.90 to -1.10)\nX-axis: hh:mm:ss (22:54:56 to 23:28:15)\n\nGraph 2 (Bottom):\nY-axis (left): Temperature [°C] (23.67 to 23.79)\nY-axis (right): Pressure [bar] (-0.92 to -1.10)\nX-axis: hh:mm:ss (22:54:56 to 23:28:15)\n\nFigure 11. Stop Logging\n\n3.2. Checking the log files created in the file path\n\nFile Explorer Window:\nPath: > testarticle\nQuick access:\n  Desktop\n  Downloads\n  Documents\n  Pictures\n  Dropbox (Rheonics)\n  challenge\n  challenge rcp\n  Modbus Poll\n  RheonicsControlPanel\n\nFiles in 'testarticle':\n  Name: BJBw-B00-0000_211008230622_test1_debug.txt\n    Date modified: 10/8/2021 11:06 PM\n    Type: Text Document\n    Size: 2 KB\n  Name: BJBw-B00-0000_211008230622_test1_events.txt\n    Date modified: 10/8/2021 11:06 PM\n    Type: Text Document\n    Size: 1 KB\n  Name: BJBw-B00-0000_211008230622_test1_log.txt\n    Date modified: 10/8/2021 11:06 PM\n    Type: Text Document\n    Size: 3 KB\n\nFigure 12. Log files created in a log function.",
+      "specifications": {
+        "Viscosity": "0.051 mPa.s",
+        "Density": "1.00 g/cc",
+        "Temperature": "23.68 °C",
+        "Pressure": "1.00 bar",
+        "Fres": "7419.73 Hz",
+        "df": "1.46 Hz",
+        "Debug_Log_File_Size": "2 KB",
+        "Events_Log_File_Size": "1 KB",
+        "Main_Log_File_Size": "3 KB"
+      },
+      "key_facts": [
+        "The Rheonics Control Panel software version is 5.3.1.6.",
+        "The software displays real-time measured values for viscosity, density, temperature, and pressure.",
+        "Data logging is active and running, with a sample named 'test1' in progress.",
+        "The system is connected to a sensor with serial number BJBw-B00-0000.",
+        "Manual pressure entry is set to 1 bar.",
+        "The software creates three types of log files: debug, events, and a main log file, all timestamped and including the sensor's serial number and sample name.",
+        "The provided timestamps indicate data logging occurred around 22:54:56 to 23:28:15, and log files were modified at 10/8/2021 11:06 PM.",
+        "Graphs visualize the trends of viscosity, density, temperature, and pressure over time."
+      ],
+      "diagram_labels": [
+        "Viscosity [mPa.s]",
+        "Density [g/cc]",
+        "Temperature [°C]",
+        "Pressure [bar]",
+        "hh:mm:ss",
+        "Name",
+        "Date modified",
+        "Type",
+        "Size"
+      ],
+      "warnings_notes": [],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1245,
+        "cost_usd": 0.0032522999999999996
+      },
+      "source_file": "240_How_to_create_log_files.pdf"
+    },
+    {
+      "page_summary": "This page illustrates the structure and content of Rheonics log, event, and debug files, showing sensor data, system configuration, and user-generated events.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel"
+      ],
+      "extracted_text": "3.3. Data available in the log like the start log time, sensor type, serial number, log name, communication and software version appear along each data point.\n\nBJB-B00-0000_211008230622_test1_log.txt - Notepad\nFile Edit Format View Help\nStart Log: 10/8/2021 11:06 PM\nSensor: SRV\nSensor Serial Number: BJB-B00-0000\nSME Serial Number: 19101698\nSample Name: test1\nCommunication mode: USB (COM18)\nOperator Name: Rheonics\nOperator Client:\nRheonics Control Panel 5.3.1.6\n\nDate Timestamp Abs Timestamp Rel [s] Viscosity [mPa.s] Density [g/cc] Tem\n08-Oct-21 23:06:31 2.1 0.051 1.00 23.68 1.00 NaN nc 741\n08-Oct-21 23:06:32 3.2 0.051 1.00 23.68 1.00 NaN nc 741\n08-Oct-21 23:06:33 4.2 0.051 1.00 23.68 1.00 NaN nc 741\n08-Oct-21 23:06:34 5.2 0.051 1.00 23.68 1.00 NaN nc 741\n08-Oct-21 23:06:35 6.3 0.051 1.00 23.68 1.00 NaN nc 741\n08-Oct-21 23:06:36 7.4 0.051 1.00 23.68 1.00 NaN nc 741\n08-Oct-21 23:06:37 8.4 0.051 1.00 23.68 1.00 NaN nc 741\n08-Oct-21 23:06:38 9.5 0.051 1.00 23.68 1.00 NaN nc 741\n08-Oct-21 23:06:39 10.6 0.048 1.00 23.68 1.00 NaN nc 741\n\nWindows (CRLF) Ln 1, Col 1 100%\n\nFigure 13. Data points in Log file\n\n3.4. Data created in the event file. Here the event created by the user or alarms are listed.\n\nBJB-B00-0000_211008230622_test1_events.txt - Notepad\nFile Edit Format View Help\n08-Oct-21 23:06:38 Event_1 This is a test\n\nWindows (CRLF) Ln 1, Col 1 100%\n\nFigure 14. Event log file\n\n3.5. The debug file, shows the string that is sent from the serial port or ethernet communication:",
+      "specifications": {
+        "Log Start Date": "10/8/2021",
+        "Log Start Time": "11:06 PM",
+        "Sensor Type": "SRV",
+        "Sensor Serial Number": "BJB-B00-0000",
+        "SME Serial Number": "19101698",
+        "Sample Name": "test1",
+        "Communication Mode": "USB (COM18)",
+        "Rheonics Control Panel Version": "5.3.1.6",
+        "Relative Timestamp Range": "2.1 s - 10.6 s",
+        "Viscosity": "23.68 mPa.s",
+        "Density": "NaN g/cc",
+        "Temperature (partial)": "741"
+      },
+      "key_facts": [
+        "Log files record system configuration details such as start log time, sensor type, serial numbers, communication mode, operator information, and software version.",
+        "The log file contains time-series data points including relative timestamp, viscosity measurements, and density readings.",
+        "The event file lists events, which can be user-created or alarms.",
+        "The debug file captures raw communication strings sent via serial port or ethernet.",
+        "The Rheonics Control Panel software version used in this log is 5.3.1.6.",
+        "The sensor's communication mode is USB (COM18).",
+        "The sensor's type is SRV with serial number BJB-B00-0000 and SME serial number 19101698.",
+        "The log data shows a consistent viscosity of 23.68 mPa.s and an undefined density (NaN)."
+      ],
+      "diagram_labels": [
+        "Figure 13. Data points in Log file",
+        "Date",
+        "Timestamp Abs",
+        "Timestamp Rel [s]",
+        "Viscosity [mPa.s]",
+        "Density [g/cc]",
+        "Tem",
+        "Figure 14. Event log file"
+      ],
+      "warnings_notes": [],
+      "page_num": 8,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1413,
+        "cost_usd": 0.0036723
+      },
+      "source_file": "240_How_to_create_log_files.pdf"
+    },
+    {
+      "page_summary": "This page displays a screenshot of a debug log file from a Rheonics system, showing sensor identification, operational parameters, and a sequence of timestamped data strings.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "Rheonics Control Panel"
+      ],
+      "extracted_text": "BJBWB-B00-0000_211008230622_test1_debug.txt - Notepad\nFile Edit Format View Help\nStart Log: 10/8/2021 11:06 PM\nSensor: SRV\nSensor Serial Number: BJBW-B00-0000\nSME Serial Number: 19101698\nSample Name: test1\nCommunication mode: USB (COM18)\nOperator Name: Rheonics\nOperator Client:\nRheonics Control Panel 5.3.1.6\n\n08-Oct-21 23:06:24 \"BJBW-B00-0000 03.20/4-g0bc7d04 19101698\" T 23.677000 f 741...\n08-Oct-21 23:06:38 Event_1\n08-Oct-21 23:06:39 \"BJBW-B00-0000 03.20/4-g0bc7d04 19101698\" T 23.677000 f 741...\n08-Oct-21 23:06:50 \"BJBW-B00-0000 03.20/4-g0bc7d04 19101698\" T 23.676001 f 741...\n\nWindows (CRLF) Ln 1, Col 1 100%\nFigure 15. Debug File, to show the data string",
+      "specifications": {
+        "Log Start Time": "10/8/2021 11:06 PM",
+        "Sensor Type": "SRV",
+        "Sensor Serial Number": "BJBW-B00-0000",
+        "SME Serial Number": "19101698",
+        "Communication Mode": "USB (COM18)",
+        "Rheonics Control Panel Version": "5.3.1.6",
+        "Sensor Firmware Version": "03.20/4-g0bc7d04",
+        "Recorded Temperature": "23.677000 degrees",
+        "Recorded Temperature (second instance)": "23.676001 degrees"
+      },
+      "key_facts": [
+        "The document displays a debug log file named 'BJBWB-B00-0000_211008230622_test1_debug.txt'.",
+        "The log commenced on October 8, 2021, at 11:06 PM.",
+        "The sensor involved is an SRV type with serial number BJBW-B00-0000.",
+        "The SME (Sensor Monitoring Electronics) Serial Number is 19101698.",
+        "The sample being monitored is identified as 'test1'.",
+        "Communication with the sensor is established via USB through COM18.",
+        "The operator client used is 'Rheonics Control Panel' version 5.3.1.6.",
+        "Log entries include timestamps, sensor data strings, and an 'Event_1' marker.",
+        "The sensor data strings contain firmware version '03.20/4-g0bc7d04', SME serial number '19101698', temperature readings (e.g., 'T 23.677000'), and frequency readings (e.g., 'f 741')."
+      ],
+      "diagram_labels": [
+        "Figure 15. Debug File, to show the data string"
+      ],
+      "warnings_notes": [],
+      "page_num": 9,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1008,
+        "cost_usd": 0.0026598
+      },
+      "source_file": "240_How_to_create_log_files.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

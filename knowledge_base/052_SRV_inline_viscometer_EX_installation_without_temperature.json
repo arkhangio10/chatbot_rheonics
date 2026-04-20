@@ -1,0 +1,144 @@
+{
+  "source_file": "052_SRV_inline_viscometer_EX_installation_without_temperature.pdf",
+  "total_pages": 3,
+  "chunks": [
+    {
+      "page_summary": "This page provides instructions and context for installing the Rheonics SRV inline viscometer EX without a temperature connection, explaining when temperature input is not required and referencing relevant diagrams from the installation manual.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV inline viscometer EX",
+        "SRV",
+        "SRD",
+        "Pt1000",
+        "Modbus"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nSRV inline viscometer EX installation without temperature\nModified on: Wed, 15 May, 2024 at 10:07 PM\nSRV EX Installation without temperature\nThe SRV can be used without a temperature connection to the electronics. Operation of sensor does not depend on the temperature and hence a temperature input is not required.\nthe SRD needs temperature input to the electronics so either the temperature sensor built in the sensor is used or an external Pt1000 can be connected to sensor electronics. It is also possible to write temperature of the sensor from an external probe over Modbus.\nThis article focuses on using SRV without a temperature connection. This could be the case when the EX barriers that are needed for Pt1000 are not available or the customer does not want to use 2 additional barriers that are needed for the Pt1000 connection.\nEx Installation diagram without temperature\nThe figure below shows the diagram for the connection. It is taken from the EX installation manual (Figure 10 from Manual version 2.0 of manual).",
+      "specifications": {},
+      "key_facts": [
+        "The SRV viscometer can be installed and operated without a dedicated temperature connection to its electronics.",
+        "The operation of the SRV sensor is independent of temperature, thus eliminating the need for a temperature input.",
+        "The SRD device requires a temperature input, which can be sourced from a built-in sensor, an external Pt1000 probe connected to the sensor electronics, or via Modbus from an external probe.",
+        "This document specifically addresses SRV installations without temperature connections, particularly when Pt1000 EX barriers are unavailable or when avoiding two additional barriers for Pt1000 connections is desired.",
+        "A connection diagram for this installation method is provided in the EX installation manual as Figure 10 (from Manual version 2.0 of manual)."
+      ],
+      "diagram_labels": [
+        "Ex Installation diagram without temperature",
+        "Figure 10 from Manual version 2.0 of manual"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 600,
+        "cost_usd": 0.0016397999999999999
+      },
+      "source_file": "052_SRV_inline_viscometer_EX_installation_without_temperature.pdf"
+    },
+    {
+      "page_summary": "This page details wiring diagrams and Zener diode barrier specifications for transducer coil circuits connecting to SRV/SRD sensors, differentiating between safe, intrinsically safe, and hazardous zones.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "SRD",
+        "Z757"
+      ],
+      "extracted_text": "A\nB\nC\nSMET sensor terminal block\nbrown\nZ757\nwhite\nShield (black)\n1\n2\nSensor SRV / SRD\n3\n1 M12 cable connector female, rear view\n2 Sensor:M12 connector male, front view\n3 Ground tab (optional)\nA Safe Zone\nB Intrinsically safe cable\nC Hazardous Zone\n\nZener barrier specification\nThe Zener diode barrier connected to the transducer coil circuit must meet the following specifications (Table 4 from EX installation manual version 2.0):\n\nTransducer coil circuit Zener diode barrier specifications\nMax. output voltage Uo < 7.3 V\nMin. series resistance Ro > 9.8 Ohm\nMax. output current Io < 730 mA\nMax. output power Po < 1.3 W\nFuse rating <=200 mA\n\nThis Zener diode barrier must have two channels, one for each conductor of the transducer coil circuit.\n\nCommercial Zener diode barriers that fulfill these specifications are inTable 6 from EX installation manual version 2.0:\nFor transducer coil circuit:",
+      "specifications": {
+        "Max. output voltage (Uo)": "< 7.3 V",
+        "Min. series resistance (Ro)": "> 9.8 Ohm",
+        "Max. output current (Io)": "< 730 mA",
+        "Max. output power (Po)": "< 1.3 W",
+        "Fuse rating": "<=200 mA"
+      },
+      "key_facts": [
+        "The Zener diode barrier connected to the transducer coil circuit must meet specific electrical specifications for maximum output voltage, minimum series resistance, maximum output current, maximum output power, and fuse rating.",
+        "The Zener diode barrier must have two channels, one for each conductor of the transducer coil circuit.",
+        "Commercial Zener diode barriers that fulfill these specifications are referenced in Table 6 from EX installation manual version 2.0."
+      ],
+      "diagram_labels": [
+        "A",
+        "B",
+        "C",
+        "SMET sensor terminal block",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "brown",
+        "Z757",
+        "white",
+        "Shield (black)",
+        "Sensor SRV / SRD",
+        "M12 cable connector female, rear view",
+        "Sensor:M12 connector male, front view",
+        "Ground tab (optional)",
+        "Safe Zone",
+        "Intrinsically safe cable",
+        "Hazardous Zone"
+      ],
+      "warnings_notes": [
+        "The Zener diode barrier connected to the transducer coil circuit must meet the following specifications (Table 4 from EX installation manual version 2.0).",
+        "This Zener diode barrier must have two channels, one for each conductor of the transducer coil circuit.",
+        "Commercial Zener diode barriers that fulfill these specifications are inTable 6 from EX installation manual version 2.0."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 833,
+        "cost_usd": 0.0022223
+      },
+      "source_file": "052_SRV_inline_viscometer_EX_installation_without_temperature.pdf"
+    },
+    {
+      "page_summary": "This page provides specifications for a Pepperl + Fuchs Z757 Zener diode barrier, explains notes on temperature output for Rheonics sensors, and offers references to related manuals and articles.",
+      "document_type": "manual",
+      "product_names": [
+        "Pepperl + Fuchs Z757",
+        "Ex Sensors",
+        "SRV",
+        "PT1000"
+      ],
+      "extracted_text": "1. Pepperl + Fuchs Z757\n\nSpecification of commercial Zener diode barrier suitable for transducer coil circuit\n\n| Series resistance | 9.8 ohms, min. |\n|---|---|\n| Fuse rating | 200 mA |\n| Maximum safe voltage | 250 V |\n| Output voltage, U₀ | 7.14 V |\n| Output current, I₀ | 729 mA |\n| Output power, P₀ | 1.3W |\n\nNotes on temperature output\n\nEven though there is no direct measurement of temperature from the probe when the temperature leads from the probe are not connected to the electronics, the sensor does estimate a process temperature based on the frequency characteristics of the sensor. This estimated temperature is only to be used as a guide as it can be influenced by deposits. This estimated temperature replaces the measured temperature in the output strings of the sensor so you will still see a temperature output from the sensor.\n\nNote:\n\n*   Only for Ex Sensors. Power Input: 240V Maximum AC Single Phase, this is exclusive for Ex sensor configuration and would be the best to protect the zener barriers used in the configuration, only single phase power supplies should be used.\n\nReference\n\nRheonics EX installation manual: https://rheonics.com/resources/manuals/\n(https://rheonics.com/resources/manuals/)\nArticle: Is it still possible to measure viscosity without connecting the PT1000 to our SRV?\n(https://support.rheonics.com/support/solutions/articles/81000406648-is-it-still-possible-to-measure-viscosity-without-connecting-the-pt1000-to-our-srv-)",
+      "specifications": {
+        "Series resistance": "9.8 ohms, min.",
+        "Fuse rating": "200 mA",
+        "Maximum safe voltage": "250 V",
+        "Output voltage, U₀": "7.14 V",
+        "Output current, I₀": "729 mA",
+        "Output power, P₀": "1.3 W",
+        "Power Input (Ex Sensors)": "240V Maximum AC Single Phase"
+      },
+      "key_facts": [
+        "The sensor estimates process temperature based on frequency characteristics, even without direct probe temperature measurement.",
+        "The estimated temperature is a guide and can be influenced by deposits.",
+        "This estimated temperature replaces the measured temperature in the sensor's output strings.",
+        "For Ex Sensors, a 240V Maximum AC Single Phase power input is recommended to best protect zener barriers.",
+        "Only single phase power supplies should be used for Ex Sensor configurations.",
+        "The Rheonics EX installation manual is available at https://rheonics.com/resources/manuals/.",
+        "An article titled 'Is it still possible to measure viscosity without connecting the PT1000 to our SRV?' is available at https://support.rheonics.com/support/solutions/articles/81000406648-is-it-still-possible-to-measure-viscosity-without-connecting-the-pt1000-to-our-srv-."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Note: Only for Ex Sensors. Power Input: 240V Maximum AC Single Phase, this is exclusive for Ex sensor configuration and would be the best to protect the zener barriers used in the configuration, only single phase power supplies should be used."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 929,
+        "cost_usd": 0.0024622999999999997
+      },
+      "source_file": "052_SRV_inline_viscometer_EX_installation_without_temperature.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

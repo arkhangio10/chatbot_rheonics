@@ -1,0 +1,79 @@
+{
+  "source_file": "133_Scaling_SME_Parameters.pdf",
+  "total_pages": 2,
+  "chunks": [
+    {
+      "page_summary": "This page explains the concept of scaling Smart Module Electronics (SME) parameters, including the general calibration equation and a detailed description of 1-point offset calibration with a graphical representation.",
+      "document_type": "notes",
+      "product_names": [
+        "Smart Module Electronics Transmitter (SME)"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nScaling SME Parameters\n\nModified on: Mon, 10 Mar, 2025 at 8:41 PM\n\nThe calibration process maps the sensor's response to an ideal linear response. Depending on the measurements range, offset or linear calibration can be used.\nThe relationship between a calibrated parameter and its raw equivalent can be then estimated by the equation:\n\nPcal = C1 . Praw + C0\n\nPcal = Calibrated parameter value\nPraw= Sensor measurement of that parameter\nC1= Slope\nC0 = Offset.\n\nThe coefficients C0 and C1 are internally calculated by the Smart Module Electronics Transmitter (SME) during the calibration process. The SME keeps in memory a list of the coefficients that are currently being used, the coefficients that have been calculated by the user in previous calibration operations, and the factory calibration coefficients. Either the factory or user calibration should match with the current calibration coefficients used by the electronics.\n\nOffset Calibration (1-point)\n\nAn offset means that the sensor output is higher or lower than the expected reference value. Offset calibration should be used when either the measurements range is kept around a narrow value, or when the sensor response and the ideal response maintain the same behavior within the sensor operation range.\nTo make an offset calibration one single measurement point can be used. The sensor measurement is then compared with a reference measurement, (a reference instrument for example), and the difference is added to the raw value to obtain the calibrated value.",
+      "specifications": {},
+      "key_facts": [
+        "The calibration process maps a sensor's response to an ideal linear response.",
+        "Calibration can be either offset or linear, depending on the measurement range.",
+        "The relationship between a calibrated parameter (Pcal) and its raw equivalent (Praw) is described by the equation: Pcal = C1 * Praw + C0.",
+        "C1 represents the slope, and C0 represents the offset in the calibration equation.",
+        "The coefficients C0 and C1 are calculated internally by the Smart Module Electronics Transmitter (SME) during the calibration process.",
+        "The SME stores current, user-calculated, and factory calibration coefficients.",
+        "Offset calibration is used when the sensor output is consistently higher or lower than the expected reference value.",
+        "Offset calibration is suitable for situations where the measurement range is narrow, or the sensor's response maintains consistent behavior within its operating range.",
+        "A 1-point offset calibration involves comparing a single sensor measurement to a reference measurement, and the difference is added to the raw value to obtain the calibrated value."
+      ],
+      "diagram_labels": [
+        "Sensor Output",
+        "Parameter Value",
+        "Sensor response",
+        "offset",
+        "Ideal response",
+        "Offset Calibration"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 731,
+        "cost_usd": 0.0019673
+      },
+      "source_file": "133_Scaling_SME_Parameters.pdf"
+    },
+    {
+      "page_summary": "This page details the principles and mathematical formulas for a 2-point linear (slope and offset) calibration method, used to correct sensor output.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Linear (Slope and offset) Calibration (2-point )\n\nA *slope* means that the output changes at a different rate than the ideal rate. Therefore, a two-point calibration should be used to correct the difference between the sensor response and ideal response.\n\n[Diagram: Linear Calibration showing Sensor Output vs. Parameter Value with Ideal Response and Sensor Response lines, marked at 1st Point and 2nd Point]\n\nThis method should be used when the sensor works in a wide range of measurements and the difference between the ideal response and the sensor response changes linearly within that range.\nWith the sensor output and the ideal response references, the slope C1 from equation 1 can be calculated as follows:\n\n$C_1 = \\frac{LabValue_2 - LabValue_1}{Sample_2 - Sample_1}$\n\nThe C0 coefficient can be estimated evaluating the equation 1, in the 1st point taken.\n$C_0 = LabValue_1 - Sample_1 \\cdot C_1$",
+      "specifications": {},
+      "key_facts": [
+        "A slope in sensor output indicates that the output changes at a different rate than the ideal rate.",
+        "A two-point calibration is used to correct the difference between the sensor response and the ideal response.",
+        "This calibration method is suitable for sensors operating in a wide range of measurements where the difference between ideal and sensor response is linear.",
+        "The slope coefficient C1 is calculated using two lab values and two sample values.",
+        "The offset coefficient C0 can be estimated using the first lab value, the first sample value, and the calculated C1."
+      ],
+      "diagram_labels": [
+        "Sensor Output",
+        "Parameter Value",
+        "1st Point",
+        "2nd Point",
+        "Sensor Response",
+        "Ideal Response",
+        "Linear Calibration"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 493,
+        "cost_usd": 0.0013723
+      },
+      "source_file": "133_Scaling_SME_Parameters.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

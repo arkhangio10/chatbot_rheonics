@@ -1,0 +1,90 @@
+{
+  "source_file": "235_Connecting_the_Profinet_output.pdf",
+  "total_pages": 2,
+  "chunks": [
+    {
+      "page_summary": "This page details how to connect a Rheonics sensor's Profinet output to a PLC and PC using an Ethernet network, including a recommended wiring diagram.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SME devices",
+        "Rheonics sensor",
+        "Siemens PLC",
+        "SIMATIC S7-1200",
+        "CPU 1212C DCDCRLY",
+        "RCP software",
+        "TIA Portal"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nConnecting the Profinet output\n\nModified on: Thu, 24 Mar, 2022 at 10:19 PM\n\nGeneral\nThe Rheonics SME devices offer the Profinet service over the Ethernet interface.\n\nWiring\nThe SME can be connected through the Ethernet RJ45 connector as part of a network, with intermediary network devices (router, switches) or directly to an Ethernet host in a direct connection.\nConnect Rheonics sensor, PLC, and PC (with RCP software installed) with an Ethernet Cable. We recommend using an Ethernet Switch.\n\nFigure 1. Communication diagram for rheonics sensor-PLC and PC.\n\nReferences:",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics SME devices support Profinet service via their Ethernet interface.",
+        "The SME can be connected using an Ethernet RJ45 connector, either as part of a network (with devices like routers or switches) or directly to an Ethernet host.",
+        "An Ethernet Switch is recommended for connecting the Rheonics sensor, PLC, and PC.",
+        "The PC requires RCP software and TIA Portal for this communication setup.",
+        "The document was last modified on March 24, 2022, at 10:19 PM."
+      ],
+      "diagram_labels": [
+        "PC with RCP and TIA Portal",
+        "Ethernet Switch",
+        "Siemens PLC",
+        "SIMATIC S7-1200",
+        "CPU 1212C DCDCRLY",
+        "Rheonics sensor",
+        "4-20 mA output",
+        "display",
+        "usb",
+        "SD-card",
+        "reset",
+        "data",
+        "sensor",
+        "power",
+        "module A",
+        "module B",
+        "24V dc",
+        "gnd",
+        "ethernet",
+        "sensor connection",
+        "swiss made",
+        "Rheonics",
+        "Figure 1. Communication diagram for rheonics sensor-PLC and PC."
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 637,
+        "cost_usd": 0.0017323
+      },
+      "source_file": "235_Connecting_the_Profinet_output.pdf"
+    },
+    {
+      "page_summary": "This page provides a title and a link to a Rheonics support article on configuring an SME device with RCP using Ethernet.",
+      "document_type": "notes",
+      "product_names": [
+        "SME",
+        "RCP"
+      ],
+      "extracted_text": "Configure your SME with RCP\n(https://support.rheonics.com/support/solutions/articles/81000397449-connecting-to-your-sme-using-ethernet).",
+      "specifications": {},
+      "key_facts": [
+        "The page's primary purpose is to direct users to a support article for configuring SME with RCP.",
+        "The support article provides information on connecting to an SME device using Ethernet."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 196,
+        "cost_usd": 0.0006298
+      },
+      "source_file": "235_Connecting_the_Profinet_output.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

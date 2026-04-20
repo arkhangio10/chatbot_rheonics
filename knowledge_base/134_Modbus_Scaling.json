@@ -1,0 +1,117 @@
+{
+  "source_file": "134_Modbus_Scaling.pdf",
+  "total_pages": 3,
+  "chunks": [
+    {
+      "page_summary": "This technical note provides a list of Modbus parameters and their corresponding registers for Rheonics measurement devices, along with instructions for understanding scaling and calibration.",
+      "document_type": "notes",
+      "product_names": [],
+      "extracted_text": "Phone: +1 713 234 0863\n\nModbus Scaling\n\nModified on: Mon, 7 Jun, 2021 at 9:26 PM\n\nTo understand the scaling options and coefficients, please refer to this article\nhttps://support.rheonics.com/en/support/solutions/articles/81000391533-scaling-sme-parameters\n(https://support.rheonics.com/en/support/solutions/articles/81000391533-scaling-sme-parameters)\n\nIn the file table attached you will find the Modbus registers associated with each of the measurement parameters provided by SMET.\nTo be able to calibrate you will need to work on the holding registers (Modbus Functional command FC3)\n\nParameter List is as follow:\n\nIndex Parameter\n0 viscosity median / 5 points\n1 density median / 5 points\n2 temperature median / 5 points\n3 Kinematic Viscosity\n4 density average / 5 points\n5 V - viscosity raw\n6 D - density raw\n7 T - temperature raw\n8 f - resonant frequency (Hz)\n9 fc - compensated resonant frequency (Hz)\n10 df - damping (Hz)\n11 Tc - Coil temperature (°C)\n12 viscosity median and last good",
+      "specifications": {
+        "Modbus Parameter 0": "viscosity median / 5 points",
+        "Modbus Parameter 1": "density median / 5 points",
+        "Modbus Parameter 2": "temperature median / 5 points",
+        "Modbus Parameter 3": "Kinematic Viscosity",
+        "Modbus Parameter 4": "density average / 5 points",
+        "Modbus Parameter 5": "V - viscosity raw",
+        "Modbus Parameter 6": "D - density raw",
+        "Modbus Parameter 7": "T - temperature raw",
+        "Modbus Parameter 8": "f - resonant frequency (Hz)",
+        "Modbus Parameter 9": "fc - compensated resonant frequency (Hz)",
+        "Modbus Parameter 10": "df - damping (Hz)",
+        "Modbus Parameter 11": "Tc - Coil temperature (°C)",
+        "Modbus Parameter 12": "viscosity median and last good"
+      },
+      "key_facts": [
+        "The document, titled 'Modbus Scaling', was modified on Monday, June 7, 2021, at 9:26 PM.",
+        "For detailed information on scaling options and coefficients, users are directed to a Rheonics support article: https://support.rheonics.com/en/support/solutions/articles/81000391533-scaling-sme-parameters.",
+        "The page provides a list of Modbus registers linked to measurement parameters supplied by SMET.",
+        "Calibration of these parameters necessitates interaction with holding registers using the Modbus Functional command FC3.",
+        "The parameter list includes measurements such as viscosity median, density median, temperature median, kinematic viscosity, density average, raw viscosity, raw density, raw temperature, resonant frequency (f), compensated resonant frequency (fc), damping (df), coil temperature (Tc), and viscosity median and last good."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 834,
+        "cost_usd": 0.0022248
+      },
+      "source_file": "134_Modbus_Scaling.pdf"
+    },
+    {
+      "page_summary": "This page details various Modbus register functions related to sensor measurements and outlines step-by-step procedures for offset and slope calibration.",
+      "document_type": "manual",
+      "product_names": [
+        "SME",
+        "PT1000 sensor"
+      ],
+      "extracted_text": "13 density median and last good\n14 Displays of maps value from Modbus register 512\n15 Displays of maps value from Modbus register 514\n16 Displays of maps value from Modbus register 516\n17 Te – Estimated Temperature (from internal temperature Algorithm)\n18 Tp- Temperature from PT1000 sensor present in sensor\n19 Parameter calculated from scripting 0\n20 Parameter calculated from scripting 1\n21 Parameter calculated from scripting 2\n22 Ratio\n\nThere are two methods to scale using Modbus registers.\n\nMethod 1: The sensor is in the reference fluid.\n\nIn this case we are assuming that the sensor is already dipped in the reference fluid.\n\nOffset Calibration\n1. Write (any value) to the register identified as Sample 0. This will instruct the SME to take a measurement and store it as that sample.\n2. Write the reference value, this is, the value expected, in the register Lab 0.\n3. Write the value 1 (offset calibration) in the register \"supported_types\". This will make the offset calibration according to the values in Lab 0 and Sample 0.\n4. To see the calibration results, read the \"current coefficients\" registers.\n5. To use the factory or user calibration coefficients as the current ones in use write the values 1 or 2 in the \"Select Mode\" register. On read, this register returns 0 value.\n\nSlope Calibration\nIn this case we need to take two samples, in theory these samples should be taken at different conditions. For example, different temperatures of a calibration fluid.\n\n1. Write (any value) to the register identified as Sample 0. This will instruct the SME to take a measurement and store it as that sample.\n2. Write (any value) to the register identified as Sample 1 (at a different condition from sample 0)\n3. Write the reference values, these are, the values expected, in the registers Lab 0 and Lab 1 respectively.\n4. Write the value 2 (slope calibration) in the register \"supported_types\".",
+      "specifications": {},
+      "key_facts": [
+        "Modbus register 512 displays maps value.",
+        "Modbus register 514 displays maps value.",
+        "Modbus register 516 displays maps value.",
+        "Te represents the estimated temperature derived from an internal temperature algorithm.",
+        "Tp represents the temperature measured by a PT1000 sensor present in the sensor.",
+        "Parameters can be calculated from scripting identified as scripting 0, 1, or 2.",
+        "There are two methods available for scaling using Modbus registers.",
+        "Offset calibration (Method 1) assumes the sensor is already dipped in the reference fluid.",
+        "To initiate an offset calibration measurement, write any value to the register 'Sample 0'.",
+        "The expected reference value for offset calibration should be written to the 'Lab 0' register.",
+        "Writing the value 1 to the 'supported_types' register performs an offset calibration based on values in 'Lab 0' and 'Sample 0'.",
+        "Calibration results can be viewed by reading the 'current coefficients' registers.",
+        "To apply factory calibration coefficients, write the value 1 to the 'Select Mode' register.",
+        "To apply user calibration coefficients, write the value 2 to the 'Select Mode' register.",
+        "The 'Select Mode' register returns a 0 value when read.",
+        "Slope calibration requires taking two samples, ideally under different conditions (e.g., different temperatures of a calibration fluid).",
+        "For slope calibration, write any value to 'Sample 0' to instruct the SME to take a measurement.",
+        "For slope calibration, write any value to 'Sample 1' to record a measurement taken under a different condition from Sample 0.",
+        "The expected reference values for slope calibration are written to the 'Lab 0' and 'Lab 1' registers, respectively.",
+        "Writing the value 2 to the 'supported_types' register performs a slope calibration."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1011,
+        "cost_usd": 0.0026672999999999996
+      },
+      "source_file": "134_Modbus_Scaling.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions for reading calibration results and a method for directly calculating and writing scaling coefficients for a sensor.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "5. To see the calibration results, read the \"current coefficients\" registers.\n6. To use the factory or user calibration coefficients as the current ones in use write the values 1 or 2 in the \"Select Mode\" register. On read, this register returns 0 value.\n\nMethod 2: Direct calculation of scaling coefficients\n\nYou can use the equations from this article https://support.rheonics.com/en/support/solutions/articles/81000391533-scaling-sme-parameters to calculate the C0 and C1 coefficients, if you have previous knowledge of the Laboratory and sample values taken by the sensor.\n\nYou can write these coefficients in the registers: C0 = current_coeff[0] and C1 = current_coeff[1]",
+      "specifications": {},
+      "key_facts": [
+        "Calibration results are accessed by reading the \"current coefficients\" registers.",
+        "To apply factory or user calibration coefficients, write values 1 or 2 to the \"Select Mode\" register.",
+        "The \"Select Mode\" register returns a value of 0 when read.",
+        "Method 2 describes the direct calculation of scaling coefficients (C0 and C1).",
+        "Equations for calculating scaling coefficients are available in a Rheonics support article at https://support.rheonics.com/en/support/solutions/articles/81000391533-scaling-sme-parameters.",
+        "Calculating C0 and C1 requires prior knowledge of Laboratory and sample values taken by the sensor.",
+        "The calculated C0 and C1 coefficients should be written to the `current_coeff[0]` and `current_coeff[1]` registers, respectively."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Note: The \"Select Mode\" register returns a 0 value when read, indicating its status rather than its set value."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 488,
+        "cost_usd": 0.0013598
+      },
+      "source_file": "134_Modbus_Scaling.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

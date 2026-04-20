@@ -1,0 +1,298 @@
+{
+  "source_file": "196_SRV-X7_RP_Reactor_Probe_Viscometer.pdf",
+  "total_pages": 6,
+  "chunks": [
+    {
+      "page_summary": "This page provides an overview of the Rheonics SRV-X7 RP Reactor Probe Viscometer, detailing its design, applications, specifications, and installation information.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRV-X7 RP Reactor Probe Viscometer",
+        "SRV - Inline Viscosity Meter",
+        "Rheonics Reactor Probe (RP)",
+        "SRV-RP",
+        "SRV sensor"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nSRV-X7 RP Reactor Probe Viscometer\nModified on: Mon, 30 Jun, 2025 at 8:36 PM\n\nWhat products are involved?\nSRV - Inline Viscosity Meter (https://rheonics.com/products/inline-viscometer-srv/)\n\nWhat is the purpose of this article?\nTo give an overview of the Reactor Probe (-RP) version of the SRV sensor and installation information.\n\n1. Overview\n\nThe Rheonics Reactor Probe (RP) design for the viscometer SRV is a long insertion probe with a body diameter of 19mm, configurable by total \"L\" length and flexible (adjustable) process connection, with PTFE-PEEK or Stainless Steel 316L compression fittings.\nThe Rheonics SRV is used inline to monitor the real-time viscosity and temperature values of a fluid. See more about the SRV and other variants here (https://support.rheonics.com/en/support/solutions/folders/81000297658).\nThe SRV-RP design is well suited for installations in bioreactor tanks and glass reactors using a long insertion probe with compression fittings with process connection as 1\" NPT, 3.4\" NPT, and others.\nPTFE-PEEK fittings allows the user to vary the insertion length of the sensor (distance from fitting to sensor tip) since the fitting can be moved along the shaft of the probe. Stainless Steel compression fittings are generally fixed in a position.\nThe SRV-RP is offered in 4 different total lengths: 150, 250, 350 and 450mm. Client can also define the compression fitting required that will be placed at some point along the shaft once received.",
+      "specifications": {
+        "body_diameter": "19mm",
+        "process_connection_types": "1\" NPT, 3.4\" NPT",
+        "fitting_materials": "PTFE-PEEK, Stainless Steel 316L",
+        "total_lengths": "150mm, 250mm, 350mm, 450mm"
+      },
+      "key_facts": [
+        "The SRV-X7 RP is a Reactor Probe Viscometer designed by Rheonics.",
+        "The Rheonics Reactor Probe (RP) is a long insertion probe with a 19mm body diameter.",
+        "The probe's total length ('L') is configurable.",
+        "It uses flexible (adjustable) process connections with PTFE-PEEK or Stainless Steel 316L compression fittings.",
+        "The Rheonics SRV sensor is used inline to monitor real-time viscosity and temperature values of a fluid.",
+        "The SRV-RP design is well suited for installations in bioreactor tanks and glass reactors.",
+        "PTFE-PEEK fittings allow users to vary the insertion length of the sensor by moving the fitting along the shaft.",
+        "Stainless Steel compression fittings are generally fixed in position.",
+        "The SRV-RP is offered in four standard total lengths: 150mm, 250mm, 350mm, and 450mm.",
+        "Clients can define the specific compression fitting required, which will be placed along the shaft upon receipt."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 903,
+        "cost_usd": 0.0023972999999999998
+      },
+      "source_file": "196_SRV-X7_RP_Reactor_Probe_Viscometer.pdf"
+    },
+    {
+      "page_summary": "This page provides specifications, dimensions, and installation advantages for Rheonics SRV-RP series reactor probe viscometers, including links to drawings and CAD files for various models.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRV-RP250-B34NP",
+        "Viscometer SRV",
+        "SRV-RPyyy-Bzzz",
+        "SRV-RP150",
+        "SRV-RP250",
+        "SRV-RP350",
+        "SRV-RP450",
+        "-X5 sensors"
+      ],
+      "extracted_text": "Figure 1: SRV-RP250-B34NP - Reactor Probe Viscometer 3/4\" NPT PTFE Compression Fitting\nL: Choose version for length\n\nFigure 2: SRV-RP Reactor Probe dimensions in mm (inch)\n\nSpecifications\nSensor compatibility: Viscometer SRV (https://rheonics.com/products/inline-viscometer-srv/)\nOrder code: SRV-RPyyy-Bzzz\nTotal length L - yyy: 150, 250, 350 and 450 mm\nConnection type B - zzz: Customizable (min. OD 22mm)\nDrawings: SR-RP Configuration Drawing (https://rheonics.com/wp-content/uploads/2023/09/Rheonics_SR-RP_Reactor-Probe.pdf)\n\nSRV-RP CAD files\nSensor Variant | Drawing | CAD File\nSRV-RP150 | SRV-RP150 Drawing (https://rheonics.com/wp-content/uploads/2023/10/Rheonics_SRV-RP150.pdf) | SRV-RP150 CAD File (https://rheonics.com/wp-content/uploads/2023/10/Rheonics_SRV-RP150.zip)\nSRV-RP250 | SRV-RP250 Drawing (https://rheonics.com/wp-content/uploads/2023/10/Rheonics_SRV-RP250.pdf) | SRV-RP250 CAD File (https://rheonics.com/wp-content/uploads/2023/10/Rheonics_SRV-RP250.zip)\nSRV-RP350 | SRV-RP350 Drawing (https://rheonics.com/wp-content/uploads/2023/10/Rheonics_SRV-RP350.pdf) | SRV-RP350 CAD File (https://staging.rheonics.com/wp-content/uploads/2023/10/Rheonics_SRV-RP350.zip)\nSRV-RP450 | SRV-RP450 Drawing (https://rheonics.com/wp-content/uploads/2023/10/Rheonics_SRV-RP450.pdf) | SRV-RP450 CAD File (https://staging.rheonics.com/wp-content/uploads/2023/10/Rheonics_SRV-RP450.zip)\n\nWith the reactor probe there are many installation advantages. Some installation scenarios of this sensor variant are:\n- Installation in reactors, in particular bioreactors\n- Installations with variable insertion length\n- Installation in small pipe sizes (e.g. 1\", 1.25\" ID pipes)\n- Installation in pipe sizes bigger than 1.5\" with reduced (compared to -X5 sensors https://support.rheonics.com/en/support/solutions/articles/81000411102-srv-x5-long-insertion-probe) cross section reduction inside the pipe due to probe.",
+      "specifications": {
+        "Sensor compatibility": "Viscometer SRV",
+        "Order code": "SRV-RPyyy-Bzzz",
+        "Total length L": "150, 250, 350 and 450 mm",
+        "Connection type B": "Customizable (min. OD 22mm)"
+      },
+      "key_facts": [
+        "The SRV-RP250-B34NP is a reactor probe viscometer with a 3/4\" NPT PTFE compression fitting.",
+        "The SRV-RP reactor probe offers customizable total lengths (150, 250, 350, 450 mm) and a customizable connection type with a minimum outer diameter of 22mm.",
+        "The reactor probe is advantageous for installation in reactors, particularly bioreactors.",
+        "It supports installations with variable insertion length.",
+        "It can be installed in small pipe sizes (e.g., 1\" and 1.25\" ID pipes).",
+        "For pipe sizes bigger than 1.5\", the SRV-RP offers reduced cross-section reduction inside the pipe compared to -X5 sensors."
+      ],
+      "diagram_labels": [
+        "Rheonics",
+        "L: Choose version for length",
+        "19 [0.75]",
+        "14 [0.55]",
+        "5 [0.20]",
+        "8 [0.31]"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1270,
+        "cost_usd": 0.0033148
+      },
+      "source_file": "196_SRV-X7_RP_Reactor_Probe_Viscometer.pdf"
+    },
+    {
+      "page_summary": "This page outlines installation principles for Rheonics SRV-RP and SRV-X7 Reactor Probes, including dimensional comparisons and details on compression fitting components.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV-X5",
+        "SRV-X7 Reactor Probe",
+        "Rheonics SRV-RP",
+        "Rheonics Viscometer Reactor Probe SRV-RP"
+      ],
+      "extracted_text": "SRV-X5\nSRV-X7 Reactor Probe\n\nFigure 3: SRV-X7 Reactor Probe comparison with SRV-X5\n\n2. Installation principles\nThe Rheonics SRV-RP has the following installation criteria that should be met to ensure accurate, repeatable and reproducible viscosity readings.\n\n50 mm\n[1.96\"]\nØ16 mm\n[0.63\"]\n\nEnsure sensing element in red is in contact with fluid\nAvoid dead or stagnation zones in the sensing (red) area\nSRV-RP tip needs a clearance of 5 mm [0.2\"] to any obstruction\nFigure 4: SRV-X7 Reactor Probe Sensing element\n\n3. Fitting options\nA compression fitting is a mechanical device useful to create a sealed connection between two pieces (e.g. pipes) without welding or heating. It is based on compression forces between its inner parts, which are a Compression Nut, Back Ferrule, Front Ferrule and Fitting Body. The later is connected to the process by a custom connection.\n\nFigure 5: SRV-RP Reactor Probe\n\nRheonics Viscometer\nReactor Probe\nSRV-RP\n\nCompression Nut\nBack Ferrule\nFront Ferrule\nFitting Body\nConnection\nto Process\nFigure 6: Compression Fitting parts",
+      "specifications": {
+        "SRV-X5_diameter": "30 mm [1.18 in]",
+        "SRV-X7_Reactor_Probe_diameter": "19 mm [0.75 in]",
+        "Sensing_element_length": "50 mm [1.96 in]",
+        "Sensing_element_diameter": "16 mm [0.63 in]",
+        "SRV-RP_tip_clearance": "5 mm [0.2 in]"
+      },
+      "key_facts": [
+        "The Rheonics SRV-RP has specific installation criteria that must be met for accurate, repeatable, and reproducible viscosity readings.",
+        "A compression fitting is a mechanical device used to create a sealed connection between two pieces, such as pipes, without the need for welding or heating.",
+        "Compression fittings operate based on forces applied between their internal components, which include a Compression Nut, Back Ferrule, Front Ferrule, and Fitting Body.",
+        "The Fitting Body of a compression fitting connects to the process via a custom connection."
+      ],
+      "diagram_labels": [
+        "SRV-X5",
+        "SRV-X7 Reactor Probe",
+        "Rheonics Viscometer Reactor Probe SRV-RP",
+        "Compression Nut",
+        "Back Ferrule",
+        "Front Ferrule",
+        "Fitting Body",
+        "Connection to Process"
+      ],
+      "warnings_notes": [
+        "Ensure the sensing element (indicated in red) is in contact with the fluid.",
+        "Avoid dead or stagnation zones in the sensing (red) area.",
+        "The SRV-RP tip needs a clearance of 5 mm [0.2\"] to any obstruction."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 824,
+        "cost_usd": 0.0021997999999999996
+      },
+      "source_file": "196_SRV-X7_RP_Reactor_Probe_Viscometer.pdf"
+    },
+    {
+      "page_summary": "This page details the function and installation characteristics of compression fittings for Rheonics sensors, comparing PTFE-PEEK and Stainless Steel types, highlighting their material properties, reusability, and installation considerations.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV-RP",
+        "Rheonics RP",
+        "PTFE-PEEK Compression Fittings",
+        "Stainless Steel Compression Fitting",
+        "COWIPC701.100.19"
+      ],
+      "extracted_text": "Rheonics sensors such as the SRV-RP can use a compression fitting to offer a process connection for installation, without having the flange or thread welded on the sensor body. Next Figure shows how the back or rear ferrule is compressed against the sensor body once the nut is threaded in the fitting or connector body. Compression deforms the back ferrule and depending on the material, the ferrule will go back to its original state once decompressed, or stay deformed and fixed in its position.\nRheonics sensors such as the SRV-RP can use a compression fitting to offer a process connection for installation, without having the flange or thread welded on the sensor body. Next Figure shows how the back or rear ferrule is compressed against the sensor body once the nut is threaded in the fitting or connector body. Compression deforms the back ferrule and depending on the material, the ferrule will go back to its original state once decompressed, or stay deformed and fixed in its position.\n\nFigure 7: Rheonics RP Compression Fitting Cross Section View\n\n3.1 PTFE-PEEK Compression Fittings\n\nAs mentioned in section 1, PTFE compression fittings can be moved along the sensor probe shaft and be compressed at different points each time it is installed.\nFitting is mainly made of PTFE and includes a PEEK olive back ferrule for a secure grip. These compression fittings have excellent chemical and temperature resistance and reduce contamination and cleaning required.\n\nSee how to install the PTFE-PEEK compression fitting here (https://youtu.be/OYX-rzWyW7o)\n\nFigure 8: PTFE-PEEK Compression Fittings. Source: Avantor (https://de.vwr.com/store/catalog/product.jsp?catalog_number=COWIPC701.100.19)\n\n3.2 Stainless Steel Compression Fitting\n\nThese fittings have all inner parts (connector, nut and ferrules - back and front) made of Stainless Steel SS316L. This offer a higher pressure rating. The ferrules get deformed when nut is tightened first time, creating a mechanical bond with the probe shaft. This has the advantage of defining a fixed position for thread engagement but also means that user can’t vary the compression point after first installation.\n\nUsing Stainless Steel Compression fitting should be considered as a fixed insertion depth, and changing it requires cutting the ring, which could potentially damage the surface of the sensor body",
+      "specifications": {
+        "Stainless Steel Compression Fitting material": "Stainless Steel SS316L",
+        "PTFE-PEEK Compression Fitting materials": "PTFE, PEEK"
+      },
+      "key_facts": [
+        "Rheonics SRV-RP sensors utilize compression fittings for process connection, avoiding the need for welded flanges or threads on the sensor body.",
+        "Compression deforms the back ferrule, which can either return to its original state or remain fixed, depending on the material.",
+        "PTFE-PEEK compression fittings can be reused and repositioned along the sensor probe shaft.",
+        "PTFE-PEEK fittings are constructed from PTFE with a PEEK olive back ferrule, offering excellent chemical and temperature resistance while reducing contamination and cleaning requirements.",
+        "Stainless Steel compression fittings feature inner parts made of SS316L, providing a higher pressure rating.",
+        "Stainless Steel fittings create a mechanical bond upon first tightening, resulting in a fixed insertion depth and a non-variable compression point after initial installation."
+      ],
+      "diagram_labels": [
+        "Rheonics Sensor Body",
+        "Compression Nut",
+        "Back Ferrule",
+        "Front Ferrule",
+        "Fitting Body"
+      ],
+      "warnings_notes": [
+        "Using Stainless Steel Compression fitting should be considered as a fixed insertion depth, and changing it requires cutting the ring, which could potentially damage the surface of the sensor body."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 972,
+        "cost_usd": 0.0025697999999999997
+      },
+      "source_file": "196_SRV-X7_RP_Reactor_Probe_Viscometer.pdf"
+    },
+    {
+      "page_summary": "This page details configuration examples, dimensions, and ordering information for Rheonics SRV-RP inline viscometer reactor probes with various NPT compression fittings and insertion lengths.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV-RP sensor",
+        "SRV Reactor probe",
+        "SRV-X1",
+        "SRV-RP150-B34N",
+        "SRV-RP250-B34N",
+        "SRV-RP250-B1N0"
+      ],
+      "extracted_text": "See how to install the Stainless steel compression fitting here (https://youtu.be/GZRSEtdqTvO)\nFigure 9: Stainless Steel Compression Fitting. Source: Swagelok (https://products.swagelok.com/en/c/straights/p/SS-1210-1-12BT?q=relevance:cleaningProcess:Standard+Cleaning+and+Packaging+%28SC-10%29:connection1Size:3%2F4+in.:boredThrough:true:connection2Size:3%2F4+in.:connection2Type:Male+NPT:bodyMaterial:316+Stainless+Steel)\n\n4. Configuration examples\nSome examples of possible configurations for the SRV-RP sensor are shown below:\n3/4\" NPT Thread: SRV Reactor probe with 3/4\"-14 NPT compression fitting in PTFE or SS316L material. Rheonics offers this connection welded in its standard short sensor SRV-X1 (https://support.rheonics.com/en/support/solutions/articles/81000409840-srv-x1-34n-npt-3-4-). The advantage the -RP Type sensor offers is the longer insertion of the probe as shown in next two figures for a 150 and 250 L variant.\n\nFigure 10: SRV-RP150-B34N\n\nFigure 11: SRV-RP150-B34N\n\nSRV-RP L: 250 mm B: 3/4\" NPT\nPart: SRV-RP Reactor Probe Viscometer\nOrder Code: SRV-RP250-B34N\n\n1\" NPT: Compression fittings for the SRV-RP are also available with 1\" NPT connection for Stainless Steel and PTFE-PEEK variants.\n\nFigure 12: SRV-RP250-B1N0",
+      "specifications": {
+        "Swagelok_Fitting_Connection1_Size": "3/4 in.",
+        "Swagelok_Fitting_Connection2_Size": "3/4 in.",
+        "Swagelok_Fitting_Connection2_Type": "Male NPT",
+        "Swagelok_Fitting_Body_Material": "316 Stainless Steel",
+        "NPT_Thread_Size": "3/4\"-14 NPT",
+        "SRV-RP150-B34N_Insertion_Length": "150 mm",
+        "SRV-RP150-B34N_Insertion_Length_Imperial": "5.91 in",
+        "SRV-RP250-B34N_Insertion_Length": "250 mm",
+        "SRV-RP250-B34N_Insertion_Length_Imperial": "9.84 in",
+        "SRV-RP250-B34N_Compression_Fitting_Size": "3/4\" NPT",
+        "SRV-RP250-B1N0_Insertion_Length": "250 mm",
+        "SRV-RP250-B1N0_Insertion_Length_Imperial": "9.84 in",
+        "SRV-RP250-B1N0_Compression_Fitting_Size": "1\" NPT"
+      },
+      "key_facts": [
+        "Rheonics SRV-RP sensors offer various configuration options, including different NPT compression fittings.",
+        "A 3/4\"-14 NPT compression fitting is available for SRV Reactor probes in PTFE or SS316L material, offered by Rheonics as a welded connection in their standard short SRV-X1 sensor.",
+        "The -RP Type sensors provide a longer insertion of the probe compared to the standard short sensor.",
+        "SRV-RP probes are available in 150 L and 250 L variants, indicating different insertion lengths.",
+        "Compression fittings for SRV-RP sensors are also available with a 1\" NPT connection for Stainless Steel and PTFE-PEEK variants.",
+        "A specific Stainless Steel compression fitting (Swagelok SS-1210-1-12BT) with 3/4\" NPT connections and 316 Stainless Steel body material is referenced for installation guidance."
+      ],
+      "diagram_labels": [
+        "Figure 9: Stainless Steel Compression Fitting",
+        "Figure 10: SRV-RP150-B34N",
+        "Figure 11: SRV-RP150-B34N",
+        "Figure 12: SRV-RP250-B1N0",
+        "rheonics",
+        "150",
+        "L: [5.91]",
+        "250",
+        "L: [9.84]",
+        "B. 3/4\" NPT Compression Fitting",
+        "B. 1\" NPT Compression Fitting",
+        "SRV-RP L: 250 mm B: 3/4\" NPT",
+        "Part",
+        "Order Code",
+        "SRV-RP Reactor Probe Viscometer",
+        "SRV-RP250-B34N"
+      ],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1393,
+        "cost_usd": 0.0036222999999999997
+      },
+      "source_file": "196_SRV-X7_RP_Reactor_Probe_Viscometer.pdf"
+    },
+    {
+      "page_summary": "This page details the ordering process for Rheonics Reactor Probe viscometers, including sensor types, probe variants, lengths, and process connections.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRV-RP Reactor Probe Viscometer",
+        "SRV",
+        "SRD",
+        "Rheonics Reactor Probe",
+        "Rheonics long insertion viscometer"
+      ],
+      "extracted_text": "SRV-RP L: 250 mm B: 1\" NPT\nPart                                 Order Code\nSRV-RP Reactor Probe Viscometer      SRV-RP250-B1N0\n\n5. How to order the Rheonics Reactor Probe?\n\nRheonics SRV-RP follows next code form.\nHow to Order Rheonics long insertion viscometer and density meter\n\nCode Form: SR__ - X7 - RP___ - B___\nExample: SRV - X7 - RP150 - B34NS\n\n1 Rheonics SR-Type sensor\n  SRV: Inline Viscometer\n  SRD: Inline Density and Viscosity meter\n\n2 Sensor Probe Variant\n  X7: Reactor Probe - RP. Probe variant with ø19 mm body.\n\n3 Reactor Probe RP- Length\n  Length from sensor probe back end to tip.\n  Rheonics offers 4 variants:\n    * RP150: 150 mm length\n    * RP250: 250 mm length\n    * RP350: 350 mm length\n    * RP450: 450 mm length\n\n4 Process Connection \"B\"\n  Compression fittings defined by client. Common variants are:\n  3/4\" NPT, 1\" NPT in Stainless Steel (-S) and PTFE-PEEK (-P).\n  Ask Rheonics Sales Team for availability of other connections.\n    * B34NP: 3/4\" NPT PTFE fitting\n    * B1N0P: 1\" NPT PTFE fitting\n    * B34NS: 3/4\" NPT Stainless Steel fitting\n    * B1N0S: 1\" NPT Stainless Steel fitting\n\nThe appropriate RFQ page for SRV viscometer (https://rheonics.com/request-for-quotation/srv/), should be used to configure other options of the sensor, like viscosity range, calibration accuracy, pressure rating, etc.\n\nReferences\n(https://de.vwr.com/store/catalog/product.jsp?catalog_number=COWIPC701.100.19)\n[0]: Rheonics long insertion viscometer (https://support.rheonics.com/en/support/solutions/articles/81000411102-srv-x5-long-insertion-probe)",
+      "specifications": {
+        "Reference Length (L)": "250 mm",
+        "Reference Process Connection (B)": "1 inch NPT",
+        "Probe Diameter": "19 mm",
+        "RP150 Length": "150 mm",
+        "RP250 Length": "250 mm",
+        "RP350 Length": "350 mm",
+        "RP450 Length": "450 mm",
+        "Process Connection Type (B34NP)": "3/4 inch NPT PTFE",
+        "Process Connection Type (B1N0P)": "1 inch NPT PTFE",
+        "Process Connection Type (B34NS)": "3/4 inch NPT Stainless Steel",
+        "Process Connection Type (B1N0S)": "1 inch NPT Stainless Steel"
+      },
+      "key_facts": [
+        "The SRV-RP Reactor Probe Viscometer has an example order code SRV-RP250-B1N0.",
+        "Rheonics offers SRV as an Inline Viscometer and SRD as an Inline Density and Viscosity meter.",
+        "The Sensor Probe Variant X7 refers to a Reactor Probe with a 19 mm body diameter.",
+        "Reactor Probe RP- Length refers to the length from the sensor probe's back end to its tip.",
+        "Rheonics offers four length variants for the Reactor Probe: 150 mm, 250 mm, 350 mm, and 450 mm.",
+        "Process Connection 'B' refers to compression fittings, which are defined by the client.",
+        "Common process connection variants include 3/4\" NPT and 1\" NPT in Stainless Steel or PTFE-PEEK.",
+        "Specific process connection codes are B34NP (3/4\" NPT PTFE), B1N0P (1\" NPT PTFE), B34NS (3/4\" NPT Stainless Steel), and B1N0S (1\" NPT Stainless Steel).",
+        "Additional sensor options like viscosity range, calibration accuracy, and pressure rating can be configured via the SRV viscometer RFQ page."
+      ],
+      "diagram_labels": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "warnings_notes": [
+        "Ask Rheonics Sales Team for availability of other connections.",
+        "The appropriate RFQ page for SRV viscometer (https://rheonics.com/request-for-quotation/srv/), should be used to configure other options of the sensor, like viscosity range, calibration accuracy, pressure rating, etc."
+      ],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1288,
+        "cost_usd": 0.0033598
+      },
+      "source_file": "196_SRV-X7_RP_Reactor_Probe_Viscometer.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

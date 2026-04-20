@@ -1,0 +1,344 @@
+{
+  "source_file": "241_Analog_signals_setup_with_the_RCP.pdf",
+  "total_pages": 5,
+  "chunks": [
+    {
+      "page_summary": "This page provides instructions and a graphical interface overview for setting up analog signals and configuring 4-20mA limits using the Rheonics Control Panel (RCP) software.",
+      "document_type": "manual",
+      "product_names": [
+        "RCP",
+        "Rheonics Control Panel",
+        "SRV"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nAnalog signals setup with the RCP\n\nModified on: Thu, 9 Apr, 2026 at 3:50 PM\n\n1. Setting limits on the RCP\n\nBelow find how to configure the communication channels on the sensor, also the useful tools RCP provides\n\n2. 4-20mA Settings\n\n2.1. This box allows the reads and sets the upper and lower limits for each 4-20 mA measurement channel.\n\nRheonics Control Panel 5.3.1.6\nMeasurement\tEvents\tSettings\tService\tCommunication\tLogger\tHelp\n\nSystem Info\nSensor S/N\nElectronics S/N\t19101436\n\nSoftware Info\nInterface FW Version\t03.20/6-g963d2ab\nSensor FW Version\n\nUpdate Values\nRefresh\n\n4-20 mA Settings\nChannel 1\nViscosity\n4 mA\t0.00\tmPa.s\n20 mA\t3000.00\tmPa.s\nUpdate\n\nChannel 2\nDensity\n4 mA\t0.000\tg/cc\n20 mA\t1.500\tg/cc\nUpdate\n\nChannel 3\nTemperature\n4 mA\t-20.00\t°C\n20 mA\t130.00\t°C\nUpdate\n\n4 - 20 mA Calibration Check\nLive:\nChannel 1\t4.000\tmA\nChannel 2\t6.777\tmA\nChannel 3\t8.910\tmA\n\nChannel 1\t4.030\t15.975\n4 mA\t16 mA\tCalibrate\tTest: 10 mA\n\nChannel 2\t4.000\t16.000\n4 mA\t16 mA\tCalibrate\tTest: 10 mA\n\nChannel 3\t3.999\t15.982\n4 mA\t16 mA\tCalibrate\tTest: 10 mA\n\nDensity (SRV Only)\nSet Density\tConstant\t0.000000\tg/cc\nTemp. Dependent Density Curve (T, °C)\nHelp\nDensity, g/cc\t0.000000 xT² + 0.010000 xT + 0.000000\nWrite\n\nFigure 1. 4-20mA settings box\n\n2.2. Open the dropdown list and select the parameter to measure. The parameters available to be selected are as following:\n\n*   Viscosity\n*   Density\n*   Temperature\n*   Kinematic Viscosity\n*   Calculated Viscosity\n*   Calculated Density\n*   Concentration",
+      "specifications": {
+        "phone_number": "+1 713 234 0863",
+        "last_modified_date": "Thu, 9 Apr, 2026",
+        "last_modified_time": "3:50 PM",
+        "rheonics_control_panel_version": "5.3.1.6",
+        "electronics_serial_number": "19101436",
+        "interface_fw_version": "03.20/6-g963d2ab",
+        "channel_1_viscosity_4ma_limit": "0.00 mPa.s",
+        "channel_1_viscosity_20ma_limit": "3000.00 mPa.s",
+        "channel_2_density_4ma_limit": "0.000 g/cc",
+        "channel_2_density_20ma_limit": "1.500 g/cc",
+        "channel_3_temperature_4ma_limit": "-20.00 °C",
+        "channel_3_temperature_20ma_limit": "130.00 °C",
+        "live_current_channel_1": "4.000 mA",
+        "live_current_channel_2": "6.777 mA",
+        "live_current_channel_3": "8.910 mA",
+        "calibration_check_channel_1_value_1": "4.030",
+        "calibration_check_channel_1_value_2": "15.975",
+        "calibration_check_channel_2_value_1": "4.000",
+        "calibration_check_channel_2_value_2": "16.000",
+        "calibration_check_channel_3_value_1": "3.999",
+        "calibration_check_channel_3_value_2": "15.982",
+        "set_density_constant_value": "0.000000 g/cc",
+        "density_curve_equation": "0.000000 xT² + 0.010000 xT + 0.000000"
+      },
+      "key_facts": [
+        "The Rheonics Control Panel (RCP) is used to configure communication channels on the sensor and provides useful tools.",
+        "The 4-20 mA settings box allows users to read and set the upper and lower limits for each 4-20 mA measurement channel.",
+        "The available parameters for selection in the dropdown list include Viscosity, Density, Temperature, Kinematic Viscosity, Calculated Viscosity, Calculated Density, and Concentration."
+      ],
+      "diagram_labels": [
+        "Rheonics Control Panel 5.3.1.6",
+        "Measurement",
+        "Events",
+        "Settings",
+        "Service",
+        "Communication",
+        "Logger",
+        "Help",
+        "System Info",
+        "Sensor S/N",
+        "Electronics S/N",
+        "19101436",
+        "Software Info",
+        "Interface FW Version",
+        "03.20/6-g963d2ab",
+        "Sensor FW Version",
+        "Update Values",
+        "Refresh",
+        "4-20 mA Settings",
+        "Channel 1",
+        "Viscosity",
+        "4 mA",
+        "0.00",
+        "mPa.s",
+        "20 mA",
+        "3000.00",
+        "Update",
+        "Channel 2",
+        "Density",
+        "0.000",
+        "g/cc",
+        "1.500",
+        "Channel 3",
+        "Temperature",
+        "-20.00",
+        "°C",
+        "130.00",
+        "4 - 20 mA Calibration Check",
+        "Live:",
+        "Channel 1",
+        "4.000",
+        "mA",
+        "Channel 2",
+        "6.777",
+        "mA",
+        "Channel 3",
+        "8.910",
+        "mA",
+        "4.030",
+        "15.975",
+        "4 mA",
+        "16 mA",
+        "Calibrate",
+        "Test: 10 mA",
+        "4.000",
+        "16.000",
+        "3.999",
+        "15.982",
+        "Density (SRV Only)",
+        "Set Density",
+        "Constant",
+        "0.000000",
+        "g/cc",
+        "Temp. Dependent Density Curve (T, °C)",
+        "Help",
+        "Density, g/cc",
+        "0.000000 xT² + 0.010000 xT + 0.000000",
+        "Write",
+        "Figure 1. 4-20mA settings box"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 2075,
+        "cost_usd": 0.0053273
+      },
+      "source_file": "241_Analog_signals_setup_with_the_RCP.pdf"
+    },
+    {
+      "page_summary": "This page details the process of configuring 4-20 mA output limits for viscosity, density, and temperature channels on the SME system, and introduces the procedure for performing individual channel calibration.",
+      "document_type": "manual",
+      "product_names": [
+        "SME"
+      ],
+      "extracted_text": "4-20 mA Settings\nChannel 1\nViscosity\n  ✔ Viscosity\n  Density\n  Temperature\n  Kinematic Visc.\n  Calc. Viscosity\n  Calc. Density\n  Concentration\n\nChannel 1\n4 mA  0.00 mPa.s\n20 mA 3000.00 mPa.s\nUpdate\n\nChannel 2\nDensity\n4 mA 0.000 g/cc\n20 mA 1.500 g/cc\nUpdate\n\nChannel 3\nTemperature\n4 mA -20.00 °C\n20 mA 130.00 °C\nUpdate\n\nFigure 2. Selecting parameter in dropdown list\n\n2.3. To change the upper and lower limits, follow the next steps:\n2.3.1. Enter the lower limit on the box labeled “4 mA”.\n2.3.2. Write the upper limit on the box labeled “20 mA”.\n2.3.3. Click the “Update” button to send the new values to the SME. If the write operation succeeds, the “Update” button will turn green for a few seconds. Otherwise, will turn red and the boxes will go back to the previous values.\n\n4-20 mA Settings\nChannel 1\n(Viscosity)\nLow limit 4 mA  0.00 mPa.s\nUpper limit 20 mA 3.00E+3 mPa.s\nUpdate (button shown as green)\n\nChannel 2\n(Density)\n4 mA 0.000 g/cc\n20 mA 1.000 g/cc\nUpdate\n\nChannel 3\n(Temperature)\n4 mA -20.00 °C\n20 mA 130.00 °C\nUpdate\n\nFigure 3. Updated limit\n\n3. Performing calibration\n3.1. The SME has three 4-20 mA channels to output measured Viscosity, Density, and Temperature. Each channel can be calibrated individually. To calibrate one channel (ch1 for example) follow these steps:",
+      "specifications": {
+        "Number of 4-20 mA channels": "3",
+        "Channel 1 (Viscosity) 4 mA output limit (initial example)": "0.00 mPa.s",
+        "Channel 1 (Viscosity) 20 mA output limit (initial example)": "3000.00 mPa.s",
+        "Channel 1 (Viscosity) 20 mA output limit (updated example)": "3.00E+3 mPa.s",
+        "Channel 2 (Density) 4 mA output limit (initial example)": "0.000 g/cc",
+        "Channel 2 (Density) 20 mA output limit (initial example)": "1.500 g/cc",
+        "Channel 2 (Density) 20 mA output limit (updated example)": "1.000 g/cc",
+        "Channel 3 (Temperature) 4 mA output limit (initial example)": "-20.00 °C",
+        "Channel 3 (Temperature) 20 mA output limit (initial example)": "130.00 °C"
+      },
+      "key_facts": [
+        "The SME system is equipped with three 4-20 mA output channels.",
+        "These channels are configured to output measured Viscosity, Density, and Temperature.",
+        "Each 4-20 mA channel on the SME can be calibrated individually.",
+        "Users can adjust the upper and lower limits for the 4-20 mA output of each channel.",
+        "Parameters available for selection in a dropdown include Viscosity, Density, Temperature, Kinematic Viscosity, Calculated Viscosity, Calculated Density, and Concentration."
+      ],
+      "diagram_labels": [
+        "4-20 mA Settings",
+        "Channel 1",
+        "Viscosity",
+        "Density",
+        "Temperature",
+        "Kinematic Visc.",
+        "Calc. Viscosity",
+        "Calc. Density",
+        "Concentration",
+        "4 mA",
+        "20 mA",
+        "mPa.s",
+        "Update",
+        "g/cc",
+        "°C",
+        "Channel 2",
+        "Channel 3",
+        "Low limit",
+        "Upper limit",
+        "Figure 2. Selecting parameter in dropdown list",
+        "Figure 3. Updated limit"
+      ],
+      "warnings_notes": [
+        "If the write operation to send new values to the SME succeeds, the “Update” button will turn green for a few seconds.",
+        "If the write operation fails, the “Update” button will turn red, and the input boxes will revert to their previous values."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1224,
+        "cost_usd": 0.0031998
+      },
+      "source_file": "241_Analog_signals_setup_with_the_RCP.pdf"
+    },
+    {
+      "page_summary": "This page details the procedure for performing a 4-20 mA current output calibration check for multiple channels, including steps for verifying 4 mA and 16 mA current outputs.",
+      "document_type": "manual",
+      "product_names": [
+        "SME"
+      ],
+      "extracted_text": "3.1.1. Attach a current measurement instrument to measure the current on channel 1, attach between -gnd and ch1. Ensure the instrument has a measurement accuracy better than desired accuracy. By default, the channels are factory calibrated to better than 1% absolute accuracy\n3.1.2. Click the “4 mA” button, under the “channel 1” label. This will output a 4 mA current through ch1. The 4 mA button will turn green to indicate that the SME is in “4mA mode”\nFigure 4. Low limit check.\n3.1.3. Register the value measured with the milliammeter in the box above the 4 mA button.\nFigure 5. Measured parameter for channel 1\n3.1.4. Repeat the same process for Click the “16 mA” button, under Channel 1 tag to output a 16 mA current through channel 1. The 16 mA button will turn green to indicate that the SME is in 16 mA mode. Also, the 4 mA button will go back to gray color, since the SME is no longer in that state.",
+      "specifications": {
+        "factory_calibration_accuracy": "better than 1% absolute accuracy",
+        "output_current_low": "4 mA",
+        "output_current_high": "16 mA",
+        "test_current": "10 mA",
+        "channel_1_live_current": "4.000 mA",
+        "channel_2_live_current": "14.667 mA",
+        "channel_3_live_current": "8.925 mA",
+        "channel_1_measured_low_value": "4.030 mA",
+        "channel_1_measured_high_value": "15.975 mA",
+        "channel_2_measured_low_value": "4.000 mA",
+        "channel_2_measured_high_value": "16.000 mA",
+        "channel_3_measured_low_value": "3.999 mA",
+        "channel_3_measured_high_value": "15.982 mA"
+      },
+      "key_facts": [
+        "A current measurement instrument should be attached to measure current on channel 1 (between -gnd and ch1).",
+        "The measurement instrument must have an accuracy better than the desired accuracy.",
+        "Channels are factory calibrated by default to better than 1% absolute accuracy.",
+        "Clicking the '4 mA' button for 'channel 1' outputs a 4 mA current through ch1 and changes the button color to green, indicating '4mA mode' for the SME.",
+        "The measured value from the milliammeter should be registered in the designated box.",
+        "Clicking the '16 mA' button for 'Channel 1' outputs a 16 mA current through ch1 and changes the button color to green, indicating '16 mA mode' for the SME.",
+        "When the SME is in '16 mA mode', the '4 mA' button will revert to a gray color."
+      ],
+      "diagram_labels": [
+        "4 - 20 mA Calibration Check",
+        "Live: 4.000 mA",
+        "Live: 14.667 mA",
+        "Live: 8.925 mA",
+        "Channel 1",
+        "Channel 2",
+        "Channel 3",
+        "4.030",
+        "15.975",
+        "4 mA",
+        "16 mA",
+        "Calibrate",
+        "Test: 10 mA",
+        "4.000",
+        "16.000",
+        "3.999",
+        "15.982",
+        "?"
+      ],
+      "warnings_notes": [
+        "Ensure the instrument has a measurement accuracy better than desired accuracy."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 996,
+        "cost_usd": 0.0026298
+      },
+      "source_file": "241_Analog_signals_setup_with_the_RCP.pdf"
+    },
+    {
+      "page_summary": "This page provides step-by-step instructions for performing a 4-20 mA calibration check using a software interface, detailing input registration and calibration confirmation.",
+      "document_type": "manual",
+      "product_names": [
+        "SME"
+      ],
+      "extracted_text": "4 - 20 mA Calibration Check\nLive: 4.000 mA\nChannel 1\n4.030\n15.975\n4 mA\n16 mA\nCalibrate\nTest: 10 mA\nLive: 14.667 mA\nChannel 2\n4.000\n16.000\n4 mA\n16 mA\nCalibrate\nTest: 10 mA\nLive: 8.841 mA\nChannel 3\n3.999\n15.982\n4 mA\n16 mA\nCalibrate\nTest: 10 mA\nFigure 6. Upper limit check\n3.5. Register the measured value in the box above the 16 mA button.\nFigure 7. Measured parameter for channel 2\n3.6. Click the “Calibrate” button to send the measured values to the SME. If the command was correct, the button will turn green for two seconds and go back to gray, to indicate that the SME is in measurement mode.\nFigure 8. Calibration complete.\n4. Calibration Check",
+      "specifications": {
+        "Calibration Range": "4 - 20 mA",
+        "Channel 1 Live Current": "4.000 mA",
+        "Channel 1 Low Input": "4.030",
+        "Channel 1 High Input": "15.975",
+        "Channel 2 Live Current": "14.667 mA",
+        "Channel 2 Low Input": "4.000",
+        "Channel 2 High Input": "16.000",
+        "Channel 3 Live Current": "8.841 mA",
+        "Channel 3 Low Input": "3.999",
+        "Channel 3 High Input": "15.982",
+        "Test Current": "10 mA"
+      },
+      "key_facts": [
+        "The document details a 4-20 mA calibration check process across three channels.",
+        "Users must register the measured value in the input box corresponding to the 16 mA setting.",
+        "Clicking the 'Calibrate' button transmits the measured values to the SME.",
+        "A successful calibration command is indicated by the 'Calibrate' button turning green for two seconds, then reverting to gray, signifying the SME is in measurement mode."
+      ],
+      "diagram_labels": [
+        "4 - 20 mA Calibration Check",
+        "Live",
+        "mA",
+        "Channel 1",
+        "Channel 2",
+        "Channel 3",
+        "4 mA",
+        "16 mA",
+        "Calibrate",
+        "Test: 10 mA",
+        "?"
+      ],
+      "warnings_notes": [
+        "The 'Calibrate' button turning green for two seconds and then gray indicates that the SME is in measurement mode.",
+        "Figure 7's caption 'Measured parameter for channel 2' is inconsistent with the image, which displays Channel 1."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 795,
+        "cost_usd": 0.0021273
+      },
+      "source_file": "241_Analog_signals_setup_with_the_RCP.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions on how to verify the calibration of a device by outputting a specific current through a channel using a software interface, accompanied by a screenshot of the calibration dialog.",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "4.1. To verify the calibration, click on the \"Test: 10 mA\" button, to output a calibrated 10 mA current through the channel. The button will remain green until you press it again, and then the system will go back to measurements mode.\n\nLive: 4.000 mA\nChannel 1\n4.030\n15.975\n4 mA\n16 mA\nCalibrate\nTest: 10 mA\n\nFigure 9. Calibration Check",
+      "specifications": {
+        "live_current_display": "4.000 mA",
+        "calibration_point_1_button": "4 mA",
+        "calibration_point_2_button": "16 mA",
+        "displayed_value_point_1": "4.030",
+        "displayed_value_point_2": "15.975",
+        "test_current_output": "10 mA"
+      },
+      "key_facts": [
+        "To verify calibration, click the 'Test: 10 mA' button.",
+        "Clicking the 'Test: 10 mA' button outputs a calibrated 10 mA current through the channel.",
+        "The 'Test: 10 mA' button remains green while the test current is active.",
+        "Pressing the 'Test: 10 mA' button again will stop the test and return the system to measurements mode."
+      ],
+      "diagram_labels": [
+        "Live:",
+        "mA",
+        "Channel 1",
+        "4.030",
+        "15.975",
+        "4 mA",
+        "16 mA",
+        "Calibrate",
+        "Test: 10 mA",
+        "Figure 9. Calibration Check"
+      ],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 509,
+        "cost_usd": 0.0014123
+      },
+      "source_file": "241_Analog_signals_setup_with_the_RCP.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

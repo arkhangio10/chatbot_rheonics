@@ -1,0 +1,247 @@
+{
+  "source_file": "118_ASTM_model_-_Temperature_compensated_density.pdf",
+  "total_pages": 4,
+  "chunks": [
+    {
+      "page_summary": "This page details the ASTM model for calculating temperature-compensated density using Rheonics sensors and software, including the underlying mathematical model and initial steps for data analysis.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics Control Panel",
+        "SRD sensor"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nASTM model - Temperature compensated density\nModified on: Fri, 18 Aug, 2023 at 4:29 PM\n\nWhat products are involved in this article?\nThis article is based on the use of RCP (Rheonics Control Panel) (https://support.rheonics.com/en/support/solutions/articles/81000297177-running-the-rcp-program) connected to the SME (Smar\n\nWhat is the purpose of this article?\nExplain the process to get a temperature compensated density when it has a linear trend. Usual applications are with fluids with a linear dependency on temperature.\n\n1. Temperature-compensated Density\nDensity, defined as the substance's mass per unit of volume is an important fluid property that has an increasing presence in monitoring processes and control systems.\nDensity is affected by temperature and pressure. For most liquids, the Density decreases with temperature. As pressure increases, the density of any stable material also increases, markedly in gases, and almost negligibly in liquids and solids.\nIn most cases, we want to monitor the fluid density at a constant reference temperature. If the process temperature isn't constant, an additional source of error to the control system is added. To avoid the temperature dependence on the fluid's density and truly monitor its consistency, the temperature compensated density is introduced.\nTo compensate for temperature effects, the Rheonics Control Panel offers the following models Linear, Polynomial, or ASTM functions.\n\n2. Math model\nThe SRD (https://rheonics.com/products/inline-density-meter-srd/) sensor can measure inline density, viscosity, and temperature. With the use of mathematical models, temperature compensated measurements can be obtained.\nBelow is the mathematical formula for the density linear model used in the RCP (Rheonics software).\n\nρcomp = ρL * e^{αref*ΔT * [1+0.8*αref*ΔT]}\nαref = (K0 + K1 * ρref) / ρref^2\nΔT = TL - Tref\n\nWhere:\nρcomp - Compensated density, calculated by the Sensor.\nρL - Line density, read by the Sensor.\nρref - Reference density, is the density around which the Sensor will compensate the readings. This is defined and should be specified by the user.\nK0 and K1 - Coefficients, specified by user.\nTL - Temperature, read by the Sensor.\nTref - Reference temperature, is the temperature around which the Sensor will compensate the readings. This is defined and should be specified by the user.\n\n3. Checking the data\nThe first step to achieving a compensated density requires the user to take samples of density at different temperatures, these temperatures must be higher and lower than the normal operation temperature range in your process. Once enough data is obtained, the user should define the reference temperature. For this example, the blue point (15°C) is used as the typical set-point temperature of the process line.\nThe following steps outline the correct procedure for data analysis:\n3.1. Select the reference temperature and density from data obtained in tests. Here, reference temperature and density are highlighted in blue in the next Table, we want to create a correlation at 15°C where we expect a density of 917 Kg/m3.",
+      "specifications": {
+        "example_reference_temperature": "15°C",
+        "example_expected_density": "917 Kg/m3"
+      },
+      "key_facts": [
+        "Density, defined as mass per unit of volume, is a critical fluid property for monitoring and control systems.",
+        "Fluid density is influenced by both temperature and pressure.",
+        "Temperature compensated density is introduced to eliminate temperature dependence and ensure accurate monitoring of fluid consistency when process temperature is not constant.",
+        "The Rheonics Control Panel offers Linear, Polynomial, or ASTM functions for temperature compensation.",
+        "The SRD sensor can measure inline density, viscosity, and temperature.",
+        "The document provides a specific mathematical formula (Equation 1: Density ASTM Model) used by Rheonics Control Panel software for density compensation.",
+        "Users must collect density samples across a temperature range (higher and lower than normal operation) to establish the reference temperature and density for compensation.",
+        "Coefficients K0 and K1 are user-specified parameters in the ASTM model."
+      ],
+      "diagram_labels": [
+        "Equation 1: Density ASTM Model."
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1097,
+        "cost_usd": 0.0028823
+      },
+      "source_file": "118_ASTM_model_-_Temperature_compensated_density.pdf"
+    },
+    {
+      "page_summary": "This page presents data on the relationship between temperature and density for various petroleum products, including inline measurement data, API-ASTM-IP petroleum measurement tables, and the use of K0 and K1 coefficients for temperature compensation in a Rheonics sensor.",
+      "document_type": "manual",
+      "product_names": [
+        "Sensor",
+        "RCP software"
+      ],
+      "extracted_text": "Temperature [°C]\nDensity [Kg/m3]\n9\n923\n10\n920.4\n15\n917\n20\n913.7\n25\n910.4\n29\n907.7\nTable 1. Data points from inline measurements.\n\n3.2. Plot data points of Denisty vs Temperature to study the behavior of the data.\n\nDensity vs Temperature\nρ [g/cc]\nT [°C]\nFigure 1: Plot chart Density vs Temperature\n\n3.3. The K1 and K0 values can be found in the API-ASTM-IP petroleum measurement tables, as shown below.\n\nTemperature [°C]\nDensity [g/cc]\nK0\nK1\nCrude Oil\n771 - 981\n613.97226\n0.00000\nGasolines\n654 - 779\n346.42278\n0.43884\nKerosines\n779 - 839\n594.54180\n0.00000\nFuel Oils\n839 - 1075\n186.96960\n0.48618\nTable 2. API-ASTM-IP petroleum measurement table\n\nUsing Crude Oil in this example, their values are as follows:\nK1=613.97 and K0=0\n\nConsidering that:\nTref = 15°C\n\nWith all the input parameters set on the Sensor through the RCP software, the temperature compensated density will look like the next graph in Figure 2.",
+      "specifications": {
+        "Table 1 - Temperature [°C]": [
+          9,
+          10,
+          15,
+          20,
+          25,
+          29
+        ],
+        "Table 1 - Density [Kg/m3]": [
+          923,
+          920.4,
+          917,
+          913.7,
+          910.4,
+          907.7
+        ],
+        "Table 2 - Crude Oil Density [g/cc]": "771 - 981",
+        "Table 2 - Crude Oil K0": 613.97226,
+        "Table 2 - Crude Oil K1": 0.0,
+        "Table 2 - Gasolines Density [g/cc]": "654 - 779",
+        "Table 2 - Gasolines K0": 346.42278,
+        "Table 2 - Gasolines K1": 0.43884,
+        "Table 2 - Kerosines Density [g/cc]": "779 - 839",
+        "Table 2 - Kerosines K0": 594.5418,
+        "Table 2 - Kerosines K1": 0.0,
+        "Table 2 - Fuel Oils Density [g/cc]": "839 - 1075",
+        "Table 2 - Fuel Oils K0": 186.9696,
+        "Table 2 - Fuel Oils K1": 0.48618,
+        "K1 for Crude Oil example": 613.97,
+        "K0 for Crude Oil example": 0,
+        "Reference Temperature (Tref)": "15°C"
+      },
+      "key_facts": [
+        "Data points from inline measurements show density decreasing with increasing temperature.",
+        "The behavior of density versus temperature is plotted in a chart.",
+        "K1 and K0 values for various petroleum products are derived from API-ASTM-IP petroleum measurement tables.",
+        "For Crude Oil, the example K1 value is 613.97 and K0 is 0.",
+        "A reference temperature (Tref) of 15°C is considered.",
+        "Temperature compensated density is achieved by setting input parameters on the Sensor using RCP software."
+      ],
+      "diagram_labels": [
+        "Density vs Temperature",
+        "ρ [g/cc]",
+        "T [°C]",
+        "Figure 1: Plot chart Density vs Temperature"
+      ],
+      "warnings_notes": [],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1165,
+        "cost_usd": 0.0030523
+      },
+      "source_file": "118_ASTM_model_-_Temperature_compensated_density.pdf"
+    },
+    {
+      "page_summary": "This page details how to load density compensation models into Rheonics sensor electronics using the Rheonics Control Panel software, including a graph of expected results and step-by-step instructions for configuration.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel 5.4.0.6",
+        "SME-TRD"
+      ],
+      "extracted_text": "Density vs Temperature\nFigure 2. Expected results when applying the mathematical model.\n\n4. How to load models into the Sensor electronics?\nThe calculation tab on RCP allows configuring the Sensor to run mathematical models for viscosity, density, and concentration. Expert mode needs to be enabled for this.\n\nRheonics Control Panel 5.4.0.6\nMeasurement Events Settings Service Communication Scaling Calculation Logger Help\nAdvanced Calculations | Thermal Compensation of Density, Viscosity\nCalculated Value mPa.s\nStatus\nSelect Measurement to Apply Model: Density\nSelect Model from List: Density ASTM Model\nTemperature Compensated Density ASTM-API Model\nK0\nK1\nTref 15°C\nUnits Kg/m3\nρcomp = ρL ⋅ e^(αref ⋅ ΔT ⋅ [1 + 0.8 ⋅ αref ⋅ ΔT])\nαref = (K0 + K1 ⋅ ρref) / ρref^2\nΔT = TL - Tref\nUPLOAD MODEL\nChange SMET Output\nLCD Display (for TRD Only)\nSelect Line to Display None\nOutput on 4-20 mA channel\nSelect channel number None\nAccess measurement with applied model over Modbus RTU/TCP register 200\nLoad Configuration\nCalculation History\nFigure 3. Calculation tab for the exponential model of density.\n\nThe following steps are needed to load the models into the Sensor electronics:\n1. In the dropdown list, “Select Measurement to Apply Model” density should be as default parameter. If not, select it from the options in the list.\n2. In “Select Model from list” select the model you would like to use for the specific parameter. When you select the model, you will get more information about the specific equation used and the coefficients you will need to apply to that model. Select “Density ASTM model”\n3. Input “K0” coefficient. For this example, it has a value of 613.97.\n4. Input “K1” coefficient. For this example, it has a value of 0,0000.\n5. Input reference temperature is used to find the coefficients models. In this example is 15°C.\n6. Click “Upload Model” to load the model settings into Sensor electronics. The button should turn GREEN for a couple of seconds if the action was successful or turn RED if the operation was unsuccessful. This action will refresh the values for the uncompensated and compensated indicators. Here you can verify if the model is calculating the expected values.\n7. Click “Load Configuration” to update the display and channel configurations in Sensor electronics.\n\n4.1. Handling Sensor Outputs\nFor the SME-TRD, the compensated viscosity values can be shown on the display. Select the line to display the parameter:",
+      "specifications": {
+        "K0 coefficient example value": "613.97",
+        "K1 coefficient example value": "0.0000",
+        "Reference temperature example": "15°C",
+        "Graph Y-axis unit": "g/cc",
+        "Graph X-axis unit": "°C",
+        "UI Calculated Value unit": "mPa.s",
+        "UI Density Units dropdown value": "Kg/m3",
+        "Modbus RTU/TCP register for access measurement": "200"
+      },
+      "key_facts": [
+        "The calculation tab on the Rheonics Control Panel (RCP) allows configuring the Sensor to run mathematical models for viscosity, density, and concentration.",
+        "The default parameter for 'Select Measurement to Apply Model' should be 'density'.",
+        "The specific model to select from the list is 'Density ASTM model'.",
+        "The example K0 coefficient value to input is 613.97.",
+        "The example K1 coefficient value to input is 0.0000.",
+        "The example reference temperature for finding coefficients models is 15°C.",
+        "Clicking 'Upload Model' loads the model settings into Sensor electronics.",
+        "A successful 'Upload Model' action is indicated by the button turning GREEN for a couple of seconds.",
+        "An unsuccessful 'Upload Model' operation is indicated by the button turning RED.",
+        "The 'Upload Model' action refreshes the values for the uncompensated and compensated indicators.",
+        "After 'Upload Model', the user can verify if the model is calculating the expected values.",
+        "Clicking 'Load Configuration' updates the display and channel configurations in Sensor electronics.",
+        "For the SME-TRD, compensated viscosity values can be shown on the display."
+      ],
+      "diagram_labels": [
+        "Density vs Temperature",
+        "ρ [g/cc]",
+        "T [°C]",
+        "Density (Graph Legend)",
+        "Compensate density (Graph Legend)",
+        "Figure 2. Expected results when applying the mathematical model.",
+        "Rheonics Control Panel 5.4.0.6",
+        "Measurement (Menu Item)",
+        "Events (Menu Item)",
+        "Settings (Menu Item)",
+        "Service (Menu Item)",
+        "Communication (Menu Item)",
+        "Scaling (Menu Item)",
+        "Calculation (Menu Item)",
+        "Logger (Menu Item)",
+        "Help (Menu Item)",
+        "Advanced Calculations | Thermal Compensation of Density, Viscosity (Tab Title)",
+        "Calculated Value (UI Label)",
+        "mPa.s (Unit next to Calculated Value)",
+        "Status (UI Label)",
+        "Select Measurement to Apply Model (UI Dropdown Label)",
+        "Density (Selected value in dropdown, labeled 1)",
+        "Select Model from List (UI Dropdown Label)",
+        "Density ASTM Model (Selected value in dropdown, labeled 2)",
+        "Temperature Compensated Density ASTM-API Model (Group Box Title)",
+        "K0 (UI Input Label, labeled 3)",
+        "K1 (UI Input Label, labeled 4)",
+        "Tref (UI Dropdown Label, labeled 5)",
+        "15°C (Selected value in Tref dropdown)",
+        "Units (UI Dropdown Label)",
+        "Kg/m3 (Selected value in Units dropdown)",
+        "ρcomp = ρL ⋅ e^(αref ⋅ ΔT ⋅ [1 + 0.8 ⋅ αref ⋅ ΔT]) (Equation)",
+        "αref = (K0 + K1 ⋅ ρref) / ρref^2 (Equation)",
+        "ΔT = TL - Tref (Equation)",
+        "UPLOAD MODEL (UI Button, labeled 6)",
+        "Change SMET Output (Group Box Title)",
+        "LCD Display (for TRD Only) (UI Label)",
+        "Select Line to Display (UI Dropdown Label)",
+        "None (Selected value in 'Select Line to Display' dropdown)",
+        "Output on 4-20 mA channel (UI Label)",
+        "Select channel number (UI Dropdown Label)",
+        "None (Selected value in 'Select channel number' dropdown)",
+        "Access measurement with applied model over Modbus RTU/TCP register (UI Input Label)",
+        "200 (Value in Modbus register input field)",
+        "Load Configuration (UI Button, labeled 7)",
+        "Calculation History (UI Button, labeled 8)",
+        "Figure 3. Calculation tab for the exponential model of density."
+      ],
+      "warnings_notes": [
+        "Expert mode needs to be enabled for this.",
+        "The 'Upload Model' button should turn GREEN for a couple of seconds if the action was successful or turn RED if the operation was unsuccessful."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1811,
+        "cost_usd": 0.004667299999999999
+      },
+      "source_file": "118_ASTM_model_-_Temperature_compensated_density.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions and diagrams for configuring LCD display lines, analog output channels (4-20 mA), and Modbus TCP/IP registers, along with details about a demonstration video for loading an ASTM density model.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics sensor",
+        "RPC Software",
+        "TRD"
+      ],
+      "extracted_text": "Figure 4. Selecting read line for LCD display.\nSelect the analog channel to send data, this can be verified in the \"Service\" Tab\nFigure 5. Selecting analog output channel\nMeasurement can always be accessed at the register address that is displayed.\nFigure 6. Modbus TCP/IP register\n4.2 Demonstration Video\nHow to load the density ASTM model into the Rheonics sen\nrheonics\nWatch on\nVideo 1. Configuration Density ASTM model in RPC Software.",
+      "specifications": {
+        "Analog output signal": "4-20 mA",
+        "Modbus RTU/TCP register address": "208"
+      },
+      "key_facts": [
+        "The LCD Display configuration is specifically for TRD models.",
+        "Analog channel selection for data output can be verified in the 'Service' Tab.",
+        "Measurement data is consistently accessible at a displayed register address.",
+        "A demonstration video is available showing how to configure a density ASTM model in Rheonics RPC Software."
+      ],
+      "diagram_labels": [
+        "LCD Display (for TRD Only)",
+        "Select Line to Display",
+        "None",
+        "Line 1",
+        "Line 2",
+        "Line 3",
+        "Output on 4-20 mA channel",
+        "Select channel number",
+        "Modbus RTU/TCP register",
+        "Ch1",
+        "Ch2",
+        "Ch3",
+        "Access measurement with applied model over Modbus RTU/TCP register"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 468,
+        "cost_usd": 0.0013098
+      },
+      "source_file": "118_ASTM_model_-_Temperature_compensated_density.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

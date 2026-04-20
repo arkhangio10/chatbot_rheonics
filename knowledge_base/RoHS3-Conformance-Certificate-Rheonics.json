@@ -1,0 +1,35 @@
+{
+  "source_file": "RoHS3-Conformance-Certificate-Rheonics.pdf",
+  "total_pages": 1,
+  "chunks": [
+    {
+      "page_summary": "This document is a Certificate of Conformance from Rheonics, certifying that its products comply with the RoHS Directive 2015/863 (RoHS3).",
+      "document_type": "certificate",
+      "product_names": [],
+      "extracted_text": "Certificate of Conformance\nRoHS\nRoHS Directive 2015/863(RoHS3)\n\nProducts Covered:\nAll the products manufactured by Rheonics\nUnless the product is specifically stated\nOtherwise\n(Note: This is a general Certificate - Please Contact if\nyou require a Product Specific Declaration)\n\nWe hereby certify that the products listed above conform to the\nrequirements of the European Union's Restrictions on the use of Certain\nHazardous Substances in Electrical and Electronic Equipment (RoHS) Directive\n2015/863 (RoHS 3). The products comply with the specified limits for\nhazardous substances as defined in the directive.\n\nSigned:\nPlace, Date:\nWinterthur, March 2017\n\nName: Dr. Sunil Kumar\nPosition: CEO",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics certifies that all its manufactured products (unless otherwise stated) conform to the RoHS Directive 2015/863 (RoHS3).",
+        "The products comply with the European Union's Restrictions on the use of Certain Hazardous Substances in Electrical and Electronic Equipment (RoHS) Directive 2015/863 (RoHS 3).",
+        "The certification was signed by Dr. Sunil Kumar, CEO, in Winterthur in March 2017."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Note: This is a general Certificate - Please Contact if you require a Product Specific Declaration."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 434,
+        "cost_usd": 0.0012248
+      },
+      "source_file": "RoHS3-Conformance-Certificate-Rheonics.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

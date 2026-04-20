@@ -1,0 +1,314 @@
+{
+  "source_file": "030_DVM_Overview_Article.pdf",
+  "total_pages": 6,
+  "chunks": [
+    {
+      "page_summary": "This article provides an overview of Rheonics' DVM (Density, Viscosity Module) sensor, highlighting its technical capabilities, key features, and components for high-pressure and high-temperature applications.",
+      "document_type": "article",
+      "product_names": [
+        "DVM HPHT density viscosity module",
+        "DTCM Thermal Control Module",
+        "DVM (Density, Viscosity Module)",
+        "DVM Sensor Unit",
+        "Sensor Electronics e.g. SME-E4",
+        "Sensor Module DVM"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nDVM Overview Article\n\nModified on: Mon, 28 Apr, 2025 at 5:37 PM\n\nWhat is the purpose of this article?\nProvides an overview and general concepts of Rheonics DVM HPHT density and viscosity module sensor, covering its technical specifications, applications, installation, maintenan\n\nWhat products are involved?\nRheonics DVM HPHT density viscosity module (https://rheonics.com/products/hpht-pvt-density-meter-viscometer-dvm/) and DTCM Thermal Control Module (https://rheonics.com/products/inline-gas-lng-density-meter-dvm/).\n\nTABLE OF CONTENTS\n\n*   Introduction\n*   Sensor Description\n*   Mechanical Specifications\n*   Cleaning and Maintenance\n*   Applications and use cases\n\nIntroduction\n\nThe accuracy of a sensor is key in all industries to ensure reliable monitoring readings. Equally important is its robustness, ensuring that the expected accuracy is maintained even under harsh conditions such as High-Pressure and High-Temperature (HPHT) applications. An example of these requirements can be found in the Oil and Gas Industry, where hydrocarbon fluids are analyzed under extreme pressure and temperature ratings to optimize processes and ensure operational efficiency. However, traditional measurement methods often face limitations under these extreme conditions.\n\nThe DVM (Density, Viscosity Module) from Rheonics (https://rheonics.com/products/hpht-pvt-density-meter-viscometer-dvm/) is a sensor designed to measure real-time fluid density, viscosity, and temperature simultaneously. Specially built to operate under high-pressure and high-temperature (HPHT) conditions, it withstands up to 2,100 bar (30,000 psi) of pressure and temperatures of up to 200°C (392°F), making it ideal for demanding industrial applications such as PVT (Pressure-Volume-Temperature) studies for hydrocarbons and reservoir fluids in the oil and gas industry. It enables fluid analysis with minimal sample requirements, as the DVM has an inner fluid volume of just 0.7 cc.\n\nDVM Sensor Unit\n\nSensor Connection\n\nSensor Electronics\ne.g. SME-E4\n\nSensor Module DVM\n\nFigure 1. Rheonics DVM Sensor Unit\n\nHere are some key features and advantages of the DVM Sensor Unit:\n\n*   Minimal Sample Requirement: Less than 0.7 cc of fluid is needed for measurements.\n*   Pressure Limit: Up to 2100 bar (30,000 psi) for HPHT applications. Requires correct configuration in order.\n*   Temperature Limit: -40 °C to 200°C (392°F), ensuring reliable operation under extreme thermal conditions. Requires correct configuration in order.\n*   Integrated Pressure Compensation: A pressure gauge is required for high-pressure applications to maintain measurement accuracy and ensure reliable readings.\n*   Minimum maintenance: Clean module and sensor is required for accurate readings. Review section below for guidelines on maintenance and cleaning.\n*   Rapid Measurement Response: Provides measurement results in less than 2 seconds, facilitating real-time monitoring and control.\n*   Fluid Compatibility: Works with Newtonian and non-Newtonian fluids, as well as single-phase and multi-phase systems. Not suitable for fluids with magnetic particles.",
+      "specifications": {
+        "pressure_limit": "2100 bar (30000 psi)",
+        "temperature_limit_celsius": "-40 °C to 200 °C",
+        "temperature_limit_fahrenheit": "392 °F",
+        "inner_fluid_volume": "0.7 cc",
+        "measurement_response_time": "less than 2 seconds"
+      },
+      "key_facts": [
+        "The DVM (Density, Viscosity Module) is a sensor designed to measure real-time fluid density, viscosity, and temperature simultaneously.",
+        "The DVM is specially built to operate under high-pressure and high-temperature (HPHT) conditions.",
+        "It withstands up to 2,100 bar (30,000 psi) of pressure and temperatures of up to 200°C (392°F).",
+        "The DVM is ideal for demanding industrial applications such as PVT studies for hydrocarbons and reservoir fluids in the oil and gas industry.",
+        "The DVM enables fluid analysis with minimal sample requirements, having an inner fluid volume of just 0.7 cc.",
+        "Less than 0.7 cc of fluid is needed for measurements with the DVM Sensor Unit.",
+        "An integrated pressure compensation mechanism requires a pressure gauge for high-pressure applications to maintain measurement accuracy.",
+        "The DVM provides measurement results in less than 2 seconds.",
+        "The DVM works with Newtonian and non-Newtonian fluids.",
+        "The DVM is compatible with single-phase and multi-phase systems."
+      ],
+      "diagram_labels": [
+        "DVM Sensor Unit",
+        "Sensor Connection",
+        "Sensor Electronics",
+        "SME-E4",
+        "Sensor Module DVM",
+        "SENSOR",
+        "RS485",
+        "USB",
+        "HDMI",
+        "Ethernet",
+        "110-230 VAC"
+      ],
+      "warnings_notes": [
+        "Pressure Limit requires correct configuration in order.",
+        "Temperature Limit requires correct configuration in order.",
+        "An integrated pressure compensation requires a pressure gauge for high-pressure applications to maintain measurement accuracy and ensure reliable readings.",
+        "Clean module and sensor is required for accurate readings; review the maintenance and cleaning section for guidelines.",
+        "The DVM is not suitable for fluids with magnetic particles."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1461,
+        "cost_usd": 0.0037923
+      },
+      "source_file": "030_DVM_Overview_Article.pdf"
+    },
+    {
+      "page_summary": "This page provides a detailed description of the Rheonics DVM sensor, including its technical specifications, operating principle, and methods for pressure compensation required for accurate measurements in demanding industrial environments.",
+      "document_type": "datasheet",
+      "product_names": [
+        "Rheonics DVM sensor",
+        "RCP Software",
+        "LabVIEW VI",
+        "Modbus TCP",
+        "Modbus RTU"
+      ],
+      "extracted_text": "Sensor Description\nSpecifications\nMeasured Parameter | Specification\n---|---\nDensity Range | 0 – 1.5 g/cc\nDensity Accuracy - Uncertainty | 0.001 g/cc\nDensity Reproducibility | Better than 1% of reading\nViscosity Range | 0.2 to 300 cP\nViscosity Accuracy - Uncertainty | 5% of reading (standard), 0.1 cP below 1 cP\nViscosity Reproducibility | Better than 1% of reading\nTemperature Sensor | Pt1000 (class AA)\n\nThe Rheonics DVM sensor is built to perform in extreme industrial environments, with high resistance to both pressure and temperature values, ensuring operation in demanding conditions.\n\nOperational Parameter | Specification\n---|---\nTemperature Rating | Specified in the sensor code. Available up to 200 °C (400 °F)\nPressure Rating | Specified in the sensor code. Available up to 30,000 psi (2100 bar)\nFluid Wetted Materials | Body: Titanium Gr. 5; Sealing O-ring: FKM as standard (AFLAS upon request); Backup ring: PEEK (Polyether Ether Ketone)\n\nOperating principle\nRheonics DVM is based on the balanced torsional resonator technology. A pair of sensing tips shears fluid, making the sensor sensitive to fluid density and viscosity changes. From the damping and resonant frequency of the resonator, the density and viscosity can be calculated using Rheonics’ proprietary algorithms.\n\nFigure 2. DVM sensing element principle.\n\nPressure compensation\nPressure compensation is required for accurate density and viscosity measurements at high pressures. Rheonics sensor electronics handle compensation internally but require an external pressure input. The pressure value (in bar) should be provided to the SME through one of the following methods:\n\n*   **RCP Software:** A fixed pressure value can be manually entered in RCP or received from an external pressure gauge via a LabVIEW driver. Rheonics supports certain pressure gauge drivers, with communication over a serial port. See the **RCP Manual (RCP-OM)**. (https://cdn.rheonics.com/wps-content/uploads/2025/02/Rheonics-Software-Manual_RCP-SM.pdf)\n*   **LabVIEW VI:** Users can create or request a default LabVIEW VI from Rheonics to integrate a pressure gauge with the sensor. LabVIEW software is required. See the LabVIEW COM API manual (RAPI-OP).\n*   **Modbus Communication:** An external PLC can write the pressure value to the Modbus register. See the **Modbus TCP (MTCP-OP)** (https://cdn.rheonics.com/wps-content/uploads/2024/04/Rheonics-Modbus-TCP-Manual_MTCP-OP-2403.pdf) or **Modbus RTU (MRTU-OP)** (https://cdn.rheonics.com/wps-content/uploads/2024/04/Rheonics-Modbus-RTU-Manual_MRTU-OP-2403.pdf) manuals.\n\nFind more information on:\n\n*   Configure Pressure Input for DV Sensor over Modbus RTU/TCP\n*   External Pressure Sensor-How the library should be designed?\n*   External Pressure Sensor-How does it work with the RCP software?\n\n**Note:** Rheonics does not supply the pressure gauge; this must be sourced by the client. Rheonics supports drivers for gauges from brands such as Additel, Keller, and Paroscientific.",
+      "specifications": {
+        "Density Range": "0 – 1.5 g/cc",
+        "Density Accuracy - Uncertainty": "0.001 g/cc",
+        "Density Reproducibility": "Better than 1% of reading",
+        "Viscosity Range": "0.2 to 300 cP",
+        "Viscosity Accuracy - Uncertainty": "5% of reading (standard), 0.1 cP below 1 cP",
+        "Viscosity Reproducibility": "Better than 1% of reading",
+        "Temperature Sensor": "Pt1000 (class AA)",
+        "Temperature Rating": "Specified in the sensor code. Available up to 200 °C (400 °F)",
+        "Pressure Rating": "Specified in the sensor code. Available up to 30,000 psi (2100 bar)",
+        "Fluid Wetted Materials": "Body: Titanium Gr. 5; Sealing O-ring: FKM as standard (AFLAS upon request); Backup ring: PEEK (Polyether Ether Ketone)"
+      },
+      "key_facts": [
+        "The Rheonics DVM sensor is built to perform in extreme industrial environments, with high resistance to both pressure and temperature values, ensuring operation in demanding conditions.",
+        "Rheonics DVM is based on balanced torsional resonator technology.",
+        "A pair of sensing tips shears fluid, making the sensor sensitive to fluid density and viscosity changes.",
+        "From the damping and resonant frequency of the resonator, the density and viscosity can be calculated using Rheonics’ proprietary algorithms.",
+        "Pressure compensation is required for accurate density and viscosity measurements at high pressures.",
+        "Rheonics sensor electronics handle compensation internally but require an external pressure input.",
+        "The pressure value (in bar) should be provided to the SME (Sensor Measurement Engine) through RCP Software, LabVIEW VI, or Modbus Communication."
+      ],
+      "diagram_labels": [
+        "Resonator head",
+        "Fluid at surface moves at the same speed as the resonator head. Velocity decreases with distance. This exerts damping forces on the resonator."
+      ],
+      "warnings_notes": [
+        "Rheonics does not supply the pressure gauge; this must be sourced by the client.",
+        "Rheonics supports drivers for gauges from brands such as Additel, Keller, and Paroscientific."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1444,
+        "cost_usd": 0.0037497999999999997
+      },
+      "source_file": "030_DVM_Overview_Article.pdf"
+    },
+    {
+      "page_summary": "This page details the mechanical specifications, dimensions, components, and assembly of the Rheonics DVM module and its internal DV sensing element.",
+      "document_type": "datasheet",
+      "product_names": [
+        "DVM module",
+        "DV Sensor"
+      ],
+      "extracted_text": "Mechanical Specifications\n\nDimensions and Drawings\nDimensions overview\nFluid connection adapters:\nGland 9/16\"-18 UNF\nCollar 1/4\"-28-LH UNF\nTube (Nipple) (OD 1/4\" - ID 1/8\")\n\nModule Material | Titanium Grade 5\nModule IP Rating | IP 69K\n\nAvailable Pressure rating | Available Temperature rating\nP1 700 bar (10,000 psi) | T1 125 °C (250°F)\nP2 1000 bar (15,000 psi) | T2 150 °C (300°F)\nP3 1400 bar (20,000 psi) | T3 175 °C (350°F)\nP4 2100 bar (30,000 psi) | T4 200 °C (400°F)\nPx As specified | Tx As specified\n\nFront view\nTop view\nM12 - connector\nIntegrated Sensor Cable\nDV Sensor\nUnits mm [inch]\nFigure 4. DVM module dimensions\n\nComponents and assembly\n\nNr | Part number | Description\n1 | HP-CL-14FLH | Collar 1/4\"-28-LH UNF\n2 | HP-GL-916F | Gland 9/16\"-18 UNF\n3 | HP-TB-14FLH | Tube (Nipple) (OD 1/4\" - ID 1/8\")\n*Connection adapters included upon request\nO-Ring (ø6.86x1.78 mm FKM)\n*Other materials available\nConnections and components\nFigure 5. DVM Components\n\nInternal DV Sensing Element\n\nDV Sensor\nSample Channel\nDV Module\nBackup Ring\nO-Ring\nFigure 6. DV Sensing Element and internal sealing rings\n\nDescription: DVM module, components, and adapters\nDrawing: Rheonics DVM PDF (https://rheonics.com/wp-content/uploads/2025/04/Rheonics_DVM_Drawing.pdf)",
+      "specifications": {
+        "Module Material": "Titanium Grade 5",
+        "Module IP Rating": "IP 69K",
+        "P1 Pressure rating": "700 bar (10,000 psi)",
+        "P2 Pressure rating": "1000 bar (15,000 psi)",
+        "P3 Pressure rating": "1400 bar (20,000 psi)",
+        "P4 Pressure rating": "2100 bar (30,000 psi)",
+        "T1 Temperature rating": "125 °C (250°F)",
+        "T2 Temperature rating": "150 °C (300°F)",
+        "T3 Temperature rating": "175 °C (350°F)",
+        "T4 Temperature rating": "200 °C (400°F)",
+        "DVM Module Height (front view)": "75.3 mm (2.96 inch)",
+        "DVM Module Width (front view)": "44 mm (1.73 inch)",
+        "DVM Module Depth (top view)": "55 mm (2.17 inch)",
+        "O-Ring dimensions": "ø6.86x1.78 mm",
+        "O-Ring material (standard)": "FKM",
+        "Collar Part Number": "HP-CL-14FLH",
+        "Collar Thread": "1/4\"-28-LH UNF",
+        "Gland Part Number": "HP-GL-916F",
+        "Gland Thread": "9/16\"-18 UNF",
+        "Tube (Nipple) Part Number": "HP-TB-14FLH",
+        "Tube (Nipple) OD": "1/4\"",
+        "Tube (Nipple) ID": "1/8\""
+      },
+      "key_facts": [
+        "The DVM module is constructed from Titanium Grade 5.",
+        "The DVM module has an IP 69K rating.",
+        "The DVM module supports various pressure ratings up to 2100 bar (30,000 psi) and temperature ratings up to 200 °C (400°F).",
+        "The standard O-Ring material is FKM with specific dimensions.",
+        "Connection adapters are available and included upon request.",
+        "A dedicated PDF drawing for the Rheonics DVM module, components, and adapters is available online."
+      ],
+      "diagram_labels": [
+        "Fluid connection adapters",
+        "Gland 9/16\"-18 UNF",
+        "Collar 1/4\"-28-LH UNF",
+        "Tube (Nipple) (OD 1/4\" - ID 1/8\")",
+        "Front view",
+        "Top view",
+        "M12 - connector",
+        "Integrated Sensor Cable",
+        "DV Sensor",
+        "Units mm [inch]",
+        "Lockdown screw",
+        "Sensing Element",
+        "Backup ring",
+        "O-Ring",
+        "9/16-18 UNF",
+        "1",
+        "2",
+        "3",
+        "Sample Channel",
+        "DV Module"
+      ],
+      "warnings_notes": [
+        "*Other materials available (for O-Ring)",
+        "*Connection adapters included upon request",
+        "Px As specified (indicating custom pressure rating options)",
+        "Tx As specified (indicating custom temperature rating options)"
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1439,
+        "cost_usd": 0.0037373
+      },
+      "source_file": "030_DVM_Overview_Article.pdf"
+    },
+    {
+      "page_summary": "This page details the materials used in the DVM module and provides crucial installation guidelines for optimal performance, including sensor immersion, orientation, flow direction, and port specifications.",
+      "document_type": "manual",
+      "product_names": [
+        "DVM module",
+        "DVM unit",
+        "DV sensor"
+      ],
+      "extracted_text": "Materials\nAll wetted parts of the DVM module are made of Titanium Grade 5, which is compatible with a wide range of chemical fluids. To ensure a leak-proof design under HPHT conditions, the sensor is equipped with two sealing rings, these are:\n* A sealing O-ring made of FKM as standard material, AFLAS material available upon request. The O-ring material must be compatible with the fluid being measured to ensure optimal performance and durability.\n* A backup ring, made of PEEK (Polyether Ether Ketone), designed to ensure sealing in HPHT environments.\nFigure 3. DVM sensing element\nInstallation\nThe DVM unit is designed for inline installation as a flow-through cell instrument, measuring the density and viscosity of the fluid in contact with the DV sensor inside the module. Proper installation requires:\n1. Ensure the whole sensing area is in contact with the fluid\nThe DV sensor has two parallel fins that must be fully immersed in the fluid. To ensure accurate and repeatable measurements, avoid deposits, solids, or magnetic particles from blocking the sensor.\nFigure 7. DV sensing area\n2. Proper orientation\nThe DVM should be mounted with the internal sensor facing downward, preventing air bubbles from affecting measurements. The recommended flow direction is with the inlet positioned lower than the outlet to allow trapped bubbles to collect at the sensor base, where they won't interfere with readings.\nFigure 8. DVM recommended flow direction\nThe DVM module features 1/4\" HP (9/16-18 UNF) female-threaded inlet and outlet ports. Users must connect adapters to these threads for proper integration into their process.\nFor convenience, Rheonics offers high-pressure fitting connectors, including:\n* Collar\n* Gland\n* Tube (OD 1/4\" - ID 1/8\")",
+      "specifications": {
+        "Wetted parts material": "Titanium Grade 5",
+        "Standard O-ring material": "FKM",
+        "Optional O-ring material": "AFLAS",
+        "Backup ring material": "PEEK (Polyether Ether Ketone)",
+        "Inlet/Outlet port threads": "1/4\" HP (9/16-18 UNF) female-threaded",
+        "High-pressure fitting connector tube OD": "1/4\"",
+        "High-pressure fitting connector tube ID": "1/8\""
+      },
+      "key_facts": [
+        "All wetted parts of the DVM module are constructed from Titanium Grade 5, ensuring compatibility with a wide range of chemical fluids.",
+        "The sensor's leak-proof design under HPHT conditions is achieved with an FKM O-ring (standard, AFLAS optional) and a PEEK (Polyether Ether Ketone) backup ring.",
+        "The DVM unit is engineered for inline installation as a flow-through cell instrument, capable of measuring fluid density and viscosity.",
+        "The DV sensor's two parallel fins must be fully immersed in the fluid to ensure accurate and repeatable measurements.",
+        "The DVM should be mounted with the internal sensor facing downward to prevent air bubbles from affecting measurements.",
+        "The recommended flow direction for the DVM positions the inlet lower than the outlet, facilitating the collection of trapped bubbles at the sensor base away from the sensing area.",
+        "The DVM module features 1/4\" HP (9/16-18 UNF) female-threaded inlet and outlet ports, requiring users to connect adapters.",
+        "Rheonics provides high-pressure fitting connectors, including collar, gland, and tube (OD 1/4\" - ID 1/8\"), for seamless integration.",
+        "The backup ring is specifically designed to ensure sealing in HPHT environments."
+      ],
+      "diagram_labels": [
+        "Figure 3. DVM sensing element",
+        "Figure 7. DV sensing area",
+        "Figure 8. DVM recommended flow direction",
+        "Rheonics",
+        "swiss made",
+        "Recommended inlet",
+        "Recommended outlet"
+      ],
+      "warnings_notes": [
+        "The O-ring material must be compatible with the fluid being measured to ensure optimal performance and durability.",
+        "To ensure accurate and repeatable measurements, avoid deposits, solids, or magnetic particles from blocking the sensor."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1038,
+        "cost_usd": 0.0027348
+      },
+      "source_file": "030_DVM_Overview_Article.pdf"
+    },
+    {
+      "page_summary": "This page provides detailed instructions for the cleaning and maintenance of Rheonics DVM sensors, including steps for removal and various cleaning methods.",
+      "document_type": "manual",
+      "product_names": [
+        "DVM sensor",
+        "DVM unit",
+        "DV Module",
+        "DVM-HPHT",
+        "ERT-DVM",
+        "TOW-DVM"
+      ],
+      "extracted_text": "These high-pressure fittings follow industry standards and can also be sourced from suppliers such as HiP, Swagelok, or equivalent manufacturers.\nFor reference: https://www.highpressure.com/pdfs/section/hp.pdf (https://www.highpressure.com/pdfs/section/hp.pdf) HiP High-Pressure Equipment catalog\n\nCleaning and Maintenance\nProper cleaning and maintenance of the DVM sensor ensure long-term reliability and accuracy. The sensor is designed for minimal maintenance, but periodic cleaning may be necessary to remove fluid deposits and contamination.\n\nFigure 9. DV sensor clean and with deposits\n\nRemoval of the DV sensor from the DV Module\nRheonics delivers the DVM unit with the DV sensor already installed. The client may need to remove the DV sensor for cleaning or maintenance. Follow the next steps to remove the DV sensor from the DV Module. Steps are also available in a tutorial video from Rheonics DVM Removing Sensing Element (https://www.youtube.com/watch?v=Eo5lL019ExQ).\n\n1. Loosen the Sensor Retaining Screw\n    * Use a torque wrench (such as the one provided by Rheonics) to remove the sensor retaining screw.\n    * Apply approximately 20 N·m of torque (TOW-DVM is rated for this).\n    * If needed, secure the DVM-HPHT in a bench vise using soft jaw covers to prevent damage.\n\n2. Access the DV Sensor\n    * Removing the retaining screw reveals the back of the DV sensor, exposing its M4 threaded removal/insertion hole.\n\n3. Attach the Removal Tool\n    * Use the sensor insertion and removal tool (ERT-DVM).\n    * While holding the black screw grip, screw the threaded rod into the M4 hole in the sensor until finger-tight.\n\n4. Extract the Sensor\n    * Hold the back of the threaded rod and turn the black ring clockwise against the upper surface of the module.\n    * This action will back the sensor out of the module safely.\n\nCleaning considerations\nProper cleaning of the DVM sensing element and inner line in cell module is required to maintain accurate measurements. Any high-viscosity fluids, solid deposits, or magnetic particles adhering to the sensing element can distort readings.\n\nStandard Cleaning Procedure\n    * Flush the System: Flow a solvent or cleaning fluid through the DVM module, followed by distilled water and then compressed air to remove residues.\n    * Baseline Check: Run the sensor in air or vacuum; the readings for density and viscosity should be zero, indicating a clean sensor.\n\nManual Cleaning Methods\n    * Solvent Cleaning: Remove the DV sensor and wipe it with a solvent-saturated cloth or immerse it in a beaker with solvents.\n    * Ultrasonic Bath: For small deposits, submerge the DV sensing element in an ultrasonic bath for 5–10 minutes. For heavy deposits, extend to 30–60 minutes.\n    * Magnetic Particle Removal: Use Scotch tape or masking tape to lift magnetic particles from the sensor surface. A magnifying lens can help verify cleanliness.\n\nGeneral Cleaning Guidelines\n    * Chemical Compatibility: Ensure that cleaning chemicals are compatible with all sensor materials.\n    * CIP (Clean-in-Place) Compatibility: The DVM is CIP-compatible, allowing inline cleaning.\n    * Sealing Component Maintenance: Inspect and replace the O-ring and backup ring if damaged, worn, or exposed to solvents like acetone.",
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 870,
+        "cost_usd": 0.0023147999999999997
+      },
+      "source_file": "030_DVM_Overview_Article.pdf"
+    },
+    {
+      "page_summary": "This page outlines various applications and use cases for Rheonics DVM Density and Viscosity Module sensors, including PVT studies, HPHT fluid analysis with thermal control, and other specific industrial applications, along with cleaning warnings and references.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics DVM Density and Viscosity Module sensor",
+        "Rheonics DVM",
+        "Rheonics DTCM Thermal Control Module",
+        "DTCM Thermal Control Module"
+      ],
+      "extracted_text": "No Abrasives: Never use abrasives on the resonator, as this will alter its geometry and destroy calibration.\nUltrasonic Cleaning Limitations: The DVM module itself should not be cleaned with an ultrasonic bath, only the DV sensing element.\n\nApplications and use cases\n\nRheonics DVM Density and Viscosity Module sensor is built for different application cases where a real-time value of density, viscosity, and temperature are required in high-pressure and temperature applications, with minimal sample size needed.\n\nPVT (Pressure-Volume-Temperature) analysis and core flooding studies\n\nThe Rheonics DVM sensor is widely used in PVT studies to analyze fluid behavior under different pressures and temperatures, providing real-time density and viscosity measurements in simulated reservoir conditions. It is also applied in core flooding experiments to evaluate fluid displacement efficiency. For more details, check our article: https://support.rheonics.com/en/support/solutions/articles/81000416189-using-rheonics-dvm-in-a-high-pressure-loop-setup-and-operation-guide\n\nFigure 10. Example of a PVT study using Rheonics DVM\n\nHPHT Fluid Analysis with Thermal Control\n\nRheonics DVM must always operate under controlled thermal conditions. This can be achieved either by placing it in an oven or by integrating it with the Rheonics DTCM Thermal Control Module, ensuring uniform heating and cooling for accurate fluid property measurements. For more details, check our article: https://support.rheonics.com/en/support/solutions/articles/81000413697-dtcm-hpht-dvm-simultaneous-density-viscosity-temperature-sensor-thermal-control-module\n\nOthers\n\nHigh-pressure diesel injector development.\nLubricant viscosity profiling under operational HPHT conditions.\nSimulation of deepwater conditions. Pipeline and umbilical restart tests.\nStability tests of emulsions for non-Newtonian and Newtonian fluids.\n\nReferences\n\nRheonics DVM Manual\nDTCM Thermal Control Module for DVM\nHigh Pressure Loop for DVM\nDTCM Support Article",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics DVM Density and Viscosity Module sensor is designed for high-pressure and temperature applications, requiring real-time density, viscosity, and temperature data with minimal sample sizes.",
+        "The Rheonics DVM sensor is extensively utilized in PVT studies to analyze fluid behavior under varying pressures and temperatures.",
+        "The DVM sensor provides real-time density and viscosity measurements for simulated reservoir conditions.",
+        "It is also used in core flooding experiments to assess fluid displacement efficiency.",
+        "For HPHT fluid analysis, the Rheonics DVM must operate under controlled thermal conditions.",
+        "Controlled thermal conditions for HPHT analysis can be achieved by placing the DVM in an oven or integrating it with the Rheonics DTCM Thermal Control Module.",
+        "The Rheonics DTCM Thermal Control Module ensures uniform heating and cooling for precise fluid property measurements.",
+        "Other applications include high-pressure diesel injector development, lubricant viscosity profiling under HPHT conditions, simulation of deepwater pipeline and umbilical restart tests, and stability testing of emulsions.",
+        "The DVM module's DV sensing element is the only part that can be cleaned with an ultrasonic bath, not the entire DVM module."
+      ],
+      "diagram_labels": [
+        "PVT-cell",
+        "piston",
+        "magnetic stirrer",
+        "DENSITY",
+        "VISCOSITY",
+        "TEMPERATURE",
+        "rheonics DVM",
+        "Vent",
+        "OVEN",
+        "Pump",
+        "Reservoir/sample",
+        "To GC",
+        "Figure 10. Example of a PVT study using Rheonics DVM"
+      ],
+      "warnings_notes": [
+        "No Abrasives: Never use abrasives on the resonator, as this will alter its geometry and destroy calibration.",
+        "Ultrasonic Cleaning Limitations: The DVM module itself should not be cleaned with an ultrasonic bath, only the DV sensing element."
+      ],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1047,
+        "cost_usd": 0.0027573
+      },
+      "source_file": "030_DVM_Overview_Article.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

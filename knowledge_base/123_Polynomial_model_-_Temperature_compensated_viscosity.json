@@ -1,0 +1,364 @@
+{
+  "source_file": "123_Polynomial_model_-_Temperature_compensated_viscosity.pdf",
+  "total_pages": 7,
+  "chunks": [
+    {
+      "page_summary": "This page explains the concept of temperature compensated viscosity using a polynomial model, outlines the Rheonics products involved, and describes the importance and application of this compensation method.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "RCP",
+        "SME",
+        "SRV",
+        "SRD",
+        "DVP",
+        "DVM"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nPolynomial model - Temperature compensated viscosity\n\nModified on: Mon, 20 Oct, 2025 at 4:38 PM\n\nWhat products are involved?\n(https://rheonics.com/products/inline-density-meter-srd/) (https://rheonics.com/products/inline-density-meter-srd/) (https://rheonics.com/products/inline-density-meter-srd/) This article is based on the use of RCP (Rheonics Control Panel) connected to the SME (Smart Module Electronics) from SRV (https://rheonics.com/products/inline-viscometer-srv/), SRD (https://rheonics.com/products/inline-density-meter-srd/), DVP (https://rheonics.com/products/inline-gas-lng-density-meter-dvp/), and DVM (https://rheonics.com/products/hpht-pvt-density-meter-viscometer-dvm/). Hence it can be used for any of these Rheonics sensors. (https://rheonics.com/products/inline-density-meter-srd/) (https://rheonics.com/products/inline-density-meter-srd/) (https://rheonics.com/products/inline-density-meter-srd/)\n\nWhat is the purpose of this article?\nExplain the process to get a temperature compensated viscosity when it has a second degree polynomial trend. Usual applications are: Thermal oils and molten salts.\n\n1. Temperature compensated viscosity\n\nViscosity, defined as the ratio of shear stress to shear rate, is an important fluid property that has an increasing presence in monitoring processes and control systems.\n\nViscosity is affected by temperature and pressure. For most liquids, the viscosity decreases with temperature, whereas it increases for gasses. An increase in pressure typically leads to an increase of viscosity, which is only relevant for high pressure applications.\n\n(https://support.rheonics.com/en/support/solutions/articles/81000403545-temperature-compensated-viscosity-exponential-model)\n\nIn most cases, we want to monitor the fluid viscosity at a constant reference temperature. If the process temperature isn't constant, an additional source of error to the control system is added. To avoid the temperature dependence on the fluid's viscosity and truly monitor its consistency, the temperature compensated viscosity is introduced.\n\nTo compensate for temperature effects, we need a mathematical model that can be based on Exponential (https://support.rheonics.com/en/support/solutions/articles/81000403545-temperature-compensated-viscosity-exponential-model) or Polynomial functions.",
+      "specifications": {},
+      "key_facts": [
+        "The article explains how to obtain temperature compensated viscosity using a second-degree polynomial trend.",
+        "The article is relevant for Rheonics products including RCP (Rheonics Control Panel), SME (Smart Module Electronics), SRV (inline viscometer), SRD (inline density meter), DVP (inline gas/LNG density meter), and DVM (HPHT PVT density meter viscometer).",
+        "Typical applications for this compensation method include thermal oils and molten salts.",
+        "Viscosity is defined as the ratio of shear stress to shear rate and is a critical fluid property for monitoring and control systems.",
+        "Viscosity in liquids generally decreases with increasing temperature, while in gases it increases with temperature.",
+        "An increase in pressure typically leads to an increase in viscosity, particularly relevant for high-pressure applications.",
+        "Temperature compensated viscosity is introduced to maintain accurate fluid consistency monitoring when process temperature fluctuates.",
+        "Mathematical models, specifically Exponential or Polynomial functions, are used to compensate for temperature effects on viscosity."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 980,
+        "cost_usd": 0.0025897999999999997
+      },
+      "source_file": "123_Polynomial_model_-_Temperature_compensated_viscosity.pdf"
+    },
+    {
+      "page_summary": "This page details the mathematical model for temperature-compensated viscosity measurements using Rheonics SRV and SME sensors, along with a procedure for collecting and analyzing viscosity data.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "SME",
+        "RCP (Rheonics software)"
+      ],
+      "extracted_text": "2. Math model\nThe SRV and SME (https://rheonics.com/products/inline-viscometer-srv/) are together a powerful tool in the measurement of inline viscosity and temperature. With the use of mathematical models, temperature compensated measurements can be obtained.\n\nBelow is the mathematical formula for the viscosity polynomial model used in the RCP (Rheonics software). (https://support.rheonics.com/en/support/solutions/folders/8100021411)\n\nηcomp = ηL · [1 + X₁ · (T - Tref) + X₂ · (T - Tref)²]\n\nEquation 1: Viscosity Polynomial Model.\n\nWhere:\n• ηcomp - Compensated viscosity, calculated by the SME.\n• ηL - Live viscosity, read by the SME.\n• X1 and X2 - Coefficients, added by user.\n• T - Temperature, read by the SME.\n• Tref - Reference temperature, is the temperature around which the SME will compensate the readings. This is defined and should be added by the user.\n\nAlong with the reference temperature, the reference viscosity (viscosity at Tref) is also of relevance for the calculations explained below.\n\n3. Checking the data\nUser needs to take viscosity readings at normal operation temperature range, then go with higher and lower temperatures. Once enough data is obtained (to see the polynomial behavior), user should define the reference temperature.\n\nFor this example, the blue point (20°C) is used as typical set-temperature of the process line. The additional measurements should extend a bit beyond the expected temperature range.\n\nThe following steps outline the correct procedure for data analysis:\n3.1. Select the reference temperature and viscosity from data obtained in tests. Here, reference temperature and viscosity are highlighted in blue in the next Table, we want to create a correlation at 20°C where we expect a viscosity of 1mPa.s.\n\n| Temperature (°C) | Viscosity (mPa.s) |\n|---|---|\n| 30 | 0.75 |\n| 25 | 0.85 |",
+      "specifications": {
+        "temperature_data_points": [
+          "30 °C",
+          "25 °C"
+        ],
+        "viscosity_data_points": [
+          "0.75 mPa.s",
+          "0.85 mPa.s"
+        ],
+        "expected_correlation_point": "20 °C at 1 mPa.s"
+      },
+      "key_facts": [
+        "The Rheonics SRV and SME are powerful tools for inline viscosity and temperature measurement.",
+        "Mathematical models are utilized to achieve temperature-compensated viscosity measurements.",
+        "The viscosity polynomial model is implemented in Rheonics RCP software.",
+        "The model calculates compensated viscosity (ηcomp) based on live viscosity (ηL), user-defined coefficients (X1, X2), temperature (T), and a user-defined reference temperature (Tref).",
+        "The reference temperature and the corresponding reference viscosity at Tref are important for the calculations.",
+        "Users must collect viscosity readings across a range of temperatures, including beyond the normal operation range, to observe polynomial behavior.",
+        "For data analysis, a reference temperature and viscosity are selected from test data, with an example target correlation point of 20°C at 1mPa.s."
+      ],
+      "diagram_labels": [
+        "Equation 1: Viscosity Polynomial Model."
+      ],
+      "warnings_notes": [
+        "Tref - Reference temperature, is the temperature around which the SME will compensate the readings. This is defined and should be added by the user.",
+        "X1 and X2 - Coefficients, added by user."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 946,
+        "cost_usd": 0.0025047999999999997
+      },
+      "source_file": "123_Polynomial_model_-_Temperature_compensated_viscosity.pdf"
+    },
+    {
+      "page_summary": "This page presents the analysis of viscosity and temperature data, including a plot of viscosity vs. temperature, calculations for compensated viscosity ratios, and temperature differences, likely for an inline viscometer.",
+      "document_type": "datasheet",
+      "product_names": [],
+      "extracted_text": "20\t1\n15\t1.1\n10\t1.25\n5\t1.5\n0\t1.75\nTable 1. Data points from inline measurements.\n\n3.2. Plot data points of Viscosity vs Temperature to study the behavior of the data. In this scenario, the data behavior can be represented by a second order polynomial curve.\n\nViscosity vs Temperature\n\nη (mPa.s)\nT° (°C)\nFigure 1: Plot chart Viscosity vs Temperature\n\n3.3. Calculate the relation between compensated or reference viscosity and the measured viscosity by dividing the two.\n\nV' = (Compensated Viscosity / Viscosity) @20°C\tResults\nV' = (1/0.75)\t1.3333\nV' = (1/0.85)\t1.1764\nV' = (1/1)\t1.0000\nV' = (1/1.1)\t0.9091\nV' = (1/1.25)\t0.8000\nV' = (1/1.5)\t0.6667\nV' = (1/1.75)\t0.5714\nTable 2. Compensated viscosity calculation table.\n\n3.4. Calculate the difference between measured and reference temperature by subtracting them.\n\nT' = T - Tref\tResults\nT' = 30-20\t10\nT' = 25-20\t5\nT' = 20-20\t0\nT' = 15-20\t-5",
+      "specifications": {
+        "Viscosity at 20 °C": "1 mPa.s",
+        "Viscosity at 15 °C": "1.1 mPa.s",
+        "Viscosity at 10 °C": "1.25 mPa.s",
+        "Viscosity at 5 °C": "1.5 mPa.s",
+        "Viscosity at 0 °C": "1.75 mPa.s",
+        "Compensated Viscosity Ratio (V') for 1/0.75": "1.3333",
+        "Compensated Viscosity Ratio (V') for 1/0.85": "1.1764",
+        "Compensated Viscosity Ratio (V') for 1/1": "1.0000",
+        "Compensated Viscosity Ratio (V') for 1/1.1": "0.9091",
+        "Compensated Viscosity Ratio (V') for 1/1.25": "0.8000",
+        "Compensated Viscosity Ratio (V') for 1/1.5": "0.6667",
+        "Compensated Viscosity Ratio (V') for 1/1.75": "0.5714",
+        "Temperature Difference (T' = 30-20)": "10 °C",
+        "Temperature Difference (T' = 25-20)": "5 °C",
+        "Temperature Difference (T' = 20-20)": "0 °C",
+        "Temperature Difference (T' = 15-20)": "-5 °C"
+      },
+      "key_facts": [
+        "Data points from inline measurements are provided for varying temperatures and corresponding viscosities.",
+        "The behavior of Viscosity vs Temperature data can be represented by a second-order polynomial curve.",
+        "The relation between compensated or reference viscosity and measured viscosity is calculated by division.",
+        "The difference between measured and reference temperature is calculated by subtraction."
+      ],
+      "diagram_labels": [
+        "Viscosity vs Temperature",
+        "η (mPa.s)",
+        "T° (°C)"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1011,
+        "cost_usd": 0.0026672999999999996
+      },
+      "source_file": "123_Polynomial_model_-_Temperature_compensated_viscosity.pdf"
+    },
+    {
+      "page_summary": "This page details a procedure for determining coefficients (X1, X2) for a second-order polynomial trendline that describes the relationship between compensated viscosity (V') and temperature difference (T') relative to a reference temperature (Tref).",
+      "document_type": "manual",
+      "product_names": [],
+      "extracted_text": "Table 3. Variation to the reference temperature.\n| T'        | Value |\n|-----------|-------|\n| T' = 10-20| -10   |\n| T' = 5-20 | -15   |\n| T' = 0-20 | -20   |\n\n3.5. Plot the V' (Comp. Visco/Visco @20°) vs T' (T-Tref) and use a second order polynomial trendline to find X1 and X2 values or make a regression analysis to find the coefficients.\n\nTable 4. Datapoints for viscosity and temperature referenced to known values\n| V'     | T' |\n|--------|----|\n| 1.3333 | 10 |\n| 1.1764 | 5  |\n| 1.0000 | 0  |\n| 0.9091 | -5 |\n| 0.8000 | -10|\n| 0.6667 | -15|\n| 0.5714 | -20|\n\nA graph tool is used to create a trendline with the points obtained, it can also show the trendline equation.\n\nFigure 2: Plot chart V' vs T'.\n\nEquation on Figure 2 is compared against Equation 1, accepting the value 1.0302 rounded as 1.\n\nWe have that:\nX1=0.0274 and X2=0.0002.\n\nConsidering that:\nTref = 20°C",
+      "specifications": {
+        "coefficient_X1": "0.0274",
+        "coefficient_X2": "0.0002",
+        "reference_temperature_Tref": "20 °C",
+        "trendline_equation_constant_term": "1.0302 (rounded to 1 for comparison against Equation 1)"
+      },
+      "key_facts": [
+        "The document provides instructions for plotting compensated viscosity (V') against temperature difference (T-Tref) to determine coefficients for a second-order polynomial trendline.",
+        "A graph tool can be utilized to generate the trendline and display its corresponding equation.",
+        "The obtained trendline equation from the plot is y = 0.0002x² + 0.0274x + 1.0302.",
+        "The constant term 1.0302 from the trendline equation is rounded to 1 when compared against an unspecified Equation 1.",
+        "The derived coefficients are X1=0.0274 and X2=0.0002.",
+        "The reference temperature (Tref) for the calculations is 20°C."
+      ],
+      "diagram_labels": [
+        "V' vs T'",
+        "V'",
+        "T' (°C)",
+        "y = 0.0002x² + 0.0274x + 1.0302"
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 813,
+        "cost_usd": 0.0021723
+      },
+      "source_file": "123_Polynomial_model_-_Temperature_compensated_viscosity.pdf"
+    },
+    {
+      "page_summary": "This page describes how to configure and apply mathematical models, specifically a polynomial model for temperature-compensated viscosity, to the Rheonics SME device using the Rheonics Control Panel (RCP) software, illustrating the expected results and providing step-by-step instructions.",
+      "document_type": "manual",
+      "product_names": [
+        "SME",
+        "RCP software",
+        "Rheonics Control Panel 5.4.0.2"
+      ],
+      "extracted_text": "With all the input parameters set on the SME through the RCP software, the temperature compensated viscosity will look like next graph in Figure 3.\n\nFigure 3. Expected results when applying the mathematical model.\n\n4. How to load models into the SME?\n\nThe calculation tab on RCP allows configuring the SME to run mathematical models for viscosity, density, and concentration. Expert mode needs to be enabled for this.\n\nRheonics Control Panel 5.4.0.2\nMeasurement | Events | Settings | Service | Diagnostics | Communication | Temp. Control | Scaling | Calculation | Logger\nAdvanced Calculations | Thermal Compensation of Density, Viscosity\nSelect Measurement to Apply Model: Viscosity\nCalculated Value: NaNN mPa.s\nStatus: [circle/radio button]\nSelect Model from List: Viscosity Polynomial Model\nTemperature Compensated Viscosity Polynomial Model\nX1: 0\nX2: 0\nTref [°C]: 0\nUnits: mPa.s\nη_comp = η_L ⋅ [1 + X_1 ⋅ (T - T_ref) + X_2 ⋅ (T - T_ref)²]\nUPLOAD MODEL\nLCD Display (for TRD Only) Select Line to Display: None\nChange SMET Output\nOutput on 4-20 mA channel Select channel number: None\nLoad Configuration\nAccess measurement with applied model over Modbus RTU/TCP register: 192\nCalculation History\n\nFigure 4. Calculation tab for the polynomial model of viscosity.\n\nThe following steps are needed to load the models into the SME:\n1. In the dropdown list “Select Measurement to Apply Model” viscosity should be as default parameter. If not, select it from the options in the list.",
+      "specifications": {
+        "Output_Type": "4-20 mA channel",
+        "Modbus_RTU_TCP_Register": "192",
+        "Viscosity_Units": "mPa.s",
+        "Temperature_Units": "°C"
+      },
+      "key_facts": [
+        "The Rheonics Control Panel (RCP) software is used to set input parameters on the SME for temperature-compensated viscosity.",
+        "The calculation tab in RCP allows configuring the SME to run mathematical models for viscosity, density, and concentration.",
+        "Expert mode must be enabled to access the model configuration features in the RCP software.",
+        "The software supports a 'Viscosity Polynomial Model' for temperature compensation.",
+        "The polynomial model uses X1, X2, and Tref (reference temperature) as parameters for its calculation.",
+        "The equation for the compensated viscosity (η_comp) is η_L ⋅ [1 + X_1 ⋅ (T - T_ref) + X_2 ⋅ (T - T_ref)²].",
+        "The 'Select Measurement to Apply Model' dropdown list defaults to 'Viscosity'."
+      ],
+      "diagram_labels": [
+        "V and Vcomp vs T°",
+        "η (mPa.s)",
+        "T° (°C)",
+        "Viscosity",
+        "Compensated Viscosity",
+        "Rheonics Control Panel 5.4.0.2",
+        "Measurement",
+        "Events",
+        "Settings",
+        "Service",
+        "Diagnostics",
+        "Communication",
+        "Temp. Control",
+        "Scaling",
+        "Calculation",
+        "Logger",
+        "Advanced Calculations | Thermal Compensation of Density, Viscosity",
+        "Select Measurement to Apply Model",
+        "Viscosity",
+        "Calculated Value",
+        "1",
+        "NaNN",
+        "mPa.s",
+        "Status",
+        "Select Model from List",
+        "Viscosity Polynomial Model",
+        "2",
+        "Temperature Compensated Viscosity Polynomial Model",
+        "X1",
+        "3",
+        "0",
+        "X2",
+        "4",
+        "0",
+        "Tref [°C]",
+        "5",
+        "0",
+        "Units",
+        "mPa.s",
+        "η_comp = η_L ⋅ [1 + X_1 ⋅ (T - T_ref) + X_2 ⋅ (T - T_ref)²]",
+        "UPLOAD MODEL",
+        "6",
+        "LCD Display (for TRD Only) Select Line to Display",
+        "None",
+        "Change SMET Output",
+        "Output on 4-20 mA channel Select channel number",
+        "None",
+        "Load Configuration",
+        "7",
+        "Access measurement with applied model over Modbus RTU/TCP register",
+        "192",
+        "Calculation History",
+        "8"
+      ],
+      "warnings_notes": [
+        "Expert mode needs to be enabled for this (to configure mathematical models)."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1223,
+        "cost_usd": 0.0031972999999999997
+      },
+      "source_file": "123_Polynomial_model_-_Temperature_compensated_viscosity.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions for configuring display parameters and model settings, including viscosity polynomial model coefficients, on Rheonics SME and SME-TRD devices through a software interface.",
+      "document_type": "manual",
+      "product_names": [
+        "SME",
+        "SME-TRD"
+      ],
+      "extracted_text": "2. In “Select Model from list” select the model you would like to use for the specific parameter. When you select the model, you will get more information about the specific equation used and the coefficients you will need to apply to that model. Select “Viscosity Polynomial model”\n3. Input X1 calculated coefficient. For this example it has a value of 0.0274.\n4. Input X2 calculated coefficient. For this example it has a value of 0.0002.\n5. Input reference temperature used to find the coefficients models. In this example is 20°C.\n6. Click “Upload Model” to load the model settings into SME. The button should turn GREEN for a couple of seconds if the action was successful or turn RED if the operation was unsuccessful. This action will refresh the values for the uncompensated and compensated indicators. Here you can verify if the model is calculating the expected values. If not, you can correct and repeat the process.\n7. Click “Load Configuration” to update the display and channel configurations in SME.\n\n4.1. LCD Display\n\nFor the SME-TRD, the compensated viscosity values can be shown on the display. Select the line to display the parameter:\n\n[Image: LCD Display (for TRD Only) with options to select line to display and output on 4-20 mA channel]\n\nFigure 5. Selecting read line for LCD display.\n\nChanges can be verified on the “Communication” Tab.\n\n[Image: LCD Display (SME-TRD Only) with parameters (Calc. Viscosity, Density, Temperature) and resolutions]\n\nFigure 6. The communication tab has loaded parameter.",
+      "specifications": {
+        "X1 calculated coefficient": "0.0274",
+        "X2 calculated coefficient": "0.0002",
+        "Reference temperature": "20°C",
+        "Output channel type": "4-20 mA"
+      },
+      "key_facts": [
+        "Selecting a model from the list provides information about the specific equation and coefficients required.",
+        "The “Viscosity Polynomial model” is a selectable option.",
+        "Clicking “Upload Model” loads model settings into SME, with button color indicating success (GREEN) or failure (RED).",
+        "The upload model action refreshes uncompensated and compensated indicator values.",
+        "Users can verify model calculation accuracy and repeat the process if values are unexpected.",
+        "Clicking “Load Configuration” updates display and channel configurations in SME.",
+        "For the SME-TRD, compensated viscosity values can be displayed.",
+        "Display changes can be verified on the “Communication” Tab.",
+        "The LCD display can show Calculated Viscosity with a resolution of 0.00.",
+        "The LCD display can show Density with a resolution of 0.000.",
+        "The LCD display can show Temperature with a resolution of 0.00."
+      ],
+      "diagram_labels": [
+        "LCD Display (for TRD Only)",
+        "Select Line to Display",
+        "None",
+        "Line 1",
+        "Line 2",
+        "Line 3",
+        "Output on 4-20 mA channel",
+        "Select channel number",
+        "Figure 5. Selecting read line for LCD display.",
+        "LCD Display (SME-TRD Only)",
+        "Parameter",
+        "Resolution",
+        "Line 1",
+        "Calc. Viscosity",
+        "0.00",
+        "Line 2",
+        "Density",
+        "0.000",
+        "Line 3",
+        "Temperature",
+        "0.00",
+        "Figure 6. The communication tab has loaded parameter."
+      ],
+      "warnings_notes": [],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 948,
+        "cost_usd": 0.0025097999999999995
+      },
+      "source_file": "123_Polynomial_model_-_Temperature_compensated_viscosity.pdf"
+    },
+    {
+      "page_summary": "This page displays the parameters loaded into a Rheonics SMET-TRD device, including sensor readings and status, along with information on data utilization and support links.",
+      "document_type": "manual",
+      "product_names": [
+        "SMET-TRD",
+        "SME"
+      ],
+      "extracted_text": "SENSOR RUNNING\nPROCESS WITHIN LIMITS\nPCV: 1.01 mPa-s\nDens: 0.075 g/cc\nTemp: 23.66 °C\np0001 V03.30.4 17103257\nrheonics\nSensor\nModbus\nHART\nBluetooth\nKEEP CABLE GLAND TIGHT WHEN CIRCUIT IS ALIVE\n\nFigure 7. Parameters loaded into the SMET-TRD.\n\nIt is also possible to see and use the calculated data through 4-20mA channels, Profinet, Modbus, and others. Follow this article on that: Using calculated data from SME.\n(https://support.rheonics.com/en/support/solutions/articles/81000409843-using-calculated-data-from-sme)\n(https://rheonics.atlassian.net/wiki/spaces/SA/pages/1469251639)",
+      "specifications": {
+        "PCV": "1.01 mPa-s",
+        "Density": "0.075 g/cc",
+        "Temperature": "23.66 °C",
+        "Firmware Version": "V03.30.4",
+        "Product ID/Serial": "p0001 17103257"
+      },
+      "key_facts": [
+        "The SMET-TRD device displays live sensor data for PCV (Process Viscosity), Density, and Temperature.",
+        "The sensor is currently running, and the process is indicated as 'within limits'.",
+        "The device supports communication via Modbus, HART, and Bluetooth.",
+        "Calculated data from the device can be utilized through 4-20mA channels, Profinet, and Modbus.",
+        "Further information on using calculated data from SME is available via Rheonics support articles at the provided URLs."
+      ],
+      "diagram_labels": [
+        "SENSOR",
+        "RUNNING",
+        "PROCESS",
+        "WITHIN LIMITS",
+        "PCV:",
+        "Dens:",
+        "Temp:",
+        "p0001 V03.30.4 17103257",
+        "rheonics",
+        "Sensor (indicator)",
+        "Modbus (indicator)",
+        "HART (indicator)",
+        "Bluetooth (indicator)"
+      ],
+      "warnings_notes": [
+        "KEEP CABLE GLAND TIGHT WHEN CIRCUIT IS ALIVE"
+      ],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 692,
+        "cost_usd": 0.0018698
+      },
+      "source_file": "123_Polynomial_model_-_Temperature_compensated_viscosity.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

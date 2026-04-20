@@ -1,0 +1,405 @@
+{
+  "source_file": "219_Modbus_RS485_to_USB_converter_compatible_with_Rheonics_SME.pdf",
+  "total_pages": 7,
+  "chunks": [
+    {
+      "page_summary": "This document explains how Rheonics SME devices use Modbus RS485 for communication, the need for RS485 to USB converters for modern computers, and provides initial specifications for the RS485 interface on SME devices.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics SME",
+        "Rheonics process density meters",
+        "Rheonics viscometers",
+        "SME-EH"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nModbus RS485 to USB converter compatible with Rheonics SME\n\nModified on: Thu, 7 Dec, 2023 at 11:13 PM\n\nModbus RTU is available on Rheonics process density meters and viscometers over a 2-wire RS-485 interface. The device does not have internal biasing resistors and termination resistors and proper setup of the RS485 network has to be ensured.\n\nModbus RTU is a widely utilized communication protocol in industrial automation, known for its simplicity, efficiency, and reliability. Modbus RTU operating over RS-485, is inherently a half-duplex communication protocol. The half-duplex nature of RS-485 means that data transmission can occur in both directions, but not simultaneously. In other words, devices on the network can either send or receive data at any given time.\n\nA common RS-485 communication interface is the RS-232 port, which is used to convert RS-485 communication to a serial port. However, many modern computers and devices have USB ports. By converting RS-485 signals to USB signals, an RS-485 to USB converter bridges this gap, enabling communication with USB-equipped devices.\n\nTABLE OF CONTENTS\n\n1. Rheonics RS-485 specifications\n2. What is an RS485 to USB converter?\n3. Recommended RS485 to USB converters\n4. References\n\n1. Rheonics RS-485 specifications\n\nAll SME devices implement a MODBUS RTU compliant RTU slave. Connection is by RS485-2W where the interface is not electrical isolated. electrically",
+      "specifications": {
+        "Modbus interface type": "2-wire RS-485",
+        "Modbus protocol": "MODBUS RTU",
+        "RS485 connection type": "RS485-2W",
+        "Analog output": "4-20 mA",
+        "Power supply": "24 V dc"
+      },
+      "key_facts": [
+        "Modbus RTU is available on Rheonics process density meters and viscometers via a 2-wire RS-485 interface.",
+        "Rheonics devices do not have internal biasing resistors and termination resistors.",
+        "Modbus RTU over RS-485 is a half-duplex communication protocol, meaning devices can send or receive data, but not simultaneously.",
+        "RS-485 to USB converters are necessary to bridge the communication gap between RS-485 signals and USB ports on modern computers.",
+        "All SME devices implement a MODBUS RTU compliant RTU slave.",
+        "The RS485-2W interface on SME devices is not electrically isolated."
+      ],
+      "diagram_labels": [
+        "display",
+        "usb",
+        "SD-card",
+        "reset",
+        "ethernet",
+        "modbus (RS485)",
+        "gnd",
+        "24 V dc",
+        "Rheonics",
+        "SME-EH",
+        "17100964",
+        "4-20 mA output",
+        "loop+",
+        "loop-",
+        "gnd+",
+        "gnd-",
+        "ch2+",
+        "ch2-",
+        "ch1+",
+        "ch1-",
+        "D",
+        "C",
+        "S",
+        "P",
+        "B",
+        "A",
+        "-",
+        "+"
+      ],
+      "warnings_notes": [
+        "Proper setup of the RS485 network has to be ensured due to the absence of internal biasing resistors and termination resistors in Rheonics devices.",
+        "The RS485-2W interface on Rheonics SME devices is not electrically isolated."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1021,
+        "cost_usd": 0.0026923
+      },
+      "source_file": "219_Modbus_RS485_to_USB_converter_compatible_with_Rheonics_SME.pdf"
+    },
+    {
+      "page_summary": "This page details the configuration and best practices for the RS-485 Modbus port of Rheonics SME-TRD devices, including termination, biasing, common mode considerations, default Modbus parameters, a configuration diagram, and an explanation of RS-485 to USB converters.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SME-TRD",
+        "SME device",
+        "RS-485 to USB converter"
+      ],
+      "extracted_text": "Figure 1. Rheonics SME-TRD(RS-485 port)\n\nTermination: Termination should be only at the end and beginning of the bus to avoid reflections. Requirements on termination differ not only on the baud-rate used but also on the slew-rate of device's internal drivers. As a general rule, if there are devices on the RS485 bus that allow fast transmission speeds, and cable lengths exceed a few meters, then termination is required. Commonly the termination is done with a 120Ω resistance.\n\nBiasing: Biasing of the RS485 BUS is required. If biasing is omitted, communication may work unreliably or not at all. See Figure 1 for Pull-Up/Pull-Down resistors.\n\nConnections: Connection stubs on the RS485 bus should be kept to a minimum.\n\nCommon: RS485 does allow common mode voltages of +12V / -7V. It is therefore recommended to use a common wire to ensure common mode voltage is within safe limits for all receivers. In case of problems, it might be necessary to introduce RS485 isolators into the network. The common terminal for the SME device is the 0V terminal (GND) for the power supply.\n\nDefault configuration:\nThe SME device allows the configuration of the Modbus address using the RCP software. Please refer to the RCP manual for instructions.\n\nFactory default settings of Modbus parameters:\naddress=1\nbaudrate=38400\nparity=odd\nThe system is capable of supporting:\n* parity settings of odd, even, and none\n* baudrates of 9600, 19200 and 38400\n\nFigure 2. RS-485 Modbus configuration with Slave and Master devices.\n\n2. What is an RS485 to USB converter?\n\nAn RS-485 to USB converter connects an RS-485 network to a USB port on a computer or USB-enabled device. Computers can now communicate with devices on RS-485 networks using Modbus RTU.",
+      "specifications": {
+        "termination_resistance": "120Ω",
+        "common_mode_voltage_range": "+12V to -7V",
+        "modbus_default_address": "1",
+        "modbus_default_baudrate": "38400",
+        "modbus_default_parity": "odd",
+        "supported_parity_settings": "odd, even, none",
+        "supported_baudrates": "9600, 19200, 38400",
+        "maximum_bus_length": "1000m",
+        "maximum_stub_length": "20m",
+        "bias_resistor_value": "680Ω",
+        "power_supply_voltages": "5V, 24V"
+      },
+      "key_facts": [
+        "RS-485 bus termination should only be at the end and beginning of the bus to avoid reflections.",
+        "Termination requirements depend on the baud-rate and the slew-rate of the device's internal drivers.",
+        "Termination is required if devices on the RS485 bus allow fast transmission speeds and cable lengths exceed a few meters.",
+        "Commonly, termination is done with a 120Ω resistance.",
+        "Biasing of the RS-485 bus is required for reliable communication.",
+        "Connection stubs on the RS-485 bus should be kept to a minimum.",
+        "RS-485 allows common mode voltages of +12V / -7V.",
+        "It is recommended to use a common wire to ensure common mode voltage is within safe limits for all receivers.",
+        "RS-485 isolators might be necessary in the network if common mode voltage problems occur.",
+        "The common terminal for the SME device is the 0V (GND) for the power supply.",
+        "The SME device's Modbus address can be configured using the RCP software.",
+        "The system is capable of supporting parity settings of odd, even, and none.",
+        "The system is capable of supporting baudrates of 9600, 19200, and 38400.",
+        "An RS-485 to USB converter connects an RS-485 network to a USB port on a computer or USB-enabled device.",
+        "Computers can communicate with devices on RS-485 networks using Modbus RTU via an RS-485 to USB converter."
+      ],
+      "diagram_labels": [
+        "Rheonics transmitter",
+        "V+",
+        "V-",
+        "B-",
+        "A-",
+        "RS485 MODBUS",
+        "Bus < 1000m",
+        "Stub < 20m",
+        "MODBUS slave",
+        "MODBUS master",
+        "+5V",
+        "24V",
+        "GND",
+        "120Ω",
+        "680Ω",
+        "DO NOT CONNECT EARTH TO GND for marine applications"
+      ],
+      "warnings_notes": [
+        "If biasing is omitted, communication may work unreliably or not at all.",
+        "DO NOT CONNECT EARTH TO GND for marine applications."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1348,
+        "cost_usd": 0.0035098
+      },
+      "source_file": "219_Modbus_RS485_to_USB_converter_compatible_with_Rheonics_SME.pdf"
+    },
+    {
+      "page_summary": "This page explains the function and importance of RS-485 to USB converters for industrial communication, provides wiring diagrams for Rheonics SME devices, and offers guidance on Modbuspoll integration.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics",
+        "SME",
+        "Modbus RS485 to USB converter",
+        "Modbus RTU",
+        "Modbus TCP",
+        "Modbuspoll",
+        "SME-TRD"
+      ],
+      "extracted_text": "RS-485 to USB converters translate data between the RS-485 protocol used by devices on the network and the USB protocol understood by computers. Data sent from the computer is formatted appropriately for the RS-485 network and vice versa.\nWhen a computer lacks native RS-485 support but still needs to communicate with devices on an RS-485 network, such as programmable logic controllers (PLCs), sensors, or other industrial equipment that uses the Modbus RTU protocol, this type of converter is crucial. Below we can find a proposed wiring diagram to be used with the Rheonics SME and a Modbus RS485 to USB converter.\nFigure 3. RS-485 to USB converter wiring diagram.\nFigure 4 shows a photo of how the wiring can be done with a Modbus RS485 to USB converter.\nWhen doing integration with Modbuspoll, data will be updated based on the configuration used. It is important to use the correct Slave address. For more information about modbuspoll integration visit this link: Quick Modbus RTU connection verification with ModbusPoll master software (https://support.rheonics.com/en/support/solutions/articles/81000388170-quick-modbus-rtu-connection-verification-with-modbuspoll-master-software)",
+      "specifications": {},
+      "key_facts": [
+        "RS-485 to USB converters facilitate data translation between the RS-485 and USB protocols.",
+        "These converters are essential for computers without native RS-485 support to communicate with industrial equipment using Modbus RTU protocol, such as PLCs and sensors.",
+        "The document includes a proposed wiring diagram for connecting Rheonics SME devices with a Modbus RS485 to USB converter.",
+        "A photographic example demonstrates the physical wiring of a Modbus RS485 to USB converter with an SME-TRD device.",
+        "For Modbuspoll integration, data updates are configuration-dependent, and using the correct Slave address is critical.",
+        "A Rheonics support link is provided for verifying Modbus RTU connections with ModbusPoll master software."
+      ],
+      "diagram_labels": [
+        "Host PC",
+        "Modbus R485 to USB converter",
+        "A",
+        "B",
+        "SME 1",
+        "Modbus RTU RS485",
+        "Modbus TCP Ethernet RJ45",
+        "Reset",
+        "SD-Card",
+        "SME 2",
+        "SME N",
+        "RS485 to USB converter",
+        "SME-TRD"
+      ],
+      "warnings_notes": [
+        "It is important to use the correct Slave address when doing integration with Modbuspoll."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 760,
+        "cost_usd": 0.0020398
+      },
+      "source_file": "219_Modbus_RS485_to_USB_converter_compatible_with_Rheonics_SME.pdf"
+    },
+    {
+      "page_summary": "This page provides recommendations for RS485 to USB converters from FTDI and Moxa, and details Modbuspoll integration parameters and readouts for a Rheonics device.",
+      "document_type": "manual",
+      "product_names": [
+        "Modbuspoll",
+        "USB to RS485 Converter Cable",
+        "UPort 1100 series"
+      ],
+      "extracted_text": "Figure 5. Modbuspoll integration.\n\n3. Recommended RS485 to USB converters\n\nThe list provided is not intended to recommend a particular category or type of product.\n\nBrand: FTDI\nWeb: USB to RS485 Converter Cable (https://www.mouser.pe/new/ftdi-chip/ftdi-usb-rs485-uart-converter/)\n\nFigure 6. FTDI Chip USB to RS485 Converter Cable\n\nBrand: Moxa\nWeb: https://www.moxa.com/en/products/industrial-edge-connectivity/usb-to-serial-converters-usb-hubs/usb-to-serial-converters/uport-1100-series#overview (https://www.moxa.com/en/products/industrial-edge-connectivity/usb-to-serial-converters-usb-hubs/usb-to-serial-converters/uport-1100-series#overview)\n\n**From Modbuspoll Screenshots:**\n\n**Modbuspoll_poll-UUID**\nTx = 62; Err = 1; ID = 1; F = 04; SR = 1000ms\nAlias:\n0: 00000\n1: 0x0C28\n2: 0x0283\n...\n16: ASB HW Version: 0x0283\n17: ASB SW Version: 0x0283\n18: ASB FW Version: 0x0283\n...\n26: Sys_sp_th: 0x0283\n...\n31: if_sn_str: 0x0283\nFor Help, press F1.\n\n**Modbuspoll_poll-input-param (left-middle window)**\nTx = 62; Err = 1; ID = 1; F = 04; SR = 1000ms\nAlias:\n0: 00000\n1: HW Version\n2: SW Version\n3: FW Version\n4: Manufacturer\n5: Product\n...\n16: ASB HW Version\n17: ASB SW Version\n18: ASB FW Version\n...\n26: Sys_sp_th\n...\n31: if_sn_str\n\n**Modbuspoll_poll-input-param (right-middle window)**\nTx = 16827; Err = 16220; ID = 1; F = 04; SR = 1000ms\nAlias:\n40: 00040\n41: Viscosity Median - Para 0: 10\n42: Viscosity Median Int: 1000\n43: Viscosity Median Status: (77) 0x0100\n44: Viscosity Median Uncalibrated: 0\n45: Units: 2\n46: Units: 2\n47: Units: 2\n48: Units: 2\n49: Units: 2\n50: Density Median - Para 1: 2.40\n51: Units: 0\n52: Density Median Int: 240\n53: Density Median Status: (77) 0x0100\n54: Density Median Uncalibrated: 0\n55: Units: 0\n56: Units: 24\n57: Units: 0\n58: Temperature Median - Para 2: -2.678\n59: Temperature Median Int: -2678\n60: Temperature Median Status: (77) 0x0100\n61: Temp median uncalibrated: 0\n62: Units: 0\n63: Units: 20\n64: Kinematic Viscosity - Para 3: 4.16667\n65: Units: 0\n66: Kinematic Viscosity Average Int: 416\n67: Kinematic Viscosity Average Status: (77) 0x0002\n68: Kinematic Viscosity average uncalibra...: 4.16667\n69: Units: 0\n70: Units: 7\n\n**Modbuspoll_poll-input-param (far right window)**\nTx = 13067; Err = 12886; ID = 1; F = 04; SR = 1000ms\nAlias:\n180: 00152\n181: Units: 0\n182: Units: 20\n183: Tq - Parameter 18: 0\n184: Value x 100 Int: 0\n185: Value x 100 Int: 0\n186: Status: (??) 0x0000\n187: Uncalibrated Value: 0\n188: Units: 0\n189: Units: 20\n190: Units: 0\n191: Script D - Parameter 19: nan\n192: nan\n193: Value x 100 Int: -32768\n194: Status: (??) 0x0003\n195: Uncalibrated Value: nan\n196: Units: 0\n197: Units: 0\n198: Units: 0\n\n**Modbuspoll_poll-additional-info (bottom right window)**\nTx = 115; Err = 2; ID = 1; F = 04; SR = 500ms\nAlias:\n500: 0x0000\n...\n505: fp45: 7429.09\n507: fp445: 7428.21\n509: Error Code: 0\n511: Supply Voltage: 23.4022\n513: MCU Temp: 54.3902\n\n**poll-temp-params/id/outputs (obscured right window)**\nAlias:\n1000: Visco Stokes Max: nan\n1001: Visco Stokes Min: nan\n1002: (??) 0x00C0\n1003: (??) 0x00C0\n...\n1040: Has_AnalDitch: 0\n1041: Has_Modbus: 1\n1042: Has_Ethernet: 1\n1043: Has_USB: 1\n1044: Has_UART: 1\n1045: Has_HART: 0\n1046: Has_ModbusTCP: 0\nPort 3: 38400-8-0-1",
+      "specifications": {
+        "Modbuspoll Tx Rate (UUID, Input Param)": "1000 ms",
+        "Modbuspoll Tx Rate (Additional Info)": "500 ms",
+        "Viscosity Median - Parameter 0": "10",
+        "Viscosity Median Integer": "1000",
+        "Viscosity Median Status": "0x0100",
+        "Viscosity Median Uncalibrated": "0",
+        "Density Median - Parameter 1": "2.40",
+        "Density Median Integer": "240",
+        "Density Median Status": "0x0100",
+        "Density Median Uncalibrated": "0",
+        "Temperature Median - Parameter 2": "-2.678",
+        "Temperature Median Integer": "-2678",
+        "Temperature Median Status": "0x0100",
+        "Temperature Median Uncalibrated": "0",
+        "Kinematic Viscosity - Parameter 3": "4.16667",
+        "Kinematic Viscosity Average Integer": "416",
+        "Kinematic Viscosity Average Status": "0x0002",
+        "Kinematic Viscosity Average Uncalibrated": "4.16667",
+        "Tq - Parameter 18": "0",
+        "Value x 100 Integer (193)": "-32768",
+        "Status (194)": "0x0003",
+        "Error Code (509)": "0",
+        "Supply Voltage": "23.4022 V",
+        "MCU Temperature": "54.3902 °C",
+        "fp45": "7429.09",
+        "fp445": "7428.21",
+        "Visco Stokes Max": "nan",
+        "Visco Stokes Min": "nan",
+        "Has_AnalDitch": "0",
+        "Has_Modbus": "1",
+        "Has_Ethernet": "1",
+        "Has_USB": "1",
+        "Has_UART": "1",
+        "Has_HART": "0",
+        "Has_ModbusTCP": "0",
+        "Port 3 Configuration": "38400-8-0-1"
+      },
+      "key_facts": [
+        "The document recommends specific RS485 to USB converter brands: FTDI and Moxa.",
+        "The list of recommended converters is not an endorsement of a particular product category or type.",
+        "The document provides detailed Modbuspoll integration parameters, including register addresses, aliases, and current values for viscosity, density, temperature, and kinematic viscosity.",
+        "The device integrated via Modbuspoll shows current supply voltage and MCU temperature readings."
+      ],
+      "diagram_labels": [
+        "Figure 5. Modbuspoll integration.",
+        "Figure 6. FTDI Chip USB to RS485 Converter Cable"
+      ],
+      "warnings_notes": [
+        "The list provided is not intended to recommend a particular category or type of product."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 2544,
+        "cost_usd": 0.006499799999999999
+      },
+      "source_file": "219_Modbus_RS485_to_USB_converter_compatible_with_Rheonics_SME.pdf"
+    },
+    {
+      "page_summary": "This page showcases two different types of RS485 to USB converters, providing brand information and web links for specific models from Moxa, Lin Engineering, and Advantech.",
+      "document_type": "manual",
+      "product_names": [
+        "Moxa UPort 1110",
+        "Moxa UPort 1130",
+        "Moxa UPort 1150",
+        "Lin Engineering USB485",
+        "Lin Engineering USB482",
+        "Advantech BB-485USBTB-2W-A"
+      ],
+      "extracted_text": "Figure 7. Moxa RS485 to USB converter.\nBrand: Lin Engineering\nWeb: USB485 (https://www.linengineering.com/products/value-add/accessories/usb485)\n\nFigure 8. Lin Engineering RS485 to USB converter\nBrand: Advantech\nWeb: BB-485USBTB-2W-A (https://www.advantech.com/es-pe/products/582aa9d0-36a4-4679-aec9-27f84c00c86f/bb-485usbtb-2w-a/mod_ef1393bf-ddde-41ca-a049-bf10195c0701)",
+      "specifications": {},
+      "key_facts": [
+        "Figure 7 displays Moxa brand RS485 to USB converters, including models UPort 1110 and UPort 1150.",
+        "A Lin Engineering USB485 converter is mentioned with its product web address.",
+        "Figure 8 shows a Lin Engineering branded RS485 to USB converter, labeled USB482.",
+        "An Advantech BB-485USBTB-2W-A converter is mentioned with its product web address.",
+        "Both figures illustrate devices that convert RS485 signals to USB."
+      ],
+      "diagram_labels": [
+        "MOXA",
+        "UPort 1110",
+        "RS-232",
+        "USB-to-Serial Adapter",
+        "Power",
+        "Active",
+        "TxD",
+        "RxD",
+        "UPort 1150",
+        "USB",
+        "USB-to-1-Port RS-232/422/485 Serial Converter",
+        "Port 1: RS-232/422/485",
+        "LIN ENGINEERING",
+        "USB482",
+        "022522"
+      ],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 656,
+        "cost_usd": 0.0017798
+      },
+      "source_file": "219_Modbus_RS485_to_USB_converter_compatible_with_Rheonics_SME.pdf"
+    },
+    {
+      "page_summary": "This page displays images and information for various third-party USB to RS485 and RS422/485 converters, including product names, brands, and web links.",
+      "document_type": "notes",
+      "product_names": [
+        "Advantech RS485 to USB converter",
+        "Advantech Model USB-485B-GW",
+        "US-324 1 Port RS422/485 USB to Serial Adapter - Brainboxes",
+        "Brainboxes RS485 to USB converter",
+        "USB to RS-422/485 Converter (Siig)",
+        "Siig RS485 to USB converter",
+        "Industrial USB to RS485 Bidirectional Converter (Waveshare)"
+      ],
+      "extracted_text": "Figure 9. Advantech RS485 to USB converter.\n(Labels on device: USB, ADVANTECH, Model USB-485B-GW, UL-36T1, A(-), B(+), A(-), B(+), GND)\n\nBrand: Brainboxes\nWeb: US-324 1 Port RS422/485 USB to Serial Adapter - Brainboxes (https://www.brainboxes.com/product/usb-to-serial/usb/us-324)\nFigure 10. Brainboxes RS485 to USB converter.\n\nBrand: Siig\nWeb: USB to RS-422/485 Converter (https://www.siig.com/usb-to-rs-422-485-converter.html)\nFigure 11. Siig RS485 to USB converter.\n(Labels on device: TX RX, Power, USB To RS-485/422, RoHS, 485, 422, R-, R+, D-, T-, D+, T+, NO OFF, T/R, X)\n\nBrand: Waveshare\nWeb: Industrial USB to RS485 Bidirectional Converter (https://www.waveshare.com/usb-to-rs485.htm)",
+      "specifications": {},
+      "key_facts": [
+        "The document presents different USB to RS485/RS422 serial converters from various manufacturers.",
+        "Advantech offers a USB-485B-GW model for RS485 to USB conversion.",
+        "Brainboxes provides a US-324 1 Port RS422/485 USB to Serial Adapter.",
+        "Siig manufactures a USB to RS-422/485 Converter.",
+        "Waveshare offers an Industrial USB to RS485 Bidirectional Converter.",
+        "Each converter listed includes a web link for further product information."
+      ],
+      "diagram_labels": [
+        "USB",
+        "ADVANTECH",
+        "Model USB-485B-GW",
+        "UL-36T1",
+        "A(-)",
+        "B(+)",
+        "A(-)",
+        "B(+)",
+        "GND",
+        "TX RX",
+        "Power",
+        "USB To RS-485/422",
+        "RoHS",
+        "485",
+        "422",
+        "R-",
+        "R+",
+        "D-",
+        "T-",
+        "D+",
+        "T+",
+        "NO OFF",
+        "T/R",
+        "X"
+      ],
+      "warnings_notes": [
+        "RoHS (compliance indicated on Siig device)"
+      ],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 847,
+        "cost_usd": 0.0022573
+      },
+      "source_file": "219_Modbus_RS485_to_USB_converter_compatible_with_Rheonics_SME.pdf"
+    },
+    {
+      "page_summary": "This page displays an image of a Waveshare RS485 to USB converter, provides a list of Modbus-related references, and includes a general disclaimer regarding the use of illustrations.",
+      "document_type": "manual",
+      "product_names": [
+        "Waveshare RS485 to USB converter"
+      ],
+      "extracted_text": "Figure 12. Waveshare RS485 to USB converter.\n\n4. References\n1. The Modbus Organization (https://modbus.org/)\n2. Modbus Master Simulator (https://www.modbustools.com/modbus_poll.html)\n3. Modbus RTU (RS-485) (https://support.rheonics.com/en/support/solutions/folders/81000217005)\n\nDISCLAIMER\nPictures, photos and images used are for illustration purposes and do not constitute any warranty or assertions on suitability of use and should not be construed as an explicit or implicit recommendation or endorsement. All illustrations are given proper credit from our source of access and by their use here we do not specify or establish any copyright which belongs and stays unaffected with the existing copyright holder of that material.",
+      "specifications": {},
+      "key_facts": [
+        "The page features an image of a Waveshare RS485 to USB converter.",
+        "Three references related to Modbus communication are listed, including The Modbus Organization, a Modbus Master Simulator, and Rheonics' support documentation for Modbus RTU (RS-485).",
+        "A disclaimer clarifies that all provided illustrations are for illustrative purposes and do not imply warranty, suitability, recommendation, or endorsement.",
+        "The disclaimer also states that all illustrations are credited to their source, and their use does not affect existing copyrights."
+      ],
+      "diagram_labels": [
+        "PWR",
+        "TXD",
+        "RXD",
+        "USB",
+        "USB TO RS485",
+        "Wh",
+        "GND",
+        "A+",
+        "B-"
+      ],
+      "warnings_notes": [
+        "Pictures, photos and images used are for illustration purposes and do not constitute any warranty or assertions on suitability of use and should not be construed as an explicit or implicit recommendation or endorsement. All illustrations are given proper credit from our source of access and by their use here we do not specify or establish any copyright which belongs and stays unaffected with the existing copyright holder of that material."
+      ],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 571,
+        "cost_usd": 0.0015673
+      },
+      "source_file": "219_Modbus_RS485_to_USB_converter_compatible_with_Rheonics_SME.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

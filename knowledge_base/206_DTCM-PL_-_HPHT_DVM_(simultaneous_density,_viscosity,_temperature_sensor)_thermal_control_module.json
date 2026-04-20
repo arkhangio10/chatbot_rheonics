@@ -1,0 +1,159 @@
+{
+  "source_file": "206_DTCM-PL_-_HPHT_DVM_(simultaneous_density,_viscosity,_temperature_sensor)_thermal_control_module.pdf",
+  "total_pages": 3,
+  "chunks": [
+    {
+      "page_summary": "This page provides an overview of the Rheonics DTCM-PL thermal control module and the HPHT DVM sensor for simultaneous high-pressure and high-temperature density, viscosity, and temperature measurements.",
+      "document_type": "datasheet",
+      "product_names": [
+        "DTCM-PL",
+        "HPHT DVM",
+        "DVM (Density Viscosity module)",
+        "Rheonics DVM HPHT ultra-high accuracy all-in-one density viscosity temperature meter"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nDTCM-PL - HPHT DVM (simultaneous density, viscosity, temperature sensor) thermal control module\n\nModified on: Wed, 3 Dec, 2025 at 6:39 PM\n\nWhat products are involved?\nRheonics DVM HPHT ultra-high accuracy all-in-one density viscosity temperature meter (https://rheonics.com/products/hpht-pvt-density-meter-viscometer-dvm/)\n\nWhat is the purpose of this article?\nTo give an overview of the DTCM, thermal control module for Rheonics DVM.\n\n1. Overview\nThe DTCM-PL (https://rheonics.com/product-accessories/dtcm-dvm-thermal-control-module/) is Rheonics Thermal Control Module for the HPHT (High pressure and temperature) density and viscosity module DVM (https://rheonics.com/products/hpht-pvt-density-meter-viscometer-dvm/). The DTCM is custom-designed to ensure uniform temperature distribution across the DVM (Density Viscosity module), heating and cooling are achieved through a high-efficiency, fast thermal device (DTCM-PL) with an advanced model-based controller.\nThe DTCM-PL was designed after extensive simulation and testing to ensure high stability and accurate control of temperature around the DVM. This ensures highly accurate viscosity and density readings from the sensor.\n\nRheonics DVM\nThe DVM is an in-line sensor capable of measuring Viscosity, Density, and Temperature simultaneously. This sensor is designed to work in high-pressure (up to 30,000 psi, 2100 bar) and temperature (up to 200°C, 400°F) applications with ultra-high accuracy. This sensor requires less than 0.7 cc fluid sample to measure and its wetted parts are made of Titanium Gr. 5 (3.7165).\n\nFigure 1. Rheonics DVM",
+      "specifications": {
+        "DVM pressure range": "up to 30,000 psi (2100 bar)",
+        "DVM temperature range": "up to 200°C (400°F)",
+        "DVM fluid sample required": "less than 0.7 cc",
+        "DVM wetted parts material": "Titanium Gr. 5 (3.7165)"
+      },
+      "key_facts": [
+        "The DTCM-PL is Rheonics Thermal Control Module for the HPHT (High pressure and temperature) density and viscosity module DVM.",
+        "The DTCM is custom-designed to ensure uniform temperature distribution across the DVM.",
+        "Heating and cooling are achieved through a high-efficiency, fast thermal device (DTCM-PL) with an advanced model-based controller.",
+        "The DTCM-PL ensures high stability and accurate control of temperature around the DVM, leading to highly accurate viscosity and density readings.",
+        "The DVM is an in-line sensor capable of measuring Viscosity, Density, and Temperature simultaneously.",
+        "The DVM sensor is designed to work in high-pressure and high-temperature applications with ultra-high accuracy."
+      ],
+      "diagram_labels": [
+        "Figure 1. Rheonics DVM"
+      ],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 897,
+        "cost_usd": 0.0023823
+      },
+      "source_file": "206_DTCM-PL_-_HPHT_DVM_(simultaneous_density,_viscosity,_temperature_sensor)_thermal_control_module.pdf"
+    },
+    {
+      "page_summary": "This page provides detailed technical specifications, dimensions, and key features of the Rheonics DTCM-PL thermal chamber and its controller.",
+      "document_type": "datasheet",
+      "product_names": [
+        "DTCM-PL",
+        "DVM sensor",
+        "E4:SME-BOX",
+        "DTCM-BH",
+        "DTCM-G2"
+      ],
+      "extracted_text": "2. Specifications of the DTCM-PL\n\nThe DTCM-PL is composed of the Thermal Chamber for the DVM sensor and a control unit. They communicate through a single cable as shown in the next example image, using an E4:SME-BOX.\n\nFigure 2. Rheonics DTCM\n\nFigure 3. Rheonics DTCM Dimensions\nUnits: mm [inch]\n\nTable 1. Specifications of the DTCM - PL\nParameter | Value | Notes\nDimensions of DTCM - PL | Length x Height x Depth | Smaller than a typical desktop coffee machine\n| 257 x 210 x 235 (mm)\n| 10.1 x 8.3 x 9.2 (in)\nDimensions DTCM - PL controller with SME-BOX | Length x Height x Depth | With an integrated 10.6\" HMI\n| 280 x 430 x 364 (mm)\n| 11 x 16.9 x 14.3 (in)\nPower Input | 110 / 220 V AC | Main Supply\nPower Consumption | max. 700 W | Including DVM\nTotal Weight | 9.5 Kg (21 lb) |\nDTCM-PL Temperature Range | 10 °C to 150 °C | For higher temperatures, DTCM-BH should be used.\n| 50 °F to 350 °F |\nTemperature Stability | 0.005 °C |\nTemperature Accuracy | 0.05 °C | Same as DVM (Class AA Pt1000)\nAmbient Temperature | max. 65 °C ambient |\n| max. 150 °F ambient |\nCommunication Interfaces | Ethernet, USB, Wi-Fi, HDMI and RS485 |\nDrawing | Download (https://cdn.rheonics.com/wp-content/uploads/2024/02/DTCM-G2.pdf) |",
+      "specifications": {
+        "DTCM-PL Dimensions (mm)": "257 x 210 x 235 mm",
+        "DTCM-PL Dimensions (in)": "10.1 x 8.3 x 9.2 in",
+        "DTCM-PL Controller with SME-BOX Dimensions (mm)": "280 x 430 x 364 mm",
+        "DTCM-PL Controller with SME-BOX Dimensions (in)": "11 x 16.9 x 14.3 in",
+        "HMI Size": "10.6 inch",
+        "Power Input": "110/220 V AC",
+        "Power Consumption": "700 W (max)",
+        "Total Weight": "9.5 Kg",
+        "Total Weight (imperial)": "21 lb",
+        "DTCM-PL Temperature Range (°C)": "10 °C to 150 °C",
+        "DTCM-PL Temperature Range (°F)": "50 °F to 350 °F",
+        "Temperature Stability": "0.005 °C",
+        "Temperature Accuracy": "0.05 °C",
+        "Ambient Temperature (°C)": "max. 65 °C",
+        "Ambient Temperature (°F)": "max. 150 °F",
+        "Communication Interfaces": "Ethernet, USB, Wi-Fi, HDMI, RS485"
+      },
+      "key_facts": [
+        "The DTCM-PL system comprises a Thermal Chamber for a DVM sensor and a control unit that communicate via a single cable, utilizing an E4:SME-BOX.",
+        "The DTCM-PL unit has dimensions comparable to a typical desktop coffee machine.",
+        "The DTCM-PL controller integrates a 10.6-inch Human Machine Interface (HMI).",
+        "The total power consumption of the DTCM-PL, including the DVM sensor, is a maximum of 700 W.",
+        "The temperature accuracy of the DTCM-PL is equivalent to that of a DVM (Class AA Pt1000).",
+        "A drawing for the DTCM-G2 is available for download at the provided URL."
+      ],
+      "diagram_labels": [
+        "Rheonics",
+        "Swiss Made",
+        "364",
+        "14.33",
+        "430",
+        "16.92",
+        "280",
+        "11.02",
+        "mm",
+        "inch"
+      ],
+      "warnings_notes": [
+        "For applications requiring higher temperatures than the DTCM-PL's range, the DTCM-BH model should be used."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1216,
+        "cost_usd": 0.0031798
+      },
+      "source_file": "206_DTCM-PL_-_HPHT_DVM_(simultaneous_density,_viscosity,_temperature_sensor)_thermal_control_module.pdf"
+    },
+    {
+      "page_summary": "This page explains the advantages of the Rheonics DTCM for temperature control in viscosity and density measurements, compares it to alternative systems, and provides additional resources.",
+      "document_type": "datasheet",
+      "product_names": [
+        "DTCM",
+        "Rheonics DVM",
+        "Rheonics DTCM - PL",
+        "DTCM G2"
+      ],
+      "extracted_text": "3. Why use the DTCM?\nDTCM eliminates the requirement of bulky and expensive thermal test chambers (also known as climate chambers) for temperature control. It reduces the size of the equipment to that of a small coffee machine like Nespresso while achieving 10 times better stability and uniformity as compared to a typical 100-liter commercial thermal chamber. It enables HPHT (High-Pressure High-Temperature) fluid analysis with DVM (Density Viscosity Module) in the field and mobile units without compromising data integrity.\n\nRelevance of Temperature in Viscosity and Density readings\nWhen measuring the viscosity and density of a fluid, the temperature should be controlled, since a slight change in temperature can have an impact on the viscosity and density of a fluid.\nThe DTCM is a solution for Rheonics DVM, which allows the user to control the temperature of the fluid, maintaining correct temperature distribution around the DVM, while measuring the viscosity and density of the fluid.\nTemperature accuracy is also key when performing calibration verifications.\n\n4. Alternatives Temperature Control Systems\nWhen temperature control is required for the DVM operation, some alternatives to the DTCM are baths and thermal ovens. These are commonly used but have disadvantages predominantly in the form factor and temperature accuracy.\n\nTable 2. Alternatives Temperature Control Systems vs Rheonics DTCM\nAlternatives Temperature Control Systems vs Rheonics DTCM\nProduct Characteristics\nRheonics DTCM - PL\nHeat Trace\nViscosity Bath\nLaboratory Oven\nClimate Chamber\nSize\n257 x 210 x 235 (mm)\nDefined by customer\n420 x 585 x 375 (mm)\n440 x 590 x 465 (mm)\n800 x 800 x 800 (mm)\nTemperature Range\n10 °C to 150 °C\n65 °C to 200 °C\n5 °C to 100 °C\n30 °C to 250 °C\n10 °C to 350 °C\nTemperature Accuracy\n0.05 °C\n5 °C\n0.1 °C\n5 °C\n0.5 °C\n\nFigure 4. Rheonics DTCM form-factor comparison with alternative thermal management systems\n\n5. Additional Resources\n[1] Download DTCM G2 Drawing (https://cdn.rheonics.com/wp-content/uploads/2024/02/DTCM-G2.pdf)\n[2] Download DTCM G2 Training deck (https://cdn.rheonics.com/wp-content/uploads/2024/02/DTCM-TD-2402.pdf)\n[3] DTCM Website (https://rheonics.com/product-accessories/dtcm-dvm-thermal-control-module/)",
+      "specifications": {
+        "Rheonics DTCM - PL_Size": "257 x 210 x 235 mm",
+        "Rheonics DTCM - PL_Temperature Range": "10 °C to 150 °C",
+        "Rheonics DTCM - PL_Temperature Accuracy": "0.05 °C",
+        "Heat Trace_Size": "Defined by customer",
+        "Heat Trace_Temperature Range": "65 °C to 200 °C",
+        "Heat Trace_Temperature Accuracy": "5 °C",
+        "Viscosity Bath_Size": "420 x 585 x 375 mm",
+        "Viscosity Bath_Temperature Range": "5 °C to 100 °C",
+        "Viscosity Bath_Temperature Accuracy": "0.1 °C",
+        "Laboratory Oven_Size": "440 x 590 x 465 mm",
+        "Laboratory Oven_Temperature Range": "30 °C to 250 °C",
+        "Laboratory Oven_Temperature Accuracy": "5 °C",
+        "Climate Chamber_Size": "800 x 800 x 800 mm",
+        "Climate Chamber_Temperature Range": "10 °C to 350 °C",
+        "Climate Chamber_Temperature Accuracy": "0.5 °C"
+      },
+      "key_facts": [
+        "The DTCM eliminates bulky and expensive thermal test chambers, reducing equipment size.",
+        "The DTCM achieves 10 times better stability and uniformity compared to a typical 100-liter commercial thermal chamber.",
+        "The DTCM enables HPHT (High-Pressure High-Temperature) fluid analysis with DVM in the field and mobile units.",
+        "Temperature control is crucial for accurate viscosity and density readings, as slight temperature changes can impact these properties.",
+        "The DTCM is a solution for Rheonics DVM to precisely control fluid temperature and maintain correct temperature distribution.",
+        "Temperature accuracy is essential for calibration verifications.",
+        "Alternatives to DTCM (baths, thermal ovens) have disadvantages in form factor and temperature accuracy."
+      ],
+      "diagram_labels": [
+        "Climate Chamber",
+        "Laboratory Oven",
+        "Viscosity Bath",
+        "Rheonics DTCM"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1295,
+        "cost_usd": 0.0033772999999999997
+      },
+      "source_file": "206_DTCM-PL_-_HPHT_DVM_(simultaneous_density,_viscosity,_temperature_sensor)_thermal_control_module.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

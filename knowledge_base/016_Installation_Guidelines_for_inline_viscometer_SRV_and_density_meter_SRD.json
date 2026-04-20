@@ -1,0 +1,374 @@
+{
+  "source_file": "016_Installation_Guidelines_for_inline_viscometer_SRV_and_density_meter_SRD.pdf",
+  "total_pages": 8,
+  "chunks": [
+    {
+      "page_summary": "This document provides installation guidelines for Rheonics SRV inline viscometers and SRD density meters, discussing fluid types and specific sensor placement criteria.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "SRD",
+        "Rheonics SR- sensors",
+        "Rheonics SR-Type Sensors",
+        "inline viscometer SRV",
+        "density meter SRD",
+        "SRV Viscometer",
+        "SRD Density meter and Viscometer"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nInstallation Guidelines for inline viscometer SRV and density meter SRD\n\nModified on: Wed, 15 May, 2024 at 5:49 PM\n\nWhat products are involved?\nSRV (https://rheonics.com/products/inline-viscometer-srv/) and SRD (https://rheonics.com/products/inline-density-meter-srd/) sensors.\n\nWhat is the purpose of this article?\nTo explain how Rheonics SR- sensors behave with the most common fluid types and give installation recommendations for each case from a theoretical perspective.\n\nIntroduction\nRheonics offers two types of SR probes, the SRV (https://rheonics.com/products/inline-viscometer-srv/) inline viscometer and SRD (https://rheonics.com/products/inline-density-meter-srd/) inline density and viscosity meter. Learn more about each sensor on the Rheonics product page (https://rheonics.com/products/) and support articles here (https://support.rheonics.com/support/home).\n\nBefore describing the performances of the SRV and SRD in different types of fluids, two categories of fluids must be mentioned that are encountered whenever viscosity measurements come into play - these are Newtonian and non-Newtonian fluids. Rheonics has a lot of information that defines each of these fluid types on the web, like this Blog (https://rheonics.com/measurement-of-viscosity-of-non-newtonian-fluids-with-rheonics-srv-sensors/).\n\nFor a Newtonian fluid, viscosity does not change when a force is applied, so static and moving conditions show the same viscosity readings. Other conditions may change the viscosity of these fluids, like differences in temperature.\n\nFor a non-Newtonian fluid, measured viscosity depends on the shear rate with which the measurement is conducted. There are many types of non-Newtonian fluids but what they have in common is that their viscosities can't be associated with a particular value for different measuring instruments, since often, the shear rate at which the measurement is done differ between different measuring technologies.\n\nDensity measurements, on the other hand, shouldn't be affected by Newtonian or non-Newtonian behavior of fluids.\n\nMajority of fluids encountered in industrial processes are non-Newtonian so when using an inline viscometer, the operational conditions should be considered. Rheonics ensures the repeatability of readings at the same conditions which is ultimately the most important factor in process control.\n\nRheonics SR-Type Sensors Installation Criteria\nFor any installation of the SRV Viscometer and SRD Density meter and Viscometer, user should:\n1. Immerse the sensor probe enough so the sensing element is in contact with the fluid (see figure below) and avoid dead zones or stagnation zones.\n2. Consider a clearance from the tip to any obstruction (e.g. pipe inner wall), 5mm is required for the SRV and 12mm for the SRD.",
+      "specifications": {
+        "SRV clearance": "5 mm",
+        "SRD clearance": "12 mm"
+      },
+      "key_facts": [
+        "Rheonics offers two types of SR probes: the SRV inline viscometer and the SRD inline density and viscosity meter.",
+        "The article aims to explain Rheonics SR- sensors' behavior with common fluid types and provide installation recommendations from a theoretical perspective.",
+        "Two categories of fluids, Newtonian and non-Newtonian, are relevant for viscosity measurements.",
+        "For Newtonian fluids, viscosity remains constant regardless of applied force, showing consistent readings in static and moving conditions, though temperature can influence it.",
+        "For non-Newtonian fluids, measured viscosity is dependent on the shear rate at which the measurement is performed, leading to variations across different measuring technologies.",
+        "Density measurements are generally not affected by the Newtonian or non-Newtonian behavior of fluids.",
+        "Most industrial fluids are non-Newtonian, emphasizing the importance of considering operational conditions when using an inline viscometer.",
+        "Rheonics ensures the repeatability of readings under consistent operational conditions, which is crucial for process control.",
+        "During installation, the sensor probe must be sufficiently immersed so that the sensing element is fully in contact with the fluid.",
+        "It is important to avoid dead zones or stagnation zones during sensor installation.",
+        "A minimum clearance of 5mm from the SRV sensor tip to any obstruction (e.g., pipe inner wall) is required.",
+        "A minimum clearance of 12mm from the SRD sensor tip to any obstruction (e.g., pipe inner wall) is required."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Ensure the sensor probe is immersed enough so the sensing element is in contact with the fluid to avoid dead zones or stagnation zones.",
+        "A minimum clearance of 5mm is required for the SRV sensor from its tip to any obstruction.",
+        "A minimum clearance of 12mm is required for the SRD sensor from its tip to any obstruction."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1276,
+        "cost_usd": 0.0033298
+      },
+      "source_file": "016_Installation_Guidelines_for_inline_viscometer_SRV_and_density_meter_SRD.pdf"
+    },
+    {
+      "page_summary": "This page details installation criteria for Rheonics SRV and SRD sensors and provides recommendations for their use under various fluid conditions, with a specific focus on static conditions.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV sensors",
+        "SRD sensors"
+      ],
+      "extracted_text": "Figure 1: Installation criterias for the SRV and SRD sensors.\n\nWith previous considerations clear, we can now review different kinds of fluids and conditions, and give some considerations and recommendations for them. The scenarios covered in this article are:\n\n*   1. Static Conditions\n*   2. Moving Fluids\n*   3. Bubbly Flows\n*   4. Solid Particles\n*   5. Deposits\n*   6. Fluids with Yield Stress\n\n1. Static Conditions\nWe will define static conditions as no flow in the fluid. This is usually how most laboratory instruments operate.\nFor Newtonian fluids, viscosity will be the same if measured in a beaker, where fluid is static, or inline in a process, where it could be moving at varying rates.\nFor non-Newtonian fluids, viscosity measurements of static fluid will be different than measurements of the same fluid under different flow rates. This is due to different imposed shear rates from flow. as well as structure disruption due to flow of a structured fluid.\nIf a static test is required, the user should :\n\n1.  Clamp the sensor so it is firmly fixed avoiding any motion of the probe in the fluid.\n2.  If water measurement is required, the vessel should be pressurized to avoid any bubbles in the fluid.\n3.  Bubbles settling on the sensing element should be always avoided as it will disrupt the measurement.\n4.  Recommended test/reference fluids are alcohols, solvents, or oils.\n5.  Consider that high-temperature tests will require a temperature control chamber.",
+      "specifications": {
+        "SRV_sensor_length": "50 mm [1.96\"]",
+        "SRV_sensor_diameter": "16 mm [0.63\"]",
+        "SRV_tip_clearance_to_obstruction": "5 mm [0.2\"]",
+        "SRD_sensor_sensing_element_length": "50 mm [1.96\"]",
+        "SRD_sensor_body_length": "34 mm [1.4\"]",
+        "SRD_sensor_sensing_element_diameter": "35 mm [1.4\"]",
+        "SRD_tip_clearance_to_obstruction": "12 mm [0.5\"]"
+      },
+      "key_facts": [
+        "Figure 1 illustrates the installation criteria for Rheonics SRV and SRD sensors.",
+        "The article covers scenarios including Static Conditions, Moving Fluids, Bubbly Flows, Solid Particles, Deposits, and Fluids with Yield Stress.",
+        "Static conditions are defined as a state of no fluid flow, similar to typical laboratory instrument operation.",
+        "For Newtonian fluids, viscosity remains consistent whether measured statically or in a flowing process.",
+        "For non-Newtonian fluids, static viscosity measurements can differ from those under flow due to varying shear rates and fluid structure disruption.",
+        "For static tests, the sensor must be clamped securely to prevent any probe motion in the fluid.",
+        "When measuring water, the vessel should be pressurized to prevent bubble formation.",
+        "Bubbles accumulating on the sensing element must be prevented as they will interfere with measurements.",
+        "Alcohols, solvents, or oils are recommended as test or reference fluids.",
+        "High-temperature tests require the use of a temperature control chamber."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "50 mm [1.96\"]",
+        "Ø16 mm [0.63\"]",
+        "SRV tip's clearance to any obstruction",
+        "5 mm [0.2\"]",
+        "34 mm [1.4\"]",
+        "Ø35 mm [1.4\"]",
+        "SRD tip's clearance to any obstruction",
+        "12 mm [0.5\"]",
+        "Avoid stagnation zones in the sensing zones (red areas)",
+        "Ensure sensing element in red is in contact with fluid"
+      ],
+      "warnings_notes": [
+        "Avoid stagnation zones in the sensing zones (red areas).",
+        "Ensure the sensing element (in red) is in contact with fluid.",
+        "If a static test is required, the user should clamp the sensor so it is firmly fixed, avoiding any motion of the probe in the fluid.",
+        "If water measurement is required, the vessel should be pressurized to avoid any bubbles in the fluid.",
+        "Bubbles settling on the sensing element should always be avoided as it will disrupt the measurement.",
+        "Recommended test/reference fluids are alcohols, solvents, or oils.",
+        "Consider that high-temperature tests will require a temperature control chamber."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1118,
+        "cost_usd": 0.0029348
+      },
+      "source_file": "016_Installation_Guidelines_for_inline_viscometer_SRV_and_density_meter_SRD.pdf"
+    },
+    {
+      "page_summary": "This page provides guidelines for setting up static measurements and advises on installing Rheonics sensors for moving Newtonian and non-Newtonian fluids, highlighting considerations for flow rate and sensor technology differences.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "SRD",
+        "SR-sensors"
+      ],
+      "extracted_text": "Best to clamp the sensor here or on the cable\nRecommended fluids:\n- Oils\n- Alcohols\n- Other solvents\n- Don't use water\nMake sure the sensing area is fully immersed\nFigure 2: Static measurements setup.\n\n2. Moving Fluids\nIn this case, the sensor is installed in a process line or mixing tank. The SRV and SRD are unaffected by possible vibrations in the installation, but flow rate plays a role in viscosity measurements for most fluids.\n\n| | General points | Installation instructions |\n|---|---|---|\n| **Newtonian fluids** | Readings are unaffected and will be the same for any flow rate or at any fluid state (laminar or turbulent) | Avoid stagnation zones |\n| **Non-Newtonian fluids** | Readings will vary with flow rate and may not match other measuring technologies (e.g. zhan cups). Rheonics SR-sensors ensure the repeatability and reproducibility of readings so the client should use the historical data to study and create a process/batch/recipe identity.\nDensity is not affected | Exposition of the sensor to a good uniform flow rate is needed. If a short sensor can't ensure this, consider a long insertion sensor.\nStagnation zones must be avoided.\nWhen replacing a viscosity sensor (inline or lab), don't expect the same viscosities with SR-Sensors. Sensing technologies are different and viscosity readings vary. |",
+      "specifications": {},
+      "key_facts": [
+        "The sensor should be clamped at the top or on its cable for static measurements.",
+        "The sensing area of the sensor must be fully immersed for accurate measurements.",
+        "Oils, alcohols, and other solvents are recommended fluids for the sensor, but water is explicitly not recommended.",
+        "The SRV and SRD sensors are unaffected by possible vibrations in the installation.",
+        "Flow rate plays a role in viscosity measurements for most fluids.",
+        "For Newtonian fluids, sensor readings are unaffected by flow rate, whether laminar or turbulent.",
+        "For Newtonian fluids, stagnation zones should be avoided during installation.",
+        "For Non-Newtonian fluids, sensor readings will vary with flow rate and may not match those from other measuring technologies (e.g., Zahn cups).",
+        "Rheonics SR-sensors ensure the repeatability and reproducibility of readings for Non-Newtonian fluids.",
+        "Clients should use historical data to study and create a process/batch/recipe identity when measuring Non-Newtonian fluids.",
+        "Density measurements for Non-Newtonian fluids are not affected by flow conditions.",
+        "For Non-Newtonian fluids, exposition of the sensor to a good uniform flow rate is needed.",
+        "If a short sensor cannot ensure a uniform flow rate for Non-Newtonian fluids, a long insertion sensor should be considered.",
+        "For Non-Newtonian fluids, stagnation zones must be avoided.",
+        "When replacing an existing viscosity sensor (inline or lab) with an SR-Sensor, do not expect identical viscosity readings, as sensing technologies are different and readings will vary."
+      ],
+      "diagram_labels": [
+        "Best to clamp the sensor here or on the cable",
+        "Recommended fluids: Oils",
+        "Recommended fluids: Alcohols",
+        "Recommended fluids: Other solvents",
+        "Recommended fluids: Don't use water",
+        "Make sure the sensing area is fully immersed",
+        "Figure 2: Static measurements setup."
+      ],
+      "warnings_notes": [
+        "Don't use water (as a recommended fluid for the sensor).",
+        "Stagnation zones must be avoided for both Newtonian and Non-Newtonian fluid installations.",
+        "When replacing a viscosity sensor (inline or lab), don't expect the same viscosities with SR-Sensors. Sensing technologies are different and viscosity readings vary."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 932,
+        "cost_usd": 0.0024698
+      },
+      "source_file": "016_Installation_Guidelines_for_inline_viscometer_SRV_and_density_meter_SRD.pdf"
+    },
+    {
+      "page_summary": "This page provides guidance on proper sensor installation for flowing fluids, illustrating correct and incorrect placement, and introduces the topic of how SRV and SRD sensors behave in bubbly flows.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "SRD"
+      ],
+      "extracted_text": "Figure 3: Installation flowing fluids.\n\nStagnation zone\nNo fluid exchange\n\nUndefined flow regime\nStagnant flow\n\nEntire sensing element is exposed\nto defined flow induced shear\n\n3. Bubbly Flows\nFluids with entrained air or bubbles are frequent. SRV and SRD behave differently towards bubbles, so let's study them separately.\n\n[Table Header]\nGeneral points\nInstallation instructions",
+      "specifications": {},
+      "key_facts": [
+        "Improper sensor installation can create a stagnation zone with no fluid exchange around the sensing element.",
+        "Improper sensor installation in a bypass can lead to an undefined flow regime and stagnant flow.",
+        "Correct sensor installation ensures the entire sensing element is exposed to defined flow induced shear.",
+        "Fluids containing entrained air or bubbles are a common occurrence.",
+        "SRV and SRD sensors exhibit different behaviors when encountering bubbles."
+      ],
+      "diagram_labels": [
+        "Stagnation zone",
+        "No fluid exchange",
+        "Undefined flow regime",
+        "Stagnant flow",
+        "Entire sensing element is exposed to defined flow induced shear",
+        "Figure 3: Installation flowing fluids."
+      ],
+      "warnings_notes": [
+        "Avoid sensor installations that lead to stagnation zones or undefined/stagnant flow regimes around the sensing element, as indicated by the 'X' marks in the diagrams.",
+        "Note that SRV and SRD products behave differently with bubbles, requiring separate consideration."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 432,
+        "cost_usd": 0.0012198
+      },
+      "source_file": "016_Installation_Guidelines_for_inline_viscometer_SRV_and_density_meter_SRD.pdf"
+    },
+    {
+      "page_summary": "This page details how bubbles affect SRV inline viscometers and SRD inline density and viscosity meters, providing insights into their behavior in bubbly fluids and offering installation guidelines to ensure accurate measurements, along with an introduction to solid particles.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV inline viscometer",
+        "SRD inline density and viscosity meter",
+        "SR sensors"
+      ],
+      "extracted_text": "4. Solid Particles\nThe behavior of SR sensors in fluids with solid particles will depend on the size of these particles.\n\nSRV inline viscometer\nBehavior in bubbly fluid:\n- The SRV measures what is in contact with its wetted surface.\n- At static conditions, bubbles will concentrate on the sensor's surface thus affecting the readings, usually with increments in viscosity even though the fluid is not changing.\n- This is due to the bubbles creating additional damping on the resonator surface.\n- In moving conditions, bubbles will be sheared off.\n- SRV will mostly sense the fluid and measurements are not affected.\n- Bubble percentage and size generally do not affect measurements in a moving fluid.\n\nInstallation instructions/notes for SRV:\n- Avoid stagnation zones to eliminate the possibility of bubbles accumulating around the sensing element.\n- Keep the sensing element fully submerged.\n- High points in the pipeline may have accumulated air, avoid installation in those zones.\n\nFigure 4: SRV installation in bubbly fluid.\n(Diagram on the left shows an SRV sensor installed vertically in a pipe with air trapped above the sensing area, resulting in a 'Potential stagnation zone' where the area isn't wetted, marked as incorrect with an 'X'. The diagram on the right shows an SRV sensor correctly installed horizontally in a pipe, with the 'Sensing area stays wetted. Good flow exposure', marked as correct with a green checkmark.)\n\nSRD inline density and viscosity meter\nBehavior in bubbly fluid:\n- SRD induces a flow while vibrating torsionally, this is needed to measure density.\n- Bubbles affect then the density and viscosity readings for the SRD.\n- In most cases, viscosity increases and density decreases with bubbles.\n- The variation depends on the bubbles percentage, size and movement.\n\nInstallation instructions/notes for SRD:\n- Try to install the SRD where there are no, or minimal bubbles.\n- Pressurizing the line is useful to remove bubbles.\n- Filters can be used in sensor electronics to reduce the noise in measurement due to bubbles in SRD's readings.\n- SRD has successfully been used in bubbly fluids, so tests are always worth doing.",
+      "specifications": {},
+      "key_facts": [
+        "The SRV inline viscometer measures what is in contact with its wetted surface.",
+        "At static conditions, bubbles concentrating on the SRV sensor's surface can affect readings by increasing perceived viscosity due to additional damping.",
+        "In moving conditions, SRV measurements are generally not affected by bubbles as they are sheared off, and the sensor will mostly sense the fluid.",
+        "Bubble percentage and size generally do not affect SRV measurements in a moving fluid.",
+        "The SRD inline density and viscosity meter induces a flow while vibrating torsionally to measure density.",
+        "Bubbles affect SRD density and viscosity readings.",
+        "In most cases, for SRD, viscosity increases and density decreases with bubbles due to the presence of bubbles.",
+        "The variation of SRD readings due to bubbles depends on the bubbles' percentage, size, and movement.",
+        "SRD has been successfully used in bubbly fluids."
+      ],
+      "diagram_labels": [
+        "Figure 4: SRV installation in bubbly fluid.",
+        "air",
+        "Space is filled with gas and area isn't wetted",
+        "Potential stagnation zone",
+        "g",
+        "Sensing area stays wetted. Good flow exposure"
+      ],
+      "warnings_notes": [
+        "Avoid stagnation zones to eliminate the possibility of bubbles accumulating around the SRV sensing element.",
+        "Keep the SRV sensing element fully submerged.",
+        "Avoid installing SRV in high points in the pipeline where air may accumulate.",
+        "Try to install the SRD where there are no, or minimal bubbles.",
+        "Pressurizing the line is useful to remove bubbles during SRD installation.",
+        "Filters can be used in SRD sensor electronics to reduce the noise in measurement due to bubbles."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 986,
+        "cost_usd": 0.0026047999999999996
+      },
+      "source_file": "016_Installation_Guidelines_for_inline_viscometer_SRV_and_density_meter_SRD.pdf"
+    },
+    {
+      "page_summary": "This page provides guidance on the use and installation of Rheonics SRV and SRD sensors in fluids containing particles of varying sizes, detailing best practices for optimal sensor performance and longevity.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "SRD"
+      ],
+      "extracted_text": "Particles of micrometers scale\nExample: Inks and slurries\nThis is below the fluid-length scale that the sensor can measure. The SRV or SRD sees such suspension as a homogeneous fluid, which has a viscosity and a density. For inks, the viscosity is primarily of interest, so the SRV is typically used. For slurries, both viscosity and density may be important, so the SRD can be used.\nFrom an installation perspective, they are very similar to non-Newtonian fluids.\nIt is crucial to avoid any stagnation zones.\nLarge particles (rice corn size)\nThese particles are much larger than the measuring length scale of the sensor, so they will interact with the sensor differently.\nWhen a particle hits the sensing element it creates a large disturbance, interrupting a measurement. This interruption can lead to large errors, creating outliers in the measurement. These errors are sporadic and dependent on how frequently the sensor is hit by the particles.\nThe SRD tends to react more strongly to those impacts than the SRV.\nIf particles are too big and have a considerable mass, and hits in the sensor probe are constant, constant readings may not be possible and the sensor can be affected in the long run.\nPlace the sensor in an area where large particles are not present or less frequent. Consider installing the sensor so it is hit by the flow axially. Long insertion sensors can be convenient.\nConsider the density of the particles and identify where they may concentrate or create deposits at the bottom or top of the pipe, elbows, etc. Do not place the sensing element in those identified zones.\nThe use of protective sleeve accessories is not recommended except in situations where the particles are large and have a potential to damage the sensing element. Care should be taken to ensure that the protective sleeve does not cause plugging of the sensing element. Where possible avoid protective sleeve. In cases where you must, then visit the accessories page rheonics (https://rheonics.com/product-accessories/)\nFigure 5: Fluids with solids.\nRisk of sedimentation\nStagnation zone\nSensing element can be hit by particles laterally\nGood flow exposure\nNo stagnation zones\nNo change of sedimentation\nSensing element is hit axially",
+      "specifications": {},
+      "key_facts": [
+        "For particles of micrometers scale (e.g., inks and slurries), SRV or SRD sensors perceive the suspension as a homogeneous fluid with viscosity and density.",
+        "SRV is typically used when viscosity is the primary interest (e.g., inks).",
+        "SRD can be used when both viscosity and density are important (e.g., slurries).",
+        "Installation for micrometers scale particles is similar to non-Newtonian fluids and requires avoiding stagnation zones.",
+        "Large particles (rice corn size) interact differently with the sensor as they are larger than the sensor's measuring length scale.",
+        "Particle hits on the sensing element can create large disturbances, interrupting measurements and leading to sporadic errors or outliers.",
+        "The SRD sensor reacts more strongly to particle impacts than the SRV sensor.",
+        "Constant hits from large, massive particles can prevent stable readings and potentially affect the sensor long-term.",
+        "Sensors should be installed in areas where large particles are less frequent or absent.",
+        "Optimal sensor installation for large particles involves the sensing element being hit by the flow axially, and long insertion sensors can be convenient.",
+        "Particle density should be considered to avoid placing the sensing element in zones prone to particle concentration or deposition.",
+        "Protective sleeve accessories are generally not recommended, except for situations where large particles pose a damage risk to the sensing element.",
+        "If a protective sleeve is necessary, it must be ensured that it does not cause plugging of the sensing element.",
+        "The best installation for fluids with solids ensures good flow exposure, no stagnation zones, and axial hits on the sensing element, preventing sedimentation."
+      ],
+      "diagram_labels": [
+        "g",
+        "Risk of sedimentation",
+        "Stagnation zone",
+        "Sensing element can be hit by particles laterally",
+        "Good flow exposure",
+        "No stagnation zones",
+        "No change of sedimentation",
+        "Sensing element is hit axially",
+        "Figure 5: Fluids with solids."
+      ],
+      "warnings_notes": [
+        "It is crucial to avoid any stagnation zones.",
+        "Do not place the sensing element in identified zones where particles may concentrate or create deposits (bottom or top of pipe, elbows, etc.).",
+        "The use of protective sleeve accessories is not recommended except in situations where the particles are large and have a potential to damage the sensing element.",
+        "Care should be taken to ensure that the protective sleeve does not cause plugging of the sensing element.",
+        "Where possible avoid protective sleeve."
+      ],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1119,
+        "cost_usd": 0.0029373
+      },
+      "source_file": "016_Installation_Guidelines_for_inline_viscometer_SRV_and_density_meter_SRD.pdf"
+    },
+    {
+      "page_summary": "This page explains how deposits affect the measurement accuracy of SRV and SRD sensors, outlines solutions for managing such deposits, and introduces the characteristics of fluids exhibiting yield stress.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "SRD"
+      ],
+      "extracted_text": "5. Deposits\nIn biological or chemical processes, deposits may form at the inner wall of pipes or reactors, these are layers or coatings on surfaces. If this is the case, there is a good chance that the same will occur on the sensing element. Deposits on the sensing element can affect the readings under some circumstances.\nA good indicator is the fluid length scale, if the deposit is of similar or larger thickness than the fluid length scale it is likely going to interfere with the measurement. In case it is significantly below, the measurements won't be affected. This is dependent on the type of the deposit, the thickness of the deposit as well as the viscosity of the fluid.\nThe SRV is capable of detecting solid deposits on the sensing element. Thus, it can be monitored when the a deposit deposit appears, and if it has been removed during the cleaning process.\nThe SRD cannot detect deposits. In case one is present, it may distort both the viscosity and density reading. The only way to check if it is clean is visually, or when it is dry in the air. Deposits in the SRD then need to be removed with proper cleaning. The client should define how often the sensor should be cleaned since fouling or buildup depends on the fluid and installation. Follow this article on how to clean the sensor probe.\n(https://support.rheonics.com/en/support/solutions/articles/81000410289-how-to-clean-your-rheonics-probe-)\n\nSolutions for fluids prone to deposits:\n1. The SRV can detect deposits and send alarms for cleaning.\n2. Periodic visual inspection and cleaning for SRV and SRD.\n3. In tanks or long standpipes, long insertion sensors avoid deposits in inner walls.\nFigure 6: Installation for fluids prone to solid deposits.\n\n6. Fluids with Yield Stress\nA fluid with yield stress is a type of non-Newtonian fluid. A fluid with yield stress is a fluid that requires a certain amount of shear to flow. Well-known examples are Ketchup and paint. For both fluids, yield stress is key for their final application and so this is a desired property for some fluids.\nGeneral points\nInstallation instructions",
+      "specifications": {},
+      "key_facts": [
+        "Deposits on the sensing element can affect measurement readings under certain circumstances.",
+        "A deposit's thickness relative to the fluid length scale determines its likelihood of interfering with measurement.",
+        "The SRV sensor can detect solid deposits on the sensing element and monitor their presence and removal.",
+        "The SRD sensor cannot detect deposits, and their presence can distort viscosity and density readings.",
+        "Deposits in SRD sensors must be removed, typically by visual inspection or when dry, and clients should define cleaning frequency.",
+        "Long insertion sensors are recommended for tanks or long standpipes to prevent deposits on inner walls.",
+        "A fluid with yield stress is a non-Newtonian fluid requiring a specific amount of shear to flow.",
+        "Ketchup and paint are examples of fluids where yield stress is a critical property for their application."
+      ],
+      "diagram_labels": [
+        "Sensing element has deposits and layers attached on surface.",
+        "SRV Short",
+        "Non-movement zones e.g. deposits",
+        "A: Insertion length",
+        "Measurement zone",
+        "SRV Long insertion",
+        "Figure 6: Installation for fluids prone to solid deposits."
+      ],
+      "warnings_notes": [],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 835,
+        "cost_usd": 0.0022272999999999998
+      },
+      "source_file": "016_Installation_Guidelines_for_inline_viscometer_SRV_and_density_meter_SRD.pdf"
+    },
+    {
+      "page_summary": "This page provides installation guidelines for Rheonics SRV and SRD viscometers when used with fluids exhibiting yield stress, focusing on correct sensor placement to ensure adequate flow exposure and prevent stagnation.",
+      "document_type": "manual",
+      "product_names": [
+        "SRV",
+        "SRD"
+      ],
+      "extracted_text": "Fluids with yield stress\n  The SRV and SRD torsional movement is not enough to shear off a fluid with yield stress.\n  Viscosity readings for a fluid with yield stress can vary between its static and moving conditions. The difference can be considerably big, it can be anywhere from a few percent, up to several hundred times the viscosity.\n  Installation is key for stable, repeatable and reproducible measurements.\n\n  A regime must be defined (static or moving conditions), preference for moving conditions.\n  The fluid must be moving within the entire sensing area.\n  Avoid potential stagnation zones even small ones at the base of the sensing area.\n  Preferable installation is when the sensing element is directly exposed to the flow, parallel to the sensing element, as shown in the figure below. It is important to insert the sensor as far into the pipe as possible, beyond where the flow exits the T-piece, so a long insertion sensor is preferred.\n\nStagnation zone\nBehind sensing element\n\nAxial flow, but partial exposure to a potential stagnation zone\n\nBest-case scenario\n\nFigure 7: Installation for fluids with yield stress.",
+      "specifications": {},
+      "key_facts": [
+        "The torsional movement of SRV and SRD sensors is insufficient to shear off fluids with yield stress.",
+        "Viscosity readings for fluids with yield stress can vary significantly (from a few percent to several hundred times) between static and moving conditions.",
+        "Proper installation is essential for stable, repeatable, and reproducible measurements of fluids with yield stress.",
+        "When measuring fluids with yield stress, a moving condition regime is preferred over static conditions.",
+        "The fluid must be actively moving throughout the entire sensing area of the sensor.",
+        "All potential stagnation zones, even small ones at the base of the sensing area, must be avoided.",
+        "The optimal installation involves the sensing element being directly exposed to the fluid flow and positioned parallel to it.",
+        "Sensors should be inserted as deeply as possible into the pipe, extending beyond the T-piece flow exit.",
+        "A long insertion sensor is recommended for applications involving fluids with yield stress to ensure proper flow exposure."
+      ],
+      "diagram_labels": [
+        "Stagnation zone",
+        "Behind sensing element",
+        "Axial flow, but partial exposure to a potential stagnation zone",
+        "Best-case scenario",
+        "Figure 7: Installation for fluids with yield stress."
+      ],
+      "warnings_notes": [
+        "Avoid potential stagnation zones even small ones at the base of the sensing area.",
+        "It is important to insert the sensor as far into the pipe as possible, beyond where the flow exits the T-piece, so a long insertion sensor is preferred."
+      ],
+      "page_num": 8,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 688,
+        "cost_usd": 0.0018598000000000002
+      },
+      "source_file": "016_Installation_Guidelines_for_inline_viscometer_SRV_and_density_meter_SRD.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

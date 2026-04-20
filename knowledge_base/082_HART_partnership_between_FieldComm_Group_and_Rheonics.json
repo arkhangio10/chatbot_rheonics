@@ -1,0 +1,183 @@
+{
+  "source_file": "082_HART_partnership_between_FieldComm_Group_and_Rheonics.pdf",
+  "total_pages": 5,
+  "chunks": [
+    {
+      "page_summary": "This page announces a partnership between Rheonics and FieldComm Group concerning HART technology to improve data communication, operational efficiency, and safety.",
+      "document_type": "notes",
+      "product_names": [],
+      "extracted_text": "Phone: +1 713 234 0863\n\nHART partnership between FieldComm Group and Rheonics\n\nModified on: Mon, 2 Oct, 2023 at 6:31 PM\n\nRheonics is proud to announce our partnership with FieldComm Group, FieldComm Group owns the HART specifications and provides specification development, training, and product registration services associated with the technology. Our partnership will enable faster and more accurate data communication, leading to more efficient operations and improved safety. We look forward to a successful collaboration.\n\nOur membership can be found at Current Members | FieldComm Group (https://www.fieldcommgroup.org/membership/current-members)\n\n* Manufacturer (Hexadecimal): 0x615D\n* String Description (Company Name): RHEONICS",
+      "specifications": {},
+      "key_facts": [
+        "Rheonics has announced a partnership with FieldComm Group.",
+        "FieldComm Group owns the HART specifications and provides specification development, training, and product registration services for the technology.",
+        "The partnership aims to enable faster and more accurate data communication.",
+        "The collaboration is expected to lead to more efficient operations and improved safety.",
+        "Rheonics' Manufacturer (Hexadecimal) identifier is 0x615D.",
+        "Rheonics' String Description (Company Name) is RHEONICS.",
+        "The announcement was modified on Monday, October 2, 2023, at 6:31 PM.",
+        "Rheonics' contact phone number is +1 713 234 0863."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 446,
+        "cost_usd": 0.0012548000000000001
+      },
+      "source_file": "082_HART_partnership_between_FieldComm_Group_and_Rheonics.pdf"
+    },
+    {
+      "page_summary": "This page introduces the benefits and features of Rheonics inline viscometers and density sensors when integrated with the HART communication protocol.",
+      "document_type": "whitepaper",
+      "product_names": [
+        "Rheonics inline viscometers",
+        "Rheonics density sensors",
+        "our sensors"
+      ],
+      "extracted_text": "Figure 1. HART partnership between FieldComm Group and Rheonics\n\nTABLE OF CONTENTS\n\n*   1. How does this partnership benefit your process?\n*   2. What is the HART protocol?\n*   3. How HART protocol work?\n*   4. Why do we have this option with our sensors?\n*   5. Rheonics Expertise\n*   6. What is available in HART?\n*   7. Resources\n*   8. References\n\n1. How does this partnership benefit your process?\n\nHART offers these advantages for the viscosity and density monitoring:\n\n*   **Analog and Digital Communication:** Simultaneous transmission of process data and digital information.\n*   **Compatibility:** Works with various industrial instruments and systems.\n*   **Remote Configuration:** Allows remote device setup and calibration.\n*   **Enhanced Diagnostics:** Provides detailed device status and maintenance alerts.\n*   **Backward Compatibility:** Integrates with existing 4-20 mA systems.\n*   **Interoperability:** Works with various control systems and data devices.",
+      "specifications": {},
+      "key_facts": [
+        "The page highlights the partnership between FieldComm Group and Rheonics regarding the HART communication protocol.",
+        "HART communication protocol offers several advantages for viscosity and density monitoring with Rheonics sensors.",
+        "HART provides simultaneous analog and digital communication for process data and digital information.",
+        "HART ensures compatibility with various industrial instruments and systems.",
+        "The protocol enables remote device setup and calibration.",
+        "HART offers enhanced diagnostics, delivering detailed device status and maintenance alerts.",
+        "HART is backward compatible, allowing integration with existing 4-20 mA systems.",
+        "HART ensures interoperability with various control systems and data devices.",
+        "Rheonics products support the HART communication protocol."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "HART COMMUNICATION PROTOCOL",
+        "Process",
+        "Sensor",
+        "Modbus",
+        "Hart",
+        "V:",
+        "D:",
+        "T:",
+        "KEEP COVER TIGHT WHEN CIRCUITE ALIVE"
+      ],
+      "warnings_notes": [
+        "KEEP COVER TIGHT WHEN CIRCUITE ALIVE"
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 596,
+        "cost_usd": 0.0016298
+      },
+      "source_file": "082_HART_partnership_between_FieldComm_Group_and_Rheonics.pdf"
+    },
+    {
+      "page_summary": "This page details the advantages and operational principles of the HART protocol, explaining its acronym, its method of superimposing digital communication onto a 4-20mA analog signal using Frequency Shift Keying (FSK), and specific frequency parameters.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SME"
+      ],
+      "extracted_text": "Advantages of HART protocol:\n*   Data Logging: Logs data and events for analysis and reporting.\n*   Long Cable Runs: Supports extended cable distances.\n*   Reduced Wiring Costs: Saves on installation expenses.\n*   Improved Safety: Minimizes the need for on-site troubleshooting.\n*   Reduced commissioning time, for example, by configuring all devices directly from the system and using configuration assemblies to enable plug-and-play operations.\n*   Global Acceptance: An internationally recognized standard.\n\n2. What is the HART protocol?\n*   \"HART\" is an an acronym for Highway Addressable Remote Transducer. The HART Protocol superimposes digital communication signals at a low level on top of a 4-20mA signal using the Frequency Shift Keying (FSK) standard.\n*   The HART protocol is used worldwide to send and receive digital information on analog current loops (4-20 mA) between field instruments and distributed control systems.\n\n3. How HART protocol work?\n*   Using the same 4-20mA wiring used for analog communications in Channel 1 from the Rheonics SME, a digital signal is encoded with a technique known as Frequency Shift Keying(FSK). Data from the digital signal includes PV, status, diagnostics, and additional measurements or calculations.\n\n[Diagram showing Digital over Analog signal modulation]\n\nFigure 2. Signal modulation over 4-20mA [2]\n\nIn FSK, the digital information is encoded by shifting the frequency of the carrier signal between two predefined frequencies. In the case of HART, these frequencies are typically 1200 Hz (mark frequency) and 2200 Hz (space frequency). By toggling between these two frequencies, HART devices can transmit digital data over the analog current loop without interfering with the primary 4-20mA current signal used for process control. This allows for bi-",
+      "specifications": {
+        "Analog Current Loop": "4-20 mA",
+        "HART FSK Mark Frequency": "1200 Hz",
+        "HART FSK Space Frequency": "2200 Hz"
+      },
+      "key_facts": [
+        "The HART protocol offers advantages such as data logging, support for long cable runs, reduced wiring costs, improved safety, reduced commissioning time, and global acceptance.",
+        "HART stands for Highway Addressable Remote Transducer.",
+        "The HART Protocol superimposes digital communication signals at a low level on top of a 4-20mA signal using the Frequency Shift Keying (FSK) standard.",
+        "The HART protocol is used worldwide for sending and receiving digital information on 4-20 mA analog current loops between field instruments and distributed control systems.",
+        "The Rheonics SME utilizes the 4-20mA wiring in Channel 1 for analog communications, where a digital signal is encoded using Frequency Shift Keying (FSK).",
+        "Data transmitted via the digital signal includes Process Variable (PV), status, diagnostics, and additional measurements or calculations.",
+        "In FSK, digital information is encoded by shifting the frequency of the carrier signal between two predefined frequencies.",
+        "For HART, the typical mark frequency is 1200 Hz and the typical space frequency is 2200 Hz.",
+        "HART devices can transmit digital data over the analog current loop by toggling between these frequencies without interfering with the primary 4-20mA current signal."
+      ],
+      "diagram_labels": [
+        "20 mA-",
+        "4 mA-",
+        "Digital Signal",
+        "Analog Signal",
+        "\"1\"",
+        "\"0\"",
+        "Digital over Analog",
+        "Figure 2. Signal modulation over 4-20mA [2]"
+      ],
+      "warnings_notes": [],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 935,
+        "cost_usd": 0.0024772999999999996
+      },
+      "source_file": "082_HART_partnership_between_FieldComm_Group_and_Rheonics.pdf"
+    },
+    {
+      "page_summary": "This page describes the benefits and applications of the HART communication protocol for Rheonics inline viscometers and density sensors, detailing available process variables and example use cases.",
+      "document_type": "manual",
+      "product_names": [
+        "SRD sensor",
+        "Process viscometer SRV",
+        "Process density meter and viscometer SRD"
+      ],
+      "extracted_text": "directional communication, enabling configuration, monitoring, and diagnostics of field instruments in industrial applications.\n\n4. Why do we have this option with our sensors?\n\nThe HART protocol has a crucial role to play in industrial automation, especially when it comes to DCS and PLCs. By connecting analog and digital communication, it offers a number of critical benefits.\n\nDCS environments require HART integration so that various field devices can communicate seamlessly with the central control system. The DCS relies on real-time data to control and monitor processes, and HART’s electronic communication capability makes it possible to access complete device diagnostics and configurations remotely. As a result, faster decisions can be made, downtime is reduced, and overall system efficiency is increased.\n\nWith PLCs, HART can be used to integrate intelligent field instruments into automation systems. The ability of HART to transmit digital information alongside analog signals makes PLCs capable of receiving important device status information, remotely configuring devices, and automating complex processes. By integrating these systems, flexibility is increased and manual intervention is reduced, which ultimately enhances productivity.\n\n5. Rheonics Expertise\n\nA few typical applications where our customers are using the HART protocol are:\n\n*   SRD sensor with HART where we can feed density measurements into another meter that requires periodic density updates in order to determine other variables through an algorithm\n*   Transmission of density (weight) of drilling mud over HART and WirelessHART (using converters) to control room\n*   The viscosity of batter mix that is applied to various appetizer food products.\n*   Plywood glue manufacturing and application - measure and transmit viscosity and temperature of the glue\n*   Measure and transmit viscosity in the process for water-based ink\n*   Measure and transmit the density, viscosity and temperature of ceramic slurry from the slurry drum to the PLC and SCADA system in shell rooms\n*   Monitoring and transmission of density, viscosity and temperature to SCADA system over HART in Processing plants for food production as well as in the beverage industry and dairies\n*   Automation and control for water/wastewater treatment uses PLC with HART communication to get sewage water density and viscosity for nitrification, polyelectrolyte, and calamity detection\n*   and many more...\n\n6. What is available in HART?\n\nFor HART communication, Rheonics provides the following variables (PV, SV, TV, and QV) over Channel 1 analog output 4-20mA.\n\nProcess viscometer SRV Default configuration\nPV Viscosity\nSV Density\nTV Temperature\nQV Sensor Status\n\nProcess density meter and viscometer SRD Default configuration\nPV Density\nSV Viscosity",
+      "specifications": {
+        "Analog output": "4-20mA"
+      },
+      "key_facts": [
+        "The HART protocol is crucial for industrial automation, connecting analog and digital communication, especially with DCS and PLCs.",
+        "HART integration enables seamless communication, real-time data control, process monitoring, remote device diagnostics, and configurations, leading to faster decisions, reduced downtime, and increased overall system efficiency.",
+        "With PLCs, HART facilitates the integration of intelligent field instruments, allowing for the transmission of digital information alongside analog signals, remote device configuration, and automation of complex processes to enhance productivity and reduce manual intervention.",
+        "Rheonics offers HART communication for its sensors, providing Process Variable (PV), Secondary Variable (SV), Tertiary Variable (TV), and Quaternary Variable (QV) over a Channel 1 analog output of 4-20mA.",
+        "For the Process viscometer SRV, the default HART configuration assigns PV to Viscosity, SV to Density, TV to Temperature, and QV to Sensor Status.",
+        "For the Process density meter and viscometer SRD, the default HART configuration assigns PV to Density and SV to Viscosity.",
+        "Rheonics sensors with HART are used for applications such as density measurement for variable determination, transmission of drilling mud density, viscosity measurement of batter mix, glue manufacturing (viscosity/temperature), water-based ink viscosity, ceramic slurry density/viscosity/temperature, and water/wastewater treatment density/viscosity control."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1003,
+        "cost_usd": 0.0026473
+      },
+      "source_file": "082_HART_partnership_between_FieldComm_Group_and_Rheonics.pdf"
+    },
+    {
+      "page_summary": "This page outlines Rheonics' advanced calculation models and their integration with the HART protocol, providing resources and references for various HART-related topics.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Sensors"
+      ],
+      "extracted_text": "TV | Temperature\nQV | Sensor status\n\nWe also offer advanced calculation models for compensated viscosity, compensated density, and concentration which can be transmitted over HART along with the line measurements. Learn how you can get °API, °Baume, compensated viscosity, and density using the onboard MATHS engine > Measurements (https://support.rheonics.com/en/support/solutions/81000186361)\n\n7. Resources\nFor more information about how Rheonics has implemented HART in all their devices visit:\n*   Rheonics HART protocol (https://support.rheonics.com/en/support/solutions/articles/81000404723-which-variables-are-offered-by-rheonics-for-the-hart-protocol-)\n*   HART Troubleshooting (https://support.rheonics.com/en/support/solutions/articles/81000401752-hart-troubleshooting)\n*   Host Interface and wiring diagram for HART protocol (https://support.rheonics.com/en/support/solutions/articles/81000403745-host-interface-and-wiring-diagram-for-hart-protocol)\n*   Read/Write Density with HART protocol (https://support.rheonics.com/en/support/solutions/articles/81000403779-read-write-density-with-hart-protocol)\n*   Where to find the sensor serial number and sensor type with HART commands? (https://support.rheonics.com/en/support/solutions/articles/81000404387-where-to-find-the-sensor-serial-number-and-sensor-type-with-hart-commands-)\n*   HART Isolator barrier for Rheonics Sensors (https://support.rheonics.com/en/support/solutions/articles/81000412048-hart-isolator-barrier-for-rheonics-sensors)\n\n8. References\n*   HART | FieldComm Group (https://www.fieldcommgroup.org/technologies/hart) [1]\n*   HART Technology Explained | FieldComm Group (https://www.fieldcommgroup.org/technologies/hart/hart-technology-explained) [2]",
+      "specifications": {
+        "TV": "Temperature",
+        "QV": "Sensor status"
+      },
+      "key_facts": [
+        "Rheonics offers advanced calculation models for compensated viscosity, compensated density, and concentration.",
+        "These calculated values can be transmitted over HART protocol along with line measurements.",
+        "The onboard MATHS engine can calculate °API, °Baume, compensated viscosity, and density.",
+        "Rheonics provides support documentation for various aspects of HART protocol implementation, including troubleshooting, wiring diagrams, density read/write, sensor identification, and isolator barriers.",
+        "External references to the FieldComm Group are provided for general HART technology information."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 774,
+        "cost_usd": 0.0020748
+      },
+      "source_file": "082_HART_partnership_between_FieldComm_Group_and_Rheonics.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

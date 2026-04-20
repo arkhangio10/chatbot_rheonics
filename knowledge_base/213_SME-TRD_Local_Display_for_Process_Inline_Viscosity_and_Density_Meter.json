@@ -1,0 +1,330 @@
+{
+  "source_file": "213_SME-TRD_Local_Display_for_Process_Inline_Viscosity_and_Density_Meter.pdf",
+  "total_pages": 6,
+  "chunks": [
+    {
+      "page_summary": "This page describes the Rheonics SME-TRD Local Display, detailing its purpose, product applicability, features, and communication capabilities for inline viscosity and density sensors.",
+      "document_type": "manual",
+      "product_names": [
+        "SME-TRD",
+        "SME-TRD (E1)",
+        "Rheonics process inline viscosity and density sensors",
+        "Rheonics inline viscosity and density sensors"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\n\nSME-TRD Local Display for Process Inline Viscosity and Density Meter\n\nModified on: Mon, 9 Dec, 2024 at 7:50 PM\n\nWhat is the purpose of this article?\nThis article describes the SME-TRD display from Rheonics process inline viscosity and density sensors. used for realtime local visualization of measurements, sensor and communication status. Display's components, configuration steps and basic troubleshooting are explained.\n\nWhat products are involved?\nThis information is valid for all sensor variants using the SME-TRD (E1) sensor electronics.\n(https://rheonics.com/products/inline-viscometer-srv/)\n\nRheonics Sensor Local Display of SME-TRD\nRheonics inline viscosity and density sensors can be ordered with a local display included in the electronics SME-TRD variant (E1 electronics order code). This local display allows visualization of measurements, as well as sensor and communication status through text and LED indicators.\n\nDisplay features:\n* Up to three real-time measurement at a glance: Up to three of the available sensor measured parameters (https://support.rheonics.com/en/support/solutions/articles/81000393235-parameter-list-access-for-field-devices), can be shown. By default these are viscosity, density and temperature.\n* Measurement units: Users should specify the required units prior ordering. In case unit changes are needed, contact Rheonics Support Team at support@rheonics.com\n* Refresh time of seconds\n* Troubleshooting indicators: Through visual text and LEDs\n* Bluetooth LE available: SME-TRD allows BLE communication (C5 communication order code).\n* Remote installation thanks to cable or direct integration to probe: SME-TRD with display can either be installed far from the probe's installation in line or tank, or directly mounted on the probe (FT setup (https://support.rheonics.com/en/support/solutions/articles/81000416535-inline-process-density-meter-srd-and-viscometer-srv-with-integrated-display-transmitter)).\n\nDisplay Elements",
+      "specifications": {},
+      "key_facts": [
+        "The SME-TRD local display is designed for real-time local visualization of measurements, sensor, and communication status for Rheonics process inline viscosity and density sensors.",
+        "This information is applicable to all sensor variants utilizing the SME-TRD (E1) sensor electronics.",
+        "The local display can be ordered as part of the SME-TRD (E1) electronics variant.",
+        "It visualizes measurements and sensor/communication status using text and LED indicators.",
+        "The display can show up to three real-time measurements simultaneously, with default parameters being viscosity, density, and temperature.",
+        "Users must specify desired measurement units during ordering, and unit changes can be requested via Rheonics Support.",
+        "The display provides a refresh time in seconds.",
+        "Troubleshooting is facilitated by visual text and LED indicators.",
+        "Bluetooth LE (BLE) communication is supported by the SME-TRD display with the C5 communication order code.",
+        "The SME-TRD with display offers flexible installation options: either remotely via cable or directly mounted on the probe in-line or in a tank."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 891,
+        "cost_usd": 0.0023672999999999997
+      },
+      "source_file": "213_SME-TRD_Local_Display_for_Process_Inline_Viscosity_and_Density_Meter.pdf"
+    },
+    {
+      "page_summary": "This page details the main parts of the Rheonics SME-TRD sensor, focusing on the LCD display and the functions and states of its LED indicators to provide operational feedback.",
+      "document_type": "manual",
+      "product_names": [
+        "SME-TRD"
+      ],
+      "extracted_text": "Figure 1 shows the SME-TRD and display with the main parts labeled. In addition to the display, a total of 6 LED indicators are used to provide information to user. Upper 4 LEDs are named Status Indicators, below them is the LCD display. On the left side of the display is the Process LED, while on the right it is the Bluetooth LED. Next tables review them in detail.\n\nFigure 1: Rheonics SME-TRD and display main parts\n\nLED Indicators\n\nTable 1: LED Indicators names, functions and states\nLED Indicator Name | Function | States\nPower | Indicates power status of the sensor | Green: Normal Power state\n| | Blinking red: only USB cable is connected but no power input present\n| | Blinking green: Normal operation\nSensor | Indicates Operation status of the sensor | Red: Sensor error (Check error status (https://support.rheonics.com/en/support/solutions/articles/81000393091-sensor-error-status-and-parameter-status) in RCP or sensor log files)\nProcess | Indicates the Process status | Green: Normal condition - in fluid\n| | LED is off: Probe is in air. No fluid.\n| | Red: Out of range or unstable readings\nModbus | Indicates Modbus communication | Blinking green: Normal communication operation\n| | LED is off: Modbus not in use\nBluetooth | Indicates Bluetooth communication status | Blinking blue: Communication active\n| | Blue: Bluetooth enabled\n| | LED is off: Bluetooth disabled\n\nLCD Display Content:\nSENSOR RUNNING\nPROCESS WITHIN LIMITS\nDens: 1.120 g/cc\nTemp: 79.851 °F\nVisc: 2.754 cP\n811-0103 V04.00/1 19101442\nrheonics",
+      "specifications": {
+        "Density": "1.120 g/cc",
+        "Temperature": "79.851 °F",
+        "Viscosity": "2.754 cP",
+        "Firmware_Version": "V04.00/1",
+        "Product_ID_or_Model": "811-0103",
+        "Build_Number_or_Serial": "19101442"
+      },
+      "key_facts": [
+        "The Rheonics SME-TRD sensor features an LCD display and a total of six LED indicators to provide user information.",
+        "The upper four LEDs (Power, Sensor, Modbus, HART) are designated as Status Indicators.",
+        "The Process LED is on the left side of the display, and the Bluetooth LED is on the right.",
+        "The Power LED indicates a normal power state (green), USB-only connection without power input (blinking red), or normal operation (blinking green).",
+        "A red Sensor LED indicates a sensor error.",
+        "The Process LED signifies a normal condition in fluid (green), probe in air with no fluid (LED off), or out of range/unstable readings (red).",
+        "The Modbus LED indicates normal communication operation (blinking green) or Modbus not in use (LED off).",
+        "The Bluetooth LED indicates active communication (blinking blue), Bluetooth enabled (solid blue), or Bluetooth disabled (LED off).",
+        "The LCD display shows real-time process readings including density, temperature, and viscosity, along with sensor and process status."
+      ],
+      "diagram_labels": [
+        "LCD Display",
+        "Process indicator",
+        "Status indicators",
+        "Power",
+        "Sensor",
+        "Modbus",
+        "HART",
+        "Bluetooth indicator"
+      ],
+      "warnings_notes": [
+        "For sensor errors (red Sensor LED), check the error status via the Rheonics Control Panel (RCP) or sensor log files at https://support.rheonics.com/en/support/solutions/articles/81000393091-sensor-error-status-and-parameter-status."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1023,
+        "cost_usd": 0.0026972999999999997
+      },
+      "source_file": "213_SME-TRD_Local_Display_for_Process_Inline_Viscosity_and_Density_Meter.pdf"
+    },
+    {
+      "page_summary": "This page provides detailed descriptions of LED indicators, display lines, and various sensor and process states for Rheonics SME-TRD inline viscometers and density sensors.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SME-TRD"
+      ],
+      "extracted_text": "LED Indicator\nName\nFunction\nStates\nHART\nIndicates HART\ncommunication\nGreen: HART enabled, idle\nBlinking green: receiving data\nBlinking red: Invalid data\nRed: Loop is open, No HART communication possible\n\nDisplay lines\nRheonics display shows up to 3 real-time measurements coming from the sensor and additional information like\nSensor and Process Status, and Sensor S/N and Firmware.\n\nSensor State\nSENSOR\nRUNNING\nProcess state\nPROCESS\nWITHIN\nLIMITS\nLive measurement 1\nVisc:\n2.754 cP\nLive measurement 2\nDens:\n1.120 g/cc\nLive measurement 3\nTemp:\n79.851 °F\nSensor S/N and FW Version\nB11-0103 V04.00/1 19101442\n\nFigure 2: Rheonics SME-TRD display lines description\n\nTable 2: Rheonics SME-TRD display information\nElement\nDescription\nDisplays Sensor status. Status list are next, potential solutions are given in\nparenthesis.\nRunning: Sensor readings are normal\nError: Sensor configuration issue (connect to RCP software and verify errors.\nDownload -P and -A log files\n(https://support.rheonics.com/en/support/solutions/articles/81000383738-on-board-\nlogger-historian-) and share with Rheonics Support Team)\nUnstable: Not reliable reading (verify the sensor probe's sensing element is fully on\nfluid and not obstructed by unwanted material e.g. deposits, dead zones, etc. Refer to\nsensor manual for more information)\nUnlocked: The sensor is not locking properly to a measurement value (verify the\nprobe is not obstructed by unwanted material)\nUnavailable: Communication between electronics and display is not available (verify\ninternal wiring)\nProcess state\nDisplays process status\nOut of range: Sensor readings are outside the measuring range (verify sensor\nmeasurement range is not exceed, contact Rheonics Support Team for help)\nWithin limits: Sensor readings are inside the measuring range\nReal-time measurement\nEach line displays the parameter name abbreviated, followed by the current value and\nlines\ncorresponding unit",
+      "specifications": {
+        "Viscosity": "2.754 cP",
+        "Density": "1.120 g/cc",
+        "Temperature": "79.851 °F",
+        "Sensor S/N and FW Version": "B11-0103 V04.00/1 19101442"
+      },
+      "key_facts": [
+        "The Rheonics display can show up to 3 real-time measurements, sensor/process status, sensor S/N, and firmware version.",
+        "HART communication status is indicated by an LED: Green for enabled/idle, Blinking green for receiving data, Blinking red for invalid data, and Red for an open loop with no communication.",
+        "Sensor states include Running (normal readings), Error (configuration issue), Unstable (unreliable reading), Unlocked (not locking to measurement), and Unavailable (communication issue).",
+        "Process states include 'Out of range' (readings outside measuring range) and 'Within limits' (readings inside measuring range).",
+        "Real-time measurement lines display abbreviated parameter names, current values, and corresponding units."
+      ],
+      "diagram_labels": [
+        "Sensor State",
+        "Process state",
+        "Live measurement 1",
+        "Live measurement 2",
+        "Live measurement 3",
+        "Sensor S/N and FW Version",
+        "SENSOR RUNNING",
+        "PROCESS WITHIN LIMITS",
+        "Visc: 2.754 cP",
+        "Dens: 1.120 g/cc",
+        "Temp: 79.851 °F",
+        "B11-0103 V04.00/1 19101442"
+      ],
+      "warnings_notes": [
+        "Error: Sensor configuration issue (connect to RCP software and verify errors. Download -P and -A log files (https://support.rheonics.com/en/support/solutions/articles/81000383738-on-board-logger-historian-) and share with Rheonics Support Team)",
+        "Unstable: Not reliable reading (verify the sensor probe's sensing element is fully on fluid and not obstructed by unwanted material e.g. deposits, dead zones, etc. Refer to sensor manual for more information)",
+        "Unlocked: The sensor is not locking properly to a measurement value (verify the probe is not obstructed by unwanted material)",
+        "Unavailable: Communication between electronics and display is not available (verify internal wiring)",
+        "Out of range: Sensor readings are outside the measuring range (verify sensor measurement range is not exceed, contact Rheonics Support Team for help)"
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1245,
+        "cost_usd": 0.0032522999999999996
+      },
+      "source_file": "213_SME-TRD_Local_Display_for_Process_Inline_Viscosity_and_Density_Meter.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions on how to configure and display measurement lines using the Rheonics Control Panel (RCP) software for the SME-TRD LCD display, detailing communication settings and operational history.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics Control Panel (RCP)",
+        "Rheonics SME-TRD LCD display",
+        "Modbus RTU (RS-485)",
+        "Bluetooth LTE 4.0"
+      ],
+      "extracted_text": "Element | Description\n---|---\nSensor Information | Displays serial number, Firmware version and IP address of the sensor.\n\nDisplay measurement lines configuration\n\nThe three real-time measurement lines can be selected through the Rheonics Control Panel software while connected through Ethernet or USB communication.\nTo modify the the displayed parameters, follow the instructions below or see the video tutorial: How to change parameters in Rheonics SME-TRD LCD display? (https://www.youtube.com/watch?v=tXks1MnRzko)\n\n1. Open the Rheonics Control Panel (RCP) software.\n2. Connect sensor to RCP software.\n3. Navigate to the Communication Tab, \"LCD Display (SME-TRD Only)\" section.\n\n[Screenshot of Rheonics Control Panel 5.5.2.0 - Communication Tab]\nFigure 3: RCP Communication Tab.\n\n3. In the \"Parameter\" dropdowns, select the parameter you want to display on each of the three measurement lines.\n4. Adjust the \"Resolution\" settings as needed for your preferences.",
+      "specifications": {
+        "Modbus Address": "1",
+        "Baud Rate": "38400",
+        "Parity": "odd",
+        "Ethernet MAC": "70:B3:D5:D2:00:00",
+        "DHCP": "False",
+        "IP": "192.168.0.111",
+        "Subnet": "255.255.255.0",
+        "Gateway IP": "192.168.0.1",
+        "DNS": "192.168.0.1",
+        "Terminal Port": "10001",
+        "Latitude": "0.000000",
+        "Longitude": "0.000000",
+        "Altitude": "0",
+        "RTC Time": "18/07/24 17:35:04",
+        "Supply Voltage": "24.08 V",
+        "Last power Reset": "18/07/24 15:56:35",
+        "SME Temp.": "49.80 °C",
+        "Max. Sensor Temp. Exposure": "23.89 °C",
+        "Max. SME Temp. Exposure": "56.45 °C"
+      },
+      "key_facts": [
+        "The Sensor Information displays the serial number, Firmware version, and IP address of the sensor.",
+        "Three real-time measurement lines can be configured via Rheonics Control Panel software using Ethernet or USB communication.",
+        "A video tutorial is available for changing parameters in Rheonics SME-TRD LCD display.",
+        "The configuration process involves opening RCP software, connecting the sensor, navigating to the Communication Tab's 'LCD Display (SME-TRD Only)' section, selecting parameters for each measurement line, and adjusting resolution settings.",
+        "The 'LCD Display (SME-TRD Only)' section allows configuring Line 1 to display Viscosity, Line 2 to display Density, and Line 3 to display Temperature, each with a customizable resolution.",
+        "The software provides sections for Modbus RTU (RS-485), Ethernet, Location ID, Operation History, Write and Update functions, and Bluetooth LTE 4.0 settings.",
+        "The current Modbus Address is 1, Baud Rate is 38400, and Parity is odd.",
+        "The Ethernet MAC address is 70:B3:D5:D2:00:00, DHCP is set to False, IP is 192.168.0.111, Subnet is 255.255.255.0, Gateway IP is 192.168.0.1, DNS is 192.168.0.1, and Terminal Port is 10001.",
+        "Current supply voltage is 24.08 V and SME temperature is 49.80 °C.",
+        "Maximum recorded sensor temperature exposure is 23.89 °C and maximum SME temperature exposure is 56.45 °C."
+      ],
+      "diagram_labels": [
+        "Rheonics Control Panel 5.5.2.0",
+        "Measurement",
+        "Events",
+        "Settings",
+        "Service",
+        "Communication",
+        "Scaling",
+        "Calculation",
+        "Logger",
+        "Help",
+        "Modbus RTU (RS-485)",
+        "Modbus Address",
+        "Baud Rate",
+        "Parity",
+        "LCD Display (SME-TRD Only)",
+        "Parameter",
+        "Resolution",
+        "Line 1",
+        "Viscosity",
+        "Line 2",
+        "Density",
+        "Line 3",
+        "Temperature",
+        "Write and Update",
+        "Write Config",
+        "Load Config",
+        "Ethernet",
+        "Ethernet MAC",
+        "DHCP",
+        "IP",
+        "Subnet",
+        "Gateway IP",
+        "DNS",
+        "Terminal Port",
+        "Location ID",
+        "Location ID",
+        "Location Name",
+        "Latitude",
+        "Longitude",
+        "Altitude",
+        "Operation History",
+        "RTC Time",
+        "Supply Voltage",
+        "Last power Reset",
+        "SME Temp.",
+        "Max. Sensor Temp. Exposure",
+        "Max. SME Temp. Exposure",
+        "Bluetooth LTE 4.0",
+        "MAC",
+        "Figure 3: RCP Communication Tab."
+      ],
+      "warnings_notes": [],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1452,
+        "cost_usd": 0.0037698
+      },
+      "source_file": "213_SME-TRD_Local_Display_for_Process_Inline_Viscosity_and_Density_Meter.pdf"
+    },
+    {
+      "page_summary": "This page provides instructions for configuring the LCD display of an SME-TRD unit using RCP software and offers a troubleshooting guide for common display issues.",
+      "document_type": "manual",
+      "product_names": [
+        "SME-TRD",
+        "RCP",
+        "Rheonics viscosity sensor"
+      ],
+      "extracted_text": "LCD Display (SME-TRD Only)\nParameter\nResolution\nLine 1 Viscosity 0.00\nLine 2 Density 0.000\nLine 3 Temperature 0.00\nFigure 4: RCP LCD Display lines configuration\n5. Once you have configured the display settings to your preferences, use the \"Write Config\" button to save the changes, wait for the button to turn green. The \"Load Config\" button allows you to reload any previously saved configurations.\nUnits displayed on the SME-TRD are specified in the sensor order and can not be changed from RCP software. Contact Rheonics Support Team for later change of units.\nFor detailed instructions on navigating the Rheonics Control Panel software, please refer to the user manual.\nCommon Troubleshooting\nTable 3: Rheonics display potential issues and solutions\nIssue\nPossible solution\nCheck Wiring between display and SME electronics:\nFor flex cable connection: Verify cable is not damaged or loose. Verify the connection orientation is correct.\nFor pin connections: Verify the pins are making good contact, SME-TRD housing should be correctly threaded and sealed. Check detailed instructions here Transmitter Display Module installation instructions (SME-TRD)\n(https://support.rheonics.com/en/support/solutions/articles/81000297827-transmitter-display-module-installation-instructions-sme-trd-)\nDisplay does not turn on BUT SME electronics turn on correctly\nIf it does not work, check that the Electronics unit is powering up and working properly.\nCheck included Installation Manual instructions. and this article.\nPowering the Rheonics viscosity sensor.\n(https://support.rheonics.com/en/support/solutions/articles/81000297455-powering-the-sensor-input-power-to-transmitter)\n(https://support.rheonics.com/en/support/solutions/articles/81000297455-powering-the-sensor-input-power-to-transmitter)",
+      "specifications": {
+        "Line 1 Viscosity Resolution": "0.00",
+        "Line 2 Density Resolution": "0.000",
+        "Line 3 Temperature Resolution": "0.00"
+      },
+      "key_facts": [
+        "Display settings are configured using RCP software.",
+        "Changes to display settings must be saved using the \"Write Config\" button.",
+        "Previously saved configurations can be reloaded using the \"Load Config\" button.",
+        "Units displayed on the SME-TRD are specified at the time of sensor order and cannot be changed from RCP software.",
+        "Changing units requires contacting the Rheonics Support Team.",
+        "Detailed instructions for the Rheonics Control Panel software are found in the user manual.",
+        "Common troubleshooting for the display not turning on while SME electronics are functional involves checking wiring, flex cable, pin connections, and the electronics unit power.",
+        "The SME-TRD housing should be correctly threaded and sealed for proper pin connections.",
+        "Refer to 'Transmitter Display Module installation instructions (SME-TRD)' for detailed wiring instructions.",
+        "Refer to 'Powering the Rheonics viscosity sensor' for power-related troubleshooting."
+      ],
+      "diagram_labels": [
+        "LCD Display (SME-TRD Only)",
+        "Parameter",
+        "Resolution",
+        "Line 1",
+        "Viscosity",
+        "Line 2",
+        "Density",
+        "Line 3",
+        "Temperature",
+        "Figure 4: RCP LCD Display lines configuration",
+        "Table 3: Rheonics display potential issues and solutions",
+        "Issue",
+        "Possible solution",
+        "Display does not turn on BUT SME electronics turn on correctly"
+      ],
+      "warnings_notes": [],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 952,
+        "cost_usd": 0.0025198
+      },
+      "source_file": "213_SME-TRD_Local_Display_for_Process_Inline_Viscosity_and_Density_Meter.pdf"
+    },
+    {
+      "page_summary": "This page provides troubleshooting solutions for issues with Rheonics SME electronics and display, alongside a list of related documentation and contact information.",
+      "document_type": "notes",
+      "product_names": [
+        "Rheonics SME",
+        "RCP"
+      ],
+      "extracted_text": "Issue\nPossible solution\n\nDisplay AND SME electronics do not turn on\nVerify the power supply is giving 24V DC\nTest with a different power supply\n\nDamaged display\nContact Rheonics Sales Team for an offer on a display replacement\n\nContact Rheonics Support Team at support@rheonics.com and Sales Team at info@rheonics.com\n\nRelated Documentation\n\n* Rheonics SME drawings and CAD models (https://support.rheonics.com/en/support/solutions/articles/81000411379-rheonics-sensor-electronics-sme-drawings-and-3d-models)\n* Rheonics SME Manual (https://cdn.rheonics.com/wp-content/uploads/2024/10/Rheonics_SME-OP.pdf)\n* RCP Support articles (https://support.rheonics.com/en/support/solutions/folders/81000211411)\n* RCP Manual (https://cdn.rheonics.com/wp-content/uploads/dlm_uploads/2019/09/Rheonics_RCP_Manual.pdf)\n* Rheonics manuals (https://rheonics.com/resources/manuals/)",
+      "specifications": {
+        "Power Supply Voltage": "24V DC"
+      },
+      "key_facts": [
+        "If the display and SME electronics fail to power on, verify the power supply is delivering 24V DC or attempt using an alternative power supply.",
+        "For a damaged display, contact the Rheonics Sales Team to inquire about a replacement.",
+        "Rheonics offers technical support via support@rheonics.com.",
+        "The Rheonics Sales Team can be reached at info@rheonics.com.",
+        "Related documentation includes CAD models and manuals for Rheonics SME products.",
+        "Support articles and a manual are available for Rheonics RCP products.",
+        "A general repository for all Rheonics manuals is accessible online."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [
+        "Ensure the power supply provides 24V DC for the proper operation of the display and SME electronics.",
+        "Issues such as the display or SME electronics not turning on may indicate a problem with the power supply.",
+        "A damaged display requires contacting sales for resolution rather than attempting self-repair."
+      ],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 624,
+        "cost_usd": 0.0016998
+      },
+      "source_file": "213_SME-TRD_Local_Display_for_Process_Inline_Viscosity_and_Density_Meter.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

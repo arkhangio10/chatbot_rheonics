@@ -1,0 +1,69 @@
+{
+  "source_file": "Rheonics_SME-TRD.pdf",
+  "total_pages": 1,
+  "chunks": [
+    {
+      "page_summary": "This page provides technical specifications, dimensional drawings, and component labels for the Rheonics SME-TRD transmitter, along with company contact information and legal disclaimers.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SME-TRD",
+        "SME",
+        "TMB-TRX"
+      ],
+      "extracted_text": "SME\nType: SME-TRD\nWeight: 1.7 kg [3.8lb]\nIP-Rating: IP66\nPower: 24VDC\nPorts: 3x 1/2\" NPT\nMaterial enclosure: Aluminum with Sprayed Polyurethane (PUR) coating\nMaterial o-ring: FKM\n\n145 [5.71]\n127 [5.00]\nNPT 1/2 - 14\n61 [2.40]\n92 [3.60]\n128 [5.06]\n26 [1.02]\nØ 6.9 [0.27]\n\nglass window\ngrounding screw\nLabel\nlock nut for display\nCable gland: 50.112/EMV/R\nCable to sensor probe\n\nUnits: mm [inch]\n\nSME-TRD\n\nFor mounting, use TMB-TRX : Transmitter Mounting Bracket\n\nThis drawing remains property of rheonics. It may be neither copied nor informed to third persons or competitors without our approval. ( 2 paragraph 1 fig.7 copyright act of 9th Sept. 1965)\n\nrheonics\ninline process\ndensity and viscosity\nmonitoring\n\nProtected by US and International patents granted and pending\nrheonics • Switzerland • USA • www.rheonics.com • info@rheonics.com +41 52 511 32 00 +1 713 364 5427\nRelease: 2302",
+      "specifications": {
+        "Type": "SME-TRD",
+        "Weight": "1.7 kg [3.8 lb]",
+        "IP-Rating": "IP66",
+        "Power": "24 VDC",
+        "Ports": "3x 1/2\" NPT",
+        "Material enclosure": "Aluminum with Sprayed Polyurethane (PUR) coating",
+        "Material o-ring": "FKM",
+        "Overall Width": "145 mm [5.71 inch]",
+        "Body Width": "127 mm [5.00 inch]",
+        "Thread Type": "NPT 1/2 - 14",
+        "Top Section Height": "61 mm [2.40 inch]",
+        "Bottom Section Height": "92 mm [3.60 inch]",
+        "Overall Depth": "128 mm [5.06 inch]",
+        "Top Connection Depth": "26 mm [1.02 inch]",
+        "Mounting Hole Diameter": "6.9 mm [0.27 inch]",
+        "Cable Gland Model": "50.112/EMV/R"
+      },
+      "key_facts": [
+        "The Rheonics SME-TRD is a transmitter designed for inline process density and viscosity monitoring.",
+        "The SME-TRD has an IP66 rating, indicating protection against dust and strong jets of water.",
+        "The device operates on a 24VDC power supply.",
+        "Its enclosure is constructed from aluminum with a sprayed polyurethane (PUR) coating, and it uses an FKM o-ring.",
+        "The SME-TRD transmitter features three 1/2\" NPT ports.",
+        "The recommended mounting accessory for the transmitter is the TMB-TRX Transmitter Mounting Bracket.",
+        "Rheonics products are protected by US and International patents.",
+        "Rheonics offers contact information for Switzerland and USA."
+      ],
+      "diagram_labels": [
+        "glass window",
+        "grounding screw",
+        "Label",
+        "lock nut for display",
+        "Cable gland: 50.112/EMV/R",
+        "Cable to sensor probe"
+      ],
+      "warnings_notes": [
+        "This drawing remains property of rheonics. It may be neither copied nor informed to third persons or competitors without our approval. ( 2 paragraph 1 fig.7 copyright act of 9th Sept. 1965)",
+        "Protected by US and International patents granted and pending"
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1069,
+        "cost_usd": 0.0028123
+      },
+      "source_file": "Rheonics_SME-TRD.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}

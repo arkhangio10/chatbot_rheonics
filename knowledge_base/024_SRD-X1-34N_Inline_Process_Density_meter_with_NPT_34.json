@@ -1,0 +1,443 @@
+{
+  "source_file": "024_SRD-X1-34N_Inline_Process_Density_meter_with_NPT_34.pdf",
+  "total_pages": 9,
+  "chunks": [
+    {
+      "page_summary": "This page provides an overview of the Rheonics SRD-X1-34N Inline Process Density meter with NPT 3/4\" connection, including its purpose, product details, and dimensional drawings.",
+      "document_type": "datasheet",
+      "product_names": [
+        "SRD-X1-34N",
+        "SRD - Inline Density and Viscosity Meter",
+        "SRV NPT 3/4\"-14"
+      ],
+      "extracted_text": "Phone: +1 713 234 0863\nSRD-X1-34N: Inline Process Density meter with NPT 3/4\"\nModified on: Fri, 6 Jun, 2025 at 5:02 PM\n\nWhat products are involved?\nSRD - Inline Density and Viscosity Meter (https://rheonics.com/products/inline-density-meter-srd/)\n\nWhat is the purpose of this article?\nTo give an overview of the SRV NPT 3/4″-14 variant, installation guidelines, instructions, special considerations and available accessories.\n\n1. Introduction\nSRD is Rheonics sensor for inline density and viscosity measurement. Read more on SRD here (https://es.rheonics.com/products/inline-density-meter-srd/).\nThe NPT 3/4″-14 connection is Rheonics most commonly used design for SRD. In most cases, it is the most price-efficient option with the shortest lead time and the largest selection of accessories.\nNPT threaded connections are very common in industrial applications. It is used both in low and high-pressure environments, up to 500 bar / 7500 psi. This type of connection allows for an easy process integration using some of Rheonics accessories or a thread in a pipe or vessel.\nThis threaded connection requires the use of a Teflon band or compound. This helps to ensure a sealed connection and avoids cold welds (the process connection adaptor may get stuck with the sensor, leading to severe damage).\nUnits\nmm\n[inch]",
+      "specifications": {
+        "Phone_Number": "+1 713 234 0863",
+        "Last_Modified_Date": "Fri, 6 Jun, 2025 at 5:02 PM",
+        "Connection_Type": "NPT 3/4\"-14",
+        "Max_Pressure": "500 bar",
+        "Max_Pressure_Imperial": "7500 psi",
+        "Overall_Length_Below_Hex_Nut": "131 ±1 mm [5.18 ±0.04 inch]",
+        "Main_Body_Diameter": "56 mm [2.22 inch]",
+        "Threaded_Part_Length": "21 mm [0.83 inch]",
+        "Threaded_Part_Diameter": "16 mm [0.63 inch]",
+        "Probe_Section_Length": "75 ±1 mm [2.95 ±0.04 inch]",
+        "Probe_Shaft_Diameter": "5 mm [0.20 inch]",
+        "Probe_Tip_Diameter": "13 mm [0.51 inch]",
+        "Hex_Nut_Width_Across_Flats": "32 mm [1.26 inch]",
+        "Hex_Nut_Diameter_Top_View": "30 mm [1.18 inch]",
+        "Connector_Body_Length": "37 mm [1.44 inch]"
+      },
+      "key_facts": [
+        "The SRD-X1-34N is an inline process density meter from Rheonics with an NPT 3/4\" connection.",
+        "This article provides an overview, installation guidelines, instructions, special considerations, and available accessories for the SRV NPT 3/4″-14 variant.",
+        "The SRD is a Rheonics sensor designed for inline density and viscosity measurement.",
+        "The NPT 3/4″-14 connection is Rheonics' most commonly used design for SRD, offering the most price-efficient option with the shortest lead time and the largest selection of accessories.",
+        "NPT threaded connections are suitable for both low and high-pressure industrial environments, supporting up to 500 bar (7500 psi).",
+        "The NPT connection allows for easy process integration using Rheonics accessories or a thread in a pipe or vessel."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "Units",
+        "mm",
+        "[inch]",
+        "56",
+        "[2.22]",
+        "131 ±1",
+        "[5.18 ±0.04]",
+        "21",
+        "[0.83]",
+        "75 ±1",
+        "[2.95 ±0.04]",
+        "NPT 3/4\"-14",
+        "16 φ",
+        "[0.63]",
+        "5 φ",
+        "[0.20]",
+        "13",
+        "[0.51]",
+        "30 φ",
+        "[1.18]",
+        "32",
+        "[1.26]",
+        "37",
+        "[1.44]"
+      ],
+      "warnings_notes": [
+        "This threaded connection requires the use of a Teflon band or compound. This helps to ensure a sealed connection and avoids cold welds (the process connection adaptor may get stuck with the sensor, leading to severe damage)."
+      ],
+      "page_num": 1,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1291,
+        "cost_usd": 0.0033673
+      },
+      "source_file": "024_SRD-X1-34N_Inline_Process_Density_meter_with_NPT_34.pdf"
+    },
+    {
+      "page_summary": "This page provides specifications for the Rheonics SRD NPT sensor and outlines general installation guidelines, with a focus on proper submersion and recommended accessories.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics SRD",
+        "SRD-X1-34N",
+        "WOL-34NS",
+        "WOL-34NL",
+        "IFC-34N-SRD"
+      ],
+      "extracted_text": "Figure 1: SRD NPT dimensions.\n(https://es.rheonics.com/products/inline-density-meter-srd/)\n\nSpecifications\nSensor: Rheonics SRD (https://rheonics.com/products/inline-density-meter-srd/)\nOrder code: SRD-X1-34N\nConnection type: NPT\nThread size: 3/4\"\nThreads per inch (TPI): 14\nWrench for installation: 32mm (1-1/4\") (https://rheonics.com/srd-npt/)\nCAD files:\nSRD 3/4\" NPT Drawing (https://rheonics.com/wp-content/uploads/2021/04/SRD_NPT.pdf)\nSRD 3/4\" NPT CAD files (https://rheonics.com/srd-npt/)\n\n2. General Installation Guidelines\nFollow the next installation guidelines to ensure the best possible performance of the SRD sensor.\ni. Sensing area immersed in fluid\nii. Avoid dead zones or deposits\niii. Recommended tip orientation in perpendicular installation\niv. Thermal balance for high accuracy\n\n2.1 Submersion\nThe SRD has a sensing element shown inside the red section in Figure 2. The sensor measures what is within a certain area called sensing area, so this should always be fully submerged in the fluid. This can be a problem when on a pipe, the flow rate is low and the pipe isn't usually full, or when the sensor is installed too far out of the main pipe (like in a long standpipe) where fluid is not flowing but is almost static. Notice that a clearance of at least 12 mm is required between the sensor tip and a pipe wall or any other obstruction.\nGenerally to ensure proper immersion in perpendicular orientation with the fluid, the SRD-X1-34N is installed with the WOL-34NS (https://rheonics.com/product-accessories/wol-34ns/) or WOL-34NL (https://rheonics.com/product-accessories/wol-34nl/). For parallel (elbow installations) the flow cell IFC-34N-SRD (https://rheonics.com/product-accessories/ifc-34n-srd/) is recommended.",
+      "specifications": {
+        "Sensor": "Rheonics SRD",
+        "Order code": "SRD-X1-34N",
+        "Connection type": "NPT",
+        "Thread size": "3/4 inches",
+        "Threads per inch (TPI)": "14",
+        "Wrench for installation": "32 mm (1-1/4 inches)"
+      },
+      "key_facts": [
+        "The SRD sensor's sensing area must always be fully submerged in the fluid for accurate measurement.",
+        "Potential submersion problems include low flow rates, partially full pipes, or sensor installation too far from the main pipe where fluid is static.",
+        "A clearance of at least 12 mm is required between the sensor tip and any obstruction, such as a pipe wall.",
+        "For perpendicular installation of the SRD-X1-34N, WOL-34NS or WOL-34NL accessories are recommended to ensure proper immersion.",
+        "For parallel (elbow) installations, the IFC-34N-SRD flow cell is recommended.",
+        "Installation guidelines emphasize immersing the sensing area in fluid, avoiding dead zones or deposits, using recommended tip orientation for perpendicular installation, and maintaining thermal balance for high accuracy."
+      ],
+      "diagram_labels": [
+        "Figure 1: SRD NPT dimensions.",
+        "Figure 2"
+      ],
+      "warnings_notes": [
+        "Notice that a clearance of at least 12 mm is required between the sensor tip and a pipe wall or any other obstruction."
+      ],
+      "page_num": 2,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1003,
+        "cost_usd": 0.0026473
+      },
+      "source_file": "024_SRD-X1-34N_Inline_Process_Density_meter_with_NPT_34.pdf"
+    },
+    {
+      "page_summary": "This page provides technical guidance on the SRD sensor's sensing zone and critical installation considerations regarding fluid stagnation and sensor orientation for accurate measurements.",
+      "document_type": "manual",
+      "product_names": [
+        "SRD"
+      ],
+      "extracted_text": "rheonics\n\nFigure 2: SRD sensing zone.\n\n2.2 Stagnation/dead zone\nFor accurate measurements stagnations and dead zones must be avoided. These are defined as any space, inside the sensing area (red zone) explained above, where fluid or solids can accumulate and deposit, or where there isn't a good fluid exchange, which means that old fluid is not being replaced by new fluid as it flows through the line.\n\n2.3 Orientation dependency\nSRD has a sensing tip that is recommended to be aligned with the fluid flow direction to avoid creating recirculation zones around it. This is only relevant for perpendicular installations. Read more on this topic, here (https://support.rheonics.com/en/support/solutions/articles/81000408815-srd-fluid-end-orientation).\n\nFigure 3: SRD sensing tip orientation.\n\n2.4 Thermal balance",
+      "specifications": {
+        "Sensing zone height": "50 mm [1.96 in]",
+        "Sensing tip immersion length": "35 mm [1.4 in]",
+        "Sensing zone diameter": "35 mm [1.4 in]"
+      },
+      "key_facts": [
+        "Stagnations and dead zones must be avoided for accurate measurements.",
+        "Stagnation/dead zones are areas within the sensing zone where fluid or solids can accumulate, or where fluid exchange is poor.",
+        "The SRD sensing tip should be aligned with the fluid flow direction to prevent recirculation zones.",
+        "Sensor orientation dependency is particularly relevant for perpendicular installations.",
+        "Further information on SRD fluid-end orientation is available on the Rheonics support website."
+      ],
+      "diagram_labels": [
+        "rheonics",
+        "35mm [1.4\"]",
+        "50 mm [1.96\"]",
+        "Ø 35mm [1.4\"]",
+        "Orientation plane",
+        "Sensor long axis",
+        "Flow lines"
+      ],
+      "warnings_notes": [
+        "For accurate measurements, stagnations and dead zones must be avoided within the sensing area.",
+        "The SRD sensing tip is recommended to be aligned with the fluid flow direction to avoid creating recirculation zones, especially for perpendicular installations."
+      ],
+      "page_num": 3,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 594,
+        "cost_usd": 0.0016248
+      },
+      "source_file": "024_SRD-X1-34N_Inline_Process_Density_meter_with_NPT_34.pdf"
+    },
+    {
+      "page_summary": "This page provides detailed installation guidelines for Rheonics SRD sensors, focusing on factors like temperature mismatch, flow conditions, and fluid type to ensure accurate and repeatable measurements.",
+      "document_type": "manual",
+      "product_names": [
+        "SRD",
+        "SRD-X1-34N"
+      ],
+      "extracted_text": "It's important to consider that the short version of the SRD (e.g. SRD-X1-34N) is not good to maintain accuracy on its density and viscosity readings over a large temperature mismatch between ambient and fluid. It is suitable for high accuracy application only when ambient conditions (at probe back end) and fluid temperature are at similar (within 15 °C difference). A bigger temperature mismatch between front (fluid) and back (body) of resonator causes a frequency shift that influences readings. For applications with large differences in ambient and fluid temperature, you need the long insertion probe version of SRD (https://support.rheonics.com/en/support/solutions/articles/81000411193-srd-x5-long-insertion-probe) so both ends of the resonator are at the same temperature. Learn more on this here: Maintaining the SRD's temperature balance for high density accuracy (https://support.rheonics.com/en/support/solutions/articles/81000412500).\n\n2.5 Additional information for installation:\nFlow\nFor Newtonian fluids, the flow rate does not affect the measurements, so SRD should measure the same viscosity and density values in static and moving states of a fluid at the same temperature. For non-Newtonian fluids, the flow rate does matter and viscosity readings may differ between static and moving conditions. Density reading won't be affected by the type of fluid (Newtonian or non-Newtonian) or its state (static or dynamic) as long as the fluid uniformity is the same.\nFor processes with non-constant flow rates, the recommendation is to install the SRD in a section in the pipeline with the most consistent flow rate to have steady reading values.\nFlow rate is also relevant to ensure the full submersion of the SRD sensing element into the fluid. For a process with a low flow rate, pipes may not be full of fluid at all points, so SRD should then be placed in a section where the pipe is usually full of fluid (i.e. after a pump). Installing the sensor upwards can also solve the issue but should not be considered for fluids with solids or that can create deposits around the sensing element.\nIn all cases, the SRD's sensing element should be submerged in the fluid. It's best to avoid installations with long standpipes (i.e. using long weldolet or tee), since that may lead to poor fluid transfer resulting in measurements that do not reflect the true state of fluid or worse high noise measurements.\n\nFigure 4: Flow conditions in installation.\n\nFluid type\n(https://support.rheonics.com/en/support/solutions/articles/81000411886-theorical-aspects-of-installation) Rheonics SRD requires a correct installation for accurate, consistent and repeatable readings. Regarding the fluid types compatible with the probe, consider the following:\n- Avoid bubbly fluids or high percentage of bubbles or air in fluid. Bubbles can add too much noise on the SRD readings. Seek for Rheonics Support to evaluate if filters can be applied to minimize the effect.\n- High speed mixing applications in tank may affect SRD's repeatability and accuracy. It is generally recommended to install the SRD in lines where the flow direction is well defined. For more information review this article (https://support.rheonics.com/en/support/solutions/articles/81000411886-theorical-aspects-of-installation).\n\n3. Installation common issues",
+      "specifications": {
+        "temperature_difference_for_high_accuracy": "15 °C"
+      },
+      "key_facts": [
+        "The short version of the SRD (e.g., SRD-X1-34N) is not suitable for accurate density and viscosity readings with large temperature mismatches between ambient and fluid.",
+        "The short version of the SRD is suitable for high accuracy when ambient conditions (at probe back end) and fluid temperature are similar (within 15 °C difference).",
+        "A larger temperature mismatch between the front (fluid) and back (body) of the resonator causes a frequency shift that influences readings.",
+        "For applications with large differences in ambient and fluid temperature, the long insertion probe version of SRD is required to ensure both ends of the resonator are at the same temperature.",
+        "For Newtonian fluids, flow rate does not affect measurements, meaning SRD measures the same viscosity and density in static and moving states at the same temperature.",
+        "For non-Newtonian fluids, flow rate matters and viscosity readings may differ between static and moving conditions.",
+        "Density readings are not affected by the type of fluid (Newtonian or non-Newtonian) or its state (static or dynamic) as long as fluid uniformity is maintained.",
+        "For processes with non-constant flow rates, it is recommended to install the SRD in a pipeline section with the most consistent flow rate to ensure steady reading values.",
+        "Flow rate is crucial for ensuring the full submersion of the SRD sensing element into the fluid.",
+        "SRD should be placed in a section where the pipe is typically full of fluid (e.g., after a pump) to ensure full submersion, especially in low flow rate processes.",
+        "Installing the sensor upwards can help prevent deposits around the sensing element, but it is not recommended for fluids with solids or those that create deposits.",
+        "The SRD's sensing element must always be submerged in the fluid.",
+        "Rheonics SRD requires correct installation for accurate, consistent, and repeatable readings.",
+        "Bubbly fluids or fluids with a high percentage of bubbles/air can introduce significant noise into SRD readings.",
+        "High-speed mixing applications in tanks may negatively impact the SRD's repeatability and accuracy.",
+        "It is generally recommended to install the SRD in lines with well-defined flow direction."
+      ],
+      "diagram_labels": [
+        "Fluid's height",
+        "Pipe is full of fluid",
+        "No recommended for fluids with solids or that can create deposits",
+        "Figure 4: Flow conditions in installation."
+      ],
+      "warnings_notes": [
+        "The short version of the SRD (e.g., SRD-X1-34N) is not good to maintain accuracy on its density and viscosity readings over a large temperature mismatch between ambient and fluid.",
+        "A bigger temperature mismatch between front (fluid) and back (body) of resonator causes a frequency shift that influences readings.",
+        "Installing the sensor upwards should not be considered for fluids with solids or that can create deposits around the sensing element.",
+        "It's best to avoid installations with long standpipes (i.e. using long weldolet or tee), since that may lead to poor fluid transfer resulting in measurements that do not reflect the true state of fluid or worse high noise measurements.",
+        "Avoid bubbly fluids or high percentage of bubbles or air in fluid. Bubbles can add too much noise on the SRD readings.",
+        "Seek for Rheonics Support to evaluate if filters can be applied to minimize the effect of bubbly fluids.",
+        "High speed mixing applications in tank may affect SRD's repeatability and accuracy."
+      ],
+      "page_num": 4,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1678,
+        "cost_usd": 0.0043348
+      },
+      "source_file": "024_SRD-X1-34N_Inline_Process_Density_meter_with_NPT_34.pdf"
+    },
+    {
+      "page_summary": "This page explains potential installation issues for Rheonics SRD sensors related to NPT Tee connections and NPT connection adapters, providing recommended solutions to ensure accurate and reliable density and viscosity measurements.",
+      "document_type": "manual",
+      "product_names": [
+        "SRD",
+        "SRD-X1-34N",
+        "Rheonics IFC-34N-SRD"
+      ],
+      "extracted_text": "For accurate, repeatable and reproducible readings of the SRD it is important to maintain the sensing element immersed and without stagnation zones that can lead to deposits around the sensing area. Below some examples are listed where these concepts are not achieved leading to potential issues for the SRD density and viscosity readings.\n\n3.1 Potential issues- NPT Tee connection\nPotential issue explanation: A common mistake with installations of the SRD-X1-34N is using an off-the-shelf NPT Tee shown in Figure 5. An installation of the SRD mounted vertically or horizontally in a Tee port can create stagnant and dead zones. Also, the SRD tip may pass through the tee and the sensing area (shown in Figure 2) can be obstructed and exposed to uneven inner walls that can create changes in the fluid’s flow lines (increasing turbulence) as in Figure 6.\n\nFigure 5: Standard NPT Tee [6]\n\nFigure 6: Installation in standard NPT Tee with potential issues\n\nRecommendation: In these cases, the Rheonics IFC-34N-SRD is recommended to ensure the flow surrounds the sensing element properly and stagnant zones are removed as in Figure 7.\n\nFigure 7: Correct installation in Rheonics NPT flow cell\n\n3.2 Potential issues - NPT connection adapter\nPotential issue explanation: At times, users may want to adapt the 3/4” NPT connection of the SRD-X1 to a different flange, like Tri-Clamp. They would use an adapter similar to the one shown in Figure 8. Mounting the SRD probe in these adapters can lead to both incomplete immersion and stagnation zones prone to fouling or deposits at the base of the sensing element which will affect the measurements (see Figure 9). This scenario may not affect applications for low-viscosity fluids like ink but could be a significant problem for high-viscosity fluids like dough, adhesives, glue, and others.",
+      "specifications": {},
+      "key_facts": [
+        "Maintaining the sensing element immersed and free of stagnation zones is critical for accurate, repeatable, and reproducible SRD readings.",
+        "Using an off-the-shelf NPT Tee for SRD-X1-34N installations can create stagnant/dead zones, obstruct the sensing area, and lead to turbulent flow.",
+        "The Rheonics IFC-34N-SRD is recommended for NPT Tee installations to ensure proper flow around the sensing element and eliminate stagnant zones.",
+        "Adapting the 3/4” NPT connection of the SRD-X1 to other flanges using certain adapters can result in incomplete immersion and stagnation zones.",
+        "Stagnation zones from improper adapters are particularly problematic for high-viscosity fluids like dough, adhesives, and glue, though less so for low-viscosity fluids like ink."
+      ],
+      "diagram_labels": [
+        "Figure 5: Standard NPT Tee [6]",
+        "Figure 6: Installation in standard NPT Tee with potential issues",
+        "Stagnant zones can affect sensor readings",
+        "Standard NPT Tee Not recommended",
+        "Reduced cross section affects sensing area and fluid's flow around sensing element",
+        "rheonics (sensor body label)",
+        "Figure 7: Correct installation in Rheonics NPT flow cell",
+        "Removed stagnant zone",
+        "Rheonics IFC-34N-SRD Recommended",
+        "Cell ensures good flow around sensing element",
+        "rheonics (sensor body label)"
+      ],
+      "warnings_notes": [
+        "Stagnant zones can affect sensor readings.",
+        "Standard NPT Tee is Not recommended.",
+        "Reduced cross section affects sensing area and fluid's flow around sensing element.",
+        "Mounting the SRD probe in NPT connection adapters can lead to incomplete immersion and stagnation zones prone to fouling or deposits at the base of the sensing element which will affect the measurements.",
+        "The issues with NPT connection adapters could be a significant problem for high-viscosity fluids like dough, adhesives, glue, and others, though they may not affect applications for low-viscosity fluids like ink."
+      ],
+      "page_num": 5,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1017,
+        "cost_usd": 0.0026822999999999994
+      },
+      "source_file": "024_SRD-X1-34N_Inline_Process_Density_meter_with_NPT_34.pdf"
+    },
+    {
+      "page_summary": "This page provides installation recommendations and instructions for Rheonics inline viscometers and density sensors, specifically focusing on NPT to Tri-Clamp adapters and general connection steps to ensure proper sensor immersion and avoid stagnant zones.",
+      "document_type": "manual",
+      "product_names": [
+        "SRD",
+        "SRD-X3",
+        "SRD-X2",
+        "SRD-X1-34N",
+        "SRD-X3-15T"
+      ],
+      "extracted_text": "Figure 8: Standard NPT to Tri-Clamp adapter [7]\nRecommendation: The client should order the SRD with the required process connection to directly mount the probe inline without the need for additional adapters (Figure 9, installation to the right). If Tri-Clamp is required visit the SRD-X3 (https://support.rheonics.com/en/support/solutions/articles/81000410551-srd-x3-tri-clamp). If custom flanges are required visit the SRD-X2 (https://support.rheonics.com/en/support/solutions/articles/81000410685-srd-x2-custom-flange).\n\nNot recommended\nRecommended\n\nFigure 9: Installation recommendation with NPT adapters\n\n3. Process connection installation instructions\n\n3.1 Connection steps\nOptional: Wrap a sealing compound (e.g. Teflon tape) around the sensor NPT thread 1.5 to 3 times in a clockwise direction, to ensure a leak-free seal for some fluids.\ni. Place the sensor in the female threaded accessory.\nii. Turn by hand the sensor NPT thread until hand tightened.\niii. Use a wrench (32mm size or 1-1/4\") to give the sensor from 1 up to 3 more full turns.\nIn total, according to ASME Standards (https://www.asme.org/), at least 3.5 and at maximum 6 full turns need to be ensured for a correct NPT installation. The sensor shouldn't be completely tightened.\n\n3.2 Specific Process Connection installation instructions",
+      "specifications": {
+        "NPT thread sealing compound turns": "1.5 to 3 times",
+        "Wrench size": "32mm or 1-1/4\"",
+        "Wrench turns": "1 to 3 full turns",
+        "Total NPT installation turns (ASME)": "3.5 to 6 full turns"
+      },
+      "key_facts": [
+        "Clients should order the SRD with the necessary process connection to mount the probe inline directly without additional adapters.",
+        "For Tri-Clamp requirements, consult the SRD-X3 support page.",
+        "For custom flange requirements, consult the SRD-X2 support page.",
+        "Improper use of NPT adapters can lead to stagnant zones and deposits in the sensing area.",
+        "The recommended NPT connection procedure involves hand-tightening followed by 1 to 3 additional turns with a wrench.",
+        "According to ASME Standards, a correct NPT installation requires a total of at least 3.5 and at maximum 6 full turns.",
+        "An optional step for NPT connection is to wrap a sealing compound (e.g., Teflon tape) 1.5 to 3 times clockwise around the sensor NPT thread for a leak-free seal.",
+        "The sensor should not be completely tightened during NPT installation."
+      ],
+      "diagram_labels": [
+        "Not recommended",
+        "Recommended",
+        "SRD-X1-34N",
+        "rheonics",
+        "3/4\" NPT-1.5\" TC Adapter",
+        "1.5\" Tri-Clamp ferrule",
+        "Stagnant zones",
+        "Deposits in sensing area",
+        "Flow direction",
+        "SRD-X3-15T",
+        "Correct immersion of sensing area"
+      ],
+      "warnings_notes": [
+        "Recommendation: The client should order the SRD with the required process connection to directly mount the probe inline without the need for additional adapters.",
+        "Stagnant zones and deposits in the sensing area can result from improper installation.",
+        "The sensor shouldn't be completely tightened during NPT installation."
+      ],
+      "page_num": 6,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 996,
+        "cost_usd": 0.0026298
+      },
+      "source_file": "024_SRD-X1-34N_Inline_Process_Density_meter_with_NPT_34.pdf"
+    },
+    {
+      "page_summary": "This page provides installation guidelines for Rheonics sensors in various configurations (in-line, in-tank, and with threaded flanges) and details available weldolet accessories.",
+      "document_type": "manual",
+      "product_names": [
+        "Rheonics TMA-34N",
+        "NPT SR-sensors",
+        "SRD NPT sensor",
+        "FPC-type (long insertion) sensor",
+        "WOL-34NS",
+        "SRV NPT 3/4\"-14",
+        "WOL-34NL"
+      ],
+      "extracted_text": "In line: Ensure the sensing element is exposed to fluid, and avoid stagnation and dead zones. Consider placing the sensor upwards or parallel to the fluid for small flow rates that can't fully surround the sensing element.\nIn tank: Place the sensor at the bottom, wall or lid of the tank as long as the sensing element can be fully submerged in the fluid and dead zones are avoided. Usually, it is useful if the sensor is placed at a tank's height that has always fluid. Rheonics TMA-34N accessory is a tank mount adapter used for NPT SR-sensors, that should be considered in tank installations. This is detailed sections below.\nOthers - Thread flange: SRD NPT sensor can be mounted on a flange thread of the same size (3/4\"-14). The flange needs to have an inner diameter larger than 26mm on the process side, the material should be either 304 or 316L and the height can't exceed 25mm. If the flange has a bigger height, an FPC-type (long insertion) sensor is needed.\nOnce again, in these and any installation cases, stagnation zones around the sensing element should be avoided. For thread flanges, the height of the standpipe of the connection is relevant as shown in the next figure.\nFigure 10: Threaded flange.\nFor most cases, an FPC sensor would be better to use here.\n\n4. Accessories available\n4.1 Weldolets\na. WOL-34NS\nWeldolet for 2\" pipes ANSI standard (60.3 OD) that ensures maximum exposition of the sensing element to the fluid. Also suitable for SRV NPT 3/4\"-14. Refer to the WOL-34NS page (https://rheonics.com/product-accessories/wol-34ns/) for more information.\nFigure 11: WOL-34NS\nb. WOL-34NL\nWeldolet for 2.5\" and larger pipes, also suitable for tank installations, that ensures maximum exposition of the sensing element to the fluid. Also suitable for SRV NPT 3/4\"-14. Refer to the WOL-34NL page (https://rheonics.com/product-accessories/wol-34nl-accessory-page) for more information.",
+      "specifications": {
+        "flange_thread_size": "3/4\"-14",
+        "flange_inner_diameter": "> 26 mm",
+        "flange_material": "304 or 316L",
+        "flange_height_maximum": "25 mm",
+        "WOL-34NS_pipe_size": "2 inches (60.3 OD)",
+        "WOL-34NL_pipe_size": "2.5 inches and larger",
+        "weldolet_sensor_compatibility": "SRV NPT 3/4\"-14"
+      },
+      "key_facts": [
+        "The sensing element must be exposed to fluid, and stagnation and dead zones must be avoided during installation.",
+        "For in-line installations, sensors should be placed upwards or parallel to the fluid for small flow rates.",
+        "For in-tank installations, the sensor should be fully submerged and placed to avoid dead zones; the Rheonics TMA-34N accessory is a suitable tank mount adapter for NPT SR-sensors.",
+        "SRD NPT sensors can be mounted on a flange thread of 3/4\"-14.",
+        "Thread flanges for SRD NPT sensors require an inner diameter greater than 26mm, material of 304 or 316L, and a height not exceeding 25mm.",
+        "If the flange height exceeds 25mm, an FPC-type (long insertion) sensor is needed.",
+        "WOL-34NS is a weldolet designed for 2\" ANSI standard pipes (60.3 OD) and is suitable for SRV NPT 3/4\"-14 sensors.",
+        "WOL-34NL is a weldolet for 2.5\" and larger pipes, suitable for tank installations and SRV NPT 3/4\"-14 sensors, ensuring maximum exposition of the sensing element."
+      ],
+      "diagram_labels": [
+        "Figure 10: Threaded flange.",
+        "For most cases, an FPC sensor would be better to use here.",
+        "Figure 11: WOL-34NS"
+      ],
+      "warnings_notes": [
+        "Ensure the sensing element is exposed to fluid, and avoid stagnation and dead zones.",
+        "Consider placing the sensor upwards or parallel to the fluid for small flow rates that can't fully surround the sensing element.",
+        "Stagnation zones around the sensing element should be avoided."
+      ],
+      "page_num": 7,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 1236,
+        "cost_usd": 0.0032297999999999997
+      },
+      "source_file": "024_SRD-X1-34N_Inline_Process_Density_meter_with_NPT_34.pdf"
+    },
+    {
+      "page_summary": "This page details the IFC-34N-SRD flow cell and the TMA-34N tank mount adapter, including their compatibility, installation recommendations, and associated components.",
+      "document_type": "manual",
+      "product_names": [
+        "WOL-34NL",
+        "IFC-34N-SRD",
+        "SRD",
+        "SRV",
+        "TMA-34N"
+      ],
+      "extracted_text": "Figure 12: WOL-34NL\n\n4.2 Flow cell - IFC-34N-SRD\nSuitable only for SRD NPT 3/4”-14 and recommended for inline installation with nominal diameters of DN5 to DN25. Connecting threads for this accessory are NPT 3/4” -14. (Another variant is available for the SRV NPT).\nFor a diameter larger than DN25 (1”), we recommend using a bypass. Then, the flow cell can be connected via flexible hoses or fixed piping. Installing the sensor in a bypass is a common solution for process lines that require intense cleaning through means of pigging.\nRead more about this on its accessories page (https://rheonics.com/product-accessories/ifc-34n-srd/).\n\nFigure 13: IFC-34N-SRD\n\n4.3 Tank mount adapter - TMA-34N\nSuitable for SRV and SRD only in their NPT 3/4”-14 variant, this accessory is recommended for open vessels or tanks with a lid. It is composed of a small cell, wherein the sensor is installed, and a 3/4” pipe fixed at the top and with a variable length so the sensor can go as far as needed.\nRead more about this on the accessories page (https://rheonics.com/product-accessories/tma-34n/) or in its support article here (https://support.rheonics.com/en/support/solutions/articles/81000385151-installing-density-viscosity-sensor-in-tank-with-rheonics-tank-mount-adapter).\n\nFigure 14: TMA-34N with SRD.\n\nReferences",
+      "specifications": {
+        "NPT_thread_size": "3/4\"-14",
+        "inline_installation_nominal_diameters": "DN5 to DN25",
+        "bypass_recommendation_diameter": "DN25 (1\")",
+        "tank_mount_adapter_pipe_size": "3/4\""
+      },
+      "key_facts": [
+        "The IFC-34N-SRD flow cell is suitable only for SRD NPT 3/4”-14 sensors.",
+        "The IFC-34N-SRD is recommended for inline installation with nominal diameters from DN5 to DN25.",
+        "Connecting threads for the IFC-34N-SRD accessory are NPT 3/4”-14.",
+        "Another variant of the flow cell is available for SRV NPT sensors.",
+        "For diameters larger than DN25 (1”), a bypass installation is recommended for the flow cell.",
+        "Installing the sensor in a bypass is a common solution for process lines requiring intense cleaning via pigging.",
+        "The TMA-34N tank mount adapter is suitable for SRV and SRD sensors only in their NPT 3/4”-14 variant.",
+        "The TMA-34N is recommended for open vessels or tanks with a lid.",
+        "The TMA-34N is composed of a small cell for sensor installation and a 3/4” pipe fixed at the top with a variable length."
+      ],
+      "diagram_labels": [
+        "Figure 12: WOL-34NL",
+        "flow upstream",
+        "flow direction",
+        "sensor",
+        "rheonics",
+        "patented",
+        "Figure 13: IFC-34N-SRD",
+        "Figure 14: TMA-34N with SRD."
+      ],
+      "warnings_notes": [],
+      "page_num": 8,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 956,
+        "cost_usd": 0.0025298
+      },
+      "source_file": "024_SRD-X1-34N_Inline_Process_Density_meter_with_NPT_34.pdf"
+    },
+    {
+      "page_summary": "This page provides a numbered list of URLs, primarily linking to Rheonics product pages for an inline density meter and accessories, as well as external references for pipe standards and fittings.",
+      "document_type": "notes",
+      "product_names": [
+        "inline-density-meter-srd",
+        "product-accessories",
+        "wol-34ns",
+        "wol-34nl",
+        "low-pressure-stainless-steel-threaded-pipe-fittings",
+        "sanitary-female-threaded-pipe-fitting-to-tri-clamp"
+      ],
+      "extracted_text": "[1]: https://es.rheonics.com/products/inline-density-meter-srd/ (https://es.rheonics.com/products/inline-density-meter-srd/)\n[2]: https://rheonics.com/product-accessories/ (https://rheonics.com/product-accessories/)\n[3]: https://rheonics.com/product-accessories/wol-34ns/ (https://rheonics.com/product-accessories/wol-34ns/)\n[4]: https://rheonics.com/product-accessories/wol-34nl-accessory-page/ (https://rheonics.com/product-accessories/wol-34nl-accessory-page/)\n[5]: https://www.asme.org/codes-standards/find-codes-standards/b1-20-1-pipe-threads-general-purpose-inch (https://www.asme.org/codes-standards/find-codes-standards/b1-20-1-pipe-threads-general-purpose-inch)\n[6]: https://www.mcmaster.com/products/tees/low-pressure-stainless-steel-threaded-pipe-fittings-9/ (https://www.mcmaster.com/products/tees/low-pressure-stainless-steel-threaded-pipe-fittings-9/)\n[7]: https://www.dernord.com/products/sanitary-female-threaded-pipe-fitting-to-tri-clamp?variant=27282774949952 (https://www.dernord.com/products/sanitary-female-threaded-pipe-fitting-to-tri-clamp?variant=27282774949952)",
+      "specifications": {},
+      "key_facts": [
+        "Reference [1] links to the Rheonics product page for their inline density meter SRD.",
+        "References [2], [3], and [4] link to Rheonics product accessories, specifically WOL-34NS and WOL-34NL accessory pages.",
+        "Reference [5] points to the ASME B1.20.1 standard for pipe threads.",
+        "Reference [6] links to McMaster-Carr for low-pressure stainless steel threaded pipe fittings.",
+        "Reference [7] links to Dernord for a sanitary female threaded pipe fitting to tri-clamp."
+      ],
+      "diagram_labels": [],
+      "warnings_notes": [],
+      "page_num": 9,
+      "_usage": {
+        "input_tokens": 466,
+        "output_tokens": 715,
+        "cost_usd": 0.0019273
+      },
+      "source_file": "024_SRD-X1-34N_Inline_Process_Density_meter_with_NPT_34.pdf"
+    }
+  ],
+  "metadata": {
+    "dpi": 200,
+    "model": "gemini-2.5-flash",
+    "prompt_version": "1.0",
+    "failed_pages": []
+  }
+}
