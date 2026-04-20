@@ -1,0 +1,20 @@
+# PDF processing
+pymupdf>=1.24.0
+pillow>=10.0.0
+
+# Google Gemini (vision + embeddings + answering)
+google-generativeai>=0.8.0
+
+# Vector database
+chromadb>=0.5.0
+
+# Backend API
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+pydantic>=2.9.0
+
+# Environment and config
+python-dotenv>=1.0.0
+
+# Utilities
+tqdm>=4.66.0
